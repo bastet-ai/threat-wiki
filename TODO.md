@@ -134,7 +134,7 @@ This file is a working queue, not a set of claims. Inclusion here means "worth e
 - [ ] Polyfill.io downstream website compromise
 - [ ] Codecov Bash Uploader compromise
 - [ ] ShadowHammer ASUS Live Update compromise
-- [ ] CCleaner signed-update compromise
+- [x] CCleaner signed-update compromise
 - [ ] event-stream / flatmap-stream npm compromise
 - [ ] ua-parser-js / coa / rc npm takeover
 - [ ] GitHub OAuth token theft against downstream integrators

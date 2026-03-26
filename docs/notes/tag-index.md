@@ -8,6 +8,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [appliance](#appliance) (1)
 - [Barracuda](#barracuda) (1)
 - [build-time compromise](#build-time-compromise) (1)
+- [CCleaner](#ccleaner) (1)
 - [CI/CD](#cicd) (5)
 - [Coinbase](#coinbase) (1)
 - [credential theft](#credential-theft) (2)
@@ -35,25 +36,29 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA bypass](#mfa-bypass) (1)
 - [npm](#npm) (3)
 - [Okta](#okta) (1)
-- [operations](#operations) (11)
-- [ops](#ops) (9)
+- [operations](#operations) (12)
+- [ops](#ops) (10)
 - [people](#people) (1)
 - [persistence](#persistence) (4)
+- [Piriform](#piriform) (1)
 - [PyPI](#pypi) (1)
 - [release tampering](#release-tampering) (1)
 - [reviewdog](#reviewdog) (1)
 - [secret exposure](#secret-exposure) (1)
+- [ShadowPad](#shadowpad) (1)
+- [signed updates](#signed-updates) (1)
 - [smishing](#smishing) (1)
 - [SSH](#ssh) (1)
 - [supply-chain](#supply-chain) (9)
 - [tag tampering](#tag-tampering) (1)
 - [TeamPCP](#teampcp) (1)
+- [TeamViewer](#teamviewer) (1)
 - [Telegram](#telegram) (1)
 - [tj-actions](#tj-actions) (1)
 - [tooling](#tooling) (4)
 - [Trading Technologies](#trading-technologies) (1)
 - [Twilio](#twilio) (1)
-- [Windows](#windows) (1)
+- [Windows](#windows) (2)
 - [worm](#worm) (3)
 - [X_TRADER](#x_trader) (1)
 - [xz](#xz) (1)
@@ -72,6 +77,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## build-time compromise
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## CCleaner
+- [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
 ## CI/CD
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -172,6 +180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -184,6 +193,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+- [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -199,6 +209,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
+## Piriform
+- [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+
 ## PyPI
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 
@@ -210,6 +223,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## secret exposure
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+
+## ShadowPad
+- [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+
+## signed updates
+- [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
 ## smishing
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -234,6 +253,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TeamPCP
 - [Trivy compromise](../ops/trivy-compromise.md)
 
+## TeamViewer
+- [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+
 ## Telegram
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
@@ -254,6 +276,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
 ## worm
 - [CanisterWorm](../tools/canisterworm.md)
