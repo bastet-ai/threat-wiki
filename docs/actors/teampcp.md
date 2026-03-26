@@ -53,9 +53,15 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 
 ## Associated operations
 - [Trivy compromise](../ops/trivy-compromise.md)
-- [TeamPCP compromise ops](../ops/teampcp-compromise-ops.md)
-- [CanisterWorm](../threats/canisterworm.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [CanisterWorm](../threats/canisterworm.md)
+
+### Operational chain summary
+- **Initial trust-boundary break:** compromised Trivy release and related GitHub Actions enabled credential theft.
+- **Release abuse:** the attacker leveraged access to move laterally through release/workflow infrastructure and steal additional secrets.
+- **NPM-scale propagation:** stolen publish tokens were used to enumerate packages and push malicious patch releases.
+- **Persistence:** Linux developer systems were backdoored with a user-level systemd service.
+- **C2 rotation:** an ICP canister served as a dead-drop URL source that could be updated remotely.
 
 ## Defender signals
 - Moved or force-pushed GitHub Actions tags/refs
