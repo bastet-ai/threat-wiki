@@ -24,6 +24,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Prefer bullets over long paragraphs for ops, tooling, and motivations.
 - Add a `Tags` section to group/people/ops/tool pages when possible.
 - Use plain language and avoid overclaiming attribution.
+- A `People` page may use a GitHub username or project persona as the title when that is the clearest publicly supported identifier.
 - If a human identity is not clearly supported by a public source, do not invent one.
 
 ## Content structure
@@ -62,6 +63,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - The current taxonomy is `Groups`, `People`, `Ops`, `Tools`, `Patterns`, `Notes`, and `Blog`.
 - Group pages currently live under `docs/actors/`; keep that path stable unless there is an explicit migration plan.
 - There is no top-level `Orgs` section today; document organizations inside the relevant `Ops`, `Groups`, or `Notes` page unless the taxonomy changes.
+- When writing an `Ops` page, explicitly investigate whether there is a missing companion `People` or `Groups` page that should be added in the same change.
 - Use `./contribute.sh` for Codex contribution sweeps; `./contribute.sh 10` should run 10 sequential one-contribution passes that each read `CONTRIBUTING.md`, make a focused addition, and commit/push the result.
 
 ## Security / attribution

@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [JiaT75](people/jiat75.md)
 - [XZ Utils backdoor](ops/xz-utils-backdoor.md)
 - [tj-actions and reviewdog compromise](ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](ops/trivy-compromise.md)
@@ -19,6 +20,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - **Ops** — campaign timelines, compromise chains, and sequencing
 - **Tools** — malware, payloads, implants, and attacker infrastructure
 - **Groups** — crews, cluster names, and shared operational personas
-- **People** — publicly identified individuals when public sourcing supports it
+- **People** — publicly identified individuals or project personas when public sourcing supports it
 - **Patterns** — reusable defender heuristics
 - **Notes** — taxonomy, usage, and editorial guidance

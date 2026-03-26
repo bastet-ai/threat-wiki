@@ -7,7 +7,7 @@ Usage: ./contribute.sh [options] [count] [extra instructions...]
 
 Run one or more Codex contribution passes for this repo. The invoked agent is told to:
 - read CONTRIBUTING.md and AGENTS.md first
-- find and document a missing group, org, or op
+- find and document a missing group, people, org, or op
 - verify the site build
 - commit and push the result
 
@@ -23,7 +23,7 @@ Examples:
   ./contribute.sh 10
   ./contribute.sh --count 3
   ./contribute.sh "Focus on supply-chain compromises from the last 30 days"
-  ./contribute.sh --dry-run "Prefer documenting a missing op page"
+  ./contribute.sh --dry-run "Prefer documenting a missing op or companion people page"
 EOF
 }
 
@@ -106,9 +106,11 @@ read -r -d '' base_prompt <<EOF || true
 Read CONTRIBUTING.md and AGENTS.md before making any changes.
 
 Perform one focused contribution pass for this repository:
-- Identify exactly one high-confidence missing group, org, or op that fits the documented taxonomy and contribution rules.
+- Identify exactly one primary high-confidence missing group, people, org, or op that fits the documented taxonomy and contribution rules.
 - Use public, durable, source-linked reporting. Prefer primary sources and investigative writeups.
 - Follow the taxonomy quirks in CONTRIBUTING.md exactly, including the current handling of orgs and the stable docs/actors/ path for group pages.
+- When the primary contribution is an op or group, explicitly investigate whether a clearly sourceable companion People or Groups page should also be added in the same run.
+- For People pages, prefer a GitHub username, maintainer persona, or other public handle when that is the strongest supported identifier.
 - Update any required supporting files such as mkdocs.yml, docs/index.md, docs/blog/index.md, notes, or related pages when needed.
 - Verify the result with \`uvx --from mkdocs-material mkdocs build --strict\`.
 - Commit the finished work with a specific git commit message and push it to origin.
@@ -136,7 +138,7 @@ fi
 cmd+=(exec --dangerously-bypass-approvals-and-sandbox -C "$repo_root")
 
 if [[ $dry_run -eq 1 ]]; then
-  prompt="This run is 1 of $count. Make exactly one distinct contribution in this run. Use the current repository state to avoid duplicating previous work."
+  prompt="This run is 1 of $count. Make exactly one primary distinct contribution in this run. A tightly coupled companion People or Groups page is allowed when clearly sourced and needed for taxonomy completeness. Use the current repository state to avoid duplicating previous work."
   prompt+=$'\n\n'
   prompt+="$base_prompt"
   printf 'Command:\n'
@@ -149,7 +151,7 @@ fi
 
 for ((i = 1; i <= count; i++)); do
   printf '==> Contribution %d/%d\n' "$i" "$count"
-  prompt="This run is $i of $count. Make exactly one distinct contribution in this run. Use the current repository state to avoid duplicating previous work."
+  prompt="This run is $i of $count. Make exactly one primary distinct contribution in this run. A tightly coupled companion People or Groups page is allowed when clearly sourced and needed for taxonomy completeness. Use the current repository state to avoid duplicating previous work."
   prompt+=$'\n\n'
   prompt+="$base_prompt"
   printf '%s\n' "$prompt" | "${cmd[@]}" -

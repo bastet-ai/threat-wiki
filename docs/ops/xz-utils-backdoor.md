@@ -13,7 +13,7 @@
 ## Summary
 In March 2024, a malicious supply-chain backdoor in [XZ Utils](https://tukaani.org/xz/) was disclosed after [Andres Freund traced unusual `sshd` behavior](https://www.openwall.com/lists/oss-security/2024/03/29/4) on Debian sid to compromised upstream release artifacts. Public primary sources from [Tukaani](https://tukaani.org/xz-backdoor/), [Debian](https://lists.debian.org/debian-security-announce/2024/msg00057.html), [Fedora](https://fedoramagazine.org/cve-2024-3094-security-alert-f40-rawhide/), and [Red Hat](https://www.redhat.com/en/blog/understanding-red-hats-response-xz-security-incident) show a release-chain compromise: malicious build logic and hidden test-file payloads were smuggled into upstream releases, then activated only on specific Linux build and runtime conditions so the resulting `liblzma` could tamper with `sshd` authentication paths.
 
-This belongs under `Ops` because the durable value is the compromise chain, exposure window, and coordinated response. Public reporting discusses maintainer identities and personas, but does **not** clearly establish a verified real-world human identity suitable for a `People` page.
+This belongs under `Ops` because the durable value is the compromise chain, exposure window, and coordinated response. Public reporting does **not** clearly establish a verified offline identity beyond the project persona, but it does support a companion [`JiaT75`](../people/jiat75.md) people page keyed to the GitHub-linked maintainer persona tied to the release chain.
 
 ## Timeline
 - **2024-02-01:** [Debian](https://lists.debian.org/debian-security-announce/2024/msg00057.html) later said compromised `xz-utils` packages entered its testing, unstable, and experimental suites starting with `5.5.1alpha-0.1`.
@@ -29,7 +29,7 @@ This belongs under `Ops` because the durable value is the compromise chain, expo
 ### Tukaani / upstream
 - [Tukaani's incident page](https://tukaani.org/xz-backdoor/) says the XZ Utils `5.6.0` and `5.6.1` release tarballs contained the backdoor and that new clean releases and review notes were published on May 29, 2024.
 - [Tukaani's review notes](https://tukaani.org/xz-backdoor/review.html) say multiple March 2024 changes were backdoor commits and that the main Git repository would not be rebased even though malicious history was later identified.
-- The same Tukaani page ties the malicious release process to the maintainer identity `Jia Tan`, but that is still best handled here as operation context rather than as a standalone person record.
+- The same Tukaani page ties the malicious release process to the maintainer identity `Jia Tan`; for this wiki, that is best tracked as the public maintainer persona [`JiaT75`](../people/jiat75.md) rather than as a verified offline identity claim.
 
 ### Debian
 - [Debian's security advisory](https://lists.debian.org/debian-security-announce/2024/msg00057.html) says no Debian stable versions were known affected.
@@ -54,6 +54,9 @@ This belongs under `Ops` because the durable value is the compromise chain, expo
 - [Tukaani](https://tukaani.org/xz-backdoor/) says the compromise affected release tarballs `5.6.0` and `5.6.1`; [its later review notes](https://tukaani.org/xz-backdoor/review.html) identify March 2024 code changes tied to the backdoor.
 - [Debian](https://lists.debian.org/debian-security-announce/2024/msg00057.html) says stable releases were not known affected, but testing, unstable, and experimental carried compromised builds.
 - [Fedora](https://fedoramagazine.org/cve-2024-3094-security-alert-f40-rawhide/) and [Red Hat](https://www.redhat.com/en/blog/understanding-red-hats-response-xz-security-incident) say Fedora stable and RHEL were not affected, though Fedora Rawhide and Fedora 40 pre-release systems had exposure.
+
+## Associated people
+- [JiaT75](../people/jiat75.md) - GitHub account and maintainer persona tied publicly to the XZ release chain, release signing, and March 2024 backdoor-related commit history.
 
 ## Defender takeaways
 - Verify release tarballs against tagged source trees, not just signatures and release notes.

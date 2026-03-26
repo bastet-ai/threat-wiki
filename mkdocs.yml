@@ -18,6 +18,7 @@ nav:
       - TeamPCP: actors/teampcp.md
   - People:
       - Overview: people/index.md
+      - JiaT75: people/jiat75.md
   - Patterns:
       - Supply-chain group profile: patterns/supply-chain-actor-profile.md
   - Notes:
