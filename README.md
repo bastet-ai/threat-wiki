@@ -41,6 +41,7 @@ The current site taxonomy is:
 ## Repo layout
 
 - [`docs/`](docs/) contains the published wiki content
+- [`TODO.md`](TODO.md) is the internal backlog for future group, people, and org-context profiling
 - [`docs/notes/how-to-use.md`](docs/notes/how-to-use.md) defines section usage
 - [`docs/notes/editorial-checklist.md`](docs/notes/editorial-checklist.md) is the publishing checklist
 - [`mkdocs.yml`](mkdocs.yml) defines nav and site config
