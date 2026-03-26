@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>threat.wiki</title>
+    <link>https://threat.wiki/</link>
+    <description>Threat intelligence notes, actor profiles, and defensive guidance.</description>
+    <item>
+      <title>TeamPCP, Trivy, and CanisterWorm</title>
+      <link>https://threat.wiki/blog/2026-03-26-teampcp/</link>
+      <description>Supply-chain compromise operations, tooling, and motivations.</description>
+      <pubDate>Thu, 26 Mar 2026 14:35:00 GMT</pubDate>
+      <guid>https://threat.wiki/blog/2026-03-26-teampcp/</guid>
+    </item>
+  </channel>
+</rss>

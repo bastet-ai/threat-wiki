@@ -5,6 +5,7 @@ repo_url: https://github.com/bastet-ai/threat-wiki
 repo_name: bastet-ai/threat-wiki
 nav:
   - Home: index.md
+  - Blog: blog/index.md
   - Actors:
       - TeamPCP: actors/teampcp.md
       - Trivy compromise: actors/trivy-compromise.md
@@ -27,3 +28,10 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
+extra:
+  generator: false
+extra_css:
+  - stylesheets/extra.css
+overrides:
+  main: overrides/main.html

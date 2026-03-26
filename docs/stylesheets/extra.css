@@ -1,0 +1,16 @@
+:root {
+  --md-default-bg-color: #0b1020;
+}
+.md-header, .md-tabs {
+  backdrop-filter: blur(18px);
+}
+.md-typeset h1 {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+.md-content__inner {
+  max-width: 980px;
+}
+.md-typeset .admonition, .md-typeset details {
+  border-radius: 16px;
+}
