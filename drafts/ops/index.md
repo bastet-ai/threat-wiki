@@ -41,7 +41,6 @@ Do not treat these files as published coverage. Promote material into `docs/` on
 - [PAN-OS GlobalProtect zero-day campaign](pan-os-globalprotect-zero-day-campaign.md)
 - [CitrixBleed session-hijack wave](citrixbleed-session-hijack-wave.md)
 - [GoAnywhere MFT mass exploitation](goanywhere-mft-mass-exploitation.md)
-- [Accellion FTA exploitation campaign](accellion-fta-exploitation-campaign.md)
 - [ConnectWise ScreenConnect exploitation wave](connectwise-screenconnect-exploitation-wave.md)
 - [SonicWall SMA exploitation campaigns](sonicwall-sma-exploitation-campaigns.md)
 - [VMware ESXiArgs and related ESXi ransomware waves](vmware-esxiargs-and-related-esxi-ransomware-waves.md)

@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Accellion FTA exploitation campaign](ops/accellion-fta-exploitation-campaign.md)
 - [3CX desktop app compromise](ops/3cx-desktop-app-compromise.md)
 - [0ktapus phishing campaign](ops/0ktapus-phishing-campaign.md)
 - [JiaT75](people/jiat75.md)
