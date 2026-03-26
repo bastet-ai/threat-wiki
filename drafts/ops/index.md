@@ -14,7 +14,6 @@ Do not treat these files as published coverage. Promote material into `docs/` on
 - [event-stream / flatmap-stream npm compromise](event-stream-flatmap-stream-npm-compromise.md)
 - [ua-parser-js / coa / rc npm takeover](ua-parser-js-coa-rc-npm-takeover.md)
 - [GitHub OAuth token theft against downstream integrators](github-oauth-token-theft-against-downstream-integrators.md)
-- [CircleCI 2023 customer secret exposure incident](circleci-2023-customer-secret-exposure-incident.md)
 - [GitHub Actions tag-tampering waves beyond `tj-actions`](github-actions-tag-tampering-waves-beyond-tj-actions.md)
 - [PyPI credential-stealer publisher campaigns with repeated infrastructure](pypi-credential-stealer-publisher-campaigns-with-repeated-infrastructure.md)
 - [npm typosquatting or dependency-confusion campaigns with clear operator clustering](npm-typosquatting-or-dependency-confusion-campaigns-with-clear-operator-clustering.md)

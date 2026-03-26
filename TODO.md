@@ -138,7 +138,7 @@ This file is a working queue, not a set of claims. Inclusion here means "worth e
 - [ ] event-stream / flatmap-stream npm compromise
 - [ ] ua-parser-js / coa / rc npm takeover
 - [ ] GitHub OAuth token theft against downstream integrators
-- [ ] CircleCI 2023 customer secret exposure incident
+- [x] CircleCI 2023 customer secret exposure incident
 - [ ] GitHub Actions tag-tampering waves beyond `tj-actions`
 - [ ] PyPI credential-stealer publisher campaigns with repeated infrastructure
 - [ ] npm typosquatting or dependency-confusion campaigns with clear operator clustering

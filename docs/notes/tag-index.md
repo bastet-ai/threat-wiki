@@ -6,10 +6,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX](#3cx) (1)
 - [Accellion](#accellion) (1)
 - [appliance](#appliance) (1)
+- [AWS](#aws) (1)
 - [Barracuda](#barracuda) (1)
+- [Bitbucket](#bitbucket) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [CCleaner](#ccleaner) (1)
-- [CI/CD](#cicd) (5)
+- [CI/CD](#cicd) (6)
+- [CircleCI](#circleci) (1)
 - [Coinbase](#coinbase) (1)
 - [credential theft](#credential-theft) (2)
 - [CVE-2023-2868](#cve-2023-2868) (1)
@@ -24,6 +27,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FTA](#fta) (1)
 - [GitHub](#github) (1)
 - [GitHub Actions](#github-actions) (4)
+- [GitHub OAuth](#github-oauth) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [identity](#identity) (1)
 - [legacy software](#legacy-software) (1)
@@ -36,8 +40,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA bypass](#mfa-bypass) (1)
 - [npm](#npm) (3)
 - [Okta](#okta) (1)
-- [operations](#operations) (12)
-- [ops](#ops) (10)
+- [operations](#operations) (13)
+- [ops](#ops) (11)
 - [people](#people) (1)
 - [persistence](#persistence) (4)
 - [Piriform](#piriform) (1)
@@ -45,6 +49,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [reviewdog](#reviewdog) (1)
 - [secret exposure](#secret-exposure) (1)
+- [secrets](#secrets) (1)
+- [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
 - [signed updates](#signed-updates) (1)
 - [smishing](#smishing) (1)
@@ -72,8 +78,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## appliance
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
+## AWS
+- [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+
 ## Barracuda
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+
+## Bitbucket
+- [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
 ## build-time compromise
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
@@ -82,11 +94,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
 ## CI/CD
+- [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+
+## CircleCI
+- [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -135,6 +151,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
+## GitHub OAuth
+- [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+
 ## ICONICSTEALER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
@@ -181,6 +200,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+- [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -194,6 +214,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+- [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -223,6 +244,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## secret exposure
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+
+## secrets
+- [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+
+## session theft
+- [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
 ## ShadowPad
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
