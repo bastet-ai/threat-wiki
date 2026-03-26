@@ -20,6 +20,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coinbase](#coinbase) (1)
 - [ConnectWise](#connectwise) (1)
 - [credential theft](#credential-theft) (2)
+- [critical-infrastructure](#critical-infrastructure) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
 - [CVE-2024-1708](#cve-2024-1708) (1)
@@ -30,16 +31,19 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DEWMODE](#dewmode) (1)
 - [edge appliance](#edge-appliance) (1)
 - [email gateway](#email-gateway) (1)
+- [energy-sector](#energy-sector) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (1)
+- [espionage](#espionage) (2)
 - [extortion](#extortion) (1)
 - [FTA](#fta) (1)
 - [GCS](#gcs) (1)
 - [GitHub](#github) (1)
 - [GitHub Actions](#github-actions) (4)
 - [GitHub OAuth](#github-oauth) (1)
+- [groups](#groups) (1)
 - [HAR files](#har-files) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
+- [ICS](#ics) (1)
 - [identity](#identity) (1)
 - [legacy software](#legacy-software) (1)
 - [liblzma](#liblzma) (1)
@@ -62,6 +66,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (1)
 - [reviewdog](#reviewdog) (1)
+- [Russia](#russia) (1)
 - [ScreenConnect](#screenconnect) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (2)
@@ -70,6 +75,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ShadowPad](#shadowpad) (1)
 - [signed updates](#signed-updates) (1)
 - [smishing](#smishing) (1)
+- [spearphishing](#spearphishing) (1)
 - [SSH](#ssh) (1)
 - [supply-chain](#supply-chain) (10)
 - [tag tampering](#tag-tampering) (1)
@@ -81,6 +87,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tooling](#tooling) (4)
 - [Trading Technologies](#trading-technologies) (1)
 - [Twilio](#twilio) (1)
+- [watering-hole](#watering-hole) (1)
 - [Windows](#windows) (2)
 - [worm](#worm) (3)
 - [X_TRADER](#x_trader) (1)
@@ -145,6 +152,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 
+## critical-infrastructure
+- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
 ## CVE-2023-2868
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
@@ -176,11 +186,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## email gateway
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
+## energy-sector
+- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
 ## ESG
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
 ## espionage
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -203,11 +217,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub OAuth
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
+## groups
+- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
 ## HAR files
 - [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## ICONICSTEALER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+
+## ICS
+- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## identity
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -313,6 +333,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## reviewdog
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## Russia
+- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
 ## ScreenConnect
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
@@ -338,6 +361,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## smishing
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+
+## spearphishing
+- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## SSH
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
@@ -383,6 +409,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Twilio
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+
+## watering-hole
+- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)

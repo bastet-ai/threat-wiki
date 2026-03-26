@@ -25,6 +25,7 @@ nav:
   - Tools:
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - Dragonfly / Energetic Bear / Crouching Yeti: actors/dragonfly-energetic-bear-crouching-yeti.md
       - TeamPCP: actors/teampcp.md
   - People:
       - Overview: people/index.md

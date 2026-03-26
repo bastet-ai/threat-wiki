@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Dragonfly / Energetic Bear / Crouching Yeti](actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [ConnectWise ScreenConnect exploitation wave](ops/connectwise-screenconnect-exploitation-wave.md)
 - [Codecov Bash Uploader compromise](ops/codecov-bash-uploader-compromise.md)
 - [Cloudflare / Okta token theft incident](ops/cloudflare-okta-token-theft-incident.md)

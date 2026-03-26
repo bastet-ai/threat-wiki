@@ -21,7 +21,7 @@ This file is a working queue, not a set of claims. Inclusion here means "worth e
 - [ ] Turla
 - [ ] Gamaredon / Shuckworm / Aqua Blizzard
 - [ ] UNC1151 / Ghostwriter
-- [ ] Dragonfly / Energetic Bear / Crouching Yeti
+- [x] Dragonfly / Energetic Bear / Crouching Yeti
 - [ ] Lazarus Group
 - [ ] Andariel / Onyx Sleet
 - [ ] BlueNoroff / Sapphire Sleet

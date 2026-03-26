@@ -11,7 +11,6 @@ Do not treat these files as published coverage. Promote material into `docs/` on
 - [Turla](turla.md)
 - [Gamaredon / Shuckworm / Aqua Blizzard](gamaredon-shuckworm-aqua-blizzard.md)
 - [UNC1151 / Ghostwriter](unc1151-ghostwriter.md)
-- [Dragonfly / Energetic Bear / Crouching Yeti](dragonfly-energetic-bear-crouching-yeti.md)
 - [Lazarus Group](lazarus-group.md)
 - [Andariel / Onyx Sleet](andariel-onyx-sleet.md)
 - [BlueNoroff / Sapphire Sleet](bluenoroff-sapphire-sleet.md)
