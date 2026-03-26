@@ -147,7 +147,7 @@ This file is a working queue, not a set of claims. Inclusion here means "worth e
 
 - [x] 0ktapus phishing campaign
 - [ ] Okta support-system breach and downstream customer token theft
-- [ ] Cloudflare / Okta token theft incident
+- [x] Cloudflare / Okta token theft incident
 - [ ] Twilio / Authy admin phishing campaign
 - [ ] Snowflake customer-environment extortion campaign
 - [ ] MGM Resorts and Caesars Scattered Spider intrusions

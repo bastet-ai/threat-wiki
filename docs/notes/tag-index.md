@@ -14,6 +14,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD](#cicd) (6)
 - [CircleCI](#circleci) (1)
 - [Citrix](#citrix) (1)
+- [Cloudflare](#cloudflare) (1)
 - [Coinbase](#coinbase) (1)
 - [credential theft](#credential-theft) (2)
 - [CVE-2023-2868](#cve-2023-2868) (1)
@@ -31,6 +32,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub](#github) (1)
 - [GitHub Actions](#github-actions) (4)
 - [GitHub OAuth](#github-oauth) (1)
+- [HAR files](#har-files) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [identity](#identity) (1)
 - [legacy software](#legacy-software) (1)
@@ -43,9 +45,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA bypass](#mfa-bypass) (2)
 - [NetScaler](#netscaler) (1)
 - [npm](#npm) (3)
-- [Okta](#okta) (1)
-- [operations](#operations) (14)
-- [ops](#ops) (12)
+- [Okta](#okta) (2)
+- [operations](#operations) (15)
+- [ops](#ops) (13)
 - [people](#people) (1)
 - [persistence](#persistence) (4)
 - [Piriform](#piriform) (1)
@@ -54,7 +56,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reviewdog](#reviewdog) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (1)
-- [session hijacking](#session-hijacking) (1)
+- [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
 - [signed updates](#signed-updates) (1)
@@ -66,6 +68,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamViewer](#teamviewer) (1)
 - [Telegram](#telegram) (1)
 - [tj-actions](#tj-actions) (1)
+- [token theft](#token-theft) (1)
 - [tooling](#tooling) (4)
 - [Trading Technologies](#trading-technologies) (1)
 - [Twilio](#twilio) (1)
@@ -73,6 +76,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [worm](#worm) (3)
 - [X_TRADER](#x_trader) (1)
 - [xz](#xz) (1)
+- [Zero Trust](#zero-trust) (1)
 
 ## 3CX
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -111,6 +115,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Citrix
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+
+## Cloudflare
+- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -168,6 +175,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub OAuth
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
+## HAR files
+- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+
 ## ICONICSTEALER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
@@ -210,6 +220,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Okta
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## operations
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -220,6 +231,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -235,6 +247,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -270,6 +283,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## session hijacking
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## session theft
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -312,6 +326,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tj-actions
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## token theft
+- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+
 ## tooling
 - [CanisterWorm](../tools/canisterworm.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -338,3 +355,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## xz
 - [JiaT75](../people/jiat75.md)
+
+## Zero Trust
+- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)

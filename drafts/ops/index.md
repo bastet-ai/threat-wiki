@@ -20,7 +20,6 @@ Do not treat these files as published coverage. Promote material into `docs/` on
 
 ## Identity, SaaS, and cloud compromise chains
 - [Okta support-system breach and downstream customer token theft](okta-support-system-breach-and-downstream-customer-token-theft.md)
-- [Cloudflare / Okta token theft incident](cloudflare-okta-token-theft-incident.md)
 - [Twilio / Authy admin phishing campaign](twilio-authy-admin-phishing-campaign.md)
 - [Snowflake customer-environment extortion campaign](snowflake-customer-environment-extortion-campaign.md)
 - [MGM Resorts and Caesars Scattered Spider intrusions](mgm-resorts-and-caesars-scattered-spider-intrusions.md)
