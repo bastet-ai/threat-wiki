@@ -44,6 +44,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 
 ## Verified commands
 - `uvx --from mkdocs-material mkdocs build --strict`
+- `./contribute.sh --dry-run`
 
 ## Maintenance rules
 - When adding a new group, people, ops, or tool page, update:
@@ -57,6 +58,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - The current taxonomy is `Groups`, `People`, `Ops`, `Tools`, `Patterns`, `Notes`, and `Blog`.
 - Group pages currently live under `docs/actors/`; keep that path stable unless there is an explicit migration plan.
 - There is no top-level `Orgs` section today; document organizations inside the relevant `Ops`, `Groups`, or `Notes` page unless the taxonomy changes.
+- Use `./contribute.sh` for one-shot Codex contribution sweeps that should read `CONTRIBUTING.md`, make a focused addition, and commit/push the result.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.

@@ -1,0 +1,122 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+usage() {
+  cat <<'EOF'
+Usage: ./contribute.sh [options] [extra instructions...]
+
+Run a one-shot Codex contribution pass for this repo. The invoked agent is told to:
+- read CONTRIBUTING.md and AGENTS.md first
+- find and document a missing group, org, or op
+- verify the site build
+- commit and push the result
+
+Options:
+  -n, --dry-run      Print the generated prompt and command without invoking Codex
+  -m, --model MODEL  Pass a specific model to codex exec
+      --no-search    Disable Codex web search
+  -h, --help         Show this help
+
+Examples:
+  ./contribute.sh
+  ./contribute.sh "Focus on supply-chain compromises from the last 30 days"
+  ./contribute.sh --dry-run "Prefer documenting a missing op page"
+EOF
+}
+
+repo_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+cd "$repo_root"
+
+if ! command -v codex >/dev/null 2>&1; then
+  echo "codex CLI not found in PATH" >&2
+  exit 1
+fi
+
+if [[ ! -f CONTRIBUTING.md ]]; then
+  echo "CONTRIBUTING.md not found in $repo_root" >&2
+  exit 1
+fi
+
+if [[ ! -f AGENTS.md ]]; then
+  echo "AGENTS.md not found in $repo_root" >&2
+  exit 1
+fi
+
+dry_run=0
+search=1
+model=""
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -n|--dry-run)
+      dry_run=1
+      shift
+      ;;
+    -m|--model)
+      if [[ $# -lt 2 ]]; then
+        echo "--model requires a value" >&2
+        exit 1
+      fi
+      model="$2"
+      shift 2
+      ;;
+    --no-search)
+      search=0
+      shift
+      ;;
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    --)
+      shift
+      break
+      ;;
+    *)
+      break
+      ;;
+  esac
+done
+
+extra_instructions="${*:-}"
+
+read -r -d '' prompt <<EOF || true
+Read CONTRIBUTING.md and AGENTS.md before making any changes.
+
+Perform a one-shot contribution pass for this repository:
+- Identify one high-confidence missing group, org, or op that fits the documented taxonomy and contribution rules.
+- Use public, durable, source-linked reporting. Prefer primary sources and investigative writeups.
+- Follow the taxonomy quirks in CONTRIBUTING.md exactly, including the current handling of orgs and the stable docs/actors/ path for group pages.
+- Update any required supporting files such as mkdocs.yml, docs/index.md, docs/blog/index.md, notes, or related pages when needed.
+- Verify the result with \`uvx --from mkdocs-material mkdocs build --strict\`.
+- Commit the finished work with a specific git commit message and push it to origin.
+
+If the first candidate is too weak, ambiguous, or redundant, pick a different one instead of stopping.
+Do not leave the repo half-updated.
+Summarize what you changed at the end.
+EOF
+
+if [[ -n "$extra_instructions" ]]; then
+  prompt+=$'\n\nAdditional user instructions:\n'
+  prompt+="$extra_instructions"
+fi
+
+cmd=(codex exec --dangerously-bypass-approvals-and-sandbox -C "$repo_root")
+
+if [[ $search -eq 1 ]]; then
+  cmd+=(--search)
+fi
+
+if [[ -n "$model" ]]; then
+  cmd+=(-m "$model")
+fi
+
+if [[ $dry_run -eq 1 ]]; then
+  printf 'Command:\n'
+  printf '  %q' "${cmd[@]}"
+  printf ' -\n\n'
+  printf 'Prompt:\n%s\n' "$prompt"
+  exit 0
+fi
+
+printf '%s\n' "$prompt" | "${cmd[@]}" -
