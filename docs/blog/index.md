@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [JiaT75](../people/jiat75.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)

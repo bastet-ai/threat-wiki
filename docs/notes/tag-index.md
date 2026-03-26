@@ -3,6 +3,7 @@
 Generated from page-level `## Tags` sections. Each tag below links to the pages that currently use it.
 
 ## All tags
+- [3CX](#3cx) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [CI/CD](#cicd) (5)
 - [Coinbase](#coinbase) (1)
@@ -11,17 +12,19 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (1)
 - [GitHub](#github) (1)
 - [GitHub Actions](#github-actions) (4)
+- [ICONICSTEALER](#iconicstealer) (1)
 - [identity](#identity) (1)
 - [liblzma](#liblzma) (1)
 - [Linux](#linux) (1)
+- [macOS](#macos) (1)
 - [maintainer persona](#maintainer-persona) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malware](#malware) (2)
 - [MFA bypass](#mfa-bypass) (1)
 - [npm](#npm) (3)
 - [Okta](#okta) (1)
-- [operations](#operations) (8)
-- [ops](#ops) (6)
+- [operations](#operations) (9)
+- [ops](#ops) (7)
 - [people](#people) (1)
 - [persistence](#persistence) (4)
 - [PyPI](#pypi) (1)
@@ -30,15 +33,21 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secret exposure](#secret-exposure) (1)
 - [smishing](#smishing) (1)
 - [SSH](#ssh) (1)
-- [supply-chain](#supply-chain) (8)
+- [supply-chain](#supply-chain) (9)
 - [tag tampering](#tag-tampering) (1)
 - [TeamPCP](#teampcp) (1)
 - [Telegram](#telegram) (1)
 - [tj-actions](#tj-actions) (1)
 - [tooling](#tooling) (4)
+- [Trading Technologies](#trading-technologies) (1)
 - [Twilio](#twilio) (1)
+- [Windows](#windows) (1)
 - [worm](#worm) (3)
+- [X_TRADER](#x_trader) (1)
 - [xz](#xz) (1)
+
+## 3CX
+- [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
 ## build-time compromise
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
@@ -73,6 +82,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
+## ICONICSTEALER
+- [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+
 ## identity
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
@@ -81,6 +93,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Linux
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## macOS
+- [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
 ## maintainer persona
 - [JiaT75](../people/jiat75.md)
@@ -105,6 +120,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## operations
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -115,6 +131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ops
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -149,6 +166,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## supply-chain
+- [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [JiaT75](../people/jiat75.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -176,13 +194,22 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
+## Trading Technologies
+- [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+
 ## Twilio
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+
+## Windows
+- [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
 ## worm
 - [CanisterWorm](../tools/canisterworm.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+
+## X_TRADER
+- [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
 ## xz
 - [JiaT75](../people/jiat75.md)

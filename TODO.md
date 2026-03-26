@@ -129,7 +129,7 @@ This file is a working queue, not a set of claims. Inclusion here means "worth e
 
 - [ ] SolarWinds Orion / SUNBURST / SUNSPOT
 - [ ] Kaseya VSA mass ransomware event
-- [ ] 3CX desktop app compromise
+- [x] 3CX desktop app compromise
 - [ ] MOVEit Transfer exploitation and Cl0p extortion wave
 - [ ] Polyfill.io downstream website compromise
 - [ ] Codecov Bash Uploader compromise

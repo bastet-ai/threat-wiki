@@ -73,6 +73,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - When writing an `Ops` page, explicitly investigate whether there is a missing companion `People` or `Groups` page that should be added in the same change.
 - If an `Ops` page overlaps unresolved actor-alias questions, publish the operation first and keep alias caveats attributed in the page unless a separate `Groups` or `People` profile is strongly sourced.
 - Use `./contribute.sh` for Codex contribution sweeps; `./contribute.sh 10` should run 10 sequential one-contribution passes that each read `CONTRIBUTING.md`, make a focused addition, and commit/push the result.
+- If a recursive `./contribute.sh` run spends several minutes only searching and has not written any repo files yet, stop it and publish the selected draft directly rather than letting a stalled nested Codex session block the backlog.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.

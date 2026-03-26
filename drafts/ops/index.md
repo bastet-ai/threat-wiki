@@ -7,7 +7,6 @@ Do not treat these files as published coverage. Promote material into `docs/` on
 ## Supply-chain and release-chain compromise
 - [SolarWinds Orion / SUNBURST / SUNSPOT](solarwinds-orion-sunburst-sunspot.md)
 - [Kaseya VSA mass ransomware event](kaseya-vsa-mass-ransomware-event.md)
-- [3CX desktop app compromise](3cx-desktop-app-compromise.md)
 - [MOVEit Transfer exploitation and Cl0p extortion wave](moveit-transfer-exploitation-and-cl0p-extortion-wave.md)
 - [Polyfill.io downstream website compromise](polyfill-io-downstream-website-compromise.md)
 - [Codecov Bash Uploader compromise](codecov-bash-uploader-compromise.md)
