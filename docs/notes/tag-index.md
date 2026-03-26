@@ -18,9 +18,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare](#cloudflare) (1)
 - [Codecov](#codecov) (1)
 - [Coinbase](#coinbase) (1)
+- [ConnectWise](#connectwise) (1)
 - [credential theft](#credential-theft) (2)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
+- [CVE-2024-1708](#cve-2024-1708) (1)
+- [CVE-2024-1709](#cve-2024-1709) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [data theft](#data-theft) (1)
 - [developer machines](#developer-machines) (1)
@@ -46,17 +49,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (1)
 - [malware](#malware) (2)
 - [MFA bypass](#mfa-bypass) (2)
+- [MSP](#msp) (1)
 - [NetScaler](#netscaler) (1)
 - [npm](#npm) (3)
 - [Okta](#okta) (2)
-- [operations](#operations) (16)
-- [ops](#ops) (14)
+- [operations](#operations) (17)
+- [ops](#ops) (15)
 - [people](#people) (1)
 - [persistence](#persistence) (4)
 - [Piriform](#piriform) (1)
 - [PyPI](#pypi) (1)
 - [release tampering](#release-tampering) (1)
+- [remote access](#remote-access) (1)
 - [reviewdog](#reviewdog) (1)
+- [ScreenConnect](#screenconnect) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (2)
 - [session hijacking](#session-hijacking) (2)
@@ -132,6 +138,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## ConnectWise
+- [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+
 ## credential theft
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -141,6 +150,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2023-4966
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+
+## CVE-2024-1708
+- [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+
+## CVE-2024-1709
+- [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
 ## CVE-2024-3094
 - [JiaT75](../people/jiat75.md)
@@ -223,6 +238,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
+## MSP
+- [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+
 ## NetScaler
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
@@ -246,6 +264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -263,6 +282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -287,8 +307,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## release tampering
 - [Trivy compromise](../ops/trivy-compromise.md)
 
+## remote access
+- [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+
 ## reviewdog
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+
+## ScreenConnect
+- [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
 ## secret exposure
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)

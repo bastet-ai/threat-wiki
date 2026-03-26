@@ -168,7 +168,7 @@ This file is a working queue, not a set of claims. Inclusion here means "worth e
 - [x] CitrixBleed session-hijack wave
 - [ ] GoAnywhere MFT mass exploitation
 - [x] Accellion FTA exploitation campaign
-- [ ] ConnectWise ScreenConnect exploitation wave
+- [x] ConnectWise ScreenConnect exploitation wave
 - [ ] SonicWall SMA exploitation campaigns
 - [ ] VMware ESXiArgs and related ESXi ransomware waves
 

@@ -35,7 +35,6 @@ Do not treat these files as published coverage. Promote material into `docs/` on
 - [Fortinet FortiOS / FortiGate exploitation waves](fortinet-fortios-fortigate-exploitation-waves.md)
 - [PAN-OS GlobalProtect zero-day campaign](pan-os-globalprotect-zero-day-campaign.md)
 - [GoAnywhere MFT mass exploitation](goanywhere-mft-mass-exploitation.md)
-- [ConnectWise ScreenConnect exploitation wave](connectwise-screenconnect-exploitation-wave.md)
 - [SonicWall SMA exploitation campaigns](sonicwall-sma-exploitation-campaigns.md)
 - [VMware ESXiArgs and related ESXi ransomware waves](vmware-esxiargs-and-related-esxi-ransomware-waves.md)
 
