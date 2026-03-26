@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [tj-actions and reviewdog compromise](ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](ops/trivy-compromise.md)
 - [CanisterWorm](tools/canisterworm.md)
 - [TeamPCP](actors/teampcp.md)
