@@ -58,6 +58,7 @@ If you add a new group, people, ops, or tool page, also update:
 - [`mkdocs.yml`](mkdocs.yml) nav
 - [`docs/index.md`](docs/index.md) recent entries
 - [`docs/blog/index.md`](docs/blog/index.md) if the writeup is notable
+- [`docs/notes/tag-index.md`](docs/notes/tag-index.md) if the build regenerates it after tag changes
 
 Keep page paths stable once linked publicly.
 

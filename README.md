@@ -48,7 +48,7 @@ The current site taxonomy is:
 
 ## Contributing
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for contributor workflow, sourcing rules, and how to identify missing groups, orgs, or ops.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for contributor workflow, sourcing rules, and how to identify missing groups, people, orgs, or ops.
 
 ## Local verification
 

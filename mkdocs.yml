@@ -23,6 +23,7 @@ nav:
       - Supply-chain group profile: patterns/supply-chain-actor-profile.md
   - Notes:
       - How to use this wiki: notes/how-to-use.md
+      - Tag index: notes/tag-index.md
       - Motivation taxonomy: notes/motivation-taxonomy.md
       - Source index: notes/source-index.md
       - Editorial checklist: notes/editorial-checklist.md
@@ -33,6 +34,8 @@ theme:
     - navigation.sections
     - navigation.expand
     - content.code.copy
+hooks:
+  - hooks/tag_index.py
 markdown_extensions:
   - admonition
   - pymdownx.details
