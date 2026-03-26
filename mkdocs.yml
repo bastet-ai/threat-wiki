@@ -8,8 +8,8 @@ nav:
   - Blog: blog/index.md
   - Actors:
       - TeamPCP: actors/teampcp.md
-      - Trivy compromise: actors/trivy-compromise.md
   - Ops:
+      - Trivy compromise (TeamPCP): ops/trivy-compromise.md
       - TeamPCP compromise ops: ops/teampcp-compromise-ops.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Threats:
