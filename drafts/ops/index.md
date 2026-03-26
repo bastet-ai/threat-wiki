@@ -9,7 +9,6 @@ Do not treat these files as published coverage. Promote material into `docs/` on
 - [Kaseya VSA mass ransomware event](kaseya-vsa-mass-ransomware-event.md)
 - [MOVEit Transfer exploitation and Cl0p extortion wave](moveit-transfer-exploitation-and-cl0p-extortion-wave.md)
 - [Polyfill.io downstream website compromise](polyfill-io-downstream-website-compromise.md)
-- [Codecov Bash Uploader compromise](codecov-bash-uploader-compromise.md)
 - [ShadowHammer ASUS Live Update compromise](shadowhammer-asus-live-update-compromise.md)
 - [event-stream / flatmap-stream npm compromise](event-stream-flatmap-stream-npm-compromise.md)
 - [ua-parser-js / coa / rc npm takeover](ua-parser-js-coa-rc-npm-takeover.md)

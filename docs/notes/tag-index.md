@@ -8,13 +8,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [appliance](#appliance) (1)
 - [AWS](#aws) (1)
 - [Barracuda](#barracuda) (1)
+- [Bash Uploader](#bash-uploader) (1)
 - [Bitbucket](#bitbucket) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [CCleaner](#ccleaner) (1)
-- [CI/CD](#cicd) (6)
+- [CI/CD](#cicd) (7)
 - [CircleCI](#circleci) (1)
 - [Citrix](#citrix) (1)
 - [Cloudflare](#cloudflare) (1)
+- [Codecov](#codecov) (1)
 - [Coinbase](#coinbase) (1)
 - [credential theft](#credential-theft) (2)
 - [CVE-2023-2868](#cve-2023-2868) (1)
@@ -29,6 +31,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [espionage](#espionage) (1)
 - [extortion](#extortion) (1)
 - [FTA](#fta) (1)
+- [GCS](#gcs) (1)
 - [GitHub](#github) (1)
 - [GitHub Actions](#github-actions) (4)
 - [GitHub OAuth](#github-oauth) (1)
@@ -46,8 +49,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetScaler](#netscaler) (1)
 - [npm](#npm) (3)
 - [Okta](#okta) (2)
-- [operations](#operations) (15)
-- [ops](#ops) (13)
+- [operations](#operations) (16)
+- [ops](#ops) (14)
 - [people](#people) (1)
 - [persistence](#persistence) (4)
 - [Piriform](#piriform) (1)
@@ -55,14 +58,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [reviewdog](#reviewdog) (1)
 - [secret exposure](#secret-exposure) (1)
-- [secrets](#secrets) (1)
+- [secrets](#secrets) (2)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
 - [signed updates](#signed-updates) (1)
 - [smishing](#smishing) (1)
 - [SSH](#ssh) (1)
-- [supply-chain](#supply-chain) (9)
+- [supply-chain](#supply-chain) (10)
 - [tag tampering](#tag-tampering) (1)
 - [TeamPCP](#teampcp) (1)
 - [TeamViewer](#teamviewer) (1)
@@ -93,6 +96,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Barracuda
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
+## Bash Uploader
+- [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+
 ## Bitbucket
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
@@ -104,6 +110,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CI/CD
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -118,6 +125,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cloudflare
 - [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+
+## Codecov
+- [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -162,6 +172,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FTA
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+
+## GCS
+- [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 
 ## GitHub
 - [JiaT75](../people/jiat75.md)
@@ -232,6 +245,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+- [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -248,6 +262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+- [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -280,6 +295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## secrets
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 
 ## session hijacking
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -303,6 +319,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [JiaT75](../people/jiat75.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)

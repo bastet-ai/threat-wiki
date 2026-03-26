@@ -132,7 +132,7 @@ This file is a working queue, not a set of claims. Inclusion here means "worth e
 - [x] 3CX desktop app compromise
 - [ ] MOVEit Transfer exploitation and Cl0p extortion wave
 - [ ] Polyfill.io downstream website compromise
-- [ ] Codecov Bash Uploader compromise
+- [x] Codecov Bash Uploader compromise
 - [ ] ShadowHammer ASUS Live Update compromise
 - [x] CCleaner signed-update compromise
 - [ ] event-stream / flatmap-stream npm compromise
