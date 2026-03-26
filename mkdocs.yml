@@ -20,6 +20,7 @@ nav:
       - Motivation taxonomy: notes/motivation-taxonomy.md
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.sections
     - navigation.expand
@@ -33,5 +34,3 @@ extra:
   generator: false
 extra_css:
   - stylesheets/extra.css
-overrides:
-  main: overrides/main.html
