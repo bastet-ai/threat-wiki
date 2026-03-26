@@ -123,7 +123,7 @@ if [[ -n "$extra_instructions" ]]; then
   base_prompt+="$extra_instructions"
 fi
 
-cmd=(codex exec --dangerously-bypass-approvals-and-sandbox -C "$repo_root")
+cmd=(codex)
 
 if [[ $search -eq 1 ]]; then
   cmd+=(--search)
@@ -132,6 +132,8 @@ fi
 if [[ -n "$model" ]]; then
   cmd+=(-m "$model")
 fi
+
+cmd+=(exec --dangerously-bypass-approvals-and-sandbox -C "$repo_root")
 
 if [[ $dry_run -eq 1 ]]; then
   prompt="This run is 1 of $count. Make exactly one distinct contribution in this run. Use the current repository state to avoid duplicating previous work."
