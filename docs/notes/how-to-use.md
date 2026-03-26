@@ -12,5 +12,7 @@
 
 ## Attribution rules
 - Separate confirmed facts from inference
+- Prefer names used by operators, maintainers, upstream projects, or other firsthand sources over later vendor branding when the source support is clear
+- If a page needs alternate names, say who used each name and link the report or advisory it came from
 - If reporting only names a crew, handle, or persona, keep the material under **Groups**
 - Do not create **People** pages from speculation, handle reuse, or unsupported social-media claims

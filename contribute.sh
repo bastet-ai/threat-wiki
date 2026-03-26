@@ -109,6 +109,7 @@ Perform one focused contribution pass for this repository:
 - Identify exactly one primary high-confidence missing group, people, org, or op that fits the documented taxonomy and contribution rules.
 - Use public, durable, source-linked reporting. Prefer primary sources and investigative writeups.
 - Follow the taxonomy quirks in CONTRIBUTING.md exactly, including the current handling of orgs and the stable docs/actors/ path for group pages.
+- Prefer names used by operators, maintainers, projects, or other firsthand sources over later vendor-generated brands when source support is clear. If alternate names matter, attribute them to the report or vendor that used them.
 - When the primary contribution is an op or group, explicitly investigate whether a clearly sourceable companion People or Groups page should also be added in the same run.
 - For People pages, prefer a GitHub username, maintainer persona, or other public handle when that is the strongest supported identifier.
 - Update any required supporting files such as mkdocs.yml, docs/index.md, docs/blog/index.md, notes, or related pages when needed.

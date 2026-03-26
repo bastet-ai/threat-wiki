@@ -11,6 +11,8 @@ Use this before publishing a new page or major update.
 
 ## Quality
 - [ ] Facts are separated from inference
+- [ ] Primary name follows operator, maintainer, project, or other firsthand usage when durable public sourcing supports it
+- [ ] Alternate names are attributed to the vendor or report that used them
 - [ ] Motivation is phrased carefully
 - [ ] Tooling is described at the right level of detail
 - [ ] People pages only name individuals who are clearly supported by public sources

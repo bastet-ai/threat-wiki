@@ -36,6 +36,7 @@ The current site taxonomy is:
 - Existing published group pages currently live under `docs/actors/` even though the site labels them as `Groups`. That path is stable until there is an explicit migration plan.
 - We use `Tools` for malware, worms, payloads, loaders, and attacker infrastructure instead of a `Threats` section.
 - There is no top-level `Orgs` section today. Organizations, projects, vendors, and victims should usually be documented inside the relevant `Ops`, `Groups`, or `Notes` pages unless the taxonomy changes later.
+- For naming, prefer operator-, maintainer-, project-, or other firsthand source usage over later vendor brands when public sourcing clearly supports it. Attribute alternate names to the report or vendor that used them.
 - `People` pages require clear public sourcing. Do not turn a handle, alias, or social-media claim into a human identity without strong public support.
 
 ## Repo layout

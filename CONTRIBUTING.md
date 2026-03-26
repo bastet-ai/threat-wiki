@@ -40,6 +40,8 @@ Use the current sections consistently:
 
 - Keep links clickable and explicit in Markdown.
 - Use short, descriptive page titles.
+- Prefer names used by operators, maintainers, projects, or other firsthand sources over later vendor-generated brands when a durable public source supports that choice.
+- If alternative names matter, name who used them and link the report or advisory that used the name.
 - Prefer bullets over long paragraphs for ops, tooling, and motivations.
 - Add a `Tags` section to group, people, ops, and tool pages when useful.
 - Separate confirmed facts from inference.

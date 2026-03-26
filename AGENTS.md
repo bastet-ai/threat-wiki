@@ -24,6 +24,8 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Prefer bullets over long paragraphs for ops, tooling, and motivations.
 - Add a `Tags` section to group/people/ops/tool pages when possible.
 - Use plain language and avoid overclaiming attribution.
+- Prefer names used by the operators, maintainers, projects, or other firsthand sources over later threat-intel vendor branding when a durable public source supports that choice.
+- When alternative names matter, attribute them to the vendor or report that coined or used them and link the source.
 - A `People` page may use a GitHub username or project persona as the title when that is the clearest publicly supported identifier.
 - If a human identity is not clearly supported by a public source, do not invent one.
 
