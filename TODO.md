@@ -162,7 +162,7 @@ This file is a working queue, not a set of claims. Inclusion here means "worth e
 - [ ] Microsoft Exchange ProxyLogon exploitation wave
 - [ ] Microsoft Exchange ProxyShell exploitation wave
 - [ ] Ivanti Connect Secure zero-day exploitation wave
-- [ ] Barracuda ESG zero-day backdoor campaign
+- [x] Barracuda ESG zero-day backdoor campaign
 - [ ] Fortinet FortiOS / FortiGate exploitation waves
 - [ ] PAN-OS GlobalProtect zero-day campaign
 - [ ] CitrixBleed session-hijack wave

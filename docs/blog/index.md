@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)

@@ -36,7 +36,6 @@ Do not treat these files as published coverage. Promote material into `docs/` on
 - [Microsoft Exchange ProxyLogon exploitation wave](microsoft-exchange-proxylogon-exploitation-wave.md)
 - [Microsoft Exchange ProxyShell exploitation wave](microsoft-exchange-proxyshell-exploitation-wave.md)
 - [Ivanti Connect Secure zero-day exploitation wave](ivanti-connect-secure-zero-day-exploitation-wave.md)
-- [Barracuda ESG zero-day backdoor campaign](barracuda-esg-zero-day-backdoor-campaign.md)
 - [Fortinet FortiOS / FortiGate exploitation waves](fortinet-fortios-fortigate-exploitation-waves.md)
 - [PAN-OS GlobalProtect zero-day campaign](pan-os-globalprotect-zero-day-campaign.md)
 - [CitrixBleed session-hijack wave](citrixbleed-session-hijack-wave.md)
