@@ -8,12 +8,15 @@ nav:
   - Actors:
       - TeamPCP: actors/teampcp.md
       - Trivy compromise: actors/trivy-compromise.md
+  - Ops:
+      - TeamPCP compromise ops: ops/teampcp-compromise-ops.md
   - Threats:
       - CanisterWorm: threats/canisterworm.md
   - Patterns:
       - Supply-chain actor profile: patterns/supply-chain-actor-profile.md
   - Notes:
       - How to use this wiki: notes/how-to-use.md
+      - Motivation taxonomy: notes/motivation-taxonomy.md
 theme:
   name: material
   features:
