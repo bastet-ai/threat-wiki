@@ -172,13 +172,15 @@ body::after {
 
 .md-typeset h1 {
   margin-bottom: 0.8rem;
-  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-size: clamp(2.3rem, 5vw, 3.45rem);
   font-weight: 800;
-  letter-spacing: 0.08em;
-  line-height: 0.95;
+  letter-spacing: 0.05em;
+  line-height: 0.98;
   text-transform: uppercase;
   color: var(--threat-gold-bright);
   text-shadow: 0 0 28px rgba(255, 224, 146, 0.12);
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .md-typeset h1::after {
