@@ -1,12 +1,15 @@
 site_name: threat.wiki
 site_description: Bastet threat intelligence and reference wiki
-site_url: https://bastet-ai.github.io/threat.wiki/
+site_url: https://threat.wiki/
 repo_url: https://github.com/bastet-ai/threat-wiki
 repo_name: bastet-ai/threat-wiki
 nav:
   - Home: index.md
   - Actors:
       - TeamPCP: actors/teampcp.md
+      - Trivy compromise: actors/trivy-compromise.md
+  - Threats:
+      - CanisterWorm: threats/canisterworm.md
   - Patterns:
       - Supply-chain actor profile: patterns/supply-chain-actor-profile.md
   - Notes:

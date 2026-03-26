@@ -3,6 +3,17 @@
 ## Summary
 TeamPCP is a supply-chain focused threat actor tracked publicly in connection with the 2026 Trivy compromise and the follow-on **CanisterWorm** NPM campaign. The group demonstrates fast operational follow-through: compromise one upstream trust boundary, steal publish credentials, then weaponize them to mass-push malicious packages across entire package scopes.
 
+## Tags
+- supply-chain
+- CI/CD
+- npm
+- GitHub Actions
+- persistence
+- worm
+- malware
+- tooling
+- operations
+
 ## Primary motivation
 - **Access monetization through supply-chain abuse**
 - **Credential theft and secondary compromise** of developer environments
@@ -37,7 +48,10 @@ TeamPCP is a supply-chain focused threat actor tracked publicly in connection wi
 - Uses **rapid iteration**: the Trivy compromise was followed quickly by CanisterWorm, and the payloads were updated over time
 - Comfort with both **attack tooling** and **operational logistics** (repo access, npm publishing, persistence, and C2 rotation)
 
-## Defenders should watch for
+## Human actors / personas
+Public reporting commonly attributes activity to the **TeamPCP** persona itself rather than naming individual humans. I do **not** see a reliable public name for a specific person behind TeamPCP in the sources used here.
+
+## Defender signals
 - Moved or force-pushed GitHub Actions tags/refs
 - Newly published packages with small patch bumps and preserved READMEs
 - `systemd --user` persistence on developer workstations
