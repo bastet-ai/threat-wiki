@@ -1,7 +1,7 @@
 # TeamPCP
 
 ## Summary
-TeamPCP is a supply-chain focused threat actor tracked publicly in connection with the 2026 Trivy compromise and the follow-on **CanisterWorm** NPM campaign. The group demonstrates fast operational follow-through: compromise one upstream trust boundary, steal publish credentials, then weaponize them to mass-push malicious packages across entire package scopes.
+TeamPCP is a supply-chain focused threat actor tracked publicly in connection with multiple operations in 2026, including the **Trivy compromise** and the follow-on **CanisterWorm** NPM campaign. The group demonstrates fast operational follow-through: compromise one upstream trust boundary, steal publish credentials, then weaponize them to mass-push malicious packages across entire package scopes.
 
 ## Tags
 - supply-chain
@@ -45,11 +45,17 @@ TeamPCP is a supply-chain focused threat actor tracked publicly in connection wi
 - Strong evidence of **division of labor**:
   - one portion of the operation handled CI/release compromise
   - another portion turned that access into package-level worming
-- Uses **rapid iteration**: the Trivy compromise was followed quickly by CanisterWorm, and the payloads were updated over time
+- Uses **rapid iteration**: operations were followed quickly by propagation campaigns, and payloads were updated over time
 - Comfort with both **attack tooling** and **operational logistics** (repo access, npm publishing, persistence, and C2 rotation)
 
 ## Human actors / personas
 Public reporting commonly attributes activity to the **TeamPCP** persona itself rather than naming individual humans. I do **not** see a reliable public name for a specific person behind TeamPCP in the sources used here.
+
+## Associated operations
+- [Trivy compromise](../ops/trivy-compromise.md)
+- [TeamPCP compromise ops](../ops/teampcp-compromise-ops.md)
+- [CanisterWorm](../threats/canisterworm.md)
+- [LiteLLM compromise](../ops/litellm-compromise.md)
 
 ## Defender signals
 - Moved or force-pushed GitHub Actions tags/refs
