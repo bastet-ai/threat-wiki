@@ -54,7 +54,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 ## Associated operations
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
-- [CanisterWorm](../threats/canisterworm.md)
+- [CanisterWorm](../tools/canisterworm.md)
 
 ### Operational chain summary
 - **Initial trust-boundary break:** compromised Trivy release and related GitHub Actions enabled credential theft.

@@ -10,7 +10,7 @@ Threat intelligence notes, actor profiles, and defensive guidance.
 - [TeamPCP](actors/teampcp.md)
 - [Trivy compromise](actors/trivy-compromise.md)
 - [TeamPCP compromise ops](ops/teampcp-compromise-ops.md)
-- [CanisterWorm](threats/canisterworm.md)
+- [CanisterWorm](tools/canisterworm.md)
 - [Supply-chain actor profile](patterns/supply-chain-actor-profile.md)
 - [Motivation taxonomy](notes/motivation-taxonomy.md)
 

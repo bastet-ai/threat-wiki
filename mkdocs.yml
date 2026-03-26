@@ -12,8 +12,8 @@ nav:
       - Trivy compromise: ops/trivy-compromise.md
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
-  - Threats:
-      - CanisterWorm: threats/canisterworm.md
+  - Tools:
+      - CanisterWorm: tools/canisterworm.md
   - Patterns:
       - Supply-chain actor profile: patterns/supply-chain-actor-profile.md
   - Notes:
