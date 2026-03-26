@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [APT29 / Cozy Bear / Midnight Blizzard](actors/apt29-cozy-bear-midnight-blizzard.md)
+- [Microsoft Midnight Blizzard mailbox theft from Microsoft](ops/microsoft-midnight-blizzard-mailbox-theft-from-microsoft.md)
 - [Dragonfly / Energetic Bear / Crouching Yeti](actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [ConnectWise ScreenConnect exploitation wave](ops/connectwise-screenconnect-exploitation-wave.md)
 - [Codecov Bash Uploader compromise](ops/codecov-bash-uploader-compromise.md)

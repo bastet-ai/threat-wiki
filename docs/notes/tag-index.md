@@ -15,11 +15,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD](#cicd) (7)
 - [CircleCI](#circleci) (1)
 - [Citrix](#citrix) (1)
+- [cloud](#cloud) (1)
 - [Cloudflare](#cloudflare) (1)
 - [Codecov](#codecov) (1)
 - [Coinbase](#coinbase) (1)
 - [ConnectWise](#connectwise) (1)
 - [credential theft](#credential-theft) (2)
+- [credential-theft](#credential-theft) (1)
 - [critical-infrastructure](#critical-infrastructure) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
@@ -30,17 +32,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (1)
 - [DEWMODE](#dewmode) (1)
 - [edge appliance](#edge-appliance) (1)
+- [email](#email) (1)
 - [email gateway](#email-gateway) (1)
 - [energy-sector](#energy-sector) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (2)
+- [espionage](#espionage) (3)
 - [extortion](#extortion) (1)
 - [FTA](#fta) (1)
 - [GCS](#gcs) (1)
 - [GitHub](#github) (1)
 - [GitHub Actions](#github-actions) (4)
 - [GitHub OAuth](#github-oauth) (1)
-- [groups](#groups) (1)
+- [groups](#groups) (2)
 - [HAR files](#har-files) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
@@ -66,7 +69,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (1)
 - [reviewdog](#reviewdog) (1)
-- [Russia](#russia) (1)
+- [Russia](#russia) (2)
 - [ScreenConnect](#screenconnect) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (2)
@@ -77,7 +80,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [smishing](#smishing) (1)
 - [spearphishing](#spearphishing) (1)
 - [SSH](#ssh) (1)
-- [supply-chain](#supply-chain) (10)
+- [state-linked](#state-linked) (1)
+- [supply-chain](#supply-chain) (11)
 - [tag tampering](#tag-tampering) (1)
 - [TeamPCP](#teampcp) (1)
 - [TeamViewer](#teamviewer) (1)
@@ -136,6 +140,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Citrix
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
+## cloud
+- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
+
 ## Cloudflare
 - [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
 
@@ -151,6 +158,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## credential theft
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
+
+## credential-theft
+- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
 
 ## critical-infrastructure
 - [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -183,6 +193,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## edge appliance
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
+## email
+- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
+
 ## email gateway
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
@@ -193,6 +206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
 ## espionage
+- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
@@ -218,6 +232,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
 ## groups
+- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## HAR files
@@ -334,6 +349,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
 ## Russia
+- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## ScreenConnect
@@ -368,8 +384,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SSH
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## state-linked
+- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
+
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [JiaT75](../people/jiat75.md)
