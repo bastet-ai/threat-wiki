@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [CitrixBleed session-hijack wave](ops/citrixbleed-session-hijack-wave.md)
 - [CircleCI 2023 customer secret exposure incident](ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CCleaner signed-update compromise](ops/ccleaner-signed-update-compromise.md)
 - [Barracuda ESG zero-day backdoor campaign](ops/barracuda-esg-zero-day-backdoor-campaign.md)

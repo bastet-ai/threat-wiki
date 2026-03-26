@@ -165,7 +165,7 @@ This file is a working queue, not a set of claims. Inclusion here means "worth e
 - [x] Barracuda ESG zero-day backdoor campaign
 - [ ] Fortinet FortiOS / FortiGate exploitation waves
 - [ ] PAN-OS GlobalProtect zero-day campaign
-- [ ] CitrixBleed session-hijack wave
+- [x] CitrixBleed session-hijack wave
 - [ ] GoAnywhere MFT mass exploitation
 - [x] Accellion FTA exploitation campaign
 - [ ] ConnectWise ScreenConnect exploitation wave

@@ -13,13 +13,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner](#ccleaner) (1)
 - [CI/CD](#cicd) (6)
 - [CircleCI](#circleci) (1)
+- [Citrix](#citrix) (1)
 - [Coinbase](#coinbase) (1)
 - [credential theft](#credential-theft) (2)
 - [CVE-2023-2868](#cve-2023-2868) (1)
+- [CVE-2023-4966](#cve-2023-4966) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [data theft](#data-theft) (1)
 - [developer machines](#developer-machines) (1)
 - [DEWMODE](#dewmode) (1)
+- [edge appliance](#edge-appliance) (1)
 - [email gateway](#email-gateway) (1)
 - [ESG](#esg) (1)
 - [espionage](#espionage) (1)
@@ -37,11 +40,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer persona](#maintainer-persona) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malware](#malware) (2)
-- [MFA bypass](#mfa-bypass) (1)
+- [MFA bypass](#mfa-bypass) (2)
+- [NetScaler](#netscaler) (1)
 - [npm](#npm) (3)
 - [Okta](#okta) (1)
-- [operations](#operations) (13)
-- [ops](#ops) (11)
+- [operations](#operations) (14)
+- [ops](#ops) (12)
 - [people](#people) (1)
 - [persistence](#persistence) (4)
 - [Piriform](#piriform) (1)
@@ -50,6 +54,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reviewdog](#reviewdog) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (1)
+- [session hijacking](#session-hijacking) (1)
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
 - [signed updates](#signed-updates) (1)
@@ -104,6 +109,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CircleCI
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
+## Citrix
+- [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
@@ -113,6 +121,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2023-2868
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+
+## CVE-2023-4966
+- [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## CVE-2024-3094
 - [JiaT75](../people/jiat75.md)
@@ -126,6 +137,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DEWMODE
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+
+## edge appliance
+- [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## email gateway
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -184,6 +198,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MFA bypass
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+
+## NetScaler
+- [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## npm
 - [CanisterWorm](../tools/canisterworm.md)
@@ -201,6 +219,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CanisterWorm](../tools/canisterworm.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -215,6 +234,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -247,6 +267,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## secrets
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+
+## session hijacking
+- [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## session theft
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)

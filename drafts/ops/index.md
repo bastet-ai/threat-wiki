@@ -36,7 +36,6 @@ Do not treat these files as published coverage. Promote material into `docs/` on
 - [Ivanti Connect Secure zero-day exploitation wave](ivanti-connect-secure-zero-day-exploitation-wave.md)
 - [Fortinet FortiOS / FortiGate exploitation waves](fortinet-fortios-fortigate-exploitation-waves.md)
 - [PAN-OS GlobalProtect zero-day campaign](pan-os-globalprotect-zero-day-campaign.md)
-- [CitrixBleed session-hijack wave](citrixbleed-session-hijack-wave.md)
 - [GoAnywhere MFT mass exploitation](goanywhere-mft-mass-exploitation.md)
 - [ConnectWise ScreenConnect exploitation wave](connectwise-screenconnect-exploitation-wave.md)
 - [SonicWall SMA exploitation campaigns](sonicwall-sma-exploitation-campaigns.md)
