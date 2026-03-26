@@ -12,7 +12,7 @@ This page covers the Microsoft-disclosed mailbox theft and the immediate public 
 - **2024-10-29** — Microsoft reported additional Midnight Blizzard spear-phishing activity using signed RDP configuration files.
 
 ## Related groups and people
-- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 
 ## Defender takeaways
 - Watch for EWS activity, mailbox access anomalies, and unexpected OAuth or delegation changes.

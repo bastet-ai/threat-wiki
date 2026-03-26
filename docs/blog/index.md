@@ -5,7 +5,7 @@ Short updates, summaries, and notable threat writeups.
 ## Recent posts
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
-- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+- [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)

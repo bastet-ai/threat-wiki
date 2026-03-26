@@ -141,10 +141,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## cloud
-- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 
 ## Cloudflare
-- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+- [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## Codecov
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
@@ -160,10 +160,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 
 ## credential-theft
-- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 
 ## critical-infrastructure
-- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## CVE-2023-2868
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -194,21 +194,21 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## email
-- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 
 ## email gateway
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
 ## energy-sector
-- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## ESG
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
 ## espionage
-- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
-- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -232,17 +232,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
 ## groups
-- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
-- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## HAR files
-- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+- [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## ICONICSTEALER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
 ## ICS
-- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## identity
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -286,7 +286,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Okta
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
-- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+- [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## operations
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -297,10 +297,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
-- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -315,10 +315,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
-- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
@@ -349,8 +349,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
 ## Russia
-- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
-- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## ScreenConnect
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
@@ -364,7 +364,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## session hijacking
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
-- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+- [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## session theft
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -379,17 +379,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
 ## spearphishing
-- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## SSH
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## state-linked
-- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
-- [APT29 / Cozy Bear / Midnight Blizzard](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [JiaT75](../people/jiat75.md)
@@ -416,7 +416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
 ## token theft
-- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+- [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## tooling
 - [CanisterWorm](../tools/canisterworm.md)
@@ -431,7 +431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
 ## watering-hole
-- [Dragonfly / Energetic Bear / Crouching Yeti](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -449,4 +449,4 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JiaT75](../people/jiat75.md)
 
 ## Zero Trust
-- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+- [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)

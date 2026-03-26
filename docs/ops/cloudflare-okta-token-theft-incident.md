@@ -1,4 +1,4 @@
-# Cloudflare / Okta token theft incident
+# Okta support-system compromise
 
 ## Tags
 - ops
@@ -13,7 +13,7 @@
 ## Summary
 In October 2023, attackers accessed files in Okta's support case management system, extracted session-bearing data from customer-uploaded HAR files, and used those artifacts to hijack administrator sessions at some affected customers. [Okta's October 20, 2023 advisory](https://sec.okta.com/articles/2023/10/tracking-unauthorized-access-oktas-support-system/), [Okta's November 3, 2023 root-cause update](https://sec.okta.com/articles/2023/11/unauthorized-access-oktas-support-case-management-system-root-cause/), and [Cloudflare's October 20 incident writeup](https://blog.cloudflare.com/how-cloudflare-mitigated-yet-another-okta-compromise/) describe the same operational chain: compromise Okta support-side access, harvest sensitive support uploads, then reuse stolen session data to pivot into customer Okta tenants.
 
-This page uses the descriptive title `Cloudflare / Okta token theft incident` because the incident is best understood as a support-system compromise and downstream session-token abuse event, not as a cleanly branded named campaign. Public reporting here does not provide a stable firsthand operator name, so no companion `Groups` or `People` page is published in this pass.
+This page uses the descriptive title `Okta support-system compromise` because the incident is best understood as a support-system compromise and downstream session-token abuse event, not as a cleanly branded named campaign. Public reporting here does not provide a stable firsthand operator name, so no companion `Groups` or `People` page is published in this pass.
 
 ## Naming and companion-page assessment
 - [Okta](https://sec.okta.com/articles/2023/10/tracking-unauthorized-access-oktas-support-system/) describes the event as unauthorized access to its support case management system.

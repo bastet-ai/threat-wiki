@@ -1,4 +1,4 @@
-# Dragonfly / Energetic Bear / Crouching Yeti
+# Dragonfly
 
 ## Tags
 - groups

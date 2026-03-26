@@ -1,4 +1,4 @@
-# APT29 / Cozy Bear / Midnight Blizzard
+# APT29
 
 ## Tags
 - groups
@@ -36,7 +36,7 @@ Confirmed public reporting ties APT29 to:
 
 ## Related ops
 - [Microsoft Midnight Blizzard mailbox theft from Microsoft](../ops/microsoft-midnight-blizzard-mailbox-theft-from-microsoft.md)
-- [Cloudflare / Okta token theft incident](../ops/cloudflare-okta-token-theft-incident.md)
+- [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 

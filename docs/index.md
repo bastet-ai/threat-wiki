@@ -7,12 +7,12 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
-- [APT29 / Cozy Bear / Midnight Blizzard](actors/apt29-cozy-bear-midnight-blizzard.md)
+- [APT29](actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Microsoft Midnight Blizzard mailbox theft from Microsoft](ops/microsoft-midnight-blizzard-mailbox-theft-from-microsoft.md)
-- [Dragonfly / Energetic Bear / Crouching Yeti](actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Dragonfly](actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [ConnectWise ScreenConnect exploitation wave](ops/connectwise-screenconnect-exploitation-wave.md)
 - [Codecov Bash Uploader compromise](ops/codecov-bash-uploader-compromise.md)
-- [Cloudflare / Okta token theft incident](ops/cloudflare-okta-token-theft-incident.md)
+- [Okta support-system compromise](ops/cloudflare-okta-token-theft-incident.md)
 - [CitrixBleed session-hijack wave](ops/citrixbleed-session-hijack-wave.md)
 - [CircleCI 2023 customer secret exposure incident](ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CCleaner signed-update compromise](ops/ccleaner-signed-update-compromise.md)
