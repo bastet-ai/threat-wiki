@@ -53,7 +53,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - `./contribute.sh --dry-run`
 
 ## Maintenance rules
-- `TODO.md` at the repo root is the internal profiling backlog for future `Groups`, `People`, and org-context coverage; it is intentionally outside the published docs.
+- `TODO.md` at the repo root is the internal profiling backlog for future `Groups`, `People`, and `Ops` coverage; it is intentionally outside the published docs.
 - When adding a new group, people, ops, or tool page, update:
   - `mkdocs.yml` nav
   - `docs/index.md` recent entries

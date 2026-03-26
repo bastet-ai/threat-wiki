@@ -1,14 +1,14 @@
 # TODO
 
-Internal profiling backlog for future `Groups`, `People`, and organization-context coverage.
+Internal profiling backlog for future `Groups`, `People`, and `Ops` coverage.
 
-This file is a working queue, not a set of claims. Inclusion here means "worth evaluating for durable public coverage," not "already verified enough to publish." Under the current taxonomy, most org entries belong as context inside `Ops`, `Groups`, or `Notes` rather than as a top-level public section.
+This file is a working queue, not a set of claims. Inclusion here means "worth evaluating for durable public coverage," not "already verified enough to publish." The goal is to keep the backlog aligned with the public taxonomy: named groups, publicly supported people pages, and specific operations or campaign writeups.
 
 ## Triage rules
 
 - Prefer subjects that recur across multiple operations, ecosystems, or vendor reports.
-- Prefer groups, people, and orgs with strong public sourcing, indictments, advisories, or maintainer records.
-- When writing an `Ops` page, check this list for companion `Groups`, `People`, and `Org` context that should be added in the same pass.
+- Prefer groups, people, and ops with strong public sourcing, indictments, advisories, or maintainer records.
+- When writing an `Ops` page, check this list for companion `Groups` and `People` pages that should be added in the same pass.
 - Remove or trim items once the repo has durable coverage.
 
 ## Groups
@@ -123,72 +123,77 @@ This file is a working queue, not a set of claims. Inclusion here means "worth e
 - [ ] Public people tied to TeamPCP operations if strong sourcing emerges beyond the current group-level page
 - [ ] Public maintainers or personas tied to Trivy, LiteLLM, or adjacent package compromises
 
-## Orgs
+## Ops
 
-### Core ecosystems and package registries
+### Supply-chain and release-chain compromise
 
-- [ ] GitHub
-- [ ] GitLab
-- [ ] npm
-- [ ] PyPI
-- [ ] RubyGems
-- [ ] Maven Central / Sonatype
-- [ ] crates.io
-- [ ] Docker Hub
-- [ ] Homebrew
-- [ ] WordPress.org plugin ecosystem
-- [ ] Visual Studio Marketplace
-- [ ] Open VSX
-- [ ] Terraform Registry / HashiCorp ecosystem
+- [ ] SolarWinds Orion / SUNBURST / SUNSPOT
+- [ ] Kaseya VSA mass ransomware event
+- [ ] 3CX desktop app compromise
+- [ ] MOVEit Transfer exploitation and Cl0p extortion wave
+- [ ] Polyfill.io downstream website compromise
+- [ ] Codecov Bash Uploader compromise
+- [ ] ShadowHammer ASUS Live Update compromise
+- [ ] CCleaner signed-update compromise
+- [ ] event-stream / flatmap-stream npm compromise
+- [ ] ua-parser-js / coa / rc npm takeover
+- [ ] GitHub OAuth token theft against downstream integrators
+- [ ] CircleCI 2023 customer secret exposure incident
+- [ ] GitHub Actions tag-tampering waves beyond `tj-actions`
+- [ ] PyPI credential-stealer publisher campaigns with repeated infrastructure
+- [ ] npm typosquatting or dependency-confusion campaigns with clear operator clustering
 
-### Linux distribution and build-chain context
+### Identity, SaaS, and cloud compromise chains
 
-- [ ] Debian
-- [ ] Fedora
-- [ ] Ubuntu
-- [ ] Arch Linux
-- [ ] Alpine Linux
-- [ ] Red Hat
-- [ ] Tukaani / XZ Utils
+- [ ] 0ktapus phishing campaign
+- [ ] Okta support-system breach and downstream customer token theft
+- [ ] Cloudflare / Okta token theft incident
+- [ ] Twilio / Authy admin phishing campaign
+- [ ] Snowflake customer-environment extortion campaign
+- [ ] MGM Resorts and Caesars Scattered Spider intrusions
+- [ ] Microsoft Storm-0558 email intrusion
+- [ ] Microsoft Midnight Blizzard mailbox theft from Microsoft
+- [ ] Dropbox phishing and code-signing material theft incident
+- [ ] LastPass 2022-2023 compromise chain
+- [ ] TeamTNT cloud credential-harvesting campaigns
 
-### Projects and maintainers from recurring supply-chain cases
+### Mass exploitation and edge-device campaigns
 
-- [ ] tj-actions
-- [ ] reviewdog
-- [ ] SpotBugs
-- [ ] Polyfill.io
-- [ ] SolarWinds
-- [ ] 3CX
-- [ ] JetBrains
-- [ ] Progress / MOVEit
-- [ ] ConnectWise
-- [ ] Kaseya
-- [ ] Veeam
-- [ ] Snowflake
-- [ ] Coinbase
+- [ ] Microsoft Exchange ProxyLogon exploitation wave
+- [ ] Microsoft Exchange ProxyShell exploitation wave
+- [ ] Ivanti Connect Secure zero-day exploitation wave
+- [ ] Barracuda ESG zero-day backdoor campaign
+- [ ] Fortinet FortiOS / FortiGate exploitation waves
+- [ ] PAN-OS GlobalProtect zero-day campaign
+- [ ] CitrixBleed session-hijack wave
+- [ ] GoAnywhere MFT mass exploitation
+- [ ] Accellion FTA exploitation campaign
+- [ ] ConnectWise ScreenConnect exploitation wave
+- [ ] SonicWall SMA exploitation campaigns
+- [ ] VMware ESXiArgs and related ESXi ransomware waves
 
-### Vendors, identity providers, and infrastructure with repeated threat-intel relevance
+### Espionage, telecom, and destructive operations
 
-- [ ] Okta
-- [ ] Twilio
-- [ ] Cloudflare
-- [ ] Microsoft
-- [ ] Google Cloud
-- [ ] AWS
-- [ ] Atlassian
-- [ ] Cisco
-- [ ] Fortinet
-- [ ] Ivanti
-- [ ] VMware / Broadcom
-- [ ] Barracuda
-- [ ] SonicWall
-- [ ] Palo Alto Networks
-- [ ] AnyDesk
+- [ ] NotPetya
+- [ ] WannaCry
+- [ ] Olympic Destroyer
+- [ ] Operation Aurora
+- [ ] Operation Cloud Hopper
+- [ ] Operation CuckooBees
+- [ ] Operation Triangulation
+- [ ] ShadowPad NetSarang supply-chain compromise
+- [ ] Volt Typhoon critical-infrastructure prepositioning campaign
+- [ ] Salt Typhoon telecom intrusion campaign
+- [ ] HAFNIUM Exchange intrusion campaign
+- [ ] Dragonfly energy-sector intrusion campaigns
+- [ ] Havex / ICS targeting campaign
+- [ ] Shamoon destructive campaigns
+- [ ] HermeticWiper / IsaacWiper campaign cluster
 
 ## Suggested near-term passes
 
 - [ ] Build a first wave of canonical espionage group pages: APT29, APT28, Sandworm, Lazarus, Volt Typhoon
 - [ ] Build a first wave of eCrime group pages: Scattered Spider, FIN7, Black Basta, Cl0p, LockBit
-- [ ] Build org context pages or embedded notes for GitHub, npm, PyPI, Debian, and Okta
+- [ ] Build a first wave of canonical ops pages: SolarWinds, 3CX, MOVEit, ProxyLogon, Snowflake
 - [ ] Build people pages for a first wave of publicly indicted operators with strong DOJ/FBI or sanctions sourcing
 - [ ] Add missing companion group or people pages whenever a new op clearly points back to one of the items above
