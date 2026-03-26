@@ -1,10 +1,10 @@
 # Motivation taxonomy
 
-Use a small number of consistent motivation labels across threat actor pages:
+Use a small number of consistent motivation labels across group pages and, when clearly relevant, people pages:
 
 - **Access monetization** — compromise is turned into resale, extortion, or direct use for further compromise
 - **Credential theft** — primary goal is to obtain secrets and tokens
-- **Blast-radius expansion** — the actor’s goal is to turn one foothold into many victims
+- **Blast-radius expansion** — the group’s goal is to turn one foothold into many victims
 - **Espionage** — long-term, targeted access for intelligence collection
 - **Disruption / sabotage** — intent is to break operations or damage trust
 

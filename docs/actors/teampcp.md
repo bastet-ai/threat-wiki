@@ -1,7 +1,7 @@
 # TeamPCP
 
 ## Summary
-TeamPCP is a supply-chain focused threat actor tracked publicly in connection with multiple operations in 2026, including the **Trivy compromise** and the follow-on **CanisterWorm** NPM campaign. The group demonstrates fast operational follow-through: compromise one upstream trust boundary, steal publish credentials, then weaponize them to mass-push malicious packages across entire package scopes.
+TeamPCP is a supply-chain focused group tracked publicly in connection with multiple operations in 2026, including the **Trivy compromise** and the follow-on **CanisterWorm** NPM campaign. The group demonstrates fast operational follow-through: compromise one upstream trust boundary, steal publish credentials, then weaponize them to mass-push malicious packages across entire package scopes.
 
 ## Tags
 - supply-chain
@@ -48,8 +48,8 @@ TeamPCP is a supply-chain focused threat actor tracked publicly in connection wi
 - Uses **rapid iteration**: operations were followed quickly by propagation campaigns, and payloads were updated over time
 - Comfort with both **attack tooling** and **operational logistics** (repo access, npm publishing, persistence, and C2 rotation)
 
-## Human actors / personas
-Public reporting commonly attributes activity to the **TeamPCP** persona itself rather than naming individual humans. I do **not** see a reliable public name for a specific person behind TeamPCP in the sources used here.
+## Named people
+Public reporting commonly attributes activity to the **TeamPCP** group or persona rather than naming individual humans. I do **not** see a reliable public source for a specific person behind TeamPCP in the sources used here, so this material belongs under a group page rather than a people page.
 
 ## Associated operations
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -72,7 +72,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Large-scale package publication shortly after token theft
 
 ## Notes
-This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
+This page is intended as a durable group profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
 
 ## Sources
 - Aikido: https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise

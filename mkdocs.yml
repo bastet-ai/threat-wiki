@@ -6,16 +6,18 @@ repo_name: bastet-ai/threat-wiki
 nav:
   - Home: index.md
   - Blog: blog/index.md
-  - Actors:
-      - TeamPCP: actors/teampcp.md
   - Ops:
       - Trivy compromise: ops/trivy-compromise.md
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
       - CanisterWorm: tools/canisterworm.md
+  - Groups:
+      - TeamPCP: actors/teampcp.md
+  - People:
+      - Overview: people/index.md
   - Patterns:
-      - Supply-chain actor profile: patterns/supply-chain-actor-profile.md
+      - Supply-chain group profile: patterns/supply-chain-actor-profile.md
   - Notes:
       - How to use this wiki: notes/how-to-use.md
       - Motivation taxonomy: notes/motivation-taxonomy.md

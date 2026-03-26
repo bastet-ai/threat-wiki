@@ -6,13 +6,14 @@ Use this before publishing a new page or major update.
 - [ ] Title is short and specific
 - [ ] Links are clickable Markdown links
 - [ ] Sources are linked inline
-- [ ] Page has the right section (Actors / Ops / Threats / Patterns / Notes / Blog)
+- [ ] Page has the right section (Groups / People / Ops / Tools / Patterns / Notes / Blog)
 - [ ] Tags are added when useful
 
 ## Quality
 - [ ] Facts are separated from inference
 - [ ] Motivation is phrased carefully
 - [ ] Tooling is described at the right level of detail
+- [ ] People pages only name individuals who are clearly supported by public sources
 - [ ] Team dynamics are only stated when the sources support them
 - [ ] No unsupported human attribution
 

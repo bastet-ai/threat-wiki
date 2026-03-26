@@ -3,7 +3,7 @@
   <channel>
     <title>threat.wiki</title>
     <link>https://threat.wiki/</link>
-    <description>Threat intelligence notes, actor profiles, and defensive guidance.</description>
+    <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
       <title>TeamPCP, Trivy, and CanisterWorm</title>
       <link>https://threat.wiki/blog/2026-03-26-teampcp/</link>

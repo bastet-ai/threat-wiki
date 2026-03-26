@@ -39,9 +39,9 @@ This page captures the **operational timeline** behind the Trivy compromise and 
 - An ICP canister served as a dead-drop C2 for payload rotation.
 
 ### March 22, 2026 and beyond: continued iteration
-- Reporting indicates the actor continued evolving payloads and infrastructure.
+- Reporting indicates the group continued evolving payloads and infrastructure.
 - The campaign added more package compromise and additional payload variants.
-- The actor maintained the ability to rotate binaries without changing the implant on victim hosts.
+- The group maintained the ability to rotate binaries without changing the implant on victim hosts.
 
 ## Operational chain
 1. **Secret extraction** from CI runner memory

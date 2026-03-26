@@ -13,7 +13,7 @@
 - TeamPCP
 
 ## Summary
-In March 2026, Aqua Security's Trivy project and related GitHub Actions were compromised. Public reporting ties the incident to **TeamPCP** and describes a combination of credential theft, malicious release tampering, and downstream workflow abuse.
+In March 2026, Aqua Security's Trivy project and related GitHub Actions were compromised. Public reporting ties the incident to the **TeamPCP** group and describes a combination of credential theft, malicious release tampering, and downstream workflow abuse.
 
 ## Timeline
 - **February 2026:** earlier runner-memory secret theft created or exposed access paths later used in the March campaign.
@@ -45,7 +45,7 @@ This incident shows how a single upstream trust break can become a **multi-envir
 - GitHub org credentials
 
 ## TeamPCP attribution
-Public reporting attributes the campaign to **TeamPCP**. This page intentionally keeps the attribution centered on the operation while linking the actor profile separately.
+Public reporting attributes the campaign to **TeamPCP**. This page intentionally keeps the attribution centered on the operation while linking the group profile separately.
 
 ## Defender takeaways
 - Pin actions to full SHAs, not tags
