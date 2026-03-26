@@ -1,0 +1,21 @@
+site_name: threat.wiki
+site_description: Bastet threat intelligence and reference wiki
+site_url: https://bastet-ai.github.io/threat.wiki/
+repo_url: https://github.com/bastet-ai/threat.wiki
+repo_name: bastet-ai/threat.wiki
+nav:
+  - Home: index.md
+  - Threats:
+      - CanisterWorm: threats/canisterworm.md
+  - Notes:
+      - How to use this wiki: notes/how-to-use.md
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
