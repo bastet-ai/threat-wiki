@@ -55,7 +55,8 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Maintain `docs/notes/editorial-checklist.md` as a living checklist when the site evolves.
 - Maintain `docs/notes/source-index.md` as the canonical list of subscribed RSS/Atom and primary-source feeds.
 - The current taxonomy is `Groups`, `People`, `Ops`, `Tools`, `Patterns`, `Notes`, and `Blog`.
-- Keep the existing `docs/actors/` path stable for already-published group pages unless there is an explicit migration plan.
+- Group pages currently live under `docs/actors/`; keep that path stable unless there is an explicit migration plan.
+- There is no top-level `Orgs` section today; document organizations inside the relevant `Ops`, `Groups`, or `Notes` page unless the taxonomy changes.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.
