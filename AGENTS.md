@@ -51,11 +51,13 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - As of 2026-03-26, `uvx --from mkdocs-material mkdocs build --strict` reports `docs/blog/2026-03-26-teampcp.md` as outside nav, but this is currently info-only and does not fail the local build.
 
 ## Verified commands
+- `python3 scripts/generate_drafts_from_todo.py`
 - `uvx --from mkdocs-material mkdocs build --strict`
 - `./contribute.sh --dry-run`
 
 ## Maintenance rules
 - `TODO.md` at the repo root is the internal profiling backlog for future `Groups`, `People`, and `Ops` coverage; it is intentionally outside the published docs.
+- `drafts/` contains unpublished scaffold pages generated from `TODO.md`; do not confuse them with sourced public wiki content in `docs/`.
 - When adding a new group, people, ops, or tool page, update:
   - `mkdocs.yml` nav
   - `docs/index.md` recent entries

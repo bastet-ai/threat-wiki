@@ -43,6 +43,8 @@ The current site taxonomy is:
 
 - [`docs/`](docs/) contains the published wiki content
 - [`TODO.md`](TODO.md) is the internal backlog for future group, people, and ops profiling
+- [`drafts/`](drafts/) contains unpublished scaffold pages generated from the backlog
+- [`scripts/generate_drafts_from_todo.py`](scripts/generate_drafts_from_todo.py) regenerates internal draft scaffolds from `TODO.md`
 - [`docs/notes/how-to-use.md`](docs/notes/how-to-use.md) defines section usage
 - [`docs/notes/editorial-checklist.md`](docs/notes/editorial-checklist.md) is the publishing checklist
 - [`mkdocs.yml`](mkdocs.yml) defines nav and site config
