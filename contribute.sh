@@ -3,15 +3,16 @@ set -euo pipefail
 
 usage() {
   cat <<'EOF'
-Usage: ./contribute.sh [options] [extra instructions...]
+Usage: ./contribute.sh [options] [count] [extra instructions...]
 
-Run a one-shot Codex contribution pass for this repo. The invoked agent is told to:
+Run one or more Codex contribution passes for this repo. The invoked agent is told to:
 - read CONTRIBUTING.md and AGENTS.md first
 - find and document a missing group, org, or op
 - verify the site build
 - commit and push the result
 
 Options:
+  -c, --count N      Run Codex N times sequentially
   -n, --dry-run      Print the generated prompt and command without invoking Codex
   -m, --model MODEL  Pass a specific model to codex exec
       --no-search    Disable Codex web search
@@ -19,6 +20,8 @@ Options:
 
 Examples:
   ./contribute.sh
+  ./contribute.sh 10
+  ./contribute.sh --count 3
   ./contribute.sh "Focus on supply-chain compromises from the last 30 days"
   ./contribute.sh --dry-run "Prefer documenting a missing op page"
 EOF
@@ -45,9 +48,18 @@ fi
 dry_run=0
 search=1
 model=""
+count=1
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
+    -c|--count)
+      if [[ $# -lt 2 ]]; then
+        echo "--count requires a value" >&2
+        exit 1
+      fi
+      count="$2"
+      shift 2
+      ;;
     -n|--dry-run)
       dry_run=1
       shift
@@ -78,13 +90,23 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+if [[ $# -gt 0 && "$1" =~ ^[0-9]+$ ]]; then
+  count="$1"
+  shift
+fi
+
+if [[ ! "$count" =~ ^[1-9][0-9]*$ ]]; then
+  echo "count must be a positive integer" >&2
+  exit 1
+fi
+
 extra_instructions="${*:-}"
 
-read -r -d '' prompt <<EOF || true
+read -r -d '' base_prompt <<EOF || true
 Read CONTRIBUTING.md and AGENTS.md before making any changes.
 
-Perform a one-shot contribution pass for this repository:
-- Identify one high-confidence missing group, org, or op that fits the documented taxonomy and contribution rules.
+Perform one focused contribution pass for this repository:
+- Identify exactly one high-confidence missing group, org, or op that fits the documented taxonomy and contribution rules.
 - Use public, durable, source-linked reporting. Prefer primary sources and investigative writeups.
 - Follow the taxonomy quirks in CONTRIBUTING.md exactly, including the current handling of orgs and the stable docs/actors/ path for group pages.
 - Update any required supporting files such as mkdocs.yml, docs/index.md, docs/blog/index.md, notes, or related pages when needed.
@@ -97,8 +119,8 @@ Summarize what you changed at the end.
 EOF
 
 if [[ -n "$extra_instructions" ]]; then
-  prompt+=$'\n\nAdditional user instructions:\n'
-  prompt+="$extra_instructions"
+  base_prompt+=$'\n\nAdditional user instructions:\n'
+  base_prompt+="$extra_instructions"
 fi
 
 cmd=(codex exec --dangerously-bypass-approvals-and-sandbox -C "$repo_root")
@@ -112,11 +134,21 @@ if [[ -n "$model" ]]; then
 fi
 
 if [[ $dry_run -eq 1 ]]; then
+  prompt="This run is 1 of $count. Make exactly one distinct contribution in this run. Use the current repository state to avoid duplicating previous work."
+  prompt+=$'\n\n'
+  prompt+="$base_prompt"
   printf 'Command:\n'
   printf '  %q' "${cmd[@]}"
   printf ' -\n\n'
+  printf 'Count: %s\n\n' "$count"
   printf 'Prompt:\n%s\n' "$prompt"
   exit 0
 fi
 
-printf '%s\n' "$prompt" | "${cmd[@]}" -
+for ((i = 1; i <= count; i++)); do
+  printf '==> Contribution %d/%d\n' "$i" "$count"
+  prompt="This run is $i of $count. Make exactly one distinct contribution in this run. Use the current repository state to avoid duplicating previous work."
+  prompt+=$'\n\n'
+  prompt+="$base_prompt"
+  printf '%s\n' "$prompt" | "${cmd[@]}" -
+done
