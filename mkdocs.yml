@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - XZ Utils backdoor: ops/xz-utils-backdoor.md
       - tj-actions and reviewdog compromise: ops/tj-actions-reviewdog-compromise.md
       - Trivy compromise: ops/trivy-compromise.md
       - LiteLLM compromise: ops/litellm-compromise.md
