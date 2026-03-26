@@ -11,6 +11,7 @@ nav:
       - Trivy compromise: actors/trivy-compromise.md
   - Ops:
       - TeamPCP compromise ops: ops/teampcp-compromise-ops.md
+      - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Threats:
       - CanisterWorm: threats/canisterworm.md
   - Patterns:
