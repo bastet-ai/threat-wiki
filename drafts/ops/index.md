@@ -22,7 +22,6 @@ Do not treat these files as published coverage. Promote material into `docs/` on
 - [npm typosquatting or dependency-confusion campaigns with clear operator clustering](npm-typosquatting-or-dependency-confusion-campaigns-with-clear-operator-clustering.md)
 
 ## Identity, SaaS, and cloud compromise chains
-- [0ktapus phishing campaign](0ktapus-phishing-campaign.md)
 - [Okta support-system breach and downstream customer token theft](okta-support-system-breach-and-downstream-customer-token-theft.md)
 - [Cloudflare / Okta token theft incident](cloudflare-okta-token-theft-incident.md)
 - [Twilio / Authy admin phishing campaign](twilio-authy-admin-phishing-campaign.md)

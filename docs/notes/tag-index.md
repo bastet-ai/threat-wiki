@@ -11,26 +11,32 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (1)
 - [GitHub](#github) (1)
 - [GitHub Actions](#github-actions) (4)
+- [identity](#identity) (1)
 - [liblzma](#liblzma) (1)
 - [Linux](#linux) (1)
 - [maintainer persona](#maintainer-persona) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malware](#malware) (2)
+- [MFA bypass](#mfa-bypass) (1)
 - [npm](#npm) (3)
-- [operations](#operations) (7)
-- [ops](#ops) (5)
+- [Okta](#okta) (1)
+- [operations](#operations) (8)
+- [ops](#ops) (6)
 - [people](#people) (1)
 - [persistence](#persistence) (4)
 - [PyPI](#pypi) (1)
 - [release tampering](#release-tampering) (1)
 - [reviewdog](#reviewdog) (1)
 - [secret exposure](#secret-exposure) (1)
+- [smishing](#smishing) (1)
 - [SSH](#ssh) (1)
 - [supply-chain](#supply-chain) (8)
 - [tag tampering](#tag-tampering) (1)
 - [TeamPCP](#teampcp) (1)
+- [Telegram](#telegram) (1)
 - [tj-actions](#tj-actions) (1)
 - [tooling](#tooling) (4)
+- [Twilio](#twilio) (1)
 - [worm](#worm) (3)
 - [xz](#xz) (1)
 
@@ -67,6 +73,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
+## identity
+- [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+
 ## liblzma
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -83,12 +92,19 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CanisterWorm](../tools/canisterworm.md)
 - [TeamPCP](../actors/teampcp.md)
 
+## MFA bypass
+- [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+
 ## npm
 - [CanisterWorm](../tools/canisterworm.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
+## Okta
+- [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+
 ## operations
+- [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -98,6 +114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## ops
+- [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -125,6 +142,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## secret exposure
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## smishing
+- [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+
 ## SSH
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -144,6 +164,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TeamPCP
 - [Trivy compromise](../ops/trivy-compromise.md)
 
+## Telegram
+- [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+
 ## tj-actions
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
@@ -152,6 +175,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+
+## Twilio
+- [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
 ## worm
 - [CanisterWorm](../tools/canisterworm.md)

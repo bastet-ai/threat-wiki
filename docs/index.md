@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [0ktapus phishing campaign](ops/0ktapus-phishing-campaign.md)
 - [JiaT75](people/jiat75.md)
 - [XZ Utils backdoor](ops/xz-utils-backdoor.md)
 - [tj-actions and reviewdog compromise](ops/tj-actions-reviewdog-compromise.md)
