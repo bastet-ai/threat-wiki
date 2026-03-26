@@ -19,6 +19,7 @@ nav:
   - Notes:
       - How to use this wiki: notes/how-to-use.md
       - Motivation taxonomy: notes/motivation-taxonomy.md
+      - Source index: notes/source-index.md
 theme:
   name: material
   custom_dir: overrides

@@ -34,6 +34,7 @@ This repo is a public threat-intelligence wiki. Prefer durable, actionable, sour
 - Keep page paths stable once linked publicly.
 - Prefer one well-structured page per actor/campaign over scattered notes.
 - Maintain `docs/notes/editorial-checklist.md` as a living checklist when the site evolves.
+- Maintain `docs/notes/source-index.md` as the canonical list of subscribed RSS/Atom and primary-source feeds.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.
