@@ -218,6 +218,11 @@ def main() -> None:
         category_dir = DRAFTS_DIR / dirname
         category_dir.mkdir(parents=True, exist_ok=True)
         items = items_by_category.get(category, [])
+        desired_names = {"index.md"} | {f"{item['slug']}.md" for item in items}
+
+        for existing in category_dir.glob("*.md"):
+            if existing.name not in desired_names:
+                existing.unlink()
 
         (category_dir / "index.md").write_text(
             category_index(category, items),

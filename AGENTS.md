@@ -58,6 +58,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 ## Maintenance rules
 - `TODO.md` at the repo root is the internal profiling backlog for future `Groups`, `People`, and `Ops` coverage; it is intentionally outside the published docs.
 - `drafts/` contains unpublished scaffold pages generated from `TODO.md`; do not confuse them with sourced public wiki content in `docs/`.
+- `scripts/select_next_draft.py` picks the next unpublished backlog draft by priority (`ops`, then `groups`, then `people`) based on whether a matching public page exists yet.
 - When adding a new group, people, ops, or tool page, update:
   - `mkdocs.yml` nav
   - `docs/index.md` recent entries

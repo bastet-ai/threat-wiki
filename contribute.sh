@@ -7,7 +7,7 @@ Usage: ./contribute.sh [options] [count] [extra instructions...]
 
 Run one or more Codex contribution passes for this repo. The invoked agent is told to:
 - read CONTRIBUTING.md and AGENTS.md first
-- find and document a missing group, people, org, or op
+- promote the next unpublished draft when available, otherwise find and document a missing group, people, org, or op
 - verify the site build
 - commit and push the result
 
@@ -43,6 +43,11 @@ fi
 if [[ ! -f AGENTS.md ]]; then
   echo "AGENTS.md not found in $repo_root" >&2
   exit 1
+fi
+
+selector_script=""
+if [[ -f scripts/select_next_draft.py ]]; then
+  selector_script="scripts/select_next_draft.py"
 fi
 
 dry_run=0
@@ -138,10 +143,48 @@ fi
 
 cmd+=(exec --dangerously-bypass-approvals-and-sandbox -C "$repo_root")
 
-if [[ $dry_run -eq 1 ]]; then
-  prompt="This run is 1 of $count. Make exactly one primary distinct contribution in this run. A tightly coupled companion People or Groups page is allowed when clearly sourced and needed for taxonomy completeness. Use the current repository state to avoid duplicating previous work."
-  prompt+=$'\n\n'
+build_run_prompt() {
+  local run_number="$1"
+  local prompt=""
+  local selection=""
+  local draft_category=""
+  local draft_path=""
+  local public_path=""
+  local draft_title=""
+
+  if [[ -n "$selector_script" ]]; then
+    selection="$(python3 "$selector_script" 2>/dev/null || true)"
+  fi
+
+  if [[ -n "$selection" ]]; then
+    IFS=$'\t' read -r draft_category draft_path public_path draft_title <<< "$selection"
+    prompt="This run is $run_number of $count. Promote exactly one unpublished backlog draft into sourced public wiki content. Use the current repository state to avoid duplicating previous work."
+    prompt+=$'\n\n'
+    prompt+=$'Selected draft:\n'
+    prompt+="- Draft category: $draft_category"$'\n'
+    prompt+="- Draft path: $draft_path"$'\n'
+    prompt+="- Target public path: $public_path"$'\n'
+    prompt+="- Draft title: $draft_title"$'\n'
+    prompt+=$'\n'
+    prompt+=$'Promotion rules:\n'
+    prompt+=$'- Read the selected draft before making changes.\n'
+    prompt+=$'- Publish a well-sourced page at the target public path or a clearly justified closely related path if the naming must change based on sources.\n'
+    prompt+=$'- Update nav, landing page, blog index, and any companion group/people/op pages as needed.\n'
+    prompt+=$'- Mark the corresponding checkbox in TODO.md as complete.\n'
+    prompt+=$'- Delete the draft file after promotion, then run "python3 scripts/generate_drafts_from_todo.py" to refresh draft indexes and remove stale backlog scaffolds.\n'
+    prompt+=$'- If the draft turns out to be too broad for one page, narrow it to one clearly sourceable page and update TODO.md so the backlog still reflects the remaining work.\n'
+    prompt+=$'\n'
+  else
+    prompt="This run is $run_number of $count. Make exactly one primary distinct contribution in this run. A tightly coupled companion People or Groups page is allowed when clearly sourced and needed for taxonomy completeness. Use the current repository state to avoid duplicating previous work."
+    prompt+=$'\n\n'
+  fi
+
   prompt+="$base_prompt"
+  printf '%s' "$prompt"
+}
+
+if [[ $dry_run -eq 1 ]]; then
+  prompt="$(build_run_prompt 1)"
   printf 'Command:\n'
   printf '  %q' "${cmd[@]}"
   printf ' -\n\n'
@@ -152,8 +195,6 @@ fi
 
 for ((i = 1; i <= count; i++)); do
   printf '==> Contribution %d/%d\n' "$i" "$count"
-  prompt="This run is $i of $count. Make exactly one primary distinct contribution in this run. A tightly coupled companion People or Groups page is allowed when clearly sourced and needed for taxonomy completeness. Use the current repository state to avoid duplicating previous work."
-  prompt+=$'\n\n'
-  prompt+="$base_prompt"
+  prompt="$(build_run_prompt "$i")"
   printf '%s\n' "$prompt" | "${cmd[@]}" -
 done
