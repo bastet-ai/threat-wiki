@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Handala group profile](../actors/handala.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)

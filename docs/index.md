@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Handala](actors/handala.md)
 - [APT29](actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Microsoft Midnight Blizzard mailbox theft from Microsoft](ops/microsoft-midnight-blizzard-mailbox-theft-from-microsoft.md)
 - [Dragonfly](actors/dragonfly-energetic-bear-crouching-yeti.md)

@@ -5,6 +5,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## All tags
 - [3CX](#3cx) (1)
 - [Accellion](#accellion) (1)
+- [Albania](#albania) (1)
 - [appliance](#appliance) (1)
 - [AWS](#aws) (1)
 - [Barracuda](#barracuda) (1)
@@ -38,16 +39,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ESG](#esg) (1)
 - [espionage](#espionage) (3)
 - [extortion](#extortion) (1)
+- [faketivism](#faketivism) (1)
 - [FTA](#fta) (1)
 - [GCS](#gcs) (1)
 - [GitHub](#github) (1)
 - [GitHub Actions](#github-actions) (4)
 - [GitHub OAuth](#github-oauth) (1)
 - [groups](#groups) (2)
+- [hack-and-leak](#hack-and-leak) (1)
 - [HAR files](#har-files) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
 - [identity](#identity) (1)
+- [Iran](#iran) (1)
+- [Israel](#israel) (1)
 - [legacy software](#legacy-software) (1)
 - [liblzma](#liblzma) (1)
 - [Linux](#linux) (1)
@@ -56,6 +61,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (1)
 - [malware](#malware) (2)
 - [MFA bypass](#mfa-bypass) (2)
+- [MOIS](#mois) (1)
 - [MSP](#msp) (1)
 - [NetScaler](#netscaler) (1)
 - [npm](#npm) (3)
@@ -65,11 +71,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [people](#people) (1)
 - [persistence](#persistence) (4)
 - [Piriform](#piriform) (1)
+- [psychological operations](#psychological-operations) (1)
 - [PyPI](#pypi) (1)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (1)
 - [reviewdog](#reviewdog) (1)
 - [Russia](#russia) (2)
+- [sabotage](#sabotage) (1)
 - [ScreenConnect](#screenconnect) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (2)
@@ -90,9 +98,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token theft](#token-theft) (1)
 - [tooling](#tooling) (4)
 - [Trading Technologies](#trading-technologies) (1)
+- [transnational repression](#transnational-repression) (1)
 - [Twilio](#twilio) (1)
 - [watering-hole](#watering-hole) (1)
 - [Windows](#windows) (2)
+- [wiper](#wiper) (1)
 - [worm](#worm) (3)
 - [X_TRADER](#x_trader) (1)
 - [xz](#xz) (1)
@@ -103,6 +113,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Accellion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+
+## Albania
+- [Handala](../actors/handala.md)
 
 ## appliance
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -213,6 +226,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
+## faketivism
+- [Handala](../actors/handala.md)
+
 ## FTA
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
@@ -235,6 +251,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
+## hack-and-leak
+- [Handala](../actors/handala.md)
+
 ## HAR files
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
@@ -246,6 +265,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## identity
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+
+## Iran
+- [Handala](../actors/handala.md)
+
+## Israel
+- [Handala](../actors/handala.md)
 
 ## legacy software
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -272,6 +297,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MFA bypass
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+
+## MOIS
+- [Handala](../actors/handala.md)
 
 ## MSP
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
@@ -336,6 +364,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
+## psychological operations
+- [Handala](../actors/handala.md)
+
 ## PyPI
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 
@@ -351,6 +382,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Russia
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
+## sabotage
+- [Handala](../actors/handala.md)
 
 ## ScreenConnect
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
@@ -427,6 +461,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Trading Technologies
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
+## transnational repression
+- [Handala](../actors/handala.md)
+
 ## Twilio
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
@@ -436,6 +473,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+
+## wiper
+- [Handala](../actors/handala.md)
 
 ## worm
 - [CanisterWorm](../tools/canisterworm.md)

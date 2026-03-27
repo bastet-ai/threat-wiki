@@ -27,6 +27,7 @@ nav:
   - Groups:
       - APT29: actors/apt29-cozy-bear-midnight-blizzard.md
       - Dragonfly: actors/dragonfly-energetic-bear-crouching-yeti.md
+      - Handala: actors/handala.md
       - TeamPCP: actors/teampcp.md
   - Ops:
       - Microsoft Midnight Blizzard mailbox theft from Microsoft: ops/microsoft-midnight-blizzard-mailbox-theft-from-microsoft.md
