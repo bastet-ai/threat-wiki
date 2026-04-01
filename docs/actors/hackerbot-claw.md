@@ -41,5 +41,5 @@ StepSecurity describes HackerBot Claw as being tied to the same supply-chain thr
 - Unexplained outbound calls to attacker-controlled domains during CI
 
 ## References
-- StepSecurity: https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation
-- StepSecurity blog index: https://www.stepsecurity.io/blog
+- [StepSecurity](https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation)
+- [StepSecurity blog index](https://www.stepsecurity.io/blog)

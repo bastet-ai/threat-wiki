@@ -77,7 +77,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
 
 ## Sources
-- Aikido: https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise
-- Wiz: https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack
-- StepSecurity: https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation
-- StepSecurity blog index: https://www.stepsecurity.io/blog
+- [Aikido](https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise)
+- [Wiz](https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack)
+- [StepSecurity](https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation)
+- [StepSecurity blog index](https://www.stepsecurity.io/blog)
