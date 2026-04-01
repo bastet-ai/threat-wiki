@@ -1,7 +1,7 @@
 # TeamPCP
 
 ## Summary
-TeamPCP is a supply-chain focused group tracked publicly in connection with multiple operations in 2026, including the **Trivy compromise** and the follow-on **CanisterWorm** NPM campaign. The group demonstrates fast operational follow-through: compromise one upstream trust boundary, steal publish credentials, then weaponize them to mass-push malicious packages across entire package scopes.
+TeamPCP is a supply-chain focused threat actor tracked publicly in connection with multiple operations in 2026, including the **Trivy compromise** and the follow-on **CanisterWorm** NPM campaign. StepSecurity also connects TeamPCP to the broader **HackerBot Claw** GitHub Actions exploitation ecosystem.
 
 ## Tags
 - supply-chain
@@ -25,6 +25,7 @@ TeamPCP is a supply-chain focused group tracked publicly in connection with mult
 - **GitHub Actions / CI workflow compromise**
 - **npm token theft** and package publication abuse
 - **Trivy / trivy-action / setup-trivy** as a prior compromise surface
+- **HackerBot Claw** as an autonomous exploitation bot in the same ecosystem
 
 ### CanisterWorm components
 - **Node.js postinstall loader**
@@ -48,12 +49,13 @@ TeamPCP is a supply-chain focused group tracked publicly in connection with mult
 - Uses **rapid iteration**: operations were followed quickly by propagation campaigns, and payloads were updated over time
 - Comfort with both **attack tooling** and **operational logistics** (repo access, npm publishing, persistence, and C2 rotation)
 
-## Named people
-Public reporting commonly attributes activity to the **TeamPCP** group or persona rather than naming individual humans. I do **not** see a reliable public source for a specific person behind TeamPCP in the sources used here, so this material belongs under a group page rather than a people page.
+## Human actors / personas
+Public reporting commonly attributes activity to the **TeamPCP** persona itself rather than naming individual humans. I do **not** see a reliable public name for a specific person behind TeamPCP in the sources used here.
 
 ## Associated operations
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [CanisterWorm](../tools/canisterworm.md)
 
 ### Operational chain summary
@@ -72,10 +74,10 @@ Public reporting commonly attributes activity to the **TeamPCP** group or person
 - Large-scale package publication shortly after token theft
 
 ## Notes
-This page is intended as a durable group profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
+This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
 
 ## Sources
 - Aikido: https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise
 - Wiz: https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack
-- r/netsec discussion: https://www.reddit.com/r/netsec/comments/1s3kjhf/teampcp_deploys_canisterworm_on_npm_following_trivy_compromise/
-- r/netsec discussion (LiteLLM-related supply chain): https://www.reddit.com/r/netsec/comments/1s2n2bo/how_a_poisoned_security_scanner_became_the_key_to_backdooring_litellm/
+- StepSecurity: https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation
+- StepSecurity blog index: https://www.stepsecurity.io/blog

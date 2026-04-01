@@ -20,6 +20,7 @@ nav:
       - XZ Utils backdoor: ops/xz-utils-backdoor.md
       - tj-actions and reviewdog compromise: ops/tj-actions-reviewdog-compromise.md
       - Trivy compromise: ops/trivy-compromise.md
+      - HackerBot Claw GitHub Actions exploitation campaign: ops/hackerbot-claw-github-actions-exploitation-campaign.md
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
@@ -28,6 +29,7 @@ nav:
       - APT29: actors/apt29-cozy-bear-midnight-blizzard.md
       - Dragonfly: actors/dragonfly-energetic-bear-crouching-yeti.md
       - Handala: actors/handala.md
+      - HackerBot Claw: actors/hackerbot-claw.md
       - TeamPCP: actors/teampcp.md
   - Ops:
       - Microsoft Midnight Blizzard mailbox theft from Microsoft: ops/microsoft-midnight-blizzard-mailbox-theft-from-microsoft.md
