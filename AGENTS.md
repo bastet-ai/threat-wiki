@@ -56,6 +56,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - `./contribute.sh --dry-run`
 
 ## Maintenance rules
+- HackerOne public program checks are currently paused; do not re-enable without explicit instruction.
 - `TODO.md` at the repo root is the internal profiling backlog for future `Groups`, `People`, and `Ops` coverage; it is intentionally outside the published docs.
 - `drafts/` contains unpublished scaffold pages generated from `TODO.md`; do not confuse them with sourced public wiki content in `docs/`.
 - `scripts/select_next_draft.py` picks the next unpublished backlog draft by priority (`ops`, then `groups`, then `people`) based on whether a matching public page exists yet.
