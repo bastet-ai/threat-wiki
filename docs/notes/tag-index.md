@@ -18,9 +18,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitbucket](#bitbucket) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [build-time compromise](#build-time-compromise) (1)
+- [Bun](#bun) (1)
 - [CCleaner](#ccleaner) (1)
 - [China](#china) (1)
-- [CI/CD](#cicd) (10)
+- [CI/CD](#cicd) (11)
 - [CircleCI](#circleci) (1)
 - [Citrix](#citrix) (1)
 - [cloud](#cloud) (2)
@@ -30,7 +31,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coinbase](#coinbase) (1)
 - [ConnectWise](#connectwise) (1)
 - [credential theft](#credential-theft) (2)
-- [credential-theft](#credential-theft) (3)
+- [credential-theft](#credential-theft) (4)
 - [critical-infrastructure](#critical-infrastructure) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
@@ -57,7 +58,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FTA](#fta) (1)
 - [GCS](#gcs) (1)
 - [GitHub](#github) (3)
-- [GitHub Actions](#github-actions) (7)
+- [GitHub Actions](#github-actions) (8)
 - [GitHub OAuth](#github-oauth) (1)
 - [group](#group) (1)
 - [groups](#groups) (4)
@@ -89,9 +90,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OIDC](#oidc) (1)
 - [Okta](#okta) (2)
 - [OneDrive](#onedrive) (1)
-- [operations](#operations) (22)
+- [operations](#operations) (23)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (19)
+- [ops](#ops) (20)
 - [people](#people) (1)
 - [persistence](#persistence) (6)
 - [Piriform](#piriform) (1)
@@ -104,6 +105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (1)
 - [reviewdog](#reviewdog) (1)
+- [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (2)
 - [sabotage](#sabotage) (1)
 - [ScreenConnect](#screenconnect) (1)
@@ -121,10 +123,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spearphishing](#spearphishing) (1)
 - [SSH](#ssh) (1)
 - [state-linked](#state-linked) (1)
-- [supply-chain](#supply-chain) (15)
-- [tag tampering](#tag-tampering) (1)
+- [supply-chain](#supply-chain) (16)
+- [tag tampering](#tag-tampering) (2)
 - [TamperedChef](#tamperedchef) (1)
-- [TeamPCP](#teampcp) (3)
+- [TeamPCP](#teampcp) (4)
 - [TeamViewer](#teamviewer) (1)
 - [Telegram](#telegram) (1)
 - [tj-actions](#tj-actions) (1)
@@ -189,6 +191,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## build-time compromise
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## Bun
+- [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+
 ## CCleaner
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
@@ -196,6 +201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](../actors/webworm.md)
 
 ## CI/CD
+- [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -238,6 +244,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 
 ## credential-theft
+- [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -327,6 +334,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](../actors/webworm.md)
 
 ## GitHub Actions
+- [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -442,6 +450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+- [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -469,6 +478,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+- [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -529,6 +539,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## reviewdog
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## Runner.Worker
+- [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+
 ## Russia
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -585,6 +598,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
@@ -601,12 +615,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## tag tampering
+- [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
 ## TamperedChef
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
 ## TeamPCP
+- [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)

@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>actions-cool GitHub Actions tag compromise</title>
+      <link>https://threat.wiki/ops/actions-cool-github-actions-tag-compromise/</link>
+      <description>StepSecurity reporting on actions-cool/issues-helper and maintain-one-comment tag retargeting, imposter commits, Bun-based Runner.Worker memory scraping, and CI/CD secret exfiltration.</description>
+      <pubDate>Wed, 20 May 2026 23:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/actions-cool-github-actions-tag-compromise/</guid>
+    </item>
+    <item>
       <title>Webworm cloud-service C2 and proxy toolkit</title>
       <link>https://threat.wiki/actors/webworm/</link>
       <description>Webworm 2025 activity adds Discord and Microsoft Graph C2 backdoors, GitHub staging, SoftEther VPN, and custom proxy chains across European and South African targets.</description>

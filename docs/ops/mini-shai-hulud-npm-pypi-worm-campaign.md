@@ -58,10 +58,11 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - The `durabletask` payload was reported as a Linux-focused Python zipapp (`rope.pyz`) that harvested AWS, Azure, GCP, Kubernetes, password-manager, and developer-tool secrets, used redundant exfiltration paths, installed fake systemd persistence, attempted lateral movement via AWS SSM and Kubernetes `kubectl exec`, skipped Russian-locale systems, and used TeamPCP-linked infrastructure (`t.m-kosche[.]com`).
 - Grafana Labs publicly stated that the TanStack/Mini Shai-Hulud incident led to unauthorized access to its GitHub environment and source-code download after one impacted workflow token was missed during rotation. Grafana reported no evidence of production-system or Grafana Cloud compromise and said its codebase was downloaded but not altered.
 
-### May 2026: adjacent IDE-extension compromise lane
+### May 2026: adjacent GitHub Actions and IDE-extension lanes
+- StepSecurity reported compromised `actions-cool/issues-helper` and `actions-cool/maintain-one-comment` GitHub Actions where all release tags were moved to imposter commits. The malicious action downloaded Bun, read `Runner.Worker` memory for decrypted workflow secrets, and exfiltrated to `t.m-kosche[.]com`, matching infrastructure and runner-memory-theft motifs seen in the broader Mini Shai-Hulud cluster.
 - StepSecurity reported a compromised Nx Console VS Code extension (`nrwl.angular-console` `18.95.0`) that fetched an obfuscated payload from an orphan commit in the official `nrwl/nx` repository. This is not the same registry lane as npm/PyPI worming, but it targets the same developer-trust boundary.
 - GitHub later publicly described a compromise of an employee device involving a poisoned VS Code extension and exfiltration of roughly 3,800 internal repositories; public reporting treats Nx Console as a likely candidate based on timing, but the reviewed GitHub statements did not name the extension.
-- See also: [Nx Console VS Code extension compromise](nx-console-vscode-extension-compromise.md).
+- See also: [actions-cool GitHub Actions tag compromise](actions-cool-github-actions-tag-compromise.md) and [Nx Console VS Code extension compromise](nx-console-vscode-extension-compromise.md).
 
 ## Tradecraft map
 
@@ -90,6 +91,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - Repo naming/description patterns reported by vendors, including Dune/Shai-Hulud themed descriptions and configuration-storage masquerades.
 - Automated enumeration of packages the victim can publish, tarball modification, version bumping, metadata injection, and republishing.
 - Repository poisoning through `.claude/` and `.vscode/` files in variants that try to reach AI coding agents and IDE automation.
+- GitHub Actions tag retargeting as an adjacent lane: trusted action tags can be moved to imposter commits, allowing malicious runtime code to read runner memory and steal secrets.
 - IDE-extension compromise as an adjacent lane: poisoned VS Code extensions can reach developer endpoints even when package lockfiles and build dependencies are clean.
 
 ### Persistence / destructive behavior
@@ -131,6 +133,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 
 ## Related pages
 - [TeamPCP](../actors/teampcp.md)
+- [actions-cool GitHub Actions tag compromise](actions-cool-github-actions-tag-compromise.md)
 - [Nx Console VS Code extension compromise](nx-console-vscode-extension-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm timeline](trivy-lite-llm-compromise-timeline.md)
 - [Trivy compromise](trivy-compromise.md)
@@ -151,5 +154,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - Snyk AntV wave: https://snyk.io/blog/mini-shai-hulud-antv-npm-supply-chain-attack/
 - Snyk durabletask: https://snyk.io/blog/durabletask-pypi-supply-chain-attack/
 - Grafana Labs: https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/
+- StepSecurity actions-cool: https://www.stepsecurity.io/blog/actions-cool-issues-helper-github-action-compromised-all-tags-point-to-imposter-commit-that-exfiltrates-ci-cd-credentials
+- StepSecurity 48-hour timeline: https://www.stepsecurity.io/blog/5-supply-chain-attacks-in-48-hours-why-securing-one-layer-is-not-enough
 - StepSecurity Nx Console: https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised
 - CISA: https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem
