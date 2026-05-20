@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Mini Shai-Hulud npm/PyPI worm campaign</title>
+      <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/</link>
+      <description>Threat-intelligence summary of the April-May 2026 Mini Shai-Hulud supply-chain waves, TeamPCP-attributed reporting, CI/OIDC abuse, package propagation, and defender hunting priorities.</description>
+      <pubDate>Wed, 20 May 2026 17:45:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/</guid>
+    </item>
+    <item>
       <title>TeamPCP, Trivy, and CanisterWorm</title>
       <link>https://threat.wiki/blog/2026-03-26-teampcp/</link>
       <description>Supply-chain compromise operations, tooling, and motivations.</description>

@@ -1,0 +1,137 @@
+# Mini Shai-Hulud npm/PyPI worm campaign
+
+## Summary
+Mini Shai-Hulud is the 2026 continuation of the Shai-Hulud npm worm tradecraft: malicious package installs execute inside developer or CI/CD environments, steal credentials, and use reachable publishing or repository access to spread into additional packages and repositories.
+
+Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft describes multiple waves in April-May 2026. Several vendors attribute the later waves to **TeamPCP** or describe them as TeamPCP-linked; keep that attribution caveated unless a firsthand operator statement or official source is being cited directly.
+
+## Tags
+- ops
+- operations
+- supply-chain
+- npm
+- PyPI
+- GitHub Actions
+- CI/CD
+- OIDC
+- SLSA
+- credential-theft
+- worm
+- TeamPCP
+- Shai-Hulud
+
+## Why this matters
+- The May 2026 TanStack wave showed that a malicious npm release can carry **valid provenance/attestation** when the legitimate release workflow is hijacked before publication.
+- The campaign targets the places with the most blast radius: developer laptops, GitHub Actions runners, npm trusted-publishing workflows, cloud credentials, Kubernetes secrets, and package maintainer accounts.
+- Removing a compromised package is not enough if the payload already created persistence, poisoned repository files, or extracted tokens that can publish more packages.
+
+## Publicly reported wave sequence
+
+### September-November 2025: original Shai-Hulud waves
+- Microsoft and Unit 42 describe the original Shai-Hulud activity as a self-propagating npm worm era shift.
+- The campaign pattern: run during package install, steal tokens/secrets, create public exfiltration repositories, and use npm access to republish infected packages.
+- Later 2025 waves added more automation and destructive behavior.
+
+### March 2026: TeamPCP / Trivy precursor activity
+- Wiz and other researchers reported a TeamPCP-linked Trivy compromise that used GitHub Actions/release infrastructure to steal runner secrets and publish malicious artifacts.
+- This established several recurring motifs later seen in Mini Shai-Hulud coverage: runner memory scraping, cloud/Kubernetes credential harvesting, package/release trust abuse, encrypted exfiltration, and fallback GitHub repository exfiltration.
+- See also: [Trivy → TeamPCP → CanisterWorm timeline](trivy-lite-llm-compromise-timeline.md).
+
+### April 29-30, 2026: SAP / Intercom / PyPI expansion
+- Wiz reported Mini Shai-Hulud-style malicious versions in SAP ecosystem npm packages including `@cap-js/sqlite`, `@cap-js/postgres`, `@cap-js/db-service`, and `mbt`.
+- The same reporting later added `intercom-client` and PyPI `lightning` packages as related compromises under analysis.
+- Reported behavior included `preinstall` execution, Bun-based loaders, obfuscated JavaScript payloads, cloud/GitHub/npm/Kubernetes/Vault credential harvesting, Russian locale guardrails, and GitHub-based encrypted exfiltration.
+- Wiz assessed TeamPCP responsibility with high confidence based on shared cryptographic material and implementation overlaps, while noting that references to older Shai-Hulud operations do not by themselves prove a single operator across every wave.
+
+### May 11-12, 2026: TanStack and trusted-publishing abuse
+- Snyk reported malicious artifacts across `@tanstack/*` packages published by the legitimate TanStack release pipeline after attacker-controlled code hijacked the runner mid-workflow.
+- Snyk’s key point: SLSA provenance can prove where the artifact was built, but it does not prove the runtime workflow was clean if attacker-controlled code executed before publication.
+- Akamai and JFrog describe the chain as privileged workflow abuse: fork-controlled code poisons CI/cache or runner state, a legitimate release workflow restores the malicious state, and the payload extracts GitHub Actions OIDC material from runner memory to obtain npm publishing credentials.
+- Akamai reported that weaponized worm code appeared publicly on GitHub after the TanStack wave, increasing copycat risk.
+
+### May 2026: broader npm/PyPI spread
+- JFrog reported more than 170 npm packages and 2 PyPI packages affected in its analysis window, with npm payloads using malicious `preinstall` loaders and PyPI payloads using import-time downloaders.
+- Socket reported continuing package findings across npm and PyPI ecosystems, including OpenSearch, Mistral AI, Guardrails AI, Squawk, and other artifacts in related coverage.
+- News coverage and vendor reports indicate additional waves against popular JavaScript namespaces, including `@antv`/visualization-related packages.
+
+## Tradecraft map
+
+### Initial access / publication path
+- `pull_request_target` or similar privileged workflow footguns that run fork-controlled code in a privileged repo context.
+- GitHub Actions cache poisoning or runner-state poisoning that survives until a legitimate release workflow executes.
+- OIDC/trusted-publishing token extraction from runner memory, then exchange for short-lived npm publishing credentials.
+- Compromised maintainer/package publisher accounts in some waves.
+
+### Execution and payload staging
+- npm lifecycle hooks such as `preinstall`.
+- Bun runtime download/execution to run large JavaScript payloads.
+- PyPI import-time loader/downloader behavior in related Python packages.
+- Heavy obfuscation and embedded encrypted payload sections.
+
+### Credential harvesting
+- GitHub PAT/OAuth tokens and Actions runtime secret material.
+- npm tokens and trusted-publishing exchange material.
+- AWS, Azure, GCP, Kubernetes, Docker, Vault, Terraform, SSH, Git, shell history, `.npmrc`, cloud config, and generic API secrets.
+- Kubernetes API enumeration where service-account permissions allow it.
+- Browser/password-store collection reported in later variants.
+
+### Exfiltration and propagation
+- Encrypted exfiltration via attacker-controlled infrastructure.
+- GitHub fallback/dead-drop repositories created in victim accounts.
+- Repo naming/description patterns reported by vendors, including Dune/Shai-Hulud themed descriptions and configuration-storage masquerades.
+- Automated enumeration of packages the victim can publish, tarball modification, version bumping, metadata injection, and republishing.
+- Repository poisoning through `.claude/` and `.vscode/` files in variants that try to reach AI coding agents and IDE automation.
+
+### Persistence / destructive behavior
+- Claude Code hooks and VS Code task automation reported as persistence or re-execution paths.
+- Background daemon behavior and dead-man-switch style deletion/wiping behavior reported in later Shai-Hulud/Mini Shai-Hulud analysis.
+- Developer endpoints and CI runners should be treated as compromised hosts, not just as places where a bad dependency was installed.
+
+## Defender heuristics
+
+### Exposure triage
+- Search dependency lockfiles, package-manager caches, CI logs, and artifact repositories for affected package names/versions from vendor advisories.
+- Treat any install of affected versions in CI or on a developer machine as credential exposure.
+- Prioritize environments with npm publishing permissions, GitHub org/admin tokens, cloud deployment credentials, Kubernetes service-account access, or Vault access.
+
+### GitHub and CI hunting
+- Look for `pull_request_target` workflows that check out or execute fork-controlled code.
+- Review caches restored by release workflows, especially caches writable by pull-request jobs.
+- Hunt workflow logs for unexpected Bun downloads, large obfuscated JavaScript payloads, `preinstall` execution, runner memory scraping, or token/OIDC environment access.
+- Search for unexpected repositories created by maintainers/bots with Shai-Hulud/Dune/config-storage descriptions or encrypted blobs.
+- Audit newly added `.claude/` and `.vscode/` files, especially `settings.json`, `tasks.json`, `setup.mjs`, and copied payload scripts.
+
+### Package and registry hunting
+- Diff newly published package tarballs against prior clean versions.
+- Flag new lifecycle hooks, new Bun/runtime downloaders, large minified/obfuscated payload files, or sudden patch releases from unusual automation.
+- Do not trust provenance alone; correlate attestations with clean workflow inputs, clean cache state, and expected release commits.
+- Add release-age/cooldown controls for package ingestion when operationally possible.
+
+### Containment
+- Stop affected workflows and package publication paths before rotating secrets if persistence or active exfiltration may still be running.
+- Remove malicious packages and poisoned repo files, then rotate all reachable credentials: GitHub, npm, cloud, Kubernetes, Vault, SSH, Docker, CI, and any app secrets present on the host.
+- Invalidate GitHub Actions caches and rebuild release infrastructure from known-clean commits.
+- Prefer short-lived scoped credentials, protected environments, least-privilege OIDC subjects, pinned action SHAs, and separate untrusted PR workflows from release workflows.
+
+## Monitoring notes
+- High-priority sources for this campaign: StepSecurity, Wiz Research, Socket, Snyk, JFrog Security Research, Akamai Security Research, Unit 42, Microsoft Security Blog, CISA alerts, GitHub Security Advisories, npm advisories/security notices, and maintainer postmortems from affected projects.
+- Durable updates worth adding here: new affected package families, new propagation primitives, new persistence paths, new infrastructure/naming patterns, official advisories, or postmortems that explain the initial access path.
+- Avoid duplicating every package name from vendor appendices unless it changes the operational picture; link the vendor-maintained affected-package lists instead.
+
+## Related pages
+- [TeamPCP](../actors/teampcp.md)
+- [Trivy → TeamPCP → CanisterWorm timeline](trivy-lite-llm-compromise-timeline.md)
+- [Trivy compromise](trivy-compromise.md)
+- [CanisterWorm](../tools/canisterworm.md)
+- [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
+
+## Sources
+- Wiz: https://www.wiz.io/blog/mini-shai-hulud-supply-chain-sap-npm
+- Wiz: https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack
+- Snyk: https://snyk.io/blog/tanstack-npm-packages-compromised/
+- Akamai: https://www.akamai.com/blog/security-research/mini-shai-hulud-worm-returns-goes-public
+- JFrog: https://research.jfrog.com/post/shai-hulud-here-we-go-again/
+- Microsoft: https://www.microsoft.com/en-us/security/blog/2025/12/09/shai-hulud-2-0-guidance-for-detecting-investigating-and-defending-against-the-supply-chain-attack/
+- Unit 42: https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
+- Socket: https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack
+- CISA: https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem

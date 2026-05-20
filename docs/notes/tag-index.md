@@ -5,15 +5,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## All tags
 - [3CX](#3cx) (1)
 - [Accellion](#accellion) (1)
+- [ai-agent](#ai-agent) (1)
 - [Albania](#albania) (1)
 - [appliance](#appliance) (1)
 - [AWS](#aws) (1)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [Bitbucket](#bitbucket) (1)
+- [branch-name-injection](#branch-name-injection) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [CCleaner](#ccleaner) (1)
-- [CI/CD](#cicd) (7)
+- [CI/CD](#cicd) (10)
 - [CircleCI](#circleci) (1)
 - [Citrix](#citrix) (1)
 - [cloud](#cloud) (1)
@@ -22,7 +24,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coinbase](#coinbase) (1)
 - [ConnectWise](#connectwise) (1)
 - [credential theft](#credential-theft) (2)
-- [credential-theft](#credential-theft) (1)
+- [credential-theft](#credential-theft) (2)
 - [critical-infrastructure](#critical-infrastructure) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
@@ -40,11 +42,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [espionage](#espionage) (3)
 - [extortion](#extortion) (1)
 - [faketivism](#faketivism) (1)
+- [filename-injection](#filename-injection) (1)
 - [FTA](#fta) (1)
 - [GCS](#gcs) (1)
 - [GitHub](#github) (1)
-- [GitHub Actions](#github-actions) (4)
+- [GitHub Actions](#github-actions) (7)
 - [GitHub OAuth](#github-oauth) (1)
+- [group](#group) (1)
 - [groups](#groups) (2)
 - [hack-and-leak](#hack-and-leak) (1)
 - [HAR files](#har-files) (1)
@@ -64,46 +68,51 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MOIS](#mois) (1)
 - [MSP](#msp) (1)
 - [NetScaler](#netscaler) (1)
-- [npm](#npm) (3)
+- [npm](#npm) (4)
+- [OIDC](#oidc) (1)
 - [Okta](#okta) (2)
-- [operations](#operations) (17)
-- [ops](#ops) (15)
+- [operations](#operations) (20)
+- [ops](#ops) (17)
 - [people](#people) (1)
 - [persistence](#persistence) (4)
 - [Piriform](#piriform) (1)
+- [prompt-injection](#prompt-injection) (1)
 - [psychological operations](#psychological-operations) (1)
-- [PyPI](#pypi) (1)
+- [PyPI](#pypi) (2)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (1)
 - [reviewdog](#reviewdog) (1)
 - [Russia](#russia) (2)
 - [sabotage](#sabotage) (1)
 - [ScreenConnect](#screenconnect) (1)
+- [script-injection](#script-injection) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (2)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
+- [Shai-Hulud](#shai-hulud) (1)
 - [signed updates](#signed-updates) (1)
+- [SLSA](#slsa) (1)
 - [smishing](#smishing) (1)
 - [spearphishing](#spearphishing) (1)
 - [SSH](#ssh) (1)
 - [state-linked](#state-linked) (1)
-- [supply-chain](#supply-chain) (11)
+- [supply-chain](#supply-chain) (14)
 - [tag tampering](#tag-tampering) (1)
-- [TeamPCP](#teampcp) (1)
+- [TeamPCP](#teampcp) (2)
 - [TeamViewer](#teamviewer) (1)
 - [Telegram](#telegram) (1)
 - [tj-actions](#tj-actions) (1)
 - [token theft](#token-theft) (1)
-- [tooling](#tooling) (4)
+- [tooling](#tooling) (5)
 - [Trading Technologies](#trading-technologies) (1)
 - [transnational repression](#transnational-repression) (1)
 - [Twilio](#twilio) (1)
 - [watering-hole](#watering-hole) (1)
 - [Windows](#windows) (2)
 - [wiper](#wiper) (1)
-- [worm](#worm) (3)
+- [worm](#worm) (4)
 - [X_TRADER](#x_trader) (1)
 - [xz](#xz) (1)
 - [Zero Trust](#zero-trust) (1)
@@ -113,6 +122,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Accellion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+
+## ai-agent
+- [HackerBot Claw](../actors/hackerbot-claw.md)
 
 ## Albania
 - [Handala](../actors/handala.md)
@@ -132,6 +144,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bitbucket
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
+## branch-name-injection
+- [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+
 ## build-time compromise
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -141,7 +156,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CI/CD
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [HackerBot Claw](../actors/hackerbot-claw.md)
+- [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -174,6 +192,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## credential-theft
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## critical-infrastructure
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -229,6 +248,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## faketivism
 - [Handala](../actors/handala.md)
 
+## filename-injection
+- [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+
 ## FTA
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
@@ -239,6 +261,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JiaT75](../people/jiat75.md)
 
 ## GitHub Actions
+- [HackerBot Claw](../actors/hackerbot-claw.md)
+- [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -246,6 +271,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitHub OAuth
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+
+## group
+- [HackerBot Claw](../actors/hackerbot-claw.md)
 
 ## groups
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
@@ -309,8 +337,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## npm
 - [CanisterWorm](../tools/canisterworm.md)
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+
+## OIDC
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## Okta
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -327,7 +359,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [HackerBot Claw](../actors/hackerbot-claw.md)
+- [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -345,7 +380,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -364,11 +401,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
+## prompt-injection
+- [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+
 ## psychological operations
 - [Handala](../actors/handala.md)
 
 ## PyPI
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## release tampering
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -389,6 +430,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ScreenConnect
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
+## script-injection
+- [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+
 ## secret exposure
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
@@ -406,8 +450,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ShadowPad
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
+## Shai-Hulud
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+
 ## signed updates
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+
+## SLSA
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## smishing
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -426,8 +476,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [HackerBot Claw](../actors/hackerbot-claw.md)
+- [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [JiaT75](../people/jiat75.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -438,6 +491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
 ## TeamPCP
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 
 ## TeamViewer
@@ -454,6 +508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## tooling
 - [CanisterWorm](../tools/canisterworm.md)
+- [HackerBot Claw](../actors/hackerbot-claw.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
@@ -479,6 +534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## worm
 - [CanisterWorm](../tools/canisterworm.md)
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 

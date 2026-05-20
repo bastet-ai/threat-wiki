@@ -6,6 +6,12 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **Aikido Security Research** — https://www.aikido.dev/blog/index.xml
 - **Wiz Research** — https://www.wiz.io/blog/rss.xml
 - **Socket Security Research** — https://socket.dev/blog/rss.xml
+- **Akamai Security Research** — https://www.akamai.com/blog/security-research (HTML watch; RSS blocked/unavailable in current checks)
+- **Snyk Blog / Security Research** — https://snyk.io/blog/feed/
+- **JFrog Security Research** — https://research.jfrog.com/ (HTML watch) and JFrog Blog RSS https://jfrog.com/blog/feed/
+- **Unit 42 Research** — https://unit42.paloaltonetworks.com/feed/
+- **Microsoft Security Blog** — https://www.microsoft.com/en-us/security/blog/ (HTML watch; RSS may return 403)
+- **The Hacker News** — https://feeds.feedburner.com/TheHackersNews
 - **Boost Security Labs** — https://labs.boostsecurity.io/feed.xml
 - **StepSecurity blog** — https://www.stepsecurity.io/blog/rss.xml
 - **Trail of Bits blog** — https://blog.trailofbits.com/feed/
@@ -18,3 +24,6 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - Prefer RSS/Atom over ad hoc web searches.
 - If a feed URL changes, update this page and the monitoring config together.
 - If a source produces repeated noise, lower its priority before removing it.
+
+## Active watch topics
+- **Shai-Hulud / Mini Shai-Hulud / TeamPCP supply-chain activity** — monitor vendor research, affected-package appendices, maintainer postmortems, CISA/GitHub advisories, and registry notices for new package families, propagation methods, persistence paths, infrastructure, and attribution changes.

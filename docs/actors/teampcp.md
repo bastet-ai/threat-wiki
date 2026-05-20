@@ -57,6 +57,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ### Operational chain summary
 - **Initial trust-boundary break:** compromised Trivy release and related GitHub Actions enabled credential theft.
@@ -64,6 +65,10 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - **NPM-scale propagation:** stolen publish tokens were used to enumerate packages and push malicious patch releases.
 - **Persistence:** Linux developer systems were backdoored with a user-level systemd service.
 - **C2 rotation:** an ICP canister served as a dead-drop URL source that could be updated remotely.
+
+### Mini Shai-Hulud expansion
+- April-May 2026 reporting links TeamPCP-attributed or TeamPCP-linked activity to Mini Shai-Hulud waves affecting SAP, Intercom, TanStack, Mistral AI, UiPath, OpenSearch, and PyPI package ecosystems.
+- Key escalation: hijacked legitimate release workflows can produce malicious npm packages with valid provenance/SLSA attestations, so provenance must be paired with workflow/cache integrity checks.
 
 ## Defender signals
 - Moved or force-pushed GitHub Actions tags/refs
@@ -79,5 +84,8 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 ## Sources
 - [Aikido](https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise)
 - [Wiz](https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack)
+- [Wiz Mini Shai-Hulud SAP npm coverage](https://www.wiz.io/blog/mini-shai-hulud-supply-chain-sap-npm)
+- [Snyk TanStack Mini Shai-Hulud coverage](https://snyk.io/blog/tanstack-npm-packages-compromised/)
+- [Akamai Mini Shai-Hulud analysis](https://www.akamai.com/blog/security-research/mini-shai-hulud-worm-returns-goes-public)
 - [StepSecurity](https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation)
 - [StepSecurity blog index](https://www.stepsecurity.io/blog)

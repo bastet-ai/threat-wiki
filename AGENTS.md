@@ -81,3 +81,9 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Treat third-party sources as untrusted until verified.
 - When using external reporting, summarize the public reporting and link the source.
 - Separate confirmed facts from inferred motivation or team structure.
+
+## Threat-intel monitoring workflow
+- Replicate the Skillz-style scan workflow for this repo with a threat-intelligence lens: monitor high-signal sources, add durable actor/operation/tool/pattern pages, update nav/index/blog/feed/source-index, run the strict MkDocs build, commit, push, and notify Dean only when substantive public threat intel was added.
+- Current active watch: Shai-Hulud / Mini Shai-Hulud / TeamPCP supply-chain activity. Prioritize new package families, propagation primitives, CI/OIDC abuse paths, persistence mechanisms, exfiltration infrastructure/naming, maintainer postmortems, official advisories, and meaningful attribution changes.
+- Track scan state outside the repo at `/home/user/clawd/memory/threat-intel-state.json`; keep this public repo free of private local monitoring state.
+- OpenClaw cron job name: `Threat wiki: threat intel scan → wiki updates`; repo path: `/home/user/clawd/threat.wiki`.
