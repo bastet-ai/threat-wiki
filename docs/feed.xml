@@ -5,6 +5,27 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Webworm cloud-service C2 and proxy toolkit</title>
+      <link>https://threat.wiki/actors/webworm/</link>
+      <description>Webworm 2025 activity adds Discord and Microsoft Graph C2 backdoors, GitHub staging, SoftEther VPN, and custom proxy chains across European and South African targets.</description>
+      <pubDate>Wed, 20 May 2026 21:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/webworm/</guid>
+    </item>
+    <item>
+      <title>Fox Tempest malware-signing-as-a-service</title>
+      <link>https://threat.wiki/actors/fox-tempest/</link>
+      <description>Microsoft's Fox Tempest reporting covers Artifact Signing abuse, short-lived fraudulent certificates, ransomware enablement, and the OpFauxSign disruption.</description>
+      <pubDate>Wed, 20 May 2026 21:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/fox-tempest/</guid>
+    </item>
+    <item>
+      <title>TamperedChef-style productivity malware clusters</title>
+      <link>https://threat.wiki/ops/tamperedchef-productivity-malware-clusters/</link>
+      <description>Unit 42 reporting on trojanized productivity-app clusters using malvertising, code signing, dormancy, C2, infostealers, proxy tooling, and RAT delivery.</description>
+      <pubDate>Wed, 20 May 2026 21:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/tamperedchef-productivity-malware-clusters/</guid>
+    </item>
+    <item>
       <title>Nx Console VS Code extension compromise</title>
       <link>https://threat.wiki/ops/nx-console-vscode-extension-compromise/</link>
       <description>Threat-intelligence summary of the May 2026 compromised Nx Console VS Code extension, poisoned IDE-extension distribution, developer credential theft, persistence, and GitHub source-code exfiltration risk.</description>

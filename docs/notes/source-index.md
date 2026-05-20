@@ -10,6 +10,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **Snyk Blog / Security Research** — https://snyk.io/blog/feed/
 - **JFrog Security Research** — https://research.jfrog.com/ (HTML watch) and JFrog Blog RSS https://jfrog.com/blog/feed/
 - **Unit 42 Research** — https://unit42.paloaltonetworks.com/feed/
+- **ESET WeLiveSecurity / ESET Research** — https://www.welivesecurity.com/en/eset-research/ (HTML/RSS watch)
 - **Microsoft Security Blog** — https://www.microsoft.com/en-us/security/blog/ (HTML watch; RSS may return 403)
 - **The Hacker News** — https://feeds.feedburner.com/TheHackersNews
 - **Boost Security Labs** — https://labs.boostsecurity.io/feed.xml
