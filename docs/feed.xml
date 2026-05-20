@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Nx Console VS Code extension compromise</title>
+      <link>https://threat.wiki/ops/nx-console-vscode-extension-compromise/</link>
+      <description>Threat-intelligence summary of the May 2026 compromised Nx Console VS Code extension, poisoned IDE-extension distribution, developer credential theft, persistence, and GitHub source-code exfiltration risk.</description>
+      <pubDate>Wed, 20 May 2026 19:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/nx-console-vscode-extension-compromise/</guid>
+    </item>
+    <item>
       <title>Mini Shai-Hulud npm/PyPI worm campaign</title>
       <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/</link>
       <description>Threat-intelligence summary of the April-May 2026 Mini Shai-Hulud supply-chain waves, TeamPCP-attributed reporting, CI/OIDC abuse, package propagation, and defender hunting priorities.</description>

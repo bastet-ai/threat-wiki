@@ -8,6 +8,7 @@ nav:
   - Blog: blog/index.md
   - Ops:
       - Mini Shai-Hulud npm/PyPI worm campaign: ops/mini-shai-hulud-npm-pypi-worm-campaign.md
+      - Nx Console VS Code extension compromise: ops/nx-console-vscode-extension-compromise.md
       - ConnectWise ScreenConnect exploitation wave: ops/connectwise-screenconnect-exploitation-wave.md
       - Codecov Bash Uploader compromise: ops/codecov-bash-uploader-compromise.md
       - Okta support-system compromise: ops/cloudflare-okta-token-theft-incident.md
@@ -34,6 +35,7 @@ nav:
       - TeamPCP: actors/teampcp.md
   - Ops:
       - Mini Shai-Hulud npm/PyPI worm campaign: ops/mini-shai-hulud-npm-pypi-worm-campaign.md
+      - Nx Console VS Code extension compromise: ops/nx-console-vscode-extension-compromise.md
       - Microsoft Midnight Blizzard mailbox theft from Microsoft: ops/microsoft-midnight-blizzard-mailbox-theft-from-microsoft.md
       - ConnectWise ScreenConnect exploitation wave: ops/connectwise-screenconnect-exploitation-wave.md
       - Codecov Bash Uploader compromise: ops/codecov-bash-uploader-compromise.md

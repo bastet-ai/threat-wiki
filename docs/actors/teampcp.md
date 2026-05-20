@@ -58,6 +58,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md) (adjacent IDE-extension compromise; attribution remains caveated)
 
 ### Operational chain summary
 - **Initial trust-boundary break:** compromised Trivy release and related GitHub Actions enabled credential theft.
@@ -67,8 +68,9 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - **C2 rotation:** an ICP canister served as a dead-drop URL source that could be updated remotely.
 
 ### Mini Shai-Hulud expansion
-- April-May 2026 reporting links TeamPCP-attributed or TeamPCP-linked activity to Mini Shai-Hulud waves affecting SAP, Intercom, TanStack, Mistral AI, UiPath, OpenSearch, and PyPI package ecosystems.
+- April-May 2026 reporting links TeamPCP-attributed or TeamPCP-linked activity to Mini Shai-Hulud waves affecting SAP, Intercom, TanStack, AntV, Microsoft's `durabletask` PyPI package, Mistral AI, UiPath, OpenSearch, and broader npm/PyPI package ecosystems.
 - Key escalation: hijacked legitimate release workflows can produce malicious npm packages with valid provenance/SLSA attestations, so provenance must be paired with workflow/cache integrity checks.
+- Later reporting expands the watch area beyond package registries into developer endpoints and IDE extensions: poisoned VS Code extensions can become the path from supply-chain compromise to source-code theft.
 
 ## Defender signals
 - Moved or force-pushed GitHub Actions tags/refs
@@ -88,4 +90,8 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [Snyk TanStack Mini Shai-Hulud coverage](https://snyk.io/blog/tanstack-npm-packages-compromised/)
 - [Akamai Mini Shai-Hulud analysis](https://www.akamai.com/blog/security-research/mini-shai-hulud-worm-returns-goes-public)
 - [StepSecurity](https://www.stepsecurity.io/blog/hackerbot-claw-github-actions-exploitation)
+- [StepSecurity AntV Mini Shai-Hulud coverage](https://www.stepsecurity.io/blog/shai-hulud-here-we-go-again-mass-npm-supply-chain-attack-hits-the-antv-ecosystem)
+- [StepSecurity durabletask coverage](https://www.stepsecurity.io/blog/microsofts-durabletask-pypi-package-compromised-in-supply-chain-attack)
+- [StepSecurity Nx Console coverage](https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised)
+- [Grafana Labs TanStack incident update](https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/)
 - [StepSecurity blog index](https://www.stepsecurity.io/blog)

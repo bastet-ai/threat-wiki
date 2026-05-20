@@ -24,7 +24,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coinbase](#coinbase) (1)
 - [ConnectWise](#connectwise) (1)
 - [credential theft](#credential-theft) (2)
-- [credential-theft](#credential-theft) (2)
+- [credential-theft](#credential-theft) (3)
 - [critical-infrastructure](#critical-infrastructure) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
@@ -45,7 +45,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [filename-injection](#filename-injection) (1)
 - [FTA](#fta) (1)
 - [GCS](#gcs) (1)
-- [GitHub](#github) (1)
+- [GitHub](#github) (2)
 - [GitHub Actions](#github-actions) (7)
 - [GitHub OAuth](#github-oauth) (1)
 - [group](#group) (1)
@@ -54,6 +54,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HAR files](#har-files) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
+- [IDE extension](#ide-extension) (1)
 - [identity](#identity) (1)
 - [Iran](#iran) (1)
 - [Israel](#israel) (1)
@@ -71,10 +72,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm](#npm) (4)
 - [OIDC](#oidc) (1)
 - [Okta](#okta) (2)
-- [operations](#operations) (20)
-- [ops](#ops) (17)
+- [operations](#operations) (21)
+- [ops](#ops) (18)
 - [people](#people) (1)
-- [persistence](#persistence) (4)
+- [persistence](#persistence) (5)
 - [Piriform](#piriform) (1)
 - [prompt-injection](#prompt-injection) (1)
 - [psychological operations](#psychological-operations) (1)
@@ -98,9 +99,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spearphishing](#spearphishing) (1)
 - [SSH](#ssh) (1)
 - [state-linked](#state-linked) (1)
-- [supply-chain](#supply-chain) (14)
+- [supply-chain](#supply-chain) (15)
 - [tag tampering](#tag-tampering) (1)
-- [TeamPCP](#teampcp) (2)
+- [TeamPCP](#teampcp) (3)
 - [TeamViewer](#teamviewer) (1)
 - [Telegram](#telegram) (1)
 - [tj-actions](#tj-actions) (1)
@@ -109,6 +110,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trading Technologies](#trading-technologies) (1)
 - [transnational repression](#transnational-repression) (1)
 - [Twilio](#twilio) (1)
+- [VS Code](#vs-code) (1)
 - [watering-hole](#watering-hole) (1)
 - [Windows](#windows) (2)
 - [wiper](#wiper) (1)
@@ -193,6 +195,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## credential-theft
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 
 ## critical-infrastructure
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -259,6 +262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitHub
 - [JiaT75](../people/jiat75.md)
+- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 
 ## GitHub Actions
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -290,6 +294,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ICS
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
+## IDE extension
+- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 
 ## identity
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -363,6 +370,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -383,6 +391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -394,6 +403,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## persistence
 - [CanisterWorm](../tools/canisterworm.md)
+- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
@@ -481,6 +491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JiaT75](../people/jiat75.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -492,6 +503,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TeamPCP
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 
 ## TeamViewer
@@ -521,6 +533,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Twilio
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+
+## VS Code
+- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 
 ## watering-hole
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)

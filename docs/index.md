@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Nx Console VS Code extension compromise](ops/nx-console-vscode-extension-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Handala](actors/handala.md)
 - [APT29](actors/apt29-cozy-bear-midnight-blizzard.md)

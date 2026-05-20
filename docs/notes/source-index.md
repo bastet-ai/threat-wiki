@@ -20,6 +20,11 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **CISA KEV** — https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
 - **GitHub Security Advisories** — https://github.com/advisories.atom
 
+## Maintainer / vendor incident posts to watch during active campaigns
+- **Nx / nrwl security advisories and issues** — https://github.com/nrwl/nx/security/advisories and https://github.com/nrwl/nx/issues
+- **Grafana Labs security posts** — https://grafana.com/blog/tags/security/
+- **PyPI project and malware-report pages for affected packages** — use package-specific release history as confirmation for yanked or restored versions.
+
 ## Notes
 - Prefer RSS/Atom over ad hoc web searches.
 - If a feed URL changes, update this page and the monitoring config together.

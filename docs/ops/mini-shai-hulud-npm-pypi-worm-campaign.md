@@ -52,7 +52,16 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 ### May 2026: broader npm/PyPI spread
 - JFrog reported more than 170 npm packages and 2 PyPI packages affected in its analysis window, with npm payloads using malicious `preinstall` loaders and PyPI payloads using import-time downloaders.
 - Socket reported continuing package findings across npm and PyPI ecosystems, including OpenSearch, Mistral AI, Guardrails AI, Squawk, and other artifacts in related coverage.
-- News coverage and vendor reports indicate additional waves against popular JavaScript namespaces, including `@antv`/visualization-related packages.
+- StepSecurity and Snyk reported an AntV-centered wave involving the `atool` maintainer account, `timeago.js`, `echarts-for-react`, and many `@antv/*` visualization packages. StepSecurity described a two-wave May 19 publish pattern: first using a `preinstall` hook that invoked Bun, then adding Bun as an explicit dependency to improve delivery reliability.
+- StepSecurity reported that AntV-wave payloads read GitHub Actions runner process memory to recover masked CI/CD secrets, harvested more than 130 developer/cloud/Kubernetes/Vault/crypto-tool paths, exfiltrated through a GitHub dead-drop and `t.m-kosche[.]com`, and created thousands of public Dune/Shai-Hulud-themed repositories from stolen tokens.
+- StepSecurity and Snyk reported malicious `durabletask` PyPI versions `1.4.1`, `1.4.2`, and `1.4.3` in Microsoft's official Durable Task Python SDK. Unlike the TanStack trusted-publishing chain, these uploads reportedly bypassed the GitHub release workflow and used real PyPI publishing credentials.
+- The `durabletask` payload was reported as a Linux-focused Python zipapp (`rope.pyz`) that harvested AWS, Azure, GCP, Kubernetes, password-manager, and developer-tool secrets, used redundant exfiltration paths, installed fake systemd persistence, attempted lateral movement via AWS SSM and Kubernetes `kubectl exec`, skipped Russian-locale systems, and used TeamPCP-linked infrastructure (`t.m-kosche[.]com`).
+- Grafana Labs publicly stated that the TanStack/Mini Shai-Hulud incident led to unauthorized access to its GitHub environment and source-code download after one impacted workflow token was missed during rotation. Grafana reported no evidence of production-system or Grafana Cloud compromise and said its codebase was downloaded but not altered.
+
+### May 2026: adjacent IDE-extension compromise lane
+- StepSecurity reported a compromised Nx Console VS Code extension (`nrwl.angular-console` `18.95.0`) that fetched an obfuscated payload from an orphan commit in the official `nrwl/nx` repository. This is not the same registry lane as npm/PyPI worming, but it targets the same developer-trust boundary.
+- GitHub later publicly described a compromise of an employee device involving a poisoned VS Code extension and exfiltration of roughly 3,800 internal repositories; public reporting treats Nx Console as a likely candidate based on timing, but the reviewed GitHub statements did not name the extension.
+- See also: [Nx Console VS Code extension compromise](nx-console-vscode-extension-compromise.md).
 
 ## Tradecraft map
 
@@ -81,6 +90,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - Repo naming/description patterns reported by vendors, including Dune/Shai-Hulud themed descriptions and configuration-storage masquerades.
 - Automated enumeration of packages the victim can publish, tarball modification, version bumping, metadata injection, and republishing.
 - Repository poisoning through `.claude/` and `.vscode/` files in variants that try to reach AI coding agents and IDE automation.
+- IDE-extension compromise as an adjacent lane: poisoned VS Code extensions can reach developer endpoints even when package lockfiles and build dependencies are clean.
 
 ### Persistence / destructive behavior
 - Claude Code hooks and VS Code task automation reported as persistence or re-execution paths.
@@ -100,6 +110,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - Hunt workflow logs for unexpected Bun downloads, large obfuscated JavaScript payloads, `preinstall` execution, runner memory scraping, or token/OIDC environment access.
 - Search for unexpected repositories created by maintainers/bots with Shai-Hulud/Dune/config-storage descriptions or encrypted blobs.
 - Audit newly added `.claude/` and `.vscode/` files, especially `settings.json`, `tasks.json`, `setup.mjs`, and copied payload scripts.
+- Inventory IDE extensions on developer machines; treat a malicious editor extension as an endpoint compromise capable of reading source, secrets, shell history, and authenticated GitHub sessions.
 
 ### Package and registry hunting
 - Diff newly published package tarballs against prior clean versions.
@@ -120,6 +131,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 
 ## Related pages
 - [TeamPCP](../actors/teampcp.md)
+- [Nx Console VS Code extension compromise](nx-console-vscode-extension-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm timeline](trivy-lite-llm-compromise-timeline.md)
 - [Trivy compromise](trivy-compromise.md)
 - [CanisterWorm](../tools/canisterworm.md)
@@ -134,4 +146,10 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - Microsoft: https://www.microsoft.com/en-us/security/blog/2025/12/09/shai-hulud-2-0-guidance-for-detecting-investigating-and-defending-against-the-supply-chain-attack/
 - Unit 42: https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
 - Socket: https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack
+- StepSecurity AntV wave: https://www.stepsecurity.io/blog/shai-hulud-here-we-go-again-mass-npm-supply-chain-attack-hits-the-antv-ecosystem
+- StepSecurity durabletask: https://www.stepsecurity.io/blog/microsofts-durabletask-pypi-package-compromised-in-supply-chain-attack
+- Snyk AntV wave: https://snyk.io/blog/mini-shai-hulud-antv-npm-supply-chain-attack/
+- Snyk durabletask: https://snyk.io/blog/durabletask-pypi-supply-chain-attack/
+- Grafana Labs: https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/
+- StepSecurity Nx Console: https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised
 - CISA: https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem
