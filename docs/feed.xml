@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>node-ipc 2026 npm maintainer-account compromise</title>
+      <link>https://threat.wiki/ops/node-ipc-2026-npm-maintainer-compromise/</link>
+      <description>Socket and Snyk reporting on malicious node-ipc npm versions 9.1.6, 9.2.3, and 12.0.1, likely maintainer-account abuse, CommonJS module-load execution, and credential theft.</description>
+      <pubDate>Thu, 21 May 2026 13:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/node-ipc-2026-npm-maintainer-compromise/</guid>
+    </item>
+    <item>
       <title>SANDWORM_MODE AI-toolchain npm worm</title>
       <link>https://threat.wiki/ops/sandworm-mode-ai-toolchain-worm/</link>
       <description>Socket's SANDWORM_MODE reporting adds a Shai-Hulud-style npm typosquat worm focused on CI secrets, git hook persistence, malicious GitHub Actions, MCP prompt-injection, and AI-toolchain credential theft.</description>

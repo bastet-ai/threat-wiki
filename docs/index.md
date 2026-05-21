@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [node-ipc 2026 npm maintainer-account compromise](ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [TeamPCP](actors/teampcp.md)
 - [Nx Console VS Code extension compromise](ops/nx-console-vscode-extension-compromise.md)

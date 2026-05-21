@@ -5,6 +5,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## All tags
 - [3CX](#3cx) (1)
 - [Accellion](#accellion) (1)
+- [account-takeover](#account-takeover) (1)
 - [actors](#actors) (2)
 - [adware](#adware) (1)
 - [AI tooling](#ai-tooling) (1)
@@ -37,7 +38,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise](#connectwise) (1)
 - [Coruna](#coruna) (1)
 - [credential theft](#credential-theft) (2)
-- [credential-theft](#credential-theft) (6)
+- [credential-theft](#credential-theft) (7)
 - [critical-infrastructure](#critical-infrastructure) (1)
 - [cryptocurrency](#cryptocurrency) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
@@ -88,6 +89,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux](#linux) (1)
 - [macOS](#macos) (1)
 - [maintainer persona](#maintainer-persona) (1)
+- [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malvertising](#malvertising) (1)
 - [malware](#malware) (3)
@@ -100,13 +102,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MOIS](#mois) (1)
 - [MSP](#msp) (1)
 - [NetScaler](#netscaler) (1)
-- [npm](#npm) (7)
+- [node-ipc](#node-ipc) (1)
+- [npm](#npm) (8)
 - [OIDC](#oidc) (1)
 - [Okta](#okta) (2)
 - [OneDrive](#onedrive) (1)
-- [operations](#operations) (27)
+- [operations](#operations) (28)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (24)
+- [ops](#ops) (25)
 - [package-takeover](#package-takeover) (1)
 - [people](#people) (1)
 - [persistence](#persistence) (7)
@@ -139,7 +142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spearphishing](#spearphishing) (1)
 - [SSH](#ssh) (1)
 - [state-linked](#state-linked) (1)
-- [supply-chain](#supply-chain) (20)
+- [supply-chain](#supply-chain) (21)
 - [tag tampering](#tag-tampering) (2)
 - [TamperedChef](#tamperedchef) (1)
 - [TeamPCP](#teampcp) (5)
@@ -168,6 +171,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Accellion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+
+## account-takeover
+- [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 
 ## actors
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -286,6 +292,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
@@ -457,6 +464,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## maintainer persona
 - [JiaT75](../people/jiat75.md)
 
+## maintainer-compromise
+- [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+
 ## malicious releases
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 
@@ -496,11 +506,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NetScaler
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
+## node-ipc
+- [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+
 ## npm
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
@@ -533,6 +547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -563,6 +578,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -696,6 +712,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JiaT75](../people/jiat75.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)

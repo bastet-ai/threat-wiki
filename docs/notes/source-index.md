@@ -17,7 +17,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **Boost Security Labs** — https://labs.boostsecurity.io/feed.xml
 - **StepSecurity blog** — https://www.stepsecurity.io/blog/rss.xml
 - **Trail of Bits blog** — https://blog.trailofbits.com/feed/
-- **PortSwigger Research** — https://portswigger.net/research/rss.xml
+- **PortSwigger Research** — https://portswigger.net/research/rss
 - **ProjectDiscovery blog** — https://projectdiscovery.io/blog/rss
 - **CISA KEV** — https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
 - **GitHub Security Advisories** — https://github.com/advisories.atom
