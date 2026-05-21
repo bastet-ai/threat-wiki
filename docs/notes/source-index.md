@@ -14,7 +14,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **Microsoft Security Blog** — https://www.microsoft.com/en-us/security/blog/ (HTML watch; RSS may return 403)
 - **GitHub Security Blog** — https://github.blog/security/ (HTML watch for GitHub platform incident notes and postmortems)
 - **The Hacker News** — https://feeds.feedburner.com/TheHackersNews
-- **Boost Security Labs** — https://labs.boostsecurity.io/feed.xml
+- **Boost Security Labs** — https://labs.boostsecurity.io/rss.xml (watch CI/CD supply-chain techniques such as deployment poisoning and TeamPCP follow-ups)
 - **StepSecurity blog** — https://www.stepsecurity.io/blog/rss.xml
 - **Trail of Bits blog** — https://blog.trailofbits.com/feed/
 - **PortSwigger Research** — https://portswigger.net/research/rss

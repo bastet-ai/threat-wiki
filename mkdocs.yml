@@ -72,6 +72,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - GitHub Actions deployment poisoning: patterns/deployment-poisoning-github-actions.md
       - Supply-chain group profile: patterns/supply-chain-actor-profile.md
   - Notes:
       - How to use this wiki: notes/how-to-use.md

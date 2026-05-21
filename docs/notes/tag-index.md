@@ -26,7 +26,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner](#ccleaner) (1)
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (1)
-- [CI/CD](#cicd) (13)
+- [CI/CD](#cicd) (14)
 - [CircleCI](#circleci) (1)
 - [Citrix](#citrix) (1)
 - [cloud](#cloud) (2)
@@ -35,6 +35,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov](#codecov) (1)
 - [Coinbase](#coinbase) (1)
 - [command-execution](#command-execution) (1)
+- [command-injection](#command-injection) (1)
 - [ConnectWise](#connectwise) (1)
 - [Coruna](#coruna) (1)
 - [credential theft](#credential-theft) (2)
@@ -48,6 +49,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [cybercrime](#cybercrime) (1)
 - [data theft](#data-theft) (1)
+- [deployment_status](#deployment_status) (1)
 - [developer machines](#developer-machines) (1)
 - [DEWMODE](#dewmode) (1)
 - [Discord](#discord) (1)
@@ -69,7 +71,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FTA](#fta) (1)
 - [GCS](#gcs) (1)
 - [GitHub](#github) (3)
-- [GitHub Actions](#github-actions) (10)
+- [GitHub Actions](#github-actions) (11)
 - [GitHub OAuth](#github-oauth) (1)
 - [Go](#go) (1)
 - [group](#group) (1)
@@ -111,12 +113,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpFauxSign](#opfauxsign) (1)
 - [ops](#ops) (25)
 - [package-takeover](#package-takeover) (1)
+- [patterns](#patterns) (1)
 - [people](#people) (1)
 - [persistence](#persistence) (7)
 - [Piriform](#piriform) (1)
 - [prompt-injection](#prompt-injection) (2)
 - [proxy](#proxy) (2)
 - [psychological operations](#psychological-operations) (1)
+- [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (2)
 - [ransomware](#ransomware) (1)
 - [RAT](#rat) (1)
@@ -130,7 +134,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScreenConnect](#screenconnect) (1)
 - [script-injection](#script-injection) (1)
 - [secret exposure](#secret-exposure) (1)
-- [secrets](#secrets) (2)
+- [secrets](#secrets) (3)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
@@ -141,8 +145,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [South Africa](#south-africa) (1)
 - [spearphishing](#spearphishing) (1)
 - [SSH](#ssh) (1)
+- [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
-- [supply-chain](#supply-chain) (21)
+- [supply-chain](#supply-chain) (22)
 - [tag tampering](#tag-tampering) (2)
 - [TamperedChef](#tamperedchef) (1)
 - [TeamPCP](#teampcp) (5)
@@ -241,6 +246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -276,6 +282,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## command-execution
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+
+## command-injection
+- [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## ConnectWise
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
@@ -323,6 +332,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## data theft
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+
+## deployment_status
+- [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## developer machines
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -395,6 +407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub Actions
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+- [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -592,6 +605,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## package-takeover
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
+## patterns
+- [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+
 ## people
 - [JiaT75](../people/jiat75.md)
 
@@ -617,6 +633,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## psychological operations
 - [Handala](../actors/handala.md)
+
+## pwn-request
+- [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## PyPI
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -662,6 +681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## secrets
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## session hijacking
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -696,6 +716,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SSH
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## SSRF
+- [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+
 ## state-linked
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 
@@ -707,6 +730,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [JiaT75](../people/jiat75.md)
