@@ -12,6 +12,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **Unit 42 Research** — https://unit42.paloaltonetworks.com/feed/ (watch recurring npm threat-landscape updates for Shai-Hulud/Mini Shai-Hulud wave metrics, SLSA/OIDC findings, and containment-order warnings)
 - **ESET WeLiveSecurity / ESET Research** — https://www.welivesecurity.com/en/eset-research/ (HTML/RSS watch)
 - **Microsoft Security Blog** — https://www.microsoft.com/en-us/security/blog/ (HTML watch; RSS may return 403)
+- **GitHub Security Blog** — https://github.blog/security/ (HTML watch for GitHub platform incident notes and postmortems)
 - **The Hacker News** — https://feeds.feedburner.com/TheHackersNews
 - **Boost Security Labs** — https://labs.boostsecurity.io/feed.xml
 - **StepSecurity blog** — https://www.stepsecurity.io/blog/rss.xml

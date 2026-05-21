@@ -3,14 +3,15 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [TeamPCP group profile](../actors/teampcp.md)
+- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
-- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Webworm](../actors/webworm.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
-- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Handala group profile](../actors/handala.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
@@ -25,5 +26,4 @@ Short updates, summaries, and notable threat writeups.
 - [JiaT75](../people/jiat75.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
-- [TeamPCP group profile](../actors/teampcp.md)
 - [Trivy compromise](../ops/trivy-compromise.md)

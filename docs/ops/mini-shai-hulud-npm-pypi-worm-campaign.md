@@ -50,7 +50,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - Akamai, JFrog, and Unit 42 describe the chain as privileged workflow abuse: a `pull_request_target` workflow checked out fork-controlled code, a poisoned `pnpm` cache was written with a precomputed release cache key, a legitimate release workflow later restored that state, and the payload extracted GitHub Actions OIDC material from `Runner.Worker` memory to obtain npm publishing credentials.
 - Unit 42 reported that the malicious TanStack packages used an injected `optionalDependencies` reference to an orphaned commit surfaced under the legitimate fork network, while secondary propagation victims such as UiPath, Mistral AI, and OpenSearch reverted to more familiar `preinstall` execution.
 - Unit 42 also warned that the May 11 payload installed a background service that polled `api.github.com/user` with the stolen token and, if the token was revoked while the daemon was active, executed destructive home-directory deletion. This makes containment order especially important: stop active execution and isolate hosts before broad token revocation when this variant may be running.
-- Akamai and Unit 42 reported that weaponized Mini Shai-Hulud source code appeared publicly on GitHub after the TanStack wave, increasing copycat risk and weakening attribution based only on worm lineage.
+- Akamai and Unit 42 reported that weaponized Mini Shai-Hulud source code appeared publicly on GitHub after the TanStack wave, increasing copycat risk and weakening attribution based only on worm lineage. Socket separately reported that TeamPCP and BreachForums promoted a Shai-Hulud supply-chain attack contest, creating an explicit incentive for lower-tier copycats to target package ecosystems by download count.
 
 ### May 2026: broader npm/PyPI spread
 - JFrog reported more than 170 npm packages and 2 PyPI packages affected in its analysis window, with npm payloads using malicious `preinstall` loaders and PyPI payloads using import-time downloaders.
@@ -65,7 +65,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 ### May 2026: adjacent GitHub Actions and IDE-extension lanes
 - StepSecurity reported compromised `actions-cool/issues-helper` and `actions-cool/maintain-one-comment` GitHub Actions where all release tags were moved to imposter commits. The malicious action downloaded Bun, read `Runner.Worker` memory for decrypted workflow secrets, and exfiltrated to `t.m-kosche[.]com`, matching infrastructure and runner-memory-theft motifs seen in the broader Mini Shai-Hulud cluster.
 - StepSecurity reported a compromised Nx Console VS Code extension (`nrwl.angular-console` `18.95.0`) that fetched an obfuscated payload from an orphan commit in the official `nrwl/nx` repository. This is not the same registry lane as npm/PyPI worming, but it targets the same developer-trust boundary.
-- GitHub later publicly described a compromise of an employee device involving a poisoned VS Code extension and exfiltration of roughly 3,800 internal repositories; public reporting treats Nx Console as a likely candidate based on timing, but the reviewed GitHub statements did not name the extension.
+- GitHub publicly confirmed a May 18 employee-device compromise involving a poisoned third-party VS Code extension and linked to the Nx Console security advisory; GitHub said the activity involved exfiltration of GitHub-internal repositories only and that the attacker's roughly 3,800-repository claim was directionally consistent with its investigation.
 - See also: [actions-cool GitHub Actions tag compromise](actions-cool-github-actions-tag-compromise.md) and [Nx Console VS Code extension compromise](nx-console-vscode-extension-compromise.md).
 
 ## Tradecraft map
@@ -162,4 +162,6 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - StepSecurity actions-cool: https://www.stepsecurity.io/blog/actions-cool-issues-helper-github-action-compromised-all-tags-point-to-imposter-commit-that-exfiltrates-ci-cd-credentials
 - StepSecurity 48-hour timeline: https://www.stepsecurity.io/blog/5-supply-chain-attacks-in-48-hours-why-securing-one-layer-is-not-enough
 - StepSecurity Nx Console: https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised
+- GitHub Blog Nx Console incident note: https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/
+- Socket TeamPCP contest reporting: https://socket.dev/blog/teampcp-supply-chain-attack-contest
 - CISA: https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem

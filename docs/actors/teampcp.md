@@ -72,7 +72,8 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - April-May 2026 reporting links TeamPCP-attributed or TeamPCP-linked activity to Mini Shai-Hulud waves affecting SAP, Intercom, TanStack, AntV, Microsoft's `durabletask` PyPI package, Mistral AI, UiPath, OpenSearch, and broader npm/PyPI package ecosystems.
 - Unit 42's May 20 update describes two important May-wave escalations: TanStack trusted-publishing abuse produced malicious packages with valid SLSA Build Level 3 provenance, while the AntV wave produced roughly 639 malicious package versions across 323 packages in about one hour.
 - Key escalation: hijacked legitimate release workflows can produce malicious npm packages with valid provenance/SLSA attestations, so provenance must be paired with workflow/cache integrity checks.
-- Later reporting expands the watch area beyond package registries into GitHub Actions tag integrity, developer endpoints, and IDE extensions: retargeted action tags can expose CI/CD secrets, while poisoned VS Code extensions can become the path from supply-chain compromise to source-code theft.
+- Later reporting expands the watch area beyond package registries into GitHub Actions tag integrity, developer endpoints, and IDE extensions: retargeted action tags can expose CI/CD secrets, while poisoned VS Code extensions can become the path from supply-chain compromise to source-code theft. GitHub's May 20 incident note confirmed a poisoned Nx Console extension was involved in employee-device compromise and GitHub-internal repository exfiltration.
+- Socket reported that TeamPCP and BreachForums promoted a Shai-Hulud supply-chain attack contest with a small Monero prize for the biggest package compromise. Treat this as a copycat/recruitment signal: it incentivizes broad package compromise by download count and may increase noisy attempts by lower-tier actors using leaked/open Shai-Hulud tooling.
 
 ## Defender signals
 - Moved or force-pushed GitHub Actions tags/refs, especially tags pointing to commits outside normal branch ancestry
@@ -83,6 +84,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Large-scale package publication shortly after token theft
 - Valid provenance/SLSA attestations on malicious packages when a legitimate trusted-publishing workflow was poisoned before publication
 - Token-revocation-triggered destructive behavior on affected developer hosts in variants that keep polling GitHub with stolen credentials
+- Copycat contest/recruitment chatter that rewards high-download package compromise, especially when paired with public Shai-Hulud tooling leaks
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
@@ -98,6 +100,8 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [StepSecurity durabletask coverage](https://www.stepsecurity.io/blog/microsofts-durabletask-pypi-package-compromised-in-supply-chain-attack)
 - [StepSecurity actions-cool GitHub Actions coverage](https://www.stepsecurity.io/blog/actions-cool-issues-helper-github-action-compromised-all-tags-point-to-imposter-commit-that-exfiltrates-ci-cd-credentials)
 - [StepSecurity Nx Console coverage](https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised)
+- [GitHub Nx Console incident note](https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/)
+- [Socket TeamPCP supply-chain attack contest reporting](https://socket.dev/blog/teampcp-supply-chain-attack-contest)
 - [Grafana Labs TanStack incident update](https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/)
 - [Unit 42 npm threat landscape May 20 update](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
 - [StepSecurity blog index](https://www.stepsecurity.io/blog)

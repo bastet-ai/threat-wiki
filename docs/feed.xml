@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>TeamPCP copycat and Nx Console source-exfiltration update</title>
+      <link>https://threat.wiki/actors/teampcp/</link>
+      <description>GitHub confirmed poisoned Nx Console extension involvement in employee-device compromise and GitHub-internal repository exfiltration; Socket reported TeamPCP/BreachForums contest chatter that increases Shai-Hulud copycat risk.</description>
+      <pubDate>Thu, 21 May 2026 05:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/teampcp/#2026-05-21-nx-console-contest-update</guid>
+    </item>
+    <item>
       <title>art-template Coruna-style iOS watering-hole compromise</title>
       <link>https://threat.wiki/ops/art-template-coruna-ios-watering-hole/</link>
       <description>Socket reporting on compromised art-template npm releases that injected browser-side loaders and delivered a Coruna-style Safari/iOS watering-hole exploit framework.</description>

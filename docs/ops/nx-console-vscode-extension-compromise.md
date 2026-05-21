@@ -3,7 +3,7 @@
 ## Summary
 On May 18, 2026, public reporting from StepSecurity and the Nx project described a compromised release of the **Nx Console** VS Code extension (`nrwl.angular-console` version `18.95.0`). The malicious extension used the IDE extension channel rather than npm package publication: once a developer opened a workspace, the extension fetched and executed an obfuscated payload from an orphan commit hidden in the official `nrwl/nx` GitHub repository.
 
-StepSecurity reported that the payload stole developer and CI/CD credentials, exfiltrated through multiple channels, and installed macOS persistence. GitHub later publicly described a separate employee-device compromise involving a poisoned VS Code extension that led to exfiltration of roughly 3,800 GitHub-internal repositories; public reporting treats Nx Console as a likely candidate based on timing, but GitHub had not publicly named the extension in the sources reviewed here.
+StepSecurity reported that the payload stole developer and CI/CD credentials, exfiltrated through multiple channels, and installed macOS persistence. GitHub later publicly confirmed that an employee device was compromised by a poisoned third-party VS Code extension and linked to the Nx Console security advisory; GitHub said the activity involved exfiltration of GitHub-internal repositories only and that the attacker's claim of roughly 3,800 repositories was directionally consistent with its investigation.
 
 ## Tags
 - ops
@@ -20,7 +20,7 @@ StepSecurity reported that the payload stole developer and CI/CD credentials, ex
 - IDE extensions run on high-trust developer machines where source code, cloud credentials, package-publishing tokens, password-manager sessions, and GitHub access often coexist.
 - Marketplace distribution is an adjacent supply-chain lane: defenders who only scan package lockfiles can miss poisoned editor extensions.
 - The campaign shows a useful attacker pattern: stolen contributor or maintainer tokens can be used to plant unreachable/orphaned repository content that is still retrievable by commit hash, then referenced by a trusted release artifact.
-- If the GitHub incident is tied to this channel, source-code theft becomes a downstream impact of developer endpoint compromise, not just registry compromise.
+- GitHub's May 20 incident note confirms source-code theft as a downstream impact of the poisoned extension channel: developer endpoint compromise can become internal-repository exposure even without customer-repository compromise.
 
 ## Reported chain
 1. A contributor token was reportedly stolen during an earlier supply-chain incident.
@@ -38,8 +38,8 @@ StepSecurity reported that the payload stole developer and CI/CD credentials, ex
 - Add extension-marketplace telemetry to supply-chain monitoring alongside package registries and GitHub Actions workflows.
 
 ## Attribution notes
-- StepSecurity links the broader durabletask and Mini Shai-Hulud activity to TeamPCP. For Nx Console, keep attribution caveated unless a primary source directly ties the extension compromise to TeamPCP.
-- Public reporting says GitHub disclosed an employee-device compromise involving a poisoned VS Code extension, but the reviewed GitHub statements did not name Nx Console.
+- GitHub's incident note links the employee-device compromise to the Nx Console security advisory, confirming the extension family involved in the source-code exfiltration event.
+- StepSecurity links the broader durabletask and Mini Shai-Hulud activity to TeamPCP. For Nx Console, keep TeamPCP attribution caveated unless a primary source directly ties the extension compromise to TeamPCP.
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -48,4 +48,6 @@ StepSecurity reported that the payload stole developer and CI/CD credentials, ex
 
 ## Sources
 - StepSecurity: https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised
+- GitHub Blog: https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/
+- GitHub Security Advisory: https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w
 - The Hacker News: https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html
