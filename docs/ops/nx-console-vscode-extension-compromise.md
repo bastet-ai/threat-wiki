@@ -29,6 +29,25 @@ StepSecurity reported that the payload stole developer and CI/CD credentials, ex
 4. Opening a workspace triggered the extension to fetch and execute a large obfuscated payload from the orphan commit.
 5. The payload targeted GitHub, npm, cloud, Kubernetes, Vault, 1Password, and other developer secrets; StepSecurity also reported HTTPS, GitHub API, and DNS-tunneling exfiltration plus macOS Python backdoor persistence.
 
+## StepSecurity technical update (May 21)
+StepSecurity's expanded analysis adds several durable details for defenders:
+
+- **Exposure window:** the malicious VS Code Marketplace release was reportedly live for roughly 11 minutes, from `12:36` to `12:47` UTC on May 18, 2026. OpenVSX was not affected.
+- **Delivery:** the injected extension code launched a hidden VS Code task named `install-mcp-extension` that ran `npx -y github:nrwl/nx#558b09d7ad0d1660e2a0fb8a06da81a6f42e06d2`; the orphan commit presented itself as `nx-next` and pulled `bun` to provide the runtime.
+- **Anti-analysis and stealth:** the payload checked CPU count, likely geofenced Russian/CIS locale/timezone signals, created a lock file, and daemonized with `__DAEMONIZED=1` so the parent task returned cleanly.
+- **Collection breadth:** collectors targeted GitHub, npm, AWS, Vault, Kubernetes, 1Password, local filesystem secrets, Claude Code configuration under `~/.claude/`, and Linux process memory via `/proc/*/mem`.
+- **Exfiltration:** StepSecurity described three independent paths: encrypted HTTPS, GitHub API abuse using discovered tokens, and DNS tunneling.
+- **Trust forgery risk:** the payload included Fulcio/Rekor/SLSA/in-toto logic and npm OIDC token exchange support, meaning a stolen trusted-publishing context could produce malicious packages with apparently valid Sigstore/SLSA provenance.
+- **Persistence:** macOS persistence wrote `~/.local/share/kitty/cat.py` and `~/Library/LaunchAgents/com.user.kitty-monitor.plist`; the backdoor polled GitHub commit search for `firedalazer` commands signed with an embedded RSA key.
+- **Privilege escalation:** on Linux, the payload probed passwordless sudo and attempted to add NOPASSWD sudoers access if that path was available.
+
+## Indicators and hunt pivots
+- Extension: `nrwl.angular-console` exactly `18.95.0`.
+- Orphan commit: `558b09d7ad0d1660e2a0fb8a06da81a6f42e06d2`; tree `ba642fe2c7c65e42dd7f6444b83023dc6827e08c`; `index.js` blob `acfc3f957a63b4cde93ff645f2b6bf26a8ed1bbf`; `package.json` blob `9d88f040c44b5f4d5f9db15ff89310776c168e99`.
+- SHA-256: malicious VSIX `1a4afce34918bdc74ae3f31edaffffaa0ee074d83618f53edfd88137927340b8`; malicious `main.js` `b0cefb66b953e5184b6adb3035e9e267335ac5eabfe1848e07834777b9397b74`; orphan-commit `index.js` `e7347d90653efc565f03733a95e9209d78f9cfa81e31ff2b2dd9d48d75a4b8b1`; dropper `package.json` `43f2b001846c4966073ebffa5be8f15e491a1e7d32bbd805d57406ff540e0dd9`.
+- Host artifacts: `~/.local/share/kitty/cat.py`, `~/Library/LaunchAgents/com.user.kitty-monitor.plist`, `/var/tmp/.gh_update_state`, `/tmp/kitty-*`, VS Code globalState key `nxConsole.mcpExtensionInstalledSha` set to the orphan commit, and npm cache entries for `github:nrwl/nx#558b09d7`.
+- Runtime/network pivots: `__DAEMONIZED=1`, Bun/Node processes from `/tmp/kitty-*`, `python3` running `cat.py`, GitHub search queries for `firedalazer`, DNS tunneling from developer endpoints, IMDS/ECS metadata hits (`169.254.169.254`, `169.254.170.2`), and unexpected Fulcio/Rekor/Sigstore activity under affected identities.
+
 ## Defender heuristics
 - Inventory installed VS Code and OpenVSX extensions across developer endpoints; include version history, publisher, install time, and auto-update settings.
 - Treat `nrwl.angular-console` `18.95.0` installs as endpoint compromise, not merely as a package-removal event.
@@ -39,7 +58,7 @@ StepSecurity reported that the payload stole developer and CI/CD credentials, ex
 
 ## Attribution notes
 - GitHub's incident note links the employee-device compromise to the Nx Console security advisory, confirming the extension family involved in the source-code exfiltration event.
-- StepSecurity links the broader durabletask and Mini Shai-Hulud activity to TeamPCP. For Nx Console, keep TeamPCP attribution caveated unless a primary source directly ties the extension compromise to TeamPCP.
+- StepSecurity's May 21 update states that TeamPCP is behind the GitHub breach and is attempting to sell the stolen data. Treat that as a strong vendor assessment, while preserving the distinction that GitHub's own note did not publicly name TeamPCP.
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)

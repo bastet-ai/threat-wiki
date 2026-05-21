@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Nx Console StepSecurity technical update</title>
+      <link>https://threat.wiki/ops/nx-console-vscode-extension-compromise/</link>
+      <description>StepSecurity's expanded Nx Console analysis adds the orphan commit delivery path, hidden VS Code task, Bun runtime, multi-channel exfiltration, Sigstore/SLSA abuse logic, Python kitty-monitor persistence, and host/network indicators.</description>
+      <pubDate>Thu, 21 May 2026 21:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/nx-console-vscode-extension-compromise/#stepsecurity-technical-update-may-21</guid>
+    </item>
+    <item>
       <title>Showboat Linux post-exploitation framework</title>
       <link>https://threat.wiki/tools/showboat/</link>
       <description>Lumen Black Lotus Labs disclosed Showboat, a Linux post-exploitation framework used against telecom targets with remote shell, file transfer, process hiding, persistence, SOCKS5 proxying, port mapping, and PRC-aligned infrastructure clustering.</description>

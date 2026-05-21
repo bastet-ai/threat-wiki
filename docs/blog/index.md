@@ -3,12 +3,12 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [TeamPCP group profile](../actors/teampcp.md)
 - [Showboat Linux post-exploitation framework](../tools/showboat.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
-- [TeamPCP group profile](../actors/teampcp.md)
-- [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
