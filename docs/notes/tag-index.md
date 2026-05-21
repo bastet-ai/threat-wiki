@@ -13,6 +13,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Artifact Signing](#artifact-signing) (1)
 - [AWS](#aws) (1)
 - [Azure](#azure) (1)
+- [backdoor](#backdoor) (1)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [Bitbucket](#bitbucket) (1)
@@ -29,7 +30,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [code signing](#code-signing) (2)
 - [Codecov](#codecov) (1)
 - [Coinbase](#coinbase) (1)
+- [command-execution](#command-execution) (1)
 - [ConnectWise](#connectwise) (1)
+- [Coruna](#coruna) (1)
 - [credential theft](#credential-theft) (2)
 - [credential-theft](#credential-theft) (4)
 - [critical-infrastructure](#critical-infrastructure) (1)
@@ -43,6 +46,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (1)
 - [DEWMODE](#dewmode) (1)
 - [Discord](#discord) (1)
+- [DNS C2](#dns-c2) (1)
 - [edge appliance](#edge-appliance) (1)
 - [email](#email) (1)
 - [email gateway](#email-gateway) (1)
@@ -51,6 +55,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [espionage](#espionage) (4)
 - [Europe](#europe) (1)
 - [EvilAI](#evilai) (1)
+- [exploit-kit](#exploit-kit) (1)
 - [extortion](#extortion) (1)
 - [faketivism](#faketivism) (1)
 - [filename-injection](#filename-injection) (1)
@@ -60,6 +65,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub](#github) (3)
 - [GitHub Actions](#github-actions) (8)
 - [GitHub OAuth](#github-oauth) (1)
+- [Go](#go) (1)
 - [group](#group) (1)
 - [groups](#groups) (4)
 - [hack-and-leak](#hack-and-leak) (1)
@@ -69,6 +75,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IDE extension](#ide-extension) (1)
 - [identity](#identity) (1)
 - [infostealer](#infostealer) (1)
+- [iOS](#ios) (1)
 - [Iran](#iran) (1)
 - [Israel](#israel) (1)
 - [legacy software](#legacy-software) (1)
@@ -83,16 +90,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA bypass](#mfa-bypass) (2)
 - [Microsoft](#microsoft) (1)
 - [Microsoft Graph](#microsoft-graph) (1)
+- [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (1)
 - [MSP](#msp) (1)
 - [NetScaler](#netscaler) (1)
-- [npm](#npm) (4)
+- [npm](#npm) (5)
 - [OIDC](#oidc) (1)
 - [Okta](#okta) (2)
 - [OneDrive](#onedrive) (1)
-- [operations](#operations) (23)
+- [operations](#operations) (25)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (20)
+- [ops](#ops) (22)
+- [package-takeover](#package-takeover) (1)
 - [people](#people) (1)
 - [persistence](#persistence) (6)
 - [Piriform](#piriform) (1)
@@ -108,6 +117,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (2)
 - [sabotage](#sabotage) (1)
+- [Safari](#safari) (1)
 - [ScreenConnect](#screenconnect) (1)
 - [script-injection](#script-injection) (1)
 - [secret exposure](#secret-exposure) (1)
@@ -123,7 +133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spearphishing](#spearphishing) (1)
 - [SSH](#ssh) (1)
 - [state-linked](#state-linked) (1)
-- [supply-chain](#supply-chain) (16)
+- [supply-chain](#supply-chain) (18)
 - [tag tampering](#tag-tampering) (2)
 - [TamperedChef](#tamperedchef) (1)
 - [TeamPCP](#teampcp) (4)
@@ -135,8 +145,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trading Technologies](#trading-technologies) (1)
 - [transnational repression](#transnational-repression) (1)
 - [Twilio](#twilio) (1)
+- [typosquatting](#typosquatting) (1)
 - [VS Code](#vs-code) (1)
-- [watering-hole](#watering-hole) (1)
+- [watering-hole](#watering-hole) (2)
+- [WebKit](#webkit) (1)
 - [Webworm](#webworm) (1)
 - [Windows](#windows) (3)
 - [wiper](#wiper) (1)
@@ -175,6 +187,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Azure
 - [Fox Tempest](../actors/fox-tempest.md)
+
+## backdoor
+- [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
 ## Barracuda
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -236,8 +251,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## command-execution
+- [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+
 ## ConnectWise
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+
+## Coruna
+- [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## credential theft
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -283,6 +304,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Discord
 - [Webworm](../actors/webworm.md)
 
+## DNS C2
+- [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+
 ## edge appliance
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
@@ -309,6 +333,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## EvilAI
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## exploit-kit
+- [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -346,6 +373,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub OAuth
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
+## Go
+- [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+
 ## group
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 
@@ -375,6 +405,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## infostealer
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## iOS
+- [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## Iran
 - [Handala](../actors/handala.md)
@@ -421,6 +454,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Graph
 - [Webworm](../actors/webworm.md)
 
+## module-proxy
+- [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+
 ## MOIS
 - [Handala](../actors/handala.md)
 
@@ -431,6 +467,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## npm
+- [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -451,6 +488,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -464,6 +502,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+- [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -479,6 +518,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -490,11 +530,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+- [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## package-takeover
+- [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## people
 - [JiaT75](../people/jiat75.md)
@@ -549,6 +593,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## sabotage
 - [Handala](../actors/handala.md)
 
+## Safari
+- [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+
 ## ScreenConnect
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
@@ -600,6 +647,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -608,6 +656,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -655,11 +704,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Twilio
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
+## typosquatting
+- [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+
 ## VS Code
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 
 ## watering-hole
+- [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
+## WebKit
+- [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## Webworm
 - [Webworm](../actors/webworm.md)

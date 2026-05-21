@@ -5,6 +5,20 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>art-template Coruna-style iOS watering-hole compromise</title>
+      <link>https://threat.wiki/ops/art-template-coruna-ios-watering-hole/</link>
+      <description>Socket reporting on compromised art-template npm releases that injected browser-side loaders and delivered a Coruna-style Safari/iOS watering-hole exploit framework.</description>
+      <pubDate>Thu, 21 May 2026 03:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/art-template-coruna-ios-watering-hole/</guid>
+    </item>
+    <item>
+      <title>shopsprint/decimal Go typosquat DNS backdoor</title>
+      <link>https://threat.wiki/ops/shopsprint-decimal-go-typosquat-dns-backdoor/</link>
+      <description>Socket reporting on a long-running shopspring/decimal typosquat that preserved the legitimate API while adding a Go init() DNS TXT command-execution backdoor.</description>
+      <pubDate>Thu, 21 May 2026 03:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/shopsprint-decimal-go-typosquat-dns-backdoor/</guid>
+    </item>
+    <item>
       <title>Mini Shai-Hulud npm/PyPI worm campaign</title>
       <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/</link>
       <description>Unit 42's May 20 update adds TanStack trusted-publishing abuse details, valid SLSA provenance on malicious packages, AntV scale metrics, and containment-order warnings for destructive payload behavior.</description>

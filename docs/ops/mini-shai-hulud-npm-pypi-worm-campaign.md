@@ -59,7 +59,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - Unit 42 counted approximately 639 malicious package versions across 323 unique packages in about one hour, calling it the largest single-hour package count of any Shai-Hulud wave observed in its reporting.
 - StepSecurity and Unit 42 reported that AntV-wave payloads read GitHub Actions runner process memory to recover masked CI/CD secrets, harvested developer/cloud/Kubernetes/Vault/crypto-tool paths, queried local password-manager CLIs including 1Password, Bitwarden, `pass`, and `gopass`, exfiltrated through a GitHub dead-drop and `t.m-kosche[.]com`, and created public Dune/Shai-Hulud-themed repositories from stolen tokens.
 - StepSecurity and Snyk reported malicious `durabletask` PyPI versions `1.4.1`, `1.4.2`, and `1.4.3` in Microsoft's official Durable Task Python SDK. Unlike the TanStack trusted-publishing chain, these uploads reportedly bypassed the GitHub release workflow and used real PyPI publishing credentials.
-- The `durabletask` payload was reported as a Linux-focused Python zipapp (`rope.pyz`) that harvested AWS, Azure, GCP, Kubernetes, password-manager, and developer-tool secrets, used redundant exfiltration paths, installed fake systemd persistence, attempted lateral movement via AWS SSM and Kubernetes `kubectl exec`, skipped Russian-locale systems, and used TeamPCP-linked infrastructure (`t.m-kosche[.]com`).
+- The `durabletask` payload was reported as a Linux-focused Python zipapp (`rope.pyz`) that harvested AWS, Azure, GCP, Kubernetes, password-manager, and developer-tool secrets, used redundant exfiltration paths, installed fake systemd persistence, attempted lateral movement via AWS SSM and Kubernetes `kubectl exec`, skipped Russian-locale systems, and used TeamPCP-linked infrastructure (`t.m-kosche[.]com`). Wiz additionally reported primary C2 at `check.git-service[.]com`, downloaded payload paths such as `/tmp/managed.pyz` and `/tmp/rope-*.pyz`, and infection markers `~/.cache/.sys-update-check` and `~/.cache/.sys-update-check-k8s`.
 - Grafana Labs publicly stated that the TanStack/Mini Shai-Hulud incident led to unauthorized access to its GitHub environment and source-code download after one impacted workflow token was missed during rotation. Grafana reported no evidence of production-system or Grafana Cloud compromise and said its codebase was downloaded but not altered.
 
 ### May 2026: adjacent GitHub Actions and IDE-extension lanes
@@ -146,6 +146,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 
 ## Sources
 - Wiz: https://www.wiz.io/blog/mini-shai-hulud-supply-chain-sap-npm
+- Wiz: https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack
 - Wiz: https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack
 - Snyk: https://snyk.io/blog/tanstack-npm-packages-compromised/
 - Akamai: https://www.akamai.com/blog/security-research/mini-shai-hulud-worm-returns-goes-public
