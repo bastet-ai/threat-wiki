@@ -73,6 +73,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Unit 42's May 20 threat-landscape update ties the April 22 `@bitwarden/cli@2026.4.0` / Checkmarx distribution-channel compromise to TeamPCP and to the `Shai-Hulud: The Third Coming` string. The same wave reportedly crossed npm, Docker Hub, GitHub Actions, and VS Code extension channels, reinforcing that TeamPCP-style operations target the whole developer trust pipeline rather than a single registry.
 - April-May 2026 reporting links TeamPCP-attributed or TeamPCP-linked activity to Mini Shai-Hulud waves affecting SAP, Intercom, TanStack, AntV, Microsoft's `durabletask` PyPI package, Mistral AI, UiPath, OpenSearch, and broader npm/PyPI package ecosystems.
 - Unit 42's May 20 update describes two important May-wave escalations: TanStack trusted-publishing abuse produced malicious packages with valid SLSA Build Level 3 provenance, while the AntV wave produced roughly 639 malicious package versions across 323 packages in about one hour.
+- Socket's May 21 registry-response coverage says the AntV burst triggered npm to invalidate all granular write tokens that bypass 2FA. That is a useful disruption signal, but TeamPCP/Mini Shai-Hulud operators have also shown paths that do not require long-lived bypass-2FA tokens.
 - Key escalation: hijacked legitimate release workflows can produce malicious npm packages with valid provenance/SLSA attestations, so provenance must be paired with workflow/cache integrity checks.
 - Later reporting expands the watch area beyond package registries into GitHub Actions tag integrity, developer endpoints, and IDE extensions: retargeted action tags can expose CI/CD secrets, while poisoned VS Code extensions can become the path from supply-chain compromise to source-code theft. GitHub's May 20 incident note confirmed a poisoned Nx Console extension was involved in employee-device compromise and GitHub-internal repository exfiltration; StepSecurity's May 21 technical update assesses TeamPCP as responsible for that GitHub breach while GitHub's own note did not publicly name the actor.
 - Socket reported that TeamPCP and BreachForums promoted a Shai-Hulud supply-chain attack contest with a small Monero prize for the biggest package compromise. Treat this as a copycat/recruitment signal: it incentivizes broad package compromise by download count and may increase noisy attempts by lower-tier actors using leaked/open Shai-Hulud tooling.
@@ -87,6 +88,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - ICP canister / dead-drop style C2 URLs
 - Large-scale package publication shortly after token theft
 - Valid provenance/SLSA attestations on malicious packages when a legitimate trusted-publishing workflow was poisoned before publication
+- npm automation-token churn after registry-wide resets, especially newly minted bypass-2FA write tokens stored back into still-contaminated CI systems
 - Token-revocation-triggered destructive behavior on affected developer hosts in variants that keep polling GitHub with stolen credentials
 - Copycat contest/recruitment chatter that rewards high-download package compromise, especially when paired with public Shai-Hulud tooling leaks
 - New optional dependencies pointing at GitHub commits outside normal branch ancestry, especially setup-themed names such as `@antv/setup` or `@sap/setup`
@@ -107,6 +109,7 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [StepSecurity actions-cool GitHub Actions coverage](https://www.stepsecurity.io/blog/actions-cool-issues-helper-github-action-compromised-all-tags-point-to-imposter-commit-that-exfiltrates-ci-cd-credentials)
 - [StepSecurity Nx Console coverage](https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised)
 - [GitHub Nx Console incident note](https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/)
+- [Socket npm token reset / Mini Shai-Hulud registry response](https://socket.dev/blog/npm-invalidates-tokens-mini-shai-hulud)
 - [Socket TeamPCP supply-chain attack contest reporting](https://socket.dev/blog/teampcp-supply-chain-attack-contest)
 - [Socket SANDWORM_MODE reporting](https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning)
 - [Grafana Labs TanStack incident update](https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/)

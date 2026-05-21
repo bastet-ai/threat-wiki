@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>npm token reset after Mini Shai-Hulud AntV wave</title>
+      <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/</link>
+      <description>Socket reported that npm invalidated all granular write tokens that bypass 2FA after the AntV Mini Shai-Hulud burst; the reset disrupts stolen token reuse but does not fix workflow-level trusted-publishing and OIDC compromise paths.</description>
+      <pubDate>Thu, 21 May 2026 23:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-21-npm-token-reset</guid>
+    </item>
+    <item>
       <title>Nx Console StepSecurity technical update</title>
       <link>https://threat.wiki/ops/nx-console-vscode-extension-compromise/</link>
       <description>StepSecurity's expanded Nx Console analysis adds the orphan commit delivery path, hidden VS Code task, Bun runtime, multi-channel exfiltration, Sigstore/SLSA abuse logic, Python kitty-monitor persistence, and host/network indicators.</description>
