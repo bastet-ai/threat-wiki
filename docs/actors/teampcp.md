@@ -74,6 +74,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Key escalation: hijacked legitimate release workflows can produce malicious npm packages with valid provenance/SLSA attestations, so provenance must be paired with workflow/cache integrity checks.
 - Later reporting expands the watch area beyond package registries into GitHub Actions tag integrity, developer endpoints, and IDE extensions: retargeted action tags can expose CI/CD secrets, while poisoned VS Code extensions can become the path from supply-chain compromise to source-code theft. GitHub's May 20 incident note confirmed a poisoned Nx Console extension was involved in employee-device compromise and GitHub-internal repository exfiltration.
 - Socket reported that TeamPCP and BreachForums promoted a Shai-Hulud supply-chain attack contest with a small Monero prize for the biggest package compromise. Treat this as a copycat/recruitment signal: it incentivizes broad package compromise by download count and may increase noisy attempts by lower-tier actors using leaked/open Shai-Hulud tooling.
+- JFrog's May 19 AntV follow-up adds two durable TeamPCP/Mini Shai-Hulud escalations to monitor: optional-dependency delivery from fork-resolvable GitHub commits that leaves the npm tarball itself looking clean, and post-compromise persistence through AI-tool hooks (`~/.claude/`, `~/.codex/`), VS Code `folderOpen` tasks, and GitHub commit-search C2 (`kitty-monitor`).
 
 ## Defender signals
 - Moved or force-pushed GitHub Actions tags/refs, especially tags pointing to commits outside normal branch ancestry
@@ -85,6 +86,8 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Valid provenance/SLSA attestations on malicious packages when a legitimate trusted-publishing workflow was poisoned before publication
 - Token-revocation-triggered destructive behavior on affected developer hosts in variants that keep polling GitHub with stolen credentials
 - Copycat contest/recruitment chatter that rewards high-download package compromise, especially when paired with public Shai-Hulud tooling leaks
+- New optional dependencies pointing at GitHub commits outside normal branch ancestry, especially setup-themed names such as `@antv/setup` or `@sap/setup`
+- Claude Code/Codex SessionStart hooks, VS Code `folderOpen` tasks, and GitHub commit-search C2 markers such as `firedalazer`, `thebeautifulsnadsoftime`, or `thebeautifulmarchoftime`
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
@@ -104,4 +107,5 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [Socket TeamPCP supply-chain attack contest reporting](https://socket.dev/blog/teampcp-supply-chain-attack-contest)
 - [Grafana Labs TanStack incident update](https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/)
 - [Unit 42 npm threat landscape May 20 update](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
+- [JFrog May 19 Shai-Hulud follow-up](https://research.jfrog.com/post/shai-hulud-here-we-go-again-may19/)
 - [StepSecurity blog index](https://www.stepsecurity.io/blog)

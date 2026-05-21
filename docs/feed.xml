@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Mini Shai-Hulud JFrog May 19 follow-up</title>
+      <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/</link>
+      <description>JFrog's May 19 analysis adds optional-dependency GitHub-commit delivery, AI-tool hook persistence, kitty-monitor GitHub commit-search C2, and durabletask AWS SSM/Kubernetes lateral movement details.</description>
+      <pubDate>Thu, 21 May 2026 07:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-21-jfrog-may19-update</guid>
+    </item>
+    <item>
       <title>TeamPCP copycat and Nx Console source-exfiltration update</title>
       <link>https://threat.wiki/actors/teampcp/</link>
       <description>GitHub confirmed poisoned Nx Console extension involvement in employee-device compromise and GitHub-internal repository exfiltration; Socket reported TeamPCP/BreachForums contest chatter that increases Shai-Hulud copycat risk.</description>
