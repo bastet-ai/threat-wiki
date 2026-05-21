@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>SANDWORM_MODE AI-toolchain npm worm</title>
+      <link>https://threat.wiki/ops/sandworm-mode-ai-toolchain-worm/</link>
+      <description>Socket's SANDWORM_MODE reporting adds a Shai-Hulud-style npm typosquat worm focused on CI secrets, git hook persistence, malicious GitHub Actions, MCP prompt-injection, and AI-toolchain credential theft.</description>
+      <pubDate>Thu, 21 May 2026 11:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/sandworm-mode-ai-toolchain-worm/</guid>
+    </item>
+    <item>
       <title>Bitwarden / Checkmarx Shai-Hulud Third Coming campaign</title>
       <link>https://threat.wiki/ops/bitwarden-checkmarx-shai-hulud-third-coming/</link>
       <description>Unit 42's May 20 update adds April 22 TeamPCP-linked @bitwarden/cli and Checkmarx distribution-channel compromise details spanning npm, Docker Hub, GitHub Actions, and VS Code extensions.</description>

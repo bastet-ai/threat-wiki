@@ -5,7 +5,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 ## High-value RSS / update feeds
 - **Aikido Security Research** — https://www.aikido.dev/blog/index.xml
 - **Wiz Research** — https://www.wiz.io/blog (HTML watch; prior RSS path returned 404 in current checks)
-- **Socket Security Research** — https://socket.dev/blog (HTML watch; prior RSS paths returned 404/403 in current checks)
+- **Socket Security Research** — https://socket.dev/blog (HTML watch; prior RSS paths returned 404/403 in current checks; watch Shai-Hulud/Mini Shai-Hulud variants, TeamPCP/copycat reporting, and AI-toolchain supply-chain tradecraft such as MCP or coding-assistant poisoning)
 - **Akamai Security Research** — https://www.akamai.com/blog/security-research (HTML watch; RSS blocked/unavailable in current checks)
 - **Snyk Blog / Security Research** — https://snyk.io/blog/feed/
 - **JFrog Security Research** — https://research.jfrog.com/ (HTML watch) and JFrog Blog RSS https://jfrog.com/blog/feed/

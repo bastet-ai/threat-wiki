@@ -63,6 +63,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - JFrog reported more than 170 npm packages and 2 PyPI packages affected in its earlier analysis window, with npm payloads using malicious `preinstall` loaders and PyPI payloads using import-time downloaders.
 - JFrog's May 19 follow-up counted the AntV wave as 325 legitimate npm packages after identifying `@cap-js/openapi@1.4.1`; the added package used a cleaner-looking `optionalDependencies` reference to `github:cap-js/openapi#d78c25443ec4a0d7f0a85776461f3b1163132537` and delivered the Shai-Hulud payload from fork-resolvable GitHub content rather than embedding malicious code directly in the tarball.
 - Socket reported continuing package findings across npm and PyPI ecosystems, including OpenSearch, Mistral AI, Guardrails AI, Squawk, and other artifacts in related coverage.
+- Socket also reported a separate February 2026 Shai-Hulud-style `SANDWORM_MODE` cluster that used typosquatted npm packages and a malicious GitHub Action to target CI secrets and AI coding toolchains; track it separately because the delivery model and MCP prompt-injection tradecraft differ from the May Mini Shai-Hulud waves.
 - StepSecurity, Snyk, and Unit 42 reported an AntV-centered wave involving the `atool` maintainer account, `timeago.js`, `echarts-for-react`, and many `@antv/*` visualization packages. StepSecurity described a two-wave May 19 publish pattern: first using a `preinstall` hook that invoked Bun, then adding Bun as an explicit dependency to improve delivery reliability.
 - Unit 42 counted approximately 639 malicious package versions across 323 unique packages in about one hour, calling it the largest single-hour package count of any Shai-Hulud wave observed in its reporting.
 - StepSecurity, JFrog, and Unit 42 reported that AntV-wave payloads read GitHub Actions runner process memory to recover masked CI/CD secrets, harvested developer/cloud/Kubernetes/Vault/crypto-tool paths, queried local password-manager CLIs including 1Password, Bitwarden, `pass`, and `gopass`, exfiltrated through a GitHub dead-drop and `t.m-kosche[.]com`, and created public Dune/Shai-Hulud-themed repositories from stolen tokens. JFrog also reported that the npm payload logic could request GitHub Actions OIDC material, exchange it for npm trusted-publishing credentials, and create Sigstore provenance, reinforcing that valid provenance can be produced by a compromised workflow.
@@ -150,6 +151,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - [actions-cool GitHub Actions tag compromise](actions-cool-github-actions-tag-compromise.md)
 - [Nx Console VS Code extension compromise](nx-console-vscode-extension-compromise.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](bitwarden-checkmarx-shai-hulud-third-coming.md)
+- [SANDWORM_MODE AI-toolchain npm worm](sandworm-mode-ai-toolchain-worm.md)
 - [Trivy → TeamPCP → CanisterWorm timeline](trivy-lite-llm-compromise-timeline.md)
 - [Trivy compromise](trivy-compromise.md)
 - [CanisterWorm](../tools/canisterworm.md)
@@ -176,4 +178,5 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - StepSecurity Nx Console: https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised
 - GitHub Blog Nx Console incident note: https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/
 - Socket TeamPCP contest reporting: https://socket.dev/blog/teampcp-supply-chain-attack-contest
+- Socket SANDWORM_MODE reporting: https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning
 - CISA: https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem
