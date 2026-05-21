@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Mini Shai-Hulud npm/PyPI worm campaign</title>
+      <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/</link>
+      <description>Unit 42's May 20 update adds TanStack trusted-publishing abuse details, valid SLSA provenance on malicious packages, AntV scale metrics, and containment-order warnings for destructive payload behavior.</description>
+      <pubDate>Thu, 21 May 2026 01:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-21-unit42-update</guid>
+    </item>
+    <item>
       <title>actions-cool GitHub Actions tag compromise</title>
       <link>https://threat.wiki/ops/actions-cool-github-actions-tag-compromise/</link>
       <description>StepSecurity reporting on actions-cool/issues-helper and maintain-one-comment tag retargeting, imposter commits, Bun-based Runner.Worker memory scraping, and CI/CD secret exfiltration.</description>
@@ -38,13 +45,6 @@
       <description>Threat-intelligence summary of the May 2026 compromised Nx Console VS Code extension, poisoned IDE-extension distribution, developer credential theft, persistence, and GitHub source-code exfiltration risk.</description>
       <pubDate>Wed, 20 May 2026 19:25:00 GMT</pubDate>
       <guid>https://threat.wiki/ops/nx-console-vscode-extension-compromise/</guid>
-    </item>
-    <item>
-      <title>Mini Shai-Hulud npm/PyPI worm campaign</title>
-      <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/</link>
-      <description>Threat-intelligence summary of the April-May 2026 Mini Shai-Hulud supply-chain waves, TeamPCP-attributed reporting, CI/OIDC abuse, package propagation, and defender hunting priorities.</description>
-      <pubDate>Wed, 20 May 2026 17:45:00 GMT</pubDate>
-      <guid>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/</guid>
     </item>
     <item>
       <title>TeamPCP, Trivy, and CanisterWorm</title>

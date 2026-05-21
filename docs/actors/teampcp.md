@@ -70,6 +70,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 
 ### Mini Shai-Hulud expansion
 - April-May 2026 reporting links TeamPCP-attributed or TeamPCP-linked activity to Mini Shai-Hulud waves affecting SAP, Intercom, TanStack, AntV, Microsoft's `durabletask` PyPI package, Mistral AI, UiPath, OpenSearch, and broader npm/PyPI package ecosystems.
+- Unit 42's May 20 update describes two important May-wave escalations: TanStack trusted-publishing abuse produced malicious packages with valid SLSA Build Level 3 provenance, while the AntV wave produced roughly 639 malicious package versions across 323 packages in about one hour.
 - Key escalation: hijacked legitimate release workflows can produce malicious npm packages with valid provenance/SLSA attestations, so provenance must be paired with workflow/cache integrity checks.
 - Later reporting expands the watch area beyond package registries into GitHub Actions tag integrity, developer endpoints, and IDE extensions: retargeted action tags can expose CI/CD secrets, while poisoned VS Code extensions can become the path from supply-chain compromise to source-code theft.
 
@@ -80,6 +81,8 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Odd package names / masquerading around PostgreSQL-like artifacts
 - ICP canister / dead-drop style C2 URLs
 - Large-scale package publication shortly after token theft
+- Valid provenance/SLSA attestations on malicious packages when a legitimate trusted-publishing workflow was poisoned before publication
+- Token-revocation-triggered destructive behavior on affected developer hosts in variants that keep polling GitHub with stolen credentials
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
@@ -96,4 +99,5 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [StepSecurity actions-cool GitHub Actions coverage](https://www.stepsecurity.io/blog/actions-cool-issues-helper-github-action-compromised-all-tags-point-to-imposter-commit-that-exfiltrates-ci-cd-credentials)
 - [StepSecurity Nx Console coverage](https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised)
 - [Grafana Labs TanStack incident update](https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/)
+- [Unit 42 npm threat landscape May 20 update](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
 - [StepSecurity blog index](https://www.stepsecurity.io/blog)

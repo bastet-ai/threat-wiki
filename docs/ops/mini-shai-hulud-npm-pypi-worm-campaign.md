@@ -45,15 +45,19 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 
 ### May 11-12, 2026: TanStack and trusted-publishing abuse
 - Snyk reported malicious artifacts across `@tanstack/*` packages published by the legitimate TanStack release pipeline after attacker-controlled code hijacked the runner mid-workflow.
-- Snyk’s key point: SLSA provenance can prove where the artifact was built, but it does not prove the runtime workflow was clean if attacker-controlled code executed before publication.
-- Akamai and JFrog describe the chain as privileged workflow abuse: fork-controlled code poisons CI/cache or runner state, a legitimate release workflow restores the malicious state, and the payload extracts GitHub Actions OIDC material from runner memory to obtain npm publishing credentials.
-- Akamai reported that weaponized worm code appeared publicly on GitHub after the TanStack wave, increasing copycat risk.
+- Unit 42 later quantified the initial TanStack burst as 84 malicious artifacts across 42 `@tanstack/*` packages within six minutes, expanding by end of day to 373 malicious versions across 169 npm packages plus compromised PyPI packages. Unit 42 estimated roughly 520 million cumulative downloads during the affected window.
+- Snyk’s key point: SLSA provenance can prove where the artifact was built, but it does not prove the runtime workflow was clean if attacker-controlled code executed before publication. Unit 42 called this the first documented case of a worm publishing malicious npm packages with valid SLSA Build Level 3 provenance.
+- Akamai, JFrog, and Unit 42 describe the chain as privileged workflow abuse: a `pull_request_target` workflow checked out fork-controlled code, a poisoned `pnpm` cache was written with a precomputed release cache key, a legitimate release workflow later restored that state, and the payload extracted GitHub Actions OIDC material from `Runner.Worker` memory to obtain npm publishing credentials.
+- Unit 42 reported that the malicious TanStack packages used an injected `optionalDependencies` reference to an orphaned commit surfaced under the legitimate fork network, while secondary propagation victims such as UiPath, Mistral AI, and OpenSearch reverted to more familiar `preinstall` execution.
+- Unit 42 also warned that the May 11 payload installed a background service that polled `api.github.com/user` with the stolen token and, if the token was revoked while the daemon was active, executed destructive home-directory deletion. This makes containment order especially important: stop active execution and isolate hosts before broad token revocation when this variant may be running.
+- Akamai and Unit 42 reported that weaponized Mini Shai-Hulud source code appeared publicly on GitHub after the TanStack wave, increasing copycat risk and weakening attribution based only on worm lineage.
 
 ### May 2026: broader npm/PyPI spread
 - JFrog reported more than 170 npm packages and 2 PyPI packages affected in its analysis window, with npm payloads using malicious `preinstall` loaders and PyPI payloads using import-time downloaders.
 - Socket reported continuing package findings across npm and PyPI ecosystems, including OpenSearch, Mistral AI, Guardrails AI, Squawk, and other artifacts in related coverage.
-- StepSecurity and Snyk reported an AntV-centered wave involving the `atool` maintainer account, `timeago.js`, `echarts-for-react`, and many `@antv/*` visualization packages. StepSecurity described a two-wave May 19 publish pattern: first using a `preinstall` hook that invoked Bun, then adding Bun as an explicit dependency to improve delivery reliability.
-- StepSecurity reported that AntV-wave payloads read GitHub Actions runner process memory to recover masked CI/CD secrets, harvested more than 130 developer/cloud/Kubernetes/Vault/crypto-tool paths, exfiltrated through a GitHub dead-drop and `t.m-kosche[.]com`, and created thousands of public Dune/Shai-Hulud-themed repositories from stolen tokens.
+- StepSecurity, Snyk, and Unit 42 reported an AntV-centered wave involving the `atool` maintainer account, `timeago.js`, `echarts-for-react`, and many `@antv/*` visualization packages. StepSecurity described a two-wave May 19 publish pattern: first using a `preinstall` hook that invoked Bun, then adding Bun as an explicit dependency to improve delivery reliability.
+- Unit 42 counted approximately 639 malicious package versions across 323 unique packages in about one hour, calling it the largest single-hour package count of any Shai-Hulud wave observed in its reporting.
+- StepSecurity and Unit 42 reported that AntV-wave payloads read GitHub Actions runner process memory to recover masked CI/CD secrets, harvested developer/cloud/Kubernetes/Vault/crypto-tool paths, queried local password-manager CLIs including 1Password, Bitwarden, `pass`, and `gopass`, exfiltrated through a GitHub dead-drop and `t.m-kosche[.]com`, and created public Dune/Shai-Hulud-themed repositories from stolen tokens.
 - StepSecurity and Snyk reported malicious `durabletask` PyPI versions `1.4.1`, `1.4.2`, and `1.4.3` in Microsoft's official Durable Task Python SDK. Unlike the TanStack trusted-publishing chain, these uploads reportedly bypassed the GitHub release workflow and used real PyPI publishing credentials.
 - The `durabletask` payload was reported as a Linux-focused Python zipapp (`rope.pyz`) that harvested AWS, Azure, GCP, Kubernetes, password-manager, and developer-tool secrets, used redundant exfiltration paths, installed fake systemd persistence, attempted lateral movement via AWS SSM and Kubernetes `kubectl exec`, skipped Russian-locale systems, and used TeamPCP-linked infrastructure (`t.m-kosche[.]com`).
 - Grafana Labs publicly stated that the TanStack/Mini Shai-Hulud incident led to unauthorized access to its GitHub environment and source-code download after one impacted workflow token was missed during rotation. Grafana reported no evidence of production-system or Grafana Cloud compromise and said its codebase was downloaded but not altered.
@@ -110,7 +114,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - Look for `pull_request_target` workflows that check out or execute fork-controlled code.
 - Review caches restored by release workflows, especially caches writable by pull-request jobs.
 - Hunt workflow logs for unexpected Bun downloads, large obfuscated JavaScript payloads, `preinstall` execution, runner memory scraping, or token/OIDC environment access.
-- Search for unexpected repositories created by maintainers/bots with Shai-Hulud/Dune/config-storage descriptions or encrypted blobs.
+- Search for unexpected repositories created by maintainers/bots with Shai-Hulud/Dune/config-storage descriptions or encrypted blobs; Unit 42 notes that later variants can use both GitHub dead-drop repositories and telemetry-looking HTTPS exfiltration to `t.m-kosche[.]com`.
 - Audit newly added `.claude/` and `.vscode/` files, especially `settings.json`, `tasks.json`, `setup.mjs`, and copied payload scripts.
 - Inventory IDE extensions on developer machines; treat a malicious editor extension as an endpoint compromise capable of reading source, secrets, shell history, and authenticated GitHub sessions.
 
@@ -121,7 +125,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - Add release-age/cooldown controls for package ingestion when operationally possible.
 
 ### Containment
-- Stop affected workflows and package publication paths before rotating secrets if persistence or active exfiltration may still be running.
+- Stop affected workflows, isolate affected hosts, and package publication paths before rotating secrets if persistence or active exfiltration may still be running; Unit 42 specifically warns that some May 11 payloads used token-revocation-triggered destructive behavior while the daemon was active.
 - Remove malicious packages and poisoned repo files, then rotate all reachable credentials: GitHub, npm, cloud, Kubernetes, Vault, SSH, Docker, CI, and any app secrets present on the host.
 - Invalidate GitHub Actions caches and rebuild release infrastructure from known-clean commits.
 - Prefer short-lived scoped credentials, protected environments, least-privilege OIDC subjects, pinned action SHAs, and separate untrusted PR workflows from release workflows.
