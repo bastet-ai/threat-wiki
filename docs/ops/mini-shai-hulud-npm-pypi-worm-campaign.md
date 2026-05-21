@@ -37,6 +37,13 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - This established several recurring motifs later seen in Mini Shai-Hulud coverage: runner memory scraping, cloud/Kubernetes credential harvesting, package/release trust abuse, encrypted exfiltration, and fallback GitHub repository exfiltration.
 - See also: [Trivy → TeamPCP → CanisterWorm timeline](trivy-lite-llm-compromise-timeline.md).
 
+### April 22, 2026: Bitwarden / Checkmarx "Third Coming" wave
+- Unit 42 reported a TeamPCP-attributed wave that included malicious `@bitwarden/cli@2026.4.0` and public GitHub artifacts containing the string `Shai-Hulud: The Third Coming`.
+- The same payload family reportedly appeared across Checkmarx distribution lanes: poisoned `checkmarx/kics` Docker Hub images, `checkmarx/ast-github-action`, and Checkmarx VS Code extensions.
+- Unit 42's reported `@bitwarden/cli` package used both a `preinstall` hook and a `bw` command-name masquerade path via `bw_setup.js`, giving the malware a secondary execution path even when install scripts were blocked.
+- This wave adds a durable defender lesson for later Mini Shai-Hulud triage: package-registry compromise, IDE-extension compromise, Docker image poisoning, and GitHub Actions abuse can all be lanes for the same payload and credential-theft infrastructure.
+- See also: [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](bitwarden-checkmarx-shai-hulud-third-coming.md).
+
 ### April 29-30, 2026: SAP / Intercom / PyPI expansion
 - Wiz reported Mini Shai-Hulud-style malicious versions in SAP ecosystem npm packages including `@cap-js/sqlite`, `@cap-js/postgres`, `@cap-js/db-service`, and `mbt`.
 - The same reporting later added `intercom-client` and PyPI `lightning` packages as related compromises under analysis.
@@ -142,6 +149,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - [TeamPCP](../actors/teampcp.md)
 - [actions-cool GitHub Actions tag compromise](actions-cool-github-actions-tag-compromise.md)
 - [Nx Console VS Code extension compromise](nx-console-vscode-extension-compromise.md)
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Trivy → TeamPCP → CanisterWorm timeline](trivy-lite-llm-compromise-timeline.md)
 - [Trivy compromise](trivy-compromise.md)
 - [CanisterWorm](../tools/canisterworm.md)

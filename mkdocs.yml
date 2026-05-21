@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Bitwarden / Checkmarx Shai-Hulud Third Coming campaign: ops/bitwarden-checkmarx-shai-hulud-third-coming.md
       - art-template Coruna-style iOS watering-hole compromise: ops/art-template-coruna-ios-watering-hole.md
       - shopsprint/decimal Go typosquat DNS backdoor: ops/shopsprint-decimal-go-typosquat-dns-backdoor.md
       - Mini Shai-Hulud npm/PyPI worm campaign: ops/mini-shai-hulud-npm-pypi-worm-campaign.md
@@ -40,6 +41,7 @@ nav:
       - Fox Tempest: actors/fox-tempest.md
       - Webworm: actors/webworm.md
   - Ops:
+      - Bitwarden / Checkmarx Shai-Hulud Third Coming campaign: ops/bitwarden-checkmarx-shai-hulud-third-coming.md
       - art-template Coruna-style iOS watering-hole compromise: ops/art-template-coruna-ios-watering-hole.md
       - shopsprint/decimal Go typosquat DNS backdoor: ops/shopsprint-decimal-go-typosquat-dns-backdoor.md
       - Mini Shai-Hulud npm/PyPI worm campaign: ops/mini-shai-hulud-npm-pypi-worm-campaign.md

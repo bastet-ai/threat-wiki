@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Bitwarden / Checkmarx Shai-Hulud Third Coming campaign</title>
+      <link>https://threat.wiki/ops/bitwarden-checkmarx-shai-hulud-third-coming/</link>
+      <description>Unit 42's May 20 update adds April 22 TeamPCP-linked @bitwarden/cli and Checkmarx distribution-channel compromise details spanning npm, Docker Hub, GitHub Actions, and VS Code extensions.</description>
+      <pubDate>Thu, 21 May 2026 09:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/bitwarden-checkmarx-shai-hulud-third-coming/</guid>
+    </item>
+    <item>
       <title>Mini Shai-Hulud JFrog May 19 follow-up</title>
       <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/</link>
       <description>JFrog's May 19 analysis adds optional-dependency GitHub-commit delivery, AI-tool hook persistence, kitty-monitor GitHub commit-search C2, and durabletask AWS SSM/Kubernetes lateral movement details.</description>

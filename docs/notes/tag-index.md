@@ -17,12 +17,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [Bitbucket](#bitbucket) (1)
+- [Bitwarden](#bitwarden) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
 - [CCleaner](#ccleaner) (1)
+- [Checkmarx](#checkmarx) (1)
 - [China](#china) (1)
-- [CI/CD](#cicd) (11)
+- [CI/CD](#cicd) (12)
 - [CircleCI](#circleci) (1)
 - [Citrix](#citrix) (1)
 - [cloud](#cloud) (2)
@@ -34,7 +36,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise](#connectwise) (1)
 - [Coruna](#coruna) (1)
 - [credential theft](#credential-theft) (2)
-- [credential-theft](#credential-theft) (4)
+- [credential-theft](#credential-theft) (5)
 - [critical-infrastructure](#critical-infrastructure) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
@@ -47,6 +49,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DEWMODE](#dewmode) (1)
 - [Discord](#discord) (1)
 - [DNS C2](#dns-c2) (1)
+- [Docker](#docker) (1)
 - [edge appliance](#edge-appliance) (1)
 - [email](#email) (1)
 - [email gateway](#email-gateway) (1)
@@ -63,7 +66,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FTA](#fta) (1)
 - [GCS](#gcs) (1)
 - [GitHub](#github) (3)
-- [GitHub Actions](#github-actions) (8)
+- [GitHub Actions](#github-actions) (9)
 - [GitHub OAuth](#github-oauth) (1)
 - [Go](#go) (1)
 - [group](#group) (1)
@@ -94,16 +97,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MOIS](#mois) (1)
 - [MSP](#msp) (1)
 - [NetScaler](#netscaler) (1)
-- [npm](#npm) (5)
+- [npm](#npm) (6)
 - [OIDC](#oidc) (1)
 - [Okta](#okta) (2)
 - [OneDrive](#onedrive) (1)
-- [operations](#operations) (25)
+- [operations](#operations) (26)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (22)
+- [ops](#ops) (23)
 - [package-takeover](#package-takeover) (1)
 - [people](#people) (1)
-- [persistence](#persistence) (6)
+- [persistence](#persistence) (7)
 - [Piriform](#piriform) (1)
 - [prompt-injection](#prompt-injection) (1)
 - [proxy](#proxy) (2)
@@ -125,7 +128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
-- [Shai-Hulud](#shai-hulud) (1)
+- [Shai-Hulud](#shai-hulud) (2)
 - [signed updates](#signed-updates) (1)
 - [SLSA](#slsa) (1)
 - [smishing](#smishing) (1)
@@ -133,10 +136,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spearphishing](#spearphishing) (1)
 - [SSH](#ssh) (1)
 - [state-linked](#state-linked) (1)
-- [supply-chain](#supply-chain) (18)
+- [supply-chain](#supply-chain) (19)
 - [tag tampering](#tag-tampering) (2)
 - [TamperedChef](#tamperedchef) (1)
-- [TeamPCP](#teampcp) (4)
+- [TeamPCP](#teampcp) (5)
 - [TeamViewer](#teamviewer) (1)
 - [Telegram](#telegram) (1)
 - [tj-actions](#tj-actions) (1)
@@ -146,13 +149,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [transnational repression](#transnational-repression) (1)
 - [Twilio](#twilio) (1)
 - [typosquatting](#typosquatting) (1)
-- [VS Code](#vs-code) (1)
+- [VS Code](#vs-code) (2)
 - [watering-hole](#watering-hole) (2)
 - [WebKit](#webkit) (1)
 - [Webworm](#webworm) (1)
 - [Windows](#windows) (3)
 - [wiper](#wiper) (1)
-- [worm](#worm) (4)
+- [worm](#worm) (5)
 - [X_TRADER](#x_trader) (1)
 - [xz](#xz) (1)
 - [Zero Trust](#zero-trust) (1)
@@ -200,6 +203,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bitbucket
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
+## Bitwarden
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+
 ## branch-name-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 
@@ -212,11 +218,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CCleaner
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
+## Checkmarx
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+
 ## China
 - [Webworm](../actors/webworm.md)
 
 ## CI/CD
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -267,6 +277,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## credential-theft
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 
@@ -306,6 +317,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DNS C2
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+
+## Docker
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 
 ## edge appliance
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -362,6 +376,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitHub Actions
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -468,6 +483,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## npm
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -490,6 +506,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -520,6 +537,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -544,6 +562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JiaT75](../people/jiat75.md)
 
 ## persistence
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -620,6 +639,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
 ## Shai-Hulud
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## signed updates
@@ -648,6 +668,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -672,6 +693,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TeamPCP
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -708,6 +730,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
 ## VS Code
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 
 ## watering-hole
@@ -729,6 +752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Handala](../actors/handala.md)
 
 ## worm
+- [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
