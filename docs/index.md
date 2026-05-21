@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Showboat](tools/showboat.md)
 - [GitHub Actions deployment poisoning](patterns/deployment-poisoning-github-actions.md)
 - [node-ipc 2026 npm maintainer-account compromise](ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](ops/bitwarden-checkmarx-shai-hulud-third-coming.md)

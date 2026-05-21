@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Showboat Linux post-exploitation framework</title>
+      <link>https://threat.wiki/tools/showboat/</link>
+      <description>Lumen Black Lotus Labs disclosed Showboat, a Linux post-exploitation framework used against telecom targets with remote shell, file transfer, process hiding, persistence, SOCKS5 proxying, port mapping, and PRC-aligned infrastructure clustering.</description>
+      <pubDate>Thu, 21 May 2026 19:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/tools/showboat/</guid>
+    </item>
+    <item>
       <title>GitHub Actions deployment poisoning</title>
       <link>https://threat.wiki/patterns/deployment-poisoning-github-actions/</link>
       <description>Boost Security Labs' deployment-poisoning research documents how fork pull requests can create or influence deployment metadata and trigger secret-bearing deployment_status workflows through command injection or attacker-controlled environment URLs.</description>

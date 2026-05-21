@@ -15,7 +15,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Artifact Signing](#artifact-signing) (1)
 - [AWS](#aws) (1)
 - [Azure](#azure) (1)
-- [backdoor](#backdoor) (1)
+- [backdoor](#backdoor) (2)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [Bitbucket](#bitbucket) (1)
@@ -23,9 +23,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [branch-name-injection](#branch-name-injection) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
+- [C2](#c2) (1)
 - [CCleaner](#ccleaner) (1)
 - [Checkmarx](#checkmarx) (1)
-- [China](#china) (1)
+- [China](#china) (2)
 - [CI/CD](#cicd) (14)
 - [CircleCI](#circleci) (1)
 - [Citrix](#citrix) (1)
@@ -40,7 +41,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [credential theft](#credential-theft) (2)
 - [credential-theft](#credential-theft) (7)
-- [critical-infrastructure](#critical-infrastructure) (1)
+- [critical-infrastructure](#critical-infrastructure) (2)
 - [cryptocurrency](#cryptocurrency) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
@@ -60,7 +61,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [email gateway](#email-gateway) (1)
 - [energy-sector](#energy-sector) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (4)
+- [espionage](#espionage) (5)
 - [Europe](#europe) (1)
 - [EvilAI](#evilai) (1)
 - [exploit-kit](#exploit-kit) (1)
@@ -88,18 +89,19 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Israel](#israel) (1)
 - [legacy software](#legacy-software) (1)
 - [liblzma](#liblzma) (1)
-- [Linux](#linux) (1)
+- [Linux](#linux) (2)
 - [macOS](#macos) (1)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malvertising](#malvertising) (1)
-- [malware](#malware) (3)
+- [malware](#malware) (4)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [MCP](#mcp) (1)
 - [MFA bypass](#mfa-bypass) (2)
 - [Microsoft](#microsoft) (1)
 - [Microsoft Graph](#microsoft-graph) (1)
+- [Middle East](#middle-east) (1)
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (1)
 - [MSP](#msp) (1)
@@ -115,10 +117,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package-takeover](#package-takeover) (1)
 - [patterns](#patterns) (1)
 - [people](#people) (1)
-- [persistence](#persistence) (7)
+- [persistence](#persistence) (8)
 - [Piriform](#piriform) (1)
+- [portmap](#portmap) (1)
+- [post-exploitation](#post-exploitation) (1)
+- [PRC-aligned](#prc-aligned) (1)
 - [prompt-injection](#prompt-injection) (2)
-- [proxy](#proxy) (2)
+- [proxy](#proxy) (3)
 - [psychological operations](#psychological-operations) (1)
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (2)
@@ -142,7 +147,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [signed updates](#signed-updates) (1)
 - [SLSA](#slsa) (1)
 - [smishing](#smishing) (1)
+- [SOCKS5](#socks5) (1)
 - [South Africa](#south-africa) (1)
+- [Southeast Asia](#southeast-asia) (1)
 - [spearphishing](#spearphishing) (1)
 - [SSH](#ssh) (1)
 - [SSRF](#ssrf) (1)
@@ -152,14 +159,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef](#tamperedchef) (1)
 - [TeamPCP](#teampcp) (5)
 - [TeamViewer](#teamviewer) (1)
+- [telecom](#telecom) (1)
 - [Telegram](#telegram) (1)
 - [tj-actions](#tj-actions) (1)
 - [token theft](#token-theft) (1)
 - [tooling](#tooling) (5)
+- [tools](#tools) (1)
 - [Trading Technologies](#trading-technologies) (1)
 - [transnational repression](#transnational-repression) (1)
 - [Twilio](#twilio) (1)
 - [typosquatting](#typosquatting) (2)
+- [Ukraine](#ukraine) (1)
 - [VS Code](#vs-code) (2)
 - [watering-hole](#watering-hole) (2)
 - [WebKit](#webkit) (1)
@@ -210,6 +220,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## backdoor
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+- [Showboat](../tools/showboat.md)
 
 ## Barracuda
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -232,6 +243,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bun
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 
+## C2
+- [Showboat](../tools/showboat.md)
+
 ## CCleaner
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
@@ -239,6 +253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 
 ## China
+- [Showboat](../tools/showboat.md)
 - [Webworm](../actors/webworm.md)
 
 ## CI/CD
@@ -307,6 +322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## critical-infrastructure
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Showboat](../tools/showboat.md)
 
 ## cryptocurrency
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -370,6 +386,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Showboat](../tools/showboat.md)
 - [Webworm](../actors/webworm.md)
 
 ## Europe
@@ -469,6 +486,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## Linux
+- [Showboat](../tools/showboat.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## macOS
@@ -488,6 +506,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malware
 - [CanisterWorm](../tools/canisterworm.md)
+- [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 
@@ -506,6 +525,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Microsoft Graph
 - [Webworm](../actors/webworm.md)
+
+## Middle East
+- [Showboat](../tools/showboat.md)
 
 ## module-proxy
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -615,6 +637,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -623,11 +646,21 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
+## portmap
+- [Showboat](../tools/showboat.md)
+
+## post-exploitation
+- [Showboat](../tools/showboat.md)
+
+## PRC-aligned
+- [Showboat](../tools/showboat.md)
+
 ## prompt-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
 ## proxy
+- [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Webworm](../actors/webworm.md)
 
@@ -707,8 +740,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## smishing
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
+## SOCKS5
+- [Showboat](../tools/showboat.md)
+
 ## South Africa
 - [Webworm](../actors/webworm.md)
+
+## Southeast Asia
+- [Showboat](../tools/showboat.md)
 
 ## spearphishing
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -763,6 +802,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TeamViewer
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
+## telecom
+- [Showboat](../tools/showboat.md)
+
 ## Telegram
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
@@ -779,6 +821,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
+## tools
+- [Showboat](../tools/showboat.md)
+
 ## Trading Technologies
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
@@ -791,6 +836,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## typosquatting
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+
+## Ukraine
+- [Showboat](../tools/showboat.md)
 
 ## VS Code
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)

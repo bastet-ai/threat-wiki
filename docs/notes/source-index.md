@@ -7,6 +7,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **Wiz Research** — https://www.wiz.io/blog (HTML watch; prior RSS path returned 404 in current checks)
 - **Socket Security Research** — https://socket.dev/blog (HTML watch; prior RSS paths returned 404/403 in current checks; watch Shai-Hulud/Mini Shai-Hulud variants, TeamPCP/copycat reporting, and AI-toolchain supply-chain tradecraft such as MCP or coding-assistant poisoning)
 - **Akamai Security Research** — https://www.akamai.com/blog/security-research (HTML watch; RSS blocked/unavailable in current checks)
+- **Lumen Black Lotus Labs** — https://www.lumen.com/blog/en-us/ (HTML watch; filter for Black Lotus Labs posts covering telecom, routing, botnet, and nation-state infrastructure research)
 - **Snyk Blog / Security Research** — https://snyk.io/blog/feed/
 - **JFrog Security Research** — https://research.jfrog.com/ (HTML watch) and JFrog Blog RSS https://jfrog.com/blog/feed/
 - **Unit 42 Research** — https://unit42.paloaltonetworks.com/feed/ (watch recurring npm threat-landscape updates for Shai-Hulud/Mini Shai-Hulud wave metrics, SLSA/OIDC findings, and containment-order warnings)
