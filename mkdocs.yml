@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Langflow CVE-2025-34291 exploitation: ops/langflow-cve-2025-34291-exploitation.md
       - Megalodon GitHub Actions workflow backdooring: ops/megalodon-github-actions-workflow-backdooring.md
       - Bitwarden / Checkmarx Shai-Hulud Third Coming campaign: ops/bitwarden-checkmarx-shai-hulud-third-coming.md
       - art-template Coruna-style iOS watering-hole compromise: ops/art-template-coruna-ios-watering-hole.md
@@ -47,6 +48,7 @@ nav:
       - Fox Tempest: actors/fox-tempest.md
       - Webworm: actors/webworm.md
   - Ops:
+      - Langflow CVE-2025-34291 exploitation: ops/langflow-cve-2025-34291-exploitation.md
       - Megalodon GitHub Actions workflow backdooring: ops/megalodon-github-actions-workflow-backdooring.md
       - Bitwarden / Checkmarx Shai-Hulud Third Coming campaign: ops/bitwarden-checkmarx-shai-hulud-third-coming.md
       - art-template Coruna-style iOS watering-hole compromise: ops/art-template-coruna-ios-watering-hole.md

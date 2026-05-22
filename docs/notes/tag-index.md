@@ -8,6 +8,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [account-takeover](#account-takeover) (1)
 - [actors](#actors) (2)
 - [adware](#adware) (1)
+- [AI agents](#ai-agents) (1)
 - [AI tooling](#ai-tooling) (1)
 - [ai-agent](#ai-agent) (1)
 - [Albania](#albania) (1)
@@ -42,7 +43,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [command-injection](#command-injection) (1)
 - [ConnectWise](#connectwise) (1)
 - [Coruna](#coruna) (1)
-- [credential theft](#credential-theft) (2)
+- [credential theft](#credential-theft) (3)
 - [credential-theft](#credential-theft) (8)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [cryptocurrency](#cryptocurrency) (1)
@@ -52,6 +53,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-1708](#cve-2024-1708) (1)
 - [CVE-2024-1709](#cve-2024-1709) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
+- [CVE-2025-34291](#cve-2025-34291) (1)
 - [cybercrime](#cybercrime) (1)
 - [data theft](#data-theft) (1)
 - [defense evasion](#defense-evasion) (1)
@@ -74,6 +76,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Europe](#europe) (1)
 - [EvilAI](#evilai) (1)
 - [exploit-kit](#exploit-kit) (1)
+- [exploitation](#exploitation) (1)
 - [extortion](#extortion) (1)
 - [faketivism](#faketivism) (1)
 - [filename-injection](#filename-injection) (1)
@@ -94,8 +97,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [identity](#identity) (2)
 - [infostealer](#infostealer) (1)
 - [iOS](#ios) (1)
-- [Iran](#iran) (2)
+- [Iran](#iran) (3)
 - [Israel](#israel) (1)
+- [KEV](#kev) (1)
+- [Langflow](#langflow) (1)
 - [legacy software](#legacy-software) (1)
 - [liblzma](#liblzma) (1)
 - [Linux](#linux) (2)
@@ -117,6 +122,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (1)
 - [MSP](#msp) (1)
+- [MuddyWater](#muddywater) (1)
 - [nation-state](#nation-state) (1)
 - [NetScaler](#netscaler) (1)
 - [node-ipc](#node-ipc) (1)
@@ -124,9 +130,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OIDC](#oidc) (2)
 - [Okta](#okta) (2)
 - [OneDrive](#onedrive) (1)
-- [operations](#operations) (29)
+- [operations](#operations) (30)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (26)
+- [ops](#ops) (27)
 - [package-takeover](#package-takeover) (1)
 - [patterns](#patterns) (1)
 - [people](#people) (1)
@@ -217,6 +223,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## adware
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## AI agents
+- [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 
 ## AI tooling
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -341,6 +350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## credential theft
+- [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 
@@ -379,6 +389,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2024-3094
 - [JiaT75](../people/jiat75.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## CVE-2025-34291
+- [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 
 ## cybercrime
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -451,6 +464,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## exploit-kit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+
+## exploitation
+- [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -531,10 +547,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Iran
 - [Handala](../actors/handala.md)
+- [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 
 ## Israel
 - [Handala](../actors/handala.md)
+
+## KEV
+- [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+
+## Langflow
+- [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 
 ## legacy software
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -606,6 +629,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MSP
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
+## MuddyWater
+- [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+
 ## nation-state
 - [ROADtools](../tools/roadtools.md)
 
@@ -653,6 +679,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -685,6 +712,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)

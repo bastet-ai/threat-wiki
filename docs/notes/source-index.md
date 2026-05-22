@@ -17,11 +17,11 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **GitHub Security Blog** — https://github.blog/security/ (HTML watch for GitHub platform incident notes and postmortems)
 - **The Hacker News** — https://feeds.feedburner.com/TheHackersNews
 - **Boost Security Labs** — https://labs.boostsecurity.io/rss.xml (watch CI/CD supply-chain techniques such as deployment poisoning and TeamPCP follow-ups)
-- **StepSecurity blog** — https://www.stepsecurity.io/blog/rss.xml
+- **StepSecurity blog** — https://www.stepsecurity.io/blog/rss.xml (watch Mini Shai-Hulud / Nx Console follow-ups and CI/CD workflow-backdoor campaigns such as Megalodon)
 - **Trail of Bits blog** — https://blog.trailofbits.com/feed/
 - **PortSwigger Research** — https://portswigger.net/research/rss
 - **ProjectDiscovery blog** — https://projectdiscovery.io/blog/rss
-- **CISA KEV** — https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+- **CISA KEV** — https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json (promote entries when they add active exploitation evidence, actor linkage, or high-impact platform exposure such as Langflow CVE-2025-34291)
 - **GitHub Security Advisories** — https://github.com/advisories.atom
 
 ## Maintainer / vendor incident posts to watch during active campaigns

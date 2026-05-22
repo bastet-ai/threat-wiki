@@ -5,10 +5,17 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Langflow CVE-2025-34291 active exploitation</title>
+      <link>https://threat.wiki/ops/langflow-cve-2025-34291-exploitation/</link>
+      <description>CISA added Langflow CVE-2025-34291 to KEV after active exploitation; the browser-mediated origin-validation and token-refresh chain can expose AI-workflow credentials, with public reporting tying some exploitation to MuddyWater.</description>
+      <pubDate>Fri, 22 May 2026 15:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/langflow-cve-2025-34291-exploitation/</guid>
+    </item>
+    <item>
       <title>Megalodon GitHub Actions workflow backdooring</title>
       <link>https://threat.wiki/ops/megalodon-github-actions-workflow-backdooring/</link>
-      <description>SafeDep reported 5,718 malicious commits across 5,561 GitHub repositories, adding SysDiag and Optimize-Build workflow backdoors that exfiltrate CI, cloud, SSH, OIDC, and source-code secrets to 216.126.225[.]129:8443.</description>
-      <pubDate>Fri, 22 May 2026 13:25:00 GMT</pubDate>
+      <description>SafeDep and StepSecurity report 5,718 malicious commits across 5,561 GitHub repositories, adding SysDiag and Optimize-Build workflow backdoors that abuse weak branch protection, direct poisoned pipeline execution, CI OIDC, and outbound runner access to exfiltrate secrets to 216.126.225[.]129:8443.</description>
+      <pubDate>Fri, 22 May 2026 15:25:00 GMT</pubDate>
       <guid>https://threat.wiki/ops/megalodon-github-actions-workflow-backdooring/</guid>
     </item>
     <item>
