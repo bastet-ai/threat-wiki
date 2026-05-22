@@ -44,11 +44,14 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - This wave adds a durable defender lesson for later Mini Shai-Hulud triage: package-registry compromise, IDE-extension compromise, Docker image poisoning, and GitHub Actions abuse can all be lanes for the same payload and credential-theft infrastructure.
 - See also: [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](bitwarden-checkmarx-shai-hulud-third-coming.md).
 
-### April 29-30, 2026: SAP / Intercom / PyPI expansion
+### April 29-30, 2026: SAP / Intercom / PyPI / Packagist expansion
 - Wiz reported Mini Shai-Hulud-style malicious versions in SAP ecosystem npm packages including `@cap-js/sqlite`, `@cap-js/postgres`, `@cap-js/db-service`, and `mbt`.
 - The same reporting later added `intercom-client` and PyPI `lightning` packages as related compromises under analysis.
 - Reported behavior included `preinstall` execution, Bun-based loaders, obfuscated JavaScript payloads, cloud/GitHub/npm/Kubernetes/Vault credential harvesting, Russian locale guardrails, and GitHub-based encrypted exfiltration.
 - Wiz assessed TeamPCP responsibility with high confidence based on shared cryptographic material and implementation overlaps, while noting that references to older Shai-Hulud operations do not by themselves prove a single operator across every wave.
+- Socket reported that `intercom-client@7.0.4` introduced `setup.mjs` plus an 11.7 MB `router_runtime.js` payload, ran during npm `preinstall`, downloaded Bun from GitHub without integrity checks, harvested Kubernetes/Vault/cloud/developer secrets, and exfiltrated through GitHub infrastructure.
+- Socket's follow-up expanded the Intercom chain into Packagist: `intercom/intercom-php@5.0.2` was replaced by force-updated tag metadata and converted into a Composer plugin via `composer-plugin-api`, `src/composerPlugin.php`, `post-install-cmd` / `post-update-cmd`, and `setup-intercom.sh`, which downloaded Bun `1.3.13` and executed the same `router_runtime.js`-style payload.
+- Intercom told Socket the root cause was a local install of `pyannote-audio` that pulled the compromised PyPI `lightning` dependency, linking a PyPI foothold to the npm `intercom-client` compromise and then to the Packagist `intercom/intercom-php` artifact. This is a durable ecosystem-expansion lesson: Mini Shai-Hulud-style activity can move from a developer endpoint into multiple package registries through local dependency installs, repository access, and mutable package metadata rather than through one registry's native publishing flow alone.
 
 ### May 11-12, 2026: TanStack and trusted-publishing abuse
 - Snyk reported malicious artifacts across `@tanstack/*` packages published by the legitimate TanStack release pipeline after attacker-controlled code hijacked the runner mid-workflow.
@@ -91,6 +94,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - npm lifecycle hooks such as `preinstall`.
 - Bun runtime download/execution to run large JavaScript payloads.
 - PyPI import-time loader/downloader behavior in related Python packages.
+- Composer plugin install/update hooks and mutable Packagist tag metadata in PHP ecosystem compromises.
 - Heavy obfuscation and embedded encrypted payload sections.
 
 ### Credential harvesting
@@ -134,6 +138,7 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 ### Package and registry hunting
 - Diff newly published package tarballs against prior clean versions.
 - Flag new lifecycle hooks, new Bun/runtime downloaders, large minified/obfuscated payload files, or sudden patch releases from unusual automation.
+- For Composer/Packagist, flag packages that unexpectedly become `composer-plugin` packages, add `composer-plugin-api`, introduce `post-install-cmd` / `post-update-cmd` execution paths, or move an existing version tag to a new commit.
 - Do not trust provenance alone; correlate attestations with clean workflow inputs, clean cache state, and expected release commits.
 - Add release-age/cooldown controls for package ingestion when operationally possible.
 - After registry-wide token resets, explicitly inventory and replace automation tokens that stopped working, but do not assume new tokens are safe until affected runners, developer endpoints, caches, and release workflows have been cleaned.
@@ -181,6 +186,8 @@ Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft d
 - StepSecurity Nx Console: https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised
 - GitHub Blog Nx Console incident note: https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/
 - Socket npm token reset / Mini Shai-Hulud registry response: https://socket.dev/blog/npm-invalidates-tokens-mini-shai-hulud
+- Socket Intercom npm compromise: https://socket.dev/blog/intercom-s-npm-package-compromised-in-supply-chain-attack
+- Socket Intercom Packagist compromise: https://socket.dev/blog/mini-shai-hulud-packagist-malicious-intercom-php-package-compromise
 - Socket TeamPCP contest reporting: https://socket.dev/blog/teampcp-supply-chain-attack-contest
 - Socket SANDWORM_MODE reporting: https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning
 - CISA: https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem

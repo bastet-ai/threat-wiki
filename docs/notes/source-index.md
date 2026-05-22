@@ -27,6 +27,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **Nx / nrwl security advisories and issues** — https://github.com/nrwl/nx/security/advisories and https://github.com/nrwl/nx/issues
 - **Grafana Labs security posts** — https://grafana.com/blog/tags/security/
 - **PyPI project and malware-report pages for affected packages** — use package-specific release history as confirmation for yanked or restored versions.
+- **Packagist package pages and maintainer incident notes** — watch package metadata/tag movement and unexpected `composer-plugin` conversions during Mini Shai-Hulud-style cross-ecosystem incidents.
 
 ## Notes
 - Prefer RSS/Atom over ad hoc web searches.
