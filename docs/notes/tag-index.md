@@ -12,9 +12,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ai-agent](#ai-agent) (1)
 - [Albania](#albania) (1)
 - [appliance](#appliance) (1)
+- [APT29](#apt29) (1)
 - [Artifact Signing](#artifact-signing) (1)
 - [AWS](#aws) (1)
-- [Azure](#azure) (1)
+- [Azure](#azure) (2)
 - [backdoor](#backdoor) (2)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
@@ -30,7 +31,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD](#cicd) (14)
 - [CircleCI](#circleci) (1)
 - [Citrix](#citrix) (1)
-- [cloud](#cloud) (2)
+- [cloud](#cloud) (3)
 - [Cloudflare](#cloudflare) (1)
 - [code signing](#code-signing) (2)
 - [Codecov](#codecov) (1)
@@ -43,6 +44,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential-theft](#credential-theft) (7)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [cryptocurrency](#cryptocurrency) (1)
+- [Curious Serpens](#curious-serpens) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
 - [CVE-2024-1708](#cve-2024-1708) (1)
@@ -50,18 +52,22 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [cybercrime](#cybercrime) (1)
 - [data theft](#data-theft) (1)
+- [defense evasion](#defense-evasion) (1)
 - [deployment_status](#deployment_status) (1)
 - [developer machines](#developer-machines) (1)
+- [device registration](#device-registration) (1)
 - [DEWMODE](#dewmode) (1)
 - [Discord](#discord) (1)
+- [discovery](#discovery) (1)
 - [DNS C2](#dns-c2) (1)
 - [Docker](#docker) (1)
 - [edge appliance](#edge-appliance) (1)
 - [email](#email) (1)
 - [email gateway](#email-gateway) (1)
 - [energy-sector](#energy-sector) (1)
+- [Entra ID](#entra-id) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (5)
+- [espionage](#espionage) (6)
 - [Europe](#europe) (1)
 - [EvilAI](#evilai) (1)
 - [exploit-kit](#exploit-kit) (1)
@@ -82,7 +88,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
 - [IDE extension](#ide-extension) (1)
-- [identity](#identity) (1)
+- [identity](#identity) (2)
 - [infostealer](#infostealer) (1)
 - [iOS](#ios) (1)
 - [Iran](#iran) (1)
@@ -98,13 +104,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malware](#malware) (4)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [MCP](#mcp) (1)
-- [MFA bypass](#mfa-bypass) (2)
+- [MFA bypass](#mfa-bypass) (3)
 - [Microsoft](#microsoft) (1)
-- [Microsoft Graph](#microsoft-graph) (1)
+- [Microsoft Graph](#microsoft-graph) (2)
 - [Middle East](#middle-east) (1)
+- [Midnight Blizzard](#midnight-blizzard) (1)
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (1)
 - [MSP](#msp) (1)
+- [nation-state](#nation-state) (1)
 - [NetScaler](#netscaler) (1)
 - [node-ipc](#node-ipc) (1)
 - [npm](#npm) (8)
@@ -117,7 +125,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package-takeover](#package-takeover) (1)
 - [patterns](#patterns) (1)
 - [people](#people) (1)
-- [persistence](#persistence) (8)
+- [persistence](#persistence) (9)
 - [Piriform](#piriform) (1)
 - [portmap](#portmap) (1)
 - [post-exploitation](#post-exploitation) (1)
@@ -132,6 +140,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (1)
 - [reviewdog](#reviewdog) (1)
+- [ROADrecon](#roadrecon) (1)
+- [ROADtools](#roadtools) (1)
+- [roadtx](#roadtx) (1)
 - [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (2)
 - [sabotage](#sabotage) (1)
@@ -162,14 +173,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telecom](#telecom) (1)
 - [Telegram](#telegram) (1)
 - [tj-actions](#tj-actions) (1)
-- [token theft](#token-theft) (1)
+- [token replay](#token-replay) (1)
+- [token theft](#token-theft) (2)
 - [tooling](#tooling) (5)
-- [tools](#tools) (1)
+- [tools](#tools) (2)
 - [Trading Technologies](#trading-technologies) (1)
 - [transnational repression](#transnational-repression) (1)
 - [Twilio](#twilio) (1)
 - [typosquatting](#typosquatting) (2)
 - [Ukraine](#ukraine) (1)
+- [UTA0355](#uta0355) (1)
 - [VS Code](#vs-code) (2)
 - [watering-hole](#watering-hole) (2)
 - [WebKit](#webkit) (1)
@@ -209,6 +222,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## appliance
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
+## APT29
+- [ROADtools](../tools/roadtools.md)
+
 ## Artifact Signing
 - [Fox Tempest](../actors/fox-tempest.md)
 
@@ -217,6 +233,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Azure
 - [Fox Tempest](../actors/fox-tempest.md)
+- [ROADtools](../tools/roadtools.md)
 
 ## backdoor
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -280,6 +297,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloud
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [ROADtools](../tools/roadtools.md)
 - [Webworm](../actors/webworm.md)
 
 ## Cloudflare
@@ -327,6 +345,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cryptocurrency
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
+## Curious Serpens
+- [ROADtools](../tools/roadtools.md)
+
 ## CVE-2023-2868
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
@@ -349,17 +370,26 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## data theft
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
+## defense evasion
+- [ROADtools](../tools/roadtools.md)
+
 ## deployment_status
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## developer machines
 - [Trivy compromise](../ops/trivy-compromise.md)
 
+## device registration
+- [ROADtools](../tools/roadtools.md)
+
 ## DEWMODE
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
 ## Discord
 - [Webworm](../actors/webworm.md)
+
+## discovery
+- [ROADtools](../tools/roadtools.md)
 
 ## DNS C2
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -379,6 +409,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## energy-sector
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
+## Entra ID
+- [ROADtools](../tools/roadtools.md)
+
 ## ESG
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
@@ -386,6 +419,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
 - [Webworm](../actors/webworm.md)
 
@@ -466,6 +500,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## identity
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [ROADtools](../tools/roadtools.md)
 
 ## infostealer
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -519,15 +554,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MFA bypass
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+- [ROADtools](../tools/roadtools.md)
 
 ## Microsoft
 - [Fox Tempest](../actors/fox-tempest.md)
 
 ## Microsoft Graph
+- [ROADtools](../tools/roadtools.md)
 - [Webworm](../actors/webworm.md)
 
 ## Middle East
 - [Showboat](../tools/showboat.md)
+
+## Midnight Blizzard
+- [ROADtools](../tools/roadtools.md)
 
 ## module-proxy
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -537,6 +577,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MSP
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+
+## nation-state
+- [ROADtools](../tools/roadtools.md)
 
 ## NetScaler
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -637,6 +680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -688,6 +732,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## reviewdog
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+
+## ROADrecon
+- [ROADtools](../tools/roadtools.md)
+
+## ROADtools
+- [ROADtools](../tools/roadtools.md)
+
+## roadtx
+- [ROADtools](../tools/roadtools.md)
 
 ## Runner.Worker
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -811,8 +864,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tj-actions
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## token replay
+- [ROADtools](../tools/roadtools.md)
+
 ## token theft
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+- [ROADtools](../tools/roadtools.md)
 
 ## tooling
 - [CanisterWorm](../tools/canisterworm.md)
@@ -822,6 +879,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
 ## tools
+- [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
 
 ## Trading Technologies
@@ -839,6 +897,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ukraine
 - [Showboat](../tools/showboat.md)
+
+## UTA0355
+- [ROADtools](../tools/roadtools.md)
 
 ## VS Code
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)

@@ -32,6 +32,7 @@ Confirmed public reporting ties APT29 to:
 - Uses patient, low-noise intrusion tradecraft with long dwell times.
 - Has abused cloud identity and mailbox controls to access target communications.
 - Has used compromised accounts, service principals, and device-registration paths to expand access.
+- Microsoft and Unit 42 reporting tie APT29 / Midnight Blizzard-aligned activity to ROADtools-style Entra ID enumeration and token workflows after targeted access.
 - Has relied on supply-chain access and downstream credential abuse in major campaigns.
 
 ## Related ops
@@ -39,6 +40,9 @@ Confirmed public reporting ties APT29 to:
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
+
+## Related tools
+- [ROADtools](../tools/roadtools.md)
 
 ## Defender takeaways
 - Watch for mailbox-rule abuse, delegated permissions, and unexpected device-registration changes in cloud tenants.

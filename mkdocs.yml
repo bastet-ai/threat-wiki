@@ -33,6 +33,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - ROADtools: tools/roadtools.md
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
