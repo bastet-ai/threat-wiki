@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Drupal Core CVE-2026-9082 active exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [First VPN criminal infrastructure takedown](../tools/first-vpn.md)
 - [Ghostwriter UAC-0057 Prometheus-themed phishing](../actors/ghostwriter.md)

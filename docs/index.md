@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [GitHub / Packagist postinstall hook campaign](ops/github-packagist-postinstall-hook-campaign.md)
 - [Drupal Core CVE-2026-9082 exploitation](ops/drupal-core-cve-2026-9082-exploitation.md)
 - [First VPN](tools/first-vpn.md)
 - [Ghostwriter](actors/ghostwriter.md)

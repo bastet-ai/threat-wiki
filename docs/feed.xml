@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>GitHub / Packagist postinstall hook campaign</title>
+      <link>https://threat.wiki/ops/github-packagist-postinstall-hook-campaign/</link>
+      <description>Socket reported a May 2026 cross-ecosystem supply-chain campaign where attacker-made GitHub commits added identical package.json postinstall hooks to Composer/Packagist projects, downloading gvfsd-network from GitHub Releases to /tmp/.sshd and executing it in the background.</description>
+      <pubDate>Fri, 22 May 2026 21:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/github-packagist-postinstall-hook-campaign/</guid>
+    </item>
+    <item>
       <title>Drupal Core CVE-2026-9082 active exploitation</title>
       <link>https://threat.wiki/ops/drupal-core-cve-2026-9082-exploitation/</link>
       <description>CISA added Drupal Core CVE-2026-9082 to KEV; Akamai analysis describes a PostgreSQL-backed SQL-injection path through attacker-controlled PHP array keys reaching JSON:API, Views, Entity autocomplete, and related EntityQuery flows.</description>
