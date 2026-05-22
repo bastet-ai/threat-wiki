@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Drupal Core CVE-2026-9082 exploitation](ops/drupal-core-cve-2026-9082-exploitation.md)
+- [First VPN](tools/first-vpn.md)
 - [Ghostwriter](actors/ghostwriter.md)
 - [Langflow CVE-2025-34291 exploitation](ops/langflow-cve-2025-34291-exploitation.md)
 - [Megalodon GitHub Actions workflow backdooring](ops/megalodon-github-actions-workflow-backdooring.md)

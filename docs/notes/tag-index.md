@@ -6,6 +6,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX](#3cx) (1)
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
+- [active exploitation](#active-exploitation) (1)
 - [actors](#actors) (2)
 - [adware](#adware) (1)
 - [AI agents](#ai-agents) (1)
@@ -37,6 +38,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix](#citrix) (1)
 - [cloud](#cloud) (3)
 - [Cloudflare](#cloudflare) (1)
+- [CMS](#cms) (1)
 - [Cobalt Strike](#cobalt-strike) (1)
 - [code signing](#code-signing) (2)
 - [Codecov](#codecov) (1)
@@ -48,6 +50,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [credential theft](#credential-theft) (3)
 - [credential-theft](#credential-theft) (8)
+- [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [cryptocurrency](#cryptocurrency) (1)
 - [Curious Serpens](#curious-serpens) (1)
@@ -57,7 +60,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-1709](#cve-2024-1709) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [CVE-2025-34291](#cve-2025-34291) (1)
-- [cybercrime](#cybercrime) (1)
+- [CVE-2026-9082](#cve-2026-9082) (1)
+- [cybercrime](#cybercrime) (2)
 - [data theft](#data-theft) (1)
 - [defense evasion](#defense-evasion) (1)
 - [deployment_status](#deployment_status) (1)
@@ -69,6 +73,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DLL sideloading](#dll-sideloading) (1)
 - [DNS C2](#dns-c2) (1)
 - [Docker](#docker) (1)
+- [Drupal](#drupal) (1)
 - [edge appliance](#edge-appliance) (1)
 - [email](#email) (1)
 - [email gateway](#email-gateway) (1)
@@ -76,12 +81,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Entra ID](#entra-id) (1)
 - [ESG](#esg) (1)
 - [espionage](#espionage) (8)
+- [Eurojust](#eurojust) (1)
 - [Europe](#europe) (1)
+- [Europol](#europol) (1)
 - [EvilAI](#evilai) (1)
 - [exploit-kit](#exploit-kit) (1)
+- [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (1)
 - [extortion](#extortion) (1)
 - [faketivism](#faketivism) (1)
+- [FBI](#fbi) (1)
 - [filename-injection](#filename-injection) (1)
 - [Fox Tempest](#fox-tempest) (1)
 - [FTA](#fta) (1)
@@ -99,11 +108,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IDE extension](#ide-extension) (1)
 - [identity](#identity) (2)
 - [infostealer](#infostealer) (1)
+- [infrastructure](#infrastructure) (1)
 - [iOS](#ios) (1)
 - [Iran](#iran) (3)
 - [Israel](#israel) (1)
 - [JavaScript malware](#javascript-malware) (1)
-- [KEV](#kev) (1)
+- [JSON:API](#jsonapi) (1)
+- [KEV](#kev) (2)
+- [L2TP/IPSec](#l2tpipsec) (1)
 - [Langflow](#langflow) (1)
 - [legacy software](#legacy-software) (1)
 - [liblzma](#liblzma) (1)
@@ -134,9 +146,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OIDC](#oidc) (2)
 - [Okta](#okta) (2)
 - [OneDrive](#onedrive) (1)
-- [operations](#operations) (30)
+- [OpenConnect](#openconnect) (1)
+- [OpenVPN](#openvpn) (1)
+- [operations](#operations) (31)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (27)
+- [ops](#ops) (28)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -148,23 +162,29 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Piriform](#piriform) (1)
 - [portmap](#portmap) (1)
 - [post-exploitation](#post-exploitation) (1)
+- [PostgreSQL](#postgresql) (1)
+- [PPtP](#pptp) (1)
 - [PRC-aligned](#prc-aligned) (1)
+- [privilege escalation](#privilege-escalation) (1)
 - [prompt-injection](#prompt-injection) (2)
-- [proxy](#proxy) (3)
+- [proxy](#proxy) (4)
 - [psychological operations](#psychological-operations) (1)
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (2)
-- [ransomware](#ransomware) (1)
+- [ransomware](#ransomware) (2)
 - [RAT](#rat) (2)
+- [Reality](#reality) (1)
 - [recruitment lures](#recruitment-lures) (1)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (1)
+- [remote code execution](#remote-code-execution) (1)
 - [reviewdog](#reviewdog) (1)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
 - [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (2)
+- [Russian-speaking forums](#russian-speaking-forums) (1)
 - [sabotage](#sabotage) (1)
 - [Safari](#safari) (1)
 - [ScreenConnect](#screenconnect) (1)
@@ -183,11 +203,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [South Africa](#south-africa) (1)
 - [Southeast Asia](#southeast-asia) (1)
 - [spearphishing](#spearphishing) (1)
+- [SQL injection](#sql-injection) (1)
 - [SSH](#ssh) (1)
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
 - [supply-chain](#supply-chain) (23)
 - [tag tampering](#tag-tampering) (2)
+- [takedown](#takedown) (1)
 - [TamperedChef](#tamperedchef) (1)
 - [TeamPCP](#teampcp) (5)
 - [TeamViewer](#teamviewer) (1)
@@ -197,22 +219,28 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token replay](#token-replay) (1)
 - [token theft](#token-theft) (2)
 - [tooling](#tooling) (5)
-- [tools](#tools) (2)
+- [tools](#tools) (3)
 - [Trading Technologies](#trading-technologies) (1)
 - [transnational repression](#transnational-repression) (1)
 - [Twilio](#twilio) (1)
 - [typosquatting](#typosquatting) (2)
 - [Ukraine](#ukraine) (2)
 - [UTA0355](#uta0355) (1)
+- [Views](#views) (1)
+- [VLESS](#vless) (1)
+- [VPN](#vpn) (1)
 - [VS Code](#vs-code) (2)
 - [watering-hole](#watering-hole) (2)
+- [web application](#web-application) (1)
 - [WebKit](#webkit) (1)
 - [Webworm](#webworm) (1)
 - [Windows](#windows) (3)
 - [wiper](#wiper) (2)
+- [WireGuard](#wireguard) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
 - [worm](#worm) (6)
 - [X_TRADER](#x_trader) (1)
+- [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
 - [Zero Trust](#zero-trust) (1)
 
@@ -224,6 +252,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## account-takeover
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+
+## active exploitation
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
 ## actors
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -339,6 +370,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cloudflare
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
+## CMS
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
 ## Cobalt Strike
 - [Ghostwriter](../actors/ghostwriter.md)
 
@@ -382,6 +416,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
+## criminal infrastructure
+- [First VPN](../tools/first-vpn.md)
+
 ## critical-infrastructure
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [Showboat](../tools/showboat.md)
@@ -411,7 +448,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2025-34291
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 
+## CVE-2026-9082
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
 ## cybercrime
+- [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 
 ## data theft
@@ -447,6 +488,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Docker
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 
+## Drupal
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
 ## edge appliance
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
@@ -475,14 +519,23 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 - [Webworm](../actors/webworm.md)
 
+## Eurojust
+- [First VPN](../tools/first-vpn.md)
+
 ## Europe
 - [Webworm](../actors/webworm.md)
+
+## Europol
+- [First VPN](../tools/first-vpn.md)
 
 ## EvilAI
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
 ## exploit-kit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+
+## Exploit.in
+- [First VPN](../tools/first-vpn.md)
 
 ## exploitation
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -492,6 +545,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## faketivism
 - [Handala](../actors/handala.md)
+
+## FBI
+- [First VPN](../tools/first-vpn.md)
 
 ## filename-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -561,6 +617,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## infostealer
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
+## infrastructure
+- [First VPN](../tools/first-vpn.md)
+
 ## iOS
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
@@ -575,8 +634,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JavaScript malware
 - [Ghostwriter](../actors/ghostwriter.md)
 
+## JSON:API
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
 ## KEV
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+
+## L2TP/IPSec
+- [First VPN](../tools/first-vpn.md)
 
 ## Langflow
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -685,6 +751,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OneDrive
 - [Webworm](../actors/webworm.md)
 
+## OpenConnect
+- [First VPN](../tools/first-vpn.md)
+
+## OpenVPN
+- [First VPN](../tools/first-vpn.md)
+
 ## operations
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -699,6 +771,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -733,6 +806,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -790,14 +864,24 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## post-exploitation
 - [Showboat](../tools/showboat.md)
 
+## PostgreSQL
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## PPtP
+- [First VPN](../tools/first-vpn.md)
+
 ## PRC-aligned
 - [Showboat](../tools/showboat.md)
+
+## privilege escalation
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
 ## prompt-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
 ## proxy
+- [First VPN](../tools/first-vpn.md)
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Webworm](../actors/webworm.md)
@@ -813,11 +897,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## ransomware
+- [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 
 ## RAT
 - [Screening Serpens](../actors/screening-serpens.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## Reality
+- [First VPN](../tools/first-vpn.md)
 
 ## recruitment lures
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -827,6 +915,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## remote access
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+
+## remote code execution
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
 ## reviewdog
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -846,6 +937,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Russia
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
+## Russian-speaking forums
+- [First VPN](../tools/first-vpn.md)
 
 ## sabotage
 - [Handala](../actors/handala.md)
@@ -906,6 +1000,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## spearphishing
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
+## SQL injection
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
 ## SSH
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -944,6 +1041,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## takedown
+- [First VPN](../tools/first-vpn.md)
+
 ## TamperedChef
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
@@ -981,6 +1081,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
 ## tools
+- [First VPN](../tools/first-vpn.md)
 - [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
 
@@ -1004,6 +1105,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UTA0355
 - [ROADtools](../tools/roadtools.md)
 
+## Views
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## VLESS
+- [First VPN](../tools/first-vpn.md)
+
+## VPN
+- [First VPN](../tools/first-vpn.md)
+
 ## VS Code
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -1011,6 +1121,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## watering-hole
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
+## web application
+- [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
 ## WebKit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -1027,6 +1140,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Handala](../actors/handala.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
+## WireGuard
+- [First VPN](../tools/first-vpn.md)
+
 ## workflow backdoor
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 
@@ -1040,6 +1156,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## X_TRADER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+
+## XSS.is
+- [First VPN](../tools/first-vpn.md)
 
 ## xz
 - [JiaT75](../people/jiat75.md)

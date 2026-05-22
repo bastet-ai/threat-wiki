@@ -5,6 +5,20 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Drupal Core CVE-2026-9082 active exploitation</title>
+      <link>https://threat.wiki/ops/drupal-core-cve-2026-9082-exploitation/</link>
+      <description>CISA added Drupal Core CVE-2026-9082 to KEV; Akamai analysis describes a PostgreSQL-backed SQL-injection path through attacker-controlled PHP array keys reaching JSON:API, Views, Entity autocomplete, and related EntityQuery flows.</description>
+      <pubDate>Fri, 22 May 2026 19:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/drupal-core-cve-2026-9082-exploitation/</guid>
+    </item>
+    <item>
+      <title>First VPN criminal infrastructure takedown</title>
+      <link>https://threat.wiki/tools/first-vpn/</link>
+      <description>Eurojust, Europol, and FBI-sourced public reporting describe the May 2026 disruption of First VPN, a Russian-speaking forum-advertised criminal VPN/proxy service used for ransomware, fraud, data theft, scanning, and DDoS activity, with 33+ servers dismantled and 1vpns domains seized.</description>
+      <pubDate>Fri, 22 May 2026 19:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/tools/first-vpn/</guid>
+    </item>
+    <item>
       <title>Ghostwriter UAC-0057 Prometheus-themed phishing</title>
       <link>https://threat.wiki/actors/ghostwriter/</link>
       <description>CERT-UA reports UAC-0057 / UNC1151 phishing against Ukrainian government organizations using compromised accounts, Prometheus certificate lures, OYSTERFRESH/OYSTERSHUCK/OYSTERBLUES JavaScript stages, registry persistence, Cloudflare-fronted .icu infrastructure, and possible Cobalt Strike follow-on.</description>

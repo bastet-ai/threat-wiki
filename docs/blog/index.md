@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Drupal Core CVE-2026-9082 active exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [First VPN criminal infrastructure takedown](../tools/first-vpn.md)
 - [Ghostwriter UAC-0057 Prometheus-themed phishing](../actors/ghostwriter.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)

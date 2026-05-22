@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Drupal Core CVE-2026-9082 exploitation: ops/drupal-core-cve-2026-9082-exploitation.md
       - Langflow CVE-2025-34291 exploitation: ops/langflow-cve-2025-34291-exploitation.md
       - Megalodon GitHub Actions workflow backdooring: ops/megalodon-github-actions-workflow-backdooring.md
       - Bitwarden / Checkmarx Shai-Hulud Third Coming campaign: ops/bitwarden-checkmarx-shai-hulud-third-coming.md
@@ -35,6 +36,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - First VPN: tools/first-vpn.md
       - ROADtools: tools/roadtools.md
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
@@ -49,6 +51,7 @@ nav:
       - Fox Tempest: actors/fox-tempest.md
       - Webworm: actors/webworm.md
   - Ops:
+      - Drupal Core CVE-2026-9082 exploitation: ops/drupal-core-cve-2026-9082-exploitation.md
       - Langflow CVE-2025-34291 exploitation: ops/langflow-cve-2025-34291-exploitation.md
       - Megalodon GitHub Actions workflow backdooring: ops/megalodon-github-actions-workflow-backdooring.md
       - Bitwarden / Checkmarx Shai-Hulud Third Coming campaign: ops/bitwarden-checkmarx-shai-hulud-third-coming.md
