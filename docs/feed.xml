@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>LiteLLM TeamPCP PyPI compromise details</title>
+      <link>https://threat.wiki/ops/litellm-compromise/</link>
+      <description>Boost Security Labs' TeamPCP LiteLLM analysis adds PyPI versions 1.82.7/1.82.8, Python .pth startup execution, models.litellm.cloud exfiltration, caveated Trivy bridge hypotheses, and GitHub repository exposure/destruction behavior.</description>
+      <pubDate>Fri, 22 May 2026 07:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/litellm-compromise/#2026-05-22-boost-labs-update</guid>
+    </item>
+    <item>
       <title>Mini Shai-Hulud expands into Intercom Packagist artifact</title>
       <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/</link>
       <description>Socket linked Intercom's PyPI-to-npm compromise chain to a malicious Packagist intercom/intercom-php@5.0.2 artifact that abused Composer plugin install/update hooks, mutable tag metadata, Bun download, and router_runtime.js-style credential theft.</description>

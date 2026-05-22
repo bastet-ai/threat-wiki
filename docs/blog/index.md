@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [TeamPCP group profile](../actors/teampcp.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
