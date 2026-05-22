@@ -14,7 +14,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Albania](#albania) (1)
 - [AppDomainManager](#appdomainmanager) (1)
 - [appliance](#appliance) (1)
-- [APT](#apt) (1)
+- [APT](#apt) (2)
 - [APT29](#apt29) (1)
 - [Artifact Signing](#artifact-signing) (1)
 - [AWS](#aws) (1)
@@ -22,6 +22,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [backdoor](#backdoor) (2)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
+- [Belarus](#belarus) (1)
 - [Bitbucket](#bitbucket) (1)
 - [Bitwarden](#bitwarden) (1)
 - [branch-name-injection](#branch-name-injection) (1)
@@ -36,11 +37,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix](#citrix) (1)
 - [cloud](#cloud) (3)
 - [Cloudflare](#cloudflare) (1)
+- [Cobalt Strike](#cobalt-strike) (1)
 - [code signing](#code-signing) (2)
 - [Codecov](#codecov) (1)
 - [Coinbase](#coinbase) (1)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
+- [compromised accounts](#compromised-accounts) (1)
 - [ConnectWise](#connectwise) (1)
 - [Coruna](#coruna) (1)
 - [credential theft](#credential-theft) (3)
@@ -72,7 +75,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [energy-sector](#energy-sector) (1)
 - [Entra ID](#entra-id) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (7)
+- [espionage](#espionage) (8)
 - [Europe](#europe) (1)
 - [EvilAI](#evilai) (1)
 - [exploit-kit](#exploit-kit) (1)
@@ -99,6 +102,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [iOS](#ios) (1)
 - [Iran](#iran) (3)
 - [Israel](#israel) (1)
+- [JavaScript malware](#javascript-malware) (1)
 - [KEV](#kev) (1)
 - [Langflow](#langflow) (1)
 - [legacy software](#legacy-software) (1)
@@ -133,10 +137,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operations](#operations) (30)
 - [OpFauxSign](#opfauxsign) (1)
 - [ops](#ops) (27)
+- [OYSTERBLUES](#oysterblues) (1)
+- [OYSTERFRESH](#oysterfresh) (1)
+- [OYSTERSHUCK](#oystershuck) (1)
 - [package-takeover](#package-takeover) (1)
 - [patterns](#patterns) (1)
 - [people](#people) (1)
 - [persistence](#persistence) (9)
+- [phishing](#phishing) (1)
 - [Piriform](#piriform) (1)
 - [portmap](#portmap) (1)
 - [post-exploitation](#post-exploitation) (1)
@@ -194,7 +202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [transnational repression](#transnational-repression) (1)
 - [Twilio](#twilio) (1)
 - [typosquatting](#typosquatting) (2)
-- [Ukraine](#ukraine) (1)
+- [Ukraine](#ukraine) (2)
 - [UTA0355](#uta0355) (1)
 - [VS Code](#vs-code) (2)
 - [watering-hole](#watering-hole) (2)
@@ -243,6 +251,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
 ## APT
+- [Ghostwriter](../actors/ghostwriter.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 
 ## APT29
@@ -267,6 +276,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bash Uploader
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+
+## Belarus
+- [Ghostwriter](../actors/ghostwriter.md)
 
 ## Bitbucket
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -327,6 +339,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cloudflare
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
+## Cobalt Strike
+- [Ghostwriter](../actors/ghostwriter.md)
+
 ## code signing
 - [Fox Tempest](../actors/fox-tempest.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -342,6 +357,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## command-injection
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+
+## compromised accounts
+- [Ghostwriter](../actors/ghostwriter.md)
 
 ## ConnectWise
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
@@ -451,6 +469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Ghostwriter](../actors/ghostwriter.md)
 - [ROADtools](../tools/roadtools.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Showboat](../tools/showboat.md)
@@ -552,6 +571,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Israel
 - [Handala](../actors/handala.md)
+
+## JavaScript malware
+- [Ghostwriter](../actors/ghostwriter.md)
 
 ## KEV
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -727,6 +749,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## OYSTERBLUES
+- [Ghostwriter](../actors/ghostwriter.md)
+
+## OYSTERFRESH
+- [Ghostwriter](../actors/ghostwriter.md)
+
+## OYSTERSHUCK
+- [Ghostwriter](../actors/ghostwriter.md)
+
 ## package-takeover
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
@@ -746,6 +777,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+
+## phishing
+- [Ghostwriter](../actors/ghostwriter.md)
 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -964,6 +998,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
 ## Ukraine
+- [Ghostwriter](../actors/ghostwriter.md)
 - [Showboat](../tools/showboat.md)
 
 ## UTA0355

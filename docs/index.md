@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Ghostwriter](actors/ghostwriter.md)
 - [Langflow CVE-2025-34291 exploitation](ops/langflow-cve-2025-34291-exploitation.md)
 - [Megalodon GitHub Actions workflow backdooring](ops/megalodon-github-actions-workflow-backdooring.md)
 - [Screening Serpens](actors/screening-serpens.md)

@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Ghostwriter UAC-0057 Prometheus-themed phishing](../actors/ghostwriter.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Screening Serpens 2026 espionage campaigns](../actors/screening-serpens.md)

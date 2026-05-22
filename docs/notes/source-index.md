@@ -23,6 +23,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **ProjectDiscovery blog** — https://projectdiscovery.io/blog/rss
 - **CISA KEV** — https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json (promote entries when they add active exploitation evidence, actor linkage, or high-impact platform exposure such as Langflow CVE-2025-34291)
 - **GitHub Security Advisories** — https://github.com/advisories.atom
+- **CERT-UA** — https://cert.gov.ua/ (HTML/API watch for Ukraine-focused actor campaigns, UAC cluster reports, malware component names, and indicator bundles; article pages can be queried via `/api/articles/byId?id=<article-id>`)
 
 ## Maintainer / vendor incident posts to watch during active campaigns
 - **Nx / nrwl security advisories and issues** — https://github.com/nrwl/nx/security/advisories and https://github.com/nrwl/nx/issues

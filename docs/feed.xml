@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Ghostwriter UAC-0057 Prometheus-themed phishing</title>
+      <link>https://threat.wiki/actors/ghostwriter/</link>
+      <description>CERT-UA reports UAC-0057 / UNC1151 phishing against Ukrainian government organizations using compromised accounts, Prometheus certificate lures, OYSTERFRESH/OYSTERSHUCK/OYSTERBLUES JavaScript stages, registry persistence, Cloudflare-fronted .icu infrastructure, and possible Cobalt Strike follow-on.</description>
+      <pubDate>Fri, 22 May 2026 17:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/ghostwriter/</guid>
+    </item>
+    <item>
       <title>Langflow CVE-2025-34291 active exploitation</title>
       <link>https://threat.wiki/ops/langflow-cve-2025-34291-exploitation/</link>
       <description>CISA added Langflow CVE-2025-34291 to KEV after active exploitation; the browser-mediated origin-validation and token-refresh chain can expose AI-workflow credentials, with public reporting tying some exploitation to MuddyWater.</description>
