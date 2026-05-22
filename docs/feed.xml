@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>BufferZoneCorp RubyGems / Go module CI poisoning</title>
+      <link>https://threat.wiki/ops/bufferzonecorp-ruby-go-ci-poisoning/</link>
+      <description>Socket reported a BufferZoneCorp cross-ecosystem package cluster where Ruby gems and Go modules used install-time execution, Go init hooks, GitHub Actions path/proxy tampering, credential theft, fake go wrappers, and SSH authorized_keys persistence against developer and CI environments.</description>
+      <pubDate>Fri, 22 May 2026 23:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/bufferzonecorp-ruby-go-ci-poisoning/</guid>
+    </item>
+    <item>
       <title>GitHub / Packagist postinstall hook campaign</title>
       <link>https://threat.wiki/ops/github-packagist-postinstall-hook-campaign/</link>
       <description>Socket reported a May 2026 cross-ecosystem supply-chain campaign where attacker-made GitHub commits added identical package.json postinstall hooks to Composer/Packagist projects, downloading gvfsd-network from GitHub Releases to /tmp/.sshd and executing it in the background.</description>

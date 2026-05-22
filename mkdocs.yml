@@ -11,6 +11,7 @@ nav:
       - Langflow CVE-2025-34291 exploitation: ops/langflow-cve-2025-34291-exploitation.md
       - Megalodon GitHub Actions workflow backdooring: ops/megalodon-github-actions-workflow-backdooring.md
       - GitHub / Packagist postinstall hook campaign: ops/github-packagist-postinstall-hook-campaign.md
+      - BufferZoneCorp RubyGems / Go module CI poisoning: ops/bufferzonecorp-ruby-go-ci-poisoning.md
       - Bitwarden / Checkmarx Shai-Hulud Third Coming campaign: ops/bitwarden-checkmarx-shai-hulud-third-coming.md
       - art-template Coruna-style iOS watering-hole compromise: ops/art-template-coruna-ios-watering-hole.md
       - shopsprint/decimal Go typosquat DNS backdoor: ops/shopsprint-decimal-go-typosquat-dns-backdoor.md
@@ -56,6 +57,7 @@ nav:
       - Langflow CVE-2025-34291 exploitation: ops/langflow-cve-2025-34291-exploitation.md
       - Megalodon GitHub Actions workflow backdooring: ops/megalodon-github-actions-workflow-backdooring.md
       - GitHub / Packagist postinstall hook campaign: ops/github-packagist-postinstall-hook-campaign.md
+      - BufferZoneCorp RubyGems / Go module CI poisoning: ops/bufferzonecorp-ruby-go-ci-poisoning.md
       - Bitwarden / Checkmarx Shai-Hulud Third Coming campaign: ops/bitwarden-checkmarx-shai-hulud-third-coming.md
       - art-template Coruna-style iOS watering-hole compromise: ops/art-template-coruna-ios-watering-hole.md
       - shopsprint/decimal Go typosquat DNS backdoor: ops/shopsprint-decimal-go-typosquat-dns-backdoor.md

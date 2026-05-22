@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Drupal Core CVE-2026-9082 active exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [First VPN criminal infrastructure takedown](../tools/first-vpn.md)
