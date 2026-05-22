@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Megalodon GitHub Actions workflow backdooring](ops/megalodon-github-actions-workflow-backdooring.md)
+- [Screening Serpens](actors/screening-serpens.md)
 - [ROADtools](tools/roadtools.md)
 - [LiteLLM compromise](ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](ops/mini-shai-hulud-npm-pypi-worm-campaign.md)

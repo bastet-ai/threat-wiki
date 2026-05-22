@@ -11,7 +11,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI tooling](#ai-tooling) (1)
 - [ai-agent](#ai-agent) (1)
 - [Albania](#albania) (1)
+- [AppDomainManager](#appdomainmanager) (1)
 - [appliance](#appliance) (1)
+- [APT](#apt) (1)
 - [APT29](#apt29) (1)
 - [Artifact Signing](#artifact-signing) (1)
 - [AWS](#aws) (1)
@@ -28,7 +30,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner](#ccleaner) (1)
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (2)
-- [CI/CD](#cicd) (14)
+- [CI/CD](#cicd) (15)
 - [CircleCI](#circleci) (1)
 - [Citrix](#citrix) (1)
 - [cloud](#cloud) (3)
@@ -41,7 +43,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise](#connectwise) (1)
 - [Coruna](#coruna) (1)
 - [credential theft](#credential-theft) (2)
-- [credential-theft](#credential-theft) (7)
+- [credential-theft](#credential-theft) (8)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [cryptocurrency](#cryptocurrency) (1)
 - [Curious Serpens](#curious-serpens) (1)
@@ -59,6 +61,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DEWMODE](#dewmode) (1)
 - [Discord](#discord) (1)
 - [discovery](#discovery) (1)
+- [DLL sideloading](#dll-sideloading) (1)
 - [DNS C2](#dns-c2) (1)
 - [Docker](#docker) (1)
 - [edge appliance](#edge-appliance) (1)
@@ -67,7 +70,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [energy-sector](#energy-sector) (1)
 - [Entra ID](#entra-id) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (6)
+- [espionage](#espionage) (7)
 - [Europe](#europe) (1)
 - [EvilAI](#evilai) (1)
 - [exploit-kit](#exploit-kit) (1)
@@ -78,7 +81,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FTA](#fta) (1)
 - [GCS](#gcs) (1)
 - [GitHub](#github) (3)
-- [GitHub Actions](#github-actions) (11)
+- [GitHub Actions](#github-actions) (12)
 - [GitHub OAuth](#github-oauth) (1)
 - [Go](#go) (1)
 - [group](#group) (1)
@@ -91,7 +94,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [identity](#identity) (2)
 - [infostealer](#infostealer) (1)
 - [iOS](#ios) (1)
-- [Iran](#iran) (1)
+- [Iran](#iran) (2)
 - [Israel](#israel) (1)
 - [legacy software](#legacy-software) (1)
 - [liblzma](#liblzma) (1)
@@ -109,19 +112,21 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Graph](#microsoft-graph) (2)
 - [Middle East](#middle-east) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
+- [MiniJunk](#minijunk) (1)
+- [MiniUpdate](#miniupdate) (1)
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (1)
 - [MSP](#msp) (1)
 - [nation-state](#nation-state) (1)
 - [NetScaler](#netscaler) (1)
 - [node-ipc](#node-ipc) (1)
-- [npm](#npm) (8)
-- [OIDC](#oidc) (1)
+- [npm](#npm) (9)
+- [OIDC](#oidc) (2)
 - [Okta](#okta) (2)
 - [OneDrive](#onedrive) (1)
-- [operations](#operations) (28)
+- [operations](#operations) (29)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (25)
+- [ops](#ops) (26)
 - [package-takeover](#package-takeover) (1)
 - [patterns](#patterns) (1)
 - [people](#people) (1)
@@ -136,7 +141,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (2)
 - [ransomware](#ransomware) (1)
-- [RAT](#rat) (1)
+- [RAT](#rat) (2)
+- [recruitment lures](#recruitment-lures) (1)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (1)
 - [reviewdog](#reviewdog) (1)
@@ -158,6 +164,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [signed updates](#signed-updates) (1)
 - [SLSA](#slsa) (1)
 - [smishing](#smishing) (1)
+- [social engineering](#social-engineering) (1)
 - [SOCKS5](#socks5) (1)
 - [South Africa](#south-africa) (1)
 - [Southeast Asia](#southeast-asia) (1)
@@ -165,7 +172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH](#ssh) (1)
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
-- [supply-chain](#supply-chain) (22)
+- [supply-chain](#supply-chain) (23)
 - [tag tampering](#tag-tampering) (2)
 - [TamperedChef](#tamperedchef) (1)
 - [TeamPCP](#teampcp) (5)
@@ -189,6 +196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](#webworm) (1)
 - [Windows](#windows) (3)
 - [wiper](#wiper) (2)
+- [workflow backdoor](#workflow-backdoor) (1)
 - [worm](#worm) (6)
 - [X_TRADER](#x_trader) (1)
 - [xz](#xz) (1)
@@ -219,8 +227,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Albania
 - [Handala](../actors/handala.md)
 
+## AppDomainManager
+- [Screening Serpens](../actors/screening-serpens.md)
+
 ## appliance
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+
+## APT
+- [Screening Serpens](../actors/screening-serpens.md)
 
 ## APT29
 - [ROADtools](../tools/roadtools.md)
@@ -282,6 +296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -333,6 +348,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+- [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -391,6 +407,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## discovery
 - [ROADtools](../tools/roadtools.md)
 
+## DLL sideloading
+- [Screening Serpens](../actors/screening-serpens.md)
+
 ## DNS C2
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
@@ -420,6 +439,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [ROADtools](../tools/roadtools.md)
+- [Screening Serpens](../actors/screening-serpens.md)
 - [Showboat](../tools/showboat.md)
 - [Webworm](../actors/webworm.md)
 
@@ -461,6 +481,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -510,6 +531,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Iran
 - [Handala](../actors/handala.md)
+- [Screening Serpens](../actors/screening-serpens.md)
 
 ## Israel
 - [Handala](../actors/handala.md)
@@ -569,6 +591,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Midnight Blizzard
 - [ROADtools](../tools/roadtools.md)
 
+## MiniJunk
+- [Screening Serpens](../actors/screening-serpens.md)
+
+## MiniUpdate
+- [Screening Serpens](../actors/screening-serpens.md)
+
 ## module-proxy
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
@@ -591,6 +619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -598,6 +627,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
 ## OIDC
+- [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## Okta
@@ -624,6 +654,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -655,6 +686,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -722,7 +754,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 
 ## RAT
+- [Screening Serpens](../actors/screening-serpens.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## recruitment lures
+- [Screening Serpens](../actors/screening-serpens.md)
 
 ## release tampering
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -793,6 +829,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## smishing
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
+## social engineering
+- [Screening Serpens](../actors/screening-serpens.md)
+
 ## SOCKS5
 - [Showboat](../tools/showboat.md)
 
@@ -827,6 +866,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [JiaT75](../people/jiat75.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -923,6 +963,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## wiper
 - [Handala](../actors/handala.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+
+## workflow backdoor
+- [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 
 ## worm
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)

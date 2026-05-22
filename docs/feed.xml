@@ -5,6 +5,20 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Megalodon GitHub Actions workflow backdooring</title>
+      <link>https://threat.wiki/ops/megalodon-github-actions-workflow-backdooring/</link>
+      <description>SafeDep reported 5,718 malicious commits across 5,561 GitHub repositories, adding SysDiag and Optimize-Build workflow backdoors that exfiltrate CI, cloud, SSH, OIDC, and source-code secrets to 216.126.225[.]129:8443.</description>
+      <pubDate>Fri, 22 May 2026 13:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/megalodon-github-actions-workflow-backdooring/</guid>
+    </item>
+    <item>
+      <title>Screening Serpens MiniUpdate and MiniJunk V2 campaigns</title>
+      <link>https://threat.wiki/actors/screening-serpens/</link>
+      <description>Unit 42's May 2026 Screening Serpens report adds MiniUpdate, MiniJunk V2, AppDomainManager hijacking, DLL sideloading, recruitment lures, and U.S./Israel/UAE/Middle East targeting context for the Iran-nexus actor.</description>
+      <pubDate>Fri, 22 May 2026 13:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/screening-serpens/</guid>
+    </item>
+    <item>
       <title>ROADtools Entra ID cloud-intrusion tradecraft</title>
       <link>https://threat.wiki/tools/roadtools/</link>
       <description>Unit 42's May 2026 ROADtools analysis ties the Entra ID toolkit to nation-state cloud intrusions, covering ROADrecon discovery, roadtx token exchange, device registration persistence, Microsoft Graph enumeration, and hunting heuristics.</description>
