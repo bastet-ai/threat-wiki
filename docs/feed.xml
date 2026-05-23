@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Ollama P2P cryptominer RAT campaign</title>
+      <link>https://threat.wiki/ops/ollama-p2p-cryptominer-rat/</link>
+      <description>Akamai reported a campaign abusing exposed Ollama /api/create endpoints to run shell downloaders and deploy vc, a custom Go P2P RAT and XMRig cryptominer dropper that stages in /dev/shm, masquerades as kworker, persists through cron, and routes mining traffic through libp2p.</description>
+      <pubDate>Sat, 23 May 2026 05:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ollama-p2p-cryptominer-rat/</guid>
+    </item>
+    <item>
       <title>Laravel-Lang Composer tag-rewrite compromise</title>
       <link>https://threat.wiki/ops/laravel-lang-composer-tag-rewrite-compromise/</link>
       <description>StepSecurity reported a Laravel-Lang Composer supply-chain compromise where every tag across laravel-lang/http-statuses, laravel-lang/actions, and laravel-lang/attributes was rewritten to malicious commits that used Composer autoload.files to fetch flipboxstudio.info payloads and exfiltrate CI/developer secrets.</description>

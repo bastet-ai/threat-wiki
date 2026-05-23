@@ -10,9 +10,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actors](#actors) (2)
 - [adware](#adware) (1)
 - [AI agents](#ai-agents) (1)
-- [AI tooling](#ai-tooling) (1)
+- [AI tooling](#ai-tooling) (2)
 - [ai-agent](#ai-agent) (1)
 - [Albania](#albania) (1)
+- [API abuse](#api-abuse) (1)
 - [AppDomainManager](#appdomainmanager) (1)
 - [appliance](#appliance) (1)
 - [APT](#apt) (2)
@@ -20,7 +21,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Artifact Signing](#artifact-signing) (1)
 - [AWS](#aws) (1)
 - [Azure](#azure) (2)
-- [backdoor](#backdoor) (2)
+- [backdoor](#backdoor) (3)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [Belarus](#belarus) (1)
@@ -43,6 +44,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [code signing](#code-signing) (2)
 - [Codecov](#codecov) (1)
 - [Coinbase](#coinbase) (1)
+- [command execution](#command-execution) (1)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [Composer](#composer) (2)
@@ -54,6 +56,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [cryptocurrency](#cryptocurrency) (1)
+- [cryptominer](#cryptominer) (1)
 - [Curious Serpens](#curious-serpens) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
@@ -64,7 +67,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [cybercrime](#cybercrime) (2)
 - [data theft](#data-theft) (1)
-- [defense evasion](#defense-evasion) (1)
+- [defense evasion](#defense-evasion) (2)
 - [deployment_status](#deployment_status) (1)
 - [developer machines](#developer-machines) (2)
 - [device registration](#device-registration) (1)
@@ -99,7 +102,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub](#github) (5)
 - [GitHub Actions](#github-actions) (13)
 - [GitHub OAuth](#github-oauth) (1)
-- [Go](#go) (2)
+- [Go](#go) (3)
 - [group](#group) (1)
 - [groups](#groups) (4)
 - [hack-and-leak](#hack-and-leak) (1)
@@ -121,8 +124,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Laravel](#laravel) (1)
 - [legacy software](#legacy-software) (1)
 - [liblzma](#liblzma) (1)
+- [libp2p](#libp2p) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
-- [Linux](#linux) (3)
+- [Linux](#linux) (4)
+- [LLM](#llm) (1)
 - [macOS](#macos) (1)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
@@ -140,6 +145,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniUpdate](#miniupdate) (1)
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (1)
+- [Monero](#monero) (1)
 - [MSP](#msp) (1)
 - [MuddyWater](#muddywater) (1)
 - [nation-state](#nation-state) (1)
@@ -148,20 +154,22 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm](#npm) (10)
 - [OIDC](#oidc) (2)
 - [Okta](#okta) (2)
+- [Ollama](#ollama) (1)
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (34)
+- [operations](#operations) (35)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (31)
+- [ops](#ops) (32)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
+- [P2P](#p2p) (1)
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (2)
 - [patterns](#patterns) (1)
 - [people](#people) (1)
-- [persistence](#persistence) (9)
+- [persistence](#persistence) (10)
 - [phishing](#phishing) (1)
 - [PHP](#php) (1)
 - [Piriform](#piriform) (1)
@@ -176,8 +184,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [psychological operations](#psychological-operations) (1)
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (2)
+- [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (2)
-- [RAT](#rat) (2)
+- [RAT](#rat) (3)
 - [Reality](#reality) (1)
 - [recruitment lures](#recruitment-lures) (1)
 - [release tampering](#release-tampering) (1)
@@ -249,6 +258,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [workflow backdoor](#workflow-backdoor) (1)
 - [worm](#worm) (6)
 - [X_TRADER](#x_trader) (1)
+- [XMRig](#xmrig) (1)
 - [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
 - [Zero Trust](#zero-trust) (1)
@@ -276,6 +286,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 
 ## AI tooling
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
 ## ai-agent
@@ -283,6 +294,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Albania
 - [Handala](../actors/handala.md)
+
+## API abuse
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## AppDomainManager
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -308,6 +322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 
 ## backdoor
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Showboat](../tools/showboat.md)
 
@@ -397,6 +412,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## command execution
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
 ## command-execution
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
@@ -444,6 +462,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cryptocurrency
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
+## cryptominer
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
 ## Curious Serpens
 - [ROADtools](../tools/roadtools.md)
 
@@ -477,6 +498,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
 ## defense evasion
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [ROADtools](../tools/roadtools.md)
 
 ## deployment_status
@@ -607,6 +629,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Go
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
 ## group
@@ -679,13 +702,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## liblzma
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## libp2p
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
 ## lifecycle hooks
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 
 ## Linux
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Showboat](../tools/showboat.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## LLM
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## macOS
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -744,6 +774,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MOIS
 - [Handala](../actors/handala.md)
 
+## Monero
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
 ## MSP
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
@@ -778,6 +811,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Okta
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+
+## Ollama
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## OneDrive
 - [Webworm](../actors/webworm.md)
@@ -815,6 +851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -852,6 +889,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -868,6 +906,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OYSTERSHUCK
 - [Ghostwriter](../actors/ghostwriter.md)
+
+## P2P
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## package-takeover
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -886,6 +927,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -940,11 +982,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
+## RAM disk
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
 ## ransomware
 - [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 
 ## RAT
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
@@ -1215,6 +1261,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## X_TRADER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+
+## XMRig
+- [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## XSS.is
 - [First VPN](../tools/first-vpn.md)
