@@ -1,7 +1,7 @@
 # Laravel-Lang Composer tag-rewrite compromise
 
 ## Summary
-StepSecurity reported a May 22, 2026 Composer supply-chain compromise affecting Laravel-Lang organization packages, initially confirmed across `laravel-lang/http-statuses`, `laravel-lang/actions`, and `laravel-lang/attributes`. Socket later expanded public coverage to include `laravel-lang/lang` and estimated roughly 700+ historical versions across the organization were exposed to malicious tag activity.
+StepSecurity reported a May 22, 2026 Composer supply-chain compromise affecting Laravel-Lang organization packages, initially confirmed across `laravel-lang/http-statuses`, `laravel-lang/actions`, and `laravel-lang/attributes`. Socket later expanded public coverage to include `laravel-lang/lang` and estimated roughly 700+ historical versions across the organization were exposed to malicious tag activity. Snyk subsequently published advisories for all four packages, treating every version (`>= 0.0.0`) as compromised while Packagist unlisted the packages during remediation.
 
 Instead of publishing a new malicious release, the attacker rewrote every git tag in the affected repositories during a roughly 15-minute window from 23:41 UTC to 23:56 UTC. Consumers who ran `composer update`, or installed fresh against the rewritten tags, could pull malicious commits that added an eager Composer `autoload.files` payload.
 
@@ -36,7 +36,7 @@ StepSecurity confirmed end-to-end execution by detonating `laravel-lang/http-sta
 7. The loader posted runner environment data to `https://flipboxstudio.info/exfil`, launched the ELF with `nohup`, and the artifacts self-deleted while processes could continue from memory.
 
 ## Affected package/tag scope
-StepSecurity says every tag was rewritten in three initially confirmed repositories. Socket later reported coordinated tag activity across four Laravel-Lang repositories and estimated roughly 700+ affected historical versions. Treat the scope below as public reporting, not an exhaustive clean/dirty boundary:
+StepSecurity says every tag was rewritten in three initially confirmed repositories. Socket later reported coordinated tag activity across four Laravel-Lang repositories and estimated roughly 700+ affected historical versions. Snyk mapped the public advisory scope to four package-level advisories (`SNYK-PHP-LARAVELLANGLANG-16801059`, `SNYK-PHP-LARAVELLANGHTTPSTATUSES-16801060`, `SNYK-PHP-LARAVELLANGATTRIBUTES-16801061`, and `SNYK-PHP-LARAVELLANGACTIONS-16801062`) and treats all versions as affected until clean tag state is re-established. Treat the scope below as public reporting, not an exhaustive clean/dirty boundary:
 
 | Package | Reported affected tag scope | Example malicious commits reported |
 |---|---|---|
@@ -56,6 +56,15 @@ Socket's May 23 writeup adds several defensive details beyond the initial StepSe
 - **Cross-platform staging:** the stage one script builds `flipboxstudio[.]info` dynamically, disables TLS certificate verification for payload retrieval, stages under `sys_get_temp_dir()/.laravel_locale/`, launches background PHP on Unix-like hosts, and uses generated VBS plus `cscript` on Windows.
 - **Stealer breadth:** Socket describes 17 collectors targeting cloud metadata and local cloud configs, Kubernetes service-account tokens and kubeconfigs, Vault, CI/CD systems, cryptocurrency wallets, browsers, password managers, process environments, Windows credential stores, messaging tokens, FTP/email clients, local config files, environment variables, Git credentials, and VPN configs.
 - **Windows browser theft:** the payload reportedly embeds and drops `DebugChromium.exe` to bypass Chrome v127+ App-Bound Encryption and recover Chromium secrets.
+
+## 2026-05-23 Snyk advisory
+Snyk's May 23 advisory independently promoted the incident into package-level vulnerability records and added incident-response framing useful for defenders:
+
+- **Affected-version stance:** Snyk marks `laravel-lang/lang`, `laravel-lang/http-statuses`, `laravel-lang/attributes`, and `laravel-lang/actions` as affected for all versions (`>= 0.0.0`) rather than trying to carve out safe historical semver ranges while tag integrity is still being restored.
+- **Registry response:** Snyk reported that Packagist temporarily unlisted the four packages while remediation was in progress.
+- **Execution boundary:** the advisory reinforces that the malicious code was not in the official upstream repositories; Packagist resolved moved organization tags to attacker-controlled fork commits, then Composer autoloaded `src/helpers.php` at application/runtime entry points.
+- **Response posture:** every environment that performed a fresh install or update of an affected package after the tag-rewrite window should be treated as compromised until proven otherwise, even if the lockfile later resolves cleanly.
+
 
 ## Indicators and hunt pivots
 - Affected packages: `laravel-lang/http-statuses`, `laravel-lang/actions`, `laravel-lang/attributes`; Socket also reports `laravel-lang/lang`.
@@ -87,3 +96,4 @@ No public reporting used here attributes the Laravel-Lang compromise to TeamPCP,
 ## Sources
 - StepSecurity: https://www.stepsecurity.io/blog/laravel-lang-supply-chain-attack
 - Socket: https://socket.dev/blog/laravel-lang-compromise
+- Snyk: https://snyk.io/blog/laravel-lang-supply-chain-advisory/

@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Snyk confirms Laravel-Lang all-version compromise posture</title>
+      <link>https://threat.wiki/ops/laravel-lang-composer-tag-rewrite-compromise/#2026-05-23-snyk-advisory</link>
+      <description>Snyk published Laravel-Lang advisories for lang, http-statuses, attributes, and actions, treating every version as affected, noting temporary Packagist unlisting, and reinforcing that fresh installs or updates after the tag-rewrite window should be handled as compromised until proven otherwise.</description>
+      <pubDate>Sat, 23 May 2026 17:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/laravel-lang-composer-tag-rewrite-compromise/#2026-05-23-snyk-advisory</guid>
+    </item>
+    <item>
       <title>Laravel-Lang compromise expands to 700+ versions</title>
       <link>https://threat.wiki/ops/laravel-lang-composer-tag-rewrite-compromise/#2026-05-23-socket-expansion</link>
       <description>Socket expanded Laravel-Lang compromise coverage to include laravel-lang/lang and roughly 700+ historical versions, with a Composer autoload.files RCE path, cross-platform PHP staging, DebugChromium.exe browser theft, and collectors for cloud, Kubernetes, Vault, CI/CD, password-manager, Git, VPN, and local secrets.</description>
