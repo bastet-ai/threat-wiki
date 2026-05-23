@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Laravel-Lang Composer tag-rewrite compromise](ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](ops/github-packagist-postinstall-hook-campaign.md)
 - [Drupal Core CVE-2026-9082 exploitation](ops/drupal-core-cve-2026-9082-exploitation.md)

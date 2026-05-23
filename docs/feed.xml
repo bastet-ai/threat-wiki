@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Laravel-Lang Composer tag-rewrite compromise</title>
+      <link>https://threat.wiki/ops/laravel-lang-composer-tag-rewrite-compromise/</link>
+      <description>StepSecurity reported a Laravel-Lang Composer supply-chain compromise where every tag across laravel-lang/http-statuses, laravel-lang/actions, and laravel-lang/attributes was rewritten to malicious commits that used Composer autoload.files to fetch flipboxstudio.info payloads and exfiltrate CI/developer secrets.</description>
+      <pubDate>Sat, 23 May 2026 01:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/laravel-lang-composer-tag-rewrite-compromise/</guid>
+    </item>
+    <item>
       <title>BufferZoneCorp RubyGems / Go module CI poisoning</title>
       <link>https://threat.wiki/ops/bufferzonecorp-ruby-go-ci-poisoning/</link>
       <description>Socket reported a BufferZoneCorp cross-ecosystem package cluster where Ruby gems and Go modules used install-time execution, Go init hooks, GitHub Actions path/proxy tampering, credential theft, fake go wrappers, and SSH authorized_keys persistence against developer and CI environments.</description>

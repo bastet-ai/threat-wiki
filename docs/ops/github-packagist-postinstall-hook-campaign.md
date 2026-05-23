@@ -65,6 +65,7 @@ Socket highlighted `devdojo/wave` and `devdojo/genesis` as the most practically 
 Socket did not publicly attribute this campaign to TeamPCP or Mini Shai-Hulud. Keep it separate unless later reporting ties the attacker infrastructure or operator identity to a named group.
 
 ## Related pages
+- [Laravel-Lang Composer tag-rewrite compromise](laravel-lang-composer-tag-rewrite-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Megalodon GitHub Actions workflow backdooring](megalodon-github-actions-workflow-backdooring.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)

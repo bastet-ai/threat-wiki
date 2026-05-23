@@ -17,7 +17,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **GitHub Security Blog** — https://github.blog/security/ (HTML watch for GitHub platform incident notes and postmortems)
 - **The Hacker News** — https://feeds.feedburner.com/TheHackersNews
 - **Boost Security Labs** — https://labs.boostsecurity.io/rss.xml (watch CI/CD supply-chain techniques such as deployment poisoning and TeamPCP follow-ups)
-- **StepSecurity blog** — https://www.stepsecurity.io/blog/rss.xml (watch Mini Shai-Hulud / Nx Console follow-ups and CI/CD workflow-backdoor campaigns such as Megalodon)
+- **StepSecurity blog** — https://www.stepsecurity.io/blog/rss.xml (watch Mini Shai-Hulud / Nx Console follow-ups, CI/CD workflow-backdoor campaigns such as Megalodon, and Composer/GitHub tag-rewrite incidents such as Laravel-Lang)
 - **Trail of Bits blog** — https://blog.trailofbits.com/feed/
 - **PortSwigger Research** — https://portswigger.net/research/rss
 - **ProjectDiscovery blog** — https://projectdiscovery.io/blog/rss
