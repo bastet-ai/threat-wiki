@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Xinference PyPI compromise](ops/xinference-pypi-compromise.md)
 - [Laravel-Lang Composer tag-rewrite compromise](ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Ollama P2P cryptominer RAT campaign](ops/ollama-p2p-cryptominer-rat.md)

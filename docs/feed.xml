@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Xinference PyPI compromise</title>
+      <link>https://threat.wiki/ops/xinference-pypi-compromise/</link>
+      <description>JFrog reported legitimate xinference PyPI versions 2.6.0, 2.6.1, and 2.6.2 were compromised with import-time Python execution that collected developer, cloud, Kubernetes, and package-manager secrets and exfiltrated love.tar.gz to whereisitat.lucyatemysuperbox.space; TeamPCP attribution remains caveated after the persona denied involvement.</description>
+      <pubDate>Sat, 23 May 2026 19:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/xinference-pypi-compromise/</guid>
+    </item>
+    <item>
       <title>Snyk confirms Laravel-Lang all-version compromise posture</title>
       <link>https://threat.wiki/ops/laravel-lang-composer-tag-rewrite-compromise/#2026-05-23-snyk-advisory</link>
       <description>Snyk published Laravel-Lang advisories for lang, http-statuses, attributes, and actions, treating every version as affected, noting temporary Packagist unlisting, and reinforcing that fresh installs or updates after the tag-rewrite window should be handled as compromised until proven otherwise.</description>

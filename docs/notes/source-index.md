@@ -10,7 +10,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **SafeDep Research** — https://safedep.io/blog (HTML watch; monitor CI/CD, GitHub repository backdooring, package-registry compromise, and Megalodon-style workflow backdoors)
 - **Lumen Black Lotus Labs** — https://www.lumen.com/blog/en-us/ (HTML watch; filter for Black Lotus Labs posts covering telecom, routing, botnet, and nation-state infrastructure research)
 - **Snyk Blog / Security Research** — https://snyk.io/blog/feed/ (watch Mini Shai-Hulud/TeamPCP follow-ups, registry-scale advisories, package-level vulnerability records, and Composer/Packagist incident-response updates such as Laravel-Lang all-version compromise advisories)
-- **JFrog Security Research** — https://research.jfrog.com/ (HTML watch) and JFrog Blog RSS https://jfrog.com/blog/feed/
+- **JFrog Security Research** — https://research.jfrog.com/ (HTML watch; monitor TeamPCP/Mini Shai-Hulud follow-ups, PyPI import-time compromises such as Xinference and durabletask, optional-dependency GitHub-commit delivery, and cloud/Kubernetes lateral-movement payload evolution) and JFrog Blog RSS https://jfrog.com/blog/feed/
 - **Unit 42 Research** — https://unit42.paloaltonetworks.com/feed/ (watch recurring npm threat-landscape updates for Shai-Hulud/Mini Shai-Hulud wave metrics, SLSA/OIDC findings, containment-order warnings, cloud-identity tradecraft such as ROADtools / Entra ID abuse, and high-signal actor updates such as Screening Serpens / MiniUpdate / MiniJunk)
 - **ESET WeLiveSecurity / ESET Research** — https://www.welivesecurity.com/en/eset-research/ (HTML/RSS watch)
 - **Microsoft Security Blog** — https://www.microsoft.com/en-us/security/blog/ (HTML watch; RSS may return 403)

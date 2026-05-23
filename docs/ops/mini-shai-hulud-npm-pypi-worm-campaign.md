@@ -65,7 +65,8 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - Unit 42 also warned that the May 11 payload installed a background service that polled `api.github.com/user` with the stolen token and, if the token was revoked while the daemon was active, executed destructive home-directory deletion. This makes containment order especially important: stop active execution and isolate hosts before broad token revocation when this variant may be running.
 - Akamai and Unit 42 reported that weaponized Mini Shai-Hulud source code appeared publicly on GitHub after the TanStack wave, increasing copycat risk and weakening attribution based only on worm lineage. Socket separately reported that TeamPCP and BreachForums promoted a Shai-Hulud supply-chain attack contest, creating an explicit incentive for lower-tier copycats to target package ecosystems by download count.
 
-### May 2026: broader npm/PyPI spread
+### April-May 2026: broader npm/PyPI spread
+- JFrog reported a TeamPCP-linked / possible-copycat compromise of the legitimate `xinference` PyPI release line: versions `2.6.0`, `2.6.1`, and `2.6.2` executed from `xinference/__init__.py` on import, spawned a detached Python payload, collected developer/cloud/Kubernetes secrets, and exfiltrated `love.tar.gz` to `whereisitat[.]lucyatemysuperbox[.]space` with header `X-QT-SR: 14`. TeamPCP publicly denied involvement, so keep attribution caveated.
 - JFrog reported more than 170 npm packages and 2 PyPI packages affected in its earlier analysis window, with npm payloads using malicious `preinstall` loaders and PyPI payloads using import-time downloaders.
 - JFrog's May 19 follow-up counted the AntV wave as 325 legitimate npm packages after identifying `@cap-js/openapi@1.4.1`; the added package used a cleaner-looking `optionalDependencies` reference to `github:cap-js/openapi#d78c25443ec4a0d7f0a85776461f3b1163132537` and delivered the Shai-Hulud payload from fork-resolvable GitHub content rather than embedding malicious code directly in the tarball.
 - Socket reported continuing package findings across npm and PyPI ecosystems, including OpenSearch, Mistral AI, Guardrails AI, Squawk, and other artifacts in related coverage.
@@ -176,6 +177,7 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - Akamai: https://www.akamai.com/blog/security-research/mini-shai-hulud-worm-returns-goes-public
 - JFrog: https://research.jfrog.com/post/shai-hulud-here-we-go-again/
 - JFrog May 19 follow-up: https://research.jfrog.com/post/shai-hulud-here-we-go-again-may19/
+- JFrog Xinference compromise: https://research.jfrog.com/post/xinference-compromise/
 - Microsoft: https://www.microsoft.com/en-us/security/blog/2025/12/09/shai-hulud-2-0-guidance-for-detecting-investigating-and-defending-against-the-supply-chain-attack/
 - Unit 42: https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
 - Socket: https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack

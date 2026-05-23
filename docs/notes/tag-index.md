@@ -9,6 +9,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [active exploitation](#active-exploitation) (2)
 - [actors](#actors) (2)
 - [adware](#adware) (1)
+- [AI](#ai) (1)
 - [AI agents](#ai-agents) (1)
 - [AI tooling](#ai-tooling) (2)
 - [ai-agent](#ai-agent) (1)
@@ -37,7 +38,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD](#cicd) (17)
 - [CircleCI](#circleci) (1)
 - [Citrix](#citrix) (1)
-- [cloud](#cloud) (3)
+- [cloud](#cloud) (4)
 - [Cloudflare](#cloudflare) (1)
 - [CMS](#cms) (1)
 - [Cobalt Strike](#cobalt-strike) (1)
@@ -53,7 +54,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (1)
 - [credential theft](#credential-theft) (3)
-- [credential-theft](#credential-theft) (11)
+- [credential-theft](#credential-theft) (12)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [cryptocurrency](#cryptocurrency) (1)
@@ -162,9 +163,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (36)
+- [operations](#operations) (37)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (33)
+- [ops](#ops) (34)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -187,7 +188,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [proxy](#proxy) (4)
 - [psychological operations](#psychological-operations) (1)
 - [pwn-request](#pwn-request) (1)
-- [PyPI](#pypi) (2)
+- [PyPI](#pypi) (3)
+- [Python](#python) (1)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (2)
 - [RAT](#rat) (3)
@@ -230,12 +232,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH persistence](#ssh-persistence) (1)
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
-- [supply-chain](#supply-chain) (26)
+- [supply-chain](#supply-chain) (27)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (1)
 - [TamperedChef](#tamperedchef) (1)
-- [TeamPCP](#teampcp) (5)
+- [TeamPCP](#teampcp) (6)
 - [TeamViewer](#teamviewer) (1)
 - [telecom](#telecom) (1)
 - [Telegram](#telegram) (1)
@@ -290,6 +292,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## adware
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## AI
+- [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## AI agents
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -401,6 +406,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [ROADtools](../tools/roadtools.md)
 - [Webworm](../actors/webworm.md)
+- [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## Cloudflare
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -463,6 +469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## criminal infrastructure
 - [First VPN](../tools/first-vpn.md)
@@ -881,6 +888,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## OpFauxSign
@@ -919,6 +927,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## OYSTERBLUES
@@ -1005,6 +1014,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PyPI
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
+
+## Python
+- [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## RAM disk
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -1167,6 +1180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## tag rewrite
@@ -1188,6 +1202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
+- [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## TeamViewer
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
