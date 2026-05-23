@@ -15,7 +15,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **ESET WeLiveSecurity / ESET Research** — https://www.welivesecurity.com/en/eset-research/ (HTML/RSS watch)
 - **Microsoft Security Blog** — https://www.microsoft.com/en-us/security/blog/ (HTML watch; RSS may return 403)
 - **GitHub Security Blog** — https://github.blog/security/ (HTML watch for GitHub platform incident notes and postmortems)
-- **The Hacker News** — https://feeds.feedburner.com/TheHackersNews
+- **The Hacker News** — https://feeds.feedburner.com/TheHackersNews (monitor active-exploitation reports that add concrete affected-version, exploit-status, and response guidance, such as LiteSpeed/cPanel CVE-2026-48172)
 - **Boost Security Labs** — https://labs.boostsecurity.io/rss.xml (watch CI/CD supply-chain techniques such as deployment poisoning and TeamPCP follow-ups)
 - **StepSecurity blog** — https://www.stepsecurity.io/blog/rss.xml (watch Mini Shai-Hulud / Nx Console follow-ups, CI/CD workflow-backdoor campaigns such as Megalodon, and Composer/GitHub tag-rewrite incidents such as Laravel-Lang)
 - **Trail of Bits blog** — https://blog.trailofbits.com/feed/
@@ -31,6 +31,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **Grafana Labs security posts** — https://grafana.com/blog/tags/security/
 - **PyPI project and malware-report pages for affected packages** — use package-specific release history as confirmation for yanked or restored versions.
 - **Packagist package pages and maintainer incident notes** — watch package metadata/tag movement and unexpected `composer-plugin` conversions during Mini Shai-Hulud-style cross-ecosystem incidents.
+- **LiteSpeed / cPanel security notices** — watch vendor advisories and cPanel support notices for actively exploited hosting-control-plane flaws and forced-removal/patch guidance.
 
 ## Notes
 - Prefer RSS/Atom over ad hoc web searches.

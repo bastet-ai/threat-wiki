@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>LiteSpeed cPanel CVE-2026-48172 active exploitation</title>
+      <link>https://threat.wiki/ops/litespeed-cpanel-cve-2026-48172-exploitation/</link>
+      <description>LiteSpeed says CVE-2026-48172 is being actively exploited against the user-end cPanel plugin; any cPanel user can abuse lsws.redisAble / cpanel_jsonapi_func=redisAble to execute arbitrary scripts as root on affected shared-hosting nodes.</description>
+      <pubDate>Sat, 23 May 2026 09:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/litespeed-cpanel-cve-2026-48172-exploitation/</guid>
+    </item>
+    <item>
       <title>Ollama P2P cryptominer RAT campaign</title>
       <link>https://threat.wiki/ops/ollama-p2p-cryptominer-rat/</link>
       <description>Akamai reported a campaign abusing exposed Ollama /api/create endpoints to run shell downloaders and deploy vc, a custom Go P2P RAT and XMRig cryptominer dropper that stages in /dev/shm, masquerades as kworker, persists through cron, and routes mining traffic through libp2p.</description>

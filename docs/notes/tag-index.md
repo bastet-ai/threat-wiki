@@ -6,7 +6,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX](#3cx) (1)
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
-- [active exploitation](#active-exploitation) (1)
+- [active exploitation](#active-exploitation) (2)
 - [actors](#actors) (2)
 - [adware](#adware) (1)
 - [AI agents](#ai-agents) (1)
@@ -51,6 +51,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised accounts](#compromised-accounts) (1)
 - [ConnectWise](#connectwise) (1)
 - [Coruna](#coruna) (1)
+- [cPanel](#cpanel) (1)
 - [credential theft](#credential-theft) (3)
 - [credential-theft](#credential-theft) (11)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -64,6 +65,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-1709](#cve-2024-1709) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [CVE-2025-34291](#cve-2025-34291) (1)
+- [CVE-2026-48172](#cve-2026-48172) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [cybercrime](#cybercrime) (2)
 - [data theft](#data-theft) (1)
@@ -111,6 +113,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ICS](#ics) (1)
 - [IDE extension](#ide-extension) (1)
 - [identity](#identity) (2)
+- [incident response](#incident-response) (1)
 - [infostealer](#infostealer) (1)
 - [infrastructure](#infrastructure) (1)
 - [iOS](#ios) (1)
@@ -127,6 +130,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libp2p](#libp2p) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [Linux](#linux) (4)
+- [LiteSpeed](#litespeed) (1)
 - [LLM](#llm) (1)
 - [macOS](#macos) (1)
 - [maintainer persona](#maintainer-persona) (1)
@@ -158,9 +162,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (35)
+- [operations](#operations) (36)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (32)
+- [ops](#ops) (33)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -178,7 +182,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (1)
 - [PPtP](#pptp) (1)
 - [PRC-aligned](#prc-aligned) (1)
-- [privilege escalation](#privilege-escalation) (1)
+- [privilege escalation](#privilege-escalation) (2)
 - [prompt-injection](#prompt-injection) (2)
 - [proxy](#proxy) (4)
 - [psychological operations](#psychological-operations) (1)
@@ -196,6 +200,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
+- [root execution](#root-execution) (1)
 - [RubyGems](#rubygems) (1)
 - [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (2)
@@ -210,6 +215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
 - [Shai-Hulud](#shai-hulud) (3)
+- [shared hosting](#shared-hosting) (1)
 - [signed updates](#signed-updates) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [SLSA](#slsa) (1)
@@ -250,8 +256,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code](#vs-code) (2)
 - [watering-hole](#watering-hole) (2)
 - [web application](#web-application) (1)
+- [web hosting](#web-hosting) (1)
 - [WebKit](#webkit) (1)
 - [Webworm](#webworm) (1)
+- [WHM](#whm) (1)
 - [Windows](#windows) (3)
 - [wiper](#wiper) (2)
 - [WireGuard](#wireguard) (1)
@@ -274,6 +282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## active exploitation
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
 ## actors
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -434,6 +443,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Coruna
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
+## cPanel
+- [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+
 ## credential theft
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -486,6 +498,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2025-34291
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+
+## CVE-2026-48172
+- [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
 ## CVE-2026-9082
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -660,6 +675,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [ROADtools](../tools/roadtools.md)
 
+## incident response
+- [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+
 ## infostealer
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
@@ -713,6 +731,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Showboat](../tools/showboat.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## LiteSpeed
+- [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
 ## LLM
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -846,6 +867,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -884,6 +906,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -961,6 +984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## privilege escalation
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
 ## prompt-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -1021,6 +1045,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## roadtx
 - [ROADtools](../tools/roadtools.md)
 
+## root execution
+- [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+
 ## RubyGems
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 
@@ -1068,6 +1095,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+
+## shared hosting
+- [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
 ## signed updates
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -1230,11 +1260,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## web application
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
+## web hosting
+- [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+
 ## WebKit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## Webworm
 - [Webworm](../actors/webworm.md)
+
+## WHM
+- [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
