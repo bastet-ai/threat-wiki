@@ -5,6 +5,9 @@ On April 22, 2026, Unit 42 reported a TeamPCP-attributed supply-chain wave that 
 
 The package impersonated Bitwarden's command-line interface and executed during npm install. Unit 42 says the campaign's public GitHub artifacts included the string `Shai-Hulud: The Third Coming`, making it a bridge between the original Shai-Hulud worm lineage and the later Mini Shai-Hulud waves.
 
+## Page role
+This page covers the April 22 Bitwarden/Checkmarx distribution-channel wave. Use [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md) for the broader multi-wave campaign and [TeamPCP](../actors/teampcp.md) for actor-level tradecraft.
+
 ## Tags
 - ops
 - operations

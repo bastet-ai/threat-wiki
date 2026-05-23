@@ -5,6 +5,9 @@ Mini Shai-Hulud is the 2026 continuation of the Shai-Hulud npm worm tradecraft: 
 
 Public reporting from Wiz, Snyk, Akamai, JFrog, Socket, Unit 42, and Microsoft describes multiple waves in April-May 2026. Several vendors attribute the later waves to **TeamPCP** or describe them as TeamPCP-linked; keep that attribution caveated unless a firsthand operator statement or official source is being cited directly.
 
+## Page role
+This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI campaign. Keep actor-level judgments on [TeamPCP](../actors/teampcp.md) and narrow April 22 Bitwarden/Checkmarx distribution-lane details on [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](bitwarden-checkmarx-shai-hulud-third-coming.md).
+
 ## Tags
 - ops
 - operations

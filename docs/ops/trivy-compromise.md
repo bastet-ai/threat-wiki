@@ -15,6 +15,9 @@
 ## Summary
 In March 2026, Aqua Security's Trivy project and related GitHub Actions were compromised. Public reporting ties the incident to the **TeamPCP** group and describes a combination of credential theft, malicious release tampering, and downstream workflow abuse.
 
+## Page role
+This is the concise operation overview for the Trivy compromise. For the fuller event chronology and follow-on CanisterWorm/npm propagation sequence, use the [Trivy → TeamPCP → CanisterWorm timeline](trivy-lite-llm-compromise-timeline.md).
+
 ## Timeline
 - **February 2026:** earlier runner-memory secret theft created or exposed access paths later used in the March campaign.
 - **Early March 2026:** the attacker retained access after incomplete containment and staged malicious commits and workflow changes.

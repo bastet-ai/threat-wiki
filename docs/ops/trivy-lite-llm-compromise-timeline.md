@@ -12,7 +12,7 @@
 - tooling
 
 ## Purpose
-This page captures the **operational timeline** behind the Trivy compromise and its follow-on activity, including the NPM worming campaign that public reporting attributes to **TeamPCP**.
+This page is the canonical timeline for the Trivy → TeamPCP → CanisterWorm chain. It complements the shorter [Trivy compromise](trivy-compromise.md) operation overview by preserving event order, follow-on propagation, and defender lessons across the related activity.
 
 ## Timeline
 

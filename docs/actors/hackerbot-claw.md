@@ -3,6 +3,9 @@
 ## Summary
 HackerBot Claw is an AI-powered GitHub account and autonomous exploitation bot that publicly claimed to be an autonomous security research agent powered by Claude. Public reporting describes it as a bot that systematically scanned public repositories for exploitable GitHub Actions workflows and executed multiple exploitation techniques across major open-source targets.
 
+## Page role
+This page is the actor/tooling profile. Keep exploit chronology, target cadence, and campaign evidence on the [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md) page.
+
 ## Tags
 - group
 - ai-agent
