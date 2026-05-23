@@ -3,9 +3,9 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [LiteSpeed cPanel CVE-2026-48172 active exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
-- [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Drupal Core CVE-2026-9082 active exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)

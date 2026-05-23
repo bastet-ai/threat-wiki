@@ -7,9 +7,9 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Laravel-Lang Composer tag-rewrite compromise: ops/laravel-lang-composer-tag-rewrite-compromise.md
       - LiteSpeed cPanel CVE-2026-48172 exploitation: ops/litespeed-cpanel-cve-2026-48172-exploitation.md
       - Ollama P2P cryptominer RAT campaign: ops/ollama-p2p-cryptominer-rat.md
-      - Laravel-Lang Composer tag-rewrite compromise: ops/laravel-lang-composer-tag-rewrite-compromise.md
       - Drupal Core CVE-2026-9082 exploitation: ops/drupal-core-cve-2026-9082-exploitation.md
       - Langflow CVE-2025-34291 exploitation: ops/langflow-cve-2025-34291-exploitation.md
       - Megalodon GitHub Actions workflow backdooring: ops/megalodon-github-actions-workflow-backdooring.md

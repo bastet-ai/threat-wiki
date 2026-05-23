@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Laravel-Lang compromise expands to 700+ versions</title>
+      <link>https://threat.wiki/ops/laravel-lang-composer-tag-rewrite-compromise/#2026-05-23-socket-expansion</link>
+      <description>Socket expanded Laravel-Lang compromise coverage to include laravel-lang/lang and roughly 700+ historical versions, with a Composer autoload.files RCE path, cross-platform PHP staging, DebugChromium.exe browser theft, and collectors for cloud, Kubernetes, Vault, CI/CD, password-manager, Git, VPN, and local secrets.</description>
+      <pubDate>Sat, 23 May 2026 11:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/laravel-lang-composer-tag-rewrite-compromise/#2026-05-23-socket-expansion</guid>
+    </item>
+    <item>
       <title>LiteSpeed cPanel CVE-2026-48172 active exploitation</title>
       <link>https://threat.wiki/ops/litespeed-cpanel-cve-2026-48172-exploitation/</link>
       <description>LiteSpeed says CVE-2026-48172 is being actively exploited against the user-end cPanel plugin; any cPanel user can abuse lsws.redisAble / cpanel_jsonapi_func=redisAble to execute arbitrary scripts as root on affected shared-hosting nodes.</description>
