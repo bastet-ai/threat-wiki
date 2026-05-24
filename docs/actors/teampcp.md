@@ -86,6 +86,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Boost Security's LiteLLM writeup reinforces the Trivy-to-second-order-victim model but keeps causality appropriately caveated: the poisoned Trivy APT/Homebrew/action paths they could inspect did not explain BerriAI, leaving GitHub Release binaries, Docker images, force-pushed action tags, or another unobserved credential path as live hypotheses. The same report adds the `litellm_init.pth` Python-startup execution pattern, `models.litellm.cloud` exfiltration, and GitHub repository exposure/destruction behavior to TeamPCP hunting.
 - JFrog's Xinference writeup adds another TeamPCP-linked / possible-copycat PyPI pattern: legitimate `xinference` versions `2.6.0`-`2.6.2` ran import-time code from `xinference/__init__.py`, spawned detached Python execution, collected cloud/Kubernetes/developer secrets, and exfiltrated `love.tar.gz` to `whereisitat[.]lucyatemysuperbox[.]space`. JFrog noted TeamPCP denied responsibility, so track it as reported TeamPCP-family activity with attribution caveats.
 - Socket's Intercom reporting adds a cross-ecosystem pivot pattern to watch: a compromised PyPI dependency (`lightning`, pulled locally through `pyannote-audio`) was linked to Intercom npm compromise, followed by a malicious Packagist artifact (`intercom/intercom-php@5.0.2`) that abused Composer plugin install/update execution and mutable tag metadata. Treat future TeamPCP/Mini Shai-Hulud triage as multi-registry by default, especially when one compromised developer account or endpoint has GitHub organization write access.
+- Socket's May 12-May 19 Mini Shai-Hulud updates add two TeamPCP-family watch points: AI/security packages can be compromised through import-time PyPI loaders (`guardrails-ai@0.10.1` downloading `transformers.pyz` from `git-tanstack[.]com`), and high-volume maintainer-account compromise can now be measured in hundreds of versions per hour (Socket counted the AntV wave at 639 versions across 323 packages, with 1,055 versions across 502 packages campaign-wide at that point).
 
 ## Defender signals
 - Moved or force-pushed GitHub Actions tags/refs, especially tags pointing to commits outside normal branch ancestry
@@ -101,6 +102,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - New optional dependencies pointing at GitHub commits outside normal branch ancestry, especially setup-themed names such as `@antv/setup` or `@sap/setup`
 - Claude Code/Codex SessionStart hooks, VS Code `folderOpen` tasks, and GitHub commit-search C2 markers such as `firedalazer`, `thebeautifulsnadsoftime`, or `thebeautifulmarchoftime`
 - Composer packages that unexpectedly add `composer-plugin-api`, plugin classes, or install/update hooks, especially when an existing Packagist version tag moves to a new commit
+- PyPI packages that add Linux-only import-time downloaders for `.pyz` payloads, especially AI/security packages and hosts resembling legitimate project infrastructure such as `git-tanstack[.]com`
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
@@ -126,4 +128,6 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [JFrog Xinference PyPI compromise](https://research.jfrog.com/post/xinference-compromise/)
 - [Socket Intercom npm compromise](https://socket.dev/blog/intercom-s-npm-package-compromised-in-supply-chain-attack)
 - [Socket Intercom Packagist compromise](https://socket.dev/blog/mini-shai-hulud-packagist-malicious-intercom-php-package-compromise)
+- [Socket TanStack / OpenSearch / Guardrails AI update](https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack)
+- [Socket AntV Mini Shai-Hulud wave](https://socket.dev/blog/antv-packages-compromised)
 - [StepSecurity blog index](https://www.stepsecurity.io/blog)
