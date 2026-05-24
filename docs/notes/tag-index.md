@@ -14,6 +14,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI tooling](#ai-tooling) (2)
 - [ai-agent](#ai-agent) (1)
 - [Albania](#albania) (1)
+- [Android](#android) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
 - [AppDomainManager](#appdomainmanager) (1)
@@ -21,6 +22,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT](#apt) (2)
 - [APT28](#apt28) (1)
 - [APT29](#apt29) (1)
+- [APT37](#apt37) (1)
 - [Artifact Signing](#artifact-signing) (1)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AWS](#aws) (1)
@@ -29,6 +31,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [Belarus](#belarus) (1)
+- [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
 - [Bitwarden](#bitwarden) (1)
 - [branch-name-injection](#branch-name-injection) (1)
@@ -58,7 +61,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (1)
 - [credential theft](#credential-theft) (3)
-- [credential-theft](#credential-theft) (12)
+- [credential-theft](#credential-theft) (13)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [cryptocurrency](#cryptocurrency) (1)
@@ -95,11 +98,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [energy-sector](#energy-sector) (1)
 - [Entra ID](#entra-id) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (8)
+- [espionage](#espionage) (9)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (2)
 - [Europol](#europol) (1)
 - [EvilAI](#evilai) (1)
+- [exfiltration](#exfiltration) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (3)
@@ -120,6 +124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [groups](#groups) (4)
 - [hack-and-leak](#hack-and-leak) (1)
 - [HAR files](#har-files) (1)
+- [Hugging Face](#hugging-face) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
 - [IDE extension](#ide-extension) (1)
@@ -133,6 +138,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript malware](#javascript-malware) (1)
 - [JSON:API](#jsonapi) (1)
 - [KEV](#kev) (2)
+- [keylogger](#keylogger) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [Langflow](#langflow) (1)
 - [Laravel](#laravel) (1)
@@ -140,11 +146,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [liblzma](#liblzma) (1)
 - [libp2p](#libp2p) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
-- [Linux](#linux) (4)
+- [Linux](#linux) (5)
 - [LiteSpeed](#litespeed) (1)
 - [LLM](#llm) (1)
 - [LNK](#lnk) (1)
-- [macOS](#macos) (1)
+- [macOS](#macos) (2)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
@@ -168,16 +174,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nation-state](#nation-state) (1)
 - [NetScaler](#netscaler) (1)
 - [node-ipc](#node-ipc) (1)
-- [npm](#npm) (10)
+- [North Korea](#north-korea) (1)
+- [npm](#npm) (11)
 - [OIDC](#oidc) (2)
 - [Okta](#okta) (2)
 - [Ollama](#ollama) (1)
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (40)
+- [operations](#operations) (42)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (37)
+- [ops](#ops) (39)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -206,6 +213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ransomware](#ransomware) (2)
 - [RAT](#rat) (3)
 - [Reality](#reality) (1)
+- [Reaper](#reaper) (1)
 - [recruitment lures](#recruitment-lures) (1)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (1)
@@ -214,6 +222,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
+- [RokRAT](#rokrat) (1)
 - [root execution](#root-execution) (1)
 - [RubyGems](#rubygems) (1)
 - [Runner.Worker](#runnerworker) (1)
@@ -221,6 +230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [sabotage](#sabotage) (1)
 - [Safari](#safari) (1)
+- [ScarCruft](#scarcruft) (1)
 - [ScreenConnect](#screenconnect) (1)
 - [script-injection](#script-injection) (1)
 - [secret exposure](#secret-exposure) (1)
@@ -245,7 +255,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH persistence](#ssh-persistence) (1)
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
-- [supply-chain](#supply-chain) (27)
+- [supply-chain](#supply-chain) (29)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (1)
@@ -277,7 +287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebKit](#webkit) (1)
 - [Webworm](#webworm) (1)
 - [WHM](#whm) (1)
-- [Windows](#windows) (5)
+- [Windows](#windows) (7)
 - [wiper](#wiper) (2)
 - [WireGuard](#wireguard) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
@@ -286,6 +296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XMRig](#xmrig) (1)
 - [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
+- [Yanbian](#yanbian) (1)
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
 
@@ -325,6 +336,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Albania
 - [Handala](../actors/handala.md)
 
+## Android
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
 ## Apex One
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
@@ -346,6 +360,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## APT29
 - [ROADtools](../tools/roadtools.md)
+
+## APT37
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
 ## Artifact Signing
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -373,6 +390,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Belarus
 - [Ghostwriter](../actors/ghostwriter.md)
+
+## BirdCall
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
 ## Bitbucket
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -492,6 +512,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -620,6 +641,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [ROADtools](../tools/roadtools.md)
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Showboat](../tools/showboat.md)
 - [Webworm](../actors/webworm.md)
@@ -636,6 +658,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## EvilAI
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## exfiltration
+- [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 
 ## exploit-kit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -720,6 +745,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HAR files
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
+## Hugging Face
+- [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+
 ## ICONICSTEALER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
@@ -763,6 +791,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 
+## keylogger
+- [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+
 ## L2TP/IPSec
 - [First VPN](../tools/first-vpn.md)
 
@@ -786,6 +817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Linux
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Showboat](../tools/showboat.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
@@ -801,6 +833,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## macOS
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 
 ## maintainer persona
 - [JiaT75](../people/jiat75.md)
@@ -877,11 +910,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## node-ipc
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 
+## North Korea
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
 ## npm
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -929,6 +966,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -941,6 +979,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -972,6 +1011,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -984,6 +1024,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -1097,6 +1138,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Reality
 - [First VPN](../tools/first-vpn.md)
 
+## Reaper
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
 ## recruitment lures
 - [Screening Serpens](../actors/screening-serpens.md)
 
@@ -1121,6 +1165,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## roadtx
 - [ROADtools](../tools/roadtools.md)
 
+## RokRAT
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
 ## root execution
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
@@ -1142,6 +1189,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Safari
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+
+## ScarCruft
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
 ## ScreenConnect
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
@@ -1234,6 +1284,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [JiaT75](../people/jiat75.md)
+- [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
@@ -1241,6 +1292,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -1365,7 +1417,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+- [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
 ## wiper
@@ -1397,6 +1451,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## xz
 - [JiaT75](../people/jiat75.md)
+
+## Yanbian
+- [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
 ## Zero Trust
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)

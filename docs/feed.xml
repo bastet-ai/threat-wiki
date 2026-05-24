@@ -5,6 +5,20 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>js-logger-pack Hugging Face exfiltration campaign</title>
+      <link>https://threat.wiki/ops/js-logger-pack-hugging-face-exfiltration/</link>
+      <description>JFrog reports that malicious js-logger-pack npm releases used Hugging Face both to distribute MicrosoftSystem64 Node SEA implants and to store stolen archives in attacker-controlled private datasets; affected developer or CI hosts should be treated as endpoint compromises.</description>
+      <pubDate>Sun, 24 May 2026 13:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/js-logger-pack-hugging-face-exfiltration/</guid>
+    </item>
+    <item>
+      <title>ScarCruft Yanbian game-platform supply-chain attack</title>
+      <link>https://threat.wiki/ops/scarcruft-yanbian-game-platform-supply-chain/</link>
+      <description>ESET reports that North Korea-aligned ScarCruft compromised a Yanbian-themed gaming platform, delivering RokRAT and BirdCall through Windows updates and Android BirdCall through trojanized mobile games used by a sensitive regional community.</description>
+      <pubDate>Sun, 24 May 2026 13:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/scarcruft-yanbian-game-platform-supply-chain/</guid>
+    </item>
+    <item>
       <title>APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain</title>
       <link>https://threat.wiki/ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202/</link>
       <description>Akamai reports that an APT28 LNK exploit chain used CVE-2026-21513 and CVE-2026-21510 for SmartScreen bypass and remote code loading; patch analysis surfaced CVE-2026-32202, a residual zero-click authentication-coercion issue defenders should handle as a remaining forced-auth primitive.</description>

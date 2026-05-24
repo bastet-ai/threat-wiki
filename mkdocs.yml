@@ -7,6 +7,8 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - js-logger-pack Hugging Face exfiltration campaign: ops/js-logger-pack-hugging-face-exfiltration.md
+      - ScarCruft Yanbian game-platform supply-chain attack: ops/scarcruft-yanbian-game-platform-supply-chain.md
       - APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain: ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md
       - Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation: ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md
       - Trend Micro Apex One CVE-2026-34926 exploitation: ops/trend-micro-apex-one-cve-2026-34926-exploitation.md
