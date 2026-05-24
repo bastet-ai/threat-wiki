@@ -106,6 +106,7 @@ The Go side had broader workflow-tampering behavior:
 Public reporting attributes the package cluster to the `BufferZoneCorp` GitHub account, not to a named threat group. Keep this separate from TeamPCP / Mini Shai-Hulud unless later reporting ties infrastructure, account control, or payload lineage together.
 
 ## Related pages
+- [TrapDoor crypto-stealer cross-ecosystem campaign](trapdoor-crypto-stealer-cross-ecosystem.md)
 - [GitHub / Packagist postinstall hook campaign](github-packagist-postinstall-hook-campaign.md)
 - [Megalodon GitHub Actions workflow backdooring](megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)

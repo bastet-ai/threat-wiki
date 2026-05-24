@@ -11,7 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [adware](#adware) (1)
 - [AI](#ai) (1)
 - [AI agents](#ai-agents) (1)
-- [AI tooling](#ai-tooling) (2)
+- [AI tooling](#ai-tooling) (3)
 - [ai-agent](#ai-agent) (1)
 - [Albania](#albania) (1)
 - [Android](#android) (1)
@@ -60,10 +60,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise](#connectwise) (1)
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (1)
+- [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (3)
-- [credential-theft](#credential-theft) (13)
+- [credential-theft](#credential-theft) (14)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
+- [crypto](#crypto) (1)
 - [cryptocurrency](#cryptocurrency) (1)
 - [cryptominer](#cryptominer) (1)
 - [Curious Serpens](#curious-serpens) (1)
@@ -81,6 +83,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cybercrime](#cybercrime) (2)
 - [data theft](#data-theft) (1)
 - [defense evasion](#defense-evasion) (2)
+- [DeFi](#defi) (1)
 - [deployment_status](#deployment_status) (1)
 - [developer machines](#developer-machines) (2)
 - [device registration](#device-registration) (1)
@@ -142,6 +145,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [Langflow](#langflow) (1)
 - [Laravel](#laravel) (1)
+- [lateral-movement](#lateral-movement) (1)
 - [legacy software](#legacy-software) (1)
 - [liblzma](#liblzma) (1)
 - [libp2p](#libp2p) (1)
@@ -175,16 +179,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetScaler](#netscaler) (1)
 - [node-ipc](#node-ipc) (1)
 - [North Korea](#north-korea) (1)
-- [npm](#npm) (11)
+- [npm](#npm) (12)
 - [OIDC](#oidc) (2)
 - [Okta](#okta) (2)
 - [Ollama](#ollama) (1)
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (42)
+- [operations](#operations) (43)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (39)
+- [ops](#ops) (40)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -193,7 +197,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Packagist](#packagist) (2)
 - [patterns](#patterns) (1)
 - [people](#people) (1)
-- [persistence](#persistence) (10)
+- [persistence](#persistence) (11)
 - [phishing](#phishing) (1)
 - [PHP](#php) (1)
 - [Piriform](#piriform) (1)
@@ -203,11 +207,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PPtP](#pptp) (1)
 - [PRC-aligned](#prc-aligned) (1)
 - [privilege escalation](#privilege-escalation) (2)
-- [prompt-injection](#prompt-injection) (2)
+- [prompt-injection](#prompt-injection) (3)
 - [proxy](#proxy) (4)
 - [psychological operations](#psychological-operations) (1)
 - [pwn-request](#pwn-request) (1)
-- [PyPI](#pypi) (3)
+- [PyPI](#pypi) (4)
 - [Python](#python) (1)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (2)
@@ -228,6 +232,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (2)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
+- [Rust](#rust) (1)
 - [sabotage](#sabotage) (1)
 - [Safari](#safari) (1)
 - [ScarCruft](#scarcruft) (1)
@@ -255,7 +260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH persistence](#ssh-persistence) (1)
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
-- [supply-chain](#supply-chain) (29)
+- [supply-chain](#supply-chain) (30)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (1)
@@ -281,6 +286,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN](#vpn) (1)
 - [VS Code](#vs-code) (2)
 - [vulnerability](#vulnerability) (2)
+- [wallet-theft](#wallet-theft) (1)
 - [watering-hole](#watering-hole) (2)
 - [web application](#web-application) (1)
 - [web hosting](#web-hosting) (1)
@@ -329,6 +335,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI tooling
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## ai-agent
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -501,6 +508,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cPanel
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
+## Crates.io
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+
 ## credential theft
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -519,6 +529,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## criminal infrastructure
@@ -527,6 +538,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## critical-infrastructure
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [Showboat](../tools/showboat.md)
+
+## crypto
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## cryptocurrency
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -581,6 +595,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## defense evasion
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [ROADtools](../tools/roadtools.md)
+
+## DeFi
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## deployment_status
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -803,6 +820,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Laravel
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 
+## lateral-movement
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+
 ## legacy software
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
@@ -924,6 +944,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
 ## OIDC
@@ -984,6 +1005,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
@@ -1028,6 +1050,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
@@ -1068,6 +1091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
@@ -1102,6 +1126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## prompt-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## proxy
 - [First VPN](../tools/first-vpn.md)
@@ -1118,6 +1143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PyPI
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## Python
@@ -1183,6 +1209,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Russian-speaking forums
 - [First VPN](../tools/first-vpn.md)
+
+## Rust
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## sabotage
 - [Handala](../actors/handala.md)
@@ -1296,6 +1325,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -1393,6 +1423,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vulnerability
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
+
+## wallet-theft
+- [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## watering-hole
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)

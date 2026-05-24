@@ -71,6 +71,7 @@ The package presented a benign logger in `dist/index.js`, but its `package.json`
 JFrog mapped the distribution infrastructure to linked public personas, but the reporting used here does not attribute the campaign to a named threat group. Track it as a malicious npm package operation unless stronger public sourcing ties it to a broader cluster.
 
 ## Related pages
+- [TrapDoor crypto-stealer cross-ecosystem campaign](trapdoor-crypto-stealer-cross-ecosystem.md)
 - [GitHub / Packagist postinstall hook campaign](github-packagist-postinstall-hook-campaign.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](bufferzonecorp-ruby-go-ci-poisoning.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)

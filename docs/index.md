@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [TrapDoor crypto-stealer cross-ecosystem campaign](ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [js-logger-pack Hugging Face exfiltration campaign](ops/js-logger-pack-hugging-face-exfiltration.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
