@@ -19,8 +19,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AppDomainManager](#appdomainmanager) (1)
 - [appliance](#appliance) (1)
 - [APT](#apt) (2)
+- [APT28](#apt28) (1)
 - [APT29](#apt29) (1)
 - [Artifact Signing](#artifact-signing) (1)
+- [authentication-coercion](#authentication-coercion) (1)
 - [AWS](#aws) (1)
 - [Azure](#azure) (2)
 - [backdoor](#backdoor) (3)
@@ -95,7 +97,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ESG](#esg) (1)
 - [espionage](#espionage) (8)
 - [Eurojust](#eurojust) (1)
-- [Europe](#europe) (1)
+- [Europe](#europe) (2)
 - [Europol](#europol) (1)
 - [EvilAI](#evilai) (1)
 - [exploit-kit](#exploit-kit) (1)
@@ -103,8 +105,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploitation](#exploitation) (3)
 - [extortion](#extortion) (1)
 - [faketivism](#faketivism) (1)
+- [Fancy Bear](#fancy-bear) (1)
 - [FBI](#fbi) (1)
 - [filename-injection](#filename-injection) (1)
+- [Forest Blizzard](#forest-blizzard) (1)
 - [Fox Tempest](#fox-tempest) (1)
 - [FTA](#fta) (1)
 - [GCS](#gcs) (1)
@@ -139,6 +143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux](#linux) (4)
 - [LiteSpeed](#litespeed) (1)
 - [LLM](#llm) (1)
+- [LNK](#lnk) (1)
 - [macOS](#macos) (1)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
@@ -170,9 +175,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (39)
+- [operations](#operations) (40)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (36)
+- [ops](#ops) (37)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -228,6 +233,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [signed updates](#signed-updates) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [SLSA](#slsa) (1)
+- [SmartScreen](#smartscreen) (1)
 - [smishing](#smishing) (1)
 - [social engineering](#social-engineering) (1)
 - [SOCKS5](#socks5) (1)
@@ -258,7 +264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro](#trend-micro) (1)
 - [Twilio](#twilio) (1)
 - [typosquatting](#typosquatting) (2)
-- [Ukraine](#ukraine) (2)
+- [Ukraine](#ukraine) (3)
 - [UTA0355](#uta0355) (1)
 - [Views](#views) (1)
 - [VLESS](#vless) (1)
@@ -271,7 +277,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebKit](#webkit) (1)
 - [Webworm](#webworm) (1)
 - [WHM](#whm) (1)
-- [Windows](#windows) (4)
+- [Windows](#windows) (5)
 - [wiper](#wiper) (2)
 - [WireGuard](#wireguard) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
@@ -281,6 +287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
 - [Zero Trust](#zero-trust) (1)
+- [zero-click](#zero-click) (1)
 
 ## 3CX
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -334,11 +341,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 
+## APT28
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
 ## APT29
 - [ROADtools](../tools/roadtools.md)
 
 ## Artifact Signing
 - [Fox Tempest](../actors/fox-tempest.md)
+
+## authentication-coercion
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
 ## AWS
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -615,6 +628,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 
 ## Europe
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Webworm](../actors/webworm.md)
 
 ## Europol
@@ -640,11 +654,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## faketivism
 - [Handala](../actors/handala.md)
 
+## Fancy Bear
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
 ## FBI
 - [First VPN](../tools/first-vpn.md)
 
 ## filename-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+
+## Forest Blizzard
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
 ## Fox Tempest
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -776,6 +796,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LLM
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
+## LNK
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
 ## macOS
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
@@ -891,6 +914,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -935,6 +959,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -1159,6 +1184,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SLSA
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
+## SmartScreen
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
 ## smishing
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
@@ -1290,6 +1318,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
 ## Ukraine
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Showboat](../tools/showboat.md)
 
@@ -1334,6 +1363,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -1370,3 +1400,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Zero Trust
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+
+## zero-click
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)

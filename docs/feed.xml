@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain</title>
+      <link>https://threat.wiki/ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202/</link>
+      <description>Akamai reports that an APT28 LNK exploit chain used CVE-2026-21513 and CVE-2026-21510 for SmartScreen bypass and remote code loading; patch analysis surfaced CVE-2026-32202, a residual zero-click authentication-coercion issue defenders should handle as a remaining forced-auth primitive.</description>
+      <pubDate>Sun, 24 May 2026 09:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202/</guid>
+    </item>
+    <item>
       <title>Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation</title>
       <link>https://threat.wiki/ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation/</link>
       <description>CISA and Microsoft report active exploitation of Defender CVE-2026-41091 and CVE-2026-45498; defenders should verify Antimalware Platform updates to 1.1.26040.8 / 4.18.26040.7 or later and hunt for local privilege-escalation or Defender instability on lagging endpoints.</description>

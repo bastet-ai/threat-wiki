@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Xinference PyPI compromise](ops/xinference-pypi-compromise.md)
