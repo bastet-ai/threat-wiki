@@ -14,6 +14,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI tooling](#ai-tooling) (2)
 - [ai-agent](#ai-agent) (1)
 - [Albania](#albania) (1)
+- [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
 - [AppDomainManager](#appdomainmanager) (1)
 - [appliance](#appliance) (1)
@@ -37,6 +38,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China](#china) (2)
 - [CI/CD](#cicd) (17)
 - [CircleCI](#circleci) (1)
+- [CISA KEV](#cisa-kev) (2)
 - [Citrix](#citrix) (1)
 - [cloud](#cloud) (4)
 - [Cloudflare](#cloudflare) (1)
@@ -66,6 +68,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-1709](#cve-2024-1709) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [CVE-2025-34291](#cve-2025-34291) (1)
+- [CVE-2026-34926](#cve-2026-34926) (1)
+- [CVE-2026-41091](#cve-2026-41091) (1)
+- [CVE-2026-45498](#cve-2026-45498) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [cybercrime](#cybercrime) (2)
@@ -84,6 +89,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge appliance](#edge-appliance) (1)
 - [email](#email) (1)
 - [email gateway](#email-gateway) (1)
+- [endpoint-security](#endpoint-security) (2)
 - [energy-sector](#energy-sector) (1)
 - [Entra ID](#entra-id) (1)
 - [ESG](#esg) (1)
@@ -94,7 +100,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [EvilAI](#evilai) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
-- [exploitation](#exploitation) (1)
+- [exploitation](#exploitation) (3)
 - [extortion](#extortion) (1)
 - [faketivism](#faketivism) (1)
 - [FBI](#fbi) (1)
@@ -143,6 +149,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP](#mcp) (1)
 - [MFA bypass](#mfa-bypass) (3)
 - [Microsoft](#microsoft) (1)
+- [Microsoft Defender](#microsoft-defender) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
 - [Middle East](#middle-east) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
@@ -163,9 +170,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (37)
+- [operations](#operations) (39)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (34)
+- [ops](#ops) (36)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -248,6 +255,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tools](#tools) (3)
 - [Trading Technologies](#trading-technologies) (1)
 - [transnational repression](#transnational-repression) (1)
+- [Trend Micro](#trend-micro) (1)
 - [Twilio](#twilio) (1)
 - [typosquatting](#typosquatting) (2)
 - [Ukraine](#ukraine) (2)
@@ -256,13 +264,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VLESS](#vless) (1)
 - [VPN](#vpn) (1)
 - [VS Code](#vs-code) (2)
+- [vulnerability](#vulnerability) (2)
 - [watering-hole](#watering-hole) (2)
 - [web application](#web-application) (1)
 - [web hosting](#web-hosting) (1)
 - [WebKit](#webkit) (1)
 - [Webworm](#webworm) (1)
 - [WHM](#whm) (1)
-- [Windows](#windows) (3)
+- [Windows](#windows) (4)
 - [wiper](#wiper) (2)
 - [WireGuard](#wireguard) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
@@ -308,6 +317,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Albania
 - [Handala](../actors/handala.md)
+
+## Apex One
+- [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## API abuse
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -398,6 +410,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CircleCI
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+
+## CISA KEV
+- [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## Citrix
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -506,6 +522,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2025-34291
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 
+## CVE-2026-34926
+- [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
+
+## CVE-2026-41091
+- [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+
+## CVE-2026-45498
+- [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+
 ## CVE-2026-48172
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
@@ -563,6 +588,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## email gateway
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
+## endpoint-security
+- [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
+
 ## energy-sector
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
@@ -602,6 +631,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## exploitation
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -780,6 +811,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft
 - [Fox Tempest](../actors/fox-tempest.md)
 
+## Microsoft Defender
+- [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+
 ## Microsoft Graph
 - [ROADtools](../tools/roadtools.md)
 - [Webworm](../actors/webworm.md)
@@ -876,6 +910,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
+- [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -886,6 +921,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+- [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -916,6 +952,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
+- [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -925,6 +962,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+- [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -1241,6 +1279,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## transnational repression
 - [Handala](../actors/handala.md)
 
+## Trend Micro
+- [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
+
 ## Twilio
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
@@ -1268,6 +1309,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 
+## vulnerability
+- [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
+
 ## watering-hole
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -1290,6 +1335,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+- [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
 ## wiper

@@ -7,6 +7,8 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation: ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md
+      - Trend Micro Apex One CVE-2026-34926 exploitation: ops/trend-micro-apex-one-cve-2026-34926-exploitation.md
       - Xinference PyPI compromise: ops/xinference-pypi-compromise.md
       - Laravel-Lang Composer tag-rewrite compromise: ops/laravel-lang-composer-tag-rewrite-compromise.md
       - LiteSpeed cPanel CVE-2026-48172 exploitation: ops/litespeed-cpanel-cve-2026-48172-exploitation.md
