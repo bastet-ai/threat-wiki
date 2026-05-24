@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Socket details SAP CAP / Cloud MTA Mini Shai-Hulud compromise</title>
+      <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-24-socket-sap-cap-details</link>
+      <description>Socket's SAP CAP / Cloud MTA analysis adds affected package versions, Bun loader behavior, obfuscated execution.js payload details, enterprise developer reach, developer credential harvesting, and GitHub Actions runner-memory scraping to the Mini Shai-Hulud / TeamPCP-linked SAP wave.</description>
+      <pubDate>Sun, 24 May 2026 21:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-24-socket-sap-cap-details</guid>
+    </item>
+    <item>
       <title>TrapDoor crypto-stealer cross-ecosystem campaign</title>
       <link>https://threat.wiki/ops/trapdoor-crypto-stealer-cross-ecosystem/</link>
       <description>Socket reports TrapDoor, a supply-chain crypto-stealer campaign spanning npm, PyPI, and Crates.io packages that targets crypto, DeFi, AI, Solidity, Sui, and Move developers, with npm postinstall payloads, PyPI import-time remote JavaScript, Rust build.rs keystore theft, credential validation, SSH lateral movement, persistence, and AI-assistant instruction-file abuse.</description>
