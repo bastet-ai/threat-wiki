@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Ghost CMS CVE-2026-26980 ClickFix poisoning</title>
+      <link>https://threat.wiki/ops/ghost-cms-cve-2026-26980-clickfix-poisoning/</link>
+      <description>QiAnXin XLab reports that attackers exploited Ghost CMS CVE-2026-26980 to steal Admin API keys, poison more than 700 Ghost sites with JavaScript loaders, and route visitors into FakeCaptcha / ClickFix malware delivery through cloaking infrastructure and evolving payload chains.</description>
+      <pubDate>Mon, 25 May 2026 13:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ghost-cms-cve-2026-26980-clickfix-poisoning/</guid>
+    </item>
+    <item>
       <title>RemotePE memory-only Lazarus RAT</title>
       <link>https://threat.wiki/tools/remotepe/</link>
       <description>Fox-IT / NCC Group documented RemotePE, a Lazarus-linked memory-only RAT delivered by DPAPILoader and RemotePELoader with DPAPI environmental keying, ETW and userland-hook evasion, operator-controlled C2 delivery, and targeting of financial, cryptocurrency, and DeFi organizations.</description>

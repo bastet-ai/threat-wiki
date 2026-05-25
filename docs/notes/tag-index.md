@@ -6,8 +6,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX](#3cx) (1)
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
-- [active exploitation](#active-exploitation) (2)
+- [active exploitation](#active-exploitation) (3)
 - [actors](#actors) (2)
+- [Admin API key theft](#admin-api-key-theft) (1)
+- [Adspect](#adspect) (1)
 - [adware](#adware) (1)
 - [AI](#ai) (1)
 - [AI agents](#ai-agents) (1)
@@ -47,9 +49,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV](#cisa-kev) (2)
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (1)
+- [ClickFix](#clickfix) (1)
+- [cloaking](#cloaking) (1)
 - [cloud](#cloud) (4)
 - [Cloudflare](#cloudflare) (1)
-- [CMS](#cms) (1)
+- [CMS](#cms) (2)
 - [Cobalt Strike](#cobalt-strike) (1)
 - [code signing](#code-signing) (2)
 - [Codecov](#codecov) (1)
@@ -77,6 +81,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-1709](#cve-2024-1709) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [CVE-2025-34291](#cve-2025-34291) (1)
+- [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-34926](#cve-2026-34926) (1)
 - [CVE-2026-41091](#cve-2026-41091) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
@@ -118,6 +123,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (3)
 - [extortion](#extortion) (1)
+- [FakeCaptcha](#fakecaptcha) (1)
 - [faketivism](#faketivism) (1)
 - [Fancy Bear](#fancy-bear) (1)
 - [FBI](#fbi) (1)
@@ -128,6 +134,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](#fox-tempest) (1)
 - [FTA](#fta) (1)
 - [GCS](#gcs) (1)
+- [Ghost CMS](#ghost-cms) (1)
 - [GitHub](#github) (5)
 - [GitHub Actions](#github-actions) (13)
 - [GitHub OAuth](#github-oauth) (1)
@@ -149,6 +156,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [iOS](#ios) (1)
 - [Iran](#iran) (3)
 - [Israel](#israel) (1)
+- [JavaScript loader](#javascript-loader) (1)
 - [JavaScript malware](#javascript-malware) (1)
 - [JSON:API](#jsonapi) (1)
 - [KEV](#kev) (2)
@@ -174,6 +182,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (1)
 - [malvertising](#malvertising) (1)
 - [malware](#malware) (5)
+- [malware delivery](#malware-delivery) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [MCP](#mcp) (1)
 - [memory-only malware](#memory-only-malware) (1)
@@ -201,15 +210,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (43)
+- [operations](#operations) (44)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (40)
+- [ops](#ops) (41)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
 - [P2P](#p2p) (1)
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (2)
+- [page poisoning](#page-poisoning) (1)
 - [patterns](#patterns) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [people](#people) (1)
@@ -273,11 +283,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [South Africa](#south-africa) (1)
 - [Southeast Asia](#southeast-asia) (1)
 - [spearphishing](#spearphishing) (1)
-- [SQL injection](#sql-injection) (1)
+- [SQL injection](#sql-injection) (2)
 - [SSH](#ssh) (1)
 - [SSH persistence](#ssh-persistence) (1)
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
+- [stealer](#stealer) (1)
 - [supply-chain](#supply-chain) (30)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
@@ -337,11 +348,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## active exploitation
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
 ## actors
 - [Fox Tempest](../actors/fox-tempest.md)
 - [Webworm](../actors/webworm.md)
+
+## Admin API key theft
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
+## Adspect
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## adware
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -485,6 +503,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Citrix
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
+## ClickFix
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
+## cloaking
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
 ## cloud
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [ROADtools](../tools/roadtools.md)
@@ -496,6 +520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CMS
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## Cobalt Strike
 - [Ghostwriter](../actors/ghostwriter.md)
@@ -597,6 +622,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2025-34291
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+
+## CVE-2026-26980
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## CVE-2026-34926
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -738,6 +766,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
+## FakeCaptcha
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
 ## faketivism
 - [Handala](../actors/handala.md)
 
@@ -767,6 +798,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GCS
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+
+## Ghost CMS
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## GitHub
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -855,6 +889,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Israel
 - [Handala](../actors/handala.md)
 
+## JavaScript loader
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
 ## JavaScript malware
 - [Ghostwriter](../actors/ghostwriter.md)
 
@@ -939,6 +976,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
+
+## malware delivery
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## malware-signing-as-a-service
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -1055,6 +1095,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -1102,6 +1143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -1146,6 +1188,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Packagist
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+
+## page poisoning
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## patterns
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -1367,6 +1412,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SQL injection
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## SSH
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
@@ -1379,6 +1425,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## state-linked
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+
+## stealer
+- [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)

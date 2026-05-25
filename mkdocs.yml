@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Ghost CMS CVE-2026-26980 ClickFix poisoning: ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md
       - TrapDoor crypto-stealer cross-ecosystem campaign: ops/trapdoor-crypto-stealer-cross-ecosystem.md
       - js-logger-pack Hugging Face exfiltration campaign: ops/js-logger-pack-hugging-face-exfiltration.md
       - ScarCruft Yanbian game-platform supply-chain attack: ops/scarcruft-yanbian-game-platform-supply-chain.md
