@@ -15,7 +15,8 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **ESET WeLiveSecurity / ESET Research** — https://www.welivesecurity.com/en/eset-research/ (HTML/RSS watch; monitor actor campaigns, supply-chain attacks against regional software ecosystems, and new malware/tooling such as ScarCruft BirdCall Android or GopherWhisper Go tooling)
 - **Microsoft Security Blog** — https://www.microsoft.com/en-us/security/blog/ (HTML watch; RSS may return 403)
 - **GitHub Security Blog** — https://github.blog/security/ (HTML watch for GitHub platform incident notes and postmortems)
-- **The Hacker News** — https://feeds.feedburner.com/TheHackersNews (monitor active-exploitation reports that add concrete affected-version, exploit-status, and response guidance, such as LiteSpeed/cPanel CVE-2026-48172)
+- **The Hacker News** — https://feeds.feedburner.com/TheHackersNews (monitor active-exploitation reports and secondary pointers to primary actor/tool research that add concrete affected-version, exploit-status, or response guidance, such as LiteSpeed/cPanel CVE-2026-48172 and Lazarus RemotePE coverage)
+- **Fox-IT / NCC Group research blog** — https://blog.fox-it.com/ (HTML watch; monitor incident-response-backed actor/tool research such as Lazarus RemotePE, DPAPI/environmental-keying loaders, and memory-only RAT tradecraft)
 - **Boost Security Labs** — https://labs.boostsecurity.io/rss.xml (watch CI/CD supply-chain techniques such as deployment poisoning and TeamPCP follow-ups)
 - **StepSecurity blog** — https://www.stepsecurity.io/blog/rss.xml (watch Mini Shai-Hulud / Nx Console follow-ups, CI/CD workflow-backdoor campaigns such as Megalodon, and Composer/GitHub tag-rewrite incidents such as Laravel-Lang)
 - **Trail of Bits blog** — https://blog.trailofbits.com/feed/

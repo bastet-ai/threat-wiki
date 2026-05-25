@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [RemotePE memory-only Lazarus RAT](tools/remotepe.md)
 - [Socket details SAP CAP / Cloud MTA Mini Shai-Hulud compromise](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-05-24-socket-sap-cap-details)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [js-logger-pack Hugging Face exfiltration campaign](ops/js-logger-pack-hugging-face-exfiltration.md)

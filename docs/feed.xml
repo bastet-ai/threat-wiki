@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>RemotePE memory-only Lazarus RAT</title>
+      <link>https://threat.wiki/tools/remotepe/</link>
+      <description>Fox-IT / NCC Group documented RemotePE, a Lazarus-linked memory-only RAT delivered by DPAPILoader and RemotePELoader with DPAPI environmental keying, ETW and userland-hook evasion, operator-controlled C2 delivery, and targeting of financial, cryptocurrency, and DeFi organizations.</description>
+      <pubDate>Mon, 25 May 2026 11:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/tools/remotepe/</guid>
+    </item>
+    <item>
       <title>Socket details SAP CAP / Cloud MTA Mini Shai-Hulud compromise</title>
       <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-24-socket-sap-cap-details</link>
       <description>Socket's SAP CAP / Cloud MTA analysis adds affected package versions, Bun loader behavior, obfuscated execution.js payload details, enterprise developer reach, developer credential harvesting, and GitHub Actions runner-memory scraping to the Mini Shai-Hulud / TeamPCP-linked SAP wave.</description>
