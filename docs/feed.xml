@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Funnull RingH23 and MacCMS supply-chain attacks</title>
+      <link>https://threat.wiki/ops/funnull-ringh23-maccms-supply-chain/</link>
+      <description>QiAnXin XLab reports that Funnull-linked activity resurfaced through compromised GoEdge / CDN management infrastructure, the RingH23 Linux toolkit, typosquatted CDN domains, and MacCMS upgrade-channel poisoning, enabling JavaScript injection, traffic hijacking, wallet replacement, Udev persistence, and LD_PRELOAD hiding across web supply-chain paths.</description>
+      <pubDate>Mon, 25 May 2026 21:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/funnull-ringh23-maccms-supply-chain/</guid>
+    </item>
+    <item>
       <title>Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign</title>
       <link>https://threat.wiki/ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign/</link>
       <description>QiAnXin XLab reports that Mr_Rot13 exploited cPanel / WHM CVE-2026-41940 to turn unauthenticated control-panel takeover into SSH-key persistence, PHP webshells, login-page credential theft, filemanager remote-control tooling, and long-lived hosting-node backdoors.</description>

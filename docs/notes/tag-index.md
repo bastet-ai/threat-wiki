@@ -43,6 +43,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bun](#bun) (1)
 - [C2](#c2) (2)
 - [CCleaner](#ccleaner) (1)
+- [CDN](#cdn) (1)
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (2)
 - [CI/CD](#cicd) (17)
@@ -76,6 +77,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
 - [cryptocurrency](#cryptocurrency) (3)
+- [cryptocurrency theft](#cryptocurrency-theft) (1)
 - [cryptominer](#cryptominer) (1)
 - [Curious Serpens](#curious-serpens) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
@@ -91,7 +93,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-45498](#cve-2026-45498) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
-- [cybercrime](#cybercrime) (2)
+- [cybercrime](#cybercrime) (3)
 - [data theft](#data-theft) (1)
 - [defense evasion](#defense-evasion) (2)
 - [DeFi](#defi) (2)
@@ -138,6 +140,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Forest Blizzard](#forest-blizzard) (1)
 - [Fox Tempest](#fox-tempest) (1)
 - [FTA](#fta) (1)
+- [Funnull](#funnull) (1)
 - [GCS](#gcs) (1)
 - [Ghost CMS](#ghost-cms) (1)
 - [GitHub](#github) (5)
@@ -145,6 +148,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub OAuth](#github-oauth) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
 - [Go](#go) (3)
+- [GoEdge](#goedge) (1)
 - [group](#group) (1)
 - [groups](#groups) (4)
 - [hack-and-leak](#hack-and-leak) (1)
@@ -155,12 +159,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ICS](#ics) (1)
 - [IDE extension](#ide-extension) (1)
 - [identity](#identity) (2)
-- [incident response](#incident-response) (2)
+- [incident response](#incident-response) (3)
 - [infostealer](#infostealer) (1)
-- [infrastructure](#infrastructure) (1)
+- [infrastructure](#infrastructure) (2)
 - [iOS](#ios) (1)
 - [Iran](#iran) (3)
 - [Israel](#israel) (1)
+- [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
 - [JavaScript malware](#javascript-malware) (1)
 - [JSON:API](#jsonapi) (1)
@@ -171,6 +176,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Laravel](#laravel) (1)
 - [lateral-movement](#lateral-movement) (1)
 - [Lazarus](#lazarus) (1)
+- [LD_PRELOAD](#ld_preload) (1)
 - [legacy software](#legacy-software) (1)
 - [liblzma](#liblzma) (1)
 - [libp2p](#libp2p) (1)
@@ -181,6 +187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM](#llm) (1)
 - [LNK](#lnk) (1)
 - [long-term access](#long-term-access) (1)
+- [MacCMS](#maccms) (1)
 - [macOS](#macos) (2)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
@@ -207,18 +214,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MuddyWater](#muddywater) (1)
 - [nation-state](#nation-state) (1)
 - [NetScaler](#netscaler) (1)
+- [Nginx module](#nginx-module) (1)
 - [node-ipc](#node-ipc) (1)
 - [North Korea](#north-korea) (2)
 - [npm](#npm) (13)
+- [OFAC](#ofac) (1)
 - [OIDC](#oidc) (2)
 - [Okta](#okta) (2)
 - [Ollama](#ollama) (1)
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (46)
+- [operations](#operations) (47)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (43)
+- [ops](#ops) (44)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -232,6 +241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [persistence](#persistence) (11)
 - [phishing](#phishing) (1)
 - [PHP](#php) (1)
+- [pig-butchering](#pig-butchering) (1)
 - [Piriform](#piriform) (1)
 - [Polymarket](#polymarket) (1)
 - [portmap](#portmap) (1)
@@ -254,17 +264,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Reality](#reality) (1)
 - [Reaper](#reaper) (1)
 - [recruitment lures](#recruitment-lures) (1)
+- [Redis backdoor](#redis-backdoor) (1)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (1)
 - [remote code execution](#remote-code-execution) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
 - [reviewdog](#reviewdog) (1)
+- [RingH23](#ringh23) (1)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
 - [RokRAT](#rokrat) (1)
 - [root execution](#root-execution) (1)
+- [rootkit](#rootkit) (1)
 - [RubyGems](#rubygems) (1)
 - [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (2)
@@ -299,7 +312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
 - [stealer](#stealer) (1)
-- [supply-chain](#supply-chain) (31)
+- [supply-chain](#supply-chain) (32)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (1)
@@ -315,11 +328,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tooling](#tooling) (5)
 - [tools](#tools) (4)
 - [Trading Technologies](#trading-technologies) (1)
+- [traffic hijacking](#traffic-hijacking) (1)
 - [transnational repression](#transnational-repression) (1)
 - [Trend Micro](#trend-micro) (1)
 - [Twilio](#twilio) (1)
 - [typosquat](#typosquat) (1)
-- [typosquatting](#typosquatting) (2)
+- [typosquatting](#typosquatting) (3)
+- [Udev persistence](#udev-persistence) (1)
 - [Ukraine](#ukraine) (3)
 - [UNC4736](#unc4736) (1)
 - [UTA0355](#uta0355) (1)
@@ -328,11 +343,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN](#vpn) (1)
 - [VS Code](#vs-code) (2)
 - [vulnerability](#vulnerability) (2)
+- [wallet replacement](#wallet-replacement) (1)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (2)
 - [watering-hole](#watering-hole) (2)
 - [web application](#web-application) (1)
 - [web hosting](#web-hosting) (2)
+- [web supply chain](#web-supply-chain) (1)
 - [WebKit](#webkit) (1)
 - [webshell](#webshell) (1)
 - [Webworm](#webworm) (1)
@@ -483,6 +500,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CCleaner
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
+## CDN
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
 ## Checkmarx
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 
@@ -627,6 +647,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
+## cryptocurrency theft
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
 ## cryptominer
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
@@ -676,6 +699,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cybercrime
 - [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## data theft
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -832,6 +856,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FTA
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
+## Funnull
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
 ## GCS
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 
@@ -871,6 +898,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
+## GoEdge
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
 ## group
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 
@@ -906,6 +936,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 
 ## incident response
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
@@ -914,6 +945,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## infrastructure
 - [First VPN](../tools/first-vpn.md)
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## iOS
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -925,6 +957,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Israel
 - [Handala](../actors/handala.md)
+
+## JavaScript injection
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## JavaScript loader
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -956,6 +991,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Lazarus
 - [RemotePE](../tools/remotepe.md)
+
+## LD_PRELOAD
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## legacy software
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -990,6 +1028,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## long-term access
 - [RemotePE](../tools/remotepe.md)
+
+## MacCMS
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## macOS
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -1077,6 +1118,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NetScaler
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
+## Nginx module
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
 ## node-ipc
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 
@@ -1098,6 +1142,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](../actors/teampcp.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+
+## OFAC
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## OIDC
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
@@ -1136,6 +1183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -1186,6 +1234,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -1264,6 +1313,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PHP
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+
+## pig-butchering
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -1344,6 +1396,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## recruitment lures
 - [Screening Serpens](../actors/screening-serpens.md)
 
+## Redis backdoor
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
 ## release tampering
 - [Trivy compromise](../ops/trivy-compromise.md)
 
@@ -1362,6 +1417,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## reviewdog
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## RingH23
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
 ## ROADrecon
 - [ROADtools](../tools/roadtools.md)
 
@@ -1376,6 +1434,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## root execution
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+
+## rootkit
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## RubyGems
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -1497,6 +1558,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -1580,6 +1642,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Trading Technologies
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
+## traffic hijacking
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
 ## transnational repression
 - [Handala](../actors/handala.md)
 
@@ -1593,8 +1658,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
 ## typosquatting
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+
+## Udev persistence
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## Ukraine
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
@@ -1624,6 +1693,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
+## wallet replacement
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
 ## wallet-drainer
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
@@ -1641,6 +1713,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## web hosting
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## web supply chain
+- [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## WebKit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
