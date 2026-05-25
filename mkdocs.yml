@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign: ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md
       - Polymarket npm wallet-drainer packages: ops/polymarket-npm-wallet-drainer.md
       - Ghost CMS CVE-2026-26980 ClickFix poisoning: ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md
       - TrapDoor crypto-stealer cross-ecosystem campaign: ops/trapdoor-crypto-stealer-cross-ecosystem.md

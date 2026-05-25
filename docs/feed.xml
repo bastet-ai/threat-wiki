@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign</title>
+      <link>https://threat.wiki/ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign/</link>
+      <description>QiAnXin XLab reports that Mr_Rot13 exploited cPanel / WHM CVE-2026-41940 to turn unauthenticated control-panel takeover into SSH-key persistence, PHP webshells, login-page credential theft, filemanager remote-control tooling, and long-lived hosting-node backdoors.</description>
+      <pubDate>Mon, 25 May 2026 19:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign/</guid>
+    </item>
+    <item>
       <title>Polymarket npm wallet-drainer packages</title>
       <link>https://threat.wiki/ops/polymarket-npm-wallet-drainer/</link>
       <description>SafeDep reports nine Polymarket-themed npm packages that used postinstall onboarding prompts, .env PRIVATE_KEY harvesting, Cloudflare Worker exfiltration, and AI-assistant-themed package names to steal Ethereum / Polygon wallet private keys from developers and traders.</description>

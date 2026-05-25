@@ -6,7 +6,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX](#3cx) (1)
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
-- [active exploitation](#active-exploitation) (3)
+- [active exploitation](#active-exploitation) (4)
 - [actors](#actors) (2)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [Adspect](#adspect) (1)
@@ -27,10 +27,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](#apt29) (1)
 - [APT37](#apt37) (1)
 - [Artifact Signing](#artifact-signing) (1)
+- [authentication bypass](#authentication-bypass) (1)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AWS](#aws) (1)
 - [Azure](#azure) (2)
-- [backdoor](#backdoor) (3)
+- [backdoor](#backdoor) (4)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [Belarus](#belarus) (1)
@@ -65,10 +66,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Composer](#composer) (2)
 - [compromised accounts](#compromised-accounts) (1)
 - [ConnectWise](#connectwise) (1)
+- [control panel compromise](#control-panel-compromise) (1)
 - [Coruna](#coruna) (1)
-- [cPanel](#cpanel) (1)
+- [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
-- [credential theft](#credential-theft) (3)
+- [credential theft](#credential-theft) (4)
 - [credential-theft](#credential-theft) (14)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -85,6 +87,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-34926](#cve-2026-34926) (1)
 - [CVE-2026-41091](#cve-2026-41091) (1)
+- [CVE-2026-41940](#cve-2026-41940) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
@@ -128,6 +131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [faketivism](#faketivism) (1)
 - [Fancy Bear](#fancy-bear) (1)
 - [FBI](#fbi) (1)
+- [filemanager](#filemanager) (1)
 - [filename-injection](#filename-injection) (1)
 - [financial sector](#financial-sector) (1)
 - [financial theft](#financial-theft) (1)
@@ -151,7 +155,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ICS](#ics) (1)
 - [IDE extension](#ide-extension) (1)
 - [identity](#identity) (2)
-- [incident response](#incident-response) (1)
+- [incident response](#incident-response) (2)
 - [infostealer](#infostealer) (1)
 - [infrastructure](#infrastructure) (1)
 - [iOS](#ios) (1)
@@ -198,6 +202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (1)
 - [Monero](#monero) (1)
+- [Mr_Rot13](#mr_rot13) (1)
 - [MSP](#msp) (1)
 - [MuddyWater](#muddywater) (1)
 - [nation-state](#nation-state) (1)
@@ -211,9 +216,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (45)
+- [operations](#operations) (46)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (42)
+- [ops](#ops) (43)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -276,7 +281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
 - [Shai-Hulud](#shai-hulud) (3)
-- [shared hosting](#shared-hosting) (1)
+- [shared hosting](#shared-hosting) (2)
 - [signed updates](#signed-updates) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [SLSA](#slsa) (1)
@@ -289,6 +294,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spearphishing](#spearphishing) (1)
 - [SQL injection](#sql-injection) (2)
 - [SSH](#ssh) (1)
+- [SSH key persistence](#ssh-key-persistence) (1)
 - [SSH persistence](#ssh-persistence) (1)
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
@@ -326,10 +332,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet-theft](#wallet-theft) (2)
 - [watering-hole](#watering-hole) (2)
 - [web application](#web-application) (1)
-- [web hosting](#web-hosting) (1)
+- [web hosting](#web-hosting) (2)
 - [WebKit](#webkit) (1)
+- [webshell](#webshell) (1)
 - [Webworm](#webworm) (1)
-- [WHM](#whm) (1)
+- [WHM](#whm) (2)
 - [Windows](#windows) (7)
 - [wiper](#wiper) (2)
 - [WireGuard](#wireguard) (1)
@@ -356,6 +363,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## actors
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -422,6 +430,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Artifact Signing
 - [Fox Tempest](../actors/fox-tempest.md)
 
+## authentication bypass
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
 ## authentication-coercion
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
@@ -433,6 +444,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 
 ## backdoor
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Showboat](../tools/showboat.md)
@@ -564,11 +576,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ConnectWise
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
+## control panel compromise
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
 ## Coruna
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## cPanel
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## Crates.io
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -576,6 +592,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## credential theft
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 
 ## credential-theft
@@ -643,6 +660,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-41091
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+
+## CVE-2026-41940
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## CVE-2026-45498
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -791,6 +811,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FBI
 - [First VPN](../tools/first-vpn.md)
 
+## filemanager
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
 ## filename-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 
@@ -884,6 +907,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## incident response
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## infostealer
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -1038,6 +1062,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Monero
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
+## Mr_Rot13
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
 ## MSP
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
@@ -1121,6 +1148,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -1169,6 +1197,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -1404,6 +1433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## shared hosting
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## signed updates
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -1442,6 +1472,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SSH
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## SSH key persistence
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## SSH persistence
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -1607,15 +1640,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web hosting
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## WebKit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+
+## webshell
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## Webworm
 - [Webworm](../actors/webworm.md)
 
 ## WHM
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
