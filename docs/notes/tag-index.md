@@ -13,7 +13,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [adware](#adware) (1)
 - [AI](#ai) (1)
 - [AI agents](#ai-agents) (1)
-- [AI tooling](#ai-tooling) (3)
+- [AI tooling](#ai-tooling) (4)
 - [ai-agent](#ai-agent) (1)
 - [Albania](#albania) (1)
 - [Android](#android) (1)
@@ -53,6 +53,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (4)
 - [Cloudflare](#cloudflare) (1)
+- [Cloudflare Workers](#cloudflare-workers) (1)
 - [CMS](#cms) (2)
 - [Cobalt Strike](#cobalt-strike) (1)
 - [code signing](#code-signing) (2)
@@ -71,8 +72,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential-theft](#credential-theft) (14)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
-- [crypto](#crypto) (1)
-- [cryptocurrency](#cryptocurrency) (2)
+- [crypto](#crypto) (2)
+- [cryptocurrency](#cryptocurrency) (3)
 - [cryptominer](#cryptominer) (1)
 - [Curious Serpens](#curious-serpens) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
@@ -92,7 +93,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense evasion](#defense-evasion) (2)
 - [DeFi](#defi) (2)
 - [deployment_status](#deployment_status) (1)
-- [developer machines](#developer-machines) (2)
+- [developer machines](#developer-machines) (3)
 - [device registration](#device-registration) (1)
 - [DEWMODE](#dewmode) (1)
 - [Discord](#discord) (1)
@@ -203,16 +204,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetScaler](#netscaler) (1)
 - [node-ipc](#node-ipc) (1)
 - [North Korea](#north-korea) (2)
-- [npm](#npm) (12)
+- [npm](#npm) (13)
 - [OIDC](#oidc) (2)
 - [Okta](#okta) (2)
 - [Ollama](#ollama) (1)
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (44)
+- [operations](#operations) (45)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (41)
+- [ops](#ops) (42)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -227,11 +228,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [phishing](#phishing) (1)
 - [PHP](#php) (1)
 - [Piriform](#piriform) (1)
+- [Polymarket](#polymarket) (1)
 - [portmap](#portmap) (1)
 - [post-exploitation](#post-exploitation) (1)
 - [PostgreSQL](#postgresql) (1)
+- [postinstall](#postinstall) (1)
 - [PPtP](#pptp) (1)
 - [PRC-aligned](#prc-aligned) (1)
+- [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (2)
 - [prompt-injection](#prompt-injection) (3)
 - [proxy](#proxy) (4)
@@ -278,7 +282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SLSA](#slsa) (1)
 - [SmartScreen](#smartscreen) (1)
 - [smishing](#smishing) (1)
-- [social engineering](#social-engineering) (1)
+- [social engineering](#social-engineering) (2)
 - [SOCKS5](#socks5) (1)
 - [South Africa](#south-africa) (1)
 - [Southeast Asia](#southeast-asia) (1)
@@ -289,7 +293,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
 - [stealer](#stealer) (1)
-- [supply-chain](#supply-chain) (30)
+- [supply-chain](#supply-chain) (31)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (1)
@@ -308,6 +312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [transnational repression](#transnational-repression) (1)
 - [Trend Micro](#trend-micro) (1)
 - [Twilio](#twilio) (1)
+- [typosquat](#typosquat) (1)
 - [typosquatting](#typosquatting) (2)
 - [Ukraine](#ukraine) (3)
 - [UNC4736](#unc4736) (1)
@@ -317,7 +322,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN](#vpn) (1)
 - [VS Code](#vs-code) (2)
 - [vulnerability](#vulnerability) (2)
-- [wallet-theft](#wallet-theft) (1)
+- [wallet-drainer](#wallet-drainer) (1)
+- [wallet-theft](#wallet-theft) (2)
 - [watering-hole](#watering-hole) (2)
 - [web application](#web-application) (1)
 - [web hosting](#web-hosting) (1)
@@ -372,6 +378,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI tooling
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
@@ -518,6 +525,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cloudflare
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
+## Cloudflare Workers
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+
 ## CMS
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -592,9 +602,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 
 ## crypto
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## cryptocurrency
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [RemotePE](../tools/remotepe.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
@@ -661,6 +673,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## developer machines
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 
 ## device registration
@@ -1053,6 +1066,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -1111,6 +1125,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -1158,6 +1173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -1223,6 +1239,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
+## Polymarket
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+
 ## portmap
 - [Showboat](../tools/showboat.md)
 
@@ -1232,11 +1251,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PostgreSQL
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
+## postinstall
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+
 ## PPtP
 - [First VPN](../tools/first-vpn.md)
 
 ## PRC-aligned
 - [Showboat](../tools/showboat.md)
+
+## private-key theft
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
 ## privilege escalation
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -1396,6 +1421,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
 ## social engineering
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 
 ## SOCKS5
@@ -1450,6 +1476,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -1529,6 +1556,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Twilio
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
+## typosquat
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+
 ## typosquatting
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -1561,7 +1591,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
+## wallet-drainer
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+
 ## wallet-theft
+- [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## watering-hole

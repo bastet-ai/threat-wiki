@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Polymarket npm wallet-drainer packages: ops/polymarket-npm-wallet-drainer.md
       - Ghost CMS CVE-2026-26980 ClickFix poisoning: ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md
       - TrapDoor crypto-stealer cross-ecosystem campaign: ops/trapdoor-crypto-stealer-cross-ecosystem.md
       - js-logger-pack Hugging Face exfiltration campaign: ops/js-logger-pack-hugging-face-exfiltration.md

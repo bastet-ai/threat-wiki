@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Polymarket npm wallet-drainer packages</title>
+      <link>https://threat.wiki/ops/polymarket-npm-wallet-drainer/</link>
+      <description>SafeDep reports nine Polymarket-themed npm packages that used postinstall onboarding prompts, .env PRIVATE_KEY harvesting, Cloudflare Worker exfiltration, and AI-assistant-themed package names to steal Ethereum / Polygon wallet private keys from developers and traders.</description>
+      <pubDate>Mon, 25 May 2026 17:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/polymarket-npm-wallet-drainer/</guid>
+    </item>
+    <item>
       <title>Ghost CMS CVE-2026-26980 ClickFix poisoning</title>
       <link>https://threat.wiki/ops/ghost-cms-cve-2026-26980-clickfix-poisoning/</link>
       <description>QiAnXin XLab reports that attackers exploited Ghost CMS CVE-2026-26980 to steal Admin API keys, poison more than 700 Ghost sites with JavaScript loaders, and route visitors into FakeCaptcha / ClickFix malware delivery through cloaking infrastructure and evolving payload chains.</description>

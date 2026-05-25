@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Polymarket npm wallet-drainer packages](ops/polymarket-npm-wallet-drainer.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [RemotePE memory-only Lazarus RAT](tools/remotepe.md)
 - [Socket details SAP CAP / Cloud MTA Mini Shai-Hulud compromise](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-05-24-socket-sap-cap-details)
