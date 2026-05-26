@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>KnowledgeDeliver CVE-2026-5426 ViewState exploitation</title>
+      <link>https://threat.wiki/ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation/</link>
+      <description>Google Mandiant reports that KnowledgeDeliver deployments reused identical ASP.NET machineKey values, enabling CVE-2026-5426 ViewState deserialization RCE; an unknown actor deployed BLUEBEAM / Godzilla, tampered LMS JavaScript, and pushed visitors toward a fake plugin that installed Cobalt Strike Beacon.</description>
+      <pubDate>Tue, 26 May 2026 07:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation/</guid>
+    </item>
+    <item>
       <title>Wiz details TeamPCP post-compromise cloud and GitHub abuse</title>
       <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-25-wiz-teampcp-post-compromise</link>
       <description>Wiz CIRT reporting adds TeamPCP post-compromise tradecraft after supply-chain credential theft: live secret validation, AWS and ECS discovery, malicious GitHub workflow pull requests, workflow-log deletion, mass repository cloning, ECS Exec / SSM execution, and cloud/source-data exfiltration.</description>

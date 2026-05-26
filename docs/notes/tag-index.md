@@ -6,7 +6,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX](#3cx) (1)
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
-- [active exploitation](#active-exploitation) (4)
+- [active exploitation](#active-exploitation) (5)
 - [actors](#actors) (2)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [Adspect](#adspect) (1)
@@ -27,6 +27,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](#apt29) (1)
 - [APT37](#apt37) (1)
 - [Artifact Signing](#artifact-signing) (1)
+- [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [authentication bypass](#authentication-bypass) (1)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AWS](#aws) (1)
@@ -38,6 +39,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
 - [Bitwarden](#bitwarden) (1)
+- [BLUEBEAM](#bluebeam) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
@@ -57,7 +59,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare](#cloudflare) (1)
 - [Cloudflare Workers](#cloudflare-workers) (1)
 - [CMS](#cms) (2)
-- [Cobalt Strike](#cobalt-strike) (1)
+- [Cobalt Strike](#cobalt-strike) (2)
 - [code signing](#code-signing) (2)
 - [Codecov](#codecov) (1)
 - [Coinbase](#coinbase) (1)
@@ -92,6 +94,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-41940](#cve-2026-41940) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
+- [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [cybercrime](#cybercrime) (3)
 - [data theft](#data-theft) (1)
@@ -101,6 +104,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (3)
 - [device registration](#device-registration) (1)
 - [DEWMODE](#dewmode) (1)
+- [Digital Knowledge](#digital-knowledge) (1)
 - [Discord](#discord) (1)
 - [discovery](#discovery) (1)
 - [DLL sideloading](#dll-sideloading) (1)
@@ -129,6 +133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (3)
 - [extortion](#extortion) (1)
+- [fake plugin](#fake-plugin) (1)
 - [FakeCaptcha](#fakecaptcha) (1)
 - [faketivism](#faketivism) (1)
 - [Fancy Bear](#fancy-bear) (1)
@@ -148,11 +153,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub OAuth](#github-oauth) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
 - [Go](#go) (3)
+- [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
 - [group](#group) (1)
 - [groups](#groups) (4)
 - [hack-and-leak](#hack-and-leak) (1)
 - [HAR files](#har-files) (1)
+- [hard-coded secrets](#hard-coded-secrets) (1)
 - [HellsGate](#hellsgate) (1)
 - [Hugging Face](#hugging-face) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
@@ -165,12 +172,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [iOS](#ios) (1)
 - [Iran](#iran) (3)
 - [Israel](#israel) (1)
+- [Japan](#japan) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
 - [JavaScript malware](#javascript-malware) (1)
+- [JavaScript tampering](#javascript-tampering) (1)
 - [JSON:API](#jsonapi) (1)
 - [KEV](#kev) (2)
 - [keylogger](#keylogger) (1)
+- [KnowledgeDeliver](#knowledgedeliver) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [Langflow](#langflow) (1)
 - [Laravel](#laravel) (1)
@@ -185,6 +195,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux](#linux) (5)
 - [LiteSpeed](#litespeed) (1)
 - [LLM](#llm) (1)
+- [LMS](#lms) (1)
 - [LNK](#lnk) (1)
 - [long-term access](#long-term-access) (1)
 - [MacCMS](#maccms) (1)
@@ -225,9 +236,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (47)
+- [operations](#operations) (48)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (44)
+- [ops](#ops) (45)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -295,6 +306,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ShadowPad](#shadowpad) (1)
 - [Shai-Hulud](#shai-hulud) (3)
 - [shared hosting](#shared-hosting) (2)
+- [shared secrets](#shared-secrets) (1)
 - [signed updates](#signed-updates) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [SLSA](#slsa) (1)
@@ -339,6 +351,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC4736](#unc4736) (1)
 - [UTA0355](#uta0355) (1)
 - [Views](#views) (1)
+- [ViewState deserialization](#viewstate-deserialization) (1)
 - [VLESS](#vless) (1)
 - [VPN](#vpn) (1)
 - [VS Code](#vs-code) (2)
@@ -349,6 +362,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [watering-hole](#watering-hole) (2)
 - [web application](#web-application) (1)
 - [web hosting](#web-hosting) (2)
+- [web shell](#web-shell) (1)
 - [web supply chain](#web-supply-chain) (1)
 - [WebKit](#webkit) (1)
 - [webshell](#webshell) (1)
@@ -366,6 +380,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Yanbian](#yanbian) (1)
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
+- [zero-day](#zero-day) (1)
 
 ## 3CX
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -379,6 +394,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## active exploitation
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
@@ -447,6 +463,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Artifact Signing
 - [Fox Tempest](../actors/fox-tempest.md)
 
+## ASP.NET machineKey
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
 ## authentication bypass
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
@@ -483,6 +502,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bitwarden
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+
+## BLUEBEAM
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## branch-name-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -566,6 +588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cobalt Strike
 - [Ghostwriter](../actors/ghostwriter.md)
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## code signing
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -693,6 +716,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-48172
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
+## CVE-2026-5426
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
 ## CVE-2026-9082
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
@@ -725,6 +751,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DEWMODE
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+
+## Digital Knowledge
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## Discord
 - [Webworm](../actors/webworm.md)
@@ -823,6 +852,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
+## fake plugin
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
 ## FakeCaptcha
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
@@ -898,6 +930,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
+## Godzilla
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
 ## GoEdge
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -915,6 +950,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HAR files
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+
+## hard-coded secrets
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## HellsGate
 - [RemotePE](../tools/remotepe.md)
@@ -958,6 +996,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Israel
 - [Handala](../actors/handala.md)
 
+## Japan
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
 ## JavaScript injection
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -966,6 +1007,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JavaScript malware
 - [Ghostwriter](../actors/ghostwriter.md)
+
+## JavaScript tampering
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## JSON:API
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -976,6 +1020,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## keylogger
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+
+## KnowledgeDeliver
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## L2TP/IPSec
 - [First VPN](../tools/first-vpn.md)
@@ -1022,6 +1069,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LLM
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
+## LMS
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## LNK
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
@@ -1189,6 +1239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -1239,6 +1290,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -1496,6 +1548,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
+## shared secrets
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
 ## signed updates
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
@@ -1679,6 +1734,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Views
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
+## ViewState deserialization
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
 ## VLESS
 - [First VPN](../tools/first-vpn.md)
 
@@ -1713,6 +1771,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## web hosting
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## web shell
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## web supply chain
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -1777,3 +1838,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## zero-click
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
+## zero-day
+- [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
