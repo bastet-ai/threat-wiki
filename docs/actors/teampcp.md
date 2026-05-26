@@ -52,6 +52,11 @@ This actor page should stay focused on TeamPCP identity, motivation, tradecraft,
 - Uses **rapid iteration**: operations were followed quickly by propagation campaigns, and payloads were updated over time
 - Comfort with both **attack tooling** and **operational logistics** (repo access, npm publishing, persistence, and C2 rotation)
 
+## Post-compromise operating style
+Wiz CIRT's March 2026 incident-response reporting adds a useful view of what happens after TeamPCP-style supply-chain malware steals credentials. Stolen secrets were validated within hours with TruffleHog-style live API checks, then used for AWS discovery across IAM, EC2, Lambda, RDS, Route 53, S3, ECS, and Secrets Manager.
+
+The same reporting observed GitHub PAT abuse for malicious workflow pull requests, workflow-log deletion, repository cloning at scale, ECS Exec / SSM-based command execution in running containers, and bulk exfiltration from S3, databases, Secrets Manager, and source repositories. Wiz characterized the activity as fast, high-volume, and not especially stealthy, with open-source tools, conspicuous resource names such as `pawn` or `massive-exfil`, Mullvad VPN exit nodes, and InterServer-hosted VPS infrastructure appearing in observed cases.
+
 ## Human actors / personas
 Public reporting commonly attributes activity to the **TeamPCP** persona itself rather than naming individual humans. I do **not** see a reliable public name for a specific person behind TeamPCP in the sources used here.
 
@@ -111,6 +116,7 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 ## Sources
 - [Aikido](https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise)
 - [Wiz](https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack)
+- [Wiz TeamPCP post-compromise activity](https://www.wiz.io/blog/tracking-teampcp-investigating-post-compromise-attacks-seen-in-the-wild)
 - [Wiz Mini Shai-Hulud SAP npm coverage](https://www.wiz.io/blog/mini-shai-hulud-supply-chain-sap-npm)
 - [Snyk TanStack Mini Shai-Hulud coverage](https://snyk.io/blog/tanstack-npm-packages-compromised/)
 - [Akamai Mini Shai-Hulud analysis](https://www.akamai.com/blog/security-research/mini-shai-hulud-worm-returns-goes-public)

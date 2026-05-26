@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Wiz details TeamPCP post-compromise cloud and GitHub abuse](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-05-25-wiz-teampcp-post-compromise)
 - [Funnull RingH23 and MacCMS supply-chain attacks](ops/funnull-ringh23-maccms-supply-chain.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Polymarket npm wallet-drainer packages](ops/polymarket-npm-wallet-drainer.md)

@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Wiz details TeamPCP post-compromise cloud and GitHub abuse</title>
+      <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-25-wiz-teampcp-post-compromise</link>
+      <description>Wiz CIRT reporting adds TeamPCP post-compromise tradecraft after supply-chain credential theft: live secret validation, AWS and ECS discovery, malicious GitHub workflow pull requests, workflow-log deletion, mass repository cloning, ECS Exec / SSM execution, and cloud/source-data exfiltration.</description>
+      <pubDate>Tue, 26 May 2026 03:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-25-wiz-teampcp-post-compromise</guid>
+    </item>
+    <item>
       <title>Funnull RingH23 and MacCMS supply-chain attacks</title>
       <link>https://threat.wiki/ops/funnull-ringh23-maccms-supply-chain/</link>
       <description>QiAnXin XLab reports that Funnull-linked activity resurfaced through compromised GoEdge / CDN management infrastructure, the RingH23 Linux toolkit, typosquatted CDN domains, and MacCMS upgrade-channel poisoning, enabling JavaScript injection, traffic hijacking, wallet replacement, Udev persistence, and LD_PRELOAD hiding across web supply-chain paths.</description>

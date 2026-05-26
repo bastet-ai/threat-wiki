@@ -38,6 +38,7 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 ### March 2026: TeamPCP / Trivy precursor activity
 - Wiz and other researchers reported a TeamPCP-linked Trivy compromise that used GitHub Actions/release infrastructure to steal runner secrets and publish malicious artifacts.
 - This established several recurring motifs later seen in Mini Shai-Hulud coverage: runner memory scraping, cloud/Kubernetes credential harvesting, package/release trust abuse, encrypted exfiltration, and fallback GitHub repository exfiltration.
+- <a id="2026-05-25-wiz-teampcp-post-compromise"></a>Wiz CIRT's post-compromise reporting shows why stolen-token handling needs to extend beyond package cleanup: observed TeamPCP activity validated cloud and SaaS secrets with TruffleHog-style API calls within hours, enumerated AWS IAM/EC2/Lambda/RDS/Route 53/S3/ECS/Secrets Manager, abused GitHub PATs to create malicious workflow pull requests and delete workflow logs, cloned repositories at scale, used ECS Exec / SSM paths for code execution inside containers, and pulled data from S3, databases, Secrets Manager, and source repositories.
 - See also: [Trivy → TeamPCP → CanisterWorm timeline](trivy-lite-llm-compromise-timeline.md).
 
 ### April 22, 2026: Bitwarden / Checkmarx "Third Coming" wave
@@ -142,6 +143,7 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - Search for unexpected repositories created by maintainers/bots with Shai-Hulud/Dune/config-storage descriptions or encrypted blobs; Unit 42 notes that later variants can use both GitHub dead-drop repositories and telemetry-looking HTTPS exfiltration to `t.m-kosche[.]com`. Socket reported AntV-wave dead-drop repositories using reversed markers such as `niagA oG eW ereH :duluH-iahS` / `niaga og ew ereh :duluh-iahs`, Dune-themed names like `sayyadina-stillsuit-852`, and `results/results-*.json` paths.
 - Audit newly added `.claude/`, `.codex/`, and `.vscode/` files, especially `settings.json`, `tasks.json`, `setup.mjs`, copied payload scripts, Claude Code/Codex SessionStart hooks, and VS Code `folderOpen` tasks.
 - Search GitHub audit logs and repositories for suspicious workflow commits matching reported Mini Shai-Hulud patterns such as branch `chore/add-codeql-static-analysis`, commit message `fix: ci`, and unexpected `.github/workflows/codeql.yml` content labelled `Run Copilot`.
+- Hunt for post-theft GitHub activity such as many `git.clone` events, malicious workflow pull requests, workflow-log deletion, or activity from VPN / VPS ASNs not normally used by maintainers.
 - Inventory IDE extensions on developer machines; treat a malicious editor extension as an endpoint compromise capable of reading source, secrets, shell history, and authenticated GitHub sessions.
 
 ### Package and registry hunting
@@ -180,6 +182,7 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - Wiz: https://www.wiz.io/blog/mini-shai-hulud-supply-chain-sap-npm
 - Wiz: https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack
 - Wiz: https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack
+- Wiz TeamPCP post-compromise activity: https://www.wiz.io/blog/tracking-teampcp-investigating-post-compromise-attacks-seen-in-the-wild
 - Snyk: https://snyk.io/blog/tanstack-npm-packages-compromised/
 - Akamai: https://www.akamai.com/blog/security-research/mini-shai-hulud-worm-returns-goes-public
 - JFrog: https://research.jfrog.com/post/shai-hulud-here-we-go-again/
