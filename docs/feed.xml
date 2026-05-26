@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>SafeDep details AntV / atool Mini Shai-Hulud indicators</title>
+      <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-26-safedep-antv-details</link>
+      <description>SafeDep's AntV / atool analysis adds Mini Shai-Hulud detection pivots: 637 malicious versions across 317 packages, payload hash and orphan antvis/G2 commit IDs, dual GitHub and OpenTelemetry-looking exfiltration, Docker-socket escape attempts, AI-assistant and VS Code persistence, kitty-monitor GitHub C2, and gh-token-monitor polling.</description>
+      <pubDate>Tue, 26 May 2026 11:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-26-safedep-antv-details</guid>
+    </item>
+    <item>
       <title>AI-augmented adversary operations</title>
       <link>https://threat.wiki/patterns/ai-augmented-adversary-operations/</link>
       <description>Google Threat Intelligence Group reports that adversaries are moving AI use into repeatable workflows for vulnerability discovery, exploit generation, obfuscation, autonomous malware operations, obfuscated model access, and AI software supply-chain initial access, including TeamPCP / UNC6780 activity against AI environments.</description>

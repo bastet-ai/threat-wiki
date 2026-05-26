@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [SafeDep details AntV / atool Mini Shai-Hulud indicators](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-05-26-safedep-antv-details)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Wiz details TeamPCP post-compromise cloud and GitHub abuse](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-05-25-wiz-teampcp-post-compromise)
