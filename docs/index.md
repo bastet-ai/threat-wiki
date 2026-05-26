@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Seedworm / MuddyWater signed-binary sideloading campaign](actors/seedworm-muddywater.md)
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](ops/ababil-of-minab-mois-recovery-destruction.md)
 - [SafeDep details AntV / atool Mini Shai-Hulud indicators](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-05-26-safedep-antv-details)
 - [AI-augmented adversary operations](patterns/ai-augmented-adversary-operations.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)

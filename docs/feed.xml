@@ -5,6 +5,20 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Seedworm / MuddyWater signed-binary sideloading campaign</title>
+      <link>https://threat.wiki/actors/seedworm-muddywater/</link>
+      <description>Broadcom reports a Q1 2026 Seedworm / MuddyWater espionage campaign across nine countries using Node.js-orchestrated PowerShell, signed Fortemedia and SentinelOne DLL sideloading, ChromElevator browser theft, SAM hive theft, SOCKS5 tunneling, and sendit.sh exfiltration.</description>
+      <pubDate>Tue, 26 May 2026 17:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/seedworm-muddywater/</guid>
+    </item>
+    <item>
+      <title>Ababil of Minab MOIS-linked recovery-destruction campaign</title>
+      <link>https://threat.wiki/ops/ababil-of-minab-mois-recovery-destruction/</link>
+      <description>Gambit Security links the Ababil of Minab persona to Iran MOIS-associated infrastructure and details a 2026 exfiltration and destructive campaign that targeted virtualization, storage, applications, and backup infrastructure to deny recovery across victims in the United States, Israel, Saudi Arabia, and Turkey.</description>
+      <pubDate>Tue, 26 May 2026 17:24:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ababil-of-minab-mois-recovery-destruction/</guid>
+    </item>
+    <item>
       <title>SafeDep details AntV / atool Mini Shai-Hulud indicators</title>
       <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-26-safedep-antv-details</link>
       <description>SafeDep's AntV / atool analysis adds Mini Shai-Hulud detection pivots: 637 malicious versions across 317 packages, payload hash and orphan antvis/G2 commit IDs, dual GitHub and OpenTelemetry-looking exfiltration, Docker-socket escape attempts, AI-assistant and VS Code persistence, kitty-monitor GitHub C2, and gh-token-monitor polling.</description>

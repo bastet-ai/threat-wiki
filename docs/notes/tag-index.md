@@ -4,6 +4,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## All tags
 - [3CX](#3cx) (1)
+- [Ababil of Minab](#ababil-of-minab) (1)
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [active exploitation](#active-exploitation) (5)
@@ -35,6 +36,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AWS](#aws) (1)
 - [Azure](#azure) (2)
 - [backdoor](#backdoor) (4)
+- [backups](#backups) (1)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [Belarus](#belarus) (1)
@@ -43,6 +45,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden](#bitwarden) (1)
 - [BLUEBEAM](#bluebeam) (1)
 - [branch-name-injection](#branch-name-injection) (1)
+- [browser credential theft](#browser-credential-theft) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
 - [C2](#c2) (2)
@@ -51,6 +54,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CDN](#cdn) (1)
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (2)
+- [ChromElevator](#chromelevator) (1)
 - [CI/CD](#cicd) (17)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (2)
@@ -76,7 +80,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
-- [credential theft](#credential-theft) (4)
+- [credential theft](#credential-theft) (5)
 - [credential-theft](#credential-theft) (14)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -100,17 +104,19 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [cybercrime](#cybercrime) (3)
+- [data exfiltration](#data-exfiltration) (1)
 - [data theft](#data-theft) (1)
 - [defense evasion](#defense-evasion) (2)
 - [DeFi](#defi) (2)
 - [deployment_status](#deployment_status) (1)
+- [destructive operations](#destructive-operations) (1)
 - [developer machines](#developer-machines) (3)
 - [device registration](#device-registration) (1)
 - [DEWMODE](#dewmode) (1)
 - [Digital Knowledge](#digital-knowledge) (1)
 - [Discord](#discord) (1)
 - [discovery](#discovery) (1)
-- [DLL sideloading](#dll-sideloading) (1)
+- [DLL sideloading](#dll-sideloading) (2)
 - [DNS C2](#dns-c2) (1)
 - [Docker](#docker) (1)
 - [DPAPI](#dpapi) (1)
@@ -119,6 +125,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal](#drupal) (1)
 - [edge appliance](#edge-appliance) (1)
 - [EDR evasion](#edr-evasion) (1)
+- [education](#education) (1)
 - [email](#email) (1)
 - [email gateway](#email-gateway) (1)
 - [endpoint-security](#endpoint-security) (2)
@@ -126,7 +133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Entra ID](#entra-id) (1)
 - [environmental keying](#environmental-keying) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (10)
+- [espionage](#espionage) (11)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (2)
@@ -143,9 +150,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [faketivism](#faketivism) (1)
 - [Fancy Bear](#fancy-bear) (1)
 - [FBI](#fbi) (1)
+- [FileFiend](#filefiend) (1)
 - [filemanager](#filemanager) (1)
 - [filename-injection](#filename-injection) (1)
 - [financial sector](#financial-sector) (1)
+- [financial services](#financial-services) (1)
 - [financial theft](#financial-theft) (1)
 - [Forest Blizzard](#forest-blizzard) (1)
 - [Fox Tempest](#fox-tempest) (1)
@@ -163,6 +172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [group](#group) (1)
 - [groups](#groups) (4)
 - [hack-and-leak](#hack-and-leak) (1)
+- [hacktivist persona](#hacktivist-persona) (1)
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
 - [HellsGate](#hellsgate) (1)
@@ -177,7 +187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure](#infrastructure) (2)
 - [initial-access](#initial-access) (1)
 - [iOS](#ios) (1)
-- [Iran](#iran) (3)
+- [Iran](#iran) (5)
 - [Israel](#israel) (1)
 - [Japan](#japan) (1)
 - [JavaScript injection](#javascript-injection) (1)
@@ -189,6 +199,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keylogger](#keylogger) (1)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
+- [LA Metro](#la-metro) (1)
 - [Langflow](#langflow) (1)
 - [Laravel](#laravel) (1)
 - [lateral-movement](#lateral-movement) (1)
@@ -215,6 +226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malware](#malware) (6)
 - [malware delivery](#malware-delivery) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
+- [manufacturing](#manufacturing) (1)
 - [MCP](#mcp) (1)
 - [memory-only malware](#memory-only-malware) (1)
 - [MFA bypass](#mfa-bypass) (3)
@@ -226,15 +238,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniJunk](#minijunk) (1)
 - [MiniUpdate](#miniupdate) (1)
 - [module-proxy](#module-proxy) (1)
-- [MOIS](#mois) (1)
+- [MOIS](#mois) (3)
 - [Monero](#monero) (1)
 - [Mr_Rot13](#mr_rot13) (1)
 - [MSP](#msp) (1)
-- [MuddyWater](#muddywater) (1)
+- [MuddyWater](#muddywater) (2)
 - [nation-state](#nation-state) (1)
 - [NetScaler](#netscaler) (1)
 - [Nginx module](#nginx-module) (1)
 - [node-ipc](#node-ipc) (1)
+- [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (2)
 - [npm](#npm) (13)
 - [obfuscation](#obfuscation) (1)
@@ -245,9 +258,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
-- [operations](#operations) (48)
+- [operational resilience](#operational-resilience) (1)
+- [operations](#operations) (49)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (45)
+- [ops](#ops) (46)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -268,6 +282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [post-exploitation](#post-exploitation) (1)
 - [PostgreSQL](#postgresql) (1)
 - [postinstall](#postinstall) (1)
+- [PowerShell](#powershell) (1)
 - [PPtP](#pptp) (1)
 - [PRC](#prc) (1)
 - [PRC-aligned](#prc-aligned) (1)
@@ -278,6 +293,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PROMPTSPY](#promptspy) (1)
 - [proxy](#proxy) (4)
 - [psychological operations](#psychological-operations) (1)
+- [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
+- [public sector](#public-sector) (1)
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (4)
 - [Python](#python) (1)
@@ -286,6 +303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAT](#rat) (4)
 - [Reality](#reality) (1)
 - [Reaper](#reaper) (1)
+- [recovery denial](#recovery-denial) (1)
 - [recruitment lures](#recruitment-lures) (1)
 - [Redis backdoor](#redis-backdoor) (1)
 - [release tampering](#release-tampering) (1)
@@ -314,6 +332,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [script-injection](#script-injection) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (3)
+- [Seedworm](#seedworm) (1)
+- [sendit.sh](#senditsh) (1)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
@@ -326,8 +346,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SmartScreen](#smartscreen) (1)
 - [smishing](#smishing) (1)
 - [social engineering](#social-engineering) (2)
-- [SOCKS5](#socks5) (1)
+- [SOCKS5](#socks5) (2)
 - [South Africa](#south-africa) (1)
+- [South Korea](#south-korea) (1)
 - [Southeast Asia](#southeast-asia) (1)
 - [spearphishing](#spearphishing) (1)
 - [SQL injection](#sql-injection) (2)
@@ -336,7 +357,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH persistence](#ssh-persistence) (1)
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
+- [Static Kitten](#static-kitten) (1)
 - [stealer](#stealer) (1)
+- [storage deletion](#storage-deletion) (1)
 - [supply-chain](#supply-chain) (33)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
@@ -347,6 +370,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamViewer](#teamviewer) (1)
 - [telecom](#telecom) (1)
 - [Telegram](#telegram) (1)
+- [Temp Zagros](#temp-zagros) (1)
 - [tj-actions](#tj-actions) (1)
 - [token replay](#token-replay) (1)
 - [token theft](#token-theft) (2)
@@ -367,6 +391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UTA0355](#uta0355) (1)
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
+- [virtualization](#virtualization) (1)
 - [VLESS](#vless) (1)
 - [VPN](#vpn) (1)
 - [VS Code](#vs-code) (2)
@@ -386,6 +411,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WHM](#whm) (2)
 - [Windows](#windows) (7)
 - [wiper](#wiper) (2)
+- [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
 - [worm](#worm) (6)
@@ -400,6 +426,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## 3CX
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+
+## Ababil of Minab
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
 ## Accellion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -508,6 +537,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Showboat](../tools/showboat.md)
 
+## backups
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+
 ## Barracuda
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
@@ -531,6 +563,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## branch-name-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+
+## browser credential theft
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## build-time compromise
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
@@ -557,6 +592,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## China
 - [Showboat](../tools/showboat.md)
 - [Webworm](../actors/webworm.md)
+
+## ChromElevator
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## CI/CD
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -662,6 +700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 
 ## credential-theft
@@ -753,6 +792,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## data exfiltration
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+
 ## data theft
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
@@ -766,6 +808,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## deployment_status
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+
+## destructive operations
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
 ## developer machines
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -789,6 +834,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DLL sideloading
 - [Screening Serpens](../actors/screening-serpens.md)
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## DNS C2
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -813,6 +859,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## EDR evasion
 - [RemotePE](../tools/remotepe.md)
+
+## education
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## email
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
@@ -845,6 +894,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [Screening Serpens](../actors/screening-serpens.md)
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Showboat](../tools/showboat.md)
 - [Webworm](../actors/webworm.md)
 
@@ -899,6 +949,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FBI
 - [First VPN](../tools/first-vpn.md)
 
+## FileFiend
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+
 ## filemanager
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
@@ -907,6 +960,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## financial sector
 - [RemotePE](../tools/remotepe.md)
+
+## financial services
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## financial theft
 - [RemotePE](../tools/remotepe.md)
@@ -980,6 +1036,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hack-and-leak
 - [Handala](../actors/handala.md)
 
+## hacktivist persona
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+
 ## HAR files
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
@@ -1027,9 +1086,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## Iran
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Handala](../actors/handala.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Screening Serpens](../actors/screening-serpens.md)
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Israel
 - [Handala](../actors/handala.md)
@@ -1064,6 +1125,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## L2TP/IPSec
 - [First VPN](../tools/first-vpn.md)
+
+## LA Metro
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
 ## Langflow
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -1154,6 +1218,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malware-signing-as-a-service
 - [Fox Tempest](../actors/fox-tempest.md)
 
+## manufacturing
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
 ## MCP
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
@@ -1191,7 +1258,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
 ## MOIS
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Handala](../actors/handala.md)
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Monero
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -1204,6 +1273,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MuddyWater
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## nation-state
 - [ROADtools](../tools/roadtools.md)
@@ -1216,6 +1286,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## node-ipc
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+
+## Node.js
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## North Korea
 - [RemotePE](../tools/remotepe.md)
@@ -1262,9 +1335,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OpenVPN
 - [First VPN](../tools/first-vpn.md)
 
+## operational resilience
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+
 ## operations
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
@@ -1318,6 +1395,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ops
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
@@ -1434,6 +1512,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## postinstall
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
+## PowerShell
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
 ## PPtP
 - [First VPN](../tools/first-vpn.md)
 
@@ -1470,6 +1551,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## psychological operations
 - [Handala](../actors/handala.md)
 
+## public file-transfer exfiltration
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## public sector
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
 ## pwn-request
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
@@ -1500,6 +1587,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Reaper
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
+## recovery denial
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
 ## recruitment lures
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -1588,6 +1678,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
+## Seedworm
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## sendit.sh
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
 ## session hijacking
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -1630,10 +1726,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Screening Serpens](../actors/screening-serpens.md)
 
 ## SOCKS5
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Showboat](../tools/showboat.md)
 
 ## South Africa
 - [Webworm](../actors/webworm.md)
+
+## South Korea
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Southeast Asia
 - [Showboat](../tools/showboat.md)
@@ -1660,8 +1760,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## state-linked
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 
+## Static Kitten
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
 ## stealer
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
+## storage deletion
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -1731,6 +1837,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Telegram
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+
+## Temp Zagros
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## tj-actions
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -1804,6 +1913,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ViewState deserialization
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## virtualization
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+
 ## VLESS
 - [First VPN](../tools/first-vpn.md)
 
@@ -1873,6 +1985,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## wiper
 - [Handala](../actors/handala.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+
+## wiper-adjacent
+- [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
 ## WireGuard
 - [First VPN](../tools/first-vpn.md)

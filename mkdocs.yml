@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Ababil of Minab MOIS-linked recovery-destruction campaign: ops/ababil-of-minab-mois-recovery-destruction.md
       - KnowledgeDeliver CVE-2026-5426 ViewState exploitation: ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md
       - Funnull RingH23 and MacCMS supply-chain attacks: ops/funnull-ringh23-maccms-supply-chain.md
       - Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign: ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md
@@ -63,6 +64,7 @@ nav:
       - APT29: actors/apt29-cozy-bear-midnight-blizzard.md
       - Dragonfly: actors/dragonfly-energetic-bear-crouching-yeti.md
       - Handala: actors/handala.md
+      - Seedworm / MuddyWater: actors/seedworm-muddywater.md
       - Screening Serpens: actors/screening-serpens.md
       - Ghostwriter: actors/ghostwriter.md
       - HackerBot Claw: actors/hackerbot-claw.md
