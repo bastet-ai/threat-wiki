@@ -81,7 +81,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (5)
-- [credential-theft](#credential-theft) (14)
+- [credential-theft](#credential-theft) (15)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -114,7 +114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [device registration](#device-registration) (1)
 - [DEWMODE](#dewmode) (1)
 - [Digital Knowledge](#digital-knowledge) (1)
-- [Discord](#discord) (1)
+- [Discord](#discord) (2)
 - [discovery](#discovery) (1)
 - [DLL sideloading](#dll-sideloading) (2)
 - [DNS C2](#dns-c2) (1)
@@ -177,7 +177,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hard-coded secrets](#hard-coded-secrets) (1)
 - [HellsGate](#hellsgate) (1)
 - [HONESTCUE](#honestcue) (1)
-- [Hugging Face](#hugging-face) (1)
+- [Hugging Face](#hugging-face) (2)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
 - [IDE extension](#ide-extension) (1)
@@ -196,7 +196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript tampering](#javascript-tampering) (1)
 - [JSON:API](#jsonapi) (1)
 - [KEV](#kev) (2)
-- [keylogger](#keylogger) (1)
+- [keylogger](#keylogger) (2)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
@@ -223,7 +223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malvertising](#malvertising) (1)
-- [malware](#malware) (6)
+- [malware](#malware) (7)
 - [malware delivery](#malware-delivery) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [manufacturing](#manufacturing) (1)
@@ -249,7 +249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (2)
-- [npm](#npm) (13)
+- [npm](#npm) (14)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
 - [OIDC](#oidc) (2)
@@ -272,7 +272,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patterns](#patterns) (2)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [people](#people) (1)
-- [persistence](#persistence) (11)
+- [persistence](#persistence) (12)
 - [phishing](#phishing) (1)
 - [PHP](#php) (1)
 - [pig-butchering](#pig-butchering) (1)
@@ -300,7 +300,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Python](#python) (1)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (2)
-- [RAT](#rat) (4)
+- [RAT](#rat) (5)
 - [Reality](#reality) (1)
 - [Reaper](#reaper) (1)
 - [recovery denial](#recovery-denial) (1)
@@ -360,7 +360,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Static Kitten](#static-kitten) (1)
 - [stealer](#stealer) (1)
 - [storage deletion](#storage-deletion) (1)
-- [supply-chain](#supply-chain) (33)
+- [supply-chain](#supply-chain) (34)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (1)
@@ -375,7 +375,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token replay](#token-replay) (1)
 - [token theft](#token-theft) (2)
 - [tooling](#tooling) (5)
-- [tools](#tools) (4)
+- [tools](#tools) (5)
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
 - [transnational repression](#transnational-repression) (1)
@@ -399,7 +399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vulnerability-research](#vulnerability-research) (1)
 - [wallet replacement](#wallet-replacement) (1)
 - [wallet-drainer](#wallet-drainer) (1)
-- [wallet-theft](#wallet-theft) (2)
+- [wallet-theft](#wallet-theft) (3)
 - [watering-hole](#watering-hole) (2)
 - [web application](#web-application) (1)
 - [web hosting](#web-hosting) (2)
@@ -708,6 +708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [forge-jsxy](../tools/forge-jsxy.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -827,6 +828,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## Discord
+- [forge-jsxy](../tools/forge-jsxy.md)
 - [Webworm](../actors/webworm.md)
 
 ## discovery
@@ -1052,6 +1054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## Hugging Face
+- [forge-jsxy](../tools/forge-jsxy.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 
 ## ICONICSTEALER
@@ -1118,6 +1121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 
 ## keylogger
+- [forge-jsxy](../tools/forge-jsxy.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 
 ## KnowledgeDeliver
@@ -1207,6 +1211,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [forge-jsxy](../tools/forge-jsxy.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -1298,6 +1303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [forge-jsxy](../tools/forge-jsxy.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
@@ -1475,6 +1481,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## persistence
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [forge-jsxy](../tools/forge-jsxy.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [ROADtools](../tools/roadtools.md)
@@ -1577,6 +1584,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 
 ## RAT
+- [forge-jsxy](../tools/forge-jsxy.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [RemotePE](../tools/remotepe.md)
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -1779,6 +1787,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [forge-jsxy](../tools/forge-jsxy.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -1860,6 +1869,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## tools
 - [First VPN](../tools/first-vpn.md)
+- [forge-jsxy](../tools/forge-jsxy.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
@@ -1940,6 +1950,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
 ## wallet-theft
+- [forge-jsxy](../tools/forge-jsxy.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 

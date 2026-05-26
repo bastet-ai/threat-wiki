@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>forge-jsxy npm RAT</title>
+      <link>https://threat.wiki/tools/forge-jsxy/</link>
+      <description>SafeDep reports that forge-jsxy continued the forge-jsx npm RAT campaign after takedown, shipping 22 versions through May 26 with keylogging, screenshots, wallet and Chromium-extension theft, durable persistence outside node_modules, WebRTC control, relay-pushed auto-upgrades, and exfiltration through 204.10.194.247, Discord, and Hugging Face.</description>
+      <pubDate>Tue, 26 May 2026 19:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/tools/forge-jsxy/</guid>
+    </item>
+    <item>
       <title>Seedworm / MuddyWater signed-binary sideloading campaign</title>
       <link>https://threat.wiki/actors/seedworm-muddywater/</link>
       <description>Broadcom reports a Q1 2026 Seedworm / MuddyWater espionage campaign across nine countries using Node.js-orchestrated PowerShell, signed Fortemedia and SentinelOne DLL sideloading, ChromElevator browser theft, SAM hive theft, SOCKS5 tunneling, and sendit.sh exfiltration.</description>

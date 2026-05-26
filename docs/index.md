@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [forge-jsxy npm RAT](tools/forge-jsxy.md)
 - [Seedworm / MuddyWater signed-binary sideloading campaign](actors/seedworm-muddywater.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](ops/ababil-of-minab-mois-recovery-destruction.md)
 - [SafeDep details AntV / atool Mini Shai-Hulud indicators](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-05-26-safedep-antv-details)
