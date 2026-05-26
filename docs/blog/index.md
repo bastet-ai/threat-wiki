@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Fast16 nuclear-simulation sabotage framework](../tools/fast16.md)
 - [forge-jsxy npm RAT](../tools/forge-jsxy.md)
 - [Seedworm / MuddyWater signed-binary sideloading campaign](../actors/seedworm-muddywater.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)

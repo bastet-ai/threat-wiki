@@ -33,6 +33,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [authentication bypass](#authentication-bypass) (1)
 - [authentication-coercion](#authentication-coercion) (1)
+- [AUTODYN](#autodyn) (1)
 - [AWS](#aws) (1)
 - [Azure](#azure) (2)
 - [backdoor](#backdoor) (4)
@@ -130,6 +131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [email gateway](#email-gateway) (1)
 - [endpoint-security](#endpoint-security) (2)
 - [energy-sector](#energy-sector) (1)
+- [engineering software](#engineering-software) (1)
 - [Entra ID](#entra-id) (1)
 - [environmental keying](#environmental-keying) (1)
 - [ESG](#esg) (1)
@@ -149,7 +151,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FakeCaptcha](#fakecaptcha) (1)
 - [faketivism](#faketivism) (1)
 - [Fancy Bear](#fancy-bear) (1)
+- [Fast16](#fast16) (1)
 - [FBI](#fbi) (1)
+- [file-system filter](#file-system-filter) (1)
 - [FileFiend](#filefiend) (1)
 - [filemanager](#filemanager) (1)
 - [filename-injection](#filename-injection) (1)
@@ -176,13 +180,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
 - [HellsGate](#hellsgate) (1)
+- [high explosives](#high-explosives) (1)
 - [HONESTCUE](#honestcue) (1)
 - [Hugging Face](#hugging-face) (2)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
 - [IDE extension](#ide-extension) (1)
 - [identity](#identity) (2)
+- [IFEO persistence](#ifeo-persistence) (1)
 - [incident response](#incident-response) (3)
+- [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (1)
 - [infrastructure](#infrastructure) (2)
 - [initial-access](#initial-access) (1)
@@ -195,6 +202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript malware](#javascript-malware) (1)
 - [JavaScript tampering](#javascript-tampering) (1)
 - [JSON:API](#jsonapi) (1)
+- [kernel driver](#kernel-driver) (1)
 - [KEV](#kev) (2)
 - [keylogger](#keylogger) (2)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
@@ -217,13 +225,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LNK](#lnk) (1)
 - [long-term access](#long-term-access) (1)
 - [LONGSTREAM](#longstream) (1)
+- [LS-DYNA](#ls-dyna) (1)
+- [Lua](#lua) (1)
 - [MacCMS](#maccms) (1)
 - [macOS](#macos) (2)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malvertising](#malvertising) (1)
-- [malware](#malware) (7)
+- [malware](#malware) (8)
 - [malware delivery](#malware-delivery) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [manufacturing](#manufacturing) (1)
@@ -240,6 +250,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (3)
 - [Monero](#monero) (1)
+- [MPR network provider](#mpr-network-provider) (1)
 - [Mr_Rot13](#mr_rot13) (1)
 - [MSP](#msp) (1)
 - [MuddyWater](#muddywater) (2)
@@ -250,6 +261,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (2)
 - [npm](#npm) (14)
+- [nuclear weapons](#nuclear-weapons) (1)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
 - [OIDC](#oidc) (2)
@@ -325,7 +337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russia-nexus](#russia-nexus) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (1)
-- [sabotage](#sabotage) (1)
+- [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
 - [ScarCruft](#scarcruft) (1)
 - [ScreenConnect](#screenconnect) (1)
@@ -338,9 +350,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
 - [Shai-Hulud](#shai-hulud) (3)
+- [share propagation](#share-propagation) (1)
 - [shared hosting](#shared-hosting) (2)
 - [shared secrets](#shared-secrets) (1)
 - [signed updates](#signed-updates) (1)
+- [simulation tampering](#simulation-tampering) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [SLSA](#slsa) (1)
 - [SmartScreen](#smartscreen) (1)
@@ -360,11 +374,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Static Kitten](#static-kitten) (1)
 - [stealer](#stealer) (1)
 - [storage deletion](#storage-deletion) (1)
+- [Stuxnet lineage](#stuxnet-lineage) (1)
 - [supply-chain](#supply-chain) (34)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (1)
 - [TamperedChef](#tamperedchef) (1)
+- [targeted operations](#targeted-operations) (1)
 - [TartarusGate](#tartarusgate) (1)
 - [TeamPCP](#teampcp) (7)
 - [TeamViewer](#teamviewer) (1)
@@ -375,7 +391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token replay](#token-replay) (1)
 - [token theft](#token-theft) (2)
 - [tooling](#tooling) (5)
-- [tools](#tools) (5)
+- [tools](#tools) (6)
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
 - [transnational repression](#transnational-repression) (1)
@@ -388,6 +404,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC2814](#unc2814) (1)
 - [UNC4736](#unc4736) (1)
 - [UNC6780](#unc6780) (1)
+- [uranium compression](#uranium-compression) (1)
 - [UTA0355](#uta0355) (1)
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
@@ -523,6 +540,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## authentication-coercion
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
+## AUTODYN
+- [Fast16](../tools/fast16.md)
 
 ## AWS
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -878,6 +898,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## energy-sector
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
+## engineering software
+- [Fast16](../tools/fast16.md)
+
 ## Entra ID
 - [ROADtools](../tools/roadtools.md)
 
@@ -948,8 +971,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Fancy Bear
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
+## Fast16
+- [Fast16](../tools/fast16.md)
+
 ## FBI
 - [First VPN](../tools/first-vpn.md)
+
+## file-system filter
+- [Fast16](../tools/fast16.md)
 
 ## FileFiend
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -1050,6 +1079,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HellsGate
 - [RemotePE](../tools/remotepe.md)
 
+## high explosives
+- [Fast16](../tools/fast16.md)
+
 ## HONESTCUE
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -1070,10 +1102,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [ROADtools](../tools/roadtools.md)
 
+## IFEO persistence
+- [Fast16](../tools/fast16.md)
+
 ## incident response
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## industrial control
+- [Fast16](../tools/fast16.md)
 
 ## infostealer
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -1115,6 +1153,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JSON:API
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## kernel driver
+- [Fast16](../tools/fast16.md)
 
 ## KEV
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -1189,6 +1230,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LONGSTREAM
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## LS-DYNA
+- [Fast16](../tools/fast16.md)
+
+## Lua
+- [Fast16](../tools/fast16.md)
+
 ## MacCMS
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -1211,6 +1258,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [Fast16](../tools/fast16.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
@@ -1270,6 +1318,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Monero
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
+## MPR network provider
+- [Fast16](../tools/fast16.md)
+
 ## Mr_Rot13
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
@@ -1314,6 +1365,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](../actors/teampcp.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+
+## nuclear weapons
+- [Fast16](../tools/fast16.md)
 
 ## obfuscation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -1664,6 +1718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## sabotage
+- [Fast16](../tools/fast16.md)
 - [Handala](../actors/handala.md)
 
 ## Safari
@@ -1707,6 +1762,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
+## share propagation
+- [Fast16](../tools/fast16.md)
+
 ## shared hosting
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -1716,6 +1774,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## signed updates
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+
+## simulation tampering
+- [Fast16](../tools/fast16.md)
 
 ## sleeper packages
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -1777,6 +1838,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## storage deletion
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## Stuxnet lineage
+- [Fast16](../tools/fast16.md)
+
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -1826,6 +1890,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TamperedChef
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
+## targeted operations
+- [Fast16](../tools/fast16.md)
+
 ## TartarusGate
 - [RemotePE](../tools/remotepe.md)
 
@@ -1868,6 +1935,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
 ## tools
+- [Fast16](../tools/fast16.md)
 - [First VPN](../tools/first-vpn.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [RemotePE](../tools/remotepe.md)
@@ -1913,6 +1981,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UNC6780
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## uranium compression
+- [Fast16](../tools/fast16.md)
 
 ## UTA0355
 - [ROADtools](../tools/roadtools.md)
