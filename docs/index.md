@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [AI-augmented adversary operations](patterns/ai-augmented-adversary-operations.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Wiz details TeamPCP post-compromise cloud and GitHub abuse](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-05-25-wiz-teampcp-post-compromise)
 - [Funnull RingH23 and MacCMS supply-chain attacks](ops/funnull-ringh23-maccms-supply-chain.md)

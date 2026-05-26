@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>AI-augmented adversary operations</title>
+      <link>https://threat.wiki/patterns/ai-augmented-adversary-operations/</link>
+      <description>Google Threat Intelligence Group reports that adversaries are moving AI use into repeatable workflows for vulnerability discovery, exploit generation, obfuscation, autonomous malware operations, obfuscated model access, and AI software supply-chain initial access, including TeamPCP / UNC6780 activity against AI environments.</description>
+      <pubDate>Tue, 26 May 2026 09:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/ai-augmented-adversary-operations/</guid>
+    </item>
+    <item>
       <title>KnowledgeDeliver CVE-2026-5426 ViewState exploitation</title>
       <link>https://threat.wiki/ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation/</link>
       <description>Google Mandiant reports that KnowledgeDeliver deployments reused identical ASP.NET machineKey values, enabling CVE-2026-5426 ViewState deserialization RCE; an unknown actor deployed BLUEBEAM / Godzilla, tampered LMS JavaScript, and pushed visitors toward a fake plugin that installed Cobalt Strike Beacon.</description>

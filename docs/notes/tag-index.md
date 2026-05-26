@@ -11,7 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [Adspect](#adspect) (1)
 - [adware](#adware) (1)
-- [AI](#ai) (1)
+- [AI](#ai) (2)
 - [AI agents](#ai-agents) (1)
 - [AI tooling](#ai-tooling) (4)
 - [ai-agent](#ai-agent) (1)
@@ -23,9 +23,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AppleJeus](#applejeus) (1)
 - [appliance](#appliance) (1)
 - [APT](#apt) (2)
+- [APT27](#apt27) (1)
 - [APT28](#apt28) (1)
 - [APT29](#apt29) (1)
 - [APT37](#apt37) (1)
+- [APT45](#apt45) (1)
 - [Artifact Signing](#artifact-signing) (1)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [authentication bypass](#authentication-bypass) (1)
@@ -44,6 +46,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
 - [C2](#c2) (2)
+- [CANFAIL](#canfail) (1)
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
 - [Checkmarx](#checkmarx) (1)
@@ -112,6 +115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Docker](#docker) (1)
 - [DPAPI](#dpapi) (1)
 - [DPAPILoader](#dpapiloader) (1)
+- [DPRK](#dprk) (1)
 - [Drupal](#drupal) (1)
 - [edge appliance](#edge-appliance) (1)
 - [EDR evasion](#edr-evasion) (1)
@@ -129,6 +133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Europol](#europol) (1)
 - [EvilAI](#evilai) (1)
 - [exfiltration](#exfiltration) (1)
+- [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (3)
@@ -161,6 +166,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
 - [HellsGate](#hellsgate) (1)
+- [HONESTCUE](#honestcue) (1)
 - [Hugging Face](#hugging-face) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
@@ -169,6 +175,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [incident response](#incident-response) (3)
 - [infostealer](#infostealer) (1)
 - [infrastructure](#infrastructure) (2)
+- [initial-access](#initial-access) (1)
 - [iOS](#ios) (1)
 - [Iran](#iran) (3)
 - [Israel](#israel) (1)
@@ -194,17 +201,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [Linux](#linux) (5)
 - [LiteSpeed](#litespeed) (1)
-- [LLM](#llm) (1)
+- [LLM](#llm) (2)
 - [LMS](#lms) (1)
 - [LNK](#lnk) (1)
 - [long-term access](#long-term-access) (1)
+- [LONGSTREAM](#longstream) (1)
 - [MacCMS](#maccms) (1)
 - [macOS](#macos) (2)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malvertising](#malvertising) (1)
-- [malware](#malware) (5)
+- [malware](#malware) (6)
 - [malware delivery](#malware-delivery) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [MCP](#mcp) (1)
@@ -229,6 +237,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc](#node-ipc) (1)
 - [North Korea](#north-korea) (2)
 - [npm](#npm) (13)
+- [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
 - [OIDC](#oidc) (2)
 - [Okta](#okta) (2)
@@ -246,7 +255,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (2)
 - [page poisoning](#page-poisoning) (1)
-- [patterns](#patterns) (1)
+- [patterns](#patterns) (2)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [people](#people) (1)
 - [persistence](#persistence) (11)
@@ -260,10 +269,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (1)
 - [postinstall](#postinstall) (1)
 - [PPtP](#pptp) (1)
+- [PRC](#prc) (1)
 - [PRC-aligned](#prc-aligned) (1)
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (2)
 - [prompt-injection](#prompt-injection) (3)
+- [PROMPTFLUX](#promptflux) (1)
+- [PROMPTSPY](#promptspy) (1)
 - [proxy](#proxy) (4)
 - [psychological operations](#psychological-operations) (1)
 - [pwn-request](#pwn-request) (1)
@@ -292,6 +304,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RubyGems](#rubygems) (1)
 - [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (2)
+- [Russia-nexus](#russia-nexus) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (1)
 - [sabotage](#sabotage) (1)
@@ -324,13 +337,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
 - [stealer](#stealer) (1)
-- [supply-chain](#supply-chain) (32)
+- [supply-chain](#supply-chain) (33)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (1)
 - [TamperedChef](#tamperedchef) (1)
 - [TartarusGate](#tartarusgate) (1)
-- [TeamPCP](#teampcp) (6)
+- [TeamPCP](#teampcp) (7)
 - [TeamViewer](#teamviewer) (1)
 - [telecom](#telecom) (1)
 - [Telegram](#telegram) (1)
@@ -348,7 +361,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [typosquatting](#typosquatting) (3)
 - [Udev persistence](#udev-persistence) (1)
 - [Ukraine](#ukraine) (3)
+- [UNC2814](#unc2814) (1)
 - [UNC4736](#unc4736) (1)
+- [UNC6780](#unc6780) (1)
 - [UTA0355](#uta0355) (1)
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
@@ -356,6 +371,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN](#vpn) (1)
 - [VS Code](#vs-code) (2)
 - [vulnerability](#vulnerability) (2)
+- [vulnerability-research](#vulnerability-research) (1)
 - [wallet replacement](#wallet-replacement) (1)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (2)
@@ -412,6 +428,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
 ## AI
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## AI agents
@@ -451,6 +468,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 
+## APT27
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
 ## APT28
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
@@ -459,6 +479,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## APT37
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
+## APT45
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## Artifact Signing
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -518,6 +541,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## C2
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
+
+## CANFAIL
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## CCleaner
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -776,6 +802,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DPAPILoader
 - [RemotePE](../tools/remotepe.md)
 
+## DPRK
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
 ## Drupal
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
@@ -837,6 +866,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## exfiltration
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+
+## exploit-development
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## exploit-kit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -957,6 +989,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HellsGate
 - [RemotePE](../tools/remotepe.md)
 
+## HONESTCUE
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
 ## Hugging Face
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 
@@ -984,6 +1019,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## infrastructure
 - [First VPN](../tools/first-vpn.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## initial-access
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## iOS
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -1068,6 +1106,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
 ## LLM
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## LMS
@@ -1078,6 +1117,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## long-term access
 - [RemotePE](../tools/remotepe.md)
+
+## LONGSTREAM
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## MacCMS
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -1099,6 +1141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
 ## malware
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
@@ -1192,6 +1235,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](../actors/teampcp.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+
+## obfuscation
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## OFAC
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -1339,6 +1385,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## patterns
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## pe_to_shellcode
@@ -1390,6 +1437,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PPtP
 - [First VPN](../tools/first-vpn.md)
 
+## PRC
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
 ## PRC-aligned
 - [Showboat](../tools/showboat.md)
 
@@ -1404,6 +1454,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+
+## PROMPTFLUX
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## PROMPTSPY
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## proxy
 - [First VPN](../tools/first-vpn.md)
@@ -1499,6 +1555,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Russia
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
+## Russia-nexus
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## Russian-speaking forums
 - [First VPN](../tools/first-vpn.md)
@@ -1607,6 +1666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -1656,6 +1716,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TeamPCP
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -1725,8 +1786,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Showboat](../tools/showboat.md)
 
+## UNC2814
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
 ## UNC4736
 - [RemotePE](../tools/remotepe.md)
+
+## UNC6780
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## UTA0355
 - [ROADtools](../tools/roadtools.md)
@@ -1750,6 +1817,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vulnerability
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
+
+## vulnerability-research
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## wallet replacement
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
