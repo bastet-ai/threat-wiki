@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Malware-Slop Claude user-data npm infostealer</title>
+      <link>https://threat.wiki/ops/malware-slop-claude-user-data-npm-infostealer/</link>
+      <description>OX Security reports Malware-Slop, a malicious npm package named mouse5212-super-formatter that used postinstall execution to exfiltrate Claude-associated /mnt/user-data files to actor-controlled GitHub repositories through the GitHub Contents API, falling back to a hardcoded leaked GitHub token.</description>
+      <pubDate>Wed, 27 May 2026 17:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/malware-slop-claude-user-data-npm-infostealer/</guid>
+    </item>
+    <item>
       <title>JINX-0164 crypto developer infrastructure campaign</title>
       <link>https://threat.wiki/ops/jinx-0164-crypto-developer-infrastructure-campaign/</link>
       <description>Wiz reports JINX-0164, a financially motivated actor targeting cryptocurrency organizations through LinkedIn social engineering, fake meeting and driver-fix pages, AUDIOFIX macOS malware, credential theft, internal repository poisoning, and the trojanized @velora-dex/sdk npm package delivering MINIRAT.</description>
