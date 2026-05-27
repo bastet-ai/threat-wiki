@@ -21,7 +21,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ai-agent](#ai-agent) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
 - [Albania](#albania) (1)
-- [Android](#android) (1)
+- [Android](#android) (2)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
 - [AppDomainManager](#appdomainmanager) (1)
@@ -44,6 +44,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backblaze](#backblaze) (1)
 - [backdoor](#backdoor) (4)
 - [backups](#backups) (1)
+- [banking malware](#banking-malware) (1)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [Belarus](#belarus) (1)
@@ -53,7 +54,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BLUEBEAM](#bluebeam) (1)
 - [botnet](#botnet) (1)
 - [branch-name-injection](#branch-name-injection) (1)
+- [Brazil](#brazil) (1)
 - [browser credential theft](#browser-credential-theft) (1)
+- [BTMOB](#btmob) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
 - [C2](#c2) (3)
@@ -93,7 +96,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (6)
-- [credential-theft](#credential-theft) (19)
+- [credential-theft](#credential-theft) (20)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -135,7 +138,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dindoor](#dindoor) (1)
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
-- [DLL sideloading](#dll-sideloading) (3)
+- [DLL sideloading](#dll-sideloading) (4)
 - [DNS C2](#dns-c2) (1)
 - [Docker](#docker) (1)
 - [DPAPI](#dpapi) (1)
@@ -158,7 +161,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [espionage](#espionage) (11)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
-- [Europe](#europe) (2)
+- [Europe](#europe) (3)
 - [Europol](#europol) (1)
 - [EvilAI](#evilai) (1)
 - [exfiltration](#exfiltration) (2)
@@ -178,6 +181,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FileFiend](#filefiend) (1)
 - [filemanager](#filemanager) (1)
 - [filename-injection](#filename-injection) (1)
+- [financial fraud](#financial-fraud) (1)
 - [financial sector](#financial-sector) (1)
 - [financial services](#financial-services) (1)
 - [financial theft](#financial-theft) (3)
@@ -197,6 +201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Go](#go) (3)
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
+- [Grandoreiro](#grandoreiro) (1)
 - [group](#group) (1)
 - [groups](#groups) (5)
 - [hack-and-leak](#hack-and-leak) (1)
@@ -207,6 +212,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [high explosives](#high-explosives) (1)
 - [HONESTCUE](#honestcue) (1)
 - [Hugging Face](#hugging-face) (2)
+- [ICE](#ice) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
 - [IDE extension](#ide-extension) (1)
@@ -237,6 +243,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow](#langflow) (1)
 - [Laravel](#laravel) (1)
 - [lateral-movement](#lateral-movement) (1)
+- [Latin America](#latin-america) (1)
 - [launchctl](#launchctl) (1)
 - [Lazarus](#lazarus) (1)
 - [LD_PRELOAD](#ld_preload) (1)
@@ -263,6 +270,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malvertising](#malvertising) (1)
 - [malware](#malware) (8)
 - [malware delivery](#malware-delivery) (1)
+- [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [manufacturing](#manufacturing) (1)
 - [MCP](#mcp) (1)
@@ -277,6 +285,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniJunk](#minijunk) (1)
 - [MINIRAT](#minirat) (2)
 - [MiniUpdate](#miniupdate) (1)
+- [mobile malware](#mobile-malware) (1)
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (3)
 - [Monero](#monero) (1)
@@ -302,9 +311,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVPN](#openvpn) (1)
 - [OpenVSX](#openvsx) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (54)
+- [operations](#operations) (55)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (51)
+- [ops](#ops) (52)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -320,13 +329,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [people](#people) (1)
 - [persistence](#persistence) (12)
 - [PhaaS](#phaas) (1)
-- [phishing](#phishing) (2)
+- [phishing](#phishing) (3)
 - [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (1)
 - [pig-butchering](#pig-butchering) (1)
 - [Piriform](#piriform) (1)
 - [Polymarket](#polymarket) (1)
 - [portmap](#portmap) (1)
+- [Portugal](#portugal) (1)
 - [post-exploitation](#post-exploitation) (1)
 - [PostgreSQL](#postgresql) (1)
 - [postinstall](#postinstall) (2)
@@ -349,7 +359,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Python](#python) (2)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (2)
-- [RAT](#rat) (7)
+- [RAT](#rat) (8)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [Reality](#reality) (1)
@@ -418,6 +428,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Static Kitten](#static-kitten) (1)
 - [stealer](#stealer) (1)
 - [storage deletion](#storage-deletion) (1)
+- [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [supply-chain](#supply-chain) (38)
 - [tag rewrite](#tag-rewrite) (1)
@@ -469,6 +480,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web shell](#web-shell) (1)
 - [web supply chain](#web-supply-chain) (1)
 - [WebKit](#webkit) (1)
+- [WebRTC](#webrtc) (1)
 - [webshell](#webshell) (1)
 - [Webworm](#webworm) (1)
 - [WHM](#whm) (2)
@@ -553,6 +565,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Handala](../actors/handala.md)
 
 ## Android
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
 ## Apex One
@@ -627,6 +640,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## backups
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## banking malware
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
 ## Barracuda
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
@@ -654,8 +670,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## branch-name-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 
+## Brazil
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
 ## browser credential theft
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## BTMOB
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## build-time compromise
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
@@ -818,6 +840,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -977,6 +1000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DLL sideloading
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -1059,6 +1083,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Europe
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Webworm](../actors/webworm.md)
 
 ## Europol
@@ -1120,6 +1145,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## filename-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+
+## financial fraud
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## financial sector
 - [RemotePE](../tools/remotepe.md)
@@ -1201,6 +1229,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GoEdge
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## Grandoreiro
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
 ## group
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 
@@ -1235,6 +1266,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Hugging Face
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+
+## ICE
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## ICONICSTEALER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -1340,6 +1374,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## lateral-movement
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
+## Latin America
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
 ## launchctl
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
@@ -1434,6 +1471,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malware delivery
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
+## Malware-as-a-Service
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
 ## malware-signing-as-a-service
 - [Fox Tempest](../actors/fox-tempest.md)
 
@@ -1480,6 +1520,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MiniUpdate
 - [Screening Serpens](../actors/screening-serpens.md)
+
+## mobile malware
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## module-proxy
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -1603,6 +1646,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -1661,6 +1705,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -1752,6 +1797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## phishing
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Ghostwriter](../actors/ghostwriter.md)
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## phishing-as-a-service
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -1770,6 +1816,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## portmap
 - [Showboat](../tools/showboat.md)
+
+## Portugal
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## post-exploitation
 - [Showboat](../tools/showboat.md)
@@ -1853,6 +1902,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RAT
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [RemotePE](../tools/remotepe.md)
@@ -2078,6 +2128,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## storage deletion
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## STUN
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
 ## Stuxnet lineage
 - [Fast16](../tools/fast16.md)
 
@@ -2297,6 +2350,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WebKit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+
+## WebRTC
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## webshell
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)

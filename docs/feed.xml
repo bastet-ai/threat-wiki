@@ -5,6 +5,20 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Grandoreiro and BTMOB Latin America / Europe malware campaigns</title>
+      <link>https://threat.wiki/ops/grandoreiro-btmob-latam-europe-malware-campaigns/</link>
+      <description>WatchGuard, ESET, and The Hacker News report renewed Grandoreiro Windows banking-malware activity using phishing, DLL sideloading, and WebRTC/STUN/ICE communications camouflage, alongside BTMOB Android RAT-as-a-service activity with APK builders, Accessibility abuse, and ready-made regional lure tooling.</description>
+      <pubDate>Wed, 27 May 2026 19:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/grandoreiro-btmob-latam-europe-malware-campaigns/</guid>
+    </item>
+    <item>
+      <title>CISA adds Nx Console and TanStack supply-chain incidents to KEV</title>
+      <link>https://threat.wiki/ops/nx-console-vscode-extension-compromise/#cisa-kev-update-may-27</link>
+      <description>CISA's May 27 KEV catalog adds CVE-2026-48027 for Nx Console and CVE-2026-45321 for TanStack, validating active exploitation of trusted developer-channel compromises and setting June 10 remediation due dates for covered agencies.</description>
+      <pubDate>Wed, 27 May 2026 19:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/nx-console-vscode-extension-compromise/#cisa-kev-update-may-27</guid>
+    </item>
+    <item>
       <title>Malware-Slop Claude user-data npm infostealer</title>
       <link>https://threat.wiki/ops/malware-slop-claude-user-data-npm-infostealer/</link>
       <description>OX Security reports Malware-Slop, a malicious npm package named mouse5212-super-formatter that used postinstall execution to exfiltrate Claude-associated /mnt/user-data files to actor-controlled GitHub repositories through the GitHub Contents API, falling back to a hardcoded leaked GitHub token.</description>

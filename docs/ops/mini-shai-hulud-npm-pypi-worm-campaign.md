@@ -67,6 +67,7 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - Unit 42 reported that the malicious TanStack packages used an injected `optionalDependencies` reference to an orphaned commit surfaced under the legitimate fork network, while secondary propagation victims such as UiPath, Mistral AI, and OpenSearch reverted to more familiar `preinstall` execution.
 - Unit 42 also warned that the May 11 payload installed a background service that polled `api.github.com/user` with the stolen token and, if the token was revoked while the daemon was active, executed destructive home-directory deletion. This makes containment order especially important: stop active execution and isolate hosts before broad token revocation when this variant may be running.
 - Akamai and Unit 42 reported that weaponized Mini Shai-Hulud source code appeared publicly on GitHub after the TanStack wave, increasing copycat risk and weakening attribution based only on worm lineage. Socket separately reported that TeamPCP and BreachForums promoted a Shai-Hulud supply-chain attack contest, creating an explicit incentive for lower-tier copycats to target package ecosystems by download count.
+- On May 27, CISA added **CVE-2026-45321** to KEV for the TanStack incident, describing malicious `@tanstack/*` releases published under a trusted identity and setting a June 10 remediation due date for covered agencies. Treat this as public exploitation validation for the trusted-publishing / cache-poisoning lane, not as a normal application bug.
 
 ### April-May 2026: broader npm/PyPI spread
 - JFrog reported a TeamPCP-linked / possible-copycat compromise of the legitimate `xinference` PyPI release line: versions `2.6.0`, `2.6.1`, and `2.6.2` executed from `xinference/__init__.py` on import, spawned a detached Python payload, collected developer/cloud/Kubernetes secrets, and exfiltrated `love.tar.gz` to `whereisitat[.]lucyatemysuperbox[.]space` with header `X-QT-SR: 14`. TeamPCP publicly denied involvement, so keep attribution caveated.
@@ -214,3 +215,4 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - Socket TeamPCP contest reporting: https://socket.dev/blog/teampcp-supply-chain-attack-contest
 - Socket SANDWORM_MODE reporting: https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning
 - CISA: https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem
+- CISA KEV: https://www.cisa.gov/known-exploited-vulnerabilities-catalog

@@ -60,6 +60,9 @@ StepSecurity's expanded analysis adds several durable details for defenders:
 - GitHub's incident note links the employee-device compromise to the Nx Console security advisory, confirming the extension family involved in the source-code exfiltration event.
 - StepSecurity's May 21 update states that TeamPCP is behind the GitHub breach and is attempting to sell the stolen data. Treat that as a strong vendor assessment, while preserving the distinction that GitHub's own note did not publicly name TeamPCP.
 
+## CISA KEV update (May 27)
+CISA added **CVE-2026-48027** to the Known Exploited Vulnerabilities catalog on May 27, 2026 as "Nx Console Embedded Malicious Code Vulnerability," with remediation due by June 10, 2026 for covered agencies. CISA's entry reinforces the operational framing here: a malicious extension release should be handled as exploitation of a trusted software channel with credential harvesting, not as a normal vulnerable-version upgrade.
+
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -69,4 +72,5 @@ StepSecurity's expanded analysis adds several durable details for defenders:
 - StepSecurity: https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised
 - GitHub Blog: https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/
 - GitHub Security Advisory: https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w
+- CISA KEV: https://www.cisa.gov/known-exploited-vulnerabilities-catalog
 - The Hacker News: https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html

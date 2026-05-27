@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Grandoreiro and BTMOB Latin America / Europe malware campaigns](ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [CISA adds Nx Console and TanStack supply-chain incidents to KEV](ops/nx-console-vscode-extension-compromise.md#cisa-kev-update-may-27)
 - [Malware-Slop Claude user-data npm infostealer](ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [JINX-0164](actors/jinx-0164.md)
