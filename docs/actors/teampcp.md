@@ -57,6 +57,15 @@ Wiz CIRT's March 2026 incident-response reporting adds a useful view of what hap
 
 The same reporting observed GitHub PAT abuse for malicious workflow pull requests, workflow-log deletion, repository cloning at scale, ECS Exec / SSM-based command execution in running containers, and bulk exfiltration from S3, databases, Secrets Manager, and source repositories. Wiz characterized the activity as fast, high-volume, and not especially stealthy, with open-source tools, conspicuous resource names such as `pawn` or `massive-exfil`, Mullvad VPN exit nodes, and InterServer-hosted VPS infrastructure appearing in observed cases.
 
+## Extortion ecosystem role
+Unit 42's May 27, 2026 cyber-extortion economy analysis adds an important monetization layer for TeamPCP / TGR-CRI-1135. Unit 42 says the actor has moved beyond credential theft and package compromise into data-theft monetization by partnering with extortion and ransomware operators.
+
+The reported partnerships include collaboration with LAPSUS$ Group operators for extortion through a data-leak site and communications on BreachForums around work with Vect ransomware operators. Unit 42 also noted claims from a Vect affiliate, the Rostova Organization, that it was partnering with TGR-CRI-1135, while caveating that Vect was later removed from BreachForums and the operational impact of that removal was unclear.
+
+Two defender implications follow from that update:
+- Treat TeamPCP-style supply-chain incidents as potential **data-extortion precursors**, not only package-registry or developer-endpoint events. Cloud, source-code, SaaS, and CI/CD secret exposure can become leverage even when no ransomware is deployed.
+- Attribution may become noisier because Unit 42 observed a May 13, 2026 BreachForums announcement claiming an open-source release of Shai-Hulud. Public or leaked tooling can let copycats mimic TeamPCP tradecraft while still feeding the same extortion economy.
+
 ## Human actors / personas
 Public reporting commonly attributes activity to the **TeamPCP** persona itself rather than naming individual humans. I do **not** see a reliable public name for a specific person behind TeamPCP in the sources used here.
 
@@ -93,6 +102,8 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Socket's Intercom reporting adds a cross-ecosystem pivot pattern to watch: a compromised PyPI dependency (`lightning`, pulled locally through `pyannote-audio`) was linked to Intercom npm compromise, followed by a malicious Packagist artifact (`intercom/intercom-php@5.0.2`) that abused Composer plugin install/update execution and mutable tag metadata. Treat future TeamPCP/Mini Shai-Hulud triage as multi-registry by default, especially when one compromised developer account or endpoint has GitHub organization write access.
 - Socket's SAP CAP / Cloud MTA analysis reinforces that TeamPCP-linked Mini Shai-Hulud waves target high-blast-radius enterprise developer ecosystems, not just generic npm packages: SAP CAP packages added Bun runtime bootstrappers, large obfuscated payloads, developer/CI credential harvesting, and GitHub Actions runner-memory scraping in artifacts with hundreds of thousands of combined weekly downloads.
 - Socket's May 12-May 19 Mini Shai-Hulud updates add two TeamPCP-family watch points: AI/security packages can be compromised through import-time PyPI loaders (`guardrails-ai@0.10.1` downloading `transformers.pyz` from `git-tanstack[.]com`), and high-volume maintainer-account compromise can now be measured in hundreds of versions per hour (Socket counted the AntV wave at 639 versions across 323 packages, with 1,055 versions across 502 packages campaign-wide at that point).
+- Unit 42's May 27 cyber-extortion economy analysis adds that TGR-CRI-1135 / TeamPCP has collaborated with LAPSUS$ Group operators for data-leak-site extortion and with Vect ransomware operators or affiliates in BreachForums-advertised arrangements. That makes stolen developer, cloud, SaaS, and repository data a direct extortion risk even without encryptor deployment.
+- The same Unit 42 update reported a May 13 BreachForums post announcing an open-source Shai-Hulud release, increasing the chance of copycat operations that reuse TeamPCP/Mini Shai-Hulud methods without clean actor attribution.
 
 ## Defender signals
 - Moved or force-pushed GitHub Actions tags/refs, especially tags pointing to commits outside normal branch ancestry
@@ -109,6 +120,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Claude Code/Codex SessionStart hooks, VS Code `folderOpen` tasks, and GitHub commit-search C2 markers such as `firedalazer`, `thebeautifulsnadsoftime`, or `thebeautifulmarchoftime`
 - Composer packages that unexpectedly add `composer-plugin-api`, plugin classes, or install/update hooks, especially when an existing Packagist version tag moves to a new commit
 - PyPI packages that add Linux-only import-time downloaders for `.pyz` payloads, especially AI/security packages and hosts resembling legitimate project infrastructure such as `git-tanstack[.]com`
+- Leak-site, BreachForums, or victim-communication references that appear after TeamPCP-linked credential theft, especially claims involving LAPSUS$ Group, Vect, Rostova Organization, or copycat Shai-Hulud operators
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
@@ -139,3 +151,4 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [Socket TanStack / OpenSearch / Guardrails AI update](https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack)
 - [Socket AntV Mini Shai-Hulud wave](https://socket.dev/blog/antv-packages-compromised)
 - [StepSecurity blog index](https://www.stepsecurity.io/blog)
+- [Unit 42 cyber-extortion economy analysis](https://unit42.paloaltonetworks.com/cyber-extortion-economy/)

@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>TeamPCP extortion ecosystem update</title>
+      <link>https://threat.wiki/actors/teampcp/#extortion-ecosystem-role</link>
+      <description>Unit 42 reports that TGR-CRI-1135 / TeamPCP has partnered with LAPSUS$ Group operators for data-leak-site extortion and with Vect ransomware operators or affiliates via BreachForums, while a claimed open-source Shai-Hulud release raises copycat and attribution-noise risk.</description>
+      <pubDate>Wed, 27 May 2026 23:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/teampcp/#extortion-ecosystem-role</guid>
+    </item>
+    <item>
       <title>DAEMON Tools Lite supply-chain compromise</title>
       <link>https://threat.wiki/ops/daemon-tools-lite-supply-chain-compromise/</link>
       <description>Kaspersky reports official DAEMON Tools Lite installers were trojanized from April 8 to May 5, 2026, with signed DTHelper.exe, DiscSoftBusServiceLite.exe, and DTShellHlp.exe backdoors contacting typosquatted infrastructure and selectively deploying an information collector, minimalistic backdoor, and QUIC RAT. CISA added CVE-2026-8398 to KEV on May 27.</description>

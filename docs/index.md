@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [TeamPCP extortion ecosystem update](actors/teampcp.md#extortion-ecosystem-role)
 - [DAEMON Tools Lite supply-chain compromise](ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [CISA adds Nx Console and TanStack supply-chain incidents to KEV](ops/nx-console-vscode-extension-compromise.md#cisa-kev-update-may-27)
