@@ -49,11 +49,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitbucket](#bitbucket) (1)
 - [Bitwarden](#bitwarden) (1)
 - [BLUEBEAM](#bluebeam) (1)
+- [botnet](#botnet) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [browser credential theft](#browser-credential-theft) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
-- [C2](#c2) (2)
+- [C2](#c2) (3)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [CCleaner](#ccleaner) (1)
@@ -88,7 +89,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (6)
-- [credential-theft](#credential-theft) (15)
+- [credential-theft](#credential-theft) (16)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -122,6 +123,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deployment_status](#deployment_status) (1)
 - [destructive operations](#destructive-operations) (1)
 - [developer machines](#developer-machines) (3)
+- [developer-targeting](#developer-targeting) (1)
 - [device registration](#device-registration) (1)
 - [DEWMODE](#dewmode) (1)
 - [Digital Knowledge](#digital-knowledge) (1)
@@ -181,7 +183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull](#funnull) (1)
 - [GCS](#gcs) (1)
 - [Ghost CMS](#ghost-cms) (1)
-- [GitHub](#github) (5)
+- [GitHub](#github) (6)
 - [GitHub Actions](#github-actions) (13)
 - [GitHub OAuth](#github-oauth) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
@@ -278,7 +280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (2)
-- [npm](#npm) (14)
+- [npm](#npm) (15)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
@@ -288,10 +290,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OneDrive](#onedrive) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
+- [OpenVSX](#openvsx) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (51)
+- [operations](#operations) (52)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (48)
+- [ops](#ops) (49)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
@@ -331,11 +334,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public sector](#public-sector) (1)
 - [pwn-request](#pwn-request) (1)
-- [PyPI](#pypi) (4)
+- [PyPI](#pypi) (5)
 - [Python](#python) (2)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (2)
-- [RAT](#rat) (5)
+- [RAT](#rat) (6)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [Reality](#reality) (1)
@@ -360,6 +363,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RubyGems](#rubygems) (1)
 - [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (2)
+- [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (1)
@@ -403,10 +407,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stealer](#stealer) (1)
 - [storage deletion](#storage-deletion) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (34)
+- [supply-chain](#supply-chain) (35)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
-- [takedown](#takedown) (1)
+- [takedown](#takedown) (2)
 - [TamperedChef](#tamperedchef) (1)
 - [targeted operations](#targeted-operations) (1)
 - [TartarusGate](#tartarusgate) (1)
@@ -440,7 +444,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [virtualization](#virtualization) (1)
 - [VLESS](#vless) (1)
 - [VPN](#vpn) (1)
-- [VS Code](#vs-code) (2)
+- [VS Code](#vs-code) (3)
 - [vulnerability](#vulnerability) (2)
 - [vulnerability-research](#vulnerability-research) (1)
 - [wallet replacement](#wallet-replacement) (1)
@@ -623,6 +627,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BLUEBEAM
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## botnet
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+
 ## branch-name-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 
@@ -636,6 +643,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 
 ## C2
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
 
@@ -779,6 +787,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
@@ -898,6 +907,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
+
+## developer-targeting
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
 ## device registration
 - [ROADtools](../tools/roadtools.md)
@@ -1096,6 +1108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [JiaT75](../people/jiat75.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Webworm](../actors/webworm.md)
@@ -1444,6 +1457,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CanisterWorm](../tools/canisterworm.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -1483,6 +1497,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OpenVPN
 - [First VPN](../tools/first-vpn.md)
 
+## OpenVSX
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+
 ## operational resilience
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
@@ -1509,6 +1526,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -1564,6 +1582,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -1730,6 +1749,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## PyPI
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -1748,6 +1768,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RAT
 - [forge-jsxy](../tools/forge-jsxy.md)
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [RemotePE](../tools/remotepe.md)
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -1825,6 +1846,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Russia
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
+## Russia-linked cybercrime
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
 ## Russia-nexus
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -1981,6 +2005,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [JiaT75](../people/jiat75.md)
@@ -2012,6 +2037,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## takedown
 - [First VPN](../tools/first-vpn.md)
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
 ## TamperedChef
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -2135,6 +2161,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VS Code
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 
 ## vulnerability

@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Glassworm developer supply-chain botnet</title>
+      <link>https://threat.wiki/ops/glassworm-developer-supply-chain-botnet/</link>
+      <description>CrowdStrike reports a coordinated disruption of Glassworm, a developer-targeting supply-chain botnet that used malicious VS Code / OpenVSX extensions, npm and Python packages, poisoned GitHub repositories, GlassWormRAT, and resilient C2 via Solana dead drops, BitTorrent DHT, Google Calendar, and VPS infrastructure.</description>
+      <pubDate>Wed, 27 May 2026 13:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/glassworm-developer-supply-chain-botnet/</guid>
+    </item>
+    <item>
       <title>AI chatbot and SEO poisoning GPU-cryptojacking campaign</title>
       <link>https://threat.wiki/ops/ai-chatbot-seo-poisoning-gpu-cryptojacking/</link>
       <description>Microsoft reports an active cryptojacking campaign that impersonates trusted PC utilities, surfaces malicious download sites through search poisoning and observed AI chatbot recommendations, installs ScreenConnect for persistent access, hollows Microsoft-signed .NET utilities, and runs GPU miners from gleeze.com infrastructure.</description>
