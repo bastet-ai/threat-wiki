@@ -15,6 +15,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [adware](#adware) (1)
 - [AI](#ai) (2)
 - [AI agents](#ai-agents) (1)
+- [AI chatbot abuse](#ai-chatbot-abuse) (1)
+- [AI search poisoning](#ai-search-poisoning) (1)
 - [AI tooling](#ai-tooling) (4)
 - [ai-agent](#ai-agent) (1)
 - [Albania](#albania) (1)
@@ -92,6 +94,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto](#crypto) (2)
 - [cryptocurrency](#cryptocurrency) (3)
 - [cryptocurrency theft](#cryptocurrency-theft) (1)
+- [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (1)
 - [Curious Serpens](#curious-serpens) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
@@ -112,6 +115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cybercrime ecosystem](#cybercrime-ecosystem) (1)
 - [data exfiltration](#data-exfiltration) (1)
 - [data theft](#data-theft) (1)
+- [Defender evasion](#defender-evasion) (1)
 - [defense evasion](#defense-evasion) (2)
 - [DeFi](#defi) (2)
 - [Deno](#deno) (1)
@@ -125,13 +129,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dindoor](#dindoor) (1)
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
-- [DLL sideloading](#dll-sideloading) (2)
+- [DLL sideloading](#dll-sideloading) (3)
 - [DNS C2](#dns-c2) (1)
 - [Docker](#docker) (1)
 - [DPAPI](#dpapi) (1)
 - [DPAPILoader](#dpapiloader) (1)
 - [DPRK](#dprk) (1)
 - [Drupal](#drupal) (1)
+- [dynamic DNS](#dynamic-dns) (1)
+- [Dynu](#dynu) (1)
 - [edge appliance](#edge-appliance) (1)
 - [EDR evasion](#edr-evasion) (1)
 - [education](#education) (1)
@@ -179,6 +185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions](#github-actions) (13)
 - [GitHub OAuth](#github-oauth) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
+- [gleeze.com](#gleezecom) (1)
 - [Go](#go) (3)
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
@@ -251,6 +258,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [memory-only malware](#memory-only-malware) (1)
 - [MFA bypass](#mfa-bypass) (4)
 - [Microsoft](#microsoft) (1)
+- [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft Defender](#microsoft-defender) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
 - [Middle East](#middle-east) (1)
@@ -281,9 +289,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (50)
+- [operations](#operations) (51)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (47)
+- [ops](#ops) (48)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
@@ -314,6 +322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PRC-aligned](#prc-aligned) (1)
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (2)
+- [process hollowing](#process-hollowing) (1)
 - [prompt-injection](#prompt-injection) (3)
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
@@ -341,6 +350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePELoader](#remotepeloader) (1)
 - [reviewdog](#reviewdog) (1)
 - [RingH23](#ringh23) (1)
+- [RMM abuse](#rmm-abuse) (1)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
@@ -356,12 +366,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
 - [ScarCruft](#scarcruft) (1)
-- [ScreenConnect](#screenconnect) (1)
+- [ScreenConnect](#screenconnect) (2)
 - [script-injection](#script-injection) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (3)
 - [Seedworm](#seedworm) (1)
 - [sendit.sh](#senditsh) (1)
+- [SEO poisoning](#seo-poisoning) (1)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
@@ -377,6 +388,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [smishing](#smishing) (1)
 - [social engineering](#social-engineering) (3)
 - [SOCKS5](#socks5) (2)
+- [software impersonation](#software-impersonation) (1)
 - [South Africa](#south-africa) (1)
 - [South Korea](#south-korea) (1)
 - [Southeast Asia](#southeast-asia) (1)
@@ -500,6 +512,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI agents
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+
+## AI chatbot abuse
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
+## AI search poisoning
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
 ## AI tooling
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -790,6 +808,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cryptocurrency theft
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## cryptojacking
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
 ## cryptominer
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
@@ -853,6 +874,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## data theft
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
+## Defender evasion
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
 ## defense evasion
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [ROADtools](../tools/roadtools.md)
@@ -898,6 +922,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 
 ## DLL sideloading
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -918,6 +943,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Drupal
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## dynamic DNS
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
+## Dynu
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
 ## edge appliance
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -1089,6 +1120,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Gleaming Pisces
 - [RemotePE](../tools/remotepe.md)
+
+## gleeze.com
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
 ## Go
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -1339,6 +1373,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft
 - [Fox Tempest](../actors/fox-tempest.md)
 
+## Microsoft .NET
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
 ## Microsoft Defender
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 
@@ -1455,6 +1492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -1510,6 +1548,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -1658,6 +1697,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
+## process hollowing
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
 ## prompt-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -1753,6 +1795,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RingH23
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## RMM abuse
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
 ## ROADrecon
 - [ROADtools](../tools/roadtools.md)
 
@@ -1801,6 +1846,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
 ## ScreenConnect
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
 ## script-injection
@@ -1819,6 +1865,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## sendit.sh
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## SEO poisoning
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
 ## session hijacking
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -1871,6 +1920,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SOCKS5
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Showboat](../tools/showboat.md)
+
+## software impersonation
+- [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
 ## South Africa
 - [Webworm](../actors/webworm.md)

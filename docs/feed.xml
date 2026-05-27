@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>AI chatbot and SEO poisoning GPU-cryptojacking campaign</title>
+      <link>https://threat.wiki/ops/ai-chatbot-seo-poisoning-gpu-cryptojacking/</link>
+      <description>Microsoft reports an active cryptojacking campaign that impersonates trusted PC utilities, surfaces malicious download sites through search poisoning and observed AI chatbot recommendations, installs ScreenConnect for persistent access, hollows Microsoft-signed .NET utilities, and runs GPU miners from gleeze.com infrastructure.</description>
+      <pubDate>Wed, 27 May 2026 09:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ai-chatbot-seo-poisoning-gpu-cryptojacking/</guid>
+    </item>
+    <item>
       <title>Seedworm Dindoor / Fakeset U.S. network intrusions</title>
       <link>https://threat.wiki/actors/seedworm-muddywater/#dindoor-and-fakeset-prepositioning-on-us-and-allied-networks</link>
       <description>Broadcom reports Seedworm access to a U.S. bank, airport, software supplier with Israeli operations, and U.S. / Canadian non-profits using the Dindoor Deno backdoor, Fakeset Python backdoor, signed certificates, Backblaze staging, and attempted Rclone exfiltration to Wasabi before the Iran-linked regional conflict widened.</description>
