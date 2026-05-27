@@ -8,6 +8,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [active exploitation](#active-exploitation) (5)
+- [active-exploitation](#active-exploitation) (1)
 - [actors](#actors) (3)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [Adspect](#adspect) (1)
@@ -42,7 +43,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AWS](#aws) (1)
 - [Azure](#azure) (2)
 - [Backblaze](#backblaze) (1)
-- [backdoor](#backdoor) (4)
+- [backdoor](#backdoor) (5)
 - [backups](#backups) (1)
 - [banking malware](#banking-malware) (1)
 - [Barracuda](#barracuda) (1)
@@ -59,7 +60,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BTMOB](#btmob) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
-- [C2](#c2) (3)
+- [C2](#c2) (4)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [CCleaner](#ccleaner) (1)
@@ -96,7 +97,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (6)
-- [credential-theft](#credential-theft) (20)
+- [credential-theft](#credential-theft) (21)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -311,9 +312,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVPN](#openvpn) (1)
 - [OpenVSX](#openvsx) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (55)
+- [operations](#operations) (56)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (52)
+- [ops](#ops) (53)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -359,7 +360,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Python](#python) (2)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (2)
-- [RAT](#rat) (8)
+- [RAT](#rat) (9)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [Reality](#reality) (1)
@@ -406,6 +407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared hosting](#shared-hosting) (2)
 - [shared secrets](#shared-secrets) (1)
 - [signed updates](#signed-updates) (1)
+- [signed-binary](#signed-binary) (1)
 - [simulation tampering](#simulation-tampering) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [SLSA](#slsa) (1)
@@ -430,7 +432,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [storage deletion](#storage-deletion) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (38)
+- [supply-chain](#supply-chain) (39)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (2)
@@ -484,7 +486,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [webshell](#webshell) (1)
 - [Webworm](#webworm) (1)
 - [WHM](#whm) (2)
-- [Windows](#windows) (7)
+- [Windows](#windows) (8)
 - [wiper](#wiper) (2)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (1)
@@ -517,6 +519,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## active-exploitation
+- [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 
 ## actors
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -632,6 +637,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## backdoor
+- [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -686,6 +692,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 
 ## C2
+- [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
@@ -837,6 +844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -1641,6 +1649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -1700,6 +1709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -1900,6 +1910,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 
 ## RAT
+- [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -2056,6 +2067,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## signed updates
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
+## signed-binary
+- [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+
 ## simulation tampering
 - [Fast16](../tools/fast16.md)
 
@@ -2144,6 +2158,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
@@ -2368,6 +2383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+- [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)

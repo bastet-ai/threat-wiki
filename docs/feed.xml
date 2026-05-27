@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>DAEMON Tools Lite supply-chain compromise</title>
+      <link>https://threat.wiki/ops/daemon-tools-lite-supply-chain-compromise/</link>
+      <description>Kaspersky reports official DAEMON Tools Lite installers were trojanized from April 8 to May 5, 2026, with signed DTHelper.exe, DiscSoftBusServiceLite.exe, and DTShellHlp.exe backdoors contacting typosquatted infrastructure and selectively deploying an information collector, minimalistic backdoor, and QUIC RAT. CISA added CVE-2026-8398 to KEV on May 27.</description>
+      <pubDate>Wed, 27 May 2026 21:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/daemon-tools-lite-supply-chain-compromise/</guid>
+    </item>
+    <item>
       <title>Grandoreiro and BTMOB Latin America / Europe malware campaigns</title>
       <link>https://threat.wiki/ops/grandoreiro-btmob-latam-europe-malware-campaigns/</link>
       <description>WatchGuard, ESET, and The Hacker News report renewed Grandoreiro Windows banking-malware activity using phishing, DLL sideloading, and WebRTC/STUN/ICE communications camouflage, alongside BTMOB Android RAT-as-a-service activity with APK builders, Accessibility abuse, and ready-made regional lure tooling.</description>
