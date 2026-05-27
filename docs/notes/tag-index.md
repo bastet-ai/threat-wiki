@@ -37,6 +37,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AUTODYN](#autodyn) (1)
 - [AWS](#aws) (1)
 - [Azure](#azure) (2)
+- [Backblaze](#backblaze) (1)
 - [backdoor](#backdoor) (4)
 - [backups](#backups) (1)
 - [Barracuda](#barracuda) (1)
@@ -51,6 +52,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
 - [C2](#c2) (2)
+- [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
@@ -112,6 +114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data theft](#data-theft) (1)
 - [defense evasion](#defense-evasion) (2)
 - [DeFi](#defi) (2)
+- [Deno](#deno) (1)
 - [deployment_status](#deployment_status) (1)
 - [destructive operations](#destructive-operations) (1)
 - [developer machines](#developer-machines) (3)
@@ -119,6 +122,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DEWMODE](#dewmode) (1)
 - [Digital Knowledge](#digital-knowledge) (1)
 - [digital wallets](#digital-wallets) (1)
+- [Dindoor](#dindoor) (1)
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
 - [DLL sideloading](#dll-sideloading) (2)
@@ -153,6 +157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [extortion](#extortion) (1)
 - [fake plugin](#fake-plugin) (1)
 - [FakeCaptcha](#fakecaptcha) (1)
+- [Fakeset](#fakeset) (1)
 - [faketivism](#faketivism) (1)
 - [Fancy Bear](#fancy-bear) (1)
 - [Fast16](#fast16) (1)
@@ -200,7 +205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [initial-access](#initial-access) (1)
 - [iOS](#ios) (1)
 - [Iran](#iran) (5)
-- [Israel](#israel) (1)
+- [Israel](#israel) (2)
 - [Japan](#japan) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
@@ -318,10 +323,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public sector](#public-sector) (1)
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (4)
-- [Python](#python) (1)
+- [Python](#python) (2)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (2)
 - [RAT](#rat) (5)
+- [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [Reality](#reality) (1)
 - [Reaper](#reaper) (1)
@@ -414,6 +420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC2814](#unc2814) (1)
 - [UNC4736](#unc4736) (1)
 - [UNC6780](#unc6780) (1)
+- [United States](#united-states) (1)
 - [uranium compression](#uranium-compression) (1)
 - [UTA0355](#uta0355) (1)
 - [Views](#views) (1)
@@ -427,6 +434,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet replacement](#wallet-replacement) (1)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
+- [Wasabi](#wasabi) (1)
 - [watering-hole](#watering-hole) (2)
 - [web application](#web-application) (1)
 - [web hosting](#web-hosting) (2)
@@ -564,6 +572,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 - [ROADtools](../tools/roadtools.md)
 
+## Backblaze
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
 ## backdoor
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -609,6 +620,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## C2
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
+
+## Canada
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## CANFAIL
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -847,6 +861,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
+## Deno
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
 ## deployment_status
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
@@ -869,6 +886,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## digital wallets
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
+## Dindoor
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Discord
 - [forge-jsxy](../tools/forge-jsxy.md)
@@ -987,6 +1007,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FakeCaptcha
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
+## Fakeset
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## faketivism
 - [Handala](../actors/handala.md)
@@ -1161,6 +1184,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Israel
 - [Handala](../actors/handala.md)
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Japan
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -1670,6 +1694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## Python
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## RAM disk
@@ -1685,6 +1710,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## Rclone
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## RCS
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -2029,6 +2057,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UNC6780
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## United States
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
 ## uranium compression
 - [Fast16](../tools/fast16.md)
 
@@ -2071,6 +2102,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+
+## Wasabi
+- [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## watering-hole
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)

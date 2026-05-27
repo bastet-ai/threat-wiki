@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Seedworm Dindoor / Fakeset U.S. network intrusions](actors/seedworm-muddywater.md#dindoor-and-fakeset-prepositioning-on-us-and-allied-networks)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](ops/chinese-language-phaas-wallet-tokenization.md)
 - [Fast16 nuclear-simulation sabotage framework](tools/fast16.md)
 - [forge-jsxy npm RAT](tools/forge-jsxy.md)

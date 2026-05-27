@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Seedworm Dindoor / Fakeset U.S. network intrusions</title>
+      <link>https://threat.wiki/actors/seedworm-muddywater/#dindoor-and-fakeset-prepositioning-on-us-and-allied-networks</link>
+      <description>Broadcom reports Seedworm access to a U.S. bank, airport, software supplier with Israeli operations, and U.S. / Canadian non-profits using the Dindoor Deno backdoor, Fakeset Python backdoor, signed certificates, Backblaze staging, and attempted Rclone exfiltration to Wasabi before the Iran-linked regional conflict widened.</description>
+      <pubDate>Wed, 27 May 2026 05:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/seedworm-muddywater/#dindoor-and-fakeset-prepositioning-on-us-and-allied-networks</guid>
+    </item>
+    <item>
       <title>Chinese-language PhaaS wallet-tokenization ecosystem</title>
       <link>https://threat.wiki/ops/chinese-language-phaas-wallet-tokenization/</link>
       <description>Google Threat Intelligence Group reports that Chinese-language phishing-as-a-service offerings have matured around RCS and iMessage lure delivery, live OTP interception through administration panels, and digital-wallet provisioning fraud that turns stolen payment data into attacker-controlled tokenized cards.</description>

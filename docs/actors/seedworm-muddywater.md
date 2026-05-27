@@ -3,7 +3,7 @@
 ## Summary
 **Seedworm** is an Iran-linked espionage actor also tracked publicly as **MuddyWater**, **Temp Zagros**, and **Static Kitten**. Broadcom's Symantec and Carbon Black teams reported a first-quarter 2026 campaign affecting at least nine organizations across nine countries and four continents, including a South Korean electronics manufacturer, Middle Eastern government and airport targets, Southeast Asian industrial manufacturers, financial services, education, and professional-services organizations.
 
-The durable intelligence value is the actor's maturing operational hygiene: Node.js-orchestrated PowerShell activity, signed-binary DLL sideloading, credential theft, browser-data theft through ChromElevator, SOCKS5 tunneling, public file-transfer service exfiltration, and repeated low-cadence implant-driven reconnaissance rather than continuous hands-on-keyboard activity.
+The durable intelligence value is the actor's maturing operational hygiene: Node.js-orchestrated PowerShell activity, signed-binary DLL sideloading, credential theft, browser-data theft through ChromElevator, SOCKS5 tunneling, public file-transfer service exfiltration, and repeated low-cadence implant-driven reconnaissance rather than continuous hands-on-keyboard activity. Broadcom separately reported that Seedworm had access in February-March 2026 to U.S. and allied networks including a bank, airport, software supplier with Israeli operations, and non-profit organizations, where it used newly named Deno- and Python-based backdoors before the regional conflict widened.
 
 ## Tags
 - Iran
@@ -22,6 +22,16 @@ The durable intelligence value is the actor's maturing operational hygiene: Node
 - SOCKS5
 - public file-transfer exfiltration
 - sendit.sh
+- Deno
+- Python
+- Dindoor
+- Fakeset
+- Rclone
+- Wasabi
+- Backblaze
+- United States
+- Canada
+- Israel
 - South Korea
 - manufacturing
 - education
@@ -60,13 +70,27 @@ Observed collection included:
 - At least one intrusion exfiltrated data through `sendit[.]sh`, a public file-transfer service.
 - The cadence of repeated short recon and periodic re-execution of sideloaded binaries suggests implant timers and tunnel maintenance rather than continuous manual operator presence.
 
+### Dindoor and Fakeset prepositioning on U.S. and allied networks
+Broadcom also reported Seedworm activity beginning in early February 2026 and continuing into March against a U.S. bank, U.S. airport, U.S. software company with Israeli operations, and U.S. / Canadian non-profit organizations. The timing matters because the intrusions predated and overlapped the wider U.S.-Israel / Iran conflict, leaving the actor positioned inside strategically sensitive environments before destructive or retaliatory cyber operations became a higher concern.
+
+Durable pivots from that activity include:
+
+- **Dindoor**, a previously unknown backdoor using the Deno JavaScript / TypeScript runtime, seen at the Israeli operation of a U.S. software supplier, a U.S. bank, and a Canadian non-profit.
+- **Fakeset**, a Python backdoor seen at a U.S. airport and non-profit.
+- Code-signing certificates issued to `Amy Cherne` and `Donald Gay`; Broadcom noted prior Seedworm linkage for the `Donald Gay` certificate through Stagecomp / Darkcomp malware.
+- Backblaze B2 staging domains including `gitempire.s3.us-east-005.backblazeb2.com` and `elvenforest.s3.us-east-005.backblazeb2.com`.
+- Attempted Rclone exfiltration from the software supplier to a Wasabi cloud-storage bucket.
+
+For defenders, this older but previously unreflected reporting is useful because it ties Seedworm's custom backdoor development to cloud-storage staging and exfiltration paths, and it raises the priority of hunting for Deno runtimes, Python backdoors, unusual signed binaries, and Rclone activity in U.S., Israeli, Canadian, aviation, financial, and software-supply-chain networks during periods of Iran-linked geopolitical escalation.
+
 ## Defender heuristics
 - Hunt for `node.exe` spawning PowerShell, `cmd.exe`, `curl.exe`, signed driver utilities, or endpoint-security binaries in user-profile staging directories.
+- Hunt for unexpected `deno.exe`, Python runtimes, or newly introduced JavaScript / TypeScript runtime artifacts on sensitive workstations and servers, especially when paired with signed unknown binaries or cloud-storage staging.
 - Flag `fmapp.exe` loading a nearby `fmapp.dll` outside expected Fortemedia installation paths.
 - Flag `sentinelmemoryscanner.exe` loading a nearby `sentinelagentcore.dll`, especially outside normal SentinelOne directories or under random user-profile paths.
 - Look for Run-key persistence pointing to signed utilities in random `%LOCALAPPDATA%` paths.
 - Correlate quick bursts of domain reconnaissance, screenshot capture, `reg save hklm\sam/security/system`, and public-IP checks from the same endpoint.
-- Treat `sendit[.]sh` uploads from servers or sensitive user workstations as suspicious when paired with compression, credential dumping, or Iranian actor TTPs.
+- Treat `sendit[.]sh`, Wasabi, Backblaze B2, and other cloud-storage uploads from servers or sensitive user workstations as suspicious when paired with compression, credential dumping, Rclone, or Iranian actor TTPs.
 - Preserve process trees, script-block logs, PowerShell history, Node.js artifacts, sideloaded DLLs, Run-key values, browser credential access telemetry, and egress records before cleanup.
 
 ## Related pages
@@ -76,5 +100,6 @@ Observed collection included:
 
 ## Sources
 - Broadcom / Symantec and Carbon Black: https://www.security.com/threat-intelligence/iran-seedworm-electronics
+- Broadcom / Symantec and Carbon Black: https://www.security.com/threat-intelligence/iran-cyber-threat-activity-us
 - The Hacker News summary: https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html
 - Group-IB Operation Olalampo: https://www.group-ib.com/blog/muddywater-operation-olalampo/
