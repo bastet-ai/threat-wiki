@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Chinese-language PhaaS wallet-tokenization ecosystem</title>
+      <link>https://threat.wiki/ops/chinese-language-phaas-wallet-tokenization/</link>
+      <description>Google Threat Intelligence Group reports that Chinese-language phishing-as-a-service offerings have matured around RCS and iMessage lure delivery, live OTP interception through administration panels, and digital-wallet provisioning fraud that turns stolen payment data into attacker-controlled tokenized cards.</description>
+      <pubDate>Wed, 27 May 2026 01:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chinese-language-phaas-wallet-tokenization/</guid>
+    </item>
+    <item>
       <title>Fast16 nuclear-simulation sabotage framework</title>
       <link>https://threat.wiki/tools/fast16/</link>
       <description>Broadcom / Symantec analyzed Fast16, a pre-Stuxnet sabotage framework that used a kernel file-system filter and rule-driven hooks to corrupt LS-DYNA and AUTODYN high-explosive / uranium-compression simulations associated with nuclear-weapon design, while spreading only inside target local networks.</description>

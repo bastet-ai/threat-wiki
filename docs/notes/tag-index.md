@@ -11,6 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actors](#actors) (2)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [Adspect](#adspect) (1)
+- [adversary-in-the-middle](#adversary-in-the-middle) (1)
 - [adware](#adware) (1)
 - [AI](#ai) (2)
 - [AI agents](#ai-agents) (1)
@@ -55,6 +56,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CDN](#cdn) (1)
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (2)
+- [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [ChromElevator](#chromelevator) (1)
 - [CI/CD](#cicd) (17)
 - [CircleCI](#circleci) (1)
@@ -81,7 +83,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
-- [credential theft](#credential-theft) (5)
+- [credential theft](#credential-theft) (6)
 - [credential-theft](#credential-theft) (15)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -105,6 +107,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [cybercrime](#cybercrime) (3)
+- [cybercrime ecosystem](#cybercrime-ecosystem) (1)
 - [data exfiltration](#data-exfiltration) (1)
 - [data theft](#data-theft) (1)
 - [defense evasion](#defense-evasion) (2)
@@ -115,6 +118,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [device registration](#device-registration) (1)
 - [DEWMODE](#dewmode) (1)
 - [Digital Knowledge](#digital-knowledge) (1)
+- [digital wallets](#digital-wallets) (1)
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
 - [DLL sideloading](#dll-sideloading) (2)
@@ -188,6 +192,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IDE extension](#ide-extension) (1)
 - [identity](#identity) (2)
 - [IFEO persistence](#ifeo-persistence) (1)
+- [iMessage](#imessage) (1)
 - [incident response](#incident-response) (3)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (1)
@@ -239,7 +244,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [manufacturing](#manufacturing) (1)
 - [MCP](#mcp) (1)
 - [memory-only malware](#memory-only-malware) (1)
-- [MFA bypass](#mfa-bypass) (3)
+- [MFA bypass](#mfa-bypass) (4)
 - [Microsoft](#microsoft) (1)
 - [Microsoft Defender](#microsoft-defender) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
@@ -271,9 +276,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (49)
+- [operations](#operations) (50)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (46)
+- [ops](#ops) (47)
+- [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -282,10 +288,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Packagist](#packagist) (2)
 - [page poisoning](#page-poisoning) (1)
 - [patterns](#patterns) (2)
+- [payment fraud](#payment-fraud) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [people](#people) (1)
 - [persistence](#persistence) (12)
-- [phishing](#phishing) (1)
+- [PhaaS](#phaas) (1)
+- [phishing](#phishing) (2)
+- [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (1)
 - [pig-butchering](#pig-butchering) (1)
 - [Piriform](#piriform) (1)
@@ -313,6 +322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (2)
 - [RAT](#rat) (5)
+- [RCS](#rcs) (1)
 - [Reality](#reality) (1)
 - [Reaper](#reaper) (1)
 - [recovery denial](#recovery-denial) (1)
@@ -359,7 +369,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SLSA](#slsa) (1)
 - [SmartScreen](#smartscreen) (1)
 - [smishing](#smishing) (1)
-- [social engineering](#social-engineering) (2)
+- [social engineering](#social-engineering) (3)
 - [SOCKS5](#socks5) (2)
 - [South Africa](#south-africa) (1)
 - [South Korea](#south-korea) (1)
@@ -385,7 +395,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](#teampcp) (7)
 - [TeamViewer](#teamviewer) (1)
 - [telecom](#telecom) (1)
-- [Telegram](#telegram) (1)
+- [Telegram](#telegram) (2)
 - [Temp Zagros](#temp-zagros) (1)
 - [tj-actions](#tj-actions) (1)
 - [token replay](#token-replay) (1)
@@ -469,6 +479,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Adspect
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
+## adversary-in-the-middle
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## adware
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -613,6 +626,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 - [Webworm](../actors/webworm.md)
 
+## Chinese-language cybercrime
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
 ## ChromElevator
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -717,6 +733,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## credential theft
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -813,6 +830,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## cybercrime ecosystem
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
 ## data exfiltration
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
@@ -846,6 +866,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Digital Knowledge
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## digital wallets
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## Discord
 - [forge-jsxy](../tools/forge-jsxy.md)
@@ -1105,6 +1128,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## IFEO persistence
 - [Fast16](../tools/fast16.md)
 
+## iMessage
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
 ## incident response
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -1282,6 +1308,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MFA bypass
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [ROADtools](../tools/roadtools.md)
 
@@ -1411,6 +1438,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
@@ -1464,6 +1492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
@@ -1500,6 +1529,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## OTP interception
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
 ## OYSTERBLUES
 - [Ghostwriter](../actors/ghostwriter.md)
 
@@ -1526,6 +1558,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
+## payment fraud
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
 ## pe_to_shellcode
 - [RemotePE](../tools/remotepe.md)
 
@@ -1546,8 +1581,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
+## PhaaS
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
 ## phishing
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Ghostwriter](../actors/ghostwriter.md)
+
+## phishing-as-a-service
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## PHP
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -1643,6 +1685,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## RCS
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## Reality
 - [First VPN](../tools/first-vpn.md)
@@ -1791,6 +1836,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
 ## social engineering
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 
@@ -1913,6 +1959,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Telegram
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## Temp Zagros
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)

@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Fast16 nuclear-simulation sabotage framework](../tools/fast16.md)
 - [forge-jsxy npm RAT](../tools/forge-jsxy.md)
 - [Seedworm / MuddyWater signed-binary sideloading campaign](../actors/seedworm-muddywater.md)
