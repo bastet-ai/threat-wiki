@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>JINX-0164 crypto developer infrastructure campaign</title>
+      <link>https://threat.wiki/ops/jinx-0164-crypto-developer-infrastructure-campaign/</link>
+      <description>Wiz reports JINX-0164, a financially motivated actor targeting cryptocurrency organizations through LinkedIn social engineering, fake meeting and driver-fix pages, AUDIOFIX macOS malware, credential theft, internal repository poisoning, and the trojanized @velora-dex/sdk npm package delivering MINIRAT.</description>
+      <pubDate>Wed, 27 May 2026 15:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/jinx-0164-crypto-developer-infrastructure-campaign/</guid>
+    </item>
+    <item>
       <title>Glassworm developer supply-chain botnet</title>
       <link>https://threat.wiki/ops/glassworm-developer-supply-chain-botnet/</link>
       <description>CrowdStrike reports a coordinated disruption of Glassworm, a developer-targeting supply-chain botnet that used malicious VS Code / OpenVSX extensions, npm and Python packages, poisoned GitHub repositories, GlassWormRAT, and resilient C2 via Solana dead drops, BitTorrent DHT, Google Calendar, and VPS infrastructure.</description>

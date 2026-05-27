@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - JINX-0164 crypto developer infrastructure campaign: ops/jinx-0164-crypto-developer-infrastructure-campaign.md
       - Glassworm developer supply-chain botnet: ops/glassworm-developer-supply-chain-botnet.md
       - AI chatbot and SEO poisoning GPU-cryptojacking campaign: ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md
       - Chinese-language PhaaS wallet-tokenization ecosystem: ops/chinese-language-phaas-wallet-tokenization.md
@@ -66,6 +67,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - JINX-0164: actors/jinx-0164.md
       - APT29: actors/apt29-cozy-bear-midnight-blizzard.md
       - Dragonfly: actors/dragonfly-energetic-bear-crouching-yeti.md
       - Handala: actors/handala.md

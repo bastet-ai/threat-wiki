@@ -69,6 +69,7 @@ CrowdStrike assesses the operators as likely Russia-based cybercriminals. Public
 - Treat a C2 takedown as a containment opportunity, not proof of endpoint cleanup; rebuild or deeply inspect developer machines before restoring trust.
 
 ## Related pages
+- [JINX-0164 crypto developer infrastructure campaign](jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Nx Console VS Code extension compromise](nx-console-vscode-extension-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
