@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [SafeDep live update on MicrosoftSystem64 / js-logger-pack](../ops/js-logger-pack-hugging-face-exfiltration.md#2026-05-28-safedep-live-infrastructure-update)
 - [TeamPCP extortion ecosystem update](../actors/teampcp.md#extortion-ecosystem-role)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)

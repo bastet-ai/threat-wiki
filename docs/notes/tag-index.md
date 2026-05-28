@@ -69,7 +69,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China](#china) (2)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [ChromElevator](#chromelevator) (1)
-- [CI/CD](#cicd) (19)
+- [CI/CD](#cicd) (20)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (2)
 - [Citrine Sleet](#citrine-sleet) (1)
@@ -78,7 +78,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix](#clickfix) (2)
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (4)
-- [cloud secrets](#cloud-secrets) (1)
+- [cloud secrets](#cloud-secrets) (2)
 - [Cloudflare](#cloudflare) (1)
 - [Cloudflare Workers](#cloudflare-workers) (1)
 - [CMS](#cms) (2)
@@ -97,7 +97,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (6)
-- [credential-theft](#credential-theft) (21)
+- [credential-theft](#credential-theft) (22)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -128,6 +128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense evasion](#defense-evasion) (2)
 - [DeFi](#defi) (4)
 - [Deno](#deno) (1)
+- [dependency confusion](#dependency-confusion) (1)
 - [deployment_status](#deployment_status) (1)
 - [destructive operations](#destructive-operations) (1)
 - [developer machines](#developer-machines) (3)
@@ -157,6 +158,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [energy-sector](#energy-sector) (1)
 - [engineering software](#engineering-software) (1)
 - [Entra ID](#entra-id) (1)
+- [environment variables](#environment-variables) (1)
 - [environmental keying](#environmental-keying) (1)
 - [ESG](#esg) (1)
 - [espionage](#espionage) (11)
@@ -182,6 +184,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FileFiend](#filefiend) (1)
 - [filemanager](#filemanager) (1)
 - [filename-injection](#filename-injection) (1)
+- [finance](#finance) (1)
 - [financial fraud](#financial-fraud) (1)
 - [financial sector](#financial-sector) (1)
 - [financial services](#financial-services) (1)
@@ -300,7 +303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (2)
-- [npm](#npm) (18)
+- [npm](#npm) (19)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
@@ -312,9 +315,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVPN](#openvpn) (1)
 - [OpenVSX](#openvsx) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (56)
+- [operations](#operations) (57)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (53)
+- [ops](#ops) (54)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -340,7 +343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Portugal](#portugal) (1)
 - [post-exploitation](#post-exploitation) (1)
 - [PostgreSQL](#postgresql) (1)
-- [postinstall](#postinstall) (2)
+- [postinstall](#postinstall) (3)
 - [PowerShell](#powershell) (1)
 - [PPtP](#pptp) (1)
 - [PRC](#prc) (1)
@@ -432,7 +435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [storage deletion](#storage-deletion) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (39)
+- [supply-chain](#supply-chain) (40)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (2)
@@ -737,6 +740,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -774,6 +778,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloud secrets
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 
 ## Cloudflare
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -858,6 +863,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -967,6 +973,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Deno
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## dependency confusion
+- [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+
 ## deployment_status
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
@@ -1064,6 +1073,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Entra ID
 - [ROADtools](../tools/roadtools.md)
 
+## environment variables
+- [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+
 ## environmental keying
 - [RemotePE](../tools/remotepe.md)
 
@@ -1153,6 +1165,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## filename-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+
+## finance
+- [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 
 ## financial fraud
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -1589,6 +1604,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+- [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -1674,6 +1690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -1733,6 +1750,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -1838,6 +1856,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## postinstall
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
 ## PowerShell
@@ -2177,6 +2196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)

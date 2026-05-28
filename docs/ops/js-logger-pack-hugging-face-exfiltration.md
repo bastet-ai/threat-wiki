@@ -44,6 +44,28 @@ The package presented a benign logger in `dist/index.js`, but its `package.json`
 - Self-update checks against the same Hugging Face repository without signature or checksum validation.
 - Private Hugging Face dataset creation/reuse for archived data uploads.
 
+## 2026-05-28 SafeDep live-infrastructure update
+SafeDep published a deeper `MicrosoftSystem64` binary analysis on May 28, 2026, reporting that the campaign remained active more than six weeks after the first `js-logger-pack` disclosures. Their live probe found the embedded Hugging Face token still valid at the time of testing, the WebSocket C2 accepting connections, and private datasets containing live victim screenshots and credential archives.
+
+New details from the SafeDep analysis include:
+
+- The analyzed payload was `MicrosoftSystem64` version `1.0.8`, an 81 MB stripped Node.js Single Executable Application using Node.js `v20.18.2`.
+- The implant accepted 24 remote commands, uploaded periodic screenshots to Hugging Face every 60 seconds, and self-updated from `jpeek998/system-releases` after the earlier `Lordplay/system-releases` hosting was disabled.
+- SafeDep observed three private datasets under the `jpeek998` account containing hundreds of screenshots and a roughly 500 MB credential archive from two active victims.
+- The credential archive included SSH keys, browser `Login Data`, cookies, local-state files, Claude Desktop app data, NVIDIA app embedded-browser credentials, Electron app stores, WeChat / xwechat data, Telegram data, Remote Desktop files, Todoist data, and anti-detect browser profiles.
+- SafeDep tied the campaign to a broader `toskypi` / `jpeek*` identity cluster also associated with npm accounts `jpeek868`, `jpeek886`, `jpeek895`, `pvnd3540749`, and `yggedd817513`, plus public identifiers including `ptc-bink` / `whisdev` cited from earlier JFrog research.
+
+Additional indicators from this update:
+
+- Linux ELF SHA-256: `b2954c945b51dbd6fa88ac72338b7fbf76dec7d9909ceada9d36b21330842c97`
+- Active Hugging Face exfil account: `jpeek998`
+- Binary host: `hxxps://huggingface[.]co/jpeek998/system-releases/resolve/main`
+- Prior binary host: `Lordplay/system-releases`
+- Linux install directory: `~/.local/share/MicrosoftSystem64`
+- macOS install directory: `~/Library/Application Support/MicrosoftSystem64`
+- Windows install directory: `%LOCALAPPDATA%\\MicrosoftSystem64`
+- Persistence labels: `MicrosoftSystem64`, `com.launchkeeper.MicrosoftSystem64`, and Windows scheduled task `MicrosoftSystem64`
+
 ## Indicators and hunt pivots
 - npm package: `js-logger-pack`.
 - Reported malicious version: `1.1.27` and related newer releases analyzed by JFrog.
@@ -80,3 +102,4 @@ JFrog mapped the distribution infrastructure to linked public personas, but the 
 ## Sources
 - JFrog: https://research.jfrog.com/post/hugging-face-exfil/
 - SafeDep earlier phase: https://safedep.io/malicious-js-logger-pack-npm-stealer/
+- SafeDep `MicrosoftSystem64` update: https://safedep.io/microsoftsystem64-binary-payload-analysis/

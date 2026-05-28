@@ -5,6 +5,20 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>oob.moika.tech dependency-confusion environment stealer</title>
+      <link>https://threat.wiki/ops/oob-moika-dependency-confusion-env-stealer/</link>
+      <description>SafeDep reports 164 npm dependency-confusion packages across cloud, ML, car-loan, deposit, and debit / internet-banking scopes; 162 active packages used postinstall execution to steal full environment variables, fetch detached second-stage scripts from oob.moika.tech, and disguise outbound activity as internal telemetry.</description>
+      <pubDate>Thu, 28 May 2026 11:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/oob-moika-dependency-confusion-env-stealer/</guid>
+    </item>
+    <item>
+      <title>SafeDep live update on MicrosoftSystem64 / js-logger-pack</title>
+      <link>https://threat.wiki/ops/js-logger-pack-hugging-face-exfiltration/#2026-05-28-safedep-live-infrastructure-update</link>
+      <description>SafeDep reports the MicrosoftSystem64 payload remained active after earlier js-logger-pack disclosures, with a valid Hugging Face token, live C2, active victim screenshots and credential archives, version 1.0.8 Node SEA payload details, and a broader toskypi / jpeek identity cluster.</description>
+      <pubDate>Thu, 28 May 2026 11:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/js-logger-pack-hugging-face-exfiltration/#2026-05-28-safedep-live-infrastructure-update</guid>
+    </item>
+    <item>
       <title>TeamPCP extortion ecosystem update</title>
       <link>https://threat.wiki/actors/teampcp/#extortion-ecosystem-role</link>
       <description>Unit 42 reports that TGR-CRI-1135 / TeamPCP has partnered with LAPSUS$ Group operators for data-leak-site extortion and with Vect ransomware operators or affiliates via BreachForums, while a claimed open-source Shai-Hulud release raises copycat and attribution-noise risk.</description>
