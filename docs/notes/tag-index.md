@@ -3,6 +3,7 @@
 Generated from page-level `## Tags` sections. Each tag below links to the pages that currently use it.
 
 ## All tags
+- [.NET](#net) (1)
 - [3CX](#3cx) (1)
 - [Ababil of Minab](#ababil-of-minab) (1)
 - [Accellion](#accellion) (1)
@@ -46,6 +47,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backblaze](#backblaze) (1)
 - [backdoor](#backdoor) (5)
 - [backups](#backups) (1)
+- [banking](#banking) (1)
 - [banking malware](#banking-malware) (1)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
@@ -66,6 +68,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CANFAIL](#canfail) (1)
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
+- [certificate theft](#certificate-theft) (1)
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (2)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
@@ -100,7 +103,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (7)
-- [credential-theft](#credential-theft) (24)
+- [credential-theft](#credential-theft) (25)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -191,7 +194,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FileFiend](#filefiend) (1)
 - [filemanager](#filemanager) (1)
 - [filename-injection](#filename-injection) (1)
-- [finance](#finance) (1)
+- [finance](#finance) (2)
 - [financial fraud](#financial-fraud) (1)
 - [financial sector](#financial-sector) (1)
 - [financial services](#financial-services) (1)
@@ -233,6 +236,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [identity](#identity) (2)
 - [IFEO persistence](#ifeo-persistence) (1)
 - [iMessage](#imessage) (1)
+- [impersonation](#impersonation) (1)
 - [incident response](#incident-response) (4)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (4)
@@ -310,6 +314,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MPR network provider](#mpr-network-provider) (1)
 - [Mr_Rot13](#mr_rot13) (1)
 - [MSP](#msp) (1)
+- [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
 - [nation-state](#nation-state) (1)
 - [NetScaler](#netscaler) (1)
@@ -319,6 +324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [North Korea](#north-korea) (3)
 - [npm](#npm) (21)
 - [nuclear weapons](#nuclear-weapons) (1)
+- [NuGet](#nuget) (1)
 - [OAuth tokens](#oauth-tokens) (1)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
@@ -332,9 +338,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (60)
+- [operations](#operations) (61)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (57)
+- [ops](#ops) (58)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -420,6 +426,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secrets](#secrets) (3)
 - [Seedworm](#seedworm) (1)
 - [sendit.sh](#senditsh) (1)
+- [Sentry abuse](#sentry-abuse) (1)
 - [SEO poisoning](#seo-poisoning) (1)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
@@ -440,6 +447,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [software impersonation](#software-impersonation) (1)
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
+- [source-package mismatch](#source-package-mismatch) (1)
 - [South Africa](#south-africa) (1)
 - [South Korea](#south-korea) (1)
 - [Southeast Asia](#southeast-asia) (1)
@@ -455,7 +463,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [storage deletion](#storage-deletion) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (42)
+- [supply-chain](#supply-chain) (43)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (2)
@@ -523,6 +531,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
 - [zero-day](#zero-day) (1)
+
+## .NET
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## 3CX
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -675,6 +686,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## backups
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## banking
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+
 ## banking malware
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -738,6 +752,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CDN
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## certificate theft
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## Checkmarx
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -902,6 +919,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
@@ -1220,6 +1238,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## finance
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## financial fraud
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -1372,6 +1391,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## iMessage
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
+## impersonation
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## incident response
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -1643,6 +1665,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MSP
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
+## mTLS
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+
 ## MuddyWater
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -1692,6 +1717,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## nuclear weapons
 - [Fast16](../tools/fast16.md)
+
+## NuGet
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## OAuth tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -1786,6 +1814,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -1849,6 +1878,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -2156,6 +2186,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## sendit.sh
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## Sentry abuse
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+
 ## SEO poisoning
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
@@ -2224,6 +2257,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## source-package drift
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+
+## source-package mismatch
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## South Africa
 - [Webworm](../actors/webworm.md)
@@ -2307,6 +2343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+- [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)

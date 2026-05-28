@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Sicoob.Sdk NuGet banking certificate stealer</title>
+      <link>https://threat.wiki/ops/sicoob-sdk-nuget-banking-certificate-stealer/</link>
+      <description>Socket reports that malicious Sicoob.Sdk NuGet releases 2.0.0 through 2.0.4 impersonated an official Sicoob banking SDK, used a clean GitHub source façade, and exfiltrated client IDs, PFX passwords, base64-encoded PFX certificate archives, and boleto responses through a hardcoded Sentry endpoint.</description>
+      <pubDate>Thu, 28 May 2026 23:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/sicoob-sdk-nuget-banking-certificate-stealer/</guid>
+    </item>
+    <item>
       <title>Operation DangerousPassword axios npm compromise</title>
       <link>https://threat.wiki/ops/operation-dangerouspassword-axios-npm-compromise/</link>
       <description>ESET reports Lazarus Operation DangerousPassword activity compromised lead-maintainer credentials for the widely used axios JavaScript package and published malicious npm versions that injected trojanized code into downstream systems before detection and removal.</description>
