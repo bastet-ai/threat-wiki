@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [SafeDep live update on MicrosoftSystem64 / js-logger-pack](../ops/js-logger-pack-hugging-face-exfiltration.md#2026-05-28-safedep-live-infrastructure-update)
 - [TeamPCP extortion ecosystem update](../actors/teampcp.md#extortion-ecosystem-role)

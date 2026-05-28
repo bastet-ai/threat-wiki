@@ -18,11 +18,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI agents](#ai-agents) (1)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
-- [AI tooling](#ai-tooling) (5)
+- [AI tooling](#ai-tooling) (6)
 - [ai-agent](#ai-agent) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
 - [Albania](#albania) (1)
-- [Android](#android) (2)
+- [Android](#android) (3)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
 - [AppDomainManager](#appdomainmanager) (1)
@@ -85,6 +85,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cobalt Strike](#cobalt-strike) (2)
 - [code signing](#code-signing) (2)
 - [Codecov](#codecov) (1)
+- [Codex](#codex) (1)
 - [Coinbase](#coinbase) (1)
 - [command execution](#command-execution) (1)
 - [command-execution](#command-execution) (1)
@@ -97,7 +98,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (6)
-- [credential-theft](#credential-theft) (22)
+- [credential-theft](#credential-theft) (23)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -132,7 +133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deployment_status](#deployment_status) (1)
 - [destructive operations](#destructive-operations) (1)
 - [developer machines](#developer-machines) (3)
-- [developer-targeting](#developer-targeting) (4)
+- [developer-targeting](#developer-targeting) (5)
 - [device registration](#device-registration) (1)
 - [DEWMODE](#dewmode) (1)
 - [Digital Knowledge](#digital-knowledge) (1)
@@ -167,7 +168,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Europe](#europe) (3)
 - [Europol](#europol) (1)
 - [EvilAI](#evilai) (1)
-- [exfiltration](#exfiltration) (2)
+- [exfiltration](#exfiltration) (3)
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
@@ -205,6 +206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Go](#go) (3)
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
+- [Google Play](#google-play) (1)
 - [Grandoreiro](#grandoreiro) (1)
 - [group](#group) (1)
 - [groups](#groups) (5)
@@ -225,7 +227,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [iMessage](#imessage) (1)
 - [incident response](#incident-response) (3)
 - [industrial control](#industrial-control) (1)
-- [infostealer](#infostealer) (3)
+- [infostealer](#infostealer) (4)
 - [infrastructure](#infrastructure) (2)
 - [initial-access](#initial-access) (1)
 - [iOS](#ios) (1)
@@ -262,6 +264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM](#llm) (2)
 - [LMS](#lms) (1)
 - [LNK](#lnk) (1)
+- [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
 - [LONGSTREAM](#longstream) (1)
 - [LS-DYNA](#ls-dyna) (1)
@@ -303,21 +306,23 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (2)
-- [npm](#npm) (19)
+- [npm](#npm) (20)
 - [nuclear weapons](#nuclear-weapons) (1)
+- [OAuth tokens](#oauth-tokens) (1)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
 - [OIDC](#oidc) (2)
 - [Okta](#okta) (2)
 - [Ollama](#ollama) (1)
 - [OneDrive](#onedrive) (1)
+- [OpenAI Codex](#openai-codex) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
 - [OpenVSX](#openvsx) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (57)
+- [operations](#operations) (58)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (54)
+- [ops](#ops) (55)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -371,6 +376,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [recovery denial](#recovery-denial) (1)
 - [recruitment lures](#recruitment-lures) (1)
 - [Redis backdoor](#redis-backdoor) (1)
+- [refresh tokens](#refresh-tokens) (1)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (1)
 - [remote code execution](#remote-code-execution) (1)
@@ -420,6 +426,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOCKS5](#socks5) (2)
 - [software impersonation](#software-impersonation) (1)
 - [source-code compromise](#source-code-compromise) (1)
+- [source-package drift](#source-package-drift) (1)
 - [South Africa](#south-africa) (1)
 - [South Korea](#south-korea) (1)
 - [Southeast Asia](#southeast-asia) (1)
@@ -435,7 +442,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [storage deletion](#storage-deletion) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (40)
+- [supply-chain](#supply-chain) (41)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (2)
@@ -557,6 +564,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
 ## AI tooling
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -573,6 +581,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Handala](../actors/handala.md)
 
 ## Android
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
@@ -801,6 +810,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Codecov
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 
+## Codex
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
@@ -849,6 +861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
@@ -988,6 +1001,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 
 ## developer-targeting
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -1113,6 +1127,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
 ## exfiltration
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 
@@ -1252,6 +1267,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GoEdge
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## Google Play
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+
 ## Grandoreiro
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -1321,6 +1339,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](../tools/fast16.md)
 
 ## infostealer
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -1447,6 +1466,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LNK
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
+## long-lived tokens
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
 ## long-term access
 - [RemotePE](../tools/remotepe.md)
@@ -1594,6 +1616,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -1614,6 +1637,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## nuclear weapons
 - [Fast16](../tools/fast16.md)
 
+## OAuth tokens
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+
 ## obfuscation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -1633,6 +1659,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OneDrive
 - [Webworm](../actors/webworm.md)
+
+## OpenAI Codex
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
 ## OpenConnect
 - [First VPN](../tools/first-vpn.md)
@@ -1664,6 +1693,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -1725,6 +1755,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -1960,6 +1991,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Redis backdoor
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## refresh tokens
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+
 ## release tampering
 - [Trivy compromise](../ops/trivy-compromise.md)
 
@@ -2121,6 +2155,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## source-code compromise
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
+## source-package drift
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+
 ## South Africa
 - [Webworm](../actors/webworm.md)
 
@@ -2177,6 +2214,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
