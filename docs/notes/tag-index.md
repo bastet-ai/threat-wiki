@@ -41,6 +41,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [authentication-coercion](#authentication-coercion) (1)
 - [AUTODYN](#autodyn) (1)
 - [AWS](#aws) (1)
+- [axios](#axios) (1)
 - [Azure](#azure) (2)
 - [Backblaze](#backblaze) (1)
 - [backdoor](#backdoor) (5)
@@ -69,7 +70,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China](#china) (2)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [ChromElevator](#chromelevator) (1)
-- [CI/CD](#cicd) (20)
+- [CI/CD](#cicd) (21)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (2)
 - [Citrine Sleet](#citrine-sleet) (1)
@@ -92,13 +93,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [command-injection](#command-injection) (1)
 - [Composer](#composer) (2)
 - [compromised accounts](#compromised-accounts) (1)
+- [compromised credentials](#compromised-credentials) (1)
 - [ConnectWise](#connectwise) (1)
 - [control panel compromise](#control-panel-compromise) (1)
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (7)
-- [credential-theft](#credential-theft) (23)
+- [credential-theft](#credential-theft) (24)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -134,7 +136,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deployment_status](#deployment_status) (1)
 - [destructive operations](#destructive-operations) (1)
 - [developer machines](#developer-machines) (3)
-- [developer-targeting](#developer-targeting) (5)
+- [developer-targeting](#developer-targeting) (6)
 - [device registration](#device-registration) (1)
 - [DEWMODE](#dewmode) (1)
 - [Digital Knowledge](#digital-knowledge) (1)
@@ -240,6 +242,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Iran](#iran) (5)
 - [Israel](#israel) (2)
 - [Japan](#japan) (1)
+- [JavaScript](#javascript) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
 - [JavaScript malware](#javascript-malware) (1)
@@ -257,7 +260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (1)
 - [launchctl](#launchctl) (1)
-- [Lazarus](#lazarus) (1)
+- [Lazarus](#lazarus) (2)
 - [LD_PRELOAD](#ld_preload) (1)
 - [legacy software](#legacy-software) (1)
 - [liblzma](#liblzma) (1)
@@ -277,6 +280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lua](#lua) (1)
 - [MacCMS](#maccms) (1)
 - [macOS](#macos) (4)
+- [maintainer compromise](#maintainer-compromise) (1)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
@@ -312,8 +316,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nginx module](#nginx-module) (1)
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
-- [North Korea](#north-korea) (2)
-- [npm](#npm) (20)
+- [North Korea](#north-korea) (3)
+- [npm](#npm) (21)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [OAuth tokens](#oauth-tokens) (1)
 - [obfuscation](#obfuscation) (1)
@@ -326,16 +330,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenConnect](#openconnect) (1)
 - [OpenVPN](#openvpn) (1)
 - [OpenVSX](#openvsx) (1)
+- [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (59)
+- [operations](#operations) (60)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (56)
+- [ops](#ops) (57)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
 - [P2P](#p2p) (1)
+- [package registry](#package-registry) (1)
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (2)
 - [page poisoning](#page-poisoning) (1)
@@ -449,7 +455,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [storage deletion](#storage-deletion) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (41)
+- [supply-chain](#supply-chain) (42)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (2)
@@ -649,6 +655,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AWS
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
+## axios
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+
 ## Azure
 - [Fox Tempest](../actors/fox-tempest.md)
 - [ROADtools](../tools/roadtools.md)
@@ -759,6 +768,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -841,6 +851,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## compromised accounts
 - [Ghostwriter](../actors/ghostwriter.md)
 
+## compromised credentials
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+
 ## ConnectWise
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
@@ -887,6 +900,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -1019,6 +1033,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
 ## device registration
 - [ROADtools](../tools/roadtools.md)
@@ -1397,6 +1412,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Japan
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## JavaScript
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+
 ## JavaScript injection
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -1452,6 +1470,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
 ## Lazarus
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [RemotePE](../tools/remotepe.md)
 
 ## LD_PRELOAD
@@ -1519,6 +1538,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+
+## maintainer compromise
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
 ## maintainer persona
 - [JiaT75](../people/jiat75.md)
@@ -1641,6 +1663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## North Korea
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [RemotePE](../tools/remotepe.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
@@ -1660,6 +1683,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -1703,6 +1727,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OpenVSX
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+
+## Operation DangerousPassword
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
 ## operational resilience
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -1754,6 +1781,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -1816,6 +1844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -1846,6 +1875,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## P2P
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
+## package registry
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
 ## package-takeover
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -2270,6 +2302,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
