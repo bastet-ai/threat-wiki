@@ -7,7 +7,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab](#ababil-of-minab) (1)
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
-- [active exploitation](#active-exploitation) (5)
+- [active exploitation](#active-exploitation) (6)
 - [active-exploitation](#active-exploitation) (1)
 - [actors](#actors) (3)
 - [Admin API key theft](#admin-api-key-theft) (1)
@@ -56,7 +56,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [botnet](#botnet) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [Brazil](#brazil) (1)
-- [browser credential theft](#browser-credential-theft) (1)
+- [browser credential theft](#browser-credential-theft) (2)
 - [BTMOB](#btmob) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
@@ -97,7 +97,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
-- [credential theft](#credential-theft) (6)
+- [credential theft](#credential-theft) (7)
 - [credential-theft](#credential-theft) (23)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -115,6 +115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-34291](#cve-2025-34291) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-34926](#cve-2026-34926) (1)
+- [CVE-2026-35616](#cve-2026-35616) (1)
 - [CVE-2026-41091](#cve-2026-41091) (1)
 - [CVE-2026-41940](#cve-2026-41940) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
@@ -153,8 +154,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge appliance](#edge-appliance) (1)
 - [EDR evasion](#edr-evasion) (1)
 - [education](#education) (1)
+- [EKZ Infostealer](#ekz-infostealer) (1)
 - [email](#email) (1)
 - [email gateway](#email-gateway) (1)
+- [endpoint management abuse](#endpoint-management-abuse) (1)
 - [endpoint-security](#endpoint-security) (2)
 - [energy-sector](#energy-sector) (1)
 - [engineering software](#engineering-software) (1)
@@ -175,6 +178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploitation](#exploitation) (3)
 - [extortion](#extortion) (1)
 - [fake plugin](#fake-plugin) (1)
+- [fake update](#fake-update) (1)
 - [FakeCaptcha](#fakecaptcha) (1)
 - [Fakeset](#fakeset) (1)
 - [faketivism](#faketivism) (1)
@@ -191,6 +195,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [financial services](#financial-services) (1)
 - [financial theft](#financial-theft) (3)
 - [Forest Blizzard](#forest-blizzard) (1)
+- [FortiClient EMS](#forticlient-ems) (1)
+- [Fortinet](#fortinet) (1)
 - [Fox Tempest](#fox-tempest) (1)
 - [FTA](#fta) (1)
 - [Funnull](#funnull) (1)
@@ -225,7 +231,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [identity](#identity) (2)
 - [IFEO persistence](#ifeo-persistence) (1)
 - [iMessage](#imessage) (1)
-- [incident response](#incident-response) (3)
+- [incident response](#incident-response) (4)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (4)
 - [infrastructure](#infrastructure) (2)
@@ -279,6 +285,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
+- [management plane](#management-plane) (1)
 - [manufacturing](#manufacturing) (1)
 - [MCP](#mcp) (1)
 - [memory-only malware](#memory-only-malware) (1)
@@ -320,9 +327,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVPN](#openvpn) (1)
 - [OpenVSX](#openvsx) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (58)
+- [operations](#operations) (59)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (55)
+- [ops](#ops) (56)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -349,7 +356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [post-exploitation](#post-exploitation) (1)
 - [PostgreSQL](#postgresql) (1)
 - [postinstall](#postinstall) (3)
-- [PowerShell](#powershell) (1)
+- [PowerShell](#powershell) (2)
 - [PPtP](#pptp) (1)
 - [PRC](#prc) (1)
 - [PRC-aligned](#prc-aligned) (1)
@@ -525,6 +532,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## active exploitation
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -692,6 +700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## browser credential theft
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## BTMOB
@@ -850,6 +859,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## credential theft
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -935,6 +945,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-34926
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
+
+## CVE-2026-35616
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 
 ## CVE-2026-41091
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -1068,11 +1081,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## education
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## EKZ Infostealer
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+
 ## email
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 
 ## email gateway
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+
+## endpoint management abuse
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 
 ## endpoint-security
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -1151,6 +1170,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fake plugin
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## fake update
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+
 ## FakeCaptcha
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
@@ -1200,6 +1222,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Forest Blizzard
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
+## FortiClient EMS
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+
+## Fortinet
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 
 ## Fox Tempest
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -1331,6 +1359,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## incident response
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -1522,6 +1551,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malware-signing-as-a-service
 - [Fox Tempest](../actors/fox-tempest.md)
 
+## management plane
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+
 ## manufacturing
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -1697,6 +1729,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
@@ -1759,6 +1792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
@@ -1891,6 +1925,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
 ## PowerShell
+- [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## PPtP

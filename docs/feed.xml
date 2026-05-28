@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign</title>
+      <link>https://threat.wiki/ops/forticlient-ems-cve-2026-35616-ekz-infostealer/</link>
+      <description>Arctic Wolf reports May 2026 intrusions exploiting CVE-2026-35616 in FortiClient EMS to modify endpoint-management policy, execute PowerShell through FortiClient workflows, and deploy EKZ Infostealer disguised as FortiEndpoint_Patch.exe to harvest browser credentials, cookies, and autofill data from managed endpoints.</description>
+      <pubDate>Thu, 28 May 2026 17:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/forticlient-ems-cve-2026-35616-ekz-infostealer/</guid>
+    </item>
+    <item>
       <title>codexui-android OpenAI token stealer</title>
       <link>https://threat.wiki/ops/codexui-android-openai-token-stealer/</link>
       <description>Aikido Security reports that codexui-android, a legitimate-looking OpenAI Codex remote UI npm package with active development and about 27,000 weekly downloads, shipped npm-only code that read Codex auth.json tokens and posted access, refresh, and ID tokens to sentry.anyclaw.store/startlog; related Android apps bootstrapped the unpinned npm package on launch.</description>
