@@ -5,6 +5,20 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>StegaBin Pastebin-steganography npm campaign</title>
+      <link>https://threat.wiki/ops/stegabin-pastebin-steganography-npm-campaign/</link>
+      <description>Socket reports 26 malicious npm typosquats tied to North Korea's Contagious Interview activity using install scripts, obfuscated vendor/scrypt-js/version.js loaders, Pastebin character-level steganography, Vercel payload infrastructure, and a RAT that deploys nine developer-targeting infostealer modules.</description>
+      <pubDate>Fri, 29 May 2026 01:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/stegabin-pastebin-steganography-npm-campaign/</guid>
+    </item>
+    <item>
+      <title>BlackFile / UNC6671 vishing extortion operation</title>
+      <link>https://threat.wiki/ops/blackfile-unc6671-vishing-extortion/</link>
+      <description>Google Threat Intelligence Group reports UNC6671 / BlackFile uses personal-phone vishing, AiTM SSO credential capture, attacker-controlled MFA-device registration, and SaaS data theft from Microsoft 365, Okta-connected applications, SharePoint, OneDrive, Zendesk, and Salesforce for extortion.</description>
+      <pubDate>Fri, 29 May 2026 01:15:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/blackfile-unc6671-vishing-extortion/</guid>
+    </item>
+    <item>
       <title>Sicoob.Sdk NuGet banking certificate stealer</title>
       <link>https://threat.wiki/ops/sicoob-sdk-nuget-banking-certificate-stealer/</link>
       <description>Socket reports that malicious Sicoob.Sdk NuGet releases 2.0.0 through 2.0.4 impersonated an official Sicoob banking SDK, used a clean GitHub source façade, and exfiltrated client IDs, PFX passwords, base64-encoded PFX certificate archives, and boleto responses through a hardcoded Sentry endpoint.</description>
