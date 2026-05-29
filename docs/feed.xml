@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Socket details axios / plain-crypto-js RAT chain</title>
+      <link>https://threat.wiki/ops/operation-dangerouspassword-axios-npm-compromise/#reported-chain</link>
+      <description>Socket's technical analysis identifies axios@1.14.1 and axios@0.30.4 as suspicious npm publishes that pulled malicious plain-crypto-js@4.2.1 through a postinstall hook, delivered OS-specific RAT payloads from sfrclak.com, erased install-time evidence, and propagated into downstream vendored AI-tooling packages.</description>
+      <pubDate>Fri, 29 May 2026 13:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/operation-dangerouspassword-axios-npm-compromise/#reported-chain</guid>
+    </item>
+    <item>
       <title>vpmdhaj OpenSearch npm cloud-secret stealer</title>
       <link>https://threat.wiki/ops/vpmdhaj-opensearch-npm-cloud-secret-stealer/</link>
       <description>Microsoft reports 14 malicious npm packages published by vpmdhaj that spoofed OpenSearch, Elasticsearch, DevOps, and environment-configuration tooling, executed through preinstall hooks, abused Bun runtime loading, and stole AWS, Vault, npm, GitHub Actions, and CI/CD secrets for cloud lateral movement and downstream package compromise.</description>

@@ -298,7 +298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libpeconv](#libpeconv) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
-- [Linux](#linux) (5)
+- [Linux](#linux) (6)
 - [LiteSpeed](#litespeed) (1)
 - [LLM](#llm) (2)
 - [LMS](#lms) (1)
@@ -309,7 +309,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LS-DYNA](#ls-dyna) (1)
 - [Lua](#lua) (1)
 - [MacCMS](#maccms) (1)
-- [macOS](#macos) (4)
+- [macOS](#macos) (5)
 - [maintainer compromise](#maintainer-compromise) (1)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
@@ -351,6 +351,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (5)
 - [npm](#npm) (23)
+- [npm lifecycle hook](#npm-lifecycle-hook) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (1)
 - [OAuth tokens](#oauth-tokens) (1)
@@ -398,7 +399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Portugal](#portugal) (1)
 - [post-exploitation](#post-exploitation) (1)
 - [PostgreSQL](#postgresql) (1)
-- [postinstall](#postinstall) (3)
+- [postinstall](#postinstall) (4)
 - [PowerShell](#powershell) (2)
 - [PPtP](#pptp) (1)
 - [PRC](#prc) (1)
@@ -419,7 +420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RaaS](#raas) (1)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (3)
-- [RAT](#rat) (10)
+- [RAT](#rat) (11)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [Reality](#reality) (1)
@@ -564,7 +565,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [webshell](#webshell) (1)
 - [Webworm](#webworm) (1)
 - [WHM](#whm) (2)
-- [Windows](#windows) (9)
+- [Windows](#windows) (10)
 - [wiper](#wiper) (2)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (1)
@@ -1662,6 +1663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Showboat](../tools/showboat.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -1701,6 +1703,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
 ## maintainer compromise
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -1866,6 +1869,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+
+## npm lifecycle hook
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
 ## nuclear weapons
 - [Fast16](../tools/fast16.md)
@@ -2153,6 +2159,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## postinstall
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
 ## PowerShell
@@ -2236,6 +2243,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [RemotePE](../tools/remotepe.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -2774,6 +2782,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
