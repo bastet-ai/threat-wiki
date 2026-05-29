@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Permiso ChatGPhish AI-summary phishing surface</title>
+      <link>https://threat.wiki/patterns/ai-augmented-adversary-operations/#operational-shapes-to-watch</link>
+      <description>Permiso reports ChatGPhish, a ChatGPT page-summarization rendering issue where attacker-controlled web-page content can become live Markdown links, auto-fetched remote images, spoofed system-style alerts, and QR-code phish inside the trusted assistant UI.</description>
+      <pubDate>Fri, 29 May 2026 19:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/ai-augmented-adversary-operations/#chatgphish</guid>
+    </item>
+    <item>
       <title>Marimo CVE-2026-39987 LLM-agent post-exploitation</title>
       <link>https://threat.wiki/ops/marimo-cve-2026-39987-llm-agent-post-exploitation/</link>
       <description>Sysdig reports a May 2026 intrusion where an actor exploited marimo CVE-2026-39987, harvested cloud credentials, used Cloudflare Workers egress to retrieve an SSH key from AWS Secrets Manager, and used an LLM-agent-shaped command loop to dump an internal PostgreSQL database through a bastion.</description>

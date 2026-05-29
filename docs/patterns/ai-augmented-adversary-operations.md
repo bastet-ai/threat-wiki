@@ -1,7 +1,7 @@
 # AI-augmented adversary operations
 
 ## Summary
-Google Threat Intelligence Group's May 2026 AI Threat Tracker documents a transition from experimental AI misuse toward repeatable adversary workflows: AI-supported vulnerability research, AI-assisted exploit development, AI-generated obfuscation, LLM-driven malware interaction with victim environments, adversary access-brokerage for model abuse, and AI software supply-chain attacks. WithSecure's GREYVIBE reporting adds a concrete Russia-nexus case where AI appears operationally integrated across lure generation, loader and obfuscator development, backend setup, and post-compromise scripting. Sysdig's marimo CVE-2026-39987 case adds a cloud post-exploitation example where an LLM agent appears to compose live commands, consume prior output, pivot through AWS Secrets Manager, and dump an internal database.
+Google Threat Intelligence Group's May 2026 AI Threat Tracker documents a transition from experimental AI misuse toward repeatable adversary workflows: AI-supported vulnerability research, AI-assisted exploit development, AI-generated obfuscation, LLM-driven malware interaction with victim environments, adversary access-brokerage for model abuse, and AI software supply-chain attacks. WithSecure's GREYVIBE reporting adds a concrete Russia-nexus case where AI appears operationally integrated across lure generation, loader and obfuscator development, backend setup, and post-compromise scripting. Sysdig's marimo CVE-2026-39987 case adds a cloud post-exploitation example where an LLM agent appears to compose live commands, consume prior output, pivot through AWS Secrets Manager, and dump an internal database. Permiso's ChatGPhish research adds a user-facing AI-rendering primitive: attacker-controlled web-page content can become trusted Markdown links, images, spoofed alerts, and QR-code phish inside ChatGPT summarization output.
 
 The durable defender lesson is that AI is now part of the operational fabric for multiple actor types rather than only a novelty. Treat AI use as a force multiplier across existing intrusion patterns: faster vulnerability triage, more scalable exploit validation, easier malware refactoring, synthetic social-engineering content, and new initial-access paths through ML and AI-tooling dependencies.
 
@@ -48,12 +48,14 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - **LLM-agent post-exploitation:** operators may feed shell, cloud, and database output back into an agent loop that selects the next command, extracts credentials, chooses cloud secrets, and improvises table dumps without a target-specific playbook.
 - **Obfuscated model access:** adversaries may use account farms, middleware, premium-access resale, or registration automation to evade provider controls and sustain model abuse.
 - **AI supply-chain initial access:** compromised AI packages, model-serving tools, MCP-style integrations, IDE plugins, or workflow automation can expose secrets and provide a bridge into cloud, SaaS, and internal networks.
+- **AI-rendered phishing surfaces:** attacker-controlled web pages, documentation, READMEs, or internal portal text may be summarized into trusted assistant output. When the assistant UI preserves live Markdown links, auto-fetched images, or QR codes from untrusted page content, the page becomes a delivery primitive for beaconing, origin-confusing links, spoofed security notices, and mobile-pivot phishing.
 
 ## Defender heuristics
 - Log and review AI-service API usage from endpoints, CI runners, developer workstations, mobile apps, and unusual server processes; unexpected model calls from malware-prone contexts should be treated as suspicious.
 - Extend software-supply-chain controls to AI tooling: pin packages, restrict install scripts, review MCP/agent permissions, isolate model-serving runtimes, and rotate credentials after package or extension compromises.
 - Hunt for code and script artifacts with generated-looking exploit scaffolding only as a triage aid; do not treat style alone as attribution or proof of AI use.
 - In shell and bastion telemetry, watch for agent-friendly command transcripts: repeated delimiters such as `echo '---'`, stderr suppression, `head -N` output caps, pager disabling, HEREDOC query bundles, and rapid output-to-input value handoffs.
+- Treat browser/page summarization as an untrusted-content boundary: strip or label assistant-rendered links and remote images from page input, disable automatic remote-image fetching where possible, warn users when output links originate from summarized content, and block QR-code login/payment flows launched from AI summaries.
 - Add detections for accessibility-service abuse, structured UI serialization, hardcoded model prompts, model API keys in mobile malware, and network calls to model endpoints from nonstandard processes.
 - Treat AI-enabled obfuscation as a reason to preserve full execution context: memory, process ancestry, API traces, prompts/configuration, and model-request telemetry may explain behavior that static samples hide.
 - When investigating AI-package compromises, look beyond credential theft to lateral movement, repository cloning, workflow-log deletion, cloud runtime abuse, and extortion staging.
@@ -71,3 +73,5 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - Google Cloud / Google Threat Intelligence Group: https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access
 - WithSecure Labs: https://labs.withsecure.com/publications/greyvibe
 - Sysdig Threat Research: https://www.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots
+- Permiso Security: https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability
+- The Hacker News: https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html
