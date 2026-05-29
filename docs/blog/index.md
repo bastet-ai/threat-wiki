@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)

@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [The Gentlemen ransomware](tools/the-gentlemen-ransomware.md)
 - [StegaBin Pastebin-steganography npm campaign](ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](ops/blackfile-unc6671-vishing-extortion.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](ops/sicoob-sdk-nuget-banking-certificate-stealer.md)

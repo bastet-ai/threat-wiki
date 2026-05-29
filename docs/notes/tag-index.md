@@ -47,6 +47,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure](#azure) (2)
 - [Backblaze](#backblaze) (1)
 - [backdoor](#backdoor) (5)
+- [backup disruption](#backup-disruption) (1)
 - [backups](#backups) (1)
 - [banking](#banking) (1)
 - [banking malware](#banking-malware) (1)
@@ -61,6 +62,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [botnet](#botnet) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [Brazil](#brazil) (1)
+- [BreachForums](#breachforums) (1)
 - [browser credential theft](#browser-credential-theft) (2)
 - [BTMOB](#btmob) (1)
 - [build-time compromise](#build-time-compromise) (1)
@@ -115,6 +117,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (1)
 - [Curious Serpens](#curious-serpens) (1)
+- [Curve25519](#curve25519) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
 - [CVE-2024-1708](#cve-2024-1708) (1)
@@ -130,11 +133,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-48172](#cve-2026-48172) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
-- [cybercrime](#cybercrime) (4)
+- [cybercrime](#cybercrime) (5)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (1)
 - [data exfiltration](#data-exfiltration) (1)
 - [data theft](#data-theft) (2)
-- [Defender evasion](#defender-evasion) (1)
+- [Defender evasion](#defender-evasion) (2)
 - [defense evasion](#defense-evasion) (2)
 - [DeFi](#defi) (4)
 - [Deno](#deno) (1)
@@ -153,6 +156,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DLL sideloading](#dll-sideloading) (4)
 - [DNS C2](#dns-c2) (1)
 - [Docker](#docker) (1)
+- [double extortion](#double-extortion) (1)
 - [DPAPI](#dpapi) (1)
 - [DPAPILoader](#dpapiloader) (1)
 - [DPRK](#dprk) (1)
@@ -209,6 +213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](#fox-tempest) (1)
 - [FTA](#fta) (1)
 - [Funnull](#funnull) (1)
+- [Garble](#garble) (1)
 - [GCS](#gcs) (1)
 - [Ghost CMS](#ghost-cms) (1)
 - [GitHub](#github) (8)
@@ -218,7 +223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub tokens](#github-tokens) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
 - [gleeze.com](#gleezecom) (1)
-- [Go](#go) (3)
+- [Go](#go) (4)
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
 - [Google Play](#google-play) (1)
@@ -265,6 +270,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LA Metro](#la-metro) (1)
 - [Langflow](#langflow) (1)
 - [Laravel](#laravel) (1)
+- [lateral movement](#lateral-movement) (1)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (1)
 - [launchctl](#launchctl) (1)
@@ -293,7 +299,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malvertising](#malvertising) (1)
-- [malware](#malware) (8)
+- [malware](#malware) (9)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
@@ -392,8 +398,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (5)
 - [Python](#python) (2)
+- [RaaS](#raas) (1)
 - [RAM disk](#ram-disk) (1)
-- [ransomware](#ransomware) (2)
+- [ransomware](#ransomware) (3)
 - [RAT](#rat) (10)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
@@ -403,6 +410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [recruitment lures](#recruitment-lures) (1)
 - [Redis backdoor](#redis-backdoor) (1)
 - [refresh tokens](#refresh-tokens) (1)
+- [registry persistence](#registry-persistence) (1)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (1)
 - [remote code execution](#remote-code-execution) (1)
@@ -429,11 +437,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Safari](#safari) (1)
 - [Salesforce](#salesforce) (1)
 - [ScarCruft](#scarcruft) (1)
+- [scheduled tasks](#scheduled-tasks) (1)
 - [ScreenConnect](#screenconnect) (2)
 - [script-injection](#script-injection) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (3)
 - [Seedworm](#seedworm) (1)
+- [self-propagation](#self-propagation) (1)
 - [sendit.sh](#senditsh) (1)
 - [Sentry abuse](#sentry-abuse) (1)
 - [SEO poisoning](#seo-poisoning) (1)
@@ -472,6 +482,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Static Kitten](#static-kitten) (1)
 - [stealer](#stealer) (1)
 - [storage deletion](#storage-deletion) (1)
+- [Storm-2697](#storm-2697) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [supply-chain](#supply-chain) (44)
@@ -486,11 +497,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telecom](#telecom) (1)
 - [Telegram](#telegram) (2)
 - [Temp Zagros](#temp-zagros) (1)
+- [The Gentlemen](#the-gentlemen) (1)
 - [tj-actions](#tj-actions) (1)
 - [token replay](#token-replay) (1)
 - [token theft](#token-theft) (2)
 - [tooling](#tooling) (5)
-- [tools](#tools) (6)
+- [tools](#tools) (7)
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
 - [transnational repression](#transnational-repression) (1)
@@ -531,13 +543,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [webshell](#webshell) (1)
 - [Webworm](#webworm) (1)
 - [WHM](#whm) (2)
-- [Windows](#windows) (8)
+- [Windows](#windows) (9)
 - [wiper](#wiper) (2)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
 - [worm](#worm) (6)
 - [X_TRADER](#x_trader) (1)
+- [XChaCha20](#xchacha20) (1)
 - [XMRig](#xmrig) (1)
 - [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
@@ -701,6 +714,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Showboat](../tools/showboat.md)
 
+## backup disruption
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## backups
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
@@ -742,6 +758,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Brazil
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
+## BreachForums
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## browser credential theft
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -978,6 +997,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Curious Serpens
 - [ROADtools](../tools/roadtools.md)
 
+## Curve25519
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## CVE-2023-2868
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
@@ -1029,6 +1051,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [JINX-0164](../actors/jinx-0164.md)
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## cybercrime ecosystem
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -1042,6 +1065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Defender evasion
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## defense evasion
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -1112,6 +1136,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Docker
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+
+## double extortion
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## DPAPI
 - [RemotePE](../tools/remotepe.md)
@@ -1302,6 +1329,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Funnull
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## Garble
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## GCS
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 
@@ -1352,6 +1382,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## Godzilla
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -1514,6 +1545,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Laravel
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 
+## lateral movement
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## lateral-movement
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
@@ -1618,6 +1652,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## malware delivery
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -2099,12 +2134,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
+## RaaS
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## RAM disk
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## ransomware
 - [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## RAT
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
@@ -2141,6 +2180,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## refresh tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+
+## registry persistence
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## release tampering
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -2222,6 +2264,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ScarCruft
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
+## scheduled tasks
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## ScreenConnect
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
@@ -2239,6 +2284,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Seedworm
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## self-propagation
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## sendit.sh
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -2364,6 +2412,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## storage deletion
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## Storm-2697
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## STUN
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -2458,6 +2509,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Temp Zagros
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## The Gentlemen
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## tj-actions
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
@@ -2482,6 +2536,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## Trading Technologies
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -2625,6 +2680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## wiper
 - [Handala](../actors/handala.md)
@@ -2649,6 +2705,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## X_TRADER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+
+## XChaCha20
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## XMRig
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)

@@ -69,6 +69,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - The Gentlemen ransomware: tools/the-gentlemen-ransomware.md
       - Fast16: tools/fast16.md
       - forge-jsxy: tools/forge-jsxy.md
       - RemotePE: tools/remotepe.md
