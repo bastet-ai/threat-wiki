@@ -29,12 +29,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [API abuse](#api-abuse) (1)
 - [AppDomainManager](#appdomainmanager) (1)
 - [AppleJeus](#applejeus) (1)
+- [AppleSeed](#appleseed) (1)
 - [appliance](#appliance) (1)
 - [APT](#apt) (2)
 - [APT27](#apt27) (1)
 - [APT28](#apt28) (1)
 - [APT29](#apt29) (1)
 - [APT37](#apt37) (1)
+- [APT43](#apt43) (1)
 - [APT45](#apt45) (1)
 - [Artifact Signing](#artifact-signing) (1)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
@@ -88,6 +90,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud](#cloud) (4)
 - [cloud secrets](#cloud-secrets) (2)
 - [Cloudflare](#cloudflare) (1)
+- [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Workers](#cloudflare-workers) (1)
 - [CMS](#cms) (2)
 - [Cobalt Strike](#cobalt-strike) (2)
@@ -138,6 +141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data exfiltration](#data-exfiltration) (1)
 - [data theft](#data-theft) (2)
 - [Defender evasion](#defender-evasion) (2)
+- [defense](#defense) (1)
 - [defense evasion](#defense-evasion) (2)
 - [DeFi](#defi) (4)
 - [Deno](#deno) (1)
@@ -161,6 +165,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DPAPILoader](#dpapiloader) (1)
 - [DPRK](#dprk) (1)
 - [Drupal](#drupal) (1)
+- [DWAgent](#dwagent) (1)
 - [dynamic DNS](#dynamic-dns) (1)
 - [Dynu](#dynu) (1)
 - [edge appliance](#edge-appliance) (1)
@@ -169,6 +174,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [EKZ Infostealer](#ekz-infostealer) (1)
 - [email](#email) (1)
 - [email gateway](#email-gateway) (1)
+- [Emerald Sleet](#emerald-sleet) (1)
 - [endpoint management abuse](#endpoint-management-abuse) (1)
 - [endpoint-security](#endpoint-security) (2)
 - [energy-sector](#energy-sector) (1)
@@ -177,7 +183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environment variables](#environment-variables) (1)
 - [environmental keying](#environmental-keying) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (11)
+- [espionage](#espionage) (12)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -227,16 +233,21 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
 - [Google Play](#google-play) (1)
+- [government](#government) (1)
 - [Grandoreiro](#grandoreiro) (1)
 - [group](#group) (1)
 - [groups](#groups) (5)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
+- [HappyDoor](#happydoor) (1)
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
+- [HelloDoor](#hellodoor) (1)
 - [HellsGate](#hellsgate) (1)
 - [high explosives](#high-explosives) (1)
 - [HONESTCUE](#honestcue) (1)
+- [HttpMalice](#httpmalice) (1)
+- [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (2)
 - [ICE](#ice) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
@@ -262,9 +273,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript tampering](#javascript-tampering) (1)
 - [JINX-0164](#jinx-0164) (2)
 - [JSON:API](#jsonapi) (1)
+- [JSONPing](#jsonping) (1)
 - [kernel driver](#kernel-driver) (1)
 - [KEV](#kev) (2)
 - [keylogger](#keylogger) (2)
+- [Kimsuky](#kimsuky) (1)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
@@ -333,7 +346,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nginx module](#nginx-module) (1)
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
-- [North Korea](#north-korea) (4)
+- [North Korea](#north-korea) (5)
 - [npm](#npm) (22)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (1)
@@ -367,6 +380,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patterns](#patterns) (2)
 - [payment fraud](#payment-fraud) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
+- [PebbleDash](#pebbledash) (1)
 - [people](#people) (1)
 - [persistence](#persistence) (12)
 - [PhaaS](#phaas) (1)
@@ -470,8 +484,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
 - [South Africa](#south-africa) (1)
-- [South Korea](#south-korea) (1)
+- [South Korea](#south-korea) (2)
 - [Southeast Asia](#southeast-asia) (1)
+- [spear phishing](#spear-phishing) (1)
 - [spearphishing](#spearphishing) (1)
 - [SQL injection](#sql-injection) (2)
 - [SSH](#ssh) (1)
@@ -486,6 +501,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [supply-chain](#supply-chain) (44)
+- [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [takedown](#takedown) (2)
@@ -527,6 +543,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VLESS](#vless) (1)
 - [VPN](#vpn) (1)
 - [VS Code](#vs-code) (3)
+- [VS Code tunnels](#vs-code-tunnels) (1)
 - [vulnerability](#vulnerability) (2)
 - [vulnerability-research](#vulnerability-research) (1)
 - [wallet replacement](#wallet-replacement) (1)
@@ -653,6 +670,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AppleJeus
 - [RemotePE](../tools/remotepe.md)
 
+## AppleSeed
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
 ## appliance
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
@@ -671,6 +691,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## APT37
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
+## APT43
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## APT45
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -867,6 +890,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cloudflare
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+
+## Cloudflare tunnels
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## Cloudflare Workers
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -1067,6 +1093,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## defense
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
 ## defense evasion
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [ROADtools](../tools/roadtools.md)
@@ -1152,6 +1181,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Drupal
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
+## DWAgent
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
 ## dynamic DNS
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
@@ -1175,6 +1207,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## email gateway
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+
+## Emerald Sleet
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## endpoint management abuse
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -1206,6 +1241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [Ghostwriter](../actors/ghostwriter.md)
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -1393,6 +1429,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Google Play
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
+## government
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
 ## Grandoreiro
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -1412,11 +1451,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hacktivist persona
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## HappyDoor
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
 ## HAR files
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## hard-coded secrets
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## HelloDoor
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## HellsGate
 - [RemotePE](../tools/remotepe.md)
@@ -1426,6 +1471,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HONESTCUE
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## HttpMalice
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
+## HTTPSpy
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## Hugging Face
 - [forge-jsxy](../tools/forge-jsxy.md)
@@ -1519,6 +1570,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JSON:API
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
+## JSONPing
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
 ## kernel driver
 - [Fast16](../tools/fast16.md)
 
@@ -1529,6 +1583,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## keylogger
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+
+## Kimsuky
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## KnowledgeDeliver
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -1762,6 +1819,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## North Korea
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [RemotePE](../tools/remotepe.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -2013,6 +2071,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pe_to_shellcode
 - [RemotePE](../tools/remotepe.md)
+
+## PebbleDash
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## people
 - [JiaT75](../people/jiat75.md)
@@ -2376,10 +2437,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](../actors/webworm.md)
 
 ## South Korea
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Southeast Asia
 - [Showboat](../tools/showboat.md)
+
+## spear phishing
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## spearphishing
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -2466,6 +2531,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## TA427
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## tag rewrite
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -2616,6 +2684,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+
+## VS Code tunnels
+- [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## vulnerability
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)

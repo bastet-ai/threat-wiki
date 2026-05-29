@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Kimsuky / Emerald Sleet / TA427](actors/kimsuky-emerald-sleet-ta427.md)
 - [The Gentlemen ransomware](tools/the-gentlemen-ransomware.md)
 - [StegaBin Pastebin-steganography npm campaign](ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](ops/blackfile-unc6671-vishing-extortion.md)

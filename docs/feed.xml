@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Kimsuky / Emerald Sleet / TA427</title>
+      <link>https://threat.wiki/actors/kimsuky-emerald-sleet-ta427/</link>
+      <description>Kaspersky and ENKI report that Kimsuky continues to expand PebbleDash and AppleSeed tooling, including HelloDoor, HttpMalice, HTTPSpy delivery chains, JSONPing infection checks, VS Code Remote Tunnel abuse, DWAgent, and Cloudflare Quick Tunnels against South Korean public, private, military, and corporate targets.</description>
+      <pubDate>Fri, 29 May 2026 07:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/kimsuky-emerald-sleet-ta427/</guid>
+    </item>
+    <item>
       <title>The Gentlemen ransomware</title>
       <link>https://threat.wiki/tools/the-gentlemen-ransomware/</link>
       <description>Microsoft Threat Intelligence reports The Gentlemen as a Storm-2697-operated Windows RaaS encryptor written in Go and obfuscated with Garble, combining double extortion, Curve25519 / XChaCha20 per-file encryption, Defender and backup disruption, scheduled-task / Run-key persistence, and self-propagation across local drives and network shares.</description>
