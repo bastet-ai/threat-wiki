@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [GREYVIBE Russia-nexus AI-assisted Ukraine operations](actors/greyvibe.md)
 - [Socket details axios / plain-crypto-js RAT chain](ops/operation-dangerouspassword-axios-npm-compromise.md#reported-chain)
 - [Kimsuky / Emerald Sleet / TA427](actors/kimsuky-emerald-sleet-ta427.md)
 - [The Gentlemen ransomware](tools/the-gentlemen-ransomware.md)

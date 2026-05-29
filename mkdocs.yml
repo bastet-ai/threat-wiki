@@ -79,6 +79,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - GREYVIBE: actors/greyvibe.md
       - Kimsuky / Emerald Sleet / TA427: actors/kimsuky-emerald-sleet-ta427.md
       - JINX-0164: actors/jinx-0164.md
       - APT29: actors/apt29-cozy-bear-midnight-blizzard.md

@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>GREYVIBE Russia-nexus AI-assisted Ukraine operations</title>
+      <link>https://threat.wiki/actors/greyvibe/</link>
+      <description>WithSecure reports GREYVIBE as a Russia-nexus cluster targeting Ukraine and Ukraine-related entities with spear-phishing, ClickFix-style fake CAPTCHA pages, fake adult-club and drone-charity lures, PhantomRelay, FallSpy, LegionRelay, custom obfuscators, and systematic AI assistance across lures, infrastructure, malware development, and post-compromise scripts.</description>
+      <pubDate>Fri, 29 May 2026 15:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/greyvibe/</guid>
+    </item>
+    <item>
       <title>Socket details axios / plain-crypto-js RAT chain</title>
       <link>https://threat.wiki/ops/operation-dangerouspassword-axios-npm-compromise/#reported-chain</link>
       <description>Socket's technical analysis identifies axios@1.14.1 and axios@0.30.4 as suspicious npm publishes that pulled malicious plain-crypto-js@4.2.1 through a postinstall hook, delivered OS-specific RAT payloads from sfrclak.com, erased install-time evidence, and propagated into downstream vendored AI-tooling packages.</description>
