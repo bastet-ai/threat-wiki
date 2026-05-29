@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [GREYVIBE Russia-nexus AI-assisted Ukraine operations](../actors/greyvibe.md)
 - [Socket details axios / plain-crypto-js RAT chain](../ops/operation-dangerouspassword-axios-npm-compromise.md#reported-chain)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)

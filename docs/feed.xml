@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Marimo CVE-2026-39987 LLM-agent post-exploitation</title>
+      <link>https://threat.wiki/ops/marimo-cve-2026-39987-llm-agent-post-exploitation/</link>
+      <description>Sysdig reports a May 2026 intrusion where an actor exploited marimo CVE-2026-39987, harvested cloud credentials, used Cloudflare Workers egress to retrieve an SSH key from AWS Secrets Manager, and used an LLM-agent-shaped command loop to dump an internal PostgreSQL database through a bastion.</description>
+      <pubDate>Fri, 29 May 2026 17:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/marimo-cve-2026-39987-llm-agent-post-exploitation/</guid>
+    </item>
+    <item>
       <title>GREYVIBE Russia-nexus AI-assisted Ukraine operations</title>
       <link>https://threat.wiki/actors/greyvibe/</link>
       <description>WithSecure reports GREYVIBE as a Russia-nexus cluster targeting Ukraine and Ukraine-related entities with spear-phishing, ClickFix-style fake CAPTCHA pages, fake adult-club and drone-charity lures, PhantomRelay, FallSpy, LegionRelay, custom obfuscators, and systematic AI assistance across lures, infrastructure, malware development, and post-compromise scripts.</description>

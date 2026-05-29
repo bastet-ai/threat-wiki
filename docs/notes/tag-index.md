@@ -17,7 +17,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [adversary-in-the-middle](#adversary-in-the-middle) (1)
 - [adware](#adware) (1)
 - [AI](#ai) (3)
-- [AI agents](#ai-agents) (1)
+- [AI agents](#ai-agents) (2)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI tooling](#ai-tooling) (6)
@@ -47,6 +47,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [authentication-coercion](#authentication-coercion) (1)
 - [AUTODYN](#autodyn) (1)
 - [AWS](#aws) (2)
+- [AWS Secrets Manager](#aws-secrets-manager) (1)
 - [axios](#axios) (1)
 - [Azure](#azure) (2)
 - [Backblaze](#backblaze) (1)
@@ -91,10 +92,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix](#clickfix) (3)
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (4)
+- [cloud credential theft](#cloud-credential-theft) (2)
 - [cloud secrets](#cloud-secrets) (3)
 - [Cloudflare](#cloudflare) (1)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
-- [Cloudflare Workers](#cloudflare-workers) (1)
+- [Cloudflare Workers](#cloudflare-workers) (2)
 - [CMS](#cms) (2)
 - [Cobalt Strike](#cobalt-strike) (2)
 - [code signing](#code-signing) (2)
@@ -133,6 +135,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-34926](#cve-2026-34926) (1)
 - [CVE-2026-35616](#cve-2026-35616) (1)
+- [CVE-2026-39987](#cve-2026-39987) (1)
 - [CVE-2026-41091](#cve-2026-41091) (1)
 - [CVE-2026-41940](#cve-2026-41940) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
@@ -199,7 +202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
-- [exploitation](#exploitation) (3)
+- [exploitation](#exploitation) (4)
 - [extortion](#extortion) (2)
 - [fake CAPTCHA](#fake-captcha) (1)
 - [fake dating lures](#fake-dating-lures) (1)
@@ -310,7 +313,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LinkedIn](#linkedin) (2)
 - [Linux](#linux) (6)
 - [LiteSpeed](#litespeed) (1)
-- [LLM](#llm) (3)
+- [LLM](#llm) (4)
 - [LMS](#lms) (1)
 - [LNK](#lnk) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
@@ -333,6 +336,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [management plane](#management-plane) (1)
 - [manufacturing](#manufacturing) (1)
+- [marimo](#marimo) (1)
 - [MCP](#mcp) (1)
 - [memory-only malware](#memory-only-malware) (1)
 - [MFA bypass](#mfa-bypass) (4)
@@ -381,9 +385,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (64)
+- [operations](#operations) (65)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (61)
+- [ops](#ops) (62)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -413,8 +417,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket](#polymarket) (1)
 - [portmap](#portmap) (1)
 - [Portugal](#portugal) (1)
-- [post-exploitation](#post-exploitation) (1)
-- [PostgreSQL](#postgresql) (1)
+- [post-exploitation](#post-exploitation) (3)
+- [PostgreSQL](#postgresql) (2)
 - [postinstall](#postinstall) (4)
 - [PowerShell](#powershell) (3)
 - [PPtP](#pptp) (1)
@@ -515,6 +519,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spearphishing](#spearphishing) (1)
 - [SQL injection](#sql-injection) (2)
 - [SSH](#ssh) (1)
+- [SSH bastion](#ssh-bastion) (1)
 - [SSH key persistence](#ssh-key-persistence) (1)
 - [SSH persistence](#ssh-persistence) (1)
 - [SSRF](#ssrf) (1)
@@ -661,6 +666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI agents
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
 ## AI chatbot abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -758,6 +764,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AWS
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+
+## AWS Secrets Manager
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
 ## axios
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -929,6 +938,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](../actors/webworm.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
+## cloud credential theft
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
+
 ## cloud secrets
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
@@ -941,6 +954,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## Cloudflare Workers
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
 ## CMS
@@ -1100,6 +1114,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-35616
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+
+## CVE-2026-39987
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
 ## CVE-2026-41091
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -1341,6 +1358,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## exploitation
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
@@ -1734,6 +1752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LLM
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## LMS
@@ -1813,6 +1832,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## manufacturing
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## marimo
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
 ## MCP
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -2035,6 +2057,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -2102,6 +2125,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -2231,10 +2255,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## post-exploitation
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Showboat](../tools/showboat.md)
 
 ## PostgreSQL
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
 ## postinstall
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -2581,6 +2608,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SSH
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## SSH bastion
+- [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
 ## SSH key persistence
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)

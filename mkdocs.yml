@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Marimo CVE-2026-39987 LLM-agent post-exploitation: ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md
       - StegaBin Pastebin-steganography npm campaign: ops/stegabin-pastebin-steganography-npm-campaign.md
       - BlackFile / UNC6671 vishing extortion operation: ops/blackfile-unc6671-vishing-extortion.md
       - Sicoob.Sdk NuGet banking certificate stealer: ops/sicoob-sdk-nuget-banking-certificate-stealer.md
