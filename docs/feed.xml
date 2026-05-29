@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>PAN-OS GlobalProtect CVE-2026-0257 active exploitation</title>
+      <link>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/</link>
+      <description>Palo Alto Networks and CISA report active exploitation of CVE-2026-0257, a GlobalProtect portal and gateway authentication-bypass flaw in PAN-OS that can let attackers establish unauthorized VPN connections when authentication-override cookies are enabled with the vulnerable certificate configuration.</description>
+      <pubDate>Fri, 29 May 2026 21:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/</guid>
+    </item>
+    <item>
       <title>Permiso ChatGPhish AI-summary phishing surface</title>
       <link>https://threat.wiki/patterns/ai-augmented-adversary-operations/#operational-shapes-to-watch</link>
       <description>Permiso reports ChatGPhish, a ChatGPT page-summarization rendering issue where attacker-controlled web-page content can become live Markdown links, auto-fetched remote images, spoofed system-style alerts, and QR-code phish inside the trusted assistant UI.</description>

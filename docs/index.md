@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [PAN-OS GlobalProtect CVE-2026-0257 active exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Permiso ChatGPhish AI-summary phishing surface](patterns/ai-augmented-adversary-operations.md#operational-shapes-to-watch)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [GREYVIBE Russia-nexus AI-assisted Ukraine operations](actors/greyvibe.md)

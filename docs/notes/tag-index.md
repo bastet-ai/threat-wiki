@@ -9,7 +9,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab](#ababil-of-minab) (1)
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
-- [active exploitation](#active-exploitation) (6)
+- [active exploitation](#active-exploitation) (7)
 - [active-exploitation](#active-exploitation) (1)
 - [actors](#actors) (3)
 - [Admin API key theft](#admin-api-key-theft) (1)
@@ -43,7 +43,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Artifact Signing](#artifact-signing) (1)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [AUDIOFIX](#audiofix) (2)
-- [authentication bypass](#authentication-bypass) (1)
+- [authentication bypass](#authentication-bypass) (2)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AUTODYN](#autodyn) (1)
 - [AWS](#aws) (2)
@@ -132,6 +132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-1709](#cve-2024-1709) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [CVE-2025-34291](#cve-2025-34291) (1)
+- [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-34926](#cve-2026-34926) (1)
 - [CVE-2026-35616](#cve-2026-35616) (1)
@@ -176,7 +177,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DWAgent](#dwagent) (1)
 - [dynamic DNS](#dynamic-dns) (1)
 - [Dynu](#dynu) (1)
-- [edge appliance](#edge-appliance) (1)
+- [edge appliance](#edge-appliance) (2)
 - [EDR evasion](#edr-evasion) (1)
 - [education](#education) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
@@ -241,6 +242,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub tokens](#github-tokens) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
 - [gleeze.com](#gleezecom) (1)
+- [GlobalProtect](#globalprotect) (1)
 - [Go](#go) (4)
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
@@ -272,7 +274,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IFEO persistence](#ifeo-persistence) (1)
 - [iMessage](#imessage) (1)
 - [impersonation](#impersonation) (1)
-- [incident response](#incident-response) (4)
+- [incident response](#incident-response) (5)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (5)
 - [infrastructure](#infrastructure) (2)
@@ -385,9 +387,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (65)
+- [operations](#operations) (66)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (62)
+- [ops](#ops) (63)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -398,6 +400,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (2)
 - [page poisoning](#page-poisoning) (1)
+- [Palo Alto Networks](#palo-alto-networks) (1)
+- [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
 - [patterns](#patterns) (2)
 - [payment fraud](#payment-fraud) (1)
@@ -574,7 +578,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [virtualization](#virtualization) (1)
 - [vishing](#vishing) (1)
 - [VLESS](#vless) (1)
-- [VPN](#vpn) (1)
+- [VPN](#vpn) (2)
 - [VS Code](#vs-code) (3)
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [vulnerability](#vulnerability) (2)
@@ -638,6 +642,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## active-exploitation
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
@@ -754,6 +759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## authentication bypass
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## authentication-coercion
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
@@ -1106,6 +1112,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2025-34291
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 
+## CVE-2026-0257
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+
 ## CVE-2026-26980
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
@@ -1263,6 +1272,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## edge appliance
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## EDR evasion
 - [RemotePE](../tools/remotepe.md)
@@ -1499,6 +1509,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## gleeze.com
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
+## GlobalProtect
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+
 ## Go
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -1607,6 +1620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## industrial control
 - [Fast16](../tools/fast16.md)
@@ -2068,6 +2082,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -2136,6 +2151,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -2182,6 +2198,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## page poisoning
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
+## Palo Alto Networks
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+
+## PAN-OS
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## Pastebin
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -2848,6 +2870,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VPN
 - [First VPN](../tools/first-vpn.md)
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## VS Code
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)

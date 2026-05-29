@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - PAN-OS GlobalProtect CVE-2026-0257 exploitation: ops/pan-os-globalprotect-cve-2026-0257-exploitation.md
       - Marimo CVE-2026-39987 LLM-agent post-exploitation: ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md
       - StegaBin Pastebin-steganography npm campaign: ops/stegabin-pastebin-steganography-npm-campaign.md
       - BlackFile / UNC6671 vishing extortion operation: ops/blackfile-unc6671-vishing-extortion.md
