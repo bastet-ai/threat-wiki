@@ -11,6 +11,7 @@ Short updates, summaries, and notable threat writeups.
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [SafeDep live update on MicrosoftSystem64 / js-logger-pack](../ops/js-logger-pack-hugging-face-exfiltration.md#2026-05-28-safedep-live-infrastructure-update)
 - [TeamPCP extortion ecosystem update](../actors/teampcp.md#extortion-ecosystem-role)

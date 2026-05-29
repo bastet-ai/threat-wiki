@@ -44,7 +44,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [authentication bypass](#authentication-bypass) (1)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AUTODYN](#autodyn) (1)
-- [AWS](#aws) (1)
+- [AWS](#aws) (2)
 - [axios](#axios) (1)
 - [Azure](#azure) (2)
 - [Backblaze](#backblaze) (1)
@@ -69,6 +69,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BTMOB](#btmob) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
+- [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [C2](#c2) (4)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
@@ -79,7 +80,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China](#china) (2)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [ChromElevator](#chromelevator) (1)
-- [CI/CD](#cicd) (21)
+- [CI/CD](#cicd) (22)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (2)
 - [Citrine Sleet](#citrine-sleet) (1)
@@ -88,7 +89,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix](#clickfix) (2)
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (4)
-- [cloud secrets](#cloud-secrets) (2)
+- [cloud secrets](#cloud-secrets) (3)
 - [Cloudflare](#cloudflare) (1)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Workers](#cloudflare-workers) (1)
@@ -111,7 +112,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (7)
-- [credential-theft](#credential-theft) (26)
+- [credential-theft](#credential-theft) (27)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -172,6 +173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [EDR evasion](#edr-evasion) (1)
 - [education](#education) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
+- [Elasticsearch](#elasticsearch) (1)
 - [email](#email) (1)
 - [email gateway](#email-gateway) (1)
 - [Emerald Sleet](#emerald-sleet) (1)
@@ -242,6 +244,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HappyDoor](#happydoor) (1)
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
+- [HashiCorp Vault](#hashicorp-vault) (1)
 - [HelloDoor](#hellodoor) (1)
 - [HellsGate](#hellsgate) (1)
 - [high explosives](#high-explosives) (1)
@@ -347,7 +350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (5)
-- [npm](#npm) (22)
+- [npm](#npm) (23)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (1)
 - [OAuth tokens](#oauth-tokens) (1)
@@ -359,13 +362,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OneDrive](#onedrive) (2)
 - [OpenAI Codex](#openai-codex) (1)
 - [OpenConnect](#openconnect) (1)
+- [OpenSearch](#opensearch) (1)
 - [OpenVPN](#openvpn) (1)
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (63)
+- [operations](#operations) (64)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (60)
+- [ops](#ops) (61)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -500,7 +504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2697](#storm-2697) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (44)
+- [supply-chain](#supply-chain) (45)
 - [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
@@ -525,7 +529,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro](#trend-micro) (1)
 - [Twilio](#twilio) (1)
 - [typosquat](#typosquat) (1)
-- [typosquatting](#typosquatting) (4)
+- [typosquatting](#typosquatting) (5)
 - [Udev persistence](#udev-persistence) (1)
 - [Ukraine](#ukraine) (3)
 - [UNC2814](#unc2814) (1)
@@ -719,6 +723,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AWS
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## axios
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -798,6 +803,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bun
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 
+## Bun runtime abuse
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+
 ## C2
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -854,6 +862,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## CircleCI
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -887,6 +896,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud secrets
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## Cloudflare
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -991,6 +1001,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## criminal infrastructure
@@ -1201,6 +1212,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## EKZ Infostealer
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+
+## Elasticsearch
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## email
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
@@ -1459,6 +1473,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## hard-coded secrets
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## HashiCorp Vault
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## HelloDoor
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
@@ -1848,6 +1865,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](../actors/teampcp.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## nuclear weapons
 - [Fast16](../tools/fast16.md)
@@ -1885,6 +1903,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OpenConnect
 - [First VPN](../tools/first-vpn.md)
+
+## OpenSearch
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## OpenVPN
 - [First VPN](../tools/first-vpn.md)
@@ -1960,6 +1981,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -2025,6 +2047,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -2529,6 +2552,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -2629,6 +2653,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## Udev persistence
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)

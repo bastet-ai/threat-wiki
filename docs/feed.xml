@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>vpmdhaj OpenSearch npm cloud-secret stealer</title>
+      <link>https://threat.wiki/ops/vpmdhaj-opensearch-npm-cloud-secret-stealer/</link>
+      <description>Microsoft reports 14 malicious npm packages published by vpmdhaj that spoofed OpenSearch, Elasticsearch, DevOps, and environment-configuration tooling, executed through preinstall hooks, abused Bun runtime loading, and stole AWS, Vault, npm, GitHub Actions, and CI/CD secrets for cloud lateral movement and downstream package compromise.</description>
+      <pubDate>Fri, 29 May 2026 11:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/vpmdhaj-opensearch-npm-cloud-secret-stealer/</guid>
+    </item>
+    <item>
       <title>Kimsuky / Emerald Sleet / TA427</title>
       <link>https://threat.wiki/actors/kimsuky-emerald-sleet-ta427/</link>
       <description>Kaspersky and ENKI report that Kimsuky continues to expand PebbleDash and AppleSeed tooling, including HelloDoor, HttpMalice, HTTPSpy delivery chains, JSONPing infection checks, VS Code Remote Tunnel abuse, DWAgent, and Cloudflare Quick Tunnels against South Korean public, private, military, and corporate targets.</description>
