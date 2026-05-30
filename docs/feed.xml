@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Microsoft details oob.moika.tech reconnaissance-first dependency-confusion cluster</title>
+      <link>https://threat.wiki/ops/oob-moika-dependency-confusion-env-stealer/#microsoft-follow-up-cluster-may-2829-2026</link>
+      <description>Microsoft Threat Intelligence reports a May 28-29 follow-up cluster of 33 malicious npm packages using oob.moika.tech infrastructure, internal-looking organizational scopes, spoofed enterprise metadata, postinstall stagers, CI bypass checks, cache deduplication, and reconnaissance-first profiling for possible selective follow-on exploitation.</description>
+      <pubDate>Sat, 30 May 2026 03:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/oob-moika-dependency-confusion-env-stealer/#microsoft-follow-up-cluster-may-2829-2026</guid>
+    </item>
+    <item>
       <title>Pirated media SilentCryptoMiner RAT campaign</title>
       <link>https://threat.wiki/ops/pirated-media-silentcryptominer-rat-campaign/</link>
       <description>Kaspersky reports an ongoing cybercrime campaign distributing a modified SilentCryptoMiner fork and RAT capability through fake plugin/update prompts on illegal movie, TV, and digital-library sites, combining DLL side-loading, UAC pressure, GoogleUpdateTaskMachineQC service persistence, watchdog self-restoration, RAT C2, and XMRig-style mining.</description>
