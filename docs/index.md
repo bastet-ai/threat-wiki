@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [NATS-as-C2 KeyHunter credential-harvesting operation](ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Microsoft details oob.moika.tech reconnaissance-first dependency-confusion cluster](ops/oob-moika-dependency-confusion-env-stealer.md#microsoft-follow-up-cluster-may-2829-2026)
 - [Pirated media SilentCryptoMiner RAT campaign](ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 active exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)

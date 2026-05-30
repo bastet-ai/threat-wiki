@@ -17,8 +17,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [adversary-in-the-middle](#adversary-in-the-middle) (1)
 - [adware](#adware) (1)
 - [AI](#ai) (3)
-- [AI agents](#ai-agents) (2)
+- [AI agents](#ai-agents) (3)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
+- [AI credential theft](#ai-credential-theft) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI tooling](#ai-tooling) (6)
 - [ai-agent](#ai-agent) (1)
@@ -46,7 +47,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [authentication bypass](#authentication-bypass) (2)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AUTODYN](#autodyn) (1)
-- [AWS](#aws) (2)
+- [AWS](#aws) (3)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
 - [axios](#axios) (1)
 - [Azure](#azure) (2)
@@ -58,6 +59,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [banking malware](#banking-malware) (1)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
+- [Bedrock](#bedrock) (1)
 - [Belarus](#belarus) (1)
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
@@ -73,7 +75,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
-- [C2](#c2) (4)
+- [C2](#c2) (5)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [CCleaner](#ccleaner) (1)
@@ -92,13 +94,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix](#clickfix) (3)
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (4)
-- [cloud credential theft](#cloud-credential-theft) (2)
+- [cloud credential theft](#cloud-credential-theft) (3)
 - [cloud secrets](#cloud-secrets) (3)
 - [Cloudflare](#cloudflare) (1)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Workers](#cloudflare-workers) (2)
 - [CMS](#cms) (2)
 - [Cobalt Strike](#cobalt-strike) (2)
+- [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (2)
 - [Codecov](#codecov) (1)
 - [Codex](#codex) (1)
@@ -134,6 +137,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-34291](#cve-2025-34291) (1)
 - [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
+- [CVE-2026-33017](#cve-2026-33017) (1)
 - [CVE-2026-34926](#cve-2026-34926) (1)
 - [CVE-2026-35616](#cve-2026-35616) (1)
 - [CVE-2026-39987](#cve-2026-39987) (1)
@@ -242,6 +246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub API](#github-api) (1)
 - [GitHub OAuth](#github-oauth) (1)
 - [GitHub tokens](#github-tokens) (1)
+- [gitleaks](#gitleaks) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
 - [gleeze.com](#gleezecom) (1)
 - [GlobalProtect](#globalprotect) (1)
@@ -290,18 +295,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript loader](#javascript-loader) (1)
 - [JavaScript malware](#javascript-malware) (1)
 - [JavaScript tampering](#javascript-tampering) (1)
+- [JetStream](#jetstream) (1)
 - [JINX-0164](#jinx-0164) (2)
 - [JSON:API](#jsonapi) (1)
 - [JSONPing](#jsonping) (1)
 - [Kaspersky](#kaspersky) (1)
 - [kernel driver](#kernel-driver) (1)
 - [KEV](#kev) (2)
+- [KeyHunter](#keyhunter) (1)
 - [keylogger](#keylogger) (2)
 - [Kimsuky](#kimsuky) (1)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
-- [Langflow](#langflow) (1)
+- [Langflow](#langflow) (2)
 - [Laravel](#laravel) (1)
 - [lateral movement](#lateral-movement) (1)
 - [lateral-movement](#lateral-movement) (1)
@@ -319,6 +326,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux](#linux) (6)
 - [LiteSpeed](#litespeed) (1)
 - [LLM](#llm) (4)
+- [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
 - [LNK](#lnk) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
@@ -366,6 +374,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
 - [nation-state](#nation-state) (1)
+- [NATS](#nats) (1)
 - [Nebo](#nebo) (1)
 - [NetScaler](#netscaler) (1)
 - [Nginx module](#nginx-module) (1)
@@ -390,9 +399,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (67)
+- [operations](#operations) (68)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (64)
+- [ops](#ops) (65)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -578,6 +587,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [United States](#united-states) (1)
 - [uranium compression](#uranium-compression) (1)
 - [UTA0355](#uta0355) (1)
+- [uTLS](#utls) (1)
 - [Vercel](#vercel) (1)
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
@@ -679,9 +689,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI agents
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## AI chatbot abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
+## AI credential theft
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## AI search poisoning
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -776,6 +790,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AWS
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## AWS Secrets Manager
@@ -815,6 +830,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bash Uploader
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+
+## Bedrock
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## Belarus
 - [Ghostwriter](../actors/ghostwriter.md)
@@ -866,6 +884,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## C2
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
 
@@ -954,6 +973,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud credential theft
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## cloud secrets
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -977,6 +997,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cobalt Strike
 - [Ghostwriter](../actors/ghostwriter.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## code sandbox scraping
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## code signing
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -1125,6 +1148,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-26980
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
+## CVE-2026-33017
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## CVE-2026-34926
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -1520,6 +1546,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub tokens
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 
+## gitleaks
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
 ## Gleaming Pisces
 - [RemotePE](../tools/remotepe.md)
 
@@ -1688,6 +1717,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JavaScript tampering
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## JetStream
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
 ## JINX-0164
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -1708,6 +1740,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 
+## KeyHunter
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
 ## keylogger
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -1726,6 +1761,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Langflow
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## Laravel
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -1788,6 +1824,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
+## LLMjacking
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## LMS
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -1950,6 +1989,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## nation-state
 - [ROADtools](../tools/roadtools.md)
 
+## NATS
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
 ## Nebo
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -2096,6 +2138,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -2166,6 +2209,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -2884,6 +2928,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UTA0355
 - [ROADtools](../tools/roadtools.md)
+
+## uTLS
+- [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## Vercel
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
