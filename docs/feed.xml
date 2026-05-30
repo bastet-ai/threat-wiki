@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>OX details Shai-Hulud copycat npm packages</title>
+      <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-30-ox-copycat-packages</link>
+      <description>OX Security reports four npm typosquat packages from a non-TeamPCP copycat actor after the Shai-Hulud source-code leak, including chalk-tempalte as a near-direct clone, axios-themed stealers, a Phantom Bot DDoS package, lhr.life / IP-based C2 endpoints, and GitHub dead-drop strings defenders can hunt.</description>
+      <pubDate>Sat, 30 May 2026 19:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-30-ox-copycat-packages</guid>
+    </item>
+    <item>
       <title>NATS-as-C2 KeyHunter credential-harvesting operation</title>
       <link>https://threat.wiki/ops/nats-as-c2-keyhunter-credential-harvesting/</link>
       <description>Sysdig reports a Langflow CVE-2026-33017 intrusion where an actor harvested cloud credentials and attempted to enroll the host into a KeyHunter worker pool coordinated through authenticated NATS message-broker C2 with subject-level ACLs, JetStream-style tasking, AWS / AI-key validation, and code-sandbox secret scraping.</description>

@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [OX details Shai-Hulud copycat npm packages](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-05-30-ox-copycat-packages)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Microsoft details oob.moika.tech reconnaissance-first dependency-confusion cluster](../ops/oob-moika-dependency-confusion-env-stealer.md#microsoft-follow-up-cluster-may-2829-2026)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
