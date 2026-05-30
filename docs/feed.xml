@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Pirated media SilentCryptoMiner RAT campaign</title>
+      <link>https://threat.wiki/ops/pirated-media-silentcryptominer-rat-campaign/</link>
+      <description>Kaspersky reports an ongoing cybercrime campaign distributing a modified SilentCryptoMiner fork and RAT capability through fake plugin/update prompts on illegal movie, TV, and digital-library sites, combining DLL side-loading, UAC pressure, GoogleUpdateTaskMachineQC service persistence, watchdog self-restoration, RAT C2, and XMRig-style mining.</description>
+      <pubDate>Sat, 30 May 2026 01:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/pirated-media-silentcryptominer-rat-campaign/</guid>
+    </item>
+    <item>
       <title>PAN-OS GlobalProtect CVE-2026-0257 active exploitation</title>
       <link>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/</link>
       <description>Palo Alto Networks and CISA report active exploitation of CVE-2026-0257, a GlobalProtect portal and gateway authentication-bypass flaw in PAN-OS that can let attackers establish unauthorized VPN connections when authentication-override cookies are enabled with the vulnerable certificate configuration.</description>

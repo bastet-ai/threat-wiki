@@ -123,7 +123,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptocurrency](#cryptocurrency) (5)
 - [cryptocurrency theft](#cryptocurrency-theft) (1)
 - [cryptojacking](#cryptojacking) (1)
-- [cryptominer](#cryptominer) (1)
+- [cryptominer](#cryptominer) (2)
 - [Curious Serpens](#curious-serpens) (1)
 - [Curve25519](#curve25519) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
@@ -143,14 +143,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-48172](#cve-2026-48172) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
-- [cybercrime](#cybercrime) (5)
+- [cybercrime](#cybercrime) (6)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [data exfiltration](#data-exfiltration) (1)
 - [data theft](#data-theft) (2)
 - [DAYLIGHT](#daylight) (1)
 - [Defender evasion](#defender-evasion) (2)
 - [defense](#defense) (1)
-- [defense evasion](#defense-evasion) (2)
+- [defense evasion](#defense-evasion) (3)
 - [DeFi](#defi) (4)
 - [Deno](#deno) (1)
 - [dependency confusion](#dependency-confusion) (1)
@@ -165,8 +165,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dindoor](#dindoor) (1)
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
+- [DLL side-loading](#dll-side-loading) (1)
 - [DLL sideloading](#dll-sideloading) (4)
 - [DNS C2](#dns-c2) (1)
+- [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
 - [double extortion](#double-extortion) (1)
 - [DPAPI](#dpapi) (1)
@@ -208,7 +210,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake CAPTCHA](#fake-captcha) (1)
 - [fake dating lures](#fake-dating-lures) (1)
 - [fake plugin](#fake-plugin) (1)
-- [fake update](#fake-update) (1)
+- [fake update](#fake-update) (2)
 - [FakeCaptcha](#fakecaptcha) (1)
 - [Fakeset](#fakeset) (1)
 - [faketivism](#faketivism) (1)
@@ -291,6 +293,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](#jinx-0164) (2)
 - [JSON:API](#jsonapi) (1)
 - [JSONPing](#jsonping) (1)
+- [Kaspersky](#kaspersky) (1)
 - [kernel driver](#kernel-driver) (1)
 - [KEV](#kev) (2)
 - [keylogger](#keylogger) (2)
@@ -387,9 +390,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (66)
+- [operations](#operations) (67)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (63)
+- [ops](#ops) (64)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -408,7 +411,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [PebbleDash](#pebbledash) (1)
 - [people](#people) (1)
-- [persistence](#persistence) (12)
+- [persistence](#persistence) (13)
 - [PhaaS](#phaas) (1)
 - [PhantomClick](#phantomclick) (1)
 - [PhantomMail](#phantommail) (1)
@@ -417,6 +420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (1)
 - [pig-butchering](#pig-butchering) (1)
+- [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
 - [Polymarket](#polymarket) (1)
 - [portmap](#portmap) (1)
@@ -431,7 +435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PrincessClub](#princessclub) (1)
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (2)
-- [process hollowing](#process-hollowing) (1)
+- [process hollowing](#process-hollowing) (2)
 - [prompt-injection](#prompt-injection) (3)
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
@@ -445,7 +449,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RaaS](#raas) (1)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (3)
-- [RAT](#rat) (12)
+- [RAT](#rat) (13)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [RDP](#rdp) (1)
@@ -457,7 +461,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [refresh tokens](#refresh-tokens) (1)
 - [registry persistence](#registry-persistence) (1)
 - [release tampering](#release-tampering) (1)
-- [remote access](#remote-access) (1)
+- [remote access](#remote-access) (2)
 - [remote code execution](#remote-code-execution) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
@@ -503,6 +507,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SharePoint](#sharepoint) (1)
 - [signed updates](#signed-updates) (1)
 - [signed-binary](#signed-binary) (1)
+- [SilentCryptoMiner](#silentcryptominer) (1)
 - [simulation tampering](#simulation-tampering) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [SLSA](#slsa) (1)
@@ -562,6 +567,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Twilio](#twilio) (1)
 - [typosquat](#typosquat) (1)
 - [typosquatting](#typosquatting) (5)
+- [UAC](#uac) (1)
 - [UAC-0098](#uac-0098) (1)
 - [Udev persistence](#udev-persistence) (1)
 - [Ukraine](#ukraine) (4)
@@ -587,6 +593,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
 - [Wasabi](#wasabi) (1)
+- [watchdog](#watchdog) (1)
 - [watering-hole](#watering-hole) (2)
 - [web application](#web-application) (1)
 - [web hosting](#web-hosting) (2)
@@ -599,7 +606,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](#webworm) (1)
 - [WhatsApp](#whatsapp) (1)
 - [WHM](#whm) (2)
-- [Windows](#windows) (10)
+- [Windows](#windows) (11)
 - [wiper](#wiper) (2)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
@@ -607,7 +614,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [worm](#worm) (6)
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
-- [XMRig](#xmrig) (2)
+- [XMRig](#xmrig) (3)
 - [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
 - [Yanbian](#yanbian) (1)
@@ -1086,6 +1093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cryptominer
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## Curious Serpens
 - [ROADtools](../tools/roadtools.md)
@@ -1150,6 +1158,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [JINX-0164](../actors/jinx-0164.md)
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## cybercrime ecosystem
@@ -1175,6 +1184,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## defense evasion
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [ROADtools](../tools/roadtools.md)
 
 ## DeFi
@@ -1231,6 +1241,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## discovery
 - [ROADtools](../tools/roadtools.md)
 
+## DLL side-loading
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
 ## DLL sideloading
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -1239,6 +1252,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DNS C2
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+
+## DNS tunneling
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## Docker
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -1387,6 +1403,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## fake update
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## FakeCaptcha
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -1680,6 +1697,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JSONPing
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
+## Kaspersky
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## kernel driver
 - [Fast16](../tools/fast16.md)
@@ -2083,6 +2103,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -2152,6 +2173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -2230,6 +2252,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -2263,6 +2286,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pig-butchering
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## piracy
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -2317,6 +2343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## process hollowing
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## prompt-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -2378,6 +2405,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [RemotePE](../tools/remotepe.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -2418,6 +2446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## remote access
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## remote code execution
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -2563,6 +2592,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## signed-binary
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+
+## SilentCryptoMiner
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## simulation tampering
 - [Fast16](../tools/fast16.md)
@@ -2817,6 +2849,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
+## UAC
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
 ## UAC-0098
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -2901,6 +2936,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Wasabi
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## watchdog
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
 ## watering-hole
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -2948,6 +2986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -2983,6 +3022,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## XMRig
 - [GREYVIBE](../actors/greyvibe.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## XSS.is
 - [First VPN](../tools/first-vpn.md)
