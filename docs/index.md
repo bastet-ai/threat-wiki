@@ -15,6 +15,7 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [PAN-OS GlobalProtect CVE-2026-0257 active exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Permiso ChatGPhish AI-summary phishing surface](patterns/ai-augmented-adversary-operations.md#operational-shapes-to-watch)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
+- [PraisonAI CVE-2026-44338 rapid exploitation](ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [GREYVIBE Russia-nexus AI-assisted Ukraine operations](actors/greyvibe.md)
 - [Socket details axios / plain-crypto-js RAT chain](ops/operation-dangerouspassword-axios-npm-compromise.md#reported-chain)
 - [Kimsuky / Emerald Sleet / TA427](actors/kimsuky-emerald-sleet-ta427.md)

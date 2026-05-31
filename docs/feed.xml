@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>PraisonAI CVE-2026-44338 rapid exploitation</title>
+      <link>https://threat.wiki/ops/praisonai-cve-2026-44338-rapid-exploitation/</link>
+      <description>Sysdig reports that internet-exposed PraisonAI agent-framework deployments were probed for CVE-2026-44338 less than four hours after advisory publication, validating unauthenticated GET /agents exposure and reinforcing that AI-agent API advisories can move to known-CVE scanner workflows within hours.</description>
+      <pubDate>Sun, 31 May 2026 17:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/praisonai-cve-2026-44338-rapid-exploitation/</guid>
+    </item>
+    <item>
       <title>Dutch Police / NCSC 17-million-device botnet disruption</title>
       <link>https://threat.wiki/ops/dutch-police-ncsc-17-million-device-botnet/</link>
       <description>Dutch Police and NCSC-NL announced a disruption of an unnamed botnet with at least 17 million infected devices and 200 hosting / command servers in the Netherlands, emphasizing consumer, mobile, IoT, and edge-device exposure, residential-proxy abuse, and the need to treat takedowns as containment opportunities rather than endpoint cleanup.</description>

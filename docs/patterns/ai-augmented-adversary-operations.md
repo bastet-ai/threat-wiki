@@ -1,7 +1,7 @@
 # AI-augmented adversary operations
 
 ## Summary
-Google Threat Intelligence Group's May 2026 AI Threat Tracker documents a transition from experimental AI misuse toward repeatable adversary workflows: AI-supported vulnerability research, AI-assisted exploit development, AI-generated obfuscation, LLM-driven malware interaction with victim environments, adversary access-brokerage for model abuse, and AI software supply-chain attacks. WithSecure's GREYVIBE reporting adds a concrete Russia-nexus case where AI appears operationally integrated across lure generation, loader and obfuscator development, backend setup, and post-compromise scripting. Sysdig's marimo CVE-2026-39987 case adds a cloud post-exploitation example where an LLM agent appears to compose live commands, consume prior output, pivot through AWS Secrets Manager, and dump an internal database. Permiso's ChatGPhish research adds a user-facing AI-rendering primitive: attacker-controlled web-page content can become trusted Markdown links, images, spoofed alerts, and QR-code phish inside ChatGPT summarization output.
+Google Threat Intelligence Group's May 2026 AI Threat Tracker documents a transition from experimental AI misuse toward repeatable adversary workflows: AI-supported vulnerability research, AI-assisted exploit development, AI-generated obfuscation, LLM-driven malware interaction with victim environments, adversary access-brokerage for model abuse, and AI software supply-chain attacks. WithSecure's GREYVIBE reporting adds a concrete Russia-nexus case where AI appears operationally integrated across lure generation, loader and obfuscator development, backend setup, and post-compromise scripting. Sysdig's marimo CVE-2026-39987 case adds a cloud post-exploitation example where an LLM agent appears to compose live commands, consume prior output, pivot through AWS Secrets Manager, and dump an internal database. Sysdig's PraisonAI CVE-2026-44338 case adds a same-day exploitation example where an exposed AI-agent API was scanned less than four hours after advisory publication. Permiso's ChatGPhish research adds a user-facing AI-rendering primitive: attacker-controlled web-page content can become trusted Markdown links, images, spoofed alerts, and QR-code phish inside ChatGPT summarization output.
 
 The durable defender lesson is that AI is now part of the operational fabric for multiple actor types rather than only a novelty. Treat AI use as a force multiplier across existing intrusion patterns: faster vulnerability triage, more scalable exploit validation, easier malware refactoring, synthetic social-engineering content, and new initial-access paths through ML and AI-tooling dependencies.
 
@@ -16,6 +16,7 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - initial-access
 - post-exploitation
 - cloud credential theft
+- rapid exploitation
 - supply-chain
 - TeamPCP
 - UNC6780
@@ -37,6 +38,7 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - State-linked PRC and DPRK clusters are using AI for vulnerability-research workflows, including persona-driven prompting, curated vulnerability corpora, recursive CVE/PoC validation, and agentic testing in controlled labs.
 - AI coding support can speed obfuscation and infrastructure development. GTIG highlights dynamic/self-modifying malware experiments, AI-assisted relay-box tooling, and LLM-generated decoy logic in malware linked to suspected Russia-nexus activity; WithSecure separately reports GREYVIBE indicators of AI assistance in LOOKVALJS, DAYLIGHT, TEASOUP, LegionRelay, lure sites, backend infrastructure, and operator scripts.
 - Sysdig observed a post-compromise LLM-agent workflow after marimo CVE-2026-39987 exploitation: the actor harvested cloud credentials, used Cloudflare Workers as fanned-out egress for AWS Secrets Manager calls, retrieved an SSH key, and dumped internal PostgreSQL tables from a bastion while shaping command output for machine parsing.
+- Sysdig observed PraisonAI CVE-2026-44338 scanning less than four hours after advisory publication, showing that internet-facing AI-agent frameworks can be folded into known-CVE scanner workflows almost immediately.
 - Malware can embed LLM calls for autonomous decision-making. PROMPTSPY serializes Android UI state, asks Gemini for structured action decisions, and uses accessibility gestures to interact with a victim device.
 - AI environments and dependencies are becoming initial-access surfaces. GTIG explicitly ties TeamPCP / UNC6780 supply-chain activity to attempts to pivot from compromised AI software into broader network environments, including disruptive outcomes such as ransomware and extortion.
 
@@ -48,6 +50,7 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - **LLM-agent post-exploitation:** operators may feed shell, cloud, and database output back into an agent loop that selects the next command, extracts credentials, chooses cloud secrets, and improvises table dumps without a target-specific playbook.
 - **Obfuscated model access:** adversaries may use account farms, middleware, premium-access resale, or registration automation to evade provider controls and sustain model abuse.
 - **AI supply-chain initial access:** compromised AI packages, model-serving tools, MCP-style integrations, IDE plugins, or workflow automation can expose secrets and provide a bridge into cloud, SaaS, and internal networks.
+- **Rapid exploitation of agent frameworks:** public advisories for AI-agent or workflow runtimes can lead to internet-wide endpoint validation within hours; exposed unauthenticated APIs may leak agent metadata, burn model-provider quota, or trigger side-effecting tools.
 - **AI-rendered phishing surfaces:** attacker-controlled web pages, documentation, READMEs, or internal portal text may be summarized into trusted assistant output. When the assistant UI preserves live Markdown links, auto-fetched images, or QR codes from untrusted page content, the page becomes a delivery primitive for beaconing, origin-confusing links, spoofed security notices, and mobile-pivot phishing.
 
 ## Defender heuristics
@@ -62,6 +65,7 @@ The durable defender lesson is that AI is now part of the operational fabric for
 
 ## Related pages
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
+- [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -73,5 +77,6 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - Google Cloud / Google Threat Intelligence Group: https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access
 - WithSecure Labs: https://labs.withsecure.com/publications/greyvibe
 - Sysdig Threat Research: https://www.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots
+- Sysdig Threat Research: https://www.sysdig.com/blog/cve-2026-44338-praisonai-authentication-bypass-in-under-4-hours-and-the-growing-trend-of-rapid-exploitation
 - Permiso Security: https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability
 - The Hacker News: https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html

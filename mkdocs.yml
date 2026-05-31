@@ -11,6 +11,7 @@ nav:
       - Pirated media SilentCryptoMiner RAT campaign: ops/pirated-media-silentcryptominer-rat-campaign.md
       - PAN-OS GlobalProtect CVE-2026-0257 exploitation: ops/pan-os-globalprotect-cve-2026-0257-exploitation.md
       - Marimo CVE-2026-39987 LLM-agent post-exploitation: ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md
+      - PraisonAI CVE-2026-44338 rapid exploitation: ops/praisonai-cve-2026-44338-rapid-exploitation.md
       - NATS-as-C2 KeyHunter credential-harvesting operation: ops/nats-as-c2-keyhunter-credential-harvesting.md
       - StegaBin Pastebin-steganography npm campaign: ops/stegabin-pastebin-steganography-npm-campaign.md
       - BlackFile / UNC6671 vishing extortion operation: ops/blackfile-unc6671-vishing-extortion.md
