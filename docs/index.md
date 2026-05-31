@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Famous Chollima Packagist dev-branch loader](ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [OX details Shai-Hulud copycat npm packages](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-05-30-ox-copycat-packages)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](ops/nats-as-c2-keyhunter-credential-harvesting.md)

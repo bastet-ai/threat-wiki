@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Famous Chollima Packagist dev-branch loader</title>
+      <link>https://threat.wiki/ops/famous-chollima-packagist-dev-branch-loader/</link>
+      <description>Socket reports a Packagist-exposed roberts/leads dev branch with obfuscated JavaScript appended to tailwind.js, using blockchain and RPC dead drops to retrieve remote payloads in a targeted Famous Chollima / Contagious Interview-style developer lure.</description>
+      <pubDate>Sun, 31 May 2026 21:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/famous-chollima-packagist-dev-branch-loader/</guid>
+    </item>
+    <item>
       <title>PraisonAI CVE-2026-44338 rapid exploitation</title>
       <link>https://threat.wiki/ops/praisonai-cve-2026-44338-rapid-exploitation/</link>
       <description>Sysdig reports that internet-exposed PraisonAI agent-framework deployments were probed for CVE-2026-44338 less than four hours after advisory publication, validating unauthenticated GET /agents exposure and reinforcing that AI-agent API advisories can move to known-CVE scanner workflows within hours.</description>

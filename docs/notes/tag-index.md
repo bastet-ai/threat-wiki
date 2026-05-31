@@ -66,8 +66,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitbucket](#bitbucket) (1)
 - [Bitwarden](#bitwarden) (1)
 - [BlackFile](#blackfile) (1)
+- [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [BLUEBEAM](#bluebeam) (1)
 - [botnet](#botnet) (2)
+- [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [Brazil](#brazil) (1)
 - [BreachForums](#breachforums) (1)
@@ -111,18 +113,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [command execution](#command-execution) (1)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
-- [Composer](#composer) (2)
+- [Composer](#composer) (3)
 - [compromised accounts](#compromised-accounts) (1)
 - [compromised credentials](#compromised-credentials) (1)
 - [ConnectWise](#connectwise) (1)
 - [consumer devices](#consumer-devices) (1)
-- [Contagious Interview](#contagious-interview) (1)
+- [Contagious Interview](#contagious-interview) (2)
 - [control panel compromise](#control-panel-compromise) (1)
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (7)
-- [credential-theft](#credential-theft) (27)
+- [credential-theft](#credential-theft) (28)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -166,7 +168,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deployment_status](#deployment_status) (1)
 - [destructive operations](#destructive-operations) (1)
 - [developer machines](#developer-machines) (3)
-- [developer-targeting](#developer-targeting) (7)
+- [developer-targeting](#developer-targeting) (8)
 - [device registration](#device-registration) (1)
 - [DEWMODE](#dewmode) (1)
 - [Digital Knowledge](#digital-knowledge) (1)
@@ -227,7 +229,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fakeset](#fakeset) (1)
 - [faketivism](#faketivism) (1)
 - [FallSpy](#fallspy) (1)
-- [FAMOUS CHOLLIMA](#famous-chollima) (1)
+- [FAMOUS CHOLLIMA](#famous-chollima) (2)
 - [Fancy Bear](#fancy-bear) (1)
 - [Fast16](#fast16) (1)
 - [FBI](#fbi) (1)
@@ -293,7 +295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (1)
 - [incident response](#incident-response) (5)
 - [industrial control](#industrial-control) (1)
-- [infostealer](#infostealer) (5)
+- [infostealer](#infostealer) (6)
 - [infrastructure](#infrastructure) (2)
 - [initial-access](#initial-access) (1)
 - [iOS](#ios) (1)
@@ -320,13 +322,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
 - [Langflow](#langflow) (2)
-- [Laravel](#laravel) (1)
+- [Laravel](#laravel) (2)
 - [lateral movement](#lateral-movement) (1)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (1)
 - [launchctl](#launchctl) (1)
 - [law enforcement](#law-enforcement) (1)
-- [Lazarus](#lazarus) (3)
+- [Lazarus](#lazarus) (4)
 - [LD_PRELOAD](#ld_preload) (1)
 - [legacy software](#legacy-software) (1)
 - [LegionRelay](#legionrelay) (1)
@@ -341,6 +343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
 - [LNK](#lnk) (1)
+- [loader](#loader) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
 - [LONGSTREAM](#longstream) (1)
@@ -396,7 +399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nginx module](#nginx-module) (1)
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
-- [North Korea](#north-korea) (5)
+- [North Korea](#north-korea) (6)
 - [npm](#npm) (23)
 - [npm lifecycle hook](#npm-lifecycle-hook) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
@@ -415,9 +418,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (70)
+- [operations](#operations) (71)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (67)
+- [ops](#ops) (68)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -426,7 +429,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [P2P](#p2p) (1)
 - [package registry](#package-registry) (1)
 - [package-takeover](#package-takeover) (1)
-- [Packagist](#packagist) (2)
+- [Packagist](#packagist) (3)
 - [page poisoning](#page-poisoning) (1)
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAN-OS](#pan-os) (1)
@@ -443,10 +446,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomRelay](#phantomrelay) (1)
 - [phishing](#phishing) (4)
 - [phishing-as-a-service](#phishing-as-a-service) (1)
-- [PHP](#php) (1)
+- [PHP](#php) (2)
 - [pig-butchering](#pig-butchering) (1)
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
+- [poisoned-branch](#poisoned-branch) (1)
 - [Polymarket](#polymarket) (1)
 - [portmap](#portmap) (1)
 - [Portugal](#portugal) (1)
@@ -476,7 +480,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (3)
 - [rapid exploitation](#rapid-exploitation) (2)
-- [RAT](#rat) (13)
+- [RAT](#rat) (14)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [RDP](#rdp) (1)
@@ -568,7 +572,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2697](#storm-2697) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (45)
+- [supply-chain](#supply-chain) (46)
 - [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
@@ -876,12 +880,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BlackFile
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
+## blockchain-dead-drop
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
+
 ## BLUEBEAM
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## botnet
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+
+## branch-compromise
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 
 ## branch-name-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -1055,6 +1065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## Composer
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 
@@ -1071,6 +1082,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## Contagious Interview
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 
 ## control panel compromise
@@ -1102,6 +1114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -1279,6 +1292,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## developer-targeting
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -1495,6 +1509,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 
 ## FAMOUS CHOLLIMA
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 
 ## Fancy Bear
@@ -1730,6 +1745,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## infostealer
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -1824,6 +1840,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## Laravel
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 
 ## lateral movement
@@ -1842,6 +1859,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## Lazarus
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [RemotePE](../tools/remotepe.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -1896,6 +1914,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LNK
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
+## loader
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 
 ## long-lived tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -2083,6 +2104,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## North Korea
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [RemotePE](../tools/remotepe.md)
@@ -2193,6 +2215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -2267,6 +2290,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -2338,6 +2362,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## Packagist
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 
@@ -2406,6 +2431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## PHP
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 
 ## pig-butchering
@@ -2416,6 +2442,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+
+## poisoned-branch
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 
 ## Polymarket
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -2529,6 +2558,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RAT
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -2845,6 +2875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
