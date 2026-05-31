@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Dutch Police / NCSC 17-million-device botnet disruption</title>
+      <link>https://threat.wiki/ops/dutch-police-ncsc-17-million-device-botnet/</link>
+      <description>Dutch Police and NCSC-NL announced a disruption of an unnamed botnet with at least 17 million infected devices and 200 hosting / command servers in the Netherlands, emphasizing consumer, mobile, IoT, and edge-device exposure, residential-proxy abuse, and the need to treat takedowns as containment opportunities rather than endpoint cleanup.</description>
+      <pubDate>Sun, 31 May 2026 13:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/dutch-police-ncsc-17-million-device-botnet/</guid>
+    </item>
+    <item>
       <title>OX details Shai-Hulud copycat npm packages</title>
       <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-05-30-ox-copycat-packages</link>
       <description>OX Security reports four npm typosquat packages from a non-TeamPCP copycat actor after the Shai-Hulud source-code leak, including chalk-tempalte as a near-direct clone, axios-themed stealers, a Phantom Bot DDoS package, lhr.life / IP-based C2 endpoints, and GitHub dead-drop strings defenders can hunt.</description>

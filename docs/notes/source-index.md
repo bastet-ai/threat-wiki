@@ -38,6 +38,7 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - **GitHub Security Advisories** — https://github.com/advisories.atom
 - **CERT-UA** — https://cert.gov.ua/ (HTML/API watch for Ukraine-focused actor campaigns, UAC cluster reports, malware component names, and indicator bundles; article pages can be queried via `/api/articles/byId?id=<article-id>`)
 - **Europol / Eurojust / FBI IC3 public cyber notices** — watch for criminal infrastructure takedowns, seized domains, exit-node indicators, ransomware-enabler service descriptions, and law-enforcement caveats that can update tool/infrastructure pages.
+- **NCSC-NL / Dutch Police cyber notices** — https://www.ncsc.nl/nieuws and https://www.politie.nl/nieuws (watch Netherlands-hosted criminal infrastructure, botnet takedowns, residential-proxy / IoT-device abuse, hosting-provider disruptions, seized servers, and follow-up victim-notification or indicator releases such as the 17-million-device botnet disruption).
 
 ## Maintainer / vendor incident posts to watch during active campaigns
 - **Nx / nrwl security advisories and issues** — https://github.com/nrwl/nx/security/advisories and https://github.com/nrwl/nx/issues

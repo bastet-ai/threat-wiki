@@ -66,7 +66,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden](#bitwarden) (1)
 - [BlackFile](#blackfile) (1)
 - [BLUEBEAM](#bluebeam) (1)
-- [botnet](#botnet) (1)
+- [botnet](#botnet) (2)
 - [branch-name-injection](#branch-name-injection) (1)
 - [Brazil](#brazil) (1)
 - [BreachForums](#breachforums) (1)
@@ -113,6 +113,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised accounts](#compromised-accounts) (1)
 - [compromised credentials](#compromised-credentials) (1)
 - [ConnectWise](#connectwise) (1)
+- [consumer devices](#consumer-devices) (1)
 - [Contagious Interview](#contagious-interview) (1)
 - [control panel compromise](#control-panel-compromise) (1)
 - [Coruna](#coruna) (1)
@@ -147,11 +148,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-48172](#cve-2026-48172) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
-- [cybercrime](#cybercrime) (6)
+- [cybercrime](#cybercrime) (7)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [data exfiltration](#data-exfiltration) (1)
 - [data theft](#data-theft) (2)
 - [DAYLIGHT](#daylight) (1)
+- [DDoS](#ddos) (1)
 - [Defender evasion](#defender-evasion) (2)
 - [defense](#defense) (1)
 - [defense evasion](#defense-evasion) (3)
@@ -180,10 +182,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DPRK](#dprk) (1)
 - [DroneLink](#dronelink) (1)
 - [Drupal](#drupal) (1)
+- [Dutch Police](#dutch-police) (1)
 - [DWAgent](#dwagent) (1)
 - [dynamic DNS](#dynamic-dns) (1)
 - [Dynu](#dynu) (1)
 - [edge appliance](#edge-appliance) (2)
+- [edge devices](#edge-devices) (1)
 - [EDR evasion](#edr-evasion) (1)
 - [education](#education) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
@@ -270,6 +274,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HellsGate](#hellsgate) (1)
 - [high explosives](#high-explosives) (1)
 - [HONESTCUE](#honestcue) (1)
+- [hosting provider](#hosting-provider) (1)
 - [HttpMalice](#httpmalice) (1)
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (2)
@@ -287,6 +292,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure](#infrastructure) (2)
 - [initial-access](#initial-access) (1)
 - [iOS](#ios) (1)
+- [IoT](#iot) (1)
 - [Iran](#iran) (5)
 - [Israel](#israel) (2)
 - [Japan](#japan) (1)
@@ -314,6 +320,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (1)
 - [launchctl](#launchctl) (1)
+- [law enforcement](#law-enforcement) (1)
 - [Lazarus](#lazarus) (3)
 - [LD_PRELOAD](#ld_preload) (1)
 - [legacy software](#legacy-software) (1)
@@ -364,6 +371,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniJunk](#minijunk) (1)
 - [MINIRAT](#minirat) (2)
 - [MiniUpdate](#miniupdate) (1)
+- [mobile devices](#mobile-devices) (1)
 - [mobile malware](#mobile-malware) (1)
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (3)
@@ -375,7 +383,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MuddyWater](#muddywater) (2)
 - [nation-state](#nation-state) (1)
 - [NATS](#nats) (1)
+- [NCSC-NL](#ncsc-nl) (1)
 - [Nebo](#nebo) (1)
+- [Netherlands](#netherlands) (1)
 - [NetScaler](#netscaler) (1)
 - [Nginx module](#nginx-module) (1)
 - [node-ipc](#node-ipc) (1)
@@ -399,9 +409,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (68)
+- [operations](#operations) (69)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (65)
+- [ops](#ops) (66)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -425,7 +435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomClick](#phantomclick) (1)
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
-- [phishing](#phishing) (3)
+- [phishing](#phishing) (4)
 - [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (1)
 - [pig-butchering](#pig-butchering) (1)
@@ -474,6 +484,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote code execution](#remote-code-execution) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
+- [residential proxies](#residential-proxies) (1)
 - [REST C2](#rest-c2) (1)
 - [reviewdog](#reviewdog) (1)
 - [RingH23](#ringh23) (1)
@@ -532,6 +543,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [South Africa](#south-africa) (1)
 - [South Korea](#south-korea) (2)
 - [Southeast Asia](#southeast-asia) (1)
+- [spam](#spam) (1)
 - [spear phishing](#spear-phishing) (1)
 - [spear-phishing](#spear-phishing) (1)
 - [spearphishing](#spearphishing) (1)
@@ -552,7 +564,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
-- [takedown](#takedown) (2)
+- [takedown](#takedown) (3)
 - [TamperedChef](#tamperedchef) (1)
 - [targeted operations](#targeted-operations) (1)
 - [TartarusGate](#tartarusgate) (1)
@@ -853,6 +865,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## botnet
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
 ## branch-name-injection
@@ -1036,6 +1049,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ConnectWise
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
+## consumer devices
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
 ## Contagious Interview
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 
@@ -1180,6 +1196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
 ## cybercrime
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -1200,6 +1217,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DAYLIGHT
 - [GREYVIBE](../actors/greyvibe.md)
+
+## DDoS
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## Defender evasion
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -1303,6 +1323,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Drupal
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
+## Dutch Police
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
 ## DWAgent
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -1315,6 +1338,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## edge appliance
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+
+## edge devices
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## EDR evasion
 - [RemotePE](../tools/remotepe.md)
@@ -1625,6 +1651,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HONESTCUE
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## hosting provider
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
 ## HttpMalice
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -1687,6 +1716,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## iOS
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+
+## IoT
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## Iran
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -1777,6 +1809,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## launchctl
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+
+## law enforcement
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## Lazarus
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -1956,6 +1991,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MiniUpdate
 - [Screening Serpens](../actors/screening-serpens.md)
 
+## mobile devices
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
 ## mobile malware
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -1992,8 +2030,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NATS
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
+## NCSC-NL
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
 ## Nebo
 - [GREYVIBE](../actors/greyvibe.md)
+
+## Netherlands
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## NetScaler
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -2117,6 +2161,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -2189,6 +2234,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -2319,6 +2365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## phishing
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -2500,6 +2547,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RemotePELoader
 - [RemotePE](../tools/remotepe.md)
+
+## residential proxies
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## REST C2
 - [GREYVIBE](../actors/greyvibe.md)
@@ -2691,6 +2741,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Southeast Asia
 - [Showboat](../tools/showboat.md)
 
+## spam
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
 ## spear phishing
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -2798,6 +2851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
 ## takedown
+- [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [First VPN](../tools/first-vpn.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
