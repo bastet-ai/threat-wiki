@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Miasma RedHat Cloud Services npm wave](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-06-01-miasma-redhat-cloud-services)
 - [Cloud Atlas PowerCloud / reverse-tunnel campaign](../actors/cloud-atlas.md)
