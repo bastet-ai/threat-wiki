@@ -104,6 +104,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Socket's May 12-May 19 Mini Shai-Hulud updates add two TeamPCP-family watch points: AI/security packages can be compromised through import-time PyPI loaders (`guardrails-ai@0.10.1` downloading `transformers.pyz` from `git-tanstack[.]com`), and high-volume maintainer-account compromise can now be measured in hundreds of versions per hour (Socket counted the AntV wave at 639 versions across 323 packages, with 1,055 versions across 502 packages campaign-wide at that point).
 - Unit 42's May 27 cyber-extortion economy analysis adds that TGR-CRI-1135 / TeamPCP has collaborated with LAPSUS$ Group operators for data-leak-site extortion and with Vect ransomware operators or affiliates in BreachForums-advertised arrangements. That makes stolen developer, cloud, SaaS, and repository data a direct extortion risk even without encryptor deployment.
 - The same Unit 42 update reported a May 13 BreachForums post announcing an open-source Shai-Hulud release, increasing the chance of copycat operations that reuse TeamPCP/Mini Shai-Hulud methods without clean actor attribution.
+- Wiz and StepSecurity's June 1, 2026 Miasma reporting adds a concrete example of this attribution problem: compromised `@redhat-cloud-services` npm packages used Mini Shai-Hulud-derived code and TeamPCP-like cloud/GitHub credential theft, but Wiz explicitly cautioned that the public Mini Shai-Hulud release means a copycat actor could be reusing the tooling. Keep Miasma on the Mini Shai-Hulud operation page unless stronger public attribution emerges.
 
 ## Defender signals
 - Moved or force-pushed GitHub Actions tags/refs, especially tags pointing to commits outside normal branch ancestry
@@ -152,3 +153,5 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [Socket AntV Mini Shai-Hulud wave](https://socket.dev/blog/antv-packages-compromised)
 - [StepSecurity blog index](https://www.stepsecurity.io/blog)
 - [Unit 42 cyber-extortion economy analysis](https://unit42.paloaltonetworks.com/cyber-extortion-economy/)
+- [Wiz Miasma / RedHat npm coverage](https://www.wiz.io/blog/miasma-supply-chain-attack-targeting-redhat-npm-packages)
+- [StepSecurity RedHat Cloud Services npm coverage](https://www.stepsecurity.io/blog/multiple-redhat-cloud-services-npm-packages-compromised)

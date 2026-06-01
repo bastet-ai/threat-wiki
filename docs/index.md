@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Miasma RedHat Cloud Services npm wave](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-06-01-miasma-redhat-cloud-services)
 - [Cloud Atlas PowerCloud / reverse-tunnel campaign](actors/cloud-atlas.md)
 - [Ghostwriter / FrostyNeighbor JavaScript PicassoLoader chain](actors/ghostwriter.md#2026-ukrtelecom-themed-frostyneighbor-campaign)
 - [Famous Chollima Packagist dev-branch loader](ops/famous-chollima-packagist-dev-branch-loader.md)
