@@ -14,7 +14,7 @@
     <item>
       <title>Miasma RedHat Cloud Services npm wave</title>
       <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-06-01-miasma-redhat-cloud-services</link>
-      <description>Wiz, StepSecurity, SafeDep, JFrog, and OX report Miasma, a Mini Shai-Hulud-derived wave compromising @redhat-cloud-services npm releases through malicious orphan GitHub commits, GitHub Actions OIDC trusted publishing, valid provenance/SLSA attestations, preinstall execution, runner-memory secret extraction, bypass-2FA npm worming, three-wave publication, live-latest malicious releases during exposure, and GitHub repository dead drops with the description Miasma: The Spreading Blight.</description>
+      <description>Wiz, StepSecurity, SafeDep, JFrog, OX, and Boost Security report Miasma, a Mini Shai-Hulud-derived wave compromising @redhat-cloud-services npm releases through malicious orphan GitHub commits, throwaway-branch GitHub Actions OIDC trusted publishing, valid provenance/SLSA attestations, preinstall execution, runner-memory secret extraction, bypass-2FA npm worming, three-wave publication, live-latest malicious releases during exposure, and GitHub repository dead drops with the description Miasma: The Spreading Blight.</description>
       <pubDate>Mon, 01 Jun 2026 15:25:00 GMT</pubDate>
       <guid>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-06-01-miasma-redhat-cloud-services</guid>
     </item>
