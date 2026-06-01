@@ -447,6 +447,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [phishing](#phishing) (4)
 - [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (2)
+- [PicassoLoader](#picassoloader) (1)
 - [pig-butchering](#pig-butchering) (1)
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
@@ -2433,6 +2434,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PHP
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+
+## PicassoLoader
+- [Ghostwriter](../actors/ghostwriter.md)
 
 ## pig-butchering
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)

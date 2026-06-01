@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Ghostwriter / FrostyNeighbor JavaScript PicassoLoader chain</title>
+      <link>https://threat.wiki/actors/ghostwriter/#2026-ukrtelecom-themed-frostyneighbor-campaign</link>
+      <description>ESET documents a March 2026 FrostyNeighbor / Ghostwriter campaign against Ukrainian government organizations using Ukrtelecom-themed PDF lures, server-side victim validation, RAR-delivered JavaScript, scheduled-task persistence, and a JavaScript PicassoLoader downloader for Cobalt Strike follow-on.</description>
+      <pubDate>Mon, 01 Jun 2026 03:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/ghostwriter/#2026-ukrtelecom-themed-frostyneighbor-campaign</guid>
+    </item>
+    <item>
       <title>Famous Chollima Packagist dev-branch loader</title>
       <link>https://threat.wiki/ops/famous-chollima-packagist-dev-branch-loader/</link>
       <description>Socket reports a Packagist-exposed roberts/leads dev branch with obfuscated JavaScript appended to tailwind.js, using blockchain and RPC dead drops to retrieve remote payloads in a targeted Famous Chollima / Contagious Interview-style developer lure.</description>
