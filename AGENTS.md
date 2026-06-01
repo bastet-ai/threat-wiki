@@ -45,7 +45,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - `docs/blog/index.md` is a hand-curated discovery surface and can link directly to notable group, ops, or tool pages without requiring a separate `docs/blog/*.md` post.
 - `docs/feed.xml` is manually maintained; linking a new page from `docs/blog/index.md` does not update the feed automatically.
 - `hooks/tag_index.py` rewrites page `## Tags` lists into clickable links at build time and regenerates `docs/notes/tag-index.md`; commit the regenerated page when tags change.
-- Keep the landing page updated with a manual “Recent entries” section.
+- Keep the landing page updated with a manual “Recent entries” section capped at 10 links.
 - If Pages 404s, check the Actions workflow status first; a failed build can look like a site or cert problem.
 - As of 2026-03-26, `uvx --from mkdocs-material mkdocs build --strict` emits a `uvx` warning that `mkdocs` comes from the `mkdocs` dependency, but the command still exits `0` and completes the build.
 - As of 2026-03-26, `uvx --from mkdocs-material mkdocs build --strict` reports `docs/blog/2026-03-26-teampcp.md` as outside nav, but this is currently info-only and does not fail the local build.
