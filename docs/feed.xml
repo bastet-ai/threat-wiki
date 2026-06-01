@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Operation Dragon Weave Azure Blob C2 campaign</title>
+      <link>https://threat.wiki/ops/operation-dragon-weave-azure-blob-c2/</link>
+      <description>Seqrite reports Operation Dragon Weave, a moderate-confidence China-linked espionage campaign targeting Czech Republic and Taiwan-linked victims with ZIP lures, dual LNK / Rust-dropper execution paths, RUSTCLOAK DLL sideloading, an AZUREVEIL Adaptix C2 payload, and Microsoft Azure Blob Storage dead-drop command and control.</description>
+      <pubDate>Mon, 01 Jun 2026 17:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/operation-dragon-weave-azure-blob-c2/</guid>
+    </item>
+    <item>
       <title>Miasma RedHat Cloud Services npm wave</title>
       <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-06-01-miasma-redhat-cloud-services</link>
       <description>Wiz, StepSecurity, SafeDep, JFrog, and OX report Miasma, a Mini Shai-Hulud-derived wave compromising @redhat-cloud-services npm releases through malicious orphan GitHub commits, GitHub Actions OIDC trusted publishing, valid provenance/SLSA attestations, preinstall execution, cloud and CI credential harvesting, two-wave publication, live-latest malicious releases during exposure, and GitHub repository dead drops with the description Miasma: The Spreading Blight.</description>

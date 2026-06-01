@@ -12,6 +12,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [active exploitation](#active-exploitation) (8)
 - [active-exploitation](#active-exploitation) (1)
 - [actors](#actors) (3)
+- [Adaptix C2](#adaptix-c2) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [Adspect](#adspect) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (1)
@@ -51,7 +52,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AWS](#aws) (3)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
 - [axios](#axios) (1)
-- [Azure](#azure) (2)
+- [Azure](#azure) (3)
 - [Backblaze](#backblaze) (1)
 - [backdoor](#backdoor) (5)
 - [backup disruption](#backup-disruption) (1)
@@ -86,6 +87,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [certificate theft](#certificate-theft) (1)
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (2)
+- [China-linked](#china-linked) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [ChromElevator](#chromelevator) (1)
 - [CI/CD](#cicd) (22)
@@ -97,6 +99,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix](#clickfix) (3)
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (4)
+- [cloud C2](#cloud-c2) (1)
 - [cloud credential theft](#cloud-credential-theft) (3)
 - [cloud secrets](#cloud-secrets) (3)
 - [cloud security](#cloud-security) (1)
@@ -155,6 +158,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [cybercrime](#cybercrime) (7)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
+- [Czech Republic](#czech-republic) (1)
 - [data exfiltration](#data-exfiltration) (1)
 - [data theft](#data-theft) (2)
 - [DAYLIGHT](#daylight) (1)
@@ -179,7 +183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
 - [DLL side-loading](#dll-side-loading) (1)
-- [DLL sideloading](#dll-sideloading) (4)
+- [DLL sideloading](#dll-sideloading) (5)
 - [DNS C2](#dns-c2) (1)
 - [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
@@ -210,7 +214,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environment variables](#environment-variables) (1)
 - [environmental keying](#environmental-keying) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (14)
+- [espionage](#espionage) (15)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -421,9 +425,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (71)
+- [operations](#operations) (72)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (68)
+- [ops](#ops) (69)
 - [opsec failure](#opsec-failure) (1)
 - [OTP interception](#otp-interception) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -520,7 +524,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
-- [Rust](#rust) (1)
+- [Rust](#rust) (2)
 - [SaaS](#saas) (1)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
@@ -584,6 +588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
+- [Taiwan](#taiwan) (1)
 - [takedown](#takedown) (3)
 - [TamperedChef](#tamperedchef) (1)
 - [targeted operations](#targeted-operations) (1)
@@ -704,6 +709,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [Webworm](../actors/webworm.md)
+
+## Adaptix C2
+- [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
 ## Admin API key theft
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -844,6 +852,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Azure
 - [Fox Tempest](../actors/fox-tempest.md)
+- [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [ROADtools](../tools/roadtools.md)
 
 ## Backblaze
@@ -961,6 +970,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 - [Webworm](../actors/webworm.md)
 
+## China-linked
+- [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+
 ## Chinese-language cybercrime
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
@@ -1020,6 +1032,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 - [Webworm](../actors/webworm.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
+
+## cloud C2
+- [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
 ## cloud credential theft
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -1255,6 +1270,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [GREYVIBE](../actors/greyvibe.md)
 
+## Czech Republic
+- [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+
 ## data exfiltration
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
@@ -1347,6 +1365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DLL sideloading
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -1450,6 +1469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+- [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -2267,6 +2287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -2341,6 +2362,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -2710,6 +2732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 
 ## Rust
+- [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## SaaS
@@ -2961,6 +2984,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tag tampering
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+
+## Taiwan
+- [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
 ## takedown
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)

@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Operation Dragon Weave Azure Blob C2 campaign: ops/operation-dragon-weave-azure-blob-c2.md
       - Famous Chollima Packagist dev-branch loader: ops/famous-chollima-packagist-dev-branch-loader.md
       - Dutch Police / NCSC 17-million-device botnet disruption: ops/dutch-police-ncsc-17-million-device-botnet.md
       - Pirated media SilentCryptoMiner RAT campaign: ops/pirated-media-silentcryptominer-rat-campaign.md
