@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Cloud Atlas PowerCloud / reverse-tunnel campaign](actors/cloud-atlas.md)
 - [Ghostwriter / FrostyNeighbor JavaScript PicassoLoader chain](actors/ghostwriter.md#2026-ukrtelecom-themed-frostyneighbor-campaign)
 - [Famous Chollima Packagist dev-branch loader](ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](ops/dutch-police-ncsc-17-million-device-botnet.md)

@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Cloud Atlas PowerCloud / reverse-tunnel campaign</title>
+      <link>https://threat.wiki/actors/cloud-atlas/</link>
+      <description>Kaspersky reports late-2025 and early-2026 Cloud Atlas espionage against Russia and Belarus government, diplomatic, and commercial targets, adding ZIP/LNK phishing, VBCloud, PowerShower, PowerCloud, reverse SSH, ReverseSocks, Tor hidden-service backup channels, RDP patching, and Google Sheets collection tradecraft.</description>
+      <pubDate>Mon, 01 Jun 2026 07:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/cloud-atlas/</guid>
+    </item>
+    <item>
       <title>Ghostwriter / FrostyNeighbor JavaScript PicassoLoader chain</title>
       <link>https://threat.wiki/actors/ghostwriter/#2026-ukrtelecom-themed-frostyneighbor-campaign</link>
       <description>ESET documents a March 2026 FrostyNeighbor / Ghostwriter campaign against Ukrainian government organizations using Ukrtelecom-themed PDF lures, server-side victim validation, RAR-delivered JavaScript, scheduled-task persistence, and a JavaScript PicassoLoader downloader for Cobalt Strike follow-on.</description>

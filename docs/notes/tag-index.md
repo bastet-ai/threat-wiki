@@ -35,7 +35,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AppleJeus](#applejeus) (1)
 - [AppleSeed](#appleseed) (1)
 - [appliance](#appliance) (1)
-- [APT](#apt) (2)
+- [APT](#apt) (3)
 - [APT27](#apt27) (1)
 - [APT28](#apt28) (1)
 - [APT29](#apt29) (1)
@@ -61,7 +61,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [Bedrock](#bedrock) (1)
-- [Belarus](#belarus) (1)
+- [Belarus](#belarus) (2)
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
 - [Bitwarden](#bitwarden) (1)
@@ -175,6 +175,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [digital wallets](#digital-wallets) (1)
 - [DigitalOcean](#digitalocean) (1)
 - [Dindoor](#dindoor) (1)
+- [diplomatic targeting](#diplomatic-targeting) (1)
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
 - [DLL side-loading](#dll-side-loading) (1)
@@ -209,7 +210,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environment variables](#environment-variables) (1)
 - [environmental keying](#environmental-keying) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (13)
+- [espionage](#espionage) (14)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -267,6 +268,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Drive](#google-drive) (1)
 - [Google Play](#google-play) (1)
 - [government](#government) (1)
+- [government targeting](#government-targeting) (1)
 - [Grandoreiro](#grandoreiro) (1)
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (1)
@@ -343,6 +345,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
 - [LNK](#lnk) (1)
+- [LNK files](#lnk-files) (1)
 - [loader](#loader) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
@@ -444,7 +447,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomClick](#phantomclick) (1)
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
-- [phishing](#phishing) (4)
+- [phishing](#phishing) (5)
 - [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (2)
 - [PicassoLoader](#picassoloader) (1)
@@ -458,7 +461,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [post-exploitation](#post-exploitation) (3)
 - [PostgreSQL](#postgresql) (2)
 - [postinstall](#postinstall) (4)
-- [PowerShell](#powershell) (3)
+- [PowerCloud](#powercloud) (1)
+- [PowerShell](#powershell) (4)
+- [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
 - [PraisonAI](#praisonai) (1)
 - [PRC](#prc) (1)
@@ -499,6 +504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePELoader](#remotepeloader) (1)
 - [residential proxies](#residential-proxies) (1)
 - [REST C2](#rest-c2) (1)
+- [ReverseSocks](#reversesocks) (1)
 - [reviewdog](#reviewdog) (1)
 - [RingH23](#ringh23) (1)
 - [RMM abuse](#rmm-abuse) (1)
@@ -510,7 +516,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rootkit](#rootkit) (1)
 - [RubyGems](#rubygems) (1)
 - [Runner.Worker](#runnerworker) (1)
-- [Russia](#russia) (2)
+- [Russia](#russia) (3)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
@@ -565,6 +571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH bastion](#ssh-bastion) (1)
 - [SSH key persistence](#ssh-key-persistence) (1)
 - [SSH persistence](#ssh-persistence) (1)
+- [SSH tunnels](#ssh-tunnels) (1)
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
 - [Static Kitten](#static-kitten) (1)
@@ -593,6 +600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token theft](#token-theft) (2)
 - [tooling](#tooling) (5)
 - [tools](#tools) (7)
+- [Tor](#tor) (1)
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
 - [transnational repression](#transnational-repression) (1)
@@ -613,6 +621,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uranium compression](#uranium-compression) (1)
 - [UTA0355](#uta0355) (1)
 - [uTLS](#utls) (1)
+- [VBCloud](#vbcloud) (1)
+- [VBScript](#vbscript) (1)
 - [Vercel](#vercel) (1)
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
@@ -778,6 +788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
 ## APT
+- [Cloud Atlas](../actors/cloud-atlas.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 
@@ -867,6 +878,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## Belarus
+- [Cloud Atlas](../actors/cloud-atlas.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 
 ## BirdCall
@@ -1319,6 +1331,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Dindoor
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## diplomatic targeting
+- [Cloud Atlas](../actors/cloud-atlas.md)
+
 ## Discord
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Webworm](../actors/webworm.md)
@@ -1430,6 +1445,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## espionage
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+- [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
@@ -1648,6 +1664,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## government
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
+## government targeting
+- [Cloud Atlas](../actors/cloud-atlas.md)
 
 ## Grandoreiro
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -1915,6 +1934,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LNK
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
+## LNK files
+- [Cloud Atlas](../actors/cloud-atlas.md)
 
 ## loader
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -2424,6 +2446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## phishing
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -2474,10 +2497,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
+## PowerCloud
+- [Cloud Atlas](../actors/cloud-atlas.md)
+
 ## PowerShell
+- [Cloud Atlas](../actors/cloud-atlas.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## PowerShower
+- [Cloud Atlas](../actors/cloud-atlas.md)
 
 ## PPtP
 - [First VPN](../tools/first-vpn.md)
@@ -2628,6 +2658,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## REST C2
 - [GREYVIBE](../actors/greyvibe.md)
 
+## ReverseSocks
+- [Cloud Atlas](../actors/cloud-atlas.md)
+
 ## reviewdog
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
@@ -2663,6 +2696,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Russia
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
 ## Russia-linked cybercrime
@@ -2843,6 +2877,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SSH persistence
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 
+## SSH tunnels
+- [Cloud Atlas](../actors/cloud-atlas.md)
+
 ## SSRF
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
@@ -2994,6 +3031,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## Tor
+- [Cloud Atlas](../actors/cloud-atlas.md)
+
 ## Trading Technologies
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
@@ -3060,6 +3100,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## uTLS
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
+## VBCloud
+- [Cloud Atlas](../actors/cloud-atlas.md)
+
+## VBScript
+- [Cloud Atlas](../actors/cloud-atlas.md)
 
 ## Vercel
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
