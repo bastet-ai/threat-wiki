@@ -53,6 +53,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 ## Verified commands
 - `python3 scripts/generate_drafts_from_todo.py`
 - `uvx --from mkdocs-material mkdocs build --strict`
+- `npm run test:sources` checks the WebLogic source section renders clickable Markdown links and that each external source returns HTTP 200 with the expected CVE token.
 - `./contribute.sh --dry-run`
 
 ## Maintenance rules
