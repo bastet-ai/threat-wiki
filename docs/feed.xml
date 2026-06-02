@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Gamaredon GammaPhish / GammaWorm / GammaSteel chain</title>
+      <link>https://threat.wiki/ops/gamaredon-gammaphish-gammaworm-gammasteel-chain/</link>
+      <description>Sekoia reconstructs a January 2026 Gamaredon chain using WinRAR CVE-2025-8088 path traversal, Startup-folder HTA execution, GammaLoad VBScript staging, GammaWorm USB and network-share propagation, registry-backed dead-drop resolver configuration, and GammaSteel document theft from local, network, removable, and actively edited files.</description>
+      <pubDate>Tue, 02 Jun 2026 19:26:15 GMT</pubDate>
+      <guid>https://threat.wiki/ops/gamaredon-gammaphish-gammaworm-gammasteel-chain/</guid>
+    </item>
+    <item>
       <title>Android Framework CVE-2025-48595 exploitation</title>
       <link>https://threat.wiki/ops/android-framework-cve-2025-48595-exploitation/</link>
       <description>CISA added Android Framework CVE-2025-48595 to KEV on June 2, 2026, and Google's June Android Security Bulletin says there are indications the integer-overflow privilege-escalation issue may be under limited, targeted exploitation.</description>

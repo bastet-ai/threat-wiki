@@ -9,6 +9,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab](#ababil-of-minab) (1)
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
+- [ACTINIUM](#actinium) (1)
 - [active exploitation](#active-exploitation) (10)
 - [active-exploitation](#active-exploitation) (1)
 - [actors](#actors) (3)
@@ -39,7 +40,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AppleJeus](#applejeus) (1)
 - [AppleSeed](#appleseed) (1)
 - [appliance](#appliance) (1)
-- [APT](#apt) (3)
+- [APT](#apt) (4)
 - [APT27](#apt27) (1)
 - [APT28](#apt28) (1)
 - [APT29](#apt29) (1)
@@ -47,6 +48,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT37](#apt37) (1)
 - [APT43](#apt43) (1)
 - [APT45](#apt45) (1)
+- [Armageddon](#armageddon) (1)
 - [Artifact Signing](#artifact-signing) (1)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [AUDIOFIX](#audiofix) (2)
@@ -154,6 +156,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [CVE-2025-34291](#cve-2025-34291) (1)
 - [CVE-2025-48595](#cve-2025-48595) (1)
+- [CVE-2025-8088](#cve-2025-8088) (2)
 - [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-33017](#cve-2026-33017) (1)
@@ -175,6 +178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data theft](#data-theft) (2)
 - [DAYLIGHT](#daylight) (1)
 - [DDoS](#ddos) (1)
+- [dead drop resolver](#dead-drop-resolver) (1)
 - [Defender evasion](#defender-evasion) (2)
 - [defense](#defense) (1)
 - [defense evasion](#defense-evasion) (3)
@@ -199,6 +203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS C2](#dns-c2) (1)
 - [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
+- [document theft](#document-theft) (2)
 - [double extortion](#double-extortion) (1)
 - [DPAPI](#dpapi) (1)
 - [DPAPILoader](#dpapiloader) (1)
@@ -227,7 +232,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environment variables](#environment-variables) (1)
 - [environmental keying](#environmental-keying) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (17)
+- [espionage](#espionage) (19)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -266,8 +271,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS](#forticlient-ems) (1)
 - [Fortinet](#fortinet) (1)
 - [Fox Tempest](#fox-tempest) (1)
+- [FSB](#fsb) (2)
 - [FTA](#fta) (1)
 - [Funnull](#funnull) (1)
+- [Gamaredon](#gamaredon) (2)
+- [GammaLoad](#gammaload) (1)
+- [GammaPhish](#gammaphish) (1)
+- [GammaSteel](#gammasteel) (1)
+- [GammaWorm](#gammaworm) (1)
 - [Garble](#garble) (1)
 - [GCS](#gcs) (1)
 - [Ghost CMS](#ghost-cms) (1)
@@ -304,7 +315,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [high explosives](#high-explosives) (1)
 - [HONESTCUE](#honestcue) (1)
 - [hosting provider](#hosting-provider) (1)
-- [HTA](#hta) (2)
+- [HTA](#hta) (3)
 - [HttpMalice](#httpmalice) (1)
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (2)
@@ -368,7 +379,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM](#llm) (4)
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
-- [LNK](#lnk) (3)
+- [LNK](#lnk) (4)
 - [LNK files](#lnk-files) (1)
 - [loader](#loader) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
@@ -417,7 +428,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Monero](#monero) (1)
 - [MPR network provider](#mpr-network-provider) (1)
 - [Mr_Rot13](#mr_rot13) (1)
-- [mshta](#mshta) (2)
+- [mshta](#mshta) (3)
 - [MSP](#msp) (1)
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
@@ -434,6 +445,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notarized malware](#notarized-malware) (1)
 - [npm](#npm) (23)
 - [npm lifecycle hook](#npm-lifecycle-hook) (1)
+- [NTFS ADS](#ntfs-ads) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (1)
 - [OAuth tokens](#oauth-tokens) (1)
@@ -450,9 +462,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (78)
+- [operations](#operations) (79)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (75)
+- [ops](#ops) (76)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -493,12 +505,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (2)
 - [postinstall](#postinstall) (4)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (4)
+- [PowerShell](#powershell) (6)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
 - [PraisonAI](#praisonai) (1)
 - [PRC](#prc) (1)
 - [PRC-aligned](#prc-aligned) (1)
+- [Primitive Bear](#primitive-bear) (1)
 - [PrincessClub](#princessclub) (1)
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (5)
@@ -547,7 +560,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rootkit](#rootkit) (1)
 - [RubyGems](#rubygems) (1)
 - [Runner.Worker](#runnerworker) (1)
-- [Russia](#russia) (3)
+- [Russia](#russia) (5)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
@@ -575,6 +588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared hosting](#shared-hosting) (2)
 - [shared secrets](#shared-secrets) (1)
 - [SharePoint](#sharepoint) (1)
+- [Shuckworm](#shuckworm) (1)
 - [SideCopy](#sidecopy) (1)
 - [signed malware](#signed-malware) (1)
 - [signed updates](#signed-updates) (1)
@@ -628,7 +642,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamViewer](#teamviewer) (1)
 - [TEASOUP](#teasoup) (1)
 - [telecom](#telecom) (1)
-- [Telegram](#telegram) (3)
+- [Telegram](#telegram) (4)
 - [Temp Zagros](#temp-zagros) (1)
 - [The Gentlemen](#the-gentlemen) (1)
 - [tj-actions](#tj-actions) (1)
@@ -643,13 +657,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Transparent Tribe](#transparent-tribe) (2)
 - [Trend Micro](#trend-micro) (1)
 - [TrickBot](#trickbot) (1)
+- [Trident Ursa](#trident-ursa) (1)
 - [Twilio](#twilio) (1)
 - [typosquat](#typosquat) (1)
 - [typosquatting](#typosquatting) (5)
 - [UAC](#uac) (1)
+- [UAC-0010](#uac-0010) (2)
 - [UAC-0098](#uac-0098) (1)
 - [Udev persistence](#udev-persistence) (1)
-- [Ukraine](#ukraine) (4)
+- [Ukraine](#ukraine) (6)
 - [UNC2814](#unc2814) (1)
 - [UNC4736](#unc4736) (1)
 - [UNC6671](#unc6671) (1)
@@ -657,10 +673,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unit 42](#unit-42) (1)
 - [United States](#united-states) (1)
 - [uranium compression](#uranium-compression) (1)
+- [USB worm](#usb-worm) (2)
 - [UTA0355](#uta0355) (1)
 - [uTLS](#utls) (1)
 - [VBCloud](#vbcloud) (1)
-- [VBScript](#vbscript) (1)
+- [VBScript](#vbscript) (3)
 - [Vercel](#vercel) (1)
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
@@ -691,6 +708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp](#whatsapp) (1)
 - [WHM](#whm) (2)
 - [Windows](#windows) (11)
+- [WinRAR](#winrar) (2)
 - [wiper](#wiper) (2)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
@@ -729,6 +747,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## account-takeover
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+
+## ACTINIUM
+- [Gamaredon](../actors/gamaredon.md)
 
 ## active exploitation
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -849,6 +870,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## APT
 - [Cloud Atlas](../actors/cloud-atlas.md)
+- [Gamaredon](../actors/gamaredon.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 
@@ -873,6 +895,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## APT45
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## Armageddon
+- [Gamaredon](../actors/gamaredon.md)
 
 ## Artifact Signing
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -1300,6 +1325,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2025-48595
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 
+## CVE-2025-8088
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
 ## CVE-2026-0257
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
@@ -1371,6 +1400,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DDoS
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
+## dead drop resolver
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## Defender evasion
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -1464,6 +1496,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Docker
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 
+## document theft
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
 ## double extortion
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -1555,6 +1591,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
@@ -1699,11 +1737,31 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Fox Tempest
 - [Fox Tempest](../actors/fox-tempest.md)
 
+## FSB
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
 ## FTA
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
 ## Funnull
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## Gamaredon
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
+## GammaLoad
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
+## GammaPhish
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
+## GammaSteel
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
+## GammaWorm
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## Garble
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -1840,6 +1898,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## HTA
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
 
@@ -2072,6 +2131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LNK
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
 
@@ -2241,6 +2301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## mshta
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
 
@@ -2319,6 +2380,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## npm lifecycle hook
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+
+## NTFS ADS
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## nuclear weapons
 - [Fast16](../tools/fast16.md)
@@ -2400,6 +2464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -2482,6 +2547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -2682,6 +2748,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PowerShell
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -2699,6 +2767,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PRC-aligned
 - [Showboat](../tools/showboat.md)
+
+## Primitive Bear
+- [Gamaredon](../actors/gamaredon.md)
 
 ## PrincessClub
 - [GREYVIBE](../actors/greyvibe.md)
@@ -2882,6 +2953,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## Russia-linked cybercrime
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -2974,6 +3047,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SharePoint
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
+## Shuckworm
+- [Gamaredon](../actors/gamaredon.md)
 
 ## SideCopy
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -3200,6 +3276,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Telegram
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
 
 ## Temp Zagros
@@ -3256,6 +3333,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TrickBot
 - [GREYVIBE](../actors/greyvibe.md)
 
+## Trident Ursa
+- [Gamaredon](../actors/gamaredon.md)
+
 ## Twilio
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
@@ -3272,6 +3352,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UAC
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
+## UAC-0010
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
 ## UAC-0098
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -3280,6 +3364,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ukraine
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Showboat](../tools/showboat.md)
@@ -3305,6 +3391,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## uranium compression
 - [Fast16](../tools/fast16.md)
 
+## USB worm
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
 ## UTA0355
 - [ROADtools](../tools/roadtools.md)
 
@@ -3316,6 +3406,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VBScript
 - [Cloud Atlas](../actors/cloud-atlas.md)
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## Vercel
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -3428,6 +3520,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## WinRAR
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## wiper
 - [Handala](../actors/handala.md)
