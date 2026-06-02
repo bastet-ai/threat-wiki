@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Operation XENOFISCAL SideCopy XenoRAT campaign</title>
+      <link>https://threat.wiki/ops/operation-xenofiscal-sidecopy-xenorat/</link>
+      <description>Seqrite reports Operation XENOFISCAL, a SideCopy-attributed spear-phishing campaign targeting Afghanistan's Ministry of Finance provincial network with a Pashto .pdf.lnk lure, mshta remote HTA execution, obfuscated JavaScript and .NET loaders, registry persistence, in-memory shellcode execution, and XenoRAT 1.8.7 C2. Seqrite attributes the activity to SideCopy with medium-to-high confidence.</description>
+      <pubDate>Tue, 02 Jun 2026 13:27:24 GMT</pubDate>
+      <guid>https://threat.wiki/ops/operation-xenofiscal-sidecopy-xenorat/</guid>
+    </item>
+    <item>
       <title>Operation FlutterBridge FlutterShell macOS malvertising</title>
       <link>https://threat.wiki/ops/operation-flutterbridge-fluttershell-macos-malvertising/</link>
       <description>Unit 42 reports Operation FlutterBridge, a CL-CRI-1089 macOS malvertising campaign distributing signed and notarized FlutterShell applications through Google Ads and shell-company advertiser infrastructure. FlutterShell masquerades as podcast and PDF utilities while exposing WebView-driven backdoor primitives for command execution, file access, environment-variable extraction, browser hijacking, and possible AI-summarization data exfiltration.</description>

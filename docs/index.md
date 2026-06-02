@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](ops/oracle-weblogic-cve-2024-21182-exploitation.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Ghostwriter / FrostyNeighbor JavaScript PicassoLoader chain](actors/ghostwriter.md#2026-ukrtelecom-themed-frostyneighbor-campaign)
 - [Famous Chollima Packagist dev-branch loader](ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](ops/dutch-police-ncsc-17-million-device-botnet.md)
-- [OX details Shai-Hulud copycat npm packages](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-05-30-ox-copycat-packages)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

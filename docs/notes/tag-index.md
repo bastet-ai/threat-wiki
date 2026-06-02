@@ -3,7 +3,7 @@
 Generated from page-level `## Tags` sections. Each tag below links to the pages that currently use it.
 
 ## All tags
-- [.NET](#net) (1)
+- [.NET](#net) (2)
 - [3CX](#3cx) (1)
 - [4sync](#4sync) (1)
 - [Ababil of Minab](#ababil-of-minab) (1)
@@ -18,6 +18,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adspect](#adspect) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (1)
 - [adware](#adware) (2)
+- [Afghanistan](#afghanistan) (2)
 - [agent frameworks](#agent-frameworks) (1)
 - [AI](#ai) (3)
 - [AI agents](#ai-agents) (4)
@@ -42,6 +43,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT27](#apt27) (1)
 - [APT28](#apt28) (1)
 - [APT29](#apt29) (1)
+- [APT36](#apt36) (2)
 - [APT37](#apt37) (1)
 - [APT43](#apt43) (1)
 - [APT45](#apt45) (1)
@@ -65,6 +67,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bash Uploader](#bash-uploader) (1)
 - [Bedrock](#bedrock) (1)
 - [Belarus](#belarus) (2)
+- [BinaryFormatter](#binaryformatter) (1)
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
 - [Bitwarden](#bitwarden) (1)
@@ -221,7 +224,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environment variables](#environment-variables) (1)
 - [environmental keying](#environmental-keying) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (15)
+- [espionage](#espionage) (17)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -298,6 +301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [high explosives](#high-explosives) (1)
 - [HONESTCUE](#honestcue) (1)
 - [hosting provider](#hosting-provider) (1)
+- [HTA](#hta) (2)
 - [HttpMalice](#httpmalice) (1)
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (2)
@@ -320,7 +324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Iran](#iran) (5)
 - [Israel](#israel) (2)
 - [Japan](#japan) (1)
-- [JavaScript](#javascript) (1)
+- [JavaScript](#javascript) (2)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
@@ -361,7 +365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM](#llm) (4)
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
-- [LNK](#lnk) (1)
+- [LNK](#lnk) (3)
 - [LNK files](#lnk-files) (1)
 - [loader](#loader) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
@@ -399,6 +403,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Midnight Blizzard](#midnight-blizzard) (1)
 - [MiniJunk](#minijunk) (1)
 - [MINIRAT](#minirat) (2)
+- [Ministry of Finance](#ministry-of-finance) (1)
 - [MiniUpdate](#miniupdate) (1)
 - [mobile devices](#mobile-devices) (1)
 - [mobile malware](#mobile-malware) (1)
@@ -408,6 +413,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Monero](#monero) (1)
 - [MPR network provider](#mpr-network-provider) (1)
 - [Mr_Rot13](#mr_rot13) (1)
+- [mshta](#mshta) (2)
 - [MSP](#msp) (1)
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
@@ -440,9 +446,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (75)
+- [operations](#operations) (76)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (72)
+- [ops](#ops) (73)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -454,6 +460,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (3)
 - [page poisoning](#page-poisoning) (1)
+- [Pakistan-linked](#pakistan-linked) (2)
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
@@ -516,7 +523,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [recruitment lures](#recruitment-lures) (1)
 - [Redis backdoor](#redis-backdoor) (1)
 - [refresh tokens](#refresh-tokens) (1)
-- [registry persistence](#registry-persistence) (1)
+- [registry persistence](#registry-persistence) (3)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (2)
 - [remote code execution](#remote-code-execution) (1)
@@ -546,7 +553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Safari](#safari) (1)
 - [Salesforce](#salesforce) (1)
 - [ScarCruft](#scarcruft) (1)
-- [scheduled tasks](#scheduled-tasks) (1)
+- [scheduled tasks](#scheduled-tasks) (2)
 - [ScreenConnect](#screenconnect) (2)
 - [script-injection](#script-injection) (1)
 - [secret exposure](#secret-exposure) (1)
@@ -564,6 +571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared hosting](#shared-hosting) (2)
 - [shared secrets](#shared-secrets) (1)
 - [SharePoint](#sharepoint) (1)
+- [SideCopy](#sidecopy) (1)
 - [signed malware](#signed-malware) (1)
 - [signed updates](#signed-updates) (1)
 - [signed-binary](#signed-binary) (1)
@@ -581,10 +589,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
 - [South Africa](#south-africa) (1)
+- [South Asia](#south-asia) (1)
 - [South Korea](#south-korea) (2)
 - [Southeast Asia](#southeast-asia) (1)
 - [spam](#spam) (1)
-- [spear phishing](#spear-phishing) (1)
+- [spear phishing](#spear-phishing) (3)
 - [spear-phishing](#spear-phishing) (1)
 - [spearphishing](#spearphishing) (1)
 - [SQL injection](#sql-injection) (2)
@@ -627,6 +636,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
 - [transnational repression](#transnational-repression) (1)
+- [Transparent Tribe](#transparent-tribe) (2)
 - [Trend Micro](#trend-micro) (1)
 - [TrickBot](#trickbot) (1)
 - [Twilio](#twilio) (1)
@@ -686,6 +696,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
+- [XenoRAT](#xenorat) (2)
 - [XMRig](#xmrig) (3)
 - [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
@@ -697,6 +708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [zero-day](#zero-day) (1)
 
 ## .NET
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## 3CX
@@ -752,6 +764,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## adware
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## Afghanistan
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [SideCopy](../actors/sidecopy.md)
 
 ## agent frameworks
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -840,6 +856,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## APT29
 - [ROADtools](../tools/roadtools.md)
 
+## APT36
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [SideCopy](../actors/sidecopy.md)
+
 ## APT37
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
@@ -921,6 +941,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Belarus
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Ghostwriter](../actors/ghostwriter.md)
+
+## BinaryFormatter
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 
 ## BirdCall
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -1520,12 +1543,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Showboat](../tools/showboat.md)
+- [SideCopy](../actors/sidecopy.md)
 - [Webworm](../actors/webworm.md)
 
 ## ETW patching
@@ -1796,6 +1821,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hosting provider
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
+## HTA
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [SideCopy](../actors/sidecopy.md)
+
 ## HttpMalice
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -1883,6 +1912,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JavaScript
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 
 ## JavaScript bridge
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -2023,6 +2053,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LNK
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [SideCopy](../actors/sidecopy.md)
 
 ## LNK files
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -2154,6 +2186,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
+## Ministry of Finance
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+
 ## MiniUpdate
 - [Screening Serpens](../actors/screening-serpens.md)
 
@@ -2182,6 +2217,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Mr_Rot13
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## mshta
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [SideCopy](../actors/sidecopy.md)
 
 ## MSP
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
@@ -2366,6 +2405,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -2444,6 +2484,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -2499,6 +2540,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## page poisoning
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
+## Pakistan-linked
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [SideCopy](../actors/sidecopy.md)
 
 ## Palo Alto Networks
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -2743,6 +2788,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
 ## registry persistence
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [SideCopy](../actors/sidecopy.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## release tampering
@@ -2839,6 +2886,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
 ## scheduled tasks
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## ScreenConnect
@@ -2899,6 +2947,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SharePoint
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
+## SideCopy
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+
 ## signed malware
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
@@ -2955,6 +3006,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## South Africa
 - [Webworm](../actors/webworm.md)
 
+## South Asia
+- [SideCopy](../actors/sidecopy.md)
+
 ## South Korea
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -2967,6 +3021,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## spear phishing
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [SideCopy](../actors/sidecopy.md)
 
 ## spear-phishing
 - [GREYVIBE](../actors/greyvibe.md)
@@ -3161,6 +3217,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## transnational repression
 - [Handala](../actors/handala.md)
+
+## Transparent Tribe
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [SideCopy](../actors/sidecopy.md)
 
 ## Trend Micro
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -3372,6 +3432,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## XChaCha20
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## XenoRAT
+- [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [SideCopy](../actors/sidecopy.md)
 
 ## XMRig
 - [GREYVIBE](../actors/greyvibe.md)
