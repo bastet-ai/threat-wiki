@@ -67,6 +67,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
   - blog index if it is a notable writeup
 - Keep page paths stable once linked publicly.
 - Seqrite APT Team posts can be useful primary sources for targeted espionage chains; keep China-linked attribution caveated when Seqrite only gives moderate confidence and no named group.
+- Wordfence vulnerability intelligence can be useful for active WordPress plugin exploitation; if direct Wordfence pages return empty locally, use NVD plus secondary reporting that quotes Wordfence telemetry and keep source caveats clear.
 - Prefer one well-structured page per group/campaign over scattered notes.
 - Maintain `docs/notes/editorial-checklist.md` as a living checklist when the site evolves.
 - Maintain `docs/notes/source-index.md` as the canonical list of subscribed RSS/Atom and primary-source feeds.
