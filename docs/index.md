@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Android Framework CVE-2025-48595 exploitation](ops/android-framework-cve-2025-48595-exploitation.md)
+- [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](ops/wp-maps-pro-cve-2026-8732-exploitation.md)
@@ -15,8 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Miasma RedHat Cloud Services npm wave](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-06-01-miasma-redhat-cloud-services)
 - [Cloud Atlas PowerCloud / reverse-tunnel campaign](actors/cloud-atlas.md)
 - [Ghostwriter / FrostyNeighbor JavaScript PicassoLoader chain](actors/ghostwriter.md#2026-ukrtelecom-themed-frostyneighbor-campaign)
-- [Famous Chollima Packagist dev-branch loader](ops/famous-chollima-packagist-dev-branch-loader.md)
-- [Dutch Police / NCSC 17-million-device botnet disruption](ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

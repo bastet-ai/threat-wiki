@@ -5,6 +5,20 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Android Framework CVE-2025-48595 exploitation</title>
+      <link>https://threat.wiki/ops/android-framework-cve-2025-48595-exploitation/</link>
+      <description>CISA added Android Framework CVE-2025-48595 to KEV on June 2, 2026, and Google's June Android Security Bulletin says there are indications the integer-overflow privilege-escalation issue may be under limited, targeted exploitation.</description>
+      <pubDate>Tue, 02 Jun 2026 17:27:15 GMT</pubDate>
+      <guid>https://threat.wiki/ops/android-framework-cve-2025-48595-exploitation/</guid>
+    </item>
+    <item>
+      <title>Linux Kernel CVE-2022-0492 cgroup release_agent exploitation</title>
+      <link>https://threat.wiki/ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation/</link>
+      <description>CISA added Linux Kernel CVE-2022-0492 to KEV on June 2, 2026. The older cgroups v1 release_agent flaw can enable privilege escalation and namespace-isolation bypass under vulnerable kernel and container-host conditions.</description>
+      <pubDate>Tue, 02 Jun 2026 17:27:15 GMT</pubDate>
+      <guid>https://threat.wiki/ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation/</guid>
+    </item>
+    <item>
       <title>Operation XENOFISCAL SideCopy XenoRAT campaign</title>
       <link>https://threat.wiki/ops/operation-xenofiscal-sidecopy-xenorat/</link>
       <description>Seqrite reports Operation XENOFISCAL, a SideCopy-attributed spear-phishing campaign targeting Afghanistan's Ministry of Finance provincial network with a Pashto .pdf.lnk lure, mshta remote HTA execution, obfuscated JavaScript and .NET loaders, registry persistence, in-memory shellcode execution, and XenoRAT 1.8.7 C2. Seqrite attributes the activity to SideCopy with medium-to-high confidence.</description>

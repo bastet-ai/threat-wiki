@@ -31,7 +31,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AiTM](#aitm) (1)
 - [Albania](#albania) (1)
-- [Android](#android) (3)
+- [Android](#android) (4)
 - [Android spyware](#android-spyware) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
@@ -98,7 +98,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChromElevator](#chromelevator) (1)
 - [CI/CD](#cicd) (22)
 - [CircleCI](#circleci) (1)
-- [CISA KEV](#cisa-kev) (2)
+- [CISA KEV](#cisa-kev) (4)
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
@@ -129,6 +129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise](#connectwise) (1)
 - [consumer devices](#consumer-devices) (1)
 - [Contagious Interview](#contagious-interview) (2)
+- [container](#container) (1)
 - [control panel compromise](#control-panel-compromise) (1)
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
@@ -144,6 +145,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptominer](#cryptominer) (2)
 - [Curious Serpens](#curious-serpens) (1)
 - [Curve25519](#curve25519) (1)
+- [CVE-2022-0492](#cve-2022-0492) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
 - [CVE-2024-1708](#cve-2024-1708) (1)
@@ -151,6 +153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-21182](#cve-2024-21182) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [CVE-2025-34291](#cve-2025-34291) (1)
+- [CVE-2025-48595](#cve-2025-48595) (1)
 - [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-33017](#cve-2026-33017) (1)
@@ -234,7 +237,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
-- [exploitation](#exploitation) (5)
+- [exploitation](#exploitation) (7)
 - [extortion](#extortion) (2)
 - [fake CAPTCHA](#fake-captcha) (1)
 - [fake dating lures](#fake-dating-lures) (1)
@@ -360,7 +363,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libpeconv](#libpeconv) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
-- [Linux](#linux) (6)
+- [Linux](#linux) (7)
 - [LiteSpeed](#litespeed) (1)
 - [LLM](#llm) (4)
 - [LLMjacking](#llmjacking) (1)
@@ -405,6 +408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MINIRAT](#minirat) (2)
 - [Ministry of Finance](#ministry-of-finance) (1)
 - [MiniUpdate](#miniupdate) (1)
+- [mobile](#mobile) (1)
 - [mobile devices](#mobile-devices) (1)
 - [mobile malware](#mobile-malware) (1)
 - [model-provider abuse](#model-provider-abuse) (1)
@@ -446,9 +450,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (76)
+- [operations](#operations) (78)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (73)
+- [ops](#ops) (75)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -497,7 +501,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PRC-aligned](#prc-aligned) (1)
 - [PrincessClub](#princessclub) (1)
 - [private-key theft](#private-key-theft) (1)
-- [privilege escalation](#privilege-escalation) (3)
+- [privilege escalation](#privilege-escalation) (5)
 - [process hollowing](#process-hollowing) (2)
 - [prompt-injection](#prompt-injection) (3)
 - [PROMPTFLUX](#promptflux) (1)
@@ -666,7 +670,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN](#vpn) (2)
 - [VS Code](#vs-code) (3)
 - [VS Code tunnels](#vs-code-tunnels) (1)
-- [vulnerability](#vulnerability) (2)
+- [vulnerability](#vulnerability) (4)
 - [vulnerability-research](#vulnerability-research) (1)
 - [wallet replacement](#wallet-replacement) (1)
 - [wallet-drainer](#wallet-drainer) (1)
@@ -817,6 +821,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Handala](../actors/handala.md)
 
 ## Android
+- [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -1065,6 +1070,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
 ## CISA KEV
+- [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+- [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
@@ -1175,6 +1182,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 
+## container
+- [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
+
 ## control panel compromise
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
@@ -1262,6 +1272,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Curve25519
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## CVE-2022-0492
+- [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
+
 ## CVE-2023-2868
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
@@ -1283,6 +1296,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2025-34291
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+
+## CVE-2025-48595
+- [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 
 ## CVE-2026-0257
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -1585,7 +1601,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 
 ## exploitation
+- [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -2031,6 +2049,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Linux
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Showboat](../tools/showboat.md)
@@ -2191,6 +2210,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MiniUpdate
 - [Screening Serpens](../actors/screening-serpens.md)
+
+## mobile
+- [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 
 ## mobile devices
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -2357,6 +2379,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -2388,6 +2411,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+- [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -2438,6 +2462,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -2467,6 +2492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+- [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -2681,7 +2707,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
 ## privilege escalation
+- [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
@@ -3320,6 +3348,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## vulnerability
+- [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+- [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
