@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>jqwik maintainer prompt-injection supply-chain pattern</title>
+      <link>https://threat.wiki/patterns/ai-augmented-adversary-operations/#jqwik-maintainer-prompt-injection</link>
+      <description>Snyk reports that jqwik 1.10.0, a legitimate Maven Central release from the project maintainer, printed an ANSI-hidden prompt-injection instruction aimed at AI coding agents that ingest raw build and test output. The durable defender lesson is to treat process output from dependencies as untrusted data, strip terminal-control tricks, sandbox coding agents, and require explicit approval before destructive file operations.</description>
+      <pubDate>Tue, 02 Jun 2026 23:27:09 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/ai-augmented-adversary-operations/#jqwik-maintainer-prompt-injection</guid>
+    </item>
+    <item>
       <title>MCP stdio command-execution boundary</title>
       <link>https://threat.wiki/patterns/mcp-stdio-command-execution/</link>
       <description>OX Security reports a systemic Model Context Protocol trust-boundary pattern where user- or registry-controlled stdio server configuration can flow into subprocess execution through fields such as command and args. Defenders should treat MCP configuration as code execution, allow-list known servers, sandbox MCP subprocesses, and monitor AI-agent and developer-tool stdio launches.</description>

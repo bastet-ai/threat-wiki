@@ -406,6 +406,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [management plane](#management-plane) (1)
 - [manufacturing](#manufacturing) (1)
 - [marimo](#marimo) (1)
+- [Maven Central](#maven-central) (1)
 - [MCP](#mcp) (2)
 - [memory-only malware](#memory-only-malware) (1)
 - [MFA bypass](#mfa-bypass) (4)
@@ -521,9 +522,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (5)
 - [process hollowing](#process-hollowing) (2)
-- [prompt-injection](#prompt-injection) (3)
+- [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
+- [protestware](#protestware) (1)
 - [proxy](#proxy) (4)
 - [psychological operations](#psychological-operations) (1)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
@@ -2239,6 +2241,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## marimo
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
+## Maven Central
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
 ## MCP
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -2818,6 +2823,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## prompt-injection
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -2826,6 +2832,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## PROMPTSPY
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## protestware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## proxy

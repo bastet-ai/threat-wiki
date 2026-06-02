@@ -1,7 +1,7 @@
 # AI-augmented adversary operations
 
 ## Summary
-Google Threat Intelligence Group's May 2026 AI Threat Tracker documents a transition from experimental AI misuse toward repeatable adversary workflows: AI-supported vulnerability research, AI-assisted exploit development, AI-generated obfuscation, LLM-driven malware interaction with victim environments, adversary access-brokerage for model abuse, and AI software supply-chain attacks. WithSecure's GREYVIBE reporting adds a concrete Russia-nexus case where AI appears operationally integrated across lure generation, loader and obfuscator development, backend setup, and post-compromise scripting. Sysdig's marimo CVE-2026-39987 case adds a cloud post-exploitation example where an LLM agent appears to compose live commands, consume prior output, pivot through AWS Secrets Manager, and dump an internal database. Sysdig's PraisonAI CVE-2026-44338 case adds a same-day exploitation example where an exposed AI-agent API was scanned less than four hours after advisory publication. Permiso's ChatGPhish research adds a user-facing AI-rendering primitive: attacker-controlled web-page content can become trusted Markdown links, images, spoofed alerts, and QR-code phish inside ChatGPT summarization output.
+Google Threat Intelligence Group's May 2026 AI Threat Tracker documents a transition from experimental AI misuse toward repeatable adversary workflows: AI-supported vulnerability research, AI-assisted exploit development, AI-generated obfuscation, LLM-driven malware interaction with victim environments, adversary access-brokerage for model abuse, and AI software supply-chain attacks. WithSecure's GREYVIBE reporting adds a concrete Russia-nexus case where AI appears operationally integrated across lure generation, loader and obfuscator development, backend setup, and post-compromise scripting. Sysdig's marimo CVE-2026-39987 case adds a cloud post-exploitation example where an LLM agent appears to compose live commands, consume prior output, pivot through AWS Secrets Manager, and dump an internal database. Sysdig's PraisonAI CVE-2026-44338 case adds a same-day exploitation example where an exposed AI-agent API was scanned less than four hours after advisory publication. Permiso's ChatGPhish research adds a user-facing AI-rendering primitive: attacker-controlled web-page content can become trusted Markdown links, images, spoofed alerts, and QR-code phish inside ChatGPT summarization output. Snyk's jqwik 1.10.0 reporting adds a software-supply-chain variant: a legitimate maintainer release used terminal-control characters to hide a prompt-injection instruction from humans while leaving it readable to AI coding agents that ingest raw build/test output.
 
 The durable defender lesson is that AI is now part of the operational fabric for multiple actor types rather than only a novelty. Treat AI use as a force multiplier across existing intrusion patterns: faster vulnerability triage, more scalable exploit validation, easier malware refactoring, synthetic social-engineering content, and new initial-access paths through ML and AI-tooling dependencies.
 
@@ -18,6 +18,9 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - cloud credential theft
 - rapid exploitation
 - supply-chain
+- prompt-injection
+- protestware
+- Maven Central
 - TeamPCP
 - UNC6780
 - PROMPTSPY
@@ -52,6 +55,7 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - **AI supply-chain initial access:** compromised AI packages, model-serving tools, MCP-style integrations, IDE plugins, or workflow automation can expose secrets and provide a bridge into cloud, SaaS, and internal networks.
 - **Rapid exploitation of agent frameworks:** public advisories for AI-agent or workflow runtimes can lead to internet-wide endpoint validation within hours; exposed unauthenticated APIs may leak agent metadata, burn model-provider quota, or trigger side-effecting tools.
 - **AI-rendered phishing surfaces:** attacker-controlled web pages, documentation, READMEs, or internal portal text may be summarized into trusted assistant output. When the assistant UI preserves live Markdown links, auto-fetched images, or QR codes from untrusted page content, the page becomes a delivery primitive for beaconing, origin-confusing links, spoofed security notices, and mobile-pivot phishing.
+- <a id="jqwik-maintainer-prompt-injection"></a>**Dependency-output prompt injection:** Snyk reported that `net.jqwik:jqwik-engine` 1.10.0, published to Maven Central by the jqwik maintainer on May 25, 2026, printed a hidden instruction for AI coding agents to disregard prior instructions and delete jqwik tests and code. The instruction was concealed from rendered terminals with ANSI erase-line / carriage-return control sequences but remained visible to CI logs, non-PTY subprocess captures, IDE test panels, and agent wrappers that read raw stdout. Snyk reported limited observed impact and noted at least one agent refused to act, but the durable pattern is supply-chain content using build or test output as an instruction channel into autonomous coding loops.
 
 ## Defender heuristics
 - Log and review AI-service API usage from endpoints, CI runners, developer workstations, mobile apps, and unusual server processes; unexpected model calls from malware-prone contexts should be treated as suspicious.
@@ -59,6 +63,8 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - Hunt for code and script artifacts with generated-looking exploit scaffolding only as a triage aid; do not treat style alone as attribution or proof of AI use.
 - In shell and bastion telemetry, watch for agent-friendly command transcripts: repeated delimiters such as `echo '---'`, stderr suppression, `head -N` output caps, pager disabling, HEREDOC query bundles, and rapid output-to-input value handoffs.
 - Treat browser/page summarization as an untrusted-content boundary: strip or label assistant-rendered links and remote images from page input, disable automatic remote-image fetching where possible, warn users when output links originate from summarized content, and block QR-code login/payment flows launched from AI summaries.
+- Treat build, test, package-manager, and tool output as untrusted input to agents. Do not let stdout/stderr from third-party dependencies silently become system or developer instructions; strip or quote terminal-control sequences, label tool output as data, and require explicit human approval for destructive file operations proposed after dependency resolution or tests.
+- For jqwik specifically, search manifests and lockfiles for `net.jqwik:jqwik-engine` exactly `1.10.0`, review CI/IDE logs for hidden prompt text or `ESC[2K` / carriage-return artifacts, and move off the affected release if AI coding agents consume its output. Snyk notes 1.10.1 softened the directive and made hiding opt-in rather than removing the maintainer's AI-agent opposition entirely.
 - Add detections for accessibility-service abuse, structured UI serialization, hardcoded model prompts, model API keys in mobile malware, and network calls to model endpoints from nonstandard processes.
 - Treat AI-enabled obfuscation as a reason to preserve full execution context: memory, process ancestry, API traces, prompts/configuration, and model-request telemetry may explain behavior that static samples hide.
 - When investigating AI-package compromises, look beyond credential theft to lateral movement, repository cloning, workflow-log deletion, cloud runtime abuse, and extortion staging.
@@ -72,6 +78,7 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Supply-chain group profile](supply-chain-actor-profile.md)
+- [MCP stdio command-execution boundary](mcp-stdio-command-execution.md)
 
 ## Sources
 - Google Cloud / Google Threat Intelligence Group: https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access
@@ -80,3 +87,4 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - Sysdig Threat Research: https://www.sysdig.com/blog/cve-2026-44338-praisonai-authentication-bypass-in-under-4-hours-and-the-growing-trend-of-rapid-exploitation
 - Permiso Security: https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability
 - The Hacker News: https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html
+- Snyk jqwik prompt injection: https://snyk.io/blog/protestware-open-source-maintainer-qwik-1-10-0-prompt-injection/
