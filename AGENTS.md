@@ -75,6 +75,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Group pages currently live under `docs/actors/`; keep that path stable unless there is an explicit migration plan.
 - There is no top-level `Orgs` section today; document organizations inside the relevant `Ops`, `Groups`, or `Notes` page unless the taxonomy changes.
 - When writing an `Ops` page, explicitly investigate whether there is a missing companion `People` or `Groups` page that should be added in the same change.
+- Unit 42's CL-CRI-1089 is currently best handled as operation coverage unless multiple sources establish a stable named group profile; Operation FlutterBridge / FlutterShell coverage lives at `docs/ops/operation-flutterbridge-fluttershell-macos-malvertising.md`.
 - If an `Ops` page overlaps unresolved actor-alias questions, publish the operation first and keep alias caveats attributed in the page unless a separate `Groups` or `People` profile is strongly sourced.
 - For `Handala` coverage, use `Handala` as the page title and attribute vendor names (`Void Manticore`, `Storm-0842`, `Red Sandstorm`, `Banished Kitten`) plus linked personas (`Karma`, `Homeland Justice`) inside the page; the March 19, 2026 DOJ domain-seizure release is the most durable official source tying those persona domains to one `MOIS` playbook.
 - Use `./contribute.sh` for Codex contribution sweeps; `./contribute.sh 10` should run 10 sequential one-contribution passes that each read `CONTRIBUTING.md`, make a focused addition, and commit/push the result.

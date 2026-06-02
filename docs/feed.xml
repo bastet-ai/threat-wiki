@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Operation FlutterBridge FlutterShell macOS malvertising</title>
+      <link>https://threat.wiki/ops/operation-flutterbridge-fluttershell-macos-malvertising/</link>
+      <description>Unit 42 reports Operation FlutterBridge, a CL-CRI-1089 macOS malvertising campaign distributing signed and notarized FlutterShell applications through Google Ads and shell-company advertiser infrastructure. FlutterShell masquerades as podcast and PDF utilities while exposing WebView-driven backdoor primitives for command execution, file access, environment-variable extraction, browser hijacking, and possible AI-summarization data exfiltration.</description>
+      <pubDate>Tue, 02 Jun 2026 11:27:15 GMT</pubDate>
+      <guid>https://threat.wiki/ops/operation-flutterbridge-fluttershell-macos-malvertising/</guid>
+    </item>
+    <item>
       <title>WP Maps Pro CVE-2026-8732 exploitation</title>
       <link>https://threat.wiki/ops/wp-maps-pro-cve-2026-8732-exploitation/</link>
       <description>The Hacker News reports active exploitation of WP Maps Pro CVE-2026-8732, an unauthenticated WordPress plugin privilege-escalation flaw that can create administrator accounts through the wpgmp_temp_access_ajax path in versions up to and including 6.1.0. Wordfence-linked reporting cited 2,858 blocked attacks in 24 hours and a fixed 6.1.1 release.</description>

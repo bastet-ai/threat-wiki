@@ -17,12 +17,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [administrator account creation](#administrator-account-creation) (1)
 - [Adspect](#adspect) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (1)
-- [adware](#adware) (1)
+- [adware](#adware) (2)
 - [agent frameworks](#agent-frameworks) (1)
 - [AI](#ai) (3)
 - [AI agents](#ai-agents) (4)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
+- [AI data exfiltration](#ai-data-exfiltration) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI tooling](#ai-tooling) (7)
 - [ai-agent](#ai-agent) (1)
@@ -55,7 +56,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [axios](#axios) (1)
 - [Azure](#azure) (3)
 - [Backblaze](#backblaze) (1)
-- [backdoor](#backdoor) (5)
+- [backdoor](#backdoor) (6)
 - [backup disruption](#backup-disruption) (1)
 - [backups](#backups) (1)
 - [banking](#banking) (1)
@@ -76,6 +77,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brazil](#brazil) (1)
 - [BreachForums](#breachforums) (1)
 - [browser credential theft](#browser-credential-theft) (3)
+- [browser hijacking](#browser-hijacking) (1)
 - [BTMOB](#btmob) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
@@ -96,6 +98,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV](#cisa-kev) (2)
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (1)
+- [CL-CRI-1089](#cl-cri-1089) (1)
 - [Claude](#claude) (1)
 - [ClickFix](#clickfix) (3)
 - [cloaking](#cloaking) (1)
@@ -127,7 +130,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
-- [credential theft](#credential-theft) (7)
+- [credential theft](#credential-theft) (8)
 - [credential-theft](#credential-theft) (28)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -159,7 +162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
-- [cybercrime](#cybercrime) (7)
+- [cybercrime](#cybercrime) (8)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [Czech Republic](#czech-republic) (1)
 - [data exfiltration](#data-exfiltration) (1)
@@ -251,6 +254,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [financial sector](#financial-sector) (1)
 - [financial services](#financial-services) (1)
 - [financial theft](#financial-theft) (3)
+- [Flutter](#flutter) (1)
+- [FlutterShell](#fluttershell) (1)
 - [Forest Blizzard](#forest-blizzard) (1)
 - [FortiClient EMS](#forticlient-ems) (1)
 - [Fortinet](#fortinet) (1)
@@ -273,6 +278,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Go](#go) (4)
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
+- [Google Ads](#google-ads) (1)
 - [Google Drive](#google-drive) (1)
 - [Google Play](#google-play) (1)
 - [government](#government) (1)
@@ -315,12 +321,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Israel](#israel) (2)
 - [Japan](#japan) (1)
 - [JavaScript](#javascript) (1)
+- [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
 - [JavaScript malware](#javascript-malware) (1)
 - [JavaScript tampering](#javascript-tampering) (1)
 - [JetStream](#jetstream) (1)
 - [JINX-0164](#jinx-0164) (2)
+- [JSCoreRunner](#jscorerunner) (1)
 - [JSON:API](#jsonapi) (1)
 - [JSONPing](#jsonping) (1)
 - [Kaspersky](#kaspersky) (1)
@@ -364,12 +372,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LS-DYNA](#ls-dyna) (1)
 - [Lua](#lua) (1)
 - [MacCMS](#maccms) (1)
-- [macOS](#macos) (5)
+- [macOS](#macos) (6)
 - [maintainer compromise](#maintainer-compromise) (1)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
-- [malvertising](#malvertising) (1)
+- [malvertising](#malvertising) (2)
 - [malware](#malware) (9)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
@@ -413,6 +421,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (6)
+- [notarized malware](#notarized-malware) (1)
 - [npm](#npm) (23)
 - [npm lifecycle hook](#npm-lifecycle-hook) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
@@ -431,9 +440,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (74)
+- [operations](#operations) (75)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (71)
+- [ops](#ops) (72)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -555,6 +564,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared hosting](#shared-hosting) (2)
 - [shared secrets](#shared-secrets) (1)
 - [SharePoint](#sharepoint) (1)
+- [signed malware](#signed-malware) (1)
 - [signed updates](#signed-updates) (1)
 - [signed-binary](#signed-binary) (1)
 - [SilentCryptoMiner](#silentcryptominer) (1)
@@ -630,6 +640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC4736](#unc4736) (1)
 - [UNC6671](#unc6671) (1)
 - [UNC6780](#unc6780) (1)
+- [Unit 42](#unit-42) (1)
 - [United States](#united-states) (1)
 - [uranium compression](#uranium-compression) (1)
 - [UTA0355](#uta0355) (1)
@@ -661,6 +672,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebRTC](#webrtc) (1)
 - [webshell](#webshell) (1)
 - [WebSocket C2](#websocket-c2) (1)
+- [WebView](#webview) (1)
 - [Webworm](#webworm) (1)
 - [WhatsApp](#whatsapp) (1)
 - [WHM](#whm) (2)
@@ -738,6 +750,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## adware
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
 ## agent frameworks
@@ -759,6 +772,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI credential theft
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
+## AI data exfiltration
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## AI search poisoning
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -877,6 +893,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Showboat](../tools/showboat.md)
 
@@ -943,6 +960,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## browser hijacking
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## BTMOB
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -1030,6 +1050,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Citrix
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+
+## CL-CRI-1089
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## Claude
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -1148,6 +1171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 
@@ -1285,6 +1309,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [JINX-0164](../actors/jinx-0164.md)
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -1613,6 +1638,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [RemotePE](../tools/remotepe.md)
 
+## Flutter
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
+## FlutterShell
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
 ## Forest Blizzard
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
@@ -1700,6 +1731,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GoEdge
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## Google Ads
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## Google Drive
 - [GREYVIBE](../actors/greyvibe.md)
@@ -1850,6 +1884,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JavaScript
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
+## JavaScript bridge
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
 ## JavaScript injection
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -1868,6 +1905,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JINX-0164
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+
+## JSCoreRunner
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## JSON:API
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -2020,6 +2060,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## maintainer compromise
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -2034,6 +2075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 
 ## malvertising
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
 ## malware
@@ -2186,6 +2228,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 
+## notarized malware
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
 ## npm
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -2320,6 +2365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -2397,6 +2443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -2852,6 +2899,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SharePoint
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
+## signed malware
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
 ## signed updates
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
@@ -3158,6 +3208,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UNC6780
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## Unit 42
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
 ## United States
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -3259,6 +3312,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WebSocket C2
 - [GREYVIBE](../actors/greyvibe.md)
+
+## WebView
+- [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## Webworm
 - [Webworm](../actors/webworm.md)
