@@ -81,6 +81,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - For `Handala` coverage, use `Handala` as the page title and attribute vendor names (`Void Manticore`, `Storm-0842`, `Red Sandstorm`, `Banished Kitten`) plus linked personas (`Karma`, `Homeland Justice`) inside the page; the March 19, 2026 DOJ domain-seizure release is the most durable official source tying those persona domains to one `MOIS` playbook.
 - Use `./contribute.sh` for Codex contribution sweeps; `./contribute.sh 10` should run 10 sequential one-contribution passes that each read `CONTRIBUTING.md`, make a focused addition, and commit/push the result.
 - If a recursive `./contribute.sh` run spends several minutes only searching and has not written any repo files yet, stop it and publish the selected draft directly rather than letting a stalled nested Codex session block the backlog.
+- Local terminal safety prompts can block bulk HTML scans that include `.dev` domains such as Socket or SafeDep; split source checks or use available RSS/feed paths rather than leaving a cron scan pending approval.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.

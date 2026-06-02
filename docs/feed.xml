@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>MCP stdio command-execution boundary</title>
+      <link>https://threat.wiki/patterns/mcp-stdio-command-execution/</link>
+      <description>OX Security reports a systemic Model Context Protocol trust-boundary pattern where user- or registry-controlled stdio server configuration can flow into subprocess execution through fields such as command and args. Defenders should treat MCP configuration as code execution, allow-list known servers, sandbox MCP subprocesses, and monitor AI-agent and developer-tool stdio launches.</description>
+      <pubDate>Tue, 02 Jun 2026 21:28:03 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/mcp-stdio-command-execution/</guid>
+    </item>
+    <item>
       <title>Gamaredon GammaPhish / GammaWorm / GammaSteel chain</title>
       <link>https://threat.wiki/ops/gamaredon-gammaphish-gammaworm-gammasteel-chain/</link>
       <description>Sekoia reconstructs a January 2026 Gamaredon chain using WinRAR CVE-2025-8088 path traversal, Startup-folder HTA execution, GammaLoad VBScript staging, GammaWorm USB and network-share propagation, registry-backed dead-drop resolver configuration, and GammaSteel document theft from local, network, removable, and actively edited files.</description>

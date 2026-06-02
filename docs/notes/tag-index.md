@@ -20,14 +20,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [adversary-in-the-middle](#adversary-in-the-middle) (1)
 - [adware](#adware) (2)
 - [Afghanistan](#afghanistan) (2)
-- [agent frameworks](#agent-frameworks) (1)
+- [agent frameworks](#agent-frameworks) (2)
 - [AI](#ai) (3)
-- [AI agents](#ai-agents) (4)
+- [AI agents](#ai-agents) (5)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
-- [AI tooling](#ai-tooling) (7)
+- [AI tooling](#ai-tooling) (8)
 - [ai-agent](#ai-agent) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AiTM](#aitm) (1)
@@ -122,7 +122,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov](#codecov) (1)
 - [Codex](#codex) (1)
 - [Coinbase](#coinbase) (1)
-- [command execution](#command-execution) (1)
+- [command execution](#command-execution) (2)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [Composer](#composer) (3)
@@ -187,7 +187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dependency confusion](#dependency-confusion) (1)
 - [deployment_status](#deployment_status) (1)
 - [destructive operations](#destructive-operations) (1)
-- [developer machines](#developer-machines) (3)
+- [developer machines](#developer-machines) (4)
 - [developer-targeting](#developer-targeting) (8)
 - [device registration](#device-registration) (1)
 - [DEWMODE](#dewmode) (1)
@@ -358,7 +358,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver](#knowledgedeliver) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
+- [LangChain](#langchain) (1)
 - [Langflow](#langflow) (2)
+- [LangFlow](#langflow) (1)
 - [Laravel](#laravel) (2)
 - [lateral movement](#lateral-movement) (1)
 - [lateral-movement](#lateral-movement) (1)
@@ -375,6 +377,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linux](#linux) (7)
+- [LiteLLM](#litellm) (1)
 - [LiteSpeed](#litespeed) (1)
 - [LLM](#llm) (4)
 - [LLMjacking](#llmjacking) (1)
@@ -403,7 +406,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [management plane](#management-plane) (1)
 - [manufacturing](#manufacturing) (1)
 - [marimo](#marimo) (1)
-- [MCP](#mcp) (1)
+- [MCP](#mcp) (2)
 - [memory-only malware](#memory-only-malware) (1)
 - [MFA bypass](#mfa-bypass) (4)
 - [MFA-bypass](#mfa-bypass) (1)
@@ -422,6 +425,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile](#mobile) (1)
 - [mobile devices](#mobile-devices) (1)
 - [mobile malware](#mobile-malware) (1)
+- [Model Context Protocol](#model-context-protocol) (1)
 - [model-provider abuse](#model-provider-abuse) (1)
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (3)
@@ -468,6 +472,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
+- [OX Security](#ox-security) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -480,7 +485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
-- [patterns](#patterns) (2)
+- [patterns](#patterns) (3)
 - [payment fraud](#payment-fraud) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [PebbleDash](#pebbledash) (1)
@@ -531,6 +536,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ransomware](#ransomware) (3)
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAT](#rat) (14)
+- [RCE](#rce) (1)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [RDP](#rdp) (1)
@@ -623,12 +629,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
 - [Static Kitten](#static-kitten) (1)
+- [stdio](#stdio) (1)
 - [stealer](#stealer) (1)
 - [storage deletion](#storage-deletion) (1)
 - [Storm-2697](#storm-2697) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (46)
+- [supply-chain](#supply-chain) (47)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
@@ -795,6 +802,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](../actors/sidecopy.md)
 
 ## agent frameworks
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
 ## AI
@@ -805,6 +813,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI agents
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
@@ -823,6 +832,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI tooling
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -1178,6 +1188,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
 ## command execution
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## command-execution
@@ -1436,6 +1447,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## developer machines
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 
@@ -2051,9 +2063,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LA Metro
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## LangChain
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+
 ## Langflow
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
+## LangFlow
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## Laravel
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -2113,6 +2131,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Showboat](../tools/showboat.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## LiteLLM
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## LiteSpeed
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -2219,6 +2240,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
 ## MCP
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
 ## memory-only malware
@@ -2279,6 +2301,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## mobile malware
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
+## Model Context Protocol
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## model-provider abuse
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -2607,6 +2632,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OTP interception
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
+## OX Security
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+
 ## OYSTERBLUES
 - [Ghostwriter](../actors/ghostwriter.md)
 
@@ -2649,6 +2677,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## patterns
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## payment fraud
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -2858,6 +2887,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Screening Serpens](../actors/screening-serpens.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## RCE
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## Rclone
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -3162,6 +3194,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Static Kitten
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## stdio
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+
 ## stealer
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
@@ -3204,6 +3239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
