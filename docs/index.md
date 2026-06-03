@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Mirasvit Cache Warmer CVE-2026-45247 exploitation](ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Browser-based developer IDE OAuth token theft](patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Agent skill marketplace poisoning](patterns/agent-skill-marketplace-poisoning.md)
 - [jqwik maintainer prompt-injection supply-chain pattern](patterns/ai-augmented-adversary-operations.md#jqwik-maintainer-prompt-injection)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
-- [WP Maps Pro CVE-2026-8732 exploitation](ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

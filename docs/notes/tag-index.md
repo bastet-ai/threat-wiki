@@ -16,6 +16,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adaptix C2](#adaptix-c2) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [administrator account creation](#administrator-account-creation) (1)
+- [Adobe Commerce](#adobe-commerce) (1)
 - [Adspect](#adspect) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (1)
 - [adware](#adware) (2)
@@ -101,7 +102,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChromElevator](#chromelevator) (1)
 - [CI/CD](#cicd) (22)
 - [CircleCI](#circleci) (1)
-- [CISA KEV](#cisa-kev) (4)
+- [CISA KEV](#cisa-kev) (5)
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
@@ -167,6 +168,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-41091](#cve-2026-41091) (1)
 - [CVE-2026-41940](#cve-2026-41940) (1)
 - [CVE-2026-44338](#cve-2026-44338) (1)
+- [CVE-2026-45247](#cve-2026-45247) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
@@ -187,6 +189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Deno](#deno) (1)
 - [dependency confusion](#dependency-confusion) (1)
 - [deployment_status](#deployment_status) (1)
+- [deserialization](#deserialization) (1)
 - [destructive operations](#destructive-operations) (1)
 - [developer machines](#developer-machines) (4)
 - [developer tooling](#developer-tooling) (1)
@@ -216,6 +219,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DWAgent](#dwagent) (1)
 - [dynamic DNS](#dynamic-dns) (1)
 - [Dynu](#dynu) (1)
+- [e-commerce](#e-commerce) (1)
 - [edge appliance](#edge-appliance) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge devices](#edge-devices) (1)
@@ -244,7 +248,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
-- [exploitation](#exploitation) (7)
+- [exploitation](#exploitation) (8)
 - [extortion](#extortion) (2)
 - [fake CAPTCHA](#fake-captcha) (1)
 - [fake dating lures](#fake-dating-lures) (1)
@@ -396,6 +400,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lua](#lua) (1)
 - [MacCMS](#maccms) (1)
 - [macOS](#macos) (6)
+- [Magento](#magento) (1)
 - [maintainer compromise](#maintainer-compromise) (1)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
@@ -471,9 +476,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (79)
+- [operations](#operations) (80)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (76)
+- [ops](#ops) (77)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -503,6 +508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [phishing](#phishing) (5)
 - [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (2)
+- [PHP object injection](#php-object-injection) (1)
 - [PicassoLoader](#picassoloader) (1)
 - [pig-butchering](#pig-butchering) (1)
 - [piracy](#piracy) (1)
@@ -701,7 +707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN](#vpn) (2)
 - [VS Code](#vs-code) (4)
 - [VS Code tunnels](#vs-code-tunnels) (1)
-- [vulnerability](#vulnerability) (4)
+- [vulnerability](#vulnerability) (5)
 - [vulnerability-research](#vulnerability-research) (1)
 - [wallet replacement](#wallet-replacement) (1)
 - [wallet-drainer](#wallet-drainer) (1)
@@ -794,6 +800,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## administrator account creation
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+
+## Adobe Commerce
+- [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
 ## Adspect
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -1120,6 +1129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## Citrine Sleet
@@ -1381,6 +1391,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-44338
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
+## CVE-2026-45247
+- [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+
 ## CVE-2026-45498
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 
@@ -1455,6 +1468,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## deployment_status
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+
+## deserialization
+- [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
 ## destructive operations
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -1558,6 +1574,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Dynu
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
+## e-commerce
+- [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
 ## edge appliance
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -1673,6 +1692,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
@@ -2212,6 +2232,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
+## Magento
+- [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+
 ## maintainer compromise
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
@@ -2536,6 +2559,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -2618,6 +2642,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -2760,6 +2785,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PHP
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+
+## PHP object injection
+- [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
 ## PicassoLoader
 - [Ghostwriter](../actors/ghostwriter.md)
@@ -3518,6 +3546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## vulnerability-research

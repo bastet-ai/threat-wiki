@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Mirasvit Cache Warmer CVE-2026-45247 exploitation</title>
+      <link>https://threat.wiki/ops/mirasvit-cache-warmer-cve-2026-45247-exploitation/</link>
+      <description>CISA added Mirasvit Full Page Cache Warmer CVE-2026-45247 to KEV on June 3, 2026. Sansec, NVD, and Mirasvit reporting describe an unauthenticated PHP object-injection flaw in Magento / Adobe Commerce storefront traffic where a crafted CacheWarmer cookie reaches PHP unserialize and can lead to remote code execution before version 1.11.12.</description>
+      <pubDate>Wed, 03 Jun 2026 17:25:39 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mirasvit-cache-warmer-cve-2026-45247-exploitation/</guid>
+    </item>
+    <item>
       <title>Browser-based developer IDE OAuth token theft</title>
       <link>https://threat.wiki/patterns/browser-based-developer-ide-oauth-token-theft/</link>
       <description>Ammar Askar's June 2026 GitHub.dev / VS Code webview research shows how a browser-hosted developer IDE that receives broad source-control OAuth tokens can become a one-click token-theft surface. Defenders should treat browser IDEs as privileged developer applications, restrict extension installation, monitor OAuth and repository activity, and prefer scoped web-IDE tokens where platforms support them.</description>

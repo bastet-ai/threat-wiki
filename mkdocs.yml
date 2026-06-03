@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Mirasvit Cache Warmer CVE-2026-45247 exploitation: ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md
       - Gamaredon GammaPhish / GammaWorm / GammaSteel chain: ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md
       - Android Framework CVE-2025-48595 exploitation: ops/android-framework-cve-2025-48595-exploitation.md
       - Linux Kernel CVE-2022-0492 cgroup release_agent exploitation: ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md
