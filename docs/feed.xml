@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Browser-based developer IDE OAuth token theft</title>
+      <link>https://threat.wiki/patterns/browser-based-developer-ide-oauth-token-theft/</link>
+      <description>Ammar Askar's June 2026 GitHub.dev / VS Code webview research shows how a browser-hosted developer IDE that receives broad source-control OAuth tokens can become a one-click token-theft surface. Defenders should treat browser IDEs as privileged developer applications, restrict extension installation, monitor OAuth and repository activity, and prefer scoped web-IDE tokens where platforms support them.</description>
+      <pubDate>Wed, 03 Jun 2026 13:27:32 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/browser-based-developer-ide-oauth-token-theft/</guid>
+    </item>
+    <item>
       <title>Agent skill marketplace poisoning</title>
       <link>https://threat.wiki/patterns/agent-skill-marketplace-poisoning/</link>
       <description>Trail of Bits reports bypasses against multiple AI-agent skill-scanning paths and warns that public skill marketplaces can distribute malicious skills that steal credentials, hide instructions in documents or bytecode, abuse prompt framing, or reconfigure package managers to attacker-controlled registries. The defender lesson is to treat skills as untrusted software-supply-chain dependencies, use curated catalogs, inspect full artifact trees, sandbox execution, and avoid trusting scanner pass results as an allow decision.</description>
