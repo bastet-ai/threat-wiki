@@ -139,11 +139,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (10)
-- [credential-theft](#credential-theft) (28)
+- [credential-theft](#credential-theft) (29)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
-- [cryptocurrency](#cryptocurrency) (5)
+- [cryptocurrency](#cryptocurrency) (6)
 - [cryptocurrency theft](#cryptocurrency-theft) (1)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
@@ -220,6 +220,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dynamic DNS](#dynamic-dns) (1)
 - [Dynu](#dynu) (1)
 - [e-commerce](#e-commerce) (1)
+- [eBPF](#ebpf) (1)
 - [edge appliance](#edge-appliance) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge devices](#edge-devices) (1)
@@ -289,7 +290,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GCS](#gcs) (1)
 - [Ghost CMS](#ghost-cms) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
-- [GitHub](#github) (9)
+- [GitHub](#github) (10)
 - [GitHub Actions](#github-actions) (13)
 - [GitHub API](#github-api) (1)
 - [GitHub OAuth](#github-oauth) (1)
@@ -336,7 +337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (1)
 - [incident response](#incident-response) (6)
 - [industrial control](#industrial-control) (1)
-- [infostealer](#infostealer) (6)
+- [infostealer](#infostealer) (7)
 - [infrastructure](#infrastructure) (2)
 - [initial-access](#initial-access) (1)
 - [iOS](#ios) (1)
@@ -382,7 +383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libpeconv](#libpeconv) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
-- [Linux](#linux) (7)
+- [Linux](#linux) (8)
 - [LiteLLM](#litellm) (1)
 - [LiteSpeed](#litespeed) (1)
 - [LLM](#llm) (4)
@@ -406,7 +407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malvertising](#malvertising) (2)
-- [malware](#malware) (9)
+- [malware](#malware) (10)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
@@ -456,7 +457,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (6)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (23)
+- [npm](#npm) (24)
 - [npm lifecycle hook](#npm-lifecycle-hook) (1)
 - [NTFS ADS](#ntfs-ads) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
@@ -476,9 +477,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (80)
+- [operations](#operations) (81)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (77)
+- [ops](#ops) (78)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -576,14 +577,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [roadtx](#roadtx) (1)
 - [RokRAT](#rokrat) (1)
 - [root execution](#root-execution) (1)
-- [rootkit](#rootkit) (1)
+- [rootkit](#rootkit) (2)
 - [RubyGems](#rubygems) (1)
 - [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (5)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
-- [Rust](#rust) (2)
+- [Rust](#rust) (3)
 - [SaaS](#saas) (1)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
@@ -648,7 +649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2697](#storm-2697) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (49)
+- [supply-chain](#supply-chain) (50)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
@@ -670,7 +671,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token theft](#token-theft) (2)
 - [tooling](#tooling) (5)
 - [tools](#tools) (7)
-- [Tor](#tor) (1)
+- [Tor](#tor) (2)
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
 - [transnational repression](#transnational-repression) (1)
@@ -735,7 +736,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WireGuard](#wireguard) (2)
 - [WordPress](#wordpress) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
-- [worm](#worm) (6)
+- [worm](#worm) (7)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
@@ -1280,6 +1281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -1310,6 +1312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## cryptocurrency
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -1578,6 +1581,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## e-commerce
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
+## eBPF
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+
 ## edge appliance
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -1829,6 +1835,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JiaT75](../people/jiat75.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -2005,6 +2012,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## infostealer
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -2163,6 +2171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Linux
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -2256,6 +2265,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CanisterWorm](../tools/canisterworm.md)
 - [Fast16](../tools/fast16.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -2433,6 +2443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -2546,6 +2557,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -2629,6 +2641,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -3038,6 +3051,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## rootkit
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 
 ## RubyGems
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -3063,6 +3077,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 
 ## Rust
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
@@ -3298,6 +3313,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JiaT75](../people/jiat75.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -3415,6 +3431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Tor
 - [Cloud Atlas](../actors/cloud-atlas.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 
 ## Trading Technologies
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -3652,6 +3669,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## worm
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)

@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>IronWorm npm Rust infostealer campaign</title>
+      <link>https://threat.wiki/ops/ironworm-npm-rust-infostealer/</link>
+      <description>JFrog Security Research reports IronWorm, a self-replicating npm supply-chain campaign that ships a native Linux Rust infostealer through preinstall, hides with an eBPF rootkit, uses Tor C2, harvests developer, cloud, AI, Kubernetes, package-registry, and wallet secrets, backdates malicious GitHub commits, and can use trusted-publishing OIDC flows to publish trojanized npm releases.</description>
+      <pubDate>Wed, 03 Jun 2026 19:27:55 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ironworm-npm-rust-infostealer/</guid>
+    </item>
+    <item>
       <title>Mirasvit Cache Warmer CVE-2026-45247 exploitation</title>
       <link>https://threat.wiki/ops/mirasvit-cache-warmer-cve-2026-45247-exploitation/</link>
       <description>CISA added Mirasvit Full Page Cache Warmer CVE-2026-45247 to KEV on June 3, 2026. Sansec, NVD, and Mirasvit reporting describe an unauthenticated PHP object-injection flaw in Magento / Adobe Commerce storefront traffic where a crafted CacheWarmer cookie reaches PHP unserialize and can lead to remote code execution before version 1.11.12.</description>

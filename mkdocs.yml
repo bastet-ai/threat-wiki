@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - IronWorm npm Rust infostealer campaign: ops/ironworm-npm-rust-infostealer.md
       - Mirasvit Cache Warmer CVE-2026-45247 exploitation: ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md
       - Gamaredon GammaPhish / GammaWorm / GammaSteel chain: ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md
       - Android Framework CVE-2025-48595 exploitation: ops/android-framework-cve-2025-48595-exploitation.md

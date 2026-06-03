@@ -82,6 +82,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Use `./contribute.sh` for Codex contribution sweeps; `./contribute.sh 10` should run 10 sequential one-contribution passes that each read `CONTRIBUTING.md`, make a focused addition, and commit/push the result.
 - If a recursive `./contribute.sh` run spends several minutes only searching and has not written any repo files yet, stop it and publish the selected draft directly rather than letting a stalled nested Codex session block the backlog.
 - Local terminal safety prompts can block bulk HTML scans that include `.dev` domains such as Socket or SafeDep; split source checks or use available RSS/feed paths rather than leaving a cron scan pending approval.
+- JFrog Security Research may publish high-signal real-time posts outside the JFrog Blog RSS feed; include `https://research.jfrog.com/` HTML checks for items such as IronWorm when monitoring supply-chain malware.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.
