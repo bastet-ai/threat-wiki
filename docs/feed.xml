@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>faster-axios / turbo-axios Epsilon Stealer npm campaign</title>
+      <link>https://threat.wiki/ops/faster-axios-turbo-axios-epsilon-stealer/</link>
+      <description>SafeDep reports an npm typosquat campaign where turbo-axios and faster-axios copied the legitimate Axios source but added a postinstall loader that fetched remote JavaScript and delivered a Windows Epsilon Stealer payload with browser, wallet, Discord, Telegram, and GitHub 2FA-code theft, persistence, shellcode injection, and a WebSocket RAT channel.</description>
+      <pubDate>Wed, 03 Jun 2026 23:27:49 GMT</pubDate>
+      <guid>https://threat.wiki/ops/faster-axios-turbo-axios-epsilon-stealer/</guid>
+    </item>
+    <item>
       <title>IronWorm npm Rust infostealer campaign</title>
       <link>https://threat.wiki/ops/ironworm-npm-rust-infostealer/</link>
       <description>JFrog Security Research reports IronWorm, a self-replicating npm supply-chain campaign that ships a native Linux Rust infostealer through preinstall, hides with an eBPF rootkit, uses Tor C2, harvests developer, cloud, AI, Kubernetes, package-registry, and wallet secrets, backdates malicious GitHub commits, and can use trusted-publishing OIDC flows to publish trojanized npm releases.</description>

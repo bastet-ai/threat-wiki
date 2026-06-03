@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [faster-axios / turbo-axios Epsilon Stealer npm campaign](ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [IronWorm npm Rust infostealer campaign](ops/ironworm-npm-rust-infostealer.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Browser-based developer IDE OAuth token theft](patterns/browser-based-developer-ide-oauth-token-theft.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Android Framework CVE-2025-48595 exploitation](ops/android-framework-cve-2025-48595-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
-- [Operation XENOFISCAL SideCopy XenoRAT campaign](ops/operation-xenofiscal-sidecopy-xenorat.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
