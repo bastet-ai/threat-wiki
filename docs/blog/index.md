@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [jqwik maintainer prompt-injection supply-chain pattern](../patterns/ai-augmented-adversary-operations.md#jqwik-maintainer-prompt-injection)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)

@@ -21,8 +21,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [adware](#adware) (2)
 - [Afghanistan](#afghanistan) (2)
 - [agent frameworks](#agent-frameworks) (2)
+- [agent skills](#agent-skills) (1)
 - [AI](#ai) (3)
-- [AI agents](#ai-agents) (5)
+- [AI agents](#ai-agents) (6)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
@@ -136,7 +137,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
-- [credential theft](#credential-theft) (8)
+- [credential theft](#credential-theft) (9)
 - [credential-theft](#credential-theft) (28)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -406,6 +407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [management plane](#management-plane) (1)
 - [manufacturing](#manufacturing) (1)
 - [marimo](#marimo) (1)
+- [marketplace abuse](#marketplace-abuse) (1)
 - [Maven Central](#maven-central) (1)
 - [MCP](#mcp) (2)
 - [memory-only malware](#memory-only-malware) (1)
@@ -486,7 +488,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
-- [patterns](#patterns) (3)
+- [patterns](#patterns) (4)
 - [payment fraud](#payment-fraud) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [PebbleDash](#pebbledash) (1)
@@ -522,6 +524,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (5)
 - [process hollowing](#process-hollowing) (2)
+- [prompt injection](#prompt-injection) (1)
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
@@ -637,7 +640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2697](#storm-2697) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (47)
+- [supply-chain](#supply-chain) (48)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
@@ -807,12 +810,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
+## agent skills
+- [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+
 ## AI
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## AI agents
+- [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -1237,6 +1244,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## credential theft
+- [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -2241,6 +2249,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## marimo
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
+## marketplace abuse
+- [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+
 ## Maven Central
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -2680,6 +2691,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 
 ## patterns
+- [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -2821,6 +2833,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## process hollowing
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
+## prompt injection
+- [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 
 ## prompt-injection
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -3224,6 +3239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)

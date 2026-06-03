@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Agent skill marketplace poisoning</title>
+      <link>https://threat.wiki/patterns/agent-skill-marketplace-poisoning/</link>
+      <description>Trail of Bits reports bypasses against multiple AI-agent skill-scanning paths and warns that public skill marketplaces can distribute malicious skills that steal credentials, hide instructions in documents or bytecode, abuse prompt framing, or reconfigure package managers to attacker-controlled registries. The defender lesson is to treat skills as untrusted software-supply-chain dependencies, use curated catalogs, inspect full artifact trees, sandbox execution, and avoid trusting scanner pass results as an allow decision.</description>
+      <pubDate>Wed, 03 Jun 2026 11:27:49 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/agent-skill-marketplace-poisoning/</guid>
+    </item>
+    <item>
       <title>jqwik maintainer prompt-injection supply-chain pattern</title>
       <link>https://threat.wiki/patterns/ai-augmented-adversary-operations/#jqwik-maintainer-prompt-injection</link>
       <description>Snyk reports that jqwik 1.10.0, a legitimate Maven Central release from the project maintainer, printed an ANSI-hidden prompt-injection instruction aimed at AI coding agents that ingest raw build and test output. The durable defender lesson is to treat process output from dependencies as untrusted data, strip terminal-control tricks, sandbox coding agents, and require explicit approval before destructive file operations.</description>
