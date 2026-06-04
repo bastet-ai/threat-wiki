@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Stock exchange executive mailbox espionage](ops/stock-exchange-executive-mailbox-espionage.md)
 - [Operation GriefLure Southeast Asia LNK dropper](ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [binding.gyp npm CI/CD worm](ops/binding-gyp-npm-cicd-worm.md)
 - [UNC6692 SNOW malware social-engineering campaign](ops/unc6692-snow-malware-social-engineering.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Browser-based developer IDE OAuth token theft](patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Agent skill marketplace poisoning](patterns/agent-skill-marketplace-poisoning.md)
 - [jqwik maintainer prompt-injection supply-chain pattern](patterns/ai-augmented-adversary-operations.md#jqwik-maintainer-prompt-injection)
-- [MCP stdio command-execution boundary](patterns/mcp-stdio-command-execution.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

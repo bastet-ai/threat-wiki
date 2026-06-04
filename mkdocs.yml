@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Stock exchange executive mailbox espionage: ops/stock-exchange-executive-mailbox-espionage.md
       - UNC6692 SNOW malware social-engineering campaign: ops/unc6692-snow-malware-social-engineering.md
       - binding.gyp npm CI/CD worm: ops/binding-gyp-npm-cicd-worm.md
       - Operation GriefLure Southeast Asia LNK dropper: ops/operation-grieflure-southeast-asia-lnk-dropper.md

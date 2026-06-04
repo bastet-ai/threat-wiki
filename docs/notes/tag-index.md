@@ -120,6 +120,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud credential theft](#cloud-credential-theft) (3)
 - [cloud secrets](#cloud-secrets) (3)
 - [cloud security](#cloud-security) (1)
+- [cloud service abuse](#cloud-service-abuse) (1)
 - [Cloudflare](#cloudflare) (1)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Workers](#cloudflare-workers) (2)
@@ -144,7 +145,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
-- [credential theft](#credential-theft) (11)
+- [credential theft](#credential-theft) (12)
 - [credential-theft](#credential-theft) (32)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -221,6 +222,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DPAPILoader](#dpapiloader) (1)
 - [DPRK](#dprk) (1)
 - [DroneLink](#dronelink) (1)
+- [Dropbox](#dropbox) (1)
 - [Drupal](#drupal) (1)
 - [Dutch Police](#dutch-police) (1)
 - [DWAgent](#dwagent) (1)
@@ -247,7 +249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (21)
+- [espionage](#espionage) (22)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -277,7 +279,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [filename-injection](#filename-injection) (1)
 - [finance](#finance) (2)
 - [financial fraud](#financial-fraud) (1)
-- [financial sector](#financial-sector) (1)
+- [financial sector](#financial-sector) (2)
 - [financial services](#financial-services) (1)
 - [financial theft](#financial-theft) (3)
 - [Flutter](#flutter) (1)
@@ -396,6 +398,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux](#linux) (8)
 - [LiteLLM](#litellm) (1)
 - [LiteSpeed](#litespeed) (1)
+- [living off the land](#living-off-the-land) (1)
 - [living-off-the-land](#living-off-the-land) (1)
 - [LLM](#llm) (4)
 - [LLMjacking](#llmjacking) (1)
@@ -414,6 +417,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MacCMS](#maccms) (1)
 - [macOS](#macos) (6)
 - [Magento](#magento) (1)
+- [mailbox theft](#mailbox-theft) (1)
 - [maintainer compromise](#maintainer-compromise) (1)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
@@ -484,7 +488,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OIDC](#oidc) (2)
 - [Okta](#okta) (3)
 - [Ollama](#ollama) (1)
-- [OneDrive](#onedrive) (2)
+- [OneDrive](#onedrive) (3)
 - [OpenAI Codex](#openai-codex) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenSearch](#opensearch) (1)
@@ -492,12 +496,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (84)
+- [operations](#operations) (85)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (82)
+- [ops](#ops) (83)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
+- [Outlook](#outlook) (1)
 - [OX Security](#ox-security) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
@@ -516,7 +521,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [PebbleDash](#pebbledash) (1)
 - [people](#people) (1)
-- [persistence](#persistence) (13)
+- [persistence](#persistence) (14)
 - [PhaaS](#phaas) (1)
 - [Phantom Gyp](#phantom-gyp) (1)
 - [PhantomClick](#phantomclick) (1)
@@ -608,7 +613,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Safari](#safari) (1)
 - [Salesforce](#salesforce) (1)
 - [ScarCruft](#scarcruft) (1)
-- [scheduled tasks](#scheduled-tasks) (2)
+- [scheduled tasks](#scheduled-tasks) (3)
 - [ScreenConnect](#screenconnect) (2)
 - [script-injection](#script-injection) (1)
 - [secret exposure](#secret-exposure) (1)
@@ -663,6 +668,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Static Kitten](#static-kitten) (1)
 - [stdio](#stdio) (1)
 - [stealer](#stealer) (1)
+- [stock exchange](#stock-exchange) (1)
 - [storage deletion](#storage-deletion) (1)
 - [Storm-2697](#storm-2697) (1)
 - [STUN](#stun) (1)
@@ -1214,6 +1220,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud security
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
+## cloud service abuse
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+
 ## Cloudflare
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
@@ -1306,6 +1315,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
@@ -1610,6 +1620,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DroneLink
 - [GREYVIBE](../actors/greyvibe.md)
 
+## Dropbox
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+
 ## Drupal
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
@@ -1710,6 +1723,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Showboat](../tools/showboat.md)
 - [SideCopy](../actors/sidecopy.md)
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [Webworm](../actors/webworm.md)
 
@@ -1817,6 +1831,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## financial sector
 - [RemotePE](../tools/remotepe.md)
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
 ## financial services
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -2245,6 +2260,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LiteSpeed
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
+## living off the land
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+
 ## living-off-the-land
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
@@ -2310,6 +2328,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Magento
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+
+## mailbox theft
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
 ## maintainer compromise
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -2579,6 +2600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OneDrive
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Webworm](../actors/webworm.md)
 
 ## OpenAI Codex
@@ -2676,6 +2698,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -2763,6 +2786,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -2783,6 +2807,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OTP interception
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
+## Outlook
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
 ## OX Security
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -2854,6 +2881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -3198,6 +3226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## scheduled tasks
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## ScreenConnect
@@ -3382,6 +3411,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## stealer
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
+## stock exchange
+- [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
 ## storage deletion
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
