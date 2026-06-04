@@ -103,6 +103,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (1)
+- [China-nexus](#china-nexus) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [ChromElevator](#chromelevator) (1)
 - [CI/CD](#cicd) (23)
@@ -144,7 +145,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (11)
-- [credential-theft](#credential-theft) (31)
+- [credential-theft](#credential-theft) (32)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -210,7 +211,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
 - [DLL side-loading](#dll-side-loading) (1)
-- [DLL sideloading](#dll-sideloading) (5)
+- [DLL sideloading](#dll-sideloading) (6)
 - [DNS C2](#dns-c2) (1)
 - [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
@@ -246,7 +247,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (20)
+- [espionage](#espionage) (21)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -287,6 +288,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](#fox-tempest) (1)
 - [FSB](#fsb) (2)
 - [FTA](#fta) (1)
+- [ftp.exe](#ftpexe) (1)
 - [Funnull](#funnull) (1)
 - [Gamaredon](#gamaredon) (2)
 - [GammaLoad](#gammaload) (1)
@@ -324,6 +326,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
 - [HashiCorp Vault](#hashicorp-vault) (1)
+- [healthcare](#healthcare) (1)
 - [HelloDoor](#hellodoor) (1)
 - [HellsGate](#hellsgate) (1)
 - [high explosives](#high-explosives) (1)
@@ -393,10 +396,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux](#linux) (8)
 - [LiteLLM](#litellm) (1)
 - [LiteSpeed](#litespeed) (1)
+- [living-off-the-land](#living-off-the-land) (1)
 - [LLM](#llm) (4)
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
-- [LNK](#lnk) (4)
+- [LNK](#lnk) (5)
 - [LNK files](#lnk-files) (1)
 - [loader](#loader) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
@@ -488,9 +492,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (83)
+- [operations](#operations) (84)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (81)
+- [ops](#ops) (82)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -518,6 +522,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomClick](#phantomclick) (1)
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
+- [Philippines](#philippines) (1)
 - [phishing](#phishing) (5)
 - [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (2)
@@ -545,6 +550,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (5)
 - [process hollowing](#process-hollowing) (2)
+- [process injection](#process-injection) (1)
 - [prompt injection](#prompt-injection) (1)
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
@@ -641,10 +647,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [South Africa](#south-africa) (1)
 - [South Asia](#south-asia) (1)
 - [South Korea](#south-korea) (2)
-- [Southeast Asia](#southeast-asia) (1)
+- [Southeast Asia](#southeast-asia) (2)
 - [spam](#spam) (1)
 - [spear phishing](#spear-phishing) (3)
-- [spear-phishing](#spear-phishing) (1)
+- [spear-phishing](#spear-phishing) (2)
 - [spearphishing](#spearphishing) (1)
 - [SQL injection](#sql-injection) (2)
 - [SSH](#ssh) (1)
@@ -674,7 +680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](#teampcp) (7)
 - [TeamViewer](#teamviewer) (1)
 - [TEASOUP](#teasoup) (1)
-- [telecom](#telecom) (1)
+- [telecom](#telecom) (2)
 - [Telegram](#telegram) (4)
 - [Temp Zagros](#temp-zagros) (1)
 - [The Gentlemen](#the-gentlemen) (1)
@@ -713,6 +719,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBCloud](#vbcloud) (1)
 - [VBScript](#vbscript) (3)
 - [Vercel](#vercel) (1)
+- [Vietnam](#vietnam) (1)
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
 - [virtualization](#virtualization) (1)
@@ -1121,6 +1128,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## China-linked
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
+## China-nexus
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+
 ## Chinese-language cybercrime
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
@@ -1325,6 +1335,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -1567,6 +1578,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -1689,6 +1701,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
@@ -1838,6 +1851,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FTA
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
+## ftp.exe
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+
 ## Funnull
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -1978,6 +1994,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HashiCorp Vault
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+
+## healthcare
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
 ## HelloDoor
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
@@ -2226,6 +2245,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LiteSpeed
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
+## living-off-the-land
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+
 ## LLM
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GREYVIBE](../actors/greyvibe.md)
@@ -2241,6 +2263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LNK
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
 
@@ -2641,6 +2664,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -2727,6 +2751,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -2850,6 +2875,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PhantomRelay
 - [GREYVIBE](../actors/greyvibe.md)
 
+## Philippines
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+
 ## phishing
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -2952,6 +2980,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## process hollowing
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
+## process injection
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
 ## prompt injection
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
@@ -3300,6 +3331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Southeast Asia
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Showboat](../tools/showboat.md)
 
 ## spam
@@ -3312,6 +3344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## spear-phishing
 - [GREYVIBE](../actors/greyvibe.md)
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
 ## spearphishing
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -3462,6 +3495,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 
 ## telecom
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Showboat](../tools/showboat.md)
 
 ## Telegram
@@ -3607,6 +3641,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Vercel
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+
+## Vietnam
+- [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
 ## Views
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)

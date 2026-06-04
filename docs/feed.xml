@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Operation GriefLure Southeast Asia LNK dropper</title>
+      <link>https://threat.wiki/ops/operation-grieflure-southeast-asia-lnk-dropper/</link>
+      <description>Seqrite Labs reports Operation GriefLure, a Southeast Asia-focused spear-phishing campaign against Vietnam telecom and Philippine healthcare targets using authentic legal decoys, nested archives, Windows LNK files, ftp.exe living-off-the-land execution, runtime payload assembly from .doc chunks, sfsvc.exe and 360.dll loaders, explorer.exe process injection, HTTPS C2, credential theft, and moderate-to-high confidence China-nexus attribution.</description>
+      <pubDate>Thu, 04 Jun 2026 11:55:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/operation-grieflure-southeast-asia-lnk-dropper/</guid>
+    </item>
+    <item>
       <title>binding.gyp npm CI/CD worm</title>
       <link>https://threat.wiki/ops/binding-gyp-npm-cicd-worm/</link>
       <description>StepSecurity reports the Miasma / Shai-Hulud-descended Phantom Gyp npm worm: 57 packages and 286+ malicious versions using binding.gyp/node-gyp install-time execution, Bun staging, GitHub Actions runner-memory secret scraping, GitHub dead-drop repositories under liuende501, AI-assistant/editor config backdoors, and npm/RubyGems propagation.</description>

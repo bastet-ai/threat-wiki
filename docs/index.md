@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Operation GriefLure Southeast Asia LNK dropper](ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [binding.gyp npm CI/CD worm](ops/binding-gyp-npm-cicd-worm.md)
 - [UNC6692 SNOW malware social-engineering campaign](ops/unc6692-snow-malware-social-engineering.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](ops/faster-axios-turbo-axios-epsilon-stealer.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Agent skill marketplace poisoning](patterns/agent-skill-marketplace-poisoning.md)
 - [jqwik maintainer prompt-injection supply-chain pattern](patterns/ai-augmented-adversary-operations.md#jqwik-maintainer-prompt-injection)
 - [MCP stdio command-execution boundary](patterns/mcp-stdio-command-execution.md)
-- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
