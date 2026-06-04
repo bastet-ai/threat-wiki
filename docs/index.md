@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [UNC6692 SNOW malware social-engineering campaign](ops/unc6692-snow-malware-social-engineering.md)
 - [binding.gyp npm CI/CD worm](ops/binding-gyp-npm-cicd-worm.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [IronWorm npm Rust infostealer campaign](ops/ironworm-npm-rust-infostealer.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [jqwik maintainer prompt-injection supply-chain pattern](patterns/ai-augmented-adversary-operations.md#jqwik-maintainer-prompt-injection)
 - [MCP stdio command-execution boundary](patterns/mcp-stdio-command-execution.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
-- [Android Framework CVE-2025-48595 exploitation](ops/android-framework-cve-2025-48595-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

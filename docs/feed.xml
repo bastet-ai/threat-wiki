@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>UNC6692 SNOW malware social-engineering campaign</title>
+      <link>https://threat.wiki/ops/unc6692-snow-malware-social-engineering/</link>
+      <description>Google Cloud / Mandiant reports that UNC6692 used Microsoft Teams helpdesk impersonation, fake mailbox-repair pages, attacker-controlled AWS S3 staging, AutoHotKey execution, the SNOWBELT malicious Chromium extension, SNOWGLAZE tunneling, and SNOWBASIN local command execution before internal scanning, PsExec, RDP to a backup server, LSASS dumping, and LimeWire exfiltration.</description>
+      <pubDate>Thu, 04 Jun 2026 07:27:29 GMT</pubDate>
+      <guid>https://threat.wiki/ops/unc6692-snow-malware-social-engineering/</guid>
+    </item>
+    <item>
       <title>binding.gyp npm CI/CD worm</title>
       <link>https://threat.wiki/ops/binding-gyp-npm-cicd-worm/</link>
       <description>StepSecurity reports an active npm supply-chain worm that uses binding.gyp to trigger install-time execution through npm's native-addon build path, harvests developer and CI/CD credentials, injects GitHub Actions workflow steps, and republishes poisoned npm or RubyGems package versions with stolen registry tokens.</description>

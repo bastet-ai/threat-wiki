@@ -85,6 +85,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Microsoft Security Blog article pages may return HTTP 403 to simple `urllib` fetches; a normal browser User-Agent with `curl -o` to a temp file worked for the June 2026 Miasma post. Do not pipe fetched HTML directly into an interpreter.
 - JFrog Security Research may publish high-signal real-time posts outside the JFrog Blog RSS feed; include `https://research.jfrog.com/` HTML checks for items such as IronWorm when monitoring supply-chain malware.
 - StepSecurity RSS can surface urgent npm worm activity quickly; `binding.gyp`/`node-gyp` install-time execution deserves separate scrutiny from obvious `package.json` lifecycle hooks.
+- Google Cloud / Mandiant Threat Intelligence may publish high-signal operation/tool chains where the durable value is the intrusion sequence rather than a full actor profile; for UNC6692 / SNOW, current coverage lives at `docs/ops/unc6692-snow-malware-social-engineering.md` without a separate group profile until broader public actor history justifies one.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.

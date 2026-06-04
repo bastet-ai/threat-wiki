@@ -57,7 +57,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [authentication bypass](#authentication-bypass) (3)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AUTODYN](#autodyn) (1)
+- [AutoHotKey](#autohotkey) (1)
 - [AWS](#aws) (3)
+- [AWS S3](#aws-s3) (1)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
 - [axios](#axios) (1)
 - [Azure](#azure) (3)
@@ -85,6 +87,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brazil](#brazil) (1)
 - [BreachForums](#breachforums) (1)
 - [browser credential theft](#browser-credential-theft) (3)
+- [browser extension](#browser-extension) (1)
 - [browser hijacking](#browser-hijacking) (1)
 - [BTMOB](#btmob) (1)
 - [build-time compromise](#build-time-compromise) (1)
@@ -139,7 +142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
-- [credential theft](#credential-theft) (10)
+- [credential theft](#credential-theft) (11)
 - [credential-theft](#credential-theft) (31)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -242,7 +245,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (19)
+- [espionage](#espionage) (20)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -401,6 +404,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LOOKVALJS](#lookvaljs) (1)
 - [LOOKVALPS](#lookvalps) (1)
 - [LS-DYNA](#ls-dyna) (1)
+- [LSASS](#lsass) (1)
 - [Lua](#lua) (1)
 - [MacCMS](#maccms) (1)
 - [macOS](#macos) (6)
@@ -410,7 +414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malvertising](#malvertising) (2)
-- [malware](#malware) (11)
+- [malware](#malware) (12)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
@@ -428,6 +432,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft 365](#microsoft-365) (1)
 - [Microsoft Defender](#microsoft-defender) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
+- [Microsoft Teams](#microsoft-teams) (1)
 - [Middle East](#middle-east) (1)
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
@@ -483,7 +488,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (83)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (80)
+- [ops](#ops) (81)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -623,7 +628,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SLSA](#slsa) (1)
 - [SmartScreen](#smartscreen) (1)
 - [smishing](#smishing) (1)
-- [social engineering](#social-engineering) (5)
+- [social engineering](#social-engineering) (6)
 - [social-engineering](#social-engineering) (1)
 - [SOCKS5](#socks5) (2)
 - [software impersonation](#software-impersonation) (1)
@@ -694,6 +699,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC2814](#unc2814) (1)
 - [UNC4736](#unc4736) (1)
 - [UNC6671](#unc6671) (1)
+- [UNC6692](#unc6692) (1)
 - [UNC6780](#unc6780) (1)
 - [Unit 42](#unit-42) (1)
 - [United States](#united-states) (1)
@@ -956,10 +962,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AUTODYN
 - [Fast16](../tools/fast16.md)
 
+## AutoHotKey
+- [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+
 ## AWS
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+
+## AWS S3
+- [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## AWS Secrets Manager
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -1052,6 +1064,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## browser extension
+- [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## browser hijacking
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -1276,6 +1291,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
+- [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## credential-theft
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -1675,6 +1691,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Showboat](../tools/showboat.md)
 - [SideCopy](../actors/sidecopy.md)
+- [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [Webworm](../actors/webworm.md)
 
 ## ETW patching
@@ -2245,6 +2262,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LS-DYNA
 - [Fast16](../tools/fast16.md)
 
+## LSASS
+- [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+
 ## Lua
 - [Fast16](../tools/fast16.md)
 
@@ -2290,6 +2310,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+- [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## malware delivery
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -2346,6 +2367,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Graph
 - [ROADtools](../tools/roadtools.md)
 - [Webworm](../actors/webworm.md)
+
+## Microsoft Teams
+- [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## Middle East
 - [Showboat](../tools/showboat.md)
@@ -2711,6 +2735,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -3230,6 +3255,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Screening Serpens](../actors/screening-serpens.md)
+- [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## social-engineering
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -3532,6 +3558,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UNC6671
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
+## UNC6692
+- [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## UNC6780
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
