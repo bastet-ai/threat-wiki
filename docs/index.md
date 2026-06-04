@@ -7,8 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
-- [UNC6692 SNOW malware social-engineering campaign](ops/unc6692-snow-malware-social-engineering.md)
 - [binding.gyp npm CI/CD worm](ops/binding-gyp-npm-cicd-worm.md)
+- [UNC6692 SNOW malware social-engineering campaign](ops/unc6692-snow-malware-social-engineering.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [IronWorm npm Rust infostealer campaign](ops/ironworm-npm-rust-infostealer.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)

@@ -25,6 +25,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agent skills](#agent-skills) (1)
 - [AI](#ai) (3)
 - [AI agents](#ai-agents) (6)
+- [AI assistants](#ai-assistants) (1)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
@@ -427,6 +428,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [memory-only malware](#memory-only-malware) (1)
 - [MFA bypass](#mfa-bypass) (4)
 - [MFA-bypass](#mfa-bypass) (1)
+- [Miasma](#miasma) (1)
 - [Microsoft](#microsoft) (1)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (1)
@@ -512,6 +514,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [people](#people) (1)
 - [persistence](#persistence) (13)
 - [PhaaS](#phaas) (1)
+- [Phantom Gyp](#phantom-gyp) (1)
 - [PhantomClick](#phantomclick) (1)
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
@@ -612,7 +615,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
-- [Shai-Hulud](#shai-hulud) (3)
+- [Shai-Hulud](#shai-hulud) (4)
 - [share propagation](#share-propagation) (1)
 - [shared hosting](#shared-hosting) (2)
 - [shared secrets](#shared-secrets) (1)
@@ -848,6 +851,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+
+## AI assistants
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 
 ## AI chatbot abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -2352,6 +2358,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MFA-bypass
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
+## Miasma
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+
 ## Microsoft
 - [Fox Tempest](../actors/fox-tempest.md)
 
@@ -2829,6 +2838,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PhaaS
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
+## Phantom Gyp
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+
 ## PhantomClick
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -3199,6 +3211,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
 ## Shai-Hulud
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
