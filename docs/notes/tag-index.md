@@ -25,7 +25,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agent skills](#agent-skills) (1)
 - [AI](#ai) (3)
 - [AI agents](#ai-agents) (6)
-- [AI assistants](#ai-assistants) (1)
+- [AI assistants](#ai-assistants) (2)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
@@ -106,13 +106,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China-nexus](#china-nexus) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [ChromElevator](#chromelevator) (1)
-- [CI/CD](#cicd) (23)
+- [CI/CD](#cicd) (24)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (5)
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
 - [Claude](#claude) (1)
+- [Claude Code](#claude-code) (1)
 - [ClickFix](#clickfix) (3)
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (4)
@@ -302,8 +303,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS](#ghost-cms) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GitHub](#github) (10)
-- [GitHub Actions](#github-actions) (14)
+- [GitHub Actions](#github-actions) (15)
 - [GitHub API](#github-api) (1)
+- [GitHub App](#github-app) (1)
 - [GitHub OAuth](#github-oauth) (1)
 - [GitHub tokens](#github-tokens) (1)
 - [gitleaks](#gitleaks) (1)
@@ -485,7 +487,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OAuth tokens](#oauth-tokens) (1)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
-- [OIDC](#oidc) (2)
+- [OIDC](#oidc) (3)
 - [Okta](#okta) (3)
 - [Ollama](#ollama) (1)
 - [OneDrive](#onedrive) (3)
@@ -516,7 +518,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
-- [patterns](#patterns) (5)
+- [patterns](#patterns) (6)
 - [payment fraud](#payment-fraud) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [PebbleDash](#pebbledash) (1)
@@ -556,7 +558,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [privilege escalation](#privilege-escalation) (5)
 - [process hollowing](#process-hollowing) (2)
 - [process injection](#process-injection) (1)
-- [prompt injection](#prompt-injection) (1)
+- [prompt injection](#prompt-injection) (2)
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
@@ -589,6 +591,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote code execution](#remote-code-execution) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
+- [repository poisoning](#repository-poisoning) (1)
 - [residential proxies](#residential-proxies) (1)
 - [REST C2](#rest-c2) (1)
 - [ReverseSocks](#reversesocks) (1)
@@ -617,7 +620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScreenConnect](#screenconnect) (2)
 - [script-injection](#script-injection) (1)
 - [secret exposure](#secret-exposure) (1)
-- [secrets](#secrets) (4)
+- [secrets](#secrets) (5)
 - [Seedworm](#seedworm) (1)
 - [self-propagation](#self-propagation) (1)
 - [sendit.sh](#senditsh) (1)
@@ -673,7 +676,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2697](#storm-2697) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (52)
+- [supply-chain](#supply-chain) (53)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
@@ -867,6 +870,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI assistants
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+- [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 
 ## AI chatbot abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -1149,6 +1153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -1189,6 +1194,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Claude
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+
+## Claude Code
+- [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 
 ## ClickFix
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -1917,6 +1925,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -1930,6 +1939,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitHub API
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+
+## GitHub App
+- [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 
 ## GitHub OAuth
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -2587,6 +2599,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## OIDC
+- [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
@@ -2857,6 +2870,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
+- [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
@@ -3014,6 +3028,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## prompt injection
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+- [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 
 ## prompt-injection
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -3142,6 +3157,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RemotePELoader
 - [RemotePE](../tools/remotepe.md)
 
+## repository poisoning
+- [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+
 ## residential proxies
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
@@ -3242,6 +3260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## secrets
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
@@ -3439,6 +3458,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)

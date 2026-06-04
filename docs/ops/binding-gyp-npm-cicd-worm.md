@@ -7,6 +7,8 @@ In the June 3--4 wave, StepSecurity counted 57 npm packages and 286+ malicious v
 
 The payload harvests developer and CI/CD credentials, scrapes GitHub Actions runner memory, abuses GitHub repositories as encrypted credential dead drops, injects AI-assistant and editor configuration backdoors, and uses stolen npm or RubyGems publishing access to republish poisoned package versions.
 
+Snyk separately tracks the incident as **Node-gyp Supply Chain Compromise - June 2026**, classifies the affected releases as critical embedded malicious code, and warns that malicious versions remained resolvable from the public npm registry at the time of its June 4 writeup.
+
 ## Tags
 - ops
 - operations
@@ -125,3 +127,4 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 
 ## Sources
 - StepSecurity: https://www.stepsecurity.io/blog/binding-gyp-npm-supply-chain-attack-spreads-like-worm
+- Snyk: https://snyk.io/blog/node-gyp-supply-chain-compromise-self-propagating-npm-worm-binding-gyp/

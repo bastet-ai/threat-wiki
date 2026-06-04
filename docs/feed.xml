@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Claude Code GitHub Action prompt-injection boundary</title>
+      <link>https://threat.wiki/patterns/claude-code-github-action-prompt-injection/</link>
+      <description>GMO Flatt Security documents a Claude Code GitHub Actions trust-boundary flaw where untrusted GitHub issue or comment content could reach AI-agent workflows with repository, workflow, GitHub App, GITHUB_TOKEN, and OIDC privileges. Anthropic fixed the reported bypasses in claude-code-action v1.0.94; defenders should treat AI issue-triage workflows as untrusted input unless permissions and secrets are tightly scoped.</description>
+      <pubDate>Thu, 04 Jun 2026 15:27:26 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/claude-code-github-action-prompt-injection/</guid>
+    </item>
+    <item>
       <title>Stock exchange executive mailbox espionage</title>
       <link>https://threat.wiki/ops/stock-exchange-executive-mailbox-espionage/</link>
       <description>Broadcom / Symantec reports a five-month targeted espionage intrusion against a senior stock-exchange executive, focused on incremental Outlook mailbox theft through an Aspose-based OST-to-PST stealer, scheduled-task persistence, Dropbox API uploads, OneDrive Personal uploads through hard-coded Microsoft IP addresses, and masquerading Adobe, Lenovo, OneDrive, and Intel-themed paths.</description>

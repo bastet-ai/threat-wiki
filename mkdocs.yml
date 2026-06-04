@@ -121,6 +121,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Claude Code GitHub Action prompt-injection boundary: patterns/claude-code-github-action-prompt-injection.md
       - Browser-based developer IDE OAuth token theft: patterns/browser-based-developer-ide-oauth-token-theft.md
       - Agent skill marketplace poisoning: patterns/agent-skill-marketplace-poisoning.md
       - MCP stdio command-execution boundary: patterns/mcp-stdio-command-execution.md
