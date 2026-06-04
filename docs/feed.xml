@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>binding.gyp npm CI/CD worm</title>
+      <link>https://threat.wiki/ops/binding-gyp-npm-cicd-worm/</link>
+      <description>StepSecurity reports an active npm supply-chain worm that uses binding.gyp to trigger install-time execution through npm's native-addon build path, harvests developer and CI/CD credentials, injects GitHub Actions workflow steps, and republishes poisoned npm or RubyGems package versions with stolen registry tokens.</description>
+      <pubDate>Thu, 04 Jun 2026 05:25:17 GMT</pubDate>
+      <guid>https://threat.wiki/ops/binding-gyp-npm-cicd-worm/</guid>
+    </item>
+    <item>
       <title>faster-axios / turbo-axios Epsilon Stealer npm campaign</title>
       <link>https://threat.wiki/ops/faster-axios-turbo-axios-epsilon-stealer/</link>
       <description>SafeDep reports an npm typosquat campaign where turbo-axios and faster-axios copied the legitimate Axios source but added a postinstall loader that fetched remote JavaScript and delivered a Windows Epsilon Stealer payload with browser, wallet, Discord, Telegram, and GitHub 2FA-code theft, persistence, shellcode injection, and a WebSocket RAT channel.</description>

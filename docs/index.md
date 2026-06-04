@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [binding.gyp npm CI/CD worm](ops/binding-gyp-npm-cicd-worm.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [IronWorm npm Rust infostealer campaign](ops/ironworm-npm-rust-infostealer.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [MCP stdio command-execution boundary](patterns/mcp-stdio-command-execution.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Android Framework CVE-2025-48595 exploitation](ops/android-framework-cve-2025-48595-exploitation.md)
-- [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

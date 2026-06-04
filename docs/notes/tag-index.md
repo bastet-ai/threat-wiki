@@ -72,6 +72,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bedrock](#bedrock) (1)
 - [Belarus](#belarus) (2)
 - [BinaryFormatter](#binaryformatter) (1)
+- [binding.gyp](#bindinggyp) (1)
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
 - [Bitwarden](#bitwarden) (1)
@@ -100,7 +101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China-linked](#china-linked) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [ChromElevator](#chromelevator) (1)
-- [CI/CD](#cicd) (22)
+- [CI/CD](#cicd) (23)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (5)
 - [Citrine Sleet](#citrine-sleet) (1)
@@ -139,7 +140,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (10)
-- [credential-theft](#credential-theft) (30)
+- [credential-theft](#credential-theft) (31)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -293,7 +294,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS](#ghost-cms) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GitHub](#github) (10)
-- [GitHub Actions](#github-actions) (13)
+- [GitHub Actions](#github-actions) (14)
 - [GitHub API](#github-api) (1)
 - [GitHub OAuth](#github-oauth) (1)
 - [GitHub tokens](#github-tokens) (1)
@@ -409,7 +410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malvertising](#malvertising) (2)
-- [malware](#malware) (10)
+- [malware](#malware) (11)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
@@ -455,11 +456,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Netherlands](#netherlands) (1)
 - [NetScaler](#netscaler) (1)
 - [Nginx module](#nginx-module) (1)
+- [node-gyp](#node-gyp) (1)
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (6)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (25)
+- [npm](#npm) (26)
 - [npm lifecycle hook](#npm-lifecycle-hook) (1)
 - [NTFS ADS](#ntfs-ads) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
@@ -479,9 +481,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (82)
+- [operations](#operations) (83)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (79)
+- [ops](#ops) (80)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -580,7 +582,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RokRAT](#rokrat) (1)
 - [root execution](#root-execution) (1)
 - [rootkit](#rootkit) (2)
-- [RubyGems](#rubygems) (1)
+- [RubyGems](#rubygems) (2)
 - [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (5)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
@@ -596,7 +598,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScreenConnect](#screenconnect) (2)
 - [script-injection](#script-injection) (1)
 - [secret exposure](#secret-exposure) (1)
-- [secrets](#secrets) (3)
+- [secrets](#secrets) (4)
 - [Seedworm](#seedworm) (1)
 - [self-propagation](#self-propagation) (1)
 - [sendit.sh](#senditsh) (1)
@@ -651,7 +653,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2697](#storm-2697) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (51)
+- [supply-chain](#supply-chain) (52)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
@@ -738,7 +740,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WireGuard](#wireguard) (2)
 - [WordPress](#wordpress) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
-- [worm](#worm) (7)
+- [worm](#worm) (8)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
@@ -1009,6 +1011,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BinaryFormatter
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 
+## binding.gyp
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+
 ## BirdCall
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
@@ -1103,6 +1108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CI/CD
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -1274,6 +1280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## credential-theft
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -1853,6 +1860,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitHub Actions
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -2272,6 +2280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Fast16](../tools/fast16.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
@@ -2428,6 +2437,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Nginx module
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## node-gyp
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+
 ## node-ipc
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 
@@ -2447,6 +2459,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## npm
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -2544,6 +2557,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -2631,6 +2645,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -3069,6 +3084,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 
 ## RubyGems
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 
 ## Runner.Worker
@@ -3127,6 +3143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
 ## secrets
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -3313,6 +3330,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -3685,6 +3703,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 
 ## worm
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)

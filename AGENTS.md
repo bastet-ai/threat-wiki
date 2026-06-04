@@ -84,6 +84,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Local terminal safety prompts can block bulk HTML scans that include `.dev` domains such as Socket or SafeDep; split source checks or use available RSS/feed paths rather than leaving a cron scan pending approval.
 - Microsoft Security Blog article pages may return HTTP 403 to simple `urllib` fetches; a normal browser User-Agent with `curl -o` to a temp file worked for the June 2026 Miasma post. Do not pipe fetched HTML directly into an interpreter.
 - JFrog Security Research may publish high-signal real-time posts outside the JFrog Blog RSS feed; include `https://research.jfrog.com/` HTML checks for items such as IronWorm when monitoring supply-chain malware.
+- StepSecurity RSS can surface urgent npm worm activity quickly; `binding.gyp`/`node-gyp` install-time execution deserves separate scrutiny from obvious `package.json` lifecycle hooks.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.
