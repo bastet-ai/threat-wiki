@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>TA4922</title>
+      <link>https://threat.wiki/actors/ta4922/</link>
+      <description>Proofpoint profiles TA4922 as a likely financially motivated Chinese-speaking cybercriminal cluster using localized HR, payroll, tax, invoicing, and business-process lures across East Asia, Europe, and Africa to deliver credential phishing, fraud paths, RMM tooling, ValleyRAT / Winos4.0, Atlas RAT, RomulusLoader, and SilentRunLoader.</description>
+      <pubDate>Thu, 04 Jun 2026 17:25:27 GMT</pubDate>
+      <guid>https://threat.wiki/actors/ta4922/</guid>
+    </item>
+    <item>
       <title>Claude Code GitHub Action prompt-injection boundary</title>
       <link>https://threat.wiki/patterns/claude-code-github-action-prompt-injection/</link>
       <description>GMO Flatt Security documents a Claude Code GitHub Actions trust-boundary flaw where untrusted GitHub issue or comment content could reach AI-agent workflows with repository, workflow, GitHub App, GITHUB_TOKEN, and OIDC privileges. Anthropic fixed the reported bypasses in claude-code-action v1.0.94; defenders should treat AI issue-triage workflows as untrusted input unless permissions and secrets are tightly scoped.</description>

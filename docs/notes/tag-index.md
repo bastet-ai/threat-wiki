@@ -12,7 +12,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACTINIUM](#actinium) (1)
 - [active exploitation](#active-exploitation) (10)
 - [active-exploitation](#active-exploitation) (1)
-- [actors](#actors) (3)
+- [actors](#actors) (4)
 - [Adaptix C2](#adaptix-c2) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [administrator account creation](#administrator-account-creation) (1)
@@ -54,6 +54,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armageddon](#armageddon) (1)
 - [Artifact Signing](#artifact-signing) (1)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
+- [Atlas RAT](#atlas-rat) (1)
 - [AUDIOFIX](#audiofix) (2)
 - [authentication bypass](#authentication-bypass) (3)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -104,6 +105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China](#china) (2)
 - [China-linked](#china-linked) (1)
 - [China-nexus](#china-nexus) (1)
+- [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [ChromElevator](#chromelevator) (1)
 - [CI/CD](#cicd) (24)
@@ -147,7 +149,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (12)
-- [credential-theft](#credential-theft) (32)
+- [credential-theft](#credential-theft) (33)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -183,7 +185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
-- [cybercrime](#cybercrime) (8)
+- [cybercrime](#cybercrime) (9)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [Czech Republic](#czech-republic) (1)
 - [data exfiltration](#data-exfiltration) (1)
@@ -323,7 +325,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro](#grandoreiro) (1)
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (1)
-- [groups](#groups) (5)
+- [groups](#groups) (6)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
 - [HappyDoor](#happydoor) (1)
@@ -336,6 +338,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [high explosives](#high-explosives) (1)
 - [HONESTCUE](#honestcue) (1)
 - [hosting provider](#hosting-provider) (1)
+- [HR lures](#hr-lures) (1)
 - [HTA](#hta) (3)
 - [HttpMalice](#httpmalice) (1)
 - [HTTPSpy](#httpspy) (1)
@@ -425,7 +428,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (1)
 - [malvertising](#malvertising) (2)
-- [malware](#malware) (12)
+- [malware](#malware) (13)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
@@ -520,6 +523,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pastebin](#pastebin) (1)
 - [patterns](#patterns) (6)
 - [payment fraud](#payment-fraud) (1)
+- [payroll lures](#payroll-lures) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [PebbleDash](#pebbledash) (1)
 - [people](#people) (1)
@@ -530,7 +534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (5)
+- [phishing](#phishing) (6)
 - [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (2)
 - [PHP object injection](#php-object-injection) (1)
@@ -589,6 +593,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (2)
 - [remote code execution](#remote-code-execution) (1)
+- [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
 - [repository poisoning](#repository-poisoning) (1)
@@ -602,6 +607,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
 - [RokRAT](#rokrat) (1)
+- [RomulusLoader](#romulusloader) (1)
 - [root execution](#root-execution) (1)
 - [rootkit](#rootkit) (2)
 - [RubyGems](#rubygems) (2)
@@ -640,6 +646,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [signed updates](#signed-updates) (1)
 - [signed-binary](#signed-binary) (1)
 - [SilentCryptoMiner](#silentcryptominer) (1)
+- [SilentRunLoader](#silentrunloader) (1)
 - [simulation tampering](#simulation-tampering) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [SLSA](#slsa) (1)
@@ -725,6 +732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [USB worm](#usb-worm) (2)
 - [UTA0355](#uta0355) (1)
 - [uTLS](#utls) (1)
+- [ValleyRAT](#valleyrat) (1)
 - [VBCloud](#vbcloud) (1)
 - [VBScript](#vbscript) (3)
 - [Vercel](#vercel) (1)
@@ -759,6 +767,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp](#whatsapp) (1)
 - [WHM](#whm) (2)
 - [Windows](#windows) (12)
+- [Winos4.0](#winos40) (1)
 - [WinRAR](#winrar) (2)
 - [wiper](#wiper) (2)
 - [wiper-adjacent](#wiper-adjacent) (1)
@@ -820,6 +829,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## actors
 - [Fox Tempest](../actors/fox-tempest.md)
 - [JINX-0164](../actors/jinx-0164.md)
+- [TA4922](../actors/ta4922.md)
 - [Webworm](../actors/webworm.md)
 
 ## Adaptix C2
@@ -969,6 +979,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ASP.NET machineKey
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## Atlas RAT
+- [TA4922](../actors/ta4922.md)
 
 ## AUDIOFIX
 - [JINX-0164](../actors/jinx-0164.md)
@@ -1140,6 +1153,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## China-nexus
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+
+## China-speaking ecosystem
+- [TA4922](../actors/ta4922.md)
 
 ## Chinese-language cybercrime
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -1357,6 +1373,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [TA4922](../actors/ta4922.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -1484,6 +1501,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+- [TA4922](../actors/ta4922.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## cybercrime ecosystem
@@ -2002,6 +2020,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 - [JINX-0164](../actors/jinx-0164.md)
+- [TA4922](../actors/ta4922.md)
 - [Webworm](../actors/webworm.md)
 
 ## hack-and-leak
@@ -2039,6 +2058,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## hosting provider
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
+## HR lures
+- [TA4922](../actors/ta4922.md)
 
 ## HTA
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -2369,6 +2391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
+- [TA4922](../actors/ta4922.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -2877,6 +2900,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## payment fraud
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
+## payroll lures
+- [TA4922](../actors/ta4922.md)
+
 ## pe_to_shellcode
 - [RemotePE](../tools/remotepe.md)
 
@@ -2926,6 +2952,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [TA4922](../actors/ta4922.md)
 
 ## phishing-as-a-service
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -3151,6 +3178,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## remote code execution
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
+## remote-access
+- [TA4922](../actors/ta4922.md)
+
 ## RemotePE
 - [RemotePE](../tools/remotepe.md)
 
@@ -3189,6 +3219,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RokRAT
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
+## RomulusLoader
+- [TA4922](../actors/ta4922.md)
 
 ## root execution
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -3325,6 +3358,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SilentCryptoMiner
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
+## SilentRunLoader
+- [TA4922](../actors/ta4922.md)
 
 ## simulation tampering
 - [Fast16](../tools/fast16.md)
@@ -3683,6 +3719,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## uTLS
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
+## ValleyRAT
+- [TA4922](../actors/ta4922.md)
+
 ## VBCloud
 - [Cloud Atlas](../actors/cloud-atlas.md)
 
@@ -3811,6 +3850,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## Winos4.0
+- [TA4922](../actors/ta4922.md)
 
 ## WinRAR
 - [Gamaredon](../actors/gamaredon.md)

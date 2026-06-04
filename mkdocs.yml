@@ -101,6 +101,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - TA4922: actors/ta4922.md
       - Gamaredon: actors/gamaredon.md
       - SideCopy: actors/sidecopy.md
       - Cloud Atlas: actors/cloud-atlas.md

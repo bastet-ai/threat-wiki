@@ -87,6 +87,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - StepSecurity RSS can surface urgent npm worm activity quickly; `binding.gyp`/`node-gyp` install-time execution deserves separate scrutiny from obvious `package.json` lifecycle hooks.
 - Google Cloud / Mandiant Threat Intelligence may publish high-signal operation/tool chains where the durable value is the intrusion sequence rather than a full actor profile; for UNC6692 / SNOW, current coverage lives at `docs/ops/unc6692-snow-malware-social-engineering.md` without a separate group profile until broader public actor history justifies one.
 - GMO Flatt Security Research can provide durable AI-agent / GitHub Actions trust-boundary research; Claude Code GitHub Action prompt-injection coverage lives at `docs/patterns/claude-code-github-action-prompt-injection.md` and should be treated as a reusable pattern, not a named intrusion.
+- Proofpoint Threat Insight is useful for email-driven actor cluster profiles; TA4922 coverage lives at `docs/actors/ta4922.md`. Keep Proofpoint's financially motivated Chinese-speaking cybercrime assessment separate from Silver Fox / Void Arachne overlap unless future sources establish stronger aliasing.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.

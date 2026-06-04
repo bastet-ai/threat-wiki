@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [TA4922](actors/ta4922.md)
 - [Claude Code GitHub Action prompt-injection boundary](patterns/claude-code-github-action-prompt-injection.md)
 - [Stock exchange executive mailbox espionage](ops/stock-exchange-executive-mailbox-espionage.md)
 - [Operation GriefLure Southeast Asia LNK dropper](ops/operation-grieflure-southeast-asia-lnk-dropper.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [IronWorm npm Rust infostealer campaign](ops/ironworm-npm-rust-infostealer.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Browser-based developer IDE OAuth token theft](patterns/browser-based-developer-ide-oauth-token-theft.md)
-- [Agent skill marketplace poisoning](patterns/agent-skill-marketplace-poisoning.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
