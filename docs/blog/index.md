@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [PAN-OS GlobalProtect CVE-2026-0257 active exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [OP-512](../actors/op-512.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
@@ -37,7 +38,6 @@ Short updates, summaries, and notable threat writeups.
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Microsoft details oob.moika.tech reconnaissance-first dependency-confusion cluster](../ops/oob-moika-dependency-confusion-env-stealer.md#microsoft-follow-up-cluster-may-2829-2026)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
-- [PAN-OS GlobalProtect CVE-2026-0257 active exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Permiso ChatGPhish AI-summary phishing surface](../patterns/ai-augmented-adversary-operations.md#operational-shapes-to-watch)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)

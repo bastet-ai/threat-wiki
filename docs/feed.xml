@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>PAN-OS GlobalProtect CVE-2026-0257 exploitation</title>
+      <link>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/</link>
+      <description>Unit 42 confirms active exploitation of PAN-OS CVE-2026-0257 by an unidentified actor attempting to access GlobalProtect. Palo Alto Networks describes the issue as an authentication bypass in vulnerable GlobalProtect portal and gateway configurations that can establish unauthorized VPN connections; Unit 42 had not identified post-access behavior or lateral movement at publication time.</description>
+      <pubDate>Fri, 05 Jun 2026 15:25:51 GMT</pubDate>
+      <guid>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/</guid>
+    </item>
+    <item>
       <title>OP-512</title>
       <link>https://threat.wiki/actors/op-512/</link>
       <description>ReliaQuest reports OP-512, a suspected new China-linked espionage cluster targeting legacy Microsoft IIS servers with a custom three-web-shell framework. The framework uses deployment-unique ASP.NET code, self-reporting hex-segmented DNS C2, and RSA+RC4-gated .ashx command handlers, making behavioral detections around w3wp.exe, unexpected ASP.NET compilation, and outbound DNS/HTTP more durable than static indicators.</description>
@@ -248,13 +255,6 @@
       <description>Kaspersky reports an ongoing cybercrime campaign distributing a modified SilentCryptoMiner fork and RAT capability through fake plugin/update prompts on illegal movie, TV, and digital-library sites, combining DLL side-loading, UAC pressure, GoogleUpdateTaskMachineQC service persistence, watchdog self-restoration, RAT C2, and XMRig-style mining.</description>
       <pubDate>Sat, 30 May 2026 01:25:00 GMT</pubDate>
       <guid>https://threat.wiki/ops/pirated-media-silentcryptominer-rat-campaign/</guid>
-    </item>
-    <item>
-      <title>PAN-OS GlobalProtect CVE-2026-0257 active exploitation</title>
-      <link>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/</link>
-      <description>Palo Alto Networks and CISA report active exploitation of CVE-2026-0257, a GlobalProtect portal and gateway authentication-bypass flaw in PAN-OS that can let attackers establish unauthorized VPN connections when authentication-override cookies are enabled with the vulnerable certificate configuration.</description>
-      <pubDate>Fri, 29 May 2026 21:25:00 GMT</pubDate>
-      <guid>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/</guid>
     </item>
     <item>
       <title>Permiso ChatGPhish AI-summary phishing surface</title>

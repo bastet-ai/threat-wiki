@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [OP-512](actors/op-512.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [PCPJack cloud SMTP relay network](ops/pcpjack-cloud-smtp-relay-network.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Stock exchange executive mailbox espionage](ops/stock-exchange-executive-mailbox-espionage.md)
 - [Operation GriefLure Southeast Asia LNK dropper](ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [binding.gyp npm CI/CD worm](ops/binding-gyp-npm-cicd-worm.md)
-- [UNC6692 SNOW malware social-engineering campaign](ops/unc6692-snow-malware-social-engineering.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
