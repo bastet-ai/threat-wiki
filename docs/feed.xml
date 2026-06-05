@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Microsoft Claude Code Action runner-environment exposure case</title>
+      <link>https://threat.wiki/patterns/claude-code-github-action-prompt-injection/#runner-environment-exposure-through-file-read-tools</link>
+      <description>Microsoft Threat Intelligence reports a Claude Code GitHub Action case where prompt-injected GitHub issue or pull-request content could drive the agent Read tool to access /proc/self/environ, exposing the workflow ANTHROPIC_API_KEY and potentially other runner credentials despite Bash environment scrubbing. Microsoft says Anthropic mitigated the issue in Claude Code 2.1.128 by blocking sensitive /proc files.</description>
+      <pubDate>Fri, 05 Jun 2026 19:27:04 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/claude-code-github-action-prompt-injection/#runner-environment-exposure-through-file-read-tools</guid>
+    </item>
+    <item>
       <title>Azure/durabletask repository reinfection in the Miasma / Phantom Gyp wave</title>
       <link>https://threat.wiki/ops/binding-gyp-npm-cicd-worm/#june-5-azuredurabletask-repository-reinfection</link>
       <description>StepSecurity reports a second compromise of the Azure/durabletask GitHub repository after the May 19 durabletask PyPI compromise. The June 5 malicious commit allegedly reused the same contributor account and planted Claude Code, Gemini CLI, Cursor, VS Code, and GitHub setup files that execute a 4.6 MB obfuscated credential-harvesting payload when the repository is opened in AI coding tools or VS Code.</description>

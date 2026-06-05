@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Microsoft Claude Code Action runner-environment exposure case](../patterns/claude-code-github-action-prompt-injection.md#runner-environment-exposure-through-file-read-tools)
 - [Azure/durabletask repository reinfection in the Miasma / Phantom Gyp wave](../ops/binding-gyp-npm-cicd-worm.md#june-5-azuredurabletask-repository-reinfection)
 - [PAN-OS GlobalProtect CVE-2026-0257 active exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [OP-512](../actors/op-512.md)
@@ -10,7 +11,6 @@ Short updates, summaries, and notable threat writeups.
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [TA4922](../actors/ta4922.md)
-- [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
