@@ -10,12 +10,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (10)
+- [active exploitation](#active-exploitation) (11)
 - [active-exploitation](#active-exploitation) (1)
 - [actors](#actors) (4)
 - [Adaptix C2](#adaptix-c2) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
-- [administrator account creation](#administrator-account-creation) (1)
+- [administrator account creation](#administrator-account-creation) (2)
 - [Adobe Commerce](#adobe-commerce) (1)
 - [Adspect](#adspect) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (1)
@@ -130,7 +130,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare](#cloudflare) (1)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Workers](#cloudflare-workers) (2)
-- [CMS](#cms) (3)
+- [CMS](#cms) (4)
 - [Cobalt Strike](#cobalt-strike) (2)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (2)
@@ -175,6 +175,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-8088](#cve-2025-8088) (2)
 - [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
+- [CVE-2026-3300](#cve-2026-3300) (1)
 - [CVE-2026-33017](#cve-2026-33017) (1)
 - [CVE-2026-34926](#cve-2026-34926) (1)
 - [CVE-2026-35616](#cve-2026-35616) (1)
@@ -261,6 +262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
 - [Europol](#europol) (1)
+- [Everest Forms Pro](#everest-forms-pro) (1)
 - [EvilAI](#evilai) (1)
 - [exfiltration](#exfiltration) (3)
 - [exploit-development](#exploit-development) (1)
@@ -505,9 +507,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (86)
+- [operations](#operations) (87)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (84)
+- [ops](#ops) (85)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -541,6 +543,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [phishing](#phishing) (7)
 - [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (2)
+- [PHP code injection](#php-code-injection) (1)
 - [PHP object injection](#php-object-injection) (1)
 - [PicassoLoader](#picassoloader) (1)
 - [pig-butchering](#pig-butchering) (1)
@@ -596,7 +599,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [registry persistence](#registry-persistence) (3)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (2)
-- [remote code execution](#remote-code-execution) (1)
+- [remote code execution](#remote-code-execution) (2)
 - [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
@@ -761,10 +764,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wasabi](#wasabi) (1)
 - [watchdog](#watchdog) (1)
 - [watering-hole](#watering-hole) (2)
-- [web application](#web-application) (2)
+- [web application](#web-application) (3)
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
-- [web shell](#web-shell) (1)
+- [web shell](#web-shell) (2)
 - [web supply chain](#web-supply-chain) (1)
 - [WebKit](#webkit) (1)
 - [WebRTC](#webrtc) (1)
@@ -780,7 +783,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wiper](#wiper) (2)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
-- [WordPress](#wordpress) (1)
+- [WordPress](#wordpress) (2)
 - [workflow backdoor](#workflow-backdoor) (1)
 - [worm](#worm) (9)
 - [WP Maps Pro](#wp-maps-pro) (1)
@@ -821,6 +824,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## active exploitation
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -847,6 +851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## administrator account creation
+- [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## Adobe Commerce
@@ -1277,6 +1282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CMS
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
@@ -1473,6 +1479,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-26980
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
+## CVE-2026-3300
+- [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 
 ## CVE-2026-33017
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -1790,6 +1799,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Europol
 - [First VPN](../tools/first-vpn.md)
+
+## Everest Forms Pro
+- [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 
 ## EvilAI
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -2714,6 +2726,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -2804,6 +2817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -2992,6 +3006,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PHP
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+
+## PHP code injection
+- [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 
 ## PHP object injection
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
@@ -3210,6 +3227,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## remote code execution
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 
 ## remote-access
 - [TA4922](../actors/ta4922.md)
@@ -3843,6 +3861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web application
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## web hosting
@@ -3853,6 +3872,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 
 ## web shell
+- [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## web supply chain
@@ -3916,6 +3936,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 
 ## WordPress
+- [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## workflow backdoor

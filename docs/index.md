@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Everest Forms Pro CVE-2026-3300 exploitation](ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [PCPJack cloud SMTP relay network](ops/pcpjack-cloud-smtp-relay-network.md)
 - [Kali365 device-code phishing expansion](ops/kali365-device-code-phishing-expansion.md)
 - [TA4922](actors/ta4922.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [binding.gyp npm CI/CD worm](ops/binding-gyp-npm-cicd-worm.md)
 - [UNC6692 SNOW malware social-engineering campaign](ops/unc6692-snow-malware-social-engineering.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](ops/faster-axios-turbo-axios-epsilon-stealer.md)
-- [IronWorm npm Rust infostealer campaign](ops/ironworm-npm-rust-infostealer.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

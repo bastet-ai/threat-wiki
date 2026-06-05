@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Everest Forms Pro CVE-2026-3300 exploitation</title>
+      <link>https://threat.wiki/ops/everest-forms-pro-cve-2026-3300-exploitation/</link>
+      <description>The Hacker News reports active exploitation of Everest Forms Pro CVE-2026-3300, an unauthenticated PHP code-injection flaw in the Calculation Addon's process_filter() path affecting versions through 1.9.12. Wordfence-referenced telemetry says exploitation began April 13, 2026, with more than 29,300 blocked attempts and payloads creating a diksimarina administrator account.</description>
+      <pubDate>Fri, 05 Jun 2026 09:27:27 GMT</pubDate>
+      <guid>https://threat.wiki/ops/everest-forms-pro-cve-2026-3300-exploitation/</guid>
+    </item>
+    <item>
       <title>PCPJack cloud SMTP relay network</title>
       <link>https://threat.wiki/ops/pcpjack-cloud-smtp-relay-network/</link>
       <description>Hunt.io reports that PCPJack infrastructure exposed a 12-file toolkit and Sliver working directory used to convert 230 compromised AWS, Google Cloud, and Azure Linux servers into a Chisel-backed SMTP relay network. SentinelOne separately describes PCPJack as a cloud credential-theft worm that removes TeamPCP-associated artifacts, so the wiki tracks the relationship as TeamPCP-adjacent rather than confirmed shared control.</description>
