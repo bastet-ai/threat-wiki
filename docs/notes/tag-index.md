@@ -10,7 +10,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (11)
+- [active exploitation](#active-exploitation) (12)
 - [active-exploitation](#active-exploitation) (1)
 - [actors](#actors) (5)
 - [Adaptix C2](#adaptix-c2) (1)
@@ -176,6 +176,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-8088](#cve-2025-8088) (2)
 - [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
+- [CVE-2026-28318](#cve-2026-28318) (1)
 - [CVE-2026-3300](#cve-2026-3300) (1)
 - [CVE-2026-33017](#cve-2026-33017) (1)
 - [CVE-2026-34926](#cve-2026-34926) (1)
@@ -202,6 +203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense](#defense) (1)
 - [defense evasion](#defense-evasion) (3)
 - [DeFi](#defi) (4)
+- [denial of service](#denial-of-service) (1)
 - [Deno](#deno) (1)
 - [dependency confusion](#dependency-confusion) (1)
 - [deployment_status](#deployment_status) (1)
@@ -242,6 +244,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge appliance](#edge-appliance) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge devices](#edge-devices) (1)
+- [edge service](#edge-service) (1)
 - [EDR evasion](#edr-evasion) (1)
 - [education](#education) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
@@ -360,7 +363,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IIS](#iis) (1)
 - [iMessage](#imessage) (1)
 - [impersonation](#impersonation) (1)
-- [incident response](#incident-response) (6)
+- [incident response](#incident-response) (7)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (8)
 - [infrastructure](#infrastructure) (2)
@@ -441,6 +444,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
+- [managed file transfer](#managed-file-transfer) (1)
 - [management plane](#management-plane) (1)
 - [manufacturing](#manufacturing) (1)
 - [marimo](#marimo) (1)
@@ -510,9 +514,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (87)
+- [operations](#operations) (88)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (85)
+- [ops](#ops) (86)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -644,6 +648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sendit.sh](#senditsh) (1)
 - [Sentry abuse](#sentry-abuse) (1)
 - [SEO poisoning](#seo-poisoning) (1)
+- [Serv-U](#serv-u) (1)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
@@ -670,6 +675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [social-engineering](#social-engineering) (2)
 - [SOCKS5](#socks5) (2)
 - [software impersonation](#software-impersonation) (1)
+- [SolarWinds](#solarwinds) (1)
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
@@ -840,6 +846,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+- [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## active-exploitation
@@ -1492,6 +1499,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-26980
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
+## CVE-2026-28318
+- [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+
 ## CVE-2026-3300
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 
@@ -1585,6 +1595,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [RemotePE](../tools/remotepe.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+
+## denial of service
+- [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
 ## Deno
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -1724,6 +1737,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## edge devices
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
+## edge service
+- [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
 ## EDR evasion
 - [RemotePE](../tools/remotepe.md)
@@ -2167,6 +2183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
 ## industrial control
 - [Fast16](../tools/fast16.md)
@@ -2463,6 +2480,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malware-signing-as-a-service
 - [Fox Tempest](../actors/fox-tempest.md)
+
+## managed file transfer
+- [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
 ## management plane
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -2796,6 +2816,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+- [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -2886,6 +2907,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+- [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -3390,6 +3412,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SEO poisoning
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
+## Serv-U
+- [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+
 ## session hijacking
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -3479,6 +3504,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## software impersonation
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
+## SolarWinds
+- [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
 ## source-code compromise
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)

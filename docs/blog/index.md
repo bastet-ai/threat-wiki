@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Microsoft Claude Code Action runner-environment exposure case](../patterns/claude-code-github-action-prompt-injection.md#runner-environment-exposure-through-file-read-tools)
 - [Azure/durabletask repository reinfection in the Miasma / Phantom Gyp wave](../ops/binding-gyp-npm-cicd-worm.md#june-5-azuredurabletask-repository-reinfection)
 - [PAN-OS GlobalProtect CVE-2026-0257 active exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)

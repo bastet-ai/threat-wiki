@@ -92,6 +92,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Hunt.io and SentinelOne are useful for exposed attacker-infrastructure and cloud-worm follow-ups; PCPJack coverage lives at `docs/ops/pcpjack-cloud-smtp-relay-network.md`, with TeamPCP relationship caveated as adjacency / artifact-removal behavior rather than confirmed shared control.
 - ReliaQuest Threat Research can surface durable incident-response-backed actor clusters and IIS/web-shell tradecraft; OP-512 coverage lives at `docs/actors/op-512.md`, with China-linked attribution kept to ReliaQuest's moderate-to-high-confidence assessment and aliasing kept separate until future public reporting supports it.
 - Microsoft Security Blog can provide primary-source AI-agent CI/CD trust-boundary research; the June 5, 2026 Claude Code Action case adds `/proc/self/environ` Read-tool exposure to `docs/patterns/claude-code-github-action-prompt-injection.md` alongside the earlier GMO Flatt GitHub App / issue-triage boundary coverage.
+- CISA KEV additions for internet-facing managed-file-transfer or edge services can justify concise ops pages even when public impact is availability-only; SolarWinds Serv-U CVE-2026-28318 coverage lives at `docs/ops/solarwinds-serv-u-cve-2026-28318-exploitation.md`.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.
