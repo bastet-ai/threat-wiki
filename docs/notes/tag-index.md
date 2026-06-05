@@ -121,6 +121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud](#cloud) (4)
 - [cloud C2](#cloud-c2) (1)
 - [cloud credential theft](#cloud-credential-theft) (3)
+- [cloud identity](#cloud-identity) (1)
 - [cloud secrets](#cloud-secrets) (3)
 - [cloud security](#cloud-security) (1)
 - [cloud service abuse](#cloud-service-abuse) (1)
@@ -149,7 +150,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (12)
-- [credential-theft](#credential-theft) (33)
+- [credential-theft](#credential-theft) (34)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -206,6 +207,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer tooling](#developer-tooling) (1)
 - [developer-targeting](#developer-targeting) (8)
 - [device registration](#device-registration) (1)
+- [device-code phishing](#device-code-phishing) (1)
 - [DEWMODE](#dewmode) (1)
 - [Digital Knowledge](#digital-knowledge) (1)
 - [digital wallets](#digital-wallets) (1)
@@ -247,7 +249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [endpoint-security](#endpoint-security) (2)
 - [energy-sector](#energy-sector) (1)
 - [engineering software](#engineering-software) (1)
-- [Entra ID](#entra-id) (1)
+- [Entra ID](#entra-id) (2)
 - [environment variables](#environment-variables) (1)
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
@@ -444,7 +446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Miasma](#miasma) (1)
 - [Microsoft](#microsoft) (1)
 - [Microsoft .NET](#microsoft-net) (1)
-- [Microsoft 365](#microsoft-365) (1)
+- [Microsoft 365](#microsoft-365) (2)
 - [Microsoft Defender](#microsoft-defender) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
 - [Microsoft Teams](#microsoft-teams) (1)
@@ -486,12 +488,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NTFS ADS](#ntfs-ads) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (1)
-- [OAuth](#oauth) (1)
+- [OAuth](#oauth) (2)
 - [OAuth tokens](#oauth-tokens) (1)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
 - [OIDC](#oidc) (3)
-- [Okta](#okta) (3)
+- [Okta](#okta) (4)
 - [Ollama](#ollama) (1)
 - [OneDrive](#onedrive) (3)
 - [OpenAI Codex](#openai-codex) (1)
@@ -501,9 +503,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (85)
+- [operations](#operations) (86)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (83)
+- [ops](#ops) (84)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -528,13 +530,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PebbleDash](#pebbledash) (1)
 - [people](#people) (1)
 - [persistence](#persistence) (14)
-- [PhaaS](#phaas) (1)
+- [PhaaS](#phaas) (2)
 - [Phantom Gyp](#phantom-gyp) (1)
 - [PhantomClick](#phantomclick) (1)
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (6)
+- [phishing](#phishing) (7)
 - [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (2)
 - [PHP object injection](#php-object-injection) (1)
@@ -653,7 +655,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SmartScreen](#smartscreen) (1)
 - [smishing](#smishing) (1)
 - [social engineering](#social-engineering) (6)
-- [social-engineering](#social-engineering) (1)
+- [social-engineering](#social-engineering) (2)
 - [SOCKS5](#socks5) (2)
 - [software impersonation](#software-impersonation) (1)
 - [source-code compromise](#source-code-compromise) (1)
@@ -703,6 +705,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions](#tj-actions) (1)
 - [token replay](#token-replay) (1)
 - [token theft](#token-theft) (2)
+- [token-theft](#token-theft) (1)
 - [tooling](#tooling) (5)
 - [tools](#tools) (7)
 - [Tor](#tor) (2)
@@ -1236,6 +1239,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
+## cloud identity
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+
 ## cloud secrets
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
@@ -1361,6 +1367,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
@@ -1582,6 +1589,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## device registration
 - [ROADtools](../tools/roadtools.md)
 
+## device-code phishing
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+
 ## DEWMODE
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
@@ -1715,6 +1725,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](../tools/fast16.md)
 
 ## Entra ID
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [ROADtools](../tools/roadtools.md)
 
 ## environment variables
@@ -2448,6 +2459,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Microsoft 365
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
 ## Microsoft Defender
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -2611,6 +2623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OAuth
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
 ## OAuth tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -2629,6 +2642,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Okta
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## Ollama
@@ -2700,6 +2714,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -2788,6 +2803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -2930,6 +2946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PhaaS
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
 ## Phantom Gyp
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -2952,6 +2969,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [TA4922](../actors/ta4922.md)
 
 ## phishing-as-a-service
@@ -3387,6 +3405,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## social-engineering
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
 ## SOCKS5
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -3607,6 +3626,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## token theft
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [ROADtools](../tools/roadtools.md)
+
+## token-theft
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
 ## tooling
 - [CanisterWorm](../tools/canisterworm.md)

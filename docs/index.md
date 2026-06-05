@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Kali365 device-code phishing expansion](ops/kali365-device-code-phishing-expansion.md)
 - [TA4922](actors/ta4922.md)
 - [Claude Code GitHub Action prompt-injection boundary](patterns/claude-code-github-action-prompt-injection.md)
 - [Stock exchange executive mailbox espionage](ops/stock-exchange-executive-mailbox-espionage.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [IronWorm npm Rust infostealer campaign](ops/ironworm-npm-rust-infostealer.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
-- [Browser-based developer IDE OAuth token theft](patterns/browser-based-developer-ide-oauth-token-theft.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

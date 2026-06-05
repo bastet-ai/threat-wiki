@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Kali365 device-code phishing expansion</title>
+      <link>https://threat.wiki/ops/kali365-device-code-phishing-expansion/</link>
+      <description>Arctic Wolf Labs reports that Kali365 expanded from Microsoft OAuth device-code phishing into a 126-host multi-brand phishing cluster impersonating Microsoft Outlook / Live, Okta SSO, Xerox DocuShare, AWS-themed services, GMX, Mail.ru, Odnoklassniki, Yandex Disk, and MAX Messenger while using live token-capture panel infrastructure under securehubcloud.com and phishing zones such as attachedfile.com.</description>
+      <pubDate>Fri, 05 Jun 2026 03:28:17 GMT</pubDate>
+      <guid>https://threat.wiki/ops/kali365-device-code-phishing-expansion/</guid>
+    </item>
+    <item>
       <title>TA4922</title>
       <link>https://threat.wiki/actors/ta4922/</link>
       <description>Proofpoint profiles TA4922 as a likely financially motivated Chinese-speaking cybercriminal cluster using localized HR, payroll, tax, invoicing, and business-process lures across East Asia, Europe, and Africa to deliver credential phishing, fraud paths, RMM tooling, ValleyRAT / Winos4.0, Atlas RAT, RomulusLoader, and SilentRunLoader.</description>
