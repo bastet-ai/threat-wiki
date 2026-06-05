@@ -66,6 +66,11 @@ Two defender implications follow from that update:
 - Treat TeamPCP-style supply-chain incidents as potential **data-extortion precursors**, not only package-registry or developer-endpoint events. Cloud, source-code, SaaS, and CI/CD secret exposure can become leverage even when no ransomware is deployed.
 - Attribution may become noisier because Unit 42 observed a May 13, 2026 BreachForums announcement claiming an open-source release of Shai-Hulud. Public or leaked tooling can let copycats mimic TeamPCP tradecraft while still feeding the same extortion economy.
 
+## PCPJack adjacency caveat
+SentinelOne's May 2026 PCPJack reporting describes a separate cloud credential-theft framework that deliberately removes artifacts associated with TeamPCP / PCPcat-style infections. Hunt.io's June 2026 follow-up recovered PCPJack infrastructure used to convert 230 compromised AWS, Google Cloud, and Azure Linux servers into a Chisel-backed SMTP relay network.
+
+Track PCPJack as **TeamPCP-adjacent but not confirmed TeamPCP-controlled**: public evidence supports overlap and rivalry/removal behavior, not shared operators. The useful defender takeaway for this page is that TeamPCP-linked cloud and supply-chain compromises now sit in an ecosystem where other crimeware operators may evict, reuse, or monetize the same exposed cloud hosts.
+
 ## Human actors / personas
 Public reporting commonly attributes activity to the **TeamPCP** persona itself rather than naming individual humans. I do **not** see a reliable public name for a specific person behind TeamPCP in the sources used here.
 
@@ -79,6 +84,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md) (adjacent action-tag compromise; attribution remains caveated)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md) (adjacent IDE-extension compromise; attribution remains caveated)
+- [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md) (TeamPCP-adjacent cloud crimeware; public reporting describes TeamPCP artifact removal, not TeamPCP control)
 
 ### Operational chain summary
 - **Initial trust-boundary break:** compromised Trivy release and related GitHub Actions enabled credential theft.
@@ -122,6 +128,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Composer packages that unexpectedly add `composer-plugin-api`, plugin classes, or install/update hooks, especially when an existing Packagist version tag moves to a new commit
 - PyPI packages that add Linux-only import-time downloaders for `.pyz` payloads, especially AI/security packages and hosts resembling legitimate project infrastructure such as `git-tanstack[.]com`
 - Leak-site, BreachForums, or victim-communication references that appear after TeamPCP-linked credential theft, especially claims involving LAPSUS$ Group, Vect, Rostova Organization, or copycat Shai-Hulud operators
+- Cloud-host compromise where tools remove TeamPCP / PCPcat-named artifacts before installing unrelated credential-theft, Sliver, Chisel, or SMTP relay components; keep this as adjacency/rivalry evidence, not attribution by itself
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
@@ -155,3 +162,5 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [Unit 42 cyber-extortion economy analysis](https://unit42.paloaltonetworks.com/cyber-extortion-economy/)
 - [Wiz Miasma / RedHat npm coverage](https://www.wiz.io/blog/miasma-supply-chain-attack-targeting-redhat-npm-packages)
 - [StepSecurity RedHat Cloud Services npm coverage](https://www.stepsecurity.io/blog/multiple-redhat-cloud-services-npm-packages-compromised)
+- [SentinelOne PCPJack cloud worm reporting](https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/)
+- [Hunt.io PCPJack SMTP relay network reporting](https://hunt.io/blog/pcpjack-230-cloud-servers-smtp-proxy-network-sliver-chisel)

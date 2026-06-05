@@ -107,6 +107,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China-nexus](#china-nexus) (1)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
+- [Chisel](#chisel) (1)
 - [ChromElevator](#chromelevator) (1)
 - [CI/CD](#cicd) (24)
 - [CircleCI](#circleci) (1)
@@ -118,10 +119,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code](#claude-code) (1)
 - [ClickFix](#clickfix) (3)
 - [cloaking](#cloaking) (1)
-- [cloud](#cloud) (4)
+- [cloud](#cloud) (5)
 - [cloud C2](#cloud-c2) (1)
 - [cloud credential theft](#cloud-credential-theft) (3)
 - [cloud identity](#cloud-identity) (1)
+- [cloud infrastructure](#cloud-infrastructure) (1)
 - [cloud secrets](#cloud-secrets) (3)
 - [cloud security](#cloud-security) (1)
 - [cloud service abuse](#cloud-service-abuse) (1)
@@ -149,7 +151,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
-- [credential theft](#credential-theft) (12)
+- [credential theft](#credential-theft) (13)
 - [credential-theft](#credential-theft) (34)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -402,7 +404,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libpeconv](#libpeconv) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
-- [Linux](#linux) (8)
+- [Linux](#linux) (9)
 - [LiteLLM](#litellm) (1)
 - [LiteSpeed](#litespeed) (1)
 - [living off the land](#living-off-the-land) (1)
@@ -569,7 +571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
 - [protestware](#protestware) (1)
-- [proxy](#proxy) (4)
+- [proxy](#proxy) (5)
 - [psychological operations](#psychological-operations) (1)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public sector](#public-sector) (1)
@@ -651,9 +653,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SilentRunLoader](#silentrunloader) (1)
 - [simulation tampering](#simulation-tampering) (1)
 - [sleeper packages](#sleeper-packages) (1)
+- [Sliver](#sliver) (1)
 - [SLSA](#slsa) (1)
 - [SmartScreen](#smartscreen) (1)
 - [smishing](#smishing) (1)
+- [SMTP](#smtp) (1)
 - [social engineering](#social-engineering) (6)
 - [social-engineering](#social-engineering) (2)
 - [SOCKS5](#socks5) (2)
@@ -696,6 +700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [targeted operations](#targeted-operations) (1)
 - [TartarusGate](#tartarusgate) (1)
 - [TeamPCP](#teampcp) (7)
+- [TeamPCP-adjacent](#teampcp-adjacent) (1)
 - [TeamViewer](#teamviewer) (1)
 - [TEASOUP](#teasoup) (1)
 - [telecom](#telecom) (2)
@@ -777,7 +782,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WireGuard](#wireguard) (2)
 - [WordPress](#wordpress) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
-- [worm](#worm) (8)
+- [worm](#worm) (9)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
@@ -1163,6 +1168,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Chinese-language cybercrime
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
+## Chisel
+- [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
+
 ## ChromElevator
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -1227,6 +1235,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloud
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [ROADtools](../tools/roadtools.md)
 - [Webworm](../actors/webworm.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -1241,6 +1250,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloud identity
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+
+## cloud infrastructure
+- [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 
 ## cloud secrets
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -1344,6 +1356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -2296,6 +2309,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Showboat](../tools/showboat.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -3092,6 +3106,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## proxy
 - [First VPN](../tools/first-vpn.md)
+- [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Webworm](../actors/webworm.md)
@@ -3386,6 +3401,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## sleeper packages
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 
+## Sliver
+- [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
+
 ## SLSA
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
@@ -3394,6 +3412,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## smishing
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+
+## SMTP
+- [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 
 ## social engineering
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -3594,6 +3615,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
+
+## TeamPCP-adjacent
+- [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 
 ## TeamViewer
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -3903,6 +3927,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CanisterWorm](../tools/canisterworm.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)

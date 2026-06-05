@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>PCPJack cloud SMTP relay network</title>
+      <link>https://threat.wiki/ops/pcpjack-cloud-smtp-relay-network/</link>
+      <description>Hunt.io reports that PCPJack infrastructure exposed a 12-file toolkit and Sliver working directory used to convert 230 compromised AWS, Google Cloud, and Azure Linux servers into a Chisel-backed SMTP relay network. SentinelOne separately describes PCPJack as a cloud credential-theft worm that removes TeamPCP-associated artifacts, so the wiki tracks the relationship as TeamPCP-adjacent rather than confirmed shared control.</description>
+      <pubDate>Fri, 05 Jun 2026 07:26:38 GMT</pubDate>
+      <guid>https://threat.wiki/ops/pcpjack-cloud-smtp-relay-network/</guid>
+    </item>
+    <item>
       <title>Kali365 device-code phishing expansion</title>
       <link>https://threat.wiki/ops/kali365-device-code-phishing-expansion/</link>
       <description>Arctic Wolf Labs reports that Kali365 expanded from Microsoft OAuth device-code phishing into a 126-host multi-brand phishing cluster impersonating Microsoft Outlook / Live, Okta SSO, Xerox DocuShare, AWS-themed services, GMX, Mail.ru, Odnoklassniki, Yandex Disk, and MAX Messenger while using live token-capture panel infrastructure under securehubcloud.com and phishing zones such as attachedfile.com.</description>

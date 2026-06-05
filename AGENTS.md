@@ -89,6 +89,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - GMO Flatt Security Research can provide durable AI-agent / GitHub Actions trust-boundary research; Claude Code GitHub Action prompt-injection coverage lives at `docs/patterns/claude-code-github-action-prompt-injection.md` and should be treated as a reusable pattern, not a named intrusion.
 - Proofpoint Threat Insight is useful for email-driven actor cluster profiles; TA4922 coverage lives at `docs/actors/ta4922.md`. Keep Proofpoint's financially motivated Chinese-speaking cybercrime assessment separate from Silver Fox / Void Arachne overlap unless future sources establish stronger aliasing.
 - Arctic Wolf Labs can surface identity-first PhaaS operations where the durable value is the authentication-flow abuse and SaaS expansion rather than malware; Kali365 coverage lives at `docs/ops/kali365-device-code-phishing-expansion.md`.
+- Hunt.io and SentinelOne are useful for exposed attacker-infrastructure and cloud-worm follow-ups; PCPJack coverage lives at `docs/ops/pcpjack-cloud-smtp-relay-network.md`, with TeamPCP relationship caveated as adjacency / artifact-removal behavior rather than confirmed shared control.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.
