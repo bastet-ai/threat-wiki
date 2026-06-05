@@ -9,6 +9,8 @@ The payload harvests developer and CI/CD credentials, scrapes GitHub Actions run
 
 Snyk separately tracks the incident as **Node-gyp Supply Chain Compromise - June 2026**, classifies the affected releases as critical embedded malicious code, and warns that malicious versions remained resolvable from the public npm registry at the time of its June 4 writeup.
 
+On June 5, StepSecurity updated its related `durabletask` PyPI compromise writeup to report a second compromise of the `Azure/durabletask` GitHub repository. The reported malicious commit reused the contributor account tied to the May 19 PyPI compromise and planted AI-assistant / editor configuration files that execute a large obfuscated credential-harvesting payload when the repository is opened in Claude Code, Gemini CLI, Cursor, or VS Code.
+
 ## Tags
 - ops
 - operations
@@ -72,6 +74,14 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - The social-engineering text reported by StepSecurity frames the files as required for IDE integration and dependency setup.
 - This is durable because the poisoned repository can trigger later when a developer opens the project in an AI-assisted IDE, even if the original package install is no longer happening.
 
+### June 5 `Azure/durabletask` repository reinfection
+- StepSecurity says Microsoft's official `durabletask` Python SDK was first compromised on PyPI on May 19, 2026, with malicious `durabletask` versions `1.4.1`, `1.4.2`, and `1.4.3` uploaded directly to PyPI; PyPI currently lists `1.4.0` as the latest available version and the three reported malicious versions have no files available through the public PyPI JSON API.
+- StepSecurity reported that the June 5 repository reinfection used commit `5f456b8` with the decoy message `Switched DataConverter to OrchestrationContext [skip ci]`.
+- The commit reportedly planted `.claude/settings.json`, `.gemini/settings.json`, `.cursor/rules/setup.mdc`, `.vscode/tasks.json`, and `.github/setup.js` rather than changing legitimate application code.
+- StepSecurity says `.github/setup.js` was the actual malware, a 4.6 MB triple-obfuscated credential-harvesting payload using ROT transformation, AES-128-GCM, and JavaScript string-table mangling.
+- The important defender distinction is that cloning alone was not described as the trigger; StepSecurity warned that opening the repository in VS Code or AI coding tools that auto-execute the planted configuration files should be treated as compromise and followed by credential rotation.
+- The recurrence shows why Shai-Hulud / Miasma response has to include publisher-account recovery, contributor-token rotation, and repository config review. Cleaning or yanking package versions is not enough if the same identity can later commit editor or AI-agent persistence into source repositories.
+
 ### GitHub repository abuse
 - StepSecurity traced exfiltration to the GitHub account `liuende501`, which it says hosted 236 programmatically created repositories used as credential dead drops.
 - The malware creates private repositories under that account and uploads encrypted JSON files under `results/results-{timestamp}.json`.
@@ -118,6 +128,11 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - GitHub token-validation keyword: `IfYouInvalidateThisTokenItWillNukeTheComputerOfTheOwner`
 - Bun download path: `github.com/oven-sh/bun/releases/download/bun-v1.3.13/`
 - Suspicious gyp command marker: `<!(node index.js > /dev/null 2>&1 && echo stub.c)`
+- `durabletask` malicious PyPI versions reported by StepSecurity: `1.4.1`, `1.4.2`, `1.4.3`
+- `Azure/durabletask` malicious repository commit reported by StepSecurity: `5f456b8`
+- `durabletask` reported C2 / payload host: `check.git-service[.]com`
+- `durabletask` reported secondary C2: `t.m-kosche[.]com`
+- `durabletask` reported C2 IP: `160.119.64.3`
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -128,3 +143,5 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 ## Sources
 - StepSecurity: https://www.stepsecurity.io/blog/binding-gyp-npm-supply-chain-attack-spreads-like-worm
 - Snyk: https://snyk.io/blog/node-gyp-supply-chain-compromise-self-propagating-npm-worm-binding-gyp/
+- StepSecurity: https://www.stepsecurity.io/blog/microsofts-durabletask-pypi-package-compromised-in-supply-chain-attack
+- PyPI: https://pypi.org/pypi/durabletask/json

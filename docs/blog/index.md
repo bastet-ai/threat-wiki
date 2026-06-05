@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Azure/durabletask repository reinfection in the Miasma / Phantom Gyp wave](../ops/binding-gyp-npm-cicd-worm.md#june-5-azuredurabletask-repository-reinfection)
 - [PAN-OS GlobalProtect CVE-2026-0257 active exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [OP-512](../actors/op-512.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)

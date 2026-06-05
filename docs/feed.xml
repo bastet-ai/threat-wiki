@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Azure/durabletask repository reinfection in the Miasma / Phantom Gyp wave</title>
+      <link>https://threat.wiki/ops/binding-gyp-npm-cicd-worm/#june-5-azuredurabletask-repository-reinfection</link>
+      <description>StepSecurity reports a second compromise of the Azure/durabletask GitHub repository after the May 19 durabletask PyPI compromise. The June 5 malicious commit allegedly reused the same contributor account and planted Claude Code, Gemini CLI, Cursor, VS Code, and GitHub setup files that execute a 4.6 MB obfuscated credential-harvesting payload when the repository is opened in AI coding tools or VS Code.</description>
+      <pubDate>Fri, 05 Jun 2026 17:26:39 GMT</pubDate>
+      <guid>https://threat.wiki/ops/binding-gyp-npm-cicd-worm/#june-5-azuredurabletask-repository-reinfection</guid>
+    </item>
+    <item>
       <title>PAN-OS GlobalProtect CVE-2026-0257 exploitation</title>
       <link>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/</link>
       <description>Unit 42 confirms active exploitation of PAN-OS CVE-2026-0257 by an unidentified actor attempting to access GlobalProtect. Palo Alto Networks describes the issue as an authentication bypass in vulnerable GlobalProtect portal and gateway configurations that can establish unauthorized VPN connections; Unit 42 had not identified post-access behavior or lateral movement at publication time.</description>
