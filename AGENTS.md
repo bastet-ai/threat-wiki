@@ -90,6 +90,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Proofpoint Threat Insight is useful for email-driven actor cluster profiles; TA4922 coverage lives at `docs/actors/ta4922.md`. Keep Proofpoint's financially motivated Chinese-speaking cybercrime assessment separate from Silver Fox / Void Arachne overlap unless future sources establish stronger aliasing.
 - Arctic Wolf Labs can surface identity-first PhaaS operations where the durable value is the authentication-flow abuse and SaaS expansion rather than malware; Kali365 coverage lives at `docs/ops/kali365-device-code-phishing-expansion.md`.
 - Hunt.io and SentinelOne are useful for exposed attacker-infrastructure and cloud-worm follow-ups; PCPJack coverage lives at `docs/ops/pcpjack-cloud-smtp-relay-network.md`, with TeamPCP relationship caveated as adjacency / artifact-removal behavior rather than confirmed shared control.
+- ReliaQuest Threat Research can surface durable incident-response-backed actor clusters and IIS/web-shell tradecraft; OP-512 coverage lives at `docs/actors/op-512.md`, with China-linked attribution kept to ReliaQuest's moderate-to-high-confidence assessment and aliasing kept separate until future public reporting supports it.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.

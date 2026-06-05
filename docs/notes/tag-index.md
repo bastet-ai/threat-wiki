@@ -12,7 +12,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACTINIUM](#actinium) (1)
 - [active exploitation](#active-exploitation) (11)
 - [active-exploitation](#active-exploitation) (1)
-- [actors](#actors) (4)
+- [actors](#actors) (5)
 - [Adaptix C2](#adaptix-c2) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [administrator account creation](#administrator-account-creation) (2)
@@ -53,6 +53,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT45](#apt45) (1)
 - [Armageddon](#armageddon) (1)
 - [Artifact Signing](#artifact-signing) (1)
+- [ASP.NET](#aspnet) (1)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [Atlas RAT](#atlas-rat) (1)
 - [AUDIOFIX](#audiofix) (2)
@@ -103,7 +104,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [certificate theft](#certificate-theft) (1)
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (2)
-- [China-linked](#china-linked) (1)
+- [China-linked](#china-linked) (2)
 - [China-nexus](#china-nexus) (1)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
@@ -221,7 +222,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [discovery](#discovery) (1)
 - [DLL side-loading](#dll-side-loading) (1)
 - [DLL sideloading](#dll-sideloading) (6)
-- [DNS C2](#dns-c2) (1)
+- [DNS C2](#dns-c2) (2)
 - [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
 - [document theft](#document-theft) (2)
@@ -257,7 +258,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (22)
+- [espionage](#espionage) (23)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -331,7 +332,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro](#grandoreiro) (1)
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (1)
-- [groups](#groups) (6)
+- [groups](#groups) (7)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
 - [HappyDoor](#happydoor) (1)
@@ -356,6 +357,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [identity](#identity) (3)
 - [IFEO persistence](#ifeo-persistence) (1)
 - [IIOP](#iiop) (1)
+- [IIS](#iis) (1)
 - [iMessage](#imessage) (1)
 - [impersonation](#impersonation) (1)
 - [incident response](#incident-response) (6)
@@ -399,6 +401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [law enforcement](#law-enforcement) (1)
 - [Lazarus](#lazarus) (4)
 - [LD_PRELOAD](#ld_preload) (1)
+- [legacy infrastructure](#legacy-infrastructure) (1)
 - [legacy software](#legacy-software) (1)
 - [LegionRelay](#legionrelay) (1)
 - [liblzma](#liblzma) (1)
@@ -586,6 +589,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ransomware](#ransomware) (3)
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAT](#rat) (15)
+- [RC4](#rc4) (1)
 - [RCE](#rce) (1)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
@@ -617,6 +621,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RomulusLoader](#romulusloader) (1)
 - [root execution](#root-execution) (1)
 - [rootkit](#rootkit) (2)
+- [RSA](#rsa) (1)
 - [RubyGems](#rubygems) (2)
 - [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (5)
@@ -758,6 +763,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [vulnerability](#vulnerability) (5)
 - [vulnerability-research](#vulnerability-research) (1)
+- [w3wp.exe](#w3wpexe) (1)
 - [wallet replacement](#wallet-replacement) (1)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
@@ -769,6 +775,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web IDE](#web-ide) (1)
 - [web shell](#web-shell) (2)
 - [web supply chain](#web-supply-chain) (1)
+- [web-shells](#web-shells) (1)
 - [WebKit](#webkit) (1)
 - [WebRTC](#webrtc) (1)
 - [webshell](#webshell) (1)
@@ -841,6 +848,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## actors
 - [Fox Tempest](../actors/fox-tempest.md)
 - [JINX-0164](../actors/jinx-0164.md)
+- [OP-512](../actors/op-512.md)
 - [TA4922](../actors/ta4922.md)
 - [Webworm](../actors/webworm.md)
 
@@ -989,6 +997,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Artifact Signing
 - [Fox Tempest](../actors/fox-tempest.md)
+
+## ASP.NET
+- [OP-512](../actors/op-512.md)
 
 ## ASP.NET machineKey
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -1162,6 +1173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](../actors/webworm.md)
 
 ## China-linked
+- [OP-512](../actors/op-512.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
 ## China-nexus
@@ -1651,6 +1663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## DNS C2
+- [OP-512](../actors/op-512.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
 ## DNS tunneling
@@ -1772,6 +1785,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+- [OP-512](../actors/op-512.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -2056,6 +2070,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 - [JINX-0164](../actors/jinx-0164.md)
+- [OP-512](../actors/op-512.md)
 - [TA4922](../actors/ta4922.md)
 - [Webworm](../actors/webworm.md)
 
@@ -2135,6 +2150,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## IIOP
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
+
+## IIS
+- [OP-512](../actors/op-512.md)
 
 ## iMessage
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -2291,6 +2309,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LD_PRELOAD
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## legacy infrastructure
+- [OP-512](../actors/op-512.md)
 
 ## legacy software
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -3183,6 +3204,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
+## RC4
+- [OP-512](../actors/op-512.md)
+
 ## RCE
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
@@ -3280,6 +3304,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## rootkit
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+
+## RSA
+- [OP-512](../actors/op-512.md)
 
 ## RubyGems
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -3838,6 +3865,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vulnerability-research
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## w3wp.exe
+- [OP-512](../actors/op-512.md)
+
 ## wallet replacement
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -3877,6 +3907,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web supply chain
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## web-shells
+- [OP-512](../actors/op-512.md)
 
 ## WebKit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)

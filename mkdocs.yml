@@ -104,6 +104,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - OP-512: actors/op-512.md
       - TA4922: actors/ta4922.md
       - Gamaredon: actors/gamaredon.md
       - SideCopy: actors/sidecopy.md

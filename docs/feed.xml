@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>OP-512</title>
+      <link>https://threat.wiki/actors/op-512/</link>
+      <description>ReliaQuest reports OP-512, a suspected new China-linked espionage cluster targeting legacy Microsoft IIS servers with a custom three-web-shell framework. The framework uses deployment-unique ASP.NET code, self-reporting hex-segmented DNS C2, and RSA+RC4-gated .ashx command handlers, making behavioral detections around w3wp.exe, unexpected ASP.NET compilation, and outbound DNS/HTTP more durable than static indicators.</description>
+      <pubDate>Fri, 05 Jun 2026 13:26:14 GMT</pubDate>
+      <guid>https://threat.wiki/actors/op-512/</guid>
+    </item>
+    <item>
       <title>Everest Forms Pro CVE-2026-3300 exploitation</title>
       <link>https://threat.wiki/ops/everest-forms-pro-cve-2026-3300-exploitation/</link>
       <description>The Hacker News reports active exploitation of Everest Forms Pro CVE-2026-3300, an unauthenticated PHP code-injection flaw in the Calculation Addon's process_filter() path affecting versions through 1.9.12. Wordfence-referenced telemetry says exploitation began April 13, 2026, with more than 29,300 blocked attempts and payloads creating a diksimarina administrator account.</description>
