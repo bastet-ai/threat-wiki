@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [UNC3753 law-firm vishing extortion campaign](../actors/unc3753.md)
 - [TeamPCP Python toolkit / FIRESCALE fallback analysis](../actors/teampcp.md#python-toolkit-firescale-fallback)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)

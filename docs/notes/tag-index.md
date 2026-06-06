@@ -12,6 +12,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACTINIUM](#actinium) (1)
 - [active exploitation](#active-exploitation) (13)
 - [active-exploitation](#active-exploitation) (1)
+- [actor](#actor) (1)
 - [actors](#actors) (5)
 - [Adaptix C2](#adaptix-c2) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
@@ -103,6 +104,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
 - [certificate theft](#certificate-theft) (1)
+- [Chatty Spider](#chatty-spider) (1)
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (2)
@@ -201,7 +203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [Czech Republic](#czech-republic) (1)
 - [data exfiltration](#data-exfiltration) (1)
-- [data theft](#data-theft) (2)
+- [data theft](#data-theft) (3)
 - [DAYLIGHT](#daylight) (1)
 - [DDoS](#ddos) (1)
 - [dead drop resolver](#dead-drop-resolver) (1)
@@ -279,7 +281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (8)
-- [extortion](#extortion) (2)
+- [extortion](#extortion) (3)
 - [fake CAPTCHA](#fake-captcha) (1)
 - [fake dating lures](#fake-dating-lures) (1)
 - [fake plugin](#fake-plugin) (1)
@@ -299,7 +301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [finance](#finance) (2)
 - [financial fraud](#financial-fraud) (1)
 - [financial sector](#financial-sector) (2)
-- [financial services](#financial-services) (1)
+- [financial services](#financial-services) (2)
 - [financial theft](#financial-theft) (3)
 - [Flutter](#flutter) (1)
 - [FlutterShell](#fluttershell) (1)
@@ -341,7 +343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro](#grandoreiro) (1)
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (1)
-- [groups](#groups) (7)
+- [groups](#groups) (8)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
 - [HappyDoor](#happydoor) (1)
@@ -412,6 +414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LD_PRELOAD](#ld_preload) (1)
 - [legacy infrastructure](#legacy-infrastructure) (1)
 - [legacy software](#legacy-software) (1)
+- [legal sector](#legal-sector) (1)
 - [LegionRelay](#legionrelay) (1)
 - [liblzma](#liblzma) (1)
 - [libp2p](#libp2p) (1)
@@ -437,6 +440,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LS-DYNA](#ls-dyna) (1)
 - [LSASS](#lsass) (1)
 - [Lua](#lua) (1)
+- [Luna Moth](#luna-moth) (1)
 - [MacCMS](#maccms) (1)
 - [macOS](#macos) (6)
 - [Magento](#magento) (1)
@@ -582,6 +586,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [privilege escalation](#privilege-escalation) (6)
 - [process hollowing](#process-hollowing) (2)
 - [process injection](#process-injection) (1)
+- [professional services](#professional-services) (1)
 - [prompt injection](#prompt-injection) (2)
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
@@ -623,6 +628,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ReverseSocks](#reversesocks) (1)
 - [reviewdog](#reviewdog) (1)
 - [RingH23](#ringh23) (1)
+- [RMM](#rmm) (1)
 - [RMM abuse](#rmm-abuse) (1)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
@@ -669,6 +675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [signed malware](#signed-malware) (1)
 - [signed updates](#signed-updates) (1)
 - [signed-binary](#signed-binary) (1)
+- [Silent Ransom Group](#silent-ransom-group) (1)
 - [SilentCryptoMiner](#silentcryptominer) (1)
 - [SilentRunLoader](#silentrunloader) (1)
 - [simulation tampering](#simulation-tampering) (1)
@@ -678,7 +685,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SmartScreen](#smartscreen) (1)
 - [smishing](#smishing) (1)
 - [SMTP](#smtp) (1)
-- [social engineering](#social-engineering) (6)
+- [social engineering](#social-engineering) (7)
 - [social-engineering](#social-engineering) (2)
 - [SOCKS5](#socks5) (2)
 - [software impersonation](#software-impersonation) (1)
@@ -751,12 +758,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Udev persistence](#udev-persistence) (1)
 - [Ukraine](#ukraine) (6)
 - [UNC2814](#unc2814) (1)
+- [UNC3753](#unc3753) (1)
 - [UNC4736](#unc4736) (1)
 - [UNC6671](#unc6671) (1)
 - [UNC6692](#unc6692) (1)
 - [UNC6780](#unc6780) (1)
 - [Unit 42](#unit-42) (1)
-- [United States](#united-states) (1)
+- [United States](#united-states) (2)
 - [uranium compression](#uranium-compression) (1)
 - [USB worm](#usb-worm) (2)
 - [UTA0355](#uta0355) (1)
@@ -769,7 +777,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
 - [virtualization](#virtualization) (1)
-- [vishing](#vishing) (1)
+- [vishing](#vishing) (2)
 - [VLESS](#vless) (1)
 - [vManage](#vmanage) (1)
 - [VPN](#vpn) (2)
@@ -860,6 +868,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## active-exploitation
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+
+## actor
+- [UNC3753](../actors/unc3753.md)
 
 ## actors
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -1183,6 +1194,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## certificate theft
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+
+## Chatty Spider
+- [UNC3753](../actors/unc3753.md)
 
 ## Checkmarx
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -1595,6 +1609,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## data theft
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [UNC3753](../actors/unc3753.md)
 
 ## DAYLIGHT
 - [GREYVIBE](../actors/greyvibe.md)
@@ -1891,6 +1906,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [UNC3753](../actors/unc3753.md)
 
 ## fake CAPTCHA
 - [GREYVIBE](../actors/greyvibe.md)
@@ -1955,6 +1971,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## financial services
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [UNC3753](../actors/unc3753.md)
 
 ## financial theft
 - [JINX-0164](../actors/jinx-0164.md)
@@ -2116,6 +2133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [OP-512](../actors/op-512.md)
 - [TA4922](../actors/ta4922.md)
+- [UNC3753](../actors/unc3753.md)
 - [Webworm](../actors/webworm.md)
 
 ## hack-and-leak
@@ -2362,6 +2380,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## legacy software
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
+## legal sector
+- [UNC3753](../actors/unc3753.md)
+
 ## LegionRelay
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -2452,6 +2473,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Lua
 - [Fast16](../tools/fast16.md)
+
+## Luna Moth
+- [UNC3753](../actors/unc3753.md)
 
 ## MacCMS
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -3177,6 +3201,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## process injection
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
+## professional services
+- [UNC3753](../actors/unc3753.md)
+
 ## prompt injection
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
@@ -3333,6 +3360,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RingH23
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## RMM
+- [UNC3753](../actors/unc3753.md)
 
 ## RMM abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -3494,6 +3524,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## signed-binary
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 
+## Silent Ransom Group
+- [UNC3753](../actors/unc3753.md)
+
 ## SilentCryptoMiner
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
@@ -3527,6 +3560,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Screening Serpens](../actors/screening-serpens.md)
+- [UNC3753](../actors/unc3753.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## social-engineering
@@ -3842,6 +3876,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UNC2814
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## UNC3753
+- [UNC3753](../actors/unc3753.md)
+
 ## UNC4736
 - [RemotePE](../tools/remotepe.md)
 
@@ -3859,6 +3896,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## United States
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [UNC3753](../actors/unc3753.md)
 
 ## uranium compression
 - [Fast16](../tools/fast16.md)
@@ -3901,6 +3939,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## vishing
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [UNC3753](../actors/unc3753.md)
 
 ## VLESS
 - [First VPN](../tools/first-vpn.md)

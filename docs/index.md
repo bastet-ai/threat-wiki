@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [UNC3753](actors/unc3753.md)
 - [TeamPCP](actors/teampcp.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [OP-512](actors/op-512.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [PCPJack cloud SMTP relay network](ops/pcpjack-cloud-smtp-relay-network.md)
-- [Kali365 device-code phishing expansion](ops/kali365-device-code-phishing-expansion.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
