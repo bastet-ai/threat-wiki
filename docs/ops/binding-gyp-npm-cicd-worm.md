@@ -3,7 +3,7 @@
 ## Summary
 StepSecurity reported an active Miasma / Shai-Hulud-descended npm supply-chain worm in June 2026 that uses a small `binding.gyp` file to trigger install-time execution through npm's native-addon build path instead of obvious `package.json` lifecycle scripts. StepSecurity calls the bypass **Phantom Gyp**.
 
-In the June 3--4 wave, StepSecurity counted 57 npm packages and 286+ malicious versions published in under two hours. The largest named victim was `@vapi-ai/server-sdk`, followed by `ai-sdk-ollama` and packages in the `autotel`, `awaitly`, `executable-stories`, `node-env-resolver`, and `wrangler-deploy` families.
+In the June 3--4 wave, StepSecurity counted 57 npm packages and 286+ malicious versions published in under two hours. The largest named victim was `@vapi-ai/server-sdk`, followed by `ai-sdk-ollama` and packages in the `autotel`, `awaitly`, `executable-stories`, `node-env-resolver`, and `wrangler-deploy` families. OX Security separately measured the same wave at 57 affected packages, 152,376 accumulated weekly downloads, 647,204 accumulated monthly downloads, and more than 118 GitHub repositories containing stolen credentials.
 
 The payload harvests developer and CI/CD credentials, scrapes GitHub Actions runner memory, abuses GitHub repositories as encrypted credential dead drops, injects AI-assistant and editor configuration backdoors, and uses stolen npm or RubyGems publishing access to republish poisoned package versions.
 
@@ -94,6 +94,7 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - StepSecurity traced exfiltration to the GitHub account `liuende501`, which it says hosted 236 programmatically created repositories used as credential dead drops.
 - The malware creates private repositories under that account and uploads encrypted JSON files under `results/results-{timestamp}.json`.
 - StepSecurity reported repository descriptions including `Miasma - The Spreading Blight` and the reversed string `niagA oG eW ereH :duluH-iahS`, which reads `Shai-Hulud: Here We Go Again`.
+- OX Security reported another repository-description variant using an en dash, `Miasma – The Spreading Blight`, with the first observed GitHub commit on June 4, 2026 at 02:46:12 +0800 and activity tied to the `windy629` account from its earlier Miasma analysis. Add the en-dash form to hunts alongside `Miasma: The Spreading Blight`, `Miasma : The Spreading Blight`, and StepSecurity's hyphenated `Miasma - The Spreading Blight` form.
 - Reported GitHub API patterns include commit-search beacons for `thebeautifulmarchoftime`, token-validation searches for `IfYouInvalidateThisTokenItWillNukeTheComputerOfTheOwner`, authenticated `/user` checks, repository creation, content uploads, and GraphQL `createCommitOnBranch` calls.
 
 ### Package-registry propagation
@@ -104,6 +105,7 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - For RubyGems, StepSecurity reports injection into Ruby native-extension build files such as `extconf.rb`, with related `Makefile.PL` and `CMakeLists.txt` variants in the payload.
 - StepSecurity listed compromised versions published between June 3 and June 4, 2026 and noted that its list was still being updated.
 - Early named package families in the StepSecurity table included `@vapi-ai/server-sdk`, `ai-sdk-ollama`, many `autotel-*` packages, `awaitly-*` packages, `executable-stories-*` packages, `node-env-resolver*`, and `wrangler-deploy`.
+- OX Security's June 4 update added an edited follow-on list for packages it said had also been hit by weaponized `binding.gyp`: `discord-search@0.1.2`, `create-cf-token@1.1.3`, `@forjacms/analytics@1.8.4`, `@forjacms/client@1.8.4`, `@forjacms/sections@1.8.4`, `@forjacms/sections-react@1.8.4`, `dbmux@2.2.4`, `creditcard.js@3.0.60`, `github-archiver@1.5.5`, and `@contaazul/n8n-nodes-contaazul@0.3.26`. Treat vendor package tables as live references rather than copying every version into local detection logic.
 
 ## Defender heuristics
 
@@ -118,6 +120,7 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Search CI logs for unexpected `node-gyp rebuild`, `curl` or `unzip` under `npm install`, Bun downloads from `github.com/oven-sh/bun/releases/download/bun-v1.3.13/`, `gh auth token`, and attempts to read `/proc/*/mem`.
 - Review push events and workflow-file changes from accounts that also have npm or RubyGems publisher rights.
 - Check for GitHub API activity that creates new repositories, uploads `results/results-*.json`, searches commits for `thebeautifulmarchoftime`, or uses GraphQL `createCommitOnBranch` unexpectedly.
+- Search repository descriptions for all reported Miasma spacing and punctuation variants, including `Miasma - The Spreading Blight`, `Miasma – The Spreading Blight`, `Miasma: The Spreading Blight`, and `Miasma : The Spreading Blight`.
 - Audit AI-assistant and editor config paths: `.claude/`, `.cursor/`, `.gemini/`, `.vscode/`, and `.github/setup.js`.
 - Preserve logs before rotating secrets if active repository backdoors may still be present.
 
@@ -133,6 +136,7 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Decrypted Bun loader SHA-256: `ceff7c51d70832c3ec8dd2744b606a23b3c924ef664ae23439b9b742ea154108`
 - Decrypted main payload SHA-256: `da39146ef451d1b174a24d00b1e2a45cd38d54e849737f8f35333dcb22175707`
 - GitHub exfil account: `github.com/liuende501`
+- OX-reported GitHub account tied to the en-dash repository-description variant: `github.com/windy629`
 - GitHub commit-search C2 keyword: `thebeautifulmarchoftime`
 - GitHub token-validation keyword: `IfYouInvalidateThisTokenItWillNukeTheComputerOfTheOwner`
 - Bun download path: `github.com/oven-sh/bun/releases/download/bun-v1.3.13/`
@@ -155,4 +159,5 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Snyk: https://snyk.io/blog/node-gyp-supply-chain-compromise-self-propagating-npm-worm-binding-gyp/
 - StepSecurity: https://www.stepsecurity.io/blog/microsofts-durabletask-pypi-package-compromised-in-supply-chain-attack
 - StepSecurity Microsoft repository disablement follow-up: https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents
+- OX Security June 4 Miasma / binding.gyp update: https://www.ox.security/blog/600000-monthly-downloads-affected-miasma-supply-chain-attack-is-back-on-npm/
 - PyPI: https://pypi.org/pypi/durabletask/json
