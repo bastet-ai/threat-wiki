@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>TeamPCP Python toolkit / FIRESCALE fallback analysis</title>
+      <link>https://threat.wiki/actors/teampcp/#python-toolkit-firescale-fallback</link>
+      <description>Hunt.io analyzed a 13-file TeamPCP Python second-stage toolkit used after Mini Shai-Hulud-style supply-chain delivery. The update adds FIRESCALE GitHub commit-search fallback C2, victim-owned GitHub repository exfiltration, broad cloud/developer credential collection, AES-GCM/RSA-OAEP packaging, persistence/wiper sequencing, and infrastructure pivots including 83.142.209.194 and a Google Cloud fingerprint match.</description>
+      <pubDate>Sat, 06 Jun 2026 09:27:48 GMT</pubDate>
+      <guid>https://threat.wiki/actors/teampcp/#python-toolkit-firescale-fallback</guid>
+    </item>
+    <item>
       <title>Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation</title>
       <link>https://threat.wiki/ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation/</link>
       <description>Cisco PSIRT says it became aware of exploitation of Cisco Catalyst SD-WAN Manager CVE-2026-20245 in June 2026. The authenticated CLI flaw can let a netadmin-level attacker upload a crafted file and execute commands as root; Cisco observed limited cases where exploitation pushed configuration changes to edge devices and had no direct fix or workaround at advisory version 1.2.</description>

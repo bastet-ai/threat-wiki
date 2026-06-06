@@ -57,6 +57,17 @@ Wiz CIRT's March 2026 incident-response reporting adds a useful view of what hap
 
 The same reporting observed GitHub PAT abuse for malicious workflow pull requests, workflow-log deletion, repository cloning at scale, ECS Exec / SSM-based command execution in running containers, and bulk exfiltration from S3, databases, Secrets Manager, and source repositories. Wiz characterized the activity as fast, high-volume, and not especially stealthy, with open-source tools, conspicuous resource names such as `pawn` or `massive-exfil`, Mullvad VPN exit nodes, and InterServer-hosted VPS infrastructure appearing in observed cases.
 
+## Python toolkit / FIRESCALE fallback
+Hunt.io's June 2026 TeamPCP toolkit analysis fills in the post-delivery stage behind Mini Shai-Hulud-style npm and PyPI compromises. Hunt describes a 13-file Python second-stage toolkit with a hardcoded primary C2 at `83.142.209[.]194`, broad cloud/developer credential collection, persistence, optional destructive behavior, and multiple fallback exfiltration paths.
+
+The most durable tradecraft is **FIRESCALE**, a GitHub commit-search dead drop. If the primary C2 is unavailable, the malware queries `api.github[.]com/search/commits?q=FIRESCALE`, looks for commit messages containing a keyword plus two base64 segments, decodes a replacement server URL, and verifies the URL with an embedded 4096-bit RSA public key before using it. Because the signed redirect can be posted from any public GitHub account, taking down one repository or one C2 host does not break the fallback path.
+
+Hunt also documents a third exfiltration tier that abuses the victim's own GitHub account. The toolkit collects GitHub CLI credentials and token-bearing environment variables; if direct C2 and FIRESCALE fail, it can create a public repository under the victim account, name it with Slavic folklore terms plus digits, set the description `PUSH UR T3MPRR`, commit the credential harvest as JSON, and later clean up with the same stolen token. This turns normal GitHub API traffic and victim-owned infrastructure into the final delivery path.
+
+Credential collection is broader than package-registry theft. Hunt reports collection of every visible environment variable, SSH keys/config, dotenv files across the home directory, Docker container environment variables, Tailscale and WireGuard configs, Terraform state, AWS credentials across profiles and 19 regions including GovCloud, Kubernetes kubeconfigs and service-account material, Azure CLI / managed-identity / certificate paths, GCP service-account and metadata paths, and Vault tokens/secrets. Collected data is compressed, encrypted with AES-256-GCM, and wrapped with RSA-OAEP.
+
+Hunt attributes the toolkit to TeamPCP through multiple public anchors: the shared `83.142.209[.]194` C2 seen in prior Orca / TanStack reporting, the `voicproducoes` supply-chain operator account linkage, recurring endpoint naming patterns, Russian-locale exit behavior, and Israel / Iran wiper targeting logic. The infrastructure pivots also add a Google Cloud node, `35.192.220[.]222`, that shared an HTTP-header fingerprint with the primary C2 in April 2026, plus certificate-linked leads Hunt treats as less confirmed.
+
 ## Extortion ecosystem role
 Unit 42's May 27, 2026 cyber-extortion economy analysis adds an important monetization layer for TeamPCP / TGR-CRI-1135. Unit 42 says the actor has moved beyond credential theft and package compromise into data-theft monetization by partnering with extortion and ransomware operators.
 
@@ -129,6 +140,8 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - PyPI packages that add Linux-only import-time downloaders for `.pyz` payloads, especially AI/security packages and hosts resembling legitimate project infrastructure such as `git-tanstack[.]com`
 - Leak-site, BreachForums, or victim-communication references that appear after TeamPCP-linked credential theft, especially claims involving LAPSUS$ Group, Vect, Rostova Organization, or copycat Shai-Hulud operators
 - Cloud-host compromise where tools remove TeamPCP / PCPcat-named artifacts before installing unrelated credential-theft, Sliver, Chisel, or SMTP relay components; keep this as adjacency/rivalry evidence, not attribution by itself
+- TeamPCP Python-toolkit fallback behavior: GitHub commit search for `FIRESCALE`, unexpected GitHub repository creation from developer accounts with description `PUSH UR T3MPRR`, Slavic-folklore repository names, and outbound attempts to `83.142.209[.]194` or fingerprint-related backup infrastructure such as `35.192.220[.]222`
+- Broad credential sweeps that read all environment variables, SSH material, Docker container env vars, Terraform state, Tailscale/WireGuard configs, Vault stores, AWS GovCloud regions, Azure Key Vault, GCP metadata/service-account flows, and Kubernetes credentials from the same short-lived Python process tree
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
@@ -164,3 +177,4 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [StepSecurity RedHat Cloud Services npm coverage](https://www.stepsecurity.io/blog/multiple-redhat-cloud-services-npm-packages-compromised)
 - [SentinelOne PCPJack cloud worm reporting](https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/)
 - [Hunt.io PCPJack SMTP relay network reporting](https://hunt.io/blog/pcpjack-230-cloud-servers-smtp-proxy-network-sliver-chisel)
+- [Hunt.io TeamPCP Python toolkit / FIRESCALE analysis](https://hunt.io/blog/teampcp-python-toolkit-firescale-github-c2-takedown)
