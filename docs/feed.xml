@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation</title>
+      <link>https://threat.wiki/ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation/</link>
+      <description>Cisco PSIRT says it became aware of exploitation of Cisco Catalyst SD-WAN Manager CVE-2026-20245 in June 2026. The authenticated CLI flaw can let a netadmin-level attacker upload a crafted file and execute commands as root; Cisco observed limited cases where exploitation pushed configuration changes to edge devices and had no direct fix or workaround at advisory version 1.2.</description>
+      <pubDate>Sat, 06 Jun 2026 07:28:34 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation/</guid>
+    </item>
+    <item>
       <title>SolarWinds Serv-U CVE-2026-28318 exploitation</title>
       <link>https://threat.wiki/ops/solarwinds-serv-u-cve-2026-28318-exploitation/</link>
       <description>CISA added SolarWinds Serv-U CVE-2026-28318 to KEV on June 5, 2026. SolarWinds describes an unauthenticated denial-of-service flaw where specially crafted POST requests with Content-Encoding: deflate can crash Serv-U 15.5.4 and below; fixed release is Serv-U 15.5.4 HF1.</description>

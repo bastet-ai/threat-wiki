@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Claude Code GitHub Action prompt-injection boundary](patterns/claude-code-github-action-prompt-injection.md)
 - [binding.gyp npm CI/CD worm](ops/binding-gyp-npm-cicd-worm.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [PCPJack cloud SMTP relay network](ops/pcpjack-cloud-smtp-relay-network.md)
 - [Kali365 device-code phishing expansion](ops/kali365-device-code-phishing-expansion.md)
 - [TA4922](actors/ta4922.md)
-- [Stock exchange executive mailbox espionage](ops/stock-exchange-executive-mailbox-espionage.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
