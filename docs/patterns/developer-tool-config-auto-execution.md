@@ -1,0 +1,76 @@
+# Developer-tool config auto-execution
+
+## Summary
+
+Developer tooling increasingly treats repository-local configuration as executable policy, not inert metadata. A cloned repository can define commands for editors, AI coding agents, package managers, test runners, or setup workflows that execute when a developer opens the folder, starts an agent session, installs dependencies, or runs a familiar command.
+
+SafeDep's June 2026 Miasma source-repository writeup is the clearest current worked example: the actor skipped the package-registry path in more than 120 GitHub repositories and planted `.github/setup.js` behind launcher files for Claude Code, Gemini CLI, Cursor, VS Code, and `npm test`. The reported `icflorescu/mantine-datatable` commit did not need a malicious dependency. It turned project-local config into the execution primitive.
+
+## Tags
+- patterns
+- supply-chain
+- developer-tools
+- AI assistants
+- IDEs
+- source-repository poisoning
+- GitHub
+- Miasma
+- Shai-Hulud
+- credential-theft
+
+## Why this matters
+- Many review and scanning workflows focus on dependency manifests and package lifecycle scripts; repo-local tool configuration can sit outside that review path.
+- AI coding agents and editors may be trusted by developers precisely when they are opening unfamiliar code to inspect it.
+- A source-repository backdoor survives package yanking, `npm uninstall`, and registry-side cleanup because the trigger is in the repository itself.
+- Large droppers may evade code-search indexing limits, leaving small launcher files as the easier hunting surface.
+
+## High-risk config surfaces
+
+Treat these as execution-capable when reviewing unfamiliar repositories:
+
+- Claude Code hook settings such as `.claude/settings.json` or `.claude/setup.mjs`.
+- Gemini CLI hook settings such as `.gemini/settings.json`.
+- Cursor project rules such as `.cursor/rules/*.mdc`, especially `alwaysApply: true` rules that tell the agent to run local setup code.
+- VS Code tasks and workspace settings such as `.vscode/tasks.json`, especially `runOptions.runOn: folderOpen`.
+- GitHub-local setup files such as `.github/setup.js` when referenced by editor or agent config.
+- Package scripts such as `package.json` `test`, `prepare`, `preinstall`, or `postinstall` that call unexpected repository-local setup files.
+- Composer, Bundler, native build, or other ecosystem config files that can invoke shell commands during install, test, or project initialization.
+
+## Defender heuristics
+
+Before opening an unfamiliar or recently compromised repository in an editor or AI coding agent:
+
+- Inspect configuration files from a plain terminal or read-only viewer first.
+- Search for commands that run `node`, `bun`, `python`, `bash`, `curl`, `wget`, `powershell`, `osascript`, `chmod`, or package-manager commands from editor or agent hooks.
+- Flag config that runs files under `.github/`, `.claude/`, `.gemini/`, `.cursor/`, `.vscode/`, or temporary setup paths.
+- Treat `runOn: folderOpen`, `SessionStart`, `alwaysApply: true`, and agent instructions that ask the assistant to run setup code as execution triggers.
+- Review large one-line JavaScript files, especially when small config files launch them.
+- Use sandboxed disposable environments for first open / first test of untrusted code.
+- Disable automatic task execution and agent hook execution by default where tooling supports it.
+- Pin and review trusted workspace settings; do not click through folder-trust prompts as a formality.
+
+## Miasma source-repo example
+
+SafeDep reported the following source-repository indicators in the June 2026 Miasma wave:
+
+- Example repository: `icflorescu/mantine-datatable`.
+- Example commit: `f72462d9e5fa90a483062a83e9ffcb2edc57bf7e`.
+- Commit message: `chore: update dependencies [skip ci]`.
+- Author marker: `github-actions <[email protected]>`.
+- Launcher paths: `.claude/settings.json`, `.cursor/rules/setup.mdc`, `.gemini/settings.json`, `.vscode/tasks.json`, and `package.json` `test`.
+- Dropper path: `.github/setup.js`.
+- Reported trigger surfaces: Claude Code and Gemini `SessionStart` hooks, a Cursor always-applied rule, a VS Code folder-open task, and `npm test`.
+- Reported scale: 123 repositories across dozens of accounts in SafeDep's GitHub code-search view.
+
+The operational lesson is narrow and reusable: cloning was not the dangerous step in SafeDep's description; opening the folder in an execution-capable tool or running the poisoned project command was.
+
+## Related pages
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+- [Claude Code GitHub Action prompt-injection boundary](claude-code-github-action-prompt-injection.md)
+- [Agent skill marketplace poisoning](agent-skill-marketplace-poisoning.md)
+- [Browser-based developer IDE OAuth token theft](browser-based-developer-ide-oauth-token-theft.md)
+
+## Sources
+- SafeDep source-repository arm analysis: https://safedep.io/miasma-worm-ai-coding-agent-config-injection/
+- SafeDep config-file execution blind spot analysis: https://safedep.io/config-files-that-run-code/
+- StepSecurity Miasma Microsoft repository disablement follow-up: https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents

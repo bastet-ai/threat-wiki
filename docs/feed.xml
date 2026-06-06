@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Developer-tool config auto-execution</title>
+      <link>https://threat.wiki/patterns/developer-tool-config-auto-execution/</link>
+      <description>SafeDep's June 2026 Miasma source-repository analysis shows repository-local configuration becoming a malware execution primitive: Claude Code and Gemini SessionStart hooks, Cursor alwaysApply rules, VS Code folderOpen tasks, and npm test scripts launched a large .github/setup.js dropper from poisoned GitHub repositories.</description>
+      <pubDate>Sat, 06 Jun 2026 23:26:25 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/developer-tool-config-auto-execution/</guid>
+    </item>
+    <item>
       <title>UNC3753</title>
       <link>https://threat.wiki/actors/unc3753/</link>
       <description>Mandiant / Google Threat Intelligence Group reports that UNC3753, also tracked as Luna Moth, Chatty Spider, and Silent Ransom Group, targeted dozens of U.S. legal, professional-services, and financial-services organizations from January through May 2026. The cluster uses invoice and data-migration pretexts, help-desk vishing, screen sharing, RMM tools, BYOD-to-VDI pivots, iManage/document-repository searches, WinSCP/Rclone/browser exfiltration, and rapid extortion sometimes within a single business day.</description>

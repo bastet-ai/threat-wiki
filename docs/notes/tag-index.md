@@ -26,7 +26,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agent skills](#agent-skills) (1)
 - [AI](#ai) (3)
 - [AI agents](#ai-agents) (6)
-- [AI assistants](#ai-assistants) (2)
+- [AI assistants](#ai-assistants) (3)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
@@ -158,7 +158,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (13)
-- [credential-theft](#credential-theft) (34)
+- [credential-theft](#credential-theft) (35)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -220,6 +220,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (4)
 - [developer tooling](#developer-tooling) (1)
 - [developer-targeting](#developer-targeting) (8)
+- [developer-tools](#developer-tools) (1)
 - [device registration](#device-registration) (1)
 - [device-code phishing](#device-code-phishing) (1)
 - [DEWMODE](#dewmode) (1)
@@ -322,7 +323,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GCS](#gcs) (1)
 - [Ghost CMS](#ghost-cms) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
-- [GitHub](#github) (10)
+- [GitHub](#github) (11)
 - [GitHub Actions](#github-actions) (15)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
@@ -366,6 +367,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ICS](#ics) (1)
 - [IDE extension](#ide-extension) (1)
 - [identity](#identity) (3)
+- [IDEs](#ides) (1)
 - [IFEO persistence](#ifeo-persistence) (1)
 - [IIOP](#iiop) (1)
 - [IIS](#iis) (1)
@@ -464,7 +466,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [memory-only malware](#memory-only-malware) (1)
 - [MFA bypass](#mfa-bypass) (4)
 - [MFA-bypass](#mfa-bypass) (1)
-- [Miasma](#miasma) (1)
+- [Miasma](#miasma) (2)
 - [Microsoft](#microsoft) (1)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (2)
@@ -544,7 +546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
-- [patterns](#patterns) (6)
+- [patterns](#patterns) (7)
 - [payment fraud](#payment-fraud) (1)
 - [payroll lures](#payroll-lures) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
@@ -665,7 +667,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
 - [ShadowPad](#shadowpad) (1)
-- [Shai-Hulud](#shai-hulud) (4)
+- [Shai-Hulud](#shai-hulud) (5)
 - [share propagation](#share-propagation) (1)
 - [shared hosting](#shared-hosting) (2)
 - [shared secrets](#shared-secrets) (1)
@@ -693,6 +695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
+- [source-repository poisoning](#source-repository-poisoning) (1)
 - [South Africa](#south-africa) (1)
 - [South Asia](#south-asia) (1)
 - [South Korea](#south-korea) (2)
@@ -717,7 +720,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2697](#storm-2697) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (53)
+- [supply-chain](#supply-chain) (54)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
@@ -929,6 +932,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI assistants
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## AI chatbot abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -1427,6 +1431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
@@ -1674,6 +1679,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+
+## developer-tools
+- [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## device registration
 - [ROADtools](../tools/roadtools.md)
@@ -2040,6 +2048,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
@@ -2206,6 +2215,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [ROADtools](../tools/roadtools.md)
+
+## IDEs
+- [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## IFEO persistence
 - [Fast16](../tools/fast16.md)
@@ -2570,6 +2582,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Miasma
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+- [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Microsoft
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -3036,6 +3049,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
@@ -3493,6 +3507,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Shai-Hulud
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+- [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
@@ -3585,6 +3600,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## source-package mismatch
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+
+## source-repository poisoning
+- [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## South Africa
 - [Webworm](../actors/webworm.md)
@@ -3680,6 +3698,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [forge-jsxy](../tools/forge-jsxy.md)

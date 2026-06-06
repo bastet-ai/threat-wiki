@@ -11,6 +11,8 @@ Snyk separately tracks the incident as **Node-gyp Supply Chain Compromise - June
 
 On June 5--6, StepSecurity updated its related `durabletask` coverage to report a second compromise of the `Azure/durabletask` GitHub repository and a rapid GitHub enforcement response. The reported malicious commit reused the contributor account tied to the May 19 PyPI compromise and planted AI-assistant / editor configuration files that execute a large obfuscated credential-harvesting payload when the repository is opened in Claude Code, Gemini CLI, Cursor, or VS Code. StepSecurity then verified that GitHub disabled 73 Microsoft repositories across four Microsoft GitHub organizations in a 105-second window, including the public `Azure/functions-action` repository used by GitHub Actions workflows to deploy Azure Functions.
 
+SafeDep separately documented a source-repository arm of the same Miasma activity: more than 120 GitHub repositories, including five `icflorescu` projects and `Azure/durabletask`, received direct commits that skipped the package-registry install path and instead wired `.github/setup.js` into AI-assistant, editor, and `npm test` auto-execution surfaces.
+
 ## Tags
 - ops
 - operations
@@ -74,6 +76,15 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - The social-engineering text reported by StepSecurity frames the files as required for IDE integration and dependency setup.
 - This is durable because the poisoned repository can trigger later when a developer opens the project in an AI-assisted IDE, even if the original package install is no longer happening.
 
+### Source-repository auto-execution arm
+- SafeDep says the June 3 Miasma activity had a parallel source-repository arm that pushed directly to GitHub repositories instead of relying on a poisoned npm package install.
+- Its worked example is `icflorescu/mantine-datatable`, where commit `f72462d9e5fa90a483062a83e9ffcb2edc57bf7e` used the message `chore: update dependencies [skip ci]`, was unsigned, and was authored as `github-actions <[email protected]>`.
+- The commit added `.claude/settings.json`, `.cursor/rules/setup.mdc`, `.gemini/settings.json`, `.github/setup.js`, `.vscode/tasks.json`, and a `package.json` test-script change. Five of those files launched `.github/setup.js`, a 4.3 MB one-line dropper.
+- SafeDep reports the Claude Code and Gemini files used `SessionStart` hooks, the Cursor rule used `alwaysApply: true` and instructed the agent to run `node .github/setup.js`, VS Code used a `runOn: folderOpen` task, and `package.json` changed `test` to `node .github/setup.js`.
+- The important operational distinction is that cloning a repository was not described as the trigger; opening it in a configured editor or AI coding agent, or running the poisoned test script, was the dangerous step.
+- SafeDep found the same fingerprint in 123 repositories across dozens of accounts, including `Azure/durabletask`, and noted that the source-repo dropper was recompiled per wave. It assessed the source-repo loader as the same Miasma staged Bun loader with a ROT shift changed from 9 to 4 and different AES keys.
+- SafeDep also called out a detection blind spot: the large `.github/setup.js` stayed above GitHub code search's roughly 384 KB indexing limit, so defenders should hunt for the small launcher files as well as for the dropper path itself.
+
 ### June 5 `Azure/durabletask` repository reinfection
 - StepSecurity says Microsoft's official `durabletask` Python SDK was first compromised on PyPI on May 19, 2026, with malicious `durabletask` versions `1.4.1`, `1.4.2`, and `1.4.3` uploaded directly to PyPI; PyPI currently lists `1.4.0` as the latest available version and the three reported malicious versions have no files available through the public PyPI JSON API.
 - StepSecurity reported that the June 5 repository reinfection used commit `5f456b8` with the decoy message `Switched DataConverter to OrchestrationContext [skip ci]`.
@@ -122,6 +133,8 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Check for GitHub API activity that creates new repositories, uploads `results/results-*.json`, searches commits for `thebeautifulmarchoftime`, or uses GraphQL `createCommitOnBranch` unexpectedly.
 - Search repository descriptions for all reported Miasma spacing and punctuation variants, including `Miasma - The Spreading Blight`, `Miasma – The Spreading Blight`, `Miasma: The Spreading Blight`, and `Miasma : The Spreading Blight`.
 - Audit AI-assistant and editor config paths: `.claude/`, `.cursor/`, `.gemini/`, `.vscode/`, and `.github/setup.js`.
+- Search for repository commits that combine the message `chore: update dependencies [skip ci]`, author `github-actions <[email protected]>`, a large `.github/setup.js`, and launcher files under `.claude/settings.json`, `.gemini/settings.json`, `.cursor/rules/setup.mdc`, `.vscode/tasks.json`, or `package.json` test scripts.
+- Before opening an untrusted clone in VS Code, Cursor, Claude Code, or Gemini CLI, inspect for folder-open / session-start commands that run `node .github/setup.js` or similar project-local setup files.
 - Preserve logs before rotating secrets if active repository backdoors may still be present.
 
 ### Secret rotation and containment
@@ -143,6 +156,10 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Suspicious gyp command marker: `<!(node index.js > /dev/null 2>&1 && echo stub.c)`
 - `durabletask` malicious PyPI versions reported by StepSecurity: `1.4.1`, `1.4.2`, `1.4.3`
 - `Azure/durabletask` malicious repository commit reported by StepSecurity: `5f456b8`
+- SafeDep-reported `icflorescu/mantine-datatable` source-repo commit: `f72462d9e5fa90a483062a83e9ffcb2edc57bf7e`
+- SafeDep-reported source-repo commit message: `chore: update dependencies [skip ci]`
+- SafeDep-reported source-repo author marker: `github-actions <[email protected]>`
+- SafeDep-reported source-repo launcher paths: `.claude/settings.json`, `.cursor/rules/setup.mdc`, `.gemini/settings.json`, `.vscode/tasks.json`, `package.json` `test`
 - `durabletask` reported C2 / payload host: `check.git-service[.]com`
 - `durabletask` reported secondary C2: `t.m-kosche[.]com`
 - `durabletask` reported C2 IP: `160.119.64.3`
@@ -160,4 +177,6 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - StepSecurity: https://www.stepsecurity.io/blog/microsofts-durabletask-pypi-package-compromised-in-supply-chain-attack
 - StepSecurity Microsoft repository disablement follow-up: https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents
 - OX Security June 4 Miasma / binding.gyp update: https://www.ox.security/blog/600000-monthly-downloads-affected-miasma-supply-chain-attack-is-back-on-npm/
+- SafeDep source-repository arm analysis: https://safedep.io/miasma-worm-ai-coding-agent-config-injection/
+- SafeDep config-file execution blind spot analysis: https://safedep.io/config-files-that-run-code/
 - PyPI: https://pypi.org/pypi/durabletask/json

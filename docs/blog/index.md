@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+- [SafeDep documents Miasma source-repository auto-execution arm](../ops/binding-gyp-npm-cicd-worm.md#source-repository-auto-execution-arm)
 - [UNC3753 law-firm vishing extortion campaign](../actors/unc3753.md)
 - [TeamPCP Python toolkit / FIRESCALE fallback analysis](../actors/teampcp.md#python-toolkit-firescale-fallback)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
