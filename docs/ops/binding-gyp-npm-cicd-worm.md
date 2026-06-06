@@ -9,7 +9,7 @@ The payload harvests developer and CI/CD credentials, scrapes GitHub Actions run
 
 Snyk separately tracks the incident as **Node-gyp Supply Chain Compromise - June 2026**, classifies the affected releases as critical embedded malicious code, and warns that malicious versions remained resolvable from the public npm registry at the time of its June 4 writeup.
 
-On June 5, StepSecurity updated its related `durabletask` PyPI compromise writeup to report a second compromise of the `Azure/durabletask` GitHub repository. The reported malicious commit reused the contributor account tied to the May 19 PyPI compromise and planted AI-assistant / editor configuration files that execute a large obfuscated credential-harvesting payload when the repository is opened in Claude Code, Gemini CLI, Cursor, or VS Code.
+On June 5--6, StepSecurity updated its related `durabletask` coverage to report a second compromise of the `Azure/durabletask` GitHub repository and a rapid GitHub enforcement response. The reported malicious commit reused the contributor account tied to the May 19 PyPI compromise and planted AI-assistant / editor configuration files that execute a large obfuscated credential-harvesting payload when the repository is opened in Claude Code, Gemini CLI, Cursor, or VS Code. StepSecurity then verified that GitHub disabled 73 Microsoft repositories across four Microsoft GitHub organizations in a 105-second window, including the public `Azure/functions-action` repository used by GitHub Actions workflows to deploy Azure Functions.
 
 ## Tags
 - ops
@@ -82,6 +82,14 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - The important defender distinction is that cloning alone was not described as the trigger; StepSecurity warned that opening the repository in VS Code or AI coding tools that auto-execute the planted configuration files should be treated as compromise and followed by credential rotation.
 - The recurrence shows why Shai-Hulud / Miasma response has to include publisher-account recovery, contributor-token rotation, and repository config review. Cleaning or yanking package versions is not enough if the same identity can later commit editor or AI-agent persistence into source repositories.
 
+### June 5--6 Microsoft repository disablement and `Azure/functions-action` blast radius
+- StepSecurity's June 6 follow-up says GitHub disabled 73 Microsoft repositories across four Microsoft GitHub organizations after the `Azure/durabletask` malicious commit, with block timestamps from `2026-06-05T16:00:50Z` to `2026-06-05T16:02:35Z`.
+- StepSecurity says every disabled repository returned HTTP 403 with GitHub API reason `tos`, and it cross-checked similar Azure Functions repositories plus `microsoft/durabletask-python` that were not disabled to conclude the enforcement was targeted rather than a broad outage.
+- The most visible operational impact was `Azure/functions-action`, the official GitHub Action many workflows reference as `Azure/functions-action@v1` for Azure Functions deployment. While the repository was disabled, workflows relying on that mutable tag stopped resolving.
+- Microsoft Learn responses quoted by StepSecurity recommended alternate deployment paths while the repository was unavailable, including Azure CLI, Azure DevOps Pipelines, VS Code deployment, Zip Deploy, or Azure Pipelines.
+- This adds a second defender lesson beyond editor/AI-agent auto-execution: high-dependence GitHub Actions are availability dependencies. Pinning actions to commit SHAs can make failures more explicit and tamper-resistant, but it does not remove the need for contingency deployment paths when an upstream action repository is disabled.
+- StepSecurity linked the `Azure/durabletask` commit and the May 19 PyPI compromise through the same contributor account, and framed two plausible explanations: the original credentials were never fully rotated, or the account was re-compromised through the worm's own AI-tool / folder-open propagation loop.
+
 ### GitHub repository abuse
 - StepSecurity traced exfiltration to the GitHub account `liuende501`, which it says hosted 236 programmatically created repositories used as credential dead drops.
 - The malware creates private repositories under that account and uploads encrypted JSON files under `results/results-{timestamp}.json`.
@@ -117,6 +125,7 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Rotate npm, RubyGems, GitHub, cloud, Vault, Kubernetes, and password-manager-derived credentials only after removing known repository persistence and isolating infected developer or CI hosts.
 - Revoke package-registry automation tokens and validate maintainers, 2FA posture, and trusted-publishing configuration for affected packages.
 - Audit all packages maintained by any compromised publisher account; the worm's propagation model means sibling packages may be poisoned even if the originally installed package was cleaned.
+- For critical GitHub Actions such as deployment actions, pin to reviewed commit SHAs where possible, track upstream repository availability, and maintain an alternate deployment runbook for repository-disabled or tag-unavailable events.
 
 ## Reported indicators
 - `binding.gyp` SHA-256: `ef641e956f91d501b748085996303c96a64d67f63bfeef0dda175e5aa19cca90`
@@ -133,6 +142,7 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - `durabletask` reported C2 / payload host: `check.git-service[.]com`
 - `durabletask` reported secondary C2: `t.m-kosche[.]com`
 - `durabletask` reported C2 IP: `160.119.64.3`
+- `Azure/functions-action` disabled-repository impact reported by StepSecurity: workflows referencing `Azure/functions-action@v1` stopped resolving while the repository was unavailable
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -144,4 +154,5 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - StepSecurity: https://www.stepsecurity.io/blog/binding-gyp-npm-supply-chain-attack-spreads-like-worm
 - Snyk: https://snyk.io/blog/node-gyp-supply-chain-compromise-self-propagating-npm-worm-binding-gyp/
 - StepSecurity: https://www.stepsecurity.io/blog/microsofts-durabletask-pypi-package-compromised-in-supply-chain-attack
+- StepSecurity Microsoft repository disablement follow-up: https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents
 - PyPI: https://pypi.org/pypi/durabletask/json

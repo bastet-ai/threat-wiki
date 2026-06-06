@@ -95,6 +95,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - CISA KEV additions for internet-facing managed-file-transfer or edge services can justify concise ops pages even when public impact is availability-only; SolarWinds Serv-U CVE-2026-28318 coverage lives at `docs/ops/solarwinds-serv-u-cve-2026-28318-exploitation.md`.
 - Cisco SD-WAN Manager exploitation advisories can justify concise edge/control-plane ops pages when Cisco confirms exploitation and no direct fix/workaround exists; CVE-2026-20245 coverage lives at `docs/ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md`.
 - Hunt.io TeamPCP Python toolkit / FIRESCALE analysis is durable actor-profile material: keep the post-delivery toolkit details on `docs/actors/teampcp.md` unless a future wave warrants a separate ops page.
+- StepSecurity's June 6 Azure/durabletask follow-up adds a distinct Miasma blast-radius lesson: repository-level AI-assistant/editor persistence can lead to GitHub disabling upstream Microsoft repositories and breaking downstream workflows that reference mutable GitHub Action tags such as `Azure/functions-action@v1`; keep this on `docs/ops/binding-gyp-npm-cicd-worm.md` and cross-reference the broad Mini Shai-Hulud page rather than creating a separate Microsoft-only page unless more primary Microsoft/GitHub postmortem detail emerges.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.
