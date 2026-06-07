@@ -160,7 +160,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (14)
-- [credential-theft](#credential-theft) (36)
+- [credential-theft](#credential-theft) (37)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -202,7 +202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
-- [cybercrime](#cybercrime) (9)
+- [cybercrime](#cybercrime) (10)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [Czech Republic](#czech-republic) (1)
 - [data exfiltration](#data-exfiltration) (1)
@@ -346,6 +346,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Play](#google-play) (1)
 - [government](#government) (2)
 - [government targeting](#government-targeting) (1)
+- [government-impersonation](#government-impersonation) (1)
 - [Grandoreiro](#grandoreiro) (1)
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (1)
@@ -381,7 +382,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [incident response](#incident-response) (8)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (9)
-- [infrastructure](#infrastructure) (2)
+- [infrastructure](#infrastructure) (3)
 - [initial-access](#initial-access) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (1)
@@ -536,9 +537,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (92)
+- [operations](#operations) (93)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (90)
+- [ops](#ops) (91)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -558,6 +559,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pastebin](#pastebin) (1)
 - [patterns](#patterns) (7)
 - [payment fraud](#payment-fraud) (1)
+- [payment-card-theft](#payment-card-theft) (1)
 - [payroll lures](#payroll-lures) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [PebbleDash](#pebbledash) (1)
@@ -569,7 +571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (7)
+- [phishing](#phishing) (8)
 - [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (2)
 - [PHP code injection](#php-code-injection) (1)
@@ -583,6 +585,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [portmap](#portmap) (1)
 - [Portugal](#portugal) (1)
 - [post-exploitation](#post-exploitation) (3)
+- [postal-impersonation](#postal-impersonation) (1)
 - [PostgreSQL](#postgresql) (2)
 - [postinstall](#postinstall) (5)
 - [PowerCloud](#powercloud) (1)
@@ -696,7 +699,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sliver](#sliver) (1)
 - [SLSA](#slsa) (1)
 - [SmartScreen](#smartscreen) (1)
-- [smishing](#smishing) (1)
+- [smishing](#smishing) (2)
 - [SMTP](#smtp) (1)
 - [social engineering](#social-engineering) (7)
 - [social-engineering](#social-engineering) (2)
@@ -747,6 +750,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamViewer](#teamviewer) (1)
 - [TEASOUP](#teasoup) (1)
 - [telecom](#telecom) (2)
+- [telecom-impersonation](#telecom-impersonation) (1)
 - [Telegram](#telegram) (4)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
@@ -767,7 +771,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trident Ursa](#trident-ursa) (1)
 - [Twilio](#twilio) (1)
 - [typosquat](#typosquat) (1)
-- [typosquatting](#typosquatting) (6)
+- [typosquatting](#typosquatting) (7)
 - [UAC](#uac) (1)
 - [UAC-0010](#uac-0010) (2)
 - [UAC-0098](#uac-0098) (1)
@@ -1464,6 +1468,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -1625,6 +1630,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -2165,6 +2171,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## government targeting
 - [Cloud Atlas](../actors/cloud-atlas.md)
 
+## government-impersonation
+- [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
+
 ## Grandoreiro
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -2300,6 +2309,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## infrastructure
 - [First VPN](../tools/first-vpn.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 
 ## initial-access
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -2904,6 +2914,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -2999,6 +3010,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -3121,6 +3133,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## payment fraud
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
+## payment-card-theft
+- [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
+
 ## payroll lures
 - [TA4922](../actors/ta4922.md)
 
@@ -3174,6 +3189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [TA4922](../actors/ta4922.md)
 
@@ -3218,6 +3234,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Showboat](../tools/showboat.md)
+
+## postal-impersonation
+- [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 
 ## PostgreSQL
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -3636,6 +3655,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## smishing
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 
 ## SMTP
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
@@ -3866,6 +3886,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Showboat](../tools/showboat.md)
 
+## telecom-impersonation
+- [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
+
 ## Telegram
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -3945,6 +3968,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## typosquatting
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
