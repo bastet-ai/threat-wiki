@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>MiniPlasma Windows Cloud Filter LPE exploitation</title>
+      <link>https://threat.wiki/ops/miniplasma-windows-cloud-filter-lpe-exploitation/</link>
+      <description>Kaspersky reports MiniPlasma, a public Windows Cloud Filter / CVE-2020-17103-adjacent local privilege-escalation exploit that can grant SYSTEM on fully updated Windows 11 and Windows Server 2022/2025 systems before Microsoft's planned June 2026 patch. The page captures the public-exploit context, reported affected platforms, and defender hunts for CloudFiles registry symbolic links, suspicious wermgr.exe placement, and Windows Error Reporting task execution.</description>
+      <pubDate>Sun, 07 Jun 2026 09:28:35 GMT</pubDate>
+      <guid>https://threat.wiki/ops/miniplasma-windows-cloud-filter-lpe-exploitation/</guid>
+    </item>
+    <item>
       <title>Telnyx PyPI TeamPCP compromise</title>
       <link>https://threat.wiki/ops/telnyx-pypi-teampcp-compromise/</link>
       <description>OX Security reported malicious Telnyx Python SDK releases 4.87.1 and 4.87.2 uploaded to PyPI and attributed the activity to TeamPCP as a follow-on to LiteLLM. The page captures the reported _client.py payload, XOR-obfuscated WAV-like download stage, affected versions, Telnyx service-infrastructure caveat, and defender response guidance for developer and CI environments.</description>

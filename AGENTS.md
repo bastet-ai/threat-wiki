@@ -100,6 +100,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - OX Security's June 4, 2026 Miasma / `binding.gyp` update adds measurement and hunting detail to `docs/ops/binding-gyp-npm-cicd-worm.md`: 57 packages, 152,376 weekly downloads, 647,204 monthly downloads, 118+ GitHub repos with stolen credentials, and an en-dash repository-description variant `Miasma – The Spreading Blight`; add punctuation variants to hunts instead of creating a new page.
 - SafeDep's June 5, 2026 Miasma source-repository analysis adds a reusable pattern: repository-local config can auto-execute malware through Claude Code / Gemini `SessionStart`, Cursor `alwaysApply`, VS Code `folderOpen`, and `npm test`; coverage lives at `docs/patterns/developer-tool-config-auto-execution.md` and the Miasma-specific details stay on `docs/ops/binding-gyp-npm-cicd-worm.md`.
 - OX Security's March 27, 2026 Telnyx report is useful TeamPCP backfill: coverage lives at `docs/ops/telnyx-pypi-teampcp-compromise.md`; keep it tied to OX's attribution and Telnyx's caveat that only the Python package, not Telnyx service infrastructure, was compromised.
+- Kaspersky Securelist can surface Windows exploit-detection items worth concise ops coverage even before final vendor patch naming; MiniPlasma coverage lives at `docs/ops/miniplasma-windows-cloud-filter-lpe-exploitation.md` and should keep public-exploit / patch-window language caveated to Kaspersky's June 2026 reporting.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.

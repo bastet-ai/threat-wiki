@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [MiniPlasma Windows Cloud Filter LPE exploitation](ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Telnyx PyPI TeamPCP compromise](ops/telnyx-pypi-teampcp-compromise.md)
 - [Developer-tool config auto-execution](patterns/developer-tool-config-auto-execution.md)
 - [UNC3753](actors/unc3753.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Claude Code GitHub Action prompt-injection boundary](patterns/claude-code-github-action-prompt-injection.md)
 - [binding.gyp npm CI/CD worm](ops/binding-gyp-npm-cicd-worm.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
-- [OP-512](actors/op-512.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

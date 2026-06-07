@@ -10,7 +10,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (13)
+- [active exploitation](#active-exploitation) (14)
 - [active-exploitation](#active-exploitation) (1)
 - [actor](#actor) (1)
 - [actors](#actors) (5)
@@ -127,6 +127,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud](#cloud) (5)
 - [cloud C2](#cloud-c2) (1)
 - [cloud credential theft](#cloud-credential-theft) (3)
+- [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
+- [Cloud Filter driver](#cloud-filter-driver) (1)
 - [cloud identity](#cloud-identity) (1)
 - [cloud infrastructure](#cloud-infrastructure) (1)
 - [cloud secrets](#cloud-secrets) (3)
@@ -169,6 +171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptominer](#cryptominer) (2)
 - [Curious Serpens](#curious-serpens) (1)
 - [Curve25519](#curve25519) (1)
+- [CVE-2020-17103](#cve-2020-17103) (1)
 - [CVE-2022-0492](#cve-2022-0492) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
@@ -394,7 +397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JSCoreRunner](#jscorerunner) (1)
 - [JSON:API](#jsonapi) (1)
 - [JSONPing](#jsonping) (1)
-- [Kaspersky](#kaspersky) (1)
+- [Kaspersky](#kaspersky) (2)
 - [kernel driver](#kernel-driver) (1)
 - [KEV](#kev) (2)
 - [KeyHunter](#keyhunter) (1)
@@ -434,11 +437,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LNK](#lnk) (5)
 - [LNK files](#lnk-files) (1)
 - [loader](#loader) (1)
+- [local privilege escalation](#local-privilege-escalation) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
 - [LONGSTREAM](#longstream) (1)
 - [LOOKVALJS](#lookvaljs) (1)
 - [LOOKVALPS](#lookvalps) (1)
+- [LPE](#lpe) (1)
 - [LS-DYNA](#ls-dyna) (1)
 - [LSASS](#lsass) (1)
 - [Lua](#lua) (1)
@@ -477,6 +482,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
 - [MiniJunk](#minijunk) (1)
+- [MiniPlasma](#miniplasma) (1)
 - [MINIRAT](#minirat) (2)
 - [Ministry of Finance](#ministry-of-finance) (1)
 - [MiniUpdate](#miniupdate) (1)
@@ -526,9 +532,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (90)
+- [operations](#operations) (91)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (88)
+- [ops](#ops) (89)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -596,6 +602,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [protestware](#protestware) (1)
 - [proxy](#proxy) (5)
 - [psychological operations](#psychological-operations) (1)
+- [public exploit](#public-exploit) (1)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public sector](#public-sector) (1)
 - [pwn-request](#pwn-request) (1)
@@ -721,6 +728,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [supply-chain](#supply-chain) (55)
+- [SYSTEM](#system) (1)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
@@ -810,7 +818,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](#webworm) (1)
 - [WhatsApp](#whatsapp) (1)
 - [WHM](#whm) (2)
-- [Windows](#windows) (12)
+- [Windows](#windows) (13)
 - [Winos4.0](#winos40) (1)
 - [WinRAR](#winrar) (2)
 - [wiper](#wiper) (2)
@@ -831,7 +839,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zendesk](#zendesk) (1)
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
-- [zero-day](#zero-day) (1)
+- [zero-day](#zero-day) (2)
 
 ## .NET
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -863,6 +871,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -1308,6 +1317,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
+## Cloud Files Mini Filter Driver
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+
+## Cloud Filter driver
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+
 ## cloud identity
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
@@ -1501,6 +1516,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Curve25519
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## CVE-2020-17103
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
 ## CVE-2022-0492
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
@@ -2326,6 +2344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## Kaspersky
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## kernel driver
@@ -2469,6 +2488,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## loader
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 
+## local privilege escalation
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+
 ## long-lived tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
@@ -2483,6 +2505,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LOOKVALPS
 - [GREYVIBE](../actors/greyvibe.md)
+
+## LPE
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
 ## LS-DYNA
 - [Fast16](../tools/fast16.md)
@@ -2623,6 +2648,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MiniJunk
 - [Screening Serpens](../actors/screening-serpens.md)
+
+## MiniPlasma
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
 ## MINIRAT
 - [JINX-0164](../actors/jinx-0164.md)
@@ -2869,6 +2897,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -2962,6 +2991,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -3257,6 +3287,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## psychological operations
 - [Handala](../actors/handala.md)
+
+## public exploit
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
 ## public file-transfer exfiltration
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -3752,6 +3785,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## SYSTEM
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+
 ## T3
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 
@@ -4086,6 +4122,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -4169,3 +4206,4 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## zero-day
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+- [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
