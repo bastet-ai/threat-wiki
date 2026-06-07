@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Oman government Iranian-nexus webshell C2: ops/oman-government-iranian-nexus-webshell-c2.md
       - MiniPlasma Windows Cloud Filter LPE exploitation: ops/miniplasma-windows-cloud-filter-lpe-exploitation.md
       - Telnyx PyPI TeamPCP compromise: ops/telnyx-pypi-teampcp-compromise.md
       - Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation: ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md

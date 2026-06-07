@@ -54,7 +54,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT45](#apt45) (1)
 - [Armageddon](#armageddon) (1)
 - [Artifact Signing](#artifact-signing) (1)
-- [ASP.NET](#aspnet) (1)
+- [ASP.NET](#aspnet) (2)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [Atlas RAT](#atlas-rat) (1)
 - [AUDIOFIX](#audiofix) (2)
@@ -97,7 +97,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
-- [C2](#c2) (5)
+- [C2](#c2) (6)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
@@ -111,7 +111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China-nexus](#china-nexus) (1)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
-- [Chisel](#chisel) (1)
+- [Chisel](#chisel) (2)
 - [ChromElevator](#chromelevator) (1)
 - [CI/CD](#cicd) (25)
 - [CircleCI](#circleci) (1)
@@ -160,7 +160,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential theft](#credential-theft) (14)
-- [credential-theft](#credential-theft) (35)
+- [credential-theft](#credential-theft) (36)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -207,6 +207,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Czech Republic](#czech-republic) (1)
 - [data exfiltration](#data-exfiltration) (1)
 - [data theft](#data-theft) (3)
+- [data-exfiltration](#data-exfiltration) (1)
 - [DAYLIGHT](#daylight) (1)
 - [DDoS](#ddos) (1)
 - [dead drop resolver](#dead-drop-resolver) (1)
@@ -240,6 +241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
 - [document theft](#document-theft) (2)
+- [DotNetNuke](#dotnetnuke) (1)
 - [double extortion](#double-extortion) (1)
 - [DPAPI](#dpapi) (1)
 - [DPAPILoader](#dpapiloader) (1)
@@ -273,7 +275,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (23)
+- [espionage](#espionage) (24)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -342,7 +344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Ads](#google-ads) (1)
 - [Google Drive](#google-drive) (1)
 - [Google Play](#google-play) (1)
-- [government](#government) (1)
+- [government](#government) (2)
 - [government targeting](#government-targeting) (1)
 - [Grandoreiro](#grandoreiro) (1)
 - [GREYVIBE](#greyvibe) (1)
@@ -384,6 +386,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [iOS](#ios) (1)
 - [IoT](#iot) (1)
 - [Iran](#iran) (5)
+- [Iran-nexus](#iran-nexus) (1)
 - [Israel](#israel) (2)
 - [Japan](#japan) (1)
 - [JavaScript](#javascript) (2)
@@ -524,6 +527,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OIDC](#oidc) (3)
 - [Okta](#okta) (4)
 - [Ollama](#ollama) (1)
+- [Oman](#oman) (1)
 - [OneDrive](#onedrive) (3)
 - [OpenAI Codex](#openai-codex) (1)
 - [OpenConnect](#openconnect) (1)
@@ -532,9 +536,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (91)
+- [operations](#operations) (92)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (89)
+- [ops](#ops) (90)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -582,7 +586,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (2)
 - [postinstall](#postinstall) (5)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (6)
+- [PowerShell](#powershell) (7)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
 - [PraisonAI](#praisonai) (1)
@@ -807,7 +811,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web application](#web-application) (3)
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
-- [web shell](#web-shell) (2)
+- [web shell](#web-shell) (3)
 - [web supply chain](#web-supply-chain) (1)
 - [web-shells](#web-shells) (1)
 - [WebKit](#webkit) (1)
@@ -1040,6 +1044,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 
 ## ASP.NET
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [OP-512](../actors/op-512.md)
 
 ## ASP.NET machineKey
@@ -1189,6 +1194,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
 
@@ -1234,6 +1240,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## Chisel
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 
 ## ChromElevator
@@ -1468,6 +1475,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
@@ -1638,6 +1646,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [UNC3753](../actors/unc3753.md)
 
+## data-exfiltration
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+
 ## DAYLIGHT
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -1762,6 +1773,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
+## DotNetNuke
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+
 ## double extortion
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -1875,6 +1889,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [OP-512](../actors/op-512.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
@@ -2145,6 +2160,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## government
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 
 ## government targeting
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -2300,6 +2316,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## Iran-nexus
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 
 ## Israel
 - [Handala](../actors/handala.md)
@@ -2817,6 +2836,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ollama
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
+## Oman
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+
 ## OneDrive
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -2905,6 +2927,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
@@ -2999,6 +3022,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
@@ -3215,6 +3239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## PowerShower
@@ -4082,6 +4107,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## web shell
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+- [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 
 ## web supply chain
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)

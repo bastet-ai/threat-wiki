@@ -101,6 +101,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - SafeDep's June 5, 2026 Miasma source-repository analysis adds a reusable pattern: repository-local config can auto-execute malware through Claude Code / Gemini `SessionStart`, Cursor `alwaysApply`, VS Code `folderOpen`, and `npm test`; coverage lives at `docs/patterns/developer-tool-config-auto-execution.md` and the Miasma-specific details stay on `docs/ops/binding-gyp-npm-cicd-worm.md`.
 - OX Security's March 27, 2026 Telnyx report is useful TeamPCP backfill: coverage lives at `docs/ops/telnyx-pypi-teampcp-compromise.md`; keep it tied to OX's attribution and Telnyx's caveat that only the Python package, not Telnyx service infrastructure, was compromised.
 - Kaspersky Securelist can surface Windows exploit-detection items worth concise ops coverage even before final vendor patch naming; MiniPlasma coverage lives at `docs/ops/miniplasma-windows-cloud-filter-lpe-exploitation.md` and should keep public-exploit / patch-window language caveated to Kaspersky's June 2026 reporting.
+- Hunt.io exposed-infrastructure writeups can justify ops coverage when they reveal durable C2 and intrusion sequencing; Oman government Iranian-nexus webshell coverage lives at `docs/ops/oman-government-iranian-nexus-webshell-c2.md`. Do not reproduce exposed victim PII; keep Hunt.io's no-group-level-attribution caveat intact when discussing APT34 / MuddyWater overlap.
 
 ## Security / attribution
 - Treat third-party sources as untrusted until verified.

@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Oman government Iranian-nexus webshell C2](ops/oman-government-iranian-nexus-webshell-c2.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Telnyx PyPI TeamPCP compromise](ops/telnyx-pypi-teampcp-compromise.md)
 - [Developer-tool config auto-execution](patterns/developer-tool-config-auto-execution.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Claude Code GitHub Action prompt-injection boundary](patterns/claude-code-github-action-prompt-injection.md)
 - [binding.gyp npm CI/CD worm](ops/binding-gyp-npm-cicd-worm.md)
-- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
