@@ -68,7 +68,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [axios](#axios) (1)
 - [Azure](#azure) (3)
 - [Backblaze](#backblaze) (1)
-- [backdoor](#backdoor) (6)
+- [backdoor](#backdoor) (7)
 - [backup disruption](#backup-disruption) (1)
 - [backups](#backups) (1)
 - [banking](#banking) (1)
@@ -113,7 +113,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chisel](#chisel) (1)
 - [ChromElevator](#chromelevator) (1)
-- [CI/CD](#cicd) (24)
+- [CI/CD](#cicd) (25)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (5)
 - [Cisco](#cisco) (1)
@@ -157,7 +157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
-- [credential theft](#credential-theft) (13)
+- [credential theft](#credential-theft) (14)
 - [credential-theft](#credential-theft) (35)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -217,7 +217,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (1)
 - [destructive operations](#destructive-operations) (1)
-- [developer machines](#developer-machines) (4)
+- [developer machines](#developer-machines) (5)
 - [developer tooling](#developer-tooling) (1)
 - [developer-targeting](#developer-targeting) (8)
 - [developer-tools](#developer-tools) (1)
@@ -375,7 +375,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (1)
 - [incident response](#incident-response) (8)
 - [industrial control](#industrial-control) (1)
-- [infostealer](#infostealer) (8)
+- [infostealer](#infostealer) (9)
 - [infrastructure](#infrastructure) (2)
 - [initial-access](#initial-access) (1)
 - [iOS](#ios) (1)
@@ -424,7 +424,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linux](#linux) (9)
-- [LiteLLM](#litellm) (1)
+- [LiteLLM](#litellm) (2)
 - [LiteSpeed](#litespeed) (1)
 - [living off the land](#living-off-the-land) (1)
 - [living-off-the-land](#living-off-the-land) (1)
@@ -450,7 +450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer compromise](#maintainer-compromise) (1)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
-- [malicious releases](#malicious-releases) (1)
+- [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (2)
 - [malware](#malware) (13)
 - [malware delivery](#malware-delivery) (1)
@@ -526,9 +526,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (89)
+- [operations](#operations) (90)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (87)
+- [ops](#ops) (88)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -538,7 +538,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
 - [P2P](#p2p) (1)
-- [package registry](#package-registry) (1)
+- [package registry](#package-registry) (2)
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (3)
 - [page poisoning](#page-poisoning) (1)
@@ -599,8 +599,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public sector](#public-sector) (1)
 - [pwn-request](#pwn-request) (1)
-- [PyPI](#pypi) (5)
-- [Python](#python) (2)
+- [PyPI](#pypi) (6)
+- [Python](#python) (3)
 - [RaaS](#raas) (1)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (3)
@@ -720,7 +720,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2697](#storm-2697) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
-- [supply-chain](#supply-chain) (54)
+- [supply-chain](#supply-chain) (55)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
 - [tag rewrite](#tag-rewrite) (1)
@@ -730,12 +730,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef](#tamperedchef) (1)
 - [targeted operations](#targeted-operations) (1)
 - [TartarusGate](#tartarusgate) (1)
-- [TeamPCP](#teampcp) (7)
+- [TeamPCP](#teampcp) (8)
 - [TeamPCP-adjacent](#teampcp-adjacent) (1)
 - [TeamViewer](#teamviewer) (1)
 - [TEASOUP](#teasoup) (1)
 - [telecom](#telecom) (2)
 - [Telegram](#telegram) (4)
+- [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
 - [The Gentlemen](#the-gentlemen) (1)
 - [tj-actions](#tj-actions) (1)
@@ -1085,6 +1086,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Showboat](../tools/showboat.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
 ## backup disruption
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -1249,6 +1251,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
@@ -1420,6 +1423,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
@@ -1665,6 +1669,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 
 ## developer tooling
@@ -2256,6 +2261,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
 ## infrastructure
 - [First VPN](../tools/first-vpn.md)
@@ -2427,6 +2433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LiteLLM
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
 ## LiteSpeed
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -2517,6 +2524,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malicious releases
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
 ## malvertising
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -2888,6 +2896,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -2979,6 +2988,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -3019,6 +3029,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## package registry
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
 ## package-takeover
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -3260,11 +3271,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## Python
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## RaaS
@@ -3730,6 +3743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -3774,6 +3788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
@@ -3795,6 +3810,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
+
+## Telnyx
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
 ## Temp Zagros
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)

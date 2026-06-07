@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Telnyx PyPI TeamPCP compromise</title>
+      <link>https://threat.wiki/ops/telnyx-pypi-teampcp-compromise/</link>
+      <description>OX Security reported malicious Telnyx Python SDK releases 4.87.1 and 4.87.2 uploaded to PyPI and attributed the activity to TeamPCP as a follow-on to LiteLLM. The page captures the reported _client.py payload, XOR-obfuscated WAV-like download stage, affected versions, Telnyx service-infrastructure caveat, and defender response guidance for developer and CI environments.</description>
+      <pubDate>Sun, 07 Jun 2026 01:29:18 GMT</pubDate>
+      <guid>https://threat.wiki/ops/telnyx-pypi-teampcp-compromise/</guid>
+    </item>
+    <item>
       <title>Developer-tool config auto-execution</title>
       <link>https://threat.wiki/patterns/developer-tool-config-auto-execution/</link>
       <description>SafeDep's June 2026 Miasma source-repository analysis shows repository-local configuration becoming a malware execution primitive: Claude Code and Gemini SessionStart hooks, Cursor alwaysApply rules, VS Code folderOpen tasks, and npm test scripts launched a large .github/setup.js dropper from poisoned GitHub repositories.</description>

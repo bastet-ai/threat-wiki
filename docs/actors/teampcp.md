@@ -1,7 +1,7 @@
 # TeamPCP
 
 ## Summary
-TeamPCP is a supply-chain focused threat actor tracked publicly in connection with multiple operations in 2026, including the **Trivy compromise** and the follow-on **CanisterWorm** NPM campaign. StepSecurity also connects TeamPCP to the broader **HackerBot Claw** GitHub Actions exploitation ecosystem.
+TeamPCP is a supply-chain focused threat actor tracked publicly in connection with multiple operations in 2026, including the **Trivy compromise**, the follow-on **CanisterWorm** NPM campaign, and Python package compromises such as LiteLLM and Telnyx. StepSecurity also connects TeamPCP to the broader **HackerBot Claw** GitHub Actions exploitation ecosystem.
 
 ## Page role
 This actor page should stay focused on TeamPCP identity, motivation, tradecraft, and associated operations. Keep detailed timelines and wave-specific indicators on the operation pages, especially [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md), [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md), and [Trivy → TeamPCP → CanisterWorm timeline](../ops/trivy-lite-llm-compromise-timeline.md).
@@ -88,6 +88,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 ## Associated operations
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [CanisterWorm](../tools/canisterworm.md)
@@ -115,6 +116,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Socket separately tracks `SANDWORM_MODE` as a Shai-Hulud-like npm worm rather than a confirmed TeamPCP operation; use it as lineage/copycat context unless stronger attribution emerges.
 - JFrog's May 19 AntV follow-up adds two durable TeamPCP/Mini Shai-Hulud escalations to monitor: optional-dependency delivery from fork-resolvable GitHub commits that leaves the npm tarball itself looking clean, and post-compromise persistence through AI-tool hooks (`~/.claude/`, `~/.codex/`), VS Code `folderOpen` tasks, and GitHub commit-search C2 (`kitty-monitor`).
 - Boost Security's LiteLLM writeup reinforces the Trivy-to-second-order-victim model but keeps causality appropriately caveated: the poisoned Trivy APT/Homebrew/action paths they could inspect did not explain BerriAI, leaving GitHub Release binaries, Docker images, force-pushed action tags, or another unobserved credential path as live hypotheses. The same report adds the `litellm_init.pth` Python-startup execution pattern, `models.litellm.cloud` exfiltration, and GitHub repository exposure/destruction behavior to TeamPCP hunting.
+- OX Security's Telnyx writeup adds a same-week PyPI follow-on pattern: malicious `telnyx` releases `4.87.1` and `4.87.2` reportedly used compromised publishing access, added obfuscated logic to `_client.py`, downloaded an XOR-obfuscated WAV-like payload as `temp.wav`, and reused LiteLLM-style cloud/developer credential theft. Telnyx told OX the compromise was limited to the Python package, not Telnyx service infrastructure.
 - JFrog's Xinference writeup adds another TeamPCP-linked / possible-copycat PyPI pattern: legitimate `xinference` versions `2.6.0`-`2.6.2` ran import-time code from `xinference/__init__.py`, spawned detached Python execution, collected cloud/Kubernetes/developer secrets, and exfiltrated `love.tar.gz` to `whereisitat[.]lucyatemysuperbox[.]space`. JFrog noted TeamPCP denied responsibility, so track it as reported TeamPCP-family activity with attribution caveats.
 - Socket's Intercom reporting adds a cross-ecosystem pivot pattern to watch: a compromised PyPI dependency (`lightning`, pulled locally through `pyannote-audio`) was linked to Intercom npm compromise, followed by a malicious Packagist artifact (`intercom/intercom-php@5.0.2`) that abused Composer plugin install/update execution and mutable tag metadata. Treat future TeamPCP/Mini Shai-Hulud triage as multi-registry by default, especially when one compromised developer account or endpoint has GitHub organization write access.
 - Socket's SAP CAP / Cloud MTA analysis reinforces that TeamPCP-linked Mini Shai-Hulud waves target high-blast-radius enterprise developer ecosystems, not just generic npm packages: SAP CAP packages added Bun runtime bootstrappers, large obfuscated payloads, developer/CI credential harvesting, and GitHub Actions runner-memory scraping in artifacts with hundreds of thousands of combined weekly downloads.
@@ -178,3 +180,4 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [SentinelOne PCPJack cloud worm reporting](https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/)
 - [Hunt.io PCPJack SMTP relay network reporting](https://hunt.io/blog/pcpjack-230-cloud-servers-smtp-proxy-network-sliver-chisel)
 - [Hunt.io TeamPCP Python toolkit / FIRESCALE analysis](https://hunt.io/blog/teampcp-python-toolkit-firescale-github-c2-takedown)
+- [OX Security Telnyx PyPI compromise](https://www.ox.security/blog/telnyx-malware-teampcp-strikes-again-following-litellm-compromise/)
