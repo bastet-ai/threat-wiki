@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)

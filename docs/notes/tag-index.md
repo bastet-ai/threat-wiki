@@ -11,7 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (14)
+- [active exploitation](#active-exploitation) (15)
 - [active-exploitation](#active-exploitation) (1)
 - [actor](#actor) (1)
 - [actors](#actors) (5)
@@ -60,7 +60,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [Atlas RAT](#atlas-rat) (1)
 - [AUDIOFIX](#audiofix) (2)
-- [authentication bypass](#authentication-bypass) (3)
+- [authentication bypass](#authentication-bypass) (4)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AUTODYN](#autodyn) (1)
 - [AutoHotKey](#autohotkey) (1)
@@ -108,6 +108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CDN](#cdn) (1)
 - [certificate theft](#certificate-theft) (1)
 - [Chatty Spider](#chatty-spider) (1)
+- [Check Point](#check-point) (1)
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (2)
@@ -203,6 +204,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-45247](#cve-2026-45247) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
+- [CVE-2026-50751](#cve-2026-50751) (1)
+- [CVE-2026-50752](#cve-2026-50752) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
@@ -259,7 +262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dynu](#dynu) (1)
 - [e-commerce](#e-commerce) (1)
 - [eBPF](#ebpf) (1)
-- [edge appliance](#edge-appliance) (3)
+- [edge appliance](#edge-appliance) (4)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge devices](#edge-devices) (1)
@@ -386,9 +389,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IFEO persistence](#ifeo-persistence) (1)
 - [IIOP](#iiop) (1)
 - [IIS](#iis) (1)
+- [IKEv1](#ikev1) (1)
 - [iMessage](#imessage) (1)
 - [impersonation](#impersonation) (1)
-- [incident response](#incident-response) (8)
+- [incident response](#incident-response) (9)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (9)
 - [infrastructure](#infrastructure) (3)
@@ -500,6 +504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ministry of Finance](#ministry-of-finance) (1)
 - [MiniUpdate](#miniupdate) (1)
 - [mobile](#mobile) (1)
+- [Mobile Access](#mobile-access) (1)
 - [mobile devices](#mobile-devices) (1)
 - [mobile malware](#mobile-malware) (1)
 - [Model Context Protocol](#model-context-protocol) (1)
@@ -546,9 +551,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (95)
+- [operations](#operations) (96)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (93)
+- [ops](#ops) (94)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -626,9 +631,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (7)
 - [Python](#python) (3)
+- [Qilin](#qilin) (1)
 - [RaaS](#raas) (1)
 - [RAM disk](#ram-disk) (1)
-- [ransomware](#ransomware) (3)
+- [ransomware](#ransomware) (4)
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAT](#rat) (15)
 - [RC4](#rc4) (1)
@@ -645,6 +651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [registry persistence](#registry-persistence) (3)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (2)
+- [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (2)
 - [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
@@ -813,7 +820,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VLESS](#vless) (1)
 - [vManage](#vmanage) (1)
 - [VMware](#vmware) (2)
-- [VPN](#vpn) (2)
+- [VPN](#vpn) (3)
 - [VS Code](#vs-code) (5)
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
@@ -890,6 +897,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 
 ## active exploitation
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -1084,6 +1092,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
 ## authentication bypass
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -1248,6 +1257,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Chatty Spider
 - [UNC3753](../actors/unc3753.md)
+
+## Check Point
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
 ## Checkmarx
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -1649,6 +1661,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-48172
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
+## CVE-2026-50751
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+
+## CVE-2026-50752
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+
 ## CVE-2026-5426
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -1856,6 +1874,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 
 ## edge appliance
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -2331,6 +2350,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## IIS
 - [OP-512](../actors/op-512.md)
 
+## IKEv1
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+
 ## iMessage
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
@@ -2338,6 +2360,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## incident response
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -2751,6 +2774,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mobile
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 
+## Mobile Access
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+
 ## mobile devices
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
@@ -2952,6 +2978,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -3051,6 +3078,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -3430,6 +3458,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
+## Qilin
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+
 ## RaaS
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -3437,6 +3468,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## ransomware
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -3506,6 +3538,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## remote access
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
+## Remote Access VPN
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
 ## remote code execution
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -4150,6 +4185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## VPN
+- [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [First VPN](../tools/first-vpn.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
