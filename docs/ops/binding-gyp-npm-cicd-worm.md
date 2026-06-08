@@ -17,6 +17,8 @@ On June 7, Socket reported a PyPI branch of the same Mini Shai-Hulud / Miasma li
 
 On June 8, StepSecurity reported a second Hades PyPI wave in graph machine-learning, computational-biology, bioinformatics, and genotype-phenotype packages. This wave moved from Socket's `*-setup.pth` startup-hook shape to an obfuscated package `__init__.py` import hook, used Bun v1.3.14, added prompt-injection text intended to mislead LLM-based malware triage, introduced macOS and Windows runner-memory scrapers, and added SSH/SCP lateral movement plus persistence / wiper-deterrent services.
 
+Later on June 8, StepSecurity reported a short-lived compromise of the public `Pythagora-io/gpt-pilot` AI coding-tool repository. The attacker allegedly used a compromised maintainer account to force-push a backdated Shai-Hulud-family credential stealer into `core/telemetry/`, but the repository's `ruff` formatting and lint checks failed twice and appear to have prevented a clean malicious build.
+
 ## Tags
 - ops
 - operations
@@ -46,6 +48,7 @@ On June 8, StepSecurity reported a second Hades PyPI wave in graph machine-learn
 - It reportedly propagates through both npm and RubyGems publishing access, making it a cross-registry software-supply-chain incident rather than a single package-family compromise.
 - The June 7 Socket report shows the same lineage adapting to PyPI wheels through executable `.pth` startup hooks, and StepSecurity's June 8 follow-up shows package-import execution through `__init__.py`; Python dependency review needs the same scrutiny defenders apply to npm lifecycle scripts and native-addon build paths.
 - StepSecurity's June 8 report shows the campaign targeting both CI/CD runners and developer workstations: cross-platform runner-memory scraping, SSH/SCP staging to known hosts, AI-assistant / IDE rule hijacking, and token-revocation-triggered wiper deterrence make simple package yanking or immediate token revocation insufficient without host containment.
+- The `gpt-pilot` incident shows a source-repository takeover path where ordinary code-quality gates can become useful tripwires: style and import-order failures are not a replacement for branch protection, but they can block attacker code that does not match a project's normal conventions.
 
 ## Reported chain
 
@@ -137,6 +140,18 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - The AI-assistant / IDE backdoor scope broadened beyond the earlier `.claude`, `.gemini`, `.cursor`, and `.vscode` paths. StepSecurity said this wave looks for configuration surfaces for 14 agent systems, including Claude, Codex, Gemini, Copilot, Cline, Aider, Tabby, Amazon Q, Cody, Bolt, and Continue, and plants instructions or hooks that bootstrap Bun when the workspace is loaded or analyzed.
 - StepSecurity reported persistence through `update-monitor` plus a `gh-token-monitor` deterrent service. The deterrent polls `https://api.github.com/user` with the stolen token for up to 72 hours and, if the token returns a 4xx status, executes destructive removal commands against the user's home directory and Documents folder. In incident response, isolate affected hosts and preserve evidence before revoking tokens that may be watched by this service.
 
+### June 8 `Pythagora-io/gpt-pilot` force-push attempt
+- StepSecurity reported that an attacker compromised the `LeonOstrez` GitHub account, belonging to a `Pythagora-io/gpt-pilot` co-founder and maintainer, and force-pushed directly to the repository's `main` branch. StepSecurity said the branch had no protection rules; the GitHub API returned 404 for the branch-protection endpoint.
+- The first force push at `2026-06-08 11:01:38Z` reportedly replaced clean history at `53154df1c66b` with malicious head `90f59f5de681`. A second force push at `11:13:07Z` replaced that with `a372904facd5` after the first CI attempt failed.
+- The malicious commit was titled `Revert 'Implemented weekend discount'` and was backdated to `2025-08-24 20:37:44`, making it look older in casual history review. StepSecurity contrasted a clean revert commit `566fbb120bc436385aa5a4cb93d7c351dec2127e` with malicious commit `065ee8ebee7385cb644fd1608587a18edb91f4fb`, which added malware while preserving similar metadata.
+- The injected files lived under `core/telemetry/`: `_hooks.py`, `_runtime.bin`, and a modified `__init__.py`. The modified telemetry initializer spawned a daemon thread that imported `core.telemetry._hooks` and ran it when `gpt-pilot` executed.
+- `_hooks.py` was a cross-platform Python loader that downloaded Bun v1.3.13, used `.loader.lock` to avoid duplicate execution, suppressed output, and launched the `_runtime.bin` payload. Despite the `.bin` extension, StepSecurity described `_runtime.bin` as a 758 KB single-line obfuscated JavaScript credential stealer.
+- The payload targeted cloud, CI/CD, package-registry, Kubernetes, Vault, SSH, and GitHub credentials; created GitHub repositories to store stolen data; used `claude@users.noreply.github.com` as a commit author identity; and included a secondary encrypted DNS-resolved HTTP exfiltration path.
+- StepSecurity said the malware searched GitHub commits for `thebeautifulsnadsoftime` and extracted base64 command material from matching commit messages, making public GitHub commit search a covert C2 channel.
+- The payload also planted developer-tool persistence through `.claude/settings.json` `SessionStart` hooks and VS Code `tasks.json` `folderOpen` tasks, matching the broader Miasma / Hades theme of repository-local auto-execution.
+- The compromise failed to pass CI twice. First, `ruff format --check` flagged `_hooks.py`; after the attacker reformatted and force-pushed, `ruff check` flagged E402 and I001 import-order violations in the modified `__init__.py`. StepSecurity said all six CI jobs failed both times and the attacker stopped.
+- StepSecurity called the payload a direct Shai-Hulud-family instance and referenced TeamPCP / UNC6780, but it also caveated attribution because TeamPCP had publicly released Mini Shai-Hulud source code on May 12, 2026. Treat this as family linkage with original-actor vs copycat uncertainty.
+
 ### GitHub repository abuse
 - StepSecurity traced exfiltration to the GitHub account `liuende501`, which it says hosted 236 programmatically created repositories used as credential dead drops.
 - The malware creates private repositories under that account and uploads encrypted JSON files under `results/results-{timestamp}.json`.
@@ -175,6 +190,9 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Audit AI-assistant and editor config paths: `.claude/`, `.cursor/`, `.gemini/`, `.vscode/`, and `.github/setup.js`.
 - Expand AI-assistant config review to Codex, Copilot, Cline, Aider, Tabby, Amazon Q, Cody, Bolt, Continue, `.cursorrules`, `.windsurfrules`, `.github/copilot-instructions.md`, `.aider.conf.yml`, `settings.json`, `config.json`, and `mcp.json` when those files can trigger local commands or agent setup.
 - Search for repository commits that combine the message `chore: update dependencies [skip ci]`, author `github-actions <[email protected]>`, a large `.github/setup.js`, and launcher files under `.claude/settings.json`, `.gemini/settings.json`, `.cursor/rules/setup.mdc`, `.vscode/tasks.json`, or `package.json` test scripts.
+- For source-repository takeovers, alert on default-branch force pushes, history rewrites, backdated commits with fresh push events, unsigned or unexpectedly authored commits, and changes under low-scrutiny modules such as telemetry or setup code.
+- Keep required style, lint, and format checks enabled and make them merge gates. StepSecurity's `gpt-pilot` case shows `ruff` catching malicious code because the injected loader did not match project formatting and import-order conventions.
+- Branch-protect default branches: require pull requests, required passing status checks, restrict force pushes, and require signed commits where practical. Lint gates helped in the `gpt-pilot` case, but branch protection would have reduced the single-account force-push blast radius.
 - Before opening an untrusted clone in VS Code, Cursor, Claude Code, or Gemini CLI, inspect for folder-open / session-start commands that run `node .github/setup.js` or similar project-local setup files.
 - Preserve logs before rotating secrets if active repository backdoors may still be present.
 
@@ -217,6 +235,10 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - StepSecurity June 8 persistence paths: `~/.local/share/updater/update.py`, `~/.config/systemd/user/update-monitor.service`, `~/.config/systemd/user/gh-token-monitor.service`, `~/Library/LaunchAgents/com.user.update-monitor.plist`, `~/Library/LaunchAgents/com.user.gh-token-monitor.plist`, `~/.local/bin/gh-token-monitor.sh`, `~/.config/gh-token-monitor/token`
 - StepSecurity June 8 C2 / exfil markers: `DontRevokeOrItGoesBoom`, `TheBeautifulSnadsOfTime`, `firedalazer`, `stygian-cerberus-[0-9]+`, `tartarean-charon-[0-9]+`, `Hades - The End for the Damned`
 - StepSecurity June 8 SSH staging markers: `/tmp/.sshu-[random]`, `ai_setup.sh`, `ai_init.js`
+- StepSecurity `gpt-pilot` malicious files: `core/telemetry/_hooks.py`, `core/telemetry/_runtime.bin`, modified `core/telemetry/__init__.py`
+- StepSecurity `gpt-pilot` file hashes: `_runtime.bin` SHA-256 `c96f37e1b9cdc9683a300909492ed9f770b620d0037e5b80e23753cba7ca4077`, `_runtime.bin` MD5 `7090625f760b831d607c9a38cfc58c4b`, `_hooks.py` SHA-256 `51b4dd39a15af1e28e97adc375849d688423ec3d88e8010644395fcdea52a3cc`, `_hooks.py` MD5 `a722b89f887f226672d0ee4f708794f8`
+- StepSecurity `gpt-pilot` commit markers: pre-attack `53154df1c66b42021f230c3fb6ef797c4b7c3e83`, first malicious head `90f59f5de6819a43ffe9b6272e3ed65aaadca804`, second malicious head `a372904facd53ee99d85add7ee79aea2b7a8506a`, malicious commit `065ee8ebee7385cb644fd1608587a18edb91f4fb`, clean revert commit `566fbb120bc436385aa5a4cb93d7c351dec2127e`
+- StepSecurity `gpt-pilot` behavioral markers: `.loader.lock`, `rt-*` Bun runtime directories under `/tmp`, `thebeautifulsnadsoftime`, `claude@users.noreply.github.com`, `Exiting as russian language detected!`, `Another instance is already running`, `__DAEMONIZED`
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -235,4 +257,5 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Socket Hades PyPI wave analysis: https://socket.dev/blog/shai-hulud-descends-to-hades-miasma-pypi-wave
 - Socket Miasma / Mini Shai-Hulud campaign tracker: https://socket.dev/supply-chain-attacks/miasma-mini-shai-hulud-supply-chain-attack
 - StepSecurity Hades graph-ML PyPI import-hook wave analysis: https://www.stepsecurity.io/blog/the-hades-campaign-pypi-packages
+- StepSecurity `Pythagora-io/gpt-pilot` repository compromise analysis: https://www.stepsecurity.io/blog/pythagora-io-gpt-pilot-compromised-on-github-shai-hulud-credential-stealer-blocked-by-python-linter
 - PyPI: https://pypi.org/pypi/durabletask/json
