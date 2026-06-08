@@ -13,12 +13,15 @@ On June 5--6, StepSecurity updated its related `durabletask` coverage to report 
 
 SafeDep separately documented a source-repository arm of the same Miasma activity: more than 120 GitHub repositories, including five `icflorescu` projects and `Azure/durabletask`, received direct commits that skipped the package-registry install path and instead wired `.github/setup.js` into AI-assistant, editor, and `npm test` auto-execution surfaces.
 
+On June 7, Socket reported a PyPI branch of the same Mini Shai-Hulud / Miasma lineage that it tracks with **Hades**-themed markers. Socket counted 37 malicious wheel artifacts across 19 PyPI packages, apparently published during a single maintainer-account takeover, that used executable `*-setup.pth` files to attempt Python-startup execution, download Bun, and run an obfuscated `_index.js` JavaScript credential stealer.
+
 ## Tags
 - ops
 - operations
 - malware
 - supply-chain
 - npm
+- PyPI
 - RubyGems
 - GitHub Actions
 - CI/CD
@@ -26,7 +29,9 @@ SafeDep separately documented a source-repository arm of the same Miasma activit
 - worm
 - node-gyp
 - binding.gyp
+- .pth
 - Phantom Gyp
+- Hades
 - Miasma
 - Shai-Hulud
 - secrets
@@ -37,6 +42,7 @@ SafeDep separately documented a source-repository arm of the same Miasma activit
 - The worm targets the same high-value identity surfaces defenders now expect from Shai-Hulud-style campaigns: package-registry tokens, GitHub tokens, cloud credentials, Vault, Kubernetes, password managers, and GitHub Actions runner memory.
 - It modifies repositories, including AI-assistant/editor configuration files and GitHub setup files, so remediation requires repository review, not just package removal and token rotation.
 - It reportedly propagates through both npm and RubyGems publishing access, making it a cross-registry software-supply-chain incident rather than a single package-family compromise.
+- The June 7 Socket report shows the same lineage adapting to PyPI wheels through executable `.pth` startup hooks, so Python dependency review needs the same scrutiny defenders apply to npm lifecycle scripts and native-addon build paths.
 
 ## Reported chain
 
@@ -101,6 +107,19 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - This adds a second defender lesson beyond editor/AI-agent auto-execution: high-dependence GitHub Actions are availability dependencies. Pinning actions to commit SHAs can make failures more explicit and tamper-resistant, but it does not remove the need for contingency deployment paths when an upstream action repository is disabled.
 - StepSecurity linked the `Azure/durabletask` commit and the May 19 PyPI compromise through the same contributor account, and framed two plausible explanations: the original credentials were never fully rotated, or the account was re-compromised through the worm's own AI-tool / folder-open propagation loop.
 
+### June 7 Hades PyPI wheel wave
+- Socket reported a PyPI wave of the Mini Shai-Hulud / Miasma lineage with Hades-themed markers. Socket counted 37 malicious wheel artifacts across 19 PyPI packages and said the releases looked like a single maintainer-account takeover with consecutive patch releases mass-published across the author's portfolio.
+- The highest-impact affected package families Socket called out were research-community bioinformatics and genomics tools: `dynamo-release`, `spateo-release`, `coolbox`, `ufish`, and `napari-ufish`. Socket said the rest of the set was mostly lower-traffic agent/task-execution, function-description, and lab-utility libraries.
+- Reported malicious artifacts included `bramin@0.0.2` through `0.0.4`, `cmd2func@0.2.2` and `0.2.3`, `coolbox@0.4.1` and `0.4.2`, `dynamo-release@1.5.4`, `executor-engine@0.3.4` and `0.3.5`, `executor-http@0.1.3` and `0.1.4`, `funcdesc@0.2.2` and `0.2.3`, `magique@0.6.8` and `0.6.9`, `magique-ai@0.4.4` and `0.4.5`, `mrbios@0.1.1` and `0.1.2`, `napari-ufish@0.0.2` and `0.0.3`, `nucbox@0.1.2` and `0.1.3`, `okite@0.0.7` and `0.0.8`, `pantheon-agents@0.6.1` and `0.6.2`, `pantheon-toolsets@0.5.5` and `0.5.6`, `spateo-release@1.1.2`, `synago@0.1.1` and `0.1.2`, `ufish@0.1.2` and `0.1.3`, and `uprobe@0.1.3` and `0.1.4`.
+- The malicious wheel shape was a package-local `_index.js` plus a `*-setup.pth` file. The `.pth` file used Python's `site` module behavior for executable lines beginning with `import` to attempt execution during interpreter startup, not only when the compromised package was imported.
+- Socket's normalized loader created a temp sentinel `.bun_ran`, looked for `_index.js`, downloaded Bun v1.3.13 from `github.com/oven-sh/bun/releases/download/` when a cached tempdir binary was absent, and ran `bun run _index.js`.
+- Socket noted an implementation caveat: in a local CPython reproduction, this exact loader shape did not automatically resolve the adjacent `_index.js` because `__file__` can resolve to `site.py` rather than the `.pth` file. The artifact is still malicious because it ships the credential stealer and attempts to bootstrap Bun from Python startup.
+- Static deobfuscation matched the broader family: a JavaScript `try { eval(...) }` wrapper with a character-code array and ROT-style substitution, AES-GCM encrypted stages, a Bun bootstrapper, a rotated string table, PBKDF2/SHA256 string decoding, and an AES-256-GCM plus gzip string layer.
+- Socket said the payload targeted GitHub credentials, GitHub Actions runner secrets and memory, `ghs_*` tokens, npm, PyPI, RubyGems, JFrog, CircleCI, Anthropic and package-publishing tokens, AWS / GCP / Azure / Kubernetes / Vault secrets, `.env`, `.npmrc`, `.pypirc`, Git credentials, shell histories, SSH keys, Docker configs, cloud CLI caches, Claude/MCP configs, wallet/app data, and other developer-machine secrets.
+- The Hades branch used GitHub exfiltration markers distinct from the earlier Miasma wording: repository description `Hades - The End for the Damned`, commit marker `IfYouYankThisTokenItWillNukeTheComputerOfTheOwnerFully`, path pattern `results/results-*.json`, artifact name `format-results`, and workflow name `Run Copilot`.
+- Socket also found a direct HTTPS sender pointed at `api.anthropic.com/v1/api`, but it assessed this as likely network-log camouflage because that path returns Anthropic's standard `404 not_found_error` and GitHub remained the confirmed exfiltration channel. This is not evidence that Anthropic systems were compromised.
+- Socket reported that, at publication time, it was tracking 448 affected artifacts across npm and PyPI in the broader campaign: 411 npm artifacts across 106 packages plus the 37 PyPI wheels across 19 projects.
+
 ### GitHub repository abuse
 - StepSecurity traced exfiltration to the GitHub account `liuende501`, which it says hosted 236 programmatically created repositories used as credential dead drops.
 - The malware creates private repositories under that account and uploads encrypted JSON files under `results/results-{timestamp}.json`.
@@ -122,6 +141,7 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 
 ### Package review
 - Treat unexpected `binding.gyp` additions as install-time code-execution signals, even when `package.json` scripts are absent or unchanged.
+- Treat executable `*.pth` / `*-setup.pth` additions in wheels as Python startup execution signals. A wheel that downloads a runtime, writes tempdir executables, or launches `bun run _index.js` should be handled as malicious even if normal package imports are never used.
 - Diff newly published package tarballs against prior known-good versions and flag tiny build-configuration files that launch larger staged scripts.
 - Expand package-security checks beyond lifecycle hooks to include `node-gyp`, native-addon build files, generated project files, and build-tool configuration.
 - Flag root-level multi-megabyte `index.js` files that are not the declared package entry point.
@@ -132,6 +152,7 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Review push events and workflow-file changes from accounts that also have npm or RubyGems publisher rights.
 - Check for GitHub API activity that creates new repositories, uploads `results/results-*.json`, searches commits for `thebeautifulmarchoftime`, or uses GraphQL `createCommitOnBranch` unexpectedly.
 - Search repository descriptions for all reported Miasma spacing and punctuation variants, including `Miasma - The Spreading Blight`, `Miasma – The Spreading Blight`, `Miasma: The Spreading Blight`, and `Miasma : The Spreading Blight`.
+- Search GitHub repositories, workflows, and artifacts for Hades markers from the PyPI wave: `Hades - The End for the Damned`, `IfYouYankThisTokenItWillNukeTheComputerOfTheOwnerFully`, `results/results-*.json`, `format-results`, and workflow name `Run Copilot`.
 - Audit AI-assistant and editor config paths: `.claude/`, `.cursor/`, `.gemini/`, `.vscode/`, and `.github/setup.js`.
 - Search for repository commits that combine the message `chore: update dependencies [skip ci]`, author `github-actions <[email protected]>`, a large `.github/setup.js`, and launcher files under `.claude/settings.json`, `.gemini/settings.json`, `.cursor/rules/setup.mdc`, `.vscode/tasks.json`, or `package.json` test scripts.
 - Before opening an untrusted clone in VS Code, Cursor, Claude Code, or Gemini CLI, inspect for folder-open / session-start commands that run `node .github/setup.js` or similar project-local setup files.
@@ -164,6 +185,11 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - `durabletask` reported secondary C2: `t.m-kosche[.]com`
 - `durabletask` reported C2 IP: `160.119.64.3`
 - `Azure/functions-action` disabled-repository impact reported by StepSecurity: workflows referencing `Azure/functions-action@v1` stopped resolving while the repository was unavailable
+- Hades PyPI wave `*-setup.pth` SHA-256 reported by Socket: `c539766062555d47716f8432e73adbe3a0c0c954a0b6c4005017a668975e275c`
+- Hades PyPI wave `_index.js` SHA-256 variants reported by Socket: `dc48b09b2a5954f7ff79ab8a2fd80202bd3b59c08c7cdbc6025aa923cb4c0efe`, `e1342a80d4b5e83d2c7c22e1e0aaa95f2d88e3dbf0d853a4994b180c93a4b17d`
+- Hades loader strings reported by Socket: `.bun_ran`, `bun-v1.3.13`, `oven-sh/bun/releases/download`, `urllib.request`, `urlretrieve`, `tempfile.gettempdir`, `subprocess.run`
+- Hades camouflage destination reported by Socket: `api.anthropic[.]com/v1/api`
+- Hades GitHub exfiltration markers reported by Socket: `Hades - The End for the Damned`, `IfYouYankThisTokenItWillNukeTheComputerOfTheOwnerFully`, `results/results-*.json`, `format-results`, `Run Copilot`
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -179,4 +205,6 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - OX Security June 4 Miasma / binding.gyp update: https://www.ox.security/blog/600000-monthly-downloads-affected-miasma-supply-chain-attack-is-back-on-npm/
 - SafeDep source-repository arm analysis: https://safedep.io/miasma-worm-ai-coding-agent-config-injection/
 - SafeDep config-file execution blind spot analysis: https://safedep.io/config-files-that-run-code/
+- Socket Hades PyPI wave analysis: https://socket.dev/blog/shai-hulud-descends-to-hades-miasma-pypi-wave
+- Socket Miasma / Mini Shai-Hulud campaign tracker: https://socket.dev/supply-chain-attacks/miasma-mini-shai-hulud-supply-chain-attack
 - PyPI: https://pypi.org/pypi/durabletask/json

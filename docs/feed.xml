@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Hades PyPI wheel wave in the Miasma / Mini Shai-Hulud campaign</title>
+      <link>https://threat.wiki/ops/binding-gyp-npm-cicd-worm/#june-7-hades-pypi-wheel-wave</link>
+      <description>Socket reports a PyPI branch of the Mini Shai-Hulud / Miasma lineage using Hades-themed markers: 37 malicious wheels across 19 packages, executable *-setup.pth Python-startup hooks, Bun v1.3.13 staging, obfuscated _index.js credential theft, GitHub exfiltration markers, and Hades-specific hashes and detection pivots.</description>
+      <pubDate>Mon, 08 Jun 2026 01:27:56 GMT</pubDate>
+      <guid>https://threat.wiki/ops/binding-gyp-npm-cicd-worm/#june-7-hades-pypi-wheel-wave</guid>
+    </item>
+    <item>
       <title>Hunt.io global smishing infrastructure campaign</title>
       <link>https://threat.wiki/ops/huntio-global-smishing-government-postal-telecom/</link>
       <description>Hunt.io reports a coordinated smishing operation spanning 19 countries and 1,628 active malicious URLs impersonating government payment portals, road-police and tax services, parcel brands, telecoms, toll systems, banking / fine-payment portals, and retail rewards. The page captures the reusable 128-character HTML metadata hash, repeated JavaScript assets, URL-language pattern, target scope, hosting footprint, and defender pivots for brand-protection and web-telemetry teams.</description>

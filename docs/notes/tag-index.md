@@ -4,6 +4,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## All tags
 - [.NET](#net) (2)
+- [.pth](#pth) (1)
 - [3CX](#3cx) (1)
 - [4sync](#4sync) (1)
 - [Ababil of Minab](#ababil-of-minab) (1)
@@ -353,6 +354,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [groups](#groups) (8)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
+- [Hades](#hades) (1)
 - [HappyDoor](#happydoor) (1)
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
@@ -613,7 +615,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public sector](#public-sector) (1)
 - [pwn-request](#pwn-request) (1)
-- [PyPI](#pypi) (6)
+- [PyPI](#pypi) (7)
 - [Python](#python) (3)
 - [RaaS](#raas) (1)
 - [RAM disk](#ram-disk) (1)
@@ -852,6 +854,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## .NET
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+
+## .pth
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 
 ## 3CX
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -2199,6 +2204,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hacktivist persona
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## Hades
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+
 ## HappyDoor
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -3345,6 +3353,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## PyPI
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)

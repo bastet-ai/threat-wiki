@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Hades PyPI wheel wave in the Miasma / Mini Shai-Hulud campaign](ops/binding-gyp-npm-cicd-worm.md#june-7-hades-pypi-wheel-wave)
 - [Hunt.io global smishing infrastructure campaign](ops/huntio-global-smishing-government-postal-telecom.md)
 - [Oman government Iranian-nexus webshell C2](ops/oman-government-iranian-nexus-webshell-c2.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [TeamPCP](actors/teampcp.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
-- [Claude Code GitHub Action prompt-injection boundary](patterns/claude-code-github-action-prompt-injection.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
