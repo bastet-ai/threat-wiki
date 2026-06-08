@@ -128,6 +128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude](#claude) (1)
 - [Claude Code](#claude-code) (1)
 - [ClickFix](#clickfix) (3)
+- [Cloaked Ursa](#cloaked-ursa) (1)
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (5)
 - [cloud C2](#cloud-c2) (1)
@@ -149,6 +150,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov](#codecov) (1)
 - [Codex](#codex) (1)
 - [Coinbase](#coinbase) (1)
+- [collaboration-tool phishing](#collaboration-tool-phishing) (1)
 - [command execution](#command-execution) (2)
 - [command injection](#command-injection) (2)
 - [command-execution](#command-execution) (1)
@@ -303,6 +305,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (9)
+- [external federation](#external-federation) (1)
 - [extortion](#extortion) (3)
 - [fake CAPTCHA](#fake-captcha) (1)
 - [fake dating lures](#fake-dating-lures) (1)
@@ -393,6 +396,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ICS](#ics) (1)
 - [IDE extension](#ide-extension) (1)
 - [identity](#identity) (3)
+- [identity security](#identity-security) (1)
 - [IDEs](#ides) (1)
 - [IFEO persistence](#ifeo-persistence) (1)
 - [IIOP](#iiop) (1)
@@ -496,6 +500,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP](#mcp) (3)
 - [memory-only malware](#memory-only-malware) (1)
 - [MFA bypass](#mfa-bypass) (4)
+- [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [Miasma](#miasma) (2)
 - [Microsoft](#microsoft) (1)
@@ -503,7 +508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft 365](#microsoft-365) (2)
 - [Microsoft Defender](#microsoft-defender) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
-- [Microsoft Teams](#microsoft-teams) (1)
+- [Microsoft Teams](#microsoft-teams) (2)
 - [Middle East](#middle-east) (1)
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
@@ -580,7 +585,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
-- [patterns](#patterns) (7)
+- [patterns](#patterns) (8)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card-theft](#payment-card-theft) (1)
 - [payroll lures](#payroll-lures) (1)
@@ -729,7 +734,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SmartScreen](#smartscreen) (1)
 - [smishing](#smishing) (2)
 - [SMTP](#smtp) (1)
-- [social engineering](#social-engineering) (7)
+- [social engineering](#social-engineering) (8)
 - [social-engineering](#social-engineering) (2)
 - [SOCKS5](#socks5) (2)
 - [software impersonation](#software-impersonation) (1)
@@ -800,7 +805,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trident Ursa](#trident-ursa) (1)
 - [Twilio](#twilio) (1)
 - [typosquat](#typosquat) (1)
-- [typosquatting](#typosquatting) (7)
+- [typosquatting](#typosquatting) (8)
 - [UAC](#uac) (1)
 - [UAC-0010](#uac-0010) (2)
 - [UAC-0098](#uac-0098) (1)
@@ -810,7 +815,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC3753](#unc3753) (1)
 - [UNC4736](#unc4736) (1)
 - [UNC6671](#unc6671) (1)
-- [UNC6692](#unc6692) (1)
+- [UNC6692](#unc6692) (2)
 - [UNC6780](#unc6780) (1)
 - [Unit 42](#unit-42) (1)
 - [United States](#united-states) (2)
@@ -1366,6 +1371,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
+## Cloaked Ursa
+- [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+
 ## cloaking
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
@@ -1442,6 +1450,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+
+## collaboration-tool phishing
+- [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
 ## command execution
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -2054,6 +2065,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
+## external federation
+- [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -2377,6 +2391,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [ROADtools](../tools/roadtools.md)
+
+## identity security
+- [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
 ## IDEs
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
@@ -2765,6 +2782,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [ROADtools](../tools/roadtools.md)
 
+## MFA fatigue
+- [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+
 ## MFA-bypass
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
@@ -2790,6 +2810,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](../actors/webworm.md)
 
 ## Microsoft Teams
+- [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## Middle East
@@ -3272,6 +3293,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
 ## payment fraud
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -3827,6 +3849,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [UNC3753](../actors/unc3753.md)
@@ -4136,6 +4159,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
+- [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -4175,6 +4199,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## UNC6692
+- [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## UNC6780

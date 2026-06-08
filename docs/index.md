@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Microsoft Teams external-chat phishing](patterns/microsoft-teams-external-chat-phishing.md)
 - [`gpt-pilot` force-push attempt in the Miasma / Mini Shai-Hulud campaign](ops/binding-gyp-npm-cicd-worm.md#june-8-pythagora-iogpt-pilot-force-push-attempt)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](ops/quest-kace-sma-cve-2025-32975-exploitation.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [VerdantBamboo](actors/verdantbamboo.md)
 - [Hades graph-ML PyPI import-hook wave in the Miasma / Mini Shai-Hulud campaign](ops/binding-gyp-npm-cicd-worm.md#june-8-hades-graph-ml-import-hook-wave)
 - [Hades PyPI wheel wave in the Miasma / Mini Shai-Hulud campaign](ops/binding-gyp-npm-cicd-worm.md#june-7-hades-pypi-wheel-wave)
-- [Hunt.io global smishing infrastructure campaign](ops/huntio-global-smishing-government-postal-telecom.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

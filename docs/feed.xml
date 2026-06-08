@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Microsoft Teams external-chat phishing</title>
+      <link>https://threat.wiki/patterns/microsoft-teams-external-chat-phishing/</link>
+      <description>Unit 42 reports that collaboration-tool phishing alerts represented 42% of phishing alerts in Cortex in the first four months of 2026, up from 30% in the prior four months. The page captures Microsoft Teams external-chat abuse through open federation, unmanaged accounts, typosquatted tenants, and compromised partner accounts, with defender guidance for Teams federation allow-listing, unmanaged-account restrictions, identity correlation, user reporting, and chat removal.</description>
+      <pubDate>Mon, 08 Jun 2026 23:00:45 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/microsoft-teams-external-chat-phishing/</guid>
+    </item>
+    <item>
       <title>Quest KACE SMA CVE-2025-32975 exploitation</title>
       <link>https://threat.wiki/ops/quest-kace-sma-cve-2025-32975-exploitation/</link>
       <description>Hunt.io reports an exposed attacker toolkit and victim data tied to exploitation of Quest KACE Systems Management Appliance CVE-2025-32975, a critical SSO authentication-bypass flaw that can allow administrative takeover of a privileged endpoint-management appliance. The page captures the MSP/downstream-customer blast radius, 219-file / 308 MB exposed toolkit, reverse shells, account creation, SMB credential spraying, WMI reconnaissance, Earthworm / SOCKS5 tunneling, Tor staging, Quest fixed builds, and responder guidance for KACE appliance review.</description>
