@@ -25,6 +25,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Afghanistan](#afghanistan) (2)
 - [agent frameworks](#agent-frameworks) (2)
 - [agent skills](#agent-skills) (1)
+- [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (3)
 - [AI agents](#ai-agents) (6)
 - [AI assistants](#ai-assistants) (3)
@@ -91,6 +92,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [branch-name-injection](#branch-name-injection) (1)
 - [Brazil](#brazil) (1)
 - [BreachForums](#breachforums) (1)
+- [BRICKSTORM](#brickstorm) (2)
 - [browser credential theft](#browser-credential-theft) (3)
 - [browser extension](#browser-extension) (1)
 - [browser hijacking](#browser-hijacking) (1)
@@ -109,7 +111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (2)
-- [China-nexus](#china-nexus) (1)
+- [China-nexus](#china-nexus) (3)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chisel](#chisel) (2)
@@ -257,11 +259,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [e-commerce](#e-commerce) (1)
 - [eBPF](#ebpf) (1)
 - [edge appliance](#edge-appliance) (3)
+- [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge devices](#edge-devices) (1)
 - [edge service](#edge-service) (1)
 - [EDR evasion](#edr-evasion) (1)
 - [education](#education) (1)
+- [Egnyte](#egnyte) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
 - [Elasticsearch](#elasticsearch) (1)
 - [email](#email) (1)
@@ -276,7 +280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (24)
+- [espionage](#espionage) (26)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -316,6 +320,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS](#forticlient-ems) (1)
 - [Fortinet](#fortinet) (1)
 - [Fox Tempest](#fox-tempest) (1)
+- [FreeBSD](#freebsd) (2)
 - [FSB](#fsb) (2)
 - [FTA](#fta) (1)
 - [ftp.exe](#ftpexe) (1)
@@ -351,7 +356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro](#grandoreiro) (1)
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (1)
-- [groups](#groups) (8)
+- [groups](#groups) (9)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
 - [Hades](#hades) (1)
@@ -432,7 +437,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libpeconv](#libpeconv) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
-- [Linux](#linux) (9)
+- [Linux](#linux) (11)
 - [LiteLLM](#litellm) (2)
 - [LiteSpeed](#litespeed) (1)
 - [living off the land](#living-off-the-land) (1)
@@ -503,7 +508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MPR network provider](#mpr-network-provider) (1)
 - [Mr_Rot13](#mr_rot13) (1)
 - [mshta](#mshta) (3)
-- [MSP](#msp) (1)
+- [MSP](#msp) (3)
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
 - [nation-state](#nation-state) (1)
@@ -539,9 +544,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (93)
+- [operations](#operations) (94)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (91)
+- [ops](#ops) (92)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -567,6 +572,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PebbleDash](#pebbledash) (1)
 - [people](#people) (1)
 - [persistence](#persistence) (14)
+- [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
 - [Phantom Gyp](#phantom-gyp) (1)
 - [PhantomClick](#phantomclick) (1)
@@ -582,6 +588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pig-butchering](#pig-butchering) (1)
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
+- [PLENET](#plenet) (2)
 - [poisoned-branch](#poisoned-branch) (1)
 - [Polymarket](#polymarket) (1)
 - [portmap](#portmap) (1)
@@ -737,6 +744,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [supply-chain](#supply-chain) (55)
+- [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
@@ -802,9 +810,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vishing](#vishing) (2)
 - [VLESS](#vless) (1)
 - [vManage](#vmanage) (1)
+- [VMware](#vmware) (2)
 - [VPN](#vpn) (2)
 - [VS Code](#vs-code) (4)
 - [VS Code tunnels](#vs-code-tunnels) (1)
+- [vSphere](#vsphere) (2)
 - [vulnerability](#vulnerability) (5)
 - [vulnerability-research](#vulnerability-research) (1)
 - [w3wp.exe](#w3wpexe) (1)
@@ -938,6 +948,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## agent skills
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+
+## AGENTPSD
+- [VerdantBamboo](../actors/verdantbamboo.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## AI
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -1176,6 +1190,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BreachForums
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## BRICKSTORM
+- [VerdantBamboo](../actors/verdantbamboo.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
 ## browser credential theft
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GREYVIBE](../actors/greyvibe.md)
@@ -1241,6 +1259,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## China-nexus
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+- [VerdantBamboo](../actors/verdantbamboo.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## China-speaking ecosystem
 - [TA4922](../actors/ta4922.md)
@@ -1831,6 +1851,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
+## edge appliances
+- [VerdantBamboo](../actors/verdantbamboo.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
 ## edge application server
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 
@@ -1845,6 +1869,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## education
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## Egnyte
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## EKZ Infostealer
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -1914,6 +1941,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](../actors/sidecopy.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+- [VerdantBamboo](../actors/verdantbamboo.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [Webworm](../actors/webworm.md)
 
 ## ETW patching
@@ -2052,6 +2081,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Fox Tempest
 - [Fox Tempest](../actors/fox-tempest.md)
+
+## FreeBSD
+- [VerdantBamboo](../actors/verdantbamboo.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## FSB
 - [Gamaredon](../actors/gamaredon.md)
@@ -2196,6 +2229,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OP-512](../actors/op-512.md)
 - [TA4922](../actors/ta4922.md)
 - [UNC3753](../actors/unc3753.md)
+- [VerdantBamboo](../actors/verdantbamboo.md)
 - [Webworm](../actors/webworm.md)
 
 ## hack-and-leak
@@ -2485,6 +2519,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Showboat](../tools/showboat.md)
+- [VerdantBamboo](../actors/verdantbamboo.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## LiteLLM
@@ -2738,6 +2774,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MSP
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [VerdantBamboo](../actors/verdantbamboo.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## mTLS
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
@@ -2973,6 +3011,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -3069,6 +3108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -3172,6 +3212,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
+## pfSense
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
 ## PhaaS
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -3225,6 +3268,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+
+## PLENET
+- [VerdantBamboo](../actors/verdantbamboo.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## poisoned-branch
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -3839,6 +3886,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## Synology
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
 ## SYSTEM
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
@@ -4078,6 +4128,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vManage
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
+## VMware
+- [VerdantBamboo](../actors/verdantbamboo.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
 ## VPN
 - [First VPN](../tools/first-vpn.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -4090,6 +4144,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VS Code tunnels
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
+## vSphere
+- [VerdantBamboo](../actors/verdantbamboo.md)
+- [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## vulnerability
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)

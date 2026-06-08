@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [VerdantBamboo appliance BRICKSTORM operation](ops/verdantbamboo-appliance-brickstorm-operation.md)
+- [VerdantBamboo](actors/verdantbamboo.md)
 - [Hades graph-ML PyPI import-hook wave in the Miasma / Mini Shai-Hulud campaign](ops/binding-gyp-npm-cicd-worm.md#june-8-hades-graph-ml-import-hook-wave)
 - [Hades PyPI wheel wave in the Miasma / Mini Shai-Hulud campaign](ops/binding-gyp-npm-cicd-worm.md#june-7-hades-pypi-wheel-wave)
 - [Hunt.io global smishing infrastructure campaign](ops/huntio-global-smishing-government-postal-telecom.md)
@@ -15,8 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Telnyx PyPI TeamPCP compromise](ops/telnyx-pypi-teampcp-compromise.md)
 - [Developer-tool config auto-execution](patterns/developer-tool-config-auto-execution.md)
 - [UNC3753](actors/unc3753.md)
-- [TeamPCP](actors/teampcp.md)
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
