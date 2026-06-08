@@ -100,7 +100,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
-- [C2](#c2) (6)
+- [C2](#c2) (7)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
@@ -163,6 +163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
+- [credential spraying](#credential-spraying) (1)
 - [credential theft](#credential-theft) (14)
 - [credential-theft](#credential-theft) (38)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -184,6 +185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-1709](#cve-2024-1709) (1)
 - [CVE-2024-21182](#cve-2024-21182) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
+- [CVE-2025-32975](#cve-2025-32975) (1)
 - [CVE-2025-34291](#cve-2025-34291) (1)
 - [CVE-2025-48595](#cve-2025-48595) (1)
 - [CVE-2025-8088](#cve-2025-8088) (2)
@@ -262,7 +264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dynu](#dynu) (1)
 - [e-commerce](#e-commerce) (1)
 - [eBPF](#ebpf) (1)
-- [edge appliance](#edge-appliance) (4)
+- [edge appliance](#edge-appliance) (5)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge devices](#edge-devices) (1)
@@ -275,6 +277,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [email](#email) (1)
 - [email gateway](#email-gateway) (1)
 - [Emerald Sleet](#emerald-sleet) (1)
+- [endpoint management](#endpoint-management) (1)
 - [endpoint management abuse](#endpoint-management-abuse) (1)
 - [endpoint-security](#endpoint-security) (2)
 - [energy-sector](#energy-sector) (1)
@@ -295,7 +298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
-- [exploitation](#exploitation) (8)
+- [exploitation](#exploitation) (9)
 - [extortion](#extortion) (3)
 - [fake CAPTCHA](#fake-captcha) (1)
 - [fake dating lures](#fake-dating-lures) (1)
@@ -380,6 +383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HttpMalice](#httpmalice) (1)
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (2)
+- [Hunt.io](#huntio) (1)
 - [ICE](#ice) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
@@ -427,7 +431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow](#langflow) (2)
 - [LangFlow](#langflow) (1)
 - [Laravel](#laravel) (2)
-- [lateral movement](#lateral-movement) (1)
+- [lateral movement](#lateral-movement) (2)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (1)
 - [launchctl](#launchctl) (1)
@@ -479,6 +483,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [managed file transfer](#managed-file-transfer) (1)
+- [managed service provider](#managed-service-provider) (1)
 - [management plane](#management-plane) (1)
 - [manufacturing](#manufacturing) (1)
 - [marimo](#marimo) (1)
@@ -551,9 +556,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (96)
+- [operations](#operations) (97)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (94)
+- [ops](#ops) (95)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -632,6 +637,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PyPI](#pypi) (7)
 - [Python](#python) (3)
 - [Qilin](#qilin) (1)
+- [Quest KACE SMA](#quest-kace-sma) (1)
 - [RaaS](#raas) (1)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (4)
@@ -825,7 +831,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
-- [vulnerability](#vulnerability) (5)
+- [vulnerability](#vulnerability) (6)
 - [vulnerability-research](#vulnerability-research) (1)
 - [w3wp.exe](#w3wpexe) (1)
 - [wallet replacement](#wallet-replacement) (1)
@@ -1234,6 +1240,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
 
@@ -1477,6 +1484,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Crates.io
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
+## credential spraying
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+
 ## credential theft
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
@@ -1599,6 +1609,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2024-3094
 - [JiaT75](../people/jiat75.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## CVE-2025-32975
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## CVE-2025-34291
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -1878,6 +1891,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## edge appliances
 - [VerdantBamboo](../actors/verdantbamboo.md)
@@ -1915,6 +1929,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Emerald Sleet
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
+## endpoint management
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## endpoint management abuse
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -2015,6 +2032,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## extortion
@@ -2321,6 +2339,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 
+## Hunt.io
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+
 ## ICE
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -2495,6 +2516,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 
 ## lateral movement
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## lateral-movement
@@ -2690,6 +2712,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## managed file transfer
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+
+## managed service provider
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## management plane
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -3037,6 +3062,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -3136,6 +3162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -3460,6 +3487,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Qilin
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+
+## Quest KACE SMA
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## RaaS
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -4211,6 +4241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## vulnerability-research
