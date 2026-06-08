@@ -48,6 +48,7 @@ OX frames this as an architectural vulnerability in Anthropic-maintained MCP SDK
 
 ## Related pages
 - [AI-augmented adversary operations](ai-augmented-adversary-operations.md)
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)

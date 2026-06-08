@@ -11,7 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (15)
+- [active exploitation](#active-exploitation) (16)
 - [active-exploitation](#active-exploitation) (1)
 - [actor](#actor) (1)
 - [actors](#actors) (5)
@@ -32,6 +32,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
+- [AI gateway](#ai-gateway) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI tooling](#ai-tooling) (8)
 - [ai-agent](#ai-agent) (1)
@@ -119,7 +120,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChromElevator](#chromelevator) (1)
 - [CI/CD](#cicd) (25)
 - [CircleCI](#circleci) (1)
-- [CISA KEV](#cisa-kev) (5)
+- [CISA KEV](#cisa-kev) (6)
 - [Cisco](#cisco) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (1)
@@ -149,7 +150,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codex](#codex) (1)
 - [Coinbase](#coinbase) (1)
 - [command execution](#command-execution) (2)
-- [command injection](#command-injection) (1)
+- [command injection](#command-injection) (2)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [Composer](#composer) (3)
@@ -202,6 +203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-39987](#cve-2026-39987) (1)
 - [CVE-2026-41091](#cve-2026-41091) (1)
 - [CVE-2026-41940](#cve-2026-41940) (1)
+- [CVE-2026-42271](#cve-2026-42271) (1)
 - [CVE-2026-44338](#cve-2026-44338) (1)
 - [CVE-2026-45247](#cve-2026-45247) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
@@ -211,6 +213,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
+- [CWE-77](#cwe-77) (1)
+- [CWE-78](#cwe-78) (1)
 - [cybercrime](#cybercrime) (10)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [Czech Republic](#czech-republic) (1)
@@ -448,7 +452,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linux](#linux) (11)
-- [LiteLLM](#litellm) (2)
+- [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (1)
 - [living off the land](#living-off-the-land) (1)
 - [living-off-the-land](#living-off-the-land) (1)
@@ -489,7 +493,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marimo](#marimo) (1)
 - [marketplace abuse](#marketplace-abuse) (1)
 - [Maven Central](#maven-central) (1)
-- [MCP](#mcp) (2)
+- [MCP](#mcp) (3)
 - [memory-only malware](#memory-only-malware) (1)
 - [MFA bypass](#mfa-bypass) (4)
 - [MFA-bypass](#mfa-bypass) (1)
@@ -512,7 +516,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mobile Access](#mobile-access) (1)
 - [mobile devices](#mobile-devices) (1)
 - [mobile malware](#mobile-malware) (1)
-- [Model Context Protocol](#model-context-protocol) (1)
+- [Model Context Protocol](#model-context-protocol) (2)
 - [model-provider abuse](#model-provider-abuse) (1)
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (3)
@@ -556,9 +560,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (97)
+- [operations](#operations) (98)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (95)
+- [ops](#ops) (96)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -644,7 +648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAT](#rat) (15)
 - [RC4](#rc4) (1)
-- [RCE](#rce) (1)
+- [RCE](#rce) (2)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [RDP](#rdp) (1)
@@ -751,7 +755,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSRF](#ssrf) (1)
 - [state-linked](#state-linked) (1)
 - [Static Kitten](#static-kitten) (1)
-- [stdio](#stdio) (1)
+- [stdio](#stdio) (2)
 - [stealer](#stealer) (1)
 - [stock exchange](#stock-exchange) (1)
 - [storage deletion](#storage-deletion) (1)
@@ -910,6 +914,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -996,6 +1001,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI data exfiltration
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
+## AI gateway
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 
 ## AI search poisoning
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -1330,6 +1338,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CISA KEV
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -1440,6 +1449,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## command injection
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 
 ## command-execution
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -1662,6 +1672,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-41940
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
+## CVE-2026-42271
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
+
 ## CVE-2026-44338
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
@@ -1688,6 +1701,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-9082
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## CWE-77
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
+
+## CWE-78
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 
 ## cybercrime
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -2582,6 +2601,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## LiteLLM
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
@@ -2732,6 +2752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## MCP
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
@@ -2809,6 +2830,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## Model Context Protocol
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## model-provider abuse
@@ -3036,6 +3058,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -3136,6 +3159,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -3528,6 +3552,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OP-512](../actors/op-512.md)
 
 ## RCE
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## Rclone
@@ -3891,6 +3916,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## stdio
+- [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## stealer
