@@ -15,6 +15,8 @@ SafeDep separately documented a source-repository arm of the same Miasma activit
 
 On June 7, Socket reported a PyPI branch of the same Mini Shai-Hulud / Miasma lineage that it tracks with **Hades**-themed markers. Socket counted 37 malicious wheel artifacts across 19 PyPI packages, apparently published during a single maintainer-account takeover, that used executable `*-setup.pth` files to attempt Python-startup execution, download Bun, and run an obfuscated `_index.js` JavaScript credential stealer.
 
+On June 8, StepSecurity reported a second Hades PyPI wave in graph machine-learning, computational-biology, bioinformatics, and genotype-phenotype packages. This wave moved from Socket's `*-setup.pth` startup-hook shape to an obfuscated package `__init__.py` import hook, used Bun v1.3.14, added prompt-injection text intended to mislead LLM-based malware triage, introduced macOS and Windows runner-memory scrapers, and added SSH/SCP lateral movement plus persistence / wiper-deterrent services.
+
 ## Tags
 - ops
 - operations
@@ -42,7 +44,8 @@ On June 7, Socket reported a PyPI branch of the same Mini Shai-Hulud / Miasma li
 - The worm targets the same high-value identity surfaces defenders now expect from Shai-Hulud-style campaigns: package-registry tokens, GitHub tokens, cloud credentials, Vault, Kubernetes, password managers, and GitHub Actions runner memory.
 - It modifies repositories, including AI-assistant/editor configuration files and GitHub setup files, so remediation requires repository review, not just package removal and token rotation.
 - It reportedly propagates through both npm and RubyGems publishing access, making it a cross-registry software-supply-chain incident rather than a single package-family compromise.
-- The June 7 Socket report shows the same lineage adapting to PyPI wheels through executable `.pth` startup hooks, so Python dependency review needs the same scrutiny defenders apply to npm lifecycle scripts and native-addon build paths.
+- The June 7 Socket report shows the same lineage adapting to PyPI wheels through executable `.pth` startup hooks, and StepSecurity's June 8 follow-up shows package-import execution through `__init__.py`; Python dependency review needs the same scrutiny defenders apply to npm lifecycle scripts and native-addon build paths.
+- StepSecurity's June 8 report shows the campaign targeting both CI/CD runners and developer workstations: cross-platform runner-memory scraping, SSH/SCP staging to known hosts, AI-assistant / IDE rule hijacking, and token-revocation-triggered wiper deterrence make simple package yanking or immediate token revocation insufficient without host containment.
 
 ## Reported chain
 
@@ -120,6 +123,20 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Socket also found a direct HTTPS sender pointed at `api.anthropic.com/v1/api`, but it assessed this as likely network-log camouflage because that path returns Anthropic's standard `404 not_found_error` and GitHub remained the confirmed exfiltration channel. This is not evidence that Anthropic systems were compromised.
 - Socket reported that, at publication time, it was tracking 448 affected artifacts across npm and PyPI in the broader campaign: 411 npm artifacts across 106 packages plus the 37 PyPI wheels across 19 projects.
 
+### June 8 Hades graph-ML import-hook wave
+- StepSecurity reported a new Hades Campaign PyPI wave affecting graph machine-learning, computational-biology, bioinformatics, and genotype-phenotype packages. Reported affected releases were `mflux-streamlit@0.0.3` and `0.0.4`, `nhmpy@2.4.7`, `ppkt2synergy@0.1.1`, `embiggen@0.11.97`, `gpsea@0.9.14`, `pyphetools@0.9.120`, and `ensmallen@0.8.101`.
+- Unlike the earlier Socket-described `*-setup.pth` wheel artifacts, StepSecurity says this wave embedded an obfuscated one-line import hook in package `__init__.py`. On import, the hook checks `/tmp/.bun_ran`, searches Python module paths for `_index.js`, downloads Bun v1.3.14 from `github.com/oven-sh/bun/releases/download/`, extracts it under a temporary `b/` directory, and runs `bun run _index.js`.
+- StepSecurity said the `_index.js` bundle begins with plain-text prompt-injection instructions meant to mislead LLM-based analysis pipelines into classifying the package as clean and ignoring the obfuscated code below it. Treat this as analyzer evasion against AI-assisted malware triage, not as a user-facing prompt-injection lure.
+- The JavaScript payload moved to a modular architecture: StepSecurity recovered 16 gzip-compressed AES-256-GCM payload blobs with distinct hardcoded keys, including modules for macOS and Windows memory reads, IDE / CI backdoors, and C2 agents.
+- Runner-memory scraping expanded beyond Linux `/proc/{pid}/mem`. StepSecurity described a macOS scraper using Mach VM APIs via Python `ctypes` and a Windows PowerShell / C# scraper using `VirtualQueryEx` and `ReadProcessMemory`, in addition to Linux `/proc/{pid}/maps` and `/proc/{pid}/mem` walking.
+- StepSecurity described three GitHub-backed C2 channels: token dead-drop commits containing `DontRevokeOrItGoesBoom`, signed JavaScript eval commits keyed by `TheBeautifulSnadsOfTime`, and a Python `updater.py` daemon polling GitHub commit search for `firedalazer` commands.
+- The exfiltration pattern kept Hades naming: public GitHub repositories named with underworld wordlist combinations such as `stygian-cerberus-[0-9]+` or `tartarean-charon-[0-9]+` and repository description `Hades - The End for the Damned`.
+- StepSecurity said the malware attempts SSH/SCP lateral movement by parsing `~/.ssh/known_hosts` and `~/.ssh/config`, staging `ai_setup.sh` and `ai_init.js` under `/tmp/.sshu-[random]`, executing the loader through `ssh`, and deleting the staging directory.
+- In GitHub Actions, StepSecurity said the payload tries to mint PyPI or npm publish tokens through `ACTIONS_ID_TOKEN_REQUEST_TOKEN` / `ACTIONS_ID_TOKEN_REQUEST_URL`, request Fulcio certificates, DSSE-sign SLSA provenance, upload to Rekor, and publish trojanized packages with apparently valid Sigstore provenance.
+- For repository-level secret extraction, StepSecurity described two workflow-injection paths using a `Run Copilot` workflow: a push-triggered `.github/workflows/codeql.yml` path when the token has `workflow` scope, and a deployment-triggered path that temporarily commits and deletes `.github/workflows/codeql-[random].yml` before triggering the `Development` deployment environment.
+- The AI-assistant / IDE backdoor scope broadened beyond the earlier `.claude`, `.gemini`, `.cursor`, and `.vscode` paths. StepSecurity said this wave looks for configuration surfaces for 14 agent systems, including Claude, Codex, Gemini, Copilot, Cline, Aider, Tabby, Amazon Q, Cody, Bolt, and Continue, and plants instructions or hooks that bootstrap Bun when the workspace is loaded or analyzed.
+- StepSecurity reported persistence through `update-monitor` plus a `gh-token-monitor` deterrent service. The deterrent polls `https://api.github.com/user` with the stolen token for up to 72 hours and, if the token returns a 4xx status, executes destructive removal commands against the user's home directory and Documents folder. In incident response, isolate affected hosts and preserve evidence before revoking tokens that may be watched by this service.
+
 ### GitHub repository abuse
 - StepSecurity traced exfiltration to the GitHub account `liuende501`, which it says hosted 236 programmatically created repositories used as credential dead drops.
 - The malware creates private repositories under that account and uploads encrypted JSON files under `results/results-{timestamp}.json`.
@@ -142,6 +159,7 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 ### Package review
 - Treat unexpected `binding.gyp` additions as install-time code-execution signals, even when `package.json` scripts are absent or unchanged.
 - Treat executable `*.pth` / `*-setup.pth` additions in wheels as Python startup execution signals. A wheel that downloads a runtime, writes tempdir executables, or launches `bun run _index.js` should be handled as malicious even if normal package imports are never used.
+- Treat unexpected import-side code in package `__init__.py` as a Python execution trigger. Flag imports that search `sys.path` for `_index.js`, download Bun, create `/tmp/.bun_ran`, or execute JavaScript from package-local files.
 - Diff newly published package tarballs against prior known-good versions and flag tiny build-configuration files that launch larger staged scripts.
 - Expand package-security checks beyond lifecycle hooks to include `node-gyp`, native-addon build files, generated project files, and build-tool configuration.
 - Flag root-level multi-megabyte `index.js` files that are not the declared package entry point.
@@ -153,13 +171,16 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Check for GitHub API activity that creates new repositories, uploads `results/results-*.json`, searches commits for `thebeautifulmarchoftime`, or uses GraphQL `createCommitOnBranch` unexpectedly.
 - Search repository descriptions for all reported Miasma spacing and punctuation variants, including `Miasma - The Spreading Blight`, `Miasma – The Spreading Blight`, `Miasma: The Spreading Blight`, and `Miasma : The Spreading Blight`.
 - Search GitHub repositories, workflows, and artifacts for Hades markers from the PyPI wave: `Hades - The End for the Damned`, `IfYouYankThisTokenItWillNukeTheComputerOfTheOwnerFully`, `results/results-*.json`, `format-results`, and workflow name `Run Copilot`.
+- Add StepSecurity's June 8 Hades pivots to hunts: `DontRevokeOrItGoesBoom`, `TheBeautifulSnadsOfTime`, `firedalazer`, `stygian-cerberus-[0-9]+`, `tartarean-charon-[0-9]+`, `/tmp/.bun_ran`, `/tmp/tmp.0144018410.lock`, `/var/tmp/.gh_update_state`, `~/.local/share/updater/update.py`, `~/.config/systemd/user/update-monitor.service`, and `~/.config/systemd/user/gh-token-monitor.service`.
 - Audit AI-assistant and editor config paths: `.claude/`, `.cursor/`, `.gemini/`, `.vscode/`, and `.github/setup.js`.
+- Expand AI-assistant config review to Codex, Copilot, Cline, Aider, Tabby, Amazon Q, Cody, Bolt, Continue, `.cursorrules`, `.windsurfrules`, `.github/copilot-instructions.md`, `.aider.conf.yml`, `settings.json`, `config.json`, and `mcp.json` when those files can trigger local commands or agent setup.
 - Search for repository commits that combine the message `chore: update dependencies [skip ci]`, author `github-actions <[email protected]>`, a large `.github/setup.js`, and launcher files under `.claude/settings.json`, `.gemini/settings.json`, `.cursor/rules/setup.mdc`, `.vscode/tasks.json`, or `package.json` test scripts.
 - Before opening an untrusted clone in VS Code, Cursor, Claude Code, or Gemini CLI, inspect for folder-open / session-start commands that run `node .github/setup.js` or similar project-local setup files.
 - Preserve logs before rotating secrets if active repository backdoors may still be present.
 
 ### Secret rotation and containment
 - Rotate npm, RubyGems, GitHub, cloud, Vault, Kubernetes, and password-manager-derived credentials only after removing known repository persistence and isolating infected developer or CI hosts.
+- Before revoking GitHub tokens from hosts that may have imported June 8 Hades packages, check for the reported `gh-token-monitor` persistence. StepSecurity described a token-revocation-triggered wiper deterrent, so containment should prioritize host isolation, evidence capture, and persistence removal before broad revocation from the still-running host.
 - Revoke package-registry automation tokens and validate maintainers, 2FA posture, and trusted-publishing configuration for affected packages.
 - Audit all packages maintained by any compromised publisher account; the worm's propagation model means sibling packages may be poisoned even if the originally installed package was cleaned.
 - For critical GitHub Actions such as deployment actions, pin to reviewed commit SHAs where possible, track upstream repository availability, and maintain an alternate deployment runbook for repository-disabled or tag-unavailable events.
@@ -190,6 +211,12 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Hades loader strings reported by Socket: `.bun_ran`, `bun-v1.3.13`, `oven-sh/bun/releases/download`, `urllib.request`, `urlretrieve`, `tempfile.gettempdir`, `subprocess.run`
 - Hades camouflage destination reported by Socket: `api.anthropic[.]com/v1/api`
 - Hades GitHub exfiltration markers reported by Socket: `Hades - The End for the Damned`, `IfYouYankThisTokenItWillNukeTheComputerOfTheOwnerFully`, `results/results-*.json`, `format-results`, `Run Copilot`
+- StepSecurity June 8 affected PyPI versions: `mflux-streamlit@0.0.3`, `mflux-streamlit@0.0.4`, `nhmpy@2.4.7`, `ppkt2synergy@0.1.1`, `embiggen@0.11.97`, `gpsea@0.9.14`, `pyphetools@0.9.120`, `ensmallen@0.8.101`
+- StepSecurity June 8 Bun download marker: `bun-v1.3.14`
+- StepSecurity June 8 lock / state files: `/tmp/.bun_ran`, `/tmp/tmp.0144018410.lock`, `/var/tmp/.gh_update_state`
+- StepSecurity June 8 persistence paths: `~/.local/share/updater/update.py`, `~/.config/systemd/user/update-monitor.service`, `~/.config/systemd/user/gh-token-monitor.service`, `~/Library/LaunchAgents/com.user.update-monitor.plist`, `~/Library/LaunchAgents/com.user.gh-token-monitor.plist`, `~/.local/bin/gh-token-monitor.sh`, `~/.config/gh-token-monitor/token`
+- StepSecurity June 8 C2 / exfil markers: `DontRevokeOrItGoesBoom`, `TheBeautifulSnadsOfTime`, `firedalazer`, `stygian-cerberus-[0-9]+`, `tartarean-charon-[0-9]+`, `Hades - The End for the Damned`
+- StepSecurity June 8 SSH staging markers: `/tmp/.sshu-[random]`, `ai_setup.sh`, `ai_init.js`
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -207,4 +234,5 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - SafeDep config-file execution blind spot analysis: https://safedep.io/config-files-that-run-code/
 - Socket Hades PyPI wave analysis: https://socket.dev/blog/shai-hulud-descends-to-hades-miasma-pypi-wave
 - Socket Miasma / Mini Shai-Hulud campaign tracker: https://socket.dev/supply-chain-attacks/miasma-mini-shai-hulud-supply-chain-attack
+- StepSecurity Hades graph-ML PyPI import-hook wave analysis: https://www.stepsecurity.io/blog/the-hades-campaign-pypi-packages
 - PyPI: https://pypi.org/pypi/durabletask/json

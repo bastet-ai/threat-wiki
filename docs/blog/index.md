@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Hades graph-ML PyPI import-hook wave in the Miasma / Mini Shai-Hulud campaign](../ops/binding-gyp-npm-cicd-worm.md#june-8-hades-graph-ml-import-hook-wave)
 - [Hades PyPI wheel wave in the Miasma / Mini Shai-Hulud campaign](../ops/binding-gyp-npm-cicd-worm.md#june-7-hades-pypi-wheel-wave)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
