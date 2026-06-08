@@ -56,6 +56,14 @@ StepSecurity's expanded analysis adds several durable details for defenders:
 - Rotate tokens only after persistence and exfiltration paths are contained; otherwise new credentials can be re-stolen.
 - Add extension-marketplace telemetry to supply-chain monitoring alongside package registries and GitHub Actions workflows.
 
+## VS Code auto-update delay (June 8)
+Microsoft's VS Code 1.123 release notes added a marketplace-level mitigation that maps directly to this incident class: when extension auto-update is enabled, VS Code now waits two hours before automatically installing newly published extension versions. Microsoft frames the delay as protection against "problematic or potentially compromised releases," while still allowing a user to click **Update** immediately.
+
+Two caveats matter for defenders:
+
+- The two-hour delay is a detection-and-response buffer, not prevention. It helps only if registry, vendor, or community signals identify a bad release before endpoints auto-update.
+- Microsoft says the delay does **not** apply to extensions from trusted publishers such as Microsoft, GitHub, and OpenAI; those extensions still update immediately. Treat publisher trust as an allowlist exception that needs separate monitoring.
+
 ## Attribution notes
 - GitHub's incident note links the employee-device compromise to the Nx Console security advisory, confirming the extension family involved in the source-code exfiltration event.
 - StepSecurity's May 21 update states that TeamPCP is behind the GitHub breach and is attempting to sell the stolen data. Treat that as a strong vendor assessment, while preserving the distinction that GitHub's own note did not publicly name TeamPCP.
@@ -73,4 +81,5 @@ CISA added **CVE-2026-48027** to the Known Exploited Vulnerabilities catalog on 
 - GitHub Blog: https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/
 - GitHub Security Advisory: https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w
 - CISA KEV: https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+- Visual Studio Code release notes: https://code.visualstudio.com/updates/v1_123#_delayed-extension-autoupdates
 - The Hacker News: https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html
