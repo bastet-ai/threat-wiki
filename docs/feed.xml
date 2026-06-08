@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>UNK_DeadDrop developer repository phishing</title>
+      <link>https://threat.wiki/ops/unk-deaddrop-developer-repository-phishing/</link>
+      <description>Proofpoint reports UNK_DeadDrop, a likely North Korea-aligned developer-targeting phishing cluster that used recruitment, code-review, Foundry testing, and AI-payment lures to send targets to malicious GitHub and GitLab repositories. The page captures the VS Code / Cursor folderOpen task execution path, malicious VSIX persistence, Overlord payloads, cryptocurrency-wallet and browser credential theft, and Proofpoint's caveat that the cluster remains distinct from Contagious Interview in its telemetry.</description>
+      <pubDate>Mon, 08 Jun 2026 13:28:05 GMT</pubDate>
+      <guid>https://threat.wiki/ops/unk-deaddrop-developer-repository-phishing/</guid>
+    </item>
+    <item>
       <title>VerdantBamboo appliance BRICKSTORM operation</title>
       <link>https://threat.wiki/ops/verdantbamboo-appliance-brickstorm-operation/</link>
       <description>Volexity reports a VerdantBamboo / WARP PANDA / UNC5221 appliance operation involving BRICKSTORM implants on Egnyte Storage Sync and pfSense systems, PLENET / GRIMBOLT on Synology NAS, AGENTPSD fallback persistence, likely MSP-enabled access, VPN and firewall re-entry, and long-running activity on low-EDR Linux and FreeBSD appliances. The page also captures Mandiant vSphere BRICKSTORM control-plane hardening lessons.</description>

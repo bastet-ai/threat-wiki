@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - UNK_DeadDrop developer repository phishing: ops/unk-deaddrop-developer-repository-phishing.md
       - VerdantBamboo appliance BRICKSTORM operation: ops/verdantbamboo-appliance-brickstorm-operation.md
       - Hunt.io global smishing infrastructure campaign: ops/huntio-global-smishing-government-postal-telecom.md
       - Oman government Iranian-nexus webshell C2: ops/oman-government-iranian-nexus-webshell-c2.md
