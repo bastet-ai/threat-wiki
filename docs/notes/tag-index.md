@@ -69,6 +69,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AUTODYN](#autodyn) (1)
 - [AutoHotKey](#autohotkey) (1)
 - [AWS](#aws) (3)
+- [AWS CloudTrail](#aws-cloudtrail) (1)
 - [AWS S3](#aws-s3) (1)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
 - [axios](#axios) (1)
@@ -144,8 +145,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Filter driver](#cloud-filter-driver) (1)
 - [cloud identity](#cloud-identity) (1)
 - [cloud infrastructure](#cloud-infrastructure) (1)
+- [cloud logging](#cloud-logging) (1)
 - [cloud secrets](#cloud-secrets) (3)
-- [cloud security](#cloud-security) (1)
+- [cloud security](#cloud-security) (2)
 - [cloud service abuse](#cloud-service-abuse) (1)
 - [Cloudflare](#cloudflare) (1)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
@@ -170,6 +172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Contagious Interview](#contagious-interview) (2)
 - [container](#container) (1)
 - [container escape](#container-escape) (1)
+- [continuous visibility](#continuous-visibility) (1)
 - [control panel compromise](#control-panel-compromise) (1)
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
@@ -240,7 +243,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DeepSeek](#deepseek) (1)
 - [Defender evasion](#defender-evasion) (2)
 - [defense](#defense) (1)
-- [defense evasion](#defense-evasion) (3)
+- [defense evasion](#defense-evasion) (4)
 - [DeFi](#defi) (4)
 - [denial of service](#denial-of-service) (1)
 - [Deno](#deno) (1)
@@ -379,6 +382,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoEdge](#goedge) (1)
 - [Google Ads](#google-ads) (1)
 - [Google Chrome](#google-chrome) (1)
+- [Google Cloud Logging](#google-cloud-logging) (1)
 - [Google Drive](#google-drive) (1)
 - [Google Play](#google-play) (1)
 - [government](#government) (2)
@@ -488,6 +492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [loader](#loader) (1)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (1)
+- [log poisoning](#log-poisoning) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
 - [LONGSTREAM](#longstream) (1)
@@ -538,6 +543,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MINIRAT](#minirat) (2)
 - [Ministry of Finance](#ministry-of-finance) (1)
 - [MiniUpdate](#miniupdate) (1)
+- [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
+- [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
 - [mobile](#mobile) (1)
 - [Mobile Access](#mobile-access) (1)
 - [mobile devices](#mobile-devices) (1)
@@ -611,7 +618,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
-- [patterns](#patterns) (9)
+- [patterns](#patterns) (10)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (1)
 - [payment-card-theft](#payment-card-theft) (1)
@@ -1176,6 +1183,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
+## AWS CloudTrail
+- [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+
 ## AWS S3
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
@@ -1465,12 +1475,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud infrastructure
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 
+## cloud logging
+- [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+
 ## cloud secrets
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## cloud security
+- [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
 ## cloud service abuse
@@ -1556,6 +1570,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## container escape
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+
+## continuous visibility
+- [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 
 ## control panel compromise
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -1845,6 +1862,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## defense evasion
+- [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [ROADtools](../tools/roadtools.md)
@@ -2373,6 +2391,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Google Chrome
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
+## Google Cloud Logging
+- [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+
 ## Google Drive
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -2770,6 +2791,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## local privilege escalation
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
+## log poisoning
+- [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+
 ## long-lived tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
@@ -2950,6 +2974,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MiniUpdate
 - [Screening Serpens](../actors/screening-serpens.md)
+
+## MITRE ATT&CK T1005
+- [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+
+## MITRE ATT&CK T1562
+- [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 
 ## mobile
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
@@ -3426,6 +3456,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)

@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Cloud logging control-plane tampering</title>
+      <link>https://threat.wiki/patterns/cloud-logging-control-plane-tampering/</link>
+      <description>Unit 42 describes cloud logging control-plane abuse against AWS CloudTrail and Google Cloud Logging: attackers with logging permissions can stop or delete log routes, delete destinations, impair decryption, poison mutable log objects, or redirect logs to attacker-controlled destinations for continuous visibility. The page captures defender heuristics for treating logging configuration as tier-zero, alerting on routing and destination changes, preserving immutable fallbacks, and validating log integrity during incident response.</description>
+      <pubDate>Tue, 09 Jun 2026 23:26:15 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/cloud-logging-control-plane-tampering/</guid>
+    </item>
+    <item>
       <title>Arista EOS CVE-2026-7473 tunnel decapsulation exploitation</title>
       <link>https://threat.wiki/ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation/</link>
       <description>CISA added Arista EOS CVE-2026-7473 to KEV on 2026-06-09 after Arista reported in-the-wild exploitation. The page captures the tunnel-decapsulation flaw affecting EOS devices configured as VXLAN, GRE, IP-in-IP, NVGRE, or GUE tunnel endpoints, the lack of a software-upgrade path, and defender guidance for endpoint inventory, ACL hardening, TCAM-change caution, and network-path review.</description>
