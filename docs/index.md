@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [AI-brand impersonation phishing and malvertising](patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [Microsoft Teams external-chat phishing](patterns/microsoft-teams-external-chat-phishing.md)
 - [`gpt-pilot` force-push attempt in the Miasma / Mini Shai-Hulud campaign](ops/binding-gyp-npm-cicd-worm.md#june-8-pythagora-iogpt-pilot-force-push-attempt)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [UNK_DeadDrop developer repository phishing](ops/unk-deaddrop-developer-repository-phishing.md)
 - [VerdantBamboo appliance BRICKSTORM operation](ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [VerdantBamboo](actors/verdantbamboo.md)
-- [Hades graph-ML PyPI import-hook wave in the Miasma / Mini Shai-Hulud campaign](ops/binding-gyp-npm-cicd-worm.md#june-8-hades-graph-ml-import-hook-wave)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

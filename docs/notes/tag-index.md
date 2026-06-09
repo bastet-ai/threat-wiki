@@ -20,7 +20,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [administrator account creation](#administrator-account-creation) (2)
 - [Adobe Commerce](#adobe-commerce) (1)
 - [Adspect](#adspect) (1)
-- [adversary-in-the-middle](#adversary-in-the-middle) (1)
+- [adversary-in-the-middle](#adversary-in-the-middle) (2)
 - [adware](#adware) (2)
 - [Afghanistan](#afghanistan) (2)
 - [agent frameworks](#agent-frameworks) (2)
@@ -29,6 +29,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI](#ai) (3)
 - [AI agents](#ai-agents) (6)
 - [AI assistants](#ai-assistants) (3)
+- [AI brand impersonation](#ai-brand-impersonation) (1)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
@@ -108,6 +109,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
 - [certificate theft](#certificate-theft) (1)
+- [ChatGPT](#chatgpt) (1)
 - [Chatty Spider](#chatty-spider) (1)
 - [Check Point](#check-point) (1)
 - [Checkmarx](#checkmarx) (1)
@@ -125,7 +127,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
-- [Claude](#claude) (1)
+- [Claude](#claude) (2)
 - [Claude Code](#claude-code) (1)
 - [ClickFix](#clickfix) (3)
 - [Cloaked Ursa](#cloaked-ursa) (1)
@@ -146,7 +148,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CMS](#cms) (4)
 - [Cobalt Strike](#cobalt-strike) (2)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
-- [code signing](#code-signing) (2)
+- [code signing](#code-signing) (3)
 - [Codecov](#codecov) (1)
 - [Codex](#codex) (1)
 - [Coinbase](#coinbase) (1)
@@ -168,7 +170,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [Crates.io](#cratesio) (1)
 - [credential spraying](#credential-spraying) (1)
-- [credential theft](#credential-theft) (14)
+- [credential theft](#credential-theft) (15)
 - [credential-theft](#credential-theft) (38)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -228,6 +230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAYLIGHT](#daylight) (1)
 - [DDoS](#ddos) (1)
 - [dead drop resolver](#dead-drop-resolver) (1)
+- [DeepSeek](#deepseek) (1)
 - [Defender evasion](#defender-evasion) (2)
 - [defense](#defense) (1)
 - [defense evasion](#defense-evasion) (3)
@@ -335,7 +338,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Forest Blizzard](#forest-blizzard) (1)
 - [FortiClient EMS](#forticlient-ems) (1)
 - [Fortinet](#fortinet) (1)
-- [Fox Tempest](#fox-tempest) (1)
+- [Fox Tempest](#fox-tempest) (2)
 - [FreeBSD](#freebsd) (2)
 - [FSB](#fsb) (2)
 - [FTA](#fta) (1)
@@ -351,6 +354,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS](#ghost-cms) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GitHub](#github) (12)
+- [GitHub abuse](#github-abuse) (1)
 - [GitHub Actions](#github-actions) (15)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
@@ -487,7 +491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (2)
-- [malvertising](#malvertising) (2)
+- [malvertising](#malvertising) (3)
 - [malware](#malware) (13)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
@@ -505,7 +509,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [Miasma](#miasma) (2)
-- [Microsoft](#microsoft) (1)
+- [Microsoft](#microsoft) (2)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (2)
 - [Microsoft Defender](#microsoft-defender) (1)
@@ -589,8 +593,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
-- [patterns](#patterns) (8)
+- [patterns](#patterns) (9)
 - [payment fraud](#payment-fraud) (1)
+- [payment-card theft](#payment-card-theft) (1)
 - [payment-card-theft](#payment-card-theft) (1)
 - [payroll lures](#payroll-lures) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
@@ -604,7 +609,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (9)
+- [phishing](#phishing) (10)
 - [phishing-as-a-service](#phishing-as-a-service) (1)
 - [PHP](#php) (2)
 - [PHP code injection](#php-code-injection) (1)
@@ -713,7 +718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [self-propagation](#self-propagation) (1)
 - [sendit.sh](#senditsh) (1)
 - [Sentry abuse](#sentry-abuse) (1)
-- [SEO poisoning](#seo-poisoning) (1)
+- [SEO poisoning](#seo-poisoning) (2)
 - [Serv-U](#serv-u) (1)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
@@ -738,7 +743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SmartScreen](#smartscreen) (1)
 - [smishing](#smishing) (2)
 - [SMTP](#smtp) (1)
-- [social engineering](#social-engineering) (8)
+- [social engineering](#social-engineering) (9)
 - [social-engineering](#social-engineering) (2)
 - [SOCKS5](#socks5) (2)
 - [software impersonation](#software-impersonation) (1)
@@ -769,6 +774,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stock exchange](#stock-exchange) (1)
 - [storage deletion](#storage-deletion) (1)
 - [Storm-2697](#storm-2697) (1)
+- [Storm-3075](#storm-3075) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [supply-chain](#supply-chain) (55)
@@ -831,6 +837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBCloud](#vbcloud) (1)
 - [VBScript](#vbscript) (3)
 - [Vercel](#vercel) (1)
+- [Vidar Stealer](#vidar-stealer) (1)
 - [Vietnam](#vietnam) (1)
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
@@ -963,6 +970,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## adversary-in-the-middle
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## adware
@@ -1001,6 +1009,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+
+## AI brand impersonation
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## AI chatbot abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -1279,6 +1290,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## certificate theft
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
+## ChatGPT
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+
 ## Chatty Spider
 - [UNC3753](../actors/unc3753.md)
 
@@ -1365,6 +1379,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## Claude
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 
 ## Claude Code
@@ -1443,6 +1458,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## code signing
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
@@ -1517,6 +1533,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## credential theft
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -1767,6 +1784,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## dead drop resolver
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
+## DeepSeek
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## Defender evasion
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -2170,6 +2190,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 
 ## Fox Tempest
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 
 ## FreeBSD
@@ -2230,6 +2251,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [Webworm](../actors/webworm.md)
+
+## GitHub abuse
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## GitHub Actions
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -2732,6 +2756,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
 ## malvertising
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
@@ -2805,6 +2830,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Microsoft
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 
 ## Microsoft .NET
@@ -3308,6 +3334,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## patterns
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
@@ -3317,6 +3344,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## payment fraud
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
+## payment-card theft
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## payment-card-theft
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
@@ -3372,6 +3402,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
 ## phishing
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -3786,6 +3817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SEO poisoning
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## Serv-U
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -3867,6 +3899,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 
 ## social engineering
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -3974,6 +4007,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Storm-2697
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## Storm-3075
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## STUN
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -4259,6 +4295,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Vercel
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+
+## Vidar Stealer
+- [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## Vietnam
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)

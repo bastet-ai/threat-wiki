@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>AI-brand impersonation phishing and malvertising</title>
+      <link>https://threat.wiki/patterns/ai-brand-impersonation-phishing-malvertising/</link>
+      <description>Microsoft Threat Intelligence reports 2026 campaigns abusing AI brands such as ChatGPT, Claude, DeepSeek, and Copilot as social-engineering lures for payment-card theft, AiTM credential/token theft, and Vidar/Lumma/Oyster/Hijack Loader malware delivery. The page captures the ChatGPT billing phish, Claude account-appeal PDF chain, Storm-3075 AI-plugin malvertising with Fox Tempest-signed payloads, fake DeepSeek V4 GitHub release assets, and defender heuristics for mail, identity, web, endpoint, and code-hosting surfaces.</description>
+      <pubDate>Tue, 09 Jun 2026 07:29:50 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/ai-brand-impersonation-phishing-malvertising/</guid>
+    </item>
+    <item>
       <title>Linux nftables CVE-2026-23111 public LPE exploits</title>
       <link>https://threat.wiki/ops/linux-nftables-cve-2026-23111-public-lpe-exploits/</link>
       <description>Exodus Intelligence and FuzzingLabs have published working exploit research for CVE-2026-23111, a Linux kernel nf_tables use-after-free that can let an unprivileged local user escalate to root when nftables and user namespaces are reachable. The page captures the Debian, Ubuntu, and Red Hat reproduction context, no-remote-vector caveat, kernel patch / reboot guidance, and hardening priorities for container hosts, CI runners, and shared Linux systems.</description>
