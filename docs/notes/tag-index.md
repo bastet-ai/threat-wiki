@@ -95,7 +95,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brazil](#brazil) (1)
 - [BreachForums](#breachforums) (1)
 - [BRICKSTORM](#brickstorm) (2)
-- [browser credential theft](#browser-credential-theft) (3)
+- [browser credential theft](#browser-credential-theft) (4)
 - [browser extension](#browser-extension) (1)
 - [browser hijacking](#browser-hijacking) (1)
 - [BTMOB](#btmob) (1)
@@ -194,7 +194,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-32975](#cve-2025-32975) (1)
 - [CVE-2025-34291](#cve-2025-34291) (1)
 - [CVE-2025-48595](#cve-2025-48595) (1)
-- [CVE-2025-8088](#cve-2025-8088) (2)
+- [CVE-2025-8088](#cve-2025-8088) (3)
 - [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
@@ -260,7 +260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS C2](#dns-c2) (2)
 - [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
-- [document theft](#document-theft) (2)
+- [document theft](#document-theft) (3)
 - [DotNetNuke](#dotnetnuke) (1)
 - [double extortion](#double-extortion) (1)
 - [DPAPI](#dpapi) (1)
@@ -353,6 +353,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GCS](#gcs) (1)
 - [Ghost CMS](#ghost-cms) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
+- [GIFTEDCROOK](#giftedcrook) (1)
 - [GitHub](#github) (12)
 - [GitHub abuse](#github-abuse) (1)
 - [GitHub Actions](#github-actions) (15)
@@ -410,6 +411,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IKEv1](#ikev1) (1)
 - [iMessage](#imessage) (1)
 - [impersonation](#impersonation) (1)
+- [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [incident response](#incident-response) (9)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (9)
@@ -469,7 +471,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM](#llm) (4)
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
-- [LNK](#lnk) (5)
+- [LNK](#lnk) (6)
 - [LNK files](#lnk-files) (1)
 - [loader](#loader) (1)
 - [local privilege escalation](#local-privilege-escalation) (1)
@@ -554,7 +556,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notarized malware](#notarized-malware) (1)
 - [npm](#npm) (26)
 - [npm lifecycle hook](#npm-lifecycle-hook) (1)
-- [NTFS ADS](#ntfs-ads) (1)
+- [NTFS ADS](#ntfs-ads) (2)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (1)
 - [OAuth](#oauth) (2)
@@ -628,7 +630,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (2)
 - [postinstall](#postinstall) (5)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (7)
+- [PowerShell](#powershell) (8)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
 - [PraisonAI](#praisonai) (1)
@@ -661,7 +663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ransomware](#ransomware) (4)
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAT](#rat) (15)
-- [RC4](#rc4) (1)
+- [RC4](#rc4) (2)
 - [RCE](#rce) (2)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
@@ -698,7 +700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RSA](#rsa) (1)
 - [RubyGems](#rubygems) (2)
 - [Runner.Worker](#runnerworker) (1)
-- [Russia](#russia) (5)
+- [Russia](#russia) (6)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
@@ -722,6 +724,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Serv-U](#serv-u) (1)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
+- [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [ShadowPad](#shadowpad) (1)
 - [Shai-Hulud](#shai-hulud) (5)
 - [share propagation](#share-propagation) (1)
@@ -757,7 +760,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [South Korea](#south-korea) (2)
 - [Southeast Asia](#southeast-asia) (2)
 - [spam](#spam) (1)
-- [spear phishing](#spear-phishing) (3)
+- [spear phishing](#spear-phishing) (4)
 - [spear-phishing](#spear-phishing) (2)
 - [spearphishing](#spearphishing) (1)
 - [SQL injection](#sql-injection) (2)
@@ -795,7 +798,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TEASOUP](#teasoup) (1)
 - [telecom](#telecom) (2)
 - [telecom-impersonation](#telecom-impersonation) (1)
-- [Telegram](#telegram) (4)
+- [Telegram](#telegram) (5)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
 - [The Gentlemen](#the-gentlemen) (1)
@@ -819,8 +822,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC](#uac) (1)
 - [UAC-0010](#uac-0010) (2)
 - [UAC-0098](#uac-0098) (1)
+- [UAC-0226](#uac-0226) (1)
 - [Udev persistence](#udev-persistence) (1)
-- [Ukraine](#ukraine) (6)
+- [Ukraine](#ukraine) (7)
 - [UNC2814](#unc2814) (1)
 - [UNC3753](#unc3753) (1)
 - [UNC4736](#unc4736) (1)
@@ -876,7 +880,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WHM](#whm) (2)
 - [Windows](#windows) (13)
 - [Winos4.0](#winos40) (1)
-- [WinRAR](#winrar) (2)
+- [WinRAR](#winrar) (3)
 - [wiper](#wiper) (2)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
@@ -1244,6 +1248,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## browser extension
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
@@ -1667,6 +1672,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2025-8088
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## CVE-2026-0257
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -1903,6 +1909,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## document theft
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## DotNetNuke
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
@@ -2238,6 +2245,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-6rmh-7xcm-cpxj
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
+## GIFTEDCROOK
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
 ## GitHub
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -2450,6 +2460,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## impersonation
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+
+## in-memory DLL loading
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## incident response
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
@@ -2685,6 +2698,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## LNK files
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -3010,6 +3024,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NTFS ADS
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## nuclear weapons
 - [Fast16](../tools/fast16.md)
@@ -3484,6 +3499,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## PowerShower
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -3624,6 +3640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RC4
 - [OP-512](../actors/op-512.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## RCE
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -3746,6 +3763,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## Russia-linked cybercrime
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -3828,6 +3846,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## session theft
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+
+## SHADOW-EARTH-066
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## ShadowPad
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -3956,6 +3977,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## spear-phishing
 - [GREYVIBE](../actors/greyvibe.md)
@@ -4141,6 +4163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## Telnyx
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -4232,6 +4255,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UAC-0098
 - [GREYVIBE](../actors/greyvibe.md)
 
+## UAC-0226
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
 ## Udev persistence
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -4242,6 +4268,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Showboat](../tools/showboat.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## UNC2814
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -4452,6 +4479,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## WinRAR
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## wiper
 - [Handala](../actors/handala.md)

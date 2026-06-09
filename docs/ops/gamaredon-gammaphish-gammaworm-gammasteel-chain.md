@@ -3,6 +3,8 @@
 ## Summary
 Sekoia's June 2026 **FSB's matryoshka** report reconstructs a January 2026 **Gamaredon** infection chain against Ukraine-linked environments. The chain used a WinRAR path-traversal exploit, Startup-folder HTA execution, multi-stage VBScript loaders, USB and network-share worming, registry-staged configuration and modules, and a document stealer that watches files as they are stored, moved, or edited.
 
+Trend Micro's June 8, 2026 reporting adds that **Earth Dahu / Gamaredon** and **UAC-0226 / SHADOW-EARTH-066** were both still producing WinRAR **CVE-2025-8088** exploit samples months after WinRAR 7.13 patched the flaw in July 2025. Keep the two clusters separate: Trend Micro says they shared the same unpatched archive-client entry point but diverged into different post-exploitation chains.
+
 The durable defender lesson is that Gamaredon's chain is not a single loader-to-payload sequence. Sekoia describes each layer as a backdoor-capable stage that can update configuration, retrieve new code, or keep access alive through legitimate-looking dead-drop platforms.
 
 ## Tags
@@ -45,6 +47,13 @@ The durable defender lesson is that Gamaredon's chain is not a single loader-to-
 - **GammaWorm / propagation:** forensic artifacts showed a highly obfuscated VBScript worm that persisted through scheduled tasks, hid core modules in NTFS Alternate Data Streams, targeted USB and network drives, hid legitimate directories, and replaced them with malicious `.lnk` shortcuts.
 - **GammaSteel / exfiltration:** replaying GammaLoad network requests let Sekoia retrieve a newer GammaSteel variant. Sekoia describes it as a modular PowerShell stealer that writes 71 DPAPI-encrypted modules into the Windows registry, scans local and network drives, monitors newly inserted USBs, watches specific files in real time, and exfiltrates targeted documents to S3-compatible cloud storage with operator C2 fallback.
 
+## Trend Micro WinRAR follow-up
+- Trend Micro reports that **CVE-2025-8088** remained active against Ukrainian organizations nearly a year after the July 2025 WinRAR 7.13 fix, because WinRAR lacks native auto-update and centralized enterprise patch controls.
+- Trend Micro attributes one HTA-based chain to **Earth Dahu / Gamaredon** with high confidence, based on spear-phishing delivery, Ukrainian government / military victimology, and Cloudflare Workers-style C2 proxying.
+- Reported Earth Dahu samples dropped a single hidden ADS payload through six directory levels into Startup: either an HTA directly or an obfuscated VBS / VBE downloader that fetched an HTA from `trycloudflare[.]com` before continuing to the HTA-to-VBScript flow.
+- Trend Micro says associated spear-phishing ran from December 2025 through April 2026 and used compromised Ukrainian government and free-email accounts; one cluster showed multiple accounts from a regional government Exchange server sharing the same internal originating IP.
+- In parallel, Trend Micro tracks a distinct **UAC-0226 / SHADOW-EARTH-066** chain that used CVE-2025-8088 to place a Startup LNK, launch PowerShell, and load an evolved **GIFTEDCROOK** lineage DLL in memory for browser credential, cookie, and document theft.
+
 ## Dead-drop and configuration behavior
 - GammaWorm keeps dynamic network configuration in the Windows registry and queries it in a loop before executing code returned by C2.
 - Sekoia highlights dead-drop resolver abuse across common platforms and services, including `supabase[.]co`, `graph[.]org`, `workers[.]dev`, `teletype[.]in`, `telegra[.]ph`, and Telegram paths.
@@ -52,7 +61,9 @@ The durable defender lesson is that Gamaredon's chain is not a single loader-to-
 
 ## Defender notes
 - Patch WinRAR and reduce exposure to archive files from untrusted sources; specifically review paths where archive extraction can write into Startup or other autorun locations.
+- Do not treat WinRAR patching as a normal Windows Update / Intune / WSUS coverage item unless your endpoint-management tooling explicitly inventories and updates it; Trend Micro highlights unmanaged archive clients as a persistent patch blind spot.
 - Hunt for hidden HTA files and `mshta.exe` launches tied to user Startup folders after RAR/xHTML lure handling.
+- Also hunt for hidden Startup-folder `.lnk` files that launch `cmd.exe` / PowerShell and lead to in-memory DLL loading, which Trend Micro associates with UAC-0226 / SHADOW-EARTH-066 rather than Gamaredon.
 - Alert on `wscript.exe` or hidden PowerShell processes making high-frequency requests to Telegram, Telegraph, Teletype, Cloudflare Workers, Supabase, or graph-style dead-drop pages.
 - Inspect USB and network shares for hidden legitimate directories with sibling malicious `.lnk` replacements, especially using Ukrainian social-engineering lure text.
 - Search for NTFS Alternate Data Streams on suspicious script, shortcut, and removable-media paths.
@@ -72,9 +83,12 @@ Use Sekoia's source page and intelligence feed for current network indicators; p
 
 ## Related pages
 - [Gamaredon](../actors/gamaredon.md)
+- [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
 ## Sources
+- Trend Micro: https://www.trendmicro.com/en_us/research/26/f/old-winrar-flaw-fuels-attacks-on-ukraine.html
 - Sekoia: https://blog.sekoia.io/fsbs-matryoshka-1-3-gamaredons-gifts-that-keeps-unpacking-gammaphish-and-gammaworm/
 - The Hacker News summary: https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html
+- The Hacker News Trend Micro summary: https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html

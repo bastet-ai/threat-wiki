@@ -5,6 +5,20 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>UAC-0226 / SHADOW-EARTH-066</title>
+      <link>https://threat.wiki/actors/uac-0226-shadow-earth-066/</link>
+      <description>Trend Micro reports that UAC-0226, temporarily tracked by Trend Micro as SHADOW-EARTH-066, shifted from macro-enabled Excel droppers to WinRAR CVE-2025-8088 exploit chains by February 2026. The profile captures GIFTEDCROOK evolution from plaintext Telegram browser-credential theft into an in-memory DLL chain with RC4-encrypted dedicated C2, Startup LNK execution, and browser/document theft against Ukrainian military, law-enforcement, and local-government targets.</description>
+      <pubDate>Tue, 09 Jun 2026 13:25:22 GMT</pubDate>
+      <guid>https://threat.wiki/actors/uac-0226-shadow-earth-066/</guid>
+    </item>
+    <item>
+      <title>Trend Micro WinRAR CVE-2025-8088 follow-up on Gamaredon and UAC-0226</title>
+      <link>https://threat.wiki/ops/gamaredon-gammaphish-gammaworm-gammasteel-chain/#trend-micro-winrar-follow-up</link>
+      <description>Trend Micro reports that Earth Dahu / Gamaredon and UAC-0226 / SHADOW-EARTH-066 continued producing WinRAR CVE-2025-8088 exploit samples months after the July 2025 WinRAR 7.13 patch. The update separates Gamaredon's HTA / VBScript / Cloudflare Workers espionage flow from UAC-0226's Startup LNK, PowerShell, and evolved GIFTEDCROOK DLL chain, and highlights unmanaged WinRAR installations as a durable patch-management blind spot.</description>
+      <pubDate>Tue, 09 Jun 2026 13:25:22 GMT</pubDate>
+      <guid>https://threat.wiki/ops/gamaredon-gammaphish-gammaworm-gammasteel-chain/#trend-micro-winrar-follow-up</guid>
+    </item>
+    <item>
       <title>AI-brand impersonation phishing and malvertising</title>
       <link>https://threat.wiki/patterns/ai-brand-impersonation-phishing-malvertising/</link>
       <description>Microsoft Threat Intelligence reports 2026 campaigns abusing AI brands such as ChatGPT, Claude, DeepSeek, and Copilot as social-engineering lures for payment-card theft, AiTM credential/token theft, and Vidar/Lumma/Oyster/Hijack Loader malware delivery. The page captures the ChatGPT billing phish, Claude account-appeal PDF chain, Storm-3075 AI-plugin malvertising with Fox Tempest-signed payloads, fake DeepSeek V4 GitHub release assets, and defender heuristics for mail, identity, web, endpoint, and code-hosting surfaces.</description>
