@@ -11,7 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (17)
+- [active exploitation](#active-exploitation) (18)
 - [active-exploitation](#active-exploitation) (1)
 - [actor](#actor) (1)
 - [actors](#actors) (5)
@@ -57,6 +57,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT37](#apt37) (1)
 - [APT43](#apt43) (1)
 - [APT45](#apt45) (1)
+- [Arista EOS](#arista-eos) (1)
 - [Armageddon](#armageddon) (1)
 - [Artifact Signing](#artifact-signing) (1)
 - [ASP.NET](#aspnet) (2)
@@ -125,7 +126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chromium](#chromium) (1)
 - [CI/CD](#cicd) (25)
 - [CircleCI](#circleci) (1)
-- [CISA KEV](#cisa-kev) (6)
+- [CISA KEV](#cisa-kev) (7)
 - [Cisco](#cisco) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (1)
@@ -222,6 +223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-50751](#cve-2026-50751) (1)
 - [CVE-2026-50752](#cve-2026-50752) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
+- [CVE-2026-7473](#cve-2026-7473) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [CWE-77](#cwe-77) (1)
@@ -383,9 +385,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [government targeting](#government-targeting) (1)
 - [government-impersonation](#government-impersonation) (1)
 - [Grandoreiro](#grandoreiro) (1)
+- [GRE](#gre) (1)
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (1)
 - [groups](#groups) (9)
+- [GUE](#gue) (1)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
 - [Hades](#hades) (1)
@@ -426,6 +430,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [initial-access](#initial-access) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (1)
+- [IP-in-IP](#ip-in-ip) (1)
 - [Iran](#iran) (5)
 - [Iran-nexus](#iran-nexus) (1)
 - [Israel](#israel) (2)
@@ -554,6 +559,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nebo](#nebo) (1)
 - [Netherlands](#netherlands) (1)
 - [NetScaler](#netscaler) (1)
+- [network infrastructure](#network-infrastructure) (1)
 - [nf_tables](#nf_tables) (1)
 - [nftables](#nftables) (1)
 - [Nginx module](#nginx-module) (1)
@@ -567,6 +573,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NTFS ADS](#ntfs-ads) (2)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (1)
+- [NVGRE](#nvgre) (1)
 - [OAuth](#oauth) (2)
 - [OAuth tokens](#oauth-tokens) (1)
 - [obfuscation](#obfuscation) (1)
@@ -583,9 +590,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (100)
+- [operations](#operations) (101)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (98)
+- [ops](#ops) (99)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -825,6 +832,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro](#trend-micro) (1)
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
+- [tunnel decapsulation](#tunnel-decapsulation) (1)
 - [Twilio](#twilio) (1)
 - [typosquat](#typosquat) (1)
 - [typosquatting](#typosquatting) (8)
@@ -867,6 +875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vSphere](#vsphere) (2)
 - [vulnerability](#vulnerability) (7)
 - [vulnerability-research](#vulnerability-research) (1)
+- [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
 - [wallet replacement](#wallet-replacement) (1)
 - [wallet-drainer](#wallet-drainer) (1)
@@ -937,6 +946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 
 ## active exploitation
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -1122,6 +1132,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## APT45
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## Arista EOS
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
 ## Armageddon
 - [Gamaredon](../actors/gamaredon.md)
@@ -1385,6 +1398,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CISA KEV
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -1765,6 +1779,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-5426
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## CVE-2026-7473
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
 ## CVE-2026-8732
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
@@ -2375,6 +2392,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Grandoreiro
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
+## GRE
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+
 ## GREYVIBE
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -2391,6 +2411,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC3753](../actors/unc3753.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [Webworm](../actors/webworm.md)
+
+## GUE
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
 ## hack-and-leak
 - [Handala](../actors/handala.md)
@@ -2534,6 +2557,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## IoT
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
+## IP-in-IP
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
 ## Iran
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -2996,6 +3022,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NetScaler
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
+## network infrastructure
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+
 ## nf_tables
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 
@@ -3067,6 +3096,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NuGet
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
+## NVGRE
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+
 ## OAuth
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -3132,6 +3164,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -3237,6 +3270,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -4269,6 +4303,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Trident Ursa
 - [Gamaredon](../actors/gamaredon.md)
 
+## tunnel decapsulation
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+
 ## Twilio
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
@@ -4428,6 +4465,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## vulnerability-research
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## VXLAN
+- [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
 ## w3wp.exe
 - [OP-512](../actors/op-512.md)

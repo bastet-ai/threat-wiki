@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Arista EOS CVE-2026-7473 tunnel decapsulation exploitation</title>
+      <link>https://threat.wiki/ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation/</link>
+      <description>CISA added Arista EOS CVE-2026-7473 to KEV on 2026-06-09 after Arista reported in-the-wild exploitation. The page captures the tunnel-decapsulation flaw affecting EOS devices configured as VXLAN, GRE, IP-in-IP, NVGRE, or GUE tunnel endpoints, the lack of a software-upgrade path, and defender guidance for endpoint inventory, ACL hardening, TCAM-change caution, and network-path review.</description>
+      <pubDate>Tue, 09 Jun 2026 21:27:11 GMT</pubDate>
+      <guid>https://threat.wiki/ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation/</guid>
+    </item>
+    <item>
       <title>Chrome V8 CVE-2026-11645 exploitation</title>
       <link>https://threat.wiki/ops/chrome-v8-cve-2026-11645-exploitation/</link>
       <description>Google released Chrome Stable 149.0.7827.102/.103 for Windows and macOS and 149.0.7827.102 for Linux on 2026-06-08, and stated that an exploit for CVE-2026-11645 exists in the wild. The page captures the V8 out-of-bounds memory-access flaw, active-exploitation caveat, fixed builds, Chromium-derived browser follow-up, and defender response guidance for browser zero-day patching and endpoint review.</description>
