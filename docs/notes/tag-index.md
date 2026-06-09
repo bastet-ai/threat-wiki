@@ -162,6 +162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [consumer devices](#consumer-devices) (1)
 - [Contagious Interview](#contagious-interview) (2)
 - [container](#container) (1)
+- [container escape](#container-escape) (1)
 - [control panel compromise](#control-panel-compromise) (1)
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
@@ -196,6 +197,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
 - [CVE-2026-20245](#cve-2026-20245) (1)
+- [CVE-2026-23111](#cve-2026-23111) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-28318](#cve-2026-28318) (1)
 - [CVE-2026-3300](#cve-2026-3300) (1)
@@ -304,7 +306,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
-- [exploitation](#exploitation) (9)
+- [exploitation](#exploitation) (10)
 - [external federation](#external-federation) (1)
 - [extortion](#extortion) (3)
 - [fake CAPTCHA](#fake-captcha) (1)
@@ -455,7 +457,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libpeconv](#libpeconv) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
-- [Linux](#linux) (11)
+- [Linux](#linux) (12)
 - [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (1)
 - [living off the land](#living-off-the-land) (1)
@@ -538,6 +540,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nebo](#nebo) (1)
 - [Netherlands](#netherlands) (1)
 - [NetScaler](#netscaler) (1)
+- [nf_tables](#nf_tables) (1)
+- [nftables](#nftables) (1)
 - [Nginx module](#nginx-module) (1)
 - [node-gyp](#node-gyp) (1)
 - [node-ipc](#node-ipc) (1)
@@ -565,9 +569,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (98)
+- [operations](#operations) (99)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (96)
+- [ops](#ops) (97)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -628,7 +632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Primitive Bear](#primitive-bear) (1)
 - [PrincessClub](#princessclub) (1)
 - [private-key theft](#private-key-theft) (1)
-- [privilege escalation](#privilege-escalation) (6)
+- [privilege escalation](#privilege-escalation) (7)
 - [process hollowing](#process-hollowing) (2)
 - [process injection](#process-injection) (1)
 - [professional services](#professional-services) (1)
@@ -840,7 +844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
-- [vulnerability](#vulnerability) (6)
+- [vulnerability](#vulnerability) (7)
 - [vulnerability-research](#vulnerability-research) (1)
 - [w3wp.exe](#w3wpexe) (1)
 - [wallet replacement](#wallet-replacement) (1)
@@ -1492,6 +1496,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## container
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 
+## container escape
+- [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+
 ## control panel compromise
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
@@ -1655,6 +1662,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-20245
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+
+## CVE-2026-23111
+- [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 
 ## CVE-2026-26980
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -2058,6 +2068,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
+- [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
@@ -2609,6 +2620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
+- [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
@@ -2909,6 +2921,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NetScaler
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
+## nf_tables
+- [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+
+## nftables
+- [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+
 ## Nginx module
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -3078,6 +3096,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
+- [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -3179,6 +3198,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
+- [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -3463,6 +3483,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
+- [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
@@ -4290,6 +4311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vulnerability
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
+- [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
