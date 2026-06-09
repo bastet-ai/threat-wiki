@@ -25,6 +25,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Afghanistan](#afghanistan) (2)
 - [agent frameworks](#agent-frameworks) (2)
 - [agent skills](#agent-skills) (1)
+- [agentic malware](#agentic-malware) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (3)
 - [AI agents](#ai-agents) (6)
@@ -480,6 +481,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LNK](#lnk) (6)
 - [LNK files](#lnk-files) (1)
 - [loader](#loader) (1)
+- [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
@@ -1000,6 +1002,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## agent skills
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+
+## agentic malware
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## AGENTPSD
 - [VerdantBamboo](../actors/verdantbamboo.md)
@@ -2732,6 +2737,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## loader
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
+
+## local LLMs
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## local privilege escalation
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
