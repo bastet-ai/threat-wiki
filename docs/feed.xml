@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Chrome V8 CVE-2026-11645 exploitation</title>
+      <link>https://threat.wiki/ops/chrome-v8-cve-2026-11645-exploitation/</link>
+      <description>Google released Chrome Stable 149.0.7827.102/.103 for Windows and macOS and 149.0.7827.102 for Linux on 2026-06-08, and stated that an exploit for CVE-2026-11645 exists in the wild. The page captures the V8 out-of-bounds memory-access flaw, active-exploitation caveat, fixed builds, Chromium-derived browser follow-up, and defender response guidance for browser zero-day patching and endpoint review.</description>
+      <pubDate>Tue, 09 Jun 2026 15:28:56 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chrome-v8-cve-2026-11645-exploitation/</guid>
+    </item>
+    <item>
       <title>UAC-0226 / SHADOW-EARTH-066</title>
       <link>https://threat.wiki/actors/uac-0226-shadow-earth-066/</link>
       <description>Trend Micro reports that UAC-0226, temporarily tracked by Trend Micro as SHADOW-EARTH-066, shifted from macro-enabled Excel droppers to WinRAR CVE-2025-8088 exploit chains by February 2026. The profile captures GIFTEDCROOK evolution from plaintext Telegram browser-credential theft into an in-memory DLL chain with RC4-encrypted dedicated C2, Startup LNK execution, and browser/document theft against Ukrainian military, law-enforcement, and local-government targets.</description>

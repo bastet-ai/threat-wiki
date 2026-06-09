@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Chrome V8 CVE-2026-11645 exploitation](ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [UAC-0226 / SHADOW-EARTH-066](actors/uac-0226-shadow-earth-066.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [AI-brand impersonation phishing and malvertising](patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [Check Point VPN CVE-2026-50751 exploitation](ops/check-point-vpn-cve-2026-50751-exploitation.md)
-- [UNK_DeadDrop developer repository phishing](ops/unk-deaddrop-developer-repository-phishing.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

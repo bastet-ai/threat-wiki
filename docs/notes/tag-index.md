@@ -11,7 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (16)
+- [active exploitation](#active-exploitation) (17)
 - [active-exploitation](#active-exploitation) (1)
 - [actor](#actor) (1)
 - [actors](#actors) (5)
@@ -98,6 +98,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser credential theft](#browser-credential-theft) (4)
 - [browser extension](#browser-extension) (1)
 - [browser hijacking](#browser-hijacking) (1)
+- [browser zero-day](#browser-zero-day) (1)
 - [BTMOB](#btmob) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
@@ -120,6 +121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chisel](#chisel) (2)
 - [ChromElevator](#chromelevator) (1)
+- [Chromium](#chromium) (1)
 - [CI/CD](#cicd) (25)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (6)
@@ -130,6 +132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude](#claude) (2)
 - [Claude Code](#claude-code) (1)
 - [ClickFix](#clickfix) (3)
+- [client-side exploitation](#client-side-exploitation) (1)
 - [Cloaked Ursa](#cloaked-ursa) (1)
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (5)
@@ -196,6 +199,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-48595](#cve-2025-48595) (1)
 - [CVE-2025-8088](#cve-2025-8088) (3)
 - [CVE-2026-0257](#cve-2026-0257) (1)
+- [CVE-2026-11645](#cve-2026-11645) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
 - [CVE-2026-20245](#cve-2026-20245) (1)
@@ -290,6 +294,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Emerald Sleet](#emerald-sleet) (1)
 - [endpoint management](#endpoint-management) (1)
 - [endpoint management abuse](#endpoint-management-abuse) (1)
+- [endpoint response](#endpoint-response) (1)
 - [endpoint-security](#endpoint-security) (2)
 - [energy-sector](#energy-sector) (1)
 - [engineering software](#engineering-software) (1)
@@ -370,6 +375,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
 - [Google Ads](#google-ads) (1)
+- [Google Chrome](#google-chrome) (1)
 - [Google Drive](#google-drive) (1)
 - [Google Play](#google-play) (1)
 - [government](#government) (2)
@@ -575,9 +581,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (99)
+- [operations](#operations) (100)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (97)
+- [ops](#ops) (98)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -595,6 +601,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
+- [patch management](#patch-management) (1)
 - [patterns](#patterns) (9)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (1)
@@ -837,6 +844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [USB worm](#usb-worm) (2)
 - [UTA0355](#uta0355) (1)
 - [uTLS](#utls) (1)
+- [V8](#v8) (1)
 - [ValleyRAT](#valleyrat) (1)
 - [VBCloud](#vbcloud) (1)
 - [VBScript](#vbscript) (3)
@@ -928,6 +936,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## active exploitation
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+- [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -1256,6 +1265,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser hijacking
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
+## browser zero-day
+- [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+
 ## BTMOB
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -1333,6 +1345,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ChromElevator
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## Chromium
+- [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+
 ## CI/CD
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -1394,6 +1409,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+
+## client-side exploitation
+- [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
 ## Cloaked Ursa
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
@@ -1676,6 +1694,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-0257
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+
+## CVE-2026-11645
+- [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
 ## CVE-2026-20127
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -2003,6 +2024,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## endpoint management abuse
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 
+## endpoint response
+- [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+
 ## endpoint-security
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -2323,6 +2347,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Google Ads
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
+## Google Chrome
+- [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
 ## Google Drive
 - [GREYVIBE](../actors/greyvibe.md)
@@ -3107,6 +3134,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -3210,6 +3238,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -3345,6 +3374,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Pastebin
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+
+## patch management
+- [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
 ## patterns
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
@@ -4308,6 +4340,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## uTLS
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
+## V8
+- [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
 ## ValleyRAT
 - [TA4922](../actors/ta4922.md)

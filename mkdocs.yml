@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Chrome V8 CVE-2026-11645 exploitation: ops/chrome-v8-cve-2026-11645-exploitation.md
       - Linux nftables CVE-2026-23111 public LPE exploits: ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md
       - LiteLLM CVE-2026-42271 MCP stdio command injection: ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md
       - Quest KACE SMA CVE-2025-32975 exploitation: ops/quest-kace-sma-cve-2025-32975-exploitation.md
