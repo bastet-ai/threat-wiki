@@ -25,6 +25,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Afghanistan](#afghanistan) (2)
 - [agent frameworks](#agent-frameworks) (2)
 - [agent skills](#agent-skills) (1)
+- [agentic AI](#agentic-ai) (1)
 - [agentic malware](#agentic-malware) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (3)
@@ -38,6 +39,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI tooling](#ai-tooling) (8)
 - [ai-agent](#ai-agent) (1)
+- [AI-augmented operations](#ai-augmented-operations) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AiTM](#aitm) (1)
 - [Albania](#albania) (1)
@@ -95,7 +97,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [botnet](#botnet) (2)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
-- [Brazil](#brazil) (1)
+- [Brazil](#brazil) (2)
 - [BreachForums](#breachforums) (1)
 - [BRICKSTORM](#brickstorm) (2)
 - [browser credential theft](#browser-credential-theft) (4)
@@ -122,7 +124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China-nexus](#china-nexus) (3)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
-- [Chisel](#chisel) (2)
+- [Chisel](#chisel) (3)
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (1)
 - [CI/CD](#cicd) (25)
@@ -177,6 +179,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [control plane](#control-plane) (1)
 - [Coruna](#coruna) (1)
 - [cPanel](#cpanel) (2)
+- [CrackMapExec](#crackmapexec) (1)
 - [Crates.io](#cratesio) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential theft](#credential-theft) (15)
@@ -235,7 +238,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cybercrime](#cybercrime) (10)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [Czech Republic](#czech-republic) (1)
-- [data exfiltration](#data-exfiltration) (1)
+- [data exfiltration](#data-exfiltration) (2)
 - [data exposure](#data-exposure) (1)
 - [data theft](#data-theft) (3)
 - [data-exfiltration](#data-exfiltration) (1)
@@ -343,7 +346,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [filename-injection](#filename-injection) (1)
 - [finance](#finance) (2)
 - [financial fraud](#financial-fraud) (1)
-- [financial sector](#financial-sector) (2)
+- [financial sector](#financial-sector) (3)
 - [financial services](#financial-services) (2)
 - [financial theft](#financial-theft) (3)
 - [Flutter](#flutter) (1)
@@ -388,7 +391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Drive](#google-drive) (1)
 - [Google Play](#google-play) (1)
 - [government](#government) (2)
-- [government targeting](#government-targeting) (1)
+- [government targeting](#government-targeting) (2)
 - [government-impersonation](#government-impersonation) (1)
 - [Grandoreiro](#grandoreiro) (1)
 - [GRE](#gre) (1)
@@ -427,6 +430,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IIS](#iis) (1)
 - [IKEv1](#ikev1) (1)
 - [iMessage](#imessage) (1)
+- [Impacket](#impacket) (1)
 - [impersonation](#impersonation) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [incident response](#incident-response) (10)
@@ -467,7 +471,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Laravel](#laravel) (2)
 - [lateral movement](#lateral-movement) (2)
 - [lateral-movement](#lateral-movement) (1)
-- [Latin America](#latin-america) (1)
+- [Latin America](#latin-america) (2)
 - [launchctl](#launchctl) (1)
 - [law enforcement](#law-enforcement) (1)
 - [Lazarus](#lazarus) (4)
@@ -527,6 +531,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Maven Central](#maven-central) (1)
 - [MCP](#mcp) (3)
 - [memory-only malware](#memory-only-malware) (1)
+- [Mexico](#mexico) (1)
 - [MFA bypass](#mfa-bypass) (4)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
@@ -566,6 +571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS](#nats) (1)
 - [NCSC-NL](#ncsc-nl) (1)
 - [Nebo](#nebo) (1)
+- [Neo-reGeorg](#neo-regeorg) (1)
 - [Netherlands](#netherlands) (1)
 - [NetScaler](#netscaler) (1)
 - [network infrastructure](#network-infrastructure) (1)
@@ -599,9 +605,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (102)
+- [operations](#operations) (103)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (100)
+- [ops](#ops) (101)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -674,6 +680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PROMPTSPY](#promptspy) (1)
 - [protestware](#protestware) (1)
 - [proxy](#proxy) (5)
+- [ProxyChains](#proxychains) (1)
 - [psychological operations](#psychological-operations) (1)
 - [public exploit](#public-exploit) (1)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
@@ -750,6 +757,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ServiceNow](#servicenow) (1)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
+- [SHADOW-AETHER-040](#shadow-aether-040) (1)
+- [SHADOW-AETHER-064](#shadow-aether-064) (1)
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [ShadowPad](#shadowpad) (1)
 - [Shai-Hulud](#shai-hulud) (5)
@@ -775,6 +784,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [social engineering](#social-engineering) (9)
 - [social-engineering](#social-engineering) (2)
 - [SOCKS5](#socks5) (2)
+- [SOCKS5 tunneling](#socks5-tunneling) (1)
 - [software impersonation](#software-impersonation) (1)
 - [SolarWinds](#solarwinds) (1)
 - [source-code compromise](#source-code-compromise) (1)
@@ -790,7 +800,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spear-phishing](#spear-phishing) (2)
 - [spearphishing](#spearphishing) (1)
 - [SQL injection](#sql-injection) (2)
-- [SSH](#ssh) (1)
+- [SSH](#ssh) (2)
 - [SSH bastion](#ssh-bastion) (1)
 - [SSH key persistence](#ssh-key-persistence) (1)
 - [SSH persistence](#ssh-persistence) (1)
@@ -839,7 +849,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [traffic hijacking](#traffic-hijacking) (1)
 - [transnational repression](#transnational-repression) (1)
 - [Transparent Tribe](#transparent-tribe) (2)
-- [Trend Micro](#trend-micro) (1)
+- [Trend Micro](#trend-micro) (2)
+- [TrendAI](#trendai) (1)
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
 - [tunnel decapsulation](#tunnel-decapsulation) (1)
@@ -1025,6 +1036,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## agent skills
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 
+## agentic AI
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
 ## agentic malware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -1080,6 +1094,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ai-agent
 - [HackerBot Claw](../actors/hackerbot-claw.md)
+
+## AI-augmented operations
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## AI-generated malware
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -1278,6 +1295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Brazil
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## BreachForums
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -1374,6 +1392,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Chisel
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## ChromElevator
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -1591,6 +1610,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cPanel
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## CrackMapExec
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## Crates.io
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -1841,6 +1863,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## data exfiltration
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## data exposure
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
@@ -2245,6 +2268,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## financial sector
 - [RemotePE](../tools/remotepe.md)
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
 ## financial services
@@ -2417,6 +2441,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## government targeting
 - [Cloud Atlas](../actors/cloud-atlas.md)
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## government-impersonation
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
@@ -2544,6 +2569,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## iMessage
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
+## Impacket
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## impersonation
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
@@ -2699,6 +2727,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Latin America
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## launchctl
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -2924,6 +2953,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## memory-only malware
 - [RemotePE](../tools/remotepe.md)
 
+## Mexico
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
 ## MFA bypass
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -3057,6 +3089,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Nebo
 - [GREYVIBE](../actors/greyvibe.md)
+
+## Neo-reGeorg
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## Netherlands
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -3281,6 +3316,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -3386,6 +3422,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -3689,6 +3726,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Webworm](../actors/webworm.md)
 
+## ProxyChains
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
 ## psychological operations
 - [Handala](../actors/handala.md)
 
@@ -3970,6 +4010,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## session theft
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
+## SHADOW-AETHER-040
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
+## SHADOW-AETHER-064
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
 ## SHADOW-EARTH-066
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
@@ -4061,6 +4107,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Showboat](../tools/showboat.md)
 
+## SOCKS5 tunneling
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
 ## software impersonation
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
@@ -4114,6 +4163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## SSH
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## SSH bastion
@@ -4344,7 +4394,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](../actors/sidecopy.md)
 
 ## Trend Micro
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
+
+## TrendAI
+- [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## TrickBot
 - [GREYVIBE](../actors/greyvibe.md)

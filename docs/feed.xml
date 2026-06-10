@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>SHADOW-AETHER AI-augmented Latin America intrusions</title>
+      <link>https://threat.wiki/ops/shadow-aether-ai-augmented-latam-intrusions/</link>
+      <description>Trend Micro reports SHADOW-AETHER-040 and SHADOW-AETHER-064, likely distinct Latin America intrusion campaigns using agentic AI during operations against government and financial-sector targets. The page captures tunnel-first AI-assisted workflows through ProxyChains / SSH / Chisel / web shells, dynamic script generation, credential and configuration mining, custom backdoors such as implante_http, SHADOW-AETHER-064 POW / SOCKTZ tunneling tools, and defender guidance for detecting agentic post-exploitation inside victim networks.</description>
+      <pubDate>Wed, 10 Jun 2026 13:28:38 GMT</pubDate>
+      <guid>https://threat.wiki/ops/shadow-aether-ai-augmented-latam-intrusions/</guid>
+    </item>
+    <item>
       <title>ServiceNow instance unauthenticated table-query exploitation</title>
       <link>https://threat.wiki/ops/servicenow-instance-unauthenticated-table-query-exploitation/</link>
       <description>ServiceNow disclosed a hosted-instance security issue after detecting anomalous activity and evidence of successful instance-table queries against a subset of customers. The page captures the unauthenticated access primitive, affected Australia-release / pre-Australia configuration caveat, hosted update on 2026-06-05, no-CVE / no-attribution caveat, and defender guidance for SaaS table, integration, and downstream-secret review.</description>
