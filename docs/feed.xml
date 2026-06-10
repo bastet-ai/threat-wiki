@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>ServiceNow instance unauthenticated table-query exploitation</title>
+      <link>https://threat.wiki/ops/servicenow-instance-unauthenticated-table-query-exploitation/</link>
+      <description>ServiceNow disclosed a hosted-instance security issue after detecting anomalous activity and evidence of successful instance-table queries against a subset of customers. The page captures the unauthenticated access primitive, affected Australia-release / pre-Australia configuration caveat, hosted update on 2026-06-05, no-CVE / no-attribution caveat, and defender guidance for SaaS table, integration, and downstream-secret review.</description>
+      <pubDate>Wed, 10 Jun 2026 09:27:33 GMT</pubDate>
+      <guid>https://threat.wiki/ops/servicenow-instance-unauthenticated-table-query-exploitation/</guid>
+    </item>
+    <item>
       <title>Cloud logging control-plane tampering</title>
       <link>https://threat.wiki/patterns/cloud-logging-control-plane-tampering/</link>
       <description>Unit 42 describes cloud logging control-plane abuse against AWS CloudTrail and Google Cloud Logging: attackers with logging permissions can stop or delete log routes, delete destinations, impair decryption, poison mutable log objects, or redirect logs to attacker-controlled destinations for continuous visibility. The page captures defender heuristics for treating logging configuration as tier-zero, alerting on routing and destination changes, preserving immutable fallbacks, and validating log integrity during incident response.</description>
