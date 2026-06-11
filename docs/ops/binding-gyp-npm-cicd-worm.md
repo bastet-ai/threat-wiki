@@ -19,6 +19,8 @@ On June 8, StepSecurity reported a second Hades PyPI wave in graph machine-learn
 
 Later on June 8, StepSecurity reported a short-lived compromise of the public `Pythagora-io/gpt-pilot` AI coding-tool repository. The attacker allegedly used a compromised maintainer account to force-push a backdated Shai-Hulud-family credential stealer into `core/telemetry/`, but the repository's `ruff` formatting and lint checks failed twice and appear to have prevented a clean malicious build.
 
+On June 9, GitHub announced npm v12 security-default changes that directly address this incident class. GitHub says npm v12, estimated for July 2026, will make `npm install` stop executing dependency `preinstall`, `install`, and `postinstall` scripts unless the project explicitly allows them. GitHub specifically says this also blocks implicit native `node-gyp` builds from packages that contain `binding.gyp`, because npm currently runs `node-gyp rebuild` for that shape even without an explicit install script. npm 11.16.0 and newer can already show warnings and help maintainers prepare with `npm approve-scripts --allow-scripts-pending`, `npm approve-scripts`, and `npm deny-scripts`.
+
 ## Tags
 - ops
 - operations
@@ -49,6 +51,7 @@ Later on June 8, StepSecurity reported a short-lived compromise of the public `P
 - The June 7 Socket report shows the same lineage adapting to PyPI wheels through executable `.pth` startup hooks, and StepSecurity's June 8 follow-up shows package-import execution through `__init__.py`; Python dependency review needs the same scrutiny defenders apply to npm lifecycle scripts and native-addon build paths.
 - StepSecurity's June 8 report shows the campaign targeting both CI/CD runners and developer workstations: cross-platform runner-memory scraping, SSH/SCP staging to known hosts, AI-assistant / IDE rule hijacking, and token-revocation-triggered wiper deterrence make simple package yanking or immediate token revocation insufficient without host containment.
 - The `gpt-pilot` incident shows a source-repository takeover path where ordinary code-quality gates can become useful tripwires: style and import-order failures are not a replacement for branch protection, but they can block attacker code that does not match a project's normal conventions.
+- GitHub's announced npm v12 defaults turn the main `binding.gyp` lesson into an ecosystem control: dependency install-time code should be denied by default and restored only through committed, reviewable package-level allowlists.
 
 ## Reported chain
 
@@ -180,6 +183,9 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 ## Defender heuristics
 
 ### Package review
+- Start testing npm 11.16.0+ warnings before npm v12 lands. Run `npm approve-scripts --allow-scripts-pending`, review every dependency that wants install-time execution, commit the resulting allowlist for packages you trust, and explicitly deny the rest with `npm deny-scripts`.
+- Treat npm v12 script-approval diffs as security-relevant code review. A new allowlist entry for `preinstall`, `install`, `postinstall`, `prepare`, or an implicit `node-gyp` build can re-enable the same execution class used by Miasma / Phantom Gyp.
+- Avoid broad fallbacks that undo the new defaults, such as globally re-enabling scripts for convenience. Prefer per-project allowlists and CI checks that fail when unreviewed packages request install-time execution.
 - Treat unexpected `binding.gyp` additions as install-time code-execution signals, even when `package.json` scripts are absent or unchanged.
 - Treat executable `*.pth` / `*-setup.pth` additions in wheels as Python startup execution signals. A wheel that downloads a runtime, writes tempdir executables, or launches `bun run _index.js` should be handled as malicious even if normal package imports are never used.
 - Treat unexpected import-side code in package `__init__.py` as a Python execution trigger. Flag imports that search `sys.path` for `_index.js`, download Bun, create `/tmp/.bun_ran`, or execute JavaScript from package-local files.
@@ -273,4 +279,5 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - StepSecurity Hades graph-ML PyPI import-hook wave analysis: https://www.stepsecurity.io/blog/the-hades-campaign-pypi-packages
 - Socket Hades PyPI native-extension and MCP-loader follow-up: https://socket.dev/blog/mini-shai-hulud-miasma-and-hades-worms-target-bioinformatics-and-mcp-developers-via-malicious
 - StepSecurity `Pythagora-io/gpt-pilot` repository compromise analysis: https://www.stepsecurity.io/blog/pythagora-io-gpt-pilot-compromised-on-github-shai-hulud-credential-stealer-blocked-by-python-linter
+- GitHub Changelog: https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/
 - PyPI: https://pypi.org/pypi/durabletask/json
