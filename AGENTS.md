@@ -135,3 +135,5 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Current active watch: Shai-Hulud / Mini Shai-Hulud / TeamPCP supply-chain activity. Prioritize new package families, propagation primitives, CI/OIDC abuse paths, persistence mechanisms, exfiltration infrastructure/naming, maintainer postmortems, official advisories, and meaningful attribution changes.
 - Track scan state outside the repo at `/home/user/clawd/memory/threat-intel-state.json`; keep this public repo free of private local monitoring state.
 - OpenClaw cron job name: `Threat wiki: threat intel scan → wiki updates`; repo path: `/home/user/clawd/threat.wiki`.
+
+- Unit 42's June 11, 2026 Behavioral Integrity Verification research belongs on `docs/patterns/agent-skill-marketplace-poisoning.md`: treat agent skills as multi-surface dependencies (metadata, executable code, natural-language instructions), prioritize chain-based review for FILE_READ→encoding→NETWORK_SEND, download→write→execute, and encoded dynamic-eval patterns, and keep the OpenClaw registry-scale stats caveated as classifier-predicted review candidates rather than runtime-confirmed exploits.

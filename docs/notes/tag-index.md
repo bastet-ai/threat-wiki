@@ -85,6 +85,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [Bedrock](#bedrock) (1)
+- [behavioral integrity verification](#behavioral-integrity-verification) (1)
 - [Belarus](#belarus) (2)
 - [BinaryFormatter](#binaryformatter) (1)
 - [binding.gyp](#bindinggyp) (1)
@@ -1260,6 +1261,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bedrock
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
+## behavioral integrity verification
+- [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 
 ## Belarus
 - [Cloud Atlas](../actors/cloud-atlas.md)
