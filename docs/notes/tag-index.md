@@ -129,7 +129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chisel](#chisel) (3)
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (1)
-- [CI/CD](#cicd) (25)
+- [CI/CD](#cicd) (26)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (7)
 - [Cisco](#cisco) (1)
@@ -147,6 +147,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud credential theft](#cloud-credential-theft) (3)
 - [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
 - [Cloud Filter driver](#cloud-filter-driver) (1)
+- [cloud IAM](#cloud-iam) (1)
 - [cloud identity](#cloud-identity) (1)
 - [cloud infrastructure](#cloud-infrastructure) (1)
 - [cloud logging](#cloud-logging) (1)
@@ -376,7 +377,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [GitHub](#github) (12)
 - [GitHub abuse](#github-abuse) (1)
-- [GitHub Actions](#github-actions) (15)
+- [GitHub Actions](#github-actions) (16)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
 - [GitHub OAuth](#github-oauth) (1)
@@ -576,6 +577,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
 - [named pipes](#named-pipes) (1)
+- [namespace recycling](#namespace-recycling) (1)
 - [nation-state](#nation-state) (1)
 - [NATS](#nats) (1)
 - [NCSC-NL](#ncsc-nl) (1)
@@ -602,7 +604,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OAuth tokens](#oauth-tokens) (1)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
-- [OIDC](#oidc) (3)
+- [OIDC](#oidc) (4)
 - [Okta](#okta) (4)
 - [Ollama](#ollama) (1)
 - [Oman](#oman) (1)
@@ -635,7 +637,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
-- [patterns](#patterns) (10)
+- [patterns](#patterns) (11)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (1)
 - [payment-card-theft](#payment-card-theft) (1)
@@ -828,8 +830,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-3075](#storm-3075) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
+- [subject claim](#subject-claim) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (55)
+- [supply-chain](#supply-chain) (56)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
 - [T3](#t3) (1)
@@ -866,6 +869,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrendAI](#trendai) (1)
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
+- [trusted publishing](#trusted-publishing) (1)
 - [tunnel decapsulation](#tunnel-decapsulation) (1)
 - [Twilio](#twilio) (1)
 - [typosquat](#typosquat) (1)
@@ -1432,6 +1436,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+- [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [JINX-0164](../actors/jinx-0164.md)
@@ -1515,6 +1520,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cloud Filter driver
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+
+## cloud IAM
+- [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 
 ## cloud identity
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -2402,6 +2410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+- [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
@@ -3126,6 +3135,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## named pipes
 - [OceanLotus](../actors/oceanlotus.md)
 
+## namespace recycling
+- [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
+
 ## nation-state
 - [ROADtools](../tools/roadtools.md)
 
@@ -3239,6 +3251,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OIDC
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
@@ -3560,6 +3573,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+- [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
@@ -4273,6 +4287,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Stuxnet lineage
 - [Fast16](../tools/fast16.md)
 
+## subject claim
+- [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
+
 ## supply chain compromise
 - [OceanLotus](../actors/oceanlotus.md)
 
@@ -4299,6 +4316,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+- [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -4469,6 +4487,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Trident Ursa
 - [Gamaredon](../actors/gamaredon.md)
+
+## trusted publishing
+- [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 
 ## tunnel decapsulation
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)

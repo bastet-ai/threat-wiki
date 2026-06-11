@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>GitHub Actions OIDC subject-claim collisions</title>
+      <link>https://threat.wiki/patterns/github-actions-oidc-subject-claim-collisions/</link>
+      <description>Boost Security Labs disclosed a short-lived GitHub Actions OIDC immutable-subject preview issue where a hyphen delimiter allowed exact string collisions between victim immutable claims and attacker-controlled legacy namespaces. The page captures the Sleeper Squats pre-registration pattern, affected trust boundaries such as cloud IAM and trusted publishing, GitHub's current @ delimiter fix, and defender guidance to avoid broad string-only OIDC trust policies.</description>
+      <pubDate>Thu, 11 Jun 2026 19:25:38 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/github-actions-oidc-subject-claim-collisions/</guid>
+    </item>
+    <item>
       <title>OceanLotus</title>
       <link>https://threat.wiki/actors/oceanlotus/</link>
       <description>ESET reports 2024-2026 OceanLotus / APT32 activity showing increased domestic Vietnamese espionage, including a selective FireAnt MetaKit stock-investor supply-chain compromise and a long-running Vietnamese infrastructure / transport construction intrusion. The new profile captures SPECTRALVIPER side-loading, encrypted Cookie-header beacons, named-pipe orchestration, FireAnt update-protocol weaknesses, and defender pivots for the reported campaigns.</description>

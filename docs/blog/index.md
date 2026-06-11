@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [OceanLotus FireAnt MetaKit / SPECTRALVIPER domestic espionage update](../actors/oceanlotus.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [Unit 42 PAN-OS GlobalProtect CVE-2026-0257 exploitation pivots](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)

@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [GitHub Actions OIDC subject-claim collisions](patterns/github-actions-oidc-subject-claim-collisions.md)
 - [OceanLotus](actors/oceanlotus.md)
 - [JDY SOHO / IoT reconnaissance botnet](ops/jdy-soho-iot-recon-botnet.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Chrome V8 CVE-2026-11645 exploitation](ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [UAC-0226 / SHADOW-EARTH-066](actors/uac-0226-shadow-earth-066.md)
-- [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
