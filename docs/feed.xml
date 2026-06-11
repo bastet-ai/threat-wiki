@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>OceanLotus</title>
+      <link>https://threat.wiki/actors/oceanlotus/</link>
+      <description>ESET reports 2024-2026 OceanLotus / APT32 activity showing increased domestic Vietnamese espionage, including a selective FireAnt MetaKit stock-investor supply-chain compromise and a long-running Vietnamese infrastructure / transport construction intrusion. The new profile captures SPECTRALVIPER side-loading, encrypted Cookie-header beacons, named-pipe orchestration, FireAnt update-protocol weaknesses, and defender pivots for the reported campaigns.</description>
+      <pubDate>Thu, 11 Jun 2026 13:27:28 GMT</pubDate>
+      <guid>https://threat.wiki/actors/oceanlotus/</guid>
+    </item>
+    <item>
       <title>JDY SOHO / IoT reconnaissance botnet</title>
       <link>https://threat.wiki/ops/jdy-soho-iot-recon-botnet/</link>
       <description>Lumen Black Lotus Labs reports JDY, a China-nexus reconnaissance botnet that grew from the earlier KV-botnet JDY cluster into more than 1,500 compromised SOHO and IoT devices. The page captures JDY's Tor-managed C2 and payload architecture, distributed service fingerprinting, rapid post-disclosure Fortinet scanning, MIPS-family Linux scanner behavior, Dispatch Service paths, and defender heuristics for residential-IP reconnaissance that can precede edge-device exploitation.</description>

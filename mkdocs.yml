@@ -121,6 +121,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - OceanLotus: actors/oceanlotus.md
       - UAC-0226 / SHADOW-EARTH-066: actors/uac-0226-shadow-earth-066.md
       - VerdantBamboo: actors/verdantbamboo.md
       - UNC3753: actors/unc3753.md

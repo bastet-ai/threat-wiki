@@ -55,6 +55,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT27](#apt27) (1)
 - [APT28](#apt28) (1)
 - [APT29](#apt29) (1)
+- [APT32](#apt32) (1)
 - [APT36](#apt36) (2)
 - [APT37](#apt37) (1)
 - [APT43](#apt43) (1)
@@ -271,12 +272,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [diplomatic targeting](#diplomatic-targeting) (1)
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
-- [DLL side-loading](#dll-side-loading) (1)
+- [DLL side-loading](#dll-side-loading) (2)
 - [DLL sideloading](#dll-sideloading) (6)
 - [DNS C2](#dns-c2) (2)
 - [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
 - [document theft](#document-theft) (3)
+- [domestic espionage](#domestic-espionage) (1)
 - [DotNetNuke](#dotnetnuke) (1)
 - [double extortion](#double-extortion) (1)
 - [DPAPI](#dpapi) (1)
@@ -315,7 +317,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (26)
+- [espionage](#espionage) (27)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -350,6 +352,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [financial sector](#financial-sector) (3)
 - [financial services](#financial-services) (2)
 - [financial theft](#financial-theft) (3)
+- [FireAnt MetaKit](#fireant-metakit) (1)
 - [Flutter](#flutter) (1)
 - [FlutterShell](#fluttershell) (1)
 - [Forest Blizzard](#forest-blizzard) (1)
@@ -545,6 +548,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft 365](#microsoft-365) (2)
 - [Microsoft Defender](#microsoft-defender) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
+- [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (2)
 - [Middle East](#middle-east) (1)
 - [middleware](#middleware) (1)
@@ -571,6 +575,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MSP](#msp) (3)
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
+- [named pipes](#named-pipes) (1)
 - [nation-state](#nation-state) (1)
 - [NATS](#nats) (1)
 - [NCSC-NL](#ncsc-nl) (1)
@@ -676,7 +681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (7)
 - [process hollowing](#process-hollowing) (2)
-- [process injection](#process-injection) (1)
+- [process injection](#process-injection) (2)
 - [professional services](#professional-services) (1)
 - [prompt injection](#prompt-injection) (2)
 - [prompt-injection](#prompt-injection) (4)
@@ -800,11 +805,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [South Africa](#south-africa) (1)
 - [South Asia](#south-asia) (1)
 - [South Korea](#south-korea) (2)
-- [Southeast Asia](#southeast-asia) (2)
+- [Southeast Asia](#southeast-asia) (3)
 - [spam](#spam) (1)
 - [spear phishing](#spear-phishing) (4)
 - [spear-phishing](#spear-phishing) (2)
 - [spearphishing](#spearphishing) (1)
+- [SPECTRALVIPER](#spectralviper) (1)
 - [SQL injection](#sql-injection) (2)
 - [SSH](#ssh) (2)
 - [SSH bastion](#ssh-bastion) (1)
@@ -822,6 +828,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-3075](#storm-3075) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
+- [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (55)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
@@ -888,7 +895,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBScript](#vbscript) (3)
 - [Vercel](#vercel) (1)
 - [Vidar Stealer](#vidar-stealer) (1)
-- [Vietnam](#vietnam) (1)
+- [Vietnam](#vietnam) (2)
+- [Vietnam-aligned](#vietnam-aligned) (1)
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
 - [virtualization](#virtualization) (1)
@@ -1155,6 +1163,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## APT29
 - [ROADtools](../tools/roadtools.md)
+
+## APT32
+- [OceanLotus](../actors/oceanlotus.md)
 
 ## APT36
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -1993,6 +2004,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 
 ## DLL side-loading
+- [OceanLotus](../actors/oceanlotus.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## DLL sideloading
@@ -2017,6 +2029,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## domestic espionage
+- [OceanLotus](../actors/oceanlotus.md)
 
 ## DotNetNuke
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
@@ -2149,6 +2164,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+- [OceanLotus](../actors/oceanlotus.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [OP-512](../actors/op-512.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
@@ -2291,6 +2307,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [RemotePE](../tools/remotepe.md)
+
+## FireAnt MetaKit
+- [OceanLotus](../actors/oceanlotus.md)
 
 ## Flutter
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -3013,6 +3032,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 - [Webworm](../actors/webworm.md)
 
+## Microsoft SQL Server
+- [OceanLotus](../actors/oceanlotus.md)
+
 ## Microsoft Teams
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
@@ -3100,6 +3122,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MuddyWater
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## named pipes
+- [OceanLotus](../actors/oceanlotus.md)
 
 ## nation-state
 - [ROADtools](../tools/roadtools.md)
@@ -3720,6 +3745,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## process injection
+- [OceanLotus](../actors/oceanlotus.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
 ## professional services
@@ -4170,6 +4196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Southeast Asia
+- [OceanLotus](../actors/oceanlotus.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Showboat](../tools/showboat.md)
 
@@ -4188,6 +4215,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## spearphishing
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
+## SPECTRALVIPER
+- [OceanLotus](../actors/oceanlotus.md)
 
 ## SQL injection
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -4242,6 +4272,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Stuxnet lineage
 - [Fast16](../tools/fast16.md)
+
+## supply chain compromise
+- [OceanLotus](../actors/oceanlotus.md)
 
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -4544,7 +4577,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## Vietnam
+- [OceanLotus](../actors/oceanlotus.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+
+## Vietnam-aligned
+- [OceanLotus](../actors/oceanlotus.md)
 
 ## Views
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
