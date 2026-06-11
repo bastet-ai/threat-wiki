@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [JDY SOHO / IoT reconnaissance botnet](ops/jdy-soho-iot-recon-botnet.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [ServiceNow instance unauthenticated table-query exploitation](ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [UAC-0226 / SHADOW-EARTH-066](actors/uac-0226-shadow-earth-066.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [AI-brand impersonation phishing and malvertising](patterns/ai-brand-impersonation-phishing-malvertising.md)
-- [Linux nftables CVE-2026-23111 public LPE exploits](ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

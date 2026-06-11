@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [Unit 42 PAN-OS GlobalProtect CVE-2026-0257 exploitation pivots](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)

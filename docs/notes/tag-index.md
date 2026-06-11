@@ -94,7 +94,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile](#blackfile) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [BLUEBEAM](#bluebeam) (1)
-- [botnet](#botnet) (2)
+- [botnet](#botnet) (3)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [Brazil](#brazil) (2)
@@ -121,7 +121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Checkmarx](#checkmarx) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (2)
-- [China-nexus](#china-nexus) (3)
+- [China-nexus](#china-nexus) (4)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chisel](#chisel) (3)
@@ -439,7 +439,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure](#infrastructure) (3)
 - [initial-access](#initial-access) (1)
 - [iOS](#ios) (1)
-- [IoT](#iot) (1)
+- [IoT](#iot) (2)
 - [IP-in-IP](#ip-in-ip) (1)
 - [Iran](#iran) (5)
 - [Iran-nexus](#iran-nexus) (1)
@@ -451,6 +451,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript loader](#javascript-loader) (1)
 - [JavaScript malware](#javascript-malware) (1)
 - [JavaScript tampering](#javascript-tampering) (1)
+- [JDY](#jdy) (1)
 - [JetStream](#jetstream) (1)
 - [JINX-0164](#jinx-0164) (2)
 - [JSCoreRunner](#jscorerunner) (1)
@@ -463,6 +464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keylogger](#keylogger) (2)
 - [Kimsuky](#kimsuky) (1)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
+- [KV-botnet](#kv-botnet) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
 - [LangChain](#langchain) (1)
@@ -508,6 +510,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LS-DYNA](#ls-dyna) (1)
 - [LSASS](#lsass) (1)
 - [Lua](#lua) (1)
+- [Lumen Black Lotus Labs](#lumen-black-lotus-labs) (1)
 - [Luna Moth](#luna-moth) (1)
 - [MacCMS](#maccms) (1)
 - [macOS](#macos) (6)
@@ -605,9 +608,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (103)
+- [operations](#operations) (104)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (101)
+- [ops](#ops) (102)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -702,6 +705,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RDP](#rdp) (1)
 - [Reality](#reality) (1)
 - [Reaper](#reaper) (1)
+- [reconnaissance](#reconnaissance) (1)
 - [recovery denial](#recovery-denial) (1)
 - [recruitment lures](#recruitment-lures) (1)
 - [Redis backdoor](#redis-backdoor) (1)
@@ -786,6 +790,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOCKS5](#socks5) (2)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
 - [software impersonation](#software-impersonation) (1)
+- [SOHO routers](#soho-routers) (1)
 - [SolarWinds](#solarwinds) (1)
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
@@ -890,6 +895,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VLESS](#vless) (1)
 - [vManage](#vmanage) (1)
 - [VMware](#vmware) (2)
+- [Volt Typhoon](#volt-typhoon) (1)
 - [VPN](#vpn) (3)
 - [VS Code](#vs-code) (5)
 - [VS Code tunnels](#vs-code-tunnels) (1)
@@ -1286,6 +1292,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## botnet
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
 ## branch-compromise
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -1379,6 +1386,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
 ## China-nexus
+- [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -2618,6 +2626,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## IoT
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
 ## IP-in-IP
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -2657,6 +2666,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JavaScript tampering
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## JDY
+- [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
 ## JetStream
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -2698,6 +2710,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## KnowledgeDeliver
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## KV-botnet
+- [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
 ## L2TP/IPSec
 - [First VPN](../tools/first-vpn.md)
@@ -2862,6 +2877,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Lua
 - [Fast16](../tools/fast16.md)
+
+## Lumen Black Lotus Labs
+- [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
 ## Luna Moth
 - [UNC3753](../actors/unc3753.md)
@@ -3277,6 +3295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -3383,6 +3402,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -3821,6 +3841,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Reaper
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
+## reconnaissance
+- [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+
 ## recovery denial
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
@@ -4113,6 +4136,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## software impersonation
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
+## SOHO routers
+- [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
 ## SolarWinds
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -4538,6 +4564,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VMware
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
+## Volt Typhoon
+- [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
 ## VPN
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)

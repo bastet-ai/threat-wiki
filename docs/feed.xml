@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>JDY SOHO / IoT reconnaissance botnet</title>
+      <link>https://threat.wiki/ops/jdy-soho-iot-recon-botnet/</link>
+      <description>Lumen Black Lotus Labs reports JDY, a China-nexus reconnaissance botnet that grew from the earlier KV-botnet JDY cluster into more than 1,500 compromised SOHO and IoT devices. The page captures JDY's Tor-managed C2 and payload architecture, distributed service fingerprinting, rapid post-disclosure Fortinet scanning, MIPS-family Linux scanner behavior, Dispatch Service paths, and defender heuristics for residential-IP reconnaissance that can precede edge-device exploitation.</description>
+      <pubDate>Thu, 11 Jun 2026 09:25:54 GMT</pubDate>
+      <guid>https://threat.wiki/ops/jdy-soho-iot-recon-botnet/</guid>
+    </item>
+    <item>
       <title>PAN-OS GlobalProtect CVE-2026-0257 exploitation pivots</title>
       <link>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/</link>
       <description>Unit 42 reports active exploitation of PAN-OS GlobalProtect CVE-2026-0257 by an unidentified actor attempting unauthorized VPN access. The updated page adds Unit 42's pre-PoC source IP pivots, suspicious generic host-ID and device-name values, the gateway-connected event triage focus, and Palo Alto Networks mitigation guidance for fixed releases, dedicated authentication-override certificates, or disabling authentication override.</description>
