@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [ShinyHunters](actors/shinyhunters.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [GitHub Actions OIDC subject-claim collisions](patterns/github-actions-oidc-subject-claim-collisions.md)
 - [OceanLotus](actors/oceanlotus.md)
@@ -16,7 +18,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [ServiceNow instance unauthenticated table-query exploitation](ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [Cloud logging control-plane tampering](patterns/cloud-logging-control-plane-tampering.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
-- [Chrome V8 CVE-2026-11645 exploitation](ops/chrome-v8-cve-2026-11645-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

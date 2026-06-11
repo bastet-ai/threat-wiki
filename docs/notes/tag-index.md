@@ -11,9 +11,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (20)
+- [active exploitation](#active-exploitation) (21)
 - [active-exploitation](#active-exploitation) (1)
-- [actor](#actor) (1)
+- [actor](#actor) (2)
 - [actors](#actors) (5)
 - [Adaptix C2](#adaptix-c2) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
@@ -223,6 +223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-3300](#cve-2026-3300) (1)
 - [CVE-2026-33017](#cve-2026-33017) (1)
 - [CVE-2026-34926](#cve-2026-34926) (1)
+- [CVE-2026-35273](#cve-2026-35273) (2)
 - [CVE-2026-35616](#cve-2026-35616) (1)
 - [CVE-2026-39987](#cve-2026-39987) (1)
 - [CVE-2026-41091](#cve-2026-41091) (1)
@@ -245,7 +246,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Czech Republic](#czech-republic) (1)
 - [data exfiltration](#data-exfiltration) (2)
 - [data exposure](#data-exposure) (1)
-- [data theft](#data-theft) (3)
+- [data leak site](#data-leak-site) (2)
+- [data theft](#data-theft) (4)
 - [data-exfiltration](#data-exfiltration) (1)
 - [DAYLIGHT](#daylight) (1)
 - [DDoS](#ddos) (1)
@@ -316,6 +318,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [energy-sector](#energy-sector) (1)
 - [engineering software](#engineering-software) (1)
 - [Entra ID](#entra-id) (2)
+- [Environment Management Hub](#environment-management-hub) (1)
 - [environment variables](#environment-variables) (1)
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
@@ -333,7 +336,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (10)
 - [external federation](#external-federation) (1)
-- [extortion](#extortion) (3)
+- [extortion](#extortion) (5)
 - [fake CAPTCHA](#fake-captcha) (1)
 - [fake dating lures](#fake-dating-lures) (1)
 - [fake plugin](#fake-plugin) (1)
@@ -403,7 +406,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro](#grandoreiro) (1)
 - [GRE](#gre) (1)
 - [GREYVIBE](#greyvibe) (1)
-- [group](#group) (1)
+- [group](#group) (2)
 - [groups](#groups) (9)
 - [GUE](#gue) (1)
 - [hack-and-leak](#hack-and-leak) (1)
@@ -417,6 +420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HelloDoor](#hellodoor) (1)
 - [HellsGate](#hellsgate) (1)
 - [high explosives](#high-explosives) (1)
+- [higher education](#higher-education) (2)
 - [HONESTCUE](#honestcue) (1)
 - [hosting provider](#hosting-provider) (1)
 - [HR lures](#hr-lures) (1)
@@ -465,6 +469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JSCoreRunner](#jscorerunner) (1)
 - [JSON:API](#jsonapi) (1)
 - [JSONPing](#jsonping) (1)
+- [JSP web shell](#jsp-web-shell) (1)
 - [Kaspersky](#kaspersky) (2)
 - [kernel driver](#kernel-driver) (1)
 - [KEV](#kev) (3)
@@ -542,6 +547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Maven Central](#maven-central) (1)
 - [MCP](#mcp) (3)
 - [memory-only malware](#memory-only-malware) (1)
+- [MeshCentral](#meshcentral) (2)
 - [Mexico](#mexico) (1)
 - [MFA bypass](#mfa-bypass) (4)
 - [MFA fatigue](#mfa-fatigue) (1)
@@ -621,10 +627,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (105)
+- [operations](#operations) (106)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (103)
+- [ops](#ops) (104)
 - [opsec failure](#opsec-failure) (1)
+- [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
 - [Outlook](#outlook) (1)
@@ -650,6 +657,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [PebbleDash](#pebbledash) (1)
 - [people](#people) (1)
+- [PeopleTools](#peopletools) (1)
 - [persistence](#persistence) (14)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
@@ -697,6 +705,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [protestware](#protestware) (1)
 - [proxy](#proxy) (5)
 - [ProxyChains](#proxychains) (1)
+- [PSEMHUB](#psemhub) (1)
 - [psychological operations](#psychological-operations) (1)
 - [public exploit](#public-exploit) (1)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
@@ -783,6 +792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared hosting](#shared-hosting) (2)
 - [shared secrets](#shared-secrets) (1)
 - [SharePoint](#sharepoint) (1)
+- [ShinyHunters](#shinyhunters) (2)
 - [Shuckworm](#shuckworm) (1)
 - [SideCopy](#sidecopy) (1)
 - [signed malware](#signed-malware) (1)
@@ -796,6 +806,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sliver](#sliver) (1)
 - [SLSA](#slsa) (1)
 - [SmartScreen](#smartscreen) (1)
+- [SMB egress](#smb-egress) (1)
 - [smishing](#smishing) (2)
 - [SMTP](#smtp) (1)
 - [social engineering](#social-engineering) (9)
@@ -886,9 +897,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Udev persistence](#udev-persistence) (1)
 - [Ukraine](#ukraine) (7)
 - [unauthenticated access](#unauthenticated-access) (1)
+- [unauthenticated RCE](#unauthenticated-rce) (1)
 - [UNC2814](#unc2814) (1)
 - [UNC3753](#unc3753) (1)
 - [UNC4736](#unc4736) (1)
+- [UNC6240](#unc6240) (2)
 - [UNC6671](#unc6671) (1)
 - [UNC6692](#unc6692) (2)
 - [UNC6780](#unc6780) (1)
@@ -936,6 +949,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web supply chain](#web-supply-chain) (1)
 - [web-shells](#web-shells) (1)
 - [WebKit](#webkit) (1)
+- [WebLogic](#weblogic) (1)
 - [WebRTC](#webrtc) (1)
 - [webshell](#webshell) (1)
 - [WebSocket C2](#websocket-c2) (1)
@@ -964,7 +978,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zendesk](#zendesk) (1)
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
-- [zero-day](#zero-day) (2)
+- [zero-day](#zero-day) (3)
 
 ## .NET
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -1006,6 +1020,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -1017,6 +1032,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 
 ## actor
+- [ShinyHunters](../actors/shinyhunters.md)
 - [UNC3753](../actors/unc3753.md)
 
 ## actors
@@ -1837,6 +1853,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-34926
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
+## CVE-2026-35273
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [ShinyHunters](../actors/shinyhunters.md)
+
 ## CVE-2026-35616
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 
@@ -1914,9 +1934,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## data exposure
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
+## data leak site
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [ShinyHunters](../actors/shinyhunters.md)
+
 ## data theft
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [ShinyHunters](../actors/shinyhunters.md)
 - [UNC3753](../actors/unc3753.md)
 
 ## data-exfiltration
@@ -2166,6 +2191,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [ROADtools](../tools/roadtools.md)
 
+## Environment Management Hub
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
 ## environment variables
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 
@@ -2259,6 +2287,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [ShinyHunters](../actors/shinyhunters.md)
 - [UNC3753](../actors/unc3753.md)
 
 ## fake CAPTCHA
@@ -2513,6 +2543,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## group
 - [HackerBot Claw](../actors/hackerbot-claw.md)
+- [ShinyHunters](../actors/shinyhunters.md)
 
 ## groups
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
@@ -2560,6 +2591,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## high explosives
 - [Fast16](../tools/fast16.md)
+
+## higher education
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [ShinyHunters](../actors/shinyhunters.md)
 
 ## HONESTCUE
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -2736,6 +2771,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JSONPing
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
+## JSP web shell
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
 ## Kaspersky
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -3022,6 +3060,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## memory-only malware
 - [RemotePE](../tools/remotepe.md)
+
+## MeshCentral
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [ShinyHunters](../actors/shinyhunters.md)
 
 ## Mexico
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -3395,6 +3437,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -3503,6 +3546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -3535,6 +3579,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## opsec failure
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+
+## Oracle PeopleSoft
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [ShinyHunters](../actors/shinyhunters.md)
 
 ## Oracle WebLogic Server
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
@@ -3624,6 +3672,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## people
 - [JiaT75](../people/jiat75.md)
+
+## PeopleTools
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
 ## persistence
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -3820,6 +3871,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ProxyChains
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
+## PSEMHUB
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
 ## psychological operations
 - [Handala](../actors/handala.md)
@@ -4138,6 +4192,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SharePoint
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
+## ShinyHunters
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [ShinyHunters](../actors/shinyhunters.md)
+
 ## Shuckworm
 - [Gamaredon](../actors/gamaredon.md)
 
@@ -4176,6 +4234,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SmartScreen
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
+## SMB egress
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
 ## smishing
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -4566,6 +4627,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## unauthenticated access
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
+## unauthenticated RCE
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
 ## UNC2814
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -4574,6 +4638,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UNC4736
 - [RemotePE](../tools/remotepe.md)
+
+## UNC6240
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [ShinyHunters](../actors/shinyhunters.md)
 
 ## UNC6671
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -4745,6 +4813,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## WebKit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
+## WebLogic
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
 ## WebRTC
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -4861,3 +4932,4 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## zero-day
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
