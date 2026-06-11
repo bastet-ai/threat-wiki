@@ -6,6 +6,8 @@ Developer tooling increasingly treats repository-local configuration as executab
 
 SafeDep's June 2026 Miasma source-repository writeup is the clearest current worked example: the actor skipped the package-registry path in more than 120 GitHub repositories and planted `.github/setup.js` behind launcher files for Claude Code, Gemini CLI, Cursor, VS Code, and `npm test`. The reported `icflorescu/mantine-datatable` commit did not need a malicious dependency. It turned project-local config into the execution primitive.
 
+StepSecurity's June 11 Miasma/Hades follow-up extends the same review model beyond obvious editor and agent config: Miasma used a small `binding.gyp` native-build trigger, Hades used injected Python `__init__.py` import hooks, and repository poisoning used `.vscode/tasks.json` plus `.claude/setup.mjs` launchers. The common defender lesson is that the dangerous file can be a quiet project-tree artifact rather than a declared dependency or a visible package lifecycle script.
+
 ## Tags
 - patterns
 - supply-chain
@@ -35,6 +37,7 @@ Treat these as execution-capable when reviewing unfamiliar repositories:
 - GitHub-local setup files such as `.github/setup.js` when referenced by editor or agent config.
 - Package scripts such as `package.json` `test`, `prepare`, `preinstall`, or `postinstall` that call unexpected repository-local setup files.
 - Composer, Bundler, native build, or other ecosystem config files that can invoke shell commands during install, test, or project initialization.
+- Native build and language-import hooks such as npm `binding.gyp` / `node-gyp` paths or Python package `__init__.py` code that fetches and runs an external runtime or payload.
 
 ## Defender heuristics
 
@@ -43,6 +46,7 @@ Before opening an unfamiliar or recently compromised repository in an editor or 
 - Inspect configuration files from a plain terminal or read-only viewer first.
 - Search for commands that run `node`, `bun`, `python`, `bash`, `curl`, `wget`, `powershell`, `osascript`, `chmod`, or package-manager commands from editor or agent hooks.
 - Flag config that runs files under `.github/`, `.claude/`, `.gemini/`, `.cursor/`, `.vscode/`, or temporary setup paths.
+- Flag small native-build or import-hook files that launch larger hidden payloads, especially `binding.gyp` files, injected package `__init__.py` hooks, `*-setup.pth` startup hooks, native `.abi3.so` import paths, and Bun download/execution from Python or Node.js tooling.
 - Treat `runOn: folderOpen`, `SessionStart`, `alwaysApply: true`, and agent instructions that ask the assistant to run setup code as execution triggers.
 - Review large one-line JavaScript files, especially when small config files launch them.
 - Use sandboxed disposable environments for first open / first test of untrusted code.
@@ -74,3 +78,4 @@ The operational lesson is narrow and reusable: cloning was not the dangerous ste
 - SafeDep source-repository arm analysis: https://safedep.io/miasma-worm-ai-coding-agent-config-injection/
 - SafeDep config-file execution blind spot analysis: https://safedep.io/config-files-that-run-code/
 - StepSecurity Miasma Microsoft repository disablement follow-up: https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents
+- StepSecurity Miasma/Hades suspicious-files detection note: https://www.stepsecurity.io/blog/miasma-and-hades-are-spreading-now-detect-them-on-developer-machines-with-suspicious-files
