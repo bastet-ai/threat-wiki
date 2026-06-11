@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Ivanti Sentry CVE-2026-10520 exploitation</title>
+      <link>https://threat.wiki/ops/ivanti-sentry-cve-2026-10520-exploitation/</link>
+      <description>CISA added Ivanti Sentry CVE-2026-10520 to KEV on 2026-06-11 after public reporting identified a critical OS command-injection path that can allow unauthenticated root-level RCE on exposed, unmanaged Sentry appliances. The page captures fixed versions R10.5.2 / R10.6.2 / R10.7.1, companion CVE-2026-10523 authentication bypass risk, watchTowr route analysis for /mics/api/v2/sentry/mics-config/handleMessage, and responder guidance for edge-appliance containment and log review.</description>
+      <pubDate>Thu, 11 Jun 2026 21:26:09 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ivanti-sentry-cve-2026-10520-exploitation/</guid>
+    </item>
+    <item>
       <title>GitHub Actions OIDC subject-claim collisions</title>
       <link>https://threat.wiki/patterns/github-actions-oidc-subject-claim-collisions/</link>
       <description>Boost Security Labs disclosed a short-lived GitHub Actions OIDC immutable-subject preview issue where a hyphen delimiter allowed exact string collisions between victim immutable claims and attacker-controlled legacy namespaces. The page captures the Sleeper Squats pre-registration pattern, affected trust boundaries such as cloud IAM and trusted publishing, GitHub's current @ delimiter fix, and defender guidance to avoid broad string-only OIDC trust policies.</description>

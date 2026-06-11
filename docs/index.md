@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Ivanti Sentry CVE-2026-10520 exploitation](ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [GitHub Actions OIDC subject-claim collisions](patterns/github-actions-oidc-subject-claim-collisions.md)
 - [OceanLotus](actors/oceanlotus.md)
 - [JDY SOHO / IoT reconnaissance botnet](ops/jdy-soho-iot-recon-botnet.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Cloud logging control-plane tampering](patterns/cloud-logging-control-plane-tampering.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Chrome V8 CVE-2026-11645 exploitation](ops/chrome-v8-cve-2026-11645-exploitation.md)
-- [UAC-0226 / SHADOW-EARTH-066](actors/uac-0226-shadow-earth-066.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

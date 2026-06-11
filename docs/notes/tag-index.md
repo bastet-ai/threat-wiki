@@ -11,7 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (19)
+- [active exploitation](#active-exploitation) (20)
 - [active-exploitation](#active-exploitation) (1)
 - [actor](#actor) (1)
 - [actors](#actors) (5)
@@ -67,7 +67,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [Atlas RAT](#atlas-rat) (1)
 - [AUDIOFIX](#audiofix) (2)
-- [authentication bypass](#authentication-bypass) (4)
+- [authentication bypass](#authentication-bypass) (5)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AUTODYN](#autodyn) (1)
 - [AutoHotKey](#autohotkey) (1)
@@ -131,7 +131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chromium](#chromium) (1)
 - [CI/CD](#cicd) (26)
 - [CircleCI](#circleci) (1)
-- [CISA KEV](#cisa-kev) (7)
+- [CISA KEV](#cisa-kev) (8)
 - [Cisco](#cisco) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (1)
@@ -166,7 +166,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coinbase](#coinbase) (1)
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
 - [command execution](#command-execution) (2)
-- [command injection](#command-injection) (2)
+- [command injection](#command-injection) (3)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [Composer](#composer) (3)
@@ -211,6 +211,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-48595](#cve-2025-48595) (1)
 - [CVE-2025-8088](#cve-2025-8088) (3)
 - [CVE-2026-0257](#cve-2026-0257) (1)
+- [CVE-2026-10520](#cve-2026-10520) (1)
+- [CVE-2026-10523](#cve-2026-10523) (1)
 - [CVE-2026-11645](#cve-2026-11645) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
@@ -294,7 +296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dynu](#dynu) (1)
 - [e-commerce](#e-commerce) (1)
 - [eBPF](#ebpf) (1)
-- [edge appliance](#edge-appliance) (5)
+- [edge appliance](#edge-appliance) (6)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge devices](#edge-devices) (1)
@@ -449,6 +451,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Iran](#iran) (5)
 - [Iran-nexus](#iran-nexus) (1)
 - [Israel](#israel) (2)
+- [Ivanti Sentry](#ivanti-sentry) (1)
 - [Japan](#japan) (1)
 - [JavaScript](#javascript) (2)
 - [JavaScript bridge](#javascript-bridge) (1)
@@ -563,8 +566,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
 - [mobile](#mobile) (1)
 - [Mobile Access](#mobile-access) (1)
+- [mobile device management](#mobile-device-management) (1)
 - [mobile devices](#mobile-devices) (1)
 - [mobile malware](#mobile-malware) (1)
+- [MobileIron Sentry](#mobileiron-sentry) (1)
 - [Model Context Protocol](#model-context-protocol) (2)
 - [model-provider abuse](#model-provider-abuse) (1)
 - [module-proxy](#module-proxy) (1)
@@ -616,9 +621,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (104)
+- [operations](#operations) (105)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (102)
+- [ops](#ops) (103)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [OTP interception](#otp-interception) (1)
@@ -722,7 +727,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (2)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (2)
+- [remote code execution](#remote-code-execution) (3)
 - [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
@@ -995,6 +1000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -1209,6 +1215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## authentication bypass
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -1461,6 +1468,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CISA KEV
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -1591,6 +1599,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## command injection
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 
 ## command-execution
@@ -1791,6 +1800,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-0257
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+
+## CVE-2026-10520
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+
+## CVE-2026-10523
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 
 ## CVE-2026-11645
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
@@ -2087,6 +2102,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
@@ -2677,6 +2693,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Handala](../actors/handala.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## Ivanti Sentry
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+
 ## Japan
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -3085,11 +3104,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Mobile Access
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
+## mobile device management
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+
 ## mobile devices
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## mobile malware
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
+## MobileIron Sentry
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 
 ## Model Context Protocol
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -3337,6 +3362,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -3444,6 +3470,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -3918,6 +3945,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## remote code execution
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 
 ## remote-access
 - [TA4922](../actors/ta4922.md)
