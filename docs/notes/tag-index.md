@@ -458,7 +458,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JSONPing](#jsonping) (1)
 - [Kaspersky](#kaspersky) (2)
 - [kernel driver](#kernel-driver) (1)
-- [KEV](#kev) (2)
+- [KEV](#kev) (3)
 - [KeyHunter](#keyhunter) (1)
 - [keylogger](#keylogger) (2)
 - [Kimsuky](#kimsuky) (1)
@@ -2684,6 +2684,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## KEV
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## KeyHunter
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)

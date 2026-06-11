@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Unit 42 PAN-OS GlobalProtect CVE-2026-0257 exploitation pivots](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -34,7 +35,6 @@ Short updates, summaries, and notable threat writeups.
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Microsoft Claude Code Action runner-environment exposure case](../patterns/claude-code-github-action-prompt-injection.md#runner-environment-exposure-through-file-read-tools)
 - [Azure/durabletask repository reinfection in the Miasma / Phantom Gyp wave](../ops/binding-gyp-npm-cicd-worm.md#june-5-azuredurabletask-repository-reinfection)
-- [PAN-OS GlobalProtect CVE-2026-0257 active exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [OP-512](../actors/op-512.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)

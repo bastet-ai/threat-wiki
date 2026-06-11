@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>PAN-OS GlobalProtect CVE-2026-0257 exploitation pivots</title>
+      <link>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/</link>
+      <description>Unit 42 reports active exploitation of PAN-OS GlobalProtect CVE-2026-0257 by an unidentified actor attempting unauthorized VPN access. The updated page adds Unit 42's pre-PoC source IP pivots, suspicious generic host-ID and device-name values, the gateway-connected event triage focus, and Palo Alto Networks mitigation guidance for fixed releases, dedicated authentication-override certificates, or disabling authentication override.</description>
+      <pubDate>Thu, 11 Jun 2026 03:27:02 GMT</pubDate>
+      <guid>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/#unit42-2026-06-09-pivots</guid>
+    </item>
+    <item>
       <title>SHADOW-AETHER AI-augmented Latin America intrusions</title>
       <link>https://threat.wiki/ops/shadow-aether-ai-augmented-latam-intrusions/</link>
       <description>Trend Micro reports SHADOW-AETHER-040 and SHADOW-AETHER-064, likely distinct Latin America intrusion campaigns using agentic AI during operations against government and financial-sector targets. The page captures tunnel-first AI-assisted workflows through ProxyChains / SSH / Chisel / web shells, dynamic script generation, credential and configuration mining, custom backdoors such as implante_http, SHADOW-AETHER-064 POW / SOCKTZ tunneling tools, and defender guidance for detecting agentic post-exploitation inside victim networks.</description>
