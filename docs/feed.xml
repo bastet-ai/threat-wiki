@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>LangGraph checkpointer injection and unsafe deserialization</title>
+      <link>https://threat.wiki/patterns/langgraph-checkpointer-injection-rce/</link>
+      <description>Check Point Research disclosed a LangGraph checkpointer vulnerability chain affecting self-hosted AI-agent services that expose checkpoint-history filtering with user-controlled keys. The page captures CVE-2025-67644 SQLite filter-key SQL injection, CVE-2026-28277 unsafe msgpack checkpoint deserialization, CVE-2026-27022 Redis / RediSearch query injection, the get_state_history() trust boundary, and defender guidance for patching, filter allow-listing, checkpoint-store review, and least-privilege agent runtimes.</description>
+      <pubDate>Fri, 12 Jun 2026 11:25:32 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/langgraph-checkpointer-injection-rce/</guid>
+    </item>
+    <item>
       <title>Solana FakeFix npm / PyPI developer stealer</title>
       <link>https://threat.wiki/ops/solana-fakefix-npm-pypi-developer-stealer/</link>
       <description>JFrog Security Research reports Solana FakeFix, a June 2026 malicious npm and PyPI package campaign aimed at Solana developers with patched-SDK lures, GitHub issue spam, npm postinstall execution, PyPI import-time payloads, Telegram C2, wallet-draining behavior, fake MEV private-key prompts, and CMS-themed Windows Deno loader persistence. The page captures affected package names, targeted secret paths, Solana wallet and RPC pivots, and defender guidance for developer workstations and CI runners.</description>

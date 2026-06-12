@@ -25,11 +25,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Afghanistan](#afghanistan) (2)
 - [agent frameworks](#agent-frameworks) (2)
 - [agent skills](#agent-skills) (1)
+- [agent state](#agent-state) (1)
 - [agentic AI](#agentic-ai) (1)
 - [agentic malware](#agentic-malware) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (3)
-- [AI agents](#ai-agents) (6)
+- [AI agents](#ai-agents) (7)
 - [AI assistants](#ai-assistants) (3)
 - [AI brand impersonation](#ai-brand-impersonation) (1)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
@@ -37,7 +38,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI data exfiltration](#ai-data-exfiltration) (1)
 - [AI gateway](#ai-gateway) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
-- [AI tooling](#ai-tooling) (8)
+- [AI tooling](#ai-tooling) (9)
 - [ai-agent](#ai-agent) (1)
 - [AI-augmented operations](#ai-augmented-operations) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
@@ -120,7 +121,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChatGPT](#chatgpt) (1)
 - [Chatty Spider](#chatty-spider) (1)
 - [Check Point](#check-point) (1)
+- [Check Point Research](#check-point-research) (1)
 - [Checkmarx](#checkmarx) (1)
+- [checkpointers](#checkpointers) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (2)
 - [China-nexus](#china-nexus) (4)
@@ -388,6 +391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub App](#github-app) (1)
 - [GitHub issue spam](#github-issue-spam) (1)
 - [GitHub OAuth](#github-oauth) (1)
+- [GitHub Security Advisories](#github-security-advisories) (1)
 - [GitHub tokens](#github-tokens) (1)
 - [GitLab](#gitlab) (1)
 - [gitleaks](#gitleaks) (1)
@@ -485,9 +489,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KV-botnet](#kv-botnet) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
-- [LangChain](#langchain) (1)
+- [LangChain](#langchain) (2)
 - [Langflow](#langflow) (2)
 - [LangFlow](#langflow) (1)
+- [LangGraph](#langgraph) (1)
 - [Laravel](#laravel) (2)
 - [lateral movement](#lateral-movement) (2)
 - [lateral-movement](#lateral-movement) (1)
@@ -589,6 +594,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Monero](#monero) (1)
 - [MPR network provider](#mpr-network-provider) (1)
 - [Mr_Rot13](#mr_rot13) (1)
+- [msgpack](#msgpack) (1)
 - [mshta](#mshta) (3)
 - [MSP](#msp) (3)
 - [mTLS](#mtls) (1)
@@ -655,7 +661,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
-- [patterns](#patterns) (11)
+- [patterns](#patterns) (12)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (1)
 - [payment-card-theft](#payment-card-theft) (1)
@@ -720,6 +726,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PyPI](#pypi) (8)
 - [Python](#python) (3)
 - [Qilin](#qilin) (1)
+- [query injection](#query-injection) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
 - [RaaS](#raas) (1)
 - [RAM disk](#ram-disk) (1)
@@ -727,7 +734,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAT](#rat) (15)
 - [RC4](#rc4) (2)
-- [RCE](#rce) (2)
+- [RCE](#rce) (3)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [RDP](#rdp) (1)
@@ -736,7 +743,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reconnaissance](#reconnaissance) (1)
 - [recovery denial](#recovery-denial) (1)
 - [recruitment lures](#recruitment-lures) (1)
+- [Redis](#redis) (1)
 - [Redis backdoor](#redis-backdoor) (1)
+- [RediSearch](#redisearch) (1)
 - [refresh tokens](#refresh-tokens) (1)
 - [registry persistence](#registry-persistence) (3)
 - [release tampering](#release-tampering) (1)
@@ -781,6 +790,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (5)
 - [Seedworm](#seedworm) (1)
+- [self-hosted AI services](#self-hosted-ai-services) (1)
 - [self-propagation](#self-propagation) (1)
 - [sendit.sh](#senditsh) (1)
 - [Sentry abuse](#sentry-abuse) (1)
@@ -836,7 +846,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spear-phishing](#spear-phishing) (2)
 - [spearphishing](#spearphishing) (1)
 - [SPECTRALVIPER](#spectralviper) (1)
-- [SQL injection](#sql-injection) (2)
+- [SQL injection](#sql-injection) (3)
+- [SQLite](#sqlite) (1)
 - [SSH](#ssh) (2)
 - [SSH bastion](#ssh-bastion) (1)
 - [SSH key persistence](#ssh-key-persistence) (1)
@@ -916,6 +927,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6780](#unc6780) (1)
 - [Unit 42](#unit-42) (1)
 - [United States](#united-states) (2)
+- [unsafe deserialization](#unsafe-deserialization) (1)
 - [uranium compression](#uranium-compression) (1)
 - [USB worm](#usb-worm) (2)
 - [UTA0355](#uta0355) (1)
@@ -1088,6 +1100,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## agent skills
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 
+## agent state
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+
 ## agentic AI
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
@@ -1106,6 +1121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI agents
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -1136,6 +1152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI tooling
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -1427,8 +1444,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Check Point
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
+## Check Point Research
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+
 ## Checkmarx
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+
+## checkpointers
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## China
 - [Showboat](../tools/showboat.md)
@@ -2496,6 +2519,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub OAuth
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
+## GitHub Security Advisories
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+
 ## GitHub tokens
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 
@@ -2839,6 +2865,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
 ## LangChain
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## Langflow
@@ -2847,6 +2874,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LangFlow
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+
+## LangGraph
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## Laravel
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -3213,6 +3243,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Mr_Rot13
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## msgpack
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## mshta
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -3683,6 +3716,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
@@ -3942,6 +3976,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Qilin
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
+## query injection
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+
 ## Quest KACE SMA
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
@@ -3983,6 +4020,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## RCE
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
@@ -4010,8 +4048,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## recruitment lures
 - [Screening Serpens](../actors/screening-serpens.md)
 
+## Redis
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+
 ## Redis backdoor
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## RediSearch
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## refresh tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -4168,6 +4212,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Seedworm
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## self-hosted AI services
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## self-propagation
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -4363,6 +4410,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SQL injection
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+
+## SQLite
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## SSH
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -4703,6 +4754,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## United States
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [UNC3753](../actors/unc3753.md)
+
+## unsafe deserialization
+- [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## uranium compression
 - [Fast16](../tools/fast16.md)
