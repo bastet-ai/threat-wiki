@@ -185,13 +185,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrackMapExec](#crackmapexec) (1)
 - [Crates.io](#cratesio) (1)
 - [credential spraying](#credential-spraying) (1)
-- [credential theft](#credential-theft) (15)
+- [credential theft](#credential-theft) (16)
 - [credential-theft](#credential-theft) (38)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
 - [crypto-wallets](#crypto-wallets) (1)
-- [cryptocurrency](#cryptocurrency) (7)
+- [cryptocurrency](#cryptocurrency) (8)
 - [cryptocurrency theft](#cryptocurrency-theft) (1)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
@@ -258,12 +258,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense evasion](#defense-evasion) (4)
 - [DeFi](#defi) (4)
 - [denial of service](#denial-of-service) (1)
-- [Deno](#deno) (1)
+- [Deno](#deno) (2)
 - [dependency confusion](#dependency-confusion) (1)
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (1)
 - [destructive operations](#destructive-operations) (1)
 - [developer machines](#developer-machines) (5)
+- [developer targeting](#developer-targeting) (1)
 - [developer tooling](#developer-tooling) (1)
 - [developer-targeting](#developer-targeting) (9)
 - [developer-tools](#developer-tools) (1)
@@ -385,6 +386,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions](#github-actions) (16)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
+- [GitHub issue spam](#github-issue-spam) (1)
 - [GitHub OAuth](#github-oauth) (1)
 - [GitHub tokens](#github-tokens) (1)
 - [GitLab](#gitlab) (1)
@@ -443,12 +445,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [iMessage](#imessage) (1)
 - [Impacket](#impacket) (1)
 - [impersonation](#impersonation) (1)
+- [import-time execution](#import-time-execution) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [incident response](#incident-response) (10)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (9)
 - [infrastructure](#infrastructure) (3)
 - [initial-access](#initial-access) (1)
+- [install-time execution](#install-time-execution) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (2)
 - [IP-in-IP](#ip-in-ip) (1)
@@ -465,6 +469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript tampering](#javascript-tampering) (1)
 - [JDY](#jdy) (1)
 - [JetStream](#jetstream) (1)
+- [JFrog Security Research](#jfrog-security-research) (1)
 - [JINX-0164](#jinx-0164) (2)
 - [JSCoreRunner](#jscorerunner) (1)
 - [JSON:API](#jsonapi) (1)
@@ -548,6 +553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP](#mcp) (3)
 - [memory-only malware](#memory-only-malware) (1)
 - [MeshCentral](#meshcentral) (2)
+- [MEV bot lure](#mev-bot-lure) (1)
 - [Mexico](#mexico) (1)
 - [MFA bypass](#mfa-bypass) (4)
 - [MFA fatigue](#mfa-fatigue) (1)
@@ -605,7 +611,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (7)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (26)
+- [npm](#npm) (27)
 - [npm lifecycle hook](#npm-lifecycle-hook) (1)
 - [NTFS ADS](#ntfs-ads) (2)
 - [nuclear weapons](#nuclear-weapons) (1)
@@ -629,7 +635,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (106)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (104)
+- [ops](#ops) (105)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -711,7 +717,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public sector](#public-sector) (1)
 - [pwn-request](#pwn-request) (1)
-- [PyPI](#pypi) (7)
+- [PyPI](#pypi) (8)
 - [Python](#python) (3)
 - [Qilin](#qilin) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
@@ -815,6 +821,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
 - [software impersonation](#software-impersonation) (1)
 - [SOHO routers](#soho-routers) (1)
+- [Solana](#solana) (1)
 - [SolarWinds](#solarwinds) (1)
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
@@ -847,6 +854,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [subject claim](#subject-claim) (1)
+- [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (56)
 - [Synology](#synology) (1)
@@ -867,6 +875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telecom](#telecom) (2)
 - [telecom-impersonation](#telecom-impersonation) (1)
 - [Telegram](#telegram) (5)
+- [Telegram C2](#telegram-c2) (1)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
 - [The Gentlemen](#the-gentlemen) (1)
@@ -937,6 +946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
 - [wallet replacement](#wallet-replacement) (1)
+- [wallet theft](#wallet-theft) (1)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
 - [Wasabi](#wasabi) (1)
@@ -958,6 +968,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp](#whatsapp) (1)
 - [WHM](#whm) (2)
 - [Windows](#windows) (13)
+- [Windows persistence](#windows-persistence) (1)
 - [Winos4.0](#winos40) (1)
 - [WinRAR](#winrar) (3)
 - [wiper](#wiper) (2)
@@ -1688,6 +1699,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -1754,6 +1766,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [RemotePE](../tools/remotepe.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
 ## cryptocurrency theft
@@ -1983,6 +1996,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Deno
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## dependency confusion
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
@@ -2002,6 +2016,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
+
+## developer targeting
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## developer tooling
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
@@ -2473,6 +2490,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub App
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 
+## GitHub issue spam
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+
 ## GitHub OAuth
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
@@ -2667,6 +2687,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## impersonation
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
+## import-time execution
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+
 ## in-memory DLL loading
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
@@ -2703,6 +2726,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## initial-access
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## install-time execution
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## iOS
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -2758,6 +2784,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JetStream
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
+## JFrog Security Research
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## JINX-0164
 - [JINX-0164](../actors/jinx-0164.md)
@@ -3065,6 +3094,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 
+## MEV bot lure
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+
 ## Mexico
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
@@ -3281,6 +3313,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -3559,6 +3592,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -3895,6 +3929,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -4273,6 +4308,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SOHO routers
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
+## Solana
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+
 ## SolarWinds
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
@@ -4378,6 +4416,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## subject claim
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
+
+## supply chain
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## supply chain compromise
 - [OceanLotus](../actors/oceanlotus.md)
@@ -4508,6 +4549,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## Telegram C2
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## Telnyx
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -4769,6 +4813,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## wallet replacement
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## wallet theft
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+
 ## wallet-drainer
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
@@ -4852,6 +4899,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## Windows persistence
+- [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## Winos4.0
 - [TA4922](../actors/ta4922.md)

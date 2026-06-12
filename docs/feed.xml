@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Solana FakeFix npm / PyPI developer stealer</title>
+      <link>https://threat.wiki/ops/solana-fakefix-npm-pypi-developer-stealer/</link>
+      <description>JFrog Security Research reports Solana FakeFix, a June 2026 malicious npm and PyPI package campaign aimed at Solana developers with patched-SDK lures, GitHub issue spam, npm postinstall execution, PyPI import-time payloads, Telegram C2, wallet-draining behavior, fake MEV private-key prompts, and CMS-themed Windows Deno loader persistence. The page captures affected package names, targeted secret paths, Solana wallet and RPC pivots, and defender guidance for developer workstations and CI runners.</description>
+      <pubDate>Fri, 12 Jun 2026 05:55:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/solana-fakefix-npm-pypi-developer-stealer/</guid>
+    </item>
+    <item>
       <title>Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation</title>
       <link>https://threat.wiki/ops/oracle-peoplesoft-cve-2026-35273-shinyhunters/</link>
       <description>Google Mandiant and GTIG attribute active Oracle PeopleSoft CVE-2026-35273 zero-day exploitation to UNC6240 / ShinyHunters between 2026-05-27 and 2026-06-09. The page captures PSEMHUB and PSIGW endpoint exposure, higher-education targeting concentration, MeshCentral staging, fanout extortion scripts, ShinyHunters DLS linkage, and defender guidance for endpoint restriction, WebLogic log review, PSEMHUB filesystem inspection, and outbound SMB monitoring.</description>
