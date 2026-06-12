@@ -28,9 +28,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agent state](#agent-state) (1)
 - [agentic AI](#agentic-ai) (1)
 - [agentic malware](#agentic-malware) (1)
+- [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (3)
-- [AI agents](#ai-agents) (7)
+- [AI agents](#ai-agents) (8)
 - [AI assistants](#ai-assistants) (3)
 - [AI brand impersonation](#ai-brand-impersonation) (1)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
@@ -38,7 +39,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI data exfiltration](#ai-data-exfiltration) (1)
 - [AI gateway](#ai-gateway) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
-- [AI tooling](#ai-tooling) (9)
+- [AI tooling](#ai-tooling) (10)
 - [ai-agent](#ai-agent) (1)
 - [AI-augmented operations](#ai-augmented-operations) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
@@ -140,7 +141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix](#citrix) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
 - [Claude](#claude) (2)
-- [Claude Code](#claude-code) (1)
+- [Claude Code](#claude-code) (2)
 - [ClickFix](#clickfix) (3)
 - [client-side exploitation](#client-side-exploitation) (1)
 - [Cloaked Ursa](#cloaked-ursa) (1)
@@ -165,7 +166,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
 - [Codecov](#codecov) (1)
-- [Codex](#codex) (1)
+- [Codex](#codex) (2)
 - [Coinbase](#coinbase) (1)
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
 - [command execution](#command-execution) (2)
@@ -187,6 +188,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (2)
 - [CrackMapExec](#crackmapexec) (1)
 - [Crates.io](#cratesio) (1)
+- [credential exposure](#credential-exposure) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential theft](#credential-theft) (16)
 - [credential-theft](#credential-theft) (38)
@@ -199,7 +201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
 - [Curious Serpens](#curious-serpens) (1)
-- [Cursor](#cursor) (1)
+- [Cursor](#cursor) (2)
 - [Curve25519](#curve25519) (1)
 - [CVE-2020-17103](#cve-2020-17103) (1)
 - [CVE-2022-0492](#cve-2022-0492) (1)
@@ -269,6 +271,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (5)
 - [developer targeting](#developer-targeting) (1)
 - [developer tooling](#developer-tooling) (1)
+- [developer workstations](#developer-workstations) (1)
 - [developer-targeting](#developer-targeting) (9)
 - [developer-tools](#developer-tools) (1)
 - [device registration](#device-registration) (1)
@@ -452,6 +455,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [import-time execution](#import-time-execution) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [incident response](#incident-response) (10)
+- [indirect prompt injection](#indirect-prompt-injection) (1)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (9)
 - [infrastructure](#infrastructure) (3)
@@ -555,7 +559,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marimo](#marimo) (1)
 - [marketplace abuse](#marketplace-abuse) (1)
 - [Maven Central](#maven-central) (1)
-- [MCP](#mcp) (3)
+- [MCP](#mcp) (4)
 - [memory-only malware](#memory-only-malware) (1)
 - [MeshCentral](#meshcentral) (2)
 - [MEV bot lure](#mev-bot-lure) (1)
@@ -617,8 +621,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (7)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (27)
+- [npm](#npm) (28)
 - [npm lifecycle hook](#npm-lifecycle-hook) (1)
+- [npx](#npx) (1)
 - [NTFS ADS](#ntfs-ads) (2)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (1)
@@ -661,7 +666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
-- [patterns](#patterns) (12)
+- [patterns](#patterns) (13)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (1)
 - [payment-card-theft](#payment-card-theft) (1)
@@ -793,6 +798,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [self-hosted AI services](#self-hosted-ai-services) (1)
 - [self-propagation](#self-propagation) (1)
 - [sendit.sh](#senditsh) (1)
+- [Sentry](#sentry) (1)
 - [Sentry abuse](#sentry-abuse) (1)
 - [SEO poisoning](#seo-poisoning) (2)
 - [Serv-U](#serv-u) (1)
@@ -889,11 +895,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telegram C2](#telegram-c2) (1)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
+- [Tenet Security](#tenet-security) (1)
 - [The Gentlemen](#the-gentlemen) (1)
 - [tj-actions](#tj-actions) (1)
 - [token replay](#token-replay) (1)
 - [token theft](#token-theft) (2)
 - [token-theft](#token-theft) (1)
+- [tool output injection](#tool-output-injection) (1)
 - [tooling](#tooling) (5)
 - [tools](#tools) (7)
 - [Tor](#tor) (2)
@@ -1109,6 +1117,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## agentic malware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## Agentjacking
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
 ## AGENTPSD
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -1126,6 +1137,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## AI assistants
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -1159,6 +1171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## ai-agent
@@ -1543,6 +1556,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Claude Code
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## ClickFix
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -1636,6 +1650,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Codex
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -1706,6 +1721,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Crates.io
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+
+## credential exposure
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## credential spraying
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
@@ -1806,6 +1824,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 
 ## Cursor
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
 ## Curve25519
@@ -2045,6 +2064,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## developer tooling
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
+
+## developer workstations
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## developer-targeting
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -2731,6 +2753,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
+## indirect prompt injection
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
 ## industrial control
 - [Fast16](../tools/fast16.md)
 
@@ -3116,6 +3141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## memory-only malware
 - [RemotePE](../tools/remotepe.md)
@@ -3346,6 +3372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -3355,6 +3382,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## npm lifecycle hook
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+
+## npx
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## NTFS ADS
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -3719,6 +3749,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## payment fraud
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -4222,6 +4253,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## sendit.sh
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## Sentry
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
 ## Sentry abuse
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
@@ -4610,6 +4644,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Temp Zagros
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## Tenet Security
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
 ## The Gentlemen
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -4625,6 +4662,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## token-theft
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+
+## tool output injection
+- [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## tooling
 - [CanisterWorm](../tools/canisterworm.md)

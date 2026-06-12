@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Sentry MCP Agentjacking](patterns/sentry-mcp-agentjacking.md)
 - [LangGraph checkpointer injection and unsafe deserialization](patterns/langgraph-checkpointer-injection-rce.md)
 - [Solana FakeFix npm / PyPI developer stealer](ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -17,7 +18,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [JDY SOHO / IoT reconnaissance botnet](ops/jdy-soho-iot-recon-botnet.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](ops/shadow-aether-ai-augmented-latam-intrusions.md)
-- [ServiceNow instance unauthenticated table-query exploitation](ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

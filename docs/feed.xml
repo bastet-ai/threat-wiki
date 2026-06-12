@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Sentry MCP Agentjacking</title>
+      <link>https://threat.wiki/patterns/sentry-mcp-agentjacking/</link>
+      <description>Tenet Security documented Agentjacking, an AI-agent trust-boundary pattern where attacker-injected Sentry error events can be relayed through the Sentry MCP server as trusted troubleshooting context. The page captures the public-DSN ingest path, markdown fake-remediation injection, npx/package-manager execution risk in Claude Code, Cursor, and Codex workflows, and defender guidance for treating observability records as untrusted input before agent tool execution.</description>
+      <pubDate>Fri, 12 Jun 2026 13:27:49 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/sentry-mcp-agentjacking/</guid>
+    </item>
+    <item>
       <title>LangGraph checkpointer injection and unsafe deserialization</title>
       <link>https://threat.wiki/patterns/langgraph-checkpointer-injection-rce/</link>
       <description>Check Point Research disclosed a LangGraph checkpointer vulnerability chain affecting self-hosted AI-agent services that expose checkpoint-history filtering with user-controlled keys. The page captures CVE-2025-67644 SQLite filter-key SQL injection, CVE-2026-28277 unsafe msgpack checkpoint deserialization, CVE-2026-27022 Redis / RediSearch query injection, the get_state_history() trust boundary, and defender guidance for patching, filter allow-listing, checkpoint-store review, and least-privilege agent runtimes.</description>

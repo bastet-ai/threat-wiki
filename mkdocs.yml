@@ -151,6 +151,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Sentry MCP Agentjacking: patterns/sentry-mcp-agentjacking.md
       - LangGraph checkpointer injection and unsafe deserialization: patterns/langgraph-checkpointer-injection-rce.md
       - GitHub Actions OIDC subject-claim collisions: patterns/github-actions-oidc-subject-claim-collisions.md
       - Cloud logging control-plane tampering: patterns/cloud-logging-control-plane-tampering.md
