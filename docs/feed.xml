@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Astro config blockchain C2 PR injection</title>
+      <link>https://threat.wiki/ops/astro-config-blockchain-c2-pr-injection/</link>
+      <description>SafeDep reported a malicious pull request that hid an obfuscated blockchain-C2 loader inside homepage/astro.config.mjs while posing as a benign dashboard fix. The page captures Astro config execution risk, horizontal-whitespace diff hiding, Tron-to-Binance Smart Chain second-stage resolution, SafeDep's PolinRider attribution caveat, and defender guidance for pull-request review, developer endpoint triage, and CI credential rotation.</description>
+      <pubDate>Fri, 12 Jun 2026 23:27:29 GMT</pubDate>
+      <guid>https://threat.wiki/ops/astro-config-blockchain-c2-pr-injection/</guid>
+    </item>
+    <item>
       <title>Void Dokkaebi</title>
       <link>https://threat.wiki/actors/void-dokkaebi/</link>
       <description>Trend Micro reports that Void Dokkaebi, also tracked as Famous Chollima, has migrated InvisibleFerret from readable Python scripts to Cython-compiled Python extension modules distributed as .pyd files on Windows and .so files on macOS. The new profile captures BeaverTail evolution, fake recruiter / developer-targeting tradecraft, Cython launcher-script detection gaps, browser credential theft, wallet-extension trojanization, macOS Chrome downgrade behavior, and defender guidance for binary-aware developer endpoint triage.</description>

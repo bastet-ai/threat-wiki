@@ -8,6 +8,8 @@ SafeDep's June 2026 Miasma source-repository writeup is the clearest current wor
 
 StepSecurity's June 11 Miasma/Hades follow-up extends the same review model beyond obvious editor and agent config: Miasma used a small `binding.gyp` native-build trigger, Hades used injected Python `__init__.py` import hooks, and repository poisoning used `.vscode/tasks.json` plus `.claude/setup.mjs` launchers. The common defender lesson is that the dangerous file can be a quiet project-tree artifact rather than a declared dependency or a visible package lifecycle script.
 
+SafeDep's June 12 Astro writeup adds a pull-request review variant: a malicious PR hid an obfuscated loader inside `homepage/astro.config.mjs`, where Astro evaluates configuration as executable Node.js during `astro dev`, `astro build`, and `astro preview`. Treat build-tool config edits as code execution even when the PR narrative claims a UI-only change.
+
 ## Tags
 - patterns
 - supply-chain
@@ -38,6 +40,7 @@ Treat these as execution-capable when reviewing unfamiliar repositories:
 - Package scripts such as `package.json` `test`, `prepare`, `preinstall`, or `postinstall` that call unexpected repository-local setup files.
 - Composer, Bundler, native build, or other ecosystem config files that can invoke shell commands during install, test, or project initialization.
 - Native build and language-import hooks such as npm `binding.gyp` / `node-gyp` paths or Python package `__init__.py` code that fetches and runs an external runtime or payload.
+- Build-tool configuration such as `astro.config.mjs` / Vite / Next / Nuxt config files that run before application code during dev, build, preview, or test workflows.
 
 ## Defender heuristics
 
@@ -47,6 +50,7 @@ Before opening an unfamiliar or recently compromised repository in an editor or 
 - Search for commands that run `node`, `bun`, `python`, `bash`, `curl`, `wget`, `powershell`, `osascript`, `chmod`, or package-manager commands from editor or agent hooks.
 - Flag config that runs files under `.github/`, `.claude/`, `.gemini/`, `.cursor/`, `.vscode/`, or temporary setup paths.
 - Flag small native-build or import-hook files that launch larger hidden payloads, especially `binding.gyp` files, injected package `__init__.py` hooks, `*-setup.pth` startup hooks, native `.abi3.so` import paths, and Bun download/execution from Python or Node.js tooling.
+- Flag executable config files that recover `require` with `createRequire(import.meta.url)`, hide payloads behind long horizontal whitespace, contact blockchain RPC endpoints, decode transaction input, or call `eval()` / `Function()`.
 - Treat `runOn: folderOpen`, `SessionStart`, `alwaysApply: true`, and agent instructions that ask the assistant to run setup code as execution triggers.
 - Review large one-line JavaScript files, especially when small config files launch them.
 - Use sandboxed disposable environments for first open / first test of untrusted code.
@@ -69,6 +73,7 @@ SafeDep reported the following source-repository indicators in the June 2026 Mia
 The operational lesson is narrow and reusable: cloning was not the dangerous step in SafeDep's description; opening the folder in an execution-capable tool or running the poisoned project command was.
 
 ## Related pages
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Claude Code GitHub Action prompt-injection boundary](claude-code-github-action-prompt-injection.md)
 - [Agent skill marketplace poisoning](agent-skill-marketplace-poisoning.md)
@@ -79,3 +84,4 @@ The operational lesson is narrow and reusable: cloning was not the dangerous ste
 - SafeDep config-file execution blind spot analysis: https://safedep.io/config-files-that-run-code/
 - StepSecurity Miasma Microsoft repository disablement follow-up: https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents
 - StepSecurity Miasma/Hades suspicious-files detection note: https://www.stepsecurity.io/blog/miasma-and-hades-are-spreading-now-detect-them-on-developer-machines-with-suspicious-files
+- SafeDep Astro config PR injection: https://safedep.io/astro-config-blockchain-c2-supply-chain

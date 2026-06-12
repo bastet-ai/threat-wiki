@@ -67,6 +67,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Artifact Signing](#artifact-signing) (1)
 - [ASP.NET](#aspnet) (2)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
+- [Astro](#astro) (1)
 - [Atlas RAT](#atlas-rat) (1)
 - [AUDIOFIX](#audiofix) (2)
 - [authentication bypass](#authentication-bypass) (5)
@@ -97,6 +98,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitbucket](#bitbucket) (1)
 - [Bitwarden](#bitwarden) (1)
 - [BlackFile](#blackfile) (1)
+- [blockchain C2](#blockchain-c2) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [BLUEBEAM](#bluebeam) (1)
 - [botnet](#botnet) (3)
@@ -134,7 +136,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chisel](#chisel) (3)
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (1)
-- [CI/CD](#cicd) (26)
+- [CI/CD](#cicd) (27)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (8)
 - [Cisco](#cisco) (1)
@@ -270,7 +272,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (1)
 - [destructive operations](#destructive-operations) (1)
-- [developer machines](#developer-machines) (5)
+- [developer machines](#developer-machines) (6)
 - [developer targeting](#developer-targeting) (2)
 - [developer tooling](#developer-tooling) (1)
 - [developer workstations](#developer-workstations) (1)
@@ -297,7 +299,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [double extortion](#double-extortion) (1)
 - [DPAPI](#dpapi) (1)
 - [DPAPILoader](#dpapiloader) (1)
-- [DPRK](#dprk) (1)
+- [DPRK](#dprk) (2)
 - [DroneLink](#dronelink) (1)
 - [Dropbox](#dropbox) (1)
 - [Drupal](#drupal) (1)
@@ -390,7 +392,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS](#ghost-cms) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
-- [GitHub](#github) (12)
+- [GitHub](#github) (13)
 - [GitHub abuse](#github-abuse) (1)
 - [GitHub Actions](#github-actions) (16)
 - [GitHub API](#github-api) (1)
@@ -473,7 +475,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Israel](#israel) (2)
 - [Ivanti Sentry](#ivanti-sentry) (1)
 - [Japan](#japan) (1)
-- [JavaScript](#javascript) (2)
+- [JavaScript](#javascript) (3)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
@@ -648,9 +650,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (106)
+- [operations](#operations) (107)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (105)
+- [ops](#ops) (106)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -698,6 +700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Piriform](#piriform) (1)
 - [PLENET](#plenet) (2)
 - [poisoned-branch](#poisoned-branch) (1)
+- [PolinRider](#polinrider) (1)
 - [Polymarket](#polymarket) (1)
 - [portmap](#portmap) (1)
 - [Portugal](#portugal) (1)
@@ -731,6 +734,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public exploit](#public-exploit) (1)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public sector](#public-sector) (1)
+- [pull requests](#pull-requests) (1)
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (8)
 - [Python](#python) (3)
@@ -847,7 +851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
-- [source-repository poisoning](#source-repository-poisoning) (1)
+- [source-repository poisoning](#source-repository-poisoning) (2)
 - [South Africa](#south-africa) (1)
 - [South Asia](#south-asia) (1)
 - [South Korea](#south-korea) (2)
@@ -878,7 +882,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (57)
+- [supply-chain](#supply-chain) (58)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
 - [T3](#t3) (1)
@@ -1268,6 +1272,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ASP.NET machineKey
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## Astro
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+
 ## Atlas RAT
 - [TA4922](../actors/ta4922.md)
 
@@ -1373,6 +1380,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BlackFile
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
+## blockchain C2
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 
 ## blockchain-dead-drop
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -1508,6 +1518,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CI/CD
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -2066,6 +2077,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
 ## developer machines
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -2171,6 +2183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DPRK
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 
 ## DroneLink
 - [GREYVIBE](../actors/greyvibe.md)
@@ -2512,6 +2525,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## GitHub
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
@@ -2833,6 +2847,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
 ## JavaScript
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 
@@ -3489,6 +3504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -3600,6 +3616,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -3879,6 +3896,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## poisoned-branch
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 
+## PolinRider
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+
 ## Polymarket
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
@@ -4007,6 +4027,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## public sector
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## pull requests
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 
 ## pwn-request
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -4431,6 +4454,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## source-repository poisoning
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## South Africa
@@ -4541,6 +4565,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
