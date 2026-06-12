@@ -68,6 +68,14 @@ Credential collection is broader than package-registry theft. Hunt reports colle
 
 Hunt attributes the toolkit to TeamPCP through multiple public anchors: the shared `83.142.209[.]194` C2 seen in prior Orca / TanStack reporting, the `voicproducoes` supply-chain operator account linkage, recurring endpoint naming patterns, Russian-locale exit behavior, and Israel / Iran wiper targeting logic. The infrastructure pivots also add a Google Cloud node, `35.192.220[.]222`, that shared an HTTP-header fingerprint with the primary C2 in April 2026, plus certificate-linked leads Hunt treats as less confirmed.
 
+## KICS / elementary-data CI/CD release abuse
+Trend Micro's May 2026 TeamPCP analysis, which tracks the cluster as `SHADOW-WATER-058`, adds two durable release-workflow lessons from April 2026:
+
+- In the Checkmarx KICS case, TeamPCP reportedly poisoned Docker Hub images, VS Code/OpenVSX extensions, and a GitHub Action, then reused stolen npm tokens within about 24 hours to publish malicious `@bitwarden/cli@2026.4.0`.
+- In the `elementary-data` case, no maintainer credential theft was required first. A pull-request comment was interpolated into a GitHub Actions `run:` block, allowing the actor to abuse the runner's `GITHUB_TOKEN`, forge an orphan-tagged release commit, and trigger the project's own signing/publishing pipeline for `elementary-data==0.23.3` on PyPI and GHCR.
+- The `elementary-data` payload used a Python `.pth` startup hook rather than a package import path, meaning interpreter startup on affected hosts could trigger credential theft. It also used reachable AWS credentials for live Secrets Manager and SSM enumeration, including `secretsmanager:ListSecrets`, `secretsmanager:GetSecretValue`, and `ssm:DescribeParameters`.
+- Trend Micro identifies a reused Session messenger identifier as the XOR seed across LiteLLM, Xinference, and `elementary-data`, plus Dune-themed staging repositories and branded exfiltration headers, as cross-campaign markers. It keeps actor identity, geography, and state affiliation low confidence.
+
 ## Extortion ecosystem role
 Unit 42's May 27, 2026 cyber-extortion economy analysis adds an important monetization layer for TeamPCP / TGR-CRI-1135. Unit 42 says the actor has moved beyond credential theft and package compromise into data-theft monetization by partnering with extortion and ransomware operators.
 
@@ -94,6 +102,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - [CanisterWorm](../tools/canisterworm.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+- [elementary-data PyPI/GHCR release compromise](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md#trend-micro-follow-up-kics-and-elementary-data) (covered as part of the KICS / Bitwarden wave)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md) (adjacent action-tag compromise; attribution remains caveated)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md) (adjacent IDE-extension compromise; attribution remains caveated)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md) (TeamPCP-adjacent cloud crimeware; public reporting describes TeamPCP artifact removal, not TeamPCP control)
@@ -144,6 +153,8 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Cloud-host compromise where tools remove TeamPCP / PCPcat-named artifacts before installing unrelated credential-theft, Sliver, Chisel, or SMTP relay components; keep this as adjacency/rivalry evidence, not attribution by itself
 - TeamPCP Python-toolkit fallback behavior: GitHub commit search for `FIRESCALE`, unexpected GitHub repository creation from developer accounts with description `PUSH UR T3MPRR`, Slavic-folklore repository names, and outbound attempts to `83.142.209[.]194` or fingerprint-related backup infrastructure such as `35.192.220[.]222`
 - Broad credential sweeps that read all environment variables, SSH material, Docker container env vars, Terraform state, Tailscale/WireGuard configs, Vault stores, AWS GovCloud regions, Azure Key Vault, GCP metadata/service-account flows, and Kubernetes credentials from the same short-lived Python process tree
+- GitHub Actions workflows that interpolate `github.event.comment.body`, issue titles, or other user-controlled event data directly into `run:` blocks, especially when the resulting job has write-scoped `GITHUB_TOKEN` permissions or can dispatch a release workflow
+- `elementary-data==0.23.3`, unexpected large `elementary.pth` files, Python startup-time outbound HTTPS, or CI/cloud identities making unusual `secretsmanager:ListSecrets`, `secretsmanager:GetSecretValue`, or `ssm:DescribeParameters` API calls
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
@@ -181,3 +192,4 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [Hunt.io PCPJack SMTP relay network reporting](https://hunt.io/blog/pcpjack-230-cloud-servers-smtp-proxy-network-sliver-chisel)
 - [Hunt.io TeamPCP Python toolkit / FIRESCALE analysis](https://hunt.io/blog/teampcp-python-toolkit-firescale-github-c2-takedown)
 - [OX Security Telnyx PyPI compromise](https://www.ox.security/blog/telnyx-malware-teampcp-strikes-again-following-litellm-compromise/)
+- [Trend Micro TeamPCP KICS and elementary-data analysis](https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html)
