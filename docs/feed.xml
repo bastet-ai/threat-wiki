@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Void Dokkaebi</title>
+      <link>https://threat.wiki/actors/void-dokkaebi/</link>
+      <description>Trend Micro reports that Void Dokkaebi, also tracked as Famous Chollima, has migrated InvisibleFerret from readable Python scripts to Cython-compiled Python extension modules distributed as .pyd files on Windows and .so files on macOS. The new profile captures BeaverTail evolution, fake recruiter / developer-targeting tradecraft, Cython launcher-script detection gaps, browser credential theft, wallet-extension trojanization, macOS Chrome downgrade behavior, and defender guidance for binary-aware developer endpoint triage.</description>
+      <pubDate>Fri, 12 Jun 2026 21:28:21 GMT</pubDate>
+      <guid>https://threat.wiki/actors/void-dokkaebi/</guid>
+    </item>
+    <item>
       <title>Sentry MCP Agentjacking</title>
       <link>https://threat.wiki/patterns/sentry-mcp-agentjacking/</link>
       <description>Tenet Security documented Agentjacking, an AI-agent trust-boundary pattern where attacker-injected Sentry error events can be relayed through the Sentry MCP server as trusted troubleshooting context. The page captures the public-DSN ingest path, markdown fake-remediation injection, npx/package-manager execution risk in Claude Code, Cursor, and Codex workflows, and defender guidance for treating observability records as untrusted input before agent tool execution.</description>

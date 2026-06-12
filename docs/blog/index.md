@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Void Dokkaebi Cython-compiled InvisibleFerret update](../actors/void-dokkaebi.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)

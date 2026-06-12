@@ -87,6 +87,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [banking malware](#banking-malware) (1)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
+- [BeaverTail](#beavertail) (1)
 - [Bedrock](#bedrock) (1)
 - [behavioral integrity verification](#behavioral-integrity-verification) (1)
 - [Belarus](#belarus) (2)
@@ -104,7 +105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brazil](#brazil) (2)
 - [BreachForums](#breachforums) (1)
 - [BRICKSTORM](#brickstorm) (2)
-- [browser credential theft](#browser-credential-theft) (4)
+- [browser credential theft](#browser-credential-theft) (5)
 - [browser extension](#browser-extension) (1)
 - [browser hijacking](#browser-hijacking) (1)
 - [browser zero-day](#browser-zero-day) (1)
@@ -197,7 +198,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto](#crypto) (2)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (8)
-- [cryptocurrency theft](#cryptocurrency-theft) (1)
+- [cryptocurrency theft](#cryptocurrency-theft) (2)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
 - [Curious Serpens](#curious-serpens) (1)
@@ -248,6 +249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-78](#cwe-78) (1)
 - [cybercrime](#cybercrime) (10)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
+- [Cython](#cython) (1)
 - [Czech Republic](#czech-republic) (1)
 - [data exfiltration](#data-exfiltration) (2)
 - [data exposure](#data-exposure) (1)
@@ -269,7 +271,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deserialization](#deserialization) (1)
 - [destructive operations](#destructive-operations) (1)
 - [developer machines](#developer-machines) (5)
-- [developer targeting](#developer-targeting) (1)
+- [developer targeting](#developer-targeting) (2)
 - [developer tooling](#developer-tooling) (1)
 - [developer workstations](#developer-workstations) (1)
 - [developer-targeting](#developer-targeting) (9)
@@ -347,6 +349,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake CAPTCHA](#fake-captcha) (1)
 - [fake dating lures](#fake-dating-lures) (1)
 - [fake plugin](#fake-plugin) (1)
+- [fake recruiting](#fake-recruiting) (1)
 - [fake update](#fake-update) (2)
 - [FakeCaptcha](#fakecaptcha) (1)
 - [Fakeset](#fakeset) (1)
@@ -416,7 +419,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GRE](#gre) (1)
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (2)
-- [groups](#groups) (9)
+- [groups](#groups) (10)
 - [GUE](#gue) (1)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
@@ -461,6 +464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure](#infrastructure) (3)
 - [initial-access](#initial-access) (1)
 - [install-time execution](#install-time-execution) (1)
+- [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (2)
 - [IP-in-IP](#ip-in-ip) (1)
@@ -619,7 +623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-gyp](#node-gyp) (1)
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
-- [North Korea](#north-korea) (7)
+- [North Korea](#north-korea) (8)
 - [notarized malware](#notarized-malware) (1)
 - [npm](#npm) (28)
 - [npm lifecycle hook](#npm-lifecycle-hook) (1)
@@ -730,6 +734,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (8)
 - [Python](#python) (3)
+- [Python extension modules](#python-extension-modules) (1)
 - [Qilin](#qilin) (1)
 - [query injection](#query-injection) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
@@ -831,7 +836,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SMB egress](#smb-egress) (1)
 - [smishing](#smishing) (2)
 - [SMTP](#smtp) (1)
-- [social engineering](#social-engineering) (9)
+- [social engineering](#social-engineering) (10)
 - [social-engineering](#social-engineering) (2)
 - [SOCKS5](#socks5) (2)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
@@ -873,7 +878,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (56)
+- [supply-chain](#supply-chain) (57)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
 - [T3](#t3) (1)
@@ -966,7 +971,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
 - [wallet replacement](#wallet-replacement) (1)
-- [wallet theft](#wallet-theft) (1)
+- [wallet theft](#wallet-theft) (2)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
 - [Wasabi](#wasabi) (1)
@@ -1338,6 +1343,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bash Uploader
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 
+## BeaverTail
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
+
 ## Bedrock
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
@@ -1399,6 +1407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## browser extension
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
@@ -1812,6 +1821,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cryptocurrency theft
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## cryptojacking
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -1979,6 +1989,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [GREYVIBE](../actors/greyvibe.md)
 
+## Cython
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
+
 ## Czech Republic
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
@@ -2061,6 +2074,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## developer targeting
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## developer tooling
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
@@ -2362,6 +2376,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fake plugin
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## fake recruiting
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
+
 ## fake update
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -2622,6 +2639,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA4922](../actors/ta4922.md)
 - [UNC3753](../actors/unc3753.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [Webworm](../actors/webworm.md)
 
 ## GUE
@@ -2780,6 +2798,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## install-time execution
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+
+## InvisibleFerret
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## iOS
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -3346,6 +3367,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## notarized malware
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -4004,6 +4026,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
+## Python extension modules
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
+
 ## Qilin
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
@@ -4371,6 +4396,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Screening Serpens](../actors/screening-serpens.md)
 - [UNC3753](../actors/unc3753.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## social-engineering
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -4562,6 +4588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
@@ -4909,6 +4936,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## wallet theft
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+- [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## wallet-drainer
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
