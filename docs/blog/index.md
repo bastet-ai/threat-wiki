@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Arctic Wolf follow-up: PAN-OS GlobalProtect CVE-2026-0257 VPN sessions with Impacket-style SMB / NTLM reconnaissance](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md#arctic-wolf-2026-06-12-pivots)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Void Dokkaebi Cython-compiled InvisibleFerret update](../actors/void-dokkaebi.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)

@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Astro config blockchain C2 PR injection](ops/astro-config-blockchain-c2-pr-injection.md)
 - [Void Dokkaebi](actors/void-dokkaebi.md)
 - [Sentry MCP Agentjacking](patterns/sentry-mcp-agentjacking.md)
@@ -17,7 +18,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Ivanti Sentry CVE-2026-10520 exploitation](ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [GitHub Actions OIDC subject-claim collisions](patterns/github-actions-oidc-subject-claim-collisions.md)
 - [OceanLotus](actors/oceanlotus.md)
-- [JDY SOHO / IoT reconnaissance botnet](ops/jdy-soho-iot-recon-botnet.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

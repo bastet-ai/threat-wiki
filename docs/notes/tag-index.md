@@ -455,7 +455,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IIS](#iis) (1)
 - [IKEv1](#ikev1) (1)
 - [iMessage](#imessage) (1)
-- [Impacket](#impacket) (1)
+- [Impacket](#impacket) (2)
 - [impersonation](#impersonation) (1)
 - [import-time execution](#import-time-execution) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
@@ -631,6 +631,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm lifecycle hook](#npm-lifecycle-hook) (1)
 - [npx](#npx) (1)
 - [NTFS ADS](#ntfs-ads) (2)
+- [NTLM](#ntlm) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (1)
 - [NVGRE](#nvgre) (1)
@@ -837,6 +838,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sliver](#sliver) (1)
 - [SLSA](#slsa) (1)
 - [SmartScreen](#smartscreen) (1)
+- [SMB](#smb) (1)
 - [SMB egress](#smb-egress) (1)
 - [smishing](#smishing) (2)
 - [SMTP](#smtp) (1)
@@ -2762,6 +2764,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## Impacket
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## impersonation
@@ -3426,6 +3429,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NTFS ADS
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## NTLM
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## nuclear weapons
 - [Fast16](../tools/fast16.md)
@@ -4398,6 +4404,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SmartScreen
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
+## SMB
+- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## SMB egress
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)

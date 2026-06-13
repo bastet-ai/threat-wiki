@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>PAN-OS GlobalProtect CVE-2026-0257 exploitation: Arctic Wolf follow-up</title>
+      <link>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/</link>
+      <description>Arctic Wolf reported CVE-2026-0257 intrusions where cookie-based GlobalProtect authentication led to unauthorized IPsec VPN tunnel establishment and rapid SMB / NTLM reconnaissance consistent with Impacket tooling. The updated page adds exposure preconditions, authentication and tunnel event sequences, VPS / Tor / unusual-geography pivots, suspicious device names such as GP-CLIENT / DESKTOP-GP01 / kali, and responder guidance for mapping gateway-connected events to internal activity from VPN-assigned addresses.</description>
+      <pubDate>Sat, 13 Jun 2026 01:28:40 GMT</pubDate>
+      <guid>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/#arctic-wolf-2026-06-12-pivots</guid>
+    </item>
+    <item>
       <title>Astro config blockchain C2 PR injection</title>
       <link>https://threat.wiki/ops/astro-config-blockchain-c2-pr-injection/</link>
       <description>SafeDep reported a malicious pull request that hid an obfuscated blockchain-C2 loader inside homepage/astro.config.mjs while posing as a benign dashboard fix. The page captures Astro config execution risk, horizontal-whitespace diff hiding, Tron-to-Binance Smart Chain second-stage resolution, SafeDep's PolinRider attribution caveat, and defender guidance for pull-request review, developer endpoint triage, and CI credential rotation.</description>
