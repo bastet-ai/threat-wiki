@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Operation Highland Velvet Ant authentication-stack backdoors](ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Velvet Ant](actors/velvet-ant.md)
 - [Chrome live-wallpaper extension ad-fraud network](ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Atomic Arch AUR package hijack](ops/atomic-arch-aur-package-hijack.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -16,8 +18,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [LangGraph checkpointer injection and unsafe deserialization](patterns/langgraph-checkpointer-injection-rce.md)
 - [Solana FakeFix npm / PyPI developer stealer](ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
-- [ShinyHunters](actors/shinyhunters.md)
-- [Ivanti Sentry CVE-2026-10520 exploitation](ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

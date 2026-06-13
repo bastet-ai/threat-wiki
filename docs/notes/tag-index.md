@@ -13,7 +13,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACTINIUM](#actinium) (1)
 - [active exploitation](#active-exploitation) (21)
 - [active-exploitation](#active-exploitation) (1)
-- [actor](#actor) (2)
+- [actor](#actor) (3)
 - [actors](#actors) (5)
 - [Adaptix C2](#adaptix-c2) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
@@ -73,6 +73,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AUDIOFIX](#audiofix) (2)
 - [AUR](#aur) (1)
 - [authentication bypass](#authentication-bypass) (5)
+- [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AUTODYN](#autodyn) (1)
 - [AutoHotKey](#autohotkey) (1)
@@ -134,7 +135,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [checkpointers](#checkpointers) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (2)
-- [China-nexus](#china-nexus) (4)
+- [China-nexus](#china-nexus) (6)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chisel](#chisel) (3)
@@ -146,6 +147,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (8)
 - [Cisco](#cisco) (1)
+- [Cisco Nexus](#cisco-nexus) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
@@ -199,9 +201,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crates.io](#cratesio) (1)
 - [credential exposure](#credential-exposure) (1)
 - [credential spraying](#credential-spraying) (1)
-- [credential theft](#credential-theft) (16)
+- [credential theft](#credential-theft) (17)
 - [credential-theft](#credential-theft) (39)
 - [criminal infrastructure](#criminal-infrastructure) (1)
+- [critical infrastructure](#critical-infrastructure) (2)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
 - [crypto-wallets](#crypto-wallets) (1)
@@ -218,6 +221,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2023-4966](#cve-2023-4966) (1)
 - [CVE-2024-1708](#cve-2024-1708) (1)
 - [CVE-2024-1709](#cve-2024-1709) (1)
+- [CVE-2024-20399](#cve-2024-20399) (1)
 - [CVE-2024-21182](#cve-2024-21182) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [CVE-2025-32975](#cve-2025-32975) (1)
@@ -341,7 +345,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (27)
+- [espionage](#espionage) (29)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -355,6 +359,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploitation](#exploitation) (10)
 - [external federation](#external-federation) (1)
 - [extortion](#extortion) (5)
+- [F5 BIG-IP](#f5-big-ip) (1)
 - [fake CAPTCHA](#fake-captcha) (1)
 - [fake dating lures](#fake-dating-lures) (1)
 - [fake plugin](#fake-plugin) (1)
@@ -367,6 +372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FAMOUS CHOLLIMA](#famous-chollima) (2)
 - [Fancy Bear](#fancy-bear) (1)
 - [Fast16](#fast16) (1)
+- [FastCGI](#fastcgi) (1)
 - [FBI](#fbi) (1)
 - [file-system filter](#file-system-filter) (1)
 - [FileFiend](#filefiend) (1)
@@ -427,8 +433,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro](#grandoreiro) (1)
 - [GRE](#gre) (1)
 - [GREYVIBE](#greyvibe) (1)
-- [group](#group) (2)
+- [group](#group) (3)
 - [groups](#groups) (10)
+- [GS-Netcat](#gs-netcat) (1)
 - [GUE](#gue) (1)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
@@ -501,6 +508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KEV](#kev) (3)
 - [KeyHunter](#keyhunter) (1)
 - [keylogger](#keylogger) (2)
+- [keylogging](#keylogging) (1)
 - [Kimsuky](#kimsuky) (1)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
 - [KV-botnet](#kv-botnet) (1)
@@ -527,7 +535,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libpeconv](#libpeconv) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
-- [Linux](#linux) (13)
+- [Linux](#linux) (15)
 - [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (1)
 - [living off the land](#living-off-the-land) (1)
@@ -628,6 +636,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [network infrastructure](#network-infrastructure) (1)
 - [nf_tables](#nf_tables) (1)
 - [nftables](#nftables) (1)
+- [Nginx](#nginx) (1)
 - [Nginx module](#nginx-module) (1)
 - [node-gyp](#node-gyp) (1)
 - [node-ipc](#node-ipc) (1)
@@ -654,13 +663,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenAI Codex](#openai-codex) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenSearch](#opensearch) (1)
+- [OpenSSH](#openssh) (2)
 - [OpenVPN](#openvpn) (1)
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
+- [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (109)
+- [operations](#operations) (110)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (108)
+- [ops](#ops) (109)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -677,6 +688,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [page poisoning](#page-poisoning) (1)
 - [Pakistan-linked](#pakistan-linked) (2)
 - [Palo Alto Networks](#palo-alto-networks) (1)
+- [PAM](#pam) (2)
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
@@ -689,7 +701,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PebbleDash](#pebbledash) (1)
 - [people](#people) (1)
 - [PeopleTools](#peopletools) (1)
-- [persistence](#persistence) (14)
+- [persistence](#persistence) (16)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
 - [Phantom Gyp](#phantom-gyp) (1)
@@ -815,6 +827,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (5)
 - [Seedworm](#seedworm) (1)
+- [segmented networks](#segmented-networks) (1)
 - [self-hosted AI services](#self-hosted-ai-services) (1)
 - [self-propagation](#self-propagation) (1)
 - [sendit.sh](#senditsh) (1)
@@ -855,7 +868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [social engineering](#social-engineering) (10)
 - [social-engineering](#social-engineering) (2)
 - [Socket Security Research](#socket-security-research) (1)
-- [SOCKS5](#socks5) (2)
+- [SOCKS5](#socks5) (3)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
 - [software impersonation](#software-impersonation) (1)
 - [SOHO routers](#soho-routers) (1)
@@ -920,6 +933,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Temp Zagros](#temp-zagros) (1)
 - [Tenet Security](#tenet-security) (1)
 - [The Gentlemen](#the-gentlemen) (1)
+- [threat hunting](#threat-hunting) (1)
 - [tj-actions](#tj-actions) (1)
 - [token replay](#token-replay) (1)
 - [token theft](#token-theft) (2)
@@ -968,6 +982,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ValleyRAT](#valleyrat) (1)
 - [VBCloud](#vbcloud) (1)
 - [VBScript](#vbscript) (3)
+- [Velvet Ant](#velvet-ant) (2)
+- [VELVETSHELL](#velvetshell) (1)
 - [Vercel](#vercel) (1)
 - [Vidar Stealer](#vidar-stealer) (1)
 - [Vietnam](#vietnam) (2)
@@ -1089,6 +1105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## actor
 - [ShinyHunters](../actors/shinyhunters.md)
 - [UNC3753](../actors/unc3753.md)
+- [Velvet Ant](../actors/velvet-ant.md)
 
 ## actors
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -1311,6 +1328,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
+## authentication stack
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Velvet Ant](../actors/velvet-ant.md)
+
 ## authentication-coercion
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
@@ -1524,6 +1545,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## China-nexus
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Velvet Ant](../actors/velvet-ant.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
@@ -1594,6 +1617,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cisco
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+
+## Cisco Nexus
+- [Velvet Ant](../actors/velvet-ant.md)
 
 ## Citrine Sleet
 - [RemotePE](../tools/remotepe.md)
@@ -1792,6 +1818,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -1843,6 +1870,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## criminal infrastructure
 - [First VPN](../tools/first-vpn.md)
+
+## critical infrastructure
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Velvet Ant](../actors/velvet-ant.md)
 
 ## critical-infrastructure
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -1903,6 +1934,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2024-1709
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+
+## CVE-2024-20399
+- [Velvet Ant](../actors/velvet-ant.md)
 
 ## CVE-2024-21182
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
@@ -2349,6 +2383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OP-512](../actors/op-512.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
@@ -2359,6 +2394,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](../actors/sidecopy.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+- [Velvet Ant](../actors/velvet-ant.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [Webworm](../actors/webworm.md)
@@ -2419,6 +2455,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ShinyHunters](../actors/shinyhunters.md)
 - [UNC3753](../actors/unc3753.md)
 
+## F5 BIG-IP
+- [Velvet Ant](../actors/velvet-ant.md)
+
 ## fake CAPTCHA
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -2456,6 +2495,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Fast16
 - [Fast16](../tools/fast16.md)
+
+## FastCGI
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 
 ## FBI
 - [First VPN](../tools/first-vpn.md)
@@ -2682,6 +2724,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## group
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+- [Velvet Ant](../actors/velvet-ant.md)
 
 ## groups
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
@@ -2694,6 +2737,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [Webworm](../actors/webworm.md)
+
+## GS-Netcat
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 
 ## GUE
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -2950,6 +2996,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 
+## keylogging
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+
 ## Kimsuky
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -3046,8 +3095,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Showboat](../tools/showboat.md)
+- [Velvet Ant](../actors/velvet-ant.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
@@ -3403,6 +3454,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## nftables
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 
+## Nginx
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+
 ## Nginx module
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -3526,6 +3580,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OpenSearch
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
+## OpenSSH
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Velvet Ant](../actors/velvet-ant.md)
+
 ## OpenVPN
 - [First VPN](../tools/first-vpn.md)
 
@@ -3534,6 +3592,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Operation DangerousPassword
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+
+## Operation Highland
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Velvet Ant](../actors/velvet-ant.md)
 
 ## operational resilience
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -3617,6 +3679,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
@@ -3729,6 +3792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
@@ -3815,6 +3879,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Palo Alto Networks
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
+## PAM
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Velvet Ant](../actors/velvet-ant.md)
+
 ## PAN-OS
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
@@ -3869,6 +3937,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
@@ -3878,6 +3947,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [Velvet Ant](../actors/velvet-ant.md)
 
 ## pfSense
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -4352,6 +4422,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Seedworm
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## segmented networks
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+
 ## self-hosted AI services
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
@@ -4492,6 +4565,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
 ## SOCKS5
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Showboat](../tools/showboat.md)
 
@@ -4772,6 +4846,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## The Gentlemen
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## threat hunting
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+
 ## tj-actions
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
@@ -4949,6 +5026,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
+## Velvet Ant
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Velvet Ant](../actors/velvet-ant.md)
+
+## VELVETSHELL
+- [Velvet Ant](../actors/velvet-ant.md)
 
 ## Vercel
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)

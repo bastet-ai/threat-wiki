@@ -5,6 +5,20 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Operation Highland Velvet Ant authentication-stack backdoors</title>
+      <link>https://threat.wiki/ops/operation-highland-velvet-ant-authentication-stack-backdoors/</link>
+      <description>Sygnia reported Operation Highland, a Velvet Ant intrusion with forensic artifacts dating back to 2016 in an internal network with no direct internet connectivity. The new page captures the China-nexus actor's staged access through internet-facing systems, GS-Netcat and SOCKS5 tunneling, Nginx / FastCGI execution paths, backdoored pam_unix.so and OpenSSH binaries, credential capture, SSH keylogging, authorized_keys persistence, and responder guidance for verifying and replacing compromised authentication components before credential rotation.</description>
+      <pubDate>Sat, 13 Jun 2026 11:29:51 GMT</pubDate>
+      <guid>https://threat.wiki/ops/operation-highland-velvet-ant-authentication-stack-backdoors/</guid>
+    </item>
+    <item>
+      <title>Velvet Ant</title>
+      <link>https://threat.wiki/actors/velvet-ant/</link>
+      <description>New actor profile for Sygnia's Velvet Ant reporting, connecting Operation Highland authentication-stack backdoors with Sygnia's prior public reporting on F5 BIG-IP abuse, Cisco Nexus CVE-2024-20399 exploitation, and VELVETSHELL. The profile keeps attribution scoped to primary Sygnia sourcing and highlights the recurring defender lesson: include appliances, bastions, Linux authentication stacks, and management-plane systems in threat hunts.</description>
+      <pubDate>Sat, 13 Jun 2026 11:29:51 GMT</pubDate>
+      <guid>https://threat.wiki/actors/velvet-ant/</guid>
+    </item>
+    <item>
       <title>Chrome live-wallpaper extension ad-fraud network</title>
       <link>https://threat.wiki/ops/chrome-live-wallpaper-extension-ad-fraud/</link>
       <description>Socket Security Research reported a Chrome Web Store operation using 152 new-tab live-wallpaper extensions across 38 publisher accounts and three brand backends. The new page captures the tabplugins Google organic-attribution forgery, cloaked uninstall redirects, false privacy disclosures, IndexedDB anti-forensic fingerprint, publisher-fragmentation evasion, and defender guidance for extension allow-listing and enterprise browser hunting.</description>

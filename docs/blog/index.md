@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Velvet Ant](../actors/velvet-ant.md)
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Arctic Wolf follow-up: PAN-OS GlobalProtect CVE-2026-0257 VPN sessions with Impacket-style SMB / NTLM reconnaissance](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md#arctic-wolf-2026-06-12-pivots)
