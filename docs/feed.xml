@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Operation DangerousPassword axios npm compromise: Hunt.io payload analysis</title>
+      <link>https://threat.wiki/ops/operation-dangerouspassword-axios-npm-compromise/#huntio-payload-analysis</link>
+      <description>Updated the Operation DangerousPassword / axios npm compromise page with Hunt.io's reverse-engineering of the plain-crypto-js payload chain: clean-to-weaponized package staging, reversed-Base64 plus XOR obfuscation, macOS Mach-O / Windows PowerShell / Linux Python RAT delivery, sfrclak[.]com:8000 product0/product1/product2 routing, shared RAT commands, Windows MicrosoftUpdate Run-key persistence, macOS ad-hoc signing, and Hunt.io's TA444 / BlueNoroff infrastructure assessment.</description>
+      <pubDate>Sat, 13 Jun 2026 17:26:56 GMT</pubDate>
+      <guid>https://threat.wiki/ops/operation-dangerouspassword-axios-npm-compromise/#huntio-payload-analysis</guid>
+    </item>
+    <item>
       <title>Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE</title>
       <link>https://threat.wiki/ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce/</link>
       <description>Splunk disclosed CVE-2026-20253, a CVSS 9.8 unauthenticated arbitrary file creation and truncation issue in the Splunk Enterprise PostgreSQL Sidecar Service endpoint. watchTowr Labs showed how Splunk Web proxy access to /splunkd/__raw/v1/postgres/recovery/backup and restore paths can turn the file-write primitive into code execution by overwriting Splunk-executed Python scripts. The new page captures affected versions, Splunk Cloud non-exposure caveats, detection pivots, and patch guidance for Splunk Enterprise 10.2.4 / 10.0.7 or later.</description>

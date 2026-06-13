@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Hunt.io payload analysis update for Operation DangerousPassword / axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md#huntio-payload-analysis)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Velvet Ant](../actors/velvet-ant.md)

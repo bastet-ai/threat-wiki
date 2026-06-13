@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Operation DangerousPassword axios npm compromise](ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Velvet Ant](actors/velvet-ant.md)
@@ -16,8 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Astro config blockchain C2 PR injection](ops/astro-config-blockchain-c2-pr-injection.md)
 - [Void Dokkaebi](actors/void-dokkaebi.md)
 - [Sentry MCP Agentjacking](patterns/sentry-mcp-agentjacking.md)
-- [LangGraph checkpointer injection and unsafe deserialization](patterns/langgraph-checkpointer-injection-rce.md)
-- [Solana FakeFix npm / PyPI developer stealer](ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
