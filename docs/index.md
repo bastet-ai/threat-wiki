@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Chrome live-wallpaper extension ad-fraud network](ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Atomic Arch AUR package hijack](ops/atomic-arch-aur-package-hijack.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Astro config blockchain C2 PR injection](ops/astro-config-blockchain-c2-pr-injection.md)
@@ -17,7 +18,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](actors/shinyhunters.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](ops/ivanti-sentry-cve-2026-10520-exploitation.md)
-- [GitHub Actions OIDC subject-claim collisions](patterns/github-actions-oidc-subject-claim-collisions.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

@@ -21,7 +21,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adobe Commerce](#adobe-commerce) (1)
 - [Adspect](#adspect) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (2)
-- [adware](#adware) (2)
+- [adware](#adware) (3)
 - [Afghanistan](#afghanistan) (2)
 - [agent frameworks](#agent-frameworks) (2)
 - [agent skills](#agent-skills) (1)
@@ -113,6 +113,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser extension](#browser-extension) (1)
 - [browser hijacking](#browser-hijacking) (1)
 - [browser zero-day](#browser-zero-day) (1)
+- [browser-extensions](#browser-extensions) (1)
+- [browser-security](#browser-security) (1)
 - [BTMOB](#btmob) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
@@ -136,6 +138,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chisel](#chisel) (3)
+- [Chrome Web Store](#chrome-web-store) (1)
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (1)
 - [CI-CD](#ci-cd) (1)
@@ -655,9 +658,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (108)
+- [operations](#operations) (109)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (107)
+- [ops](#ops) (108)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -723,6 +726,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PRC-aligned](#prc-aligned) (1)
 - [Primitive Bear](#primitive-bear) (1)
 - [PrincessClub](#princessclub) (1)
+- [privacy](#privacy) (1)
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (7)
 - [process hollowing](#process-hollowing) (2)
@@ -741,6 +745,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public sector](#public-sector) (1)
 - [pull requests](#pull-requests) (1)
+- [PUP](#pup) (1)
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (8)
 - [Python](#python) (3)
@@ -849,6 +854,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SMTP](#smtp) (1)
 - [social engineering](#social-engineering) (10)
 - [social-engineering](#social-engineering) (2)
+- [Socket Security Research](#socket-security-research) (1)
 - [SOCKS5](#socks5) (2)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
 - [software impersonation](#software-impersonation) (1)
@@ -909,6 +915,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telecom-impersonation](#telecom-impersonation) (1)
 - [Telegram](#telegram) (5)
 - [Telegram C2](#telegram-c2) (1)
+- [telemetry](#telemetry) (1)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
 - [Tenet Security](#tenet-security) (1)
@@ -923,6 +930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tor](#tor) (2)
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
+- [traffic-fraud](#traffic-fraud) (1)
 - [transnational repression](#transnational-repression) (1)
 - [Transparent Tribe](#transparent-tribe) (2)
 - [Trend Micro](#trend-micro) (2)
@@ -1110,6 +1118,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## adware
+- [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
@@ -1441,6 +1450,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser zero-day
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
+## browser-extensions
+- [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+
+## browser-security
+- [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+
 ## BTMOB
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -1522,6 +1537,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
+## Chrome Web Store
+- [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
 ## ChromElevator
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -3542,6 +3560,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -3654,6 +3673,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -3993,6 +4013,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PrincessClub
 - [GREYVIBE](../actors/greyvibe.md)
 
+## privacy
+- [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+
 ## private-key theft
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
@@ -4062,6 +4085,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pull requests
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+
+## PUP
+- [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
 ## pwn-request
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -4462,6 +4488,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
+## Socket Security Research
+- [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+
 ## SOCKS5
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Showboat](../tools/showboat.md)
@@ -4728,6 +4757,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Telegram C2
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
+## telemetry
+- [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+
 ## Telnyx
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
@@ -4781,6 +4813,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## traffic hijacking
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## traffic-fraud
+- [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
 ## transnational repression
 - [Handala](../actors/handala.md)

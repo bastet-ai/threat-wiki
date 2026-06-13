@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Chrome live-wallpaper extension ad-fraud network</title>
+      <link>https://threat.wiki/ops/chrome-live-wallpaper-extension-ad-fraud/</link>
+      <description>Socket Security Research reported a Chrome Web Store operation using 152 new-tab live-wallpaper extensions across 38 publisher accounts and three brand backends. The new page captures the tabplugins Google organic-attribution forgery, cloaked uninstall redirects, false privacy disclosures, IndexedDB anti-forensic fingerprint, publisher-fragmentation evasion, and defender guidance for extension allow-listing and enterprise browser hunting.</description>
+      <pubDate>Sat, 13 Jun 2026 05:27:31 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chrome-live-wallpaper-extension-ad-fraud/</guid>
+    </item>
+    <item>
       <title>Atomic Arch AUR package hijack</title>
       <link>https://threat.wiki/ops/atomic-arch-aur-package-hijack/</link>
       <description>Sonatype Security Research and StepSecurity reported Atomic Arch, a June 2026 AUR supply-chain campaign where attackers adopted orphaned Arch User Repository packages and changed PKGBUILD / install logic to fetch malicious npm dependencies such as atomic-lockfile, js-digest, and lockfile-js. The new page captures the orphan-package trust-inheritance path, cross-ecosystem npm / Bun fetch behavior, native Linux credential-stealer payload, Arch / WSL2 / self-hosted-runner exposure, and defender guidance for package-script review, endpoint triage, and credential rotation.</description>
