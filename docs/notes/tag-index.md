@@ -62,6 +62,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT37](#apt37) (1)
 - [APT43](#apt43) (1)
 - [APT45](#apt45) (1)
+- [arbitrary file write](#arbitrary-file-write) (1)
 - [Arch Linux](#arch-linux) (1)
 - [Arista EOS](#arista-eos) (1)
 - [Armageddon](#armageddon) (1)
@@ -235,6 +236,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
 - [CVE-2026-20245](#cve-2026-20245) (1)
+- [CVE-2026-20253](#cve-2026-20253) (1)
 - [CVE-2026-23111](#cve-2026-23111) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-28318](#cve-2026-28318) (1)
@@ -324,7 +326,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge devices](#edge-devices) (1)
-- [edge service](#edge-service) (1)
+- [edge service](#edge-service) (2)
 - [EDR evasion](#edr-evasion) (1)
 - [education](#education) (1)
 - [Egnyte](#egnyte) (1)
@@ -473,7 +475,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (1)
 - [import-time execution](#import-time-execution) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
-- [incident response](#incident-response) (10)
+- [incident response](#incident-response) (11)
 - [indirect prompt injection](#indirect-prompt-injection) (1)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (9)
@@ -669,9 +671,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (110)
+- [operations](#operations) (111)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (109)
+- [ops](#ops) (110)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -727,7 +729,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Portugal](#portugal) (1)
 - [post-exploitation](#post-exploitation) (3)
 - [postal-impersonation](#postal-impersonation) (1)
-- [PostgreSQL](#postgresql) (2)
+- [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (5)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (8)
@@ -736,6 +738,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PraisonAI](#praisonai) (1)
 - [PRC](#prc) (1)
 - [PRC-aligned](#prc-aligned) (1)
+- [pre-authentication](#pre-authentication) (1)
 - [Primitive Bear](#primitive-bear) (1)
 - [PrincessClub](#princessclub) (1)
 - [privacy](#privacy) (1)
@@ -771,7 +774,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAT](#rat) (15)
 - [RC4](#rc4) (2)
-- [RCE](#rce) (3)
+- [RCE](#rce) (4)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [RDP](#rdp) (1)
@@ -826,6 +829,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SD-WAN](#sd-wan) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (5)
+- [security platform](#security-platform) (1)
 - [Seedworm](#seedworm) (1)
 - [segmented networks](#segmented-networks) (1)
 - [self-hosted AI services](#self-hosted-ai-services) (1)
@@ -887,6 +891,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spear-phishing](#spear-phishing) (2)
 - [spearphishing](#spearphishing) (1)
 - [SPECTRALVIPER](#spectralviper) (1)
+- [Splunk](#splunk) (1)
 - [SQL injection](#sql-injection) (3)
 - [SQLite](#sqlite) (1)
 - [SSH](#ssh) (2)
@@ -1288,6 +1293,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## APT45
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## arbitrary file write
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## Arch Linux
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
@@ -1980,6 +1988,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-20245
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
+## CVE-2026-20253
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+
 ## CVE-2026-23111
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 
@@ -2305,6 +2316,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## edge service
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## EDR evasion
 - [RemotePE](../tools/remotepe.md)
@@ -2870,6 +2882,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## indirect prompt injection
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -3695,6 +3708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -3809,6 +3823,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -4041,6 +4056,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PostgreSQL
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## postinstall
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
@@ -4076,6 +4092,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PRC-aligned
 - [Showboat](../tools/showboat.md)
+
+## pre-authentication
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## Primitive Bear
 - [Gamaredon](../actors/gamaredon.md)
@@ -4230,6 +4249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## Rclone
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -4418,6 +4438,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+
+## security platform
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## Seedworm
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -4630,6 +4653,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SPECTRALVIPER
 - [OceanLotus](../actors/oceanlotus.md)
+
+## Splunk
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## SQL injection
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)

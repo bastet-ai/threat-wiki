@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE</title>
+      <link>https://threat.wiki/ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce/</link>
+      <description>Splunk disclosed CVE-2026-20253, a CVSS 9.8 unauthenticated arbitrary file creation and truncation issue in the Splunk Enterprise PostgreSQL Sidecar Service endpoint. watchTowr Labs showed how Splunk Web proxy access to /splunkd/__raw/v1/postgres/recovery/backup and restore paths can turn the file-write primitive into code execution by overwriting Splunk-executed Python scripts. The new page captures affected versions, Splunk Cloud non-exposure caveats, detection pivots, and patch guidance for Splunk Enterprise 10.2.4 / 10.0.7 or later.</description>
+      <pubDate>Sat, 13 Jun 2026 15:25:18 GMT</pubDate>
+      <guid>https://threat.wiki/ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce/</guid>
+    </item>
+    <item>
       <title>Operation Highland Velvet Ant authentication-stack backdoors</title>
       <link>https://threat.wiki/ops/operation-highland-velvet-ant-authentication-stack-backdoors/</link>
       <description>Sygnia reported Operation Highland, a Velvet Ant intrusion with forensic artifacts dating back to 2016 in an internal network with no direct internet connectivity. The new page captures the China-nexus actor's staged access through internet-facing systems, GS-Netcat and SOCKS5 tunneling, Nginx / FastCGI execution paths, backdoored pam_unix.so and OpenSSH binaries, credential capture, SSH keylogging, authorized_keys persistence, and responder guidance for verifying and replacing compromised authentication components before credential rotation.</description>
