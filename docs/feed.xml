@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Outsider Enterprise smishing PhaaS</title>
+      <link>https://threat.wiki/ops/outsider-enterprise-smishing-phaas/</link>
+      <description>Google reported and filed civil litigation against Outsider Enterprise, a China-based, Telegram-coordinated SMS phishing-kit network. The new page captures Google's reporting on Gemini-assisted phishing-page generation, 9,000 fake websites, more than 1 million fraudulent URLs, 55,000 Android-user spam reports, 2.5 million Android-user messages in two weeks, brokerage-account and mobile-carrier reward lures, and Google / FBI / carrier disruption paths.</description>
+      <pubDate>Sat, 13 Jun 2026 23:25:39 GMT</pubDate>
+      <guid>https://threat.wiki/ops/outsider-enterprise-smishing-phaas/</guid>
+    </item>
+    <item>
       <title>Operation DangerousPassword axios npm compromise: Hunt.io payload analysis</title>
       <link>https://threat.wiki/ops/operation-dangerouspassword-axios-npm-compromise/#huntio-payload-analysis</link>
       <description>Updated the Operation DangerousPassword / axios npm compromise page with Hunt.io's reverse-engineering of the plain-crypto-js payload chain: clean-to-weaponized package staging, reversed-Base64 plus XOR obfuscation, macOS Mach-O / Windows PowerShell / Linux Python RAT delivery, sfrclak[.]com:8000 product0/product1/product2 routing, shared RAT commands, Windows MicrosoftUpdate Run-key persistence, macOS ad-hoc signing, and Hunt.io's TA444 / BlueNoroff infrastructure assessment.</description>
