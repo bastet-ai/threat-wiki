@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Atomic Arch AUR package hijack</title>
+      <link>https://threat.wiki/ops/atomic-arch-aur-package-hijack/</link>
+      <description>Sonatype Security Research and StepSecurity reported Atomic Arch, a June 2026 AUR supply-chain campaign where attackers adopted orphaned Arch User Repository packages and changed PKGBUILD / install logic to fetch malicious npm dependencies such as atomic-lockfile, js-digest, and lockfile-js. The new page captures the orphan-package trust-inheritance path, cross-ecosystem npm / Bun fetch behavior, native Linux credential-stealer payload, Arch / WSL2 / self-hosted-runner exposure, and defender guidance for package-script review, endpoint triage, and credential rotation.</description>
+      <pubDate>Sat, 13 Jun 2026 03:27:39 GMT</pubDate>
+      <guid>https://threat.wiki/ops/atomic-arch-aur-package-hijack/</guid>
+    </item>
+    <item>
       <title>PAN-OS GlobalProtect CVE-2026-0257 exploitation: Arctic Wolf follow-up</title>
       <link>https://threat.wiki/ops/pan-os-globalprotect-cve-2026-0257-exploitation/</link>
       <description>Arctic Wolf reported CVE-2026-0257 intrusions where cookie-based GlobalProtect authentication led to unauthorized IPsec VPN tunnel establishment and rapid SMB / NTLM reconnaissance consistent with Impacket tooling. The updated page adds exposure preconditions, authentication and tunnel event sequences, VPS / Tor / unusual-geography pivots, suspicious device names such as GP-CLIENT / DESKTOP-GP01 / kali, and responder guidance for mapping gateway-connected events to internal activity from VPN-assigned addresses.</description>

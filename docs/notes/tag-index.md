@@ -62,6 +62,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT37](#apt37) (1)
 - [APT43](#apt43) (1)
 - [APT45](#apt45) (1)
+- [Arch Linux](#arch-linux) (1)
 - [Arista EOS](#arista-eos) (1)
 - [Armageddon](#armageddon) (1)
 - [Artifact Signing](#artifact-signing) (1)
@@ -70,6 +71,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Astro](#astro) (1)
 - [Atlas RAT](#atlas-rat) (1)
 - [AUDIOFIX](#audiofix) (2)
+- [AUR](#aur) (1)
 - [authentication bypass](#authentication-bypass) (5)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AUTODYN](#autodyn) (1)
@@ -136,6 +138,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chisel](#chisel) (3)
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (1)
+- [CI-CD](#ci-cd) (1)
 - [CI/CD](#cicd) (27)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (8)
@@ -194,7 +197,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential exposure](#credential-exposure) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential theft](#credential-theft) (16)
-- [credential-theft](#credential-theft) (38)
+- [credential-theft](#credential-theft) (39)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
@@ -278,6 +281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer workstations](#developer-workstations) (1)
 - [developer-targeting](#developer-targeting) (9)
 - [developer-tools](#developer-tools) (1)
+- [developer-workstations](#developer-workstations) (1)
 - [device registration](#device-registration) (1)
 - [device-code phishing](#device-code-phishing) (1)
 - [DEWMODE](#dewmode) (1)
@@ -308,7 +312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dynamic DNS](#dynamic-dns) (1)
 - [Dynu](#dynu) (1)
 - [e-commerce](#e-commerce) (1)
-- [eBPF](#ebpf) (1)
+- [eBPF](#ebpf) (2)
 - [edge appliance](#edge-appliance) (6)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
@@ -520,7 +524,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libpeconv](#libpeconv) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
-- [Linux](#linux) (12)
+- [Linux](#linux) (13)
 - [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (1)
 - [living off the land](#living-off-the-land) (1)
@@ -627,7 +631,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (8)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (28)
+- [npm](#npm) (29)
 - [npm lifecycle hook](#npm-lifecycle-hook) (1)
 - [npx](#npx) (1)
 - [NTFS ADS](#ntfs-ads) (2)
@@ -651,9 +655,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (107)
+- [operations](#operations) (108)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (106)
+- [ops](#ops) (107)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -699,6 +703,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pig-butchering](#pig-butchering) (1)
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
+- [PKGBUILD](#pkgbuild) (1)
 - [PLENET](#plenet) (2)
 - [poisoned-branch](#poisoned-branch) (1)
 - [PolinRider](#polinrider) (1)
@@ -784,7 +789,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RokRAT](#rokrat) (1)
 - [RomulusLoader](#romulusloader) (1)
 - [root execution](#root-execution) (1)
-- [rootkit](#rootkit) (2)
+- [rootkit](#rootkit) (3)
 - [RSA](#rsa) (1)
 - [RubyGems](#rubygems) (2)
 - [Runner.Worker](#runnerworker) (1)
@@ -792,7 +797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
-- [Rust](#rust) (3)
+- [Rust](#rust) (4)
 - [SaaS](#saas) (2)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
@@ -884,7 +889,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (58)
+- [supply-chain](#supply-chain) (59)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
 - [T3](#t3) (1)
@@ -1258,6 +1263,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## APT45
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## Arch Linux
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+
 ## Arista EOS
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
@@ -1283,6 +1291,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AUDIOFIX
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+
+## AUR
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 
 ## authentication bypass
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
@@ -1517,6 +1528,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Chromium
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+
+## CI-CD
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 
 ## CI/CD
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -1771,6 +1785,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## credential-theft
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -2110,6 +2125,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## developer-tools
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
+## developer-workstations
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+
 ## device registration
 - [ROADtools](../tools/roadtools.md)
 
@@ -2212,6 +2230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
 ## eBPF
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 
 ## edge appliance
@@ -3001,6 +3020,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
 ## Linux
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -3392,6 +3412,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## npm
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
@@ -3511,6 +3532,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -3623,6 +3645,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -3894,6 +3917,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+
+## PKGBUILD
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 
 ## PLENET
 - [VerdantBamboo](../actors/verdantbamboo.md)
@@ -4217,6 +4243,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
 ## rootkit
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 
@@ -4249,6 +4276,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 
 ## Rust
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -4575,6 +4603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
