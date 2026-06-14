@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign: watchTowr session-forgery analysis</title>
+      <link>https://threat.wiki/ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign/</link>
+      <description>Updated the Mr_Rot13 cPanel CVE-2026-41940 page with cPanel's fixed branch list and watchTowr's root-cause analysis: pre-auth whostmgrsession creation, stripped cookie ob suffixes, HTTP Basic CRLF injection into /var/cpanel/sessions/raw session files, forged hasroot / tfa_verified / cp_security_token fields, token-denied promotion into JSON session cache, and defender hunts for anomalous cPanel session artifacts and WHM API access after failed logins.</description>
+      <pubDate>Sun, 14 Jun 2026 01:25:40 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign/</guid>
+    </item>
+    <item>
       <title>Outsider Enterprise smishing PhaaS</title>
       <link>https://threat.wiki/ops/outsider-enterprise-smishing-phaas/</link>
       <description>Google reported and filed civil litigation against Outsider Enterprise, a China-based, Telegram-coordinated SMS phishing-kit network. The new page captures Google's reporting on Gemini-assisted phishing-page generation, 9,000 fake websites, more than 1 million fraudulent URLs, 55,000 Android-user spam reports, 2.5 million Android-user messages in two weeks, brokerage-account and mobile-carrier reward lures, and Google / FBI / carrier disruption paths.</description>

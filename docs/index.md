@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Outsider Enterprise smishing PhaaS](ops/outsider-enterprise-smishing-phaas.md)
 - [Operation DangerousPassword axios npm compromise](ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Atomic Arch AUR package hijack](ops/atomic-arch-aur-package-hijack.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Astro config blockchain C2 PR injection](ops/astro-config-blockchain-c2-pr-injection.md)
-- [Void Dokkaebi](actors/void-dokkaebi.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
