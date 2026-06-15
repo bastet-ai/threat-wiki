@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Crypto supply-chain path to transaction authority](patterns/crypto-supply-chain-transaction-authority.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Outsider Enterprise smishing PhaaS](ops/outsider-enterprise-smishing-phaas.md)
 - [Operation DangerousPassword axios npm compromise](ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Chrome live-wallpaper extension ad-fraud network](ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Atomic Arch AUR package hijack](ops/atomic-arch-aur-package-hijack.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
-- [Astro config blockchain C2 PR injection](ops/astro-config-blockchain-c2-pr-injection.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

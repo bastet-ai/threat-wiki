@@ -146,7 +146,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (1)
 - [CI-CD](#ci-cd) (1)
-- [CI/CD](#cicd) (27)
+- [CI/CD](#cicd) (28)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (8)
 - [Cisco](#cisco) (1)
@@ -166,7 +166,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
 - [Cloud Filter driver](#cloud-filter-driver) (1)
 - [cloud IAM](#cloud-iam) (1)
-- [cloud identity](#cloud-identity) (1)
+- [cloud identity](#cloud-identity) (2)
 - [cloud infrastructure](#cloud-infrastructure) (1)
 - [cloud logging](#cloud-logging) (1)
 - [cloud secrets](#cloud-secrets) (3)
@@ -211,13 +211,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
 - [crypto-wallets](#crypto-wallets) (1)
-- [cryptocurrency](#cryptocurrency) (8)
+- [cryptocurrency](#cryptocurrency) (9)
 - [cryptocurrency theft](#cryptocurrency-theft) (2)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
 - [Curious Serpens](#curious-serpens) (1)
 - [Cursor](#cursor) (2)
 - [Curve25519](#curve25519) (1)
+- [custody APIs](#custody-apis) (1)
 - [CVE-2020-17103](#cve-2020-17103) (1)
 - [CVE-2022-0492](#cve-2022-0492) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
@@ -286,6 +287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (1)
 - [destructive operations](#destructive-operations) (1)
+- [developer endpoints](#developer-endpoints) (1)
 - [developer machines](#developer-machines) (6)
 - [developer targeting](#developer-targeting) (2)
 - [developer tooling](#developer-tooling) (1)
@@ -409,7 +411,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS](#ghost-cms) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
-- [GitHub](#github) (13)
+- [GitHub](#github) (14)
 - [GitHub abuse](#github-abuse) (1)
 - [GitHub Actions](#github-actions) (16)
 - [GitHub API](#github-api) (1)
@@ -515,6 +517,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keylogging](#keylogging) (1)
 - [Kimsuky](#kimsuky) (1)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
+- [Kubernetes](#kubernetes) (1)
 - [KV-botnet](#kv-botnet) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
@@ -696,7 +699,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
-- [patterns](#patterns) (13)
+- [patterns](#patterns) (14)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (1)
 - [payment-card-theft](#payment-card-theft) (2)
@@ -831,6 +834,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SD-WAN](#sd-wan) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (5)
+- [secrets management](#secrets-management) (1)
 - [security platform](#security-platform) (1)
 - [Seedworm](#seedworm) (1)
 - [segmented networks](#segmented-networks) (1)
@@ -841,6 +845,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sentry abuse](#sentry-abuse) (1)
 - [SEO poisoning](#seo-poisoning) (2)
 - [Serv-U](#serv-u) (1)
+- [service accounts](#service-accounts) (1)
 - [ServiceNow](#servicenow) (1)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
@@ -869,7 +874,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SmartScreen](#smartscreen) (1)
 - [SMB](#smb) (1)
 - [SMB egress](#smb-egress) (1)
-- [smishing](#smishing) (3)
+- [smishing](#smishing) (4)
 - [sms-phishing](#sms-phishing) (1)
 - [SMTP](#smtp) (1)
 - [social engineering](#social-engineering) (10)
@@ -916,7 +921,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (59)
+- [supply-chain](#supply-chain) (60)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
 - [T3](#t3) (1)
@@ -954,6 +959,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
 - [traffic-fraud](#traffic-fraud) (1)
+- [transaction authority](#transaction-authority) (1)
 - [transnational repression](#transnational-repression) (1)
 - [Transparent Tribe](#transparent-tribe) (2)
 - [Trend Micro](#trend-micro) (2)
@@ -993,6 +999,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBScript](#vbscript) (3)
 - [Velvet Ant](#velvet-ant) (2)
 - [VELVETSHELL](#velvetshell) (1)
+- [vendor credentials](#vendor-credentials) (1)
 - [Vercel](#vercel) (1)
 - [Vidar Stealer](#vidar-stealer) (1)
 - [Vietnam](#vietnam) (2)
@@ -1014,6 +1021,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
+- [wallet infrastructure](#wallet-infrastructure) (1)
 - [wallet replacement](#wallet-replacement) (1)
 - [wallet theft](#wallet-theft) (2)
 - [wallet-drainer](#wallet-drainer) (1)
@@ -1600,6 +1608,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -1695,6 +1704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 
 ## cloud identity
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
 ## cloud infrastructure
@@ -1906,6 +1916,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 
 ## cryptocurrency
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -1935,6 +1946,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Curve25519
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## custody APIs
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
 ## CVE-2020-17103
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -2167,6 +2181,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## destructive operations
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+
+## developer endpoints
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
 ## developer machines
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
@@ -2633,6 +2650,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -3029,6 +3047,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## KnowledgeDeliver
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## Kubernetes
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
 ## KV-botnet
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
@@ -3928,6 +3949,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
@@ -4456,6 +4478,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
+## secrets management
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+
 ## security platform
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
@@ -4486,6 +4511,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Serv-U
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+
+## service accounts
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
 ## ServiceNow
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
@@ -4580,6 +4608,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## smishing
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 
@@ -4762,6 +4791,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -4944,6 +4974,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## traffic-fraud
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
+## transaction authority
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+
 ## transnational repression
 - [Handala](../actors/handala.md)
 
@@ -5084,6 +5117,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VELVETSHELL
 - [Velvet Ant](../actors/velvet-ant.md)
 
+## vendor credentials
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+
 ## Vercel
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 
@@ -5162,6 +5198,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## w3wp.exe
 - [OP-512](../actors/op-512.md)
+
+## wallet infrastructure
+- [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
 ## wallet replacement
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)

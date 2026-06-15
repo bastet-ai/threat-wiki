@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Crypto supply-chain path to transaction authority</title>
+      <link>https://threat.wiki/patterns/crypto-supply-chain-transaction-authority/</link>
+      <description>Added a pattern page from Sygnia's crypto supply-chain analysis: developer endpoint and identity compromise can flow through repositories, CI/CD workflows, automation identities, cloud and Kubernetes control planes, secrets stores, vendor channels, custody APIs, wallet orchestration, and transaction authority. The page captures containment-first controls for workflow changes, service-account keys, Kubernetes exec, vendor API abuse, and custody/signing correlation.</description>
+      <pubDate>Mon, 15 Jun 2026 02:15:00 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/crypto-supply-chain-transaction-authority/</guid>
+    </item>
+    <item>
       <title>Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign: watchTowr session-forgery analysis</title>
       <link>https://threat.wiki/ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign/</link>
       <description>Updated the Mr_Rot13 cPanel CVE-2026-41940 page with cPanel's fixed branch list and watchTowr's root-cause analysis: pre-auth whostmgrsession creation, stripped cookie ob suffixes, HTTP Basic CRLF injection into /var/cpanel/sessions/raw session files, forged hasroot / tfa_verified / cp_security_token fields, token-denied promotion into JSON session cache, and defender hunts for anomalous cPanel session artifacts and WHM API access after failed logins.</description>
