@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Crypto Clipper Tor / USB worm: ops/crypto-clipper-tor-usb-worm.md
       - Mastra easy-day-js npm scope compromise: ops/mastra-easy-day-js-npm-scope-compromise.md
       - Outsider Enterprise smishing PhaaS: ops/outsider-enterprise-smishing-phaas.md
       - Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE: ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md

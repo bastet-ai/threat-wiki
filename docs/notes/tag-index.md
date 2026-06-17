@@ -13,6 +13,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACTINIUM](#actinium) (1)
 - [active exploitation](#active-exploitation) (21)
 - [active-exploitation](#active-exploitation) (1)
+- [ActiveX](#activex) (1)
 - [actor](#actor) (3)
 - [actors](#actors) (5)
 - [Adaptix C2](#adaptix-c2) (1)
@@ -159,6 +160,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code](#claude-code) (2)
 - [ClickFix](#clickfix) (3)
 - [client-side exploitation](#client-side-exploitation) (1)
+- [clipboard theft](#clipboard-theft) (1)
+- [clipper](#clipper) (1)
 - [Cloaked Ursa](#cloaked-ursa) (1)
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (5)
@@ -212,7 +215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [crypto](#crypto) (2)
 - [crypto-wallets](#crypto-wallets) (1)
-- [cryptocurrency](#cryptocurrency) (10)
+- [cryptocurrency](#cryptocurrency) (11)
 - [cryptocurrency theft](#cryptocurrency-theft) (2)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
@@ -454,6 +457,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [healthcare](#healthcare) (1)
 - [HelloDoor](#hellodoor) (1)
 - [HellsGate](#hellsgate) (1)
+- [hidden service](#hidden-service) (1)
 - [high explosives](#high-explosives) (1)
 - [higher education](#higher-education) (2)
 - [HONESTCUE](#honestcue) (1)
@@ -551,7 +555,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM](#llm) (4)
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
-- [LNK](#lnk) (6)
+- [LNK](#lnk) (7)
 - [LNK files](#lnk-files) (1)
 - [loader](#loader) (1)
 - [local LLMs](#local-llms) (1)
@@ -577,7 +581,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (3)
-- [malware](#malware) (13)
+- [malware](#malware) (14)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
@@ -677,9 +681,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (113)
+- [operations](#operations) (114)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (112)
+- [ops](#ops) (113)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -797,7 +801,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (2)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (3)
+- [remote code execution](#remote-code-execution) (4)
 - [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
@@ -829,8 +833,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Safari](#safari) (1)
 - [Salesforce](#salesforce) (1)
 - [ScarCruft](#scarcruft) (1)
+- [scheduled task](#scheduled-task) (1)
 - [scheduled tasks](#scheduled-tasks) (3)
 - [ScreenConnect](#screenconnect) (2)
+- [screenshot theft](#screenshot-theft) (1)
 - [script-injection](#script-injection) (1)
 - [SD-WAN](#sd-wan) (1)
 - [secret exposure](#secret-exposure) (1)
@@ -913,7 +919,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [state-linked](#state-linked) (1)
 - [Static Kitten](#static-kitten) (1)
 - [stdio](#stdio) (2)
-- [stealer](#stealer) (1)
+- [stealer](#stealer) (2)
 - [stock exchange](#stock-exchange) (1)
 - [storage deletion](#storage-deletion) (1)
 - [Storm-2697](#storm-2697) (1)
@@ -957,7 +963,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool output injection](#tool-output-injection) (1)
 - [tooling](#tooling) (5)
 - [tools](#tools) (7)
-- [Tor](#tor) (2)
+- [Tor](#tor) (3)
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
 - [traffic-fraud](#traffic-fraud) (1)
@@ -993,6 +999,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [United States](#united-states) (2)
 - [unsafe deserialization](#unsafe-deserialization) (1)
 - [uranium compression](#uranium-compression) (1)
+- [USB propagation](#usb-propagation) (1)
 - [USB worm](#usb-worm) (2)
 - [UTA0355](#uta0355) (1)
 - [uTLS](#utls) (1)
@@ -1047,7 +1054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](#webworm) (1)
 - [WhatsApp](#whatsapp) (1)
 - [WHM](#whm) (2)
-- [Windows](#windows) (13)
+- [Windows](#windows) (14)
 - [Windows persistence](#windows-persistence) (1)
 - [Winos4.0](#winos40) (1)
 - [WinRAR](#winrar) (3)
@@ -1056,8 +1063,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WireGuard](#wireguard) (2)
 - [WordPress](#wordpress) (2)
 - [workflow backdoor](#workflow-backdoor) (1)
-- [worm](#worm) (9)
+- [worm](#worm) (10)
 - [WP Maps Pro](#wp-maps-pro) (1)
+- [WScript](#wscript) (1)
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
 - [XenoRAT](#xenorat) (2)
@@ -1121,6 +1129,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## active-exploitation
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+
+## ActiveX
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 
 ## actor
 - [ShinyHunters](../actors/shinyhunters.md)
@@ -1680,6 +1691,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## client-side exploitation
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
+## clipboard theft
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+
+## clipper
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+
 ## Cloaked Ursa
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
@@ -1924,6 +1941,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 
 ## cryptocurrency
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164](../actors/jinx-0164.md)
@@ -2826,6 +2844,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HellsGate
 - [RemotePE](../tools/remotepe.md)
 
+## hidden service
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+
 ## high explosives
 - [Fast16](../tools/fast16.md)
 
@@ -3188,6 +3209,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LNK
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -3282,6 +3304,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Fast16](../tools/fast16.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
@@ -3690,6 +3713,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -3807,6 +3831,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -4362,6 +4387,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
 ## remote code execution
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
@@ -4473,6 +4499,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ScarCruft
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
+## scheduled task
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+
 ## scheduled tasks
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -4481,6 +4510,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ScreenConnect
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+
+## screenshot theft
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 
 ## script-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -4768,6 +4800,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## stealer
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## stock exchange
@@ -4987,6 +5020,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Tor
 - [Cloud Atlas](../actors/cloud-atlas.md)
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 
 ## Trading Technologies
@@ -5112,6 +5146,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## uranium compression
 - [Fast16](../tools/fast16.md)
+
+## USB propagation
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 
 ## USB worm
 - [Gamaredon](../actors/gamaredon.md)
@@ -5310,6 +5347,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -5354,6 +5392,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
@@ -5363,6 +5402,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WP Maps Pro
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+
+## WScript
+- [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 
 ## X_TRADER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)

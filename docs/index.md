@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Crypto Clipper Tor / USB worm](ops/crypto-clipper-tor-usb-worm.md)
 - [Mastra `easy-day-js` npm scope compromise](ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Crypto supply-chain path to transaction authority](patterns/crypto-supply-chain-transaction-authority.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Operation Highland Velvet Ant authentication-stack backdoors](ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Velvet Ant](actors/velvet-ant.md)
 - [Chrome live-wallpaper extension ad-fraud network](ops/chrome-live-wallpaper-extension-ad-fraud.md)
-- [Atomic Arch AUR package hijack](ops/atomic-arch-aur-package-hijack.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

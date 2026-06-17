@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Crypto Clipper Tor / USB worm</title>
+      <link>https://threat.wiki/ops/crypto-clipper-tor-usb-worm/</link>
+      <description>Microsoft Threat Intelligence reported a Windows cryptocurrency clipper campaign active since February 2026. The new page captures malicious LNK and USB propagation, Defender exclusions, scheduled-task persistence, WScript / ActiveX execution, Task Manager anti-analysis checks, bundled Tor client ugate.exe, localhost:9050 hidden-service C2, clipboard seed/private-key theft, wallet-address substitution, screenshot exfiltration, EVAL tasking, and behavior-first hunting guidance.</description>
+      <pubDate>Wed, 17 Jun 2026 23:27:11 GMT</pubDate>
+      <guid>https://threat.wiki/ops/crypto-clipper-tor-usb-worm/</guid>
+    </item>
+    <item>
       <title>Mastra easy-day-js npm scope compromise</title>
       <link>https://threat.wiki/ops/mastra-easy-day-js-npm-scope-compromise/</link>
       <description>Added coverage for the June 17, 2026 Mastra npm scope compromise reported by StepSecurity, Socket, and Snyk: a stale npm maintainer account republished more than 140 @mastra packages with a transitive easy-day-js dependency, whose postinstall loader fetched a cross-platform Node.js implant with Windows, macOS, and Linux persistence. The page captures affected-scope caveats, stale-access root cause, loader and C2 pivots, and host/CI response guidance.</description>
