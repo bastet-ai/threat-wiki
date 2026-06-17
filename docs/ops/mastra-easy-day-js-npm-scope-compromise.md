@@ -1,0 +1,114 @@
+# Mastra `easy-day-js` npm scope compromise
+
+## Summary
+On June 17, 2026, public reporting from StepSecurity, Socket, and Snyk described a high-blast-radius npm supply-chain incident affecting the Mastra AI framework ecosystem. A stale or compromised npm maintainer account republished more than 140 packages in the `@mastra/*` scope and injected a single new dependency, `easy-day-js`, a `dayjs` lookalike whose install hook delivered a cross-platform Node.js implant.
+
+The malicious dependency executed during `npm install`, before application code was imported. Treat developer workstations, CI runners, and build hosts that installed affected Mastra packages on or after June 17, 2026 as potentially compromised.
+
+## Tags
+- ops
+- operations
+- supply-chain
+- npm
+- JavaScript
+- TypeScript
+- AI framework
+- maintainer compromise
+- stale access
+- package registry
+- developer-targeting
+- CI/CD
+- credential-theft
+- cryptocurrency
+- wallet theft
+- RAT
+- postinstall
+- npm lifecycle hook
+- persistence
+
+## Why this matters
+- Mastra is an AI-agent / workflow framework that is likely to be installed in environments containing LLM API keys, cloud credentials, GitHub tokens, vector-database credentials, and deployment secrets.
+- The poisoned `@mastra/*` packages reportedly kept the legitimate package code intact; the functional change was an added transitive dependency, making source-repository review alone insufficient.
+- The compromise was rooted in stale package-scope access, not a novel npm zero-day: inactive maintainer permissions can remain enough to publish to an entire package namespace.
+- The `easy-day-js` package used a clean-to-malicious progression: a benign-looking `1.11.21` release, then a weaponized `1.11.22` that still satisfied `^1.11.21` dependency ranges.
+- Install-time execution means impact begins when dependency resolution and lifecycle scripts run, even if the package is never imported or used.
+
+## Reported chain
+1. A former Mastra contributor account, `ehindero`, retained npm publish access to the Mastra scope. Snyk reports signs of account takeover rather than insider action, including an email change to `ehindero2016@tutamail[.]com`.
+2. The attacker published `easy-day-js`, a typosquat / lookalike of `dayjs`. Snyk and Socket report `easy-day-js@1.11.21` was initially clean, while `easy-day-js@1.11.22` added a `postinstall` hook.
+3. The attacker republished Mastra packages with a new dependency on `easy-day-js` using a compatible range such as `^1.11.21`, causing normal installs to resolve to the malicious `1.11.22` release.
+4. Socket reports the malicious Mastra package code was otherwise byte-for-byte identical to prior legitimate builds aside from version and manifest normalization changes.
+5. The `postinstall` hook ran `setup.cjs`, disabled TLS certificate validation, downloaded a second-stage payload, launched it as a detached Node.js process, and deleted the loader.
+6. The second stage installed persistence on Windows, macOS, and Linux, then beacons for tasking and can execute follow-on Node or shell commands.
+
+## Reported scope and status
+- StepSecurity reported `140+` affected packages with combined weekly downloads exceeding 1.1 million.
+- Socket reported a single npm account mass-published more than 140 malicious packages in the `@mastra/*` namespace during a short June 17 window; its enumeration counted 141 affected `@mastra/*` packages and called out `@mastra/core` at more than 918k weekly downloads.
+- Snyk reported 143 packages and counting, including `@mastra/core`, and later added `@mastra/node-speaker@0.1.1` to its compromised-package set.
+- Notable versions from Snyk include `@mastra/core@1.42.1`, `mastra@1.13.1`, and `create-mastra@1.13.1`.
+- Snyk advisory `SNYK-JS-EASYDAYJS-17353313` covers malicious embedded code in `easy-day-js`.
+- Mastra's remediation PR says the source tree was clean of `easy-day-js` and forward-rolled clean versions for the publishable packages; it also notes that unpublishing/deprecation, credential rotation, and unauthorized-owner removal were handled separately.
+
+## Malware behavior
+### Loader: `setup.cjs`
+Socket's technical analysis describes the stage-one loader as obfuscated JavaScript with the following behavior:
+
+- Sets `NODE_TLS_REJECT_UNAUTHORIZED` to disable TLS validation.
+- Downloads stage two from `https://23[.]254[.]164[.]92:8000/update/49890878`.
+- Writes marker files under the OS temp directory, including `.pkg_history` and `.pkg_logs`.
+- Saves the second stage under a random temp filename and starts it as a detached Node.js process.
+- Passes `23[.]254[.]164[.]123:443` as the second-stage exfiltration / C2 target.
+- Removes the loader file after execution to reduce forensic evidence.
+
+### Implant: `protocal.cjs`
+Socket describes the recovered stage-two payload as a roughly 41 KB cross-platform Node.js tasking client rather than only a one-shot stealer.
+
+Reported persistence paths:
+
+- **Windows**: `HKCU\...\CurrentVersion\Run` value `NvmProtocal`; drop directory `C:\ProgramData\NodePackages\` containing `protocal.cjs` and `config.json`.
+- **macOS**: LaunchAgent `~/Library/LaunchAgents/com.nvm.protocal.plist`; payload path `~/Library/NodePackages/protocal.cjs`.
+- **Linux**: systemd user unit `~/.config/systemd/user/nvmconf.service`; payload `~/.config/systemd/nvmconf/protocal.cjs`; config `~/.config/NodePackages/config.json`.
+
+Reported collection and tasking:
+
+- Start / check polling loop with built-in Node and shell task runners.
+- Host reconnaissance including hostname, architecture, platform, user ID, installed applications, and running processes.
+- Browser history collection from Chrome, Edge, and Brave profiles.
+- Cryptocurrency wallet extension inventory across 166 hardcoded browser-extension IDs, including wallets such as MetaMask, Phantom, Coinbase Wallet, Binance Wallet, and TronLink. Socket's recovered sample inventories wallet-extension presence and profile paths; it warns that follow-on tasking could still steal secrets or wallet material.
+- Custom ICAP-style HTTPS POST tasking / exfiltration using the `/49890878` bot path.
+
+## Defender heuristics
+### Exposure triage
+- Search dependency manifests, lockfiles, SBOMs, package-manager caches, private registries, CI logs, build artifacts, and container layers for `@mastra/*` packages installed or updated on or after June 17, 2026.
+- Explicitly hunt for `easy-day-js`, especially `easy-day-js@1.11.22`, and for Mastra versions listed in StepSecurity, Socket, Snyk, and Mastra's own remediation notes.
+- Treat any successful lifecycle-script execution on a developer machine, CI runner, or build host as host compromise, not just a bad dependency resolution.
+- Prefer reinstalling from known-clean Mastra versions after deleting `node_modules`, clearing caches, and confirming that private mirrors did not preserve poisoned tarballs.
+
+### Endpoint and CI hunting
+- Review npm install logs for `postinstall` execution from `easy-day-js` and for unexpected `setup.cjs` execution.
+- Hunt outbound network activity to `23[.]254[.]164[.]92:8000`, `23[.]254[.]164[.]123:443`, and path `/49890878` around dependency-install windows.
+- Inspect temp directories for `.pkg_history`, `.pkg_logs`, random `.js` payloads, and browser-history copy directories such as `browser-hist-*`.
+- Inspect Windows hosts for `NvmProtocal` Run-key values and `C:\ProgramData\NodePackages\` artifacts.
+- Inspect macOS hosts for `~/Library/LaunchAgents/com.nvm.protocal.plist` and `~/Library/NodePackages/protocal.cjs`.
+- Inspect Linux hosts for `~/.config/systemd/user/nvmconf.service`, `~/.config/systemd/nvmconf/protocal.cjs`, and `~/.config/NodePackages/config.json`.
+- Review GitHub, npm, cloud, Kubernetes, SSH, CI/CD, package-registry, and LLM-provider credential use from affected hosts after the install window.
+
+### Maintainer and registry controls
+- Remove inactive maintainers and stale package-scope owners as part of routine offboarding; npm publish access should not survive contributor inactivity by default.
+- Require phishing-resistant MFA and least-privilege scoped tokens for package publishers.
+- Prefer short-lived, workflow-bound trusted publishing over long-lived human or automation tokens, but pair it with protected environments and branch rules.
+- Monitor for sudden scope-wide patch releases from a single dormant human account, especially when the published tarballs diverge from repository release workflows.
+- Diff registry tarballs, not only source repositories: this incident's malicious dependency was reportedly injected at publish time and was absent from the clean source tree.
+
+## Related pages
+- [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Operation DangerousPassword axios npm compromise](operation-dangerouspassword-axios-npm-compromise.md)
+- [Glassworm developer supply-chain botnet](glassworm-developer-supply-chain-botnet.md)
+- [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+
+## Sources
+- StepSecurity: https://www.stepsecurity.io/blog/mastra-npm-packages-compromised-using-easy-day-js
+- Socket: https://socket.dev/blog/mastra-npm-packages-compromised
+- Snyk: https://snyk.io/blog/a-forgotten-contributor-account-compromised-the-entire-mastra-npm-package-scope/
+- Mastra GitHub issue: https://github.com/mastra-ai/mastra/issues/18045
+- Mastra remediation PR: https://github.com/mastra-ai/mastra/pull/18056

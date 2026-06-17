@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Mastra easy-day-js npm scope compromise</title>
+      <link>https://threat.wiki/ops/mastra-easy-day-js-npm-scope-compromise/</link>
+      <description>Added coverage for the June 17, 2026 Mastra npm scope compromise reported by StepSecurity, Socket, and Snyk: a stale npm maintainer account republished more than 140 @mastra packages with a transitive easy-day-js dependency, whose postinstall loader fetched a cross-platform Node.js implant with Windows, macOS, and Linux persistence. The page captures affected-scope caveats, stale-access root cause, loader and C2 pivots, and host/CI response guidance.</description>
+      <pubDate>Wed, 17 Jun 2026 21:26:53 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mastra-easy-day-js-npm-scope-compromise/</guid>
+    </item>
+    <item>
       <title>Crypto supply-chain path to transaction authority</title>
       <link>https://threat.wiki/patterns/crypto-supply-chain-transaction-authority/</link>
       <description>Added a pattern page from Sygnia's crypto supply-chain analysis: developer endpoint and identity compromise can flow through repositories, CI/CD workflows, automation identities, cloud and Kubernetes control planes, secrets stores, vendor channels, custody APIs, wallet orchestration, and transaction authority. The page captures containment-first controls for workflow changes, service-account keys, Kubernetes exec, vendor API abuse, and custody/signing correlation.</description>

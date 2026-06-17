@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Mastra `easy-day-js` npm scope compromise](ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Crypto supply-chain path to transaction authority](patterns/crypto-supply-chain-transaction-authority.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Outsider Enterprise smishing PhaaS](ops/outsider-enterprise-smishing-phaas.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Velvet Ant](actors/velvet-ant.md)
 - [Chrome live-wallpaper extension ad-fraud network](ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Atomic Arch AUR package hijack](ops/atomic-arch-aur-package-hijack.md)
-- [PAN-OS GlobalProtect CVE-2026-0257 exploitation](ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
