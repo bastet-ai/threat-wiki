@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Microsoft follow-up: Mastra `easy-day-js` postinstall payload details](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20262 arbitrary file write update](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md#june-15-companion-cve-2026-20262-arbitrary-file-write)

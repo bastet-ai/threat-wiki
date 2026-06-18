@@ -31,7 +31,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agentic malware](#agentic-malware) (1)
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
-- [AI](#ai) (3)
+- [AI](#ai) (4)
 - [AI agents](#ai-agents) (8)
 - [AI assistants](#ai-assistants) (3)
 - [AI brand impersonation](#ai-brand-impersonation) (1)
@@ -122,6 +122,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser-extensions](#browser-extensions) (2)
 - [browser-security](#browser-security) (1)
 - [BTMOB](#btmob) (1)
+- [bucket squatting](#bucket-squatting) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
@@ -165,7 +166,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [clipper](#clipper) (1)
 - [Cloaked Ursa](#cloaked-ursa) (1)
 - [cloaking](#cloaking) (1)
-- [cloud](#cloud) (5)
+- [cloud](#cloud) (6)
 - [cloud C2](#cloud-c2) (1)
 - [cloud credential theft](#cloud-credential-theft) (3)
 - [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
@@ -294,7 +295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Deno](#deno) (2)
 - [dependency confusion](#dependency-confusion) (1)
 - [deployment_status](#deployment_status) (1)
-- [deserialization](#deserialization) (1)
+- [deserialization](#deserialization) (2)
 - [destructive operations](#destructive-operations) (1)
 - [developer endpoints](#developer-endpoints) (1)
 - [developer machines](#developer-machines) (6)
@@ -440,6 +441,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoEdge](#goedge) (1)
 - [Google Ads](#google-ads) (1)
 - [Google Chrome](#google-chrome) (1)
+- [Google Cloud](#google-cloud) (1)
 - [Google Cloud Logging](#google-cloud-logging) (1)
 - [Google Drive](#google-drive) (1)
 - [Google Play](#google-play) (1)
@@ -518,6 +520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetStream](#jetstream) (1)
 - [JFrog Security Research](#jfrog-security-research) (1)
 - [JINX-0164](#jinx-0164) (2)
+- [joblib](#joblib) (1)
 - [Joomla](#joomla) (1)
 - [Joomla Content Editor](#joomla-content-editor) (1)
 - [JSCoreRunner](#jscorerunner) (1)
@@ -583,6 +586,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lumen Black Lotus Labs](#lumen-black-lotus-labs) (1)
 - [Luna Moth](#luna-moth) (1)
 - [MacCMS](#maccms) (1)
+- [machine-learning](#machine-learning) (1)
 - [macOS](#macos) (6)
 - [Magento](#magento) (1)
 - [mailbox theft](#mailbox-theft) (1)
@@ -635,6 +639,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile malware](#mobile-malware) (1)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
 - [Model Context Protocol](#model-context-protocol) (2)
+- [model poisoning](#model-poisoning) (1)
 - [model-provider abuse](#model-provider-abuse) (1)
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (3)
@@ -714,7 +719,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
-- [patterns](#patterns) (14)
+- [patterns](#patterns) (15)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (1)
 - [payment-card-theft](#payment-card-theft) (2)
@@ -738,6 +743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PHP object injection](#php-object-injection) (1)
 - [PHP upload](#php-upload) (1)
 - [PicassoLoader](#picassoloader) (1)
+- [pickle](#pickle) (1)
 - [pig-butchering](#pig-butchering) (1)
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
@@ -795,7 +801,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAT](#rat) (16)
 - [RC4](#rc4) (2)
-- [RCE](#rce) (4)
+- [RCE](#rce) (5)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [RDP](#rdp) (1)
@@ -864,6 +870,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SEO poisoning](#seo-poisoning) (2)
 - [Serv-U](#serv-u) (1)
 - [service accounts](#service-accounts) (1)
+- [service-agent](#service-agent) (1)
 - [ServiceNow](#servicenow) (1)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
@@ -940,7 +947,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (61)
+- [supply-chain](#supply-chain) (62)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
@@ -965,6 +972,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telemetry](#telemetry) (1)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
+- [tenant-project](#tenant-project) (1)
 - [Tenet Security](#tenet-security) (1)
 - [The Gentlemen](#the-gentlemen) (1)
 - [threat hunting](#threat-hunting) (1)
@@ -1024,6 +1032,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VELVETSHELL](#velvetshell) (1)
 - [vendor credentials](#vendor-credentials) (1)
 - [Vercel](#vercel) (1)
+- [Vertex AI](#vertex-ai) (1)
 - [Vidar Stealer](#vidar-stealer) (1)
 - [Vietnam](#vietnam) (2)
 - [Vietnam-aligned](#vietnam-aligned) (1)
@@ -1217,6 +1226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## AI agents
@@ -1541,6 +1551,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BTMOB
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
+## bucket squatting
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+
 ## build-time compromise
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -1729,6 +1742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [ROADtools](../tools/roadtools.md)
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Webworm](../actors/webworm.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
@@ -2241,6 +2255,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## deserialization
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## destructive operations
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -2801,6 +2816,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Google Chrome
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
+## Google Cloud
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+
 ## Google Cloud Logging
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 
@@ -3086,6 +3104,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
+## joblib
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+
 ## Joomla
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
@@ -3320,6 +3341,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MacCMS
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## machine-learning
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+
 ## macOS
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [JINX-0164](../actors/jinx-0164.md)
@@ -3511,6 +3535,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Model Context Protocol
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+
+## model poisoning
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## model-provider abuse
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -4056,6 +4083,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## payment fraud
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -4155,6 +4183,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PicassoLoader
 - [Ghostwriter](../actors/ghostwriter.md)
+
+## pickle
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## pig-butchering
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -4395,6 +4426,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## Rclone
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -4628,6 +4660,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## service accounts
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+
+## service-agent
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## ServiceNow
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
@@ -4952,6 +4987,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -5043,6 +5079,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Temp Zagros
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## tenant-project
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## Tenet Security
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -5256,6 +5295,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Vercel
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+
+## Vertex AI
+- [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## Vidar Stealer
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)

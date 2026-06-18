@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Vertex AI staging-bucket squatting</title>
+      <link>https://threat.wiki/patterns/vertex-ai-staging-bucket-squatting/</link>
+      <description>Added a pattern page for Unit 42's Pickle in the Middle Vertex AI SDK research: deterministic default staging-bucket names plus missing ownership checks in google-cloud-aiplatform 1.139.0 and 1.140.0 let attackers squat expected buckets, race-replace uploaded joblib / pickle model artifacts, and trigger code execution in Vertex AI serving infrastructure. The page captures upgrade guidance for 1.148.0+, explicit staging_bucket controls, bucket-ownership hunts, and model-artifact provenance checks.</description>
+      <pubDate>Thu, 18 Jun 2026 15:28:05 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/vertex-ai-staging-bucket-squatting/</guid>
+    </item>
+    <item>
       <title>Mastra easy-day-js npm scope compromise: Microsoft follow-up</title>
       <link>https://threat.wiki/ops/mastra-easy-day-js-npm-scope-compromise/</link>
       <description>Updated the Mastra easy-day-js npm scope compromise page with Microsoft Threat Intelligence's June 17 follow-up: exact observed publish times, 4,572-byte setup.cjs dropper details, XOR-encoded .pkg_logs marker behavior, legacy IE8 User-Agent ICAP-style exfiltration, Windows reflective .NET loading and cmd.exe injection, and additional setup.cjs / easy-day-js tarball hashes.</description>
