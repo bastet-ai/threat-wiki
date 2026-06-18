@@ -41,6 +41,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI framework](#ai-framework) (1)
 - [AI gateway](#ai-gateway) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
+- [AI security](#ai-security) (1)
 - [AI tooling](#ai-tooling) (10)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
@@ -50,6 +51,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Albania](#albania) (1)
 - [Android](#android) (4)
 - [Android spyware](#android-spyware) (1)
+- [anti-analysis](#anti-analysis) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
 - [AppDomainManager](#appdomainmanager) (1)
@@ -202,6 +204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Contagious Interview](#contagious-interview) (2)
 - [container](#container) (1)
 - [container escape](#container-escape) (1)
+- [context flooding](#context-flooding) (1)
 - [continuous visibility](#continuous-visibility) (1)
 - [control panel compromise](#control-panel-compromise) (1)
 - [control plane](#control-plane) (1)
@@ -457,7 +460,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GUE](#gue) (1)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
-- [Hades](#hades) (1)
+- [Hades](#hades) (2)
 - [HappyDoor](#happydoor) (1)
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
@@ -566,6 +569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [living off the land](#living-off-the-land) (1)
 - [living-off-the-land](#living-off-the-land) (1)
 - [LLM](#llm) (4)
+- [LLM security](#llm-security) (1)
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
 - [LNK](#lnk) (7)
@@ -596,6 +600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (3)
 - [malware](#malware) (14)
+- [malware analysis](#malware-analysis) (1)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
@@ -614,7 +619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA bypass](#mfa-bypass) (4)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
-- [Miasma](#miasma) (2)
+- [Miasma](#miasma) (3)
 - [Microsoft](#microsoft) (2)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (2)
@@ -670,7 +675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (8)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (30)
+- [npm](#npm) (31)
 - [npm lifecycle hook](#npm-lifecycle-hook) (2)
 - [npx](#npx) (1)
 - [NTFS ADS](#ntfs-ads) (2)
@@ -710,6 +715,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OYSTERSHUCK](#oystershuck) (1)
 - [P2P](#p2p) (1)
 - [package registry](#package-registry) (3)
+- [package scanning](#package-scanning) (1)
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (3)
 - [page poisoning](#page-poisoning) (1)
@@ -719,7 +725,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
-- [patterns](#patterns) (15)
+- [patterns](#patterns) (16)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (1)
 - [payment-card-theft](#payment-card-theft) (2)
@@ -774,7 +780,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [process hollowing](#process-hollowing) (2)
 - [process injection](#process-injection) (2)
 - [professional services](#professional-services) (1)
-- [prompt injection](#prompt-injection) (2)
+- [prompt injection](#prompt-injection) (3)
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
@@ -878,7 +884,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER-064](#shadow-aether-064) (1)
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [ShadowPad](#shadowpad) (1)
-- [Shai-Hulud](#shai-hulud) (5)
+- [Shai-Hulud](#shai-hulud) (6)
 - [share propagation](#share-propagation) (1)
 - [shared hosting](#shared-hosting) (3)
 - [shared secrets](#shared-secrets) (1)
@@ -947,7 +953,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (62)
+- [supply-chain](#supply-chain) (63)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
@@ -1265,6 +1271,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI search poisoning
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
+## AI security
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+
 ## AI tooling
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -1303,6 +1312,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Android spyware
 - [GREYVIBE](../actors/greyvibe.md)
+
+## anti-analysis
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
 ## Apex One
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -1871,6 +1883,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## container escape
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+
+## context flooding
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
 ## continuous visibility
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -2878,6 +2893,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
 ## Hades
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 
 ## HappyDoor
@@ -3275,6 +3291,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
+## LLM security
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+
 ## LLMjacking
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
@@ -3393,6 +3412,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
+## malware analysis
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+
 ## malware delivery
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
@@ -3455,6 +3477,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Miasma
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
@@ -3644,6 +3667,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## npm
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -4037,6 +4061,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
+## package scanning
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+
 ## package-takeover
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
@@ -4070,6 +4097,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## patterns
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
@@ -4305,6 +4333,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## prompt injection
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 
 ## prompt-injection
@@ -4687,6 +4716,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
 ## Shai-Hulud
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
@@ -4933,6 +4963,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)

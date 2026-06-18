@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>AI scanner anti-analysis</title>
+      <link>https://threat.wiki/patterns/ai-scanner-anti-analysis/</link>
+      <description>Added a pattern page for Socket's shai_hulululud npm package analysis: source-code comments, safety-triggering text, context flooding, and staged obfuscation can make AI-assisted package scanners refuse, truncate, time out, misclassify, or fail open before reaching executable code. The page captures scanner-hardening guidance for untrusted source text, executable-code prioritization, context-flood detection, deterministic preprocessing, and fail-closed handling.</description>
+      <pubDate>Thu, 18 Jun 2026 17:27:45 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/ai-scanner-anti-analysis/</guid>
+    </item>
+    <item>
       <title>Vertex AI staging-bucket squatting</title>
       <link>https://threat.wiki/patterns/vertex-ai-staging-bucket-squatting/</link>
       <description>Added a pattern page for Unit 42's Pickle in the Middle Vertex AI SDK research: deterministic default staging-bucket names plus missing ownership checks in google-cloud-aiplatform 1.139.0 and 1.140.0 let attackers squat expected buckets, race-replace uploaded joblib / pickle model artifacts, and trigger code execution in Vertex AI serving infrastructure. The page captures upgrade guidance for 1.148.0+, explicit staging_bucket controls, bucket-ownership hunts, and model-artifact provenance checks.</description>

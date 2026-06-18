@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Microsoft follow-up: Mastra `easy-day-js` postinstall payload details](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)

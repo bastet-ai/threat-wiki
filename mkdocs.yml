@@ -163,6 +163,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - AI scanner anti-analysis: patterns/ai-scanner-anti-analysis.md
       - Vertex AI staging-bucket squatting: patterns/vertex-ai-staging-bucket-squatting.md
       - Crypto supply-chain path to transaction authority: patterns/crypto-supply-chain-transaction-authority.md
       - Sentry MCP Agentjacking: patterns/sentry-mcp-agentjacking.md
