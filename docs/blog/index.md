@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [Glassworm / GlassWASM Open VSX extension wave](../ops/glassworm-developer-supply-chain-botnet.md#june-2026-glasswasm-open-vsx-extension-wave)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)

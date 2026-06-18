@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Joomla JCE CVE-2026-48907 exploitation</title>
+      <link>https://threat.wiki/ops/joomla-jce-cve-2026-48907-exploitation/</link>
+      <description>Added coverage for CISA KEV CVE-2026-48907 in Widget Factory's JCE / Joomla Content Editor extension: unauthenticated profile import can create rogue editor profiles that permit PHP uploads and execution. The page captures Widget Factory's active-exploitation warning, public exploit-code caveat, profiles.import log pivot, suspicious JCE profile and PHP-upload artifacts, JCE 2.9.99.6 guidance, and cleanup sequencing for already-compromised Joomla sites.</description>
+      <pubDate>Thu, 18 Jun 2026 03:28:47 GMT</pubDate>
+      <guid>https://threat.wiki/ops/joomla-jce-cve-2026-48907-exploitation/</guid>
+    </item>
+    <item>
       <title>Glassworm / GlassWASM Open VSX extension wave</title>
       <link>https://threat.wiki/ops/glassworm-developer-supply-chain-botnet/#june-2026-glasswasm-open-vsx-extension-wave</link>
       <description>Updated the Glassworm developer supply-chain botnet page with Socket's GlassWASM reporting: trojanized Open VSX copies of exargd/vsblack and noellee-doc/flint-debug used TinyGo WebAssembly, encrypted runtime strings, Solana SPL Memo dead-drop tasking, and OS-specific download-and-execute templates. The update adds extension, wallet, memo-program, hash, and editor-directory hunting pivots while keeping the VS Code Marketplace originals scoped as clean.</description>

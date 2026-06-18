@@ -11,7 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (21)
+- [active exploitation](#active-exploitation) (22)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (3)
@@ -150,7 +150,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI-CD](#ci-cd) (1)
 - [CI/CD](#cicd) (29)
 - [CircleCI](#circleci) (1)
-- [CISA KEV](#cisa-kev) (8)
+- [CISA KEV](#cisa-kev) (9)
 - [Cisco](#cisco) (1)
 - [Cisco Nexus](#cisco-nexus) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
@@ -179,7 +179,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare](#cloudflare) (1)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Workers](#cloudflare-workers) (2)
-- [CMS](#cms) (4)
+- [CMS](#cms) (5)
 - [Cobalt Strike](#cobalt-strike) (2)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
@@ -260,6 +260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-45247](#cve-2026-45247) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
+- [CVE-2026-48907](#cve-2026-48907) (1)
 - [CVE-2026-50751](#cve-2026-50751) (1)
 - [CVE-2026-50752](#cve-2026-50752) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
@@ -335,6 +336,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge application server](#edge-application-server) (1)
 - [edge devices](#edge-devices) (1)
 - [edge service](#edge-service) (2)
+- [editor profile import](#editor-profile-import) (1)
 - [EDR evasion](#edr-evasion) (1)
 - [education](#education) (1)
 - [Egnyte](#egnyte) (1)
@@ -506,10 +508,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript loader](#javascript-loader) (1)
 - [JavaScript malware](#javascript-malware) (1)
 - [JavaScript tampering](#javascript-tampering) (1)
+- [JCE](#jce) (1)
 - [JDY](#jdy) (1)
 - [JetStream](#jetstream) (1)
 - [JFrog Security Research](#jfrog-security-research) (1)
 - [JINX-0164](#jinx-0164) (2)
+- [Joomla](#joomla) (1)
+- [Joomla Content Editor](#joomla-content-editor) (1)
 - [JSCoreRunner](#jscorerunner) (1)
 - [JSON:API](#jsonapi) (1)
 - [JSONPing](#jsonping) (1)
@@ -681,9 +686,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (114)
+- [operations](#operations) (115)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (113)
+- [ops](#ops) (114)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -726,6 +731,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PHP](#php) (2)
 - [PHP code injection](#php-code-injection) (1)
 - [PHP object injection](#php-object-injection) (1)
+- [PHP upload](#php-upload) (1)
 - [PicassoLoader](#picassoloader) (1)
 - [pig-butchering](#pig-butchering) (1)
 - [piracy](#piracy) (1)
@@ -801,7 +807,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (2)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (4)
+- [remote code execution](#remote-code-execution) (5)
 - [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
@@ -1056,6 +1062,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](#webworm) (1)
 - [WhatsApp](#whatsapp) (1)
 - [WHM](#whm) (2)
+- [Widget Factory](#widget-factory) (1)
 - [Windows](#windows) (14)
 - [Windows persistence](#windows-persistence) (1)
 - [Winos4.0](#winos40) (1)
@@ -1116,6 +1123,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -1657,6 +1665,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -1766,6 +1775,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## Cobalt Strike
@@ -2095,6 +2105,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-48172
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
+## CVE-2026-48907
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+
 ## CVE-2026-50751
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
@@ -2377,6 +2390,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## edge service
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+
+## editor profile import
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
 ## EDR evasion
 - [RemotePE](../tools/remotepe.md)
@@ -3030,6 +3046,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JavaScript tampering
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## JCE
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+
 ## JDY
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
@@ -3042,6 +3061,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JINX-0164
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+
+## Joomla
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+
+## Joomla Content Editor
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
 ## JSCoreRunner
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -3737,6 +3762,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -3854,6 +3880,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -4095,6 +4122,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PHP object injection
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+
+## PHP upload
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
 ## PicassoLoader
 - [Ghostwriter](../actors/ghostwriter.md)
@@ -4394,6 +4424,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
 ## remote-access
 - [TA4922](../actors/ta4922.md)
@@ -5352,6 +5383,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## WHM
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## Widget Factory
+- [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
