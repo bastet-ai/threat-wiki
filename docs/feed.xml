@@ -5,6 +5,20 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>LiteSpeed cPanel Plugin CVE-2026-54420 exploitation</title>
+      <link>https://threat.wiki/ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation/</link>
+      <description>Added coverage for active exploitation of LiteSpeed's user-end cPanel plugin CVE-2026-54420: FTP or web-shell access on CloudLinux / CageFS shared-hosting systems can escalate to root before cPanel plugin 2.4.8 / WHM Plugin 5.3.2.1. The page captures CISA KEV status, LiteSpeed's generateEcCert and packageUserSize log pivots, concurrency and same-source-IP triage clues, plugin removal fallback, and root-compromise response guidance.</description>
+      <pubDate>Thu, 18 Jun 2026 05:27:16 GMT</pubDate>
+      <guid>https://threat.wiki/ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation/</guid>
+    </item>
+    <item>
+      <title>Cisco Catalyst SD-WAN Manager CVE-2026-20262 arbitrary file write update</title>
+      <link>https://threat.wiki/ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation/#june-15-companion-cve-2026-20262-arbitrary-file-write</link>
+      <description>Updated the Cisco Catalyst SD-WAN Manager exploitation page with CVE-2026-20262, Cisco's June 15 authenticated web-UI arbitrary-file-write advisory. The update captures CISA KEV status, the valid-write-access precondition, root-escalation risk through crafted file upload, suspicious WAR deployment paths under WildFly, /var/log/nms log pivots, and how this companion issue changes SD-WAN Manager control-plane triage alongside CVE-2026-20245.</description>
+      <pubDate>Thu, 18 Jun 2026 05:27:16 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation/#june-15-companion-cve-2026-20262-arbitrary-file-write</guid>
+    </item>
+    <item>
       <title>Joomla JCE CVE-2026-48907 exploitation</title>
       <link>https://threat.wiki/ops/joomla-jce-cve-2026-48907-exploitation/</link>
       <description>Added coverage for CISA KEV CVE-2026-48907 in Widget Factory's JCE / Joomla Content Editor extension: unauthenticated profile import can create rogue editor profiles that permit PHP uploads and execution. The page captures Widget Factory's active-exploitation warning, public exploit-code caveat, profiles.import log pivot, suspicious JCE profile and PHP-upload artifacts, JCE 2.9.99.6 guidance, and cleanup sequencing for already-compromised Joomla sites.</description>

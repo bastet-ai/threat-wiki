@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20262 arbitrary file write update](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md#june-15-companion-cve-2026-20262-arbitrary-file-write)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [Glassworm / GlassWASM Open VSX extension wave](../ops/glassworm-developer-supply-chain-botnet.md#june-2026-glasswasm-open-vsx-extension-wave)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)

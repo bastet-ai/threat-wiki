@@ -11,7 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (22)
+- [active exploitation](#active-exploitation) (23)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (3)
@@ -126,6 +126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bun](#bun) (1)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [C2](#c2) (7)
+- [CageFS](#cagefs) (1)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
@@ -179,6 +180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare](#cloudflare) (1)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Workers](#cloudflare-workers) (2)
+- [CloudLinux](#cloudlinux) (1)
 - [CMS](#cms) (5)
 - [Cobalt Strike](#cobalt-strike) (2)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
@@ -203,7 +205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [control panel compromise](#control-panel-compromise) (1)
 - [control plane](#control-plane) (1)
 - [Coruna](#coruna) (1)
-- [cPanel](#cpanel) (2)
+- [cPanel](#cpanel) (3)
 - [CrackMapExec](#crackmapexec) (1)
 - [Crates.io](#cratesio) (1)
 - [credential exposure](#credential-exposure) (1)
@@ -244,6 +246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-20182](#cve-2026-20182) (1)
 - [CVE-2026-20245](#cve-2026-20245) (1)
 - [CVE-2026-20253](#cve-2026-20253) (1)
+- [CVE-2026-20262](#cve-2026-20262) (1)
 - [CVE-2026-23111](#cve-2026-23111) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-28318](#cve-2026-28318) (1)
@@ -264,6 +267,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-50751](#cve-2026-50751) (1)
 - [CVE-2026-50752](#cve-2026-50752) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
+- [CVE-2026-54420](#cve-2026-54420) (1)
 - [CVE-2026-7473](#cve-2026-7473) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
@@ -463,6 +467,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [high explosives](#high-explosives) (1)
 - [higher education](#higher-education) (2)
 - [HONESTCUE](#honestcue) (1)
+- [hosting control plane](#hosting-control-plane) (1)
 - [hosting provider](#hosting-provider) (1)
 - [HR lures](#hr-lures) (1)
 - [HTA](#hta) (3)
@@ -486,7 +491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (1)
 - [import-time execution](#import-time-execution) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
-- [incident response](#incident-response) (11)
+- [incident response](#incident-response) (12)
 - [indirect prompt injection](#indirect-prompt-injection) (1)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (9)
@@ -554,7 +559,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LinkedIn](#linkedin) (2)
 - [Linux](#linux) (15)
 - [LiteLLM](#litellm) (3)
-- [LiteSpeed](#litespeed) (1)
+- [LiteSpeed](#litespeed) (2)
 - [living off the land](#living-off-the-land) (1)
 - [living-off-the-land](#living-off-the-land) (1)
 - [LLM](#llm) (4)
@@ -686,9 +691,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (115)
+- [operations](#operations) (116)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (114)
+- [ops](#ops) (115)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -759,7 +764,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PrincessClub](#princessclub) (1)
 - [privacy](#privacy) (1)
 - [private-key theft](#private-key-theft) (1)
-- [privilege escalation](#privilege-escalation) (7)
+- [privilege escalation](#privilege-escalation) (8)
 - [process hollowing](#process-hollowing) (2)
 - [process injection](#process-injection) (2)
 - [professional services](#professional-services) (1)
@@ -868,7 +873,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ShadowPad](#shadowpad) (1)
 - [Shai-Hulud](#shai-hulud) (5)
 - [share propagation](#share-propagation) (1)
-- [shared hosting](#shared-hosting) (2)
+- [shared hosting](#shared-hosting) (3)
 - [shared secrets](#shared-secrets) (1)
 - [SharePoint](#sharepoint) (1)
 - [ShinyHunters](#shinyhunters) (2)
@@ -936,6 +941,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (61)
+- [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
 - [T3](#t3) (1)
@@ -1049,7 +1055,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web application](#web-application) (3)
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
-- [web shell](#web-shell) (3)
+- [web shell](#web-shell) (4)
 - [web supply chain](#web-supply-chain) (1)
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
@@ -1061,7 +1067,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebView](#webview) (1)
 - [Webworm](#webworm) (1)
 - [WhatsApp](#whatsapp) (1)
-- [WHM](#whm) (2)
+- [WHM](#whm) (3)
 - [Widget Factory](#widget-factory) (1)
 - [Windows](#windows) (14)
 - [Windows persistence](#windows-persistence) (1)
@@ -1117,7 +1123,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -1127,6 +1133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -1552,6 +1559,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
 
+## CageFS
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+
 ## Canada
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -1559,7 +1569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## Catalyst SD-WAN Manager
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
 ## CCleaner
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -1673,7 +1683,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## Cisco
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
 ## Cisco Nexus
 - [Velvet Ant](../actors/velvet-ant.md)
@@ -1771,6 +1781,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
+## CloudLinux
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+
 ## CMS
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -1808,7 +1821,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## command injection
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 
@@ -1859,6 +1872,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cPanel
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## CrackMapExec
@@ -2045,16 +2059,19 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
 ## CVE-2026-20127
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
 ## CVE-2026-20182
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
 ## CVE-2026-20245
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
 ## CVE-2026-20253
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+
+## CVE-2026-20262
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
 ## CVE-2026-23111
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
@@ -2116,6 +2133,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-5426
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## CVE-2026-54420
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
 ## CVE-2026-7473
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -2371,7 +2391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## edge appliance
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -2876,6 +2896,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HONESTCUE
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## hosting control plane
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+
 ## hosting provider
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
@@ -2953,10 +2976,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## incident response
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -3216,6 +3240,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LiteSpeed
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
 ## living off the land
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -3736,7 +3761,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -3773,6 +3798,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -3855,7 +3881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -3891,6 +3917,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -4226,11 +4253,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## privilege escalation
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## process hollowing
@@ -4552,7 +4580,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 
 ## SD-WAN
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
 ## secret exposure
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -4635,6 +4663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## shared hosting
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## shared secrets
@@ -4927,6 +4956,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## symlink following
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
 ## Synology
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -5252,7 +5284,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 
 ## vManage
-- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
 ## VMware
 - [VerdantBamboo](../actors/verdantbamboo.md)
@@ -5345,6 +5377,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## web shell
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 
 ## web supply chain
@@ -5382,6 +5415,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WHM
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## Widget Factory

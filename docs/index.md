@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [Glassworm developer supply-chain botnet](ops/glassworm-developer-supply-chain-botnet.md)
 - [Crypto Clipper Tor / USB worm](ops/crypto-clipper-tor-usb-worm.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Outsider Enterprise smishing PhaaS](ops/outsider-enterprise-smishing-phaas.md)
 - [Operation DangerousPassword axios npm compromise](ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
-- [Operation Highland Velvet Ant authentication-stack backdoors](ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

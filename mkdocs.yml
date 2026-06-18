@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - LiteSpeed cPanel Plugin CVE-2026-54420 exploitation: ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md
       - Joomla JCE CVE-2026-48907 exploitation: ops/joomla-jce-cve-2026-48907-exploitation.md
       - Glassworm developer supply-chain botnet: ops/glassworm-developer-supply-chain-botnet.md
       - Crypto Clipper Tor / USB worm: ops/crypto-clipper-tor-usb-worm.md
@@ -35,7 +36,7 @@ nav:
       - Oman government Iranian-nexus webshell C2: ops/oman-government-iranian-nexus-webshell-c2.md
       - MiniPlasma Windows Cloud Filter LPE exploitation: ops/miniplasma-windows-cloud-filter-lpe-exploitation.md
       - Telnyx PyPI TeamPCP compromise: ops/telnyx-pypi-teampcp-compromise.md
-      - Cisco Catalyst SD-WAN Manager CVE-2026-20245 exploitation: ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md
+      - Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation: ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md
       - SolarWinds Serv-U CVE-2026-28318 exploitation: ops/solarwinds-serv-u-cve-2026-28318-exploitation.md
       - Everest Forms Pro CVE-2026-3300 exploitation: ops/everest-forms-pro-cve-2026-3300-exploitation.md
       - PCPJack cloud SMTP relay network: ops/pcpjack-cloud-smtp-relay-network.md
