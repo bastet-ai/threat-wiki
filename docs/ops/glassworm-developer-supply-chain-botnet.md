@@ -12,6 +12,10 @@ CrowdStrike says the disruption simultaneously hit four C2 channels: Solana bloc
 - developer-targeting
 - VS Code
 - OpenVSX
+- WebAssembly
+- TinyGo
+- Solana
+- browser-extensions
 - npm
 - PyPI
 - GitHub
@@ -47,6 +51,27 @@ Reported Glassworm capabilities include:
 - arbitrary code execution through WebRTC or spawned Node.js processes;
 - installation of a Chrome extension for screenshots, keystrokes, clipboard collection, and other browser-side theft.
 
+## June 2026 GlassWASM Open VSX extension wave
+Socket's June 15, 2026 report described a related Open VSX wave it named **GlassWASM** and attributed with medium confidence to the GlassWorm developer. The two reported malicious extensions were impersonated Open VSX copies of legitimate VS Code Marketplace listings:
+
+- `exargd/vsblack@0.0.1`
+- `noellee-doc/flint-debug@0.1.1`
+
+Key differences from earlier plain JavaScript extension malware:
+
+- The malicious Open VSX packages embedded `snqpkebiwrxmoivl.wasm`, a TinyGo-built `js/wasm` module loaded by an appended bootstrap that called `go.run()` when the extension activated.
+- Strings, URLs, and commands were encrypted in the WebAssembly module with ChaCha20 and reconstructed only at runtime, reducing value from simple static string scans.
+- The module queried `https://api.mainnet.solana.com` for transactions sent to attacker-controlled wallet `6ExrZayPZzMMSnszc42cH81DpuKT8FhCX9H6Sesn6rpz`, then read SPL Memo instructions to build the next-stage download-and-execute command.
+- Socket reported memo-program IDs `MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr` and `Memo1UhkJRfHyvLMcVucJwxXeuD728EqVDDwQDxFM` in the chain.
+- The second-stage templates used OS-specific paths under `https://dodod[.]lat/`, including `/win32/i/_`, `/darwin/i/_`, and `/linux/i/_`, executed through Node's `child_process` path.
+- Socket said the legitimate VS Code Marketplace listings for `ExarGD.vsblack` and `noellee-doc.flint-debug` were clean older originals; scope removal to the malicious Open VSX copies and installations sourced from Open VSX.
+
+Reported hashes for the WebAssembly payload and extension artifacts include:
+
+- `558b4f1d9a263c13756ab0126c09dd080c85ba405b29488e1c4e6aa68b554f1f`
+- `1e283327ad048bea39f4a8501770858a20f3555e87fe3e202274f2e87f8a3c25`
+- `3aa31999398e7f80231c03d7137ffdb554a84b83dbcffc59ce16c9a65f9e5d58`
+
 ## Resilient C2 design
 Glassworm used four reported command-and-control paths:
 
@@ -63,6 +88,8 @@ CrowdStrike assesses the operators as likely Russia-based cybercriminals. Public
 ## Defender heuristics
 - Inventory VS Code, Cursor, Windsurf, VSCodium, Positron, and OpenVSX extension installs on developer workstations and CI/devcontainer images.
 - Hunt for unexpected VS Code extensions, recently changed extension directories, and extension code that reaches Solana, BitTorrent DHT, Google Calendar, or unfamiliar VPS endpoints.
+- For the GlassWASM wave, inspect extension directories such as `~/.vscode/extensions`, `~/.vscode-oss/extensions`, `~/.cursor/extensions`, and `~/.windsurf/extensions` for `ExarGD.vsblack@0.0.1`, `noellee-doc/flint-debug@0.1.1`, unexpected `.wasm` files next to JavaScript loaders, TinyGo `gojs.syscall/js` imports, and outbound Solana JSON-RPC access from editor processes.
+- Treat WebAssembly inside editor extensions as executable code requiring disassembly and behavior review, not as a harmless packaged asset.
 - Search workstations and CI runners for unexpected npm/Python lifecycle execution, WebSocket RAT behavior, SOCKS proxy listeners, hidden VNC processes, spawned Node.js remote-execution processes, and suspicious browser extensions.
 - If Glassworm exposure is suspected, isolate affected developer hosts before rotating credentials. Assume GitHub, npm, OpenVSX, package-registry, cloud, SSH, browser, and crypto-wallet secrets may be compromised.
 - Review GitHub default-branch force pushes, unusual commits, package-publish events, token use, workflow changes, and repository access from developer accounts after suspected infection windows.
@@ -78,4 +105,5 @@ CrowdStrike assesses the operators as likely Russia-based cybercriminals. Public
 
 ## Sources
 - CrowdStrike: https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/
+- Socket: https://socket.dev/blog/glasswasm-malware-open-vsx-extensions
 - The Hacker News: https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html

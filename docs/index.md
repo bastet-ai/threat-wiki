@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Glassworm developer supply-chain botnet](ops/glassworm-developer-supply-chain-botnet.md)
 - [Crypto Clipper Tor / USB worm](ops/crypto-clipper-tor-usb-worm.md)
 - [Mastra `easy-day-js` npm scope compromise](ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Crypto supply-chain path to transaction authority](patterns/crypto-supply-chain-transaction-authority.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Velvet Ant](actors/velvet-ant.md)
-- [Chrome live-wallpaper extension ad-fraud network](ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

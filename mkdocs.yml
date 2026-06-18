@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Glassworm developer supply-chain botnet: ops/glassworm-developer-supply-chain-botnet.md
       - Crypto Clipper Tor / USB worm: ops/crypto-clipper-tor-usb-worm.md
       - Mastra easy-day-js npm scope compromise: ops/mastra-easy-day-js-npm-scope-compromise.md
       - Outsider Enterprise smishing PhaaS: ops/outsider-enterprise-smishing-phaas.md
@@ -72,7 +73,6 @@ nav:
       - Grandoreiro and BTMOB Latin America / Europe malware campaigns: ops/grandoreiro-btmob-latam-europe-malware-campaigns.md
       - Malware-Slop Claude user-data npm infostealer: ops/malware-slop-claude-user-data-npm-infostealer.md
       - JINX-0164 crypto developer infrastructure campaign: ops/jinx-0164-crypto-developer-infrastructure-campaign.md
-      - Glassworm developer supply-chain botnet: ops/glassworm-developer-supply-chain-botnet.md
       - AI chatbot and SEO poisoning GPU-cryptojacking campaign: ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md
       - Chinese-language PhaaS wallet-tokenization ecosystem: ops/chinese-language-phaas-wallet-tokenization.md
       - Ababil of Minab MOIS-linked recovery-destruction campaign: ops/ababil-of-minab-mois-recovery-destruction.md

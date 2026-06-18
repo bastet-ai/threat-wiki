@@ -119,7 +119,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser extension](#browser-extension) (1)
 - [browser hijacking](#browser-hijacking) (1)
 - [browser zero-day](#browser-zero-day) (1)
-- [browser-extensions](#browser-extensions) (1)
+- [browser-extensions](#browser-extensions) (2)
 - [browser-security](#browser-security) (1)
 - [BTMOB](#btmob) (1)
 - [build-time compromise](#build-time-compromise) (1)
@@ -891,7 +891,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
 - [software impersonation](#software-impersonation) (1)
 - [SOHO routers](#soho-routers) (1)
-- [Solana](#solana) (1)
+- [Solana](#solana) (2)
 - [SolarWinds](#solarwinds) (1)
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
@@ -956,6 +956,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tenet Security](#tenet-security) (1)
 - [The Gentlemen](#the-gentlemen) (1)
 - [threat hunting](#threat-hunting) (1)
+- [TinyGo](#tinygo) (1)
 - [tj-actions](#tj-actions) (1)
 - [token replay](#token-replay) (1)
 - [token theft](#token-theft) (2)
@@ -1045,6 +1046,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web shell](#web-shell) (3)
 - [web supply chain](#web-supply-chain) (1)
 - [web-shells](#web-shells) (1)
+- [WebAssembly](#webassembly) (1)
 - [WebKit](#webkit) (1)
 - [WebLogic](#weblogic) (1)
 - [WebRTC](#webrtc) (1)
@@ -1516,6 +1518,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browser-extensions
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
 ## browser-security
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
@@ -4704,6 +4707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
 ## Solana
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## SolarWinds
@@ -4985,6 +4989,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## threat hunting
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+
+## TinyGo
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
 ## tj-actions
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -5314,6 +5321,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web-shells
 - [OP-512](../actors/op-512.md)
+
+## WebAssembly
+- [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
 ## WebKit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)

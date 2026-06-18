@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Glassworm / GlassWASM Open VSX extension wave</title>
+      <link>https://threat.wiki/ops/glassworm-developer-supply-chain-botnet/#june-2026-glasswasm-open-vsx-extension-wave</link>
+      <description>Updated the Glassworm developer supply-chain botnet page with Socket's GlassWASM reporting: trojanized Open VSX copies of exargd/vsblack and noellee-doc/flint-debug used TinyGo WebAssembly, encrypted runtime strings, Solana SPL Memo dead-drop tasking, and OS-specific download-and-execute templates. The update adds extension, wallet, memo-program, hash, and editor-directory hunting pivots while keeping the VS Code Marketplace originals scoped as clean.</description>
+      <pubDate>Thu, 18 Jun 2026 01:25:49 GMT</pubDate>
+      <guid>https://threat.wiki/ops/glassworm-developer-supply-chain-botnet/#june-2026-glasswasm-open-vsx-extension-wave</guid>
+    </item>
+    <item>
       <title>Crypto Clipper Tor / USB worm</title>
       <link>https://threat.wiki/ops/crypto-clipper-tor-usb-worm/</link>
       <description>Microsoft Threat Intelligence reported a Windows cryptocurrency clipper campaign active since February 2026. The new page captures malicious LNK and USB propagation, Defender exclusions, scheduled-task persistence, WScript / ActiveX execution, Task Manager anti-analysis checks, bundled Tor client ugate.exe, localhost:9050 hidden-service C2, clipboard seed/private-key theft, wallet-address substitution, screenshot exfiltration, EVAL tasking, and behavior-first hunting guidance.</description>
