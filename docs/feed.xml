@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Mastra easy-day-js npm scope compromise: SafeDep follow-up</title>
+      <link>https://threat.wiki/ops/mastra-easy-day-js-npm-scope-compromise/</link>
+      <description>Updated the Mastra easy-day-js npm scope compromise page with SafeDep's June 17 follow-up: provenance dropped on attacker-published packages, the 01:12-02:36 UTC scope-wide republish burst, sergey2016 and ehindero2016 email-pattern overlap, User-Agent-gated stage-two retrieval, Hostwinds raw-IP infrastructure, wolfSSL test-certificate pivot, second-stage SHA-256, and a caveated BlueNoroff / Sapphire Sleet tradecraft overlap note.</description>
+      <pubDate>Thu, 18 Jun 2026 09:15:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mastra-easy-day-js-npm-scope-compromise/#safedep-follow-up-2026-06-18</guid>
+    </item>
+    <item>
       <title>LiteSpeed cPanel Plugin CVE-2026-54420 exploitation</title>
       <link>https://threat.wiki/ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation/</link>
       <description>Added coverage for active exploitation of LiteSpeed's user-end cPanel plugin CVE-2026-54420: FTP or web-shell access on CloudLinux / CageFS shared-hosting systems can escalate to root before cPanel plugin 2.4.8 / WHM Plugin 5.3.2.1. The page captures CISA KEV status, LiteSpeed's generateEcCert and packageUserSize log pivots, concurrency and same-source-IP triage clues, plugin removal fallback, and root-compromise response guidance.</description>
