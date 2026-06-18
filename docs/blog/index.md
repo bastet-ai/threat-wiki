@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [Splunk Enterprise CVE-2026-20253 KEV exploitation update](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)

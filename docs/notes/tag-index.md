@@ -101,6 +101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bedrock](#bedrock) (1)
 - [behavioral integrity verification](#behavioral-integrity-verification) (1)
 - [Belarus](#belarus) (2)
+- [binary execution](#binary-execution) (1)
 - [BinaryFormatter](#binaryformatter) (1)
 - [binding.gyp](#bindinggyp) (1)
 - [BirdCall](#birdcall) (1)
@@ -305,7 +306,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer targeting](#developer-targeting) (2)
 - [developer tooling](#developer-tooling) (1)
 - [developer workstations](#developer-workstations) (1)
-- [developer-targeting](#developer-targeting) (10)
+- [developer-targeting](#developer-targeting) (11)
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (1)
 - [device registration](#device-registration) (1)
@@ -332,6 +333,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DPRK](#dprk) (2)
 - [DroneLink](#dronelink) (1)
 - [Dropbox](#dropbox) (1)
+- [dropper](#dropper) (1)
 - [Drupal](#drupal) (1)
 - [Dutch Police](#dutch-police) (1)
 - [DWAgent](#dwagent) (1)
@@ -370,6 +372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
 - [Europol](#europol) (1)
+- [evasion](#evasion) (1)
 - [Everest Forms Pro](#everest-forms-pro) (1)
 - [EvilAI](#evilai) (1)
 - [exfiltration](#exfiltration) (3)
@@ -512,7 +515,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Israel](#israel) (2)
 - [Ivanti Sentry](#ivanti-sentry) (1)
 - [Japan](#japan) (1)
-- [JavaScript](#javascript) (4)
+- [JavaScript](#javascript) (5)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
@@ -675,8 +678,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (8)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (31)
-- [npm lifecycle hook](#npm-lifecycle-hook) (2)
+- [npm](#npm) (32)
+- [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npx](#npx) (1)
 - [NTFS ADS](#ntfs-ads) (2)
 - [NTLM](#ntlm) (1)
@@ -701,9 +704,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (116)
+- [operations](#operations) (117)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (115)
+- [ops](#ops) (116)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -716,6 +719,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [P2P](#p2p) (1)
 - [package registry](#package-registry) (3)
 - [package scanning](#package-scanning) (1)
+- [package-splitting](#package-splitting) (1)
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (3)
 - [page poisoning](#page-poisoning) (1)
@@ -726,6 +730,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
 - [patterns](#patterns) (16)
+- [payload staging](#payload-staging) (1)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (1)
 - [payment-card-theft](#payment-card-theft) (2)
@@ -772,6 +777,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PRC](#prc) (1)
 - [PRC-aligned](#prc-aligned) (1)
 - [pre-authentication](#pre-authentication) (1)
+- [preinstall](#preinstall) (1)
 - [Primitive Bear](#primitive-bear) (1)
 - [PrincessClub](#princessclub) (1)
 - [privacy](#privacy) (1)
@@ -953,7 +959,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (63)
+- [supply-chain](#supply-chain) (64)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
@@ -1084,7 +1090,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp](#whatsapp) (1)
 - [WHM](#whm) (3)
 - [Widget Factory](#widget-factory) (1)
-- [Windows](#windows) (14)
+- [Windows](#windows) (15)
 - [Windows persistence](#windows-persistence) (1)
 - [Winos4.0](#winos40) (1)
 - [WinRAR](#winrar) (3)
@@ -1485,6 +1491,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Belarus
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Ghostwriter](../actors/ghostwriter.md)
+
+## binary execution
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
 ## BinaryFormatter
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -2307,6 +2316,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
@@ -2398,6 +2408,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Dropbox
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+
+## dropper
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
 ## Drupal
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -2552,6 +2565,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Europol
 - [First VPN](../tools/first-vpn.md)
+
+## evasion
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
 ## Everest Forms Pro
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -3090,6 +3106,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
 ## JavaScript bridge
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -3692,6 +3709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -3704,6 +3722,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## npm lifecycle hook
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
 ## npx
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -3881,6 +3900,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -4000,6 +4020,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -4066,6 +4087,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## package scanning
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
+## package-splitting
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+
 ## package-takeover
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
@@ -4114,6 +4138,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+
+## payload staging
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
 ## payment fraud
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -4299,6 +4326,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pre-authentication
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+
+## preinstall
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
 ## Primitive Bear
 - [Gamaredon](../actors/gamaredon.md)
@@ -5009,6 +5039,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -5508,6 +5539,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+- [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)

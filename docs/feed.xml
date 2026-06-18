@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>procwire / routecraft npm Windows dropper</title>
+      <link>https://threat.wiki/ops/procwire-routecraft-npm-windows-dropper/</link>
+      <description>Added coverage for SafeDep's June 18 report on a five-package npm campaign: procwire and routecraft execute a Windows-only preinstall dropper while bytecraft, endpointmap, and staticlayer split XOR endpoint reconstruction and payload-serving logic across helper packages. The page captures package/version pivots, files.catbox.moe staging, Microsoft-Delivery-Optimization User-Agent gating, updater-like temp executable names, Mark-of-the-Web stripping, and Windows npm-install response guidance.</description>
+      <pubDate>Thu, 18 Jun 2026 21:26:22 GMT</pubDate>
+      <guid>https://threat.wiki/ops/procwire-routecraft-npm-windows-dropper/</guid>
+    </item>
+    <item>
       <title>Splunk Enterprise CVE-2026-20253 KEV exploitation update</title>
       <link>https://threat.wiki/ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce/</link>
       <description>Updated the Splunk Enterprise CVE-2026-20253 page after CISA added the unauthenticated PostgreSQL Sidecar Service flaw to KEV on 2026-06-18. The update records known exploitation, the 2026-07-09 federal remediation due date, emergency isolation or upgrade guidance for internet-facing Splunk Web / management surfaces, and the existing watchTowr backup / restore endpoint hunting pivots.</description>
