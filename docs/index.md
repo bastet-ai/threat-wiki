@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Splunk Enterprise CVE-2026-20253 KEV exploitation update](ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [AI scanner anti-analysis](patterns/ai-scanner-anti-analysis.md)
 - [Vertex AI staging-bucket squatting](patterns/vertex-ai-staging-bucket-squatting.md)
 - [Mastra `easy-day-js` npm scope compromise: Microsoft follow-up](ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Crypto Clipper Tor / USB worm](ops/crypto-clipper-tor-usb-worm.md)
 - [Mastra `easy-day-js` npm scope compromise](ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Crypto supply-chain path to transaction authority](patterns/crypto-supply-chain-transaction-authority.md)
-- [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

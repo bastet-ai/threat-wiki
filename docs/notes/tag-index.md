@@ -11,7 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (23)
+- [active exploitation](#active-exploitation) (24)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (3)
@@ -154,7 +154,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI-CD](#ci-cd) (1)
 - [CI/CD](#cicd) (29)
 - [CircleCI](#circleci) (1)
-- [CISA KEV](#cisa-kev) (9)
+- [CISA KEV](#cisa-kev) (10)
 - [Cisco](#cisco) (1)
 - [Cisco Nexus](#cisco-nexus) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
@@ -1157,6 +1157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## active-exploitation
@@ -1705,6 +1706,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## Cisco

@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Splunk Enterprise CVE-2026-20253 KEV exploitation update</title>
+      <link>https://threat.wiki/ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce/</link>
+      <description>Updated the Splunk Enterprise CVE-2026-20253 page after CISA added the unauthenticated PostgreSQL Sidecar Service flaw to KEV on 2026-06-18. The update records known exploitation, the 2026-07-09 federal remediation due date, emergency isolation or upgrade guidance for internet-facing Splunk Web / management surfaces, and the existing watchTowr backup / restore endpoint hunting pivots.</description>
+      <pubDate>Thu, 18 Jun 2026 19:27:11 GMT</pubDate>
+      <guid>https://threat.wiki/ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce/#cisa-kev-update</guid>
+    </item>
+    <item>
       <title>AI scanner anti-analysis</title>
       <link>https://threat.wiki/patterns/ai-scanner-anti-analysis/</link>
       <description>Added a pattern page for Socket's shai_hulululud npm package analysis: source-code comments, safety-triggering text, context flooding, and staged obfuscation can make AI-assisted package scanners refuse, truncate, time out, misclassify, or fail open before reaching executable code. The page captures scanner-hardening guidance for untrusted source text, executable-code prioritization, context-flood detection, deterministic preprocessing, and fail-closed handling.</description>
