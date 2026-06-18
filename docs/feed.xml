@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Mastra easy-day-js npm scope compromise: Microsoft follow-up</title>
+      <link>https://threat.wiki/ops/mastra-easy-day-js-npm-scope-compromise/</link>
+      <description>Updated the Mastra easy-day-js npm scope compromise page with Microsoft Threat Intelligence's June 17 follow-up: exact observed publish times, 4,572-byte setup.cjs dropper details, XOR-encoded .pkg_logs marker behavior, legacy IE8 User-Agent ICAP-style exfiltration, Windows reflective .NET loading and cmd.exe injection, and additional setup.cjs / easy-day-js tarball hashes.</description>
+      <pubDate>Thu, 18 Jun 2026 13:26:19 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mastra-easy-day-js-npm-scope-compromise/#microsoft-follow-up-2026-06-18</guid>
+    </item>
+    <item>
       <title>Mastra easy-day-js npm scope compromise: SafeDep follow-up</title>
       <link>https://threat.wiki/ops/mastra-easy-day-js-npm-scope-compromise/</link>
       <description>Updated the Mastra easy-day-js npm scope compromise page with SafeDep's June 17 follow-up: provenance dropped on attacker-published packages, the 01:12-02:36 UTC scope-wide republish burst, sergey2016 and ehindero2016 email-pattern overlap, User-Agent-gated stage-two retrieval, Hostwinds raw-IP infrastructure, wolfSSL test-certificate pivot, second-stage SHA-256, and a caveated BlueNoroff / Sapphire Sleet tradecraft overlap note.</description>

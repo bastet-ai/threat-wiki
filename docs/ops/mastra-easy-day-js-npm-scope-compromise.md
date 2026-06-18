@@ -1,7 +1,7 @@
 # Mastra `easy-day-js` npm scope compromise
 
 ## Summary
-On June 17, 2026, public reporting from StepSecurity, Socket, Snyk, and SafeDep described a high-blast-radius npm supply-chain incident affecting the Mastra AI framework ecosystem. A stale or compromised npm maintainer account republished more than 140 packages in the `@mastra/*` scope and injected a single new dependency, `easy-day-js`, a `dayjs` lookalike whose install hook delivered a cross-platform Node.js implant.
+On June 17, 2026, public reporting from StepSecurity, Socket, Snyk, SafeDep, and Microsoft described a high-blast-radius npm supply-chain incident affecting the Mastra AI framework ecosystem. A stale or compromised npm maintainer account republished more than 140 packages in the `@mastra/*` scope and injected a single new dependency, `easy-day-js`, a `dayjs` lookalike whose install hook delivered a cross-platform Node.js implant.
 
 The malicious dependency executed during `npm install`, before application code was imported. Treat developer workstations, CI runners, and build hosts that installed affected Mastra packages on or after June 17, 2026 as potentially compromised.
 
@@ -47,6 +47,7 @@ The malicious dependency executed during `npm install`, before application code 
 - Socket reported a single npm account mass-published more than 140 malicious packages in the `@mastra/*` namespace during a short June 17 window; its enumeration counted 141 affected `@mastra/*` packages and called out `@mastra/core` at more than 918k weekly downloads.
 - Snyk reported 143 packages and counting, including `@mastra/core`, and later added `@mastra/node-speaker@0.1.1` to its compromised-package set.
 - SafeDep counted 143 affected packages and placed the scope-wide Mastra republish burst between 01:12 and 02:36 UTC on June 17, 2026.
+- Microsoft Threat Intelligence reported that it observed `easy-day-js@1.11.22` at 01:07 UTC and `mastra@1.13.1` at 01:28 UTC on June 17; it also noted that all packages published by `ehindero` in the observed burst carried the injected dependency, while packages last published by GitHub Actions CI/CD or other legitimate maintainers were not affected.
 - Notable versions from Snyk include `@mastra/core@1.42.1`, `mastra@1.13.1`, and `create-mastra@1.13.1`.
 - Snyk advisory `SNYK-JS-EASYDAYJS-17353313` covers malicious embedded code in `easy-day-js`.
 - Mastra's remediation PR says the source tree was clean of `easy-day-js` and forward-rolled clean versions for the publishable packages; it also notes that unpublishing/deprecation, credential rotation, and unauthorized-owner removal were handled separately.
@@ -58,6 +59,7 @@ Socket's technical analysis describes the stage-one loader as obfuscated JavaScr
 - Sets `NODE_TLS_REJECT_UNAUTHORIZED` to disable TLS validation.
 - Downloads stage two from `https://23[.]254[.]164[.]92:8000/update/49890878`.
 - Writes marker files under the OS temp directory, including `.pkg_history` and `.pkg_logs`.
+- Microsoft described the postinstall dropper as a 4,572-byte obfuscated `setup.cjs`; the `.pkg_logs` marker stores `easy-day-js` XOR-encoded with `0x80`.
 - Saves the second stage under a random temp filename and starts it as a detached Node.js process.
 - Passes `23[.]254[.]164[.]123:443` as the second-stage exfiltration / C2 target.
 - Removes the loader file after execution to reduce forensic evidence.
@@ -79,17 +81,23 @@ Reported collection and tasking:
 - Browser history collection from Chrome, Edge, and Brave profiles.
 - Cryptocurrency wallet extension inventory across 166 hardcoded browser-extension IDs, including wallets such as MetaMask, Phantom, Coinbase Wallet, Binance Wallet, and TronLink. Socket's recovered sample inventories wallet-extension presence and profile paths; it warns that follow-on tasking could still steal secrets or wallet material.
 - Custom ICAP-style HTTPS POST tasking / exfiltration using the `/49890878` bot path.
+- Microsoft reported that collection traffic uses custom ICAP-style headers such as `reqmod`, `PrimaryUrl`, and `SecondaryUrl`, resolves hostnames through `node:dns`, and carries a spoofed legacy IE8 User-Agent string.
+- Microsoft also reported a Windows-specific branch where the first C2 response downloads a .NET DLL, loads it directly in memory via reflection, invokes `Extension.SubRoutine.Run2`, and injects follow-on execution into `cmd.exe`; treat Windows hits as potential fileless process-injection incidents even when only the JavaScript dropper is present on disk.
 - SafeDep reports the first beacon carries base64-encoded JSON containing username, hostname, OS, architecture, Node version, installed applications, wallet-extension inventory, browser history, and process list. It also observed a 10-minute default sleep interval, task tag `tpcsr`, and result tag `r0`.
 - SafeDep reports the C2 was fronted by a default wolfSSL test certificate with `CN=www.wolfssl.com` that had expired in January 2018.
 
 ### SafeDep follow-up (2026-06-18)
 SafeDep's June 17 post adds additional provenance, infrastructure, and payload pivots to the earlier StepSecurity, Socket, and Snyk reporting.
 
+### Microsoft follow-up (2026-06-18)
+Microsoft's June 17 post adds publish-timeline, dropper, Windows injection, exfiltration-protocol, and hash pivots to the earlier registry and malware reporting.
+
 ### Infrastructure and hashes
 - Dropper endpoint: `23[.]254[.]164[.]92:8000/update/49890878`.
 - Second-stage C2: `23[.]254[.]164[.]123:443` / `https://23[.]254[.]164[.]123/49890878`.
 - SafeDep associated the hosts with Hostwinds names `hwsrv-1327786` and `hwsrv-1327785.hostwindsdns[.]com` in `23.254.164.0/24`.
 - SafeDep reported SHA-256 `221c45a790dec2a296af57969e1165a16f8f49733aeab64c0bbd768d9943badf` for the stage-two payload.
+- Microsoft published additional file/package hashes: `AE70DD4F6BC0D1C8C2848E4E6B51934626C4818DCB5AF99D080DDBD7DC337185` for `setup.cjs`, `4A8860240E4231C3A74C81949BE655A28E096A7D72F38FBE84E5B37636B98417` for `easy-day-js-1.11.22.tgz`, and `B73DE25C053C3225A077738A1FCBD9CA6966D7B3CD6F5494A30F0AA0EAE55C7E` for the clean bait `easy-day-js-1.11.21.tgz`.
 - SafeDep noted close tradecraft overlap with the earlier Axios / `plain-crypto-js` campaign Microsoft attributed to Sapphire Sleet / BlueNoroff, but public reporting has not confirmed attribution for the Mastra incident.
 
 ## Defender heuristics
@@ -105,7 +113,9 @@ SafeDep's June 17 post adds additional provenance, infrastructure, and payload p
 - Hunt outbound network activity to `23[.]254[.]164[.]92:8000`, `23[.]254[.]164[.]123:443`, and path `/49890878` around dependency-install windows.
 - Include Hostwinds `23.254.164.0/24`, `hwsrv-1327786`, `hwsrv-1327785.hostwindsdns[.]com`, Node default User-Agent retrievals from raw IP HTTPS endpoints, and wolfSSL test-certificate observations as supporting pivots rather than standalone proof.
 - Inspect temp directories for `.pkg_history`, `.pkg_logs`, random `.js` payloads, and browser-history copy directories such as `browser-hist-*`.
+- Decode `.pkg_logs` with XOR `0x80` when triaging suspected hosts; Microsoft reports the marker decodes to `easy-day-js`.
 - Inspect Windows hosts for `NvmProtocal` Run-key values and `C:\ProgramData\NodePackages\` artifacts.
+- On Windows, also hunt for `node.exe` or hidden PowerShell launching unexpected `cmd.exe` children, in-memory .NET loading, and outbound HTTPS to the Mastra C2 after Node lifecycle-script execution.
 - Inspect macOS hosts for `~/Library/LaunchAgents/com.nvm.protocal.plist` and `~/Library/NodePackages/protocal.cjs`.
 - Inspect Linux hosts for `~/.config/systemd/user/nvmconf.service`, `~/.config/systemd/nvmconf/protocal.cjs`, and `~/.config/NodePackages/config.json`.
 - Review GitHub, npm, cloud, Kubernetes, SSH, CI/CD, package-registry, and LLM-provider credential use from affected hosts after the install window.
@@ -129,5 +139,6 @@ SafeDep's June 17 post adds additional provenance, infrastructure, and payload p
 - Socket: https://socket.dev/blog/mastra-npm-packages-compromised
 - Snyk: https://snyk.io/blog/a-forgotten-contributor-account-compromised-the-entire-mastra-npm-package-scope/
 - SafeDep: https://safedep.io/mastra-npm-scope-takeover-supply-chain-attack/
+- Microsoft Security Blog: https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/
 - Mastra GitHub issue: https://github.com/mastra-ai/mastra/issues/18045
 - Mastra remediation PR: https://github.com/mastra-ai/mastra/pull/18056

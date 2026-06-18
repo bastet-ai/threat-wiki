@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Mastra `easy-day-js` npm scope compromise: Microsoft follow-up](ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [Glassworm developer supply-chain botnet](ops/glassworm-developer-supply-chain-botnet.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Outsider Enterprise smishing PhaaS](ops/outsider-enterprise-smishing-phaas.md)
 - [Operation DangerousPassword axios npm compromise](ops/operation-dangerouspassword-axios-npm-compromise.md)
-- [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
