@@ -29,8 +29,18 @@ Boost Security Labs published the technique in April 2026 after disclosure to af
 - Fixing shell interpolation alone is not enough if attacker-controlled `environment_url` values are still passed into test clients that authenticate to the target.
 - The same trust-assumption failure is adjacent to other CI/CD supply-chain patterns: pwn requests, artifact poisoning, cache poisoning, and trusted-publishing abuse.
 
+## GitHub hardening updates
+- On 2026-06-18, GitHub published `actions/checkout` v7 with default refusal logic for common pwn-request patterns in `pull_request_target` workflows and in `workflow_run` workflows when the triggering workflow was a pull-request event.
+- The protection blocks checkout patterns that resolve to fork pull-request code through a fork `repository`, `refs/pull/<number>/head`, `refs/pull/<number>/merge`, or a fork pull request head / merge commit SHA.
+- GitHub says the enforcement will be backported on 2026-07-16 to supported major versions such as floating `actions/checkout@v4`; workflows pinned to a SHA, minor, or patch release need an explicit upgrade path.
+- GitHub also introduced workflow execution protections in public preview for enterprises, organizations, and repositories. The control lets administrators define rulesets that allow-list who can trigger workflows and which events are allowed, so approval logic does not live only inside mutable workflow YAML.
+- These platform changes do not make deployment metadata safe by default: `deployment_status` consumers should still validate the producer, event type, environment name, and URL before any secret-bearing step.
+
 ## Defender heuristics
 - Inventory workflows using `on: deployment_status`.
+- Inventory workflows using `pull_request_target` or `workflow_run` and confirm they are not checking out unreviewed fork code with privileged tokens or secrets.
+- Prefer floating supported `actions/checkout` majors or planned upgrade automation where that is operationally acceptable; if you pin by SHA for supply-chain control, deliberately roll to a version that includes GitHub's June 2026 pwn-request refusal logic.
+- For GitHub Enterprise / organization environments, evaluate workflow execution protections to restrict workflow runs by actor and event outside the workflow file itself.
 - Treat `github.event.deployment_status.*` fields as untrusted unless the workflow explicitly verifies the producer and expected environment.
 - Avoid direct `${{ }}` interpolation inside `run:` blocks; pass values through environment variables and quote/use them carefully.
 - Whitelist expected environment names before executing any secret-bearing step.
@@ -46,3 +56,5 @@ Boost Security Labs published the technique in April 2026 after disclosure to af
 
 ## Sources
 - Boost Security Labs: https://labs.boostsecurity.io/articles/deployment_poisoning/
+- GitHub Changelog, safer `pull_request_target` defaults for `actions/checkout`: https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout
+- GitHub Changelog, workflow execution protections: https://github.blog/changelog/2026-06-18-control-who-and-what-triggers-github-actions-workflows

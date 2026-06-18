@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [GitHub Actions deployment poisoning: checkout and trigger hardening update](patterns/deployment-poisoning-github-actions.md)
 - [procwire / routecraft npm Windows dropper](ops/procwire-routecraft-npm-windows-dropper.md)
 - [Splunk Enterprise CVE-2026-20253 KEV exploitation update](ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [AI scanner anti-analysis](patterns/ai-scanner-anti-analysis.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Joomla JCE CVE-2026-48907 exploitation](ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [Glassworm developer supply-chain botnet](ops/glassworm-developer-supply-chain-botnet.md)
 - [Crypto Clipper Tor / USB worm](ops/crypto-clipper-tor-usb-worm.md)
-- [Mastra `easy-day-js` npm scope compromise](ops/mastra-easy-day-js-npm-scope-compromise.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
