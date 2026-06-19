@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Ababil of Minab MOIS-linked recovery-destruction campaign: Hunt.io exposed-staging follow-up](ops/ababil-of-minab-mois-recovery-destruction.md#huntio-exposed-staging-follow-up-2026-06-18)
 - [Klue Salesforce OAuth token abuse](ops/klue-salesforce-oauth-token-abuse.md)
 - [npm install explicit-trust controls: developer package-config drift update](patterns/npm-install-explicit-trust-controls.md)
 - [Agent localhost control-plane RCE](patterns/agent-localhost-control-plane-rce.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Splunk Enterprise CVE-2026-20253 KEV exploitation update](ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [AI scanner anti-analysis](patterns/ai-scanner-anti-analysis.md)
 - [Vertex AI staging-bucket squatting](patterns/vertex-ai-staging-bucket-squatting.md)
-- [Mastra `easy-day-js` npm scope compromise: Microsoft follow-up](ops/mastra-easy-day-js-npm-scope-compromise.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
