@@ -134,6 +134,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
+- [BYOVD](#byovd) (1)
 - [C2](#c2) (7)
 - [CageFS](#cagefs) (1)
 - [Canada](#canada) (1)
@@ -357,6 +358,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge service](#edge-service) (2)
 - [editor profile import](#editor-profile-import) (1)
 - [EDR evasion](#edr-evasion) (1)
+- [EDR killer](#edr-killer) (1)
 - [education](#education) (1)
 - [Egnyte](#egnyte) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
@@ -436,6 +438,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GammaWorm](#gammaworm) (1)
 - [Garble](#garble) (1)
 - [GCS](#gcs) (1)
+- [GentleKiller](#gentlekiller) (1)
 - [Ghost CMS](#ghost-cms) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
@@ -479,9 +482,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
 - [HashiCorp Vault](#hashicorp-vault) (1)
+- [HavocKiller](#havockiller) (1)
 - [healthcare](#healthcare) (1)
 - [HelloDoor](#hellodoor) (1)
 - [HellsGate](#hellsgate) (1)
+- [HexKiller](#hexkiller) (1)
 - [hidden service](#hidden-service) (1)
 - [high explosives](#high-explosives) (1)
 - [higher education](#higher-education) (2)
@@ -734,6 +739,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OTP interception](#otp-interception) (1)
 - [Outlook](#outlook) (1)
 - [OX Security](#ox-security) (1)
+- [OxideHarvest](#oxideharvest) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
@@ -1016,6 +1022,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The Gentlemen](#the-gentlemen) (1)
 - [third-party integrations](#third-party-integrations) (1)
 - [threat hunting](#threat-hunting) (1)
+- [ThrottleBlood](#throttleblood) (1)
 - [TinyGo](#tinygo) (1)
 - [tj-actions](#tj-actions) (1)
 - [token replay](#token-replay) (1)
@@ -1633,6 +1640,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bun runtime abuse
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+
+## BYOVD
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## C2
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
@@ -2533,6 +2543,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## EDR evasion
 - [RemotePE](../tools/remotepe.md)
 
+## EDR killer
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## education
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -2831,6 +2844,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GCS
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 
+## GentleKiller
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## Ghost CMS
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
@@ -3005,6 +3021,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HashiCorp Vault
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
+## HavocKiller
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## healthcare
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
@@ -3013,6 +3032,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HellsGate
 - [RemotePE](../tools/remotepe.md)
+
+## HexKiller
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## hidden service
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
@@ -4193,6 +4215,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OX Security
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
+## OxideHarvest
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## OYSTERBLUES
 - [Ghostwriter](../actors/ghostwriter.md)
 
@@ -5315,6 +5340,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## threat hunting
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+
+## ThrottleBlood
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## TinyGo
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)

@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>The Gentlemen ransomware: GentleKiller EDR-killer framework update</title>
+      <link>https://threat.wiki/tools/the-gentlemen-ransomware/#operator-maintained-edr-killer-suite</link>
+      <description>Updated The Gentlemen ransomware page with ESET's June 18, 2026 GentleKiller analysis: Gentlemen operators maintain an affiliate EDR-killer portfolio, at least eight GentleKiller variants abuse vulnerable or malicious drivers, HexKiller / ThrottleBlood / HavocKiller are operationally integrated, shared evasion impersonates security vendors with copied metadata and icons, and newly disclosed BYOVD PoCs are adopted rapidly. The update adds defender pivots for vulnerable-driver loading, driver-blocklist enforcement, HVCI, and tamper-protection hardening.</description>
+      <pubDate>Fri, 19 Jun 2026 23:25:46 GMT</pubDate>
+      <guid>https://threat.wiki/tools/the-gentlemen-ransomware/#operator-maintained-edr-killer-suite</guid>
+    </item>
+    <item>
       <title>JetBrains AI plugin API-key theft</title>
       <link>https://threat.wiki/ops/jetbrains-ai-plugin-api-key-theft/</link>
       <description>Added coverage for StepSecurity and JetBrains reporting on 15 malicious JetBrains Marketplace AI plugins that stole OpenAI, DeepSeek, SiliconFlow, and other provider API keys from developer IDE settings. The page captures affected plugin IDs, seven banned publisher accounts, plaintext HTTP exfiltration to 39.107.60[.]51, the static X-Api-Key header, JetBrains removal and remote-disable response, key-rotation guidance, and IDE-plugin hunting pivots.</description>

@@ -26,6 +26,13 @@ The durable point for defenders is not just the encryption design. The Gentlemen
 - Curve25519
 - XChaCha20
 - BreachForums
+- GentleKiller
+- EDR killer
+- BYOVD
+- HexKiller
+- ThrottleBlood
+- HavocKiller
+- OxideHarvest
 
 ## Why this matters
 - Microsoft says The Gentlemen has impacted organizations across education, transportation, healthcare, and financial sectors in North America, South America, Europe, Africa, and Asia.
@@ -43,6 +50,14 @@ The durable point for defenders is not just the encryption design. The Gentlemen
 - `--keep` disables self-deletion and `--wipe` wipes free disk space after encryption, increasing recovery difficulty.
 
 ## Tradecraft notes
+### Operator-maintained EDR killer suite
+- ESET's June 18, 2026 analysis describes Gentlemen as unusual among RaaS crews because the operators, not just affiliates, actively develop and maintain an EDR-killer portfolio for affiliates.
+- ESET names the in-house framework **GentleKiller** and says it has at least eight variants abusing different vulnerable or malicious drivers.
+- The portfolio also operationally integrates third-party or leaked EDR killers: **HexKiller**, **ThrottleBlood**, and **HavocKiller**.
+- The tools share a defense-evasion layer that impersonates mainly security vendors through fake version metadata plus copied legitimate certificates and icons.
+- Gentlemen operators rapidly adopt newly disclosed BYOVD proof-of-concept techniques, in some cases within days of public release.
+- ESET also links **OxideHarvest**, a credential stealer maintained by one Gentlemen affiliate, to the broader ecosystem.
+
 ### Defense evasion and recovery denial
 - Disables Microsoft Defender real-time monitoring, adds the malware executable to Defender exclusions, and excludes the `C:\` volume from scanning.
 - Deletes Volume Shadow Copies using `vssadmin` and `wmic` and clears System, Application, and Security event logs with `wevtutil`.
@@ -69,6 +84,8 @@ The durable point for defenders is not just the encryption design. The Gentlemen
 - Treat discovery of The Gentlemen on one host as a network-wide ransomware event: immediately segment affected systems and hunt for propagation attempts, not just local encryption.
 - Hunt Windows telemetry for `gentlemen_system`, `UpdateSystem`, `UpdateUser`, `GupdateS`, `GupdateU`, and `LOCKER_BACKGROUND` artifacts.
 - Alert on unusual combinations of Defender exclusion changes, shadow-copy deletion, event-log clearing, prefetch/log cleanup, PowerShell-history deletion, and mass service termination.
+- Treat vulnerable-driver loading or sudden driver-blocklist bypass behavior immediately before ransomware staging as a high-priority Gentlemen/GentleKiller pivot, especially when binaries impersonate security vendors through copied icons, certificates, or version resources.
+- Baseline and enforce Microsoft vulnerable-driver blocklist, HVCI / memory-integrity policy, and EDR tamper-protection controls; operator-maintained EDR killers make defense impairment part of the platform, not an affiliate afterthought.
 - Review scheduled-task creation and service-control activity from unusual parent processes, especially when followed by `vssadmin`, `wmic`, `wevtutil`, `schtasks`, or PowerShell Defender preference changes.
 - Monitor for sudden enabling of network-discovery services and firewall rules on servers where that behavior is not normal.
 - Prioritize credentials exposed to affiliates: domain admin, backup admin, hypervisor, EDR, RMM, file-server, and service-account credentials can turn The Gentlemen from host-level encryption into fleet-wide impact.
@@ -84,3 +101,4 @@ Microsoft tracks the RaaS operators as **Storm-2697**. Affiliates may vary by in
 
 ## Sources
 - Microsoft Security Blog: https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/
+- ESET WeLiveSecurity: https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/
