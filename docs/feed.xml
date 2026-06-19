@@ -5,10 +5,10 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
-      <title>npm install explicit-trust controls</title>
+      <title>npm install explicit-trust controls: developer package-config drift update</title>
       <link>https://threat.wiki/patterns/npm-install-explicit-trust-controls/</link>
-      <description>Added a pattern page for JFrog Security Research's npm v12 analysis: npm is moving lifecycle scripts, Git dependencies, and remote URL dependencies from implicit install-time trust toward explicit approvals. The page captures allowScripts, --allow-git, --allow-remote, node-gyp review, expected attacker adaptation toward pre-approved packages and import-time execution, and CI / developer-machine hardening guidance.</description>
-      <pubDate>Fri, 19 Jun 2026 07:30:00 GMT</pubDate>
+      <description>Updated the npm install explicit-trust controls pattern with StepSecurity's developer-machine package-configuration guidance: internal registries, secure registries, package cooldowns, and auth policy only protect hosts actually configured to use them. The page now captures npm and Python package-manager config inventory, public-index fallback detection, endpoint cooldown enforcement, token hygiene, and drift monitoring across developer laptops and CI runners.</description>
+      <pubDate>Fri, 19 Jun 2026 11:27:15 GMT</pubDate>
       <guid>https://threat.wiki/patterns/npm-install-explicit-trust-controls/</guid>
     </item>
     <item>

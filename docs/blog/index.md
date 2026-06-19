@@ -3,7 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
-- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+- [npm install explicit-trust controls: developer package-config drift update](../patterns/npm-install-explicit-trust-controls.md)
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)

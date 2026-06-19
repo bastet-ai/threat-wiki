@@ -7,7 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
-- [npm install explicit-trust controls](patterns/npm-install-explicit-trust-controls.md)
+- [npm install explicit-trust controls: developer package-config drift update](patterns/npm-install-explicit-trust-controls.md)
 - [Agent localhost control-plane RCE](patterns/agent-localhost-control-plane-rce.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [GitHub Actions deployment poisoning: checkout and trigger hardening update](patterns/deployment-poisoning-github-actions.md)

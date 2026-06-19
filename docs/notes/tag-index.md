@@ -312,6 +312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer targeting](#developer-targeting) (2)
 - [developer tooling](#developer-tooling) (1)
 - [developer workstations](#developer-workstations) (1)
+- [developer-machine-fleet](#developer-machine-fleet) (1)
 - [developer-targeting](#developer-targeting) (11)
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (2)
@@ -731,6 +732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [P2P](#p2p) (1)
 - [package registry](#package-registry) (3)
 - [package scanning](#package-scanning) (1)
+- [package-cooldowns](#package-cooldowns) (1)
 - [package-manager-hardening](#package-manager-hardening) (1)
 - [package-splitting](#package-splitting) (1)
 - [package-takeover](#package-takeover) (1)
@@ -840,6 +842,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RediSearch](#redisearch) (1)
 - [refresh tokens](#refresh-tokens) (1)
 - [registry persistence](#registry-persistence) (3)
+- [registry-controls](#registry-controls) (1)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (2)
 - [Remote Access VPN](#remote-access-vpn) (1)
@@ -2347,6 +2350,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## developer workstations
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
+## developer-machine-fleet
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## developer-targeting
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -4157,6 +4163,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## package scanning
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
+## package-cooldowns
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+
 ## package-manager-hardening
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
@@ -4608,6 +4617,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## registry-controls
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## release tampering
 - [Trivy compromise](../ops/trivy-compromise.md)
