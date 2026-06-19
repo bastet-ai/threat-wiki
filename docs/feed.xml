@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Agent localhost control-plane RCE</title>
+      <link>https://threat.wiki/patterns/agent-localhost-control-plane-rce/</link>
+      <description>Added a pattern page for Microsoft Security Research's AutoJack case study: untrusted web content rendered by a browsing AI agent can cross the localhost boundary, reach a local MCP WebSocket control plane, and turn caller-supplied stdio server parameters into host command execution. The page captures the AutoGen Studio development-branch caveat, upstream hardening before PyPI release, and durable guidance for authenticating loopback control planes, allowlisting MCP launchers, isolating browsing agents, and hunting agent-spawned child processes.</description>
+      <pubDate>Fri, 19 Jun 2026 05:28:08 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/agent-localhost-control-plane-rce/</guid>
+    </item>
+    <item>
       <title>GHOST STADIUM FIFA World Cup ticket phishing</title>
       <link>https://threat.wiki/ops/ghost-stadium-fifa-world-cup-ticket-phishing/</link>
       <description>Added coverage for Hunt.io's June 17 GHOST STADIUM FIFA World Cup 2026 ticketing phishing report: cloned FIFA ticketing portals on lookalike domains, same-origin credential and payment harvesting, reusable /fifa/ React-build and Layui pivots, suspected AS25820 / 16clouds origin hosting, favicon clustering, and a caveated Chinese-speaking operator assessment.</description>

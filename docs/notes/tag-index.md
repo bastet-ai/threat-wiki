@@ -24,7 +24,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [adversary-in-the-middle](#adversary-in-the-middle) (2)
 - [adware](#adware) (3)
 - [Afghanistan](#afghanistan) (2)
-- [agent frameworks](#agent-frameworks) (2)
+- [agent frameworks](#agent-frameworks) (3)
 - [agent skills](#agent-skills) (1)
 - [agent state](#agent-state) (1)
 - [agentic AI](#agentic-ai) (1)
@@ -32,7 +32,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (4)
-- [AI agents](#ai-agents) (8)
+- [AI agents](#ai-agents) (9)
 - [AI assistants](#ai-assistants) (3)
 - [AI brand impersonation](#ai-brand-impersonation) (1)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
@@ -82,7 +82,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AUTODYN](#autodyn) (1)
+- [AutoGen Studio](#autogen-studio) (1)
 - [AutoHotKey](#autohotkey) (1)
+- [AutoJack](#autojack) (1)
 - [AWS](#aws) (3)
 - [AWS CloudTrail](#aws-cloudtrail) (1)
 - [AWS S3](#aws-s3) (1)
@@ -119,6 +121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brazil](#brazil) (2)
 - [BreachForums](#breachforums) (1)
 - [BRICKSTORM](#brickstorm) (2)
+- [browser automation](#browser-automation) (1)
 - [browser credential theft](#browser-credential-theft) (5)
 - [browser extension](#browser-extension) (1)
 - [browser hijacking](#browser-hijacking) (1)
@@ -195,13 +198,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codex](#codex) (2)
 - [Coinbase](#coinbase) (1)
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
-- [command execution](#command-execution) (2)
+- [command execution](#command-execution) (3)
 - [command injection](#command-injection) (3)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [Composer](#composer) (3)
 - [compromised accounts](#compromised-accounts) (1)
 - [compromised credentials](#compromised-credentials) (1)
+- [confused deputy](#confused-deputy) (1)
 - [ConnectWise](#connectwise) (1)
 - [consumer devices](#consumer-devices) (1)
 - [Contagious Interview](#contagious-interview) (2)
@@ -304,7 +308,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deserialization](#deserialization) (2)
 - [destructive operations](#destructive-operations) (1)
 - [developer endpoints](#developer-endpoints) (1)
-- [developer machines](#developer-machines) (6)
+- [developer machines](#developer-machines) (7)
 - [developer targeting](#developer-targeting) (2)
 - [developer tooling](#developer-tooling) (1)
 - [developer workstations](#developer-workstations) (1)
@@ -584,12 +588,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [loader](#loader) (1)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (1)
+- [localhost](#localhost) (1)
 - [log poisoning](#log-poisoning) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
 - [LONGSTREAM](#longstream) (1)
 - [LOOKVALJS](#lookvaljs) (1)
 - [LOOKVALPS](#lookvalps) (1)
+- [loopback](#loopback) (1)
 - [LPE](#lpe) (1)
 - [LS-DYNA](#ls-dyna) (1)
 - [LSASS](#lsass) (1)
@@ -618,7 +624,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marimo](#marimo) (1)
 - [marketplace abuse](#marketplace-abuse) (1)
 - [Maven Central](#maven-central) (1)
-- [MCP](#mcp) (4)
+- [MCP](#mcp) (5)
 - [memory-only malware](#memory-only-malware) (1)
 - [MeshCentral](#meshcentral) (2)
 - [MEV bot lure](#mev-bot-lure) (1)
@@ -627,7 +633,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [Miasma](#miasma) (3)
-- [Microsoft](#microsoft) (2)
+- [Microsoft](#microsoft) (3)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (2)
 - [Microsoft Defender](#microsoft-defender) (1)
@@ -650,7 +656,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile devices](#mobile-devices) (1)
 - [mobile malware](#mobile-malware) (1)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
-- [Model Context Protocol](#model-context-protocol) (2)
+- [Model Context Protocol](#model-context-protocol) (3)
 - [model poisoning](#model-poisoning) (1)
 - [model-provider abuse](#model-provider-abuse) (1)
 - [module-proxy](#module-proxy) (1)
@@ -733,7 +739,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
-- [patterns](#patterns) (16)
+- [patterns](#patterns) (17)
 - [payload staging](#payload-staging) (1)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (2)
@@ -790,7 +796,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [process hollowing](#process-hollowing) (2)
 - [process injection](#process-injection) (2)
 - [professional services](#professional-services) (1)
-- [prompt injection](#prompt-injection) (3)
+- [prompt injection](#prompt-injection) (4)
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
@@ -817,7 +823,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAT](#rat) (16)
 - [RC4](#rc4) (2)
-- [RCE](#rce) (5)
+- [RCE](#rce) (6)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [RDP](#rdp) (1)
@@ -952,7 +958,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stale access](#stale-access) (1)
 - [state-linked](#state-linked) (1)
 - [Static Kitten](#static-kitten) (1)
-- [stdio](#stdio) (2)
+- [stdio](#stdio) (3)
 - [stealer](#stealer) (2)
 - [stock exchange](#stock-exchange) (1)
 - [storage deletion](#storage-deletion) (1)
@@ -1088,6 +1094,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebLogic](#weblogic) (1)
 - [WebRTC](#webrtc) (1)
 - [webshell](#webshell) (1)
+- [WebSocket](#websocket) (1)
 - [WebSocket C2](#websocket-c2) (1)
 - [WebView](#webview) (1)
 - [Webworm](#webworm) (1)
@@ -1219,6 +1226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](../actors/sidecopy.md)
 
 ## agent frameworks
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
@@ -1248,6 +1256,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## AI agents
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -1429,8 +1438,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AUTODYN
 - [Fast16](../tools/fast16.md)
 
+## AutoGen Studio
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+
 ## AutoHotKey
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+
+## AutoJack
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
 ## AWS
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -1554,6 +1569,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BRICKSTORM
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
+## browser automation
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
 ## browser credential theft
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -1867,6 +1885,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
 ## command execution
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
@@ -1891,6 +1910,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## compromised credentials
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+
+## confused deputy
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
 ## ConnectWise
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
@@ -2304,6 +2326,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
 ## developer machines
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -3362,6 +3385,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## local privilege escalation
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
+## localhost
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+
 ## log poisoning
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 
@@ -3379,6 +3405,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LOOKVALPS
 - [GREYVIBE](../actors/greyvibe.md)
+
+## loopback
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
 ## LPE
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -3487,6 +3516,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## MCP
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -3523,6 +3553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Microsoft
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 
@@ -3597,6 +3628,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 
 ## Model Context Protocol
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
@@ -4146,6 +4178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
 ## patterns
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -4390,6 +4423,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC3753](../actors/unc3753.md)
 
 ## prompt injection
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
@@ -4509,6 +4543,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## RCE
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -4983,6 +5018,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## stdio
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
@@ -5532,6 +5568,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## webshell
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## WebSocket
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
 ## WebSocket C2
 - [GREYVIBE](../actors/greyvibe.md)

@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Agent localhost control-plane RCE](patterns/agent-localhost-control-plane-rce.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [GitHub Actions deployment poisoning: checkout and trigger hardening update](patterns/deployment-poisoning-github-actions.md)
 - [procwire / routecraft npm Windows dropper](ops/procwire-routecraft-npm-windows-dropper.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Mastra `easy-day-js` npm scope compromise: Microsoft follow-up](ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](ops/joomla-jce-cve-2026-48907-exploitation.md)
-- [Glassworm developer supply-chain botnet](ops/glassworm-developer-supply-chain-botnet.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
