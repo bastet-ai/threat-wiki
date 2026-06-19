@@ -42,7 +42,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI gateway](#ai-gateway) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI security](#ai-security) (1)
-- [AI tooling](#ai-tooling) (10)
+- [AI tooling](#ai-tooling) (11)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
 - [AI-augmented operations](#ai-augmented-operations) (1)
@@ -54,6 +54,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [anti-analysis](#anti-analysis) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
+- [API keys](#api-keys) (1)
 - [AppDomainManager](#appdomainmanager) (1)
 - [AppleJeus](#applejeus) (1)
 - [AppleSeed](#appleseed) (1)
@@ -222,7 +223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential exposure](#credential-exposure) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential theft](#credential-theft) (18)
-- [credential-theft](#credential-theft) (41)
+- [credential-theft](#credential-theft) (42)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (2)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -297,7 +298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAYLIGHT](#daylight) (1)
 - [DDoS](#ddos) (1)
 - [dead drop resolver](#dead-drop-resolver) (1)
-- [DeepSeek](#deepseek) (1)
+- [DeepSeek](#deepseek) (2)
 - [Defender evasion](#defender-evasion) (2)
 - [defense](#defense) (1)
 - [defense evasion](#defense-evasion) (4)
@@ -314,7 +315,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer tooling](#developer-tooling) (1)
 - [developer workstations](#developer-workstations) (1)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
-- [developer-targeting](#developer-targeting) (11)
+- [developer-targeting](#developer-targeting) (12)
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (2)
 - [device registration](#device-registration) (1)
@@ -383,7 +384,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [evasion](#evasion) (1)
 - [Everest Forms Pro](#everest-forms-pro) (1)
 - [EvilAI](#evilai) (1)
-- [exfiltration](#exfiltration) (3)
+- [exfiltration](#exfiltration) (4)
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
@@ -497,6 +498,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
 - [IDE extension](#ide-extension) (1)
+- [IDE plugins](#ide-plugins) (1)
 - [identity](#identity) (3)
 - [identity security](#identity-security) (1)
 - [IDEs](#ides) (1)
@@ -534,6 +536,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript tampering](#javascript-tampering) (1)
 - [JCE](#jce) (1)
 - [JDY](#jdy) (1)
+- [JetBrains](#jetbrains) (1)
+- [JetBrains Marketplace](#jetbrains-marketplace) (1)
 - [JetStream](#jetstream) (1)
 - [JFrog Security Research](#jfrog-security-research) (1)
 - [JINX-0164](#jinx-0164) (2)
@@ -628,6 +632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [manufacturing](#manufacturing) (1)
 - [marimo](#marimo) (1)
 - [marketplace abuse](#marketplace-abuse) (1)
+- [marketplace trust](#marketplace-trust) (1)
 - [Maven Central](#maven-central) (1)
 - [MCP](#mcp) (5)
 - [memory-only malware](#memory-only-malware) (1)
@@ -710,6 +715,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama](#ollama) (1)
 - [Oman](#oman) (1)
 - [OneDrive](#onedrive) (3)
+- [OpenAI](#openai) (1)
 - [OpenAI Codex](#openai-codex) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenSearch](#opensearch) (1)
@@ -719,9 +725,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (119)
+- [operations](#operations) (120)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (118)
+- [ops](#ops) (119)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -776,6 +782,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
 - [PKGBUILD](#pkgbuild) (1)
+- [plaintext HTTP](#plaintext-http) (1)
 - [PLENET](#plenet) (2)
 - [poisoned-branch](#poisoned-branch) (1)
 - [PolinRider](#polinrider) (1)
@@ -922,6 +929,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Silent Ransom Group](#silent-ransom-group) (1)
 - [SilentCryptoMiner](#silentcryptominer) (1)
 - [SilentRunLoader](#silentrunloader) (1)
+- [SiliconFlow](#siliconflow) (1)
 - [simulation tampering](#simulation-tampering) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [Sliver](#sliver) (1)
@@ -978,7 +986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (66)
+- [supply-chain](#supply-chain) (67)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
@@ -1308,6 +1316,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI tooling
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -1353,6 +1362,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## API abuse
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
+## API keys
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
 ## AppDomainManager
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -2012,6 +2024,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -2297,6 +2310,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DeepSeek
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
 ## Defender evasion
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -2366,6 +2380,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -2633,6 +2648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## exfiltration
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 
@@ -3051,6 +3067,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## IDE extension
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 
+## IDE plugins
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+
 ## identity
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -3198,6 +3217,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JDY
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+
+## JetBrains
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+
+## JetBrains Marketplace
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
 ## JetStream
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -3543,6 +3568,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## marketplace abuse
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 
+## marketplace trust
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+
 ## Maven Central
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -3868,6 +3896,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Webworm](../actors/webworm.md)
 
+## OpenAI
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+
 ## OpenAI Codex
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
@@ -3948,6 +3979,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -4070,6 +4102,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -4358,6 +4391,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PKGBUILD
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+
+## plaintext HTTP
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
 ## PLENET
 - [VerdantBamboo](../actors/verdantbamboo.md)
@@ -4908,6 +4944,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SilentRunLoader
 - [TA4922](../actors/ta4922.md)
 
+## SiliconFlow
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+
 ## simulation tampering
 - [Fast16](../tools/fast16.md)
 
@@ -5138,6 +5177,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JiaT75](../people/jiat75.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)

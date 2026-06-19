@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign: Hunt.io exposed-staging follow-up](../ops/ababil-of-minab-mois-recovery-destruction.md#huntio-exposed-staging-follow-up-2026-06-18)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [npm install explicit-trust controls: developer package-config drift update](../patterns/npm-install-explicit-trust-controls.md)

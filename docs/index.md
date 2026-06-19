@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [JetBrains AI plugin API-key theft](ops/jetbrains-ai-plugin-api-key-theft.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign: Hunt.io exposed-staging follow-up](ops/ababil-of-minab-mois-recovery-destruction.md#huntio-exposed-staging-follow-up-2026-06-18)
 - [Klue Salesforce OAuth token abuse](ops/klue-salesforce-oauth-token-abuse.md)
 - [npm install explicit-trust controls: developer package-config drift update](patterns/npm-install-explicit-trust-controls.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [procwire / routecraft npm Windows dropper](ops/procwire-routecraft-npm-windows-dropper.md)
 - [Splunk Enterprise CVE-2026-20253 KEV exploitation update](ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [AI scanner anti-analysis](patterns/ai-scanner-anti-analysis.md)
-- [Vertex AI staging-bucket squatting](patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

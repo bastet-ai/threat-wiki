@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>JetBrains AI plugin API-key theft</title>
+      <link>https://threat.wiki/ops/jetbrains-ai-plugin-api-key-theft/</link>
+      <description>Added coverage for StepSecurity and JetBrains reporting on 15 malicious JetBrains Marketplace AI plugins that stole OpenAI, DeepSeek, SiliconFlow, and other provider API keys from developer IDE settings. The page captures affected plugin IDs, seven banned publisher accounts, plaintext HTTP exfiltration to 39.107.60[.]51, the static X-Api-Key header, JetBrains removal and remote-disable response, key-rotation guidance, and IDE-plugin hunting pivots.</description>
+      <pubDate>Fri, 19 Jun 2026 21:29:21 GMT</pubDate>
+      <guid>https://threat.wiki/ops/jetbrains-ai-plugin-api-key-theft/</guid>
+    </item>
+    <item>
       <title>Ababil of Minab MOIS-linked recovery-destruction campaign: Hunt.io exposed-staging follow-up</title>
       <link>https://threat.wiki/ops/ababil-of-minab-mois-recovery-destruction/#huntio-exposed-staging-follow-up-2026-06-18</link>
       <description>Updated the Ababil of Minab recovery-destruction page with Hunt.io's June 18 exposed-staging follow-up: a Python SimpleHTTP server at 5.255.127[.]55:8020, 2,238 staged files across 545 subdirectories, about 5 GB of victim material, LA Metro database-backup confirmation, http.flask.py and .bash_history workflow artifacts, FileFiend / archive-retrieval support, and explicit handling guidance to preserve evidence without redistributing victim data.</description>
