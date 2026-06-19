@@ -226,6 +226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (2)
 - [critical-infrastructure](#critical-infrastructure) (2)
+- [CRM data theft](#crm-data-theft) (1)
 - [crypto](#crypto) (2)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (11)
@@ -388,7 +389,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (10)
 - [external federation](#external-federation) (1)
-- [extortion](#extortion) (5)
+- [extortion](#extortion) (6)
 - [F5 BIG-IP](#f5-big-ip) (1)
 - [fake CAPTCHA](#fake-captcha) (1)
 - [fake dating lures](#fake-dating-lures) (1)
@@ -508,7 +509,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (1)
 - [import-time execution](#import-time-execution) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
-- [incident response](#incident-response) (12)
+- [incident response](#incident-response) (13)
 - [indirect prompt injection](#indirect-prompt-injection) (1)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (9)
@@ -550,6 +551,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keylogger](#keylogger) (2)
 - [keylogging](#keylogging) (1)
 - [Kimsuky](#kimsuky) (1)
+- [Klue](#klue) (1)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
 - [Kubernetes](#kubernetes) (1)
 - [KV-botnet](#kv-botnet) (1)
@@ -699,8 +701,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (1)
 - [NVGRE](#nvgre) (1)
-- [OAuth](#oauth) (2)
-- [OAuth tokens](#oauth-tokens) (1)
+- [OAuth](#oauth) (3)
+- [OAuth tokens](#oauth-tokens) (2)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
 - [OIDC](#oidc) (4)
@@ -717,9 +719,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (118)
+- [operations](#operations) (119)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (117)
+- [ops](#ops) (118)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -873,10 +875,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russia-nexus](#russia-nexus) (2)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (4)
-- [SaaS](#saas) (2)
+- [SaaS](#saas) (3)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
-- [Salesforce](#salesforce) (1)
+- [Salesforce](#salesforce) (2)
 - [ScarCruft](#scarcruft) (1)
 - [scheduled task](#scheduled-task) (1)
 - [scheduled tasks](#scheduled-tasks) (3)
@@ -962,6 +964,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunnels](#ssh-tunnels) (1)
 - [SSRF](#ssrf) (1)
 - [stale access](#stale-access) (1)
+- [stale credentials](#stale-credentials) (1)
 - [state-linked](#state-linked) (1)
 - [Static Kitten](#static-kitten) (1)
 - [stdio](#stdio) (3)
@@ -975,7 +978,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (65)
+- [supply-chain](#supply-chain) (66)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
@@ -1003,6 +1006,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tenant-project](#tenant-project) (1)
 - [Tenet Security](#tenet-security) (1)
 - [The Gentlemen](#the-gentlemen) (1)
+- [third-party integrations](#third-party-integrations) (1)
 - [threat hunting](#threat-hunting) (1)
 - [TinyGo](#tinygo) (1)
 - [tj-actions](#tj-actions) (1)
@@ -1058,6 +1062,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBScript](#vbscript) (3)
 - [Velvet Ant](#velvet-ant) (2)
 - [VELVETSHELL](#velvetshell) (1)
+- [vendor compromise](#vendor-compromise) (1)
 - [vendor credentials](#vendor-credentials) (1)
 - [Vercel](#vercel) (1)
 - [Vertex AI](#vertex-ai) (1)
@@ -2043,6 +2048,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [Showboat](../tools/showboat.md)
 
+## CRM data theft
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
+
 ## crypto
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -2655,6 +2663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 - [UNC3753](../actors/unc3753.md)
@@ -3086,6 +3095,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -3244,6 +3254,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Kimsuky
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
+## Klue
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
 ## KnowledgeDeliver
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -3820,9 +3833,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OAuth
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
 ## OAuth tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
 ## obfuscation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -3937,6 +3952,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -4058,6 +4074,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -4730,6 +4747,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SaaS
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
 ## sabotage
@@ -4741,6 +4759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Salesforce
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
 ## ScarCruft
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -5042,6 +5061,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## stale access
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 
+## stale credentials
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
+
 ## state-linked
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 
@@ -5120,6 +5142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -5246,6 +5269,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## The Gentlemen
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## third-party integrations
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
 ## threat hunting
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
@@ -5447,6 +5473,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VELVETSHELL
 - [Velvet Ant](../actors/velvet-ant.md)
+
+## vendor compromise
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
 ## vendor credentials
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)

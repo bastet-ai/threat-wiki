@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [npm install explicit-trust controls: developer package-config drift update](../patterns/npm-install-explicit-trust-controls.md)
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)

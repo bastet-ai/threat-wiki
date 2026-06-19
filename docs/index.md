@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Klue Salesforce OAuth token abuse](ops/klue-salesforce-oauth-token-abuse.md)
 - [npm install explicit-trust controls: developer package-config drift update](patterns/npm-install-explicit-trust-controls.md)
 - [Agent localhost control-plane RCE](patterns/agent-localhost-control-plane-rce.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [AI scanner anti-analysis](patterns/ai-scanner-anti-analysis.md)
 - [Vertex AI staging-bucket squatting](patterns/vertex-ai-staging-bucket-squatting.md)
 - [Mastra `easy-day-js` npm scope compromise: Microsoft follow-up](ops/mastra-easy-day-js-npm-scope-compromise.md)
-- [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
