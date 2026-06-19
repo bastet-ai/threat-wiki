@@ -114,6 +114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [botnet](#botnet) (3)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
+- [brand impersonation](#brand-impersonation) (1)
 - [brand-impersonation](#brand-impersonation) (1)
 - [Brazil](#brazil) (2)
 - [BreachForums](#breachforums) (1)
@@ -144,10 +145,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Checkmarx](#checkmarx) (1)
 - [checkpointers](#checkpointers) (1)
 - [China](#china) (2)
-- [China-linked](#china-linked) (2)
+- [China-linked](#china-linked) (3)
 - [China-nexus](#china-nexus) (6)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
+- [Chinese-speaking](#chinese-speaking) (1)
 - [Chisel](#chisel) (3)
 - [Chrome Web Store](#chrome-web-store) (1)
 - [ChromElevator](#chromelevator) (1)
@@ -181,7 +183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud secrets](#cloud-secrets) (3)
 - [cloud security](#cloud-security) (2)
 - [cloud service abuse](#cloud-service-abuse) (1)
-- [Cloudflare](#cloudflare) (1)
+- [Cloudflare](#cloudflare) (2)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Workers](#cloudflare-workers) (2)
 - [CloudLinux](#cloudlinux) (1)
@@ -215,7 +217,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crates.io](#cratesio) (1)
 - [credential exposure](#credential-exposure) (1)
 - [credential spraying](#credential-spraying) (1)
-- [credential theft](#credential-theft) (17)
+- [credential theft](#credential-theft) (18)
 - [credential-theft](#credential-theft) (41)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (2)
@@ -397,6 +399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](#fast16) (1)
 - [FastCGI](#fastcgi) (1)
 - [FBI](#fbi) (1)
+- [FIFA](#fifa) (1)
 - [file-system filter](#file-system-filter) (1)
 - [FileFiend](#filefiend) (1)
 - [filemanager](#filemanager) (1)
@@ -413,6 +416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS](#forticlient-ems) (1)
 - [Fortinet](#fortinet) (1)
 - [Fox Tempest](#fox-tempest) (2)
+- [fraud](#fraud) (1)
 - [FreeBSD](#freebsd) (2)
 - [FSB](#fsb) (2)
 - [FTA](#fta) (1)
@@ -482,7 +486,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HttpMalice](#httpmalice) (1)
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (2)
-- [Hunt.io](#huntio) (1)
+- [Hunt.io](#huntio) (2)
 - [ICE](#ice) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
@@ -503,7 +507,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [indirect prompt injection](#indirect-prompt-injection) (1)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (9)
-- [infrastructure](#infrastructure) (3)
+- [infrastructure](#infrastructure) (4)
 - [initial-access](#initial-access) (1)
 - [install-time execution](#install-time-execution) (1)
 - [InvisibleFerret](#invisibleferret) (1)
@@ -704,9 +708,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (117)
+- [operations](#operations) (118)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (116)
+- [ops](#ops) (117)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -732,7 +736,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patterns](#patterns) (16)
 - [payload staging](#payload-staging) (1)
 - [payment fraud](#payment-fraud) (1)
-- [payment-card theft](#payment-card-theft) (1)
+- [payment-card theft](#payment-card-theft) (2)
 - [payment-card-theft](#payment-card-theft) (2)
 - [payroll lures](#payroll-lures) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
@@ -747,7 +751,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (11)
+- [phishing](#phishing) (12)
 - [phishing-as-a-service](#phishing-as-a-service) (2)
 - [PHP](#php) (2)
 - [PHP code injection](#php-code-injection) (1)
@@ -1099,6 +1103,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WireGuard](#wireguard) (2)
 - [WordPress](#wordpress) (2)
 - [workflow backdoor](#workflow-backdoor) (1)
+- [World Cup](#world-cup) (1)
 - [worm](#worm) (10)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [WScript](#wscript) (1)
@@ -1533,6 +1538,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## branch-name-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 
+## brand impersonation
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
+
 ## brand-impersonation
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 
@@ -1638,6 +1646,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](../actors/webworm.md)
 
 ## China-linked
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [OP-512](../actors/op-512.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
@@ -1654,6 +1663,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Chinese-language cybercrime
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
+## Chinese-speaking
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 
 ## Chisel
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
@@ -1809,6 +1821,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
 ## Cloudflare
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## Cloudflare tunnels
@@ -1933,6 +1946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -2658,6 +2672,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FBI
 - [First VPN](../tools/first-vpn.md)
 
+## FIFA
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
+
 ## file-system filter
 - [Fast16](../tools/fast16.md)
 
@@ -2712,6 +2729,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Fox Tempest
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Fox Tempest](../actors/fox-tempest.md)
+
+## fraud
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 
 ## FreeBSD
 - [VerdantBamboo](../actors/verdantbamboo.md)
@@ -2973,6 +2993,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 
 ## Hunt.io
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## ICE
@@ -3060,6 +3081,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## infrastructure
 - [First VPN](../tools/first-vpn.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 
 ## initial-access
@@ -3849,6 +3871,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -3970,6 +3993,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -4147,6 +4171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## payment-card theft
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 
 ## payment-card-theft
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
@@ -4213,6 +4238,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
@@ -5572,6 +5598,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## workflow backdoor
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
+
+## World Cup
+- [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 
 ## worm
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)

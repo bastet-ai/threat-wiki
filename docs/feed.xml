@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>GHOST STADIUM FIFA World Cup ticket phishing</title>
+      <link>https://threat.wiki/ops/ghost-stadium-fifa-world-cup-ticket-phishing/</link>
+      <description>Added coverage for Hunt.io's June 17 GHOST STADIUM FIFA World Cup 2026 ticketing phishing report: cloned FIFA ticketing portals on lookalike domains, same-origin credential and payment harvesting, reusable /fifa/ React-build and Layui pivots, suspected AS25820 / 16clouds origin hosting, favicon clustering, and a caveated Chinese-speaking operator assessment.</description>
+      <pubDate>Fri, 19 Jun 2026 03:28:09 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ghost-stadium-fifa-world-cup-ticket-phishing/</guid>
+    </item>
+    <item>
       <title>procwire / routecraft npm Windows dropper</title>
       <link>https://threat.wiki/ops/procwire-routecraft-npm-windows-dropper/</link>
       <description>Added coverage for SafeDep's June 18 report on a five-package npm campaign: procwire and routecraft execute a Windows-only preinstall dropper while bytecraft, endpointmap, and staticlayer split XOR endpoint reconstruction and payload-serving logic across helper packages. The page captures package/version pivots, files.catbox.moe staging, Microsoft-Delivery-Optimization User-Agent gating, updater-like temp executable names, Mark-of-the-Web stripping, and Windows npm-install response guidance.</description>
