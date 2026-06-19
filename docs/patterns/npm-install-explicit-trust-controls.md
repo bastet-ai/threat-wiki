@@ -1,0 +1,68 @@
+# npm install explicit-trust controls
+
+## Summary
+JFrog Security Research documented npm v12's move from implicit install-time trust to explicit approvals for the three npm dependency-ingestion paths most often abused by recent supply-chain malware: lifecycle scripts, Git dependencies, and remote URL dependencies. npm v12 was estimated for July 2026 release in JFrog's post, with `allowScripts` defaulting off and `--allow-git` / `--allow-remote` required for Git and URL dependency retrieval.
+
+Track this as a defender pattern rather than a single operation. The same install-time execution paths have appeared across Shai-Hulud / Miasma, Mastra `easy-day-js`, `binding.gyp`, and other developer-machine compromise chains.
+
+## Tags
+- patterns
+- supply-chain
+- npm
+- JavaScript
+- lifecycle-hooks
+- install-time-execution
+- developer-workstations
+- CI-CD
+- package-manager-hardening
+- Shai-Hulud
+- Miasma
+
+## What changed
+- `allowScripts` controls which third-party packages may run lifecycle scripts during install, including `preinstall`, `install`, `postinstall`, `prepare`, and implicit `binding.gyp` native-build execution.
+- npm v12 changes the default posture so third-party lifecycle scripts do not run unless explicitly approved.
+- `--allow-git` gates direct and transitive Git repository dependencies.
+- `--allow-remote` gates direct and transitive remote URL dependencies.
+- JFrog said these three vectors appeared in about 53% of malicious npm attacks it observed over the prior year, with lifecycle scripts alone appearing in about 46% of observed malicious npm packages.
+
+## Why this matters
+- Recent npm worms and credential stealers have relied on automatic install-time execution because it runs on developer machines and CI runners before application code is reviewed.
+- Blocking scripts by default reduces the blast radius of newly published malicious versions and typosquats, especially when combined with registry cooldowns and internal mirrors.
+- Git and remote URL dependencies bypass some registry-centric controls; requiring explicit allowance makes those dependency sources visible policy decisions.
+- Native-module builds deserve special review: packages that legitimately need `node-gyp` or postinstall downloads can become high-value compromise targets because organizations may pre-approve their scripts.
+
+## Attacker adaptations to expect
+- Compromise of packages that are already approved in an organization's `allowScripts` / `approve-scripts` configuration.
+- Migration from install-time execution to import-time execution, where code runs when a package is imported by application or build tooling.
+- Runtime invocation payloads hidden behind normal-looking API calls or build steps.
+- More abuse of trusted package maintainers, release automation, and transitive dependencies that inherit approval decisions.
+- Social engineering or documentation changes that ask developers to run installs with broad `--allow-*` flags.
+
+## Defender heuristics
+
+### Policy and inventory
+- Inventory `.npmrc`, `package.json`, lockfiles, package-manager wrappers, and CI templates for current script, Git dependency, and remote URL behavior.
+- Treat every existing lifecycle-script approval as a privileged allowlist entry; record who owns it, why it is needed, and how updates are reviewed.
+- Prefer package-specific approvals over broad flags that allow all scripts or all non-registry dependency sources.
+- Require review for dependency changes that introduce Git URLs, tarball URLs, `preinstall`, `postinstall`, `prepare`, or `binding.gyp` paths.
+
+### CI / developer hardening
+- Roll npm upgrades deliberately: test npm v12 behavior on representative projects before forcing fleet-wide adoption, then remove compatibility bypasses once packages are remediated.
+- Pair npm v12 controls with registry cooldowns, internal mirrors, and malicious-package blocking; npm's install controls do not replace package intelligence.
+- For CI, fail closed when a dependency needs a newly unapproved script or non-registry source instead of falling back to permissive install flags.
+- Monitor build logs for `--allow-git`, `--allow-remote`, broad script approvals, `--ignore-scripts` bypass workarounds followed by manual execution, and unexpected `npm rebuild` behavior.
+
+### Detection pivots
+- Alert on lifecycle scripts added to packages that did not previously need install-time execution.
+- Correlate package approval changes with maintainer-account changes, newly published versions, and package-source repository changes.
+- Hunt for developer or runner processes where `npm` spawns shells, network tools, Python, Bun, native compilers, or updater-like binaries during dependency installation.
+- Continue import-time and runtime scanning; npm v12 controls reduce install-time execution but do not stop malicious code that waits for application import or invocation.
+
+## Related pages
+- [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+- [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Developer-tool config auto-execution](developer-tool-config-auto-execution.md)
+
+## Sources
+- JFrog Security Research: https://jfrog.com/blog/npm-v12-from-implicit-to-explicit-trust/

@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>npm install explicit-trust controls</title>
+      <link>https://threat.wiki/patterns/npm-install-explicit-trust-controls/</link>
+      <description>Added a pattern page for JFrog Security Research's npm v12 analysis: npm is moving lifecycle scripts, Git dependencies, and remote URL dependencies from implicit install-time trust toward explicit approvals. The page captures allowScripts, --allow-git, --allow-remote, node-gyp review, expected attacker adaptation toward pre-approved packages and import-time execution, and CI / developer-machine hardening guidance.</description>
+      <pubDate>Fri, 19 Jun 2026 07:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/npm-install-explicit-trust-controls/</guid>
+    </item>
+    <item>
       <title>Agent localhost control-plane RCE</title>
       <link>https://threat.wiki/patterns/agent-localhost-control-plane-rce/</link>
       <description>Added a pattern page for Microsoft Security Research's AutoJack case study: untrusted web content rendered by a browsing AI agent can cross the localhost boundary, reach a local MCP WebSocket control plane, and turn caller-supplied stdio server parameters into host command execution. The page captures the AutoGen Studio development-branch caveat, upstream hardening before PyPI release, and durable guidance for authenticating loopback control planes, allowlisting MCP launchers, isolating browsing agents, and hunting agent-spawned child processes.</description>

@@ -157,7 +157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome Web Store](#chrome-web-store) (1)
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (1)
-- [CI-CD](#ci-cd) (1)
+- [CI-CD](#ci-cd) (2)
 - [CI/CD](#cicd) (29)
 - [CircleCI](#circleci) (1)
 - [CISA KEV](#cisa-kev) (10)
@@ -314,7 +314,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer workstations](#developer-workstations) (1)
 - [developer-targeting](#developer-targeting) (11)
 - [developer-tools](#developer-tools) (1)
-- [developer-workstations](#developer-workstations) (1)
+- [developer-workstations](#developer-workstations) (2)
 - [device registration](#device-registration) (1)
 - [device-code phishing](#device-code-phishing) (1)
 - [DEWMODE](#dewmode) (1)
@@ -514,6 +514,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure](#infrastructure) (4)
 - [initial-access](#initial-access) (1)
 - [install-time execution](#install-time-execution) (1)
+- [install-time-execution](#install-time-execution) (1)
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (2)
@@ -523,7 +524,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Israel](#israel) (2)
 - [Ivanti Sentry](#ivanti-sentry) (1)
 - [Japan](#japan) (1)
-- [JavaScript](#javascript) (5)
+- [JavaScript](#javascript) (6)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
@@ -573,6 +574,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libp2p](#libp2p) (1)
 - [libpeconv](#libpeconv) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
+- [lifecycle-hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linux](#linux) (15)
 - [LiteLLM](#litellm) (3)
@@ -632,7 +634,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA bypass](#mfa-bypass) (4)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
-- [Miasma](#miasma) (3)
+- [Miasma](#miasma) (4)
 - [Microsoft](#microsoft) (3)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (2)
@@ -688,7 +690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (8)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (32)
+- [npm](#npm) (33)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npx](#npx) (1)
 - [NTFS ADS](#ntfs-ads) (2)
@@ -729,6 +731,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [P2P](#p2p) (1)
 - [package registry](#package-registry) (3)
 - [package scanning](#package-scanning) (1)
+- [package-manager-hardening](#package-manager-hardening) (1)
 - [package-splitting](#package-splitting) (1)
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (3)
@@ -739,7 +742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS](#pan-os) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
-- [patterns](#patterns) (17)
+- [patterns](#patterns) (18)
 - [payload staging](#payload-staging) (1)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (2)
@@ -900,7 +903,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER-064](#shadow-aether-064) (1)
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [ShadowPad](#shadowpad) (1)
-- [Shai-Hulud](#shai-hulud) (6)
+- [Shai-Hulud](#shai-hulud) (7)
 - [share propagation](#share-propagation) (1)
 - [shared hosting](#shared-hosting) (3)
 - [shared secrets](#shared-secrets) (1)
@@ -969,7 +972,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (64)
+- [supply-chain](#supply-chain) (65)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
@@ -1701,6 +1704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CI-CD
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## CI/CD
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -2362,6 +2366,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## developer-workstations
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## device registration
 - [ROADtools](../tools/roadtools.md)
@@ -3113,6 +3118,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## install-time execution
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
+## install-time-execution
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+
 ## InvisibleFerret
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
@@ -3149,6 +3157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JavaScript
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
@@ -3312,6 +3321,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## lifecycle hooks
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+
+## lifecycle-hooks
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## LinkedIn
 - [JINX-0164](../actors/jinx-0164.md)
@@ -3551,6 +3563,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## Microsoft
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -3760,6 +3773,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -4143,6 +4157,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## package scanning
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
+## package-manager-hardening
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+
 ## package-splitting
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
@@ -4193,6 +4210,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
@@ -4814,6 +4832,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 
 ## share propagation
@@ -5097,6 +5116,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
