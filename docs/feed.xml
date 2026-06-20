@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Operation Endgame SocGholish disruption</title>
+      <link>https://threat.wiki/ops/operation-endgame-socgholish-disruption/</link>
+      <description>Added coverage for the June 18, 2026 Operation Endgame action against SocGholish / FakeUpdates: Dutch Police, RCMP, FBI, BKA, Europol, Eurojust, and private-sector partners reported 106 servers and domains taken down, 14,971 infected WordPress sites remediated, Shadowserver notification, and WordPress owner cleanup guidance. The page focuses on legitimate-site compromise, TDS redirects, fake browser-update lures, TA569 / Evil Corp source-attributed naming, and reinfection-resistant WordPress / hosting triage.</description>
+      <pubDate>Sat, 20 Jun 2026 07:25:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/operation-endgame-socgholish-disruption/</guid>
+    </item>
+    <item>
       <title>FortiBleed Fortinet credential exposure: Unit 42 cross-service password-spray update</title>
       <link>https://threat.wiki/ops/fortibleed-fortinet-credential-exposure/</link>
       <description>Updated FortiBleed coverage with Unit 42's June 19 threat brief: suspicious login attempts in customer telemetry, observed MSSQL targeting, reported Sophos targeting, a staged password-spray / configuration-theft / offline-cracking loop, and an unvalidated Exploit[.]in initial-access-broker claim. The page now tells defenders to expand review beyond Fortinet appliances to other internet-facing login services and to hunt for successful logins shortly after high-volume failure bursts.</description>

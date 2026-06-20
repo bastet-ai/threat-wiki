@@ -313,6 +313,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (2)
 - [destructive operations](#destructive-operations) (1)
+- [DEV-0206](#dev-0206) (1)
 - [developer endpoints](#developer-endpoints) (1)
 - [developer machines](#developer-machines) (7)
 - [developer targeting](#developer-targeting) (2)
@@ -389,6 +390,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Europol](#europol) (1)
 - [evasion](#evasion) (1)
 - [Everest Forms Pro](#everest-forms-pro) (1)
+- [Evil Corp](#evil-corp) (1)
 - [EvilAI](#evilai) (1)
 - [exfiltration](#exfiltration) (4)
 - [exploit-development](#exploit-development) (1)
@@ -406,6 +408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FakeCaptcha](#fakecaptcha) (1)
 - [Fakeset](#fakeset) (1)
 - [faketivism](#faketivism) (1)
+- [FakeUpdates](#fakeupdates) (1)
 - [FallSpy](#fallspy) (1)
 - [FAMOUS CHOLLIMA](#famous-chollima) (2)
 - [Fancy Bear](#fancy-bear) (1)
@@ -466,6 +469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Go](#go) (4)
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
+- [GOLD PRELUDE](#gold-prelude) (1)
 - [Google Ads](#google-ads) (1)
 - [Google Chrome](#google-chrome) (1)
 - [Google Cloud](#google-cloud) (1)
@@ -529,7 +533,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infostealer](#infostealer) (9)
 - [infrastructure](#infrastructure) (4)
 - [initial access broker](#initial-access-broker) (1)
-- [initial-access](#initial-access) (1)
+- [initial-access](#initial-access) (2)
 - [install-time execution](#install-time-execution) (1)
 - [install-time-execution](#install-time-execution) (1)
 - [InvisibleFerret](#invisibleferret) (1)
@@ -584,6 +588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Latin America](#latin-america) (2)
 - [launchctl](#launchctl) (1)
 - [law enforcement](#law-enforcement) (1)
+- [law-enforcement-disruption](#law-enforcement-disruption) (1)
 - [Lazarus](#lazarus) (4)
 - [LD_PRELOAD](#ld_preload) (1)
 - [leaked credentials](#leaked-credentials) (1)
@@ -635,7 +640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (3)
-- [malware](#malware) (14)
+- [malware](#malware) (15)
 - [malware analysis](#malware-analysis) (1)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
@@ -694,6 +699,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MSSQL](#mssql) (1)
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
+- [Mustard Tempest](#mustard-tempest) (1)
 - [named pipes](#named-pipes) (1)
 - [namespace recycling](#namespace-recycling) (1)
 - [nation-state](#nation-state) (1)
@@ -738,11 +744,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVPN](#openvpn) (1)
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
+- [Operation Endgame](#operation-endgame) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (121)
+- [operations](#operations) (122)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (120)
+- [ops](#ops) (121)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -851,6 +858,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RaaS](#raas) (1)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (4)
+- [ransomware-access](#ransomware-access) (1)
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAT](#rat) (16)
 - [RC4](#rc4) (2)
@@ -957,6 +965,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [smishing](#smishing) (4)
 - [sms-phishing](#sms-phishing) (1)
 - [SMTP](#smtp) (1)
+- [SocGholish](#socgholish) (1)
 - [social engineering](#social-engineering) (10)
 - [social-engineering](#social-engineering) (2)
 - [Socket Security Research](#socket-security-research) (1)
@@ -1011,6 +1020,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SYSTEM](#system) (1)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
+- [TA569](#ta569) (1)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [Taiwan](#taiwan) (1)
@@ -1018,6 +1028,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef](#tamperedchef) (1)
 - [targeted operations](#targeted-operations) (1)
 - [TartarusGate](#tartarusgate) (1)
+- [TDS](#tds) (1)
 - [TeamPCP](#teampcp) (8)
 - [TeamPCP-adjacent](#teampcp-adjacent) (1)
 - [TeamViewer](#teamviewer) (1)
@@ -1047,6 +1058,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tor](#tor) (3)
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
+- [traffic-distribution-system](#traffic-distribution-system) (1)
 - [traffic-fraud](#traffic-fraud) (1)
 - [transaction authority](#transaction-authority) (1)
 - [transnational repression](#transnational-repression) (1)
@@ -1069,6 +1081,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ukraine](#ukraine) (7)
 - [unauthenticated access](#unauthenticated-access) (1)
 - [unauthenticated RCE](#unauthenticated-rce) (1)
+- [UNC1543](#unc1543) (1)
 - [UNC2814](#unc2814) (1)
 - [UNC3753](#unc3753) (1)
 - [UNC4736](#unc4736) (1)
@@ -1134,6 +1147,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebLogic](#weblogic) (1)
 - [WebRTC](#webrtc) (1)
 - [webshell](#webshell) (1)
+- [website-compromise](#website-compromise) (1)
 - [WebSocket](#websocket) (1)
 - [WebSocket C2](#websocket-c2) (1)
 - [WebView](#webview) (1)
@@ -1148,7 +1162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wiper](#wiper) (2)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
-- [WordPress](#wordpress) (2)
+- [WordPress](#wordpress) (3)
 - [workflow backdoor](#workflow-backdoor) (1)
 - [World Cup](#world-cup) (1)
 - [worm](#worm) (10)
@@ -2387,6 +2401,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## destructive operations
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## DEV-0206
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
 ## developer endpoints
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
@@ -2685,6 +2702,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Everest Forms Pro
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 
+## Evil Corp
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
 ## EvilAI
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
@@ -2753,6 +2773,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## faketivism
 - [Handala](../actors/handala.md)
+
+## FakeUpdates
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
 ## FallSpy
 - [GREYVIBE](../actors/greyvibe.md)
@@ -2976,6 +2999,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GoEdge
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## GOLD PRELUDE
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
 ## Google Ads
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -3214,6 +3240,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## initial-access
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
 ## install-time execution
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -3397,6 +3424,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## law enforcement
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
+## law-enforcement-disruption
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
 ## Lazarus
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -3598,6 +3628,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](../tools/fast16.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
 - [TA4922](../actors/ta4922.md)
@@ -3806,6 +3837,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## Mustard Tempest
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
 ## named pipes
 - [OceanLotus](../actors/oceanlotus.md)
 
@@ -3992,6 +4026,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Operation DangerousPassword
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
+## Operation Endgame
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
 ## Operation Highland
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Velvet Ant](../actors/velvet-ant.md)
@@ -4084,6 +4121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
@@ -4208,6 +4246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
@@ -4675,6 +4714,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## ransomware-access
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
 ## rapid exploitation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -5060,6 +5102,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SMTP
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 
+## SocGholish
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
 ## social engineering
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -5315,6 +5360,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TA427
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
+## TA569
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
 ## tag rewrite
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 
@@ -5338,6 +5386,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TartarusGate
 - [RemotePE](../tools/remotepe.md)
+
+## TDS
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
 ## TeamPCP
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -5451,6 +5502,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## traffic hijacking
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## traffic-distribution-system
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
 ## traffic-fraud
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
@@ -5532,6 +5586,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unauthenticated RCE
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
+## UNC1543
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
 ## UNC2814
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -5763,6 +5820,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## webshell
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
+## website-compromise
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
 ## WebSocket
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
@@ -5827,6 +5887,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WordPress
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## workflow backdoor

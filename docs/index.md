@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Operation Endgame SocGholish disruption](ops/operation-endgame-socgholish-disruption.md)
 - [FortiBleed Fortinet credential exposure: Unit 42 cross-service password-spray update](ops/fortibleed-fortinet-credential-exposure.md)
 - [The Gentlemen ransomware: GentleKiller EDR-killer framework update](tools/the-gentlemen-ransomware.md#operator-maintained-edr-killer-suite)
 - [JetBrains AI plugin API-key theft](ops/jetbrains-ai-plugin-api-key-theft.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Agent localhost control-plane RCE](patterns/agent-localhost-control-plane-rce.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [GitHub Actions deployment poisoning: checkout and trigger hardening update](patterns/deployment-poisoning-github-actions.md)
-- [procwire / routecraft npm Windows dropper](ops/procwire-routecraft-npm-windows-dropper.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
