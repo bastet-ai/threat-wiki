@@ -11,7 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (24)
+- [active exploitation](#active-exploitation) (25)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (3)
@@ -162,6 +162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI-CD](#ci-cd) (2)
 - [CI/CD](#cicd) (29)
 - [CircleCI](#circleci) (1)
+- [CISA](#cisa) (1)
 - [CISA KEV](#cisa-kev) (10)
 - [Cisco](#cisco) (1)
 - [Cisco Nexus](#cisco-nexus) (1)
@@ -221,9 +222,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (3)
 - [CrackMapExec](#crackmapexec) (1)
 - [Crates.io](#cratesio) (1)
-- [credential exposure](#credential-exposure) (1)
+- [credential exposure](#credential-exposure) (2)
 - [credential spraying](#credential-spraying) (1)
-- [credential theft](#credential-theft) (18)
+- [credential stuffing](#credential-stuffing) (1)
+- [credential theft](#credential-theft) (19)
 - [credential-theft](#credential-theft) (42)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (2)
@@ -354,6 +356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge appliance](#edge-appliance) (6)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
+- [edge device](#edge-device) (1)
 - [edge devices](#edge-devices) (1)
 - [edge service](#edge-service) (2)
 - [editor profile import](#editor-profile-import) (1)
@@ -419,11 +422,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [financial services](#financial-services) (2)
 - [financial theft](#financial-theft) (3)
 - [FireAnt MetaKit](#fireant-metakit) (1)
+- [firewall](#firewall) (1)
 - [Flutter](#flutter) (1)
 - [FlutterShell](#fluttershell) (1)
 - [Forest Blizzard](#forest-blizzard) (1)
 - [FortiClient EMS](#forticlient-ems) (1)
-- [Fortinet](#fortinet) (1)
+- [FortiGate](#fortigate) (1)
+- [Fortinet](#fortinet) (2)
+- [FortiOS](#fortios) (1)
 - [Fox Tempest](#fox-tempest) (2)
 - [fraud](#fraud) (1)
 - [FreeBSD](#freebsd) (2)
@@ -516,7 +522,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (1)
 - [import-time execution](#import-time-execution) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
-- [incident response](#incident-response) (13)
+- [incident response](#incident-response) (14)
 - [indirect prompt injection](#indirect-prompt-injection) (1)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (9)
@@ -578,6 +584,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [law enforcement](#law-enforcement) (1)
 - [Lazarus](#lazarus) (4)
 - [LD_PRELOAD](#ld_preload) (1)
+- [leaked credentials](#leaked-credentials) (1)
 - [legacy infrastructure](#legacy-infrastructure) (1)
 - [legacy software](#legacy-software) (1)
 - [legal sector](#legal-sector) (1)
@@ -730,9 +737,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (120)
+- [operations](#operations) (121)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (119)
+- [ops](#ops) (120)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -859,7 +866,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [registry persistence](#registry-persistence) (3)
 - [registry-controls](#registry-controls) (1)
 - [release tampering](#release-tampering) (1)
-- [remote access](#remote-access) (2)
+- [remote access](#remote-access) (3)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (5)
 - [remote-access](#remote-access) (1)
@@ -976,6 +983,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH key persistence](#ssh-key-persistence) (1)
 - [SSH persistence](#ssh-persistence) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
+- [SSL VPN](#ssl-vpn) (1)
 - [SSRF](#ssrf) (1)
 - [stale access](#stale-access) (1)
 - [stale credentials](#stale-credentials) (1)
@@ -1093,6 +1101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMware](#vmware) (2)
 - [Volt Typhoon](#volt-typhoon) (1)
 - [VPN](#vpn) (3)
+- [VPN gateway](#vpn-gateway) (1)
 - [VS Code](#vs-code) (5)
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
@@ -1185,6 +1194,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
@@ -1770,6 +1780,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CircleCI
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
+## CISA
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
 ## CISA KEV
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -1991,16 +2004,21 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## credential exposure
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## credential spraying
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+
+## credential stuffing
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## credential theft
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -2530,6 +2548,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## edge application server
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 
+## edge device
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
 ## edge devices
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
@@ -2783,6 +2804,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FireAnt MetaKit
 - [OceanLotus](../actors/oceanlotus.md)
 
+## firewall
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
 ## Flutter
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
@@ -2795,8 +2819,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FortiClient EMS
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 
+## FortiGate
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
 ## Fortinet
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+
+## FortiOS
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## Fox Tempest
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -3134,6 +3165,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## incident response
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -3363,6 +3395,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LD_PRELOAD
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## leaked credentials
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## legacy infrastructure
 - [OP-512](../actors/op-512.md)
@@ -3987,6 +4022,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -4111,6 +4147,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -4704,6 +4741,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## remote access
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## Remote Access VPN
@@ -5118,6 +5156,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SSH tunnels
 - [Cloud Atlas](../actors/cloud-atlas.md)
+
+## SSL VPN
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## SSRF
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -5594,6 +5635,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [First VPN](../tools/first-vpn.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+
+## VPN gateway
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## VS Code
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)

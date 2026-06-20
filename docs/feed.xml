@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>FortiBleed Fortinet credential exposure</title>
+      <link>https://threat.wiki/ops/fortibleed-fortinet-credential-exposure/</link>
+      <description>Added coverage for CISA's June 18 FortiBleed warning: malicious actors are using compromised credentials associated with roughly 74,000 Fortinet firewalls and VPN gateways, with secondary reporting citing 86,644 affected FortiGate devices. The page captures immediate session termination and credential rotation, PBKDF2 / legacy-hash review, phishing-resistant MFA, public management-interface reduction, VPN and firewall log review, and the caveat that Fortinet framed the data as likely reshared from previous incidents plus brute-forcing rather than a new vendor-side incident.</description>
+      <pubDate>Sat, 20 Jun 2026 01:27:29 GMT</pubDate>
+      <guid>https://threat.wiki/ops/fortibleed-fortinet-credential-exposure/</guid>
+    </item>
+    <item>
       <title>The Gentlemen ransomware: GentleKiller EDR-killer framework update</title>
       <link>https://threat.wiki/tools/the-gentlemen-ransomware/#operator-maintained-edr-killer-suite</link>
       <description>Updated The Gentlemen ransomware page with ESET's June 18, 2026 GentleKiller analysis: Gentlemen operators maintain an affiliate EDR-killer portfolio, at least eight GentleKiller variants abuse vulnerable or malicious drivers, HexKiller / ThrottleBlood / HavocKiller are operationally integrated, shared evasion impersonates security vendors with copied metadata and icons, and newly disclosed BYOVD PoCs are adopted rapidly. The update adds defender pivots for vulnerable-driver loading, driver-blocklist enforcement, HVCI, and tamper-protection hardening.</description>
