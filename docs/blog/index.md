@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [FortiBleed Fortinet credential exposure: Unit 42 cross-service password-spray update](../ops/fortibleed-fortinet-credential-exposure.md)
 - [The Gentlemen ransomware: GentleKiller EDR-killer framework update](../tools/the-gentlemen-ransomware.md#operator-maintained-edr-killer-suite)

@@ -11,7 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (25)
+- [active exploitation](#active-exploitation) (26)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (3)
@@ -54,6 +54,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [anti-analysis](#anti-analysis) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
+- [API key exposure](#api-key-exposure) (1)
 - [API keys](#api-keys) (1)
 - [AppDomainManager](#appdomainmanager) (1)
 - [AppleJeus](#applejeus) (1)
@@ -193,7 +194,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Workers](#cloudflare-workers) (2)
 - [CloudLinux](#cloudlinux) (1)
-- [CMS](#cms) (5)
+- [CMS](#cms) (6)
 - [Cobalt Strike](#cobalt-strike) (2)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
@@ -273,6 +274,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-35273](#cve-2026-35273) (2)
 - [CVE-2026-35616](#cve-2026-35616) (1)
 - [CVE-2026-39987](#cve-2026-39987) (1)
+- [CVE-2026-4020](#cve-2026-4020) (1)
 - [CVE-2026-41091](#cve-2026-41091) (1)
 - [CVE-2026-41940](#cve-2026-41940) (1)
 - [CVE-2026-42271](#cve-2026-42271) (1)
@@ -370,6 +372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Elasticsearch](#elasticsearch) (1)
 - [email](#email) (1)
 - [email gateway](#email-gateway) (1)
+- [email infrastructure abuse](#email-infrastructure-abuse) (1)
 - [Emerald Sleet](#emerald-sleet) (1)
 - [endpoint management](#endpoint-management) (1)
 - [endpoint management abuse](#endpoint-management-abuse) (1)
@@ -480,6 +483,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [government targeting](#government-targeting) (2)
 - [government-impersonation](#government-impersonation) (1)
 - [Grandoreiro](#grandoreiro) (1)
+- [Gravity SMTP](#gravity-smtp) (1)
 - [GRE](#gre) (1)
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (3)
@@ -728,6 +732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NuGet](#nuget) (1)
 - [NVGRE](#nvgre) (1)
 - [OAuth](#oauth) (3)
+- [OAuth token exposure](#oauth-token-exposure) (1)
 - [OAuth tokens](#oauth-tokens) (2)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
@@ -747,9 +752,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Endgame](#operation-endgame) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (122)
+- [operations](#operations) (123)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (121)
+- [ops](#ops) (122)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -927,6 +932,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [self-hosted AI services](#self-hosted-ai-services) (1)
 - [self-propagation](#self-propagation) (1)
 - [sendit.sh](#senditsh) (1)
+- [sensitive information exposure](#sensitive-information-exposure) (1)
 - [Sentry](#sentry) (1)
 - [Sentry abuse](#sentry-abuse) (1)
 - [SEO poisoning](#seo-poisoning) (2)
@@ -1136,7 +1142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wasabi](#wasabi) (1)
 - [watchdog](#watchdog) (1)
 - [watering-hole](#watering-hole) (2)
-- [web application](#web-application) (3)
+- [web application](#web-application) (4)
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
 - [web shell](#web-shell) (4)
@@ -1162,7 +1168,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wiper](#wiper) (2)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
-- [WordPress](#wordpress) (3)
+- [WordPress](#wordpress) (4)
 - [workflow backdoor](#workflow-backdoor) (1)
 - [World Cup](#world-cup) (1)
 - [worm](#worm) (10)
@@ -1216,6 +1222,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -1398,6 +1405,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## API abuse
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
+## API key exposure
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 
 ## API keys
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
@@ -1922,6 +1932,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
@@ -2254,6 +2265,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-39987
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
+
+## CVE-2026-4020
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 
 ## CVE-2026-41091
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -2609,6 +2623,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## email gateway
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+
+## email infrastructure abuse
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 
 ## Emerald Sleet
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
@@ -3034,6 +3051,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Grandoreiro
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
+## Gravity SMTP
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 
 ## GRE
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -3968,6 +3988,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
+## OAuth token exposure
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
+
 ## OAuth tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -4082,6 +4105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
@@ -4208,6 +4232,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
@@ -4973,6 +4998,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## sendit.sh
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## sensitive information exposure
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 
 ## Sentry
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -5784,6 +5812,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## web application
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## web hosting
@@ -5887,6 +5916,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WordPress
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 

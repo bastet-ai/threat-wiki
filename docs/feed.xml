@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Gravity SMTP CVE-2026-4020 exploitation</title>
+      <link>https://threat.wiki/ops/gravity-smtp-cve-2026-4020-exploitation/</link>
+      <description>Added coverage for active exploitation of Gravity SMTP CVE-2026-4020, an unauthenticated WordPress plugin information-disclosure flaw that can expose a full System Report and configured outbound-mail API keys or OAuth tokens. The page captures the /wp-json/gravitysmtp/v1/tests/mock-data?page=gravitysmtp-settings pivot, affected versions through 2.1.4, the 2.1.5 security-enhancement fix, Wordfence-reported active exploitation via The Hacker News, and defender guidance for patching, log review, email-provider token rotation, and follow-on WordPress compromise triage.</description>
+      <pubDate>Sat, 20 Jun 2026 10:35:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/gravity-smtp-cve-2026-4020-exploitation/</guid>
+    </item>
+    <item>
       <title>Operation Endgame SocGholish disruption</title>
       <link>https://threat.wiki/ops/operation-endgame-socgholish-disruption/</link>
       <description>Added coverage for the June 18, 2026 Operation Endgame action against SocGholish / FakeUpdates: Dutch Police, RCMP, FBI, BKA, Europol, Eurojust, and private-sector partners reported 106 servers and domains taken down, 14,971 infected WordPress sites remediated, Shadowserver notification, and WordPress owner cleanup guidance. The page focuses on legitimate-site compromise, TDS redirects, fake browser-update lures, TA569 / Evil Corp source-attributed naming, and reinfection-resistant WordPress / hosting triage.</description>

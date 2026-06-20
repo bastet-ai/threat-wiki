@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Gravity SMTP CVE-2026-4020 exploitation: ops/gravity-smtp-cve-2026-4020-exploitation.md
       - Operation Endgame SocGholish disruption: ops/operation-endgame-socgholish-disruption.md
       - FortiBleed Fortinet credential exposure: ops/fortibleed-fortinet-credential-exposure.md
       - JetBrains AI plugin API-key theft: ops/jetbrains-ai-plugin-api-key-theft.md
