@@ -3,6 +3,8 @@
 ## Summary
 CISA warned on June 18, 2026 that malicious cyber actors were targeting internet-accessible Fortinet devices using compromised credentials. The activity, publicly called `FortiBleed`, involves leaked credentials associated with roughly 74,000 Fortinet firewalls and VPN gateways in CISA's alert; The Hacker News later cited SOCRadar data reporting 86,644 affected FortiGate devices as of June 19.
 
+Unit 42's June 19 threat brief broadened the public view from a Fortinet-only exposure to an internet-facing credential campaign: Unit 42 says it observed suspicious login attempts in customer telemetry, saw attempts against MSSQL services, and had seen reports of Sophos devices also being targeted. Unit 42 describes a feedback loop in which actors password-spray exposed services, pull device configurations when access permits, crack stolen credentials offline, and reuse the expanded password list for later spraying and administrator persistence.
+
 Treat an exposed FortiGate or SSL VPN account hit by this activity as a credential-compromise and edge-access incident, not only as a password-hygiene issue. Terminate active sessions, rotate VPN and administrator credentials, enforce phishing-resistant MFA, remove public management exposure, and review firewall, VPN, authentication, domain-controller, and downstream network logs for lateral movement.
 
 ## Tags
@@ -19,9 +21,15 @@ Treat an exposed FortiGate or SSL VPN account hit by this activity as a credenti
 - credential stuffing
 - credential theft
 - leaked credentials
+- password spraying
+- configuration theft
+- initial access broker
+- MSSQL
+- Sophos
 - remote access
 - active exploitation
 - CISA
+- Unit 42
 - incident response
 
 ## Why this matters
@@ -30,6 +38,7 @@ Treat an exposed FortiGate or SSL VPN account hit by this activity as a credenti
 - Secondary reporting from The Hacker News, citing SOCRadar, raised the count to 86,644 compromised devices and described telecom, government, and education as top impacted sectors.
 - The campaign blends old secrets, internet-exposed login endpoints, and weak credential lifecycle controls. Fortinet told The Hacker News the data is likely a resharing of data from previous incidents plus brute-forcing, and not related to a current Fortinet incident or advisory.
 - Even after patching, upgraded FortiOS deployments can retain legacy password hashes until the relevant administrator logs in or credentials are reset; CISA specifically calls out PBKDF2 enforcement and removal of weaker legacy hashes.
+- Unit 42's telemetry adds cross-service risk: the same curated credential list may be used against Fortinet, Sophos, MSSQL, and other exposed login surfaces, so defenders should not scope review only to FortiGate appliances.
 
 ## Reported activity
 - CISA says malicious cyber actors targeted internet-accessible Fortinet devices across government and private-sector organizations using compromised credentials.
@@ -38,6 +47,8 @@ Treat an exposed FortiGate or SSL VPN account hit by this activity as a credenti
 - The Hacker News reports that the operators mass-scanned for Fortinet remote-login endpoints and used a bespoke credential-spraying tool against known username/password combinations.
 - The same report describes a feedback loop: use leaked Fortinet credentials to access appliances, passively monitor traffic to collect more credentials, verify working logins, and add them to a confirmed-access database.
 - Fortinet's statement to The Hacker News framed the exposed data as likely reshared from previous incidents plus brute-forcing, not a new vendor-side breach or current advisory.
+- Unit 42 reports a three-stage process: internet-wide password spraying against exposed Fortinet, Sophos, and MSSQL services; configuration extraction from accessed devices, sometimes after privilege escalation; and offline cracking of stolen credentials to enrich the list used for future spraying and administrator logins.
+- Unit 42 also observed an initial-access broker on the Russian-language Exploit[.]in forum claiming responsibility for the campaign and offering harvested credentials for sale on June 16, 2026, while explicitly noting that Unit 42 had not validated those claims.
 
 ## Defensive actions
 ### Immediate containment
@@ -56,7 +67,9 @@ Treat an exposed FortiGate or SSL VPN account hit by this activity as a credenti
 
 ### Hunting and review
 - Review firewall, VPN, authentication, and domain-controller logs for unusual access, impossible travel, new sessions from unfamiliar networks, unexpected administrator logins, account creation, policy changes, and configuration exports.
+- Extend the same review to other internet-facing login services, especially MSSQL and Sophos appliances if they are exposed or share administrative credentials with edge infrastructure.
 - Review routing, VPN, firewall-policy, address-object, local-user, admin-profile, and logging configuration changes after any suspicious login.
+- Look for configuration-export activity and follow-on authentication successes shortly after high-volume failure events; Unit 42 specifically recommends focusing on successful logins that follow large password-failure bursts.
 - Look for lateral movement from VPN-assigned address pools to identity infrastructure, backup systems, hypervisors, management networks, and file servers.
 - Correlate Fortinet logins with password-spray, credential-stuffing, or successful authentication attempts against other remote-access systems.
 - Treat any confirmed Fortinet edge access as a potential path to internal credential capture and session hijacking until downstream telemetry rules it out.
@@ -64,6 +77,7 @@ Treat an exposed FortiGate or SSL VPN account hit by this activity as a credenti
 ## Source caveats
 - CISA confirms malicious use of compromised Fortinet credentials and provides the most durable public mitigation guidance.
 - The larger 86,644-device count, sector/geography breakdown, and tooling details come from The Hacker News summarizing SOCRadar and other secondary reporting; keep those figures attributed.
+- Unit 42 provides telemetry-backed expansion to MSSQL attempts and reported Sophos targeting, plus the staged password-spray / configuration-theft / offline-cracking model. Its note about an Exploit[.]in initial-access-broker claim remains unvalidated and should be presented as a claimed sale, not proven attribution.
 - Do not redistribute leaked credential lists or victim-specific device data. Use vendor, CISA, and trusted exposure-management channels to determine whether a specific environment is affected.
 
 ## Related pages
@@ -74,3 +88,4 @@ Treat an exposed FortiGate or SSL VPN account hit by this activity as a credenti
 ## Sources
 - CISA: https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure
 - The Hacker News: https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html
+- Unit 42: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/

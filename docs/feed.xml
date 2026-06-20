@@ -5,10 +5,10 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
-      <title>FortiBleed Fortinet credential exposure</title>
+      <title>FortiBleed Fortinet credential exposure: Unit 42 cross-service password-spray update</title>
       <link>https://threat.wiki/ops/fortibleed-fortinet-credential-exposure/</link>
-      <description>Added coverage for CISA's June 18 FortiBleed warning: malicious actors are using compromised credentials associated with roughly 74,000 Fortinet firewalls and VPN gateways, with secondary reporting citing 86,644 affected FortiGate devices. The page captures immediate session termination and credential rotation, PBKDF2 / legacy-hash review, phishing-resistant MFA, public management-interface reduction, VPN and firewall log review, and the caveat that Fortinet framed the data as likely reshared from previous incidents plus brute-forcing rather than a new vendor-side incident.</description>
-      <pubDate>Sat, 20 Jun 2026 01:27:29 GMT</pubDate>
+      <description>Updated FortiBleed coverage with Unit 42's June 19 threat brief: suspicious login attempts in customer telemetry, observed MSSQL targeting, reported Sophos targeting, a staged password-spray / configuration-theft / offline-cracking loop, and an unvalidated Exploit[.]in initial-access-broker claim. The page now tells defenders to expand review beyond Fortinet appliances to other internet-facing login services and to hunt for successful logins shortly after high-volume failure bursts.</description>
+      <pubDate>Sat, 20 Jun 2026 03:18:00 GMT</pubDate>
       <guid>https://threat.wiki/ops/fortibleed-fortinet-credential-exposure/</guid>
     </item>
     <item>

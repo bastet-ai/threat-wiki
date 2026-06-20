@@ -208,6 +208,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Composer](#composer) (3)
 - [compromised accounts](#compromised-accounts) (1)
 - [compromised credentials](#compromised-credentials) (1)
+- [configuration theft](#configuration-theft) (1)
 - [confused deputy](#confused-deputy) (1)
 - [ConnectWise](#connectwise) (1)
 - [consumer devices](#consumer-devices) (1)
@@ -527,6 +528,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (9)
 - [infrastructure](#infrastructure) (4)
+- [initial access broker](#initial-access-broker) (1)
 - [initial-access](#initial-access) (1)
 - [install-time execution](#install-time-execution) (1)
 - [install-time-execution](#install-time-execution) (1)
@@ -689,6 +691,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [msgpack](#msgpack) (1)
 - [mshta](#mshta) (3)
 - [MSP](#msp) (3)
+- [MSSQL](#mssql) (1)
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
 - [named pipes](#named-pipes) (1)
@@ -763,6 +766,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAM](#pam) (2)
 - [PAN-OS](#pan-os) (1)
+- [password spraying](#password-spraying) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
 - [patterns](#patterns) (18)
@@ -962,6 +966,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOHO routers](#soho-routers) (1)
 - [Solana](#solana) (2)
 - [SolarWinds](#solarwinds) (1)
+- [Sophos](#sophos) (1)
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
@@ -1071,7 +1076,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6671](#unc6671) (1)
 - [UNC6692](#unc6692) (2)
 - [UNC6780](#unc6780) (1)
-- [Unit 42](#unit-42) (1)
+- [Unit 42](#unit-42) (2)
 - [United States](#united-states) (2)
 - [unsafe deserialization](#unsafe-deserialization) (1)
 - [uranium compression](#uranium-compression) (1)
@@ -1957,6 +1962,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## compromised credentials
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+
+## configuration theft
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## confused deputy
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -3201,6 +3209,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 
+## initial access broker
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
 ## initial-access
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -3785,6 +3796,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
+## MSSQL
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
 ## mTLS
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
@@ -4308,6 +4322,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PAN-OS
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+
+## password spraying
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## Pastebin
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -5083,6 +5100,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SolarWinds
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
+## Sophos
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
 ## source-code compromise
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
@@ -5537,6 +5557,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## Unit 42
+- [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## United States
