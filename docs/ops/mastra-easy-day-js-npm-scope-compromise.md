@@ -1,7 +1,7 @@
 # Mastra `easy-day-js` npm scope compromise
 
 ## Summary
-On June 17, 2026, public reporting from StepSecurity, Socket, Snyk, SafeDep, and Microsoft described a high-blast-radius npm supply-chain incident affecting the Mastra AI framework ecosystem. A stale or compromised npm maintainer account republished more than 140 packages in the `@mastra/*` scope and injected a single new dependency, `easy-day-js`, a `dayjs` lookalike whose install hook delivered a cross-platform Node.js implant.
+On June 17, 2026, public reporting from StepSecurity, Socket, Snyk, SafeDep, and Microsoft described a high-blast-radius npm supply-chain incident affecting the Mastra AI framework ecosystem. A stale or compromised npm maintainer account republished more than 140 packages in the `@mastra/*` scope and injected a single new dependency, `easy-day-js`, a `dayjs` lookalike whose install hook delivered a cross-platform Node.js implant. Microsoft attributes the activity to `Sapphire Sleet`, its name for a North Korea-linked cluster also associated with earlier cryptocurrency and developer-targeting npm operations.
 
 The malicious dependency executed during `npm install`, before application code was imported. Treat developer workstations, CI runners, and build hosts that installed affected Mastra packages on or after June 17, 2026 as potentially compromised.
 
@@ -47,7 +47,7 @@ The malicious dependency executed during `npm install`, before application code 
 - Socket reported a single npm account mass-published more than 140 malicious packages in the `@mastra/*` namespace during a short June 17 window; its enumeration counted 141 affected `@mastra/*` packages and called out `@mastra/core` at more than 918k weekly downloads.
 - Snyk reported 143 packages and counting, including `@mastra/core`, and later added `@mastra/node-speaker@0.1.1` to its compromised-package set.
 - SafeDep counted 143 affected packages and placed the scope-wide Mastra republish burst between 01:12 and 02:36 UTC on June 17, 2026.
-- Microsoft Threat Intelligence reported that it observed `easy-day-js@1.11.22` at 01:07 UTC and `mastra@1.13.1` at 01:28 UTC on June 17; it also noted that all packages published by `ehindero` in the observed burst carried the injected dependency, while packages last published by GitHub Actions CI/CD or other legitimate maintainers were not affected.
+- Microsoft Threat Intelligence reported that it observed `easy-day-js@1.11.22` at 01:07 UTC and `mastra@1.13.1` at 01:28 UTC on June 17; it also noted that all packages published by `ehindero` in the observed burst carried the injected dependency, while packages last published by GitHub Actions CI/CD or other legitimate maintainers were not affected. Microsoft assesses the compromise as `Sapphire Sleet` activity.
 - Notable versions from Snyk include `@mastra/core@1.42.1`, `mastra@1.13.1`, and `create-mastra@1.13.1`.
 - Snyk advisory `SNYK-JS-EASYDAYJS-17353313` covers malicious embedded code in `easy-day-js`.
 - Mastra's remediation PR says the source tree was clean of `easy-day-js` and forward-rolled clean versions for the publishable packages; it also notes that unpublishing/deprecation, credential rotation, and unauthorized-owner removal were handled separately.
@@ -98,7 +98,7 @@ Microsoft's June 17 post adds publish-timeline, dropper, Windows injection, exfi
 - SafeDep associated the hosts with Hostwinds names `hwsrv-1327786` and `hwsrv-1327785.hostwindsdns[.]com` in `23.254.164.0/24`.
 - SafeDep reported SHA-256 `221c45a790dec2a296af57969e1165a16f8f49733aeab64c0bbd768d9943badf` for the stage-two payload.
 - Microsoft published additional file/package hashes: `AE70DD4F6BC0D1C8C2848E4E6B51934626C4818DCB5AF99D080DDBD7DC337185` for `setup.cjs`, `4A8860240E4231C3A74C81949BE655A28E096A7D72F38FBE84E5B37636B98417` for `easy-day-js-1.11.22.tgz`, and `B73DE25C053C3225A077738A1FCBD9CA6966D7B3CD6F5494A30F0AA0EAE55C7E` for the clean bait `easy-day-js-1.11.21.tgz`.
-- SafeDep noted close tradecraft overlap with the earlier Axios / `plain-crypto-js` campaign Microsoft attributed to Sapphire Sleet / BlueNoroff, but public reporting has not confirmed attribution for the Mastra incident.
+- SafeDep noted close tradecraft overlap with the earlier Axios / `plain-crypto-js` campaign Microsoft attributed to Sapphire Sleet / BlueNoroff; Microsoft later explicitly attributed the Mastra compromise to Sapphire Sleet. Keep that attribution scoped to Microsoft's assessment unless additional primary sources independently corroborate it.
 
 ## Defender heuristics
 ### Exposure triage
