@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Malicious infrastructure provider concentration](patterns/malicious-infrastructure-provider-concentration.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Operation Endgame SocGholish disruption](ops/operation-endgame-socgholish-disruption.md)
 - [FortiBleed Fortinet credential exposure: Unit 42 cross-service password-spray update](ops/fortibleed-fortinet-credential-exposure.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Klue Salesforce OAuth token abuse](ops/klue-salesforce-oauth-token-abuse.md)
 - [npm install explicit-trust controls: developer package-config drift update](patterns/npm-install-explicit-trust-controls.md)
 - [Agent localhost control-plane RCE](patterns/agent-localhost-control-plane-rce.md)
-- [GHOST STADIUM FIFA World Cup ticket phishing](ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

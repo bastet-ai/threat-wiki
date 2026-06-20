@@ -170,6 +170,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Malicious infrastructure provider concentration: patterns/malicious-infrastructure-provider-concentration.md
       - npm install explicit-trust controls: patterns/npm-install-explicit-trust-controls.md
       - Agent localhost control-plane RCE: patterns/agent-localhost-control-plane-rce.md
       - AI scanner anti-analysis: patterns/ai-scanner-anti-analysis.md

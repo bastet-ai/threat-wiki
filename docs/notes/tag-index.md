@@ -8,6 +8,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX](#3cx) (1)
 - [4sync](#4sync) (1)
 - [Ababil of Minab](#ababil-of-minab) (1)
+- [abuse response](#abuse-response) (1)
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
@@ -74,6 +75,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS](#arista-eos) (1)
 - [Armageddon](#armageddon) (1)
 - [Artifact Signing](#artifact-signing) (1)
+- [ASNs](#asns) (1)
 - [ASP.NET](#aspnet) (2)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [Astro](#astro) (1)
@@ -136,7 +138,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bun](#bun) (1)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [BYOVD](#byovd) (1)
-- [C2](#c2) (7)
+- [C2](#c2) (8)
 - [CageFS](#cagefs) (1)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
@@ -195,13 +197,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare Workers](#cloudflare-workers) (2)
 - [CloudLinux](#cloudlinux) (1)
 - [CMS](#cms) (6)
-- [Cobalt Strike](#cobalt-strike) (2)
+- [Cobalt Strike](#cobalt-strike) (3)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
 - [Codecov](#codecov) (1)
 - [Codex](#codex) (2)
 - [Coinbase](#coinbase) (1)
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
+- [command and control](#command-and-control) (1)
 - [command execution](#command-execution) (3)
 - [command injection](#command-injection) (3)
 - [command-execution](#command-execution) (1)
@@ -493,6 +496,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
 - [Hades](#hades) (2)
+- [Hajime](#hajime) (1)
 - [HappyDoor](#happydoor) (1)
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
@@ -506,14 +510,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [high explosives](#high-explosives) (1)
 - [higher education](#higher-education) (2)
 - [HONESTCUE](#honestcue) (1)
+- [Host Radar](#host-radar) (1)
 - [hosting control plane](#hosting-control-plane) (1)
 - [hosting provider](#hosting-provider) (1)
+- [hosting providers](#hosting-providers) (1)
 - [HR lures](#hr-lures) (1)
 - [HTA](#hta) (3)
 - [HttpMalice](#httpmalice) (1)
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (2)
-- [Hunt.io](#huntio) (2)
+- [Hunt.io](#huntio) (3)
 - [ICE](#ice) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
@@ -531,11 +537,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (1)
 - [import-time execution](#import-time-execution) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
-- [incident response](#incident-response) (14)
+- [incident response](#incident-response) (15)
 - [indirect prompt injection](#indirect-prompt-injection) (1)
 - [industrial control](#industrial-control) (1)
 - [infostealer](#infostealer) (9)
-- [infrastructure](#infrastructure) (4)
+- [infrastructure](#infrastructure) (5)
 - [initial access broker](#initial-access-broker) (1)
 - [initial-access](#initial-access) (2)
 - [install-time execution](#install-time-execution) (1)
@@ -570,6 +576,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JSONPing](#jsonping) (1)
 - [JSP web shell](#jsp-web-shell) (1)
 - [Kaspersky](#kaspersky) (2)
+- [Keitaro](#keitaro) (1)
 - [kernel driver](#kernel-driver) (1)
 - [KEV](#kev) (3)
 - [KeyHunter](#keyhunter) (1)
@@ -673,7 +680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Graph](#microsoft-graph) (2)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (2)
-- [Middle East](#middle-east) (1)
+- [Middle East](#middle-east) (2)
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
 - [MiniJunk](#minijunk) (1)
@@ -681,6 +688,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MINIRAT](#minirat) (2)
 - [Ministry of Finance](#ministry-of-finance) (1)
 - [MiniUpdate](#miniupdate) (1)
+- [Mirai](#mirai) (1)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
 - [mobile](#mobile) (1)
@@ -695,6 +703,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (3)
 - [Monero](#monero) (1)
+- [Mozi](#mozi) (1)
 - [MPR network provider](#mpr-network-provider) (1)
 - [Mr_Rot13](#mr_rot13) (1)
 - [msgpack](#msgpack) (1)
@@ -781,7 +790,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [password spraying](#password-spraying) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
-- [patterns](#patterns) (18)
+- [patterns](#patterns) (19)
 - [payload staging](#payload-staging) (1)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (2)
@@ -963,7 +972,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SiliconFlow](#siliconflow) (1)
 - [simulation tampering](#simulation-tampering) (1)
 - [sleeper packages](#sleeper-packages) (1)
-- [Sliver](#sliver) (1)
+- [Sliver](#sliver) (2)
 - [SLSA](#slsa) (1)
 - [SmartScreen](#smartscreen) (1)
 - [SMB](#smb) (1)
@@ -1027,6 +1036,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
 - [TA569](#ta569) (1)
+- [Tactical RMM](#tactical-rmm) (1)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (2)
 - [Taiwan](#taiwan) (1)
@@ -1041,6 +1051,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TEASOUP](#teasoup) (1)
 - [telecom](#telecom) (2)
 - [telecom-impersonation](#telecom-impersonation) (1)
+- [telecommunications](#telecommunications) (1)
 - [Telegram](#telegram) (5)
 - [telegram](#telegram) (1)
 - [Telegram C2](#telegram-c2) (1)
@@ -1202,6 +1213,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ababil of Minab
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+
+## abuse response
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## Accellion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -1470,6 +1484,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Artifact Signing
 - [Fox Tempest](../actors/fox-tempest.md)
 
+## ASNs
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
 ## ASP.NET
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [OP-512](../actors/op-512.md)
@@ -1686,6 +1703,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## C2
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
@@ -1939,6 +1957,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cobalt Strike
 - [Ghostwriter](../actors/ghostwriter.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## code sandbox scraping
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -1960,6 +1979,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## collaboration-tool phishing
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+
+## command and control
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## command execution
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -3094,6 +3116,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 
+## Hajime
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
 ## HappyDoor
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -3134,11 +3159,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HONESTCUE
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## Host Radar
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
 ## hosting control plane
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
 ## hosting provider
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
+## hosting providers
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## HR lures
 - [TA4922](../actors/ta4922.md)
@@ -3160,6 +3191,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Hunt.io
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## ICE
@@ -3225,6 +3257,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -3254,6 +3287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## initial access broker
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -3370,6 +3404,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Kaspersky
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
+## Keitaro
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## kernel driver
 - [Fast16](../tools/fast16.md)
@@ -3758,6 +3795,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## Middle East
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Showboat](../tools/showboat.md)
 
 ## middleware
@@ -3781,6 +3819,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MiniUpdate
 - [Screening Serpens](../actors/screening-serpens.md)
+
+## Mirai
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## MITRE ATT&CK T1005
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -3827,6 +3868,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Monero
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
+## Mozi
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## MPR network provider
 - [Fast16](../tools/fast16.md)
@@ -4410,6 +4454,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
@@ -5104,6 +5149,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 
 ## Sliver
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 
 ## SLSA
@@ -5391,6 +5437,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TA569
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
+## Tactical RMM
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
 ## tag rewrite
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 
@@ -5443,6 +5492,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## telecom-impersonation
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
+
+## telecommunications
+- [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## Telegram
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
