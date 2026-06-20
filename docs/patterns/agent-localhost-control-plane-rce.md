@@ -1,9 +1,9 @@
 # Agent localhost control-plane RCE
 
 ## Summary
-Microsoft Security Research described **AutoJack**, an exploit chain in the development branch of AutoGen Studio where untrusted web content rendered by a browsing AI agent could cross the loopback boundary, connect to a local MCP WebSocket control plane, and spawn arbitrary processes through attacker-supplied `StdioServerParams`.
+Microsoft Security Research described **AutoJack**, an exploit chain in AutoGen Studio where untrusted web content rendered by a browsing AI agent could cross the loopback boundary, connect to a local MCP WebSocket control plane, and spawn arbitrary processes through attacker-supplied `StdioServerParams`.
 
-Microsoft says the affected MCP WebSocket route was hardened in upstream commit `b047730` before it shipped in a PyPI release. Users who install `autogenstudio` from PyPI were not exposed to this specific chain. The durable lesson is broader: if an agent can browse untrusted content and also reach privileged localhost services, loopback is not a security boundary.
+Microsoft says the affected MCP WebSocket route was hardened in upstream commit `b047730` before it shipped in the stable PyPI release line. The Hacker News later inspected PyPI and reported that the vulnerable route was present in pre-release builds `autogenstudio==0.4.3.dev1` and `autogenstudio==0.4.3.dev2`; a plain `pip install autogenstudio` resolves to stable `0.4.2.2` and is not exposed to this specific route, but anyone who pinned or opted into those pre-releases should treat the host as exposed until upgraded to a source build at or after `b047730` or a future fixed package. The durable lesson is broader: if an agent can browse untrusted content and also reach privileged localhost services, loopback is not a security boundary.
 
 ## Tags
 - patterns
@@ -34,7 +34,7 @@ Microsoft says the affected MCP WebSocket route was hardened in upstream commit 
 - If the control plane can launch tools or subprocesses, the chain becomes remote code execution on the host running the agent.
 
 ## AutoJack case study
-Microsoft's AutoJack writeup chains three weaknesses in AutoGen Studio's development MCP WebSocket surface:
+Microsoft's AutoJack writeup chains three weaknesses in AutoGen Studio's MCP WebSocket surface:
 
 1. **Origin allowlist that trusted localhost**: the MCP WebSocket accepted origins such as `http://127.0.0.1` and `http://localhost`. That blocks a normal browser tab on an attacker domain, but not JavaScript rendered by a headless browser controlled by an agent running on the same machine.
 2. **Authentication skipped for MCP paths**: AutoGen Studio's middleware skipped `/api/mcp/*` and `/api/ws/*` paths on the assumption that WebSocket handlers would enforce their own checks. The MCP handler did not add a separate authentication check.
@@ -42,7 +42,13 @@ Microsoft's AutoJack writeup chains three weaknesses in AutoGen Studio's develop
 
 The proof-of-concept shape was simple: get an AutoGen browsing agent, such as a web-page summarizer using `MultimodalWebSurfer`, to render a malicious page. The page's JavaScript opened a WebSocket to `ws://localhost:8081/api/mcp/ws/<id>?server_params=<base64>`. The payload could specify commands such as `calc.exe`, `powershell.exe`, or `bash -c ...` as an MCP "server" process.
 
-Microsoft says the vulnerable chain was addressed on AutoGen Studio's main branch by moving MCP parameters to a server-side `POST /api/mcp/ws/connect` flow keyed by UUID, refusing unknown WebSocket session IDs, and tightening the authentication skip list so `/api/mcp` no longer bypasses normal auth. The affected route was not present in the current PyPI package inspected by Microsoft.
+Microsoft says the vulnerable chain was addressed on AutoGen Studio's main branch by moving MCP parameters to a server-side `POST /api/mcp/ws/connect` flow keyed by UUID, refusing unknown WebSocket session IDs, and tightening the authentication skip list so `/api/mcp` no longer bypasses normal auth.
+
+### PyPI pre-release caveat
+- Microsoft stated that the vulnerable MCP WebSocket surface was not included in a PyPI release; that appears true for the stable `autogenstudio==0.4.2.2` package Microsoft inspected.
+- The Hacker News reported on June 19, 2026 that PyPI pre-release builds `0.4.3.dev1` and `0.4.3.dev2` did include the vulnerable handler, accepted command parameters directly from the request, and had not been yanked at publication time.
+- `pip` does not install pre-releases by default, so the exposed population should be limited to users who explicitly passed `--pre`, pinned a dev build, or installed from a source checkout containing the route.
+- Until a fixed PyPI build exists, affected experimenters should pull AutoGen Studio from GitHub main at or after commit `b0477309d2a0baf489aa256646e41e513ab3bfe8`, isolate the service from browsing/code-execution agents, and rotate credentials if arbitrary subprocess launch is suspected.
 
 ## Defender heuristics
 ### Architecture and hardening
@@ -56,7 +62,7 @@ Microsoft says the vulnerable chain was addressed on AutoGen Studio's main branc
 
 ### Detection and response
 - Hunt for agent framework processes followed by unexpected child processes such as shells, PowerShell, `bash`, `curl`, `wget`, `mshta`, `rundll32`, `regsvr32`, `certutil`, archive tools, or credential utilities.
-- On hosts running AutoGen Studio experiments, review local connections to ports such as `8081` / `8080` with paths containing `/api/mcp/ws/` and `server_params=`.
+- On hosts running AutoGen Studio experiments, review installed package versions for `autogenstudio==0.4.3.dev1`, `autogenstudio==0.4.3.dev2`, source checkouts before `b047730`, and local connections to ports such as `8081` / `8080` with paths containing `/api/mcp/ws/` and `server_params=`.
 - Correlate browser-automation processes (`python`, `node`, Playwright, Chromium, `MultimodalWebSurfer`, or framework-specific agent runners) with navigation to non-corporate domains during local agent sessions.
 - Treat confirmed arbitrary subprocess launch from an agent control plane as developer-host compromise: preserve evidence, rotate source-control, package-registry, cloud, LLM-provider, SSH, and CI/CD credentials accessible from the host, then rebuild from trusted media.
 - Inventory agent-framework builds installed from Git branches or source checkouts separately from PyPI/npm releases; development branches may include unshipped attack surfaces.
@@ -70,3 +76,4 @@ Microsoft says the vulnerable chain was addressed on AutoGen Studio's main branc
 
 ## Sources
 - Microsoft Security Blog: https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/
+- The Hacker News: https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html

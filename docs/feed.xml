@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>Agent localhost control-plane RCE: AutoJack PyPI pre-release caveat</title>
+      <link>https://threat.wiki/patterns/agent-localhost-control-plane-rce/#pypi-pre-release-caveat</link>
+      <description>Updated the AutoJack / agent localhost control-plane RCE pattern with The Hacker News' June 19, 2026 PyPI pre-release caveat: stable autogenstudio 0.4.2.2 lacks the vulnerable MCP WebSocket route, but pre-release builds 0.4.3.dev1 and 0.4.3.dev2 reportedly included the unauthenticated handler that accepted command parameters from requests. The page now distinguishes stable installs from --pre / pinned dev builds, points affected users to AutoGen main at or after commit b047730, and reinforces loopback control-plane authentication and browsing-agent isolation guidance.</description>
+      <pubDate>Sat, 20 Jun 2026 21:28:04 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/agent-localhost-control-plane-rce/#pypi-pre-release-caveat</guid>
+    </item>
+    <item>
       <title>@withgoogle/stitch-sdk scope squat</title>
       <link>https://threat.wiki/ops/withgoogle-stitch-sdk-scope-squat/</link>
       <description>Added coverage for SafeDep's June 20, 2026 report on @withgoogle/stitch-sdk, a malicious npm package that impersonated Google's Stitch AI design tool by squatting the @withgoogle scope. The page captures the preinstall and CLI credential-harvesting paths, Claude Code / Git / GitHub CLI / npm / Docker credential targets, stitch-production[.]org exfiltration, and defender guidance for package blocking, endpoint triage, credential rotation, and vendor-scope governance.</description>
