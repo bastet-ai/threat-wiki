@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>@withgoogle/stitch-sdk scope squat</title>
+      <link>https://threat.wiki/ops/withgoogle-stitch-sdk-scope-squat/</link>
+      <description>Added coverage for SafeDep's June 20, 2026 report on @withgoogle/stitch-sdk, a malicious npm package that impersonated Google's Stitch AI design tool by squatting the @withgoogle scope. The page captures the preinstall and CLI credential-harvesting paths, Claude Code / Git / GitHub CLI / npm / Docker credential targets, stitch-production[.]org exfiltration, and defender guidance for package blocking, endpoint triage, credential rotation, and vendor-scope governance.</description>
+      <pubDate>Sat, 20 Jun 2026 17:27:15 GMT</pubDate>
+      <guid>https://threat.wiki/ops/withgoogle-stitch-sdk-scope-squat/</guid>
+    </item>
+    <item>
       <title>Malicious infrastructure provider concentration</title>
       <link>https://threat.wiki/patterns/malicious-infrastructure-provider-concentration/</link>
       <description>Added a pattern page from Hunt.io's Middle East malicious-infrastructure report: more than 1,350 active C2 servers across 98 providers in 14 countries during a February-May 2026 window, with strong concentration in a small set of telecommunications and hosting networks. The page turns the report into reusable defender guidance for ASN/provider enrichment, recurrence tracking, abuse-response context, careful telecom-vs-VPS scoping, and egress/hunting pivots around Tactical RMM, Keitaro, Mozi, Hajime, Mirai, Sliver, Cobalt Strike, and related C2 families.</description>

@@ -43,7 +43,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI gateway](#ai-gateway) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI security](#ai-security) (1)
-- [AI tooling](#ai-tooling) (11)
+- [AI tooling](#ai-tooling) (12)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
 - [AI-augmented operations](#ai-augmented-operations) (1)
@@ -173,7 +173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix](#citrix) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
 - [Claude](#claude) (2)
-- [Claude Code](#claude-code) (2)
+- [Claude Code](#claude-code) (3)
 - [ClickFix](#clickfix) (3)
 - [client-side exploitation](#client-side-exploitation) (1)
 - [clipboard theft](#clipboard-theft) (1)
@@ -230,7 +230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential exposure](#credential-exposure) (2)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (1)
-- [credential theft](#credential-theft) (19)
+- [credential theft](#credential-theft) (20)
 - [credential-theft](#credential-theft) (42)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (2)
@@ -319,6 +319,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deserialization](#deserialization) (2)
 - [destructive operations](#destructive-operations) (1)
 - [DEV-0206](#dev-0206) (1)
+- [developer credentials](#developer-credentials) (1)
 - [developer endpoints](#developer-endpoints) (1)
 - [developer machines](#developer-machines) (7)
 - [developer targeting](#developer-targeting) (2)
@@ -343,6 +344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS C2](#dns-c2) (2)
 - [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
+- [Docker credentials](#docker-credentials) (1)
 - [document theft](#document-theft) (3)
 - [domestic espionage](#domestic-espionage) (1)
 - [DotNetNuke](#dotnetnuke) (1)
@@ -463,6 +465,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions](#github-actions) (16)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
+- [GitHub CLI](#github-cli) (1)
 - [GitHub issue spam](#github-issue-spam) (1)
 - [GitHub OAuth](#github-oauth) (1)
 - [GitHub Security Advisories](#github-security-advisories) (1)
@@ -482,6 +485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Cloud Logging](#google-cloud-logging) (1)
 - [Google Drive](#google-drive) (1)
 - [Google Play](#google-play) (1)
+- [Google Stitch](#google-stitch) (1)
 - [government](#government) (2)
 - [government targeting](#government-targeting) (2)
 - [government-impersonation](#government-impersonation) (1)
@@ -732,8 +736,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (8)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (33)
+- [npm](#npm) (34)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
+- [npm tokens](#npm-tokens) (1)
 - [npx](#npx) (1)
 - [NTFS ADS](#ntfs-ads) (2)
 - [NTLM](#ntlm) (1)
@@ -761,9 +766,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Endgame](#operation-endgame) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (123)
+- [operations](#operations) (124)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (122)
+- [ops](#ops) (123)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -839,7 +844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PRC](#prc) (1)
 - [PRC-aligned](#prc-aligned) (1)
 - [pre-authentication](#pre-authentication) (1)
-- [preinstall](#preinstall) (1)
+- [preinstall](#preinstall) (2)
 - [Primitive Bear](#primitive-bear) (1)
 - [PrincessClub](#princessclub) (1)
 - [privacy](#privacy) (1)
@@ -924,10 +929,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SaaS](#saas) (3)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
+- [SafeDep](#safedep) (1)
 - [Salesforce](#salesforce) (2)
 - [ScarCruft](#scarcruft) (1)
 - [scheduled task](#scheduled-task) (1)
 - [scheduled tasks](#scheduled-tasks) (3)
+- [scope squatting](#scope-squatting) (1)
 - [ScreenConnect](#screenconnect) (2)
 - [screenshot theft](#screenshot-theft) (1)
 - [script-injection](#script-injection) (1)
@@ -1029,7 +1036,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (67)
+- [supply-chain](#supply-chain) (68)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
@@ -1089,7 +1096,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Twilio](#twilio) (1)
 - [TypeScript](#typescript) (1)
 - [typosquat](#typosquat) (1)
-- [typosquatting](#typosquatting) (8)
+- [typosquatting](#typosquatting) (9)
 - [UAC](#uac) (1)
 - [UAC-0010](#uac-0010) (2)
 - [UAC-0098](#uac-0098) (1)
@@ -1372,6 +1379,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
 ## AI tooling
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -1862,6 +1870,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 
 ## Claude Code
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
@@ -2069,6 +2078,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## credential theft
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
@@ -2440,6 +2450,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DEV-0206
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
+## developer credentials
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+
 ## developer endpoints
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
@@ -2538,6 +2551,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Docker
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+
+## Docker credentials
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 
 ## document theft
 - [Gamaredon](../actors/gamaredon.md)
@@ -3000,6 +3016,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub App
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 
+## GitHub CLI
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+
 ## GitHub issue spam
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
@@ -3059,6 +3078,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Google Play
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+
+## Google Stitch
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 
 ## government
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
@@ -3969,6 +3991,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## npm
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
@@ -4007,6 +4030,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+
+## npm tokens
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 
 ## npx
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -4106,6 +4132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## operations
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -4234,6 +4261,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ops
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -4655,6 +4683,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## preinstall
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
 ## Primitive Bear
@@ -4985,6 +5014,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Safari
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
+## SafeDep
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+
 ## Salesforce
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -4999,6 +5031,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## scope squatting
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 
 ## ScreenConnect
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -5352,6 +5387,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -5627,6 +5663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
 ## typosquatting
+- [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
