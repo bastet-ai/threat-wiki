@@ -175,6 +175,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude](#claude) (2)
 - [Claude Code](#claude-code) (3)
 - [ClickFix](#clickfix) (3)
+- [ClickOnce](#clickonce) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
 - [clipboard theft](#clipboard-theft) (1)
 - [clipper](#clipper) (1)
@@ -204,6 +205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codex](#codex) (2)
 - [Coinbase](#coinbase) (1)
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
+- [COM-hijacking](#com-hijacking) (1)
 - [command and control](#command-and-control) (1)
 - [command execution](#command-execution) (3)
 - [command injection](#command-injection) (3)
@@ -311,6 +313,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Defender evasion](#defender-evasion) (2)
 - [defense](#defense) (1)
 - [defense evasion](#defense-evasion) (4)
+- [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
 - [denial of service](#denial-of-service) (1)
 - [Deno](#deno) (2)
@@ -382,6 +385,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [endpoint management](#endpoint-management) (1)
 - [endpoint management abuse](#endpoint-management-abuse) (1)
 - [endpoint response](#endpoint-response) (1)
+- [endpoint-detection](#endpoint-detection) (1)
 - [endpoint-security](#endpoint-security) (2)
 - [energy-sector](#energy-sector) (1)
 - [engineering software](#engineering-software) (1)
@@ -547,7 +551,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infostealer](#infostealer) (9)
 - [infrastructure](#infrastructure) (5)
 - [initial access broker](#initial-access-broker) (1)
-- [initial-access](#initial-access) (2)
+- [initial-access](#initial-access) (3)
 - [install-time execution](#install-time-execution) (1)
 - [install-time-execution](#install-time-execution) (1)
 - [InvisibleFerret](#invisibleferret) (1)
@@ -795,7 +799,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [password spraying](#password-spraying) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
-- [patterns](#patterns) (19)
+- [patterns](#patterns) (20)
 - [payload staging](#payload-staging) (1)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (2)
@@ -805,7 +809,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PebbleDash](#pebbledash) (1)
 - [people](#people) (1)
 - [PeopleTools](#peopletools) (1)
-- [persistence](#persistence) (17)
+- [persistence](#persistence) (18)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
 - [Phantom Gyp](#phantom-gyp) (1)
@@ -994,6 +998,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOCKS5](#socks5) (3)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
 - [software impersonation](#software-impersonation) (1)
+- [software-deployment](#software-deployment) (1)
 - [SOHO routers](#soho-routers) (1)
 - [Solana](#solana) (2)
 - [SolarWinds](#solarwinds) (1)
@@ -1179,7 +1184,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp](#whatsapp) (1)
 - [WHM](#whm) (3)
 - [Widget Factory](#widget-factory) (1)
-- [Windows](#windows) (15)
+- [Windows](#windows) (16)
 - [Windows persistence](#windows-persistence) (1)
 - [Winos4.0](#winos40) (1)
 - [WinRAR](#winrar) (3)
@@ -1879,6 +1884,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
+## ClickOnce
+- [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
+
 ## client-side exploitation
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
@@ -1988,6 +1996,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## collaboration-tool phishing
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+
+## COM-hijacking
+- [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 
 ## command and control
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
@@ -2421,6 +2432,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [ROADtools](../tools/roadtools.md)
 
+## defense-evasion
+- [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
+
 ## DeFi
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -2676,6 +2690,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## endpoint response
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+
+## endpoint-detection
+- [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 
 ## endpoint-security
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -3316,6 +3333,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## initial-access
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+- [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
 ## install-time execution
@@ -4476,6 +4494,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
@@ -4521,6 +4540,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## persistence
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -5243,6 +5263,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## software impersonation
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
+## software-deployment
+- [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 
 ## SOHO routers
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
@@ -5968,6 +5991,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+- [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)

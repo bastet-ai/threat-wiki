@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>ClickOnce COM hijacking abuse</title>
+      <link>https://threat.wiki/patterns/clickonce-com-hijacking-abuse/</link>
+      <description>Added a defender pattern from CrowdStrike's June 18, 2026 ClickOnce research: ClickOnce deployment can be abused for low-friction Windows execution and persistence, including a newly disclosed current-user COM hijack for the hardcoded deployment-service CLSID {20FD4E26-8E0F-4F73-A0E0-F27B8C57BE6F}. The page captures .application / .appref-ms / rundll32 dfshim.dll deployment paths, update-backed persistence, HKCU COM detection pivots, and ClickOnce incident-response guidance.</description>
+      <pubDate>Sun, 21 Jun 2026 03:28:06 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/clickonce-com-hijacking-abuse/</guid>
+    </item>
+    <item>
       <title>Agent localhost control-plane RCE: AutoJack PyPI pre-release caveat</title>
       <link>https://threat.wiki/patterns/agent-localhost-control-plane-rce/#pypi-pre-release-caveat</link>
       <description>Updated the AutoJack / agent localhost control-plane RCE pattern with The Hacker News' June 19, 2026 PyPI pre-release caveat: stable autogenstudio 0.4.2.2 lacks the vulnerable MCP WebSocket route, but pre-release builds 0.4.3.dev1 and 0.4.3.dev2 reportedly included the unauthenticated handler that accepted command parameters from requests. The page now distinguishes stable installs from --pre / pinned dev builds, points affected users to AutoGen main at or after commit b047730, and reinforces loopback control-plane authentication and browsing-agent isolation guidance.</description>
