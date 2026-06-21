@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Oracle PeopleSoft CVE-2026-35273: PSIGW / PSEMHUB chain analysis</title>
+      <link>https://threat.wiki/ops/oracle-peoplesoft-cve-2026-35273-shinyhunters/</link>
+      <description>Updated PeopleSoft CVE-2026-35273 coverage with Trend Micro's PSIGW / PSEMHUB technical chain: unauthenticated Integration Gateway SSRF to localhost PSEMHUB, validateClient bypass, envmetadata staging, Java XMLDecoder deserialization on web-tier restart, in-JVM execution without child-process or beacon telemetry, and new hunt pivots for IBRequest loopback URLs, XML writes, restart correlation, JSP web shells, and outbound SMB coercion.</description>
+      <pubDate>Sun, 21 Jun 2026 19:29:13 GMT</pubDate>
+      <guid>https://threat.wiki/ops/oracle-peoplesoft-cve-2026-35273-shinyhunters/</guid>
+    </item>
+    <item>
       <title>UNC6508</title>
       <link>https://threat.wiki/actors/unc6508/</link>
       <description>Added GTIG's UNC6508 reporting: a high-confidence PRC-nexus espionage cluster targeting North American academic, medical, military, and health-policy organizations through REDCap compromise, INFINITERED credential harvesting / backdoor persistence, and mail content-compliance rule abuse for silent BCC exfiltration. The page captures REDCap legacy-version risk, INFINITERED host artifacts, administrator credential replay, OBF network use, and SaaS mail-control-plane hunting guidance.</description>

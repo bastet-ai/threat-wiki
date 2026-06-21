@@ -571,6 +571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [initial-access](#initial-access) (3)
 - [install-time execution](#install-time-execution) (1)
 - [install-time-execution](#install-time-execution) (1)
+- [Integration Broker](#integration-broker) (1)
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (2)
@@ -888,6 +889,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [proxy](#proxy) (5)
 - [ProxyChains](#proxychains) (1)
 - [PSEMHUB](#psemhub) (1)
+- [PSIGW](#psigw) (1)
 - [psychological operations](#psychological-operations) (1)
 - [public exploit](#public-exploit) (1)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
@@ -935,6 +937,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [repository poisoning](#repository-poisoning) (1)
 - [residential proxies](#residential-proxies) (1)
 - [REST C2](#rest-c2) (1)
+- [restart-triggered execution](#restart-triggered-execution) (1)
 - [ReverseSocks](#reversesocks) (1)
 - [reviewdog](#reviewdog) (1)
 - [RingH23](#ringh23) (1)
@@ -1051,7 +1054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH persistence](#ssh-persistence) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
 - [SSL VPN](#ssl-vpn) (1)
-- [SSRF](#ssrf) (1)
+- [SSRF](#ssrf) (2)
 - [stale access](#stale-access) (1)
 - [stale credentials](#stale-credentials) (1)
 - [state-linked](#state-linked) (1)
@@ -1233,6 +1236,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
 - [XenoRAT](#xenorat) (2)
+- [XMLDecoder](#xmldecoder) (1)
 - [XMRig](#xmrig) (3)
 - [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
@@ -3442,6 +3446,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## install-time-execution
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
+## Integration Broker
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
 ## InvisibleFerret
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
@@ -4895,6 +4902,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PSEMHUB
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
+## PSIGW
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
 ## psychological operations
 - [Handala](../actors/handala.md)
 
@@ -5079,6 +5089,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## REST C2
 - [GREYVIBE](../actors/greyvibe.md)
+
+## restart-triggered execution
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
 ## ReverseSocks
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -5494,6 +5507,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SSRF
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
 ## stale access
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -6230,6 +6244,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## XenoRAT
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
+
+## XMLDecoder
+- [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
 ## XMRig
 - [GREYVIBE](../actors/greyvibe.md)
