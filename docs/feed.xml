@@ -5,6 +5,13 @@
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
     <item>
+      <title>FortiBleed Fortinet credential exposure: Arctic Wolf impact-count update</title>
+      <link>https://threat.wiki/ops/fortibleed-fortinet-credential-exposure/</link>
+      <description>Updated FortiBleed coverage with Arctic Wolf's June 17, 2026 bulletin, which summarized SOCRadar and Kevin Beaumont / Hudson Rock reporting on more than 30,791 confirmed working Fortinet credentials, an estimated 75,000 affected devices across 194 countries, and the need to force administrator-password rotation so upgraded FortiOS deployments do not retain legacy SHA-256-with-salt hashes.</description>
+      <pubDate>Sun, 21 Jun 2026 05:26:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/fortibleed-fortinet-credential-exposure/#arctic-wolf-impact-count-update</guid>
+    </item>
+    <item>
       <title>ClickOnce COM hijacking abuse</title>
       <link>https://threat.wiki/patterns/clickonce-com-hijacking-abuse/</link>
       <description>Added a defender pattern from CrowdStrike's June 18, 2026 ClickOnce research: ClickOnce deployment can be abused for low-friction Windows execution and persistence, including a newly disclosed current-user COM hijack for the hardcoded deployment-service CLSID {20FD4E26-8E0F-4F73-A0E0-F27B8C57BE6F}. The page captures .application / .appref-ms / rundll32 dfshim.dll deployment paths, update-backed persistence, HKCU COM detection pivots, and ClickOnce incident-response guidance.</description>

@@ -1,7 +1,7 @@
 # FortiBleed Fortinet credential exposure
 
 ## Summary
-CISA warned on June 18, 2026 that malicious cyber actors were targeting internet-accessible Fortinet devices using compromised credentials. The activity, publicly called `FortiBleed`, involves leaked credentials associated with roughly 74,000 Fortinet firewalls and VPN gateways in CISA's alert; The Hacker News later cited SOCRadar data reporting 86,644 affected FortiGate devices as of June 19.
+CISA warned on June 18, 2026 that malicious cyber actors were targeting internet-accessible Fortinet devices using compromised credentials. The activity, publicly called `FortiBleed`, involves leaked credentials associated with roughly 74,000 Fortinet firewalls and VPN gateways in CISA's alert; The Hacker News later cited SOCRadar data reporting 86,644 affected FortiGate devices as of June 19. Arctic Wolf separately summarized SOCRadar and Kevin Beaumont / Hudson Rock reporting that described more than 30,791 confirmed working device credentials and an estimated 75,000 affected devices across 194 countries.
 
 Unit 42's June 19 threat brief broadened the public view from a Fortinet-only exposure to an internet-facing credential campaign: Unit 42 says it observed suspicious login attempts in customer telemetry, saw attempts against MSSQL services, and had seen reports of Sophos devices also being targeted. Unit 42 describes a feedback loop in which actors password-spray exposed services, pull device configurations when access permits, crack stolen credentials offline, and reuse the expanded password list for later spraying and administrator persistence.
 
@@ -36,6 +36,7 @@ Treat an exposed FortiGate or SSL VPN account hit by this activity as a credenti
 - FortiGate appliances often sit on the remote-access boundary; a valid VPN or administrator credential can become an initial-access path without exploiting a fresh software flaw.
 - CISA says the leaked credentials are associated with approximately 74,000 Fortinet devices across government and private-sector organizations.
 - Secondary reporting from The Hacker News, citing SOCRadar, raised the count to 86,644 compromised devices and described telecom, government, and education as top impacted sectors.
+- Arctic Wolf attributes narrower confirmed-working and broader estimated-impact counts to SOCRadar and Kevin Beaumont / Hudson Rock respectively: more than 30,791 validated device credentials, an estimate of about 75,000 affected devices, and observed impact across 194 countries.
 - The campaign blends old secrets, internet-exposed login endpoints, and weak credential lifecycle controls. Fortinet told The Hacker News the data is likely a resharing of data from previous incidents plus brute-forcing, and not related to a current Fortinet incident or advisory.
 - Even after patching, upgraded FortiOS deployments can retain legacy password hashes until the relevant administrator logs in or credentials are reset; CISA specifically calls out PBKDF2 enforcement and removal of weaker legacy hashes.
 - Unit 42's telemetry adds cross-service risk: the same curated credential list may be used against Fortinet, Sophos, MSSQL, and other exposed login surfaces, so defenders should not scope review only to FortiGate appliances.
@@ -47,6 +48,11 @@ Treat an exposed FortiGate or SSL VPN account hit by this activity as a credenti
 - The Hacker News reports that the operators mass-scanned for Fortinet remote-login endpoints and used a bespoke credential-spraying tool against known username/password combinations.
 - The same report describes a feedback loop: use leaked Fortinet credentials to access appliances, passively monitor traffic to collect more credentials, verify working logins, and add them to a confirmed-access database.
 - Fortinet's statement to The Hacker News framed the exposed data as likely reshared from previous incidents plus brute-forcing, not a new vendor-side breach or current advisory.
+
+### Arctic Wolf impact-count update
+Arctic Wolf's June 17 bulletin, summarizing SOCRadar and Beaumont / Hudson Rock analysis, says the exposed material included validated credentials organized by country, sector, and organization revenue, with more than 30,791 confirmed working logins and an estimated 75,000 affected Fortinet devices across 194 countries. Treat those counts as source-attributed measurements rather than a definitive victim list.
+
+### Cross-service password spraying
 - Unit 42 reports a three-stage process: internet-wide password spraying against exposed Fortinet, Sophos, and MSSQL services; configuration extraction from accessed devices, sometimes after privilege escalation; and offline cracking of stolen credentials to enrich the list used for future spraying and administrator logins.
 - Unit 42 also observed an initial-access broker on the Russian-language Exploit[.]in forum claiming responsibility for the campaign and offering harvested credentials for sale on June 16, 2026, while explicitly noting that Unit 42 had not validated those claims.
 
@@ -62,6 +68,7 @@ Treat an exposed FortiGate or SSL VPN account hit by this activity as a credenti
 - Require phishing-resistant MFA for all remote-access and administrative accounts, and verify enforcement on all external gateways and management interfaces.
 - Remove public internet exposure from firewall management interfaces; restrict administration to trusted internal networks or dedicated management paths.
 - Confirm PBKDF2 is used for administrator credential storage in FortiOS and remove weaker legacy hashes following Fortinet guidance.
+- For FortiOS branches that introduced PBKDF2 credential storage, Arctic Wolf notes that upgraded administrator accounts may keep legacy SHA-256-with-salt hashes until the corresponding administrator logs in or credentials are reset; force administrator-password rotation rather than assuming an OS upgrade rewrote every stored hash.
 - Rename or disable generic/default administrator accounts where operationally possible; avoid reused credentials on edge devices.
 - Monitor external attack surface for exposed Fortinet login panels and unexpected SSL VPN portals.
 
@@ -76,7 +83,7 @@ Treat an exposed FortiGate or SSL VPN account hit by this activity as a credenti
 
 ## Source caveats
 - CISA confirms malicious use of compromised Fortinet credentials and provides the most durable public mitigation guidance.
-- The larger 86,644-device count, sector/geography breakdown, and tooling details come from The Hacker News summarizing SOCRadar and other secondary reporting; keep those figures attributed.
+- The larger 86,644-device count, sector/geography breakdown, and tooling details come from The Hacker News summarizing SOCRadar and other secondary reporting; Arctic Wolf provides additional secondary-source figures from SOCRadar and Kevin Beaumont / Hudson Rock, including more than 30,791 confirmed working credentials, about 75,000 estimated affected devices, and 194-country exposure. Keep those figures attributed.
 - Unit 42 provides telemetry-backed expansion to MSSQL attempts and reported Sophos targeting, plus the staged password-spray / configuration-theft / offline-cracking model. Its note about an Exploit[.]in initial-access-broker claim remains unvalidated and should be presented as a claimed sale, not proven attribution.
 - Do not redistribute leaked credential lists or victim-specific device data. Use vendor, CISA, and trusted exposure-management channels to determine whether a specific environment is affected.
 
@@ -89,3 +96,4 @@ Treat an exposed FortiGate or SSL VPN account hit by this activity as a credenti
 - CISA: https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure
 - The Hacker News: https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html
 - Unit 42: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+- Arctic Wolf: https://arcticwolf.com/resources/blog/active-fortibleed-campaign-impacting-fortinet-devices-across-194-countries/
