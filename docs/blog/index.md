@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [SprySOCKS Windows backdoor variants](../tools/sprysocks.md)
+- [FishMonger](../actors/fishmonger.md)
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [Agent localhost control-plane RCE: AutoJack PyPI pre-release caveat](../patterns/agent-localhost-control-plane-rce.md#pypi-pre-release-caveat)
 - [`@withgoogle/stitch-sdk` scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
+    <item>
+      <title>SprySOCKS Windows backdoor variants</title>
+      <link>https://threat.wiki/tools/sprysocks/</link>
+      <description>Added ESET's June 2026 FishMonger / SprySOCKS research: two Windows variants, WIN_DRV and WIN_PLUS, tied to government-sector activity in Honduras, Taiwan, Thailand, and Pakistan. The new tool and actor pages capture kernel-driver stealth, TCP traffic diversion to hidden listeners, Fonts-directory encrypted containers, transient fsdiskbit.sys / msidiskserver driver loading, C2 protocol support, and caveated UEFI bootkit telemetry.</description>
+      <pubDate>Sun, 21 Jun 2026 15:28:29 GMT</pubDate>
+      <guid>https://threat.wiki/tools/sprysocks/</guid>
+    </item>
     <title>threat.wiki</title>
     <link>https://threat.wiki/</link>
     <description>Threat intelligence notes, group profiles, named-person records, and defensive guidance.</description>
