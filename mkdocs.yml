@@ -143,6 +143,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - UNC6508: actors/unc6508.md
       - FishMonger: actors/fishmonger.md
       - Velvet Ant: actors/velvet-ant.md
       - Void Dokkaebi: actors/void-dokkaebi.md

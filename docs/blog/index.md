@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [UNC6508](../actors/unc6508.md)
 - [SprySOCKS Windows backdoor variants](../tools/sprysocks.md)
 - [FishMonger](../actors/fishmonger.md)
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)

@@ -9,6 +9,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [4sync](#4sync) (1)
 - [Ababil of Minab](#ababil-of-minab) (1)
 - [abuse response](#abuse-response) (1)
+- [academic research](#academic-research) (1)
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
@@ -80,6 +81,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASP.NET](#aspnet) (2)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [Astro](#astro) (1)
+- [ASUS router](#asus-router) (1)
 - [Atlas RAT](#atlas-rat) (1)
 - [AUDIOFIX](#audiofix) (2)
 - [AUR](#aur) (1)
@@ -156,7 +158,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [checkpointers](#checkpointers) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (5)
-- [China-nexus](#china-nexus) (6)
+- [China-nexus](#china-nexus) (7)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chinese-speaking](#chinese-speaking) (1)
@@ -223,6 +225,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Contagious Interview](#contagious-interview) (2)
 - [container](#container) (1)
 - [container escape](#container-escape) (1)
+- [content compliance rules](#content-compliance-rules) (1)
 - [context flooding](#context-flooding) (1)
 - [continuous visibility](#continuous-visibility) (1)
 - [control panel compromise](#control-panel-compromise) (1)
@@ -232,6 +235,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrackMapExec](#crackmapexec) (1)
 - [Crates.io](#cratesio) (1)
 - [credential exposure](#credential-exposure) (2)
+- [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (1)
 - [credential theft](#credential-theft) (20)
@@ -355,6 +359,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [domestic espionage](#domestic-espionage) (1)
 - [DotNetNuke](#dotnetnuke) (1)
 - [double extortion](#double-extortion) (1)
+- [downgrade risk](#downgrade-risk) (1)
 - [DPAPI](#dpapi) (1)
 - [DPAPILoader](#dpapiloader) (1)
 - [DPRK](#dprk) (2)
@@ -384,6 +389,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [EKZ Infostealer](#ekz-infostealer) (1)
 - [Elasticsearch](#elasticsearch) (1)
 - [email](#email) (1)
+- [email exfiltration](#email-exfiltration) (1)
 - [email gateway](#email-gateway) (1)
 - [email infrastructure abuse](#email-infrastructure-abuse) (1)
 - [Emerald Sleet](#emerald-sleet) (1)
@@ -400,7 +406,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (31)
+- [espionage](#espionage) (32)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -496,6 +502,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Drive](#google-drive) (1)
 - [Google Play](#google-play) (1)
 - [Google Stitch](#google-stitch) (1)
+- [Google Threat Intelligence Group](#google-threat-intelligence-group) (1)
 - [government](#government) (2)
 - [government targeting](#government-targeting) (4)
 - [government-impersonation](#government-impersonation) (1)
@@ -504,8 +511,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GRE](#gre) (1)
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (3)
-- [groups](#groups) (10)
+- [groups](#groups) (11)
 - [GS-Netcat](#gs-netcat) (1)
+- [GTIG](#gtig) (1)
 - [GUE](#gue) (1)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
@@ -556,6 +564,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [incident response](#incident-response) (15)
 - [indirect prompt injection](#indirect-prompt-injection) (1)
 - [industrial control](#industrial-control) (1)
+- [INFINITERED](#infinitered) (1)
 - [infostealer](#infostealer) (9)
 - [infrastructure](#infrastructure) (5)
 - [initial access broker](#initial-access-broker) (1)
@@ -681,6 +690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marketplace trust](#marketplace-trust) (1)
 - [Maven Central](#maven-central) (1)
 - [MCP](#mcp) (5)
+- [medical research](#medical-research) (1)
 - [memory-only malware](#memory-only-malware) (1)
 - [MeshCentral](#meshcentral) (2)
 - [MEV bot lure](#mev-bot-lure) (1)
@@ -699,6 +709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Middle East](#middle-east) (2)
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
+- [military research](#military-research) (1)
 - [MiniJunk](#minijunk) (1)
 - [MiniPlasma](#miniplasma) (1)
 - [MINIRAT](#minirat) (2)
@@ -760,6 +771,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OAuth](#oauth) (3)
 - [OAuth token exposure](#oauth-token-exposure) (1)
 - [OAuth tokens](#oauth-tokens) (2)
+- [OBF networks](#obf-networks) (1)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
 - [OIDC](#oidc) (4)
@@ -856,6 +868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PraisonAI](#praisonai) (1)
 - [PRC](#prc) (1)
 - [PRC-aligned](#prc-aligned) (1)
+- [PRC-nexus](#prc-nexus) (1)
 - [pre-authentication](#pre-authentication) (1)
 - [preinstall](#preinstall) (2)
 - [Primitive Bear](#primitive-bear) (1)
@@ -905,6 +918,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [recovery denial](#recovery-denial) (1)
 - [recruitment lures](#recruitment-lures) (1)
 - [Red Dev 10](#red-dev-10) (2)
+- [REDCap](#redcap) (1)
 - [Redis](#redis) (1)
 - [Redis backdoor](#redis-backdoor) (1)
 - [RediSearch](#redisearch) (1)
@@ -1131,6 +1145,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC3753](#unc3753) (1)
 - [UNC4736](#unc4736) (1)
 - [UNC6240](#unc6240) (2)
+- [UNC6508](#unc6508) (1)
 - [UNC6671](#unc6671) (1)
 - [UNC6692](#unc6692) (2)
 - [UNC6780](#unc6780) (1)
@@ -1185,7 +1200,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web application](#web-application) (4)
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
-- [web shell](#web-shell) (4)
+- [web shell](#web-shell) (5)
 - [web supply chain](#web-supply-chain) (1)
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
@@ -1246,6 +1261,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## abuse response
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
+## academic research
+- [UNC6508](../actors/unc6508.md)
 
 ## Accellion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -1532,6 +1550,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Astro
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 
+## ASUS router
+- [UNC6508](../actors/unc6508.md)
+
 ## Atlas RAT
 - [TA4922](../actors/ta4922.md)
 
@@ -1803,6 +1824,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [UNC6508](../actors/unc6508.md)
 - [Velvet Ant](../actors/velvet-ant.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -2081,6 +2103,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## container escape
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 
+## content compliance rules
+- [UNC6508](../actors/unc6508.md)
+
 ## context flooding
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
@@ -2110,6 +2135,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## credential exposure
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
+## credential harvesting
+- [UNC6508](../actors/unc6508.md)
 
 ## credential spraying
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
@@ -2616,6 +2644,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## double extortion
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## downgrade risk
+- [UNC6508](../actors/unc6508.md)
+
 ## DPAPI
 - [RemotePE](../tools/remotepe.md)
 
@@ -2713,6 +2744,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## email
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 
+## email exfiltration
+- [UNC6508](../actors/unc6508.md)
+
 ## email gateway
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
@@ -2790,6 +2824,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](../actors/sidecopy.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+- [UNC6508](../actors/unc6508.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [Velvet Ant](../actors/velvet-ant.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
@@ -3144,6 +3179,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Google Stitch
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 
+## Google Threat Intelligence Group
+- [UNC6508](../actors/unc6508.md)
+
 ## government
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
@@ -3182,12 +3220,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OP-512](../actors/op-512.md)
 - [TA4922](../actors/ta4922.md)
 - [UNC3753](../actors/unc3753.md)
+- [UNC6508](../actors/unc6508.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [Webworm](../actors/webworm.md)
 
 ## GS-Netcat
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+
+## GTIG
+- [UNC6508](../actors/unc6508.md)
 
 ## GUE
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -3364,6 +3406,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## industrial control
 - [Fast16](../tools/fast16.md)
+
+## INFINITERED
+- [UNC6508](../actors/unc6508.md)
 
 ## infostealer
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -3835,6 +3880,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
+## medical research
+- [UNC6508](../actors/unc6508.md)
+
 ## memory-only malware
 - [RemotePE](../tools/remotepe.md)
 
@@ -3901,6 +3949,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Midnight Blizzard
 - [ROADtools](../tools/roadtools.md)
+
+## military research
+- [UNC6508](../actors/unc6508.md)
 
 ## MiniJunk
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -4140,6 +4191,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OAuth tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
+
+## OBF networks
+- [UNC6508](../actors/unc6508.md)
 
 ## obfuscation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -4761,6 +4815,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PRC-aligned
 - [Showboat](../tools/showboat.md)
 
+## PRC-nexus
+- [UNC6508](../actors/unc6508.md)
+
 ## pre-authentication
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
@@ -4963,6 +5020,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Red Dev 10
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
+
+## REDCap
+- [UNC6508](../actors/unc6508.md)
 
 ## Redis
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -5835,6 +5895,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 
+## UNC6508
+- [UNC6508](../actors/unc6508.md)
+
 ## UNC6671
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
@@ -6034,6 +6097,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+- [UNC6508](../actors/unc6508.md)
 
 ## web supply chain
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)

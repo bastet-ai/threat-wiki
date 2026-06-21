@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>UNC6508</title>
+      <link>https://threat.wiki/actors/unc6508/</link>
+      <description>Added GTIG's UNC6508 reporting: a high-confidence PRC-nexus espionage cluster targeting North American academic, medical, military, and health-policy organizations through REDCap compromise, INFINITERED credential harvesting / backdoor persistence, and mail content-compliance rule abuse for silent BCC exfiltration. The page captures REDCap legacy-version risk, INFINITERED host artifacts, administrator credential replay, OBF network use, and SaaS mail-control-plane hunting guidance.</description>
+      <pubDate>Sun, 21 Jun 2026 17:29:07 GMT</pubDate>
+      <guid>https://threat.wiki/actors/unc6508/</guid>
+    </item>
+    <item>
       <title>SprySOCKS Windows backdoor variants</title>
       <link>https://threat.wiki/tools/sprysocks/</link>
       <description>Added ESET's June 2026 FishMonger / SprySOCKS research: two Windows variants, WIN_DRV and WIN_PLUS, tied to government-sector activity in Honduras, Taiwan, Thailand, and Pakistan. The new tool and actor pages capture kernel-driver stealth, TCP traffic diversion to hidden listeners, Fonts-directory encrypted containers, transient fsdiskbit.sys / msidiskserver driver loading, C2 protocol support, and caveated UEFI bootkit telemetry.</description>
