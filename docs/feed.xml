@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Cloud bucket namespace hijacking</title>
+      <link>https://threat.wiki/patterns/cloud-bucket-namespace-hijacking/</link>
+      <description>Added a reusable cloud-storage pattern from Unit 42's June 22, 2026 global namespace bucket-hijacking research: deleted and recreated object-storage destinations can redirect continuing data streams from Cloud Logging, Pub/Sub, Storage Transfer Service, S3 replication, Amazon Data Firehose, and Azure Monitor diagnostics. The page captures the no-known-in-the-wild caveat, cross-cloud mechanics, storage-delete least privilege, data perimeter controls, deletion alerts, and destination-owner verification.</description>
+      <pubDate>Mon, 22 Jun 2026 23:26:41 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/cloud-bucket-namespace-hijacking/</guid>
+    </item>
+    <item>
       <title>AI-agent memory poisoning</title>
       <link>https://threat.wiki/patterns/ai-agent-memory-poisoning/</link>
       <description>Added a reusable defender pattern from Microsoft's June 22, 2026 AI memory guidance: persistent agent memory turns one-shot prompt-injection risk into delayed, stateful influence over later tool calls. The page captures memory poisoning, delayed tool execution, provenance requirements, write-time and retrieval-time risk checks, memory audit logging, Defender / Sentinel MemoryUpdated telemetry, and incident-response guidance for preserving and removing poisoned memory.</description>

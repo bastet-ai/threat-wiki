@@ -98,10 +98,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AutoJack](#autojack) (1)
 - [AWS](#aws) (3)
 - [AWS CloudTrail](#aws-cloudtrail) (1)
-- [AWS S3](#aws-s3) (1)
+- [AWS S3](#aws-s3) (2)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
 - [axios](#axios) (1)
 - [Azure](#azure) (3)
+- [Azure Storage](#azure-storage) (1)
 - [Backblaze](#backblaze) (1)
 - [backdoor](#backdoor) (8)
 - [backup disruption](#backup-disruption) (1)
@@ -142,6 +143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser-extensions](#browser-extensions) (2)
 - [browser-security](#browser-security) (1)
 - [BTMOB](#btmob) (1)
+- [bucket hijacking](#bucket-hijacking) (1)
 - [bucket squatting](#bucket-squatting) (1)
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
@@ -200,8 +202,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud infrastructure](#cloud-infrastructure) (1)
 - [cloud logging](#cloud-logging) (1)
 - [cloud secrets](#cloud-secrets) (3)
-- [cloud security](#cloud-security) (2)
+- [cloud security](#cloud-security) (3)
 - [cloud service abuse](#cloud-service-abuse) (1)
+- [cloud storage](#cloud-storage) (1)
 - [cloud transcoding](#cloud-transcoding) (1)
 - [Cloudflare](#cloudflare) (2)
 - [Cloudflare Tunnel](#cloudflare-tunnel) (1)
@@ -324,7 +327,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cython](#cython) (1)
 - [Czech Republic](#czech-republic) (1)
 - [D-Link](#d-link) (1)
-- [data exfiltration](#data-exfiltration) (3)
+- [dangling resources](#dangling-resources) (1)
+- [data exfiltration](#data-exfiltration) (4)
 - [data exposure](#data-exposure) (1)
 - [data leak site](#data-leak-site) (2)
 - [data theft](#data-theft) (4)
@@ -520,6 +524,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Chrome](#google-chrome) (1)
 - [Google Cloud](#google-cloud) (1)
 - [Google Cloud Logging](#google-cloud-logging) (1)
+- [Google Cloud Storage](#google-cloud-storage) (1)
 - [Google Drive](#google-drive) (1)
 - [Google Play](#google-play) (1)
 - [Google Stitch](#google-stitch) (1)
@@ -654,6 +659,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus](#lazarus) (4)
 - [LD_PRELOAD](#ld_preload) (2)
 - [leaked credentials](#leaked-credentials) (1)
+- [least privilege](#least-privilege) (1)
 - [legacy infrastructure](#legacy-infrastructure) (1)
 - [legacy software](#legacy-software) (1)
 - [legal sector](#legal-sector) (1)
@@ -682,6 +688,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [local-file-inclusion](#local-file-inclusion) (1)
 - [localhost](#localhost) (1)
 - [log poisoning](#log-poisoning) (1)
+- [logging](#logging) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
 - [LONGSTREAM](#longstream) (1)
@@ -776,6 +783,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MYRA](#myra) (1)
 - [named pipes](#named-pipes) (1)
 - [namespace recycling](#namespace-recycling) (1)
+- [namespace squatting](#namespace-squatting) (1)
 - [nation-state](#nation-state) (1)
 - [native addon](#native-addon) (1)
 - [NATS](#nats) (1)
@@ -861,7 +869,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [password spraying](#password-spraying) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
-- [patterns](#patterns) (21)
+- [patterns](#patterns) (22)
 - [payload staging](#payload-staging) (1)
 - [payment fraud](#payment-fraud) (1)
 - [payment-card theft](#payment-card-theft) (2)
@@ -982,6 +990,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
+- [replication](#replication) (1)
 - [repository poisoning](#repository-poisoning) (1)
 - [residential proxies](#residential-proxies) (1)
 - [REST C2](#rest-c2) (1)
@@ -1676,6 +1685,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 
 ## AWS S3
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## AWS Secrets Manager
@@ -1688,6 +1698,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [ROADtools](../tools/roadtools.md)
+
+## Azure Storage
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
 ## Backblaze
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -1825,6 +1838,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BTMOB
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
+## bucket hijacking
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
 ## bucket squatting
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
@@ -2075,11 +2091,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## cloud security
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
 ## cloud service abuse
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+
+## cloud storage
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
 ## cloud transcoding
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -2563,9 +2583,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## D-Link
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
+## dangling resources
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+
 ## data exfiltration
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## data exposure
@@ -3305,6 +3329,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Google Cloud Logging
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 
+## Google Cloud Storage
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+
 ## Google Drive
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -3793,6 +3820,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## leaked credentials
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
+## least privilege
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+
 ## legacy infrastructure
 - [OP-512](../actors/op-512.md)
 
@@ -3904,6 +3934,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## log poisoning
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+
+## logging
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
 ## long-lived tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -4240,6 +4273,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## namespace recycling
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
+
+## namespace squatting
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
 ## nation-state
 - [ROADtools](../tools/roadtools.md)
@@ -4825,6 +4861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
@@ -5322,6 +5359,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RemotePELoader
 - [RemotePE](../tools/remotepe.md)
+
+## replication
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
 ## repository poisoning
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
