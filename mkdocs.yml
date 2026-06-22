@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - AryStinger legacy-router recon proxy network: ops/arystinger-legacy-router-recon-proxy-network.md
       - '@withgoogle/stitch-sdk scope squat': ops/withgoogle-stitch-sdk-scope-squat.md
       - Gravity SMTP CVE-2026-4020 exploitation: ops/gravity-smtp-cve-2026-4020-exploitation.md
       - Operation Endgame SocGholish disruption: ops/operation-endgame-socgholish-disruption.md

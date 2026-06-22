@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>AryStinger legacy-router recon proxy network</title>
+      <link>https://threat.wiki/ops/arystinger-legacy-router-recon-proxy-network/</link>
+      <description>Added coverage for QiAnXin XLab's AryStinger report: a legacy-router and NAS bot family that compromises RTL819X-era Linksys and D-Link routers via CVE-2013-3307 / CVE-2016-5681 and QNAP Malware Remover via CVE-2025-11837 to build reconnaissance, tunneling, and proxy infrastructure. The page captures the 4,300+ RTL819X-router measurement, D-Link DIR-850L concentration, Protobuf plus XOR C2, syswapd0 artifacts, Dropbear / gs-netcat persistence, and defender pivots for retiring unsupported edge devices and hunting ajb8 / dataexplore infrastructure.</description>
+      <pubDate>Mon, 22 Jun 2026 09:27:36 GMT</pubDate>
+      <guid>https://threat.wiki/ops/arystinger-legacy-router-recon-proxy-network/</guid>
+    </item>
+    <item>
       <title>MYRA RAT</title>
       <link>https://threat.wiki/tools/myra-rat/</link>
       <description>Added coverage for SafeDep's June 21, 2026 MYRA / apintergrationpost report: a public npm package that installs a Linux RAT with root-required lifecycle scripts, native LD_PRELOAD and memfd components, cron and profile.d persistence, systemd-userdbd masquerading, HMAC-authenticated TCP C2, and live screen-streaming support. The page includes npm registry version context through 4.1.0 and concrete Linux hunt pivots for files, processes, cron, loader paths, apt logs, and network indicators.</description>

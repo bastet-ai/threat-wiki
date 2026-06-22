@@ -78,6 +78,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS](#arista-eos) (1)
 - [Armageddon](#armageddon) (1)
 - [Artifact Signing](#artifact-signing) (1)
+- [AryStinger](#arystinger) (1)
 - [ASNs](#asns) (1)
 - [ASP.NET](#aspnet) (2)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
@@ -256,6 +257,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cursor](#cursor) (2)
 - [Curve25519](#curve25519) (1)
 - [custody APIs](#custody-apis) (1)
+- [CVE-2013-3307](#cve-2013-3307) (1)
+- [CVE-2016-5681](#cve-2016-5681) (1)
 - [CVE-2020-17103](#cve-2020-17103) (1)
 - [CVE-2022-0492](#cve-2022-0492) (1)
 - [CVE-2023-24932](#cve-2023-24932) (1)
@@ -266,6 +269,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-20399](#cve-2024-20399) (1)
 - [CVE-2024-21182](#cve-2024-21182) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
+- [CVE-2025-11837](#cve-2025-11837) (1)
 - [CVE-2025-32975](#cve-2025-32975) (1)
 - [CVE-2025-34291](#cve-2025-34291) (1)
 - [CVE-2025-48595](#cve-2025-48595) (1)
@@ -310,6 +314,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [Cython](#cython) (1)
 - [Czech Republic](#czech-republic) (1)
+- [D-Link](#d-link) (1)
 - [data exfiltration](#data-exfiltration) (2)
 - [data exposure](#data-exposure) (1)
 - [data leak site](#data-leak-site) (2)
@@ -367,6 +372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DPRK](#dprk) (2)
 - [driver loading](#driver-loading) (1)
 - [DroneLink](#dronelink) (1)
+- [Dropbear](#dropbear) (1)
 - [Dropbox](#dropbox) (1)
 - [dropper](#dropper) (1)
 - [Drupal](#drupal) (1)
@@ -515,6 +521,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (3)
 - [groups](#groups) (11)
+- [gs-netcat](#gs-netcat) (1)
 - [GS-Netcat](#gs-netcat) (1)
 - [GTIG](#gtig) (1)
 - [GUE](#gue) (1)
@@ -578,6 +585,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (2)
+- [IoT botnet](#iot-botnet) (1)
 - [IP-in-IP](#ip-in-ip) (1)
 - [Iran](#iran) (5)
 - [Iran-nexus](#iran-nexus) (1)
@@ -642,6 +650,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [lifecycle-hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
+- [Linksys](#linksys) (1)
 - [Linux](#linux) (16)
 - [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (2)
@@ -796,10 +805,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Endgame](#operation-endgame) (1)
 - [Operation Highland](#operation-highland) (2)
+- [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (124)
+- [operations](#operations) (125)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (123)
+- [ops](#ops) (124)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -893,7 +903,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
 - [protestware](#protestware) (1)
+- [Protobuf](#protobuf) (1)
 - [proxy](#proxy) (5)
+- [proxy network](#proxy-network) (1)
 - [ProxyChains](#proxychains) (1)
 - [PSEMHUB](#psemhub) (1)
 - [PSIGW](#psigw) (1)
@@ -907,7 +919,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PyPI](#pypi) (8)
 - [Python](#python) (3)
 - [Python extension modules](#python-extension-modules) (1)
+- [QiAnXin XLab](#qianxin-xlab) (1)
 - [Qilin](#qilin) (1)
+- [QNAP](#qnap) (1)
 - [query injection](#query-injection) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
 - [RaaS](#raas) (1)
@@ -923,7 +937,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RDP](#rdp) (1)
 - [Reality](#reality) (1)
 - [Reaper](#reaper) (1)
-- [reconnaissance](#reconnaissance) (1)
+- [reconnaissance](#reconnaissance) (2)
 - [recovery denial](#recovery-denial) (1)
 - [recruitment lures](#recruitment-lures) (1)
 - [Red Dev 10](#red-dev-10) (2)
@@ -957,7 +971,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RomulusLoader](#romulusloader) (1)
 - [root execution](#root-execution) (1)
 - [rootkit](#rootkit) (4)
+- [router malware](#router-malware) (1)
 - [RSA](#rsa) (1)
+- [RTL819X](#rtl819x) (1)
 - [RubyGems](#rubygems) (2)
 - [Runner.Worker](#runnerworker) (1)
 - [Russia](#russia) (6)
@@ -1247,6 +1263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XenoRAT](#xenorat) (2)
 - [XMLDecoder](#xmldecoder) (1)
 - [XMRig](#xmrig) (3)
+- [XOR](#xor) (1)
 - [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
 - [Yanbian](#yanbian) (1)
@@ -1552,6 +1569,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Artifact Signing
 - [Fox Tempest](../actors/fox-tempest.md)
+
+## AryStinger
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## ASNs
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
@@ -2288,6 +2308,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## custody APIs
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
+## CVE-2013-3307
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
+## CVE-2016-5681
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
 ## CVE-2020-17103
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
@@ -2318,6 +2344,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2024-3094
 - [JiaT75](../people/jiat75.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## CVE-2025-11837
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## CVE-2025-32975
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
@@ -2464,6 +2493,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Czech Republic
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+
+## D-Link
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## data exfiltration
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -2681,6 +2713,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DroneLink
 - [GREYVIBE](../actors/greyvibe.md)
+
+## Dropbear
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## Dropbox
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -3247,6 +3282,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [Webworm](../actors/webworm.md)
 
+## gs-netcat
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
 ## GS-Netcat
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 
@@ -3478,6 +3516,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
+## IoT botnet
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
 ## IP-in-IP
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
@@ -3696,6 +3737,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LinkedIn
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+
+## Linksys
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## Linux
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
@@ -4295,6 +4339,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Velvet Ant](../actors/velvet-ant.md)
 
+## operational relay box
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
 ## operational resilience
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
@@ -4310,6 +4357,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -4439,6 +4487,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -4926,12 +4975,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## protestware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## Protobuf
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
 ## proxy
 - [First VPN](../tools/first-vpn.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Webworm](../actors/webworm.md)
+
+## proxy network
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## ProxyChains
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -4981,8 +5036,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Python extension modules
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
+## QiAnXin XLab
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
 ## Qilin
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+
+## QNAP
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## query injection
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -5057,6 +5118,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
 ## reconnaissance
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
 ## recovery denial
@@ -5170,8 +5232,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
 
+## router malware
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
 ## RSA
 - [OP-512](../actors/op-512.md)
+
+## RTL819X
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## RubyGems
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -6300,6 +6368,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
+## XOR
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## XSS.is
 - [First VPN](../tools/first-vpn.md)

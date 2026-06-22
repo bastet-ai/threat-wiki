@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [AryStinger legacy-router recon proxy network](ops/arystinger-legacy-router-recon-proxy-network.md)
 - [MYRA RAT](tools/myra-rat.md)
 - [Oracle PeopleSoft CVE-2026-35273: PSIGW / PSEMHUB chain analysis](ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [UNC6508](actors/unc6508.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Agent localhost control-plane RCE: AutoJack PyPI pre-release caveat](patterns/agent-localhost-control-plane-rce.md#pypi-pre-release-caveat)
 - [`@withgoogle/stitch-sdk` scope squat](ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Malicious infrastructure provider concentration](patterns/malicious-infrastructure-provider-concentration.md)
-- [Gravity SMTP CVE-2026-4020 exploitation](ops/gravity-smtp-cve-2026-4020-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

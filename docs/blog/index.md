@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Oracle PeopleSoft CVE-2026-35273: PSIGW / PSEMHUB chain analysis](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [UNC6508](../actors/unc6508.md)
