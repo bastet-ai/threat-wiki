@@ -144,7 +144,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [build-time compromise](#build-time-compromise) (1)
 - [Bun](#bun) (1)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
-- [BYOVD](#byovd) (1)
+- [BYOVD](#byovd) (2)
 - [C2](#c2) (8)
 - [CageFS](#cagefs) (1)
 - [Canada](#canada) (1)
@@ -202,6 +202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud service abuse](#cloud-service-abuse) (1)
 - [cloud transcoding](#cloud-transcoding) (1)
 - [Cloudflare](#cloudflare) (2)
+- [Cloudflare Tunnel](#cloudflare-tunnel) (1)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Workers](#cloudflare-workers) (2)
 - [CloudLinux](#cloudlinux) (1)
@@ -243,7 +244,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (1)
 - [credential theft](#credential-theft) (20)
-- [credential-theft](#credential-theft) (43)
+- [credential-theft](#credential-theft) (44)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (2)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -271,10 +272,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-20399](#cve-2024-20399) (1)
 - [CVE-2024-21182](#cve-2024-21182) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
+- [CVE-2025-11371](#cve-2025-11371) (1)
 - [CVE-2025-11837](#cve-2025-11837) (1)
 - [CVE-2025-32975](#cve-2025-32975) (1)
 - [CVE-2025-34291](#cve-2025-34291) (1)
 - [CVE-2025-48595](#cve-2025-48595) (1)
+- [CVE-2025-49704](#cve-2025-49704) (1)
+- [CVE-2025-49706](#cve-2025-49706) (1)
 - [CVE-2025-8088](#cve-2025-8088) (3)
 - [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-10520](#cve-2026-10520) (1)
@@ -360,7 +364,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
 - [DLL side-loading](#dll-side-loading) (3)
-- [DLL sideloading](#dll-sideloading) (6)
+- [DLL sideloading](#dll-sideloading) (7)
 - [DNS C2](#dns-c2) (2)
 - [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
@@ -576,6 +580,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [import-time execution](#import-time-execution) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [incident response](#incident-response) (15)
+- [incident-response](#incident-response) (1)
 - [indirect prompt injection](#indirect-prompt-injection) (1)
 - [industrial control](#industrial-control) (1)
 - [INFINITERED](#infinitered) (1)
@@ -670,6 +675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [loader](#loader) (1)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (1)
+- [local-file-inclusion](#local-file-inclusion) (1)
 - [localhost](#localhost) (1)
 - [log poisoning](#log-poisoning) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
@@ -787,6 +793,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm tokens](#npm-tokens) (1)
 - [npx](#npx) (1)
+- [NSecKrnl.sys](#nseckrnlsys) (1)
+- [NTDS.dit](#ntdsdit) (1)
 - [NTFS ADS](#ntfs-ads) (2)
 - [NTLM](#ntlm) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
@@ -816,9 +824,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (127)
+- [operations](#operations) (128)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (126)
+- [ops](#ops) (127)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -843,6 +851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAM](#pam) (2)
 - [PAN-OS](#pan-os) (1)
+- [parallel-intrusion](#parallel-intrusion) (1)
 - [password spraying](#password-spraying) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
@@ -937,7 +946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA](#quest-kace-sma) (1)
 - [RaaS](#raas) (1)
 - [RAM disk](#ram-disk) (1)
-- [ransomware](#ransomware) (4)
+- [ransomware](#ransomware) (5)
 - [ransomware-access](#ransomware-access) (1)
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAT](#rat) (19)
@@ -1034,7 +1043,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [share propagation](#share-propagation) (1)
 - [shared hosting](#shared-hosting) (3)
 - [shared secrets](#shared-secrets) (1)
-- [SharePoint](#sharepoint) (1)
+- [SharePoint](#sharepoint) (2)
 - [ShinyHunters](#shinyhunters) (2)
 - [Shuckworm](#shuckworm) (1)
 - [SideCopy](#sidecopy) (1)
@@ -1099,6 +1108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stealer](#stealer) (2)
 - [stock exchange](#stock-exchange) (1)
 - [storage deletion](#storage-deletion) (1)
+- [Storm-2603](#storm-2603) (1)
 - [Storm-2697](#storm-2697) (1)
 - [Storm-3075](#storm-3075) (1)
 - [STUN](#stun) (1)
@@ -1202,6 +1212,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ValleyRAT](#valleyrat) (1)
 - [VBCloud](#vbcloud) (1)
 - [VBScript](#vbscript) (3)
+- [Velociraptor](#velociraptor) (1)
 - [Velvet Ant](#velvet-ant) (2)
 - [VELVETSHELL](#velvetshell) (1)
 - [vendor compromise](#vendor-compromise) (1)
@@ -1215,6 +1226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ViewState deserialization](#viewstate-deserialization) (1)
 - [virtualization](#virtualization) (1)
 - [vishing](#vishing) (2)
+- [Visual Studio Code Remote SSH](#visual-studio-code-remote-ssh) (1)
 - [VLESS](#vless) (1)
 - [vManage](#vmanage) (1)
 - [VMware](#vmware) (2)
@@ -1285,6 +1297,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
 - [zero-day](#zero-day) (3)
+- [Zoho Assist](#zoho-assist) (1)
 
 ## .NET
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -1810,6 +1823,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## BYOVD
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## C2
@@ -2058,6 +2072,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
+## Cloudflare Tunnel
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
 ## Cloudflare tunnels
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -2261,6 +2278,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [TA4922](../actors/ta4922.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
@@ -2365,6 +2383,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JiaT75](../people/jiat75.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## CVE-2025-11371
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
 ## CVE-2025-11837
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
@@ -2376,6 +2397,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2025-48595
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+
+## CVE-2025-49704
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
+## CVE-2025-49706
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## CVE-2025-8088
 - [Gamaredon](../actors/gamaredon.md)
@@ -2691,6 +2718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## DNS C2
 - [OP-512](../actors/op-512.md)
@@ -3488,6 +3516,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
+## incident-response
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
 ## indirect prompt injection
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
@@ -3840,6 +3871,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## local privilege escalation
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+
+## local-file-inclusion
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## localhost
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -4289,6 +4323,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## npx
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
+## NSecKrnl.sys
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
+## NTDS.dit
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
 ## NTFS ADS
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
@@ -4504,6 +4544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -4635,6 +4676,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -4729,6 +4771,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PAN-OS
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+
+## parallel-intrusion
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## password spraying
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -5119,6 +5164,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## ransomware-access
@@ -5483,6 +5529,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SharePoint
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## ShinyHunters
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -5709,6 +5756,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## storage deletion
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+
+## Storm-2603
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## Storm-2697
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -6147,6 +6197,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
+## Velociraptor
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
 ## Velvet Ant
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Velvet Ant](../actors/velvet-ant.md)
@@ -6188,6 +6241,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vishing
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [UNC3753](../actors/unc3753.md)
+
+## Visual Studio Code Remote SSH
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## VLESS
 - [First VPN](../tools/first-vpn.md)
@@ -6466,3 +6522,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
+## Zoho Assist
+- [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)

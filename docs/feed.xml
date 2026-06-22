@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Storm-2603 parallel SharePoint ransomware intrusion</title>
+      <link>https://threat.wiki/ops/storm-2603-parallel-sharepoint-ransomware-intrusion/</link>
+      <description>Added coverage for Microsoft Incident Response's June 22, 2026 Cyberattack Series No. 9: a ransomware investigation where Storm-2603 SharePoint-focused activity overlapped with a second unnamed actor in the same environment. The page captures SharePoint vulnerability targeting and local-file-inclusion probing, Velociraptor SYSTEM execution, Cloudflare Tunnel, Zoho Assist, VS Code Remote SSH, rogue administrator creation, NSecKrnl.sys BYOVD defense evasion, DLL sideloading, NTDS.dit archive theft, and incident-response guidance for splitting parallel activity streams before attribution.</description>
+      <pubDate>Mon, 22 Jun 2026 17:27:26 GMT</pubDate>
+      <guid>https://threat.wiki/ops/storm-2603-parallel-sharepoint-ransomware-intrusion/</guid>
+    </item>
+    <item>
       <title>postcss-minify-selector-parser npm RAT</title>
       <link>https://threat.wiki/ops/postcss-minify-selector-parser-npm-rat/</link>
       <description>Added coverage for JFrog Security Research's June 22, 2026 PostCSS-themed npm package cluster: postcss-minify-selector-parser, postcss-minify-selector, and aes-decode-runner-pro. The page captures import-time JavaScript execution through index.js and src/config/defaults.js, an AES-decoded PowerShell downloader, nvidiadriver[.]net Windows bundle staging, a bundled Python 3.10 / Nuitka RAT, Chrome credential theft, HKCU Run persistence, and concrete Windows developer-endpoint hunting pivots.</description>

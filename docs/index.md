@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Storm-2603 parallel SharePoint ransomware intrusion](ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [postcss-minify-selector-parser npm RAT](ops/postcss-minify-selector-parser-npm-rat.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [AryStinger legacy-router recon proxy network](ops/arystinger-legacy-router-recon-proxy-network.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [SprySOCKS Windows backdoor variants](tools/sprysocks.md)
 - [FishMonger](actors/fishmonger.md)
 - [ClickOnce COM hijacking abuse](patterns/clickonce-com-hijacking-abuse.md)
-- [Agent localhost control-plane RCE: AutoJack PyPI pre-release caveat](patterns/agent-localhost-control-plane-rce.md#pypi-pre-release-caveat)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
