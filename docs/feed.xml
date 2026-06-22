@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>postcss-minify-selector-parser npm RAT</title>
+      <link>https://threat.wiki/ops/postcss-minify-selector-parser-npm-rat/</link>
+      <description>Added coverage for JFrog Security Research's June 22, 2026 PostCSS-themed npm package cluster: postcss-minify-selector-parser, postcss-minify-selector, and aes-decode-runner-pro. The page captures import-time JavaScript execution through index.js and src/config/defaults.js, an AES-decoded PowerShell downloader, nvidiadriver[.]net Windows bundle staging, a bundled Python 3.10 / Nuitka RAT, Chrome credential theft, HKCU Run persistence, and concrete Windows developer-endpoint hunting pivots.</description>
+      <pubDate>Mon, 22 Jun 2026 15:26:13 GMT</pubDate>
+      <guid>https://threat.wiki/ops/postcss-minify-selector-parser-npm-rat/</guid>
+    </item>
+    <item>
       <title>FFmpeg PixelSmash CVE-2026-8461 media-file RCE</title>
       <link>https://threat.wiki/ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce/</link>
       <description>Added coverage for JFrog Security Research's PixelSmash disclosure: CVE-2026-8461, a heap out-of-bounds write in FFmpeg's MagicYUV decoder that can be triggered by crafted AVI, MKV, or MOV media processed by desktop players, thumbnailers, media servers, preview providers, cloud transcoders, and bundled FFmpeg dependencies. The page captures Jellyfin and Nextcloud exploitation examples, the ASLR-disabled RCE caveat, MagicYUV decoder checks, FFmpeg 8.1.2 / rebuild mitigation guidance, and triage for automatic media-processing workflows.</description>
