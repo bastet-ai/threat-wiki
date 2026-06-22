@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Oracle PeopleSoft CVE-2026-35273: PSIGW / PSEMHUB chain analysis](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)

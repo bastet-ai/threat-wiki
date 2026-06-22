@@ -199,6 +199,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud secrets](#cloud-secrets) (3)
 - [cloud security](#cloud-security) (2)
 - [cloud service abuse](#cloud-service-abuse) (1)
+- [cloud transcoding](#cloud-transcoding) (1)
 - [Cloudflare](#cloudflare) (2)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Workers](#cloudflare-workers) (2)
@@ -306,6 +307,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-54420](#cve-2026-54420) (1)
 - [CVE-2026-7473](#cve-2026-7473) (1)
+- [CVE-2026-8461](#cve-2026-8461) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [CWE-77](#cwe-77) (1)
@@ -329,7 +331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense evasion](#defense-evasion) (4)
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
-- [denial of service](#denial-of-service) (1)
+- [denial of service](#denial-of-service) (2)
 - [Deno](#deno) (2)
 - [dependency confusion](#dependency-confusion) (1)
 - [deployment_status](#deployment_status) (1)
@@ -446,6 +448,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](#fast16) (1)
 - [FastCGI](#fastcgi) (1)
 - [FBI](#fbi) (1)
+- [FFmpeg](#ffmpeg) (1)
 - [FIFA](#fifa) (1)
 - [file-system filter](#file-system-filter) (1)
 - [FileFiend](#filefiend) (1)
@@ -600,6 +603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript tampering](#javascript-tampering) (1)
 - [JCE](#jce) (1)
 - [JDY](#jdy) (1)
+- [Jellyfin](#jellyfin) (1)
 - [JetBrains](#jetbrains) (1)
 - [JetBrains Marketplace](#jetbrains-marketplace) (1)
 - [JetStream](#jetstream) (1)
@@ -683,6 +687,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [machine-learning](#machine-learning) (1)
 - [macOS](#macos) (6)
 - [Magento](#magento) (1)
+- [MagicYUV](#magicyuv) (1)
 - [mailbox theft](#mailbox-theft) (1)
 - [maintainer compromise](#maintainer-compromise) (2)
 - [maintainer persona](#maintainer-persona) (1)
@@ -703,6 +708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marketplace trust](#marketplace-trust) (1)
 - [Maven Central](#maven-central) (1)
 - [MCP](#mcp) (5)
+- [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
 - [memfd](#memfd) (1)
 - [memory-only malware](#memory-only-malware) (1)
@@ -766,6 +772,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Netherlands](#netherlands) (1)
 - [NetScaler](#netscaler) (1)
 - [network infrastructure](#network-infrastructure) (1)
+- [Nextcloud](#nextcloud) (1)
 - [nf_tables](#nf_tables) (1)
 - [nftables](#nftables) (1)
 - [Nginx](#nginx) (1)
@@ -807,9 +814,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (125)
+- [operations](#operations) (126)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (124)
+- [ops](#ops) (125)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -866,6 +873,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pig-butchering](#pig-butchering) (1)
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
+- [PixelSmash](#pixelsmash) (1)
 - [PKGBUILD](#pkgbuild) (1)
 - [plaintext HTTP](#plaintext-http) (1)
 - [PLENET](#plenet) (2)
@@ -951,7 +959,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (3)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (5)
+- [remote code execution](#remote-code-execution) (6)
 - [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
@@ -1002,6 +1010,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm](#seedworm) (1)
 - [segmented networks](#segmented-networks) (1)
 - [self-hosted AI services](#self-hosted-ai-services) (1)
+- [self-hosted media](#self-hosted-media) (1)
 - [self-propagation](#self-propagation) (1)
 - [sendit.sh](#senditsh) (1)
 - [sensitive information exposure](#sensitive-information-exposure) (1)
@@ -1092,7 +1101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [subject claim](#subject-claim) (1)
-- [supply chain](#supply-chain) (2)
+- [supply chain](#supply-chain) (3)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (68)
 - [symlink following](#symlink-following) (1)
@@ -1133,6 +1142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [third-party integrations](#third-party-integrations) (1)
 - [threat hunting](#threat-hunting) (1)
 - [ThrottleBlood](#throttleblood) (1)
+- [thumbnail generation](#thumbnail-generation) (1)
 - [TinyGo](#tinygo) (1)
 - [tj-actions](#tj-actions) (1)
 - [token replay](#token-replay) (1)
@@ -2035,6 +2045,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud service abuse
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
+## cloud transcoding
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+
 ## Cloudflare
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -2459,6 +2472,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-7473
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
+## CVE-2026-8461
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+
 ## CVE-2026-8732
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
@@ -2553,6 +2569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## denial of service
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
 ## Deno
@@ -2998,6 +3015,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FBI
 - [First VPN](../tools/first-vpn.md)
+
+## FFmpeg
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
 ## FIFA
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
@@ -3571,6 +3591,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JDY
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
+## Jellyfin
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+
 ## JetBrains
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
@@ -3869,6 +3892,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Magento
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
+## MagicYUV
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+
 ## mailbox theft
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
@@ -3952,6 +3978,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
+## media processing
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
 ## medical research
 - [UNC6508](../actors/unc6508.md)
@@ -4164,6 +4193,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## network infrastructure
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+
+## Nextcloud
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
 ## nf_tables
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
@@ -4384,6 +4416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -4513,6 +4546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -4829,6 +4863,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+
+## PixelSmash
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
 ## PKGBUILD
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
@@ -5169,6 +5206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
@@ -5346,6 +5384,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## self-hosted AI services
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+
+## self-hosted media
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
 ## self-propagation
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -5663,6 +5704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 
 ## supply chain
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
@@ -5871,6 +5913,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ThrottleBlood
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## thumbnail generation
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
 ## TinyGo
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)

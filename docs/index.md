@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [AryStinger legacy-router recon proxy network](ops/arystinger-legacy-router-recon-proxy-network.md)
 - [MYRA RAT](tools/myra-rat.md)
 - [Oracle PeopleSoft CVE-2026-35273: PSIGW / PSEMHUB chain analysis](ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [ClickOnce COM hijacking abuse](patterns/clickonce-com-hijacking-abuse.md)
 - [Agent localhost control-plane RCE: AutoJack PyPI pre-release caveat](patterns/agent-localhost-control-plane-rce.md#pypi-pre-release-caveat)
 - [`@withgoogle/stitch-sdk` scope squat](ops/withgoogle-stitch-sdk-scope-squat.md)
-- [Malicious infrastructure provider concentration](patterns/malicious-infrastructure-provider-concentration.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
