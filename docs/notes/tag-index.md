@@ -58,6 +58,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [API abuse](#api-abuse) (1)
 - [API key exposure](#api-key-exposure) (1)
 - [API keys](#api-keys) (1)
+- [apintergrationpost](#apintergrationpost) (1)
 - [AppDomainManager](#appdomainmanager) (1)
 - [AppleJeus](#applejeus) (1)
 - [AppleSeed](#appleseed) (1)
@@ -244,6 +245,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [critical infrastructure](#critical-infrastructure) (2)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
+- [cron](#cron) (1)
 - [crypto](#crypto) (2)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (11)
@@ -441,6 +443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FIFA](#fifa) (1)
 - [file-system filter](#file-system-filter) (1)
 - [FileFiend](#filefiend) (1)
+- [fileless execution](#fileless-execution) (1)
 - [filemanager](#filemanager) (1)
 - [filename-injection](#filename-injection) (1)
 - [finance](#finance) (2)
@@ -569,7 +572,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure](#infrastructure) (5)
 - [initial access broker](#initial-access-broker) (1)
 - [initial-access](#initial-access) (3)
-- [install-time execution](#install-time-execution) (1)
+- [install-time execution](#install-time-execution) (2)
 - [install-time-execution](#install-time-execution) (1)
 - [Integration Broker](#integration-broker) (1)
 - [InvisibleFerret](#invisibleferret) (1)
@@ -627,7 +630,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [law enforcement](#law-enforcement) (1)
 - [law-enforcement-disruption](#law-enforcement-disruption) (1)
 - [Lazarus](#lazarus) (4)
-- [LD_PRELOAD](#ld_preload) (1)
+- [LD_PRELOAD](#ld_preload) (2)
 - [leaked credentials](#leaked-credentials) (1)
 - [legacy infrastructure](#legacy-infrastructure) (1)
 - [legacy software](#legacy-software) (1)
@@ -639,7 +642,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [lifecycle-hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
-- [Linux](#linux) (15)
+- [Linux](#linux) (16)
 - [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (2)
 - [living off the land](#living-off-the-land) (1)
@@ -677,7 +680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (3)
-- [malware](#malware) (16)
+- [malware](#malware) (17)
 - [malware analysis](#malware-analysis) (1)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
@@ -692,6 +695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Maven Central](#maven-central) (1)
 - [MCP](#mcp) (5)
 - [medical research](#medical-research) (1)
+- [memfd](#memfd) (1)
 - [memory-only malware](#memory-only-malware) (1)
 - [MeshCentral](#meshcentral) (2)
 - [MEV bot lure](#mev-bot-lure) (1)
@@ -741,9 +745,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
 - [Mustard Tempest](#mustard-tempest) (1)
+- [MYRA](#myra) (1)
 - [named pipes](#named-pipes) (1)
 - [namespace recycling](#namespace-recycling) (1)
 - [nation-state](#nation-state) (1)
+- [native addon](#native-addon) (1)
 - [NATS](#nats) (1)
 - [NCSC-NL](#ncsc-nl) (1)
 - [Nebo](#nebo) (1)
@@ -760,7 +766,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (8)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (34)
+- [npm](#npm) (35)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm tokens](#npm-tokens) (1)
 - [npx](#npx) (1)
@@ -831,7 +837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PebbleDash](#pebbledash) (1)
 - [people](#people) (1)
 - [PeopleTools](#peopletools) (1)
-- [persistence](#persistence) (18)
+- [persistence](#persistence) (19)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
 - [Phantom Gyp](#phantom-gyp) (1)
@@ -861,7 +867,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [post-exploitation](#post-exploitation) (3)
 - [postal-impersonation](#postal-impersonation) (1)
 - [PostgreSQL](#postgresql) (3)
-- [postinstall](#postinstall) (6)
+- [postinstall](#postinstall) (7)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (8)
 - [PowerShower](#powershower) (1)
@@ -881,6 +887,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [process hollowing](#process-hollowing) (2)
 - [process injection](#process-injection) (2)
 - [professional services](#professional-services) (1)
+- [profile.d](#profiled) (1)
 - [prompt injection](#prompt-injection) (4)
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
@@ -908,7 +915,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ransomware](#ransomware) (4)
 - [ransomware-access](#ransomware-access) (1)
 - [rapid exploitation](#rapid-exploitation) (2)
-- [RAT](#rat) (17)
+- [RAT](#rat) (18)
 - [RC4](#rc4) (2)
 - [RCE](#rce) (6)
 - [Rclone](#rclone) (1)
@@ -949,7 +956,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RokRAT](#rokrat) (1)
 - [RomulusLoader](#romulusloader) (1)
 - [root execution](#root-execution) (1)
-- [rootkit](#rootkit) (3)
+- [rootkit](#rootkit) (4)
 - [RSA](#rsa) (1)
 - [RubyGems](#rubygems) (2)
 - [Runner.Worker](#runnerworker) (1)
@@ -961,12 +968,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SaaS](#saas) (3)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
-- [SafeDep](#safedep) (1)
+- [SafeDep](#safedep) (2)
 - [Salesforce](#salesforce) (2)
 - [ScarCruft](#scarcruft) (1)
 - [scheduled task](#scheduled-task) (1)
 - [scheduled tasks](#scheduled-tasks) (3)
 - [scope squatting](#scope-squatting) (1)
+- [screen capture](#screen-capture) (1)
 - [ScreenConnect](#screenconnect) (2)
 - [screenshot theft](#screenshot-theft) (1)
 - [script-injection](#script-injection) (1)
@@ -1068,12 +1076,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [subject claim](#subject-claim) (1)
-- [supply chain](#supply-chain) (1)
+- [supply chain](#supply-chain) (2)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (68)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
+- [systemd-userdbd](#systemd-userdbd) (1)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
 - [TA569](#ta569) (1)
@@ -1115,7 +1124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token-theft](#token-theft) (1)
 - [tool output injection](#tool-output-injection) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (8)
+- [tools](#tools) (9)
 - [Tor](#tor) (3)
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
@@ -1478,6 +1487,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## API keys
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+
+## apintergrationpost
+- [MYRA RAT](../tools/myra-rat.md)
 
 ## AppDomainManager
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -2229,6 +2241,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CRM data theft
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
+## cron
+- [MYRA RAT](../tools/myra-rat.md)
+
 ## crypto
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -2958,6 +2973,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FileFiend
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## fileless execution
+- [MYRA RAT](../tools/myra-rat.md)
+
 ## filemanager
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
@@ -3441,6 +3459,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
 ## install-time execution
+- [MYRA RAT](../tools/myra-rat.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## install-time-execution
@@ -3642,6 +3661,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LD_PRELOAD
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [MYRA RAT](../tools/myra-rat.md)
 
 ## leaked credentials
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -3684,6 +3704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+- [MYRA RAT](../tools/myra-rat.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
@@ -3834,6 +3855,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](../tools/fast16.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [MYRA RAT](../tools/myra-rat.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
@@ -3889,6 +3911,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## medical research
 - [UNC6508](../actors/unc6508.md)
+
+## memfd
+- [MYRA RAT](../tools/myra-rat.md)
 
 ## memory-only malware
 - [RemotePE](../tools/remotepe.md)
@@ -4060,6 +4085,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Mustard Tempest
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
+## MYRA
+- [MYRA RAT](../tools/myra-rat.md)
+
 ## named pipes
 - [OceanLotus](../actors/oceanlotus.md)
 
@@ -4068,6 +4096,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## nation-state
 - [ROADtools](../tools/roadtools.md)
+
+## native addon
+- [MYRA RAT](../tools/myra-rat.md)
 
 ## NATS
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -4145,6 +4176,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [MYRA RAT](../tools/myra-rat.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
@@ -4666,6 +4698,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [MYRA RAT](../tools/myra-rat.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
@@ -4790,6 +4823,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [MYRA RAT](../tools/myra-rat.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -4867,6 +4901,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## professional services
 - [UNC3753](../actors/unc3753.md)
+
+## profile.d
+- [MYRA RAT](../tools/myra-rat.md)
 
 ## prompt injection
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -4982,6 +5019,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [MYRA RAT](../tools/myra-rat.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -5130,6 +5168,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [MYRA RAT](../tools/myra-rat.md)
 
 ## RSA
 - [OP-512](../actors/op-512.md)
@@ -5179,6 +5218,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SafeDep
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+- [MYRA RAT](../tools/myra-rat.md)
 
 ## Salesforce
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -5197,6 +5237,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## scope squatting
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+
+## screen capture
+- [MYRA RAT](../tools/myra-rat.md)
 
 ## ScreenConnect
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -5552,6 +5595,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 
 ## supply chain
+- [MYRA RAT](../tools/myra-rat.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## supply chain compromise
@@ -5635,6 +5679,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SYSTEM
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+
+## systemd-userdbd
+- [MYRA RAT](../tools/myra-rat.md)
 
 ## T3
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
@@ -5787,6 +5834,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](../tools/fast16.md)
 - [First VPN](../tools/first-vpn.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
+- [MYRA RAT](../tools/myra-rat.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)

@@ -133,6 +133,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - MYRA RAT: tools/myra-rat.md
       - SprySOCKS: tools/sprysocks.md
       - The Gentlemen ransomware: tools/the-gentlemen-ransomware.md
       - Fast16: tools/fast16.md

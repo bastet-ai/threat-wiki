@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>MYRA RAT</title>
+      <link>https://threat.wiki/tools/myra-rat/</link>
+      <description>Added coverage for SafeDep's June 21, 2026 MYRA / apintergrationpost report: a public npm package that installs a Linux RAT with root-required lifecycle scripts, native LD_PRELOAD and memfd components, cron and profile.d persistence, systemd-userdbd masquerading, HMAC-authenticated TCP C2, and live screen-streaming support. The page includes npm registry version context through 4.1.0 and concrete Linux hunt pivots for files, processes, cron, loader paths, apt logs, and network indicators.</description>
+      <pubDate>Mon, 22 Jun 2026 07:26:39 GMT</pubDate>
+      <guid>https://threat.wiki/tools/myra-rat/</guid>
+    </item>
+    <item>
       <title>Oracle PeopleSoft CVE-2026-35273: PSIGW / PSEMHUB chain analysis</title>
       <link>https://threat.wiki/ops/oracle-peoplesoft-cve-2026-35273-shinyhunters/</link>
       <description>Updated PeopleSoft CVE-2026-35273 coverage with Trend Micro's PSIGW / PSEMHUB technical chain: unauthenticated Integration Gateway SSRF to localhost PSEMHUB, validateClient bypass, envmetadata staging, Java XMLDecoder deserialization on web-tier restart, in-JVM execution without child-process or beacon telemetry, and new hunt pivots for IBRequest loopback URLs, XML writes, restart correlation, JSP web shells, and outbound SMB coercion.</description>
