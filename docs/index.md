@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [AI-agent memory poisoning](patterns/ai-agent-memory-poisoning.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [postcss-minify-selector-parser npm RAT](ops/postcss-minify-selector-parser-npm-rat.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [UNC6508](actors/unc6508.md)
 - [SprySOCKS Windows backdoor variants](tools/sprysocks.md)
 - [FishMonger](actors/fishmonger.md)
-- [ClickOnce COM hijacking abuse](patterns/clickonce-com-hijacking-abuse.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

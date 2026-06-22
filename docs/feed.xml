@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>AI-agent memory poisoning</title>
+      <link>https://threat.wiki/patterns/ai-agent-memory-poisoning/</link>
+      <description>Added a reusable defender pattern from Microsoft's June 22, 2026 AI memory guidance: persistent agent memory turns one-shot prompt-injection risk into delayed, stateful influence over later tool calls. The page captures memory poisoning, delayed tool execution, provenance requirements, write-time and retrieval-time risk checks, memory audit logging, Defender / Sentinel MemoryUpdated telemetry, and incident-response guidance for preserving and removing poisoned memory.</description>
+      <pubDate>Mon, 22 Jun 2026 21:27:19 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/ai-agent-memory-poisoning/</guid>
+    </item>
+    <item>
       <title>Storm-2603 parallel SharePoint ransomware intrusion</title>
       <link>https://threat.wiki/ops/storm-2603-parallel-sharepoint-ransomware-intrusion/</link>
       <description>Added coverage for Microsoft Incident Response's June 22, 2026 Cyberattack Series No. 9: a ransomware investigation where Storm-2603 SharePoint-focused activity overlapped with a second unnamed actor in the same environment. The page captures SharePoint vulnerability targeting and local-file-inclusion probing, Velociraptor SYSTEM execution, Cloudflare Tunnel, Zoho Assist, VS Code Remote SSH, rogue administrator creation, NSecKrnl.sys BYOVD defense evasion, DLL sideloading, NTDS.dit archive theft, and incident-response guidance for splitting parallel activity streams before attribution.</description>
