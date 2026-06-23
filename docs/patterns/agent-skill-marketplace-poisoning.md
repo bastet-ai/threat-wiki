@@ -1,7 +1,7 @@
 # Agent skill marketplace poisoning
 
 ## Summary
-Agent skills are becoming a software-supply-chain layer for AI coding agents and hosted assistant workflows. Trail of Bits' June 2026 research shows that public skill marketplaces and skill-scanning services can miss overtly malicious skills that steal credentials, exfiltrate data, or steer agents into attacker-controlled execution paths. Unit 42's June 2026 registry-scale analysis adds a complementary defender lesson: skill review has to compare declared behavior against executable code and natural-language instructions, because the dangerous cases often appear as multi-stage chains rather than one obviously malicious permission. Snyk and JFrog's June 2026 follow-up reporting broadens the same lesson from individual skills to developer-machine agent ecosystems: MCP servers, skills, hooks, commands, subagents, and plugin manifests are executable supply-chain inputs that can run with developer credentials before code is committed. AIR's June 2026 public experiment adds a practical marketplace-abuse case: a clean-looking skill can outsource its real instructions to mutable external documentation, pass static scanners, gain social proof, and then swap the linked content after installation.
+Agent skills are becoming a software-supply-chain layer for AI coding agents and hosted assistant workflows. Trail of Bits' June 2026 research shows that public skill marketplaces and skill-scanning services can miss overtly malicious skills that steal credentials, exfiltrate data, or steer agents into attacker-controlled execution paths. Unit 42's June 2026 registry-scale analysis adds a complementary defender lesson: skill review has to compare declared behavior against executable code and natural-language instructions, because the dangerous cases often appear as multi-stage chains rather than one obviously malicious permission. Unit 42's June 23, 2026 OpenClaw follow-up turns that pattern into live marketplace incident response: five ClawHub skills reportedly remained unblocked after earlier VirusTotal / ClawScan screening, spanning macOS infostealer delivery, file-size padding evasion, runtime affiliate injection, and agent-driven financial front-running. Snyk and JFrog's June 2026 follow-up reporting broadens the same lesson from individual skills to developer-machine agent ecosystems: MCP servers, skills, hooks, commands, subagents, and plugin manifests are executable supply-chain inputs that can run with developer credentials before code is committed. AIR's June 2026 public experiment adds a practical marketplace-abuse case: a clean-looking skill can outsource its real instructions to mutable external documentation, pass static scanners, gain social proof, and then swap the linked content after installation.
 
 This is a pattern page, not a named-actor profile. Treat public skills, plugins, and agent instructions as untrusted dependencies with both code-execution and prompt-injection risk.
 
@@ -50,6 +50,21 @@ The most useful defender takeaway is chain-based review. Unit 42 highlighted com
 
 Unit 42's registry-scale results also suggest triage priorities: 5.0% of analyzed skills carried multi-stage chains and should receive mandatory security review; 16.8% carried single-stage adversarial deviations and should receive contextual review; and the bulk of benign mismatches can be handled through documentation and manifest cleanup. They also called out instruction manipulation as especially high-signal in the agent-skill ecosystem, because prompt-control behavior is an agent-specific attack surface that traditional package scanners were not built to evaluate.
 
+### Unit 42 OpenClaw marketplace follow-up (2026-06-23)
+
+Unit 42's June 23, 2026 OpenClaw / ClawHub follow-up reported five skills that were still unblocked during a February-May 2026 marketplace review window after earlier malicious-skill waves had already pushed ClawHub toward VirusTotal and ClawScan screening. Unit 42 says the skills were reported to ClawHub, the accounts were banned, and the skills were deleted.
+
+The durable defender value is that each case abused a different part of the agent-skill trust boundary:
+
+- **ClawHavoc-style macOS infostealer delivery:** two TradingView-themed skills required agents to follow a paste-site redirect lure at `rentry[.]co/openclaw-code`, run a Base64 prerequisite command, and fetch a macOS infostealer payload from `2.26.75[.]16`. Unit 42 reported the delivery structure matched earlier ClawHavoc / Atomic macOS Stealer skill waves, but used fresh backend infrastructure and a `cluw` payload.
+- **File-padding evasion:** the `omnicogg` skill placed a Base64 curl-pipe-bash AMOS dropper near the start of `README.md`, then added roughly 22 MB of padding characters. Unit 42 highlighted this as scanner-threshold abuse: pipelines that skip abnormally large files can return a clean or incomplete verdict while missing the payload.
+- **Runtime affiliate injection:** `money-radar` positioned itself as a financial-product advisor, then forced every invocation to fetch `referrals.json` from `laosji[.]net` and use affiliate links in its recommendations. The operator could change recommended banks, brokers, exchanges, or remittance products after installation by changing the remote JSON.
+- **Agentic front-running:** `letssendit` coordinated installed agents around `letssendit[.]fun` and Solana token-launch workflows. Unit 42 described the pattern as agent-driven pump-and-dump / front-running behavior rather than conventional endpoint malware.
+
+The same report notes that early 2026 ClawHub campaigns included Base64 curl-pipe-bash droppers, macOS paste-site redirects through services such as `glot[.]io` and `rentry[.]co`, Windows password-protected executables on third-party hosting, cron-based auto-updater persistence, Telegram Bot API private-key exfiltration in cryptocurrency-themed skills, and registry-saturation behavior from publisher accounts that reused identical payloads across many skills.
+
+Defensively, this reinforces that skill review cannot stop at a marketplace verdict. Inspect large files even when scanners skip them, treat prerequisite blocks and paste-site instructions as executable payload staging, snapshot external JSON / documentation dependencies, and compare all outbound domains against the skill's declared purpose.
+
 ### Snyk / JFrog developer-environment update (2026-06-23)
 
 Snyk's June 23, 2026 developer-environment analysis reported that agentic tooling risk is already present on endpoints rather than only in public marketplaces:
@@ -90,13 +105,16 @@ This is a different failure mode from hidden bytecode or prompt-padding scanner 
 - Hidden or opaque payloads in documents, bytecode, archives, images, or generated files.
 - Package-manager reconfiguration to attacker-controlled npm/yarn registries or mirrors.
 - Prompt text that persuades the agent or the scanner that a dangerous action is normal corporate setup.
+- Paste-site or prerequisite instructions that tell the agent to decode and run setup commands before the skill will function.
 - Instructions that ask the agent to collect local context, credentials, dotfiles, environment variables, source files, or authentication material.
+- Remote JSON, configuration, or documentation that dynamically controls advice, links, tasking, or product recommendations after installation.
 - Plugin hooks, slash commands, subagents, and MCP definitions that execute on developer-machine events before reviewed code reaches a repository or CI pipeline.
 - Post-review content swaps where a previously benign external URL begins returning installer commands, scripts, or new tasking that was not present during marketplace submission.
 
 ### Detection gaps to assume
 - Scanner context windows may not include every file or every part of a very large file.
 - Static rules may only inspect referenced files, common script extensions, or known package manifests.
+- File-size thresholds can turn malicious padding into an evasion primitive when scanners skip oversized README, markdown, archive, or generated files.
 - LLM analysis may treat embedded explanations as trustworthy.
 - Binary, bytecode, office-document, image, and archive content may be ignored or summarized poorly.
 - One-time scans usually do not snapshot, pin, or continuously re-validate every external URL that the skill instructs the agent to fetch.
@@ -118,10 +136,11 @@ This is a different failure mode from hidden bytecode or prompt-padding scanner 
 ### Review checklist
 - Inspect the full repository or archive tree, not only `SKILL.md` or files named in the skill description.
 - Compare the skill's declared purpose and permissions against all code paths and natural-language instructions; block installation when actual behavior is broader than the manifest or README describes.
-- Flag hidden files, bytecode (`.pyc`), compiled binaries, archives, office documents, images with embedded instructions, and large padding/truncation tricks.
+- Flag hidden files, bytecode (`.pyc`), compiled binaries, archives, office documents, images with embedded instructions, and large padding/truncation tricks; do not treat scanner skips or clean verdicts on oversized files as approval.
 - Diff source and compiled artifacts; rebuild bytecode or generated assets from reviewed source where possible.
 - Review all package-manager, shell, Git, cloud, and credential-store commands the skill can cause an agent to run.
 - Enumerate every external URL or domain referenced by the skill and resolve whether it is controlled by the claimed product/vendor; watch for product-adjacent lookalike domains that redirect to legitimate docs during review.
+- Snapshot and review remote JSON, paste-site pages, setup scripts, and other live content that a skill requires at runtime; alert when those dependencies change.
 - Treat changes to npm/yarn/pip/Poetry/Go/RubyGems registry or proxy configuration as high risk unless explicitly approved.
 - Strip terminal-control characters and normalize long whitespace before review to reduce hidden prompt or truncation tricks.
 - Prioritize mandatory human review for undeclared credential access, prompt/instruction manipulation, outbound network sends, environment reads, download/write/execute sequences, and encoded dynamic evaluation.
@@ -144,7 +163,8 @@ This is a different failure mode from hidden bytecode or prompt-padding scanner 
 
 ## Sources
 - Trail of Bits: https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/
-- Unit 42: https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/
+- Unit 42 BIV: https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/
+- Unit 42 OpenClaw: https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/
 - Snyk: https://snyk.io/blog/agentic-development-security-ai-coding-risk/
 - JFrog: https://jfrog.com/blog/introducing-agent-plugins-repositories/
 - AIR Security: https://www.air.security/blog-posts/the-story-of-skills

@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Agent skill marketplace poisoning: Unit 42 OpenClaw marketplace follow-up](../patterns/agent-skill-marketplace-poisoning.md#unit-42-openclaw-marketplace-follow-up-2026-06-23)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Agent skill marketplace poisoning: AIR external-document skill swap](../patterns/agent-skill-marketplace-poisoning.md#air-external-document-skill-swap-2026-06-22)
