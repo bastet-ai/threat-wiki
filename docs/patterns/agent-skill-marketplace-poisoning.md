@@ -1,7 +1,7 @@
 # Agent skill marketplace poisoning
 
 ## Summary
-Agent skills are becoming a software-supply-chain layer for AI coding agents and hosted assistant workflows. Trail of Bits' June 2026 research shows that public skill marketplaces and skill-scanning services can miss overtly malicious skills that steal credentials, exfiltrate data, or steer agents into attacker-controlled execution paths. Unit 42's June 2026 registry-scale analysis adds a complementary defender lesson: skill review has to compare declared behavior against executable code and natural-language instructions, because the dangerous cases often appear as multi-stage chains rather than one obviously malicious permission. Snyk and JFrog's June 2026 follow-up reporting broadens the same lesson from individual skills to developer-machine agent ecosystems: MCP servers, skills, hooks, commands, subagents, and plugin manifests are executable supply-chain inputs that can run with developer credentials before code is committed.
+Agent skills are becoming a software-supply-chain layer for AI coding agents and hosted assistant workflows. Trail of Bits' June 2026 research shows that public skill marketplaces and skill-scanning services can miss overtly malicious skills that steal credentials, exfiltrate data, or steer agents into attacker-controlled execution paths. Unit 42's June 2026 registry-scale analysis adds a complementary defender lesson: skill review has to compare declared behavior against executable code and natural-language instructions, because the dangerous cases often appear as multi-stage chains rather than one obviously malicious permission. Snyk and JFrog's June 2026 follow-up reporting broadens the same lesson from individual skills to developer-machine agent ecosystems: MCP servers, skills, hooks, commands, subagents, and plugin manifests are executable supply-chain inputs that can run with developer credentials before code is committed. AIR's June 2026 public experiment adds a practical marketplace-abuse case: a clean-looking skill can outsource its real instructions to mutable external documentation, pass static scanners, gain social proof, and then swap the linked content after installation.
 
 This is a pattern page, not a named-actor profile. Treat public skills, plugins, and agent instructions as untrusted dependencies with both code-execution and prompt-injection risk.
 
@@ -62,6 +62,20 @@ Snyk's June 23, 2026 developer-environment analysis reported that agentic toolin
 
 JFrog's June 23, 2026 agent-plugin repository guidance frames agent plugins as packaged executable software rather than preferences or settings. JFrog describes modern plugin packages bundling skills, slash commands, subagents, hooks, and MCP definitions into manifests that local coding engines parse and execute on developer machines. Their key warning is that Git branches, tags, and public repositories are not package registries: a malicious update to a public plugin repository can be pulled by multiple developer workstations and run shell commands in source trees with developer credentials, often without central audit or a fast revocation path.
 
+### AIR external-document skill swap (2026-06-22)
+
+AIR Security published a controlled experiment in which it built a plausible `brand-landingpage` skill around Google's Stitch launch, promoted it through public sharing and an Instagram ad, and reported roughly 26,000 affected agents, including corporate-account agents. AIR's scale claims, "full control" framing, and marketplace pitch should be treated as vendor-reported and not independently verified, but the technique is useful defender material because it matches the structural scanner gap described by Trail of Bits and others.
+
+The important mechanics were:
+
+- The submitted skill did not need an obvious malicious payload in its bundled files.
+- The skill instructed the agent to follow setup instructions from an external documentation link.
+- AIR controlled a plausible Stitch-themed domain and initially redirected it to the legitimate Google Stitch site, making static review of the submitted package look safe.
+- After distribution, AIR changed the external page so the agent would download and run a script; AIR says the demonstration payload only sent the user's email address so affected users could be notified.
+- The trust signals that users and scanners leaned on — marketplace presence, GitHub stars / reputation, and a clean scanner result — did not prove that the content fetched later by the agent was safe.
+
+This is a different failure mode from hidden bytecode or prompt-padding scanner bypasses: even a perfectly scanned package can become unsafe if its execution path depends on mutable web content outside the reviewed artifact.
+
 ## Tradecraft map
 
 ### Initial trust path
@@ -69,6 +83,7 @@ JFrog's June 23, 2026 agent-plugin repository guidance frames agent plugins as p
 - Out-of-band ZIP uploads into hosted or local agent harnesses.
 - Git repository based skill distribution where the whole tree may contain hidden files, binary files, generated artifacts, or assets not referenced by the top-level skill description.
 - Agent plugin repositories or shared branches consumed directly by local coding agents, especially when updates are not pinned to immutable reviewed artifacts.
+- External documentation, setup guides, API references, or "official-looking" product domains that the skill tells the agent to fetch and obey after installation.
 
 ### Execution and abuse paths
 - Agent instructions that call shell, Python, JavaScript, or package-manager commands.
@@ -77,12 +92,14 @@ JFrog's June 23, 2026 agent-plugin repository guidance frames agent plugins as p
 - Prompt text that persuades the agent or the scanner that a dangerous action is normal corporate setup.
 - Instructions that ask the agent to collect local context, credentials, dotfiles, environment variables, source files, or authentication material.
 - Plugin hooks, slash commands, subagents, and MCP definitions that execute on developer-machine events before reviewed code reaches a repository or CI pipeline.
+- Post-review content swaps where a previously benign external URL begins returning installer commands, scripts, or new tasking that was not present during marketplace submission.
 
 ### Detection gaps to assume
 - Scanner context windows may not include every file or every part of a very large file.
 - Static rules may only inspect referenced files, common script extensions, or known package manifests.
 - LLM analysis may treat embedded explanations as trustworthy.
 - Binary, bytecode, office-document, image, and archive content may be ignored or summarized poorly.
+- One-time scans usually do not snapshot, pin, or continuously re-validate every external URL that the skill instructs the agent to fetch.
 - Passing scanner output is not a provenance guarantee and should not be used as an allow decision by itself.
 - Single-capability review can miss malicious chains; treat file reads, encoders, network sends, downloads, writes, dynamic eval, and shell execution as higher-risk when they occur together but are not declared together.
 - Developer endpoint inventory may miss agent runtimes, local MCP servers, skill directories, plugin repositories, and auto-update paths because they sit outside conventional SCA, CI/CD, and repository controls.
@@ -93,6 +110,7 @@ JFrog's June 23, 2026 agent-plugin repository guidance frames agent plugins as p
 - Prefer organization-curated skill catalogs over public marketplaces for sensitive agents.
 - Require human review for new skills, skill updates, and marketplace-originated ZIPs or repositories.
 - Pin skills to reviewed commits or immutable artifacts; do not auto-update from public marketplaces.
+- Pin or vendor external setup documentation that a skill depends on; if a skill must fetch live web content, treat each fetched URL as part of the reviewed supply-chain artifact and re-check it on change.
 - Treat agent plugins as packages: publish reviewed versions to an internal registry or artifact store, require immutable versioning, and avoid consuming mutable public Git branches directly from developer workstations.
 - Maintain an allowlist of approved skills, tool permissions, network destinations, and package registries.
 - Inventory local AI coding environments, MCP servers, installed skills, plugin manifests, hooks, commands, subagents, and their update sources across developer machines.
@@ -103,6 +121,7 @@ JFrog's June 23, 2026 agent-plugin repository guidance frames agent plugins as p
 - Flag hidden files, bytecode (`.pyc`), compiled binaries, archives, office documents, images with embedded instructions, and large padding/truncation tricks.
 - Diff source and compiled artifacts; rebuild bytecode or generated assets from reviewed source where possible.
 - Review all package-manager, shell, Git, cloud, and credential-store commands the skill can cause an agent to run.
+- Enumerate every external URL or domain referenced by the skill and resolve whether it is controlled by the claimed product/vendor; watch for product-adjacent lookalike domains that redirect to legitimate docs during review.
 - Treat changes to npm/yarn/pip/Poetry/Go/RubyGems registry or proxy configuration as high risk unless explicitly approved.
 - Strip terminal-control characters and normalize long whitespace before review to reduce hidden prompt or truncation tricks.
 - Prioritize mandatory human review for undeclared credential access, prompt/instruction manipulation, outbound network sends, environment reads, download/write/execute sequences, and encoded dynamic evaluation.
@@ -113,6 +132,7 @@ JFrog's June 23, 2026 agent-plugin repository guidance frames agent plugins as p
 - Disable or require approval for arbitrary shell commands, package-manager configuration changes, and outbound network access from newly installed skills.
 - Monitor agent runs for reads of `.env`, SSH keys, cloud credential files, GitHub tokens, npm tokens, shell history, browser stores, and package-manager config files.
 - Log marketplace source, skill version/commit, scanner outputs, human approver, and runtime tool calls so incident response can reconstruct exposure.
+- Log and alert on agent fetches of new external documentation domains and on downloaded scripts launched from URLs that were not part of the approved skill snapshot.
 - Add endpoint telemetry for agent-plugin syncs, hook execution, MCP server launches, shell commands spawned by agent runtimes, and unexpected reads of developer credentials before code reaches CI.
 
 ## Related pages
@@ -127,4 +147,6 @@ JFrog's June 23, 2026 agent-plugin repository guidance frames agent plugins as p
 - Unit 42: https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/
 - Snyk: https://snyk.io/blog/agentic-development-security-ai-coding-risk/
 - JFrog: https://jfrog.com/blog/introducing-agent-plugins-repositories/
+- AIR Security: https://www.air.security/blog-posts/the-story-of-skills
+- The Hacker News: https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html
 

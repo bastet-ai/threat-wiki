@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Agent skill marketplace poisoning: AIR external-document skill swap</title>
+      <link>https://threat.wiki/patterns/agent-skill-marketplace-poisoning/</link>
+      <description>Updated the agent skill marketplace poisoning pattern with AIR Security's June 2026 public experiment: a plausible AI-agent skill passed static scanner and reputation checks by keeping the submitted package clean while outsourcing setup instructions to mutable external documentation. AIR reported roughly 26,000 affected agents and changed the linked content after distribution so the agent would download and run a demonstration script that sent only an email address. The page caveats AIR's vendor-reported scale claims and adds defender guidance for treating external docs, setup guides, and product-adjacent domains as part of the reviewed skill artifact.</description>
+      <pubDate>Tue, 23 Jun 2026 17:27:31 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/agent-skill-marketplace-poisoning/#air-external-document-skill-swap-2026-06-22</guid>
+    </item>
+    <item>
       <title>wshu.net npm credential-stealer campaign</title>
       <link>https://threat.wiki/ops/wshu-net-npm-credential-stealer-campaign/</link>
       <description>Added coverage for SafeDep's June 23, 2026 wshu.net npm campaign: 15 plausible utility packages across 13 throwaway scopes and 64 versions delivered obfuscated postinstall JavaScript loaders and a cross-platform Rust infostealer. The page captures scrubbed latest tags, runtime execution in @petitcode/eb-retry and @briskforge/envcheck, GitHub Releases second-stage delivery, wallet / browser / cloud / SSH / developer-token theft, user-level systemd persistence, Telegram C2, and defender guidance for historical-version review, endpoint triage, and credential rotation.</description>

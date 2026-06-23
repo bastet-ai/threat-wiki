@@ -7,8 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
-- [wshu.net npm credential-stealer campaign](ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Agent skill marketplace poisoning](patterns/agent-skill-marketplace-poisoning.md)
+- [wshu.net npm credential-stealer campaign](ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Fake-reputation crypto clipboard hijacker](ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Cloud bucket namespace hijacking](patterns/cloud-bucket-namespace-hijacking.md)
@@ -16,7 +16,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Storm-2603 parallel SharePoint ransomware intrusion](ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [postcss-minify-selector-parser npm RAT](ops/postcss-minify-selector-parser-npm-rat.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
-- [AryStinger legacy-router recon proxy network](ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

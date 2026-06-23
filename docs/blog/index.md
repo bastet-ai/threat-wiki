@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Agent skill marketplace poisoning: AIR external-document skill swap](../patterns/agent-skill-marketplace-poisoning.md#air-external-document-skill-swap-2026-06-22)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Agent skill marketplace poisoning: Snyk / JFrog developer-environment update](../patterns/agent-skill-marketplace-poisoning.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
