@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Langflow CVE-2026-33017 cryptominer SSH worm](ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Fake-reputation crypto clipboard hijacker](ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Cloud bucket namespace hijacking](patterns/cloud-bucket-namespace-hijacking.md)
 - [AI-agent memory poisoning](patterns/ai-agent-memory-poisoning.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [AryStinger legacy-router recon proxy network](ops/arystinger-legacy-router-recon-proxy-network.md)
 - [MYRA RAT](tools/myra-rat.md)
 - [Oracle PeopleSoft CVE-2026-35273: PSIGW / PSEMHUB chain analysis](ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
-- [UNC6508](actors/unc6508.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

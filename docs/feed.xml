@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Langflow CVE-2026-33017 cryptominer SSH worm</title>
+      <link>https://threat.wiki/ops/langflow-cve-2026-33017-cryptominer-ssh-worm/</link>
+      <description>Added coverage for Trend Micro's June 23, 2026 Langflow CVE-2026-33017 cryptominer campaign: exposed unauthenticated Langflow endpoints run a Python os.system curl-to-shell payload, stage isp.sh and lambsys, deploy a customized XMRig miner, evict rival miners, add cron and init_rmount watchdog persistence, and attempt SSH lateral movement through keys, known_hosts, and agent sockets. The page treats compromise as an AI-infrastructure and SSH-key scoping incident, not just host-level mining noise.</description>
+      <pubDate>Tue, 23 Jun 2026 09:28:30 GMT</pubDate>
+      <guid>https://threat.wiki/ops/langflow-cve-2026-33017-cryptominer-ssh-worm/</guid>
+    </item>
+    <item>
       <title>Fake-reputation crypto clipboard hijacker</title>
       <link>https://threat.wiki/ops/fake-reputation-crypto-clipboard-hijacker/</link>
       <description>Added coverage for Check Point Research's June 17, 2026 fake-reputation clipboard-hijacker campaign: a Rust Windows and macOS cryptocurrency clipper distributed through a phishing hub, GitHub and SourceForge projects, AI-narrated YouTube videos, crypto forums, news-site promotion, and manipulated-looking VirusTotal sentiment. The page captures fake social-proof mechanics, Windows and macOS persistence, wallet-address replacement, and defender guidance for treating stars, downloads, comments, and safe votes as weak signals without provenance and behavioral validation.</description>

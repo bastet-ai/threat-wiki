@@ -13,7 +13,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (26)
+- [active exploitation](#active-exploitation) (27)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (3)
@@ -36,6 +36,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (4)
 - [AI agents](#ai-agents) (10)
+- [AI application infrastructure](#ai-application-infrastructure) (1)
 - [AI assistants](#ai-assistants) (3)
 - [AI brand impersonation](#ai-brand-impersonation) (1)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
@@ -159,6 +160,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CDN](#cdn) (1)
 - [certificate theft](#certificate-theft) (1)
 - [ChatGPT](#chatgpt) (1)
+- [chattr](#chattr) (1)
 - [Chatty Spider](#chatty-spider) (1)
 - [Check Point](#check-point) (1)
 - [Check Point Research](#check-point-research) (1)
@@ -257,12 +259,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
 - [cron](#cron) (1)
+- [cron persistence](#cron-persistence) (1)
 - [crypto](#crypto) (2)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (11)
 - [cryptocurrency theft](#cryptocurrency-theft) (3)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
+- [cryptomining](#cryptomining) (1)
 - [Curious Serpens](#curious-serpens) (1)
 - [Cursor](#cursor) (2)
 - [Curve25519](#curve25519) (1)
@@ -300,7 +304,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-28318](#cve-2026-28318) (1)
 - [CVE-2026-3300](#cve-2026-3300) (1)
-- [CVE-2026-33017](#cve-2026-33017) (1)
+- [CVE-2026-33017](#cve-2026-33017) (2)
 - [CVE-2026-34926](#cve-2026-34926) (1)
 - [CVE-2026-35273](#cve-2026-35273) (2)
 - [CVE-2026-35616](#cve-2026-35616) (1)
@@ -645,12 +649,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimsuky](#kimsuky) (1)
 - [Klue](#klue) (1)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
+- [KORKERDS](#korkerds) (1)
 - [Kubernetes](#kubernetes) (1)
 - [KV-botnet](#kv-botnet) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
 - [LangChain](#langchain) (2)
-- [Langflow](#langflow) (2)
+- [Langflow](#langflow) (3)
 - [LangFlow](#langflow) (1)
 - [LangGraph](#langgraph) (1)
 - [Laravel](#laravel) (2)
@@ -676,6 +681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LinkedIn](#linkedin) (2)
 - [Linksys](#linksys) (1)
 - [Linux](#linux) (16)
+- [Linux malware](#linux-malware) (1)
 - [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (2)
 - [living off the land](#living-off-the-land) (1)
@@ -722,6 +728,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
+- [MALXMR](#malxmr) (1)
 - [managed file transfer](#managed-file-transfer) (1)
 - [managed service provider](#managed-service-provider) (1)
 - [management plane](#management-plane) (1)
@@ -774,7 +781,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [model-provider abuse](#model-provider-abuse) (1)
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (3)
-- [Monero](#monero) (1)
+- [Monero](#monero) (2)
 - [Mozi](#mozi) (1)
 - [MPR network provider](#mpr-network-provider) (1)
 - [Mr_Rot13](#mr_rot13) (1)
@@ -843,9 +850,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (129)
+- [operations](#operations) (130)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (128)
+- [ops](#ops) (129)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1119,7 +1126,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SQLite](#sqlite) (1)
 - [SSH](#ssh) (2)
 - [SSH bastion](#ssh-bastion) (1)
+- [SSH key exposure](#ssh-key-exposure) (1)
 - [SSH key persistence](#ssh-key-persistence) (1)
+- [SSH lateral movement](#ssh-lateral-movement) (1)
 - [SSH persistence](#ssh-persistence) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
 - [SSL VPN](#ssl-vpn) (1)
@@ -1197,7 +1206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [transaction authority](#transaction-authority) (1)
 - [transnational repression](#transnational-repression) (1)
 - [Transparent Tribe](#transparent-tribe) (2)
-- [Trend Micro](#trend-micro) (2)
+- [Trend Micro](#trend-micro) (3)
 - [TrendAI](#trendai) (1)
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
@@ -1314,7 +1323,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XChaCha20](#xchacha20) (1)
 - [XenoRAT](#xenorat) (2)
 - [XMLDecoder](#xmldecoder) (1)
-- [XMRig](#xmrig) (3)
+- [XMRig](#xmrig) (4)
 - [XOR](#xor) (1)
 - [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
@@ -1372,6 +1381,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
@@ -1477,6 +1487,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
+## AI application infrastructure
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
 ## AI assistants
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -1904,6 +1917,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ChatGPT
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+
+## chattr
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
 ## Chatty Spider
 - [UNC3753](../actors/unc3753.md)
@@ -2355,6 +2371,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cron
 - [MYRA RAT](../tools/myra-rat.md)
 
+## cron persistence
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+
 ## crypto
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -2386,6 +2405,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cryptominer
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
+## cryptomining
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
 ## Curious Serpens
 - [ROADtools](../tools/roadtools.md)
@@ -2503,6 +2525,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 
 ## CVE-2026-33017
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## CVE-2026-34926
@@ -3782,6 +3805,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## KnowledgeDeliver
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## KORKERDS
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+
 ## Kubernetes
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
@@ -3800,6 +3826,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Langflow
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## LangFlow
@@ -3899,6 +3926,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## Linux malware
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
 ## LiteLLM
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -4075,6 +4105,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malware-signing-as-a-service
 - [Fox Tempest](../actors/fox-tempest.md)
+
+## MALXMR
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
 ## managed file transfer
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -4256,6 +4289,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Monero
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## Mozi
@@ -4590,6 +4624,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
@@ -4722,6 +4757,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
@@ -5830,8 +5866,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SSH bastion
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
+## SSH key exposure
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+
 ## SSH key persistence
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## SSH lateral movement
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
 ## SSH persistence
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -6174,6 +6216,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](../actors/sidecopy.md)
 
 ## Trend Micro
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
@@ -6617,6 +6660,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## XMRig
 - [GREYVIBE](../actors/greyvibe.md)
+- [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
