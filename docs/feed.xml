@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Ubiquiti UniFi OS and Lantronix EDS5000 KEV exploitation</title>
+      <link>https://threat.wiki/ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation/</link>
+      <description>Added concise CISA KEV coverage for June 23, 2026 edge and ICS management-plane exploitation: Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 and Lantronix EDS5000 CVE-2025-67038. The pages focus on UniFi OS traversal / command-injection risk with PwnDefend-reported Mirai-style honeypot exploitation, Lantronix failed-auth username command injection with root privileges, fixed-version guidance, exposure control, failed-auth/traversal log review, and root-command-execution triage.</description>
+      <pubDate>Tue, 23 Jun 2026 19:30:59 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation/</guid>
+    </item>
+    <item>
       <title>Agent skill marketplace poisoning: AIR external-document skill swap</title>
       <link>https://threat.wiki/patterns/agent-skill-marketplace-poisoning/</link>
       <description>Updated the agent skill marketplace poisoning pattern with AIR Security's June 2026 public experiment: a plausible AI-agent skill passed static scanner and reputation checks by keeping the submitted package clean while outsourcing setup instructions to mutable external documentation. AIR reported roughly 26,000 affected agents and changed the linked content after distribution so the agent would download and run a demonstration script that sent only an email address. The page caveats AIR's vendor-reported scale claims and adds defender guidance for treating external docs, setup guides, and product-adjacent domains as part of the reviewed skill artifact.</description>

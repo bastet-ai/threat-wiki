@@ -13,7 +13,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (27)
+- [active exploitation](#active-exploitation) (29)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (3)
@@ -128,7 +128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [blockchain C2](#blockchain-c2) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [BLUEBEAM](#bluebeam) (1)
-- [botnet](#botnet) (3)
+- [botnet](#botnet) (4)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [brand impersonation](#brand-impersonation) (1)
@@ -180,7 +180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD](#cicd) (29)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
-- [CISA KEV](#cisa-kev) (10)
+- [CISA KEV](#cisa-kev) (12)
 - [Cisco](#cisco) (1)
 - [Cisco Nexus](#cisco-nexus) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
@@ -227,7 +227,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COM-hijacking](#com-hijacking) (1)
 - [command and control](#command-and-control) (1)
 - [command execution](#command-execution) (3)
-- [command injection](#command-injection) (3)
+- [command injection](#command-injection) (5)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [Composer](#composer) (3)
@@ -292,6 +292,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-48595](#cve-2025-48595) (1)
 - [CVE-2025-49704](#cve-2025-49704) (1)
 - [CVE-2025-49706](#cve-2025-49706) (1)
+- [CVE-2025-67038](#cve-2025-67038) (1)
 - [CVE-2025-8088](#cve-2025-8088) (3)
 - [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-10520](#cve-2026-10520) (1)
@@ -307,6 +308,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-28318](#cve-2026-28318) (1)
 - [CVE-2026-3300](#cve-2026-3300) (1)
 - [CVE-2026-33017](#cve-2026-33017) (2)
+- [CVE-2026-34908](#cve-2026-34908) (1)
+- [CVE-2026-34909](#cve-2026-34909) (1)
+- [CVE-2026-34910](#cve-2026-34910) (1)
 - [CVE-2026-34926](#cve-2026-34926) (1)
 - [CVE-2026-35273](#cve-2026-35273) (2)
 - [CVE-2026-35616](#cve-2026-35616) (1)
@@ -410,11 +414,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (1)
-- [edge devices](#edge-devices) (1)
+- [edge devices](#edge-devices) (3)
 - [edge service](#edge-service) (2)
 - [editor profile import](#editor-profile-import) (1)
 - [EDR evasion](#edr-evasion) (1)
 - [EDR killer](#edr-killer) (1)
+- [EDS5000](#eds5000) (1)
 - [education](#education) (1)
 - [Egnyte](#egnyte) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
@@ -602,6 +607,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [incident-response](#incident-response) (1)
 - [indirect prompt injection](#indirect-prompt-injection) (2)
 - [industrial control](#industrial-control) (1)
+- [industrial control systems](#industrial-control-systems) (1)
 - [INFINITERED](#infinitered) (1)
 - [infostealer](#infostealer) (10)
 - [infrastructure](#infrastructure) (5)
@@ -660,6 +666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow](#langflow) (3)
 - [LangFlow](#langflow) (1)
 - [LangGraph](#langgraph) (1)
+- [Lantronix](#lantronix) (1)
 - [Laravel](#laravel) (2)
 - [lateral movement](#lateral-movement) (2)
 - [lateral-movement](#lateral-movement) (1)
@@ -733,7 +740,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MALXMR](#malxmr) (1)
 - [managed file transfer](#managed-file-transfer) (1)
 - [managed service provider](#managed-service-provider) (1)
-- [management plane](#management-plane) (1)
+- [management plane](#management-plane) (3)
 - [manufacturing](#manufacturing) (1)
 - [marimo](#marimo) (1)
 - [marketplace abuse](#marketplace-abuse) (1)
@@ -769,7 +776,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MINIRAT](#minirat) (2)
 - [Ministry of Finance](#ministry-of-finance) (1)
 - [MiniUpdate](#miniupdate) (1)
-- [Mirai](#mirai) (1)
+- [Mirai](#mirai) (2)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
 - [mobile](#mobile) (1)
@@ -852,9 +859,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (131)
+- [operations](#operations) (133)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (130)
+- [ops](#ops) (132)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -883,6 +890,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [password spraying](#password-spraying) (1)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
+- [path traversal](#path-traversal) (1)
 - [patterns](#patterns) (22)
 - [payload staging](#payload-staging) (1)
 - [payment fraud](#payment-fraud) (1)
@@ -1019,7 +1027,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [roadtx](#roadtx) (1)
 - [RokRAT](#rokrat) (1)
 - [RomulusLoader](#romulusloader) (1)
-- [root execution](#root-execution) (1)
+- [root execution](#root-execution) (2)
 - [rootkit](#rootkit) (4)
 - [router malware](#router-malware) (1)
 - [RSA](#rsa) (1)
@@ -1223,6 +1231,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0010](#uac-0010) (2)
 - [UAC-0098](#uac-0098) (1)
 - [UAC-0226](#uac-0226) (1)
+- [Ubiquiti](#ubiquiti) (1)
 - [Udev persistence](#udev-persistence) (1)
 - [UDP C2](#udp-c2) (1)
 - [Ukraine](#ukraine) (7)
@@ -1237,6 +1246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6671](#unc6671) (1)
 - [UNC6692](#unc6692) (2)
 - [UNC6780](#unc6780) (1)
+- [UniFi OS](#unifi-os) (1)
 - [Unit 42](#unit-42) (2)
 - [United States](#united-states) (2)
 - [unsafe deserialization](#unsafe-deserialization) (1)
@@ -1385,6 +1395,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+- [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
@@ -1397,6 +1408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## active-exploitation
@@ -1812,6 +1824,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## branch-compromise
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -2028,12 +2041,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## Cisco
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -2209,7 +2224,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## command injection
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+- [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## command-execution
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -2490,6 +2507,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2025-49706
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
+## CVE-2025-67038
+- [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
+
 ## CVE-2025-8088
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -2537,6 +2557,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-33017
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
+## CVE-2026-34908
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
+
+## CVE-2026-34909
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
+
+## CVE-2026-34910
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## CVE-2026-34926
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -2920,6 +2949,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## edge devices
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## edge service
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -2933,6 +2964,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## EDR killer
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## EDS5000
+- [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 
 ## education
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -3635,6 +3669,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## industrial control
 - [Fast16](../tools/fast16.md)
 
+## industrial control systems
+- [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
+
 ## INFINITERED
 - [UNC6508](../actors/unc6508.md)
 
@@ -3847,6 +3884,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LangGraph
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+
+## Lantronix
+- [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 
 ## Laravel
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -4130,6 +4170,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## management plane
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+- [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## manufacturing
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -4257,6 +4299,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Mirai
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## MITRE ATT&CK T1005
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -4639,6 +4682,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+- [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
@@ -4698,6 +4742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
@@ -4773,6 +4818,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+- [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
@@ -4832,6 +4878,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -4932,6 +4979,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## patch management
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+
+## path traversal
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## patterns
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -5490,6 +5540,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA4922](../actors/ta4922.md)
 
 ## root execution
+- [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
 ## rootkit
@@ -6292,6 +6343,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UAC-0226
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
+## Ubiquiti
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
+
 ## Udev persistence
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -6341,6 +6395,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UNC6780
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## UniFi OS
+- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## Unit 42
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
