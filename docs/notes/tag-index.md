@@ -50,6 +50,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ai-agent](#ai-agent) (1)
 - [AI-augmented operations](#ai-augmented-operations) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
+- [AI-generated narrator](#ai-generated-narrator) (1)
 - [AiTM](#aitm) (1)
 - [Albania](#albania) (1)
 - [Android](#android) (4)
@@ -188,8 +189,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix](#clickfix) (3)
 - [ClickOnce](#clickonce) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
+- [clipboard hijacker](#clipboard-hijacker) (1)
 - [clipboard theft](#clipboard-theft) (1)
-- [clipper](#clipper) (1)
+- [clipper](#clipper) (2)
 - [Cloaked Ursa](#cloaked-ursa) (1)
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (6)
@@ -258,7 +260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto](#crypto) (2)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (11)
-- [cryptocurrency theft](#cryptocurrency-theft) (2)
+- [cryptocurrency theft](#cryptocurrency-theft) (3)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
 - [Curious Serpens](#curious-serpens) (1)
@@ -450,6 +452,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake dating lures](#fake-dating-lures) (1)
 - [fake plugin](#fake-plugin) (1)
 - [fake recruiting](#fake-recruiting) (1)
+- [fake reputation](#fake-reputation) (1)
 - [fake update](#fake-update) (2)
 - [FakeCaptcha](#fakecaptcha) (1)
 - [Fakeset](#fakeset) (1)
@@ -499,10 +502,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GCS](#gcs) (1)
 - [GentleKiller](#gentlekiller) (1)
 - [Ghost CMS](#ghost-cms) (1)
+- [Ghost Networks](#ghost-networks) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [GitHub](#github) (14)
-- [GitHub abuse](#github-abuse) (1)
+- [GitHub abuse](#github-abuse) (2)
 - [GitHub Actions](#github-actions) (16)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
@@ -704,6 +708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MacCMS](#maccms) (1)
 - [machine-learning](#machine-learning) (1)
 - [macOS](#macos) (6)
+- [macOS malware](#macos-malware) (1)
 - [Magento](#magento) (1)
 - [MagicYUV](#magicyuv) (1)
 - [mailbox theft](#mailbox-theft) (1)
@@ -838,9 +843,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (128)
+- [operations](#operations) (129)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (127)
+- [ops](#ops) (128)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1017,6 +1022,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russia-nexus](#russia-nexus) (2)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (4)
+- [Rust malware](#rust-malware) (1)
 - [SaaS](#saas) (3)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
@@ -1082,7 +1088,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sms-phishing](#sms-phishing) (1)
 - [SMTP](#smtp) (1)
 - [SocGholish](#socgholish) (1)
-- [social engineering](#social-engineering) (10)
+- [social engineering](#social-engineering) (11)
 - [social-engineering](#social-engineering) (2)
 - [Socket Security Research](#socket-security-research) (1)
 - [SOCKS5](#socks5) (3)
@@ -1097,6 +1103,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
 - [source-repository poisoning](#source-repository-poisoning) (2)
+- [SourceForge abuse](#sourceforge-abuse) (1)
 - [South Africa](#south-africa) (1)
 - [South Asia](#south-asia) (1)
 - [South Korea](#south-korea) (2)
@@ -1243,6 +1250,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
 - [virtualization](#virtualization) (1)
+- [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
 - [vishing](#vishing) (2)
 - [Visual Studio Code Remote SSH](#visual-studio-code-remote-ssh) (1)
 - [VLESS](#vless) (1)
@@ -1261,7 +1269,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [w3wp.exe](#w3wpexe) (1)
 - [wallet infrastructure](#wallet-infrastructure) (1)
 - [wallet replacement](#wallet-replacement) (1)
-- [wallet theft](#wallet-theft) (3)
+- [wallet theft](#wallet-theft) (4)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
 - [Wasabi](#wasabi) (1)
@@ -1288,6 +1296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WHM](#whm) (3)
 - [Widget Factory](#widget-factory) (1)
 - [Windows](#windows) (17)
+- [Windows malware](#windows-malware) (1)
 - [Windows persistence](#windows-persistence) (1)
 - [Winnti Group](#winnti-group) (2)
 - [Winos4.0](#winos40) (1)
@@ -1310,6 +1319,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
 - [Yanbian](#yanbian) (1)
+- [YouTube abuse](#youtube-abuse) (1)
 - [ZAPiXDESK](#zapixdesk) (1)
 - [Zendesk](#zendesk) (1)
 - [Zero Trust](#zero-trust) (1)
@@ -1522,6 +1532,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI-generated malware
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+
+## AI-generated narrator
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
 ## AiTM
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -2038,11 +2051,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## client-side exploitation
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
+## clipboard hijacker
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
 ## clipboard theft
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 
 ## clipper
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
 ## Cloaked Ursa
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
@@ -2359,6 +2376,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
 ## cryptocurrency theft
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
@@ -3063,6 +3081,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fake recruiting
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
+## fake reputation
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
 ## fake update
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -3223,6 +3244,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ghost CMS
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
+## Ghost Networks
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
 ## GHSA-6rmh-7xcm-cpxj
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
@@ -3247,6 +3271,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitHub abuse
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
 ## GitHub Actions
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -3988,6 +4013,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
+## macOS malware
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
 ## Magento
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
@@ -4534,6 +4562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -4666,6 +4695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -5454,6 +5484,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
+## Rust malware
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
 ## SaaS
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -5681,6 +5714,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## social engineering
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
@@ -5736,6 +5770,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## source-repository poisoning
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+
+## SourceForge abuse
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
 ## South Africa
 - [Webworm](../actors/webworm.md)
@@ -6320,6 +6357,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## virtualization
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## VirusTotal sentiment abuse
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
 ## vishing
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [UNC3753](../actors/unc3753.md)
@@ -6390,6 +6430,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## wallet theft
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
@@ -6502,6 +6543,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## Windows malware
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
 ## Windows persistence
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
@@ -6587,6 +6631,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Yanbian
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
+## YouTube abuse
+- [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
 ## ZAPiXDESK
 - [GREYVIBE](../actors/greyvibe.md)

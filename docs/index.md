@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Fake-reputation crypto clipboard hijacker](ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Cloud bucket namespace hijacking](patterns/cloud-bucket-namespace-hijacking.md)
 - [AI-agent memory poisoning](patterns/ai-agent-memory-poisoning.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [MYRA RAT](tools/myra-rat.md)
 - [Oracle PeopleSoft CVE-2026-35273: PSIGW / PSEMHUB chain analysis](ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [UNC6508](actors/unc6508.md)
-- [SprySOCKS Windows backdoor variants](tools/sprysocks.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
