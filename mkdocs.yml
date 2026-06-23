@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - wshu.net npm credential-stealer campaign: ops/wshu-net-npm-credential-stealer-campaign.md
       - Langflow CVE-2026-33017 cryptominer SSH worm: ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md
       - Fake-reputation crypto clipboard hijacker: ops/fake-reputation-crypto-clipboard-hijacker.md
       - Storm-2603 parallel SharePoint ransomware intrusion: ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md

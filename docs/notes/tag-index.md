@@ -199,6 +199,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud](#cloud) (6)
 - [cloud C2](#cloud-c2) (1)
 - [cloud credential theft](#cloud-credential-theft) (3)
+- [cloud credentials](#cloud-credentials) (1)
 - [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
 - [Cloud Filter driver](#cloud-filter-driver) (1)
 - [cloud IAM](#cloud-iam) (1)
@@ -253,7 +254,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (1)
 - [credential theft](#credential-theft) (20)
-- [credential-theft](#credential-theft) (44)
+- [credential-theft](#credential-theft) (45)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (2)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -261,6 +262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cron](#cron) (1)
 - [cron persistence](#cron-persistence) (1)
 - [crypto](#crypto) (2)
+- [crypto wallets](#crypto-wallets) (1)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (11)
 - [cryptocurrency theft](#cryptocurrency-theft) (3)
@@ -364,7 +366,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer tooling](#developer-tooling) (1)
 - [developer workstations](#developer-workstations) (1)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
-- [developer-targeting](#developer-targeting) (12)
+- [developer-targeting](#developer-targeting) (13)
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (2)
 - [device registration](#device-registration) (1)
@@ -601,7 +603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [indirect prompt injection](#indirect-prompt-injection) (2)
 - [industrial control](#industrial-control) (1)
 - [INFINITERED](#infinitered) (1)
-- [infostealer](#infostealer) (9)
+- [infostealer](#infostealer) (10)
 - [infrastructure](#infrastructure) (5)
 - [initial access broker](#initial-access-broker) (1)
 - [initial-access](#initial-access) (3)
@@ -618,7 +620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Israel](#israel) (2)
 - [Ivanti Sentry](#ivanti-sentry) (1)
 - [Japan](#japan) (1)
-- [JavaScript](#javascript) (7)
+- [JavaScript](#javascript) (8)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
@@ -815,7 +817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (8)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (36)
+- [npm](#npm) (37)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm tokens](#npm-tokens) (1)
 - [npx](#npx) (1)
@@ -850,9 +852,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (130)
+- [operations](#operations) (131)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (129)
+- [ops](#ops) (130)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -891,7 +893,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PebbleDash](#pebbledash) (1)
 - [people](#people) (1)
 - [PeopleTools](#peopletools) (1)
-- [persistence](#persistence) (20)
+- [persistence](#persistence) (21)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
 - [Phantom Gyp](#phantom-gyp) (1)
@@ -923,7 +925,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postal-impersonation](#postal-impersonation) (1)
 - [PostCSS](#postcss) (1)
 - [PostgreSQL](#postgresql) (3)
-- [postinstall](#postinstall) (7)
+- [postinstall](#postinstall) (8)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (9)
 - [PowerShower](#powershower) (1)
@@ -1024,11 +1026,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RTL819X](#rtl819x) (1)
 - [RubyGems](#rubygems) (2)
 - [Runner.Worker](#runnerworker) (1)
+- [runtime execution](#runtime-execution) (1)
 - [Russia](#russia) (6)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
-- [Rust](#rust) (4)
+- [Rust](#rust) (5)
 - [Rust malware](#rust-malware) (1)
 - [SaaS](#saas) (3)
 - [sabotage](#sabotage) (2)
@@ -1149,7 +1152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (3)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (69)
+- [supply-chain](#supply-chain) (70)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
@@ -1177,7 +1180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telecommunications](#telecommunications) (1)
 - [Telegram](#telegram) (5)
 - [telegram](#telegram) (1)
-- [Telegram C2](#telegram-c2) (1)
+- [Telegram C2](#telegram-c2) (2)
 - [telemetry](#telemetry) (1)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
@@ -2099,6 +2102,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
+## cloud credentials
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
+
 ## Cloud Files Mini Filter Driver
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
@@ -2352,6 +2358,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## criminal infrastructure
@@ -2377,6 +2384,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## crypto
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+
+## crypto wallets
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## crypto-wallets
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
@@ -2755,6 +2765,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## developer-tools
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
@@ -3637,6 +3648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## infrastructure
 - [First VPN](../tools/first-vpn.md)
@@ -3707,6 +3719,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## JavaScript bridge
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -4440,6 +4453,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## npm lifecycle hook
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -4688,6 +4702,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -4822,6 +4837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -4991,6 +5007,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [Velvet Ant](../actors/velvet-ant.md)
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## pfSense
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -5112,6 +5129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## PowerCloud
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -5496,6 +5514,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Runner.Worker
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 
+## runtime execution
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
+
 ## Russia
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -5519,6 +5540,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## Rust malware
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
@@ -6009,6 +6031,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -6113,6 +6136,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Telegram C2
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+- [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## telemetry
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)

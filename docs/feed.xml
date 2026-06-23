@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>wshu.net npm credential-stealer campaign</title>
+      <link>https://threat.wiki/ops/wshu-net-npm-credential-stealer-campaign/</link>
+      <description>Added coverage for SafeDep's June 23, 2026 wshu.net npm campaign: 15 plausible utility packages across 13 throwaway scopes and 64 versions delivered obfuscated postinstall JavaScript loaders and a cross-platform Rust infostealer. The page captures scrubbed latest tags, runtime execution in @petitcode/eb-retry and @briskforge/envcheck, GitHub Releases second-stage delivery, wallet / browser / cloud / SSH / developer-token theft, user-level systemd persistence, Telegram C2, and defender guidance for historical-version review, endpoint triage, and credential rotation.</description>
+      <pubDate>Tue, 23 Jun 2026 15:26:04 GMT</pubDate>
+      <guid>https://threat.wiki/ops/wshu-net-npm-credential-stealer-campaign/</guid>
+    </item>
+    <item>
       <title>Agent skill marketplace poisoning: developer-environment update</title>
       <link>https://threat.wiki/patterns/agent-skill-marketplace-poisoning/</link>
       <description>Updated the agent skill marketplace poisoning pattern with Snyk's June 23, 2026 developer-environment findings and JFrog's agent-plugin repository guidance. The page now treats MCP servers, skills, hooks, slash commands, subagents, and plugin manifests as executable supply-chain inputs on developer endpoints, captures Snyk's observed MCP / skill / prompt-injection risk metrics, and adds governance guidance for immutable reviewed plugin artifacts, endpoint inventory, and telemetry before code reaches CI.</description>
