@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [StrikeShark SharkLoader / Cobalt Strike campaign](ops/strikeshark-sharkloader-cobalt-strike.md)
 - [GitHub Actions deployment poisoning: Cordyceps CI/CD composition flaws](patterns/deployment-poisoning-github-actions.md#cordyceps-cicd-composition-flaws)
 - [codfish semantic-release-action tag compromise](ops/codfish-semantic-release-action-tag-compromise.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [xlabs_v1 DDoS-for-hire IoT botnet](ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Agent skill marketplace poisoning](patterns/agent-skill-marketplace-poisoning.md)
-- [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

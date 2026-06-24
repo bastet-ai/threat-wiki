@@ -229,7 +229,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare Workers](#cloudflare-workers) (2)
 - [CloudLinux](#cloudlinux) (1)
 - [CMS](#cms) (6)
-- [Cobalt Strike](#cobalt-strike) (4)
+- [Cobalt Strike](#cobalt-strike) (5)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
 - [Codecov](#codecov) (1)
@@ -399,7 +399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
 - [DLL side-loading](#dll-side-loading) (3)
-- [DLL sideloading](#dll-sideloading) (7)
+- [DLL sideloading](#dll-sideloading) (8)
 - [DNS C2](#dns-c2) (2)
 - [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
@@ -430,6 +430,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (1)
 - [edge devices](#edge-devices) (3)
+- [edge exploitation](#edge-exploitation) (1)
 - [edge service](#edge-service) (2)
 - [editor profile import](#editor-profile-import) (1)
 - [EDR evasion](#edr-evasion) (1)
@@ -751,7 +752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (4)
-- [malware](#malware) (19)
+- [malware](#malware) (20)
 - [malware analysis](#malware-analysis) (1)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
@@ -890,7 +891,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (139)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (138)
+- [ops](#ops) (139)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1084,7 +1085,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Salesforce](#salesforce) (2)
 - [ScarCruft](#scarcruft) (1)
 - [scheduled task](#scheduled-task) (2)
-- [scheduled tasks](#scheduled-tasks) (3)
+- [scheduled tasks](#scheduled-tasks) (4)
 - [scope squatting](#scope-squatting) (1)
 - [screen capture](#screen-capture) (1)
 - [ScreenConnect](#screenconnect) (2)
@@ -1123,6 +1124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared hosting](#shared-hosting) (3)
 - [shared secrets](#shared-secrets) (1)
 - [SharePoint](#sharepoint) (2)
+- [SharkLoader](#sharkloader) (1)
 - [ShinyHunters](#shinyhunters) (2)
 - [Shuckworm](#shuckworm) (1)
 - [SideCopy](#sidecopy) (1)
@@ -1347,6 +1349,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
 - [web shell](#web-shell) (5)
+- [web shells](#web-shells) (1)
 - [web supply chain](#web-supply-chain) (1)
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
@@ -1362,7 +1365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp](#whatsapp) (2)
 - [WHM](#whm) (3)
 - [Widget Factory](#widget-factory) (1)
-- [Windows](#windows) (17)
+- [Windows](#windows) (18)
 - [Windows malware](#windows-malware) (3)
 - [Windows persistence](#windows-persistence) (1)
 - [Windows Script Host](#windows-script-host) (1)
@@ -2279,6 +2282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghostwriter](../actors/ghostwriter.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+- [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 
 ## code sandbox scraping
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -2954,6 +2958,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+- [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 
 ## DNS C2
 - [OP-512](../actors/op-512.md)
@@ -3059,6 +3064,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
+
+## edge exploitation
+- [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 
 ## edge service
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -4274,6 +4282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+- [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [TA4922](../actors/ta4922.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -5046,6 +5055,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+- [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
@@ -5829,6 +5839,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## scheduled tasks
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+- [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## scope squatting
@@ -5962,6 +5973,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SharePoint
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
+## SharkLoader
+- [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 
 ## ShinyHunters
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -6841,6 +6855,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [UNC6508](../actors/unc6508.md)
 
+## web shells
+- [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
+
 ## web supply chain
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -6906,6 +6923,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+- [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 

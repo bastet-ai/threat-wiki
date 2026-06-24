@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>StrikeShark SharkLoader / Cobalt Strike campaign</title>
+      <link>https://threat.wiki/ops/strikeshark-sharkloader-cobalt-strike/</link>
+      <description>Added coverage for Kaspersky's June 2026 StrikeShark report: a SharkLoader campaign delivering Cobalt Strike Beacon after internet-facing application exploitation or custom droppers disguised as Cisco AnyConnect, Google Update, or decoy PDFs. The page captures old edge-vulnerability exposure, web-shell post-exploitation, copied SystemSettings.exe DLL sideloading, DscCoreR.mui and SyncRes.dat reflective loading, API-hooked in-memory Beacon execution, registry Run keys, scheduled-task persistence, victimology, and Kaspersky's no-attribution caveat.</description>
+      <pubDate>Wed, 24 Jun 2026 23:25:25 GMT</pubDate>
+      <guid>https://threat.wiki/ops/strikeshark-sharkloader-cobalt-strike/</guid>
+    </item>
+    <item>
       <title>GitHub Actions deployment poisoning: Cordyceps CI/CD composition flaws</title>
       <link>https://threat.wiki/patterns/deployment-poisoning-github-actions/</link>
       <description>Updated the GitHub Actions deployment poisoning pattern with Novee Security's Cordyceps CI/CD workflow-composition research: The Hacker News reported Novee's scan of roughly 30,000 high-impact repositories found more than 300 fully exploitable cases where untrusted pull-request comments, branch names, artifacts, or metadata could cross into privileged automation. The page adds reported examples involving Microsoft Azure Sentinel, Google adk-samples, Apache Doris, Cloudflare Workers SDK, and Python Black, and focuses defender review on trust-boundary validation before secret-bearing or write-token workflow steps.</description>

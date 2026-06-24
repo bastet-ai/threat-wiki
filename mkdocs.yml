@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - StrikeShark SharkLoader / Cobalt Strike campaign: ops/strikeshark-sharkloader-cobalt-strike.md
       - codfish semantic-release-action tag compromise: ops/codfish-semantic-release-action-tag-compromise.md
       - html-to-gutenberg / fetch-page-assets VS Code blockchain stealer: ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md
       - StealC / Amadey infrastructure disruption: ops/stealc-amadey-infrastructure-disruption.md
