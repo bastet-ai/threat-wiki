@@ -63,6 +63,7 @@ Treat runs as exposed if they executed after `2026-06-24 15:39:06 UTC` and befor
 ## Defender heuristics
 - Disable or pin affected release workflows before rotating credentials; otherwise a rerun can re-steal fresh secrets.
 - Rotate GitHub, npm, container-registry, cloud, package-signing, and release-automation credentials that were reachable from affected runners.
+- For GitHub Enterprise environments, GitHub's June 24, 2026 changelog adds incident-response options that can revoke SSO authorizations for personal access tokens, SSH keys, and OAuth tokens across an enterprise or organization, and can delete user tokens / SSH keys for Enterprise Managed Users. Use those controls as bulk containment aids when release-runner compromise may have exposed user credentials.
 - Review GitHub audit logs for workflow runs, OIDC token requests, repository writes, tag updates, branch creations, package publishes, and secret access after the affected workflow ran.
 - Prefer full-length commit SHA pinning for third-party GitHub Actions, paired with automation that periodically reviews and advances pins.
 - Enable tag protection / rulesets for maintained actions and monitor release tags for forced updates, orphan commits, or commits outside expected branch ancestry.
@@ -82,3 +83,4 @@ StepSecurity's public post does not attribute the `codfish/semantic-release-acti
 ## Sources
 - StepSecurity: https://www.stepsecurity.io/blog/supply-chain-compromise-codfish-semantic-release-action
 - GitHub repository: https://github.com/codfish/semantic-release-action
+- GitHub Changelog: https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response
