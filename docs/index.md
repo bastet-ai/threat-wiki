@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Thailand healthcare RAR / Python stealer campaign](ops/thailand-healthcare-rar-python-stealer.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Agent skill marketplace poisoning](patterns/agent-skill-marketplace-poisoning.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Langflow CVE-2026-33017 cryptominer SSH worm](ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Fake-reputation crypto clipboard hijacker](ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Cloud bucket namespace hijacking](patterns/cloud-bucket-namespace-hijacking.md)
-- [AI-agent memory poisoning](patterns/ai-agent-memory-poisoning.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

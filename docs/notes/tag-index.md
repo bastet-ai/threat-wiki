@@ -115,6 +115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [banking malware](#banking-malware) (1)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
+- [batch loader](#batch-loader) (1)
 - [BeaverTail](#beavertail) (1)
 - [Bedrock](#bedrock) (1)
 - [behavioral integrity verification](#behavioral-integrity-verification) (1)
@@ -528,6 +529,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub CLI](#github-cli) (1)
 - [GitHub issue spam](#github-issue-spam) (1)
 - [GitHub OAuth](#github-oauth) (1)
+- [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub Security Advisories](#github-security-advisories) (1)
 - [GitHub tokens](#github-tokens) (1)
 - [GitLab](#gitlab) (1)
@@ -570,7 +572,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hard-coded secrets](#hard-coded-secrets) (1)
 - [HashiCorp Vault](#hashicorp-vault) (1)
 - [HavocKiller](#havockiller) (1)
-- [healthcare](#healthcare) (1)
+- [healthcare](#healthcare) (2)
 - [HelloDoor](#hellodoor) (1)
 - [HellsGate](#hellsgate) (1)
 - [HexKiller](#hexkiller) (1)
@@ -827,6 +829,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nftables](#nftables) (1)
 - [Nginx](#nginx) (1)
 - [Nginx module](#nginx-module) (1)
+- [no attribution](#no-attribution) (1)
 - [node-gyp](#node-gyp) (1)
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
@@ -869,9 +872,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (134)
+- [operations](#operations) (135)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (133)
+- [ops](#ops) (134)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -986,6 +989,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PyPI](#pypi) (8)
 - [Python](#python) (4)
 - [Python extension modules](#python-extension-modules) (1)
+- [Python stealer](#python-stealer) (1)
 - [QiAnXin XLab](#qianxin-xlab) (1)
 - [Qilin](#qilin) (1)
 - [QNAP](#qnap) (1)
@@ -997,6 +1001,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ransomware](#ransomware) (5)
 - [ransomware-access](#ransomware-access) (1)
 - [rapid exploitation](#rapid-exploitation) (2)
+- [RAR archives](#rar-archives) (1)
 - [RAT](#rat) (19)
 - [RC4](#rc4) (2)
 - [RCE](#rce) (6)
@@ -1040,6 +1045,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RomulusLoader](#romulusloader) (1)
 - [root execution](#root-execution) (2)
 - [rootkit](#rootkit) (4)
+- [Rouki obfuscation](#rouki-obfuscation) (1)
 - [router malware](#router-malware) (1)
 - [RSA](#rsa) (1)
 - [RTL819X](#rtl819x) (1)
@@ -1138,7 +1144,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [South Korea](#south-korea) (2)
 - [Southeast Asia](#southeast-asia) (3)
 - [spam](#spam) (1)
-- [spear phishing](#spear-phishing) (4)
+- [spear phishing](#spear-phishing) (5)
 - [spear-phishing](#spear-phishing) (2)
 - [spearphishing](#spearphishing) (1)
 - [SPECTRALVIPER](#spectralviper) (1)
@@ -1157,6 +1163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSRF](#ssrf) (2)
 - [stale access](#stale-access) (1)
 - [stale credentials](#stale-credentials) (1)
+- [Startup folder persistence](#startup-folder-persistence) (1)
 - [state-linked](#state-linked) (1)
 - [Static Kitten](#static-kitten) (1)
 - [stdio](#stdio) (3)
@@ -1200,12 +1207,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telegram](#telegram) (5)
 - [telegram](#telegram) (1)
 - [Telegram C2](#telegram-c2) (2)
+- [Telegram exfiltration](#telegram-exfiltration) (1)
 - [telemetry](#telemetry) (1)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
 - [tenant-project](#tenant-project) (1)
 - [Tenet Security](#tenet-security) (1)
-- [Thailand](#thailand) (2)
+- [Thailand](#thailand) (3)
 - [The Gentlemen](#the-gentlemen) (1)
 - [third-party integrations](#third-party-integrations) (1)
 - [threat hunting](#threat-hunting) (1)
@@ -1331,7 +1339,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WHM](#whm) (3)
 - [Widget Factory](#widget-factory) (1)
 - [Windows](#windows) (17)
-- [Windows malware](#windows-malware) (2)
+- [Windows malware](#windows-malware) (3)
 - [Windows persistence](#windows-persistence) (1)
 - [Windows Script Host](#windows-script-host) (1)
 - [Winnti Group](#winnti-group) (2)
@@ -1794,6 +1802,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bash Uploader
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+
+## batch loader
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
 ## BeaverTail
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
@@ -3402,6 +3413,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub OAuth
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
+## GitHub payload delivery
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
+
 ## GitHub Security Advisories
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
@@ -3550,6 +3564,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## healthcare
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
 ## HelloDoor
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
@@ -4479,6 +4494,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Nginx module
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## no attribution
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
+
 ## node-gyp
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 
@@ -4785,6 +4803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -4922,6 +4941,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -5396,6 +5416,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Python extension modules
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
+## Python stealer
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
+
 ## QiAnXin XLab
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
@@ -5433,6 +5456,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## rapid exploitation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+
+## RAR archives
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
 ## RAT
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
@@ -5603,6 +5629,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
+
+## Rouki obfuscation
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
 ## router malware
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
@@ -5961,6 +5990,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## spear-phishing
@@ -6022,6 +6052,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## stale credentials
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
+
+## Startup folder persistence
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
 ## state-linked
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
@@ -6245,6 +6278,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
+## Telegram exfiltration
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
+
 ## telemetry
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
@@ -6263,6 +6299,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Thailand
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
 ## The Gentlemen
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -6733,6 +6770,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Windows malware
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+- [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## Windows persistence
