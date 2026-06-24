@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [WhatsApp VBScript ManageEngine RMM campaign](ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Agent skill marketplace poisoning](patterns/agent-skill-marketplace-poisoning.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](ops/lantronix-eds5000-cve-2025-67038-exploitation.md)

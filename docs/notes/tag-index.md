@@ -172,6 +172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chinese-speaking](#chinese-speaking) (1)
+- [Chinese-speaking operator](#chinese-speaking-operator) (1)
 - [Chisel](#chisel) (3)
 - [Chrome Web Store](#chrome-web-store) (1)
 - [ChromElevator](#chromelevator) (1)
@@ -231,7 +232,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [Composer](#composer) (3)
-- [compromised accounts](#compromised-accounts) (1)
+- [compromised accounts](#compromised-accounts) (2)
 - [compromised credentials](#compromised-credentials) (1)
 - [configuration theft](#configuration-theft) (1)
 - [confused deputy](#confused-deputy) (1)
@@ -714,6 +715,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LOOKVALJS](#lookvaljs) (1)
 - [LOOKVALPS](#lookvalps) (1)
 - [loopback](#loopback) (1)
+- [low-confidence attribution](#low-confidence-attribution) (1)
 - [LPE](#lpe) (1)
 - [LS-DYNA](#ls-dyna) (1)
 - [LSASS](#lsass) (1)
@@ -740,6 +742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MALXMR](#malxmr) (1)
 - [managed file transfer](#managed-file-transfer) (1)
 - [managed service provider](#managed-service-provider) (1)
+- [ManageEngine Endpoint Central](#manageengine-endpoint-central) (1)
 - [management plane](#management-plane) (3)
 - [manufacturing](#manufacturing) (1)
 - [marimo](#marimo) (1)
@@ -859,9 +862,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (133)
+- [operations](#operations) (134)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (132)
+- [ops](#ops) (133)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1006,7 +1009,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [registry persistence](#registry-persistence) (3)
 - [registry-controls](#registry-controls) (1)
 - [release tampering](#release-tampering) (1)
-- [remote access](#remote-access) (3)
+- [remote access](#remote-access) (4)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (6)
 - [remote-access](#remote-access) (1)
@@ -1021,7 +1024,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reviewdog](#reviewdog) (1)
 - [RingH23](#ringh23) (1)
 - [RMM](#rmm) (1)
-- [RMM abuse](#rmm-abuse) (1)
+- [RMM abuse](#rmm-abuse) (2)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
@@ -1106,7 +1109,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sms-phishing](#sms-phishing) (1)
 - [SMTP](#smtp) (1)
 - [SocGholish](#socgholish) (1)
-- [social engineering](#social-engineering) (11)
+- [social engineering](#social-engineering) (12)
 - [social-engineering](#social-engineering) (2)
 - [Socket Security Research](#socket-security-research) (1)
 - [SOCKS5](#socks5) (3)
@@ -1258,7 +1261,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [V8](#v8) (1)
 - [ValleyRAT](#valleyrat) (1)
 - [VBCloud](#vbcloud) (1)
-- [VBScript](#vbscript) (3)
+- [VBE](#vbe) (1)
+- [VBS](#vbs) (1)
+- [VBScript](#vbscript) (4)
 - [Velociraptor](#velociraptor) (1)
 - [Velvet Ant](#velvet-ant) (2)
 - [VELVETSHELL](#velvetshell) (1)
@@ -1314,12 +1319,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebSocket C2](#websocket-c2) (2)
 - [WebView](#webview) (1)
 - [Webworm](#webworm) (1)
-- [WhatsApp](#whatsapp) (1)
+- [WhatsApp](#whatsapp) (2)
 - [WHM](#whm) (3)
 - [Widget Factory](#widget-factory) (1)
 - [Windows](#windows) (17)
-- [Windows malware](#windows-malware) (1)
+- [Windows malware](#windows-malware) (2)
 - [Windows persistence](#windows-persistence) (1)
+- [Windows Script Host](#windows-script-host) (1)
 - [Winnti Group](#winnti-group) (2)
 - [Winos4.0](#winos40) (1)
 - [WinRAR](#winrar) (3)
@@ -1981,6 +1987,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Chinese-speaking
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 
+## Chinese-speaking operator
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+
 ## Chisel
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
@@ -2241,6 +2250,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## compromised accounts
 - [Ghostwriter](../actors/ghostwriter.md)
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## compromised credentials
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -4064,6 +4074,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## loopback
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
+## low-confidence attribution
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+
 ## LPE
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
@@ -4167,6 +4180,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## managed service provider
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+
+## ManageEngine Endpoint Central
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## management plane
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -4746,6 +4762,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -4883,6 +4900,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -5473,6 +5491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## Remote Access VPN
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
@@ -5523,6 +5542,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RMM abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## ROADrecon
 - [ROADtools](../tools/roadtools.md)
@@ -5832,6 +5852,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC3753](../actors/unc3753.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## social-engineering
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -6435,10 +6456,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VBCloud
 - [Cloud Atlas](../actors/cloud-atlas.md)
 
+## VBE
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+
+## VBS
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+
 ## VBScript
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## Velociraptor
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -6639,6 +6667,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WhatsApp
 - [GREYVIBE](../actors/greyvibe.md)
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## WHM
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -6669,9 +6698,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Windows malware
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## Windows persistence
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+
+## Windows Script Host
+- [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## Winnti Group
 - [FishMonger](../actors/fishmonger.md)
