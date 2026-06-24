@@ -29,6 +29,19 @@ Boost Security Labs published the technique in April 2026 after disclosure to af
 - Fixing shell interpolation alone is not enough if attacker-controlled `environment_url` values are still passed into test clients that authenticate to the target.
 - The same trust-assumption failure is adjacent to other CI/CD supply-chain patterns: pwn requests, artifact poisoning, cache poisoning, and trusted-publishing abuse.
 
+## Cordyceps CI/CD composition flaws
+Novee Security published a related CI/CD weakness class under the name `Cordyceps` in June 2026. The Hacker News summarized Novee's findings and reported that a scan of roughly 30,000 high-impact repositories found more than 300 fully exploitable cases where untrusted pull-request input could cross into privileged automation.
+
+Reported examples included:
+
+- A Microsoft Azure Sentinel pull-request comment path that Novee said could run attacker code in Microsoft's CI and expose a non-expiring GitHub App key.
+- Google's `adk-samples` repository, where a pull request could reportedly execute attacker code in Google's CI and gain authority over a Google Cloud repository.
+- Apache Doris, where Novee reported zero-click paths from comments or fork pull requests into attacker code execution and CI credential or write-token exfiltration.
+- Cloudflare Workers SDK, where a crafted branch name could reportedly execute arbitrary commands on Cloudflare CI runners.
+- Python Software Foundation's Black, where a pull request could reportedly execute attacker code on build systems and steal an automation token usable for pull-request approval.
+
+The durable lesson is not that one GitHub Actions trigger is uniquely unsafe. The risk is composition: untrusted pull-request metadata, comments, branch names, artifacts, deployment fields, or generated workflow state are later consumed by higher-trust jobs with secrets, write tokens, approvals, or cloud credentials.
+
 ## GitHub hardening updates
 - On 2026-06-18, GitHub published `actions/checkout` v7 with default refusal logic for common pwn-request patterns in `pull_request_target` workflows and in `workflow_run` workflows when the triggering workflow was a pull-request event.
 - The protection blocks checkout patterns that resolve to fork pull-request code through a fork `repository`, `refs/pull/<number>/head`, `refs/pull/<number>/merge`, or a fork pull request head / merge commit SHA.
@@ -39,9 +52,12 @@ Boost Security Labs published the technique in April 2026 after disclosure to af
 ## Defender heuristics
 - Inventory workflows using `on: deployment_status`.
 - Inventory workflows using `pull_request_target` or `workflow_run` and confirm they are not checking out unreviewed fork code with privileged tokens or secrets.
+- Inventory all privileged workflows that react to pull-request comments, labels, branch names, artifacts, check results, deployment events, or generated files from lower-trust workflows.
+- Treat PR comments, branch names, titles, labels, artifact contents, and deployment metadata as attacker-controlled even when a downstream workflow runs on the default branch.
 - Prefer floating supported `actions/checkout` majors or planned upgrade automation where that is operationally acceptable; if you pin by SHA for supply-chain control, deliberately roll to a version that includes GitHub's June 2026 pwn-request refusal logic.
 - For GitHub Enterprise / organization environments, evaluate workflow execution protections to restrict workflow runs by actor and event outside the workflow file itself.
 - Treat `github.event.deployment_status.*` fields as untrusted unless the workflow explicitly verifies the producer and expected environment.
+- Do not let comments or labels directly approve, merge, release, or publish without binding the request to a trusted actor, immutable reviewed commit, and expected workflow producer.
 - Avoid direct `${{ }}` interpolation inside `run:` blocks; pass values through environment variables and quote/use them carefully.
 - Whitelist expected environment names before executing any secret-bearing step.
 - Prefer `github.event.deployment_status.target_url` over `environment_url` where it fits the integration; Boost notes `environment_url` is attacker-controllable in this pattern.
@@ -58,3 +74,5 @@ Boost Security Labs published the technique in April 2026 after disclosure to af
 - Boost Security Labs: https://labs.boostsecurity.io/articles/deployment_poisoning/
 - GitHub Changelog, safer `pull_request_target` defaults for `actions/checkout`: https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout
 - GitHub Changelog, workflow execution protections: https://github.blog/changelog/2026-06-18-control-who-and-what-triggers-github-actions-workflows
+- Novee Security, Cordyceps: https://novee.security/blog/cordyceps/
+- The Hacker News, Cordyceps CI/CD flaws: https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html
