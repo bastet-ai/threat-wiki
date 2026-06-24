@@ -157,7 +157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bucket hijacking](#bucket-hijacking) (1)
 - [bucket squatting](#bucket-squatting) (1)
 - [build-time compromise](#build-time-compromise) (1)
-- [Bun](#bun) (1)
+- [Bun](#bun) (2)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [BYOVD](#byovd) (2)
 - [C2](#c2) (8)
@@ -187,7 +187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (1)
 - [CI-CD](#ci-cd) (2)
-- [CI/CD](#cicd) (29)
+- [CI/CD](#cicd) (30)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
 - [CISA KEV](#cisa-kev) (12)
@@ -267,7 +267,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (1)
 - [credential theft](#credential-theft) (21)
-- [credential-theft](#credential-theft) (46)
+- [credential-theft](#credential-theft) (47)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (2)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -534,7 +534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [GitHub](#github) (14)
 - [GitHub abuse](#github-abuse) (2)
-- [GitHub Actions](#github-actions) (16)
+- [GitHub Actions](#github-actions) (17)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
 - [GitHub CLI](#github-cli) (1)
@@ -542,7 +542,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub OAuth](#github-oauth) (1)
 - [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub Security Advisories](#github-security-advisories) (1)
-- [GitHub tokens](#github-tokens) (1)
+- [GitHub tokens](#github-tokens) (2)
 - [GitLab](#gitlab) (1)
 - [gitleaks](#gitleaks) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
@@ -826,6 +826,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
 - [Mustard Tempest](#mustard-tempest) (1)
+- [mutable tags](#mutable-tags) (1)
 - [MYRA](#myra) (1)
 - [named pipes](#named-pipes) (1)
 - [namespace recycling](#namespace-recycling) (1)
@@ -869,7 +870,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
 - [Offshore LC](#offshore-lc) (1)
-- [OIDC](#oidc) (4)
+- [OIDC](#oidc) (5)
 - [Okta](#okta) (4)
 - [Ollama](#ollama) (1)
 - [Oman](#oman) (1)
@@ -887,9 +888,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (138)
+- [operations](#operations) (139)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (137)
+- [ops](#ops) (138)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1099,6 +1100,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [self-hosted AI services](#self-hosted-ai-services) (1)
 - [self-hosted media](#self-hosted-media) (1)
 - [self-propagation](#self-propagation) (1)
+- [semantic-release](#semantic-release) (1)
 - [sendit.sh](#senditsh) (1)
 - [sensitive information exposure](#sensitive-information-exposure) (1)
 - [Sentinel](#sentinel) (1)
@@ -1198,7 +1200,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (3)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (71)
+- [supply-chain](#supply-chain) (72)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
@@ -1208,7 +1210,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA569](#ta569) (1)
 - [Tactical RMM](#tactical-rmm) (1)
 - [tag rewrite](#tag-rewrite) (1)
-- [tag tampering](#tag-tampering) (2)
+- [tag tampering](#tag-tampering) (3)
 - [TAG-22](#tag-22) (2)
 - [Taiwan](#taiwan) (3)
 - [takedown](#takedown) (3)
@@ -1968,6 +1970,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bun
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 
 ## Bun runtime abuse
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
@@ -2087,6 +2090,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+- [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
@@ -2431,6 +2435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -3454,6 +3459,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -3488,6 +3494,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## GitHub tokens
+- [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 
 ## GitLab
@@ -4527,6 +4534,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Mustard Tempest
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
+## mutable tags
+- [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
+
 ## MYRA
 - [MYRA RAT](../tools/myra-rat.md)
 
@@ -4708,6 +4718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OIDC
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -4802,6 +4813,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
@@ -4944,6 +4956,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
@@ -5868,6 +5881,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## self-propagation
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## semantic-release
+- [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
+
 ## sendit.sh
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -6237,6 +6253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
@@ -6320,6 +6337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## tag tampering
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
 ## TAG-22

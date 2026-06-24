@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>codfish semantic-release-action tag compromise</title>
+      <link>https://threat.wiki/ops/codfish-semantic-release-action-tag-compromise/</link>
+      <description>Added coverage for StepSecurity's June 24, 2026 codfish/semantic-release-action GitHub Actions compromise: seven version tags were reportedly force-retargeted to malicious commit 6b9501e, converting the action from Docker to composite, installing Bun with oven-sh/setup-bun@v2, running an if: always() obfuscated JavaScript payload, stealing GitHub OIDC tokens and PATs, encrypting collected material with AES-128-GCM, and attempting repository backdoor propagation. The page focuses on malicious-window workflow-run triage, Bun/action-path hunt pivots, tag-retargeting controls, and credential rotation for release runners.</description>
+      <pubDate>Wed, 24 Jun 2026 17:27:31 GMT</pubDate>
+      <guid>https://threat.wiki/ops/codfish-semantic-release-action-tag-compromise/</guid>
+    </item>
+    <item>
       <title>html-to-gutenberg / fetch-page-assets VS Code blockchain stealer</title>
       <link>https://threat.wiki/ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer/</link>
       <description>Added coverage for JFrog Security Research's June 24, 2026 hijacked npm package report: html-to-gutenberg@4.2.11 and fetch-page-assets@1.2.9 avoided npm lifecycle hooks by hiding a VS Code runOn folderOpen task that launched JavaScript disguised as public/fonts/fa-solid-400.woff2. The page captures Tron/Aptos/BSC blockchain dead-drop staging, Sec-V-based C2 selection, socket.io backdoor control, Python credential and wallet theft, runtime artifacts, and defender guidance for treating trusted-workspace editor tasks as package execution surfaces.</description>
