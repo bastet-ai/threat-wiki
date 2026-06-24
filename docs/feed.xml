@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>xlabs_v1 DDoS-for-hire IoT botnet</title>
+      <link>https://threat.wiki/ops/xlabs-v1-ddos-for-hire-iot-botnet/</link>
+      <description>Added Hunt.io coverage for xlabs_v1, a Mirai-derived DDoS-for-hire IoT botnet exposed through an unauthenticated debug-build staging directory. The page captures ADB-on-TCP/5555 infection, 21 game-server-focused flood variants including RakNet and OpenVPN-shaped UDP, Speedtest-based bandwidth tiering through 8,192 parallel sockets, /bin/bash process masquerading, TCP/26721 fallback re-entry, and defender guidance for IoT / Android-derived device triage.</description>
+      <pubDate>Wed, 24 Jun 2026 03:25:51 GMT</pubDate>
+      <guid>https://threat.wiki/ops/xlabs-v1-ddos-for-hire-iot-botnet/</guid>
+    </item>
+    <item>
       <title>WhatsApp VBScript ManageEngine RMM campaign</title>
       <link>https://threat.wiki/ops/whatsapp-vbscript-manageengine-rmm-campaign/</link>
       <description>Added coverage for Kaspersky's June 2026 WhatsApp VBScript campaign: compromised WhatsApp accounts send finance-themed .vbs / .vbe attachments that execute through Windows Script Host, stage hidden directories under C:\Users\Public\Documents, download secondary scripts, attempt UAC prompt reduction, and silently install a preconfigured ManageEngine Endpoint Central agent for attacker remote access. The page keeps Kaspersky's low-confidence Chinese-speaking-operator caveat, ValleyRAT / Gh0st RAT infrastructure-overlap caveat, and defender hunts for WhatsApp-spawned WScript, suspicious Endpoint Central enrollment, and script-driven ZIP / msiexec activity.</description>

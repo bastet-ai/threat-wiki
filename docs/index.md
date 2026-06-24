@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [xlabs_v1 DDoS-for-hire IoT botnet](ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Agent skill marketplace poisoning](patterns/agent-skill-marketplace-poisoning.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Fake-reputation crypto clipboard hijacker](ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Cloud bucket namespace hijacking](patterns/cloud-bucket-namespace-hijacking.md)
 - [AI-agent memory poisoning](patterns/ai-agent-memory-poisoning.md)
-- [Storm-2603 parallel SharePoint ransomware intrusion](ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

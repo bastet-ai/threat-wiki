@@ -19,6 +19,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actor](#actor) (3)
 - [actors](#actors) (5)
 - [Adaptix C2](#adaptix-c2) (1)
+- [ADB TCP/5555](#adb-tcp5555) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [administrator account creation](#administrator-account-creation) (2)
 - [Adobe Commerce](#adobe-commerce) (1)
@@ -55,6 +56,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AiTM](#aitm) (1)
 - [Albania](#albania) (1)
 - [Android](#android) (4)
+- [Android Debug Bridge](#android-debug-bridge) (1)
 - [Android spyware](#android-spyware) (1)
 - [anti-analysis](#anti-analysis) (1)
 - [Apex One](#apex-one) (1)
@@ -348,6 +350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data-exfiltration](#data-exfiltration) (1)
 - [DAYLIGHT](#daylight) (1)
 - [DDoS](#ddos) (1)
+- [DDoS-for-hire](#ddos-for-hire) (1)
 - [dead drop resolver](#dead-drop-resolver) (1)
 - [DeepSeek](#deepseek) (2)
 - [Defender Advanced Hunting](#defender-advanced-hunting) (1)
@@ -585,7 +588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HttpMalice](#httpmalice) (1)
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (2)
-- [Hunt.io](#huntio) (3)
+- [Hunt.io](#huntio) (4)
 - [I-SOON](#i-soon) (2)
 - [ICE](#ice) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
@@ -620,7 +623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (2)
-- [IoT botnet](#iot-botnet) (1)
+- [IoT botnet](#iot-botnet) (2)
 - [IP-in-IP](#ip-in-ip) (1)
 - [Iran](#iran) (5)
 - [Iran-nexus](#iran-nexus) (1)
@@ -774,12 +777,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
 - [military research](#military-research) (1)
+- [Minecraft DDoS](#minecraft-ddos) (1)
 - [MiniJunk](#minijunk) (1)
 - [MiniPlasma](#miniplasma) (1)
 - [MINIRAT](#minirat) (2)
 - [Ministry of Finance](#ministry-of-finance) (1)
 - [MiniUpdate](#miniupdate) (1)
 - [Mirai](#mirai) (2)
+- [Mirai-derived botnet](#mirai-derived-botnet) (1)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
 - [mobile](#mobile) (1)
@@ -845,6 +850,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OBF networks](#obf-networks) (1)
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
+- [Offshore LC](#offshore-lc) (1)
 - [OIDC](#oidc) (4)
 - [Okta](#okta) (4)
 - [Ollama](#ollama) (1)
@@ -856,6 +862,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenSearch](#opensearch) (1)
 - [OpenSSH](#openssh) (2)
 - [OpenVPN](#openvpn) (1)
+- [OpenVPN-shaped UDP](#openvpn-shaped-udp) (1)
 - [OpenVSX](#openvsx) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Endgame](#operation-endgame) (1)
@@ -985,6 +992,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [query injection](#query-injection) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
 - [RaaS](#raas) (1)
+- [RakNet flood](#raknet-flood) (1)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (5)
 - [ransomware-access](#ransomware-access) (1)
@@ -1341,6 +1349,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
 - [XenoRAT](#xenorat) (2)
+- [xlabs_v1](#xlabs_v1) (1)
 - [XMLDecoder](#xmldecoder) (1)
 - [XMRig](#xmrig) (4)
 - [XOR](#xor) (1)
@@ -1437,6 +1446,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Adaptix C2
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+
+## ADB TCP/5555
+- [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## Admin API key theft
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -1581,6 +1593,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
+## Android Debug Bridge
+- [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## Android spyware
 - [GREYVIBE](../actors/greyvibe.md)
@@ -2704,6 +2719,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DDoS
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
+## DDoS-for-hire
+- [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
+
 ## dead drop resolver
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
@@ -3593,6 +3611,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+- [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## I-SOON
 - [FishMonger](../actors/fishmonger.md)
@@ -3734,6 +3753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## IoT botnet
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+- [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## IP-in-IP
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -4297,6 +4317,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## military research
 - [UNC6508](../actors/unc6508.md)
 
+## Minecraft DDoS
+- [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
+
 ## MiniJunk
 - [Screening Serpens](../actors/screening-serpens.md)
 
@@ -4316,6 +4339,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Mirai
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
+
+## Mirai-derived botnet
+- [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## MITRE ATT&CK T1005
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -4571,6 +4597,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OFAC
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## Offshore LC
+- [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
+
 ## OIDC
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
@@ -4612,6 +4641,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OpenVPN
 - [First VPN](../tools/first-vpn.md)
+
+## OpenVPN-shaped UDP
+- [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## OpenVSX
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -5381,6 +5413,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RaaS
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## RakNet flood
+- [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## RAM disk
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -6768,6 +6803,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## XenoRAT
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
+
+## xlabs_v1
+- [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## XMLDecoder
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)

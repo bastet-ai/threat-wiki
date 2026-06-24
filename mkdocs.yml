@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - xlabs_v1 DDoS-for-hire IoT botnet: ops/xlabs-v1-ddos-for-hire-iot-botnet.md
       - WhatsApp VBScript ManageEngine RMM campaign: ops/whatsapp-vbscript-manageengine-rmm-campaign.md
       - Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation: ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md
       - Lantronix EDS5000 CVE-2025-67038 exploitation: ops/lantronix-eds5000-cve-2025-67038-exploitation.md
