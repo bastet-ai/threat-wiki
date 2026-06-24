@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Cisco Unified CM CVE-2026-20230 file-write exploitation</title>
+      <link>https://threat.wiki/ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation/</link>
+      <description>Added coverage for Cisco Unified CM / Unified CM SME CVE-2026-20230: a WebDialer-gated unauthenticated SSRF flaw that Cisco says can write files to the underlying operating system and later support root escalation. The page captures Cisco's no-workaround advisory, WebDialer disablement mitigation, fixed release 14SU6 and release-15 COP / 15SU5 guidance, SSD Secure Disclosure technical publication context, and The Hacker News / Defused Cyber telemetry of PoC-derived file-write exploitation against decoys.</description>
+      <pubDate>Wed, 24 Jun 2026 09:27:58 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation/</guid>
+    </item>
+    <item>
       <title>Thailand healthcare RAR / Python stealer campaign</title>
       <link>https://threat.wiki/ops/thailand-healthcare-rar-python-stealer/</link>
       <description>Added coverage for Seqrite's June 2026 Thailand healthcare campaign: Ministry of Health and medical-workflow lures delivered malicious RAR archives, Rouki-obfuscated batch loaders, GitHub-hosted payloads, Startup-folder persistence through WindowSecuryt.bat, a bundled Python runtime under C:\Users\Public\Desktops, sim.py information stealing, browser-data collection, and Telegram Bot API exfiltration attempts. The page keeps Seqrite's no-attribution caveat and defender hunts for GitHub script staging, Startup-folder batch files, C:\Users\Public\Desktops.zip, and unexpected Python execution on healthcare endpoints.</description>

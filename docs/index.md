@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Cisco Unified CM CVE-2026-20230 file-write exploitation](ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [Thailand healthcare RAR / Python stealer campaign](ops/thailand-healthcare-rar-python-stealer.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [wshu.net npm credential-stealer campaign](ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Fake-reputation crypto clipboard hijacker](ops/fake-reputation-crypto-clipboard-hijacker.md)
-- [Cloud bucket namespace hijacking](patterns/cloud-bucket-namespace-hijacking.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
