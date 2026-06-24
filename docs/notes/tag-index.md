@@ -11,6 +11,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [abuse response](#abuse-response) (1)
 - [academic research](#academic-research) (1)
 - [Accellion](#accellion) (1)
+- [access brokers](#access-brokers) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
 - [active exploitation](#active-exploitation) (30)
@@ -55,6 +56,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-generated narrator](#ai-generated-narrator) (1)
 - [AiTM](#aitm) (1)
 - [Albania](#albania) (1)
+- [Amadey](#amadey) (1)
 - [Android](#android) (4)
 - [Android Debug Bridge](#android-debug-bridge) (1)
 - [Android spyware](#android-spyware) (1)
@@ -64,6 +66,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [API key exposure](#api-key-exposure) (1)
 - [API keys](#api-keys) (1)
 - [apintergrationpost](#apintergrationpost) (1)
+- [App-Bound Encryption bypass](#app-bound-encryption-bypass) (1)
 - [AppDomainManager](#appdomainmanager) (1)
 - [AppleJeus](#applejeus) (1)
 - [AppleSeed](#appleseed) (1)
@@ -140,6 +143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BreachForums](#breachforums) (1)
 - [BRICKSTORM](#brickstorm) (2)
 - [browser automation](#browser-automation) (1)
+- [browser cookie theft](#browser-cookie-theft) (1)
 - [browser credential theft](#browser-credential-theft) (5)
 - [browser extension](#browser-extension) (1)
 - [browser hijacking](#browser-hijacking) (1)
@@ -194,7 +198,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-CRI-1089](#cl-cri-1089) (1)
 - [Claude](#claude) (2)
 - [Claude Code](#claude-code) (3)
-- [ClickFix](#clickfix) (3)
+- [ClickFix](#clickfix) (4)
 - [ClickOnce](#clickonce) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
 - [clipboard hijacker](#clipboard-hijacker) (1)
@@ -260,7 +264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (1)
-- [credential theft](#credential-theft) (20)
+- [credential theft](#credential-theft) (21)
 - [credential-theft](#credential-theft) (45)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (2)
@@ -455,7 +459,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
-- [Europol](#europol) (1)
+- [Europol](#europol) (2)
 - [evasion](#evasion) (1)
 - [Everest Forms Pro](#everest-forms-pro) (1)
 - [Evil Corp](#evil-corp) (1)
@@ -619,8 +623,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [industrial control](#industrial-control) (1)
 - [industrial control systems](#industrial-control-systems) (1)
 - [INFINITERED](#infinitered) (1)
-- [infostealer](#infostealer) (10)
+- [infostealer](#infostealer) (11)
 - [infrastructure](#infrastructure) (5)
+- [infrastructure disruption](#infrastructure-disruption) (1)
 - [initial access broker](#initial-access-broker) (1)
 - [initial-access](#initial-access) (3)
 - [install-time execution](#install-time-execution) (2)
@@ -711,7 +716,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LMS](#lms) (1)
 - [LNK](#lnk) (7)
 - [LNK files](#lnk-files) (1)
-- [loader](#loader) (1)
+- [loader](#loader) (2)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (1)
 - [local-file-inclusion](#local-file-inclusion) (1)
@@ -742,11 +747,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (2)
-- [malvertising](#malvertising) (3)
-- [malware](#malware) (18)
+- [malvertising](#malvertising) (4)
+- [malware](#malware) (19)
 - [malware analysis](#malware-analysis) (1)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
+- [malware-as-a-service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [MALXMR](#malxmr) (1)
 - [managed file transfer](#managed-file-transfer) (1)
@@ -776,6 +782,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft 365](#microsoft-365) (2)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
 - [Microsoft Defender](#microsoft-defender) (1)
+- [Microsoft Digital Crimes Unit](#microsoft-digital-crimes-unit) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (2)
@@ -810,6 +817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13](#mr_rot13) (1)
 - [msgpack](#msgpack) (1)
 - [mshta](#mshta) (3)
+- [MSI](#msi) (1)
 - [MSP](#msp) (3)
 - [MSSQL](#mssql) (1)
 - [mTLS](#mtls) (1)
@@ -876,9 +884,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (136)
+- [operations](#operations) (137)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (135)
+- [ops](#ops) (136)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -952,7 +960,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (8)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (9)
+- [PowerShell](#powershell) (10)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
 - [PraisonAI](#praisonai) (1)
@@ -1003,11 +1011,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RakNet flood](#raknet-flood) (1)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (5)
+- [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAR archives](#rar-archives) (1)
 - [RAT](#rat) (19)
-- [RC4](#rc4) (2)
+- [RC4](#rc4) (3)
 - [RCE](#rce) (6)
 - [Rclone](#rclone) (1)
 - [RCS](#rcs) (1)
@@ -1055,6 +1064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RSA](#rsa) (1)
 - [RTL819X](#rtl819x) (1)
 - [RubyGems](#rubygems) (2)
+- [rundll32](#rundll32) (1)
 - [Runner.Worker](#runnerworker) (1)
 - [runtime execution](#runtime-execution) (1)
 - [Russia](#russia) (6)
@@ -1069,7 +1079,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SafeDep](#safedep) (2)
 - [Salesforce](#salesforce) (2)
 - [ScarCruft](#scarcruft) (1)
-- [scheduled task](#scheduled-task) (1)
+- [scheduled task](#scheduled-task) (2)
 - [scheduled tasks](#scheduled-tasks) (3)
 - [scope squatting](#scope-squatting) (1)
 - [screen capture](#screen-capture) (1)
@@ -1091,13 +1101,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sentinel](#sentinel) (1)
 - [Sentry](#sentry) (1)
 - [Sentry abuse](#sentry-abuse) (1)
-- [SEO poisoning](#seo-poisoning) (2)
+- [SEO poisoning](#seo-poisoning) (3)
 - [Serv-U](#serv-u) (1)
 - [service accounts](#service-accounts) (1)
 - [service-agent](#service-agent) (1)
 - [ServiceNow](#servicenow) (1)
 - [session hijacking](#session-hijacking) (2)
 - [session theft](#session-theft) (1)
+- [session token theft](#session-token-theft) (1)
 - [SHADOW-AETHER-040](#shadow-aether-040) (1)
 - [SHADOW-AETHER-064](#shadow-aether-064) (1)
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
@@ -1172,6 +1183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [state-linked](#state-linked) (1)
 - [Static Kitten](#static-kitten) (1)
 - [stdio](#stdio) (3)
+- [StealC](#stealc) (1)
 - [stealer](#stealer) (2)
 - [stock exchange](#stock-exchange) (1)
 - [storage deletion](#storage-deletion) (1)
@@ -1403,6 +1415,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Accellion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
+## access brokers
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
 ## account-takeover
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 
@@ -1603,6 +1618,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Albania
 - [Handala](../actors/handala.md)
 
+## Amadey
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
 ## Android
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -1632,6 +1650,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## apintergrationpost
 - [MYRA RAT](../tools/myra-rat.md)
+
+## App-Bound Encryption bypass
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## AppDomainManager
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -1892,6 +1913,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser automation
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
+## browser cookie theft
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
 ## browser credential theft
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GREYVIBE](../actors/greyvibe.md)
@@ -2128,6 +2152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## ClickOnce
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
@@ -2380,6 +2405,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -3144,6 +3170,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Europol
 - [First VPN](../tools/first-vpn.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## evasion
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
@@ -3749,6 +3776,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -3760,6 +3788,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
+## infrastructure disruption
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## initial access broker
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -4095,6 +4126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## loader
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## local LLMs
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -4196,6 +4228,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malvertising
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
 ## malware
@@ -4212,6 +4245,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
 - [SprySOCKS](../tools/sprysocks.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TA4922](../actors/ta4922.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -4226,6 +4260,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Malware-as-a-Service
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
+## malware-as-a-service
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## malware-signing-as-a-service
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -4330,6 +4367,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Microsoft Defender
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+
+## Microsoft Digital Crimes Unit
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## Microsoft Graph
 - [ROADtools](../tools/roadtools.md)
@@ -4444,6 +4484,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
+
+## MSI
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## MSP
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
@@ -4821,6 +4864,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -4961,6 +5005,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -5288,6 +5333,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## PowerShower
@@ -5475,6 +5521,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## ransomware enablement
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
 ## ransomware-access
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
@@ -5508,6 +5557,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RC4
 - [OP-512](../actors/op-512.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## RCE
@@ -5674,6 +5724,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 
+## rundll32
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
 ## Runner.Worker
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 
@@ -5733,6 +5786,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## scheduled task
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## scheduled tasks
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -5807,6 +5861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SEO poisoning
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## Serv-U
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -5826,6 +5881,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## session theft
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+
+## session token theft
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## SHADOW-AETHER-040
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -6095,6 +6153,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+
+## StealC
+- [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## stealer
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)

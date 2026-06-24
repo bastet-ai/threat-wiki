@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>StealC / Amadey infrastructure disruption</title>
+      <link>https://threat.wiki/ops/stealc-amadey-infrastructure-disruption/</link>
+      <description>Added coverage for Microsoft's June 24, 2026 StealC and Amadey disruption: Microsoft Digital Crimes Unit, Europol, and industry partners acted against more than 200 malicious C2 domains and IPs. The page captures StealC browser, wallet, cookie, Outlook, WinSCP, screenshot, file-grab, App-Bound Encryption bypass, and loader behavior; Amadey scheduled-task persistence, plugin, SOCKS, RDP, hidden-admin, VNC, and follow-on malware capabilities; and defender guidance to treat infections as identity and credential incidents rather than endpoint-only malware cleanup.</description>
+      <pubDate>Wed, 24 Jun 2026 13:27:24 GMT</pubDate>
+      <guid>https://threat.wiki/ops/stealc-amadey-infrastructure-disruption/</guid>
+    </item>
+    <item>
       <title>Cisco Unified CM CVE-2026-20230 file-write exploitation</title>
       <link>https://threat.wiki/ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation/</link>
       <description>Added coverage for Cisco Unified CM / Unified CM SME CVE-2026-20230: a WebDialer-gated unauthenticated SSRF flaw that Cisco says can write files to the underlying operating system and later support root escalation. The page captures Cisco's no-workaround advisory, WebDialer disablement mitigation, fixed release 14SU6 and release-15 COP / 15SU5 guidance, SSD Secure Disclosure technical publication context, and The Hacker News / Defused Cyber telemetry of PoC-derived file-write exploitation against decoys.</description>
