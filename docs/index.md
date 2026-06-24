@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [StealC / Amadey infrastructure disruption](ops/stealc-amadey-infrastructure-disruption.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [Thailand healthcare RAR / Python stealer campaign](ops/thailand-healthcare-rar-python-stealer.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [wshu.net npm credential-stealer campaign](ops/wshu-net-npm-credential-stealer-campaign.md)
-- [Langflow CVE-2026-33017 cryptominer SSH worm](ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

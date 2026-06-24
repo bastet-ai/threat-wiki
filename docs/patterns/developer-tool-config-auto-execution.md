@@ -10,6 +10,8 @@ StepSecurity's June 11 Miasma/Hades follow-up extends the same review model beyo
 
 SafeDep's June 12 Astro writeup adds a pull-request review variant: a malicious PR hid an obfuscated loader inside `homepage/astro.config.mjs`, where Astro evaluates configuration as executable Node.js during `astro dev`, `astro build`, and `astro preview`. Treat build-tool config edits as code execution even when the PR narrative claims a UI-only change.
 
+JFrog's June 24 `html-to-gutenberg` / `fetch-page-assets` report adds a package-directory variant: malicious npm packages avoided lifecycle hooks and instead placed a VS Code task with `runOptions.runOn: "folderOpen"` inside the package tree. The task launched JavaScript disguised as `public/fonts/fa-solid-400.woff2`, retrieved stages through blockchain transaction data, and deployed a backdoor plus Python infostealer when the package directory was opened as a trusted workspace.
+
 ## Tags
 - patterns
 - supply-chain
@@ -74,6 +76,7 @@ The operational lesson is narrow and reusable: cloning was not the dangerous ste
 
 ## Related pages
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Claude Code GitHub Action prompt-injection boundary](claude-code-github-action-prompt-injection.md)
 - [Agent skill marketplace poisoning](agent-skill-marketplace-poisoning.md)
@@ -85,3 +88,4 @@ The operational lesson is narrow and reusable: cloning was not the dangerous ste
 - StepSecurity Miasma Microsoft repository disablement follow-up: https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents
 - StepSecurity Miasma/Hades suspicious-files detection note: https://www.stepsecurity.io/blog/miasma-and-hades-are-spreading-now-detect-them-on-developer-machines-with-suspicious-files
 - SafeDep Astro config PR injection: https://safedep.io/astro-config-blockchain-c2-supply-chain
+- JFrog `html-to-gutenberg` / `fetch-page-assets` VS Code task stealer: https://research.jfrog.com/post/hijacked-npm-vscode-tasks-blockchain/
