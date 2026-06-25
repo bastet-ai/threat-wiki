@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [GitHub Actions deployment poisoning: Cordyceps CI/CD composition flaws](../patterns/deployment-poisoning-github-actions.md#cordyceps-cicd-composition-flaws)

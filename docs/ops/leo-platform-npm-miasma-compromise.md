@@ -1,0 +1,97 @@
+# Leo Platform npm Miasma-style compromise
+
+## Summary
+StepSecurity reported that on June 24, 2026 an attacker published malicious versions of 20 npm packages in the Leo Platform ecosystem in a coordinated burst lasting less than three seconds. The packages collectively received roughly 13,600 weekly downloads and carried the same CI/CD credential-theft toolkit StepSecurity had documented in the earlier Miasma wave.
+
+StepSecurity assessed the Leo Platform payload as structurally identical to Miasma: the same `binding.gyp` "Phantom Gyp" install hook, the same ROT-N plus AES-128-GCM plus obfuscator.io layering, the same Bun `v1.3.13` download path, GitHub Actions `Runner.Worker` memory scraping, GitHub dead-drop exfiltration, npm `bypass_2fa` worming, workflow injection, and passwordless sudo modification on GitHub-hosted runners. Treat the actor link as TTP-based until independent public attribution or maintainer forensics confirms the initial access path.
+
+## Tags
+- ops
+- operations
+- supply-chain
+- npm
+- CI/CD
+- GitHub Actions
+- credential-theft
+- worm
+- Miasma
+- Mini Shai-Hulud
+- Phantom Gyp
+- Leo Platform
+
+## Why this matters
+- The campaign shows the Miasma / Mini Shai-Hulud payload factory continuing after the June 3 Red Hat / `@redhat-cloud-services` wave, but focused on one package ecosystem instead of many maintainer accounts.
+- The `binding.gyp` lane can execute during install without an obvious `scripts` entry in `package.json`; package consumers that only review lifecycle scripts can miss it.
+- The payload targets high-blast-radius secrets: GitHub Actions runner memory, cloud metadata and secret stores, package-registry tokens, Vault, Kubernetes, GitHub PATs, and password managers.
+- GitHub-based exfiltration through the victim's own token can avoid simple egress-domain allow/block assumptions because no new attacker domain is required.
+
+## Affected packages
+StepSecurity lists these malicious package versions, all published at `2026-06-24T23:04:55Z` within a three-second window:
+
+| Package | Malicious version |
+| --- | --- |
+| `leo-logger` | `1.0.8` |
+| `leo-sdk` | `6.0.19` |
+| `leo-aws` | `2.0.4` |
+| `leo-config` | `1.1.1` |
+| `leo-streams` | `2.0.1` |
+| `serverless-leo` | `3.0.14` |
+| `leo-connector-mongo` | `3.0.8` |
+| `serverless-convention` | `2.0.4` |
+| `rstreams-metrics` | `2.0.2` |
+| `leo-connector-elasticsearch` | `2.0.6` |
+| `leo-auth` | `4.0.6` |
+| `leo-cache` | `1.0.2` |
+| `leo-cli` | `3.0.3` |
+| `leo-cron` | `2.0.2` |
+| `leo-connector-redshift` | `3.0.6` |
+| `leo-connector-oracle` | `2.0.1` |
+| `rstreams-shard-util` | `1.0.1` |
+| `leo-connector-mysql` | `3.0.3` |
+| `leo-cdk-lib` | `0.0.2` |
+| `solo-nav` | `1.0.1` |
+
+## Reported payload behavior
+- Install-time execution through a `binding.gyp` native-build expansion: `<!(node index.js > /dev/null 2>&1 && echo stub.c)>`.
+- Three-layer JavaScript obfuscation: ROT-N decoding, AES-128-GCM decryption, and obfuscator.io-style output.
+- Bun runtime staging from `github.com/oven-sh/bun/releases/download/bun-v1.3.13/`, followed by temporary payload execution under `/tmp/p*.js`.
+- GitHub Actions runner memory scraping by locating `Runner.Worker` through `/proc/{pid}/cmdline` and reading `/proc/{pid}/mem` to recover secrets masked from logs or child processes.
+- Credential harvesting from AWS, GCP, Azure, Kubernetes, HashiCorp Vault, npm, PyPI, RubyGems, JFrog, GitHub PATs, 1Password, and related developer/CI stores.
+- GitHub GraphQL / Contents API dead-drop exfiltration using the victim's own GitHub token to commit encrypted stolen material.
+- npm propagation via stolen tokens and the `bypass_2fa` publish path.
+- GitHub workflow modification to request `id-token: write` and add attacker-controlled pinned action SHA steps.
+- Passwordless sudo modification on GitHub-hosted runners by writing `runner ALL=(ALL) NOPASSWD:ALL`.
+
+## Indicators and hunt pivots
+- Any install, cache entry, lockfile, artifact, or dependency diff containing one of the affected package/version pairs above.
+- Affected publish timestamp: `2026-06-24T23:04:55Z` for Leo Platform packages.
+- Root-level `binding.gyp` in a package with no real native addon output, especially with `<!(node index.js > /dev/null 2>&1 && echo stub.c)>`.
+- `index.js` containing a very large char-code array; StepSecurity reports length `1,566,023` as a campaign fingerprint.
+- Bun download or execution during `npm install`, especially `bun-v1.3.13`, `/tmp/p*.js`, or `/tmp/b-*`-style staging.
+- `Runner.Worker` memory access through `/proc/<pid>/mem` from a package install context.
+- GitHub API commits to unusual repositories shortly after CI package installation, especially encrypted blobs or Miasma-like repository descriptions.
+- Workflow diffs that unexpectedly add `id-token: write`, pinned opaque action SHAs, or release/publish steps outside the normal release process.
+- sudoers modification containing `runner ALL=(ALL) NOPASSWD:ALL` on GitHub-hosted runners.
+
+StepSecurity also published SHA1 package hashes for the malicious tarballs. Use the vendor-maintained advisory as the source of truth for full hash matching because registry removals and republished clean versions can change what package managers return over time.
+
+## Response guidance
+1. Treat any CI runner or developer host that installed an affected version as compromised.
+2. Stop affected workflows and isolate hosts before mass token revocation if the active payload may still be running.
+3. Preserve workflow logs, resolved package tarballs, npm cache entries, GitHub audit logs, and runner telemetry before retention windows expire.
+4. Rotate reachable GitHub, npm, cloud, Kubernetes, Vault, package-registry, SSH, and password-manager credentials after malicious processes are stopped.
+5. Invalidate GitHub Actions caches and rebuild release runners from known-clean images.
+6. Audit repositories reachable by affected tokens for unexpected commits, workflow changes, `id-token: write` additions, and GitHub dead-drop artifacts.
+7. Add package cooldown controls, registry quarantine for newly published versions, and file-content detections for suspicious `binding.gyp` native-build execution.
+
+## Attribution notes
+StepSecurity states that the Leo Platform operation appears to be the same actor or payload factory behind Miasma because the hook syntax, Bun URL, obfuscation chain, runner-memory theft, GitHub dead-drop exfiltration, and npm worming capability match. Because Mini Shai-Hulud / Miasma source and techniques have been public and copied, track this as **Miasma-style / likely same payload factory** unless later public sources establish a firmer operator attribution.
+
+## Related pages
+- [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [binding.gyp npm CI/CD worm](binding-gyp-npm-cicd-worm.md)
+- [TeamPCP](../actors/teampcp.md)
+- [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
+
+## Sources
+- StepSecurity: https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised

@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Leo Platform npm Miasma-style compromise</title>
+      <link>https://threat.wiki/ops/leo-platform-npm-miasma-compromise/</link>
+      <description>Added coverage for StepSecurity's June 25, 2026 Leo Platform npm compromise: 20 packages were maliciously published in a three-second burst on June 24 with the same Miasma-style Phantom Gyp binding.gyp install hook, ROT-N / AES-128-GCM / obfuscator.io layering, Bun v1.3.13 runtime download, GitHub Actions Runner.Worker memory scraping, GitHub dead-drop exfiltration, npm bypass_2fa worming, workflow injection, and runner sudoers modification. The page captures affected package/version pairs, hunt pivots, response steps, and an attribution caveat for likely same payload factory versus copycat reuse.</description>
+      <pubDate>Thu, 25 Jun 2026 09:27:10 GMT</pubDate>
+      <guid>https://threat.wiki/ops/leo-platform-npm-miasma-compromise/</guid>
+    </item>
+    <item>
       <title>StrikeShark SharkLoader / Cobalt Strike campaign</title>
       <link>https://threat.wiki/ops/strikeshark-sharkloader-cobalt-strike/</link>
       <description>Added coverage for Kaspersky's June 2026 StrikeShark report: a SharkLoader campaign delivering Cobalt Strike Beacon after internet-facing application exploitation or custom droppers disguised as Cisco AnyConnect, Google Update, or decoy PDFs. The page captures old edge-vulnerability exposure, web-shell post-exploitation, copied SystemSettings.exe DLL sideloading, DscCoreR.mui and SyncRes.dat reflective loading, API-hooked in-memory Beacon execution, registry Run keys, scheduled-task persistence, victimology, and Kaspersky's no-attribution caveat.</description>

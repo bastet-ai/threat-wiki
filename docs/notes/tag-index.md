@@ -187,7 +187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (1)
 - [CI-CD](#ci-cd) (2)
-- [CI/CD](#cicd) (31)
+- [CI/CD](#cicd) (32)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
 - [CISA KEV](#cisa-kev) (12)
@@ -267,7 +267,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (1)
 - [credential theft](#credential-theft) (21)
-- [credential-theft](#credential-theft) (48)
+- [credential-theft](#credential-theft) (49)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (2)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -535,7 +535,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [GitHub](#github) (14)
 - [GitHub abuse](#github-abuse) (2)
-- [GitHub Actions](#github-actions) (18)
+- [GitHub Actions](#github-actions) (19)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
 - [GitHub CLI](#github-cli) (1)
@@ -701,6 +701,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [legacy software](#legacy-software) (1)
 - [legal sector](#legal-sector) (1)
 - [LegionRelay](#legionrelay) (1)
+- [Leo Platform](#leo-platform) (1)
 - [liblzma](#liblzma) (1)
 - [libp2p](#libp2p) (1)
 - [libpeconv](#libpeconv) (1)
@@ -781,7 +782,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA bypass](#mfa-bypass) (4)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
-- [Miasma](#miasma) (4)
+- [Miasma](#miasma) (5)
 - [Microsoft](#microsoft) (4)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (2)
@@ -796,6 +797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Midnight Blizzard](#midnight-blizzard) (1)
 - [military research](#military-research) (1)
 - [Minecraft DDoS](#minecraft-ddos) (1)
+- [Mini Shai-Hulud](#mini-shai-hulud) (1)
 - [MiniJunk](#minijunk) (1)
 - [MiniPlasma](#miniplasma) (1)
 - [MINIRAT](#minirat) (2)
@@ -853,7 +855,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (1)
 - [North Korea](#north-korea) (8)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (38)
+- [npm](#npm) (39)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm tokens](#npm-tokens) (1)
 - [npx](#npx) (1)
@@ -890,9 +892,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (140)
+- [operations](#operations) (141)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (140)
+- [ops](#ops) (141)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -935,7 +937,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [persistence](#persistence) (21)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
-- [Phantom Gyp](#phantom-gyp) (1)
+- [Phantom Gyp](#phantom-gyp) (2)
 - [PhantomClick](#phantomclick) (1)
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
@@ -1204,7 +1206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (3)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (73)
+- [supply-chain](#supply-chain) (74)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
@@ -1380,7 +1382,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WordPress](#wordpress) (4)
 - [workflow backdoor](#workflow-backdoor) (1)
 - [World Cup](#world-cup) (1)
-- [worm](#worm) (10)
+- [worm](#worm) (11)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [WScript](#wscript) (1)
 - [X_TRADER](#x_trader) (1)
@@ -2104,6 +2106,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
@@ -2460,6 +2463,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
@@ -3476,6 +3480,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -4080,6 +4085,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LegionRelay
 - [GREYVIBE](../actors/greyvibe.md)
 
+## Leo Platform
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
+
 ## liblzma
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -4392,6 +4400,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## Microsoft
@@ -4442,6 +4451,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Minecraft DDoS
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
+
+## Mini Shai-Hulud
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 
 ## MiniJunk
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -4652,6 +4664,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
@@ -4870,6 +4883,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -5013,6 +5027,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -5266,6 +5281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Phantom Gyp
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 
 ## PhantomClick
 - [GREYVIBE](../actors/greyvibe.md)
@@ -6304,6 +6320,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -6995,6 +7012,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CanisterWorm](../tools/canisterworm.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
