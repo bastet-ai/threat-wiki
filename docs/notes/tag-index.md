@@ -187,7 +187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (1)
 - [CI-CD](#ci-cd) (2)
-- [CI/CD](#cicd) (30)
+- [CI/CD](#cicd) (31)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
 - [CISA KEV](#cisa-kev) (12)
@@ -267,7 +267,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (1)
 - [credential theft](#credential-theft) (21)
-- [credential-theft](#credential-theft) (47)
+- [credential-theft](#credential-theft) (48)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (2)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -535,7 +535,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [GitHub](#github) (14)
 - [GitHub abuse](#github-abuse) (2)
-- [GitHub Actions](#github-actions) (17)
+- [GitHub Actions](#github-actions) (18)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
 - [GitHub CLI](#github-cli) (1)
@@ -768,6 +768,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marketplace abuse](#marketplace-abuse) (1)
 - [marketplace trust](#marketplace-trust) (1)
 - [Maven Central](#maven-central) (1)
+- [mawesome](#mawesome) (1)
 - [MCP](#mcp) (5)
 - [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
@@ -827,7 +828,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
 - [Mustard Tempest](#mustard-tempest) (1)
-- [mutable tags](#mutable-tags) (1)
+- [mutable tags](#mutable-tags) (2)
 - [MYRA](#myra) (1)
 - [named pipes](#named-pipes) (1)
 - [namespace recycling](#namespace-recycling) (1)
@@ -889,9 +890,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (139)
+- [operations](#operations) (140)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (139)
+- [ops](#ops) (140)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1039,6 +1040,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [refresh tokens](#refresh-tokens) (1)
 - [registry persistence](#registry-persistence) (3)
 - [registry-controls](#registry-controls) (1)
+- [release automation](#release-automation) (1)
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (4)
 - [Remote Access VPN](#remote-access-vpn) (1)
@@ -1202,7 +1204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [supply chain](#supply-chain) (3)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (72)
+- [supply-chain](#supply-chain) (73)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
@@ -1212,7 +1214,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA569](#ta569) (1)
 - [Tactical RMM](#tactical-rmm) (1)
 - [tag rewrite](#tag-rewrite) (1)
-- [tag tampering](#tag-tampering) (3)
+- [tag tampering](#tag-tampering) (4)
 - [TAG-22](#tag-22) (2)
 - [Taiwan](#taiwan) (3)
 - [takedown](#takedown) (3)
@@ -2109,6 +2111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -2471,6 +2474,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+- [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [TA4922](../actors/ta4922.md)
@@ -3475,6 +3479,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -4336,6 +4341,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Maven Central
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## mawesome
+- [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
+
 ## MCP
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -4545,6 +4553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## mutable tags
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
+- [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 
 ## MYRA
 - [MYRA RAT](../tools/myra-rat.md)
@@ -4906,6 +4915,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+- [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -5048,6 +5058,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+- [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
@@ -5667,6 +5678,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## registry-controls
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+
+## release automation
+- [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 
 ## release tampering
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -6308,6 +6322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+- [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -6352,6 +6367,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tag tampering
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
+- [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
 ## TAG-22

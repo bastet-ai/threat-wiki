@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [simonecorsi/mawesome GitHub Action compromise](ops/simonecorsi-mawesome-github-action-compromise.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](ops/strikeshark-sharkloader-cobalt-strike.md)
 - [GitHub Actions deployment poisoning: Cordyceps CI/CD composition flaws](patterns/deployment-poisoning-github-actions.md#cordyceps-cicd-composition-flaws)
 - [codfish semantic-release-action tag compromise](ops/codfish-semantic-release-action-tag-compromise.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Thailand healthcare RAR / Python stealer campaign](ops/thailand-healthcare-rar-python-stealer.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
-- [Agent skill marketplace poisoning](patterns/agent-skill-marketplace-poisoning.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
