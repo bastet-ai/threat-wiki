@@ -16,7 +16,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [access brokers](#access-brokers) (1)
 - [account-takeover](#account-takeover) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (30)
+- [active exploitation](#active-exploitation) (31)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (3)
@@ -203,7 +203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD](#cicd) (32)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
-- [CISA KEV](#cisa-kev) (12)
+- [CISA KEV](#cisa-kev) (13)
 - [Cisco](#cisco) (2)
 - [Cisco Nexus](#cisco-nexus) (1)
 - [Cisco Unified CM](#cisco-unified-cm) (1)
@@ -325,6 +325,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-10520](#cve-2026-10520) (1)
 - [CVE-2026-10523](#cve-2026-10523) (1)
 - [CVE-2026-11645](#cve-2026-11645) (1)
+- [CVE-2026-12569](#cve-2026-12569) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
 - [CVE-2026-20230](#cve-2026-20230) (1)
@@ -389,7 +390,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Deno](#deno) (2)
 - [dependency confusion](#dependency-confusion) (1)
 - [deployment_status](#deployment_status) (1)
-- [deserialization](#deserialization) (2)
+- [deserialization](#deserialization) (3)
 - [destructive operations](#destructive-operations) (1)
 - [DEV-0206](#dev-0206) (1)
 - [developer credentials](#developer-credentials) (1)
@@ -467,6 +468,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [EndpointDlp.dll](#endpointdlpdll) (1)
 - [energy-sector](#energy-sector) (1)
 - [engineering software](#engineering-software) (1)
+- [enterprise application](#enterprise-application) (1)
 - [Entra ID](#entra-id) (2)
 - [Environment Management Hub](#environment-management-hub) (1)
 - [environment variables](#environment-variables) (1)
@@ -523,6 +525,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FireAnt MetaKit](#fireant-metakit) (1)
 - [firewall](#firewall) (1)
 - [FishMonger](#fishmonger) (1)
+- [FlexPLM](#flexplm) (1)
 - [Flutter](#flutter) (1)
 - [FlutterShell](#fluttershell) (1)
 - [folderOpen](#folderopen) (1)
@@ -638,7 +641,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (1)
 - [import-time execution](#import-time-execution) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
-- [incident response](#incident-response) (16)
+- [incident response](#incident-response) (17)
 - [incident-response](#incident-response) (1)
 - [indirect prompt injection](#indirect-prompt-injection) (2)
 - [industrial control](#industrial-control) (1)
@@ -918,9 +921,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (143)
+- [operations](#operations) (144)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (144)
+- [ops](#ops) (145)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1011,6 +1014,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [process doppelgänging](#process-doppelganging) (1)
 - [process hollowing](#process-hollowing) (2)
 - [process injection](#process-injection) (2)
+- [product lifecycle management](#product-lifecycle-management) (1)
 - [professional services](#professional-services) (1)
 - [profile.d](#profiled) (1)
 - [prompt injection](#prompt-injection) (6)
@@ -1026,6 +1030,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PSEMHUB](#psemhub) (1)
 - [PSIGW](#psigw) (1)
 - [psychological operations](#psychological-operations) (1)
+- [PTC](#ptc) (1)
 - [public exploit](#public-exploit) (1)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public sector](#public-sector) (1)
@@ -1074,7 +1079,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (4)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (6)
+- [remote code execution](#remote-code-execution) (7)
 - [remote script injection](#remote-script-injection) (1)
 - [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
@@ -1401,6 +1406,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp](#whatsapp) (2)
 - [WHM](#whm) (3)
 - [Widget Factory](#widget-factory) (1)
+- [Windchill](#windchill) (1)
+- [Windchill PDMLink](#windchill-pdmlink) (1)
 - [Windows](#windows) (19)
 - [Windows malware](#windows-malware) (3)
 - [Windows persistence](#windows-persistence) (1)
@@ -1503,6 +1510,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
@@ -2215,6 +2223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
@@ -2720,6 +2729,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-11645
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
+## CVE-2026-12569
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+
 ## CVE-2026-20127
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
@@ -2944,6 +2956,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## deserialization
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## destructive operations
@@ -3227,6 +3240,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## engineering software
 - [Fast16](../tools/fast16.md)
 
+## enterprise application
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+
 ## Entra ID
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [ROADtools](../tools/roadtools.md)
@@ -3454,6 +3470,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FishMonger
 - [SprySOCKS](../tools/sprysocks.md)
+
+## FlexPLM
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 
 ## Flutter
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -3885,6 +3904,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
@@ -5050,6 +5070,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -5197,6 +5218,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -5599,6 +5621,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OceanLotus](../actors/oceanlotus.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
+## product lifecycle management
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+
 ## professional services
 - [UNC3753](../actors/unc3753.md)
 
@@ -5655,6 +5680,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## psychological operations
 - [Handala](../actors/handala.md)
+
+## PTC
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 
 ## public exploit
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -5857,6 +5885,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 
 ## remote script injection
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
@@ -7093,6 +7122,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Widget Factory
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+
+## Windchill
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+
+## Windchill PDMLink
+- [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)

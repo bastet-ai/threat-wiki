@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>PTC Windchill / FlexPLM CVE-2026-12569 exploitation</title>
+      <link>https://threat.wiki/ops/ptc-windchill-flexplm-cve-2026-12569-exploitation/</link>
+      <description>Added CISA KEV coverage for PTC Windchill PDMLink and PTC FlexPLM CVE-2026-12569: a critical unauthenticated remote-code-execution vulnerability described as untrusted-data deserialization / improper input validation, added to KEV on June 25, 2026 with a June 28 remediation due date. The page captures affected-version context from NVD, PTC CVSS 4.0 9.3 severity, active-exploitation implications, and defender guidance for urgent exposure review, patching, log preservation, application-server triage, and credential rotation.</description>
+      <pubDate>Thu, 25 Jun 2026 19:31:09 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ptc-windchill-flexplm-cve-2026-12569-exploitation/</guid>
+    </item>
+    <item>
+      <title>Leo Platform npm Miasma-style compromise: Socket Go/source-repository expansion</title>
+      <link>https://threat.wiki/ops/leo-platform-npm-miasma-compromise/</link>
+      <description>Updated Leo Platform / Miasma coverage with Socket's June 25 follow-up: the wave expanded from 20 StepSecurity-listed Leo/RStreams npm packages to 23 npm packages with llxlr-published hexo-deployer-wrangler, hexo-shoka-swiper, and prism-silq, plus a related Verana Blockchain Go source-archive poisoning case. The update adds RevokeAndItGoesKaboom / Alright Lets See If This Works campaign markers, Verana .claude and .vscode hook pivots, Bun-staged source-repository execution risk, and repository-cleanup guidance beyond npm package removal.</description>
+      <pubDate>Thu, 25 Jun 2026 19:31:09 GMT</pubDate>
+      <guid>https://threat.wiki/ops/leo-platform-npm-miasma-compromise/#go-source-repository-poisoning-expansion</guid>
+    </item>
+    <item>
       <title>Adblock for YouTube BadBlocker remote-script injection risk</title>
       <link>https://threat.wiki/ops/adblock-for-youtube-badblocker-remote-script-injection/</link>
       <description>Added Island Security Research coverage for Adblock for YouTube / BadBlocker: a Chrome Web Store extension with more than 11 million installs, broad &lt;all_urls&gt; permissions, weak youtube.com substring gating, 24-hour remote rule fetches from api.adblock-for-youtube.com, and server-selected scripletsRules that can drive chrome.scripting.executeScript in the page MAIN world. Island did not observe active malicious payload delivery; the page frames this as a latent high-blast-radius browser-session execution risk with defender pivots for extension inventory, managed-browser policy, and endpoint/proxy telemetry.</description>
