@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>CL-STA-1062 Southeast Asia government and energy intrusions</title>
+      <link>https://threat.wiki/ops/cl-sta-1062-southeast-asia-tinyrct/</link>
+      <description>Added Unit 42 coverage for CL-STA-1062: a Chinese-speaking espionage cluster, assessed with high confidence as overlapping Cisco Talos UAT-7237, targeting Southeast Asian government and state-owned critical energy entities. The update adds a CL-STA-1062 actor page, TinyRCT tool page, and campaign page covering ASPX web shells, SoftEther VPN / VNT / yuze tunneling, RAR staging, AppDomainManager injection through chrome_setup.zip, PerfWatson2.exe, AES-128-CBC HTTP C2, GoogleUpdaterTaskSystem scheduled-task persistence, and defender hunts for web-shell-led staging and renamed tunnel tooling.</description>
+      <pubDate>Thu, 25 Jun 2026 23:26:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cl-sta-1062-southeast-asia-tinyrct/</guid>
+    </item>
+    <item>
       <title>Leo Platform npm Miasma-style compromise: Sonatype affected-package clarification</title>
       <link>https://threat.wiki/ops/leo-platform-npm-miasma-compromise/</link>
       <description>Updated Leo Platform / Miasma coverage with Sonatype's June 25 clarification: Sonatype aligned the llxlr-published hexo-deployer-wrangler, hexo-shoka-swiper, and prism-silq packages with the same payload-bearing campaign, assigned advisory pivot Sonatype-2026-004261, and cautioned that leo-connector-common@4.0.11-rc, leo-connector-postgres@4.0.19-beta, and leo-connector-entity-table@3.0.22-rc appeared in some early lists but did not appear to carry the confirmed Miasma payload in Sonatype's current analysis.</description>

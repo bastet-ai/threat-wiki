@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - CL-STA-1062 Southeast Asia government and energy intrusions: ops/cl-sta-1062-southeast-asia-tinyrct.md
       - PTC Windchill / FlexPLM CVE-2026-12569 exploitation: ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md
       - Adblock for YouTube BadBlocker remote-script injection risk: ops/adblock-for-youtube-badblocker-remote-script-injection.md
       - Backdoor.Mistic / KongTuke ModeloRAT activity: ops/mistic-backdoor-kongtuke-modelorat.md
@@ -156,6 +157,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - TinyRCT: tools/tinyrct.md
       - MYRA RAT: tools/myra-rat.md
       - SprySOCKS: tools/sprysocks.md
       - The Gentlemen ransomware: tools/the-gentlemen-ransomware.md
@@ -167,6 +169,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - CL-STA-1062: actors/cl-sta-1062.md
       - UNC6508: actors/unc6508.md
       - FishMonger: actors/fishmonger.md
       - Velvet Ant: actors/velvet-ant.md
