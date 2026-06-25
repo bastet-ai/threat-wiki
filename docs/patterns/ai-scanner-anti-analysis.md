@@ -83,6 +83,12 @@ For AI-enabled package scanning and malware triage:
 - Re-run untrusted-data isolation after each decode/unpack layer, because prompt-like content may be staged behind obfuscation.
 - During incident response, preserve the original artifact and scanner logs so failures can be distinguished from clean analysis.
 
+## Standalone malware case: macOS.Gaslight
+
+SentinelLABS' June 2026 macOS.Gaslight report extends this pattern beyond package-scanner evasion. Gaslight is a Rust macOS backdoor and infostealer that embeds a 3.5 KB Markdown-fenced prompt-injection block with 38 fabricated "system" messages. SentinelOne reported fake token-expiry, out-of-memory, disk-exhaustion, operation-failure, injection-warning, and static-analysis-warning messages designed to make an LLM-assisted triage pipeline abort, truncate, refuse, or distrust its own analysis session.
+
+That makes Gaslight a durable reference case for analyst-targeting malware strings: even when the malicious executable is not itself an AI package or agent plugin, sample contents can still attack the tooling used by reverse engineers and SOC automation. Treat decoded strings, embedded scripts, comments, and extracted resources as hostile data at every analysis stage.
+
 ## Relationship to Mini Shai-Hulud / Miasma / Hades
 
 Socket connects the technique to earlier Mini Shai-Hulud, Miasma, and Hades reporting where malicious PyPI wheels used fake prompt-injection headers before obfuscated JavaScript payloads. `shai_hulululud` appears more directly focused on scanner behavior and should not be treated as confirmed credential-theft activity by itself.
@@ -94,6 +100,7 @@ Keep the distinction clear:
 
 ## Related pages
 
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Developer-tool config auto-execution](developer-tool-config-auto-execution.md)
@@ -102,3 +109,4 @@ Keep the distinction clear:
 ## Sources
 
 - Socket: https://socket.dev/blog/npm-package-uses-prompt-injection-and-token-flooding-to-disrupt-ai-malware-scanners
+- SentinelOne SentinelLABS: https://www.sentinelone.com/labs/macos-gaslight-rust-backdoor-turns-prompt-injection-on-the-analyst-not-the-sandbox/

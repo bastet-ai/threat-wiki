@@ -27,6 +27,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adspect](#adspect) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (2)
 - [adware](#adware) (3)
+- [AES-GCM](#aes-gcm) (1)
 - [Afghanistan](#afghanistan) (2)
 - [agent frameworks](#agent-frameworks) (3)
 - [agent memory](#agent-memory) (1)
@@ -38,6 +39,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (4)
 - [AI agents](#ai-agents) (10)
+- [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (1)
 - [AI assistants](#ai-assistants) (3)
 - [AI brand impersonation](#ai-brand-impersonation) (1)
@@ -112,7 +114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure](#azure) (3)
 - [Azure Storage](#azure-storage) (1)
 - [Backblaze](#backblaze) (1)
-- [backdoor](#backdoor) (9)
+- [backdoor](#backdoor) (10)
 - [backup disruption](#backup-disruption) (1)
 - [backups](#backups) (1)
 - [banking](#banking) (1)
@@ -145,7 +147,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BRICKSTORM](#brickstorm) (2)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
-- [browser credential theft](#browser-credential-theft) (5)
+- [browser credential theft](#browser-credential-theft) (6)
 - [browser extension](#browser-extension) (1)
 - [browser hijacking](#browser-hijacking) (1)
 - [browser zero-day](#browser-zero-day) (1)
@@ -167,6 +169,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
+- [certificate pinning](#certificate-pinning) (1)
 - [certificate theft](#certificate-theft) (1)
 - [ChatGPT](#chatgpt) (1)
 - [chattr](#chattr) (1)
@@ -411,7 +414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [downgrade risk](#downgrade-risk) (1)
 - [DPAPI](#dpapi) (1)
 - [DPAPILoader](#dpapiloader) (1)
-- [DPRK](#dprk) (2)
+- [DPRK](#dprk) (3)
 - [driver loading](#driver-loading) (1)
 - [DroneLink](#dronelink) (1)
 - [Dropbear](#dropbear) (1)
@@ -627,7 +630,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [industrial control](#industrial-control) (1)
 - [industrial control systems](#industrial-control-systems) (1)
 - [INFINITERED](#infinitered) (1)
-- [infostealer](#infostealer) (12)
+- [infostealer](#infostealer) (13)
 - [infrastructure](#infrastructure) (5)
 - [infrastructure disruption](#infrastructure-disruption) (1)
 - [initial access broker](#initial-access-broker) (1)
@@ -670,6 +673,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Keitaro](#keitaro) (1)
 - [kernel driver](#kernel-driver) (3)
 - [KEV](#kev) (3)
+- [keychain theft](#keychain-theft) (1)
 - [KeyHunter](#keyhunter) (1)
 - [keylogger](#keylogger) (2)
 - [keylogging](#keylogging) (1)
@@ -690,6 +694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lateral movement](#lateral-movement) (2)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (2)
+- [LaunchAgent](#launchagent) (1)
 - [launchctl](#launchctl) (1)
 - [law enforcement](#law-enforcement) (1)
 - [law-enforcement-disruption](#law-enforcement-disruption) (1)
@@ -743,7 +748,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Luna Moth](#luna-moth) (1)
 - [MacCMS](#maccms) (1)
 - [machine-learning](#machine-learning) (1)
-- [macOS](#macos) (6)
+- [macOS](#macos) (7)
 - [macOS malware](#macos-malware) (1)
 - [Magento](#magento) (1)
 - [MagicYUV](#magicyuv) (1)
@@ -753,8 +758,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (4)
-- [malware](#malware) (20)
-- [malware analysis](#malware-analysis) (1)
+- [malware](#malware) (21)
+- [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-as-a-service](#malware-as-a-service) (1)
@@ -853,7 +858,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-gyp](#node-gyp) (1)
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
-- [North Korea](#north-korea) (8)
+- [North Korea](#north-korea) (9)
 - [notarized malware](#notarized-malware) (1)
 - [npm](#npm) (39)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
@@ -892,9 +897,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (141)
+- [operations](#operations) (142)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (141)
+- [ops](#ops) (142)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -987,7 +992,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [process injection](#process-injection) (2)
 - [professional services](#professional-services) (1)
 - [profile.d](#profiled) (1)
-- [prompt injection](#prompt-injection) (5)
+- [prompt injection](#prompt-injection) (6)
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
@@ -1007,7 +1012,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PUP](#pup) (1)
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (8)
-- [Python](#python) (5)
+- [Python](#python) (6)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python stealer](#python-stealer) (1)
 - [QiAnXin XLab](#qianxin-xlab) (1)
@@ -1080,7 +1085,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
-- [Rust](#rust) (5)
+- [Rust](#rust) (6)
 - [Rust malware](#rust-malware) (1)
 - [SaaS](#saas) (3)
 - [sabotage](#sabotage) (2)
@@ -1234,7 +1239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telecommunications](#telecommunications) (1)
 - [Telegram](#telegram) (5)
 - [telegram](#telegram) (1)
-- [Telegram C2](#telegram-c2) (2)
+- [Telegram C2](#telegram-c2) (3)
 - [Telegram exfiltration](#telegram-exfiltration) (1)
 - [telemetry](#telemetry) (1)
 - [Telnyx](#telnyx) (1)
@@ -1515,6 +1520,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
+## AES-GCM
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+
 ## Afghanistan
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
@@ -1563,6 +1571,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
+## AI anti-analysis
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
 ## AI application infrastructure
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
@@ -1823,6 +1834,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## backdoor
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -1937,6 +1949,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser credential theft
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
@@ -2013,6 +2026,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CDN
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## certificate pinning
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
 ## certificate theft
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
@@ -3007,6 +3023,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DPRK
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
 ## driver loading
 - [SprySOCKS](../tools/sprysocks.md)
@@ -3820,6 +3837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -3981,6 +3999,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
+## keychain theft
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+
 ## KeyHunter
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
@@ -4047,6 +4068,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Latin America
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
+## LaunchAgent
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
 ## launchctl
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -4245,6 +4269,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
@@ -4288,6 +4313,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](../tools/fast16.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
@@ -4304,6 +4330,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malware analysis
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
 ## malware delivery
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -4636,6 +4663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## North Korea
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [RemotePE](../tools/remotepe.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -4890,6 +4918,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -5034,6 +5063,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -5480,6 +5510,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
 ## prompt-injection
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -5554,6 +5585,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Python
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -5832,6 +5864,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Rust
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -6456,6 +6489,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 
 ## Telegram C2
+- [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
