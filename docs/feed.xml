@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Leo Platform npm Miasma-style compromise: Sonatype affected-package clarification</title>
+      <link>https://threat.wiki/ops/leo-platform-npm-miasma-compromise/</link>
+      <description>Updated Leo Platform / Miasma coverage with Sonatype's June 25 clarification: Sonatype aligned the llxlr-published hexo-deployer-wrangler, hexo-shoka-swiper, and prism-silq packages with the same payload-bearing campaign, assigned advisory pivot Sonatype-2026-004261, and cautioned that leo-connector-common@4.0.11-rc, leo-connector-postgres@4.0.19-beta, and leo-connector-entity-table@3.0.22-rc appeared in some early lists but did not appear to carry the confirmed Miasma payload in Sonatype's current analysis.</description>
+      <pubDate>Thu, 25 Jun 2026 21:26:04 GMT</pubDate>
+      <guid>https://threat.wiki/ops/leo-platform-npm-miasma-compromise/#affected-packages-sonatype-2026-06-25</guid>
+    </item>
+    <item>
       <title>PTC Windchill / FlexPLM CVE-2026-12569 exploitation</title>
       <link>https://threat.wiki/ops/ptc-windchill-flexplm-cve-2026-12569-exploitation/</link>
       <description>Added CISA KEV coverage for PTC Windchill PDMLink and PTC FlexPLM CVE-2026-12569: a critical unauthenticated remote-code-execution vulnerability described as untrusted-data deserialization / improper input validation, added to KEV on June 25, 2026 with a June 28 remediation due date. The page captures affected-version context from NVD, PTC CVSS 4.0 9.3 severity, active-exploitation implications, and defender guidance for urgent exposure review, patching, log preservation, application-server triage, and credential rotation.</description>

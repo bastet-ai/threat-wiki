@@ -1,7 +1,7 @@
 # Leo Platform npm Miasma-style compromise
 
 ## Summary
-StepSecurity reported that on June 24, 2026 an attacker published malicious versions of 20 npm packages in the Leo Platform ecosystem in a coordinated burst lasting less than three seconds. Socket's June 25 follow-up expanded the same wave to 23 npm package versions, including three additional `llxlr`-published packages, and added a related Verana Blockchain Go source-archive poisoning case. The Leo / RStreams packages collectively received roughly 13,600 weekly downloads and carried the same CI/CD credential-theft toolkit StepSecurity had documented in the earlier Miasma wave.
+StepSecurity reported that on June 24, 2026 an attacker published malicious versions of 20 npm packages in the Leo Platform ecosystem in a coordinated burst lasting less than three seconds. Socket's June 25 follow-up expanded the same wave to 23 npm package versions, including three additional `llxlr`-published packages, and added a related Verana Blockchain Go source-archive poisoning case. Sonatype's June 25 analysis aligned the three `llxlr` packages with the campaign, framed the malicious set as Leo Platform / RStreams plus related packages, and warned that three prerelease Leo connector packages named in some early public reporting did **not** appear to contain the observed payload. The Leo / RStreams packages collectively received roughly 13,600 weekly downloads and carried the same CI/CD credential-theft toolkit StepSecurity had documented in the earlier Miasma wave.
 
 StepSecurity assessed the Leo Platform payload as structurally identical to Miasma: the same `binding.gyp` "Phantom Gyp" install hook, the same ROT-N plus AES-128-GCM plus obfuscator.io layering, the same Bun `v1.3.13` download path, GitHub Actions `Runner.Worker` memory scraping, GitHub dead-drop exfiltration, npm `bypass_2fa` worming, workflow injection, and passwordless sudo modification on GitHub-hosted runners. Treat the actor link as TTP-based until independent public attribution or maintainer forensics confirms the initial access path.
 
@@ -60,6 +60,8 @@ Socket later added three additional malicious npm package versions published by 
 | `hexo-shoka-swiper` | `0.1.10` |
 | `prism-silq` | `1.0.1` |
 
+Sonatype independently reported the same three `llxlr` packages as additional payload-bearing packages and assigned the campaign advisory `Sonatype-2026-004261`. It also cautioned that three prerelease or release-candidate Leo connector packages included in some early lists — `leo-connector-common@4.0.11-rc`, `leo-connector-postgres@4.0.19-beta`, and `leo-connector-entity-table@3.0.22-rc` — should still be reviewed as surrounding incident activity but did not appear, in Sonatype's current analysis, to carry the confirmed Miasma payload.
+
 ## Reported payload behavior
 - Install-time execution through a `binding.gyp` native-build expansion: `<!(node index.js > /dev/null 2>&1 && echo stub.c)>`.
 - Three-layer JavaScript obfuscation: ROT-N decoding, AES-128-GCM decryption, and obfuscator.io-style output.
@@ -87,6 +89,7 @@ Treat this as source-repository execution risk: a developer who clones or opens 
 - Any install, cache entry, lockfile, artifact, or dependency diff containing one of the affected package/version pairs above.
 - Affected publish timestamp: `2026-06-24T23:04:55Z` for Leo Platform packages.
 - Socket-added npm packages: `hexo-deployer-wrangler@1.0.4`, `hexo-shoka-swiper@0.1.10`, and `prism-silq@1.0.1`.
+- Sonatype advisory pivot: `Sonatype-2026-004261`; use it to separate confirmed payload-bearing versions from adjacent prerelease packages that may have appeared in early lists.
 - Root-level `binding.gyp` in a package with no real native addon output, especially with `<!(node index.js > /dev/null 2>&1 && echo stub.c)>`.
 - `index.js` containing a very large char-code array; StepSecurity reports length `1,566,023` as a campaign fingerprint.
 - Bun download or execution during `npm install`, especially `bun-v1.3.13`, `/tmp/p*.js`, or `/tmp/b-*`-style staging.
@@ -121,3 +124,4 @@ StepSecurity states that the Leo Platform operation appears to be the same actor
 ## Sources
 - StepSecurity: https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised
 - Socket: https://socket.dev/blog/miasma-mini-shai-hulud-hits-leoplatform-npm-packages-go-ecosystem
+- Sonatype: https://www.sonatype.com/blog/miasma-returns-leo-platform-compromise-in-npm
