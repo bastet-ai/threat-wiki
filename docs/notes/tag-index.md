@@ -8,6 +8,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX](#3cx) (1)
 - [404 TDS](#404-tds) (1)
 - [4sync](#4sync) (1)
+- [`<all_urls>`](#all_urls) (1)
 - [Ababil of Minab](#ababil-of-minab) (1)
 - [abuse response](#abuse-response) (1)
 - [academic research](#academic-research) (1)
@@ -20,14 +21,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ActiveX](#activex) (1)
 - [actor](#actor) (3)
 - [actors](#actors) (5)
+- [ad blocker](#ad-blocker) (1)
 - [Adaptix C2](#adaptix-c2) (1)
 - [ADB TCP/5555](#adb-tcp5555) (1)
+- [Adblock for YouTube](#adblock-for-youtube) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [administrator account creation](#administrator-account-creation) (2)
 - [Adobe Commerce](#adobe-commerce) (1)
 - [Adspect](#adspect) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (2)
 - [adware](#adware) (3)
+- [adware history](#adware-history) (1)
 - [AES-GCM](#aes-gcm) (1)
 - [Afghanistan](#afghanistan) (2)
 - [agent frameworks](#agent-frameworks) (3)
@@ -86,6 +90,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aptos](#aptos) (1)
 - [Aquatic Panda](#aquatic-panda) (2)
 - [arbitrary file write](#arbitrary-file-write) (2)
+- [arbitrary JavaScript](#arbitrary-javascript) (1)
 - [Arch Linux](#arch-linux) (1)
 - [Arista EOS](#arista-eos) (1)
 - [Armageddon](#armageddon) (1)
@@ -119,6 +124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backdoor.Mistic](#backdoormistic) (1)
 - [backup disruption](#backup-disruption) (1)
 - [backups](#backups) (1)
+- [BadBlocker](#badblocker) (1)
 - [banking](#banking) (1)
 - [banking malware](#banking-malware) (1)
 - [Barracuda](#barracuda) (1)
@@ -151,8 +157,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
 - [browser credential theft](#browser-credential-theft) (6)
-- [browser extension](#browser-extension) (1)
+- [browser extension](#browser-extension) (2)
 - [browser hijacking](#browser-hijacking) (1)
+- [browser session risk](#browser-session-risk) (1)
 - [browser zero-day](#browser-zero-day) (1)
 - [browser-credential-theft](#browser-credential-theft) (1)
 - [browser-extensions](#browser-extensions) (2)
@@ -189,7 +196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-speaking](#chinese-speaking) (1)
 - [Chinese-speaking operator](#chinese-speaking-operator) (1)
 - [Chisel](#chisel) (3)
-- [Chrome Web Store](#chrome-web-store) (1)
+- [Chrome Web Store](#chrome-web-store) (2)
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (1)
 - [CI-CD](#ci-cd) (2)
@@ -480,6 +487,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (10)
+- [extension supply-chain](#extension-supply-chain) (1)
 - [external federation](#external-federation) (1)
 - [extortion](#extortion) (6)
 - [F5 BIG-IP](#f5-big-ip) (1)
@@ -651,6 +659,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IP-in-IP](#ip-in-ip) (1)
 - [Iran](#iran) (5)
 - [Iran-nexus](#iran-nexus) (1)
+- [Island Security Research](#island-security-research) (1)
 - [Israel](#israel) (2)
 - [Ivanti Sentry](#ivanti-sentry) (1)
 - [Japan](#japan) (1)
@@ -760,6 +769,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Magento](#magento) (1)
 - [MagicYUV](#magicyuv) (1)
 - [mailbox theft](#mailbox-theft) (1)
+- [MAIN world injection](#main-world-injection) (1)
 - [maintainer compromise](#maintainer-compromise) (2)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
@@ -908,9 +918,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (142)
+- [operations](#operations) (143)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (143)
+- [ops](#ops) (144)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1065,6 +1075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access](#remote-access) (4)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (6)
+- [remote script injection](#remote-script-injection) (1)
 - [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
@@ -1101,6 +1112,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rust](#rust) (6)
 - [Rust malware](#rust-malware) (1)
 - [SaaS](#saas) (3)
+- [SaaS exposure](#saas-exposure) (1)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
 - [SafeDep](#safedep) (2)
@@ -1441,6 +1453,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## 4sync
 - [GREYVIBE](../actors/greyvibe.md)
 
+## `<all_urls>`
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+
 ## Ababil of Minab
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
@@ -1512,11 +1527,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA4922](../actors/ta4922.md)
 - [Webworm](../actors/webworm.md)
 
+## ad blocker
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+
 ## Adaptix C2
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
 ## ADB TCP/5555
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
+
+## Adblock for YouTube
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
 ## Admin API key theft
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -1539,6 +1560,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## adware history
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
 ## AES-GCM
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
@@ -1752,6 +1776,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
+## arbitrary JavaScript
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+
 ## Arch Linux
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 
@@ -1872,6 +1899,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## backups
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## BadBlocker
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+
 ## banking
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
@@ -1981,10 +2011,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## browser extension
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## browser hijacking
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
+## browser session risk
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
 ## browser zero-day
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
@@ -2118,6 +2152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## Chrome Web Store
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
 ## ChromElevator
@@ -3299,6 +3334,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
+## extension supply-chain
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+
 ## external federation
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
@@ -3938,6 +3976,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Iran-nexus
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 
+## Island Security Research
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+
 ## Israel
 - [Handala](../actors/handala.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -4325,6 +4366,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## mailbox theft
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+
+## MAIN world injection
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
 ## maintainer compromise
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -4901,6 +4945,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
@@ -5048,6 +5093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
@@ -5812,6 +5858,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
+## remote script injection
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+
 ## remote-access
 - [TA4922](../actors/ta4922.md)
 
@@ -5938,6 +5987,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
+
+## SaaS exposure
+- [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
 ## sabotage
 - [Fast16](../tools/fast16.md)

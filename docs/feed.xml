@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Adblock for YouTube BadBlocker remote-script injection risk</title>
+      <link>https://threat.wiki/ops/adblock-for-youtube-badblocker-remote-script-injection/</link>
+      <description>Added Island Security Research coverage for Adblock for YouTube / BadBlocker: a Chrome Web Store extension with more than 11 million installs, broad &lt;all_urls&gt; permissions, weak youtube.com substring gating, 24-hour remote rule fetches from api.adblock-for-youtube.com, and server-selected scripletsRules that can drive chrome.scripting.executeScript in the page MAIN world. Island did not observe active malicious payload delivery; the page frames this as a latent high-blast-radius browser-session execution risk with defender pivots for extension inventory, managed-browser policy, and endpoint/proxy telemetry.</description>
+      <pubDate>Thu, 25 Jun 2026 15:25:49 GMT</pubDate>
+      <guid>https://threat.wiki/ops/adblock-for-youtube-badblocker-remote-script-injection/</guid>
+    </item>
+    <item>
       <title>Backdoor.Mistic / KongTuke ModeloRAT activity</title>
       <link>https://threat.wiki/ops/mistic-backdoor-kongtuke-modelorat/</link>
       <description>Added coverage for Broadcom / Symantec Threat Hunter Team's Backdoor.Mistic report: a stealthy Windows backdoor used since April 2026 and possibly linked to Woodgnat / KongTuke access-broker activity. The page captures Mistic / MLTBackdoor execution through MpExtMs.exe DLL sideloading, version.dll hooks, EndpointDlp.dll in-memory loading, fake-login credential theft, ModeloRAT / WinPython / RC4 C2 tradecraft, ClickFix and compromised-WordPress TDS context, Qilin ransomware access-broker risk, and defender hunts for sideloaded Microsoft-looking components and portable Python persistence.</description>

@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Adblock for YouTube BadBlocker remote-script injection risk](ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](ops/mistic-backdoor-kongtuke-modelorat.md)
 - [macOS.Gaslight Rust backdoor](ops/macos-gaslight-rust-backdoor.md)
 - [Leo Platform npm Miasma-style compromise](ops/leo-platform-npm-miasma-compromise.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [codfish semantic-release-action tag compromise](ops/codfish-semantic-release-action-tag-compromise.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [StealC / Amadey infrastructure disruption](ops/stealc-amadey-infrastructure-disruption.md)
-- [Cisco Unified CM CVE-2026-20230 file-write exploitation](ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
