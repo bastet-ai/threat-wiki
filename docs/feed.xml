@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Backdoor.Mistic / KongTuke ModeloRAT activity</title>
+      <link>https://threat.wiki/ops/mistic-backdoor-kongtuke-modelorat/</link>
+      <description>Added coverage for Broadcom / Symantec Threat Hunter Team's Backdoor.Mistic report: a stealthy Windows backdoor used since April 2026 and possibly linked to Woodgnat / KongTuke access-broker activity. The page captures Mistic / MLTBackdoor execution through MpExtMs.exe DLL sideloading, version.dll hooks, EndpointDlp.dll in-memory loading, fake-login credential theft, ModeloRAT / WinPython / RC4 C2 tradecraft, ClickFix and compromised-WordPress TDS context, Qilin ransomware access-broker risk, and defender hunts for sideloaded Microsoft-looking components and portable Python persistence.</description>
+      <pubDate>Thu, 25 Jun 2026 13:25:48 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mistic-backdoor-kongtuke-modelorat/</guid>
+    </item>
+    <item>
       <title>macOS.Gaslight Rust backdoor</title>
       <link>https://threat.wiki/ops/macos-gaslight-rust-backdoor/</link>
       <description>Added SentinelOne macOS.Gaslight coverage: a DPRK-aligned Rust macOS implant with Telegram Bot API polling C2, AES-GCM over certificate-pinned TLS, bot-token self-redaction, interactive shell commands, LaunchAgent persistence under com.apple.system.services.activity, sleep-prevention behavior, browser and login.keychain-db collection, and a staged Python stealer runtime. The page also captures Gaslight's 3.5 KB analyst-targeting prompt-injection block with 38 fabricated system messages aimed at disrupting LLM-assisted malware triage.</description>

@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Backdoor.Mistic / KongTuke ModeloRAT activity](ops/mistic-backdoor-kongtuke-modelorat.md)
 - [macOS.Gaslight Rust backdoor](ops/macos-gaslight-rust-backdoor.md)
 - [Leo Platform npm Miasma-style compromise](ops/leo-platform-npm-miasma-compromise.md)
 - [simonecorsi/mawesome GitHub Action compromise](ops/simonecorsi-mawesome-github-action-compromise.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [StealC / Amadey infrastructure disruption](ops/stealc-amadey-infrastructure-disruption.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
-- [Thailand healthcare RAR / Python stealer campaign](ops/thailand-healthcare-rar-python-stealer.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
