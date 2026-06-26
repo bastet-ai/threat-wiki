@@ -21,6 +21,8 @@ Later on June 8, StepSecurity reported a short-lived compromise of the public `P
 
 On June 9, GitHub announced npm v12 security-default changes that directly address this incident class. GitHub says npm v12, estimated for July 2026, will make `npm install` stop executing dependency `preinstall`, `install`, and `postinstall` scripts unless the project explicitly allows them. GitHub specifically says this also blocks implicit native `node-gyp` builds from packages that contain `binding.gyp`, because npm currently runs `node-gyp rebuild` for that shape even without an explicit install script. npm 11.16.0 and newer can already show warnings and help maintainers prepare with `npm approve-scripts --allow-scripts-pending`, `npm approve-scripts`, and `npm deny-scripts`.
 
+On June 26, StepSecurity reported another Miasma-style Phantom Gyp wave against four Immobiliare Labs Backstage plugin packages. The malicious patch releases added a root `binding.gyp` plus 5 MB `index.js`, executed at install time, downloaded Bun `v1.3.13`, scraped GitHub Actions `Runner.Worker` memory, stole cloud / registry / password-manager secrets, and attempted AI-assistant persistence.
+
 ## Tags
 - ops
 - operations
@@ -179,6 +181,7 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - StepSecurity listed compromised versions published between June 3 and June 4, 2026 and noted that its list was still being updated.
 - Early named package families in the StepSecurity table included `@vapi-ai/server-sdk`, `ai-sdk-ollama`, many `autotel-*` packages, `awaitly-*` packages, `executable-stories-*` packages, `node-env-resolver*`, and `wrangler-deploy`.
 - OX Security's June 4 update added an edited follow-on list for packages it said had also been hit by weaponized `binding.gyp`: `discord-search@0.1.2`, `create-cf-token@1.1.3`, `@forjacms/analytics@1.8.4`, `@forjacms/client@1.8.4`, `@forjacms/sections@1.8.4`, `@forjacms/sections-react@1.8.4`, `dbmux@2.2.4`, `creditcard.js@3.0.60`, `github-archiver@1.5.5`, and `@contaazul/n8n-nodes-contaazul@0.3.26`. Treat vendor package tables as live references rather than copying every version into local detection logic.
+- StepSecurity's June 26 Immobiliare Labs Backstage plugin report added a narrow platform-engineering package set: `@immobiliarelabs/backstage-plugin-gitlab`, `@immobiliarelabs/backstage-plugin-gitlab-backend`, `@immobiliarelabs/backstage-plugin-ldap-auth`, and `@immobiliarelabs/backstage-plugin-ldap-auth-backend`, with malicious patch releases across several supported major versions. See the dedicated [Immobiliare Labs Backstage plugins npm compromise](immobiliarelabs-backstage-plugins-npm-compromise.md) page for the current affected-version table.
 
 ## Defender heuristics
 
@@ -259,6 +262,7 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - StepSecurity `gpt-pilot` file hashes: `_runtime.bin` SHA-256 `c96f37e1b9cdc9683a300909492ed9f770b620d0037e5b80e23753cba7ca4077`, `_runtime.bin` MD5 `7090625f760b831d607c9a38cfc58c4b`, `_hooks.py` SHA-256 `51b4dd39a15af1e28e97adc375849d688423ec3d88e8010644395fcdea52a3cc`, `_hooks.py` MD5 `a722b89f887f226672d0ee4f708794f8`
 - StepSecurity `gpt-pilot` commit markers: pre-attack `53154df1c66b42021f230c3fb6ef797c4b7c3e83`, first malicious head `90f59f5de6819a43ffe9b6272e3ed65aaadca804`, second malicious head `a372904facd53ee99d85add7ee79aea2b7a8506a`, malicious commit `065ee8ebee7385cb644fd1608587a18edb91f4fb`, clean revert commit `566fbb120bc436385aa5a4cb93d7c351dec2127e`
 - StepSecurity `gpt-pilot` behavioral markers: `.loader.lock`, `rt-*` Bun runtime directories under `/tmp`, `thebeautifulsnadsoftime`, `claude@users.noreply.github.com`, `Exiting as russian language detected!`, `Another instance is already running`, `__DAEMONIZED`
+- Immobiliare Labs Backstage plugin pivots reported by StepSecurity: root `binding.gyp`, root 5 MB `index.js`, `@immobiliarelabs/backstage-plugin-gitlab@2.1.2` npm integrity `sha512-k7pGY+wScfqX51fpF412dOze6kSIytHYwZAXPhu6pDV+R7JWnD98Uc0nzGVHFead99nwWU4x56fkre/jH3Q7Xg==`, and `.github/copilot-instructions.md` modification.
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -280,4 +284,5 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - Socket Hades PyPI native-extension and MCP-loader follow-up: https://socket.dev/blog/mini-shai-hulud-miasma-and-hades-worms-target-bioinformatics-and-mcp-developers-via-malicious
 - StepSecurity `Pythagora-io/gpt-pilot` repository compromise analysis: https://www.stepsecurity.io/blog/pythagora-io-gpt-pilot-compromised-on-github-shai-hulud-credential-stealer-blocked-by-python-linter
 - GitHub Changelog: https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/
+- StepSecurity Immobiliare Labs Backstage plugin compromise: https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised
 - PyPI: https://pypi.org/pypi/durabletask/json

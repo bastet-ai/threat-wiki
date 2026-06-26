@@ -49,7 +49,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI agents](#ai-agents) (11)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (1)
-- [AI assistants](#ai-assistants) (3)
+- [AI assistants](#ai-assistants) (4)
 - [AI brand impersonation](#ai-brand-impersonation) (1)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
@@ -129,6 +129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backblaze](#backblaze) (1)
 - [backdoor](#backdoor) (12)
 - [Backdoor.Mistic](#backdoormistic) (1)
+- [Backstage](#backstage) (1)
 - [backup disruption](#backup-disruption) (1)
 - [backups](#backups) (1)
 - [BadBlocker](#badblocker) (1)
@@ -143,7 +144,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Belarus](#belarus) (2)
 - [binary execution](#binary-execution) (1)
 - [BinaryFormatter](#binaryformatter) (1)
-- [binding.gyp](#bindinggyp) (1)
+- [binding.gyp](#bindinggyp) (2)
 - [BIOPASS RAT](#biopass-rat) (1)
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
@@ -210,7 +211,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (1)
 - [CI-CD](#ci-cd) (2)
-- [CI/CD](#cicd) (32)
+- [CI/CD](#cicd) (33)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
 - [CISA KEV](#cisa-kev) (13)
@@ -296,7 +297,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (1)
 - [credential theft](#credential-theft) (22)
-- [credential-theft](#credential-theft) (49)
+- [credential-theft](#credential-theft) (50)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -592,7 +593,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [GitHub](#github) (14)
 - [GitHub abuse](#github-abuse) (2)
-- [GitHub Actions](#github-actions) (19)
+- [GitHub Actions](#github-actions) (20)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
 - [GitHub CLI](#github-cli) (1)
@@ -860,7 +861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA bypass](#mfa-bypass) (4)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
-- [Miasma](#miasma) (5)
+- [Miasma](#miasma) (6)
 - [Microsoft](#microsoft) (4)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (2)
@@ -876,7 +877,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [military research](#military-research) (1)
 - [Mimikatz](#mimikatz) (2)
 - [Minecraft DDoS](#minecraft-ddos) (1)
-- [Mini Shai-Hulud](#mini-shai-hulud) (1)
+- [Mini Shai-Hulud](#mini-shai-hulud) (2)
 - [MiniJunk](#minijunk) (1)
 - [MiniPlasma](#miniplasma) (1)
 - [MINIRAT](#minirat) (2)
@@ -933,13 +934,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nginx](#nginx) (1)
 - [Nginx module](#nginx-module) (1)
 - [no attribution](#no-attribution) (1)
-- [node-gyp](#node-gyp) (1)
+- [node-gyp](#node-gyp) (2)
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
 - [Node.js implant](#nodejs-implant) (1)
 - [North Korea](#north-korea) (9)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (39)
+- [npm](#npm) (40)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm tokens](#npm-tokens) (1)
 - [npx](#npx) (1)
@@ -976,9 +977,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (150)
+- [operations](#operations) (151)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (151)
+- [ops](#ops) (152)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1024,7 +1025,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [persistence](#persistence) (21)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
-- [Phantom Gyp](#phantom-gyp) (2)
+- [Phantom Gyp](#phantom-gyp) (3)
 - [PhantomClick](#phantomclick) (1)
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
@@ -1312,7 +1313,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUMMIT](#summit) (3)
 - [supply chain](#supply-chain) (3)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (74)
+- [supply-chain](#supply-chain) (75)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (1)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
@@ -1512,7 +1513,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [workflow backdoor](#workflow-backdoor) (1)
 - [workspace trust](#workspace-trust) (1)
 - [World Cup](#world-cup) (1)
-- [worm](#worm) (11)
+- [worm](#worm) (12)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [WScript](#wscript) (1)
 - [X_TRADER](#x_trader) (1)
@@ -1737,6 +1738,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 
 ## AI brand impersonation
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -2022,6 +2024,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Backdoor.Mistic
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 
+## Backstage
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
+
 ## backup disruption
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -2067,6 +2072,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## binding.gyp
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 
 ## BIOPASS RAT
 - [FishMonger](../actors/fishmonger.md)
@@ -2323,6 +2329,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -2702,6 +2709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164](../actors/jinx-0164.md)
@@ -3824,6 +3832,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -4832,6 +4841,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
@@ -4889,6 +4899,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## Mini Shai-Hulud
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 
 ## MiniJunk
@@ -5075,6 +5086,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## node-gyp
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 
 ## node-ipc
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -5113,6 +5125,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -5325,6 +5338,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
@@ -5479,6 +5493,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
@@ -5763,6 +5778,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Phantom Gyp
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 
 ## PhantomClick
@@ -6877,6 +6893,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JiaT75](../people/jiat75.md)
@@ -7678,6 +7695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)

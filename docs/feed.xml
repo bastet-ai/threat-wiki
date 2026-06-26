@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Immobiliare Labs Backstage plugins npm compromise</title>
+      <link>https://threat.wiki/ops/immobiliarelabs-backstage-plugins-npm-compromise/</link>
+      <description>Added StepSecurity coverage for the June 26 Immobiliare Labs Backstage plugin compromise: four npm packages across GitLab and LDAP Backstage integrations received malicious patch releases with Miasma-style Phantom Gyp execution through binding.gyp, a 5 MB index.js payload, Bun v1.3.13 staging, Runner.Worker memory scraping, cloud / package-registry / password-manager credential theft, AI-assistant persistence, and apparent npm / PyPI worming functions. The page captures affected package versions, hunt pivots, and containment guidance for platform-engineering CI and developer endpoints.</description>
+      <pubDate>Fri, 26 Jun 2026 19:25:48 GMT</pubDate>
+      <guid>https://threat.wiki/ops/immobiliarelabs-backstage-plugins-npm-compromise/</guid>
+    </item>
+    <item>
       <title>Linux DirtyClone CVE-2026-43503 local privilege escalation</title>
       <link>https://threat.wiki/ops/linux-dirtyclone-cve-2026-43503-lpe/</link>
       <description>Added JFrog Security Research coverage for DirtyClone / CVE-2026-43503: a DirtyFrag-family Linux kernel local privilege-escalation flaw where local users who can acquire CAP_NET_ADMIN, often through unprivileged user namespaces, can manipulate shared page-cache memory through socket-buffer processing paths to gain root. The page captures the incomplete DirtyFrag patch-chain risk, XFRM/IPsec and skb Copy-on-Write context, Debian / Ubuntu / Fedora exposure notes, mitigation options such as kernel updates, user-namespace restrictions, and esp4 / esp6 / rxrpc module review, plus hunt guidance for shared CI, Kubernetes, container-host, and multi-user Linux fleets.</description>

@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Immobiliare Labs Backstage plugins npm compromise](ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -18,7 +19,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Leo Platform npm Miasma-style compromise: Socket Go/source-repository expansion](ops/leo-platform-npm-miasma-compromise.md#go-source-repository-poisoning-expansion)
 - [Adblock for YouTube BadBlocker remote-script injection risk](ops/adblock-for-youtube-badblocker-remote-script-injection.md)
-- [Backdoor.Mistic / KongTuke ModeloRAT activity](ops/mistic-backdoor-kongtuke-modelorat.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

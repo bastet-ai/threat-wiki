@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -25,7 +26,6 @@ Short updates, summaries, and notable threat writeups.
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
-- [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
