@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Photo ZIP hospitality Node.js implant campaign: ops/photo-zip-hospitality-nodejs-implant.md
       - CL-STA-1062 Southeast Asia government and energy intrusions: ops/cl-sta-1062-southeast-asia-tinyrct.md
       - PTC Windchill / FlexPLM CVE-2026-12569 exploitation: ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md
       - Adblock for YouTube BadBlocker remote-script injection risk: ops/adblock-for-youtube-badblocker-remote-script-injection.md

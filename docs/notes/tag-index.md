@@ -109,6 +109,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [audit logging](#audit-logging) (1)
 - [AUR](#aur) (1)
 - [authentication bypass](#authentication-bypass) (5)
+- [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
 - [AUTODYN](#autodyn) (1)
@@ -178,6 +179,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C#](#c) (1)
 - [C2](#c2) (8)
 - [CageFS](#cagefs) (1)
+- [Calendly abuse](#calendly-abuse) (1)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
@@ -244,6 +246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare](#cloudflare) (2)
 - [Cloudflare Tunnel](#cloudflare-tunnel) (1)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
+- [Cloudflare Turnstile](#cloudflare-turnstile) (1)
 - [Cloudflare Workers](#cloudflare-workers) (2)
 - [CloudLinux](#cloudlinux) (1)
 - [CMS](#cms) (6)
@@ -386,6 +389,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DeepSeek](#deepseek) (2)
 - [Defender Advanced Hunting](#defender-advanced-hunting) (1)
 - [Defender evasion](#defender-evasion) (2)
+- [Defender exclusion](#defender-exclusion) (1)
 - [defense](#defense) (1)
 - [defense evasion](#defense-evasion) (4)
 - [defense-evasion](#defense-evasion) (1)
@@ -588,6 +592,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Cloud Storage](#google-cloud-storage) (1)
 - [Google Drive](#google-drive) (1)
 - [Google Play](#google-play) (1)
+- [Google redirect abuse](#google-redirect-abuse) (1)
 - [Google Stitch](#google-stitch) (1)
 - [Google Threat Intelligence Group](#google-threat-intelligence-group) (1)
 - [government](#government) (2)
@@ -621,10 +626,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [higher education](#higher-education) (2)
 - [Honduras](#honduras) (2)
 - [HONESTCUE](#honestcue) (1)
+- [hospitality targeting](#hospitality-targeting) (1)
 - [Host Radar](#host-radar) (1)
 - [hosting control plane](#hosting-control-plane) (1)
 - [hosting provider](#hosting-provider) (1)
 - [hosting providers](#hosting-providers) (1)
+- [hotel targeting](#hotel-targeting) (1)
 - [HR lures](#hr-lures) (1)
 - [HTA](#hta) (3)
 - [HTTP C2](#http-c2) (1)
@@ -753,7 +760,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM security](#llm-security) (1)
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
-- [LNK](#lnk) (7)
+- [LNK](#lnk) (8)
 - [LNK files](#lnk-files) (1)
 - [loader](#loader) (2)
 - [local LLMs](#local-llms) (1)
@@ -893,6 +900,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-gyp](#node-gyp) (1)
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
+- [Node.js implant](#nodejs-implant) (1)
 - [North Korea](#north-korea) (9)
 - [notarized malware](#notarized-malware) (1)
 - [npm](#npm) (39)
@@ -932,9 +940,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (145)
+- [operations](#operations) (146)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (146)
+- [ops](#ops) (147)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -983,7 +991,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (12)
+- [phishing](#phishing) (13)
 - [phishing-as-a-service](#phishing-as-a-service) (2)
 - [PHP](#php) (2)
 - [PHP code injection](#php-code-injection) (1)
@@ -1009,7 +1017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (8)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (10)
+- [PowerShell](#powershell) (11)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
 - [PraisonAI](#praisonai) (1)
@@ -1086,7 +1094,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Redis backdoor](#redis-backdoor) (1)
 - [RediSearch](#redisearch) (1)
 - [refresh tokens](#refresh-tokens) (1)
-- [registry persistence](#registry-persistence) (3)
+- [registry persistence](#registry-persistence) (4)
 - [registry-controls](#registry-controls) (1)
 - [release automation](#release-automation) (1)
 - [release tampering](#release-tampering) (1)
@@ -1870,6 +1878,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
+## authentication laundering
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
+
 ## authentication stack
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Velvet Ant](../actors/velvet-ant.md)
@@ -2115,6 +2126,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CageFS
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+
+## Calendly abuse
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 
 ## Canada
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -2399,6 +2413,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cloudflare tunnels
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
+## Cloudflare Turnstile
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 
 ## Cloudflare Workers
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -2965,6 +2982,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Defender evasion
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## Defender exclusion
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 
 ## defense
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
@@ -3736,6 +3756,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Google Play
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
+## Google redirect abuse
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
+
 ## Google Stitch
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 
@@ -3858,6 +3881,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HONESTCUE
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## hospitality targeting
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
+
 ## Host Radar
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
@@ -3869,6 +3895,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## hosting providers
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
+## hotel targeting
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 
 ## HR lures
 - [TA4922](../actors/ta4922.md)
@@ -4362,6 +4391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [SideCopy](../actors/sidecopy.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
@@ -4852,6 +4882,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Node.js
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## Node.js implant
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
+
 ## North Korea
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
@@ -5140,6 +5173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
@@ -5289,6 +5323,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
@@ -5538,6 +5573,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [TA4922](../actors/ta4922.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
@@ -5637,6 +5673,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -5941,6 +5978,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## registry persistence
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [SideCopy](../actors/sidecopy.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 

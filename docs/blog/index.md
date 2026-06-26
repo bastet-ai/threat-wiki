@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [Malicious infrastructure provider concentration: Hunt.io Eastern Europe C2 sprawl update](../patterns/malicious-infrastructure-provider-concentration.md#huntio-eastern-europe-case-study)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 - [Leo Platform npm Miasma-style compromise: Sonatype affected-package clarification](../ops/leo-platform-npm-miasma-compromise.md#affected-packages)

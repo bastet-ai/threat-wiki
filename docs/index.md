@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Photo ZIP hospitality Node.js implant campaign](ops/photo-zip-hospitality-nodejs-implant.md)
 - [Malicious infrastructure provider concentration: Hunt.io Eastern Europe C2 sprawl update](patterns/malicious-infrastructure-provider-concentration.md#huntio-eastern-europe-case-study)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](ops/cl-sta-1062-southeast-asia-tinyrct.md)
 - [Leo Platform npm Miasma-style compromise: Sonatype affected-package clarification](ops/leo-platform-npm-miasma-compromise.md#affected-packages)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](ops/mistic-backdoor-kongtuke-modelorat.md)
 - [macOS.Gaslight Rust backdoor](ops/macos-gaslight-rust-backdoor.md)
 - [Leo Platform npm Miasma-style compromise](ops/leo-platform-npm-miasma-compromise.md)
-- [simonecorsi/mawesome GitHub Action compromise](ops/simonecorsi-mawesome-github-action-compromise.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](ops/strikeshark-sharkloader-cobalt-strike.md)
 
 ## Sections
