@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Turla STOCKSTAY backdoor operations](ops/turla-stockstay-backdoor-operations.md)
 - [Photo ZIP hospitality Node.js implant campaign](ops/photo-zip-hospitality-nodejs-implant.md)
 - [Malicious infrastructure provider concentration: Hunt.io Eastern Europe C2 sprawl update](patterns/malicious-infrastructure-provider-concentration.md#huntio-eastern-europe-case-study)
@@ -18,7 +19,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](ops/mistic-backdoor-kongtuke-modelorat.md)
 - [macOS.Gaslight Rust backdoor](ops/macos-gaslight-rust-backdoor.md)
 - [Leo Platform npm Miasma-style compromise](ops/leo-platform-npm-miasma-compromise.md)
-- [StrikeShark SharkLoader / Cobalt Strike campaign](ops/strikeshark-sharkloader-cobalt-strike.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

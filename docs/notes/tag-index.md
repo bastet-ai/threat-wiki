@@ -183,6 +183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Calendly abuse](#calendly-abuse) (1)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
+- [CAP_NET_ADMIN](#cap_net_admin) (1)
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
@@ -276,7 +277,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [consumer devices](#consumer-devices) (1)
 - [Contagious Interview](#contagious-interview) (2)
 - [container](#container) (1)
-- [container escape](#container-escape) (1)
+- [container escape](#container-escape) (2)
 - [content compliance rules](#content-compliance-rules) (1)
 - [context flooding](#context-flooding) (1)
 - [continuous visibility](#continuous-visibility) (1)
@@ -358,9 +359,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-41091](#cve-2026-41091) (1)
 - [CVE-2026-41940](#cve-2026-41940) (1)
 - [CVE-2026-42271](#cve-2026-42271) (1)
+- [CVE-2026-43284](#cve-2026-43284) (1)
+- [CVE-2026-43500](#cve-2026-43500) (1)
+- [CVE-2026-43503](#cve-2026-43503) (1)
 - [CVE-2026-44338](#cve-2026-44338) (1)
 - [CVE-2026-45247](#cve-2026-45247) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
+- [CVE-2026-46300](#cve-2026-46300) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
 - [CVE-2026-48907](#cve-2026-48907) (1)
 - [CVE-2026-50751](#cve-2026-50751) (1)
@@ -424,6 +429,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DigitalOcean](#digitalocean) (1)
 - [Dindoor](#dindoor) (1)
 - [diplomatic targeting](#diplomatic-targeting) (1)
+- [DirtyClone](#dirtyclone) (1)
+- [DirtyFrag](#dirtyfrag) (1)
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
 - [DLL side-loading](#dll-side-loading) (3)
@@ -502,7 +509,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
-- [exploitation](#exploitation) (10)
+- [exploitation](#exploitation) (11)
 - [extension supply-chain](#extension-supply-chain) (1)
 - [external federation](#external-federation) (1)
 - [extortion](#extortion) (6)
@@ -683,6 +690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IoT](#iot) (2)
 - [IoT botnet](#iot-botnet) (2)
 - [IP-in-IP](#ip-in-ip) (1)
+- [IPsec](#ipsec) (1)
 - [Iran](#iran) (5)
 - [Iran-nexus](#iran-nexus) (1)
 - [Island Security Research](#island-security-research) (1)
@@ -703,7 +711,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains](#jetbrains) (1)
 - [JetBrains Marketplace](#jetbrains-marketplace) (1)
 - [JetStream](#jetstream) (1)
-- [JFrog Security Research](#jfrog-security-research) (1)
+- [JFrog Security Research](#jfrog-security-research) (2)
 - [JINX-0164](#jinx-0164) (2)
 - [joblib](#joblib) (1)
 - [Joomla](#joomla) (1)
@@ -763,7 +771,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lifecycle-hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linksys](#linksys) (1)
-- [Linux](#linux) (16)
+- [Linux](#linux) (17)
+- [Linux kernel](#linux-kernel) (1)
 - [Linux malware](#linux-malware) (1)
 - [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (2)
@@ -777,7 +786,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LNK files](#lnk-files) (1)
 - [loader](#loader) (2)
 - [local LLMs](#local-llms) (1)
-- [local privilege escalation](#local-privilege-escalation) (1)
+- [local privilege escalation](#local-privilege-escalation) (2)
 - [local-file-inclusion](#local-file-inclusion) (1)
 - [localhost](#localhost) (1)
 - [log poisoning](#log-poisoning) (1)
@@ -955,9 +964,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (147)
+- [operations](#operations) (148)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (148)
+- [ops](#ops) (149)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -976,6 +985,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package-splitting](#package-splitting) (1)
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (3)
+- [page cache](#page-cache) (1)
 - [page poisoning](#page-poisoning) (1)
 - [Pakistan](#pakistan) (2)
 - [Pakistan-linked](#pakistan-linked) (2)
@@ -1216,6 +1226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SilentRunLoader](#silentrunloader) (1)
 - [SiliconFlow](#siliconflow) (1)
 - [simulation tampering](#simulation-tampering) (1)
+- [skb](#skb) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [Sliver](#sliver) (2)
 - [SLSA](#slsa) (1)
@@ -1390,6 +1401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uranium compression](#uranium-compression) (1)
 - [USB propagation](#usb-propagation) (1)
 - [USB worm](#usb-worm) (2)
+- [user namespaces](#user-namespaces) (1)
 - [UTA0355](#uta0355) (1)
 - [uTLS](#utls) (1)
 - [V8](#v8) (1)
@@ -1426,7 +1438,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
-- [vulnerability](#vulnerability) (7)
+- [vulnerability](#vulnerability) (8)
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
@@ -1486,6 +1498,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
 - [XenoRAT](#xenorat) (2)
+- [XFRM](#xfrm) (1)
 - [xlabs_v1](#xlabs_v1) (1)
 - [XMLDecoder](#xmldecoder) (1)
 - [XMRig](#xmrig) (4)
@@ -2171,6 +2184,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CANFAIL
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## CAP_NET_ADMIN
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+
 ## Catalyst SD-WAN Manager
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
@@ -2560,6 +2576,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 
 ## container escape
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 
 ## content compliance rules
@@ -2902,6 +2919,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-42271
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 
+## CVE-2026-43284
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+
+## CVE-2026-43500
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+
+## CVE-2026-43503
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+
 ## CVE-2026-44338
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
@@ -2910,6 +2936,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-45498
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+
+## CVE-2026-46300
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 
 ## CVE-2026-48172
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -3151,6 +3180,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## diplomatic targeting
 - [Cloud Atlas](../actors/cloud-atlas.md)
+
+## DirtyClone
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+
+## DirtyFrag
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 
 ## Discord
 - [forge-jsxy](../tools/forge-jsxy.md)
@@ -3461,6 +3496,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## exploitation
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -4138,6 +4174,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## IP-in-IP
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
+## IPsec
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+
 ## Iran
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Handala](../actors/handala.md)
@@ -4212,6 +4251,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## JFrog Security Research
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## JINX-0164
@@ -4417,6 +4457,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [MYRA RAT](../tools/myra-rat.md)
@@ -4429,6 +4470,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## Linux kernel
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 
 ## Linux malware
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
@@ -4484,6 +4528,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## local privilege escalation
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
 ## local-file-inclusion
@@ -5224,6 +5269,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -5375,6 +5421,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -5510,6 +5557,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+
+## page cache
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 
 ## page poisoning
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -6449,6 +6499,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## simulation tampering
 - [Fast16](../tools/fast16.md)
 
+## skb
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+
 ## sleeper packages
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 
@@ -7166,6 +7219,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
+## user namespaces
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+
 ## UTA0355
 - [ROADtools](../tools/roadtools.md)
 
@@ -7294,6 +7350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## vulnerability
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -7540,6 +7597,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## XenoRAT
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
+
+## XFRM
+- [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 
 ## xlabs_v1
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)

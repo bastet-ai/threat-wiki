@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Linux DirtyClone CVE-2026-43503 local privilege escalation: ops/linux-dirtyclone-cve-2026-43503-lpe.md
       - Turla STOCKSTAY backdoor operations: ops/turla-stockstay-backdoor-operations.md
       - Photo ZIP hospitality Node.js implant campaign: ops/photo-zip-hospitality-nodejs-implant.md
       - CL-STA-1062 Southeast Asia government and energy intrusions: ops/cl-sta-1062-southeast-asia-tinyrct.md

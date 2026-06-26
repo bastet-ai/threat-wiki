@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Linux DirtyClone CVE-2026-43503 local privilege escalation</title>
+      <link>https://threat.wiki/ops/linux-dirtyclone-cve-2026-43503-lpe/</link>
+      <description>Added JFrog Security Research coverage for DirtyClone / CVE-2026-43503: a DirtyFrag-family Linux kernel local privilege-escalation flaw where local users who can acquire CAP_NET_ADMIN, often through unprivileged user namespaces, can manipulate shared page-cache memory through socket-buffer processing paths to gain root. The page captures the incomplete DirtyFrag patch-chain risk, XFRM/IPsec and skb Copy-on-Write context, Debian / Ubuntu / Fedora exposure notes, mitigation options such as kernel updates, user-namespace restrictions, and esp4 / esp6 / rxrpc module review, plus hunt guidance for shared CI, Kubernetes, container-host, and multi-user Linux fleets.</description>
+      <pubDate>Fri, 26 Jun 2026 13:27:07 GMT</pubDate>
+      <guid>https://threat.wiki/ops/linux-dirtyclone-cve-2026-43503-lpe/</guid>
+    </item>
+    <item>
       <title>Turla STOCKSTAY backdoor operations</title>
       <link>https://threat.wiki/ops/turla-stockstay-backdoor-operations/</link>
       <description>Added Google Threat Intelligence Group coverage for Turla's STOCKSTAY backdoor: a multi-component .NET Windows implant developed since at least December 2022 and used against Ukrainian government / military organizations and Italian foreign-policy-adjacent targets. The update adds Turla actor, STOCKSTAY tool, and operations pages covering WebSocket C2, WM_COPYDATA IPC, STOCKBROKER / STOCKMARKET / STOCKTRADER / MARKETMAKER components, KAZUAR / K1MORPHER overlap, malicious GPO deployment, Italy-themed MSI lure, Ukrainian RDP phishing, compromised drs.gov.ua staging, and defender hunts for encrypted stock-market-themed configs, run keys, and business-hours C2.</description>
