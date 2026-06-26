@@ -1,7 +1,7 @@
 # Malicious infrastructure provider concentration
 
 ## Summary
-Hunt.io's May 2026 Middle East infrastructure report is a useful reminder that defender value is often at the hosting-provider and ASN layer, not only at the individual indicator layer. Across a February 1-May 1, 2026 observation window, Hunt.io reported more than **1,350 active C2 servers** across **98 Middle East infrastructure providers** in **14 countries**, with C2 activity heavily concentrated in a small number of telecommunications and hosting networks.
+Hunt.io's 2026 regional infrastructure reports are useful reminders that defender value is often at the hosting-provider and ASN layer, not only at the individual indicator layer. Its May 2026 Middle East report covered more than **1,350 active C2 servers** across **98 Middle East infrastructure providers** in **14 countries**; its June 2026 Eastern Europe report expanded the same pattern to more than **3,900 active C2 servers** across **302 providers** in **10 countries**, again with activity heavily concentrated in a small number of hosting and telecommunications networks.
 
 Treat this as a reusable pattern: attackers rotate domains, IPs, payloads, and disposable panels quickly, but the providers, ASNs, abuse-response gaps, payment models, and compromised access networks they return to can remain stable enough to drive exposure review, risk scoring, and threat hunting.
 
@@ -31,6 +31,20 @@ Treat this as a reusable pattern: attackers rotate domains, IPs, payloads, and d
 - Concentrated abuse can come from different causes: compromised customer endpoints, permissive VPS hosting, slow abuse handling, weak customer screening, cryptocurrency payment support, or regional connectivity that actors find useful.
 - A single provider can host very different activity classes at once, including botnet C2, offensive-security frameworks, phishing, exposed staging directories, MaaS panels, cryptomining, and state-aligned intrusion infrastructure.
 - Provider-level context helps defenders prioritize enrichment, egress review, ASN risk scoring, third-party allowlists, and incident scoping without publishing or depending on a static list of quickly rotating IP addresses.
+
+## Hunt.io Eastern Europe case study
+Hunt.io's June 2026 Host Radar analysis covered Belarus, Bulgaria, the Czech Republic, Hungary, Poland, Moldova, Romania, Russia, Slovakia, and Ukraine over a March 12-June 12, 2026 observation window.
+
+Key reported observations:
+
+- Hunt.io identified **3,923 C2 servers** within **4,331 total malicious detections** across **302 Eastern European infrastructure providers**.
+- **Friendhosting LTD** in Bulgaria accounted for **2,100 detected C2 servers**, about **53.5%** of the regional C2 dataset.
+- Other top C2 concentrations included **JSC TIMEWEB** with **277** detections, **PQ HOSTING PLUS S.R.L.** with **175**, **Neterra** with **137**, **AlexHost** with **120**, **WebHost1** with **118**, **ZetServers** with **101**, **Webinvest Plus** with **88**, **VDSina** with **77**, and **M247** with **66**.
+- Malware-family clustering was led by **Keitaro** with **1,277** unique C2 IPs, followed by **Tactical RMM** with **232**, **Acunetix** with **173**, **Gophish** with **122**, **Hajime** with **106**, **Mozi** with **82**, **Cobalt Strike** with **35 verified** plus **44 unverified** detections, **Sliver** with **35**, and **Mirai** with **27**.
+- Hunt.io tied the provider-level view back to concrete campaigns, including Cloud Atlas infrastructure on M247 Europe, `@velora-dex/sdk` / MINIRAT staging on Romanian AS9009 infrastructure, Oracle PeopleSoft CVE-2026-35273 exploitation linked to Proton66 OOO infrastructure, Nemesys ransomware activity from FlyServers, Fluffy Wolf phishing and Black Basta-affiliate Teams vishing infrastructure on VDSina, Silent Ransom Group fast-flux infrastructure on A1 Bulgaria, and XenoRAT signals connected to The Gentlemen ransomware operations.
+- At a subsystem level, Hunt.io reported management infrastructure as the largest category with **1,496 unique IPs** in the analyzed cut, followed by explicitly tagged C2 infrastructure, red-team tools, phishing infrastructure, and smaller dedicated team-server infrastructure.
+
+The Eastern Europe report reinforces the core defender lesson from earlier regional studies: a small number of hosting relationships can carry many distinct criminal, ransomware, traffic-distribution, remote-management, and state-aligned activity clusters at once.
 
 ## Hunt.io Middle East case study
 Hunt.io analyzed telemetry across providers in the UAE, Saudi Arabia, Turkey, Israel, Iraq, Iran, Cyprus, Egypt, Kuwait, Lebanon, Palestine, Jordan, Bahrain, and Syria.
@@ -78,4 +92,5 @@ Hunt.io also highlighted operational examples mapped into regional infrastructur
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 
 ## Sources
+- Hunt.io: https://hunt.io/blog/eastern-europe-malicious-infrastructure-report
 - Hunt.io: https://hunt.io/blog/middle-east-malicious-infrastructure-report
