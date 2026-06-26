@@ -15,6 +15,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [academic research](#academic-research) (1)
 - [Accellion](#accellion) (1)
 - [access brokers](#access-brokers) (1)
+- [account takeover](#account-takeover) (1)
 - [account-takeover](#account-takeover) (1)
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
@@ -131,6 +132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backdoor.Mistic](#backdoormistic) (1)
 - [Backstage](#backstage) (1)
 - [backup disruption](#backup-disruption) (1)
+- [backup recovery keys](#backup-recovery-keys) (1)
 - [backups](#backups) (1)
 - [BadBlocker](#badblocker) (1)
 - [banking](#banking) (1)
@@ -268,6 +270,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [command injection](#command-injection) (5)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
+- [commercial messaging applications](#commercial-messaging-applications) (1)
 - [communications infrastructure](#communications-infrastructure) (1)
 - [Composer](#composer) (3)
 - [compromised accounts](#compromised-accounts) (2)
@@ -571,7 +574,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](#fox-tempest) (2)
 - [fraud](#fraud) (1)
 - [FreeBSD](#freebsd) (2)
-- [FSB](#fsb) (2)
+- [FSB](#fsb) (3)
 - [FSB Center 16](#fsb-center-16) (2)
 - [fscan](#fscan) (1)
 - [FTA](#fta) (1)
@@ -622,7 +625,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Stitch](#google-stitch) (1)
 - [Google Threat Intelligence Group](#google-threat-intelligence-group) (1)
 - [government](#government) (2)
-- [government targeting](#government-targeting) (6)
+- [government targeting](#government-targeting) (7)
 - [government-impersonation](#government-impersonation) (1)
 - [Grandoreiro](#grandoreiro) (1)
 - [Gravity SMTP](#gravity-smtp) (1)
@@ -728,6 +731,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [joblib](#joblib) (1)
 - [Joomla](#joomla) (1)
 - [Joomla Content Editor](#joomla-content-editor) (1)
+- [journalists](#journalists) (1)
 - [JSCoreRunner](#jscorerunner) (1)
 - [JSON:API](#jsonapi) (1)
 - [JSONPing](#jsonping) (1)
@@ -977,9 +981,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (151)
+- [operations](#operations) (152)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (152)
+- [ops](#ops) (153)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1030,7 +1034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (13)
+- [phishing](#phishing) (14)
 - [phishing-as-a-service](#phishing-as-a-service) (2)
 - [PHP](#php) (2)
 - [PHP code injection](#php-code-injection) (1)
@@ -1176,6 +1180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russia-linked](#russia-linked) (3)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
+- [Russian Intelligence Services](#russian-intelligence-services) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (6)
 - [Rust malware](#rust-malware) (1)
@@ -1232,6 +1237,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ShinyHunters](#shinyhunters) (2)
 - [Shuckworm](#shuckworm) (1)
 - [SideCopy](#sidecopy) (1)
+- [Signal](#signal) (1)
 - [Signal interception](#signal-interception) (1)
 - [signed malware](#signed-malware) (1)
 - [signed updates](#signed-updates) (1)
@@ -1253,7 +1259,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SMTP](#smtp) (1)
 - [Snake](#snake) (1)
 - [SocGholish](#socgholish) (1)
-- [social engineering](#social-engineering) (12)
+- [social engineering](#social-engineering) (13)
 - [social-engineering](#social-engineering) (2)
 - [Socket Security Research](#socket-security-research) (1)
 - [SOCKS5](#socks5) (3)
@@ -1398,14 +1404,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubuntu](#ubuntu) (1)
 - [Udev persistence](#udev-persistence) (1)
 - [UDP C2](#udp-c2) (1)
-- [Ukraine](#ukraine) (7)
+- [Ukraine](#ukraine) (8)
 - [Ukraine targeting](#ukraine-targeting) (3)
 - [unauthenticated access](#unauthenticated-access) (1)
 - [unauthenticated RCE](#unauthenticated-rce) (1)
 - [UNC1543](#unc1543) (1)
 - [UNC2814](#unc2814) (1)
 - [UNC3753](#unc3753) (1)
+- [UNC4221](#unc4221) (1)
 - [UNC4736](#unc4736) (1)
+- [UNC5792](#unc5792) (1)
 - [UNC6240](#unc6240) (2)
 - [UNC6508](#unc6508) (1)
 - [UNC6671](#unc6671) (1)
@@ -1574,6 +1582,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## access brokers
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
+## account takeover
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 
 ## account-takeover
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -2029,6 +2040,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## backup disruption
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## backup recovery keys
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 
 ## backups
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -2572,6 +2586,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## command-injection
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+
+## commercial messaging applications
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 
 ## communications infrastructure
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -3741,6 +3758,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FSB
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 
 ## FSB Center 16
 - [STOCKSTAY](../tools/stockstay.md)
@@ -3937,6 +3955,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [FishMonger](../actors/fishmonger.md)
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [SprySOCKS](../tools/sprysocks.md)
 
@@ -4337,6 +4356,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Joomla Content Editor
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+
+## journalists
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 
 ## JSCoreRunner
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -5398,6 +5420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
@@ -5553,6 +5576,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
@@ -5805,6 +5829,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [TA4922](../actors/ta4922.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
@@ -6365,6 +6390,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GREYVIBE](../actors/greyvibe.md)
 
+## Russian Intelligence Services
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+
 ## Russian-speaking forums
 - [First VPN](../tools/first-vpn.md)
 
@@ -6570,6 +6598,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SideCopy
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 
+## Signal
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+
 ## Signal interception
 - [Turla](../actors/turla.md)
 
@@ -6645,6 +6676,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [UNC3753](../actors/unc3753.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
@@ -7257,6 +7289,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Showboat](../tools/showboat.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
@@ -7280,8 +7313,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UNC3753
 - [UNC3753](../actors/unc3753.md)
 
+## UNC4221
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+
 ## UNC4736
 - [RemotePE](../tools/remotepe.md)
+
+## UNC5792
+- [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 
 ## UNC6240
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)

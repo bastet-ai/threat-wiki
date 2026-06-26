@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Russian intelligence Signal backup-key phishing</title>
+      <link>https://threat.wiki/ops/russian-intelligence-signal-backup-key-phishing/</link>
+      <description>Added FBI/CISA coverage for Russian Intelligence Services commercial-messaging phishing tracked as UNC5792 and UNC4221: actors masquerade as automated messaging support, continue to request verification codes and PINs, and now coerce targeted Signal users into enabling backups and pasting Backup Recovery Keys into chat. The page captures the risk to historical private and group messages, the persistence of shared recovery keys across same-number re-registration, high-intelligence-value targeting, and defensive guidance for high-risk users and executive-protection teams.</description>
+      <pubDate>Fri, 26 Jun 2026 21:25:19 GMT</pubDate>
+      <guid>https://threat.wiki/ops/russian-intelligence-signal-backup-key-phishing/</guid>
+    </item>
+    <item>
       <title>Immobiliare Labs Backstage plugins npm compromise</title>
       <link>https://threat.wiki/ops/immobiliarelabs-backstage-plugins-npm-compromise/</link>
       <description>Added StepSecurity coverage for the June 26 Immobiliare Labs Backstage plugin compromise: four npm packages across GitLab and LDAP Backstage integrations received malicious patch releases with Miasma-style Phantom Gyp execution through binding.gyp, a 5 MB index.js payload, Bun v1.3.13 staging, Runner.Worker memory scraping, cloud / package-registry / password-manager credential theft, AI-assistant persistence, and apparent npm / PyPI worming functions. The page captures affected package versions, hunt pivots, and containment guidance for platform-engineering CI and developer endpoints.</description>
