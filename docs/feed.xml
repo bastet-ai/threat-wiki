@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Turla STOCKSTAY backdoor operations</title>
+      <link>https://threat.wiki/ops/turla-stockstay-backdoor-operations/</link>
+      <description>Added Google Threat Intelligence Group coverage for Turla's STOCKSTAY backdoor: a multi-component .NET Windows implant developed since at least December 2022 and used against Ukrainian government / military organizations and Italian foreign-policy-adjacent targets. The update adds Turla actor, STOCKSTAY tool, and operations pages covering WebSocket C2, WM_COPYDATA IPC, STOCKBROKER / STOCKMARKET / STOCKTRADER / MARKETMAKER components, KAZUAR / K1MORPHER overlap, malicious GPO deployment, Italy-themed MSI lure, Ukrainian RDP phishing, compromised drs.gov.ua staging, and defender hunts for encrypted stock-market-themed configs, run keys, and business-hours C2.</description>
+      <pubDate>Fri, 26 Jun 2026 09:26:10 GMT</pubDate>
+      <guid>https://threat.wiki/ops/turla-stockstay-backdoor-operations/</guid>
+    </item>
+    <item>
       <title>CL-STA-1062 Southeast Asia government and energy intrusions</title>
       <link>https://threat.wiki/ops/cl-sta-1062-southeast-asia-tinyrct/</link>
       <description>Added Unit 42 coverage for CL-STA-1062: a Chinese-speaking espionage cluster, assessed with high confidence as overlapping Cisco Talos UAT-7237, targeting Southeast Asian government and state-owned critical energy entities. The update adds a CL-STA-1062 actor page, TinyRCT tool page, and campaign page covering ASPX web shells, SoftEther VPN / VNT / yuze tunneling, RAR staging, AppDomainManager injection through chrome_setup.zip, PerfWatson2.exe, AES-128-CBC HTTP C2, GoogleUpdaterTaskSystem scheduled-task persistence, and defender hunts for web-shell-led staging and renamed tunnel tooling.</description>

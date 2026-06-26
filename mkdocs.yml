@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Turla STOCKSTAY backdoor operations: ops/turla-stockstay-backdoor-operations.md
       - Photo ZIP hospitality Node.js implant campaign: ops/photo-zip-hospitality-nodejs-implant.md
       - CL-STA-1062 Southeast Asia government and energy intrusions: ops/cl-sta-1062-southeast-asia-tinyrct.md
       - PTC Windchill / FlexPLM CVE-2026-12569 exploitation: ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md
@@ -158,6 +159,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - STOCKSTAY: tools/stockstay.md
       - TinyRCT: tools/tinyrct.md
       - MYRA RAT: tools/myra-rat.md
       - SprySOCKS: tools/sprysocks.md
@@ -170,6 +172,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - Turla: actors/turla.md
       - CL-STA-1062: actors/cl-sta-1062.md
       - UNC6508: actors/unc6508.md
       - FishMonger: actors/fishmonger.md
