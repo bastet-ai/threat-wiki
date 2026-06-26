@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Amazon Q CVE-2026-12957 MCP auto-execution](ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Turla STOCKSTAY backdoor operations](ops/turla-stockstay-backdoor-operations.md)
 - [Photo ZIP hospitality Node.js implant campaign](ops/photo-zip-hospitality-nodejs-implant.md)
@@ -17,8 +19,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Leo Platform npm Miasma-style compromise: Socket Go/source-repository expansion](ops/leo-platform-npm-miasma-compromise.md#go-source-repository-poisoning-expansion)
 - [Adblock for YouTube BadBlocker remote-script injection risk](ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](ops/mistic-backdoor-kongtuke-modelorat.md)
-- [macOS.Gaslight Rust backdoor](ops/macos-gaslight-rust-backdoor.md)
-- [Leo Platform npm Miasma-style compromise](ops/leo-platform-npm-miasma-compromise.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

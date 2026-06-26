@@ -16,6 +16,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [access brokers](#access-brokers) (1)
 - [account-takeover](#account-takeover) (1)
+- [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [active exploitation](#active-exploitation) (31)
 - [active-exploitation](#active-exploitation) (1)
@@ -45,7 +46,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (4)
-- [AI agents](#ai-agents) (10)
+- [AI agents](#ai-agents) (11)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (1)
 - [AI assistants](#ai-assistants) (3)
@@ -57,7 +58,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI gateway](#ai-gateway) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI security](#ai-security) (1)
-- [AI tooling](#ai-tooling) (12)
+- [AI tooling](#ai-tooling) (13)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
 - [AI-augmented operations](#ai-augmented-operations) (1)
@@ -66,6 +67,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AiTM](#aitm) (1)
 - [Albania](#albania) (1)
 - [Amadey](#amadey) (1)
+- [Amazon Q Developer](#amazon-q-developer) (1)
 - [Android](#android) (4)
 - [Android Debug Bridge](#android-debug-bridge) (1)
 - [Android spyware](#android-spyware) (1)
@@ -117,7 +119,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AutoGen Studio](#autogen-studio) (1)
 - [AutoHotKey](#autohotkey) (1)
 - [AutoJack](#autojack) (1)
-- [AWS](#aws) (3)
+- [AWS](#aws) (4)
 - [AWS CloudTrail](#aws-cloudtrail) (1)
 - [AWS S3](#aws-s3) (2)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
@@ -183,7 +185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Calendly abuse](#calendly-abuse) (1)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
-- [CAP_NET_ADMIN](#cap_net_admin) (1)
+- [CAP_NET_ADMIN](#cap_net_admin) (2)
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
@@ -233,7 +235,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud](#cloud) (6)
 - [cloud C2](#cloud-c2) (1)
 - [cloud credential theft](#cloud-credential-theft) (3)
-- [cloud credentials](#cloud-credentials) (1)
+- [cloud credentials](#cloud-credentials) (2)
 - [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
 - [Cloud Filter driver](#cloud-filter-driver) (1)
 - [cloud IAM](#cloud-iam) (1)
@@ -277,13 +279,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [consumer devices](#consumer-devices) (1)
 - [Contagious Interview](#contagious-interview) (2)
 - [container](#container) (1)
-- [container escape](#container-escape) (2)
+- [container escape](#container-escape) (3)
 - [content compliance rules](#content-compliance-rules) (1)
 - [context flooding](#context-flooding) (1)
 - [continuous visibility](#continuous-visibility) (1)
 - [control panel compromise](#control-panel-compromise) (1)
 - [control plane](#control-plane) (1)
+- [Copy-on-Write](#copy-on-write) (1)
 - [Coruna](#coruna) (1)
+- [COW](#cow) (1)
 - [cPanel](#cpanel) (3)
 - [CrackMapExec](#crackmapexec) (1)
 - [Crates.io](#cratesio) (1)
@@ -291,7 +295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (1)
-- [credential theft](#credential-theft) (21)
+- [credential theft](#credential-theft) (22)
 - [credential-theft](#credential-theft) (49)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
@@ -337,6 +341,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-10523](#cve-2026-10523) (1)
 - [CVE-2026-11645](#cve-2026-11645) (1)
 - [CVE-2026-12569](#cve-2026-12569) (1)
+- [CVE-2026-12957](#cve-2026-12957) (1)
+- [CVE-2026-12958](#cve-2026-12958) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
 - [CVE-2026-20230](#cve-2026-20230) (1)
@@ -366,6 +372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-45247](#cve-2026-45247) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
 - [CVE-2026-46300](#cve-2026-46300) (1)
+- [CVE-2026-46331](#cve-2026-46331) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
 - [CVE-2026-48907](#cve-2026-48907) (1)
 - [CVE-2026-50751](#cve-2026-50751) (1)
@@ -393,6 +400,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DDoS](#ddos) (1)
 - [DDoS-for-hire](#ddos-for-hire) (1)
 - [dead drop resolver](#dead-drop-resolver) (1)
+- [Debian](#debian) (1)
 - [DeepSeek](#deepseek) (2)
 - [Defender Advanced Hunting](#defender-advanced-hunting) (1)
 - [Defender evasion](#defender-evasion) (2)
@@ -460,6 +468,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [e-commerce](#e-commerce) (1)
 - [Earth Lusca](#earth-lusca) (2)
 - [eBPF](#ebpf) (2)
+- [Eclipse](#eclipse) (1)
 - [edge appliance](#edge-appliance) (7)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
@@ -509,7 +518,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
-- [exploitation](#exploitation) (11)
+- [exploitation](#exploitation) (12)
 - [extension supply-chain](#extension-supply-chain) (1)
 - [external federation](#external-federation) (1)
 - [extortion](#extortion) (6)
@@ -578,6 +587,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS](#ghost-cms) (1)
 - [Ghost Networks](#ghost-networks) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
+- [GHSA-6v3r-4p5c-mrp5](#ghsa-6v3r-4p5c-mrp5) (1)
+- [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [GitHub](#github) (14)
 - [GitHub abuse](#github-abuse) (2)
@@ -708,7 +719,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JCE](#jce) (1)
 - [JDY](#jdy) (1)
 - [Jellyfin](#jellyfin) (1)
-- [JetBrains](#jetbrains) (1)
+- [JetBrains](#jetbrains) (2)
 - [JetBrains Marketplace](#jetbrains-marketplace) (1)
 - [JetStream](#jetstream) (1)
 - [JFrog Security Research](#jfrog-security-research) (2)
@@ -745,6 +756,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow](#langflow) (3)
 - [LangFlow](#langflow) (1)
 - [LangGraph](#langgraph) (1)
+- [Language Servers for AWS](#language-servers-for-aws) (1)
 - [Lantronix](#lantronix) (1)
 - [Laravel](#laravel) (2)
 - [lateral movement](#lateral-movement) (2)
@@ -771,8 +783,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lifecycle-hooks](#lifecycle-hooks) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linksys](#linksys) (1)
-- [Linux](#linux) (17)
-- [Linux kernel](#linux-kernel) (1)
+- [Linux](#linux) (18)
+- [Linux kernel](#linux-kernel) (2)
 - [Linux malware](#linux-malware) (1)
 - [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (2)
@@ -786,7 +798,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LNK files](#lnk-files) (1)
 - [loader](#loader) (2)
 - [local LLMs](#local-llms) (1)
-- [local privilege escalation](#local-privilege-escalation) (2)
+- [local privilege escalation](#local-privilege-escalation) (3)
 - [local-file-inclusion](#local-file-inclusion) (1)
 - [localhost](#localhost) (1)
 - [log poisoning](#log-poisoning) (1)
@@ -836,7 +848,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marketplace trust](#marketplace-trust) (1)
 - [Maven Central](#maven-central) (1)
 - [mawesome](#mawesome) (1)
-- [MCP](#mcp) (5)
+- [MCP](#mcp) (6)
 - [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
 - [memfd](#memfd) (1)
@@ -882,7 +894,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile devices](#mobile-devices) (1)
 - [mobile malware](#mobile-malware) (1)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
-- [Model Context Protocol](#model-context-protocol) (3)
+- [Model Context Protocol](#model-context-protocol) (4)
 - [model poisoning](#model-poisoning) (1)
 - [model-provider abuse](#model-provider-abuse) (1)
 - [ModeloRAT](#modelorat) (1)
@@ -964,9 +976,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (148)
+- [operations](#operations) (150)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (149)
+- [ops](#ops) (151)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -985,7 +997,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package-splitting](#package-splitting) (1)
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (3)
-- [page cache](#page-cache) (1)
+- [page cache](#page-cache) (2)
 - [page poisoning](#page-poisoning) (1)
 - [Pakistan](#pakistan) (2)
 - [Pakistan-linked](#pakistan-linked) (2)
@@ -1005,6 +1017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [payroll lures](#payroll-lures) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [PebbleDash](#pebbledash) (1)
+- [pedit](#pedit) (1)
 - [people](#people) (1)
 - [PeopleTools](#peopletools) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
@@ -1115,6 +1128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [recovery denial](#recovery-denial) (1)
 - [recruitment lures](#recruitment-lures) (1)
 - [Red Dev 10](#red-dev-10) (2)
+- [Red Hat](#red-hat) (1)
 - [REDCap](#redcap) (1)
 - [Redis](#redis) (1)
 - [Redis backdoor](#redis-backdoor) (1)
@@ -1132,7 +1146,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
 - [replication](#replication) (1)
-- [repository poisoning](#repository-poisoning) (1)
+- [repository poisoning](#repository-poisoning) (2)
 - [residential proxies](#residential-proxies) (1)
 - [REST C2](#rest-c2) (1)
 - [restart-triggered execution](#restart-triggered-execution) (1)
@@ -1317,6 +1331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef](#tamperedchef) (1)
 - [targeted operations](#targeted-operations) (1)
 - [TartarusGate](#tartarusgate) (1)
+- [tc](#tc) (1)
 - [TCP traffic diversion](#tcp-traffic-diversion) (1)
 - [TDS](#tds) (1)
 - [TeamPCP](#teampcp) (8)
@@ -1353,6 +1368,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tools](#tools) (11)
 - [Tor](#tor) (3)
 - [Trading Technologies](#trading-technologies) (1)
+- [traffic control](#traffic-control) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
 - [traffic-distribution-system](#traffic-distribution-system) (1)
 - [traffic-fraud](#traffic-fraud) (1)
@@ -1378,6 +1394,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0226](#uac-0226) (1)
 - [UAT-7237](#uat-7237) (3)
 - [Ubiquiti](#ubiquiti) (1)
+- [Ubuntu](#ubuntu) (1)
 - [Udev persistence](#udev-persistence) (1)
 - [UDP C2](#udp-c2) (1)
 - [Ukraine](#ukraine) (7)
@@ -1401,7 +1418,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uranium compression](#uranium-compression) (1)
 - [USB propagation](#usb-propagation) (1)
 - [USB worm](#usb-worm) (2)
-- [user namespaces](#user-namespaces) (1)
+- [user namespaces](#user-namespaces) (2)
 - [UTA0355](#uta0355) (1)
 - [uTLS](#utls) (1)
 - [V8](#v8) (1)
@@ -1426,6 +1443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [virtualization](#virtualization) (1)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
 - [vishing](#vishing) (2)
+- [Visual Studio](#visual-studio) (1)
 - [Visual Studio Code Remote SSH](#visual-studio-code-remote-ssh) (1)
 - [VLESS](#vless) (1)
 - [vManage](#vmanage) (1)
@@ -1434,11 +1452,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Volt Typhoon](#volt-typhoon) (1)
 - [VPN](#vpn) (3)
 - [VPN gateway](#vpn-gateway) (1)
-- [VS Code](#vs-code) (6)
+- [VS Code](#vs-code) (7)
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
-- [vulnerability](#vulnerability) (8)
+- [vulnerability](#vulnerability) (10)
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
@@ -1487,10 +1505,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wiper](#wiper) (2)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
+- [Wiz Research](#wiz-research) (1)
 - [WM_COPYDATA IPC](#wm_copydata-ipc) (1)
 - [Woodgnat](#woodgnat) (1)
 - [WordPress](#wordpress) (4)
 - [workflow backdoor](#workflow-backdoor) (1)
+- [workspace trust](#workspace-trust) (1)
 - [World Cup](#world-cup) (1)
 - [worm](#worm) (11)
 - [WP Maps Pro](#wp-maps-pro) (1)
@@ -1556,6 +1576,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## account-takeover
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+
+## act_pedit
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
 ## ACTINIUM
 - [Gamaredon](../actors/gamaredon.md)
@@ -1695,6 +1718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -1740,6 +1764,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI tooling
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -1775,6 +1800,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Amadey
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
+## Amazon Q Developer
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
 ## Android
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
@@ -1948,6 +1976,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
 ## AWS
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
@@ -2186,6 +2215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CAP_NET_ADMIN
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
 ## Catalyst SD-WAN Manager
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -2415,6 +2445,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## cloud credentials
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## Cloud Files Mini Filter Driver
@@ -2578,6 +2609,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## container escape
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
 ## content compliance rules
 - [UNC6508](../actors/unc6508.md)
@@ -2594,8 +2626,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## control plane
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
+## Copy-on-Write
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
 ## Coruna
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+
+## COW
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
 ## cPanel
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -2625,6 +2663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -2851,6 +2890,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-12569
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 
+## CVE-2026-12957
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+
+## CVE-2026-12958
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+
 ## CVE-2026-20127
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
@@ -2939,6 +2984,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-46300
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+
+## CVE-2026-46331
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
 ## CVE-2026-48172
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -3038,6 +3086,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## dead drop resolver
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
+## Debian
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
 ## DeepSeek
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -3292,6 +3343,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 
+## Eclipse
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+
 ## edge appliance
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -3499,6 +3553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
@@ -3728,6 +3783,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GHSA-6rmh-7xcm-cpxj
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+
+## GHSA-6v3r-4p5c-mrp5
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+
+## GHSA-xhcr-j4j9-3gh7
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
 ## GIFTEDCROOK
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
@@ -4242,6 +4303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
 ## JetBrains
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
 ## JetBrains Marketplace
@@ -4366,6 +4428,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LangGraph
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
+## Language Servers for AWS
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+
 ## Lantronix
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 
@@ -4460,6 +4525,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -4473,6 +4539,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Linux kernel
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
 ## Linux malware
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
@@ -4529,6 +4596,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## local privilege escalation
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
 ## local-file-inclusion
@@ -4717,6 +4785,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MCP
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -4877,6 +4946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Model Context Protocol
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
@@ -5204,6 +5274,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -5272,6 +5343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -5357,6 +5429,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -5424,6 +5497,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -5560,6 +5634,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## page cache
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
 ## page poisoning
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -5643,6 +5718,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PebbleDash
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
+## pedit
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
 ## people
 - [JiaT75](../people/jiat75.md)
@@ -6102,6 +6180,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
 
+## Red Hat
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
 ## REDCap
 - [UNC6508](../actors/unc6508.md)
 
@@ -6167,6 +6248,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
 ## repository poisoning
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 
 ## residential proxies
@@ -6901,6 +6983,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TartarusGate
 - [RemotePE](../tools/remotepe.md)
 
+## tc
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
 ## TCP traffic diversion
 - [SprySOCKS](../tools/sprysocks.md)
 
@@ -7044,6 +7129,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Trading Technologies
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
+## traffic control
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
 ## traffic hijacking
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -7137,6 +7225,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ubiquiti
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
+## Ubuntu
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
 ## Udev persistence
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -7221,6 +7312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## user namespaces
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
 ## UTA0355
 - [ROADtools](../tools/roadtools.md)
@@ -7302,6 +7394,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [UNC3753](../actors/unc3753.md)
 
+## Visual Studio
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+
 ## Visual Studio Code Remote SSH
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
@@ -7331,6 +7426,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## VS Code
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -7349,10 +7445,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## vulnerability
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+- [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
@@ -7551,6 +7649,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 - [GREYVIBE](../actors/greyvibe.md)
 
+## Wiz Research
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+
 ## WM_COPYDATA IPC
 - [STOCKSTAY](../tools/stockstay.md)
 
@@ -7565,6 +7666,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## workflow backdoor
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
+
+## workspace trust
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
 ## World Cup
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)

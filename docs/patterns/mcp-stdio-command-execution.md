@@ -30,6 +30,7 @@ OX frames this as an architectural vulnerability in Anthropic-maintained MCP SDK
 - In developer tooling, the same primitive can turn malicious MCP registry entries, copied JSON snippets, or typosquatted MCP servers into shell execution on developer workstations or CI runners.
 
 ## Public reporting
+- Wiz Research reported `CVE-2026-12957` in Amazon Q Developer / Language Servers for AWS: Amazon Q automatically loaded `.amazonq/mcp.json` from a trusted workspace and spawned MCP servers with the developer's environment, turning a malicious repository into local command execution and potential cloud credential theft. AWS patched the issue in Language Servers for AWS and Amazon Q plugin releases.
 - OX says the root pattern is direct configuration-to-command execution through MCP stdio interfaces in multiple language implementations and in intermediate adapters.
 - OX says it successfully poisoned 9 of 11 MCP registries with a trial-balloon package, showing that marketplace and registry discovery can become a distribution channel for malicious MCP configuration.
 - OX reports testing command execution on six live production platforms and names affected downstream projects including LiteLLM, LangChain, LangFlow, GPT Researcher, Agent Zero, Fay Framework, Bisheng, and Langchain-Chatchat.
@@ -48,6 +49,7 @@ OX frames this as an architectural vulnerability in Anthropic-maintained MCP SDK
 
 ## Related pages
 - [AI-augmented adversary operations](ai-augmented-adversary-operations.md)
+- [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -55,5 +57,7 @@ OX frames this as an architectural vulnerability in Anthropic-maintained MCP SDK
 - [Supply-chain group profile](supply-chain-actor-profile.md)
 
 ## Sources
+- Wiz Research: https://www.wiz.io/blog/amazon-q-vulnerability
+- AWS security bulletin 2026-047-AWS: https://aws.amazon.com/security/security-bulletins/2026-047-aws/
 - OX Security: https://www.ox.security/blog/the-mother-of-all-ai-supply-chains-critical-systemic-vulnerability-at-the-core-of-the-mcp/
 - OX Security technical deep dive: https://www.ox.security/blog/the-mother-of-all-ai-supply-chains-technical-deep-dive/
