@@ -67,8 +67,13 @@ StepSecurity's worked diff compared `@immobiliarelabs/backstage-plugin-gitlab@2.
 6. Audit repositories reachable by exposed GitHub tokens for workflow changes, newly committed AI-assistant config files, `.github/copilot-instructions.md` edits, and GitHub dead-drop artifacts.
 7. Add registry cooldown / quarantine for freshly published patch releases and file-content detection for unexpected `binding.gyp` plus root-level multi-megabyte JavaScript payloads.
 
+## Upstream-access reconstruction
+Socket's follow-up likewise tracks the releases as part of the Miasma / Mini Shai-Hulud campaign and adds a public lead for incident reconstruction: `codfish/semantic-release-action`, compromised on June 24, 2026, was referenced by public repositories under the `simonecorsi` organization. Socket frames that as a **plausible but unconfirmed** path from mutable GitHub Action tag hijack to release automation with npm publishing or GitHub deployment permissions.
+
+Treat this as a scoping hypothesis, not established root cause. For affected maintainers or downstream consumers, the useful defender action is to review deployment-triggered GitHub Actions, semantic-release workflows, mutable third-party action references, OIDC trust policies, npm publishing tokens, provenance attestations, and runner logs around the June 24--26 window.
+
 ## Attribution notes
-StepSecurity frames the incident as connected to the Miasma campaign because it reuses the same Phantom Gyp execution technique, Bun staging, credential-theft scope, `Runner.Worker` memory scraping, and AI-assistant persistence patterns. Keep operator attribution caveated: public Mini Shai-Hulud / Miasma tooling and copycat reuse mean this should be tracked as **Miasma-style / likely same payload factory** unless maintainer or registry forensics establish a specific actor.
+StepSecurity frames the incident as connected to the Miasma campaign because it reuses the same Phantom Gyp execution technique, Bun staging, credential-theft scope, `Runner.Worker` memory scraping, and AI-assistant persistence patterns. Socket independently tracks the wave as ongoing Miasma / Mini Shai-Hulud activity and emphasizes that the payload is not a materially new malware family, but an expansion into another legitimate maintainer scope. Keep operator attribution caveated: public Mini Shai-Hulud / Miasma tooling and copycat reuse mean this should be tracked as **Miasma-style / likely same payload factory** unless maintainer or registry forensics establish a specific actor.
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -78,3 +83,4 @@ StepSecurity frames the incident as connected to the Miasma campaign because it 
 
 ## Sources
 - StepSecurity: https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised
+- Socket: https://socket.dev/blog/miasma-mini-shai-hulud-hits-immobiliarelabs-npm-packages
