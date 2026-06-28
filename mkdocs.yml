@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Operation DragonReturn India tax-season DcRAT campaign: ops/operation-dragonreturn-india-tax-dcrat.md
       - Banana RAT / SHADOW-WATER-063 Brazilian banking fraud: ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md
       - Russian intelligence Signal backup-key phishing: ops/russian-intelligence-signal-backup-key-phishing.md
       - Immobiliare Labs Backstage plugins npm compromise: ops/immobiliarelabs-backstage-plugins-npm-compromise.md

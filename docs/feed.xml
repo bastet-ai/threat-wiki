@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Operation DragonReturn India tax-season DcRAT campaign</title>
+      <link>https://threat.wiki/ops/operation-dragonreturn-india-tax-dcrat/</link>
+      <description>Added Seqrite coverage for Operation DragonReturn: an active China-nexus espionage campaign impersonating India's Income Tax Department / Ministry of Finance during AY2026-27 filing season. The page captures the govtop.one lure, fake Common_Offline_Utility_ITR-1_to_4_AY2026-27.zip download, MixedSvc / Windows Mixed Reality Service persistence, background.jpg payload-container staging, svchost.exe process injection, AMSI patching, in-memory .NET loading, TLS-encrypted MessagePack C2, desktop capture capability, and defender hunts for taxpayer, tax-professional, and corporate-finance endpoints.</description>
+      <pubDate>Sun, 28 Jun 2026 11:27:16 GMT</pubDate>
+      <guid>https://threat.wiki/ops/operation-dragonreturn-india-tax-dcrat/</guid>
+    </item>
+    <item>
       <title>Banana RAT / SHADOW-WATER-063 Brazilian banking fraud</title>
       <link>https://threat.wiki/ops/banana-rat-shadow-water-063-brazilian-banking-fraud/</link>
       <description>Added Trend Micro coverage for Banana RAT / SHADOW-WATER-063: a Brazilian Portuguese, financially motivated banking-fraud operation using WhatsApp or phishing lures, PowerShell fileless execution, a FastAPI polymorphic payload-generation pool, hidden scheduled-task persistence, custom TCP/443 AES-encrypted C2, screen streaming, operator-driven input control, fake banking/security overlays, and Pix QR-code interception against Brazilian financial institutions and localized cryptocurrency exchanges.</description>

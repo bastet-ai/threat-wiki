@@ -69,6 +69,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Albania](#albania) (1)
 - [Amadey](#amadey) (1)
 - [Amazon Q Developer](#amazon-q-developer) (1)
+- [AMSI bypass](#amsi-bypass) (1)
 - [Android](#android) (4)
 - [Android Debug Bridge](#android-debug-bridge) (1)
 - [Android spyware](#android-spyware) (1)
@@ -207,7 +208,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Checkmarx](#checkmarx) (1)
 - [checkpointers](#checkpointers) (1)
 - [China](#china) (2)
-- [China-linked](#china-linked) (7)
+- [China-linked](#china-linked) (8)
 - [China-nexus](#china-nexus) (7)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
@@ -406,6 +407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data theft](#data-theft) (4)
 - [data-exfiltration](#data-exfiltration) (1)
 - [DAYLIGHT](#daylight) (1)
+- [DcRAT](#dcrat) (1)
 - [DDoS](#ddos) (1)
 - [DDoS-for-hire](#ddos-for-hire) (1)
 - [dead drop resolver](#dead-drop-resolver) (1)
@@ -514,7 +516,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (36)
+- [espionage](#espionage) (37)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -695,6 +697,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [incident response](#incident-response) (17)
 - [incident-response](#incident-response) (1)
+- [India](#india) (1)
 - [indirect prompt injection](#indirect-prompt-injection) (2)
 - [industrial control](#industrial-control) (1)
 - [industrial control systems](#industrial-control-systems) (1)
@@ -893,7 +896,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniJunk](#minijunk) (1)
 - [MiniPlasma](#miniplasma) (1)
 - [MINIRAT](#minirat) (2)
-- [Ministry of Finance](#ministry-of-finance) (1)
+- [Ministry of Finance](#ministry-of-finance) (2)
 - [MiniUpdate](#miniupdate) (1)
 - [Mirai](#mirai) (2)
 - [Mirai-derived botnet](#mirai-derived-botnet) (1)
@@ -989,9 +992,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (153)
+- [operations](#operations) (154)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (154)
+- [ops](#ops) (155)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1087,7 +1090,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [privilege escalation](#privilege-escalation) (8)
 - [process doppelgänging](#process-doppelganging) (1)
 - [process hollowing](#process-hollowing) (2)
-- [process injection](#process-injection) (2)
+- [process injection](#process-injection) (3)
 - [product lifecycle management](#product-lifecycle-management) (1)
 - [professional services](#professional-services) (1)
 - [profile.d](#profiled) (1)
@@ -1295,7 +1298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [South Korea](#south-korea) (2)
 - [Southeast Asia](#southeast-asia) (5)
 - [spam](#spam) (1)
-- [spear phishing](#spear-phishing) (5)
+- [spear phishing](#spear-phishing) (6)
 - [spear-phishing](#spear-phishing) (2)
 - [spearphishing](#spearphishing) (1)
 - [SPECTRALVIPER](#spectralviper) (1)
@@ -1352,6 +1355,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef](#tamperedchef) (1)
 - [targeted operations](#targeted-operations) (1)
 - [TartarusGate](#tartarusgate) (1)
+- [tax-season phishing](#tax-season-phishing) (1)
 - [tc](#tc) (1)
 - [TCP traffic diversion](#tcp-traffic-diversion) (1)
 - [TDS](#tds) (1)
@@ -1522,6 +1526,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows malware](#windows-malware) (3)
 - [Windows persistence](#windows-persistence) (1)
 - [Windows Script Host](#windows-script-host) (1)
+- [Windows service persistence](#windows-service-persistence) (1)
 - [Winnti Group](#winnti-group) (2)
 - [Winos4.0](#winos40) (1)
 - [WinPython](#winpython) (1)
@@ -1831,6 +1836,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Amazon Q Developer
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+
+## AMSI bypass
+- [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 
 ## Android
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
@@ -2315,6 +2323,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [OP-512](../actors/op-512.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 - [SprySOCKS](../tools/sprysocks.md)
 
 ## China-nexus
@@ -3134,6 +3143,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DAYLIGHT
 - [GREYVIBE](../actors/greyvibe.md)
 
+## DcRAT
+- [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
+
 ## DDoS
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
@@ -3540,6 +3552,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [OP-512](../actors/op-512.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -4228,6 +4241,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## incident-response
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
+## India
+- [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 
 ## indirect prompt injection
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
@@ -4978,6 +4994,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
 ## Ministry of Finance
+- [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 
 ## MiniUpdate
@@ -5447,6 +5464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
@@ -5604,6 +5622,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
@@ -6045,6 +6064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## process injection
 - [OceanLotus](../actors/oceanlotus.md)
+- [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
 ## product lifecycle management
@@ -6822,6 +6842,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## spear phishing
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+- [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
@@ -7094,6 +7115,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TartarusGate
 - [RemotePE](../tools/remotepe.md)
+
+## tax-season phishing
+- [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 
 ## tc
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
@@ -7744,6 +7768,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Windows Script Host
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+
+## Windows service persistence
+- [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 
 ## Winnti Group
 - [FishMonger](../actors/fishmonger.md)
