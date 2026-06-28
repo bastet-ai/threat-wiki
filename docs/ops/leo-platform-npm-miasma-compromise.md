@@ -1,7 +1,7 @@
 # Leo Platform npm Miasma-style compromise
 
 ## Summary
-StepSecurity reported that on June 24, 2026 an attacker published malicious versions of 20 npm packages in the Leo Platform ecosystem in a coordinated burst lasting less than three seconds. Socket's June 25 follow-up expanded the same wave to 23 npm package versions, including three additional `llxlr`-published packages, and added a related Verana Blockchain Go source-archive poisoning case. Sonatype's June 25 analysis aligned the three `llxlr` packages with the campaign, framed the malicious set as Leo Platform / RStreams plus related packages, and warned that three prerelease Leo connector packages named in some early public reporting did **not** appear to contain the observed payload. The Leo / RStreams packages collectively received roughly 13,600 weekly downloads and carried the same CI/CD credential-theft toolkit StepSecurity had documented in the earlier Miasma wave.
+StepSecurity reported that on June 24, 2026 an attacker published malicious versions of 20 npm packages in the Leo Platform ecosystem in a coordinated burst lasting less than three seconds. Socket's June 25 follow-up expanded the same wave to 23 npm package versions, including three additional `llxlr`-published packages, and added a related Verana Blockchain Go source-archive poisoning case. Sonatype's June 25 analysis aligned the three `llxlr` packages with the campaign, framed the malicious set as Leo Platform / RStreams plus related packages, and warned that three prerelease Leo connector packages named in some early public reporting did **not** appear to contain the observed payload. JFrog's June 25 writeup independently framed the same 20-package Leo / RStreams set as a Shai-Hulud / Hades continuation and reported approximately 126,000 monthly downloads across the affected package set; StepSecurity's weekly-download view for the Leo / RStreams packages was roughly 13,600 weekly downloads. The packages carried the same CI/CD credential-theft toolkit StepSecurity had documented in the earlier Miasma wave.
 
 StepSecurity assessed the Leo Platform payload as structurally identical to Miasma: the same `binding.gyp` "Phantom Gyp" install hook, the same ROT-N plus AES-128-GCM plus obfuscator.io layering, the same Bun `v1.3.13` download path, GitHub Actions `Runner.Worker` memory scraping, GitHub dead-drop exfiltration, npm `bypass_2fa` worming, workflow injection, and passwordless sudo modification on GitHub-hosted runners. Treat the actor link as TTP-based until independent public attribution or maintainer forensics confirms the initial access path.
 
@@ -21,6 +21,7 @@ StepSecurity assessed the Leo Platform payload as structurally identical to Mias
 
 ## Why this matters
 - The campaign shows the Miasma / Mini Shai-Hulud payload factory continuing after the June 3 Red Hat / `@redhat-cloud-services` wave, but focused on one package ecosystem instead of many maintainer accounts.
+- JFrog's package-context analysis emphasizes the cloud blast radius: Leo / RStreams is used for AWS-native event streaming, Lambda handlers, and serverless data pipelines, so installs may run near AWS credentials, GitHub tokens, npm publishing credentials, and application secrets.
 - The `binding.gyp` lane can execute during install without an obvious `scripts` entry in `package.json`; package consumers that only review lifecycle scripts can miss it.
 - The payload targets high-blast-radius secrets: GitHub Actions runner memory, cloud metadata and secret stores, package-registry tokens, Vault, Kubernetes, GitHub PATs, and password managers.
 - GitHub-based exfiltration through the victim's own token can avoid simple egress-domain allow/block assumptions because no new attacker domain is required.
@@ -75,6 +76,13 @@ Sonatype independently reported the same three `llxlr` packages as additional pa
 - GitHub Actions and repository poisoning markers that overlap adjacent compromises, especially `RevokeAndItGoesKaboom`, `Alright Lets See If This Works`, `TheBeautifulSandsOfTime`, `thebeautifulmarchoftime`, and `thebeautifulsnadsoftime`.
 - AI / IDE persistence through Claude, VS Code, Cursor, Gemini, and Copilot-adjacent configuration paths that can trigger after the malicious package version has already been removed.
 
+### JFrog campaign-marker and seeding details
+JFrog's June 25 analysis adds two useful hunt pivots for the Leo / RStreams wave:
+
+- The public repository-description marker changed from earlier `Miasma - The Spreading Blight` / `Hades - The End for the Damned` strings to `Alright Lets See If This Works`; JFrog reported 414 GitHub repository-search results for that marker during its investigation.
+- The token-relay deterrence string changed to `RevokeAndItGoesKaboom`, replacing earlier `IfYouInvalidateThisTokenItWillNukeTheComputerOfTheOwner`-style phrasing.
+- JFrog observed a gated `SEED_PAT` path: the payload checks whether `GITHUB_REPOSITORY` contains `Seeder` before reading `SEED_PAT` and adding that token as a GitHub sender. Treat this as likely operator / test bootstrap logic rather than a normal victim-environment requirement, but hunt for unexpected `SEED_PAT` exposure in release workflows.
+
 ## Go / source-repository poisoning expansion
 Socket reported a related source archive for `github.com/verana-labs/verana-blockchain@v0.10.1-dev.20` that carried the same Miasma-style payload family without relying on `binding.gyp` or normal Go build logic. The archive contained:
 
@@ -95,6 +103,8 @@ Treat this as source-repository execution risk: a developer who clones or opens 
 - Bun download or execution during `npm install`, especially `bun-v1.3.13`, `/tmp/p*.js`, or `/tmp/b-*`-style staging.
 - `Runner.Worker` memory access through `/proc/<pid>/mem` from a package install context.
 - GitHub API commits to unusual repositories shortly after CI package installation, especially encrypted blobs or Miasma-like repository descriptions.
+- GitHub repository descriptions containing `Alright Lets See If This Works`, with `RevokeAndItGoesKaboom` as a payload-string pivot if artifacts are available.
+- Release or test workflows exposing a variable named `SEED_PAT`, especially when the repository name or owner path contains `Seeder`.
 - Workflow diffs that unexpectedly add `id-token: write`, pinned opaque action SHAs, or release/publish steps outside the normal release process.
 - sudoers modification containing `runner ALL=(ALL) NOPASSWD:ALL` on GitHub-hosted runners.
 - Verana / Go source-archive pivots: `github.com/verana-labs/verana-blockchain@v0.10.1-dev.20`, `.claude/index.js`, `.claude/setup.mjs`, `.vscode/setup.mjs`, `.claude/settings.json`, and `.vscode/tasks.json`.
@@ -125,3 +135,4 @@ StepSecurity states that the Leo Platform operation appears to be the same actor
 - StepSecurity: https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised
 - Socket: https://socket.dev/blog/miasma-mini-shai-hulud-hits-leoplatform-npm-packages-go-ecosystem
 - Sonatype: https://www.sonatype.com/blog/miasma-returns-leo-platform-compromise-in-npm
+- JFrog Security Research: https://research.jfrog.com/post/shai-hulud-miasma-alright-lets-see-if-this-works/
