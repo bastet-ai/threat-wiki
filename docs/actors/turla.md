@@ -5,6 +5,8 @@
 
 Google Threat Intelligence Group's June 2026 STOCKSTAY disclosure reinforces Turla's continued development of custom Windows espionage tooling. GTIG reported that Turla has developed and deployed the .NET STOCKSTAY backdoor since at least December 2022 against Ukrainian government and military organizations and entities with Italian foreign-policy interests, with code and functional overlaps to the Turla KAZUAR toolkit.
 
+ESET's June 2026 Gamaredon retrospective reports an early-2025 **Gamaredon / Turla collaboration** and notes prior Gamaredon collaboration with InvisiMole. Treat the ESET statement as an activity-specific linkage, not as a merger of actor identities.
+
 ## Tags
 - groups
 - espionage
@@ -21,6 +23,7 @@ Google Threat Intelligence Group's June 2026 STOCKSTAY disclosure reinforces Tur
 - WILDDAY
 - DIAMONDBACK
 - Ukraine targeting
+- Gamaredon collaboration
 - foreign affairs targeting
 - defense targeting
 - Signal interception
@@ -37,6 +40,7 @@ Google Threat Intelligence Group's June 2026 STOCKSTAY disclosure reinforces Tur
 - Public reporting associates Turla with western ministries of foreign affairs, defense organizations, Ukrainian organizations, and foreign-policy-adjacent targets.
 - GTIG noted recent Turla activity including specialized scripts to intercept Signal Messenger communications, hijacking legacy criminal botnets to target Ukrainian organizations, and KAZUAR campaigns against military defense sectors.
 - In a late-2023 Ukrainian compromise reviewed by Mandiant, Turla deployed WILDDAY, DIAMONDBACK, KAZUAR, and STOCKSTAY through malicious GPO installation from a compromised domain controller.
+- ESET reports early-2025 collaboration between Gamaredon and Turla in Ukraine-focused activity; during triage, preserve evidence that could show handoff, co-resident tooling, or shared infrastructure rather than assuming all artifacts belong to one cluster.
 
 ## Tooling and tradecraft
 - **Snake** — long-running Turla implant publicly attributed by CISA to FSB Center 16.
@@ -54,6 +58,8 @@ Google Threat Intelligence Group's June 2026 STOCKSTAY disclosure reinforces Tur
 ## Related pages
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 - [STOCKSTAY](../tools/stockstay.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## Sources
+- ESET WeLiveSecurity: https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances/
 - Google Cloud / Google Threat Intelligence Group: https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering

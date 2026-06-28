@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](ops/operation-dragonreturn-india-tax-dcrat.md)
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Leo Platform npm Miasma-style compromise: JFrog Hades marker / SEED_PAT follow-up](ops/leo-platform-npm-miasma-compromise.md#jfrog-campaign-marker-and-seeding-details)

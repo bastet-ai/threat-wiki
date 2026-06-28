@@ -233,6 +233,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1062](#cl-sta-1062) (3)
 - [Claude](#claude) (2)
 - [Claude Code](#claude-code) (3)
+- [Clever Cloud](#clever-cloud) (1)
 - [ClickFix](#clickfix) (5)
 - [ClickOnce](#clickonce) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
@@ -253,14 +254,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud logging](#cloud-logging) (1)
 - [cloud secrets](#cloud-secrets) (3)
 - [cloud security](#cloud-security) (3)
-- [cloud service abuse](#cloud-service-abuse) (1)
+- [cloud service abuse](#cloud-service-abuse) (2)
 - [cloud storage](#cloud-storage) (1)
+- [cloud storage exfiltration](#cloud-storage-exfiltration) (1)
 - [cloud transcoding](#cloud-transcoding) (1)
 - [Cloudflare](#cloudflare) (2)
-- [Cloudflare Tunnel](#cloudflare-tunnel) (1)
+- [Cloudflare Tunnel](#cloudflare-tunnel) (2)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Turnstile](#cloudflare-turnstile) (1)
-- [Cloudflare Workers](#cloudflare-workers) (2)
+- [Cloudflare Workers](#cloudflare-workers) (4)
 - [CloudLinux](#cloudlinux) (1)
 - [CMS](#cms) (6)
 - [Cobalt Strike](#cobalt-strike) (5)
@@ -345,7 +347,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-49704](#cve-2025-49704) (1)
 - [CVE-2025-49706](#cve-2025-49706) (1)
 - [CVE-2025-67038](#cve-2025-67038) (1)
-- [CVE-2025-8088](#cve-2025-8088) (3)
+- [CVE-2025-8088](#cve-2025-8088) (4)
 - [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-10520](#cve-2026-10520) (1)
 - [CVE-2026-10523](#cve-2026-10523) (1)
@@ -408,9 +410,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data-exfiltration](#data-exfiltration) (1)
 - [DAYLIGHT](#daylight) (1)
 - [DcRAT](#dcrat) (1)
+- [DDNS](#ddns) (1)
 - [DDoS](#ddos) (1)
 - [DDoS-for-hire](#ddos-for-hire) (1)
-- [dead drop resolver](#dead-drop-resolver) (1)
+- [dead drop resolver](#dead-drop-resolver) (3)
 - [Debian](#debian) (1)
 - [DeepSeek](#deepseek) (2)
 - [Defender Advanced Hunting](#defender-advanced-hunting) (1)
@@ -469,7 +472,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [driver loading](#driver-loading) (1)
 - [DroneLink](#dronelink) (1)
 - [Dropbear](#dropbear) (1)
-- [Dropbox](#dropbox) (1)
+- [Dropbox](#dropbox) (2)
 - [dropper](#dropper) (1)
 - [Drupal](#drupal) (1)
 - [Dutch Police](#dutch-police) (1)
@@ -516,7 +519,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (37)
+- [espionage](#espionage) (38)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -582,13 +585,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](#fox-tempest) (2)
 - [fraud](#fraud) (1)
 - [FreeBSD](#freebsd) (2)
-- [FSB](#fsb) (3)
+- [FSB](#fsb) (4)
 - [FSB Center 16](#fsb-center-16) (2)
 - [fscan](#fscan) (1)
 - [FTA](#fta) (1)
 - [ftp.exe](#ftpexe) (1)
 - [Funnull](#funnull) (1)
-- [Gamaredon](#gamaredon) (2)
+- [Gamaredon](#gamaredon) (3)
+- [Gamaredon collaboration](#gamaredon-collaboration) (1)
 - [GammaLoad](#gammaload) (1)
 - [GammaPhish](#gammaphish) (1)
 - [GammaSteel](#gammasteel) (1)
@@ -621,6 +625,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Go](#go) (4)
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
+- [GoFile](#gofile) (1)
 - [GOLD PRELUDE](#gold-prelude) (1)
 - [Google Ads](#google-ads) (1)
 - [Google Chrome](#google-chrome) (1)
@@ -671,7 +676,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hosting providers](#hosting-providers) (1)
 - [hotel targeting](#hotel-targeting) (1)
 - [HR lures](#hr-lures) (1)
-- [HTA](#hta) (3)
+- [HTA](#hta) (4)
+- [HTML smuggling](#html-smuggling) (1)
 - [HTTP C2](#http-c2) (1)
 - [HttpMalice](#httpmalice) (1)
 - [HTTPSpy](#httpspy) (1)
@@ -710,6 +716,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [install-time execution](#install-time-execution) (2)
 - [install-time-execution](#install-time-execution) (1)
 - [Integration Broker](#integration-broker) (1)
+- [Intercolo](#intercolo) (1)
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (2)
@@ -774,7 +781,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Language Servers for AWS](#language-servers-for-aws) (1)
 - [Lantronix](#lantronix) (1)
 - [Laravel](#laravel) (2)
-- [lateral movement](#lateral-movement) (2)
+- [lateral movement](#lateral-movement) (3)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (2)
 - [LaunchAgent](#launchagent) (1)
@@ -824,6 +831,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LOOKVALJS](#lookvaljs) (1)
 - [LOOKVALPS](#lookvalps) (1)
 - [loopback](#loopback) (1)
+- [Loophole](#loophole) (1)
 - [low-confidence attribution](#low-confidence-attribution) (1)
 - [LPE](#lpe) (1)
 - [LS-DYNA](#ls-dyna) (1)
@@ -882,6 +890,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft 365](#microsoft-365) (2)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
 - [Microsoft Defender](#microsoft-defender) (1)
+- [Microsoft dev tunnels](#microsoft-dev-tunnels) (2)
 - [Microsoft Digital Crimes Unit](#microsoft-digital-crimes-unit) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
@@ -949,6 +958,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nginx](#nginx) (1)
 - [Nginx module](#nginx-module) (1)
 - [no attribution](#no-attribution) (1)
+- [No-IP](#no-ip) (1)
 - [node-gyp](#node-gyp) (2)
 - [node-ipc](#node-ipc) (1)
 - [Node.js](#nodejs) (1)
@@ -992,9 +1002,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (154)
+- [operations](#operations) (155)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (155)
+- [ops](#ops) (156)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1073,7 +1083,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (8)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (11)
+- [PowerShell](#powershell) (12)
 - [PowerShell malware](#powershell-malware) (1)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
@@ -1108,6 +1118,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PSIGW](#psigw) (1)
 - [psychological operations](#psychological-operations) (1)
 - [PTC](#ptc) (1)
+- [PteroBox](#pterobox) (2)
+- [PteroPaste](#pteropaste) (2)
+- [PteroPSDoor](#pteropsdoor) (2)
+- [PteroSetup](#pterosetup) (2)
+- [PteroVDoor](#pterovdoor) (2)
 - [public exploit](#public-exploit) (1)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public sector](#public-sector) (1)
@@ -1165,6 +1180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
+- [Rentry](#rentry) (1)
 - [replication](#replication) (1)
 - [repository poisoning](#repository-poisoning) (2)
 - [residential proxies](#residential-proxies) (1)
@@ -1191,7 +1207,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rundll32](#rundll32) (1)
 - [Runner.Worker](#runnerworker) (1)
 - [runtime execution](#runtime-execution) (1)
-- [Russia](#russia) (6)
+- [Russia](#russia) (7)
 - [Russia-linked](#russia-linked) (3)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
@@ -1199,6 +1215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (6)
 - [Rust malware](#rust-malware) (1)
+- [S3-compatible storage](#s3-compatible-storage) (1)
 - [SaaS](#saas) (3)
 - [SaaS exposure](#saas-exposure) (1)
 - [sabotage](#sabotage) (2)
@@ -1334,6 +1351,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [subject claim](#subject-claim) (1)
 - [SUMMIT](#summit) (3)
+- [Supabase](#supabase) (1)
 - [supply chain](#supply-chain) (3)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (75)
@@ -1363,14 +1381,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP-adjacent](#teampcp-adjacent) (1)
 - [TeamViewer](#teamviewer) (1)
 - [TEASOUP](#teasoup) (1)
+- [Tebi](#tebi) (1)
 - [telecom](#telecom) (2)
 - [telecom-impersonation](#telecom-impersonation) (1)
 - [telecommunications](#telecommunications) (1)
-- [Telegram](#telegram) (5)
+- [Telegra.ph](#telegraph) (1)
+- [Telegram](#telegram) (6)
 - [telegram](#telegram) (1)
 - [Telegram C2](#telegram-c2) (3)
 - [Telegram exfiltration](#telegram-exfiltration) (1)
 - [telemetry](#telemetry) (1)
+- [Teletype](#teletype) (1)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
 - [tenant-project](#tenant-project) (1)
@@ -1408,13 +1429,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tron](#tron) (1)
 - [trusted publishing](#trusted-publishing) (1)
 - [tunnel decapsulation](#tunnel-decapsulation) (1)
-- [Turla](#turla) (3)
+- [tunnel services](#tunnel-services) (1)
+- [Turla](#turla) (4)
+- [Turla collaboration](#turla-collaboration) (1)
 - [Twilio](#twilio) (1)
 - [TypeScript](#typescript) (1)
 - [typosquat](#typosquat) (1)
 - [typosquatting](#typosquatting) (9)
 - [UAC](#uac) (1)
-- [UAC-0010](#uac-0010) (2)
+- [UAC-0010](#uac-0010) (3)
 - [UAC-0098](#uac-0098) (1)
 - [UAC-0194](#uac-0194) (3)
 - [UAC-0226](#uac-0226) (1)
@@ -1423,7 +1446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubuntu](#ubuntu) (1)
 - [Udev persistence](#udev-persistence) (1)
 - [UDP C2](#udp-c2) (1)
-- [Ukraine](#ukraine) (8)
+- [Ukraine](#ukraine) (9)
 - [Ukraine targeting](#ukraine-targeting) (3)
 - [unauthenticated access](#unauthenticated-access) (1)
 - [unauthenticated RCE](#unauthenticated-rce) (1)
@@ -1445,6 +1468,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unsafe deserialization](#unsafe-deserialization) (1)
 - [uranium compression](#uranium-compression) (1)
 - [USB propagation](#usb-propagation) (1)
+- [USB weaponizer](#usb-weaponizer) (1)
 - [USB worm](#usb-worm) (2)
 - [user namespaces](#user-namespaces) (2)
 - [UTA0355](#uta0355) (1)
@@ -1454,7 +1478,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBCloud](#vbcloud) (1)
 - [VBE](#vbe) (1)
 - [VBS](#vbs) (1)
-- [VBScript](#vbscript) (4)
+- [VBScript](#vbscript) (5)
 - [Velociraptor](#velociraptor) (1)
 - [Velvet Ant](#velvet-ant) (2)
 - [VELVETSHELL](#velvetshell) (1)
@@ -1493,7 +1517,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet theft](#wallet-theft) (4)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
-- [Wasabi](#wasabi) (1)
+- [Wasabi](#wasabi) (2)
 - [watchdog](#watchdog) (1)
 - [watering hole](#watering-hole) (1)
 - [watering-hole](#watering-hole) (2)
@@ -1530,7 +1554,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Winnti Group](#winnti-group) (2)
 - [Winos4.0](#winos40) (1)
 - [WinPython](#winpython) (1)
-- [WinRAR](#winrar) (3)
+- [WinRAR](#winrar) (4)
 - [wiper](#wiper) (2)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
@@ -2460,6 +2484,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
+## Clever Cloud
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
 ## ClickFix
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -2539,10 +2566,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
 ## cloud service abuse
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
 ## cloud storage
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+
+## cloud storage exfiltration
+- [Gamaredon](../actors/gamaredon.md)
 
 ## cloud transcoding
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -2552,6 +2583,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## Cloudflare Tunnel
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## Cloudflare tunnels
@@ -2561,6 +2593,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 
 ## Cloudflare Workers
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
@@ -2937,6 +2971,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2025-8088
 - [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
@@ -3146,6 +3181,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DcRAT
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 
+## DDNS
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
 ## DDoS
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
@@ -3153,6 +3191,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## dead drop resolver
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## Debian
@@ -3380,6 +3420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## Dropbox
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
 ## dropper
@@ -3544,6 +3585,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [FishMonger](../actors/fishmonger.md)
 - [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
@@ -3806,6 +3848,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FSB
 - [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 
@@ -3827,7 +3870,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Gamaredon
 - [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
+## Gamaredon collaboration
+- [Turla](../actors/turla.md)
 
 ## GammaLoad
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -3961,6 +4008,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GoEdge
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## GoFile
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## GOLD PRELUDE
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
@@ -4139,9 +4189,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA4922](../actors/ta4922.md)
 
 ## HTA
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
+
+## HTML smuggling
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## HTTP C2
 - [TinyRCT](../tools/tinyrct.md)
@@ -4301,6 +4355,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Integration Broker
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
+## Intercolo
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## InvisibleFerret
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
@@ -4526,6 +4583,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 
 ## lateral movement
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -4715,6 +4773,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## loopback
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+
+## Loophole
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## low-confidence attribution
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
@@ -4945,6 +5006,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Defender
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 
+## Microsoft dev tunnels
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
 ## Microsoft Digital Crimes Unit
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
@@ -5165,6 +5230,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## no attribution
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
+
+## No-IP
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## node-gyp
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -5410,6 +5478,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
@@ -5569,6 +5638,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
@@ -5996,6 +6066,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
@@ -6129,6 +6200,26 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PTC
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+
+## PteroBox
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
+## PteroPaste
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
+## PteroPSDoor
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
+## PteroSetup
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
+## PteroVDoor
+- [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## public exploit
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -6362,6 +6453,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RemotePELoader
 - [RemotePE](../tools/remotepe.md)
 
+## Rentry
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
 ## replication
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
@@ -6452,6 +6546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
@@ -6483,6 +6578,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Rust malware
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
+## S3-compatible storage
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## SaaS
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -6967,6 +7065,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Turla](../actors/turla.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
+## Supabase
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
 ## supply chain
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [MYRA RAT](../tools/myra-rat.md)
@@ -7147,6 +7248,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TEASOUP
 - [GREYVIBE](../actors/greyvibe.md)
 
+## Tebi
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
 ## telecom
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Showboat](../tools/showboat.md)
@@ -7157,9 +7261,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## telecommunications
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
+## Telegra.ph
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
 ## Telegram
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
@@ -7177,6 +7285,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## telemetry
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+
+## Teletype
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## Telnyx
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -7313,10 +7424,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tunnel decapsulation
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
+## tunnel services
+- [Gamaredon](../actors/gamaredon.md)
+
 ## Turla
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [STOCKSTAY](../tools/stockstay.md)
 - [Turla](../actors/turla.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
+
+## Turla collaboration
+- [Gamaredon](../actors/gamaredon.md)
 
 ## Twilio
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -7343,6 +7461,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UAC-0010
 - [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## UAC-0098
@@ -7376,6 +7495,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ukraine
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
@@ -7452,6 +7572,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## USB propagation
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 
+## USB weaponizer
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
 ## USB worm
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -7484,6 +7607,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VBScript
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
@@ -7632,6 +7756,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## Wasabi
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## watchdog
@@ -7784,6 +7909,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WinRAR
 - [Gamaredon](../actors/gamaredon.md)
+- [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
