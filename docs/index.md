@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Leo Platform npm Miasma-style compromise: JFrog Hades marker / SEED_PAT follow-up](ops/leo-platform-npm-miasma-compromise.md#jfrog-campaign-marker-and-seeding-details)
 - [Russian intelligence Signal backup-key phishing](ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Immobiliare Labs Backstage plugins npm compromise](ops/immobiliarelabs-backstage-plugins-npm-compromise.md)

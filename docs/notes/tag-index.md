@@ -135,8 +135,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [backup recovery keys](#backup-recovery-keys) (1)
 - [backups](#backups) (1)
 - [BadBlocker](#badblocker) (1)
+- [Banana RAT](#banana-rat) (1)
 - [banking](#banking) (1)
 - [banking malware](#banking-malware) (1)
+- [banking trojan](#banking-trojan) (1)
 - [Barracuda](#barracuda) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [batch loader](#batch-loader) (1)
@@ -160,7 +162,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [branch-name-injection](#branch-name-injection) (1)
 - [brand impersonation](#brand-impersonation) (1)
 - [brand-impersonation](#brand-impersonation) (1)
-- [Brazil](#brazil) (2)
+- [Brazil](#brazil) (3)
+- [Brazilian banking malware](#brazilian-banking-malware) (1)
 - [BreachForums](#breachforums) (1)
 - [BRICKSTORM](#brickstorm) (2)
 - [Broadcom](#broadcom) (1)
@@ -189,6 +192,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [CAP_NET_ADMIN](#cap_net_admin) (2)
+- [Casbaneiro](#casbaneiro) (1)
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
@@ -197,6 +201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChatGPT](#chatgpt) (1)
 - [chattr](#chattr) (1)
 - [Chatty Spider](#chatty-spider) (1)
+- [CHAVECLOAK](#chavecloak) (1)
 - [Check Point](#check-point) (1)
 - [Check Point Research](#check-point-research) (1)
 - [Checkmarx](#checkmarx) (1)
@@ -542,6 +547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FAMOUS CHOLLIMA](#famous-chollima) (2)
 - [Fancy Bear](#fancy-bear) (1)
 - [Fast16](#fast16) (1)
+- [FastAPI](#fastapi) (1)
 - [FastCGI](#fastcgi) (1)
 - [FBI](#fbi) (1)
 - [FFmpeg](#ffmpeg) (1)
@@ -549,11 +555,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [file exfiltration](#file-exfiltration) (1)
 - [file-system filter](#file-system-filter) (1)
 - [FileFiend](#filefiend) (1)
-- [fileless execution](#fileless-execution) (1)
+- [fileless execution](#fileless-execution) (2)
 - [filemanager](#filemanager) (1)
 - [filename-injection](#filename-injection) (1)
 - [finance](#finance) (2)
-- [financial fraud](#financial-fraud) (1)
+- [financial fraud](#financial-fraud) (2)
 - [financial sector](#financial-sector) (3)
 - [financial services](#financial-services) (2)
 - [financial theft](#financial-theft) (3)
@@ -627,7 +633,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [government](#government) (2)
 - [government targeting](#government-targeting) (7)
 - [government-impersonation](#government-impersonation) (1)
-- [Grandoreiro](#grandoreiro) (1)
+- [Grandoreiro](#grandoreiro) (2)
 - [Gravity SMTP](#gravity-smtp) (1)
 - [GRE](#gre) (1)
 - [GREYVIBE](#greyvibe) (1)
@@ -637,6 +643,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GS-Netcat](#gs-netcat) (1)
 - [GTIG](#gtig) (1)
 - [GUE](#gue) (1)
+- [Guildma](#guildma) (1)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
 - [Hades](#hades) (2)
@@ -856,6 +863,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP](#mcp) (6)
 - [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
+- [Mekotio](#mekotio) (1)
 - [memfd](#memfd) (1)
 - [memory poisoning](#memory-poisoning) (1)
 - [memory-only malware](#memory-only-malware) (1)
@@ -981,9 +989,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (152)
+- [operations](#operations) (153)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (153)
+- [ops](#ops) (154)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1045,6 +1053,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pig-butchering](#pig-butchering) (1)
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
+- [Pix](#pix) (1)
 - [PixelSmash](#pixelsmash) (1)
 - [PKGBUILD](#pkgbuild) (1)
 - [plaintext HTTP](#plaintext-http) (1)
@@ -1052,6 +1061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [poisoned-branch](#poisoned-branch) (1)
 - [PolinRider](#polinrider) (1)
 - [Polymarket](#polymarket) (1)
+- [polymorphic payloads](#polymorphic-payloads) (1)
 - [portmap](#portmap) (1)
 - [Portugal](#portugal) (1)
 - [post-exploitation](#post-exploitation) (3)
@@ -1061,6 +1071,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postinstall](#postinstall) (8)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (11)
+- [PowerShell malware](#powershell-malware) (1)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
 - [PraisonAI](#praisonai) (1)
@@ -1107,6 +1118,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QiAnXin XLab](#qianxin-xlab) (1)
 - [Qilin](#qilin) (2)
 - [QNAP](#qnap) (1)
+- [QR code interception](#qr-code-interception) (1)
 - [query injection](#query-injection) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
 - [RaaS](#raas) (1)
@@ -1192,6 +1204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Salesforce](#salesforce) (2)
 - [ScarCruft](#scarcruft) (1)
 - [scheduled task](#scheduled-task) (3)
+- [scheduled task persistence](#scheduled-task-persistence) (1)
 - [scheduled tasks](#scheduled-tasks) (4)
 - [scope squatting](#scope-squatting) (1)
 - [screen capture](#screen-capture) (2)
@@ -1227,6 +1240,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER-040](#shadow-aether-040) (1)
 - [SHADOW-AETHER-064](#shadow-aether-064) (1)
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
+- [SHADOW-WATER-063](#shadow-water-063) (1)
 - [ShadowPad](#shadowpad) (2)
 - [Shai-Hulud](#shai-hulud) (7)
 - [share propagation](#share-propagation) (1)
@@ -1357,6 +1371,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Temp Zagros](#temp-zagros) (1)
 - [tenant-project](#tenant-project) (1)
 - [Tenet Security](#tenet-security) (1)
+- [Tetrade](#tetrade) (1)
 - [Thailand](#thailand) (3)
 - [The Gentlemen](#the-gentlemen) (1)
 - [third-party integrations](#third-party-integrations) (1)
@@ -2050,11 +2065,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BadBlocker
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
+## Banana RAT
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+
 ## banking
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## banking malware
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
+## banking trojan
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
 ## Barracuda
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -2132,8 +2153,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 
 ## Brazil
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
+## Brazilian banking malware
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
 ## BreachForums
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -2237,6 +2262,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
+## Casbaneiro
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+
 ## Catalyst SD-WAN Manager
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
@@ -2260,6 +2288,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Chatty Spider
 - [UNC3753](../actors/unc3753.md)
+
+## CHAVECLOAK
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
 ## Check Point
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
@@ -3650,6 +3681,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Fast16
 - [Fast16](../tools/fast16.md)
 
+## FastAPI
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+
 ## FastCGI
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 
@@ -3672,6 +3706,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
 ## fileless execution
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [MYRA RAT](../tools/myra-rat.md)
 
 ## filemanager
@@ -3685,6 +3720,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## financial fraud
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## financial sector
@@ -3963,6 +3999,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 
 ## Grandoreiro
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## Gravity SMTP
@@ -4005,6 +4042,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GUE
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+
+## Guildma
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
 ## hack-and-leak
 - [Handala](../actors/handala.md)
@@ -4828,6 +4868,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## medical research
 - [UNC6508](../actors/unc6508.md)
 
+## Mekotio
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+
 ## memfd
 - [MYRA RAT](../tools/myra-rat.md)
 
@@ -5317,6 +5360,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -5475,6 +5519,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -5865,6 +5910,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
+## Pix
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+
 ## PixelSmash
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
@@ -5886,6 +5934,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Polymarket
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+
+## polymorphic payloads
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
 ## portmap
 - [Showboat](../tools/showboat.md)
@@ -5934,6 +5985,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## PowerShell malware
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
 ## PowerShower
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -6107,6 +6161,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## QNAP
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
+## QR code interception
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
 ## query injection
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -6438,6 +6495,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TinyRCT](../tools/tinyrct.md)
 
+## scheduled task persistence
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+
 ## scheduled tasks
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -6556,6 +6616,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SHADOW-EARTH-066
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## SHADOW-WATER-063
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
 ## ShadowPad
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -7102,6 +7165,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Tenet Security
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
+## Tetrade
+- [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
 ## Thailand
 - [FishMonger](../actors/fishmonger.md)

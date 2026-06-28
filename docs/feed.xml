@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Banana RAT / SHADOW-WATER-063 Brazilian banking fraud</title>
+      <link>https://threat.wiki/ops/banana-rat-shadow-water-063-brazilian-banking-fraud/</link>
+      <description>Added Trend Micro coverage for Banana RAT / SHADOW-WATER-063: a Brazilian Portuguese, financially motivated banking-fraud operation using WhatsApp or phishing lures, PowerShell fileless execution, a FastAPI polymorphic payload-generation pool, hidden scheduled-task persistence, custom TCP/443 AES-encrypted C2, screen streaming, operator-driven input control, fake banking/security overlays, and Pix QR-code interception against Brazilian financial institutions and localized cryptocurrency exchanges.</description>
+      <pubDate>Sun, 28 Jun 2026 09:26:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/banana-rat-shadow-water-063-brazilian-banking-fraud/</guid>
+    </item>
+    <item>
       <title>Russian intelligence Signal backup-key phishing</title>
       <link>https://threat.wiki/ops/russian-intelligence-signal-backup-key-phishing/</link>
       <description>Updated Russian Intelligence Services commercial-messaging phishing coverage with SBU's June 27 notice: Russian services are systematically targeting messenger accounts used by Ukrainian, European, and U.S. officials, military personnel, politicians, activists, and personal Ukrainian accounts through fake support-team texts, verification-code/PIN/password theft, QR-code account-linking lures, and recovery-key requests. The page retains FBI/CISA's Signal Backup Recovery Key guidance for UNC5792 and UNC4221 and adds SBU-derived active-session and QR-code defensive pivots.</description>
