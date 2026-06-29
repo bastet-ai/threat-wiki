@@ -22,8 +22,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [active exploitation](#active-exploitation) (32)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
-- [actor](#actor) (3)
-- [actors](#actors) (5)
+- [actor](#actor) (4)
+- [actors](#actors) (6)
 - [ad blocker](#ad-blocker) (1)
 - [ad fraud](#ad-fraud) (1)
 - [Adaptix C2](#adaptix-c2) (1)
@@ -201,6 +201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
+- [CERT-In](#cert-in) (1)
 - [certificate pinning](#certificate-pinning) (1)
 - [certificate theft](#certificate-theft) (1)
 - [ChatGPT](#chatgpt) (1)
@@ -213,7 +214,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [checkpointers](#checkpointers) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (8)
-- [China-nexus](#china-nexus) (7)
+- [China-nexus](#china-nexus) (9)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
@@ -260,7 +261,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud logging](#cloud-logging) (1)
 - [cloud secrets](#cloud-secrets) (3)
 - [cloud security](#cloud-security) (3)
-- [cloud service abuse](#cloud-service-abuse) (2)
+- [cloud service abuse](#cloud-service-abuse) (4)
 - [cloud storage](#cloud-storage) (1)
 - [cloud storage exfiltration](#cloud-storage-exfiltration) (1)
 - [cloud transcoding](#cloud-transcoding) (1)
@@ -412,7 +413,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Czech Republic](#czech-republic) (1)
 - [D-Link](#d-link) (1)
 - [dangling resources](#dangling-resources) (1)
-- [data exfiltration](#data-exfiltration) (4)
+- [data exfiltration](#data-exfiltration) (5)
 - [data exposure](#data-exposure) (1)
 - [data leak site](#data-leak-site) (2)
 - [data theft](#data-theft) (4)
@@ -462,13 +463,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [digital wallets](#digital-wallets) (1)
 - [DigitalOcean](#digitalocean) (1)
 - [Dindoor](#dindoor) (1)
-- [diplomatic targeting](#diplomatic-targeting) (1)
+- [diplomatic targeting](#diplomatic-targeting) (2)
 - [DirtyClone](#dirtyclone) (1)
 - [DirtyFrag](#dirtyfrag) (1)
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
 - [DLL side-loading](#dll-side-loading) (3)
-- [DLL sideloading](#dll-sideloading) (9)
+- [DLL sideloading](#dll-sideloading) (11)
 - [DNS C2](#dns-c2) (2)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (1)
@@ -522,7 +523,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [endpoint-detection](#endpoint-detection) (1)
 - [endpoint-security](#endpoint-security) (2)
 - [EndpointDlp.dll](#endpointdlpdll) (1)
-- [energy sector](#energy-sector) (2)
+- [energy sector](#energy-sector) (4)
 - [energy-sector](#energy-sector) (1)
 - [engineering software](#engineering-software) (1)
 - [enterprise application](#enterprise-application) (1)
@@ -532,7 +533,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [environmental keying](#environmental-keying) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (38)
+- [espionage](#espionage) (40)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -656,7 +657,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Stitch](#google-stitch) (1)
 - [Google Threat Intelligence Group](#google-threat-intelligence-group) (1)
 - [government](#government) (2)
-- [government targeting](#government-targeting) (7)
+- [government targeting](#government-targeting) (8)
 - [government-impersonation](#government-impersonation) (1)
 - [Grandoreiro](#grandoreiro) (2)
 - [Gravity SMTP](#gravity-smtp) (1)
@@ -701,6 +702,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (2)
 - [Hunt.io](#huntio) (4)
+- [hydropower](#hydropower) (2)
+- [Hydropower Cooperation Project Proposal.zip](#hydropower-cooperation-project-proposalzip) (1)
 - [I-SOON](#i-soon) (2)
 - [ICE](#ice) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
@@ -721,7 +724,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [incident response](#incident-response) (18)
 - [incident-response](#incident-response) (1)
-- [India](#india) (1)
+- [India](#india) (3)
+- [Indian government](#indian-government) (1)
 - [indirect prompt injection](#indirect-prompt-injection) (2)
 - [industrial control](#industrial-control) (1)
 - [industrial control systems](#industrial-control-systems) (1)
@@ -933,6 +937,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniJunk](#minijunk) (1)
 - [MiniPlasma](#miniplasma) (1)
 - [MINIRAT](#minirat) (2)
+- [MINIRECON](#minirecon) (2)
 - [Ministry of Finance](#ministry-of-finance) (2)
 - [MiniUpdate](#miniupdate) (1)
 - [Mirai](#mirai) (2)
@@ -965,6 +970,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MSSQL](#mssql) (1)
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
+- [Mustang Panda](#mustang-panda) (2)
 - [Mustard Tempest](#mustard-tempest) (1)
 - [mutable tags](#mutable-tags) (2)
 - [MYRA](#myra) (1)
@@ -1006,6 +1012,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nuitka](#nuitka) (1)
 - [NVGRE](#nvgre) (1)
 - [OAuth](#oauth) (3)
+- [OAuth token abuse](#oauth-token-abuse) (1)
 - [OAuth token exposure](#oauth-token-exposure) (1)
 - [OAuth tokens](#oauth-tokens) (2)
 - [OBF networks](#obf-networks) (1)
@@ -1031,9 +1038,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (159)
+- [operations](#operations) (160)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (160)
+- [ops](#ops) (161)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1136,6 +1143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [product lifecycle management](#product-lifecycle-management) (1)
 - [professional services](#professional-services) (1)
 - [profile.d](#profiled) (1)
+- [Project Proposal.exe](#project-proposalexe) (1)
 - [prompt injection](#prompt-injection) (6)
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
@@ -1260,7 +1268,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scambling](#scambling) (1)
 - [ScarCruft](#scarcruft) (1)
 - [scheduled task](#scheduled-task) (3)
-- [scheduled task persistence](#scheduled-task-persistence) (1)
+- [scheduled task persistence](#scheduled-task-persistence) (2)
 - [scheduled tasks](#scheduled-tasks) (4)
 - [scope squatting](#scope-squatting) (1)
 - [screen capture](#screen-capture) (2)
@@ -1300,6 +1308,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-WATER-063](#shadow-water-063) (1)
 - [ShadowPad](#shadowpad) (2)
 - [Shai-Hulud](#shai-hulud) (7)
+- [SHARDLOADER](#shardloader) (2)
 - [share propagation](#share-propagation) (1)
 - [shared hosting](#shared-hosting) (3)
 - [shared secrets](#shared-secrets) (1)
@@ -1342,6 +1351,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOHO routers](#soho-routers) (1)
 - [Solana](#solana) (2)
 - [SolarWinds](#solarwinds) (1)
+- [Solid PDF Creator](#solid-pdf-creator) (1)
+- [SolidPDFCreator.dll](#solidpdfcreatordll) (1)
+- [SolidPDFPcl2Bmp](#solidpdfpcl2bmp) (1)
 - [Sophos](#sophos) (1)
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
@@ -1408,7 +1420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tag tampering](#tag-tampering) (4)
 - [TAG-124](#tag-124) (1)
 - [TAG-22](#tag-22) (2)
-- [Taiwan](#taiwan) (5)
+- [Taiwan](#taiwan) (7)
 - [takedown](#takedown) (3)
 - [TamperedChef](#tamperedchef) (1)
 - [targeted operations](#targeted-operations) (1)
@@ -1452,6 +1464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token replay](#token-replay) (1)
 - [token theft](#token-theft) (2)
 - [token-theft](#token-theft) (1)
+- [TONESHELL](#toneshell) (2)
 - [tool output injection](#tool-output-injection) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
@@ -1580,7 +1593,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [webshell](#webshell) (1)
 - [website-compromise](#website-compromise) (1)
 - [WebSocket](#websocket) (1)
-- [WebSocket C2](#websocket-c2) (4)
+- [WebSocket C2](#websocket-c2) (5)
 - [websocket-sharp](#websocket-sharp) (1)
 - [WebView](#webview) (1)
 - [Webworm](#webworm) (1)
@@ -1635,6 +1648,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [zero-click](#zero-click) (1)
 - [zero-day](#zero-day) (3)
 - [Zoho Assist](#zoho-assist) (1)
+- [Zoho WorkDrive](#zoho-workdrive) (2)
+- [ZOHOMURK](#zohomurk) (2)
 
 ## .NET
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -1728,6 +1743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 
 ## actor
+- [Mustang Panda](../actors/mustang-panda.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 - [UNC3753](../actors/unc3753.md)
 - [Velvet Ant](../actors/velvet-ant.md)
@@ -1735,6 +1751,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## actors
 - [Fox Tempest](../actors/fox-tempest.md)
 - [JINX-0164](../actors/jinx-0164.md)
+- [Mustang Panda](../actors/mustang-panda.md)
 - [OP-512](../actors/op-512.md)
 - [TA4922](../actors/ta4922.md)
 - [Webworm](../actors/webworm.md)
@@ -2374,6 +2391,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CDN
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## CERT-In
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+
 ## certificate pinning
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
@@ -2420,6 +2440,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## China-nexus
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [UNC6508](../actors/unc6508.md)
@@ -2644,6 +2666,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloud service abuse
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
 ## cloud storage
@@ -3245,6 +3269,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## data exposure
@@ -3436,6 +3461,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## diplomatic targeting
 - [Cloud Atlas](../actors/cloud-atlas.md)
+- [Mustang Panda](../actors/mustang-panda.md)
 
 ## DirtyClone
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -3459,6 +3485,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -3647,6 +3675,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## energy sector
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## energy-sector
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -3690,6 +3720,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [OceanLotus](../actors/oceanlotus.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [OP-512](../actors/op-512.md)
@@ -4170,6 +4202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [FishMonger](../actors/fishmonger.md)
+- [Mustang Panda](../actors/mustang-panda.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [SprySOCKS](../tools/sprysocks.md)
@@ -4332,6 +4365,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
+## hydropower
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+
+## Hydropower Cooperation Project Proposal.zip
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+
 ## I-SOON
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
@@ -4414,7 +4454,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## India
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
+
+## Indian government
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## indirect prompt injection
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
@@ -5206,6 +5251,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
+## MINIRECON
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+
 ## Ministry of Finance
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -5314,6 +5363,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MuddyWater
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## Mustang Panda
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## Mustard Tempest
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
@@ -5491,6 +5544,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
+
+## OAuth token abuse
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## OAuth token exposure
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
@@ -5677,6 +5733,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -5840,6 +5897,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -6315,6 +6373,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## profile.d
 - [MYRA RAT](../tools/myra-rat.md)
+
+## Project Proposal.exe
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## prompt injection
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -6798,6 +6859,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## scheduled task persistence
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## scheduled tasks
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -6936,6 +6998,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+
+## SHARDLOADER
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## share propagation
 - [Fast16](../tools/fast16.md)
@@ -7087,6 +7153,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SolarWinds
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+
+## Solid PDF Creator
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+
+## SolidPDFCreator.dll
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+
+## SolidPDFPcl2Bmp
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## Sophos
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -7395,6 +7470,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 - [FishMonger](../actors/fishmonger.md)
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [SprySOCKS](../tools/sprysocks.md)
 
@@ -7548,6 +7625,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## token-theft
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+
+## TONESHELL
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## tool output injection
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -8033,6 +8114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WebSocket C2
 - [GREYVIBE](../actors/greyvibe.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [STOCKSTAY](../tools/stockstay.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
@@ -8250,3 +8332,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Zoho Assist
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
+## Zoho WorkDrive
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+
+## ZOHOMURK
+- [Mustang Panda](../actors/mustang-panda.md)
+- [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
