@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [DCloud Uni-App scam infrastructure ecosystem](ops/dcloud-uni-app-scam-infrastructure.md)
 - [StegoAd Edge extension steganography campaign](ops/stegoad-edge-extension-steganography-campaign.md)

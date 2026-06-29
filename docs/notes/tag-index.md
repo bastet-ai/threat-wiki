@@ -19,7 +19,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [account-takeover](#account-takeover) (1)
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (31)
+- [active exploitation](#active-exploitation) (32)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (3)
@@ -115,7 +115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AUDIOFIX](#audiofix) (2)
 - [audit logging](#audit-logging) (1)
 - [AUR](#aur) (1)
-- [authentication bypass](#authentication-bypass) (5)
+- [authentication bypass](#authentication-bypass) (6)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -228,7 +228,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD](#cicd) (33)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
-- [CISA KEV](#cisa-kev) (13)
+- [CISA KEV](#cisa-kev) (14)
 - [Cisco](#cisco) (2)
 - [Cisco Nexus](#cisco-nexus) (1)
 - [Cisco Unified CM](#cisco-unified-cm) (1)
@@ -394,6 +394,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-46300](#cve-2026-46300) (1)
 - [CVE-2026-46331](#cve-2026-46331) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
+- [CVE-2026-48558](#cve-2026-48558) (1)
 - [CVE-2026-48907](#cve-2026-48907) (1)
 - [CVE-2026-50751](#cve-2026-50751) (1)
 - [CVE-2026-50752](#cve-2026-50752) (1)
@@ -718,7 +719,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (1)
 - [import-time execution](#import-time-execution) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
-- [incident response](#incident-response) (17)
+- [incident response](#incident-response) (18)
 - [incident-response](#incident-response) (1)
 - [India](#india) (1)
 - [indirect prompt injection](#indirect-prompt-injection) (2)
@@ -904,7 +905,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MeshCentral](#meshcentral) (2)
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexico](#mexico) (1)
-- [MFA bypass](#mfa-bypass) (4)
+- [MFA bypass](#mfa-bypass) (5)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [Miasma](#miasma) (6)
@@ -1011,7 +1012,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [obfuscation](#obfuscation) (1)
 - [OFAC](#ofac) (1)
 - [Offshore LC](#offshore-lc) (1)
-- [OIDC](#oidc) (5)
+- [OIDC](#oidc) (6)
 - [Okta](#okta) (4)
 - [Ollama](#ollama) (1)
 - [Oman](#oman) (1)
@@ -1030,9 +1031,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (158)
+- [operations](#operations) (159)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (159)
+- [ops](#ops) (160)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1209,6 +1210,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (8)
 - [remote script injection](#remote-script-injection) (1)
+- [remote support](#remote-support) (1)
 - [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
@@ -1221,7 +1223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ReverseSocks](#reversesocks) (1)
 - [reviewdog](#reviewdog) (1)
 - [RingH23](#ringh23) (1)
-- [RMM](#rmm) (1)
+- [RMM](#rmm) (2)
 - [RMM abuse](#rmm-abuse) (2)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
@@ -1315,6 +1317,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SilentCryptoMiner](#silentcryptominer) (1)
 - [SilentRunLoader](#silentrunloader) (1)
 - [SiliconFlow](#siliconflow) (1)
+- [SimpleHelp](#simplehelp) (1)
 - [simulation tampering](#simulation-tampering) (1)
 - [skb](#skb) (1)
 - [sleeper packages](#sleeper-packages) (1)
@@ -1419,6 +1422,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamViewer](#teamviewer) (1)
 - [TEASOUP](#teasoup) (1)
 - [Tebi](#tebi) (1)
+- [technician session](#technician-session) (1)
 - [telecom](#telecom) (2)
 - [telecom-impersonation](#telecom-impersonation) (1)
 - [telecommunications](#telecommunications) (1)
@@ -1444,6 +1448,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyGo](#tinygo) (1)
 - [TinyRCT](#tinyrct) (3)
 - [tj-actions](#tj-actions) (1)
+- [token forgery](#token-forgery) (1)
 - [token replay](#token-replay) (1)
 - [token theft](#token-theft) (2)
 - [token-theft](#token-theft) (1)
@@ -1710,6 +1715,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
@@ -2062,6 +2068,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
 ## authentication laundering
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -2513,6 +2520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
@@ -3167,6 +3175,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-48172
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+
+## CVE-2026-48558
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
 ## CVE-2026-48907
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
@@ -4395,6 +4406,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
@@ -5095,6 +5107,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [ROADtools](../tools/roadtools.md)
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
 ## MFA fatigue
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
@@ -5504,6 +5517,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
 ## Okta
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -5699,6 +5713,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -5861,6 +5876,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
@@ -6601,6 +6617,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## remote script injection
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
+## remote support
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
+
 ## remote-access
 - [TA4922](../actors/ta4922.md)
 
@@ -6639,6 +6658,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## RMM
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [UNC3753](../actors/unc3753.md)
 
 ## RMM abuse
@@ -6971,6 +6991,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SiliconFlow
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+
+## SimpleHelp
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
 ## simulation tampering
 - [Fast16](../tools/fast16.md)
@@ -7423,6 +7446,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Tebi
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
+## technician session
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
+
 ## telecom
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Showboat](../tools/showboat.md)
@@ -7509,6 +7535,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## tj-actions
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+
+## token forgery
+- [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
 ## token replay
 - [ROADtools](../tools/roadtools.md)
