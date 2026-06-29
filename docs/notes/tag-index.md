@@ -172,10 +172,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Broadcom](#broadcom) (1)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
-- [browser credential theft](#browser-credential-theft) (6)
-- [browser extension](#browser-extension) (4)
+- [browser credential theft](#browser-credential-theft) (7)
+- [browser extension](#browser-extension) (5)
 - [browser hijacking](#browser-hijacking) (2)
-- [browser session risk](#browser-session-risk) (2)
+- [browser session risk](#browser-session-risk) (3)
 - [browser zero-day](#browser-zero-day) (1)
 - [browser-credential-theft](#browser-credential-theft) (1)
 - [browser-extensions](#browser-extensions) (2)
@@ -221,7 +221,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-speaking](#chinese-speaking) (3)
 - [Chinese-speaking operator](#chinese-speaking-operator) (1)
 - [Chisel](#chisel) (3)
-- [Chrome Web Store](#chrome-web-store) (3)
+- [Chrome Web Store](#chrome-web-store) (4)
 - [chrome_settings_overrides](#chrome_settings_overrides) (1)
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (2)
@@ -245,7 +245,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickOnce](#clickonce) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
 - [clipboard hijacker](#clipboard-hijacker) (1)
-- [clipboard theft](#clipboard-theft) (1)
+- [clipboard stealer](#clipboard-stealer) (1)
+- [clipboard theft](#clipboard-theft) (2)
 - [clipper](#clipper) (2)
 - [Cloaked Ursa](#cloaked-ursa) (1)
 - [cloaking](#cloaking) (1)
@@ -585,6 +586,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [financial services](#financial-services) (2)
 - [financial theft](#financial-theft) (3)
 - [FireAnt MetaKit](#fireant-metakit) (1)
+- [Firefox Add-ons](#firefox-add-ons) (1)
 - [firewall](#firewall) (1)
 - [FishMonger](#fishmonger) (1)
 - [FlexPLM](#flexplm) (1)
@@ -1038,9 +1040,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (160)
+- [operations](#operations) (161)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (161)
+- [ops](#ops) (162)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1151,7 +1153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [protestware](#protestware) (1)
 - [Protobuf](#protobuf) (1)
 - [provenance](#provenance) (1)
-- [proxy](#proxy) (5)
+- [proxy](#proxy) (6)
 - [proxy network](#proxy-network) (1)
 - [ProxyChains](#proxychains) (1)
 - [PSEMHUB](#psemhub) (1)
@@ -1342,6 +1344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SocGholish](#socgholish) (1)
 - [social engineering](#social-engineering) (13)
 - [social-engineering](#social-engineering) (2)
+- [Socket](#socket) (1)
 - [Socket Security Research](#socket-security-research) (1)
 - [SOCKS5](#socks5) (3)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
@@ -1382,6 +1385,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunnels](#ssh-tunnels) (1)
 - [SSL VPN](#ssl-vpn) (1)
 - [SSRF](#ssrf) (3)
+- [staged malicious update](#staged-malicious-update) (1)
 - [stale access](#stale-access) (1)
 - [stale credentials](#stale-credentials) (1)
 - [Startup folder persistence](#startup-folder-persistence) (1)
@@ -1406,7 +1410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Supabase](#supabase) (1)
 - [supply chain](#supply-chain) (3)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (75)
+- [supply-chain](#supply-chain) (76)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (1)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
@@ -1559,8 +1563,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMware](#vmware) (2)
 - [VNT](#vnt) (2)
 - [Volt Typhoon](#volt-typhoon) (1)
-- [VPN](#vpn) (3)
+- [VPN](#vpn) (4)
 - [VPN gateway](#vpn-gateway) (1)
+- [VPN Go](#vpn-go) (1)
 - [VS Code](#vs-code) (7)
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
@@ -2290,12 +2295,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## browser extension
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## browser hijacking
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -2304,6 +2311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser session risk
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## browser zero-day
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
@@ -2475,6 +2483,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## chrome_settings_overrides
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
@@ -2602,8 +2611,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## clipboard hijacker
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
+## clipboard stealer
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
+
 ## clipboard theft
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## clipper
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
@@ -3933,6 +3946,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FireAnt MetaKit
 - [OceanLotus](../actors/oceanlotus.md)
+
+## Firefox Add-ons
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## firewall
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -5792,6 +5808,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -5958,6 +5975,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -6411,6 +6429,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [Webworm](../actors/webworm.md)
 
 ## proxy network
@@ -7123,6 +7142,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
+## Socket
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
+
 ## Socket Security Research
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
@@ -7264,6 +7286,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
+## staged malicious update
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## stale access
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -7419,6 +7444,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
@@ -7979,9 +8005,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [First VPN](../tools/first-vpn.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## VPN gateway
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
+## VPN Go
+- [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## VS Code
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
