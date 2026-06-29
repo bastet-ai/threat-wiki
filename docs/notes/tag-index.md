@@ -163,7 +163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [botnet](#botnet) (4)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
-- [brand impersonation](#brand-impersonation) (1)
+- [brand impersonation](#brand-impersonation) (2)
 - [brand-impersonation](#brand-impersonation) (1)
 - [Brazil](#brazil) (3)
 - [Brazilian banking malware](#brazilian-banking-malware) (1)
@@ -186,6 +186,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bucket hijacking](#bucket-hijacking) (1)
 - [bucket squatting](#bucket-squatting) (1)
 - [build-time compromise](#build-time-compromise) (1)
+- [bulletproof hosting](#bulletproof-hosting) (1)
 - [Bun](#bun) (2)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [BYOVD](#byovd) (2)
@@ -215,6 +216,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China-nexus](#china-nexus) (7)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
+- [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
 - [Chinese-speaking](#chinese-speaking) (3)
 - [Chinese-speaking operator](#chinese-speaking-operator) (1)
 - [Chisel](#chisel) (3)
@@ -323,6 +325,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto wallets](#crypto-wallets) (2)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (11)
+- [cryptocurrency scam](#cryptocurrency-scam) (1)
 - [cryptocurrency theft](#cryptocurrency-theft) (3)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
@@ -413,6 +416,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data theft](#data-theft) (4)
 - [data-exfiltration](#data-exfiltration) (1)
 - [DAYLIGHT](#daylight) (1)
+- [DCloud](#dcloud) (1)
+- [DCloud Uni-App](#dcloud-uni-app) (1)
 - [DcRAT](#dcrat) (1)
 - [DDNS](#ddns) (1)
 - [DDoS](#ddos) (1)
@@ -462,6 +467,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DLL side-loading](#dll-side-loading) (3)
 - [DLL sideloading](#dll-sideloading) (9)
 - [DNS C2](#dns-c2) (2)
+- [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
 - [Docker credentials](#docker-credentials) (1)
@@ -542,7 +548,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [extortion](#extortion) (6)
 - [F5 BIG-IP](#f5-big-ip) (1)
 - [fake CAPTCHA](#fake-captcha) (1)
+- [fake crypto exchange](#fake-crypto-exchange) (1)
 - [fake dating lures](#fake-dating-lures) (1)
+- [fake gambling](#fake-gambling) (1)
 - [fake login screen](#fake-login-screen) (1)
 - [fake plugin](#fake-plugin) (1)
 - [fake recruiting](#fake-recruiting) (1)
@@ -715,6 +723,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [industrial control](#industrial-control) (1)
 - [industrial control systems](#industrial-control-systems) (1)
 - [INFINITERED](#infinitered) (1)
+- [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [infostealer](#infostealer) (13)
 - [infrastructure](#infrastructure) (5)
 - [infrastructure disruption](#infrastructure-disruption) (1)
@@ -724,6 +733,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [install-time-execution](#install-time-execution) (1)
 - [Integration Broker](#integration-broker) (1)
 - [Intercolo](#intercolo) (1)
+- [investment scam](#investment-scam) (1)
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (2)
@@ -810,6 +820,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libpeconv](#libpeconv) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [lifecycle-hooks](#lifecycle-hooks) (1)
+- [Lightning Shared Scooter Co.](#lightning-shared-scooter-co) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linksys](#linksys) (1)
 - [Linux](#linux) (18)
@@ -843,6 +854,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LPE](#lpe) (1)
 - [LS-DYNA](#ls-dyna) (1)
 - [LSASS](#lsass) (1)
+- [LSSC](#lssc) (1)
 - [Lua](#lua) (1)
 - [Lumen Black Lotus Labs](#lumen-black-lotus-labs) (1)
 - [Luna Moth](#luna-moth) (1)
@@ -1011,9 +1023,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (156)
+- [operations](#operations) (157)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (157)
+- [ops](#ops) (158)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1072,6 +1084,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PHP upload](#php-upload) (1)
 - [PicassoLoader](#picassoloader) (1)
 - [pickle](#pickle) (1)
+- [pig butchering](#pig-butchering) (1)
 - [pig-butchering](#pig-butchering) (1)
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
@@ -1149,6 +1162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [query injection](#query-injection) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
 - [RaaS](#raas) (1)
+- [RainbowEx](#rainbowex) (1)
 - [RakNet flood](#raknet-flood) (1)
 - [RAM disk](#ram-disk) (1)
 - [ransomware](#ransomware) (5)
@@ -1231,6 +1245,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Safari](#safari) (1)
 - [SafeDep](#safedep) (2)
 - [Salesforce](#salesforce) (2)
+- [scam infrastructure](#scam-infrastructure) (1)
+- [scambling](#scambling) (1)
 - [ScarCruft](#scarcruft) (1)
 - [scheduled task](#scheduled-task) (3)
 - [scheduled task persistence](#scheduled-task-persistence) (1)
@@ -1473,6 +1489,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6671](#unc6671) (1)
 - [UNC6692](#unc6692) (2)
 - [UNC6780](#unc6780) (1)
+- [Uni-App](#uni-app) (1)
 - [UniFi OS](#unifi-os) (1)
 - [Unified CM SME](#unified-cm-sme) (1)
 - [Unit 42](#unit-42) (2)
@@ -1524,6 +1541,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
+- [wallet drainer](#wallet-drainer) (1)
 - [wallet infrastructure](#wallet-infrastructure) (1)
 - [wallet replacement](#wallet-replacement) (1)
 - [wallet theft](#wallet-theft) (4)
@@ -1552,6 +1570,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebView](#webview) (1)
 - [Webworm](#webworm) (1)
 - [WhatsApp](#whatsapp) (2)
+- [WhatsApp phishing](#whatsapp-phishing) (1)
 - [WHM](#whm) (3)
 - [Widget Factory](#widget-factory) (1)
 - [WILDDAY](#wildday) (2)
@@ -1593,6 +1612,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xz](#xz) (1)
 - [Yanbian](#yanbian) (1)
 - [YouTube abuse](#youtube-abuse) (1)
+- [Yuechi Shared Technology](#yuechi-shared-technology) (1)
 - [yuze](#yuze) (2)
 - [ZAPiXDESK](#zapixdesk) (1)
 - [Zendesk](#zendesk) (1)
@@ -2198,6 +2218,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 
 ## brand impersonation
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 
 ## brand-impersonation
@@ -2276,6 +2297,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## build-time compromise
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## bulletproof hosting
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## Bun
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -2387,6 +2411,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Chinese-language cybercrime
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
+## Chinese-language fraud ecosystem
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## Chinese-speaking
 - [CL-STA-1062](../actors/cl-sta-1062.md)
@@ -2907,6 +2934,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
+## cryptocurrency scam
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+
 ## cryptocurrency theft
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -3206,6 +3236,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DAYLIGHT
 - [GREYVIBE](../actors/greyvibe.md)
 
+## DCloud
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+
+## DCloud Uni-App
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+
 ## DcRAT
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 
@@ -3400,6 +3436,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DNS C2
 - [OP-512](../actors/op-512.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+
+## DNS threat intelligence
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## DNS tunneling
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -3721,8 +3760,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fake CAPTCHA
 - [GREYVIBE](../actors/greyvibe.md)
 
+## fake crypto exchange
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+
 ## fake dating lures
 - [GREYVIBE](../actors/greyvibe.md)
+
+## fake gambling
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## fake login screen
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -4350,6 +4395,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## INFINITERED
 - [UNC6508](../actors/unc6508.md)
 
+## Infoblox Threat Intel
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+
 ## infostealer
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -4396,6 +4444,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Intercolo
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
+## investment scam
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## InvisibleFerret
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
@@ -4693,6 +4744,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## lifecycle-hooks
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
+## Lightning Shared Scooter Co.
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+
 ## LinkedIn
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -4826,6 +4880,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LSASS
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+
+## LSSC
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## Lua
 - [Fast16](../tools/fast16.md)
@@ -5512,6 +5569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -5673,6 +5731,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -6036,6 +6095,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## pickle
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
+## pig butchering
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+
 ## pig-butchering
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -6330,6 +6392,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RaaS
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## RainbowEx
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## RakNet flood
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
@@ -6651,6 +6716,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Salesforce
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
+
+## scam infrastructure
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+
+## scambling
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## ScarCruft
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -7605,6 +7676,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UNC6780
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## Uni-App
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+
 ## UniFi OS
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
@@ -7791,6 +7865,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## w3wp.exe
 - [OP-512](../actors/op-512.md)
 
+## wallet drainer
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+
 ## wallet infrastructure
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
@@ -7895,6 +7972,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## WhatsApp
 - [GREYVIBE](../actors/greyvibe.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+
+## WhatsApp phishing
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## WHM
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -8066,6 +8146,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## YouTube abuse
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
+## Yuechi Shared Technology
+- [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## yuze
 - [CL-STA-1062](../actors/cl-sta-1062.md)
