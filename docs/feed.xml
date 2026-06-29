@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>StegoAd Edge extension steganography campaign</title>
+      <link>https://threat.wiki/ops/stegoad-edge-extension-steganography-campaign/</link>
+      <description>Added Microsoft Edge Extensions Security Team coverage for StegoAd: 119 malicious Edge Add-ons extensions across 90+ disposable developer accounts with up to 2.6 million installs, delayed and probabilistic execution, DevTools-aware evasion, server-side request validation, JavaScript hidden in PNG / WebP / WOFF2 image and font assets, ad injection, affiliate hijacking, Google credential and second-factor interception, WordPress administrator credential harvesting, bulk cookie exfiltration, and a browser-session remote-code-execution backdoor.</description>
+      <pubDate>Mon, 29 Jun 2026 09:27:30 GMT</pubDate>
+      <guid>https://threat.wiki/ops/stegoad-edge-extension-steganography-campaign/</guid>
+    </item>
+    <item>
       <title>Operation DragonReturn India tax-season DcRAT campaign</title>
       <link>https://threat.wiki/ops/operation-dragonreturn-india-tax-dcrat/</link>
       <description>Added Seqrite coverage for Operation DragonReturn: an active China-nexus espionage campaign impersonating India's Income Tax Department / Ministry of Finance during AY2026-27 filing season. The page captures the govtop.one lure, fake Common_Offline_Utility_ITR-1_to_4_AY2026-27.zip download, MixedSvc / Windows Mixed Reality Service persistence, background.jpg payload-container staging, svchost.exe process injection, AMSI patching, in-memory .NET loading, TLS-encrypted MessagePack C2, desktop capture capability, and defender hunts for taxpayer, tax-professional, and corporate-finance endpoints.</description>

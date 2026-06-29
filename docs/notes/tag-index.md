@@ -25,6 +25,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actor](#actor) (3)
 - [actors](#actors) (5)
 - [ad blocker](#ad-blocker) (1)
+- [ad fraud](#ad-fraud) (1)
 - [Adaptix C2](#adaptix-c2) (1)
 - [ADB TCP/5555](#adb-tcp5555) (1)
 - [Adblock for YouTube](#adblock-for-youtube) (1)
@@ -37,6 +38,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [adware history](#adware-history) (1)
 - [AES-128-CBC](#aes-128-cbc) (1)
 - [AES-GCM](#aes-gcm) (1)
+- [affiliate hijacking](#affiliate-hijacking) (1)
 - [Afghanistan](#afghanistan) (2)
 - [agent frameworks](#agent-frameworks) (3)
 - [agent memory](#agent-memory) (1)
@@ -171,13 +173,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
 - [browser credential theft](#browser-credential-theft) (6)
-- [browser extension](#browser-extension) (2)
+- [browser extension](#browser-extension) (3)
 - [browser hijacking](#browser-hijacking) (1)
 - [browser session risk](#browser-session-risk) (1)
 - [browser zero-day](#browser-zero-day) (1)
 - [browser-credential-theft](#browser-credential-theft) (1)
 - [browser-extensions](#browser-extensions) (2)
 - [browser-security](#browser-security) (1)
+- [browser-session risk](#browser-session-risk) (1)
 - [BSC](#bsc) (1)
 - [BTMOB](#btmob) (1)
 - [bucket hijacking](#bucket-hijacking) (1)
@@ -262,7 +265,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare Tunnel](#cloudflare-tunnel) (2)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Turnstile](#cloudflare-turnstile) (1)
-- [Cloudflare Workers](#cloudflare-workers) (4)
+- [Cloudflare Workers](#cloudflare-workers) (5)
 - [CloudLinux](#cloudlinux) (1)
 - [CMS](#cms) (6)
 - [Cobalt Strike](#cobalt-strike) (5)
@@ -297,6 +300,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [continuous visibility](#continuous-visibility) (1)
 - [control panel compromise](#control-panel-compromise) (1)
 - [control plane](#control-plane) (1)
+- [cookie theft](#cookie-theft) (1)
 - [Copy-on-Write](#copy-on-write) (1)
 - [Coruna](#coruna) (1)
 - [COW](#cow) (1)
@@ -307,7 +311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (1)
-- [credential theft](#credential-theft) (22)
+- [credential theft](#credential-theft) (23)
 - [credential-theft](#credential-theft) (50)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
@@ -533,7 +537,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (12)
-- [extension supply-chain](#extension-supply-chain) (1)
+- [extension supply-chain](#extension-supply-chain) (2)
 - [external federation](#external-federation) (1)
 - [extortion](#extortion) (6)
 - [F5 BIG-IP](#f5-big-ip) (1)
@@ -614,6 +618,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub CLI](#github-cli) (1)
 - [GitHub issue spam](#github-issue-spam) (1)
 - [GitHub OAuth](#github-oauth) (1)
+- [GitHub Pages abuse](#github-pages-abuse) (1)
 - [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub Security Advisories](#github-security-advisories) (1)
 - [GitHub tokens](#github-tokens) (2)
@@ -628,10 +633,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoFile](#gofile) (1)
 - [GOLD PRELUDE](#gold-prelude) (1)
 - [Google Ads](#google-ads) (1)
+- [Google Analytics telemetry](#google-analytics-telemetry) (1)
 - [Google Chrome](#google-chrome) (1)
 - [Google Cloud](#google-cloud) (1)
 - [Google Cloud Logging](#google-cloud-logging) (1)
 - [Google Cloud Storage](#google-cloud-storage) (1)
+- [Google credential theft](#google-credential-theft) (1)
 - [Google Drive](#google-drive) (1)
 - [Google Play](#google-play) (1)
 - [Google redirect abuse](#google-redirect-abuse) (1)
@@ -892,6 +899,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender](#microsoft-defender) (1)
 - [Microsoft dev tunnels](#microsoft-dev-tunnels) (2)
 - [Microsoft Digital Crimes Unit](#microsoft-digital-crimes-unit) (1)
+- [Microsoft Edge Add-ons](#microsoft-edge-add-ons) (1)
+- [Microsoft Edge Extensions Security Team](#microsoft-edge-extensions-security-team) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (2)
@@ -1002,9 +1011,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (155)
+- [operations](#operations) (156)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (156)
+- [ops](#ops) (157)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1175,7 +1184,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (4)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (7)
+- [remote code execution](#remote-code-execution) (8)
 - [remote script injection](#remote-script-injection) (1)
 - [remote-access](#remote-access) (1)
 - [RemotePE](#remotepe) (1)
@@ -1341,6 +1350,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stdio](#stdio) (3)
 - [StealC](#stealc) (1)
 - [stealer](#stealer) (2)
+- [steganography](#steganography) (1)
+- [StegoAd](#stegoad) (1)
 - [stock exchange](#stock-exchange) (1)
 - [STOCKSTAY](#stockstay) (3)
 - [storage deletion](#storage-deletion) (1)
@@ -1399,6 +1410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tetrade](#tetrade) (1)
 - [Thailand](#thailand) (3)
 - [The Gentlemen](#the-gentlemen) (1)
+- [The Hacker News](#the-hacker-news) (1)
 - [third-party integrations](#third-party-integrations) (1)
 - [threat hunting](#threat-hunting) (1)
 - [ThrottleBlood](#throttleblood) (1)
@@ -1562,6 +1574,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WM_COPYDATA IPC](#wm_copydata-ipc) (1)
 - [Woodgnat](#woodgnat) (1)
 - [WordPress](#wordpress) (4)
+- [WordPress credential theft](#wordpress-credential-theft) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
 - [workspace trust](#workspace-trust) (1)
 - [World Cup](#world-cup) (1)
@@ -1693,6 +1706,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ad blocker
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
+## ad fraud
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
 ## Adaptix C2
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
@@ -1732,6 +1748,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AES-GCM
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+
+## affiliate hijacking
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## Afghanistan
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -2218,6 +2237,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browser extension
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## browser hijacking
@@ -2238,6 +2258,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browser-security
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+
+## browser-session risk
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## BSC
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -2597,6 +2620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## CloudLinux
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
@@ -2724,6 +2748,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## control plane
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
+## cookie theft
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
 ## Copy-on-Write
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
@@ -2776,6 +2803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -3674,6 +3702,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## extension supply-chain
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## external federation
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
@@ -3972,6 +4001,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub OAuth
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
+## GitHub Pages abuse
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
 ## GitHub payload delivery
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
@@ -4018,6 +4050,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Google Ads
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
+## Google Analytics telemetry
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
 ## Google Chrome
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
@@ -4029,6 +4064,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Google Cloud Storage
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+
+## Google credential theft
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## Google Drive
 - [GREYVIBE](../actors/greyvibe.md)
@@ -5013,6 +5051,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Digital Crimes Unit
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
+## Microsoft Edge Add-ons
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
+## Microsoft Edge Extensions Security Team
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
 ## Microsoft Graph
 - [ROADtools](../tools/roadtools.md)
 - [Webworm](../actors/webworm.md)
@@ -5563,6 +5607,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -5723,6 +5768,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
@@ -6440,6 +6486,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## remote script injection
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
@@ -7031,6 +7078,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
+## steganography
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
+## StegoAd
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
 ## stock exchange
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
@@ -7311,6 +7364,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## The Gentlemen
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## The Hacker News
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## third-party integrations
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -7938,6 +7994,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+
+## WordPress credential theft
+- [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## workflow backdoor
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)

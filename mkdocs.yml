@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - StegoAd Edge extension steganography campaign: ops/stegoad-edge-extension-steganography-campaign.md
       - Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration: ops/gamaredon-2025-tunnels-workers-dead-drops.md
       - Operation DragonReturn India tax-season DcRAT campaign: ops/operation-dragonreturn-india-tax-dcrat.md
       - Banana RAT / SHADOW-WATER-063 Brazilian banking fraud: ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md
