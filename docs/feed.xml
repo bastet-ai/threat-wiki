@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Perplexity AI-spoofing Chromium extension search hijacker</title>
+      <link>https://threat.wiki/ops/perplexity-ai-chromium-extension-search-hijacker/</link>
+      <description>Added Microsoft Defender Security Research coverage of a malicious Chromium extension, Search for perplexity ai, that spoofed Perplexity AI branding, forced itself as the default search provider through chrome_settings_overrides, used Manifest V3 declarativeNetRequest permissions, and routed full Omnibox searches plus real-time suggestions through perplexity-ai[.]online before redirecting users to expected search providers. The page captures extension ID flkebkiofojicogddingbdmcmkpbplcd, the removed Chrome Web Store exposure, installation URL extension.tilda[.]ws/perplexityai, and defender pivots for browser-extension inventory, proxy/DNS hunts, and extension-policy review.</description>
+      <pubDate>Mon, 29 Jun 2026 17:27:08 GMT</pubDate>
+      <guid>https://threat.wiki/ops/perplexity-ai-chromium-extension-search-hijacker/</guid>
+    </item>
+    <item>
       <title>DCloud Uni-App scam infrastructure ecosystem</title>
       <link>https://threat.wiki/ops/dcloud-uni-app-scam-infrastructure/</link>
       <description>Added Infoblox Threat Intel coverage of the DCloud Uni-App scam infrastructure ecosystem: 236,493 DCloud-built investment-scam second-level domains observed since mid-2022, post-RainbowEx growth to roughly 15,000 newly observed sites per month at peak, fake crypto exchanges, wallet drainers, WhatsApp phishing, scambling/fake gambling, brand impersonation, bulletproof-hosted evasive variants, and offline fraud crossover through RainbowEx, Lightning Shared Scooter Co., and Yuechi Shared Technology.</description>

@@ -53,7 +53,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (1)
 - [AI assistants](#ai-assistants) (4)
-- [AI brand impersonation](#ai-brand-impersonation) (1)
+- [AI brand impersonation](#ai-brand-impersonation) (2)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
@@ -173,9 +173,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
 - [browser credential theft](#browser-credential-theft) (6)
-- [browser extension](#browser-extension) (3)
-- [browser hijacking](#browser-hijacking) (1)
-- [browser session risk](#browser-session-risk) (1)
+- [browser extension](#browser-extension) (4)
+- [browser hijacking](#browser-hijacking) (2)
+- [browser session risk](#browser-session-risk) (2)
 - [browser zero-day](#browser-zero-day) (1)
 - [browser-credential-theft](#browser-credential-theft) (1)
 - [browser-extensions](#browser-extensions) (2)
@@ -220,9 +220,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-speaking](#chinese-speaking) (3)
 - [Chinese-speaking operator](#chinese-speaking-operator) (1)
 - [Chisel](#chisel) (3)
-- [Chrome Web Store](#chrome-web-store) (2)
+- [Chrome Web Store](#chrome-web-store) (3)
+- [chrome_settings_overrides](#chrome_settings_overrides) (1)
 - [ChromElevator](#chromelevator) (1)
-- [Chromium](#chromium) (1)
+- [Chromium](#chromium) (2)
 - [CI-CD](#ci-cd) (2)
 - [CI/CD](#cicd) (33)
 - [CircleCI](#circleci) (1)
@@ -424,6 +425,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DDoS-for-hire](#ddos-for-hire) (1)
 - [dead drop resolver](#dead-drop-resolver) (3)
 - [Debian](#debian) (1)
+- [declarativeNetRequest](#declarativenetrequest) (1)
 - [DeepSeek](#deepseek) (2)
 - [Defender Advanced Hunting](#defender-advanced-hunting) (1)
 - [Defender evasion](#defender-evasion) (2)
@@ -729,6 +731,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure disruption](#infrastructure-disruption) (1)
 - [initial access broker](#initial-access-broker) (2)
 - [initial-access](#initial-access) (3)
+- [input capture](#input-capture) (1)
 - [install-time execution](#install-time-execution) (2)
 - [install-time-execution](#install-time-execution) (1)
 - [Integration Broker](#integration-broker) (1)
@@ -883,6 +886,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [managed service provider](#managed-service-provider) (1)
 - [ManageEngine Endpoint Central](#manageengine-endpoint-central) (1)
 - [management plane](#management-plane) (3)
+- [Manifest V3](#manifest-v3) (1)
 - [manufacturing](#manufacturing) (1)
 - [marimo](#marimo) (1)
 - [MARKETMAKER](#marketmaker) (1)
@@ -909,11 +913,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft 365](#microsoft-365) (2)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
 - [Microsoft Defender](#microsoft-defender) (1)
+- [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
 - [Microsoft dev tunnels](#microsoft-dev-tunnels) (2)
 - [Microsoft Digital Crimes Unit](#microsoft-digital-crimes-unit) (1)
 - [Microsoft Edge Add-ons](#microsoft-edge-add-ons) (1)
 - [Microsoft Edge Extensions Security Team](#microsoft-edge-extensions-security-team) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
+- [Microsoft Security Blog](#microsoft-security-blog) (1)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (2)
 - [Middle East](#middle-east) (2)
@@ -1009,6 +1015,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Okta](#okta) (4)
 - [Ollama](#ollama) (1)
 - [Oman](#oman) (1)
+- [Omnibox](#omnibox) (1)
 - [OneDrive](#onedrive) (3)
 - [OpenAI](#openai) (1)
 - [OpenAI Codex](#openai-codex) (1)
@@ -1023,9 +1030,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (157)
+- [operations](#operations) (158)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (158)
+- [ops](#ops) (159)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1068,6 +1075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [people](#people) (1)
 - [PeopleTools](#peopletools) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
+- [Perplexity AI](#perplexity-ai) (1)
 - [persistence](#persistence) (21)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
@@ -1118,6 +1126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Primitive Bear](#primitive-bear) (1)
 - [PrincessClub](#princessclub) (1)
 - [privacy](#privacy) (1)
+- [privacy exposure](#privacy-exposure) (1)
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (8)
 - [process doppelgänging](#process-doppelganging) (1)
@@ -1257,6 +1266,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [screenshot theft](#screenshot-theft) (1)
 - [script-injection](#script-injection) (1)
 - [SD-WAN](#sd-wan) (1)
+- [search hijacking](#search-hijacking) (1)
 - [Secret Blizzard](#secret-blizzard) (3)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (5)
@@ -1836,6 +1846,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI brand impersonation
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## AI chatbot abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -2258,14 +2269,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browser extension
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## browser hijacking
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## browser session risk
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## browser zero-day
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
@@ -2431,12 +2445,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Chrome Web Store
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
+## chrome_settings_overrides
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## ChromElevator
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Chromium
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## CI-CD
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
@@ -3261,6 +3280,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Debian
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
+## declarativeNetRequest
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## DeepSeek
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -4432,6 +4454,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
+## input capture
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
 ## install-time execution
 - [MYRA RAT](../tools/myra-rat.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -5005,6 +5030,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
+## Manifest V3
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
 ## manufacturing
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -5101,6 +5129,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Defender
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 
+## Microsoft Defender Security Research
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
 ## Microsoft dev tunnels
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
@@ -5117,6 +5148,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Graph
 - [ROADtools](../tools/roadtools.md)
 - [Webworm](../actors/webworm.md)
+
+## Microsoft Security Blog
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## Microsoft SQL Server
 - [OceanLotus](../actors/oceanlotus.md)
@@ -5483,6 +5517,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Oman
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 
+## Omnibox
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
 ## OneDrive
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -5645,6 +5682,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -5806,6 +5844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -6008,6 +6047,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PerfWatson2.exe
 - [TinyRCT](../tools/tinyrct.md)
+
+## Perplexity AI
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## persistence
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -6220,6 +6262,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## privacy
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+
+## privacy exposure
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## private-key theft
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -6759,6 +6804,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SD-WAN
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+
+## search hijacking
+- [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## Secret Blizzard
 - [STOCKSTAY](../tools/stockstay.md)
