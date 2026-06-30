@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Silent Swap Google Notes crypto clipper</title>
+      <link>https://threat.wiki/ops/silent-swap-google-notes-crypto-clipper/</link>
+      <description>Added McAfee Labs / The Hacker News coverage for Silent Swap, a cryptocurrency-clipper campaign that uses unsigned .NET and Golang installers to force-load a malicious Chromium extension masquerading as Google Notes. The page captures BaseZipInstaller behavior, browser profile Secure Preferences / Preferences tampering, integrity-value recalculation to bypass normal extension installation, EtherHiding blockchain C2/dead-drop resolution, dynamic wallet-address substitution with hardcoded fallback, and defender pivots for browser-extension inventory, profile-file monitoring, clipboard risk, and cryptocurrency transaction verification.</description>
+      <pubDate>Tue, 30 Jun 2026 23:25:37 GMT</pubDate>
+      <guid>https://threat.wiki/ops/silent-swap-google-notes-crypto-clipper/</guid>
+    </item>
+    <item>
       <title>RustDuck</title>
       <link>https://threat.wiki/tools/rustduck/</link>
       <description>Added QiAnXin XLab coverage for RustDuck, a two-stage DDoS botnet family active since February 2026 that is evolving from C toward Rust. The page captures weak Telnet/SSH password plus IoT, Android ADB, Jenkins, YARN, ThinkPHP, and historical-CVE propagation; Loader + Core variant markers; SSL-looking AES-GCM C2; dynamic C2 update and hot-update commands; and defender pivots for edge/IoT fleets, overlay-config extraction, dynamic-DNS C2, and flood-traffic detection.</description>

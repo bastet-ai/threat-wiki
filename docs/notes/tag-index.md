@@ -4,7 +4,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## All tags
 - [.NET](#net) (4)
-- [.NET malware](#net-malware) (1)
+- [.NET malware](#net-malware) (2)
 - [.pth](#pth) (1)
 - [/accessv2](#accessv2) (1)
 - [3CX](#3cx) (1)
@@ -155,6 +155,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [banking malware](#banking-malware) (1)
 - [banking trojan](#banking-trojan) (1)
 - [Barracuda](#barracuda) (1)
+- [BaseZipInstaller](#basezipinstaller) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [batch loader](#batch-loader) (1)
 - [BeaverTail](#beavertail) (1)
@@ -172,6 +173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile](#blackfile) (1)
 - [Blackpoint Cyber](#blackpoint-cyber) (3)
 - [blockchain C2](#blockchain-c2) (2)
+- [blockchain dead drop](#blockchain-dead-drop) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [BLUEBEAM](#bluebeam) (1)
 - [botnet](#botnet) (5)
@@ -186,8 +188,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Broadcom](#broadcom) (1)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
-- [browser credential theft](#browser-credential-theft) (8)
-- [browser extension](#browser-extension) (5)
+- [browser credential theft](#browser-credential-theft) (9)
+- [browser extension](#browser-extension) (6)
 - [browser hijacking](#browser-hijacking) (2)
 - [browser session risk](#browser-session-risk) (3)
 - [browser zero-day](#browser-zero-day) (1)
@@ -239,6 +241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [chrome_settings_overrides](#chrome_settings_overrides) (1)
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (2)
+- [Chromium extension](#chromium-extension) (1)
 - [CI-CD](#ci-cd) (2)
 - [CI/CD](#cicd) (34)
 - [CircleCI](#circleci) (1)
@@ -261,7 +264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cline](#cline) (1)
 - [clipboard hijacker](#clipboard-hijacker) (1)
 - [clipboard stealer](#clipboard-stealer) (1)
-- [clipboard theft](#clipboard-theft) (2)
+- [clipboard theft](#clipboard-theft) (3)
 - [clipper](#clipper) (2)
 - [Cloaked Ursa](#cloaked-ursa) (1)
 - [cloaking](#cloaking) (1)
@@ -344,11 +347,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cron persistence](#cron-persistence) (1)
 - [cross-platform](#cross-platform) (1)
 - [crypto](#crypto) (2)
+- [crypto clipper](#crypto-clipper) (1)
 - [crypto wallets](#crypto-wallets) (2)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (11)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
-- [cryptocurrency theft](#cryptocurrency-theft) (3)
+- [cryptocurrency theft](#cryptocurrency-theft) (4)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (1)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
@@ -473,6 +477,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer credentials](#developer-credentials) (1)
 - [developer endpoints](#developer-endpoints) (1)
 - [developer machines](#developer-machines) (8)
+- [developer mode](#developer-mode) (1)
 - [developer targeting](#developer-targeting) (2)
 - [developer tooling](#developer-tooling) (1)
 - [developer workstations](#developer-workstations) (1)
@@ -564,6 +569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ERP](#erp) (1)
 - [ESG](#esg) (1)
 - [espionage](#espionage) (40)
+- [EtherHiding](#etherhiding) (1)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
@@ -675,6 +681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
 - [GoFile](#gofile) (1)
+- [Golang malware](#golang-malware) (1)
 - [GOLD PRELUDE](#gold-prelude) (1)
 - [Google Ads](#google-ads) (1)
 - [Google Analytics telemetry](#google-analytics-telemetry) (1)
@@ -684,6 +691,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Cloud Storage](#google-cloud-storage) (1)
 - [Google credential theft](#google-credential-theft) (1)
 - [Google Drive](#google-drive) (1)
+- [Google Notes](#google-notes) (1)
 - [Google Play](#google-play) (1)
 - [Google redirect abuse](#google-redirect-abuse) (1)
 - [Google Stitch](#google-stitch) (1)
@@ -938,6 +946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marketplace trust](#marketplace-trust) (1)
 - [Maven Central](#maven-central) (1)
 - [mawesome](#mawesome) (1)
+- [McAfee Labs](#mcafee-labs) (1)
 - [MCP](#mcp) (7)
 - [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
@@ -1081,9 +1090,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (163)
+- [operations](#operations) (164)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (164)
+- [ops](#ops) (165)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1337,7 +1346,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (5)
 - [secrets management](#secrets-management) (1)
+- [Secure Preferences](#secure-preferences) (1)
 - [security platform](#security-platform) (1)
+- [seed phrase theft](#seed-phrase-theft) (1)
 - [Seedworm](#seedworm) (1)
 - [segmented networks](#segmented-networks) (1)
 - [self-delete](#self-delete) (1)
@@ -1380,6 +1391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [signed updates](#signed-updates) (1)
 - [signed-binary](#signed-binary) (1)
 - [Silent Ransom Group](#silent-ransom-group) (1)
+- [Silent Swap](#silent-swap) (1)
 - [SilentCryptoMiner](#silentcryptominer) (1)
 - [SilentRunLoader](#silentrunloader) (1)
 - [SiliconFlow](#siliconflow) (1)
@@ -1591,6 +1603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unit 42](#unit-42) (2)
 - [United States](#united-states) (2)
 - [unsafe deserialization](#unsafe-deserialization) (1)
+- [unsigned installer](#unsigned-installer) (1)
 - [uranium compression](#uranium-compression) (1)
 - [USB propagation](#usb-propagation) (1)
 - [USB weaponizer](#usb-weaponizer) (1)
@@ -1638,6 +1651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
+- [wallet address replacement](#wallet-address-replacement) (1)
 - [wallet drainer](#wallet-drainer) (1)
 - [wallet infrastructure](#wallet-infrastructure) (1)
 - [wallet replacement](#wallet-replacement) (1)
@@ -1730,6 +1744,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](../tools/tinyrct.md)
 
 ## .NET malware
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
 ## .pth
@@ -2300,6 +2315,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Barracuda
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
+## BaseZipInstaller
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
 ## Bash Uploader
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 
@@ -2355,6 +2373,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## blockchain C2
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+
+## blockchain dead drop
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## blockchain-dead-drop
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -2412,6 +2433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
@@ -2419,6 +2441,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser extension
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
@@ -2614,6 +2637,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
+## Chromium extension
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
 ## CI-CD
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
@@ -2739,6 +2765,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## clipboard theft
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## clipper
@@ -3117,6 +3144,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
+## crypto clipper
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
 ## crypto wallets
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -3143,6 +3173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cryptocurrency theft
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## cryptocurrency wallets
@@ -3571,6 +3602,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 
+## developer mode
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
 ## developer targeting
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
@@ -3938,6 +3972,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [Webworm](../actors/webworm.md)
+
+## EtherHiding
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## ETW patching
 - [RemotePE](../tools/remotepe.md)
@@ -4351,6 +4388,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GoFile
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
+## Golang malware
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
 ## GOLD PRELUDE
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
@@ -4377,6 +4417,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Google Drive
 - [GREYVIBE](../actors/greyvibe.md)
+
+## Google Notes
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## Google Play
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -5343,6 +5386,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mawesome
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 
+## McAfee Labs
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
 ## MCP
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -6019,6 +6065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -6186,6 +6233,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -7210,8 +7258,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## secrets management
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
+## Secure Preferences
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
 ## security platform
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+
+## seed phrase theft
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## Seedworm
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -7353,6 +7407,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Silent Ransom Group
 - [UNC3753](../actors/unc3753.md)
+
+## Silent Swap
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## SilentCryptoMiner
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -8202,6 +8259,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## unsafe deserialization
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
+## unsigned installer
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
 ## uranium compression
 - [Fast16](../tools/fast16.md)
 
@@ -8375,6 +8435,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## w3wp.exe
 - [OP-512](../actors/op-512.md)
+
+## wallet address replacement
+- [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## wallet drainer
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
