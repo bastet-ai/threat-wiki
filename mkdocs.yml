@@ -175,6 +175,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - RustDuck: tools/rustduck.md
       - TaskWeaver: tools/taskweaver.md
       - Djinn Stealer: tools/djinn-stealer.md
       - STOCKSTAY: tools/stockstay.md

@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [RustDuck](tools/rustduck.md)
 - [MCP tool-description poisoning](patterns/mcp-tool-description-poisoning.md)
 - [GuardFall AI-agent shell-guard bypass](patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [AI-augmented adversary operations: BioShocking AI-browser context manipulation](patterns/ai-augmented-adversary-operations.md#bioshocking-ai-browser-context-manipulation)

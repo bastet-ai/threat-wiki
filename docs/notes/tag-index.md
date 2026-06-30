@@ -41,6 +41,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AES-128-CBC](#aes-128-cbc) (1)
 - [AES-256-GCM](#aes-256-gcm) (1)
 - [AES-GCM](#aes-gcm) (1)
+- [AES-GCM C2](#aes-gcm-c2) (1)
 - [affiliate hijacking](#affiliate-hijacking) (1)
 - [Afghanistan](#afghanistan) (2)
 - [agent frameworks](#agent-frameworks) (3)
@@ -80,6 +81,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [AMSI bypass](#amsi-bypass) (1)
 - [Android](#android) (4)
+- [Android ADB](#android-adb) (1)
 - [Android Debug Bridge](#android-debug-bridge) (1)
 - [Android spyware](#android-spyware) (1)
 - [anti-analysis](#anti-analysis) (1)
@@ -172,7 +174,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [blockchain C2](#blockchain-c2) (2)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [BLUEBEAM](#bluebeam) (1)
-- [botnet](#botnet) (4)
+- [botnet](#botnet) (5)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [brand impersonation](#brand-impersonation) (2)
@@ -445,7 +447,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud Uni-App](#dcloud-uni-app) (1)
 - [DcRAT](#dcrat) (1)
 - [DDNS](#ddns) (1)
-- [DDoS](#ddos) (1)
+- [DDoS](#ddos) (2)
 - [DDoS-for-hire](#ddos-for-hire) (1)
 - [dead drop resolver](#dead-drop-resolver) (3)
 - [Debian](#debian) (1)
@@ -513,6 +515,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dropbox](#dropbox) (2)
 - [dropper](#dropper) (1)
 - [Drupal](#drupal) (1)
+- [duckdns](#duckdns) (1)
 - [Dutch Police](#dutch-police) (1)
 - [DWAgent](#dwagent) (1)
 - [dynamic DNS](#dynamic-dns) (1)
@@ -778,7 +781,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (2)
-- [IoT botnet](#iot-botnet) (2)
+- [IoT botnet](#iot-botnet) (3)
 - [IP-in-IP](#ip-in-ip) (1)
 - [IPsec](#ipsec) (1)
 - [Iran](#iran) (5)
@@ -880,7 +883,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LNK](#lnk) (8)
 - [LNK files](#lnk-files) (1)
 - [load balancer](#load-balancer) (1)
-- [loader](#loader) (3)
+- [loader](#loader) (4)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (3)
 - [local-file-inclusion](#local-file-inclusion) (1)
@@ -916,7 +919,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (4)
-- [malware](#malware) (26)
+- [malware](#malware) (27)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
@@ -1223,7 +1226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Python](#python) (6)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python stealer](#python-stealer) (1)
-- [QiAnXin XLab](#qianxin-xlab) (1)
+- [QiAnXin XLab](#qianxin-xlab) (2)
 - [Qilin](#qilin) (2)
 - [QNAP](#qnap) (1)
 - [QR code interception](#qr-code-interception) (1)
@@ -1307,7 +1310,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russia-nexus](#russia-nexus) (2)
 - [Russian Intelligence Services](#russian-intelligence-services) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
-- [Rust](#rust) (6)
+- [Rust](#rust) (7)
 - [Rust malware](#rust-malware) (1)
 - [S3-compatible storage](#s3-compatible-storage) (1)
 - [SaaS](#saas) (3)
@@ -1431,6 +1434,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SQLite](#sqlite) (1)
 - [SSH](#ssh) (2)
 - [SSH bastion](#ssh-bastion) (1)
+- [SSH brute force](#ssh-brute-force) (1)
 - [SSH key exposure](#ssh-key-exposure) (1)
 - [SSH key persistence](#ssh-key-persistence) (1)
 - [SSH keys](#ssh-keys) (1)
@@ -1505,6 +1509,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telegram exfiltration](#telegram-exfiltration) (1)
 - [telemetry](#telemetry) (1)
 - [Teletype](#teletype) (1)
+- [Telnet brute force](#telnet-brute-force) (1)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
 - [tenant-project](#tenant-project) (1)
@@ -1529,7 +1534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (13)
+- [tools](#tools) (14)
 - [Tor](#tor) (3)
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic control](#traffic-control) (1)
@@ -1644,9 +1649,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [watchTowr](#watchtowr) (1)
 - [watering hole](#watering-hole) (1)
 - [watering-hole](#watering-hole) (2)
+- [weak passwords](#weak-passwords) (1)
 - [web application](#web-application) (4)
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
+- [web RCE](#web-rce) (1)
 - [web shell](#web-shell) (5)
 - [web shells](#web-shells) (3)
 - [web supply chain](#web-supply-chain) (1)
@@ -1877,6 +1884,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AES-GCM
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
+## AES-GCM C2
+- [RustDuck](../tools/rustduck.md)
+
 ## affiliate hijacking
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
@@ -2033,6 +2043,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
+## Android ADB
+- [RustDuck](../tools/rustduck.md)
 
 ## Android Debug Bridge
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
@@ -2353,6 +2366,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+- [RustDuck](../tools/rustduck.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## branch-compromise
@@ -3458,6 +3472,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DDoS
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [RustDuck](../tools/rustduck.md)
 
 ## DDoS-for-hire
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
@@ -3719,6 +3734,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Drupal
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## duckdns
+- [RustDuck](../tools/rustduck.md)
 
 ## Dutch Police
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -4738,6 +4756,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## IoT botnet
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+- [RustDuck](../tools/rustduck.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## IP-in-IP
@@ -5115,6 +5134,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## loader
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
+- [RustDuck](../tools/rustduck.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TaskWeaver](../tools/taskweaver.md)
 
@@ -5252,6 +5272,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [RemotePE](../tools/remotepe.md)
+- [RustDuck](../tools/rustduck.md)
 - [Showboat](../tools/showboat.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -6764,6 +6785,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## QiAnXin XLab
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+- [RustDuck](../tools/rustduck.md)
 
 ## Qilin
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -7087,6 +7109,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [RustDuck](../tools/rustduck.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
@@ -7532,6 +7555,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SSH bastion
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
+## SSH brute force
+- [RustDuck](../tools/rustduck.md)
+
 ## SSH key exposure
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
@@ -7870,6 +7896,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Teletype
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
+## Telnet brute force
+- [RustDuck](../tools/rustduck.md)
+
 ## Telnyx
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
@@ -7960,6 +7989,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MYRA RAT](../tools/myra-rat.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
+- [RustDuck](../tools/rustduck.md)
 - [Showboat](../tools/showboat.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [STOCKSTAY](../tools/stockstay.md)
@@ -8386,6 +8416,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
+## weak passwords
+- [RustDuck](../tools/rustduck.md)
+
 ## web application
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -8398,6 +8431,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web IDE
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
+
+## web RCE
+- [RustDuck](../tools/rustduck.md)
 
 ## web shell
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)

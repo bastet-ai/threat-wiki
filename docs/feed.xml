@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>RustDuck</title>
+      <link>https://threat.wiki/tools/rustduck/</link>
+      <description>Added QiAnXin XLab coverage for RustDuck, a two-stage DDoS botnet family active since February 2026 that is evolving from C toward Rust. The page captures weak Telnet/SSH password plus IoT, Android ADB, Jenkins, YARN, ThinkPHP, and historical-CVE propagation; Loader + Core variant markers; SSL-looking AES-GCM C2; dynamic C2 update and hot-update commands; and defender pivots for edge/IoT fleets, overlay-config extraction, dynamic-DNS C2, and flood-traffic detection.</description>
+      <pubDate>Tue, 30 Jun 2026 21:25:43 GMT</pubDate>
+      <guid>https://threat.wiki/tools/rustduck/</guid>
+    </item>
+    <item>
       <title>MCP tool-description poisoning</title>
       <link>https://threat.wiki/patterns/mcp-tool-description-poisoning/</link>
       <description>Added Microsoft / The Hacker News coverage of MCP tool-description poisoning: an already-approved third-party tool can hide instructions in mutable description metadata that an acting AI agent treats as trusted planning context, causing legitimate-looking data pulls and external tool calls such as exfiltrating the last 30 unpaid invoices. The page captures the tool-metadata supply-chain boundary, related tool-poisoning research, and defender guidance for metadata re-approval, least agency, per-agent identities, DLP, and tool-call logging.</description>
