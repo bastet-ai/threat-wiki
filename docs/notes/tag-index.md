@@ -34,6 +34,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [administrator account creation](#administrator-account-creation) (2)
 - [Adobe Commerce](#adobe-commerce) (1)
 - [Adspect](#adspect) (1)
+- [Adversa AI](#adversa-ai) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (2)
 - [adware](#adware) (3)
 - [adware history](#adware-history) (1)
@@ -52,7 +53,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (4)
-- [AI agents](#ai-agents) (11)
+- [AI agents](#ai-agents) (12)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (1)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
@@ -72,6 +73,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented operations](#ai-augmented-operations) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AI-generated narrator](#ai-generated-narrator) (1)
+- [Aider](#aider) (1)
 - [AiTM](#aitm) (1)
 - [Albania](#albania) (1)
 - [Amadey](#amadey) (1)
@@ -126,6 +128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
+- [auto-execution](#auto-execution) (1)
 - [AUTODYN](#autodyn) (1)
 - [AutoGen Studio](#autogen-studio) (1)
 - [AutoHotKey](#autohotkey) (1)
@@ -235,7 +238,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (2)
 - [CI-CD](#ci-cd) (2)
-- [CI/CD](#cicd) (33)
+- [CI/CD](#cicd) (34)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
 - [CISA KEV](#cisa-kev) (14)
@@ -253,6 +256,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix](#clickfix) (5)
 - [ClickOnce](#clickonce) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
+- [Cline](#cline) (1)
 - [clipboard hijacker](#clipboard-hijacker) (1)
 - [clipboard stealer](#clipboard-stealer) (1)
 - [clipboard theft](#clipboard-theft) (2)
@@ -287,11 +291,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [code signing](#code-signing) (3)
 - [Codecov](#codecov) (1)
 - [Codex](#codex) (2)
+- [coding agents](#coding-agents) (1)
 - [Coinbase](#coinbase) (1)
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
 - [COM-hijacking](#com-hijacking) (1)
 - [command and control](#command-and-control) (1)
-- [command execution](#command-execution) (3)
+- [command execution](#command-execution) (4)
 - [command injection](#command-injection) (6)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
@@ -311,6 +316,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [container escape](#container-escape) (3)
 - [content compliance rules](#content-compliance-rules) (1)
 - [context flooding](#context-flooding) (1)
+- [Continue](#continue) (1)
 - [continuous visibility](#continuous-visibility) (1)
 - [control panel compromise](#control-panel-compromise) (1)
 - [control plane](#control-plane) (1)
@@ -463,7 +469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer credential theft](#developer-credential-theft) (2)
 - [developer credentials](#developer-credentials) (1)
 - [developer endpoints](#developer-endpoints) (1)
-- [developer machines](#developer-machines) (7)
+- [developer machines](#developer-machines) (8)
 - [developer targeting](#developer-targeting) (2)
 - [developer tooling](#developer-tooling) (1)
 - [developer workstations](#developer-workstations) (1)
@@ -678,6 +684,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google redirect abuse](#google-redirect-abuse) (1)
 - [Google Stitch](#google-stitch) (1)
 - [Google Threat Intelligence Group](#google-threat-intelligence-group) (1)
+- [Goose](#goose) (1)
 - [government](#government) (2)
 - [government targeting](#government-targeting) (8)
 - [government-impersonation](#government-impersonation) (1)
@@ -704,6 +711,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [healthcare](#healthcare) (2)
 - [HelloDoor](#hellodoor) (1)
 - [HellsGate](#hellsgate) (1)
+- [Hermes Agent](#hermes-agent) (1)
 - [HexKiller](#hexkiller) (1)
 - [hidden service](#hidden-service) (1)
 - [high explosives](#high-explosives) (1)
@@ -1053,9 +1061,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oman](#oman) (1)
 - [Omnibox](#omnibox) (1)
 - [OneDrive](#onedrive) (3)
+- [Open Interpreter](#open-interpreter) (1)
 - [OpenAI](#openai) (1)
 - [OpenAI Codex](#openai-codex) (1)
+- [opencode](#opencode) (1)
 - [OpenConnect](#openconnect) (1)
+- [OpenHands](#openhands) (1)
 - [OpenSearch](#opensearch) (1)
 - [OpenSSH](#openssh) (2)
 - [OpenVPN](#openvpn) (1)
@@ -1103,7 +1114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
 - [path traversal](#path-traversal) (1)
-- [patterns](#patterns) (22)
+- [patterns](#patterns) (23)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payment fraud](#payment-fraud) (1)
@@ -1142,6 +1153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PixelSmash](#pixelsmash) (1)
 - [PKGBUILD](#pkgbuild) (1)
 - [plaintext HTTP](#plaintext-http) (1)
+- [Plandex](#plandex) (1)
 - [PLENET](#plenet) (2)
 - [poisoned-branch](#poisoned-branch) (1)
 - [PolinRider](#polinrider) (1)
@@ -1181,7 +1193,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [profile.d](#profiled) (1)
 - [Progress Kemp LoadMaster](#progress-kemp-loadmaster) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
-- [prompt injection](#prompt-injection) (6)
+- [prompt injection](#prompt-injection) (7)
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
@@ -1275,6 +1287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [roadtx](#roadtx) (1)
 - [RokRAT](#rokrat) (1)
 - [RomulusLoader](#romulusloader) (1)
+- [Roo-Code](#roo-code) (1)
 - [root escalation](#root-escalation) (1)
 - [root execution](#root-execution) (2)
 - [rootkit](#rootkit) (4)
@@ -1302,6 +1315,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Safari](#safari) (1)
 - [SafeDep](#safedep) (2)
 - [Salesforce](#salesforce) (2)
+- [sandboxing](#sandboxing) (1)
 - [scam infrastructure](#scam-infrastructure) (1)
 - [scambling](#scambling) (1)
 - [ScarCruft](#scarcruft) (1)
@@ -1352,6 +1366,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared secrets](#shared-secrets) (1)
 - [SharePoint](#sharepoint) (2)
 - [SharkLoader](#sharkloader) (1)
+- [shell injection](#shell-injection) (1)
 - [ShinyHunters](#shinyhunters) (2)
 - [Shuckworm](#shuckworm) (1)
 - [SideCopy](#sidecopy) (1)
@@ -1386,6 +1401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
 - [SoftEther VPN](#softether-vpn) (2)
 - [software impersonation](#software-impersonation) (1)
+- [software supply chain](#software-supply-chain) (1)
 - [software-deployment](#software-deployment) (1)
 - [SOHO routers](#soho-routers) (1)
 - [Solana](#solana) (2)
@@ -1448,6 +1464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (3)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (76)
+- [SWE-agent](#swe-agent) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (1)
 - [symlink following](#symlink-following) (1)
 - [Synology](#synology) (1)
@@ -1834,6 +1851,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Adspect
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
+## Adversa AI
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
 ## adversary-in-the-middle
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -1903,6 +1923,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -1984,6 +2005,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI-generated narrator
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
+## Aider
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## AiTM
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -2166,6 +2190,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## authentication-coercion
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
+## auto-execution
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## AUTODYN
 - [Fast16](../tools/fast16.md)
@@ -2586,6 +2613,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
@@ -2681,6 +2709,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## client-side exploitation
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+
+## Cline
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## clipboard hijacker
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
@@ -2822,6 +2853,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
+## coding agents
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
@@ -2836,6 +2870,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## command execution
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
@@ -2906,6 +2941,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## context flooding
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+
+## Continue
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## continuous visibility
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -3504,6 +3542,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -4325,6 +4364,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Google Threat Intelligence Group
 - [UNC6508](../actors/unc6508.md)
 
+## Goose
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
 ## government
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
@@ -4427,6 +4469,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HellsGate
 - [RemotePE](../tools/remotepe.md)
+
+## Hermes Agent
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## HexKiller
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -5756,14 +5801,23 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Webworm](../actors/webworm.md)
 
+## Open Interpreter
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
 ## OpenAI
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
 ## OpenAI Codex
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
+## opencode
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
 ## OpenConnect
 - [First VPN](../tools/first-vpn.md)
+
+## OpenHands
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## OpenSearch
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
@@ -6258,6 +6312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -6420,6 +6475,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## plaintext HTTP
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
+## Plandex
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
 ## PLENET
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -6578,6 +6636,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
 ## prompt-injection
@@ -6938,6 +6997,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RomulusLoader
 - [TA4922](../actors/ta4922.md)
 
+## Roo-Code
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
 ## root escalation
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 
@@ -7042,6 +7104,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Salesforce
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
+
+## sandboxing
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## scam infrastructure
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -7221,6 +7286,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SharkLoader
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 
+## shell injection
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
 ## ShinyHunters
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
@@ -7345,6 +7413,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## software impersonation
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
+## software supply chain
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## software-deployment
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
@@ -7634,6 +7705,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## SWE-agent
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## Symantec Threat Hunter Team
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
