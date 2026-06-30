@@ -6,6 +6,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [.NET](#net) (4)
 - [.NET malware](#net-malware) (1)
 - [.pth](#pth) (1)
+- [/accessv2](#accessv2) (1)
 - [3CX](#3cx) (1)
 - [404 TDS](#404-tds) (1)
 - [4sync](#4sync) (1)
@@ -78,6 +79,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [anti-analysis](#anti-analysis) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
+- [API exposure](#api-exposure) (1)
 - [API key exposure](#api-key-exposure) (1)
 - [API keys](#api-keys) (1)
 - [apintergrationpost](#apintergrationpost) (1)
@@ -87,6 +89,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AppleJeus](#applejeus) (1)
 - [AppleSeed](#appleseed) (1)
 - [appliance](#appliance) (1)
+- [application delivery controller](#application-delivery-controller) (1)
 - [APT](#apt) (4)
 - [APT27](#apt27) (1)
 - [APT28](#apt28) (1)
@@ -283,7 +286,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COM-hijacking](#com-hijacking) (1)
 - [command and control](#command-and-control) (1)
 - [command execution](#command-execution) (3)
-- [command injection](#command-injection) (5)
+- [command injection](#command-injection) (6)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [commercial messaging applications](#commercial-messaging-applications) (1)
@@ -376,6 +379,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-28318](#cve-2026-28318) (1)
 - [CVE-2026-3300](#cve-2026-3300) (1)
 - [CVE-2026-33017](#cve-2026-33017) (2)
+- [CVE-2026-33691](#cve-2026-33691) (1)
 - [CVE-2026-34908](#cve-2026-34908) (1)
 - [CVE-2026-34909](#cve-2026-34909) (1)
 - [CVE-2026-34910](#cve-2026-34910) (1)
@@ -403,6 +407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-54420](#cve-2026-54420) (1)
 - [CVE-2026-7473](#cve-2026-7473) (1)
+- [CVE-2026-8037](#cve-2026-8037) (1)
 - [CVE-2026-8461](#cve-2026-8461) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
@@ -498,7 +503,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Earth Lusca](#earth-lusca) (2)
 - [eBPF](#ebpf) (2)
 - [Eclipse](#eclipse) (1)
-- [edge appliance](#edge-appliance) (7)
+- [edge appliance](#edge-appliance) (8)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (1)
@@ -724,7 +729,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (1)
 - [import-time execution](#import-time-execution) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
-- [incident response](#incident-response) (18)
+- [incident response](#incident-response) (19)
 - [incident-response](#incident-response) (1)
 - [India](#india) (3)
 - [Indian government](#indian-government) (1)
@@ -743,6 +748,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [install-time-execution](#install-time-execution) (1)
 - [Integration Broker](#integration-broker) (1)
 - [Intercolo](#intercolo) (1)
+- [internet-facing appliance](#internet-facing-appliance) (1)
 - [investment scam](#investment-scam) (1)
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
@@ -786,6 +792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KAZUAR](#kazuar) (2)
 - [KAZUAR overlap](#kazuar-overlap) (1)
 - [Keitaro](#keitaro) (1)
+- [Kemp LoadMaster](#kemp-loadmaster) (1)
 - [kernel driver](#kernel-driver) (3)
 - [KEV](#kev) (3)
 - [keychain theft](#keychain-theft) (1)
@@ -846,6 +853,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LMS](#lms) (1)
 - [LNK](#lnk) (8)
 - [LNK files](#lnk-files) (1)
+- [load balancer](#load-balancer) (1)
 - [loader](#loader) (2)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (3)
@@ -1040,9 +1048,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (161)
+- [operations](#operations) (162)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (162)
+- [ops](#ops) (163)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
@@ -1131,6 +1139,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PRC](#prc) (1)
 - [PRC-aligned](#prc-aligned) (1)
 - [PRC-nexus](#prc-nexus) (1)
+- [pre-auth RCE](#pre-auth-rce) (1)
 - [pre-authentication](#pre-authentication) (1)
 - [preinstall](#preinstall) (2)
 - [Primitive Bear](#primitive-bear) (1)
@@ -1145,6 +1154,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [product lifecycle management](#product-lifecycle-management) (1)
 - [professional services](#professional-services) (1)
 - [profile.d](#profiled) (1)
+- [Progress Kemp LoadMaster](#progress-kemp-loadmaster) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
 - [prompt injection](#prompt-injection) (6)
 - [prompt-injection](#prompt-injection) (4)
@@ -1509,7 +1519,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ukraine](#ukraine) (9)
 - [Ukraine targeting](#ukraine-targeting) (3)
 - [unauthenticated access](#unauthenticated-access) (1)
-- [unauthenticated RCE](#unauthenticated-rce) (1)
+- [unauthenticated RCE](#unauthenticated-rce) (2)
 - [UNC1543](#unc1543) (1)
 - [UNC2814](#unc2814) (1)
 - [UNC3753](#unc3753) (1)
@@ -1524,6 +1534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Uni-App](#uni-app) (1)
 - [UniFi OS](#unifi-os) (1)
 - [Unified CM SME](#unified-cm-sme) (1)
+- [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [Unit 42](#unit-42) (2)
 - [United States](#united-states) (2)
 - [unsafe deserialization](#unsafe-deserialization) (1)
@@ -1570,7 +1581,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
-- [vulnerability](#vulnerability) (10)
+- [vulnerability](#vulnerability) (11)
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
@@ -1582,6 +1593,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet-theft](#wallet-theft) (3)
 - [Wasabi](#wasabi) (2)
 - [watchdog](#watchdog) (1)
+- [watchTowr](#watchtowr) (1)
 - [watering hole](#watering-hole) (1)
 - [watering-hole](#watering-hole) (2)
 - [web application](#web-application) (4)
@@ -1667,6 +1679,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## .pth
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+
+## /accessv2
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## 3CX
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -1963,6 +1978,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## API abuse
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
+## API exposure
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+
 ## API key exposure
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 
@@ -1990,6 +2008,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## appliance
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+
+## application delivery controller
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## APT
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -2768,6 +2789,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## command-execution
@@ -3152,6 +3174,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
+## CVE-2026-33691
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+
 ## CVE-2026-34908
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
@@ -3233,6 +3258,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-7473
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+
+## CVE-2026-8037
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## CVE-2026-8461
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -3603,6 +3631,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## edge appliances
@@ -4460,6 +4489,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
@@ -4542,6 +4572,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Intercolo
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
+## internet-facing appliance
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## investment scam
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -4693,6 +4726,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Keitaro
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
+## Kemp LoadMaster
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## kernel driver
 - [Fast16](../tools/fast16.md)
@@ -4921,6 +4957,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LNK files
 - [Cloud Atlas](../actors/cloud-atlas.md)
+
+## load balancer
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## loader
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -5776,6 +5815,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -5941,6 +5981,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -6339,6 +6380,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PRC-nexus
 - [UNC6508](../actors/unc6508.md)
 
+## pre-auth RCE
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+
 ## pre-authentication
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
@@ -6391,6 +6435,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## profile.d
 - [MYRA RAT](../tools/myra-rat.md)
+
+## Progress Kemp LoadMaster
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## Project Proposal.exe
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
@@ -7824,6 +7871,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unauthenticated RCE
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## UNC1543
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
@@ -7868,6 +7916,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Unified CM SME
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
+
+## uninitialized heap memory
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## Unit 42
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -8041,6 +8092,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
@@ -8082,6 +8134,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## watchdog
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
+## watchTowr
+- [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## watering hole
 - [FishMonger](../actors/fishmonger.md)
