@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Oracle E-Business Suite CVE-2026-46817 exploitation](ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [VPN Go browser-extension clipboard stealer](ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)

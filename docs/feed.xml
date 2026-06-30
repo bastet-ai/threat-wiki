@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Oracle E-Business Suite CVE-2026-46817 exploitation</title>
+      <link>https://threat.wiki/ops/oracle-e-business-suite-cve-2026-46817-exploitation/</link>
+      <description>Added Oracle E-Business Suite CVE-2026-46817 exploitation coverage: a critical unauthenticated HTTP issue in Oracle Payments / File Transmission affecting EBS 12.2.3 through 12.2.15. The page captures Oracle/NVD CVSS 9.8 details, Defused Cyber honeypot exploitation telemetry reported by The Hacker News, no-known-public-PoC caveat, and defender triage for Oracle Payments exposure, EBS logs, application accounts, payment workflow changes, and adjacent Oracle-app exploitation risk.</description>
+      <pubDate>Tue, 30 Jun 2026 07:27:17 GMT</pubDate>
+      <guid>https://threat.wiki/ops/oracle-e-business-suite-cve-2026-46817-exploitation/</guid>
+    </item>
+    <item>
       <title>Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE</title>
       <link>https://threat.wiki/ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce/</link>
       <description>Added watchTowr Labs coverage for Progress Kemp LoadMaster CVE-2026-8037: a pre-authentication RCE path reachable when the LoadMaster API is enabled. The page captures affected GA v7.2.63.1-and-older and LTSF v7.2.54.17-and-older versions named by watchTowr, the /accessv2 apiuser uninitialized-heap-to-command-injection mechanics, companion Progress bulletin reference to CVE-2026-33691, and defender triage for API exposure, /accessv2 requests, appliance configuration review, and credential/certificate rotation.</description>
