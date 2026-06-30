@@ -45,6 +45,7 @@ In Tenet's controlled validation, a crafted Sentry event included fake remediati
 Agentjacking is a reusable prompt/tool-output injection pattern, not a one-off Sentry issue. Any external system that accepts attacker-controlled text and later feeds that text to an agent with file, shell, package-manager, browser, or network tools can become an execution path. The durable lesson is to bind agent privileges to data provenance: public or third-party records can help with triage, but they should not be able to create executable instructions without a separate trusted policy decision.
 
 ## Related pages
+- [MCP tool-description poisoning](mcp-tool-description-poisoning.md)
 - [MCP stdio command-execution boundary](mcp-stdio-command-execution.md)
 - [Claude Code GitHub Action prompt-injection boundary](claude-code-github-action-prompt-injection.md)
 - [Developer-tool config auto-execution](developer-tool-config-auto-execution.md)

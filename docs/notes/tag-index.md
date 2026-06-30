@@ -53,7 +53,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (4)
-- [AI agents](#ai-agents) (12)
+- [AI agents](#ai-agents) (13)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (1)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
@@ -67,7 +67,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI gateway](#ai-gateway) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI security](#ai-security) (1)
-- [AI tooling](#ai-tooling) (13)
+- [AI tooling](#ai-tooling) (14)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
 - [AI-augmented operations](#ai-augmented-operations) (1)
@@ -321,6 +321,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [control panel compromise](#control-panel-compromise) (1)
 - [control plane](#control-plane) (1)
 - [cookie theft](#cookie-theft) (1)
+- [Copilot](#copilot) (1)
 - [Copy-on-Write](#copy-on-write) (1)
 - [Coruna](#coruna) (1)
 - [COW](#cow) (1)
@@ -434,7 +435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Czech Republic](#czech-republic) (1)
 - [D-Link](#d-link) (1)
 - [dangling resources](#dangling-resources) (1)
-- [data exfiltration](#data-exfiltration) (5)
+- [data exfiltration](#data-exfiltration) (6)
 - [data exposure](#data-exposure) (1)
 - [data leak site](#data-leak-site) (2)
 - [data theft](#data-theft) (4)
@@ -757,7 +758,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [incident-response](#incident-response) (1)
 - [India](#india) (3)
 - [Indian government](#indian-government) (1)
-- [indirect prompt injection](#indirect-prompt-injection) (3)
+- [indirect prompt injection](#indirect-prompt-injection) (4)
 - [industrial control](#industrial-control) (1)
 - [industrial control systems](#industrial-control-systems) (1)
 - [INFINITERED](#infinitered) (1)
@@ -934,7 +935,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marketplace trust](#marketplace-trust) (1)
 - [Maven Central](#maven-central) (1)
 - [mawesome](#mawesome) (1)
-- [MCP](#mcp) (6)
+- [MCP](#mcp) (7)
 - [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
 - [Mekotio](#mekotio) (1)
@@ -948,7 +949,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [Miasma](#miasma) (6)
-- [Microsoft](#microsoft) (4)
+- [Microsoft](#microsoft) (5)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (2)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
@@ -987,7 +988,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile devices](#mobile-devices) (1)
 - [mobile malware](#mobile-malware) (1)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
-- [Model Context Protocol](#model-context-protocol) (4)
+- [Model Context Protocol](#model-context-protocol) (5)
 - [model poisoning](#model-poisoning) (1)
 - [model-provider abuse](#model-provider-abuse) (1)
 - [ModeloRAT](#modelorat) (1)
@@ -1114,7 +1115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
 - [path traversal](#path-traversal) (1)
-- [patterns](#patterns) (23)
+- [patterns](#patterns) (24)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payment fraud](#payment-fraud) (1)
@@ -1193,7 +1194,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [profile.d](#profiled) (1)
 - [Progress Kemp LoadMaster](#progress-kemp-loadmaster) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
-- [prompt injection](#prompt-injection) (7)
+- [prompt injection](#prompt-injection) (8)
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
@@ -1463,7 +1464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Supabase](#supabase) (1)
 - [supply chain](#supply-chain) (3)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (76)
+- [supply-chain](#supply-chain) (77)
 - [SWE-agent](#swe-agent) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (1)
 - [symlink following](#symlink-following) (1)
@@ -1525,6 +1526,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token-theft](#token-theft) (1)
 - [TONESHELL](#toneshell) (2)
 - [tool output injection](#tool-output-injection) (1)
+- [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
 - [tools](#tools) (13)
@@ -1928,6 +1930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -1984,6 +1987,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -2957,6 +2961,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cookie theft
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
+## Copilot
+- [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
+
 ## Copy-on-Write
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
@@ -3414,6 +3421,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+- [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
@@ -4646,6 +4654,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## indirect prompt injection
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+- [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## industrial control
@@ -5318,6 +5327,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
@@ -5375,6 +5385,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Fox Tempest](../actors/fox-tempest.md)
+- [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 
 ## Microsoft .NET
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -5506,6 +5517,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 
 ## model poisoning
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
@@ -6316,6 +6328,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -6638,6 +6651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+- [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 
 ## prompt-injection
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -7676,6 +7690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -7923,6 +7938,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## tool output injection
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
+## tool poisoning
+- [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 
 ## tool use
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)

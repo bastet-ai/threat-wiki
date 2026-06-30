@@ -48,6 +48,7 @@ OX frames this as an architectural vulnerability in Anthropic-maintained MCP SDK
 - Keep downstream AI-agent platforms patched, but do not assume patching one platform removes the MCP stdio risk from other tools in the environment.
 
 ## Related pages
+- [MCP tool-description poisoning](mcp-tool-description-poisoning.md)
 - [AI-augmented adversary operations](ai-augmented-adversary-operations.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
