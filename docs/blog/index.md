@@ -3,6 +3,9 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [SimpleHelp CVE-2026-48558: TaskWeaver and Djinn Stealer exploitation chain](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md#observed-taskweaver-djinn-stealer-chain)
+- [TaskWeaver](../tools/taskweaver.md)
+- [Djinn Stealer](../tools/djinn-stealer.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)

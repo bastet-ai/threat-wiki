@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>SimpleHelp CVE-2026-48558 TaskWeaver / Djinn Stealer chain</title>
+      <link>https://threat.wiki/ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation/#observed-taskweaver-djinn-stealer-chain</link>
+      <description>Updated SimpleHelp CVE-2026-48558 coverage with Blackpoint Cyber / The Hacker News intrusion details: an unknown actor used a forged SimpleHelp technician session to deploy TaskWeaver, a heavily obfuscated Node.js loader delivered as jquery.js and executed through node.exe, then delivered Djinn Stealer to harvest cross-platform browser, cloud, source-control, package-registry, infrastructure-tooling, AI-assistant, SSH, and cryptocurrency secrets. Added dedicated TaskWeaver and Djinn Stealer tool pages plus defender pivots for SimpleHelp session correlation, Node.js execution from RMM tooling, a.dev-tunnels[.]com, and 96.126.130[.]126:58942.</description>
+      <pubDate>Tue, 30 Jun 2026 11:27:45 GMT</pubDate>
+      <guid>https://threat.wiki/ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation/#observed-taskweaver-djinn-stealer-chain</guid>
+    </item>
+    <item>
       <title>Oracle E-Business Suite CVE-2026-46817 exploitation</title>
       <link>https://threat.wiki/ops/oracle-e-business-suite-cve-2026-46817-exploitation/</link>
       <description>Added Oracle E-Business Suite CVE-2026-46817 exploitation coverage: a critical unauthenticated HTTP issue in Oracle Payments / File Transmission affecting EBS 12.2.3 through 12.2.15. The page captures Oracle/NVD CVSS 9.8 details, Defused Cyber honeypot exploitation telemetry reported by The Hacker News, no-known-public-PoC caveat, and defender triage for Oracle Payments exposure, EBS logs, application accounts, payment workflow changes, and adjacent Oracle-app exploitation risk.</description>
