@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>BioShocking AI-browser context manipulation</title>
+      <link>https://threat.wiki/patterns/ai-augmented-adversary-operations/#bioshocking-ai-browser-context-manipulation</link>
+      <description>Updated AI-augmented adversary operations with LayerX BioShocking research: a malicious page can frame an agentic browser task as a game, manipulate the agent's operating context, and cause it to copy credentials or other data from authenticated sites such as GitHub without treating the action as a real-world safety violation. Added affected-product context for ChatGPT Atlas, Perplexity Comet, Fellou, Genspark Browser, Sigma Browser, and the Claude Chrome plugin plus defender guidance for step-up confirmation, scoped browser profiles, and agent navigation monitoring.</description>
+      <pubDate>Tue, 30 Jun 2026 13:28:49 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/ai-augmented-adversary-operations/#bioshocking-ai-browser-context-manipulation</guid>
+    </item>
+    <item>
       <title>SimpleHelp CVE-2026-48558 TaskWeaver / Djinn Stealer chain</title>
       <link>https://threat.wiki/ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation/#observed-taskweaver-djinn-stealer-chain</link>
       <description>Updated SimpleHelp CVE-2026-48558 coverage with Blackpoint Cyber / The Hacker News intrusion details: an unknown actor used a forged SimpleHelp technician session to deploy TaskWeaver, a heavily obfuscated Node.js loader delivered as jquery.js and executed through node.exe, then delivered Djinn Stealer to harvest cross-platform browser, cloud, source-control, package-registry, infrastructure-tooling, AI-assistant, SSH, and cryptocurrency secrets. Added dedicated TaskWeaver and Djinn Stealer tool pages plus defender pivots for SimpleHelp session correlation, Node.js execution from RMM tooling, a.dev-tunnels[.]com, and 96.126.130[.]126:58942.</description>

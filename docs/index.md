@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [AI-augmented adversary operations: BioShocking AI-browser context manipulation](patterns/ai-augmented-adversary-operations.md#bioshocking-ai-browser-context-manipulation)
 - [SimpleHelp CVE-2026-48558: TaskWeaver and Djinn Stealer exploitation chain](ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md#observed-taskweaver-djinn-stealer-chain)
 - [TaskWeaver](tools/taskweaver.md)
 - [Djinn Stealer](tools/djinn-stealer.md)

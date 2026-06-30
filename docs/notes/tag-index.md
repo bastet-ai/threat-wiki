@@ -47,6 +47,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agent skills](#agent-skills) (1)
 - [agent state](#agent-state) (1)
 - [agentic AI](#agentic-ai) (1)
+- [agentic browsers](#agentic-browsers) (1)
 - [agentic malware](#agentic-malware) (1)
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
@@ -57,6 +58,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI assistant credentials](#ai-assistant-credentials) (2)
 - [AI assistants](#ai-assistants) (4)
 - [AI brand impersonation](#ai-brand-impersonation) (2)
+- [AI browsers](#ai-browsers) (1)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
@@ -158,6 +160,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BinaryFormatter](#binaryformatter) (1)
 - [binding.gyp](#bindinggyp) (2)
 - [BIOPASS RAT](#biopass-rat) (1)
+- [BioShocking](#bioshocking) (1)
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
 - [Bitwarden](#bitwarden) (1)
@@ -746,7 +749,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [incident-response](#incident-response) (1)
 - [India](#india) (3)
 - [Indian government](#indian-government) (1)
-- [indirect prompt injection](#indirect-prompt-injection) (2)
+- [indirect prompt injection](#indirect-prompt-injection) (3)
 - [industrial control](#industrial-control) (1)
 - [industrial control systems](#industrial-control-systems) (1)
 - [INFINITERED](#infinitered) (1)
@@ -835,6 +838,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [launchctl](#launchctl) (1)
 - [law enforcement](#law-enforcement) (1)
 - [law-enforcement-disruption](#law-enforcement-disruption) (1)
+- [LayerX](#layerx) (1)
 - [Lazarus](#lazarus) (4)
 - [LD_PRELOAD](#ld_preload) (2)
 - [leaked credentials](#leaked-credentials) (1)
@@ -1875,6 +1879,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## agentic AI
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
+## agentic browsers
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
 ## agentic malware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -1923,6 +1930,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI brand impersonation
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
+## AI browsers
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## AI chatbot abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -2277,6 +2287,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BIOPASS RAT
 - [FishMonger](../actors/fishmonger.md)
+
+## BioShocking
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## BirdCall
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -4587,6 +4600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## indirect prompt injection
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## industrial control
@@ -4908,6 +4922,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## law-enforcement-disruption
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
+## LayerX
+- [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## Lazarus
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
