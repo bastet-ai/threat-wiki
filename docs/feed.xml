@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Lazarus-linked Rollup polyfill npm malware</title>
+      <link>https://threat.wiki/ops/lazarus-rollup-polyfill-npm-malware/</link>
+      <description>Added JFrog Security Research coverage of a Lazarus-linked npm cluster masquerading as Rollup polyfill tooling. The page captures six affected package names, import-time second-stage installation through swift-parse-stream / quirky-token, JSONKeeper model-field evaluation, 216.126.236.244 remote-access and upload endpoints, browser and cryptocurrency-wallet theft, node-pty / Socket.IO operator access, and defender pivots for package masquerading, CommonJS-vs-ESM review, silent npm installs, and developer-workstation credential rotation.</description>
+      <pubDate>Wed, 01 Jul 2026 03:26:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/lazarus-rollup-polyfill-npm-malware/</guid>
+    </item>
+    <item>
       <title>Phantom squatting AI-hallucinated domains</title>
       <link>https://threat.wiki/patterns/phantom-squatting-ai-hallucinated-domains/</link>
       <description>Added Unit 42 coverage for phantom squatting: adversaries can register domains that LLMs hallucinate as plausible official portals, APIs, documentation hosts, or service endpoints, then receive traffic from AI assistants or autonomous agents that treat generated URLs as authoritative. The page captures Unit 42's 913-brand / 2.1-million-URL measurement, 13,229 confirmed malicious URLs, roughly 250,000 unregistered phantom domains, reported 18-51 day registration-prediction windows, Montana Empire phishing-kit case, and defender pivots for AI-generated URL allowlisting, registration monitoring, and developer/agent workflow controls.</description>

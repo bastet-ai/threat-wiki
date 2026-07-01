@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Lazarus-linked Rollup polyfill npm malware: ops/lazarus-rollup-polyfill-npm-malware.md
       - Silent Swap Google Notes crypto clipper: ops/silent-swap-google-notes-crypto-clipper.md
       - Oracle E-Business Suite CVE-2026-46817 exploitation: ops/oracle-e-business-suite-cve-2026-46817-exploitation.md
       - Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE: ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md

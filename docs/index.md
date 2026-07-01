@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Lazarus-linked Rollup polyfill npm malware](ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Phantom squatting: AI-hallucinated domains](patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Silent Swap Google Notes crypto clipper](ops/silent-swap-google-notes-crypto-clipper.md)
 - [RustDuck](tools/rustduck.md)
