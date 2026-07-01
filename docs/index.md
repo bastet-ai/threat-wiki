@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [PolinRider cross-ecosystem supply-chain campaign](ops/polinrider-cross-ecosystem-supply-chain.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](ops/veildrop-blogger-purelogs-stealer.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 active exploitation attempts](ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md#active-exploitation-attempts)

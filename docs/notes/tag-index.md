@@ -180,7 +180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden](#bitwarden) (1)
 - [BlackFile](#blackfile) (1)
 - [Blackpoint Cyber](#blackpoint-cyber) (3)
-- [blockchain C2](#blockchain-c2) (2)
+- [blockchain C2](#blockchain-c2) (3)
 - [blockchain dead drop](#blockchain-dead-drop) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [Blogger abuse](#blogger-abuse) (1)
@@ -247,6 +247,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-speaking](#chinese-speaking) (3)
 - [Chinese-speaking operator](#chinese-speaking-operator) (1)
 - [Chisel](#chisel) (3)
+- [Chrome extension](#chrome-extension) (1)
 - [Chrome Web Store](#chrome-web-store) (4)
 - [chrome_settings_overrides](#chrome_settings_overrides) (1)
 - [ChromElevator](#chromelevator) (1)
@@ -321,7 +322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [command-injection](#command-injection) (1)
 - [commercial messaging applications](#commercial-messaging-applications) (1)
 - [communications infrastructure](#communications-infrastructure) (1)
-- [Composer](#composer) (3)
+- [Composer](#composer) (4)
 - [compromised accounts](#compromised-accounts) (2)
 - [compromised credentials](#compromised-credentials) (1)
 - [compromised infrastructure](#compromised-infrastructure) (1)
@@ -331,7 +332,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [confused deputy](#confused-deputy) (1)
 - [ConnectWise](#connectwise) (1)
 - [consumer devices](#consumer-devices) (1)
-- [Contagious Interview](#contagious-interview) (2)
+- [Contagious Interview](#contagious-interview) (3)
 - [container](#container) (1)
 - [container escape](#container-escape) (3)
 - [content compliance rules](#content-compliance-rules) (1)
@@ -353,7 +354,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (25)
+- [credential theft](#credential-theft) (26)
 - [credential-theft](#credential-theft) (50)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
@@ -495,7 +496,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer credential theft](#developer-credential-theft) (2)
 - [developer credentials](#developer-credentials) (1)
 - [developer endpoints](#developer-endpoints) (1)
-- [developer machines](#developer-machines) (8)
+- [developer machines](#developer-machines) (9)
 - [developer mode](#developer-mode) (1)
 - [developer targeting](#developer-targeting) (2)
 - [developer tooling](#developer-tooling) (2)
@@ -533,7 +534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [downgrade risk](#downgrade-risk) (1)
 - [DPAPI](#dpapi) (1)
 - [DPAPILoader](#dpapiloader) (1)
-- [DPRK](#dprk) (3)
+- [DPRK](#dprk) (4)
 - [driver loading](#driver-loading) (1)
 - [DroneLink](#dronelink) (1)
 - [Dropbear](#dropbear) (1)
@@ -626,6 +627,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FakeUpdates](#fakeupdates) (1)
 - [FallSpy](#fallspy) (1)
 - [FAMOUS CHOLLIMA](#famous-chollima) (2)
+- [Famous Chollima](#famous-chollima) (1)
 - [Fancy Bear](#fancy-bear) (1)
 - [Fast16](#fast16) (1)
 - [FastAPI](#fastapi) (1)
@@ -685,7 +687,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-6v3r-4p5c-mrp5](#ghsa-6v3r-4p5c-mrp5) (1)
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
-- [GitHub](#github) (14)
+- [GitHub](#github) (15)
 - [GitHub abuse](#github-abuse) (2)
 - [GitHub Actions](#github-actions) (20)
 - [GitHub API](#github-api) (1)
@@ -703,6 +705,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [gleeze.com](#gleezecom) (1)
 - [GlobalProtect](#globalprotect) (1)
 - [Go](#go) (4)
+- [Go modules](#go-modules) (1)
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
 - [GoFile](#gofile) (1)
@@ -1085,9 +1088,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (2)
 - [Node.js implant](#nodejs-implant) (1)
 - [Node.js malware](#nodejs-malware) (1)
-- [North Korea](#north-korea) (10)
+- [North Korea](#north-korea) (11)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (41)
+- [npm](#npm) (42)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm tokens](#npm-tokens) (1)
 - [npx](#npx) (1)
@@ -1129,9 +1132,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (169)
+- [operations](#operations) (170)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (170)
+- [ops](#ops) (171)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1154,7 +1157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package-manager-hardening](#package-manager-hardening) (1)
 - [package-splitting](#package-splitting) (1)
 - [package-takeover](#package-takeover) (1)
-- [Packagist](#packagist) (3)
+- [Packagist](#packagist) (4)
 - [page cache](#page-cache) (2)
 - [page poisoning](#page-poisoning) (1)
 - [Pakistan](#pakistan) (2)
@@ -1210,7 +1213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Plandex](#plandex) (1)
 - [PLENET](#plenet) (2)
 - [poisoned-branch](#poisoned-branch) (1)
-- [PolinRider](#polinrider) (1)
+- [PolinRider](#polinrider) (2)
 - [polyfill](#polyfill) (1)
 - [Polymarket](#polymarket) (1)
 - [polymorphic loader](#polymorphic-loader) (1)
@@ -1480,7 +1483,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
-- [source-repository poisoning](#source-repository-poisoning) (2)
+- [source-repository poisoning](#source-repository-poisoning) (3)
 - [SourceForge abuse](#sourceforge-abuse) (1)
 - [South Africa](#south-africa) (1)
 - [South Asia](#south-asia) (1)
@@ -1531,7 +1534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Supabase](#supabase) (1)
 - [supply chain](#supply-chain) (3)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (79)
+- [supply-chain](#supply-chain) (80)
 - [SWE-agent](#swe-agent) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (1)
 - [symlink following](#symlink-following) (1)
@@ -1697,7 +1700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN](#vpn) (4)
 - [VPN gateway](#vpn-gateway) (1)
 - [VPN Go](#vpn-go) (1)
-- [VS Code](#vs-code) (7)
+- [VS Code](#vs-code) (8)
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
@@ -2460,6 +2463,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## blockchain C2
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## blockchain dead drop
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
@@ -2714,6 +2718,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
+## Chrome extension
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## Chrome Web Store
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
@@ -3051,6 +3058,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## compromised accounts
 - [Ghostwriter](../actors/ghostwriter.md)
@@ -3083,6 +3091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Contagious Interview
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 
 ## container
@@ -3171,6 +3180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -3727,6 +3737,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -3883,6 +3894,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## driver loading
 - [SprySOCKS](../tools/sprysocks.md)
@@ -4244,6 +4256,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 
+## Famous Chollima
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
+
 ## Fancy Bear
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
@@ -4451,6 +4466,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [Webworm](../actors/webworm.md)
 
@@ -4528,6 +4544,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## Go modules
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## Godzilla
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -5941,6 +5960,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [RemotePE](../tools/remotepe.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -5980,6 +6000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
@@ -6260,6 +6281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -6433,6 +6455,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -6554,6 +6577,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## page cache
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -6794,6 +6818,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PolinRider
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## polyfill
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
@@ -7809,6 +7834,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## source-repository poisoning
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## SourceForge abuse
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
@@ -8044,6 +8070,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
@@ -8677,6 +8704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
 ## VS Code tunnels

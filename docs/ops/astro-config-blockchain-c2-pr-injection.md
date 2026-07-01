@@ -50,6 +50,7 @@ SafeDep ties the payload fingerprints to the DPRK-attributed PolinRider campaign
 - Search repositories and PR branches for long-line whitespace padding in executable config files, `createRequire(import.meta.url)`, blockchain RPC endpoints, Tron address `TMfKQEd7TJJa5xNZJZ2Lep838vrzrs7mAP`, and XOR-decryption / transaction-input decoding logic.
 
 ## Relationship to other coverage
+- Socket's July 2026 [PolinRider cross-ecosystem supply-chain campaign](polinrider-cross-ecosystem-supply-chain.md) reporting shows the same broader DPRK-linked activity moving beyond one pull request into npm, Packagist, Go modules, and a Chrome extension, with repeated use of hidden JavaScript loaders, Git history rewriting, and VS Code task execution.
 - This is a source-repository / pull-request injection operation, not a package-registry worm like [Mini Shai-Hulud](mini-shai-hulud-npm-pypi-worm-campaign.md).
 - The broader reusable pattern is [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md): repository-local config can execute when a developer or CI system opens, builds, previews, or tests a project.
 - Keep attribution caveated to SafeDep's linkage to OpenSourceMalware's PolinRider reporting unless additional primary sources publish operator or infrastructure confirmation.

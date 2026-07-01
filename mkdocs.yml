@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - PolinRider cross-ecosystem supply-chain campaign: ops/polinrider-cross-ecosystem-supply-chain.md
       - VEIL#DROP Blogger-hosted PureLogs stealer chain: ops/veildrop-blogger-purelogs-stealer.md
       - Microsoft SharePoint CVE-2026-45659 RCE exploitation: ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md
       - ClickFix CPaaS API-driven payload delivery: ops/clickfix-cpaas-api-driven-payload-delivery.md
