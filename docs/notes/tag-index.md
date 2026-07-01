@@ -183,6 +183,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [blockchain C2](#blockchain-c2) (2)
 - [blockchain dead drop](#blockchain-dead-drop) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
+- [Blogger abuse](#blogger-abuse) (1)
+- [blogspot staging](#blogspot-staging) (1)
 - [BLUEBEAM](#bluebeam) (1)
 - [botnet](#botnet) (5)
 - [branch-compromise](#branch-compromise) (1)
@@ -279,6 +281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (6)
 - [cloud C2](#cloud-c2) (1)
+- [cloud credential risk](#cloud-credential-risk) (1)
 - [cloud credential theft](#cloud-credential-theft) (5)
 - [cloud credentials](#cloud-credentials) (2)
 - [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
@@ -350,7 +353,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (24)
+- [credential theft](#credential-theft) (25)
 - [credential-theft](#credential-theft) (50)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
@@ -635,6 +638,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [file-system filter](#file-system-filter) (1)
 - [FileFiend](#filefiend) (1)
 - [fileless execution](#fileless-execution) (2)
+- [fileless malware](#fileless-malware) (1)
 - [filemanager](#filemanager) (1)
 - [filename-injection](#filename-injection) (1)
 - [finance](#finance) (2)
@@ -798,7 +802,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [industrial control systems](#industrial-control-systems) (1)
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
-- [infostealer](#infostealer) (14)
+- [infostealer](#infostealer) (15)
 - [infrastructure](#infrastructure) (5)
 - [infrastructure disruption](#infrastructure-disruption) (1)
 - [initial access broker](#initial-access-broker) (2)
@@ -831,6 +835,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
 - [JavaScript malware](#javascript-malware) (1)
+- [JavaScript masquerading](#javascript-masquerading) (1)
 - [JavaScript tampering](#javascript-tampering) (1)
 - [JCE](#jce) (1)
 - [JDY](#jdy) (1)
@@ -912,6 +917,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed](#litespeed) (2)
 - [living off the land](#living-off-the-land) (1)
 - [living-off-the-land](#living-off-the-land) (1)
+- [living-off-the-land binaries](#living-off-the-land-binaries) (1)
 - [LLM](#llm) (4)
 - [LLM security](#llm-security) (1)
 - [LLMjacking](#llmjacking) (1)
@@ -926,7 +932,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [localhost](#localhost) (1)
 - [log poisoning](#log-poisoning) (1)
 - [logging](#logging) (1)
-- [LOLBins](#lolbins) (1)
+- [LOLBins](#lolbins) (2)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
 - [LONGSTREAM](#longstream) (1)
@@ -959,7 +965,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malvertising](#malvertising) (4)
 - [malware](#malware) (27)
 - [malware analysis](#malware-analysis) (2)
-- [malware delivery](#malware-delivery) (2)
+- [malware delivery](#malware-delivery) (3)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-as-a-service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
@@ -1123,9 +1129,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (168)
+- [operations](#operations) (169)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (169)
+- [ops](#ops) (170)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1207,6 +1213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PolinRider](#polinrider) (1)
 - [polyfill](#polyfill) (1)
 - [Polymarket](#polymarket) (1)
+- [polymorphic loader](#polymorphic-loader) (1)
 - [polymorphic payloads](#polymorphic-payloads) (1)
 - [portmap](#portmap) (1)
 - [Portugal](#portugal) (1)
@@ -1216,7 +1223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (8)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (13)
+- [PowerShell](#powershell) (14)
 - [PowerShell malware](#powershell-malware) (1)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
@@ -1266,6 +1273,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public sector](#public-sector) (1)
 - [pull requests](#pull-requests) (1)
 - [PUP](#pup) (1)
+- [PureLogs Stealer](#purelogs-stealer) (1)
 - [pwn-request](#pwn-request) (1)
 - [PyPI](#pypi) (8)
 - [Python](#python) (6)
@@ -1307,6 +1315,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Redis](#redis) (1)
 - [Redis backdoor](#redis-backdoor) (1)
 - [RediSearch](#redisearch) (1)
+- [reflective .NET loading](#reflective-net-loading) (1)
 - [refresh tokens](#refresh-tokens) (1)
 - [registry persistence](#registry-persistence) (5)
 - [registry-controls](#registry-controls) (1)
@@ -1351,6 +1360,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rundll32](#rundll32) (1)
 - [Runner.Worker](#runnerworker) (1)
 - [runtime execution](#runtime-execution) (1)
+- [runtime mutation](#runtime-mutation) (1)
 - [Russia](#russia) (7)
 - [Russia-linked](#russia-linked) (3)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
@@ -1660,6 +1670,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBE](#vbe) (1)
 - [VBS](#vbs) (1)
 - [VBScript](#vbscript) (5)
+- [VEIL#DROP](#veildrop) (1)
 - [Velociraptor](#velociraptor) (1)
 - [Velvet Ant](#velvet-ant) (2)
 - [VELVETSHELL](#velvetshell) (1)
@@ -1738,7 +1749,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows malware](#windows-malware) (3)
 - [Windows persistence](#windows-persistence) (1)
 - [Windows Run dialog](#windows-run-dialog) (1)
-- [Windows Script Host](#windows-script-host) (1)
+- [Windows Script Host](#windows-script-host) (2)
 - [Windows service persistence](#windows-service-persistence) (1)
 - [Windows Terminal](#windows-terminal) (1)
 - [Winnti Group](#winnti-group) (2)
@@ -1767,6 +1778,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XMLDecoder](#xmldecoder) (1)
 - [XMRig](#xmrig) (4)
 - [XOR](#xor) (1)
+- [XOR obfuscation](#xor-obfuscation) (1)
 - [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
 - [Yanbian](#yanbian) (1)
@@ -2455,6 +2467,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## blockchain-dead-drop
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 
+## Blogger abuse
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+
+## blogspot staging
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+
 ## BLUEBEAM
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -2870,6 +2888,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud C2
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
+## cloud credential risk
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+
 ## cloud credential theft
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -3158,6 +3179,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## credential-theft
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -4259,6 +4281,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [MYRA RAT](../tools/myra-rat.md)
 
+## fileless malware
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+
 ## filemanager
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
@@ -4879,6 +4904,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## infrastructure
@@ -5002,6 +5028,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JavaScript malware
 - [Ghostwriter](../actors/ghostwriter.md)
+
+## JavaScript masquerading
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## JavaScript tampering
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -5293,6 +5322,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## living-off-the-land
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
+## living-off-the-land binaries
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+
 ## LLM
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GREYVIBE](../actors/greyvibe.md)
@@ -5352,6 +5384,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LOLBins
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## long-lived tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -5491,6 +5524,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malware delivery
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## Malware-as-a-Service
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -6262,6 +6296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
@@ -6436,6 +6471,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
@@ -6765,6 +6801,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Polymarket
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
+## polymorphic loader
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+
 ## polymorphic payloads
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
@@ -6818,6 +6857,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## PowerShell malware
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
@@ -6997,6 +7037,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PUP
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
+## PureLogs Stealer
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+
 ## pwn-request
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
@@ -7169,6 +7212,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RediSearch
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
+## reflective .NET loading
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+
 ## refresh tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
@@ -7325,6 +7371,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## runtime execution
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
+
+## runtime mutation
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## Russia
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
@@ -8530,6 +8579,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
+## VEIL#DROP
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+
 ## Velociraptor
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
@@ -8839,6 +8891,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
 ## Windows Script Host
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## Windows service persistence
@@ -8948,6 +9001,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## XOR
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
+## XOR obfuscation
+- [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## XSS.is
 - [First VPN](../tools/first-vpn.md)
