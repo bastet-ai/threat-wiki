@@ -226,6 +226,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Phantom squatting AI-hallucinated domains: patterns/phantom-squatting-ai-hallucinated-domains.md
       - MCP tool-description poisoning: patterns/mcp-tool-description-poisoning.md
       - GuardFall AI-agent shell-guard bypass: patterns/guardfall-ai-agent-shell-guard-bypass.md
       - Cloud bucket namespace hijacking: patterns/cloud-bucket-namespace-hijacking.md

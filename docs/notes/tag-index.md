@@ -54,7 +54,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (4)
-- [AI agents](#ai-agents) (13)
+- [AI agents](#ai-agents) (14)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (1)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
@@ -68,7 +68,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI gateway](#ai-gateway) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI security](#ai-security) (1)
-- [AI tooling](#ai-tooling) (14)
+- [AI tooling](#ai-tooling) (15)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
 - [AI-augmented operations](#ai-augmented-operations) (1)
@@ -135,6 +135,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AutoGen Studio](#autogen-studio) (1)
 - [AutoHotKey](#autohotkey) (1)
 - [AutoJack](#autojack) (1)
+- [autonomous agents](#autonomous-agents) (1)
 - [AWS](#aws) (4)
 - [AWS CloudTrail](#aws-cloudtrail) (1)
 - [AWS S3](#aws-s3) (2)
@@ -479,7 +480,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (8)
 - [developer mode](#developer-mode) (1)
 - [developer targeting](#developer-targeting) (2)
-- [developer tooling](#developer-tooling) (1)
+- [developer tooling](#developer-tooling) (2)
 - [developer workstations](#developer-workstations) (1)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
 - [developer-targeting](#developer-targeting) (14)
@@ -507,6 +508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Docker](#docker) (1)
 - [Docker credentials](#docker-credentials) (1)
 - [document theft](#document-theft) (3)
+- [domain squatting](#domain-squatting) (1)
 - [domestic espionage](#domestic-espionage) (1)
 - [DotNetNuke](#dotnetnuke) (1)
 - [double extortion](#double-extortion) (1)
@@ -715,6 +717,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hacktivist persona](#hacktivist-persona) (1)
 - [Hades](#hades) (2)
 - [Hajime](#hajime) (1)
+- [hallucination](#hallucination) (1)
 - [HappyDoor](#happydoor) (1)
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
@@ -1127,7 +1130,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
 - [path traversal](#path-traversal) (1)
-- [patterns](#patterns) (24)
+- [patterns](#patterns) (25)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payment fraud](#payment-fraud) (1)
@@ -1150,7 +1153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (14)
+- [phishing](#phishing) (15)
 - [phishing-as-a-service](#phishing-as-a-service) (2)
 - [PHP](#php) (2)
 - [PHP code injection](#php-code-injection) (1)
@@ -1480,7 +1483,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Supabase](#supabase) (1)
 - [supply chain](#supply-chain) (3)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (77)
+- [supply-chain](#supply-chain) (78)
 - [SWE-agent](#swe-agent) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (1)
 - [symlink following](#symlink-following) (1)
@@ -1600,7 +1603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UniFi OS](#unifi-os) (1)
 - [Unified CM SME](#unified-cm-sme) (1)
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
-- [Unit 42](#unit-42) (2)
+- [Unit 42](#unit-42) (3)
 - [United States](#united-states) (2)
 - [unsafe deserialization](#unsafe-deserialization) (1)
 - [unsigned installer](#unsigned-installer) (1)
@@ -1733,6 +1736,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
 - [zero-day](#zero-day) (3)
+- [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [Zoho Assist](#zoho-assist) (1)
 - [Zoho WorkDrive](#zoho-workdrive) (2)
 - [ZOHOMURK](#zohomurk) (2)
@@ -1957,6 +1961,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
@@ -2014,6 +2019,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -2237,6 +2243,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AutoJack
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+
+## autonomous agents
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
 ## AWS
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -3611,6 +3620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## developer tooling
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
 ## developer workstations
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -3726,6 +3736,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## domain squatting
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
 ## domestic espionage
 - [OceanLotus](../actors/oceanlotus.md)
@@ -4513,6 +4526,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Hajime
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
+## hallucination
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
 ## HappyDoor
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
@@ -6400,6 +6416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
@@ -6505,6 +6522,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [TA4922](../actors/ta4922.md)
@@ -7781,6 +7799,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
@@ -8251,6 +8270,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Unit 42
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
 ## United States
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -8755,6 +8775,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
+## zero-reputation infrastructure
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
 ## Zoho Assist
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
