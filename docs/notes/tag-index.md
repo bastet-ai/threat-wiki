@@ -79,7 +79,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Albania](#albania) (1)
 - [Amadey](#amadey) (1)
 - [Amazon Q Developer](#amazon-q-developer) (1)
-- [AMSI bypass](#amsi-bypass) (1)
+- [AMSI bypass](#amsi-bypass) (2)
 - [Android](#android) (4)
 - [Android ADB](#android-adb) (1)
 - [Android Debug Bridge](#android-debug-bridge) (1)
@@ -90,6 +90,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [API exposure](#api-exposure) (1)
 - [API key exposure](#api-key-exposure) (1)
 - [API keys](#api-keys) (1)
+- [API-driven payloads](#api-driven-payloads) (1)
 - [apintergrationpost](#apintergrationpost) (1)
 - [App-Bound Encryption bypass](#app-bound-encryption-bypass) (1)
 - [AppDomainManager](#appdomainmanager) (1)
@@ -261,11 +262,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude](#claude) (2)
 - [Claude Code](#claude-code) (3)
 - [Clever Cloud](#clever-cloud) (1)
-- [ClickFix](#clickfix) (5)
+- [ClickFix](#clickfix) (6)
 - [ClickOnce](#clickonce) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
 - [Cline](#cline) (1)
 - [clipboard hijacker](#clipboard-hijacker) (1)
+- [clipboard injection](#clipboard-injection) (1)
 - [clipboard stealer](#clipboard-stealer) (1)
 - [clipboard theft](#clipboard-theft) (3)
 - [clipper](#clipper) (2)
@@ -315,7 +317,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised accounts](#compromised-accounts) (2)
 - [compromised credentials](#compromised-credentials) (1)
 - [compromised infrastructure](#compromised-infrastructure) (1)
-- [compromised WordPress](#compromised-wordpress) (1)
+- [compromised WordPress](#compromised-wordpress) (2)
 - [Conditional Access](#conditional-access) (1)
 - [configuration theft](#configuration-theft) (1)
 - [confused deputy](#confused-deputy) (1)
@@ -335,6 +337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Copy-on-Write](#copy-on-write) (1)
 - [Coruna](#coruna) (1)
 - [COW](#cow) (1)
+- [CPaaS](#cpaas) (1)
 - [cPanel](#cpanel) (3)
 - [CrackMapExec](#crackmapexec) (1)
 - [Crates.io](#cratesio) (1)
@@ -477,6 +480,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (3)
 - [destructive operations](#destructive-operations) (1)
+- [detection engineering](#detection-engineering) (1)
 - [DEV-0206](#dev-0206) (1)
 - [developer credential theft](#developer-credential-theft) (2)
 - [developer credentials](#developer-credentials) (1)
@@ -530,6 +534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police](#dutch-police) (1)
 - [DWAgent](#dwagent) (1)
 - [dynamic DNS](#dynamic-dns) (1)
+- [dynamic obfuscation](#dynamic-obfuscation) (1)
 - [Dynu](#dynu) (1)
 - [e-commerce](#e-commerce) (1)
 - [Earth Lusca](#earth-lusca) (2)
@@ -593,7 +598,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [external federation](#external-federation) (1)
 - [extortion](#extortion) (6)
 - [F5 BIG-IP](#f5-big-ip) (1)
-- [fake CAPTCHA](#fake-captcha) (1)
+- [fake CAPTCHA](#fake-captcha) (2)
 - [fake crypto exchange](#fake-crypto-exchange) (1)
 - [fake dating lures](#fake-dating-lures) (1)
 - [fake gambling](#fake-gambling) (1)
@@ -910,6 +915,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [localhost](#localhost) (1)
 - [log poisoning](#log-poisoning) (1)
 - [logging](#logging) (1)
+- [LOLBins](#lolbins) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
 - [LONGSTREAM](#longstream) (1)
@@ -942,7 +948,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malvertising](#malvertising) (4)
 - [malware](#malware) (27)
 - [malware analysis](#malware-analysis) (2)
-- [malware delivery](#malware-delivery) (1)
+- [malware delivery](#malware-delivery) (2)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-as-a-service](#malware-as-a-service) (1)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
@@ -1105,9 +1111,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (166)
+- [operations](#operations) (167)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (167)
+- [ops](#ops) (168)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1146,6 +1152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patterns](#patterns) (25)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
+- [payload-as-a-service](#payload-as-a-service) (1)
 - [payment fraud](#payment-fraud) (1)
 - [payment workflow exposure](#payment-workflow-exposure) (1)
 - [payment-card theft](#payment-card-theft) (2)
@@ -1197,7 +1204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (8)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (12)
+- [PowerShell](#powershell) (13)
 - [PowerShell malware](#powershell-malware) (1)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
@@ -1428,7 +1435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SMTP](#smtp) (1)
 - [Snake](#snake) (1)
 - [SocGholish](#socgholish) (1)
-- [social engineering](#social-engineering) (13)
+- [social engineering](#social-engineering) (14)
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (1)
 - [Socket Security Research](#socket-security-research) (1)
@@ -1507,6 +1514,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
 - [systemd-userdbd](#systemd-userdbd) (1)
+- [T1204.004](#t1204004) (1)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
 - [TA569](#ta569) (1)
@@ -1628,6 +1636,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [USB propagation](#usb-propagation) (1)
 - [USB weaponizer](#usb-weaponizer) (1)
 - [USB worm](#usb-worm) (2)
+- [user execution](#user-execution) (1)
 - [user namespaces](#user-namespaces) (2)
 - [UTA0355](#uta0355) (1)
 - [uTLS](#utls) (1)
@@ -1714,8 +1723,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows Forms](#windows-forms) (1)
 - [Windows malware](#windows-malware) (3)
 - [Windows persistence](#windows-persistence) (1)
+- [Windows Run dialog](#windows-run-dialog) (1)
 - [Windows Script Host](#windows-script-host) (1)
 - [Windows service persistence](#windows-service-persistence) (1)
+- [Windows Terminal](#windows-terminal) (1)
 - [Winnti Group](#winnti-group) (2)
 - [Winos4.0](#winos40) (1)
 - [WinPython](#winpython) (1)
@@ -2074,6 +2085,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
 ## AMSI bypass
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 
 ## Android
@@ -2108,6 +2120,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## API keys
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+
+## API-driven payloads
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
 ## apintergrationpost
 - [MYRA RAT](../tools/myra-rat.md)
@@ -2776,6 +2791,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ClickFix
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -2792,6 +2808,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## clipboard hijacker
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
+## clipboard injection
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
 ## clipboard stealer
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
@@ -2992,6 +3011,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## compromised WordPress
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
 ## Conditional Access
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -3052,6 +3072,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## COW
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
+## CPaaS
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
 ## cPanel
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -3621,6 +3644,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## destructive operations
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## detection engineering
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+
 ## DEV-0206
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
@@ -3827,6 +3853,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## dynamic DNS
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
+## dynamic obfuscation
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
 ## Dynu
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -4098,6 +4127,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Velvet Ant](../actors/velvet-ant.md)
 
 ## fake CAPTCHA
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [GREYVIBE](../actors/greyvibe.md)
 
 ## fake crypto exchange
@@ -5269,6 +5299,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## logging
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
+## LOLBins
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+
 ## long-lived tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
@@ -5405,6 +5438,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
 ## malware delivery
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## Malware-as-a-Service
@@ -6047,6 +6081,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
@@ -6218,6 +6253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
@@ -6500,6 +6536,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## payload staging
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
+## payload-as-a-service
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+
 ## payment fraud
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
@@ -6708,6 +6747,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Atlas](../actors/cloud-atlas.md)
 
 ## PowerShell
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Gamaredon](../actors/gamaredon.md)
@@ -7573,6 +7613,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## social engineering
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -7928,6 +7969,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## systemd-userdbd
 - [MYRA RAT](../tools/myra-rat.md)
+
+## T1204.004
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
 ## T3
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
@@ -8385,6 +8429,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
+## user execution
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+
 ## user namespaces
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
@@ -8722,11 +8769,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Windows persistence
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
+## Windows Run dialog
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+
 ## Windows Script Host
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## Windows service persistence
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
+
+## Windows Terminal
+- [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
 ## Winnti Group
 - [FishMonger](../actors/fishmonger.md)

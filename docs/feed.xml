@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>ClickFix CPaaS API-driven payload delivery</title>
+      <link>https://threat.wiki/ops/clickfix-cpaas-api-driven-payload-delivery/</link>
+      <description>Added Bert-Jan Pals / The Hacker News coverage of API-driven ClickFix payload delivery: roughly 3,000 live payloads and multiple platforms showed ClickFix operators using payload-as-a-service backends, localized fake-CAPTCHA flows, Windows Terminal execution paths, unique dynamic PowerShell obfuscation, and a Downloads-folder archive/script method that reduces directly malicious clipboard text. The page captures CPaaS API behavior, LOLBin pivots, domains, and defender hunts for browser-to-clipboard-to-Terminal execution chains.</description>
+      <pubDate>Wed, 01 Jul 2026 09:27:24 GMT</pubDate>
+      <guid>https://threat.wiki/ops/clickfix-cpaas-api-driven-payload-delivery/</guid>
+    </item>
+    <item>
       <title>Azure CLI LSHIY password-spray campaign</title>
       <link>https://threat.wiki/ops/azure-cli-lshiy-password-spray/</link>
       <description>Added Huntress / The Hacker News coverage of an ongoing Azure CLI password-spray campaign: activity from LSHIY LLC / AS32167 IPv6 space produced more than 81 million login attempts from June 12-26, 2026 and compromised at least 78 Microsoft accounts across 64 organizations. The page captures ROPC token-grant abuse, Conditional Access and MFA scoping gaps, 2a0a:d683::/32 infrastructure, and defender pivots for Entra ID sign-in telemetry, Azure CLI restrictions, ROPC blocking, policy-audit coverage, session revocation, and credential rotation.</description>
