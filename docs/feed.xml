@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Azure CLI LSHIY password-spray campaign</title>
+      <link>https://threat.wiki/ops/azure-cli-lshiy-password-spray/</link>
+      <description>Added Huntress / The Hacker News coverage of an ongoing Azure CLI password-spray campaign: activity from LSHIY LLC / AS32167 IPv6 space produced more than 81 million login attempts from June 12-26, 2026 and compromised at least 78 Microsoft accounts across 64 organizations. The page captures ROPC token-grant abuse, Conditional Access and MFA scoping gaps, 2a0a:d683::/32 infrastructure, and defender pivots for Entra ID sign-in telemetry, Azure CLI restrictions, ROPC blocking, policy-audit coverage, session revocation, and credential rotation.</description>
+      <pubDate>Wed, 01 Jul 2026 07:27:27 GMT</pubDate>
+      <guid>https://threat.wiki/ops/azure-cli-lshiy-password-spray/</guid>
+    </item>
+    <item>
       <title>Lazarus-linked Rollup polyfill npm malware</title>
       <link>https://threat.wiki/ops/lazarus-rollup-polyfill-npm-malware/</link>
       <description>Added JFrog Security Research coverage of a Lazarus-linked npm cluster masquerading as Rollup polyfill tooling. The page captures six affected package names, import-time second-stage installation through swift-parse-stream / quirky-token, JSONKeeper model-field evaluation, 216.126.236.244 remote-access and upload endpoints, browser and cryptocurrency-wallet theft, node-pty / Socket.IO operator access, and defender pivots for package masquerading, CommonJS-vs-ESM review, silent npm installs, and developer-workstation credential rotation.</description>

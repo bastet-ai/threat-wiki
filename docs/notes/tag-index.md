@@ -116,6 +116,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armageddon](#armageddon) (1)
 - [Artifact Signing](#artifact-signing) (1)
 - [AryStinger](#arystinger) (1)
+- [AS32167](#as32167) (1)
 - [ASNs](#asns) (1)
 - [ASP.NET](#aspnet) (2)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
@@ -142,6 +143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
 - [axios](#axios) (1)
 - [Azure](#azure) (3)
+- [Azure CLI](#azure-cli) (1)
 - [Azure Storage](#azure-storage) (1)
 - [Backblaze](#backblaze) (1)
 - [backdoor](#backdoor) (12)
@@ -277,6 +279,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Filter driver](#cloud-filter-driver) (1)
 - [cloud IAM](#cloud-iam) (1)
 - [cloud identity](#cloud-identity) (2)
+- [cloud identity abuse](#cloud-identity-abuse) (1)
 - [cloud infrastructure](#cloud-infrastructure) (1)
 - [cloud logging](#cloud-logging) (1)
 - [cloud secrets](#cloud-secrets) (3)
@@ -313,6 +316,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised credentials](#compromised-credentials) (1)
 - [compromised infrastructure](#compromised-infrastructure) (1)
 - [compromised WordPress](#compromised-wordpress) (1)
+- [Conditional Access](#conditional-access) (1)
 - [configuration theft](#configuration-theft) (1)
 - [confused deputy](#confused-deputy) (1)
 - [ConnectWise](#connectwise) (1)
@@ -337,7 +341,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential exposure](#credential-exposure) (2)
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
-- [credential stuffing](#credential-stuffing) (1)
+- [credential stuffing](#credential-stuffing) (2)
 - [credential theft](#credential-theft) (24)
 - [credential-theft](#credential-theft) (50)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -747,6 +751,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (2)
 - [Hunt.io](#huntio) (4)
+- [Huntress](#huntress) (1)
 - [hydropower](#hydropower) (2)
 - [Hydropower Cooperation Project Proposal.zip](#hydropower-cooperation-project-proposalzip) (1)
 - [I-SOON](#i-soon) (2)
@@ -756,6 +761,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IDE extension](#ide-extension) (1)
 - [IDE plugins](#ide-plugins) (1)
 - [identity](#identity) (3)
+- [identity attacks](#identity-attacks) (1)
 - [identity security](#identity-security) (1)
 - [IDEs](#ides) (1)
 - [IFEO persistence](#ifeo-persistence) (1)
@@ -795,6 +801,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IoT botnet](#iot-botnet) (3)
 - [IP-in-IP](#ip-in-ip) (1)
 - [IPsec](#ipsec) (1)
+- [IPv6](#ipv6) (1)
 - [Iran](#iran) (5)
 - [Iran-nexus](#iran-nexus) (1)
 - [Island Security Research](#island-security-research) (1)
@@ -914,6 +921,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LPE](#lpe) (1)
 - [LS-DYNA](#ls-dyna) (1)
 - [LSASS](#lsass) (1)
+- [LSHIY](#lshiy) (1)
 - [LSSC](#lssc) (1)
 - [Lua](#lua) (1)
 - [Lumen Black Lotus Labs](#lumen-black-lotus-labs) (1)
@@ -962,13 +970,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MeshCentral](#meshcentral) (2)
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexico](#mexico) (1)
-- [MFA bypass](#mfa-bypass) (5)
+- [MFA bypass](#mfa-bypass) (6)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [Miasma](#miasma) (6)
 - [Microsoft](#microsoft) (5)
 - [Microsoft .NET](#microsoft-net) (1)
-- [Microsoft 365](#microsoft-365) (2)
+- [Microsoft 365](#microsoft-365) (3)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
 - [Microsoft Defender](#microsoft-defender) (1)
 - [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
@@ -976,6 +984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Digital Crimes Unit](#microsoft-digital-crimes-unit) (1)
 - [Microsoft Edge Add-ons](#microsoft-edge-add-ons) (1)
 - [Microsoft Edge Extensions Security Team](#microsoft-edge-extensions-security-team) (1)
+- [Microsoft Entra ID](#microsoft-entra-id) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
 - [Microsoft Security Blog](#microsoft-security-blog) (1)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
@@ -1066,7 +1075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NuGet](#nuget) (1)
 - [Nuitka](#nuitka) (1)
 - [NVGRE](#nvgre) (1)
-- [OAuth](#oauth) (3)
+- [OAuth](#oauth) (4)
 - [OAuth token abuse](#oauth-token-abuse) (1)
 - [OAuth token exposure](#oauth-token-exposure) (1)
 - [OAuth tokens](#oauth-tokens) (2)
@@ -1096,9 +1105,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (165)
+- [operations](#operations) (166)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (166)
+- [ops](#ops) (167)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1130,7 +1139,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAM](#pam) (2)
 - [PAN-OS](#pan-os) (1)
 - [parallel-intrusion](#parallel-intrusion) (1)
-- [password spraying](#password-spraying) (1)
+- [password spraying](#password-spraying) (2)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (1)
 - [path traversal](#path-traversal) (1)
@@ -1313,6 +1322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [root escalation](#root-escalation) (1)
 - [root execution](#root-execution) (2)
 - [rootkit](#rootkit) (4)
+- [ROPC](#ropc) (1)
 - [Rouki obfuscation](#rouki-obfuscation) (1)
 - [router malware](#router-malware) (1)
 - [RSA](#rsa) (1)
@@ -1539,7 +1549,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tetrade](#tetrade) (1)
 - [Thailand](#thailand) (3)
 - [The Gentlemen](#the-gentlemen) (1)
-- [The Hacker News](#the-hacker-news) (1)
+- [The Hacker News](#the-hacker-news) (2)
 - [third-party integrations](#third-party-integrations) (1)
 - [threat hunting](#threat-hunting) (1)
 - [ThrottleBlood](#throttleblood) (1)
@@ -2184,6 +2194,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AryStinger
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
+## AS32167
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+
 ## ASNs
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
@@ -2277,6 +2290,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [ROADtools](../tools/roadtools.md)
+
+## Azure CLI
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 
 ## Azure Storage
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
@@ -2830,6 +2846,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
+## cloud identity abuse
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+
 ## cloud infrastructure
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 
@@ -2974,6 +2993,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## compromised WordPress
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 
+## Conditional Access
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+
 ## configuration theft
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
@@ -3053,6 +3075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## credential stuffing
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## credential theft
@@ -4638,6 +4661,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
+## Huntress
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+
 ## hydropower
 - [Mustang Panda](../actors/mustang-panda.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
@@ -4668,6 +4694,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [ROADtools](../tools/roadtools.md)
+
+## identity attacks
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 
 ## identity security
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
@@ -4835,6 +4864,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## IPsec
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+
+## IPv6
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 
 ## Iran
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -5270,6 +5302,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LSASS
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
+## LSHIY
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+
 ## LSSC
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
@@ -5464,6 +5499,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MFA bypass
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [ROADtools](../tools/roadtools.md)
@@ -5494,6 +5530,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
 ## Microsoft 365
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
@@ -5518,6 +5555,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Microsoft Edge Extensions Security Team
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
+## Microsoft Entra ID
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 
 ## Microsoft Graph
 - [ROADtools](../tools/roadtools.md)
@@ -5867,6 +5907,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
 ## OAuth
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -5988,6 +6029,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -6158,6 +6200,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -6412,6 +6455,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## password spraying
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## Pastebin
@@ -7151,6 +7195,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
+
+## ROPC
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 
 ## Rouki obfuscation
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
@@ -8040,6 +8087,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## The Hacker News
+- [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## third-party integrations
