@@ -23,7 +23,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [account-takeover](#account-takeover) (1)
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (34)
+- [active exploitation](#active-exploitation) (35)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (4)
@@ -131,6 +131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AUDIOFIX](#audiofix) (2)
 - [audit logging](#audit-logging) (1)
 - [AUR](#aur) (1)
+- [authenticated RCE](#authenticated-rce) (1)
 - [authentication bypass](#authentication-bypass) (7)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
@@ -253,7 +254,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD](#cicd) (34)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
-- [CISA KEV](#cisa-kev) (14)
+- [CISA KEV](#cisa-kev) (15)
 - [Cisco](#cisco) (2)
 - [Cisco Nexus](#cisco-nexus) (1)
 - [Cisco Unified CM](#cisco-unified-cm) (1)
@@ -307,6 +308,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codex](#codex) (2)
 - [coding agents](#coding-agents) (1)
 - [Coinbase](#coinbase) (1)
+- [collaboration platforms](#collaboration-platforms) (1)
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
 - [COM-hijacking](#com-hijacking) (1)
 - [command and control](#command-and-control) (1)
@@ -429,6 +431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-44338](#cve-2026-44338) (1)
 - [CVE-2026-45247](#cve-2026-45247) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
+- [CVE-2026-45659](#cve-2026-45659) (1)
 - [CVE-2026-46300](#cve-2026-46300) (1)
 - [CVE-2026-46331](#cve-2026-46331) (1)
 - [CVE-2026-46817](#cve-2026-46817) (1)
@@ -444,6 +447,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-8461](#cve-2026-8461) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
+- [CWE-502](#cwe-502) (1)
 - [CWE-77](#cwe-77) (1)
 - [CWE-78](#cwe-78) (1)
 - [cybercrime](#cybercrime) (11)
@@ -481,7 +485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Deno](#deno) (2)
 - [dependency confusion](#dependency-confusion) (1)
 - [deployment_status](#deployment_status) (1)
-- [deserialization](#deserialization) (3)
+- [deserialization](#deserialization) (4)
 - [destructive operations](#destructive-operations) (1)
 - [detection engineering](#detection-engineering) (1)
 - [DEV-0206](#dev-0206) (1)
@@ -575,6 +579,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [engineering software](#engineering-software) (1)
 - [enterprise application](#enterprise-application) (1)
 - [enterprise application exploitation](#enterprise-application-exploitation) (1)
+- [enterprise applications](#enterprise-applications) (1)
 - [Entra ID](#entra-id) (2)
 - [Environment Management Hub](#environment-management-hub) (1)
 - [environment variables](#environment-variables) (1)
@@ -804,6 +809,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Integration Broker](#integration-broker) (1)
 - [Intercolo](#intercolo) (1)
 - [internet-facing appliance](#internet-facing-appliance) (1)
+- [internet-facing applications](#internet-facing-applications) (1)
 - [investment scam](#investment-scam) (1)
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
@@ -985,7 +991,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [Miasma](#miasma) (6)
-- [Microsoft](#microsoft) (5)
+- [Microsoft](#microsoft) (6)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (3)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
@@ -997,6 +1003,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Edge Extensions Security Team](#microsoft-edge-extensions-security-team) (1)
 - [Microsoft Entra ID](#microsoft-entra-id) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
+- [Microsoft Office SharePoint](#microsoft-office-sharepoint) (1)
 - [Microsoft Security Blog](#microsoft-security-blog) (1)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (2)
@@ -1116,9 +1123,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (167)
+- [operations](#operations) (168)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (168)
+- [ops](#ops) (169)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1152,7 +1159,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [parallel-intrusion](#parallel-intrusion) (1)
 - [password spraying](#password-spraying) (2)
 - [Pastebin](#pastebin) (1)
-- [patch management](#patch-management) (1)
+- [patch management](#patch-management) (2)
 - [path traversal](#path-traversal) (1)
 - [patterns](#patterns) (25)
 - [payload loader](#payload-loader) (1)
@@ -1307,7 +1314,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [remote access](#remote-access) (5)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (8)
+- [remote code execution](#remote-code-execution) (9)
 - [remote script injection](#remote-script-injection) (1)
 - [remote support](#remote-support) (1)
 - [remote-access](#remote-access) (1)
@@ -1410,7 +1417,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [share propagation](#share-propagation) (1)
 - [shared hosting](#shared-hosting) (3)
 - [shared secrets](#shared-secrets) (1)
-- [SharePoint](#sharepoint) (2)
+- [SharePoint](#sharepoint) (3)
+- [SharePoint Server](#sharepoint-server) (1)
 - [SharkLoader](#sharkloader) (1)
 - [shell injection](#shell-injection) (1)
 - [ShinyHunters](#shinyhunters) (2)
@@ -1428,6 +1436,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SiliconFlow](#siliconflow) (1)
 - [SimpleHelp](#simplehelp) (3)
 - [simulation tampering](#simulation-tampering) (1)
+- [Site Member permissions](#site-member-permissions) (1)
 - [skb](#skb) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [Sliver](#sliver) (2)
@@ -1858,6 +1867,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
@@ -2259,6 +2269,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AUR
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+
+## authenticated RCE
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
 ## authentication bypass
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
@@ -2758,6 +2771,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
@@ -2973,6 +2987,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+
+## collaboration platforms
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
 ## collaboration-tool phishing
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
@@ -3460,6 +3477,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-45498
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 
+## CVE-2026-45659
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
+
 ## CVE-2026-46300
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 
@@ -3506,6 +3526,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-9082
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## CWE-502
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
 ## CWE-77
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -3652,6 +3675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## deserialization
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
@@ -3999,6 +4023,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## enterprise application exploitation
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
+
+## enterprise applications
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
 ## Entra ID
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -4892,6 +4919,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## internet-facing appliance
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
+## internet-facing applications
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
+
 ## investment scam
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
@@ -5580,6 +5610,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
 ## Microsoft .NET
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -5617,6 +5648,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Graph
 - [ROADtools](../tools/roadtools.md)
 - [Webworm](../actors/webworm.md)
+
+## Microsoft Office SharePoint
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
 ## Microsoft Security Blog
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
@@ -6163,6 +6197,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
@@ -6334,6 +6369,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
@@ -6520,6 +6556,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## patch management
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
 ## path traversal
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
@@ -7168,6 +7205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
@@ -7535,7 +7573,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SharePoint
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
+## SharePoint Server
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
 ## SharkLoader
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
@@ -7590,6 +7632,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## simulation tampering
 - [Fast16](../tools/fast16.md)
+
+## Site Member permissions
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
 ## skb
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)

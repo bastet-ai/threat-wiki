@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Microsoft SharePoint CVE-2026-45659 RCE exploitation](ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 active exploitation attempts](ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md#active-exploitation-attempts)
 - [ClickFix CPaaS API-driven payload delivery](ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Azure CLI LSHIY password-spray campaign](ops/azure-cli-lshiy-password-spray.md)
