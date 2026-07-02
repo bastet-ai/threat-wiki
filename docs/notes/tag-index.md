@@ -88,6 +88,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Debug Bridge](#android-debug-bridge) (1)
 - [Android spyware](#android-spyware) (1)
 - [anti-analysis](#anti-analysis) (1)
+- [Anubis ransomware](#anubis-ransomware) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
 - [API exposure](#api-exposure) (1)
@@ -116,6 +117,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [arbitrary file write](#arbitrary-file-write) (2)
 - [arbitrary JavaScript](#arbitrary-javascript) (1)
 - [Arch Linux](#arch-linux) (1)
+- [Arctic Wolf](#arctic-wolf) (1)
 - [Argo CD](#argo-cd) (1)
 - [ArgoCD](#argocd) (1)
 - [Arista EOS](#arista-eos) (1)
@@ -158,6 +160,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backstage](#backstage) (1)
 - [backup disruption](#backup-disruption) (1)
 - [backup recovery keys](#backup-recovery-keys) (1)
+- [backup targeting](#backup-targeting) (1)
 - [backups](#backups) (1)
 - [BadBlocker](#badblocker) (1)
 - [Banana RAT](#banana-rat) (1)
@@ -266,6 +269,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified Communications Manager](#cisco-unified-communications-manager) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (1)
+- [Citrix NetScaler](#citrix-netscaler) (1)
+- [CitrixBleed 2](#citrixbleed-2) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
 - [CL-STA-1062](#cl-sta-1062) (3)
 - [Claude](#claude) (2)
@@ -305,6 +310,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Turnstile](#cloudflare-turnstile) (1)
 - [Cloudflare Workers](#cloudflare-workers) (5)
+- [cloudflared](#cloudflared) (1)
 - [CloudLinux](#cloudlinux) (1)
 - [cluster compromise](#cluster-compromise) (1)
 - [CMS](#cms) (6)
@@ -401,6 +407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-48595](#cve-2025-48595) (1)
 - [CVE-2025-49704](#cve-2025-49704) (1)
 - [CVE-2025-49706](#cve-2025-49706) (1)
+- [CVE-2025-5777](#cve-2025-5777) (1)
 - [CVE-2025-67038](#cve-2025-67038) (1)
 - [CVE-2025-8088](#cve-2025-8088) (4)
 - [CVE-2026-0257](#cve-2026-0257) (1)
@@ -1000,10 +1007,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [memfd](#memfd) (1)
 - [memory poisoning](#memory-poisoning) (1)
 - [memory-only malware](#memory-only-malware) (1)
+- [MeshAgent](#meshagent) (1)
 - [MeshCentral](#meshcentral) (2)
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexico](#mexico) (1)
-- [MFA bypass](#mfa-bypass) (6)
+- [MFA bypass](#mfa-bypass) (7)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [Miasma](#miasma) (6)
@@ -1027,7 +1035,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
 - [military research](#military-research) (1)
-- [Mimikatz](#mimikatz) (2)
+- [Mimikatz](#mimikatz) (3)
 - [Minecraft DDoS](#minecraft-ddos) (1)
 - [Mini Shai-Hulud](#mini-shai-hulud) (2)
 - [MiniJunk](#minijunk) (1)
@@ -1073,6 +1081,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [named pipes](#named-pipes) (1)
 - [namespace recycling](#namespace-recycling) (1)
 - [namespace squatting](#namespace-squatting) (1)
+- [NAS targeting](#nas-targeting) (1)
 - [nation-state](#nation-state) (1)
 - [native addon](#native-addon) (1)
 - [NATS](#nats) (1)
@@ -1081,6 +1090,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Neo-reGeorg](#neo-regeorg) (1)
 - [Netherlands](#netherlands) (1)
 - [NetScaler](#netscaler) (1)
+- [NetScaler ADC](#netscaler-adc) (1)
+- [NetScaler Gateway](#netscaler-gateway) (1)
 - [network infrastructure](#network-infrastructure) (1)
 - [network policies](#network-policies) (1)
 - [Nextcloud](#nextcloud) (1)
@@ -1103,7 +1114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm tokens](#npm-tokens) (1)
 - [npx](#npx) (1)
 - [NSecKrnl.sys](#nseckrnlsys) (1)
-- [NTDS.dit](#ntdsdit) (1)
+- [NTDS.dit](#ntdsdit) (2)
 - [NTFS ADS](#ntfs-ads) (2)
 - [NTLM](#ntlm) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
@@ -1140,9 +1151,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (171)
+- [operations](#operations) (172)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (172)
+- [ops](#ops) (173)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1271,6 +1282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [proxy network](#proxy-network) (1)
 - [ProxyChains](#proxychains) (1)
 - [PSEMHUB](#psemhub) (1)
+- [PsExec](#psexec) (1)
 - [PSIGW](#psigw) (1)
 - [psychological operations](#psychological-operations) (1)
 - [PTC](#ptc) (1)
@@ -1300,7 +1312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RainbowEx](#rainbowex) (1)
 - [RakNet flood](#raknet-flood) (1)
 - [RAM disk](#ram-disk) (1)
-- [ransomware](#ransomware) (5)
+- [ransomware](#ransomware) (6)
 - [ransomware access](#ransomware-access) (1)
 - [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
@@ -1312,6 +1324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RC4 C2](#rc4-c2) (1)
 - [RCE](#rce) (6)
 - [Rclone](#rclone) (1)
+- [rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [RDP](#rdp) (1)
 - [RDP phishing](#rdp-phishing) (1)
@@ -1338,6 +1351,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote script injection](#remote-script-injection) (1)
 - [remote support](#remote-support) (1)
 - [remote-access](#remote-access) (1)
+- [Remotely](#remotely) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
 - [Rentry](#rentry) (1)
@@ -1351,7 +1365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reviewdog](#reviewdog) (1)
 - [RingH23](#ringh23) (1)
 - [RMM](#rmm) (2)
-- [RMM abuse](#rmm-abuse) (3)
+- [RMM abuse](#rmm-abuse) (4)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
@@ -1381,7 +1395,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (7)
 - [Rust malware](#rust-malware) (1)
+- [S3 Browser](#s3-browser) (1)
 - [S3-compatible storage](#s3-compatible-storage) (1)
+- [s5cmd](#s5cmd) (1)
 - [SaaS](#saas) (3)
 - [SaaS exposure](#saas-exposure) (1)
 - [sabotage](#sabotage) (2)
@@ -1397,7 +1413,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scheduled tasks](#scheduled-tasks) (4)
 - [scope squatting](#scope-squatting) (1)
 - [screen capture](#screen-capture) (2)
-- [ScreenConnect](#screenconnect) (2)
+- [ScreenConnect](#screenconnect) (3)
 - [screenshot theft](#screenshot-theft) (1)
 - [script-injection](#script-injection) (1)
 - [SD-WAN](#sd-wan) (1)
@@ -1476,6 +1492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Socket](#socket) (1)
 - [Socket Security Research](#socket-security-research) (1)
 - [Socket.IO](#socketio) (1)
+- [SOCKS tunneling](#socks-tunneling) (1)
 - [SOCKS5](#socks5) (3)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
 - [SoftEther VPN](#softether-vpn) (2)
@@ -1503,6 +1520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spear-phishing](#spear-phishing) (2)
 - [spearphishing](#spearphishing) (1)
 - [SPECTRALVIPER](#spectralviper) (1)
+- [Sphinx ransomware](#sphinx-ransomware) (1)
 - [Splunk](#splunk) (1)
 - [SprySOCKS](#sprysocks) (2)
 - [SQL injection](#sql-injection) (3)
@@ -1613,6 +1631,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tooling](#tooling) (5)
 - [tools](#tools) (14)
 - [Tor](#tor) (3)
+- [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
 - [traffic control](#traffic-control) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
@@ -1647,6 +1666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UDP C2](#udp-c2) (1)
 - [Ukraine](#ukraine) (9)
 - [Ukraine targeting](#ukraine-targeting) (3)
+- [UltraVNC](#ultravnc) (1)
 - [unauthenticated access](#unauthenticated-access) (1)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
 - [unauthenticated RCE](#unauthenticated-rce) (3)
@@ -1679,6 +1699,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UTA0355](#uta0355) (1)
 - [uTLS](#utls) (1)
 - [V8](#v8) (1)
+- [valid accounts](#valid-accounts) (1)
 - [ValleyRAT](#valleyrat) (1)
 - [VBCloud](#vbcloud) (1)
 - [VBE](#vbe) (1)
@@ -1711,6 +1732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN](#vpn) (4)
 - [VPN gateway](#vpn-gateway) (1)
 - [VPN Go](#vpn-go) (1)
+- [VPN session hijacking](#vpn-session-hijacking) (1)
 - [VS Code](#vs-code) (8)
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
@@ -1805,7 +1827,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [zero-click](#zero-click) (1)
 - [zero-day](#zero-day) (3)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
-- [Zoho Assist](#zoho-assist) (1)
+- [Zoho Assist](#zoho-assist) (2)
 - [Zoho WorkDrive](#zoho-workdrive) (2)
 - [ZOHOMURK](#zohomurk) (2)
 
@@ -2157,6 +2179,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## anti-analysis
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
+## Anubis ransomware
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
 ## Apex One
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
@@ -2247,6 +2272,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Arch Linux
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+
+## Arctic Wolf
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## Argo CD
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
@@ -2400,6 +2428,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## backup recovery keys
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+
+## backup targeting
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## backups
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -2841,6 +2872,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Citrix
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
+## Citrix NetScaler
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
+## CitrixBleed 2
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
 ## CL-CRI-1089
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
@@ -2994,6 +3031,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
+## cloudflared
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## CloudLinux
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
@@ -3414,6 +3454,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2025-49706
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
+## CVE-2025-5777
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## CVE-2025-67038
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
@@ -5660,6 +5703,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## memory-only malware
 - [RemotePE](../tools/remotepe.md)
 
+## MeshAgent
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
 ## MeshCentral
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
@@ -5672,6 +5718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MFA bypass
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -5764,6 +5811,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6508](../actors/unc6508.md)
 
 ## Mimikatz
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 
@@ -5921,6 +5969,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## namespace squatting
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
+## NAS targeting
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
 ## nation-state
 - [ROADtools](../tools/roadtools.md)
 
@@ -5944,6 +5995,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NetScaler
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+
+## NetScaler ADC
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
+## NetScaler Gateway
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## network infrastructure
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -6067,6 +6124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## NTDS.dit
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## NTFS ADS
@@ -6205,6 +6263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -6381,6 +6440,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -7058,6 +7118,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PSEMHUB
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
+## PsExec
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
 ## PSIGW
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
@@ -7165,6 +7228,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## ransomware
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -7232,6 +7296,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Rclone
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## rclone
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## RCS
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -7330,6 +7397,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## remote-access
 - [TA4922](../actors/ta4922.md)
 
+## Remotely
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
 ## RemotePE
 - [RemotePE](../tools/remotepe.md)
 
@@ -7373,6 +7443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RMM abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [TaskWeaver](../tools/taskweaver.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
@@ -7483,8 +7554,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Rust malware
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
+## S3 Browser
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
 ## S3-compatible storage
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
+## s5cmd
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## SaaS
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -7545,6 +7622,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ScreenConnect
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
 ## screenshot theft
@@ -7823,6 +7901,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Socket.IO
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 
+## SOCKS tunneling
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
 ## SOCKS5
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -7920,6 +8001,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SPECTRALVIPER
 - [OceanLotus](../actors/oceanlotus.md)
+
+## Sphinx ransomware
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## Splunk
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
@@ -8400,6 +8484,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 
+## Total Software Deployment
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
 ## Trading Technologies
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
@@ -8533,6 +8620,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Turla](../actors/turla.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
+## UltraVNC
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
 ## unauthenticated access
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
@@ -8637,6 +8727,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## V8
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+
+## valid accounts
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## ValleyRAT
 - [TA4922](../actors/ta4922.md)
@@ -8747,6 +8840,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VPN Go
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
+
+## VPN session hijacking
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## VS Code
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -9124,6 +9220,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
 ## Zoho Assist
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## Zoho WorkDrive

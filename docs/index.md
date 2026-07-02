@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [Argo CD repo-server unauthenticated RCE](ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [PolinRider cross-ecosystem supply-chain campaign](ops/polinrider-cross-ecosystem-supply-chain.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](ops/veildrop-blogger-purelogs-stealer.md)
