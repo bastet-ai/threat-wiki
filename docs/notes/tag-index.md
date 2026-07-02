@@ -55,9 +55,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agentic AI](#agentic-ai) (1)
 - [agentic browsers](#agentic-browsers) (1)
 - [agentic malware](#agentic-malware) (1)
+- [agentic ransomware](#agentic-ransomware) (1)
+- [agentic threat actor](#agentic-threat-actor) (1)
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (4)
+- [AI agent](#ai-agent) (1)
 - [AI agents](#ai-agents) (14)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (1)
@@ -295,6 +298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (6)
 - [cloud C2](#cloud-c2) (1)
+- [cloud credential hunting](#cloud-credential-hunting) (1)
 - [cloud credential risk](#cloud-credential-risk) (1)
 - [cloud credential theft](#cloud-credential-theft) (5)
 - [cloud credentials](#cloud-credentials) (2)
@@ -352,6 +356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Contagious Interview](#contagious-interview) (3)
 - [container](#container) (1)
 - [container escape](#container-escape) (3)
+- [container escape pre-check](#container-escape-pre-check) (1)
 - [content compliance rules](#content-compliance-rules) (1)
 - [context flooding](#context-flooding) (1)
 - [Continue](#continue) (1)
@@ -398,6 +403,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2013-3307](#cve-2013-3307) (1)
 - [CVE-2016-5681](#cve-2016-5681) (1)
 - [CVE-2020-17103](#cve-2020-17103) (1)
+- [CVE-2021-29441](#cve-2021-29441) (1)
 - [CVE-2022-0492](#cve-2022-0492) (1)
 - [CVE-2023-24932](#cve-2023-24932) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
@@ -409,6 +415,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [CVE-2025-11371](#cve-2025-11371) (1)
 - [CVE-2025-11837](#cve-2025-11837) (1)
+- [CVE-2025-3248](#cve-2025-3248) (1)
 - [CVE-2025-32975](#cve-2025-32975) (1)
 - [CVE-2025-34291](#cve-2025-34291) (1)
 - [CVE-2025-48595](#cve-2025-48595) (1)
@@ -494,6 +501,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data leak site](#data-leak-site) (2)
 - [data theft](#data-theft) (4)
 - [data-exfiltration](#data-exfiltration) (1)
+- [database extortion](#database-extortion) (1)
 - [DAYLIGHT](#daylight) (1)
 - [DCloud](#dcloud) (1)
 - [DCloud Uni-App](#dcloud-uni-app) (1)
@@ -869,6 +877,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Italian foreign-policy targeting](#italian-foreign-policy-targeting) (1)
 - [Italy targeting](#italy-targeting) (1)
 - [Ivanti Sentry](#ivanti-sentry) (1)
+- [JADEPUFFER](#jadepuffer) (1)
 - [Japan](#japan) (1)
 - [JavaScript](#javascript) (11)
 - [JavaScript bridge](#javascript-bridge) (1)
@@ -918,7 +927,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
 - [LangChain](#langchain) (2)
-- [Langflow](#langflow) (3)
+- [Langflow](#langflow) (4)
 - [LangFlow](#langflow) (1)
 - [LangGraph](#langgraph) (1)
 - [Language Servers for AWS](#language-servers-for-aws) (1)
@@ -960,6 +969,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [living-off-the-land binaries](#living-off-the-land-binaries) (1)
 - [LLM](#llm) (4)
 - [LLM security](#llm-security) (1)
+- [LLM-driven intrusion](#llm-driven-intrusion) (1)
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
 - [LNK](#lnk) (8)
@@ -1102,6 +1112,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustard Tempest](#mustard-tempest) (1)
 - [mutable tags](#mutable-tags) (2)
 - [MYRA](#myra) (1)
+- [MySQL](#mysql) (1)
+- [Nacos](#nacos) (1)
 - [named pipes](#named-pipes) (1)
 - [namespace recycling](#namespace-recycling) (1)
 - [namespace squatting](#namespace-squatting) (1)
@@ -1177,9 +1189,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (173)
+- [operations](#operations) (174)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (175)
+- [ops](#ops) (176)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1596,6 +1608,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [symlink following](#symlink-following) (1)
 - [Synacktiv](#synacktiv) (1)
 - [Synology](#synology) (1)
+- [Sysdig](#sysdig) (1)
 - [SYSTEM](#system) (1)
 - [systemd-userdbd](#systemd-userdbd) (1)
 - [T1204.004](#t1204004) (1)
@@ -2074,6 +2087,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## agentic malware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## agentic ransomware
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+
+## agentic threat actor
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+
 ## Agentjacking
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
@@ -2086,6 +2105,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
+
+## AI agent
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## AI agents
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -3003,6 +3025,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud C2
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
+## cloud credential hunting
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+
 ## cloud credential risk
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
@@ -3222,6 +3247,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
+## container escape pre-check
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## content compliance rules
 - [UNC6508](../actors/unc6508.md)
@@ -3464,6 +3492,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2020-17103
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
+## CVE-2021-29441
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+
 ## CVE-2022-0492
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 
@@ -3497,6 +3528,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2025-11837
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
+## CVE-2025-3248
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## CVE-2025-32975
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
@@ -3779,6 +3813,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## data-exfiltration
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+
+## database extortion
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## DAYLIGHT
 - [GREYVIBE](../actors/greyvibe.md)
@@ -5208,6 +5245,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ivanti Sentry
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 
+## JADEPUFFER
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+
 ## Japan
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -5380,6 +5420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## Langflow
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -5541,6 +5582,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LLM security
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+
+## LLM-driven intrusion
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## LLMjacking
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -6076,6 +6120,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MYRA
 - [MYRA RAT](../tools/myra-rat.md)
 
+## MySQL
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+
+## Nacos
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+
 ## named pipes
 - [OceanLotus](../actors/oceanlotus.md)
 
@@ -6446,6 +6496,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -6624,6 +6675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -8381,6 +8433,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Synology
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
+## Sysdig
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## SYSTEM
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)

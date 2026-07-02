@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>JADEPUFFER Langflow agentic ransomware</title>
+      <link>https://threat.wiki/ops/jadepuffer-langflow-agentic-ransomware/</link>
+      <description>Added Sysdig Threat Research Team coverage of JADEPUFFER, assessed as an end-to-end LLM-driven agentic ransomware operation. The page captures Langflow CVE-2025-3248 initial access, adaptive/self-narrating payloads, cloud and container reconnaissance, cron beaconing to 45.131.66[.]106:4444, pivoting to exposed MySQL and Alibaba Nacos, CVE-2021-29441/default-JWT-key context, encryption of 1,342 Nacos configuration items, and defender guidance for AI workflow exposure, credential scoping, and database-recovery planning. FortiBleed coverage was also updated with SOCRadar's INC/Lynx ransomware-link follow-up.</description>
+      <pubDate>Thu, 02 Jul 2026 19:28:13 GMT</pubDate>
+      <guid>https://threat.wiki/ops/jadepuffer-langflow-agentic-ransomware/</guid>
+    </item>
+    <item>
       <title>Adobe ColdFusion APSB26-68 CVE bonanza</title>
       <link>https://threat.wiki/ops/adobe-coldfusion-apsb26-68-cve-bonanza/</link>
       <description>Added watchTowr Labs coverage of Adobe ColdFusion APSB26-68: ColdFusion 2025 Update 9 and earlier and ColdFusion 2023 Update 20 and earlier received fixes for a large vulnerability cluster including arbitrary file read/write, file upload path traversal, CKEditor file-manager directory listing, and additional XSLT SSRF / XXE / file-write classes. The page captures CVE pivots, CFIDE / FILEIO hunt paths, exposure-reduction guidance, and post-exploitation review steps for ColdFusion estates.</description>
