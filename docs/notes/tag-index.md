@@ -35,6 +35,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adblock for YouTube](#adblock-for-youtube) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [administrator account creation](#administrator-account-creation) (2)
+- [Adobe ColdFusion](#adobe-coldfusion) (1)
 - [Adobe Commerce](#adobe-commerce) (1)
 - [Adspect](#adspect) (1)
 - [Adversa AI](#adversa-ai) (1)
@@ -103,6 +104,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AppleSeed](#appleseed) (1)
 - [appliance](#appliance) (1)
 - [application delivery controller](#application-delivery-controller) (1)
+- [APSB26-68](#apsb26-68) (1)
 - [APT](#apt) (4)
 - [APT27](#apt27) (1)
 - [APT28](#apt28) (1)
@@ -114,7 +116,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT45](#apt45) (1)
 - [Aptos](#aptos) (1)
 - [Aquatic Panda](#aquatic-panda) (2)
-- [arbitrary file write](#arbitrary-file-write) (2)
+- [arbitrary file read](#arbitrary-file-read) (1)
+- [arbitrary file write](#arbitrary-file-write) (3)
 - [arbitrary JavaScript](#arbitrary-javascript) (1)
 - [Arch Linux](#arch-linux) (1)
 - [Arctic Wolf](#arctic-wolf) (1)
@@ -235,6 +238,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CERT-In](#cert-in) (1)
 - [certificate pinning](#certificate-pinning) (1)
 - [certificate theft](#certificate-theft) (1)
+- [CFIDE](#cfide) (1)
 - [ChatGPT](#chatgpt) (1)
 - [chattr](#chattr) (1)
 - [Chatty Spider](#chatty-spider) (1)
@@ -272,6 +276,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix](#citrix) (1)
 - [Citrix NetScaler](#citrix-netscaler) (1)
 - [CitrixBleed 2](#citrixbleed-2) (1)
+- [CKEditor file manager](#ckeditor-file-manager) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
 - [CL-STA-1062](#cl-sta-1062) (3)
 - [Claude](#claude) (2)
@@ -323,6 +328,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codex](#codex) (2)
 - [coding agents](#coding-agents) (1)
 - [Coinbase](#coinbase) (1)
+- [ColdFusion](#coldfusion) (1)
 - [collaboration platforms](#collaboration-platforms) (1)
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
 - [COM-hijacking](#com-hijacking) (1)
@@ -452,6 +458,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-46331](#cve-2026-46331) (1)
 - [CVE-2026-46817](#cve-2026-46817) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
+- [CVE-2026-48276](#cve-2026-48276) (1)
+- [CVE-2026-48277](#cve-2026-48277) (1)
+- [CVE-2026-48281](#cve-2026-48281) (1)
+- [CVE-2026-48282](#cve-2026-48282) (1)
+- [CVE-2026-48283](#cve-2026-48283) (1)
+- [CVE-2026-48285](#cve-2026-48285) (1)
+- [CVE-2026-48307](#cve-2026-48307) (1)
+- [CVE-2026-48313](#cve-2026-48313) (1)
+- [CVE-2026-48314](#cve-2026-48314) (1)
+- [CVE-2026-48315](#cve-2026-48315) (1)
+- [CVE-2026-48316](#cve-2026-48316) (1)
 - [CVE-2026-48558](#cve-2026-48558) (3)
 - [CVE-2026-48907](#cve-2026-48907) (1)
 - [CVE-2026-50751](#cve-2026-50751) (1)
@@ -650,8 +667,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FIFA](#fifa) (1)
 - [file exfiltration](#file-exfiltration) (1)
 - [File Transmission](#file-transmission) (1)
+- [file upload path traversal](#file-upload-path-traversal) (1)
 - [file-system filter](#file-system-filter) (1)
 - [FileFiend](#filefiend) (1)
+- [FILEIO](#fileio) (1)
 - [fileless execution](#fileless-execution) (2)
 - [fileless malware](#fileless-malware) (1)
 - [filemanager](#filemanager) (1)
@@ -798,6 +817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ICS](#ics) (1)
 - [IDE extension](#ide-extension) (1)
 - [IDE plugins](#ide-plugins) (1)
+- [ide.cfm](#idecfm) (1)
 - [identity](#identity) (3)
 - [identity attacks](#identity-attacks) (1)
 - [identity security](#identity-security) (1)
@@ -831,6 +851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [install-time-execution](#install-time-execution) (1)
 - [Integration Broker](#integration-broker) (1)
 - [Intercolo](#intercolo) (1)
+- [internet-facing admin surface](#internet-facing-admin-surface) (1)
 - [internet-facing appliance](#internet-facing-appliance) (1)
 - [internet-facing applications](#internet-facing-applications) (1)
 - [investment scam](#investment-scam) (1)
@@ -1156,9 +1177,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (172)
+- [operations](#operations) (173)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (174)
+- [ops](#ops) (175)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1334,6 +1355,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RCS](#rcs) (1)
 - [RDP](#rdp) (1)
 - [RDP phishing](#rdp-phishing) (1)
+- [RDS](#rds) (1)
 - [Reality](#reality) (1)
 - [Reaper](#reaper) (1)
 - [reconnaissance](#reconnaissance) (2)
@@ -1745,7 +1767,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
-- [vulnerability](#vulnerability) (11)
+- [vulnerability](#vulnerability) (12)
 - [vulnerability research](#vulnerability-research) (2)
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
@@ -1759,7 +1781,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet-theft](#wallet-theft) (3)
 - [Wasabi](#wasabi) (2)
 - [watchdog](#watchdog) (1)
-- [watchTowr](#watchtowr) (1)
+- [watchTowr](#watchtowr) (2)
 - [watering hole](#watering-hole) (1)
 - [watering-hole](#watering-hole) (2)
 - [weak passwords](#weak-passwords) (1)
@@ -1824,7 +1846,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XMRig](#xmrig) (4)
 - [XOR](#xor) (1)
 - [XOR obfuscation](#xor-obfuscation) (1)
+- [XSLT SSRF](#xslt-ssrf) (1)
 - [XSS.is](#xssis) (1)
+- [XXE](#xxe) (1)
 - [xz](#xz) (1)
 - [Yanbian](#yanbian) (1)
 - [YesWeHack](#yeswehack) (1)
@@ -1983,6 +2007,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## administrator account creation
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+
+## Adobe ColdFusion
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
 ## Adobe Commerce
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
@@ -2235,6 +2262,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## application delivery controller
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
+## APSB26-68
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
 ## APT
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Gamaredon](../actors/gamaredon.md)
@@ -2273,7 +2303,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
 
+## arbitrary file read
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
 ## arbitrary file write
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
@@ -2706,6 +2740,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## certificate theft
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
+## CFIDE
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
 ## ChatGPT
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
@@ -2890,6 +2927,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CitrixBleed 2
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
+## CKEditor file manager
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
 ## CL-CRI-1089
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -3092,6 +3132,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+
+## ColdFusion
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
 ## collaboration platforms
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
@@ -3606,6 +3649,39 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-48172
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+
+## CVE-2026-48276
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## CVE-2026-48277
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## CVE-2026-48281
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## CVE-2026-48282
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## CVE-2026-48283
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## CVE-2026-48285
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## CVE-2026-48307
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## CVE-2026-48313
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## CVE-2026-48314
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## CVE-2026-48315
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## CVE-2026-48316
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
 ## CVE-2026-48558
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -4376,11 +4452,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## File Transmission
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 
+## file upload path traversal
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
 ## file-system filter
 - [Fast16](../tools/fast16.md)
 
 ## FileFiend
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+
+## FILEIO
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
 ## fileless execution
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
@@ -4912,6 +4994,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## IDE plugins
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
+## ide.cfm
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
 ## identity
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -5060,6 +5145,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Intercolo
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
+## internet-facing admin surface
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
 ## internet-facing appliance
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
@@ -6295,6 +6383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
@@ -6472,6 +6561,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
@@ -7355,6 +7445,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RDP phishing
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
+
+## RDS
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
 ## Reality
 - [First VPN](../tools/first-vpn.md)
@@ -8920,6 +9013,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## vulnerability
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -8979,6 +9073,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## watchTowr
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## watering hole
@@ -9239,8 +9334,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## XOR obfuscation
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
+## XSLT SSRF
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
 ## XSS.is
 - [First VPN](../tools/first-vpn.md)
+
+## XXE
+- [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
 ## xz
 - [JiaT75](../people/jiat75.md)

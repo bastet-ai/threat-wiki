@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Adobe ColdFusion APSB26-68 CVE bonanza](ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [ChocoPoC fake PoC supply-chain campaign](ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [ChocoPoC](tools/chocopoc.md)
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
