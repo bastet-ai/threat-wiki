@@ -252,6 +252,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-speaking](#chinese-speaking) (3)
 - [Chinese-speaking operator](#chinese-speaking-operator) (1)
 - [Chisel](#chisel) (3)
+- [ChocoPoC](#chocopoc) (1)
 - [Chrome extension](#chrome-extension) (1)
 - [Chrome Web Store](#chrome-web-store) (4)
 - [chrome_settings_overrides](#chrome_settings_overrides) (1)
@@ -364,7 +365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (26)
+- [credential theft](#credential-theft) (28)
 - [credential-theft](#credential-theft) (50)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
@@ -483,7 +484,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DDNS](#ddns) (1)
 - [DDoS](#ddos) (2)
 - [DDoS-for-hire](#ddos-for-hire) (1)
-- [dead drop resolver](#dead-drop-resolver) (3)
+- [dead drop resolver](#dead-drop-resolver) (4)
 - [Debian](#debian) (1)
 - [declarativeNetRequest](#declarativenetrequest) (1)
 - [DeepSeek](#deepseek) (2)
@@ -509,7 +510,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer endpoints](#developer-endpoints) (1)
 - [developer machines](#developer-machines) (9)
 - [developer mode](#developer-mode) (1)
-- [developer targeting](#developer-targeting) (2)
+- [developer targeting](#developer-targeting) (4)
 - [developer tooling](#developer-tooling) (2)
 - [developer workstations](#developer-workstations) (2)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
@@ -629,6 +630,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake gambling](#fake-gambling) (1)
 - [fake login screen](#fake-login-screen) (1)
 - [fake plugin](#fake-plugin) (1)
+- [fake PoC](#fake-poc) (2)
 - [fake recruiting](#fake-recruiting) (1)
 - [fake reputation](#fake-reputation) (1)
 - [fake update](#fake-update) (2)
@@ -698,7 +700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-6v3r-4p5c-mrp5](#ghsa-6v3r-4p5c-mrp5) (1)
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
-- [GitHub](#github) (15)
+- [GitHub](#github) (16)
 - [GitHub abuse](#github-abuse) (2)
 - [GitHub Actions](#github-actions) (20)
 - [GitHub API](#github-api) (1)
@@ -980,7 +982,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (4)
-- [malware](#malware) (27)
+- [malware](#malware) (28)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (3)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
@@ -993,6 +995,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [management plane](#management-plane) (3)
 - [Manifest V3](#manifest-v3) (1)
 - [manufacturing](#manufacturing) (1)
+- [Mapbox](#mapbox) (2)
 - [marimo](#marimo) (1)
 - [MARKETMAKER](#marketmaker) (1)
 - [marketplace abuse](#marketplace-abuse) (1)
@@ -1084,6 +1087,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NAS targeting](#nas-targeting) (1)
 - [nation-state](#nation-state) (1)
 - [native addon](#native-addon) (1)
+- [native extension](#native-extension) (2)
 - [NATS](#nats) (1)
 - [NCSC-NL](#ncsc-nl) (1)
 - [Nebo](#nebo) (1)
@@ -1146,6 +1150,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVPN](#openvpn) (1)
 - [OpenVPN-shaped UDP](#openvpn-shaped-udp) (1)
 - [OpenVSX](#openvsx) (1)
+- [operation](#operation) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Endgame](#operation-endgame) (1)
 - [Operation Highland](#operation-highland) (2)
@@ -1153,7 +1158,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (172)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (173)
+- [ops](#ops) (174)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1201,11 +1206,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [PebbleDash](#pebbledash) (1)
 - [pedit](#pedit) (1)
+- [pentesting](#pentesting) (1)
 - [people](#people) (1)
 - [PeopleTools](#peopletools) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
-- [persistence](#persistence) (21)
+- [persistence](#persistence) (23)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
 - [Phantom Gyp](#phantom-gyp) (3)
@@ -1298,8 +1304,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PUP](#pup) (1)
 - [PureLogs Stealer](#purelogs-stealer) (1)
 - [pwn-request](#pwn-request) (1)
-- [PyPI](#pypi) (8)
-- [Python](#python) (6)
+- [PyPI](#pypi) (10)
+- [Python](#python) (8)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python stealer](#python-stealer) (1)
 - [QiAnXin XLab](#qianxin-xlab) (2)
@@ -1319,7 +1325,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
-- [RAT](#rat) (21)
+- [RAT](#rat) (23)
 - [RC4](#rc4) (3)
 - [RC4 C2](#rc4-c2) (1)
 - [RCE](#rce) (6)
@@ -1427,6 +1433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [seed phrase theft](#seed-phrase-theft) (1)
 - [Seedworm](#seedworm) (1)
 - [segmented networks](#segmented-networks) (1)
+- [Sekoia](#sekoia) (1)
 - [self-delete](#self-delete) (1)
 - [self-hosted AI services](#self-hosted-ai-services) (1)
 - [self-hosted media](#self-hosted-media) (1)
@@ -1559,7 +1566,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [SUMMIT](#summit) (3)
 - [Supabase](#supabase) (1)
-- [supply chain](#supply-chain) (3)
+- [supply chain](#supply-chain) (5)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (80)
 - [SWE-agent](#swe-agent) (1)
@@ -1625,6 +1632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token theft](#token-theft) (2)
 - [token-theft](#token-theft) (1)
 - [TONESHELL](#toneshell) (2)
+- [tool](#tool) (1)
 - [tool output injection](#tool-output-injection) (1)
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
@@ -1738,6 +1746,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
 - [vulnerability](#vulnerability) (11)
+- [vulnerability research](#vulnerability-research) (2)
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
@@ -1818,6 +1827,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XSS.is](#xssis) (1)
 - [xz](#xz) (1)
 - [Yanbian](#yanbian) (1)
+- [YesWeHack](#yeswehack) (1)
 - [YouTube abuse](#youtube-abuse) (1)
 - [Yuechi Shared Technology](#yuechi-shared-technology) (1)
 - [yuze](#yuze) (2)
@@ -2767,6 +2777,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
+## ChocoPoC
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+
 ## Chrome extension
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
@@ -3235,6 +3248,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [ChocoPoC](../tools/chocopoc.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
@@ -3712,6 +3727,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## dead drop resolver
+- [ChocoPoC](../tools/chocopoc.md)
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -3814,6 +3830,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## developer targeting
+- [ChocoPoC](../tools/chocopoc.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
@@ -4295,6 +4313,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fake plugin
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## fake PoC
+- [ChocoPoC](../tools/chocopoc.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+
 ## fake recruiting
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
@@ -4525,6 +4547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
@@ -5590,6 +5613,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [ChocoPoC](../tools/chocopoc.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [Fast16](../tools/fast16.md)
@@ -5654,6 +5678,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## manufacturing
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## Mapbox
+- [ChocoPoC](../tools/chocopoc.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 
 ## marimo
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -5978,6 +6006,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## native addon
 - [MYRA RAT](../tools/myra-rat.md)
 
+## native extension
+- [ChocoPoC](../tools/chocopoc.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+
 ## NATS
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
@@ -6236,6 +6268,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OpenVSX
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
+## operation
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+
 ## Operation DangerousPassword
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
@@ -6459,6 +6494,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -6783,6 +6819,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## pedit
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
+## pentesting
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+
 ## people
 - [JiaT75](../people/jiat75.md)
 
@@ -6798,6 +6837,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## persistence
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [ChocoPoC](../tools/chocopoc.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -7173,6 +7214,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PyPI
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+- [ChocoPoC](../tools/chocopoc.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -7182,6 +7225,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## Python
+- [ChocoPoC](../tools/chocopoc.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
@@ -7256,6 +7301,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 
 ## RAT
+- [ChocoPoC](../tools/chocopoc.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
@@ -7669,6 +7716,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## segmented networks
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+
+## Sekoia
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 
 ## self-delete
 - [TinyRCT](../tools/tinyrct.md)
@@ -8133,6 +8183,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## supply chain
+- [ChocoPoC](../tools/chocopoc.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -8446,6 +8498,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TONESHELL
 - [Mustang Panda](../actors/mustang-panda.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+
+## tool
+- [ChocoPoC](../tools/chocopoc.md)
 
 ## tool output injection
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -8877,6 +8932,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
+## vulnerability research
+- [ChocoPoC](../tools/chocopoc.md)
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+
 ## vulnerability-research
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -9188,6 +9247,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Yanbian
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
+## YesWeHack
+- [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 
 ## YouTube abuse
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)

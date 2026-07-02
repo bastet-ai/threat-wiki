@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - ChocoPoC fake PoC supply-chain campaign: ops/chocopoc-fake-poc-supply-chain-campaign.md
       - Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions: ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md
       - Argo CD repo-server unauthenticated RCE: ops/argo-cd-repo-server-unauthenticated-rce.md
       - PolinRider cross-ecosystem supply-chain campaign: ops/polinrider-cross-ecosystem-supply-chain.md
@@ -184,6 +185,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - ChocoPoC: tools/chocopoc.md
       - RustDuck: tools/rustduck.md
       - TaskWeaver: tools/taskweaver.md
       - Djinn Stealer: tools/djinn-stealer.md
