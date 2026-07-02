@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Argo CD repo-server unauthenticated RCE</title>
+      <link>https://threat.wiki/ops/argo-cd-repo-server-unauthenticated-rce/</link>
+      <description>Added Synacktiv coverage of an unpatched, no-CVE unauthenticated code-execution path in Argo CD repo-server. The page captures the internal gRPC plus Redis reachability prerequisite, arbitrary manifest deployment / cluster-compromise impact, Helm NetworkPolicy default-risk caveat, and defender guidance for Argo CD network segmentation, Kubernetes audit review, and credential rotation.</description>
+      <pubDate>Thu, 02 Jul 2026 05:25:22 GMT</pubDate>
+      <guid>https://threat.wiki/ops/argo-cd-repo-server-unauthenticated-rce/</guid>
+    </item>
+    <item>
       <title>Progress Kemp LoadMaster CVE-2026-8037 active exploitation attempts</title>
       <link>https://threat.wiki/ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce/#active-exploitation-attempts</link>
       <description>Updated Progress Kemp LoadMaster CVE-2026-8037 coverage with eSentire TRU / The Hacker News reporting that exploitation attempts began June 29, 2026. eSentire said the observed attempts failed with no post-compromise activity, but reported attacker IPs 192.42.116[.]58, 192.42.116[.]105, and 146.70.139[.]154; the page now treats exposed /accessv2 API surfaces as actively probed and adds retrospective hunt guidance.</description>

@@ -116,6 +116,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [arbitrary file write](#arbitrary-file-write) (2)
 - [arbitrary JavaScript](#arbitrary-javascript) (1)
 - [Arch Linux](#arch-linux) (1)
+- [Argo CD](#argo-cd) (1)
+- [ArgoCD](#argocd) (1)
 - [Arista EOS](#arista-eos) (1)
 - [Armageddon](#armageddon) (1)
 - [Artifact Signing](#artifact-signing) (1)
@@ -254,7 +256,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chromium](#chromium) (2)
 - [Chromium extension](#chromium-extension) (1)
 - [CI-CD](#ci-cd) (2)
-- [CI/CD](#cicd) (34)
+- [CI/CD](#cicd) (35)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
 - [CISA KEV](#cisa-kev) (15)
@@ -304,11 +306,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare Turnstile](#cloudflare-turnstile) (1)
 - [Cloudflare Workers](#cloudflare-workers) (5)
 - [CloudLinux](#cloudlinux) (1)
+- [cluster compromise](#cluster-compromise) (1)
 - [CMS](#cms) (6)
 - [Cobalt Strike](#cobalt-strike) (5)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
 - [Codecov](#codecov) (1)
+- [CodeQL](#codeql) (1)
 - [Codex](#codex) (2)
 - [coding agents](#coding-agents) (1)
 - [Coinbase](#coinbase) (1)
@@ -316,7 +320,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
 - [COM-hijacking](#com-hijacking) (1)
 - [command and control](#command-and-control) (1)
-- [command execution](#command-execution) (4)
+- [command execution](#command-execution) (5)
 - [command injection](#command-injection) (6)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
@@ -701,6 +705,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub tokens](#github-tokens) (2)
 - [GitLab](#gitlab) (1)
 - [gitleaks](#gitleaks) (1)
+- [GitOps](#gitops) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
 - [gleeze.com](#gleezecom) (1)
 - [GlobalProtect](#globalprotect) (1)
@@ -734,6 +739,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (3)
 - [groups](#groups) (13)
+- [gRPC](#grpc) (1)
 - [gs-netcat](#gs-netcat) (1)
 - [GS-Netcat](#gs-netcat) (1)
 - [GTIG](#gtig) (1)
@@ -752,6 +758,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [healthcare](#healthcare) (2)
 - [HelloDoor](#hellodoor) (1)
 - [HellsGate](#hellsgate) (1)
+- [Helm](#helm) (1)
 - [Hermes Agent](#hermes-agent) (1)
 - [HexKiller](#hexkiller) (1)
 - [hidden service](#hidden-service) (1)
@@ -876,7 +883,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver](#knowledgedeliver) (1)
 - [KongTuke](#kongtuke) (1)
 - [KORKERDS](#korkerds) (1)
-- [Kubernetes](#kubernetes) (1)
+- [Kubernetes](#kubernetes) (2)
 - [KV-botnet](#kv-botnet) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
@@ -1075,6 +1082,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Netherlands](#netherlands) (1)
 - [NetScaler](#netscaler) (1)
 - [network infrastructure](#network-infrastructure) (1)
+- [network policies](#network-policies) (1)
 - [Nextcloud](#nextcloud) (1)
 - [nf_tables](#nf_tables) (1)
 - [nftables](#nftables) (1)
@@ -1132,9 +1140,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (170)
+- [operations](#operations) (171)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (171)
+- [ops](#ops) (172)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1315,7 +1323,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Red Dev 10](#red-dev-10) (2)
 - [Red Hat](#red-hat) (1)
 - [REDCap](#redcap) (1)
-- [Redis](#redis) (1)
+- [Redis](#redis) (2)
 - [Redis backdoor](#redis-backdoor) (1)
 - [RediSearch](#redisearch) (1)
 - [reflective .NET loading](#reflective-net-loading) (1)
@@ -1334,6 +1342,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePELoader](#remotepeloader) (1)
 - [Rentry](#rentry) (1)
 - [replication](#replication) (1)
+- [repo-server](#repo-server) (1)
 - [repository poisoning](#repository-poisoning) (2)
 - [residential proxies](#residential-proxies) (1)
 - [REST C2](#rest-c2) (1)
@@ -1538,6 +1547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SWE-agent](#swe-agent) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (1)
 - [symlink following](#symlink-following) (1)
+- [Synacktiv](#synacktiv) (1)
 - [Synology](#synology) (1)
 - [SYSTEM](#system) (1)
 - [systemd-userdbd](#systemd-userdbd) (1)
@@ -1639,7 +1649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ukraine targeting](#ukraine-targeting) (3)
 - [unauthenticated access](#unauthenticated-access) (1)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
-- [unauthenticated RCE](#unauthenticated-rce) (2)
+- [unauthenticated RCE](#unauthenticated-rce) (3)
 - [UNC1543](#unc1543) (1)
 - [UNC2814](#unc2814) (1)
 - [UNC3753](#unc3753) (1)
@@ -1657,6 +1667,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [Unit 42](#unit-42) (3)
 - [United States](#united-states) (2)
+- [unpatched vulnerability](#unpatched-vulnerability) (1)
 - [unsafe deserialization](#unsafe-deserialization) (1)
 - [unsigned installer](#unsigned-installer) (1)
 - [uranium compression](#uranium-compression) (1)
@@ -2237,6 +2248,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Arch Linux
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 
+## Argo CD
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+
+## ArgoCD
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+
 ## Arista EOS
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
@@ -2747,6 +2764,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CI/CD
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -2980,6 +2998,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CloudLinux
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
+## cluster compromise
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+
 ## CMS
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -3006,6 +3027,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Codecov
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 
+## CodeQL
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+
 ## Codex
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -3030,6 +3054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## command execution
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -4530,6 +4555,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## gitleaks
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
+## GitOps
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+
 ## Gleaming Pisces
 - [RemotePE](../tools/remotepe.md)
 
@@ -4655,6 +4683,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [Webworm](../actors/webworm.md)
 
+## gRPC
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+
 ## gs-netcat
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
@@ -4710,6 +4741,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HellsGate
 - [RemotePE](../tools/remotepe.md)
+
+## Helm
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 
 ## Hermes Agent
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -5175,6 +5209,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
 ## Kubernetes
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
 ## KV-botnet
@@ -5913,6 +5948,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## network infrastructure
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
+## network policies
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+
 ## Nextcloud
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
@@ -6168,6 +6206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
@@ -6343,6 +6382,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
@@ -7229,6 +7269,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6508](../actors/unc6508.md)
 
 ## Redis
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## Redis backdoor
@@ -7300,6 +7341,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## replication
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+
+## repo-server
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 
 ## repository poisoning
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -8103,6 +8147,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## symlink following
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
+## Synacktiv
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+
 ## Synology
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
@@ -8493,6 +8540,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 
 ## unauthenticated RCE
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
@@ -8551,6 +8599,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## United States
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [UNC3753](../actors/unc3753.md)
+
+## unpatched vulnerability
+- [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 
 ## unsafe deserialization
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
