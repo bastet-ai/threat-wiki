@@ -23,12 +23,15 @@ This is the concise operation overview for the Trivy compromise. For the fuller 
 - **Early March 2026:** the attacker retained access after incomplete containment and staged malicious commits and workflow changes.
 - **March 19, 2026:** poisoned Trivy v0.69.4 releases and compromised GitHub Actions tags were pushed.
 - **March 20, 2026:** follow-on distribution and cleanup activity spread impact across registries and workflows.
+- **July 2, 2026:** StepSecurity published a defender-focused retrospective that labels the second Trivy compromise as **CVE-2026-33634** and says TeamPCP injected a credential stealer into **76 of 77** `aquasecurity/trivy-action` version tags.
 
 ## Evidence
 - Malicious versions of Trivy and related GitHub Actions were published
 - Workflows were modified to steal credentials from GitHub Actions runners and developer environments
 - A typosquatted domain and fallback infrastructure were used for exfiltration
 - Developer-machine persistence was introduced via a user-level systemd service
+- The GitHub Action attack used mutable tag retargeting / imposter commits: workflows pinned only to version tags such as `aquasecurity/trivy-action@v0.30.0` could silently resolve to attacker-controlled code
+- StepSecurity reports the runner payload attempted to read `/proc/pid/mem` from the GitHub Actions `Runner.Worker` process and POST stolen credentials to `scan.aquasecurtiy[.]org`, resolving to `45.148.10[.]212`
 
 ## Tooling highlights
 - **Trivy binary tampering**
@@ -55,9 +58,12 @@ Public reporting attributes the campaign to **TeamPCP**. This page intentionally
 - Treat release pipelines as high-value targets
 - Rotate secrets if a build or release system may have been exposed
 - Hunt for repository creation / release artifact abuse as a fallback exfil path
+- Add runtime CI controls where possible: egress allow-lists, process telemetry for `/proc/*/mem` reads against `Runner.Worker`, and pre-execution policies that block known compromised action refs
+- During scoping, inventory every `aquasecurity/trivy-action` use and identify runs between **March 19, 2026 17:43 UTC** and remediation, especially runs using mutable tags rather than full commit SHAs
 
 ## References
 - Wiz: https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack
 - Aikido: https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise
 - Socket: https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise
 - Boost Security: https://labs.boostsecurity.io/articles/20-days-later-trivy-compromise-act-ii/
+- StepSecurity: https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions

@@ -31,6 +31,8 @@ This page is the canonical timeline for the Trivy → TeamPCP → CanisterWorm c
 - Related GitHub Actions tags were force-updated to malicious commits.
 - The payload stole runner secrets and used fallback exfiltration paths.
 - Public reporting ties the campaign to **TeamPCP**.
+- StepSecurity's July 2026 retrospective identifies the second Trivy compromise as **CVE-2026-33634** and says **76 of 77** `aquasecurity/trivy-action` version tags were injected with the credential stealer.
+- The same retrospective puts the compromise timestamp at **March 19, 2026 17:43 UTC** for incident-response scoping.
 
 ### March 20, 2026: NPM worming / CanisterWorm
 - The same campaign expanded into the npm ecosystem.
@@ -50,6 +52,15 @@ This page is the canonical timeline for the Trivy → TeamPCP → CanisterWorm c
 4. **Malicious release publication** across CI and registries
 5. **Follow-on npm worming** via stolen publish tokens
 6. **Persistence + remote payload rotation** on developer hosts
+
+## July 2026 StepSecurity retrospective
+StepSecurity's July 2 defender retrospective adds more concrete CI/CD detection pivots for the Trivy wave and the later Checkmarx KICS action compromise:
+
+- The Trivy action compromise used **imposter commits**: tags resolved to commits reachable by SHA in GitHub's repository object storage but not present on a normal branch of the source repository.
+- The malware attempted to read secrets from `/proc/pid/mem` for the GitHub Actions `Runner.Worker` process, a behavior that should be rare enough to alert or terminate in CI runners.
+- Exfiltration attempted to POST to the typosquatted domain `scan.aquasecurtiy[.]org`, which StepSecurity says resolved to `45.148.10[.]212`.
+- The KICS action compromise followed the same broad playbook, reinforcing that action-tag integrity, branch ancestry checks, and runtime network/process controls should be treated as general CI/CD supply-chain detections rather than Trivy-only cleanup.
+- For exposure scoping, defenders should enumerate every `aquasecurity/trivy-action` reference, distinguish mutable tags from full commit SHAs, and review runs during the March 19 compromise window.
 
 ## Tooling
 ### CI / release abuse
@@ -78,3 +89,4 @@ This page is the canonical timeline for the Trivy → TeamPCP → CanisterWorm c
 - Socket: https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise
 - Boost Security: https://labs.boostsecurity.io/articles/20-days-later-trivy-compromise-act-ii/
 - Aikido: https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise
+- StepSecurity: https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions

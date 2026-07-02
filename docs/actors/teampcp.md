@@ -76,6 +76,8 @@ Trend Micro's May 2026 TeamPCP analysis, which tracks the cluster as `SHADOW-WAT
 - The `elementary-data` payload used a Python `.pth` startup hook rather than a package import path, meaning interpreter startup on affected hosts could trigger credential theft. It also used reachable AWS credentials for live Secrets Manager and SSM enumeration, including `secretsmanager:ListSecrets`, `secretsmanager:GetSecretValue`, and `ssm:DescribeParameters`.
 - Trend Micro identifies a reused Session messenger identifier as the XOR seed across LiteLLM, Xinference, and `elementary-data`, plus Dune-themed staging repositories and branded exfiltration headers, as cross-campaign markers. It keeps actor identity, geography, and state affiliation low confidence.
 
+StepSecurity's July 2026 retrospective links the KICS action compromise back to the same TeamPCP playbook used against Trivy: malicious GitHub Action tags, imposter commits, runner-memory credential theft from `Runner.Worker`, and exfiltration from CI runners. The useful actor-level signal is not a single product target but a repeated preference for mutating trusted release/action references that many downstream workflows execute automatically.
+
 ## Extortion ecosystem role
 Unit 42's May 27, 2026 cyber-extortion economy analysis adds an important monetization layer for TeamPCP / TGR-CRI-1135. Unit 42 says the actor has moved beyond credential theft and package compromise into data-theft monetization by partnering with extortion and ransomware operators.
 
@@ -155,6 +157,8 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Broad credential sweeps that read all environment variables, SSH material, Docker container env vars, Terraform state, Tailscale/WireGuard configs, Vault stores, AWS GovCloud regions, Azure Key Vault, GCP metadata/service-account flows, and Kubernetes credentials from the same short-lived Python process tree
 - GitHub Actions workflows that interpolate `github.event.comment.body`, issue titles, or other user-controlled event data directly into `run:` blocks, especially when the resulting job has write-scoped `GITHUB_TOKEN` permissions or can dispatch a release workflow
 - `elementary-data==0.23.3`, unexpected large `elementary.pth` files, Python startup-time outbound HTTPS, or CI/cloud identities making unusual `secretsmanager:ListSecrets`, `secretsmanager:GetSecretValue`, or `ssm:DescribeParameters` API calls
+- GitHub Actions tags that resolve to commits not present on a normal source-repository branch, especially for popular security/tooling actions; treat this **imposter commit** condition as a high-confidence supply-chain indicator
+- CI runner processes reading `/proc/*/mem` for `Runner.Worker`, and outbound POST attempts to `scan.aquasecurtiy[.]org` / `45.148.10[.]212` in Trivy-related investigations
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
@@ -193,3 +197,4 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [Hunt.io TeamPCP Python toolkit / FIRESCALE analysis](https://hunt.io/blog/teampcp-python-toolkit-firescale-github-c2-takedown)
 - [OX Security Telnyx PyPI compromise](https://www.ox.security/blog/telnyx-malware-teampcp-strikes-again-following-litellm-compromise/)
 - [Trend Micro TeamPCP KICS and elementary-data analysis](https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html)
+- [StepSecurity Trivy / TeamPCP defense-in-depth retrospective](https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions)
