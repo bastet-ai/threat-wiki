@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Avalon / CrownX malware framework: ops/avalon-crownx-malware-framework.md
       - Armored Likho BusySnake campaign: ops/armored-likho-busysnake-campaign.md
       - NetNut / Popa residential proxy network disruption: ops/netnut-popa-residential-proxy-network-disruption.md
       - ToddyCat Umbrij Gmail OAuth operation: ops/toddycat-umbrij-gmail-oauth.md
@@ -191,6 +192,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - CrownX: tools/crownx.md
       - BusySnake Stealer: tools/busysnake-stealer.md
       - PamStealer: tools/pamstealer.md
       - Umbrij: tools/umbrij.md
