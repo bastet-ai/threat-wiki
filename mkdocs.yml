@@ -189,6 +189,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - PamStealer: tools/pamstealer.md
       - Umbrij: tools/umbrij.md
       - ChocoPoC: tools/chocopoc.md
       - RustDuck: tools/rustduck.md

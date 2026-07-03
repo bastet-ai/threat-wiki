@@ -104,6 +104,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AppDomainManager](#appdomainmanager) (1)
 - [AppDomainManager injection](#appdomainmanager-injection) (2)
 - [AppleJeus](#applejeus) (1)
+- [AppleScript](#applescript) (1)
 - [AppleSeed](#appleseed) (1)
 - [appliance](#appliance) (1)
 - [application delivery controller](#application-delivery-controller) (1)
@@ -195,6 +196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Blackpoint Cyber](#blackpoint-cyber) (3)
 - [blockchain C2](#blockchain-c2) (3)
 - [blockchain dead drop](#blockchain-dead-drop) (1)
+- [blockchain RPC](#blockchain-rpc) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [Blogger abuse](#blogger-abuse) (1)
 - [blogspot staging](#blogspot-staging) (1)
@@ -211,7 +213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Broadcom](#broadcom) (1)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
-- [browser credential theft](#browser-credential-theft) (10)
+- [browser credential theft](#browser-credential-theft) (11)
 - [browser extension](#browser-extension) (6)
 - [browser hijacking](#browser-hijacking) (2)
 - [browser session abuse](#browser-session-abuse) (2)
@@ -296,7 +298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [clipboard hijacker](#clipboard-hijacker) (1)
 - [clipboard injection](#clipboard-injection) (1)
 - [clipboard stealer](#clipboard-stealer) (1)
-- [clipboard theft](#clipboard-theft) (3)
+- [clipboard theft](#clipboard-theft) (4)
 - [clipper](#clipper) (2)
 - [Cloaked Ursa](#cloaked-ursa) (1)
 - [cloaking](#cloaking) (1)
@@ -399,7 +401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptocurrency](#cryptocurrency) (11)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
 - [cryptocurrency theft](#cryptocurrency-theft) (4)
-- [cryptocurrency wallets](#cryptocurrency-wallets) (2)
+- [cryptocurrency wallets](#cryptocurrency-wallets) (3)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
 - [cryptomining](#cryptomining) (1)
@@ -721,6 +723,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fscan](#fscan) (1)
 - [FTA](#fta) (1)
 - [ftp.exe](#ftpexe) (1)
+- [Full Disk Access social engineering](#full-disk-access-social-engineering) (1)
 - [Funnull](#funnull) (1)
 - [Gamaredon](#gamaredon) (3)
 - [Gamaredon collaboration](#gamaredon-collaboration) (1)
@@ -863,7 +866,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [industrial control systems](#industrial-control-systems) (1)
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
-- [infostealer](#infostealer) (15)
+- [infostealer](#infostealer) (16)
 - [infrastructure](#infrastructure) (5)
 - [infrastructure disruption](#infrastructure-disruption) (2)
 - [initial access broker](#initial-access-broker) (2)
@@ -892,6 +895,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Italy targeting](#italy-targeting) (1)
 - [Ivanti Sentry](#ivanti-sentry) (1)
 - [JADEPUFFER](#jadepuffer) (1)
+- [Jamf Threat Labs](#jamf-threat-labs) (1)
 - [Japan](#japan) (1)
 - [JavaScript](#javascript) (11)
 - [JavaScript bridge](#javascript-bridge) (1)
@@ -919,6 +923,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JSONPing](#jsonping) (1)
 - [JSP web shell](#jsp-web-shell) (1)
 - [JuicyPotato](#juicypotato) (2)
+- [JXA downloader](#jxa-downloader) (1)
 - [K1MORPHER](#k1morpher) (2)
 - [Kaspersky](#kaspersky) (2)
 - [KAZUAR](#kazuar) (2)
@@ -996,6 +1001,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [localhost](#localhost) (1)
 - [log poisoning](#log-poisoning) (1)
 - [logging](#logging) (1)
+- [login item persistence](#login-item-persistence) (1)
 - [LOLBins](#lolbins) (2)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
@@ -1015,8 +1021,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lumen Black Lotus Labs](#lumen-black-lotus-labs) (1)
 - [Luna Moth](#luna-moth) (1)
 - [MacCMS](#maccms) (1)
+- [Maccy impersonation](#maccy-impersonation) (1)
 - [machine-learning](#machine-learning) (1)
-- [macOS](#macos) (8)
+- [macOS](#macos) (9)
 - [macOS malware](#macos-malware) (1)
 - [Magento](#magento) (1)
 - [MagicYUV](#magicyuv) (1)
@@ -1028,7 +1035,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (4)
-- [malware](#malware) (29)
+- [malware](#malware) (30)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (3)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
@@ -1239,6 +1246,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pakistan-linked](#pakistan-linked) (2)
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAM](#pam) (2)
+- [PAM credential validation](#pam-credential-validation) (1)
+- [PamStealer](#pamstealer) (1)
 - [PAN-OS](#pan-os) (1)
 - [parallel-intrusion](#parallel-intrusion) (1)
 - [password spray](#password-spray) (1)
@@ -1456,7 +1465,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian Intelligence Services](#russian-intelligence-services) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (7)
-- [Rust malware](#rust-malware) (1)
+- [Rust malware](#rust-malware) (2)
 - [S3 Browser](#s3-browser) (1)
 - [S3-compatible storage](#s3-compatible-storage) (1)
 - [s5cmd](#s5cmd) (1)
@@ -1698,7 +1707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (15)
+- [tools](#tools) (16)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
@@ -2306,6 +2315,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AppleJeus
 - [RemotePE](../tools/remotepe.md)
 
+## AppleScript
+- [PamStealer](../tools/pamstealer.md)
+
 ## AppleSeed
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -2620,6 +2632,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## blockchain dead drop
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
+## blockchain RPC
+- [PamStealer](../tools/pamstealer.md)
+
 ## blockchain-dead-drop
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 
@@ -2683,6 +2698,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+- [PamStealer](../tools/pamstealer.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
@@ -3051,6 +3067,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## clipboard theft
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+- [PamStealer](../tools/pamstealer.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
@@ -3519,6 +3536,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cryptocurrency wallets
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
+- [PamStealer](../tools/pamstealer.md)
 
 ## cryptojacking
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -4690,6 +4708,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ftp.exe
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 
+## Full Disk Access social engineering
+- [PamStealer](../tools/pamstealer.md)
+
 ## Funnull
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -5238,6 +5259,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [PamStealer](../tools/pamstealer.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -5346,6 +5368,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JADEPUFFER
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
+## Jamf Threat Labs
+- [PamStealer](../tools/pamstealer.md)
+
 ## Japan
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -5440,6 +5465,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JuicyPotato
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
+
+## JXA downloader
+- [PamStealer](../tools/pamstealer.md)
 
 ## K1MORPHER
 - [STOCKSTAY](../tools/stockstay.md)
@@ -5732,6 +5760,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## logging
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
+## login item persistence
+- [PamStealer](../tools/pamstealer.md)
+
 ## LOLBins
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -5790,6 +5821,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MacCMS
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## Maccy impersonation
+- [PamStealer](../tools/pamstealer.md)
+
 ## machine-learning
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
@@ -5802,6 +5836,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [PamStealer](../tools/pamstealer.md)
 
 ## macOS malware
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
@@ -5855,6 +5890,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+- [PamStealer](../tools/pamstealer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [RemotePE](../tools/remotepe.md)
 - [RustDuck](../tools/rustduck.md)
@@ -6996,6 +7032,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Velvet Ant](../actors/velvet-ant.md)
 
+## PAM credential validation
+- [PamStealer](../tools/pamstealer.md)
+
+## PamStealer
+- [PamStealer](../tools/pamstealer.md)
+
 ## PAN-OS
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
@@ -7876,6 +7918,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Rust malware
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+- [PamStealer](../tools/pamstealer.md)
 
 ## S3 Browser
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -8819,6 +8862,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [MYRA RAT](../tools/myra-rat.md)
+- [PamStealer](../tools/pamstealer.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
 - [RustDuck](../tools/rustduck.md)
