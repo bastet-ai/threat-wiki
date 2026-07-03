@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - ToddyCat Umbrij Gmail OAuth operation: ops/toddycat-umbrij-gmail-oauth.md
       - JADEPUFFER Langflow agentic ransomware: ops/jadepuffer-langflow-agentic-ransomware.md
       - Adobe ColdFusion APSB26-68 CVE bonanza: ops/adobe-coldfusion-apsb26-68-cve-bonanza.md
       - ChocoPoC fake PoC supply-chain campaign: ops/chocopoc-fake-poc-supply-chain-campaign.md
@@ -187,6 +188,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - Umbrij: tools/umbrij.md
       - ChocoPoC: tools/chocopoc.md
       - RustDuck: tools/rustduck.md
       - TaskWeaver: tools/taskweaver.md
@@ -204,6 +206,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - ToddyCat: actors/toddycat.md
       - Mustang Panda: actors/mustang-panda.md
       - Turla: actors/turla.md
       - CL-STA-1062: actors/cl-sta-1062.md

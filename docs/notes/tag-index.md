@@ -3,8 +3,8 @@
 Generated from page-level `## Tags` sections. Each tag below links to the pages that currently use it.
 
 ## All tags
-- [.NET](#net) (4)
-- [.NET malware](#net-malware) (2)
+- [.NET](#net) (5)
+- [.NET malware](#net-malware) (3)
 - [.pth](#pth) (1)
 - [/accessv2](#accessv2) (1)
 - [146.70.139.154](#14670139154) (1)
@@ -27,7 +27,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (4)
-- [actors](#actors) (6)
+- [actors](#actors) (7)
 - [ad blocker](#ad-blocker) (1)
 - [ad fraud](#ad-fraud) (1)
 - [Adaptix C2](#adaptix-c2) (1)
@@ -108,7 +108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [appliance](#appliance) (1)
 - [application delivery controller](#application-delivery-controller) (1)
 - [APSB26-68](#apsb26-68) (1)
-- [APT](#apt) (4)
+- [APT](#apt) (5)
 - [APT27](#apt27) (1)
 - [APT28](#apt28) (1)
 - [APT29](#apt29) (1)
@@ -131,6 +131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Artifact Signing](#artifact-signing) (1)
 - [AryStinger](#arystinger) (1)
 - [AS32167](#as32167) (1)
+- [Asia targeting](#asia-targeting) (1)
 - [ASNs](#asns) (1)
 - [ASP.NET](#aspnet) (2)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
@@ -212,6 +213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser credential theft](#browser-credential-theft) (10)
 - [browser extension](#browser-extension) (6)
 - [browser hijacking](#browser-hijacking) (2)
+- [browser session abuse](#browser-session-abuse) (2)
 - [browser session risk](#browser-session-risk) (3)
 - [browser zero-day](#browser-zero-day) (1)
 - [browser-credential-theft](#browser-credential-theft) (1)
@@ -260,11 +262,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-speaking operator](#chinese-speaking-operator) (1)
 - [Chisel](#chisel) (3)
 - [ChocoPoC](#chocopoc) (1)
+- [Chrome](#chrome) (2)
 - [Chrome extension](#chrome-extension) (1)
 - [Chrome Web Store](#chrome-web-store) (4)
 - [chrome_settings_overrides](#chrome_settings_overrides) (1)
 - [ChromElevator](#chromelevator) (1)
-- [Chromium](#chromium) (2)
+- [Chromium](#chromium) (5)
 - [Chromium extension](#chromium-extension) (1)
 - [CI-CD](#ci-cd) (2)
 - [CI/CD](#cicd) (35)
@@ -351,6 +354,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Conditional Access](#conditional-access) (1)
 - [configuration theft](#configuration-theft) (1)
 - [confused deputy](#confused-deputy) (1)
+- [ConfuserEx](#confuserex) (2)
 - [ConnectWise](#connectwise) (1)
 - [consumer devices](#consumer-devices) (1)
 - [Contagious Interview](#contagious-interview) (3)
@@ -376,7 +380,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (28)
+- [credential theft](#credential-theft) (29)
 - [credential-theft](#credential-theft) (50)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
@@ -544,6 +548,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer-workstations](#developer-workstations) (2)
 - [device registration](#device-registration) (1)
 - [device-code phishing](#device-code-phishing) (1)
+- [DevTools](#devtools) (1)
 - [DEWMODE](#dewmode) (1)
 - [DIAMONDBACK](#diamondback) (2)
 - [Digital Knowledge](#digital-knowledge) (1)
@@ -557,7 +562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [discovery](#discovery) (1)
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL side-loading](#dll-side-loading) (3)
-- [DLL sideloading](#dll-sideloading) (11)
+- [DLL sideloading](#dll-sideloading) (14)
 - [DNS C2](#dns-c2) (2)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (1)
@@ -607,6 +612,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [email exfiltration](#email-exfiltration) (1)
 - [email gateway](#email-gateway) (1)
 - [email infrastructure abuse](#email-infrastructure-abuse) (1)
+- [email theft](#email-theft) (3)
 - [Emerald Sleet](#emerald-sleet) (1)
 - [encrypted C2](#encrypted-c2) (1)
 - [endpoint management](#endpoint-management) (1)
@@ -629,11 +635,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ERP](#erp) (1)
 - [eSentire TRU](#esentire-tru) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (40)
+- [espionage](#espionage) (42)
 - [EtherHiding](#etherhiding) (1)
 - [ETW patching](#etw-patching) (1)
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
+- [Europe targeting](#europe-targeting) (1)
 - [Europol](#europol) (2)
 - [evasion](#evasion) (1)
 - [Everest Forms Pro](#everest-forms-pro) (1)
@@ -745,6 +752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gleaming Pisces](#gleaming-pisces) (1)
 - [gleeze.com](#gleezecom) (1)
 - [GlobalProtect](#globalprotect) (1)
+- [Gmail](#gmail) (3)
 - [Go](#go) (4)
 - [Go modules](#go-modules) (1)
 - [Godzilla](#godzilla) (1)
@@ -754,6 +762,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GOLD PRELUDE](#gold-prelude) (1)
 - [Google Ads](#google-ads) (1)
 - [Google Analytics telemetry](#google-analytics-telemetry) (1)
+- [Google API](#google-api) (3)
 - [Google Chrome](#google-chrome) (1)
 - [Google Cloud](#google-cloud) (1)
 - [Google Cloud Logging](#google-cloud-logging) (1)
@@ -791,6 +800,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hard-coded secrets](#hard-coded-secrets) (1)
 - [HashiCorp Vault](#hashicorp-vault) (1)
 - [HavocKiller](#havockiller) (1)
+- [headless browser](#headless-browser) (2)
 - [healthcare](#healthcare) (2)
 - [HelloDoor](#hellodoor) (1)
 - [HellsGate](#hellsgate) (1)
@@ -1013,7 +1023,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (4)
-- [malware](#malware) (28)
+- [malware](#malware) (29)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (3)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
@@ -1057,6 +1067,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
 - [Microsoft dev tunnels](#microsoft-dev-tunnels) (2)
 - [Microsoft Digital Crimes Unit](#microsoft-digital-crimes-unit) (1)
+- [Microsoft Edge](#microsoft-edge) (2)
 - [Microsoft Edge Add-ons](#microsoft-edge-add-ons) (1)
 - [Microsoft Edge Extensions Security Team](#microsoft-edge-extensions-security-team) (1)
 - [Microsoft Entra ID](#microsoft-entra-id) (1)
@@ -1159,6 +1170,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nuitka](#nuitka) (1)
 - [NVGRE](#nvgre) (1)
 - [OAuth](#oauth) (4)
+- [OAuth abuse](#oauth-abuse) (3)
 - [OAuth token abuse](#oauth-token-abuse) (1)
 - [OAuth token exposure](#oauth-token-exposure) (1)
 - [OAuth tokens](#oauth-tokens) (2)
@@ -1183,7 +1195,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVPN](#openvpn) (1)
 - [OpenVPN-shaped UDP](#openvpn-shaped-udp) (1)
 - [OpenVSX](#openvsx) (1)
-- [operation](#operation) (1)
+- [operation](#operation) (2)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Endgame](#operation-endgame) (1)
 - [Operation Highland](#operation-highland) (2)
@@ -1191,7 +1203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (174)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (176)
+- [ops](#ops) (177)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1388,6 +1400,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access](#remote-access) (5)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (9)
+- [remote debugging](#remote-debugging) (2)
 - [remote script injection](#remote-script-injection) (1)
 - [remote support](#remote-support) (1)
 - [remote-access](#remote-access) (1)
@@ -1595,6 +1608,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2603](#storm-2603) (1)
 - [Storm-2697](#storm-2697) (1)
 - [Storm-3075](#storm-3075) (1)
+- [STRD](#strd) (3)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [subject claim](#subject-claim) (1)
@@ -1662,6 +1676,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyGo](#tinygo) (1)
 - [TinyRCT](#tinyrct) (3)
 - [tj-actions](#tj-actions) (1)
+- [ToddyCat](#toddycat) (3)
 - [token forgery](#token-forgery) (1)
 - [token replay](#token-replay) (1)
 - [token theft](#token-theft) (2)
@@ -1672,7 +1687,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (14)
+- [tools](#tools) (15)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
@@ -1710,6 +1725,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ukraine](#ukraine) (9)
 - [Ukraine targeting](#ukraine-targeting) (3)
 - [UltraVNC](#ultravnc) (1)
+- [Umbrij](#umbrij) (3)
 - [unauthenticated access](#unauthenticated-access) (1)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
 - [unauthenticated RCE](#unauthenticated-rce) (3)
@@ -1883,9 +1899,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [STOCKSTAY](../tools/stockstay.md)
 - [TinyRCT](../tools/tinyrct.md)
+- [Umbrij](../tools/umbrij.md)
 
 ## .NET malware
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
 ## .pth
@@ -1997,6 +2015,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda](../actors/mustang-panda.md)
 - [OP-512](../actors/op-512.md)
 - [TA4922](../actors/ta4922.md)
+- [ToddyCat](../actors/toddycat.md)
 - [Webworm](../actors/webworm.md)
 
 ## ad blocker
@@ -2292,6 +2311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Screening Serpens](../actors/screening-serpens.md)
+- [ToddyCat](../actors/toddycat.md)
 
 ## APT27
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -2362,6 +2382,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AS32167
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+
+## Asia targeting
+- [ToddyCat](../actors/toddycat.md)
 
 ## ASNs
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
@@ -2662,6 +2685,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
+## browser session abuse
+- [ToddyCat](../actors/toddycat.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+
 ## browser session risk
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
@@ -2839,6 +2866,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ChocoPoC
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 
+## Chrome
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
+
 ## Chrome extension
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
@@ -2857,6 +2888,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Chromium
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+- [ToddyCat](../actors/toddycat.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
 
 ## Chromium extension
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
@@ -3229,6 +3263,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## confused deputy
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
+## ConfuserEx
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
+
 ## ConnectWise
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
@@ -3339,6 +3377,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
+- [Umbrij](../tools/umbrij.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
@@ -3988,6 +4027,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## device-code phishing
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
+## DevTools
+- [Umbrij](../tools/umbrij.md)
+
 ## DEWMODE
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
@@ -4046,6 +4088,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
+- [ToddyCat](../actors/toddycat.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
 
 ## DNS C2
 - [OP-512](../actors/op-512.md)
@@ -4214,6 +4259,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## email infrastructure abuse
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 
+## email theft
+- [ToddyCat](../actors/toddycat.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
+
 ## Emerald Sleet
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -4318,6 +4368,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](../actors/sidecopy.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+- [ToddyCat](../actors/toddycat.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Turla](../actors/turla.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 - [UNC6508](../actors/unc6508.md)
@@ -4340,6 +4392,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Webworm](../actors/webworm.md)
+
+## Europe targeting
+- [ToddyCat](../actors/toddycat.md)
 
 ## Europol
 - [First VPN](../tools/first-vpn.md)
@@ -4752,6 +4807,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GlobalProtect
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
+## Gmail
+- [ToddyCat](../actors/toddycat.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
+
 ## Go
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -4781,6 +4841,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Google Analytics telemetry
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
+## Google API
+- [ToddyCat](../actors/toddycat.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
 
 ## Google Chrome
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
@@ -4916,6 +4981,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HavocKiller
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## headless browser
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
 
 ## healthcare
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
@@ -5768,6 +5837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](../actors/teampcp.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [TinyRCT](../tools/tinyrct.md)
+- [Umbrij](../tools/umbrij.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## malware analysis
@@ -5930,6 +6000,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Microsoft Digital Crimes Unit
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
+## Microsoft Edge
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
 
 ## Microsoft Edge Add-ons
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
@@ -6322,6 +6396,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
+## OAuth abuse
+- [ToddyCat](../actors/toddycat.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
+
 ## OAuth token abuse
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
@@ -6408,6 +6487,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## operation
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 
 ## Operation DangerousPassword
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -6764,6 +6844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -7580,6 +7661,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
+## remote debugging
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
+
 ## remote script injection
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
@@ -8310,6 +8395,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Storm-3075
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
+## STRD
+- [ToddyCat](../actors/toddycat.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
+
 ## STUN
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -8630,6 +8720,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tj-actions
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## ToddyCat
+- [ToddyCat](../actors/toddycat.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
+
 ## token forgery
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
@@ -8681,6 +8776,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TaskWeaver](../tools/taskweaver.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [TinyRCT](../tools/tinyrct.md)
+- [Umbrij](../tools/umbrij.md)
 
 ## Tor
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -8825,6 +8921,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UltraVNC
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
+## Umbrij
+- [ToddyCat](../actors/toddycat.md)
+- [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Umbrij](../tools/umbrij.md)
 
 ## unauthenticated access
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
