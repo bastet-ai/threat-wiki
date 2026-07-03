@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Citrix NetScaler CVE-2026-8451 memory overread](ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [Armored Likho BusySnake campaign](ops/armored-likho-busysnake-campaign.md)
 - [BusySnake Stealer](tools/busysnake-stealer.md)
 - [Armored Likho](actors/armored-likho.md)

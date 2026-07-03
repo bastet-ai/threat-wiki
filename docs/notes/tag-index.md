@@ -286,8 +286,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM](#cisco-unified-cm) (1)
 - [Cisco Unified Communications Manager](#cisco-unified-communications-manager) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
-- [Citrix](#citrix) (1)
+- [Citrix](#citrix) (2)
 - [Citrix NetScaler](#citrix-netscaler) (1)
+- [CitrixBleed](#citrixbleed) (1)
 - [CitrixBleed 2](#citrixbleed-2) (1)
 - [CKEditor file manager](#ckeditor-file-manager) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
@@ -497,6 +498,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-54420](#cve-2026-54420) (1)
 - [CVE-2026-7473](#cve-2026-7473) (1)
 - [CVE-2026-8037](#cve-2026-8037) (1)
+- [CVE-2026-8451](#cve-2026-8451) (1)
 - [CVE-2026-8461](#cve-2026-8461) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
@@ -536,7 +538,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
 - [delayed execution](#delayed-execution) (1)
-- [denial of service](#denial-of-service) (2)
+- [denial of service](#denial-of-service) (3)
 - [Deno](#deno) (2)
 - [dependency confusion](#dependency-confusion) (1)
 - [deployment_status](#deployment_status) (1)
@@ -605,7 +607,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Earth Lusca](#earth-lusca) (2)
 - [eBPF](#ebpf) (2)
 - [Eclipse](#eclipse) (1)
-- [edge appliance](#edge-appliance) (8)
+- [edge appliance](#edge-appliance) (9)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (1)
@@ -1071,6 +1073,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [medical research](#medical-research) (1)
 - [Mekotio](#mekotio) (1)
 - [memfd](#memfd) (1)
+- [memory disclosure](#memory-disclosure) (1)
+- [memory overread](#memory-overread) (1)
 - [memory poisoning](#memory-poisoning) (1)
 - [memory-only malware](#memory-only-malware) (1)
 - [MeshAgent](#meshagent) (1)
@@ -1160,9 +1164,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Neo-reGeorg](#neo-regeorg) (1)
 - [Netherlands](#netherlands) (1)
 - [NetNut](#netnut) (1)
-- [NetScaler](#netscaler) (1)
-- [NetScaler ADC](#netscaler-adc) (1)
-- [NetScaler Gateway](#netscaler-gateway) (1)
+- [NetScaler](#netscaler) (2)
+- [NetScaler ADC](#netscaler-adc) (2)
+- [NetScaler Gateway](#netscaler-gateway) (2)
 - [network infrastructure](#network-infrastructure) (1)
 - [network policies](#network-policies) (1)
 - [Nextcloud](#nextcloud) (1)
@@ -1224,9 +1228,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (175)
+- [operations](#operations) (176)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (178)
+- [ops](#ops) (179)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1332,7 +1336,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PRC-aligned](#prc-aligned) (1)
 - [PRC-nexus](#prc-nexus) (1)
 - [pre-auth RCE](#pre-auth-rce) (1)
-- [pre-authentication](#pre-authentication) (1)
+- [pre-authentication](#pre-authentication) (2)
 - [preinstall](#preinstall) (2)
 - [Primitive Bear](#primitive-bear) (1)
 - [PrincessClub](#princessclub) (1)
@@ -1426,7 +1430,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [registry-controls](#registry-controls) (1)
 - [release automation](#release-automation) (1)
 - [release tampering](#release-tampering) (1)
-- [remote access](#remote-access) (5)
+- [remote access](#remote-access) (6)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (9)
 - [remote debugging](#remote-debugging) (2)
@@ -1488,6 +1492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Safari](#safari) (1)
 - [SafeDep](#safedep) (2)
 - [Salesforce](#salesforce) (2)
+- [SAML IdP](#saml-idp) (1)
 - [sandboxing](#sandboxing) (1)
 - [scam infrastructure](#scam-infrastructure) (1)
 - [scambling](#scambling) (1)
@@ -1528,6 +1533,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [service-agent](#service-agent) (1)
 - [ServiceNow](#servicenow) (1)
 - [session hijacking](#session-hijacking) (2)
+- [session secret exposure](#session-secret-exposure) (1)
 - [session theft](#session-theft) (1)
 - [session token theft](#session-token-theft) (1)
 - [SHADOW-AETHER-040](#shadow-aether-040) (1)
@@ -1821,7 +1827,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMware](#vmware) (2)
 - [VNT](#vnt) (2)
 - [Volt Typhoon](#volt-typhoon) (1)
-- [VPN](#vpn) (4)
+- [VPN](#vpn) (5)
 - [VPN gateway](#vpn-gateway) (1)
 - [VPN Go](#vpn-go) (1)
 - [VPN session hijacking](#vpn-session-hijacking) (1)
@@ -1829,7 +1835,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
-- [vulnerability](#vulnerability) (12)
+- [vulnerability](#vulnerability) (13)
 - [vulnerability research](#vulnerability-research) (2)
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
@@ -1843,7 +1849,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet-theft](#wallet-theft) (3)
 - [Wasabi](#wasabi) (2)
 - [watchdog](#watchdog) (1)
-- [watchTowr](#watchtowr) (2)
+- [watchTowr](#watchtowr) (3)
 - [watering hole](#watering-hole) (1)
 - [watering-hole](#watering-hole) (2)
 - [weak passwords](#weak-passwords) (1)
@@ -3043,10 +3049,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 
 ## Citrix
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## Citrix NetScaler
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
+## CitrixBleed
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 
 ## CitrixBleed 2
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -3860,6 +3870,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-8037
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
+## CVE-2026-8451
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+
 ## CVE-2026-8461
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
@@ -4010,6 +4023,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 
 ## denial of service
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
@@ -4283,6 +4297,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -6061,6 +6076,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## memfd
 - [MYRA RAT](../tools/myra-rat.md)
 
+## memory disclosure
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+
+## memory overread
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+
 ## memory poisoning
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 
@@ -6376,13 +6397,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## NetScaler
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## NetScaler ADC
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 
 ## NetScaler Gateway
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 
 ## network infrastructure
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -6680,6 +6704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
@@ -6861,6 +6886,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
@@ -7426,6 +7452,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## pre-authentication
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## preinstall
@@ -7804,6 +7831,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 
 ## remote access
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
@@ -8035,6 +8063,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
+## SAML IdP
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+
 ## sandboxing
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
@@ -8175,6 +8206,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## session hijacking
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+
+## session secret exposure
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 
 ## session theft
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -9321,6 +9355,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VPN
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [First VPN](../tools/first-vpn.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
@@ -9358,6 +9393,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
@@ -9416,6 +9452,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## watchTowr
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+- [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## watering hole
