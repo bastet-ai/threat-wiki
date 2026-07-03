@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Linux Bad Epoll CVE-2026-46242 local privilege escalation](ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Avalon / CrownX malware framework](ops/avalon-crownx-malware-framework.md)
 - [CrownX](tools/crownx.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](ops/citrix-netscaler-cve-2026-8451-memory-overread.md)

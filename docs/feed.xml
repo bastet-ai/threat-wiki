@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Linux Bad Epoll CVE-2026-46242 local privilege escalation</title>
+      <link>https://threat.wiki/ops/linux-bad-epoll-cve-2026-46242-lpe/</link>
+      <description>Added coverage for Bad Epoll CVE-2026-46242: a Linux kernel epoll/eventpoll race-condition use-after-free with public exploit material, kernelCTF exploitation context, Android-rooting relevance, Chrome renderer-sandbox chaining potential, and a Linux stable patch reference. The page captures defender guidance for kernel patch validation, reboot requirements, untrusted local-code exposure, CI/developer/container-host prioritization, and AI-era vulnerability-family closure caveats after Mythos found a sibling epoll race but missed Bad Epoll.</description>
+      <pubDate>Fri, 03 Jul 2026 21:26:59 GMT</pubDate>
+      <guid>https://threat.wiki/ops/linux-bad-epoll-cve-2026-46242-lpe/</guid>
+    </item>
+    <item>
       <title>Citrix NetScaler CVE-2026-8451 memory overread</title>
       <link>https://threat.wiki/ops/citrix-netscaler-cve-2026-8451-memory-overread/</link>
       <description>Added watchTowr Labs coverage of Citrix NetScaler CVE-2026-8451: a pre-authentication memory-overread issue in NetScaler ADC / Gateway SAML IdP configurations, patched June 30, 2026. The page captures affected branches, /saml/login and AuthnRequest parsing exposure, nsppe crash / denial-of-service risk, public validation-tooling urgency, and defender guidance for patching, SAML endpoint review, session invalidation, evidence preservation, and CitrixBleed-class runbooks.</description>

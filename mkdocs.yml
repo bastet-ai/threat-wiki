@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Linux Bad Epoll CVE-2026-46242 local privilege escalation: ops/linux-bad-epoll-cve-2026-46242-lpe.md
       - Avalon / CrownX malware framework: ops/avalon-crownx-malware-framework.md
       - Armored Likho BusySnake campaign: ops/armored-likho-busysnake-campaign.md
       - NetNut / Popa residential proxy network disruption: ops/netnut-popa-residential-proxy-network-disruption.md
