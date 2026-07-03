@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Armored Likho BusySnake campaign</title>
+      <link>https://threat.wiki/ops/armored-likho-busysnake-campaign/</link>
+      <description>Added Kaspersky Securelist coverage of Armored Likho's active BusySnake Stealer campaign: spear-phishing archives against government and electric-power-sector targets in Russia, Kazakhstan, and Brazil; EXE and LNK first stages; AI-looking loader code; GitHub-hosted Python 3.12 / PyArmor payload staging; WindowsHelper scheduled-task persistence; browser credential and cookie theft; document, screenshot, clipboard, and key-string collection; and built-in reverse SSH tunneling.</description>
+      <pubDate>Fri, 03 Jul 2026 13:26:45 GMT</pubDate>
+      <guid>https://threat.wiki/ops/armored-likho-busysnake-campaign/</guid>
+    </item>
+    <item>
       <title>NetNut / Popa residential proxy network disruption</title>
       <link>https://threat.wiki/ops/netnut-popa-residential-proxy-network-disruption/</link>
       <description>Added Google Cloud / GTIG coverage of the NetNut / Popa residential proxy network disruption. The page captures Google's coordinated action with the FBI, Lumen, and partners; disabled Google-account C2 and Play Protect enforcement against NetNut SDK applications; GTIG estimates of at least 2 million devices; 316 distinct threat clusters observed using suspected NetNut exit nodes in one June 2026 week; Badbox 2.0 / Mirai-family context; reseller-capacity migration risk; and defender guidance for residential-proxy abuse, credential attacks, platform fraud controls, and consumer IoT exposure.</description>

@@ -3,6 +3,9 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
+- [BusySnake Stealer](../tools/busysnake-stealer.md)
+- [Armored Likho](../actors/armored-likho.md)
 - [PamStealer](../tools/pamstealer.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)

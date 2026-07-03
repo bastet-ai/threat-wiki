@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Armored Likho BusySnake campaign: ops/armored-likho-busysnake-campaign.md
       - NetNut / Popa residential proxy network disruption: ops/netnut-popa-residential-proxy-network-disruption.md
       - ToddyCat Umbrij Gmail OAuth operation: ops/toddycat-umbrij-gmail-oauth.md
       - JADEPUFFER Langflow agentic ransomware: ops/jadepuffer-langflow-agentic-ransomware.md
@@ -189,6 +190,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - BusySnake Stealer: tools/busysnake-stealer.md
       - PamStealer: tools/pamstealer.md
       - Umbrij: tools/umbrij.md
       - ChocoPoC: tools/chocopoc.md
@@ -208,6 +210,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - Armored Likho: actors/armored-likho.md
       - ToddyCat: actors/toddycat.md
       - Mustang Panda: actors/mustang-panda.md
       - Turla: actors/turla.md
