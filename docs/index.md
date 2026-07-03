@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [NetNut / Popa residential proxy network disruption](ops/netnut-popa-residential-proxy-network-disruption.md)
 - [ToddyCat Umbrij Gmail OAuth operation](ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](tools/umbrij.md)
 - [ToddyCat](actors/toddycat.md)

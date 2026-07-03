@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>NetNut / Popa residential proxy network disruption</title>
+      <link>https://threat.wiki/ops/netnut-popa-residential-proxy-network-disruption/</link>
+      <description>Added Google Cloud / GTIG coverage of the NetNut / Popa residential proxy network disruption. The page captures Google's coordinated action with the FBI, Lumen, and partners; disabled Google-account C2 and Play Protect enforcement against NetNut SDK applications; GTIG estimates of at least 2 million devices; 316 distinct threat clusters observed using suspected NetNut exit nodes in one June 2026 week; Badbox 2.0 / Mirai-family context; reseller-capacity migration risk; and defender guidance for residential-proxy abuse, credential attacks, platform fraud controls, and consumer IoT exposure.</description>
+      <pubDate>Fri, 03 Jul 2026 03:27:29 GMT</pubDate>
+      <guid>https://threat.wiki/ops/netnut-popa-residential-proxy-network-disruption/</guid>
+    </item>
+    <item>
       <title>ToddyCat Umbrij Gmail OAuth operation</title>
       <link>https://threat.wiki/ops/toddycat-umbrij-gmail-oauth/</link>
       <description>Added Kaspersky Securelist coverage of ToddyCat's Umbrij tool and Shadow Token via Remote Debug technique. The page captures Gmail access through Google API OAuth flows, headless Chrome/Edge launches against copied browser profiles, DevTools remote-debugging abuse, fake KasperskyEndpointSecurityEDRAvp scheduled-task masquerading, DLL sideloading through BDSubWiz.exe / VSTestVideoRecorder.exe / GoogleDesktop.exe, and defender pivots for endpoint plus Google Workspace OAuth telemetry.</description>

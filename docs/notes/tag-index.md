@@ -87,7 +87,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amadey](#amadey) (1)
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [AMSI bypass](#amsi-bypass) (2)
-- [Android](#android) (4)
+- [Android](#android) (5)
 - [Android ADB](#android-adb) (1)
 - [Android Debug Bridge](#android-debug-bridge) (1)
 - [Android spyware](#android-spyware) (1)
@@ -170,6 +170,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [backup targeting](#backup-targeting) (1)
 - [backups](#backups) (1)
 - [BadBlocker](#badblocker) (1)
+- [Badbox 2.0](#badbox-20) (1)
 - [Banana RAT](#banana-rat) (1)
 - [banking](#banking) (1)
 - [banking malware](#banking-malware) (1)
@@ -198,7 +199,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Blogger abuse](#blogger-abuse) (1)
 - [blogspot staging](#blogspot-staging) (1)
 - [BLUEBEAM](#bluebeam) (1)
-- [botnet](#botnet) (5)
+- [botnet](#botnet) (6)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [brand impersonation](#brand-impersonation) (2)
@@ -357,6 +358,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConfuserEx](#confuserex) (2)
 - [ConnectWise](#connectwise) (1)
 - [consumer devices](#consumer-devices) (1)
+- [consumer IoT](#consumer-iot) (1)
 - [Contagious Interview](#contagious-interview) (3)
 - [container](#container) (1)
 - [container escape](#container-escape) (3)
@@ -376,6 +378,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (3)
 - [CrackMapExec](#crackmapexec) (1)
 - [Crates.io](#cratesio) (1)
+- [credential attacks](#credential-attacks) (1)
 - [credential exposure](#credential-exposure) (2)
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
@@ -677,7 +680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](#fast16) (1)
 - [FastAPI](#fastapi) (1)
 - [FastCGI](#fastcgi) (1)
-- [FBI](#fbi) (1)
+- [FBI](#fbi) (2)
 - [FFmpeg](#ffmpeg) (1)
 - [FIFA](#fifa) (1)
 - [file exfiltration](#file-exfiltration) (1)
@@ -771,9 +774,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Drive](#google-drive) (1)
 - [Google Notes](#google-notes) (1)
 - [Google Play](#google-play) (1)
+- [Google Play Protect](#google-play-protect) (1)
 - [Google redirect abuse](#google-redirect-abuse) (1)
 - [Google Stitch](#google-stitch) (1)
-- [Google Threat Intelligence Group](#google-threat-intelligence-group) (1)
+- [Google Threat Intelligence Group](#google-threat-intelligence-group) (2)
 - [Goose](#goose) (1)
 - [government](#government) (2)
 - [government targeting](#government-targeting) (8)
@@ -787,7 +791,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [gRPC](#grpc) (1)
 - [gs-netcat](#gs-netcat) (1)
 - [GS-Netcat](#gs-netcat) (1)
-- [GTIG](#gtig) (1)
+- [GTIG](#gtig) (2)
 - [GUE](#gue) (1)
 - [Guildma](#guildma) (1)
 - [hack-and-leak](#hack-and-leak) (1)
@@ -861,7 +865,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [infostealer](#infostealer) (15)
 - [infrastructure](#infrastructure) (5)
-- [infrastructure disruption](#infrastructure-disruption) (1)
+- [infrastructure disruption](#infrastructure-disruption) (2)
 - [initial access broker](#initial-access-broker) (2)
 - [initial-access](#initial-access) (3)
 - [input capture](#input-capture) (1)
@@ -1007,6 +1011,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LSHIY](#lshiy) (1)
 - [LSSC](#lssc) (1)
 - [Lua](#lua) (1)
+- [Lumen](#lumen) (1)
 - [Lumen Black Lotus Labs](#lumen-black-lotus-labs) (1)
 - [Luna Moth](#luna-moth) (1)
 - [MacCMS](#maccms) (1)
@@ -1089,7 +1094,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MINIRECON](#minirecon) (2)
 - [Ministry of Finance](#ministry-of-finance) (2)
 - [MiniUpdate](#miniupdate) (1)
-- [Mirai](#mirai) (2)
+- [Mirai](#mirai) (3)
 - [Mirai-derived botnet](#mirai-derived-botnet) (1)
 - [Mistic](#mistic) (1)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
@@ -1137,6 +1142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nebo](#nebo) (1)
 - [Neo-reGeorg](#neo-regeorg) (1)
 - [Netherlands](#netherlands) (1)
+- [NetNut](#netnut) (1)
 - [NetScaler](#netscaler) (1)
 - [NetScaler ADC](#netscaler-adc) (1)
 - [NetScaler Gateway](#netscaler-gateway) (1)
@@ -1235,6 +1241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAM](#pam) (2)
 - [PAN-OS](#pan-os) (1)
 - [parallel-intrusion](#parallel-intrusion) (1)
+- [password spray](#password-spray) (1)
 - [password spraying](#password-spraying) (2)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (2)
@@ -1288,6 +1295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket](#polymarket) (1)
 - [polymorphic loader](#polymorphic-loader) (1)
 - [polymorphic payloads](#polymorphic-payloads) (1)
+- [Popa](#popa) (1)
 - [portmap](#portmap) (1)
 - [Portugal](#portugal) (1)
 - [post-exploitation](#post-exploitation) (4)
@@ -1330,7 +1338,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Protobuf](#protobuf) (1)
 - [provenance](#provenance) (1)
 - [proxy](#proxy) (6)
-- [proxy network](#proxy-network) (1)
+- [proxy network](#proxy-network) (2)
 - [ProxyChains](#proxychains) (1)
 - [PSEMHUB](#psemhub) (1)
 - [PsExec](#psexec) (1)
@@ -1412,6 +1420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [repo-server](#repo-server) (1)
 - [repository poisoning](#repository-poisoning) (2)
 - [residential proxies](#residential-proxies) (1)
+- [residential proxy](#residential-proxy) (1)
 - [REST C2](#rest-c2) (1)
 - [restart-triggered execution](#restart-triggered-execution) (1)
 - [ReverseSocks](#reversesocks) (1)
@@ -1533,6 +1542,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sleeper packages](#sleeper-packages) (1)
 - [Sliver](#sliver) (2)
 - [SLSA](#slsa) (1)
+- [smart TVs](#smart-tvs) (1)
 - [SmartScreen](#smartscreen) (1)
 - [SMB](#smb) (1)
 - [SMB egress](#smb-egress) (1)
@@ -1609,6 +1619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2697](#storm-2697) (1)
 - [Storm-3075](#storm-3075) (1)
 - [STRD](#strd) (3)
+- [streaming boxes](#streaming-boxes) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [subject claim](#subject-claim) (1)
@@ -2243,6 +2254,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
 ## Android ADB
@@ -2527,6 +2539,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BadBlocker
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
+## Badbox 2.0
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
 ## Banana RAT
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
@@ -2621,6 +2636,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [RustDuck](../tools/rustduck.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
@@ -3273,6 +3289,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## consumer devices
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
+## consumer IoT
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
 ## Contagious Interview
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
@@ -3335,6 +3354,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Crates.io
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+
+## credential attacks
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## credential exposure
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -4531,6 +4553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FBI
 - [First VPN](../tools/first-vpn.md)
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## FFmpeg
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -4871,6 +4894,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Google Play
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
+## Google Play Protect
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
 ## Google redirect abuse
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 
@@ -4878,6 +4904,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 
 ## Google Threat Intelligence Group
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [UNC6508](../actors/unc6508.md)
 
 ## Goose
@@ -4943,6 +4970,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 
 ## GTIG
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [UNC6508](../actors/unc6508.md)
 
 ## GUE
@@ -5225,6 +5253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## infrastructure disruption
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## initial access broker
@@ -5749,6 +5778,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Lua
 - [Fast16](../tools/fast16.md)
 
+## Lumen
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
 ## Lumen Black Lotus Labs
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
@@ -6079,6 +6111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Mirai
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## Mirai-derived botnet
@@ -6236,6 +6269,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Netherlands
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
+## NetNut
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## NetScaler
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -6966,6 +7002,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## parallel-intrusion
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
+## password spray
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
 ## password spraying
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -7196,6 +7235,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## polymorphic payloads
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
+## Popa
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
 ## portmap
 - [Showboat](../tools/showboat.md)
 
@@ -7375,6 +7417,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## proxy network
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## ProxyChains
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -7698,6 +7741,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## residential proxies
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
+## residential proxy
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## REST C2
 - [GREYVIBE](../actors/greyvibe.md)
@@ -8125,6 +8171,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SLSA
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
+## smart TVs
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
 ## SmartScreen
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
@@ -8399,6 +8448,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat](../actors/toddycat.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
+
+## streaming boxes
+- [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## STUN
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
