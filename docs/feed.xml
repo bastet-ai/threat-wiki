@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster</title>
+      <link>https://threat.wiki/ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs/</link>
+      <description>Added runZero Research coverage of seven FatFs vulnerabilities affecting embedded and firmware stacks: CVE-2026-6682 FAT32 mount integer overflow, CVE-2026-6687 exFAT label stack overflow, CVE-2026-6688 downstream long-file-name wrapper overflows, CVE-2026-6685 dirty-cache arithmetic wrap, CVE-2026-6683 exFAT sync/write divide-by-zero, CVE-2026-6686 stale-data exposure, and CVE-2026-6684 GPT scan denial of service. The page captures removable-media and OTA-update reachability, public PoC/harness availability, affected ecosystem examples, and defender inventory/firmware-update hardening guidance.</description>
+      <pubDate>Sat, 04 Jul 2026 17:27:27 GMT</pubDate>
+      <guid>https://threat.wiki/ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs/</guid>
+    </item>
+    <item>
       <title>Kairos data-extortion government payment</title>
       <link>https://threat.wiki/ops/kairos-data-extortion-government-payment/</link>
       <description>Added Ransom-ISAC coverage of Kairos, a data-extortion actor that reportedly received a $1 million payment from a U.S. government body after claiming theft of more than 1.6 million files / 2 TB of data. The page captures the no-confirmed-encryptor caveat, $3 million initial demand, $100,000-to-$430,000 counteroffer path, roughly 9.44 BTC payment, Bybit / OKX / BELQI exchange-touchpoint leads, unverified brute-force access claim, non-verifiable proof-of-deletion warning, and public-sector defender guidance for evidence preservation, credential-root-cause analysis, and breach response.</description>

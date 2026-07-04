@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [Kairos data-extortion government payment](ops/kairos-data-extortion-government-payment.md)
 - [`@marketfront` / `@tqm-mfe` dependency-confusion stealer](ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](ops/linux-bad-epoll-cve-2026-46242-lpe.md)

@@ -82,6 +82,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
 - [AI-assisted malware](#ai-assisted-malware) (1)
+- [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
 - [AI-augmented operations](#ai-augmented-operations) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AI-generated narrator](#ai-generated-narrator) (1)
@@ -131,6 +132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [arbitrary JavaScript](#arbitrary-javascript) (1)
 - [Arch Linux](#arch-linux) (1)
 - [Arctic Wolf](#arctic-wolf) (1)
+- [ArduPilot](#ardupilot) (1)
 - [Argo CD](#argo-cd) (1)
 - [ArgoCD](#argocd) (1)
 - [Arista EOS](#arista-eos) (1)
@@ -348,6 +350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cluster compromise](#cluster-compromise) (1)
 - [CMS](#cms) (6)
 - [Cobalt Strike](#cobalt-strike) (5)
+- [code execution](#code-execution) (1)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
 - [Codecov](#codecov) (1)
@@ -512,6 +515,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-50752](#cve-2026-50752) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-54420](#cve-2026-54420) (1)
+- [CVE-2026-6682](#cve-2026-6682) (1)
+- [CVE-2026-6683](#cve-2026-6683) (1)
+- [CVE-2026-6684](#cve-2026-6684) (1)
+- [CVE-2026-6685](#cve-2026-6685) (1)
+- [CVE-2026-6686](#cve-2026-6686) (1)
+- [CVE-2026-6687](#cve-2026-6687) (1)
+- [CVE-2026-6688](#cve-2026-6688) (1)
 - [CVE-2026-7473](#cve-2026-7473) (1)
 - [CVE-2026-8037](#cve-2026-8037) (1)
 - [CVE-2026-8451](#cve-2026-8451) (1)
@@ -555,7 +565,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
 - [delayed execution](#delayed-execution) (1)
-- [denial of service](#denial-of-service) (3)
+- [denial of service](#denial-of-service) (4)
 - [Deno](#deno) (2)
 - [dependency confusion](#dependency-confusion) (2)
 - [deployment_status](#deployment_status) (1)
@@ -646,6 +656,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [email gateway](#email-gateway) (1)
 - [email infrastructure abuse](#email-infrastructure-abuse) (1)
 - [email theft](#email-theft) (3)
+- [embedded systems](#embedded-systems) (1)
 - [Emerald Sleet](#emerald-sleet) (1)
 - [encrypted C2](#encrypted-c2) (1)
 - [endpoint management](#endpoint-management) (1)
@@ -670,6 +681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [eSentire TRU](#esentire-tru) (1)
 - [ESG](#esg) (1)
 - [espionage](#espionage) (42)
+- [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [EtherHiding](#etherhiding) (1)
 - [ETW patching](#etw-patching) (1)
 - [ETW tampering](#etw-tampering) (1)
@@ -682,6 +694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro](#everest-forms-pro) (1)
 - [Evil Corp](#evil-corp) (1)
 - [EvilAI](#evilai) (1)
+- [exFAT](#exfat) (1)
 - [exfiltration](#exfiltration) (4)
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
@@ -713,6 +726,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](#fast16) (1)
 - [FastAPI](#fastapi) (1)
 - [FastCGI](#fastcgi) (1)
+- [FAT32](#fat32) (1)
+- [FatFs](#fatfs) (1)
 - [FBI](#fbi) (2)
 - [FFmpeg](#ffmpeg) (1)
 - [FIFA](#fifa) (1)
@@ -727,6 +742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fileless malware](#fileless-malware) (1)
 - [filemanager](#filemanager) (1)
 - [filename-injection](#filename-injection) (1)
+- [filesystem parser](#filesystem-parser) (1)
 - [finance](#finance) (2)
 - [financial fraud](#financial-fraud) (2)
 - [financial sector](#financial-sector) (3)
@@ -735,6 +751,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FireAnt MetaKit](#fireant-metakit) (1)
 - [Firefox Add-ons](#firefox-add-ons) (1)
 - [firewall](#firewall) (1)
+- [firmware](#firmware) (1)
+- [firmware update](#firmware-update) (1)
 - [FishMonger](#fishmonger) (1)
 - [FlexPLM](#flexplm) (1)
 - [Flutter](#flutter) (1)
@@ -818,6 +836,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [government](#government) (3)
 - [government targeting](#government-targeting) (10)
 - [government-impersonation](#government-impersonation) (1)
+- [GPT](#gpt) (1)
 - [Grandoreiro](#grandoreiro) (2)
 - [Gravity SMTP](#gravity-smtp) (1)
 - [GRE](#gre) (1)
@@ -899,6 +918,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [industrial control systems](#industrial-control-systems) (1)
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
+- [information disclosure](#information-disclosure) (1)
 - [infostealer](#infostealer) (19)
 - [infrastructure](#infrastructure) (5)
 - [infrastructure disruption](#infrastructure-disruption) (2)
@@ -915,7 +935,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [investment scam](#investment-scam) (1)
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
-- [IoT](#iot) (2)
+- [IoT](#iot) (3)
 - [IoT botnet](#iot-botnet) (3)
 - [IP-in-IP](#ip-in-ip) (1)
 - [IPsec](#ipsec) (1)
@@ -1093,12 +1113,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marketplace trust](#marketplace-trust) (1)
 - [Maven Central](#maven-central) (1)
 - [mawesome](#mawesome) (1)
+- [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (1)
 - [MCP](#mcp) (7)
 - [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
 - [Mekotio](#mekotio) (1)
 - [memfd](#memfd) (1)
+- [memory corruption](#memory-corruption) (1)
 - [memory disclosure](#memory-disclosure) (1)
 - [memory overread](#memory-overread) (1)
 - [memory poisoning](#memory-poisoning) (1)
@@ -1111,6 +1133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [Miasma](#miasma) (6)
+- [MicroPython](#micropython) (1)
 - [Microsoft](#microsoft) (6)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (3)
@@ -1259,15 +1282,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (180)
+- [operations](#operations) (181)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (183)
+- [ops](#ops) (184)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
 - [Oracle Payments](#oracle-payments) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
+- [OT](#ot) (1)
+- [OTA update](#ota-update) (1)
 - [OTP interception](#otp-interception) (1)
 - [Outlook](#outlook) (1)
 - [OX Security](#ox-security) (1)
@@ -1476,6 +1501,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Remotely](#remotely) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
+- [removable media](#removable-media) (1)
 - [Rentry](#rentry) (1)
 - [replication](#replication) (1)
 - [repo-server](#repo-server) (1)
@@ -1506,12 +1532,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [router malware](#router-malware) (1)
 - [RSA](#rsa) (1)
 - [RSA-2048](#rsa-2048) (1)
+- [RT-Thread](#rt-thread) (1)
 - [RTL819X](#rtl819x) (1)
 - [RubyGems](#rubygems) (2)
 - [rundll32](#rundll32) (1)
 - [Runner.Worker](#runnerworker) (1)
 - [runtime execution](#runtime-execution) (1)
 - [runtime mutation](#runtime-mutation) (1)
+- [runZero](#runzero) (1)
 - [Russia](#russia) (8)
 - [Russia-linked](#russia-linked) (3)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
@@ -1530,6 +1558,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SafeDep](#safedep) (3)
 - [Salesforce](#salesforce) (2)
 - [SAML IdP](#saml-idp) (1)
+- [Samsung TizenRT](#samsung-tizenrt) (1)
 - [sandboxing](#sandboxing) (1)
 - [scam infrastructure](#scam-infrastructure) (1)
 - [scambling](#scambling) (1)
@@ -1678,6 +1707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stealer](#stealer) (2)
 - [steganography](#steganography) (1)
 - [StegoAd](#stegoad) (1)
+- [STM32Cube](#stm32cube) (1)
 - [stock exchange](#stock-exchange) (1)
 - [STOCKSTAY](#stockstay) (3)
 - [storage deletion](#storage-deletion) (1)
@@ -1695,6 +1725,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (81)
 - [SWE-agent](#swe-agent) (1)
+- [SWUpdate](#swupdate) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (1)
 - [symlink following](#symlink-following) (1)
 - [Synacktiv](#synacktiv) (1)
@@ -1874,7 +1905,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
-- [vulnerability](#vulnerability) (14)
+- [vulnerability](#vulnerability) (15)
 - [vulnerability research](#vulnerability-research) (2)
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
@@ -1965,6 +1996,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [yuze](#yuze) (2)
 - [ZAPiXDESK](#zapixdesk) (1)
 - [Zendesk](#zendesk) (1)
+- [Zephyr RTOS](#zephyr-rtos) (1)
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
 - [zero-day](#zero-day) (3)
@@ -2304,6 +2336,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI-assisted malware
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 
+## AI-assisted vulnerability discovery
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## AI-augmented operations
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
@@ -2468,6 +2503,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Arctic Wolf
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
+## ArduPilot
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## Argo CD
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
@@ -3332,6 +3370,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 
+## code execution
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## code sandbox scraping
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
@@ -3965,6 +4006,27 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-54420
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
+## CVE-2026-6682
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## CVE-2026-6683
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## CVE-2026-6684
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## CVE-2026-6685
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## CVE-2026-6686
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## CVE-2026-6687
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## CVE-2026-6688
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## CVE-2026-7473
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
@@ -4129,6 +4191,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## denial of service
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
@@ -4483,6 +4546,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
 
+## embedded systems
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## Emerald Sleet
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -4601,6 +4667,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [Webworm](../actors/webworm.md)
 
+## Espressif ESP-IDF
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## EtherHiding
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
@@ -4639,6 +4708,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## EvilAI
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## exFAT
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## exfiltration
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -4759,6 +4831,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FastCGI
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 
+## FAT32
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## FatFs
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## FBI
 - [First VPN](../tools/first-vpn.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -4803,6 +4881,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## filename-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 
+## filesystem parser
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## finance
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
@@ -4833,6 +4914,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## firewall
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
+## firmware
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## firmware update
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## FishMonger
 - [SprySOCKS](../tools/sprysocks.md)
@@ -5148,6 +5235,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## government-impersonation
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 
+## GPT
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## Grandoreiro
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -5449,6 +5539,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Infoblox Threat Intel
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
+## information disclosure
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## infostealer
 - [Armored Likho](../actors/armored-likho.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
@@ -5526,6 +5619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## IoT
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
 ## IoT botnet
@@ -6196,6 +6290,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mawesome
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 
+## Mbed
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## McAfee Labs
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
@@ -6219,6 +6316,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## memfd
 - [MYRA RAT](../tools/myra-rat.md)
+
+## memory corruption
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## memory disclosure
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -6267,6 +6367,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+
+## MicroPython
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## Microsoft
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -6883,6 +6986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -7069,6 +7173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -7215,6 +7320,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Oracle WebLogic Server
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
+
+## OT
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## OTA update
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## OTP interception
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -8066,6 +8177,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RemotePELoader
 - [RemotePE](../tools/remotepe.md)
 
+## removable media
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## Rentry
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
@@ -8166,6 +8280,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RSA-2048
 - [Djinn Stealer](../tools/djinn-stealer.md)
 
+## RT-Thread
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## RTL819X
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
@@ -8184,6 +8301,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## runtime mutation
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+
+## runZero
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## Russia
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
@@ -8261,6 +8381,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SAML IdP
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+
+## Samsung TizenRT
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## sandboxing
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -8789,6 +8912,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## StegoAd
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
+## STM32Cube
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
 ## stock exchange
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
@@ -8929,6 +9055,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SWE-agent
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
+## SWUpdate
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## Symantec Threat Hunter Team
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -9599,6 +9728,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
@@ -9958,6 +10088,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Zendesk
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
+## Zephyr RTOS
+- [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## Zero Trust
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
