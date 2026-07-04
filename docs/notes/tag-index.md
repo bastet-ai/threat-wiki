@@ -193,6 +193,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bedrock](#bedrock) (1)
 - [behavioral integrity verification](#behavioral-integrity-verification) (1)
 - [Belarus](#belarus) (2)
+- [BELQI](#belqi) (1)
 - [binary execution](#binary-execution) (1)
 - [BinaryFormatter](#binaryformatter) (1)
 - [binding.gyp](#bindinggyp) (2)
@@ -200,6 +201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BioShocking](#bioshocking) (1)
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
+- [Bitcoin](#bitcoin) (1)
 - [Bitwarden](#bitwarden) (1)
 - [BlackFile](#blackfile) (1)
 - [Blackpoint Cyber](#blackpoint-cyber) (5)
@@ -232,6 +234,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser-extensions](#browser-extensions) (2)
 - [browser-security](#browser-security) (1)
 - [browser-session risk](#browser-session-risk) (1)
+- [brute-force credentials](#brute-force-credentials) (1)
 - [BSC](#bsc) (1)
 - [BTMOB](#btmob) (1)
 - [bucket hijacking](#bucket-hijacking) (1)
@@ -241,6 +244,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bun](#bun) (2)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [BusySnake Stealer](#busysnake-stealer) (3)
+- [Bybit](#bybit) (1)
 - [BYOVD](#byovd) (2)
 - [C#](#c) (1)
 - [C2](#c2) (8)
@@ -393,7 +397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel](#cpanel) (3)
 - [CrackMapExec](#crackmapexec) (1)
 - [Crates.io](#cratesio) (1)
-- [credential attacks](#credential-attacks) (1)
+- [credential attacks](#credential-attacks) (2)
 - [credential exposure](#credential-exposure) (2)
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
@@ -526,8 +530,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dangling resources](#dangling-resources) (1)
 - [data exfiltration](#data-exfiltration) (6)
 - [data exposure](#data-exposure) (1)
+- [data extortion](#data-extortion) (1)
 - [data leak site](#data-leak-site) (2)
-- [data theft](#data-theft) (4)
+- [data theft](#data-theft) (5)
 - [data-exfiltration](#data-exfiltration) (1)
 - [database extortion](#database-extortion) (1)
 - [DAYLIGHT](#daylight) (1)
@@ -810,7 +815,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Stitch](#google-stitch) (1)
 - [Google Threat Intelligence Group](#google-threat-intelligence-group) (2)
 - [Goose](#goose) (1)
-- [government](#government) (2)
+- [government](#government) (3)
 - [government targeting](#government-targeting) (10)
 - [government-impersonation](#government-impersonation) (1)
 - [Grandoreiro](#grandoreiro) (2)
@@ -954,6 +959,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JuicyPotato](#juicypotato) (2)
 - [JXA downloader](#jxa-downloader) (1)
 - [K1MORPHER](#k1morpher) (2)
+- [Kairos](#kairos) (1)
 - [Kaspersky](#kaspersky) (2)
 - [Kazakhstan](#kazakhstan) (1)
 - [KAZUAR](#kazuar) (2)
@@ -1183,6 +1189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS](#nats) (1)
 - [NCSC-NL](#ncsc-nl) (1)
 - [Nebo](#nebo) (1)
+- [negotiation](#negotiation) (1)
 - [Neo-reGeorg](#neo-regeorg) (1)
 - [Netherlands](#netherlands) (1)
 - [NetNut](#netnut) (1)
@@ -1230,6 +1237,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Offshore LC](#offshore-lc) (1)
 - [OIDC](#oidc) (6)
 - [Okta](#okta) (4)
+- [OKX](#okx) (1)
 - [Ollama](#ollama) (1)
 - [Oman](#oman) (1)
 - [Omnibox](#omnibox) (1)
@@ -1251,9 +1259,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (179)
+- [operations](#operations) (180)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (182)
+- [ops](#ops) (183)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1381,6 +1389,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
+- [proof of deletion](#proof-of-deletion) (1)
 - [protestware](#protestware) (1)
 - [Protobuf](#protobuf) (1)
 - [provenance](#provenance) (1)
@@ -1399,7 +1408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PteroVDoor](#pterovdoor) (2)
 - [public exploit](#public-exploit) (2)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
-- [public sector](#public-sector) (1)
+- [public sector](#public-sector) (2)
 - [pull requests](#pull-requests) (1)
 - [PUP](#pup) (1)
 - [PureLogs Stealer](#purelogs-stealer) (1)
@@ -1421,7 +1430,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RainbowEx](#rainbowex) (1)
 - [RakNet flood](#raknet-flood) (1)
 - [RAM disk](#ram-disk) (1)
-- [ransomware](#ransomware) (8)
+- [Ransom-ISAC](#ransom-isac) (1)
+- [ransomware](#ransomware) (9)
 - [ransomware access](#ransomware-access) (1)
 - [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
@@ -2676,6 +2686,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 
+## BELQI
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+
 ## binary execution
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
@@ -2697,6 +2710,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bitbucket
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+
+## Bitcoin
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 
 ## Bitwarden
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -2833,6 +2849,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser-session risk
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
+## brute-force credentials
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+
 ## BSC
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 
@@ -2862,6 +2881,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armored Likho](../actors/armored-likho.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
+
+## Bybit
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 
 ## BYOVD
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -3484,6 +3506,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## credential attacks
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## credential exposure
@@ -4012,12 +4035,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## data exposure
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
+## data extortion
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+
 ## data leak site
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 
 ## data theft
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 - [UNC3753](../actors/unc3753.md)
@@ -5102,6 +5129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## government
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 
@@ -5650,6 +5678,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## K1MORPHER
 - [STOCKSTAY](../tools/stockstay.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
+
+## Kairos
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 
 ## Kaspersky
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -6506,6 +6537,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Nebo
 - [GREYVIBE](../actors/greyvibe.md)
 
+## negotiation
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+
 ## Neo-reGeorg
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
@@ -6722,6 +6756,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
+## OKX
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+
 ## Ollama
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
@@ -6871,6 +6908,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -7055,6 +7093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -7670,6 +7709,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PROMPTSPY
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## proof of deletion
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+
 ## protestware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -7737,6 +7779,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## public sector
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## pull requests
@@ -7822,6 +7865,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RAM disk
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
+## Ransom-ISAC
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+
 ## ransomware
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -7829,6 +7875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrownX](../tools/crownx.md)
 - [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
+- [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
