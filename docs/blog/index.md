@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [`@marketfront` / `@tqm-mfe` dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)

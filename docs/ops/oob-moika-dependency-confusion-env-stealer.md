@@ -78,6 +78,7 @@ The package names were tailored to cloud-platform, ML-workspace, car-loan, depos
 - Treat "telemetry" disclosures in untrusted packages as claims to verify, not evidence of benign behavior.
 
 ## Related pages
+- [`@marketfront` / `@tqm-mfe` dependency-confusion stealer](marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [Megalodon GitHub Actions workflow backdooring](megalodon-github-actions-workflow-backdooring.md)
 - [Laravel-Lang Composer tag-rewrite compromise](laravel-lang-composer-tag-rewrite-compromise.md)
 - [GitHub / Packagist postinstall hook campaign](github-packagist-postinstall-hook-campaign.md)

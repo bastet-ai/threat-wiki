@@ -13,6 +13,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX](#3cx) (1)
 - [404 TDS](#404-tds) (1)
 - [4sync](#4sync) (1)
+- [@marketfront](#marketfront) (1)
+- [@tqm-mfe](#tqm-mfe) (1)
 - [`<all_urls>`](#all_urls) (1)
 - [Ababil of Minab](#ababil-of-minab) (1)
 - [abuse response](#abuse-response) (1)
@@ -283,7 +285,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chromium](#chromium) (5)
 - [Chromium extension](#chromium-extension) (1)
 - [CI-CD](#ci-cd) (2)
-- [CI/CD](#cicd) (35)
+- [CI/CD](#cicd) (36)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
 - [CISA KEV](#cisa-kev) (15)
@@ -326,7 +328,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud identity abuse](#cloud-identity-abuse) (1)
 - [cloud infrastructure](#cloud-infrastructure) (1)
 - [cloud logging](#cloud-logging) (1)
-- [cloud secrets](#cloud-secrets) (3)
+- [cloud secrets](#cloud-secrets) (4)
 - [cloud security](#cloud-security) (3)
 - [cloud service abuse](#cloud-service-abuse) (4)
 - [cloud storage](#cloud-storage) (1)
@@ -397,7 +399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
 - [credential theft](#credential-theft) (30)
-- [credential-theft](#credential-theft) (50)
+- [credential-theft](#credential-theft) (51)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -550,7 +552,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [delayed execution](#delayed-execution) (1)
 - [denial of service](#denial-of-service) (3)
 - [Deno](#deno) (2)
-- [dependency confusion](#dependency-confusion) (1)
+- [dependency confusion](#dependency-confusion) (2)
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (4)
 - [destructive malware](#destructive-malware) (2)
@@ -566,7 +568,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer tooling](#developer-tooling) (2)
 - [developer workstations](#developer-workstations) (2)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
-- [developer-targeting](#developer-targeting) (14)
+- [developer-targeting](#developer-targeting) (15)
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (2)
 - [device registration](#device-registration) (1)
@@ -1204,7 +1206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js malware](#nodejs-malware) (1)
 - [North Korea](#north-korea) (11)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (42)
+- [npm](#npm) (43)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm tokens](#npm-tokens) (1)
 - [npx](#npx) (1)
@@ -1223,6 +1225,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OAuth tokens](#oauth-tokens) (2)
 - [OBF networks](#obf-networks) (1)
 - [obfuscation](#obfuscation) (1)
+- [obfuscator.io](#obfuscatorio) (1)
 - [OFAC](#ofac) (1)
 - [Offshore LC](#offshore-lc) (1)
 - [OIDC](#oidc) (6)
@@ -1248,9 +1251,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (178)
+- [operations](#operations) (179)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (181)
+- [ops](#ops) (182)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1345,7 +1348,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postal-impersonation](#postal-impersonation) (1)
 - [PostCSS](#postcss) (1)
 - [PostgreSQL](#postgresql) (3)
-- [postinstall](#postinstall) (8)
+- [postinstall](#postinstall) (9)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (15)
 - [PowerShell malware](#powershell-malware) (1)
@@ -1362,6 +1365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PrincessClub](#princessclub) (1)
 - [privacy](#privacy) (1)
 - [privacy exposure](#privacy-exposure) (1)
+- [private registry fallback](#private-registry-fallback) (1)
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (8)
 - [process doppelgänging](#process-doppelganging) (1)
@@ -1425,7 +1429,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
 - [RAT](#rat) (24)
-- [RC4](#rc4) (3)
+- [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RCE](#rce) (6)
 - [Rclone](#rclone) (1)
@@ -1513,7 +1517,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SaaS exposure](#saas-exposure) (1)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
-- [SafeDep](#safedep) (2)
+- [SafeDep](#safedep) (3)
 - [Salesforce](#salesforce) (2)
 - [SAML IdP](#saml-idp) (1)
 - [sandboxing](#sandboxing) (1)
@@ -1679,7 +1683,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Supabase](#supabase) (1)
 - [supply chain](#supply-chain) (5)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (80)
+- [supply-chain](#supply-chain) (81)
 - [SWE-agent](#swe-agent) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (1)
 - [symlink following](#symlink-following) (1)
@@ -1930,6 +1934,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [worm](#worm) (12)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [WScript](#wscript) (1)
+- [X-Secret](#x-secret) (1)
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
 - [XenoRAT](#xenorat) (2)
@@ -1994,6 +1999,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## 4sync
 - [GREYVIBE](../actors/greyvibe.md)
+
+## @marketfront
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
+
+## @tqm-mfe
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 
 ## `<all_urls>`
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
@@ -3023,6 +3034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## CI/CD
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
@@ -3228,6 +3240,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 
 ## cloud secrets
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
@@ -3520,6 +3533,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## credential-theft
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
@@ -4096,6 +4110,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## dependency confusion
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 
 ## deployment_status
@@ -4162,6 +4177,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## developer-targeting
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -6575,6 +6591,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## npm
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -6682,6 +6699,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## obfuscation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## obfuscator.io
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
+
 ## OFAC
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -6773,6 +6793,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## operations
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -6956,6 +6977,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ops
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -7506,6 +7528,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## postinstall
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -7578,6 +7601,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## privacy exposure
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
+## private registry fallback
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 
 ## private-key theft
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -7853,6 +7879,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](../tools/tinyrct.md)
 
 ## RC4
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [OP-512](../actors/op-512.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
@@ -8177,6 +8204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## SafeDep
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [MYRA RAT](../tools/myra-rat.md)
 
@@ -8771,6 +8799,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
@@ -9814,6 +9843,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WScript
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+
+## X-Secret
+- [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 
 ## X_TRADER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)

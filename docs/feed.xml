@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>@marketfront / @tqm-mfe dependency-confusion stealer</title>
+      <link>https://threat.wiki/ops/marketfront-tqm-mfe-dependency-confusion-stealer/</link>
+      <description>Added SafeDep coverage of the July 1, 2026 @marketfront / @tqm-mfe dependency-confusion stealer wave: 25 @marketfront packages at 7.0.0 plus @tqm-mfe/main at 5.4.7 and 5.5.0 reused the Internal package — Platform Engineering Team lure while evolving from broad environment collection into credential-file harvesting. The page captures package names, postinstall execution, RC4/XOR-hidden C2 configuration, gzip HTTPS POSTs to /api/v1/events with X-Secret, DNS resolver beaconing, private-registry fallback risk, and triage guidance for developer workstations and CI runners.</description>
+      <pubDate>Sat, 04 Jul 2026 09:28:07 GMT</pubDate>
+      <guid>https://threat.wiki/ops/marketfront-tqm-mfe-dependency-confusion-stealer/</guid>
+    </item>
+    <item>
       <title>Linux Bad Epoll CVE-2026-46242 local privilege escalation</title>
       <link>https://threat.wiki/ops/linux-bad-epoll-cve-2026-46242-lpe/</link>
       <description>Added coverage for Bad Epoll CVE-2026-46242: a Linux kernel epoll/eventpoll race-condition use-after-free with public exploit material, kernelCTF exploitation context, Android-rooting relevance, Chrome renderer-sandbox chaining potential, and a Linux stable patch reference. The page captures defender guidance for kernel patch validation, reboot requirements, untrusted local-code exposure, CI/developer/container-host prioritization, and AI-era vulnerability-family closure caveats after Mythos found a sibling epoll race but missed Bad Epoll.</description>
