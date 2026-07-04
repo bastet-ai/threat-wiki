@@ -148,6 +148,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASPX web shells](#aspx-web-shells) (2)
 - [Astro](#astro) (1)
 - [ASUS router](#asus-router) (1)
+- [AsyncRAT](#asyncrat) (1)
 - [Atlas RAT](#atlas-rat) (1)
 - [AUDIOFIX](#audiofix) (2)
 - [audit logging](#audit-logging) (1)
@@ -379,6 +380,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [confused deputy](#confused-deputy) (1)
 - [ConfuserEx](#confuserex) (2)
 - [ConnectWise](#connectwise) (1)
+- [ConnectWise ScreenConnect](#connectwise-screenconnect) (1)
 - [consumer devices](#consumer-devices) (1)
 - [consumer IoT](#consumer-iot) (1)
 - [Contagious Interview](#contagious-interview) (3)
@@ -405,7 +407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (30)
+- [credential theft](#credential-theft) (31)
 - [credential-theft](#credential-theft) (51)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
@@ -602,7 +604,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [discovery](#discovery) (1)
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL side-loading](#dll-side-loading) (3)
-- [DLL sideloading](#dll-sideloading) (14)
+- [DLL sideloading](#dll-sideloading) (15)
 - [DNS C2](#dns-c2) (2)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (1)
@@ -768,6 +770,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](#fox-tempest) (2)
 - [fraud](#fraud) (1)
 - [FreeBSD](#freebsd) (2)
+- [freeware impersonation](#freeware-impersonation) (1)
 - [FSB](#fsb) (4)
 - [FSB Center 16](#fsb-center-16) (2)
 - [fscan](#fscan) (1)
@@ -927,6 +930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [input capture](#input-capture) (1)
 - [install-time execution](#install-time-execution) (2)
 - [install-time-execution](#install-time-execution) (1)
+- [install.res.1033.dll](#installres1033dll) (1)
 - [Integration Broker](#integration-broker) (1)
 - [Intercolo](#intercolo) (1)
 - [internet-facing admin surface](#internet-facing-admin-surface) (1)
@@ -981,6 +985,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [K1MORPHER](#k1morpher) (2)
 - [Kairos](#kairos) (1)
 - [Kaspersky](#kaspersky) (2)
+- [Kaspersky Securelist](#kaspersky-securelist) (1)
 - [Kazakhstan](#kazakhstan) (1)
 - [KAZUAR](#kazuar) (2)
 - [KAZUAR overlap](#kazuar-overlap) (1)
@@ -1151,6 +1156,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Security Blog](#microsoft-security-blog) (1)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (2)
+- [Microsoft-signed binary abuse](#microsoft-signed-binary-abuse) (1)
 - [Middle East](#middle-east) (2)
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
@@ -1282,9 +1288,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (181)
+- [operations](#operations) (182)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (184)
+- [ops](#ops) (185)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1487,6 +1493,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RediSearch](#redisearch) (1)
 - [reflective .NET loading](#reflective-net-loading) (1)
 - [refresh tokens](#refresh-tokens) (1)
+- [RegAsm process hollowing](#regasm-process-hollowing) (1)
 - [registry persistence](#registry-persistence) (5)
 - [registry-controls](#registry-controls) (1)
 - [release automation](#release-automation) (1)
@@ -1495,6 +1502,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (9)
 - [remote debugging](#remote-debugging) (2)
+- [remote monitoring and management](#remote-monitoring-and-management) (1)
 - [remote script injection](#remote-script-injection) (1)
 - [remote support](#remote-support) (1)
 - [remote-access](#remote-access) (1)
@@ -1515,7 +1523,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reviewdog](#reviewdog) (1)
 - [RingH23](#ringh23) (1)
 - [RMM](#rmm) (2)
-- [RMM abuse](#rmm-abuse) (4)
+- [RMM abuse](#rmm-abuse) (5)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
@@ -1564,15 +1572,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scambling](#scambling) (1)
 - [ScarCruft](#scarcruft) (1)
 - [scheduled task](#scheduled-task) (3)
-- [scheduled task persistence](#scheduled-task-persistence) (4)
+- [scheduled task persistence](#scheduled-task-persistence) (5)
 - [scheduled tasks](#scheduled-tasks) (4)
 - [scope squatting](#scope-squatting) (1)
 - [screen capture](#screen-capture) (2)
-- [ScreenConnect](#screenconnect) (3)
+- [ScreenConnect](#screenconnect) (4)
 - [screenshot theft](#screenshot-theft) (2)
 - [script-injection](#script-injection) (1)
 - [SD-WAN](#sd-wan) (1)
 - [search hijacking](#search-hijacking) (1)
+- [search result poisoning](#search-result-poisoning) (1)
 - [Secret Blizzard](#secret-blizzard) (3)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (5)
@@ -1593,7 +1602,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sentinel](#sentinel) (1)
 - [Sentry](#sentry) (1)
 - [Sentry abuse](#sentry-abuse) (1)
-- [SEO poisoning](#seo-poisoning) (3)
+- [SEO poisoning](#seo-poisoning) (4)
 - [Serv-U](#serv-u) (1)
 - [service accounts](#service-accounts) (1)
 - [service-agent](#service-agent) (1)
@@ -1819,8 +1828,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Twilio](#twilio) (1)
 - [TypeScript](#typescript) (1)
 - [typosquat](#typosquat) (1)
-- [typosquatting](#typosquatting) (10)
+- [typosquatting](#typosquatting) (11)
 - [UAC](#uac) (1)
+- [UAC bypass](#uac-bypass) (1)
 - [UAC-0010](#uac-0010) (3)
 - [UAC-0098](#uac-0098) (1)
 - [UAC-0194](#uac-0194) (3)
@@ -1950,6 +1960,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill](#windchill) (1)
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [Windows](#windows) (22)
+- [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Forms](#windows-forms) (1)
 - [Windows malware](#windows-malware) (5)
 - [Windows persistence](#windows-persistence) (1)
@@ -2555,6 +2566,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ASUS router
 - [UNC6508](../actors/unc6508.md)
+
+## AsyncRAT
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## Atlas RAT
 - [TA4922](../actors/ta4922.md)
@@ -3475,6 +3489,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ConnectWise
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 
+## ConnectWise ScreenConnect
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
+
 ## consumer devices
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
@@ -3585,6 +3602,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -4353,6 +4371,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -4968,6 +4987,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FreeBSD
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
+## freeware impersonation
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## FSB
 - [Gamaredon](../actors/gamaredon.md)
@@ -5593,6 +5615,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## install-time-execution
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
+## install.res.1033.dll
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
+
 ## Integration Broker
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
@@ -5779,6 +5804,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Kaspersky
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
+## Kaspersky Securelist
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## Kazakhstan
 - [Armored Likho](../actors/armored-likho.md)
@@ -6433,6 +6461,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
+## Microsoft-signed binary abuse
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
+
 ## Middle East
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Showboat](../tools/showboat.md)
@@ -7077,6 +7108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -7263,6 +7295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -8117,6 +8150,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## refresh tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
+## RegAsm process hollowing
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
+
 ## registry persistence
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -8158,6 +8194,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## remote debugging
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
+
+## remote monitoring and management
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## remote script injection
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
@@ -8225,6 +8264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RMM abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [TaskWeaver](../tools/taskweaver.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
@@ -8407,6 +8447,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## scheduled tasks
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -8425,6 +8466,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## screenshot theft
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
@@ -8438,6 +8480,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## search hijacking
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
+## search result poisoning
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## Secret Blizzard
 - [STOCKSTAY](../tools/stockstay.md)
@@ -8508,6 +8553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SEO poisoning
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## Serv-U
@@ -9413,12 +9459,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## UAC
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
+## UAC bypass
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## UAC-0010
 - [Gamaredon](../actors/gamaredon.md)
@@ -9920,6 +9970,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [TinyRCT](../tools/tinyrct.md)
+
+## Windows Defender exclusions
+- [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## Windows Forms
 - [STOCKSTAY](../tools/stockstay.md)

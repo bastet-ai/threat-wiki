@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>ScreenConnect freeware / AsyncRAT SEO campaign</title>
+      <link>https://threat.wiki/ops/screenconnect-freeware-asyncrat-seo-campaign/</link>
+      <description>Added Kaspersky Securelist coverage of a large ScreenConnect-abuse campaign: spoofed freeware and game download sites appeared in search results, delivered ZIP archives with a renamed Microsoft-signed install.exe plus malicious install.res.1033.dll, silently installed ScreenConnect as Microsoft Update Service, and used PowerShell/VBScript staging, Defender exclusions, UAC prompt reduction, RegAsm process hollowing, and a two-minute MasterPackager.Updater scheduled task to deploy AsyncRAT. The page captures infrastructure clusters, selected IOCs, and defender hunts for RMM abuse.</description>
+      <pubDate>Sat, 04 Jul 2026 21:26:52 GMT</pubDate>
+      <guid>https://threat.wiki/ops/screenconnect-freeware-asyncrat-seo-campaign/</guid>
+    </item>
+    <item>
       <title>FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster</title>
       <link>https://threat.wiki/ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs/</link>
       <description>Added runZero Research coverage of seven FatFs vulnerabilities affecting embedded and firmware stacks: CVE-2026-6682 FAT32 mount integer overflow, CVE-2026-6687 exFAT label stack overflow, CVE-2026-6688 downstream long-file-name wrapper overflows, CVE-2026-6685 dirty-cache arithmetic wrap, CVE-2026-6683 exFAT sync/write divide-by-zero, CVE-2026-6686 stale-data exposure, and CVE-2026-6684 GPT scan denial of service. The page captures removable-media and OTA-update reachability, public PoC/harness availability, affected ecosystem examples, and defender inventory/firmware-update hardening guidance.</description>
