@@ -250,7 +250,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bybit](#bybit) (1)
 - [BYOVD](#byovd) (2)
 - [C#](#c) (1)
-- [C2](#c2) (8)
+- [C2](#c2) (9)
 - [C2 tasking](#c2-tasking) (1)
 - [CageFS](#cagefs) (1)
 - [Calendly abuse](#calendly-abuse) (1)
@@ -407,7 +407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (31)
+- [credential theft](#credential-theft) (32)
 - [credential-theft](#credential-theft) (51)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
@@ -416,6 +416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cron](#cron) (1)
 - [cron persistence](#cron-persistence) (1)
 - [cross-platform](#cross-platform) (1)
+- [cross-platform malware](#cross-platform-malware) (1)
 - [CrownX](#crownx) (2)
 - [crypto](#crypto) (2)
 - [crypto clipper](#crypto-clipper) (1)
@@ -740,7 +741,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [file-system filter](#file-system-filter) (1)
 - [FileFiend](#filefiend) (1)
 - [FILEIO](#fileio) (1)
-- [fileless execution](#fileless-execution) (2)
+- [fileless execution](#fileless-execution) (3)
 - [fileless malware](#fileless-malware) (1)
 - [filemanager](#filemanager) (1)
 - [filename-injection](#filename-injection) (1)
@@ -955,6 +956,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JADEPUFFER](#jadepuffer) (1)
 - [Jamf Threat Labs](#jamf-threat-labs) (1)
 - [Japan](#japan) (1)
+- [Java malware](#java-malware) (1)
 - [JavaScript](#javascript) (11)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript injection](#javascript-injection) (1)
@@ -1032,6 +1034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [legal sector](#legal-sector) (1)
 - [LegionRelay](#legionrelay) (1)
 - [Leo Platform](#leo-platform) (1)
+- [LevelBlue](#levelblue) (1)
 - [liblzma](#liblzma) (1)
 - [libp2p](#libp2p) (1)
 - [libpeconv](#libpeconv) (1)
@@ -1040,7 +1043,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lightning Shared Scooter Co.](#lightning-shared-scooter-co) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linksys](#linksys) (1)
-- [Linux](#linux) (20)
+- [Linux](#linux) (21)
 - [Linux kernel](#linux-kernel) (3)
 - [Linux malware](#linux-malware) (1)
 - [LiteLLM](#litellm) (3)
@@ -1082,10 +1085,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lumen](#lumen) (1)
 - [Lumen Black Lotus Labs](#lumen-black-lotus-labs) (1)
 - [Luna Moth](#luna-moth) (1)
+- [MaaS](#maas) (1)
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
 - [machine-learning](#machine-learning) (1)
-- [macOS](#macos) (9)
+- [macOS](#macos) (10)
 - [macOS malware](#macos-malware) (1)
 - [Magento](#magento) (1)
 - [MagicYUV](#magicyuv) (1)
@@ -1097,12 +1101,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (4)
-- [malware](#malware) (32)
+- [malware](#malware) (33)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (3)
 - [malware framework](#malware-framework) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
-- [malware-as-a-service](#malware-as-a-service) (1)
+- [malware-as-a-service](#malware-as-a-service) (2)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [MALXMR](#malxmr) (1)
 - [managed file transfer](#managed-file-transfer) (1)
@@ -1348,7 +1352,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PeopleTools](#peopletools) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
-- [persistence](#persistence) (23)
+- [persistence](#persistence) (24)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
 - [Phantom Gyp](#phantom-gyp) (3)
@@ -1374,6 +1378,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [plaintext HTTP](#plaintext-http) (1)
 - [Plandex](#plandex) (1)
 - [PLENET](#plenet) (2)
+- [plugin architecture](#plugin-architecture) (1)
 - [poisoned-branch](#poisoned-branch) (1)
 - [PolinRider](#polinrider) (2)
 - [polyfill](#polyfill) (1)
@@ -1456,6 +1461,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QR code interception](#qr-code-interception) (1)
 - [query injection](#query-injection) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
+- [QuimaRAT](#quimarat) (1)
 - [RaaS](#raas) (1)
 - [race condition](#race-condition) (1)
 - [RainbowEx](#rainbowex) (1)
@@ -1469,7 +1475,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
-- [RAT](#rat) (24)
+- [RAT](#rat) (25)
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RCE](#rce) (6)
@@ -1692,6 +1698,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spearphishing](#spearphishing) (1)
 - [SPECTRALVIPER](#spectralviper) (1)
 - [Sphinx ransomware](#sphinx-ransomware) (1)
+- [SpiderLabs](#spiderlabs) (1)
 - [Splunk](#splunk) (1)
 - [SprySOCKS](#sprysocks) (2)
 - [SQL injection](#sql-injection) (3)
@@ -1807,7 +1814,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (18)
+- [tools](#tools) (19)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
@@ -1962,7 +1969,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WILDDAY](#wildday) (2)
 - [Windchill](#windchill) (1)
 - [Windchill PDMLink](#windchill-pdmlink) (1)
-- [Windows](#windows) (22)
+- [Windows](#windows) (23)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Forms](#windows-forms) (1)
 - [Windows malware](#windows-malware) (5)
@@ -2954,6 +2961,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+- [QuimaRAT](../tools/quimarat.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
 
@@ -3605,6 +3613,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
+- [QuimaRAT](../tools/quimarat.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -3694,6 +3703,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cross-platform
 - [Djinn Stealer](../tools/djinn-stealer.md)
+
+## cross-platform malware
+- [QuimaRAT](../tools/quimarat.md)
 
 ## CrownX
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -4893,6 +4905,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fileless execution
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [MYRA RAT](../tools/myra-rat.md)
+- [QuimaRAT](../tools/quimarat.md)
 
 ## fileless malware
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -5702,6 +5715,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Japan
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## Java malware
+- [QuimaRAT](../tools/quimarat.md)
+
 ## JavaScript
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -5969,6 +5985,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Leo Platform
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 
+## LevelBlue
+- [QuimaRAT](../tools/quimarat.md)
+
 ## liblzma
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -6010,6 +6029,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
+- [QuimaRAT](../tools/quimarat.md)
 - [Showboat](../tools/showboat.md)
 - [Velvet Ant](../actors/velvet-ant.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
@@ -6163,6 +6183,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Luna Moth
 - [UNC3753](../actors/unc3753.md)
 
+## MaaS
+- [QuimaRAT](../tools/quimarat.md)
+
 ## MacCMS
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -6182,6 +6205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [PamStealer](../tools/pamstealer.md)
+- [QuimaRAT](../tools/quimarat.md)
 
 ## macOS malware
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
@@ -6239,6 +6263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [PamStealer](../tools/pamstealer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
+- [QuimaRAT](../tools/quimarat.md)
 - [RemotePE](../tools/remotepe.md)
 - [RustDuck](../tools/rustduck.md)
 - [Showboat](../tools/showboat.md)
@@ -6271,6 +6296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## malware-as-a-service
+- [QuimaRAT](../tools/quimarat.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## malware-signing-as-a-service
@@ -7561,6 +7587,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
+- [QuimaRAT](../tools/quimarat.md)
 - [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -7667,6 +7694,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PLENET
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
+## plugin architecture
+- [QuimaRAT](../tools/quimarat.md)
 
 ## poisoned-branch
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -7997,6 +8027,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Quest KACE SMA
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
+## QuimaRAT
+- [QuimaRAT](../tools/quimarat.md)
+
 ## RaaS
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -8064,6 +8097,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
+- [QuimaRAT](../tools/quimarat.md)
 - [RemotePE](../tools/remotepe.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [SprySOCKS](../tools/sprysocks.md)
@@ -8880,6 +8914,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Sphinx ransomware
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
+## SpiderLabs
+- [QuimaRAT](../tools/quimarat.md)
+
 ## Splunk
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
@@ -9375,6 +9412,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [PamStealer](../tools/pamstealer.md)
+- [QuimaRAT](../tools/quimarat.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
 - [RustDuck](../tools/rustduck.md)
@@ -9977,6 +10015,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+- [QuimaRAT](../tools/quimarat.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)

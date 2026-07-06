@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>QuimaRAT</title>
+      <link>https://threat.wiki/tools/quimarat/</link>
+      <description>Added LevelBlue SpiderLabs coverage of QuimaRAT, a commercialized Java RAT MaaS for Windows, Linux, and macOS. The page captures the builder/subscription model, Maven/JNA architecture, config.dat XOR key, 45.63.24[.]218:4447 C2, OS-specific persistence, Netty/WebSocket/Pastebin host-update behavior, plugin lifecycle, Windows fileless shellcode execution, protocol-only capability caveats, IOCs, and defender hunts for Java persistence plus plugin cache artifacts.</description>
+      <pubDate>Mon, 06 Jul 2026 13:28:14 GMT</pubDate>
+      <guid>https://threat.wiki/tools/quimarat/</guid>
+    </item>
+    <item>
       <title>Agent skill marketplace poisoning: SkillCloak scanner evasion and SkillDetonate runtime auditing</title>
       <link>https://threat.wiki/patterns/agent-skill-marketplace-poisoning/#skillcloak-scanner-evasion-and-skilldetonate-runtime-auditing-2026-07-02</link>
       <description>Updated agent skill marketplace poisoning coverage with HKUST's SkillCloak / SkillDetonate paper. The page now captures measured bypass rates across eight scanners and 1,613 in-the-wild malicious skills, including structural obfuscation and self-extracting skill packing, plus defender guidance for sandbox detonation, synthetic secrets and canaries, information-flow telemetry, and treating static scanner verdicts as triage evidence rather than authorization.</description>

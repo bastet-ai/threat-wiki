@@ -197,6 +197,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - QuimaRAT: tools/quimarat.md
       - CrownX: tools/crownx.md
       - BusySnake Stealer: tools/busysnake-stealer.md
       - PamStealer: tools/pamstealer.md
