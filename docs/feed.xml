@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Gitea Docker CVE-2026-20896 probing</title>
+      <link>https://threat.wiki/ops/gitea-docker-cve-2026-20896-probing/</link>
+      <description>Added coverage for Gitea Docker CVE-2026-20896 active probing: official Docker images before and including 1.26.2 hard-coded REVERSE_PROXY_TRUSTED_PROXIES = *, so reverse-proxy authentication deployments with directly reachable container ports can accept attacker-supplied X-WEBAUTH-USER headers and impersonate known or guessable users. The page captures Sysdig's first observed probing 13 days after disclosure, ProtonVPN source IP 159.26.98[.]241, fixed version 1.26.3, and defender guidance for image upgrades, trusted-proxy allow-listing, direct-port exposure review, and source-control / CI credential rotation.</description>
+      <pubDate>Mon, 06 Jul 2026 17:27:38 GMT</pubDate>
+      <guid>https://threat.wiki/ops/gitea-docker-cve-2026-20896-probing/</guid>
+    </item>
+    <item>
+      <title>Kali365 device-code phishing expansion: Kaspersky legal-portal / Microsoft Identity Platform chain</title>
+      <link>https://threat.wiki/ops/kali365-device-code-phishing-expansion/#kaspersky-legal-portal-microsoft-identity-platform-chain</link>
+      <description>Updated Kali365 / device-code phishing coverage with Kaspersky Securelist's July 6 report: law-firm email lures and password-protected PDFs routed victims through Microsoft redirector parameters, CAPTCHA-gated fake legal portals, clipboard-copied attacker user_code values, and Microsoft's legitimate device-login page. After the victim completed MFA, attackers obtained access, refresh, and ID tokens enabling mailbox read/send, OneDrive file exfiltration, and Teams conversation access.</description>
+      <pubDate>Mon, 06 Jul 2026 17:27:38 GMT</pubDate>
+      <guid>https://threat.wiki/ops/kali365-device-code-phishing-expansion/#kaspersky-legal-portal-microsoft-identity-platform-chain</guid>
+    </item>
+    <item>
       <title>QuimaRAT</title>
       <link>https://threat.wiki/tools/quimarat/</link>
       <description>Added LevelBlue SpiderLabs coverage of QuimaRAT, a commercialized Java RAT MaaS for Windows, Linux, and macOS. The page captures the builder/subscription model, Maven/JNA architecture, config.dat XOR key, 45.63.24[.]218:4447 C2, OS-specific persistence, Netty/WebSocket/Pastebin host-update behavior, plugin lifecycle, Windows fileless shellcode execution, protocol-only capability caveats, IOCs, and defender hunts for Java persistence plus plugin cache artifacts.</description>

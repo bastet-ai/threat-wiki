@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+- [Kali365 device-code phishing expansion: Kaspersky legal-portal / Microsoft Identity Platform chain](../ops/kali365-device-code-phishing-expansion.md#kaspersky-legal-portal-microsoft-identity-platform-chain)
 - [QuimaRAT](../tools/quimarat.md)
 - [Agent skill marketplace poisoning: SkillCloak scanner evasion and SkillDetonate runtime auditing](../patterns/agent-skill-marketplace-poisoning.md#skillcloak-scanner-evasion-and-skilldetonate-runtime-auditing-2026-07-02)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)

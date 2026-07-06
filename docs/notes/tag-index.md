@@ -25,7 +25,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [account-takeover](#account-takeover) (1)
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
-- [active exploitation](#active-exploitation) (35)
+- [active exploitation](#active-exploitation) (36)
+- [active probing](#active-probing) (1)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (4)
@@ -154,7 +155,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [audit logging](#audit-logging) (1)
 - [AUR](#aur) (1)
 - [authenticated RCE](#authenticated-rce) (1)
-- [authentication bypass](#authentication-bypass) (7)
+- [authentication bypass](#authentication-bypass) (8)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -471,6 +472,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-20245](#cve-2026-20245) (1)
 - [CVE-2026-20253](#cve-2026-20253) (1)
 - [CVE-2026-20262](#cve-2026-20262) (1)
+- [CVE-2026-20896](#cve-2026-20896) (1)
 - [CVE-2026-23111](#cve-2026-23111) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-28318](#cve-2026-28318) (1)
@@ -591,6 +593,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer-workstations](#developer-workstations) (2)
 - [device registration](#device-registration) (1)
 - [device-code phishing](#device-code-phishing) (1)
+- [DevOps](#devops) (1)
 - [DevTools](#devtools) (1)
 - [DEWMODE](#dewmode) (1)
 - [DIAMONDBACK](#diamondback) (2)
@@ -611,6 +614,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS tunneling](#dns-tunneling) (1)
 - [Docker](#docker) (1)
 - [Docker credentials](#docker-credentials) (1)
+- [Docker images](#docker-images) (1)
 - [document exfiltration](#document-exfiltration) (1)
 - [document theft](#document-theft) (3)
 - [domain squatting](#domain-squatting) (1)
@@ -794,6 +798,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-6v3r-4p5c-mrp5](#ghsa-6v3r-4p5c-mrp5) (1)
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
+- [Gitea](#gitea) (1)
 - [GitHub](#github) (16)
 - [GitHub abuse](#github-abuse) (3)
 - [GitHub Actions](#github-actions) (20)
@@ -987,7 +992,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [K1MORPHER](#k1morpher) (2)
 - [Kairos](#kairos) (1)
 - [Kaspersky](#kaspersky) (2)
-- [Kaspersky Securelist](#kaspersky-securelist) (1)
+- [Kaspersky Securelist](#kaspersky-securelist) (2)
 - [Kazakhstan](#kazakhstan) (1)
 - [KAZUAR](#kazuar) (2)
 - [KAZUAR overlap](#kazuar-overlap) (1)
@@ -1156,6 +1161,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Edge Extensions Security Team](#microsoft-edge-extensions-security-team) (1)
 - [Microsoft Entra ID](#microsoft-entra-id) (1)
 - [Microsoft Graph](#microsoft-graph) (2)
+- [Microsoft Identity Platform](#microsoft-identity-platform) (1)
 - [Microsoft Office SharePoint](#microsoft-office-sharepoint) (1)
 - [Microsoft Security Blog](#microsoft-security-blog) (1)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
@@ -1275,6 +1281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oman](#oman) (1)
 - [Omnibox](#omnibox) (1)
 - [OneDrive](#onedrive) (3)
+- [OneDrive access](#onedrive-access) (1)
 - [Open Interpreter](#open-interpreter) (1)
 - [OpenAI](#openai) (1)
 - [OpenAI Codex](#openai-codex) (1)
@@ -1292,9 +1299,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (182)
+- [operations](#operations) (183)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (185)
+- [ops](#ops) (186)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1498,6 +1505,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Redis backdoor](#redis-backdoor) (1)
 - [RediSearch](#redisearch) (1)
 - [reflective .NET loading](#reflective-net-loading) (1)
+- [refresh token theft](#refresh-token-theft) (1)
 - [refresh tokens](#refresh-tokens) (1)
 - [RegAsm process hollowing](#regasm-process-hollowing) (1)
 - [registry persistence](#registry-persistence) (5)
@@ -1524,7 +1532,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [residential proxy](#residential-proxy) (1)
 - [REST C2](#rest-c2) (1)
 - [restart-triggered execution](#restart-triggered-execution) (1)
+- [reverse proxy](#reverse-proxy) (1)
 - [reverse SSH tunneling](#reverse-ssh-tunneling) (2)
+- [REVERSE_PROXY_TRUSTED_PROXIES](#reverse_proxy_trusted_proxies) (1)
 - [ReverseSocks](#reversesocks) (1)
 - [reviewdog](#reviewdog) (1)
 - [RingH23](#ringh23) (1)
@@ -1683,6 +1693,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SolidPDFCreator.dll](#solidpdfcreatordll) (1)
 - [SolidPDFPcl2Bmp](#solidpdfpcl2bmp) (1)
 - [Sophos](#sophos) (1)
+- [source control](#source-control) (1)
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
@@ -1749,7 +1760,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [symlink following](#symlink-following) (1)
 - [Synacktiv](#synacktiv) (1)
 - [Synology](#synology) (1)
-- [Sysdig](#sysdig) (1)
+- [Sysdig](#sysdig) (2)
 - [SYSTEM](#system) (1)
 - [systemd-userdbd](#systemd-userdbd) (1)
 - [T1204.004](#t1204004) (1)
@@ -1773,6 +1784,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TDS](#tds) (1)
 - [TeamPCP](#teampcp) (8)
 - [TeamPCP-adjacent](#teampcp-adjacent) (1)
+- [Teams access](#teams-access) (1)
 - [TeamViewer](#teamviewer) (1)
 - [TEASOUP](#teasoup) (1)
 - [Tebi](#tebi) (1)
@@ -1795,7 +1807,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tetrade](#tetrade) (1)
 - [Thailand](#thailand) (3)
 - [The Gentlemen](#the-gentlemen) (1)
-- [The Hacker News](#the-hacker-news) (2)
+- [The Hacker News](#the-hacker-news) (3)
 - [third-party integrations](#third-party-integrations) (1)
 - [threat hunting](#threat-hunting) (1)
 - [ThrottleBlood](#throttleblood) (1)
@@ -1997,6 +2009,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [WScript](#wscript) (1)
 - [X-Secret](#x-secret) (1)
+- [X-WEBAUTH-USER](#x-webauth-user) (1)
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
 - [XenoRAT](#xenorat) (2)
@@ -2110,6 +2123,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
@@ -2135,6 +2149,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+
+## active probing
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 
 ## active-exploitation
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
@@ -2598,6 +2615,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## authentication bypass
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
@@ -3894,6 +3912,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-20262
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
+## CVE-2026-20896
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+
 ## CVE-2026-23111
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 
@@ -4329,6 +4350,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## device-code phishing
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
+## DevOps
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+
 ## DevTools
 - [Umbrij](../tools/umbrij.md)
 
@@ -4410,6 +4434,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Docker credentials
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+
+## Docker images
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 
 ## document exfiltration
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
@@ -5078,6 +5105,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GIFTEDCROOK
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## Gitea
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 
 ## GitHub
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
@@ -5825,6 +5855,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## Kaspersky Securelist
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## Kazakhstan
@@ -6477,6 +6508,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 - [Webworm](../actors/webworm.md)
 
+## Microsoft Identity Platform
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+
 ## Microsoft Office SharePoint
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
@@ -6936,6 +6970,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Webworm](../actors/webworm.md)
 
+## OneDrive access
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+
 ## Open Interpreter
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
@@ -7055,6 +7092,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -7243,6 +7281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -8184,6 +8223,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## reflective .NET loading
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
+## refresh token theft
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+
 ## refresh tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
@@ -8281,9 +8323,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## restart-triggered execution
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
+## reverse proxy
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+
 ## reverse SSH tunneling
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
+
+## REVERSE_PROXY_TRUSTED_PROXIES
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 
 ## ReverseSocks
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -8854,6 +8902,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Sophos
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
+## source control
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+
 ## source-code compromise
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
@@ -9167,6 +9218,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## Sysdig
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## SYSTEM
@@ -9259,6 +9311,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TeamPCP-adjacent
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 
+## Teams access
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+
 ## TeamViewer
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
@@ -9337,6 +9392,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## The Hacker News
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## third-party integrations
@@ -10127,6 +10183,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## X-Secret
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
+
+## X-WEBAUTH-USER
+- [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 
 ## X_TRADER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
