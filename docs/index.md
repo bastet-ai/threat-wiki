@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Agent skill marketplace poisoning: SkillCloak scanner evasion and SkillDetonate runtime auditing](patterns/agent-skill-marketplace-poisoning.md#skillcloak-scanner-evasion-and-skilldetonate-runtime-auditing-2026-07-02)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [Kairos data-extortion government payment](ops/kairos-data-extortion-government-payment.md)

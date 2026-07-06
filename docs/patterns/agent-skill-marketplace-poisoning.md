@@ -1,7 +1,7 @@
 # Agent skill marketplace poisoning
 
 ## Summary
-Agent skills are becoming a software-supply-chain layer for AI coding agents and hosted assistant workflows. Trail of Bits' June 2026 research shows that public skill marketplaces and skill-scanning services can miss overtly malicious skills that steal credentials, exfiltrate data, or steer agents into attacker-controlled execution paths. Unit 42's June 2026 registry-scale analysis adds a complementary defender lesson: skill review has to compare declared behavior against executable code and natural-language instructions, because the dangerous cases often appear as multi-stage chains rather than one obviously malicious permission. Unit 42's June 23, 2026 OpenClaw follow-up turns that pattern into live marketplace incident response: five ClawHub skills reportedly remained unblocked after earlier VirusTotal / ClawScan screening, spanning macOS infostealer delivery, file-size padding evasion, runtime affiliate injection, and agent-driven financial front-running. Snyk and JFrog's June 2026 follow-up reporting broadens the same lesson from individual skills to developer-machine agent ecosystems: MCP servers, skills, hooks, commands, subagents, and plugin manifests are executable supply-chain inputs that can run with developer credentials before code is committed. AIR's June 2026 public experiment adds a practical marketplace-abuse case: a clean-looking skill can outsource its real instructions to mutable external documentation, pass static scanners, gain social proof, and then swap the linked content after installation.
+Agent skills are becoming a software-supply-chain layer for AI coding agents and hosted assistant workflows. Trail of Bits' June 2026 research shows that public skill marketplaces and skill-scanning services can miss overtly malicious skills that steal credentials, exfiltrate data, or steer agents into attacker-controlled execution paths. Unit 42's June 2026 registry-scale analysis adds a complementary defender lesson: skill review has to compare declared behavior against executable code and natural-language instructions, because the dangerous cases often appear as multi-stage chains rather than one obviously malicious permission. Unit 42's June 23, 2026 OpenClaw follow-up turns that pattern into live marketplace incident response: five ClawHub skills reportedly remained unblocked after earlier VirusTotal / ClawScan screening, spanning macOS infostealer delivery, file-size padding evasion, runtime affiliate injection, and agent-driven financial front-running. Snyk and JFrog's June 2026 follow-up reporting broadens the same lesson from individual skills to developer-machine agent ecosystems: MCP servers, skills, hooks, commands, subagents, and plugin manifests are executable supply-chain inputs that can run with developer credentials before code is committed. AIR's June 2026 public experiment adds a practical marketplace-abuse case: a clean-looking skill can outsource its real instructions to mutable external documentation, pass static scanners, gain social proof, and then swap the linked content after installation. HKUST's July 2026 SkillCloak / SkillDetonate paper then quantifies why static scanner verdicts should not be treated as durable allow decisions: payload-preserving transformations and self-extracting packing bypassed most tested scanners at high rates, while runtime sandboxing and information-flow evidence performed materially better.
 
 This is a pattern page, not a named-actor profile. Treat public skills, plugins, and agent instructions as untrusted dependencies with both code-execution and prompt-injection risk.
 
@@ -14,6 +14,9 @@ This is a pattern page, not a named-actor profile. Treat public skills, plugins,
 - credential theft
 - marketplace abuse
 - behavioral integrity verification
+- SkillCloak
+- SkillDetonate
+- scanner evasion
 
 ## Why this matters
 - Skills mix natural-language instructions, code, assets, and dependency metadata. That creates a broader review problem than a normal package tarball or script.
@@ -91,6 +94,29 @@ The important mechanics were:
 
 This is a different failure mode from hidden bytecode or prompt-padding scanner bypasses: even a perfectly scanned package can become unsafe if its execution path depends on mutable web content outside the reviewed artifact.
 
+### SkillCloak scanner evasion and SkillDetonate runtime auditing (2026-07-02)
+
+HKUST researchers Zimo Ji, Congying Xu, Zongjie Li, Yudong Gao, Xin Wei, Shuai Wang, and Shing-Chi Cheung published **Cloak and Detonate: Scanner Evasion and Dynamic Detection of Agent Skill Malware** on arXiv on July 2, 2026. The Hacker News surfaced the paper publicly on July 6, 2026 under the SkillCloak name.
+
+The paper is useful because it moves the agent-skill scanner problem from anecdotal bypasses to measurement. The authors evaluated eight skill scanners against 1,613 in-the-wild malicious skills and introduced **SkillCloak**, a payload-preserving evasion framework. SkillCloak keeps malicious behavior intact while changing how the payload appears to install-time scanners:
+
+- **Structural Obfuscation** rewrites visible payload indicators into semantically equivalent forms. The paper reports that this bypassed more than 80% of most static scanners and reached 96% against a hybrid scanner.
+- **Self-Extracting Skill (SFS) Packing** hides malicious components from the install-time view and restores them during agent execution. The paper reports that SFS Packing bypassed every tested scanner at rates above 90%.
+
+The defensive contribution, **SkillDetonate**, is a behavior-centric runtime auditor. Instead of trusting package appearance, it executes skills in a sandbox and looks for OS-boundary information-flow evidence across the agent context, files, processes, and network operations. Two reported primitives are especially actionable for defenders:
+
+- **On-demand closure lift:** observe instructions and code that materialize only during skill execution, not just the submitted artifact.
+- **Marker-based taint analysis:** track sensitive data as it moves through agent context, local files, child processes, and outbound network operations.
+
+The paper reports 97% attack detection at a 2% false-positive rate in its evaluation, and 87% detection on real-world malicious skills. Treat those figures as academic-lab results rather than product guarantees, but the direction is clear: static scanner verdicts, LLM-as-judge reviews, and marketplace badges are weak allow criteria when the skill can unpack or synthesize the dangerous instructions after installation.
+
+Defensive changes to make this operational:
+
+- Require dynamic detonation for public-marketplace skills before approval, especially when the skill can run shell, Python, JavaScript, package managers, or MCP setup commands.
+- Detonate with realistic but synthetic secrets and source-like canaries so information-flow tracking can observe attempted exfiltration without exposing real data.
+- Block or quarantine skills that create executable files, decode or decompress bundled material, spawn package managers, or initiate network egress not declared in the skill manifest.
+- Store scanner output as triage evidence, not as an authorization decision. A clean static result should expire when skill files, dependencies, external URLs, or runtime-generated content change.
+
 ## Tradecraft map
 
 ### Initial trust path
@@ -119,6 +145,7 @@ This is a different failure mode from hidden bytecode or prompt-padding scanner 
 - Binary, bytecode, office-document, image, and archive content may be ignored or summarized poorly.
 - One-time scans usually do not snapshot, pin, or continuously re-validate every external URL that the skill instructs the agent to fetch.
 - Passing scanner output is not a provenance guarantee and should not be used as an allow decision by itself.
+- Install-time scanner views can miss self-extracting payloads that unpack, decode, synthesize, or fetch malicious components only when the agent executes the skill.
 - Single-capability review can miss malicious chains; treat file reads, encoders, network sends, downloads, writes, dynamic eval, and shell execution as higher-risk when they occur together but are not declared together.
 - Developer endpoint inventory may miss agent runtimes, local MCP servers, skill directories, plugin repositories, and auto-update paths because they sit outside conventional SCA, CI/CD, and repository controls.
 
@@ -138,6 +165,7 @@ This is a different failure mode from hidden bytecode or prompt-padding scanner 
 - Compare the skill's declared purpose and permissions against all code paths and natural-language instructions; block installation when actual behavior is broader than the manifest or README describes.
 - Flag hidden files, bytecode (`.pyc`), compiled binaries, archives, office documents, images with embedded instructions, and large padding/truncation tricks; do not treat scanner skips or clean verdicts on oversized files as approval.
 - Diff source and compiled artifacts; rebuild bytecode or generated assets from reviewed source where possible.
+- Detonate skills in a sandbox with synthetic credentials and source-code canaries; watch for canary reads, child-process inheritance, file writes, decode/decompress stages, and network egress.
 - Review all package-manager, shell, Git, cloud, and credential-store commands the skill can cause an agent to run.
 - Enumerate every external URL or domain referenced by the skill and resolve whether it is controlled by the claimed product/vendor; watch for product-adjacent lookalike domains that redirect to legitimate docs during review.
 - Snapshot and review remote JSON, paste-site pages, setup scripts, and other live content that a skill requires at runtime; alert when those dependencies change.
@@ -152,6 +180,7 @@ This is a different failure mode from hidden bytecode or prompt-padding scanner 
 - Monitor agent runs for reads of `.env`, SSH keys, cloud credential files, GitHub tokens, npm tokens, shell history, browser stores, and package-manager config files.
 - Log marketplace source, skill version/commit, scanner outputs, human approver, and runtime tool calls so incident response can reconstruct exposure.
 - Log and alert on agent fetches of new external documentation domains and on downloaded scripts launched from URLs that were not part of the approved skill snapshot.
+- Alert when a skill creates executable files, materializes new instructions after install, spawns interpreters/package managers, or moves marked/canary data across process or network boundaries.
 - Add endpoint telemetry for agent-plugin syncs, hook execution, MCP server launches, shell commands spawned by agent runtimes, and unexpected reads of developer credentials before code reaches CI.
 
 ## Related pages
@@ -168,5 +197,7 @@ This is a different failure mode from hidden bytecode or prompt-padding scanner 
 - Snyk: https://snyk.io/blog/agentic-development-security-ai-coding-risk/
 - JFrog: https://jfrog.com/blog/introducing-agent-plugins-repositories/
 - AIR Security: https://www.air.security/blog-posts/the-story-of-skills
+- HKUST arXiv: https://arxiv.org/abs/2607.02357
+- The Hacker News SkillCloak coverage: https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html
 - The Hacker News: https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html
 

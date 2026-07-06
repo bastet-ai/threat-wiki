@@ -1570,6 +1570,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sandboxing](#sandboxing) (1)
 - [scam infrastructure](#scam-infrastructure) (1)
 - [scambling](#scambling) (1)
+- [scanner evasion](#scanner-evasion) (1)
 - [ScarCruft](#scarcruft) (1)
 - [scheduled task](#scheduled-task) (3)
 - [scheduled task persistence](#scheduled-task-persistence) (5)
@@ -1643,6 +1644,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [simulation tampering](#simulation-tampering) (1)
 - [Site Member permissions](#site-member-permissions) (1)
 - [skb](#skb) (1)
+- [SkillCloak](#skillcloak) (1)
+- [SkillDetonate](#skilldetonate) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [Sliver](#sliver) (2)
 - [SLSA](#slsa) (1)
@@ -8434,6 +8437,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## scambling
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
+## scanner evasion
+- [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+
 ## ScarCruft
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
@@ -8692,6 +8698,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## skb
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+
+## SkillCloak
+- [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+
+## SkillDetonate
+- [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 
 ## sleeper packages
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
