@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Cavern</title>
+      <link>https://threat.wiki/tools/cavern/</link>
+      <description>Added Check Point Research coverage of Cavern, a modular .NET C2 and post-exploitation framework used by Iran-linked Cavern Manticore against Israeli government and IT-provider targets. The page captures RMM-driven WinDirStat DLL sideloading, uxtheme.dll agent behavior, n-HTCommp.dll HTTP/WebSocket transport, mixed .NET Framework / C++/CLI / NativeAOT anti-analysis architecture, AppDomain module isolation, DPAPI/SQL/LDAP/network/SMB/tunnel modules, C2 headers, and defender pivots for hospitalinstallation[.]com infrastructure and WinDirStat sideload artifacts.</description>
+      <pubDate>Mon, 06 Jul 2026 21:27:53 GMT</pubDate>
+      <guid>https://threat.wiki/tools/cavern/</guid>
+    </item>
+    <item>
+      <title>Cavern Manticore</title>
+      <link>https://threat.wiki/actors/cavern-manticore/</link>
+      <description>Added Check Point Research coverage of Cavern Manticore, an Iran/MOIS-linked cluster targeting Israeli government and IT-provider organizations with overlap to MuddyWater and Lyceum. The page captures RMM initial access, WinDirStat sideloading, Cavern framework deployment, PDB and infrastructure pivots, Cav3rn-to-Cavern lineage, and response guidance for preserving RMM, DLL, config, memory, and proxy telemetry.</description>
+      <pubDate>Mon, 06 Jul 2026 21:27:53 GMT</pubDate>
+      <guid>https://threat.wiki/actors/cavern-manticore/</guid>
+    </item>
+    <item>
       <title>Januscape KVM CVE-2026-53359 guest-to-host escape</title>
       <link>https://threat.wiki/ops/januscape-kvm-cve-2026-53359-guest-to-host-escape/</link>
       <description>Added coverage for Januscape CVE-2026-53359: a KVM/x86 shadow-MMU use-after-free disclosed by Hyunwoo Kim / V4bel after linux-distros embargo, used as a Google kvmCTF zero-day submission. The public PoC can panic x86 KVM hosts from a guest VM; the researcher says a full host-root escape exists but is withheld. The page captures nested-virtualization and multi-tenant-cloud risk, /dev/kvm LPE exposure, the June 2026 kernel fix commit, and defender guidance for patch validation, nested-virtualization restriction, host-panic triage, and co-resident guest secret scoping.</description>

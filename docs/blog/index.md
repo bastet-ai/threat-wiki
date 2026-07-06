@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Cavern](../tools/cavern.md)
+- [Cavern Manticore](../actors/cavern-manticore.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [Kali365 device-code phishing expansion: Kaspersky legal-portal / Microsoft Identity Platform chain](../ops/kali365-device-code-phishing-expansion.md#kaspersky-legal-portal-microsoft-identity-platform-chain)

@@ -199,6 +199,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - Cavern: tools/cavern.md
       - QuimaRAT: tools/quimarat.md
       - CrownX: tools/crownx.md
       - BusySnake Stealer: tools/busysnake-stealer.md
@@ -221,6 +222,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - Cavern Manticore: actors/cavern-manticore.md
       - Armored Likho: actors/armored-likho.md
       - ToddyCat: actors/toddycat.md
       - Mustang Panda: actors/mustang-panda.md
