@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Januscape KVM CVE-2026-53359 guest-to-host escape: ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md
       - Gitea Docker CVE-2026-20896 probing: ops/gitea-docker-cve-2026-20896-probing.md
       - ScreenConnect freeware / AsyncRAT SEO campaign: ops/screenconnect-freeware-asyncrat-seo-campaign.md
       - FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster: ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md

@@ -7,6 +7,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [.NET malware](#net-malware) (4)
 - [.pth](#pth) (1)
 - [/accessv2](#accessv2) (1)
+- [/dev/kvm](#devkvm) (1)
 - [146.70.139.154](#14670139154) (1)
 - [192.42.116.105](#19242116105) (1)
 - [192.42.116.58](#1924211658) (1)
@@ -518,6 +519,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-48907](#cve-2026-48907) (1)
 - [CVE-2026-50751](#cve-2026-50751) (1)
 - [CVE-2026-50752](#cve-2026-50752) (1)
+- [CVE-2026-53359](#cve-2026-53359) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-54420](#cve-2026-54420) (1)
 - [CVE-2026-6682](#cve-2026-6682) (1)
@@ -706,7 +708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
-- [exploitation](#exploitation) (13)
+- [exploitation](#exploitation) (14)
 - [exploitation attempts](#exploitation-attempts) (1)
 - [extension supply-chain](#extension-supply-chain) (2)
 - [external federation](#external-federation) (1)
@@ -857,6 +859,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GS-Netcat](#gs-netcat) (1)
 - [GTIG](#gtig) (2)
 - [GUE](#gue) (1)
+- [guest-to-host escape](#guest-to-host-escape) (1)
 - [Guildma](#guildma) (1)
 - [hack-and-leak](#hack-and-leak) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
@@ -897,6 +900,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Huntress](#huntress) (1)
 - [hydropower](#hydropower) (2)
 - [Hydropower Cooperation Project Proposal.zip](#hydropower-cooperation-project-proposalzip) (1)
+- [hypervisor escape](#hypervisor-escape) (1)
+- [Hyunwoo Kim](#hyunwoo-kim) (1)
 - [I-SOON](#i-soon) (2)
 - [ICE](#ice) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
@@ -960,6 +965,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ivanti Sentry](#ivanti-sentry) (1)
 - [JADEPUFFER](#jadepuffer) (1)
 - [Jamf Threat Labs](#jamf-threat-labs) (1)
+- [Januscape](#januscape) (1)
 - [Japan](#japan) (1)
 - [Java malware](#java-malware) (1)
 - [JavaScript](#javascript) (11)
@@ -1012,6 +1018,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KORKERDS](#korkerds) (1)
 - [Kubernetes](#kubernetes) (2)
 - [KV-botnet](#kv-botnet) (1)
+- [KVM](#kvm) (1)
+- [KVM escape](#kvm-escape) (1)
+- [kvmCTF](#kvmctf) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
 - [LangChain](#langchain) (2)
@@ -1048,8 +1057,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lightning Shared Scooter Co.](#lightning-shared-scooter-co) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linksys](#linksys) (1)
-- [Linux](#linux) (21)
-- [Linux kernel](#linux-kernel) (3)
+- [Linux](#linux) (22)
+- [Linux kernel](#linux-kernel) (4)
 - [Linux malware](#linux-malware) (1)
 - [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (2)
@@ -1066,7 +1075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [load balancer](#load-balancer) (1)
 - [loader](#loader) (4)
 - [local LLMs](#local-llms) (1)
-- [local privilege escalation](#local-privilege-escalation) (4)
+- [local privilege escalation](#local-privilege-escalation) (5)
 - [local-file-inclusion](#local-file-inclusion) (1)
 - [localhost](#localhost) (1)
 - [log poisoning](#log-poisoning) (1)
@@ -1211,6 +1220,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MSSQL](#mssql) (1)
 - [mTLS](#mtls) (1)
 - [MuddyWater](#muddywater) (2)
+- [multi-tenant cloud](#multi-tenant-cloud) (1)
 - [Mustang Panda](#mustang-panda) (2)
 - [Mustard Tempest](#mustard-tempest) (1)
 - [mutable tags](#mutable-tags) (2)
@@ -1230,6 +1240,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nebo](#nebo) (1)
 - [negotiation](#negotiation) (1)
 - [Neo-reGeorg](#neo-regeorg) (1)
+- [nested virtualization](#nested-virtualization) (1)
 - [Netherlands](#netherlands) (1)
 - [NetNut](#netnut) (1)
 - [NetScaler](#netscaler) (2)
@@ -1299,9 +1310,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (183)
+- [operations](#operations) (184)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (186)
+- [ops](#ops) (187)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1629,6 +1640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session theft](#session-theft) (1)
 - [session token theft](#session-token-theft) (1)
 - [shadow copy deletion](#shadow-copy-deletion) (2)
+- [shadow MMU](#shadow-mmu) (1)
 - [SHADOW-AETHER-040](#shadow-aether-040) (1)
 - [SHADOW-AETHER-064](#shadow-aether-064) (1)
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
@@ -1898,6 +1910,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [user namespaces](#user-namespaces) (2)
 - [UTA0355](#uta0355) (1)
 - [uTLS](#utls) (1)
+- [V4bel](#v4bel) (1)
 - [V8](#v8) (1)
 - [valid accounts](#valid-accounts) (1)
 - [ValleyRAT](#valleyrat) (1)
@@ -1919,7 +1932,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vietnam-aligned](#vietnam-aligned) (1)
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
-- [virtualization](#virtualization) (1)
+- [virtualization](#virtualization) (2)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
 - [vishing](#vishing) (2)
 - [Visual Studio](#visual-studio) (1)
@@ -1937,7 +1950,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
-- [vulnerability](#vulnerability) (15)
+- [vulnerability](#vulnerability) (16)
 - [vulnerability research](#vulnerability-research) (2)
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
@@ -2057,6 +2070,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## /accessv2
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+
+## /dev/kvm
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
 ## 146.70.139.154
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
@@ -4054,6 +4070,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-50752
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
+## CVE-2026-53359
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+
 ## CVE-2026-5426
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -4790,6 +4809,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## exploitation
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -5355,6 +5375,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GUE
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
+## guest-to-host escape
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+
 ## Guildma
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
@@ -5487,6 +5510,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Hydropower Cooperation Project Proposal.zip
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+
+## hypervisor escape
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+
+## Hyunwoo Kim
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
 ## I-SOON
 - [FishMonger](../actors/fishmonger.md)
@@ -5742,6 +5771,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Jamf Threat Labs
 - [PamStealer](../tools/pamstealer.md)
 
+## Januscape
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+
 ## Japan
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -5922,6 +5954,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## KV-botnet
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
+## KVM
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+
+## KVM escape
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+
+## kvmCTF
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+
 ## L2TP/IPSec
 - [First VPN](../tools/first-vpn.md)
 
@@ -6049,6 +6090,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -6068,6 +6110,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## Linux kernel
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
@@ -6139,6 +6182,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## local privilege escalation
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
@@ -6680,6 +6724,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## multi-tenant cloud
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+
 ## Mustang Panda
 - [Mustang Panda](../actors/mustang-panda.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
@@ -6739,6 +6786,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Neo-reGeorg
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
+## nested virtualization
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
 ## Netherlands
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -7105,6 +7155,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -7293,6 +7344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -8673,6 +8725,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
 
+## shadow MMU
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+
 ## SHADOW-AETHER-040
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
@@ -9738,6 +9793,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## uTLS
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
+## V4bel
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+
 ## V8
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
@@ -9812,6 +9870,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## virtualization
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
 ## VirusTotal sentiment abuse
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
@@ -9885,6 +9944,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+- [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)

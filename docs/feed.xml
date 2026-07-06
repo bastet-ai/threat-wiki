@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Januscape KVM CVE-2026-53359 guest-to-host escape</title>
+      <link>https://threat.wiki/ops/januscape-kvm-cve-2026-53359-guest-to-host-escape/</link>
+      <description>Added coverage for Januscape CVE-2026-53359: a KVM/x86 shadow-MMU use-after-free disclosed by Hyunwoo Kim / V4bel after linux-distros embargo, used as a Google kvmCTF zero-day submission. The public PoC can panic x86 KVM hosts from a guest VM; the researcher says a full host-root escape exists but is withheld. The page captures nested-virtualization and multi-tenant-cloud risk, /dev/kvm LPE exposure, the June 2026 kernel fix commit, and defender guidance for patch validation, nested-virtualization restriction, host-panic triage, and co-resident guest secret scoping.</description>
+      <pubDate>Mon, 06 Jul 2026 19:28:16 GMT</pubDate>
+      <guid>https://threat.wiki/ops/januscape-kvm-cve-2026-53359-guest-to-host-escape/</guid>
+    </item>
+    <item>
       <title>Gitea Docker CVE-2026-20896 probing</title>
       <link>https://threat.wiki/ops/gitea-docker-cve-2026-20896-probing/</link>
       <description>Added coverage for Gitea Docker CVE-2026-20896 active probing: official Docker images before and including 1.26.2 hard-coded REVERSE_PROXY_TRUSTED_PROXIES = *, so reverse-proxy authentication deployments with directly reachable container ports can accept attacker-supplied X-WEBAUTH-USER headers and impersonate known or guessable users. The page captures Sysdig's first observed probing 13 days after disclosure, ProtonVPN source IP 159.26.98[.]241, fixed version 1.26.3, and defender guidance for image upgrades, trusted-proxy allow-listing, direct-port exposure review, and source-control / CI credential rotation.</description>
