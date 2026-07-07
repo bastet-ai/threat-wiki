@@ -157,7 +157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [audit logging](#audit-logging) (1)
 - [AUR](#aur) (1)
 - [authenticated RCE](#authenticated-rce) (1)
-- [authentication bypass](#authentication-bypass) (9)
+- [authentication bypass](#authentication-bypass) (10)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -271,6 +271,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
 - [CERT-In](#cert-in) (1)
+- [CERT/CC](#certcc) (1)
 - [certificate pinning](#certificate-pinning) (1)
 - [certificate theft](#certificate-theft) (1)
 - [CFIDE](#cfide) (1)
@@ -470,6 +471,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-10520](#cve-2026-10520) (1)
 - [CVE-2026-10523](#cve-2026-10523) (1)
+- [CVE-2026-11405](#cve-2026-11405) (1)
 - [CVE-2026-11645](#cve-2026-11645) (1)
 - [CVE-2026-12569](#cve-2026-12569) (1)
 - [CVE-2026-12957](#cve-2026-12957) (1)
@@ -658,7 +660,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge appliance](#edge-appliance) (10)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
-- [edge device](#edge-device) (1)
+- [edge device](#edge-device) (2)
 - [edge devices](#edge-devices) (3)
 - [edge exploitation](#edge-exploitation) (1)
 - [edge service](#edge-service) (2)
@@ -889,6 +891,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Helm](#helm) (1)
 - [Hermes Agent](#hermes-agent) (1)
 - [HexKiller](#hexkiller) (1)
+- [hidden backdoor](#hidden-backdoor) (1)
 - [hidden service](#hidden-service) (1)
 - [high explosives](#high-explosives) (1)
 - [higher education](#higher-education) (2)
@@ -1328,7 +1331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (184)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (188)
+- [ops](#ops) (189)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1584,6 +1587,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rootkit](#rootkit) (4)
 - [ROPC](#ropc) (1)
 - [Rouki obfuscation](#rouki-obfuscation) (1)
+- [router](#router) (1)
 - [router malware](#router-malware) (1)
 - [RSA](#rsa) (1)
 - [RSA-2048](#rsa-2048) (1)
@@ -1719,6 +1723,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [software impersonation](#software-impersonation) (1)
 - [software supply chain](#software-supply-chain) (1)
 - [software-deployment](#software-deployment) (1)
+- [SOHO router](#soho-router) (1)
 - [SOHO routers](#soho-routers) (1)
 - [Solana](#solana) (2)
 - [SolarWinds](#solarwinds) (1)
@@ -1836,6 +1841,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
 - [tenant-project](#tenant-project) (1)
+- [Tenda](#tenda) (1)
 - [Tenet Security](#tenet-security) (1)
 - [Tetrade](#tetrade) (1)
 - [Thailand](#thailand) (3)
@@ -1971,7 +1977,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
-- [vulnerability](#vulnerability) (17)
+- [VU#213560](#vu213560) (1)
+- [vulnerability](#vulnerability) (18)
 - [vulnerability research](#vulnerability-research) (2)
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
@@ -1992,6 +1999,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web application](#web-application) (4)
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
+- [web management interface](#web-management-interface) (1)
 - [web RCE](#web-rce) (1)
 - [web shell](#web-shell) (5)
 - [web shells](#web-shells) (3)
@@ -2667,6 +2675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
+- [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
 ## authentication laundering
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -3081,6 +3090,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CERT-In
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+
+## CERT/CC
+- [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
 ## certificate pinning
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
@@ -3947,6 +3959,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-10523
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 
+## CVE-2026-11405
+- [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
+
 ## CVE-2026-11645
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
@@ -4631,6 +4646,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## edge device
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+- [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
 ## edge devices
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -5500,6 +5516,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HexKiller
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## hidden backdoor
+- [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
 ## hidden service
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
@@ -7524,6 +7543,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
+- [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
@@ -8554,6 +8574,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Rouki obfuscation
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
+## router
+- [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
+
 ## router malware
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
@@ -9045,6 +9068,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## software-deployment
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
+
+## SOHO router
+- [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
 ## SOHO routers
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
@@ -9541,6 +9567,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## tenant-project
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+
+## Tenda
+- [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
 ## Tenet Security
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -10050,6 +10079,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
+## VU#213560
+- [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
+
 ## vulnerability
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -10067,6 +10099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+- [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## vulnerability research
@@ -10142,6 +10175,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web IDE
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
+
+## web management interface
+- [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
 ## web RCE
 - [RustDuck](../tools/rustduck.md)
