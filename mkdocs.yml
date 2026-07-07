@@ -7,6 +7,9 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign: ops/paysafe-skrill-neteller-npm-pypi-typosquats.md
+      - Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation: ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md
+      - Langflow CVE-2026-55255 flow authorization bypass: ops/langflow-cve-2026-55255-flow-authorization-bypass.md
       - DEBULL device-code phishing and GraphSpy post-exploitation: ops/debull-device-code-phishing-graphspy.md
       - UNK_MassTraction Roundcube university mailserver campaign: ops/unk-masstraction-roundcube-university-mailserver-campaign.md
       - Tenda firmware CVE-2026-11405 hidden authentication backdoor: ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md

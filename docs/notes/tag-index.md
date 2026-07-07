@@ -28,7 +28,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (36)
+- [active exploitation](#active-exploitation) (38)
 - [active probing](#active-probing) (1)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
@@ -83,6 +83,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI security](#ai-security) (1)
 - [AI tooling](#ai-tooling) (15)
 - [AI vulnerability discovery](#ai-vulnerability-discovery) (1)
+- [AI workflow](#ai-workflow) (1)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
 - [AI-assisted malware](#ai-assisted-malware) (1)
@@ -100,7 +101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android ADB](#android-adb) (1)
 - [Android Debug Bridge](#android-debug-bridge) (1)
 - [Android spyware](#android-spyware) (1)
-- [anti-analysis](#anti-analysis) (1)
+- [anti-analysis](#anti-analysis) (2)
 - [anti-forensics](#anti-forensics) (2)
 - [Anubis ransomware](#anubis-ransomware) (1)
 - [Apex One](#apex-one) (1)
@@ -132,6 +133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aquatic Panda](#aquatic-panda) (2)
 - [AquilaRAT](#aquilarat) (1)
 - [arbitrary file read](#arbitrary-file-read) (1)
+- [arbitrary file upload](#arbitrary-file-upload) (1)
 - [arbitrary file write](#arbitrary-file-write) (3)
 - [arbitrary JavaScript](#arbitrary-javascript) (1)
 - [Arch Linux](#arch-linux) (1)
@@ -162,6 +164,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
+- [authorization bypass](#authorization-bypass) (1)
 - [auto-execution](#auto-execution) (1)
 - [AUTODYN](#autodyn) (1)
 - [AutoGen Studio](#autogen-studio) (1)
@@ -303,11 +306,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (5)
 - [Chromium extension](#chromium-extension) (1)
+- [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (2)
 - [CI/CD](#cicd) (36)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
-- [CISA KEV](#cisa-kev) (15)
+- [CISA KEV](#cisa-kev) (17)
 - [Cisco](#cisco) (2)
 - [Cisco Nexus](#cisco-nexus) (1)
 - [Cisco Unified CM](#cisco-unified-cm) (1)
@@ -362,6 +366,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CloudLinux](#cloudlinux) (1)
 - [cluster compromise](#cluster-compromise) (1)
 - [CMS](#cms) (6)
+- [CMS exploitation](#cms-exploitation) (1)
 - [Cobalt Strike](#cobalt-strike) (5)
 - [code execution](#code-execution) (1)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
@@ -419,7 +424,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (33)
+- [credential theft](#credential-theft) (34)
 - [credential-theft](#credential-theft) (51)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
@@ -429,6 +434,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cron persistence](#cron-persistence) (1)
 - [cross-platform](#cross-platform) (1)
 - [cross-platform malware](#cross-platform-malware) (1)
+- [cross-tenant isolation](#cross-tenant-isolation) (1)
 - [CrownX](#crownx) (2)
 - [crypto](#crypto) (2)
 - [crypto clipper](#crypto-clipper) (1)
@@ -534,11 +540,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-48316](#cve-2026-48316) (1)
 - [CVE-2026-48558](#cve-2026-48558) (3)
 - [CVE-2026-48907](#cve-2026-48907) (1)
+- [CVE-2026-48908](#cve-2026-48908) (1)
 - [CVE-2026-50751](#cve-2026-50751) (1)
 - [CVE-2026-50752](#cve-2026-50752) (1)
 - [CVE-2026-53359](#cve-2026-53359) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-54420](#cve-2026-54420) (1)
+- [CVE-2026-55255](#cve-2026-55255) (1)
+- [CVE-2026-56290](#cve-2026-56290) (1)
 - [CVE-2026-6682](#cve-2026-6682) (1)
 - [CVE-2026-6683](#cve-2026-6683) (1)
 - [CVE-2026-6684](#cve-2026-6684) (1)
@@ -701,6 +710,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [enterprise applications](#enterprise-applications) (1)
 - [Entra ID](#entra-id) (2)
 - [Environment Management Hub](#environment-management-hub) (1)
+- [environment variable theft](#environment-variable-theft) (1)
 - [environment variables](#environment-variables) (1)
 - [environmental keying](#environmental-keying) (1)
 - [epoll](#epoll) (1)
@@ -783,6 +793,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [firmware update](#firmware-update) (1)
 - [FishMonger](#fishmonger) (1)
 - [FlexPLM](#flexplm) (1)
+- [flow execution](#flow-execution) (1)
 - [Flutter](#flutter) (1)
 - [FlutterShell](#fluttershell) (1)
 - [folderOpen](#folderopen) (1)
@@ -817,6 +828,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost Networks](#ghost-networks) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GHSA-6v3r-4p5c-mrp5](#ghsa-6v3r-4p5c-mrp5) (1)
+- [GHSA-qrpv-q767-xqq2](#ghsa-qrpv-q767-xqq2) (1)
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [Gitea](#gitea) (1)
@@ -1007,8 +1019,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JFrog Security Research](#jfrog-security-research) (2)
 - [JINX-0164](#jinx-0164) (2)
 - [joblib](#joblib) (1)
-- [Joomla](#joomla) (1)
+- [Joomla](#joomla) (2)
 - [Joomla Content Editor](#joomla-content-editor) (1)
+- [Joomlack](#joomlack) (1)
+- [JoomShaper](#joomshaper) (1)
 - [journalists](#journalists) (1)
 - [JSCoreRunner](#jscorerunner) (1)
 - [JSON:API](#jsonapi) (1)
@@ -1046,7 +1060,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
 - [LangChain](#langchain) (2)
-- [Langflow](#langflow) (4)
+- [Langflow](#langflow) (5)
 - [LangFlow](#langflow) (1)
 - [LangGraph](#langgraph) (1)
 - [Language Servers for AWS](#language-servers-for-aws) (1)
@@ -1268,6 +1282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [negotiation](#negotiation) (1)
 - [Neo-reGeorg](#neo-regeorg) (1)
 - [nested virtualization](#nested-virtualization) (1)
+- [Neteller](#neteller) (1)
 - [Netherlands](#netherlands) (1)
 - [NetNut](#netnut) (1)
 - [NetScaler](#netscaler) (2)
@@ -1280,6 +1295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nftables](#nftables) (1)
 - [Nginx](#nginx) (1)
 - [Nginx module](#nginx-module) (1)
+- [Ngrok C2](#ngrok-c2) (1)
 - [no attribution](#no-attribution) (1)
 - [No-IP](#no-ip) (1)
 - [node-gyp](#node-gyp) (2)
@@ -1290,7 +1306,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js malware](#nodejs-malware) (1)
 - [North Korea](#north-korea) (11)
 - [notarized malware](#notarized-malware) (1)
-- [npm](#npm) (43)
+- [npm](#npm) (44)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm tokens](#npm-tokens) (1)
 - [npx](#npx) (1)
@@ -1338,9 +1354,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (184)
+- [operations](#operations) (187)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (190)
+- [ops](#ops) (193)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1366,6 +1382,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package-splitting](#package-splitting) (1)
 - [package-takeover](#package-takeover) (1)
 - [Packagist](#packagist) (4)
+- [Page Builder CK](#page-builder-ck) (1)
 - [page cache](#page-cache) (2)
 - [page poisoning](#page-poisoning) (1)
 - [Pakistan](#pakistan) (2)
@@ -1386,10 +1403,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
 - [payment fraud](#payment-fraud) (1)
+- [payment SDK](#payment-sdk) (1)
 - [payment workflow exposure](#payment-workflow-exposure) (1)
 - [payment-card theft](#payment-card-theft) (2)
 - [payment-card-theft](#payment-card-theft) (2)
 - [payroll lures](#payroll-lures) (1)
+- [Paysafe](#paysafe) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [PebbleDash](#pebbledash) (1)
 - [pedit](#pedit) (1)
@@ -1409,6 +1428,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [phishing](#phishing) (16)
 - [phishing-as-a-service](#phishing-as-a-service) (2)
 - [PHP](#php) (2)
+- [PHP code execution](#php-code-execution) (1)
 - [PHP code injection](#php-code-injection) (1)
 - [PHP object injection](#php-object-injection) (1)
 - [PHP upload](#php-upload) (1)
@@ -1502,7 +1522,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PureLogs Stealer](#purelogs-stealer) (1)
 - [pwn-request](#pwn-request) (1)
 - [PyArmor](#pyarmor) (2)
-- [PyPI](#pypi) (10)
+- [PyPI](#pypi) (11)
 - [Python](#python) (8)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python malware](#python-malware) (2)
@@ -1631,6 +1651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Salesforce](#salesforce) (2)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
+- [sandbox evasion](#sandbox-evasion) (1)
 - [sandboxing](#sandboxing) (1)
 - [scam infrastructure](#scam-infrastructure) (1)
 - [scambling](#scambling) (1)
@@ -1711,6 +1732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [skb](#skb) (1)
 - [SkillCloak](#skillcloak) (1)
 - [SkillDetonate](#skilldetonate) (1)
+- [Skrill](#skrill) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [Sliver](#sliver) (2)
 - [SLSA](#slsa) (1)
@@ -1727,7 +1749,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SocGholish](#socgholish) (1)
 - [social engineering](#social-engineering) (14)
 - [social-engineering](#social-engineering) (2)
-- [Socket](#socket) (1)
+- [Socket](#socket) (2)
 - [Socket Security Research](#socket-security-research) (1)
 - [Socket.IO](#socketio) (1)
 - [SOCKS tunneling](#socks-tunneling) (1)
@@ -1755,6 +1777,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [South Asia](#south-asia) (1)
 - [South Korea](#south-korea) (2)
 - [Southeast Asia](#southeast-asia) (5)
+- [SP Page Builder](#sp-page-builder) (1)
 - [spam](#spam) (1)
 - [spear phishing](#spear-phishing) (8)
 - [spear-phishing](#spear-phishing) (2)
@@ -1804,7 +1827,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [SUMMIT](#summit) (3)
 - [Supabase](#supabase) (1)
-- [supply chain](#supply-chain) (5)
+- [supply chain](#supply-chain) (6)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (81)
 - [suspected China-aligned](#suspected-china-aligned) (1)
@@ -1877,6 +1900,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token-theft](#token-theft) (1)
 - [TONESHELL](#toneshell) (2)
 - [tool](#tool) (1)
+- [tool execution](#tool-execution) (1)
 - [tool output injection](#tool-output-injection) (1)
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
@@ -1905,7 +1929,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Twilio](#twilio) (1)
 - [TypeScript](#typescript) (1)
 - [typosquat](#typosquat) (1)
-- [typosquatting](#typosquatting) (11)
+- [typosquatting](#typosquatting) (12)
 - [UAC](#uac) (1)
 - [UAC bypass](#uac-bypass) (1)
 - [UAC-0010](#uac-0010) (3)
@@ -1997,7 +2021,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
 - [VU#213560](#vu213560) (1)
-- [vulnerability](#vulnerability) (18)
+- [vulnerability](#vulnerability) (20)
 - [vulnerability research](#vulnerability-research) (2)
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
@@ -2020,7 +2044,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web IDE](#web-ide) (1)
 - [web management interface](#web-management-interface) (1)
 - [web RCE](#web-rce) (1)
-- [web shell](#web-shell) (5)
+- [web shell](#web-shell) (6)
 - [web shells](#web-shells) (3)
 - [web supply chain](#web-supply-chain) (1)
 - [web-shells](#web-shells) (1)
@@ -2202,8 +2226,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -2441,6 +2467,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI vulnerability discovery
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 
+## AI workflow
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
+
 ## ai-abuse
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 
@@ -2500,6 +2529,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## anti-analysis
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 
 ## anti-forensics
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -2603,6 +2633,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## arbitrary file read
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## arbitrary file upload
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## arbitrary file write
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
@@ -2710,6 +2743,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## authentication-coercion
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+
+## authorization bypass
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 
 ## auto-execution
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -3237,6 +3273,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Chromium extension
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
+## CI secrets
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+
 ## CI-CD
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
@@ -3290,6 +3329,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -3510,6 +3551,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+
+## CMS exploitation
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## Cobalt Strike
 - [FishMonger](../actors/fishmonger.md)
@@ -3734,6 +3778,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [QuimaRAT](../tools/quimarat.md)
@@ -3830,6 +3875,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cross-platform malware
 - [QuimaRAT](../tools/quimarat.md)
+
+## cross-tenant isolation
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 
 ## CrownX
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -4175,6 +4223,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-48907
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
+## CVE-2026-48908
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+
 ## CVE-2026-50751
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
@@ -4189,6 +4240,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-54420
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+
+## CVE-2026-55255
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
+
+## CVE-2026-56290
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## CVE-2026-6682
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -4803,6 +4860,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Environment Management Hub
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
+## environment variable theft
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+
 ## environment variables
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 
@@ -5131,6 +5191,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FlexPLM
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 
+## flow execution
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
+
 ## Flutter
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
@@ -5241,6 +5304,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GHSA-6v3r-4p5c-mrp5
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+
+## GHSA-qrpv-q767-xqq2
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 
 ## GHSA-xhcr-j4j9-3gh7
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -5981,9 +6047,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Joomla
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## Joomla Content Editor
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+
+## Joomlack
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+
+## JoomShaper
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## journalists
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -6112,6 +6185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## LangFlow
@@ -6945,6 +7019,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## nested virtualization
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
+## Neteller
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+
 ## Netherlands
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
@@ -6983,6 +7060,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Nginx module
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## Ngrok C2
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 
 ## no attribution
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
@@ -7057,6 +7137,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
@@ -7318,6 +7399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -7325,6 +7407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
@@ -7370,6 +7453,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -7508,6 +7592,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -7515,6 +7600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
@@ -7560,6 +7646,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -7697,6 +7784,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
+## Page Builder CK
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+
 ## page cache
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
@@ -7787,6 +7877,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## payment fraud
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
+## payment SDK
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+
 ## payment workflow exposure
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 
@@ -7800,6 +7893,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## payroll lures
 - [TA4922](../actors/ta4922.md)
+
+## Paysafe
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 
 ## pe_to_shellcode
 - [RemotePE](../tools/remotepe.md)
@@ -7900,6 +7996,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PHP
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+
+## PHP code execution
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## PHP code injection
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -8252,6 +8351,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -8754,6 +8854,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Samsung TizenRT
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
+## sandbox evasion
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+
 ## sandboxing
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
@@ -9035,6 +9138,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SkillDetonate
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 
+## Skrill
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+
 ## sleeper packages
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 
@@ -9102,6 +9208,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
 ## Socket
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## Socket Security Research
@@ -9196,6 +9303,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OceanLotus](../actors/oceanlotus.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Showboat](../tools/showboat.md)
+
+## SP Page Builder
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## spam
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -9372,6 +9482,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [MYRA RAT](../tools/myra-rat.md)
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## supply chain compromise
@@ -9710,6 +9821,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tool
 - [ChocoPoC](../tools/chocopoc.md)
 
+## tool execution
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
+
 ## tool output injection
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
@@ -9832,6 +9946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+- [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -10171,6 +10286,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
@@ -10265,6 +10382,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web shell
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
