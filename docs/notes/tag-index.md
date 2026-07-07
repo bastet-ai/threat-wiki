@@ -157,7 +157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [audit logging](#audit-logging) (1)
 - [AUR](#aur) (1)
 - [authenticated RCE](#authenticated-rce) (1)
-- [authentication bypass](#authentication-bypass) (8)
+- [authentication bypass](#authentication-bypass) (9)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -200,6 +200,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [behavioral integrity verification](#behavioral-integrity-verification) (1)
 - [Belarus](#belarus) (2)
 - [BELQI](#belqi) (1)
+- [BeyondTrust](#beyondtrust) (1)
 - [binary execution](#binary-execution) (1)
 - [BinaryFormatter](#binaryformatter) (1)
 - [binding.gyp](#bindinggyp) (2)
@@ -493,6 +494,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-35273](#cve-2026-35273) (2)
 - [CVE-2026-35616](#cve-2026-35616) (1)
 - [CVE-2026-39987](#cve-2026-39987) (1)
+- [CVE-2026-40138](#cve-2026-40138) (1)
+- [CVE-2026-40139](#cve-2026-40139) (1)
+- [CVE-2026-40140](#cve-2026-40140) (1)
+- [CVE-2026-40141](#cve-2026-40141) (1)
 - [CVE-2026-4020](#cve-2026-4020) (1)
 - [CVE-2026-41091](#cve-2026-41091) (1)
 - [CVE-2026-41940](#cve-2026-41940) (1)
@@ -650,7 +655,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Earth Lusca](#earth-lusca) (2)
 - [eBPF](#ebpf) (2)
 - [Eclipse](#eclipse) (1)
-- [edge appliance](#edge-appliance) (9)
+- [edge appliance](#edge-appliance) (10)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (1)
@@ -1323,7 +1328,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (184)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (187)
+- [ops](#ops) (188)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1428,6 +1433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PowerShell malware](#powershell-malware) (1)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
+- [PRA](#pra) (1)
 - [PraisonAI](#praisonai) (1)
 - [PRC](#prc) (1)
 - [PRC-aligned](#prc-aligned) (1)
@@ -1442,6 +1448,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private registry fallback](#private-registry-fallback) (1)
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (8)
+- [Privileged Remote Access](#privileged-remote-access) (1)
 - [process doppelgänging](#process-doppelganging) (1)
 - [process environment scraping](#process-environment-scraping) (1)
 - [process hollowing](#process-hollowing) (2)
@@ -1541,7 +1548,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote debugging](#remote-debugging) (2)
 - [remote monitoring and management](#remote-monitoring-and-management) (1)
 - [remote script injection](#remote-script-injection) (1)
-- [remote support](#remote-support) (1)
+- [Remote Support](#remote-support) (1)
+- [remote support](#remote-support) (2)
 - [remote-access](#remote-access) (1)
 - [Remotely](#remotely) (1)
 - [RemotePE](#remotepe) (1)
@@ -1561,7 +1569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ReverseSocks](#reversesocks) (1)
 - [reviewdog](#reviewdog) (1)
 - [RingH23](#ringh23) (1)
-- [RMM](#rmm) (2)
+- [RMM](#rmm) (3)
 - [RMM abuse](#rmm-abuse) (7)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
@@ -1963,7 +1971,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
-- [vulnerability](#vulnerability) (16)
+- [vulnerability](#vulnerability) (17)
 - [vulnerability research](#vulnerability-research) (2)
 - [vulnerability-research](#vulnerability-research) (1)
 - [VXLAN](#vxlan) (1)
@@ -2650,6 +2658,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
 ## authentication bypass
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
@@ -2804,6 +2813,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BELQI
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+
+## BeyondTrust
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 
 ## binary execution
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
@@ -4009,6 +4021,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-39987
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
+## CVE-2026-40138
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
+
+## CVE-2026-40139
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
+
+## CVE-2026-40140
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
+
+## CVE-2026-40141
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
+
 ## CVE-2026-4020
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 
@@ -4587,6 +4611,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
 ## edge appliance
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -7357,6 +7382,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -7941,6 +7967,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PPtP
 - [First VPN](../tools/first-vpn.md)
 
+## PRA
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
+
 ## PraisonAI
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
@@ -7991,6 +8020,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+
+## Privileged Remote Access
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 
 ## process doppelgänging
 - [SprySOCKS](../tools/sprysocks.md)
@@ -8399,7 +8431,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## remote script injection
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
+## Remote Support
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
+
 ## remote support
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
 ## remote-access
@@ -8462,6 +8498,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## RMM
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [UNC3753](../actors/unc3753.md)
 
@@ -10017,6 +10054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+- [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)

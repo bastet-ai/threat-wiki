@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - BeyondTrust RS / PRA CVE-2026-40138 / CVE-2026-40139 authentication bypass: ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md
       - Januscape KVM CVE-2026-53359 guest-to-host escape: ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md
       - Gitea Docker CVE-2026-20896 probing: ops/gitea-docker-cve-2026-20896-probing.md
       - ScreenConnect freeware / AsyncRAT SEO campaign: ops/screenconnect-freeware-asyncrat-seo-campaign.md

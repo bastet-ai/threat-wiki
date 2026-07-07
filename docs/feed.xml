@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>BeyondTrust RS / PRA CVE-2026-40138 / CVE-2026-40139 authentication bypass</title>
+      <link>https://threat.wiki/ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass/</link>
+      <description>Added coverage for BeyondTrust Remote Support and Privileged Remote Access BT26-03: CVE-2026-40138 and CVE-2026-40139 critical pre-authentication authentication-bypass flaws, plus CVE-2026-40140 denial-of-service and CVE-2026-40141 authenticated data-access risk. The page captures affected RS/PRA 25.3.2 and earlier versions, fixed 25.3.3 releases, configuration-dependent exposure, prior RS/PRA web-shell and backdoor exploitation context, and defender guidance for patching, exposure reduction, authentication-mode review, appliance-account audits, and compromise triage.</description>
+      <pubDate>Tue, 07 Jul 2026 07:29:46 GMT</pubDate>
+      <guid>https://threat.wiki/ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass/</guid>
+    </item>
+    <item>
       <title>Cavern</title>
       <link>https://threat.wiki/tools/cavern/</link>
       <description>Added Check Point Research coverage of Cavern, a modular .NET C2 and post-exploitation framework used by Iran-linked Cavern Manticore against Israeli government and IT-provider targets. The page captures RMM-driven WinDirStat DLL sideloading, uxtheme.dll agent behavior, n-HTCommp.dll HTTP/WebSocket transport, mixed .NET Framework / C++/CLI / NativeAOT anti-analysis architecture, AppDomain module isolation, DPAPI/SQL/LDAP/network/SMB/tunnel modules, C2 headers, and defender pivots for hospitalinstallation[.]com infrastructure and WinDirStat sideload artifacts.</description>
