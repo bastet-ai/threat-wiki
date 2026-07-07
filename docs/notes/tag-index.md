@@ -20,6 +20,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab](#ababil-of-minab) (1)
 - [abuse response](#abuse-response) (1)
 - [academic research](#academic-research) (1)
+- [academic sector](#academic-sector) (1)
 - [Accellion](#accellion) (1)
 - [access brokers](#access-brokers) (1)
 - [account takeover](#account-takeover) (1)
@@ -260,6 +261,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C2 tasking](#c2-tasking) (1)
 - [CageFS](#cagefs) (1)
 - [Calendly abuse](#calendly-abuse) (1)
+- [campaign](#campaign) (1)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [CAP_NET_ADMIN](#cap_net_admin) (2)
@@ -285,7 +287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [checkpointers](#checkpointers) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (8)
-- [China-nexus](#china-nexus) (9)
+- [China-nexus](#china-nexus) (10)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
@@ -417,7 +419,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (32)
+- [credential theft](#credential-theft) (33)
 - [credential-theft](#credential-theft) (51)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
@@ -457,12 +459,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-20399](#cve-2024-20399) (1)
 - [CVE-2024-21182](#cve-2024-21182) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
+- [CVE-2024-42009](#cve-2024-42009) (1)
 - [CVE-2025-11371](#cve-2025-11371) (1)
 - [CVE-2025-11837](#cve-2025-11837) (1)
 - [CVE-2025-3248](#cve-2025-3248) (1)
 - [CVE-2025-32975](#cve-2025-32975) (1)
 - [CVE-2025-34291](#cve-2025-34291) (1)
 - [CVE-2025-48595](#cve-2025-48595) (1)
+- [CVE-2025-49113](#cve-2025-49113) (1)
 - [CVE-2025-49704](#cve-2025-49704) (1)
 - [CVE-2025-49706](#cve-2025-49706) (1)
 - [CVE-2025-5777](#cve-2025-5777) (1)
@@ -689,6 +693,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [EndpointDlp.dll](#endpointdlpdll) (1)
 - [energy sector](#energy-sector) (4)
 - [energy-sector](#energy-sector) (1)
+- [engineering](#engineering) (1)
 - [engineering software](#engineering-software) (1)
 - [enterprise application](#enterprise-application) (1)
 - [enterprise application exploitation](#enterprise-application-exploitation) (1)
@@ -1124,6 +1129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS malware](#macos-malware) (1)
 - [Magento](#magento) (1)
 - [MagicYUV](#magicyuv) (1)
+- [mail server compromise](#mail-server-compromise) (1)
 - [mailbox theft](#mailbox-theft) (1)
 - [MAIN world injection](#main-world-injection) (1)
 - [maintainer compromise](#maintainer-compromise) (2)
@@ -1331,7 +1337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (184)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (189)
+- [ops](#ops) (190)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1403,6 +1409,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PHP code injection](#php-code-injection) (1)
 - [PHP object injection](#php-object-injection) (1)
 - [PHP upload](#php-upload) (1)
+- [physics](#physics) (1)
 - [PicassoLoader](#picassoloader) (1)
 - [pickle](#pickle) (1)
 - [pig butchering](#pig-butchering) (1)
@@ -1425,6 +1432,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Popa](#popa) (1)
 - [portmap](#portmap) (1)
 - [Portugal](#portugal) (1)
+- [post-authentication RCE](#post-authentication-rce) (1)
 - [post-exploitation](#post-exploitation) (4)
 - [post-exploitation framework](#post-exploitation-framework) (1)
 - [postal-impersonation](#postal-impersonation) (1)
@@ -1466,6 +1474,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
 - [proof of deletion](#proof-of-deletion) (1)
+- [Proofpoint](#proofpoint) (1)
 - [protestware](#protestware) (1)
 - [Protobuf](#protobuf) (1)
 - [provenance](#provenance) (1)
@@ -1587,6 +1596,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rootkit](#rootkit) (4)
 - [ROPC](#ropc) (1)
 - [Rouki obfuscation](#rouki-obfuscation) (1)
+- [Roundcube](#roundcube) (1)
 - [router](#router) (1)
 - [router malware](#router-malware) (1)
 - [RSA](#rsa) (1)
@@ -1710,6 +1720,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sms-phishing](#sms-phishing) (1)
 - [SMTP](#smtp) (1)
 - [Snake](#snake) (1)
+- [SNOWLIGHT](#snowlight) (1)
 - [SocGholish](#socgholish) (1)
 - [social engineering](#social-engineering) (14)
 - [social-engineering](#social-engineering) (2)
@@ -1752,6 +1763,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SprySOCKS](#sprysocks) (2)
 - [SQL injection](#sql-injection) (3)
 - [SQLite](#sqlite) (1)
+- [SquareShell](#squareshell) (1)
 - [SSH](#ssh) (2)
 - [SSH bastion](#ssh-bastion) (1)
 - [SSH brute force](#ssh-brute-force) (1)
@@ -1792,6 +1804,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (5)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (81)
+- [suspected China-aligned](#suspected-china-aligned) (1)
 - [SWE-agent](#swe-agent) (1)
 - [SWUpdate](#swupdate) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (1)
@@ -1925,6 +1938,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [Unit 42](#unit-42) (3)
 - [United States](#united-states) (2)
+- [university targeting](#university-targeting) (1)
+- [UNK_MassTraction](#unk_masstraction) (1)
 - [unpatched vulnerability](#unpatched-vulnerability) (1)
 - [unsafe deserialization](#unsafe-deserialization) (1)
 - [unsigned installer](#unsigned-installer) (1)
@@ -1975,6 +1990,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN session hijacking](#vpn-session-hijacking) (1)
 - [VS Code](#vs-code) (8)
 - [VS Code tunnels](#vs-code-tunnels) (1)
+- [VShell](#vshell) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
 - [VU#213560](#vu213560) (1)
@@ -2008,6 +2024,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebAssembly](#webassembly) (1)
 - [WebKit](#webkit) (1)
 - [WebLogic](#weblogic) (1)
+- [webmail](#webmail) (1)
 - [WebRTC](#webrtc) (1)
 - [webshell](#webshell) (1)
 - [website-compromise](#website-compromise) (1)
@@ -2063,6 +2080,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XOR](#xor) (1)
 - [XOR obfuscation](#xor-obfuscation) (1)
 - [XSLT SSRF](#xslt-ssrf) (1)
+- [XSS](#xss) (1)
 - [XSS.is](#xssis) (1)
 - [XXE](#xxe) (1)
 - [xz](#xz) (1)
@@ -2141,6 +2159,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## academic research
 - [UNC6508](../actors/unc6508.md)
+
+## academic sector
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
 ## Accellion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -3056,6 +3077,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Calendly abuse
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 
+## campaign
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
 ## Canada
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -3148,6 +3172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [UNC6508](../actors/unc6508.md)
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 - [Velvet Ant](../actors/velvet-ant.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -3719,6 +3744,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Umbrij](../tools/umbrij.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## credential-theft
@@ -3914,6 +3940,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JiaT75](../people/jiat75.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## CVE-2024-42009
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
 ## CVE-2025-11371
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
@@ -3931,6 +3960,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2025-48595
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+
+## CVE-2025-49113
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
 ## CVE-2025-49704
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -4742,6 +4774,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## energy-sector
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
+## engineering
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
 ## engineering software
 - [Fast16](../tools/fast16.md)
@@ -6388,6 +6423,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MagicYUV
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
+## mail server compromise
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
 ## mailbox theft
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 
@@ -7555,6 +7593,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
@@ -7859,6 +7898,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PHP upload
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
+## physics
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
 ## PicassoLoader
 - [Ghostwriter](../actors/ghostwriter.md)
 
@@ -7926,6 +7968,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Portugal
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
+## post-authentication RCE
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
 ## post-exploitation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -8098,6 +8143,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## proof of deletion
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+
+## Proofpoint
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
 ## protestware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -8574,6 +8622,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Rouki obfuscation
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
+## Roundcube
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
 ## router
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
@@ -9012,6 +9063,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Snake
 - [Turla](../actors/turla.md)
 
+## SNOWLIGHT
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
 ## SocGholish
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
@@ -9174,6 +9228,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SQLite
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+
+## SquareShell
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
 ## SSH
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -9390,6 +9447,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## suspected China-aligned
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
 ## SWE-agent
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -9896,6 +9956,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [UNC3753](../actors/unc3753.md)
 
+## university targeting
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
+## UNK_MassTraction
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
 ## unpatched vulnerability
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 
@@ -10072,6 +10138,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VS Code tunnels
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
+## VShell
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
 ## VSIX
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
@@ -10208,6 +10277,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WebLogic
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
+## webmail
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
 ## WebRTC
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -10433,6 +10505,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## XSLT SSRF
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## XSS
+- [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
 ## XSS.is
 - [First VPN](../tools/first-vpn.md)
