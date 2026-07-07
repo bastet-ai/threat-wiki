@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>RedWing mobile MaaS Android bank-fraud operation</title>
+      <link>https://threat.wiki/ops/redwing-mobile-maas-android-bank-fraud/</link>
+      <description>Added Zimperium zLabs coverage of RedWing / Rokarolla, a Telegram-sold Android malware-as-a-service operation for mobile banking fraud. The pages capture fake app-store sideloading, APK builder and subscription model, Accessibility abuse, overlay credential theft, SMS / notification interception, VNC-style live control, camera / microphone and file access, silent *21* call forwarding, DDoS capability, and defender guidance for mobile fraud, MTD, and incident response.</description>
+      <pubDate>Tue, 07 Jul 2026 21:29:58 GMT</pubDate>
+      <guid>https://threat.wiki/ops/redwing-mobile-maas-android-bank-fraud/</guid>
+    </item>
+    <item>
+      <title>RedWing</title>
+      <link>https://threat.wiki/tools/redwing/</link>
+      <description>Added RedWing as an Android spyware / banking-trojan MaaS tool page, with Rokarolla and Oblivion lineage notes, Telegram builder model, fake app-store delivery, C2/admin-panel capabilities, overlay and Accessibility behavior, call-forwarding abuse, and mobile defender pivots.</description>
+      <pubDate>Tue, 07 Jul 2026 21:29:58 GMT</pubDate>
+      <guid>https://threat.wiki/tools/redwing/</guid>
+    </item>
+    <item>
       <title>DEBULL device-code phishing and GraphSpy post-exploitation</title>
       <link>https://threat.wiki/ops/debull-device-code-phishing-graphspy/</link>
       <description>Added ZeroBEC coverage of DEBULL, a reusable Microsoft 365 device-code phishing tooling layer active in late June and early July 2026. The page captures collaboration-themed lures, a compromised Team_Meets first-stage website, DEBULL broker calls to generate and poll Microsoft Authentication Broker device codes, attacker-side sessions from 162.35.167[.]138 and 96.126.176[.]130, exposed DEBULL panel and PhaaS deployment artifacts, Turkish code-lineage markers, and the GraphSpy-Device post-authentication pivot for Microsoft Graph / Entra post-exploitation hunts.</description>

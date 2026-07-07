@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [RedWing mobile MaaS Android bank-fraud operation](ops/redwing-mobile-maas-android-bank-fraud.md)
+- [RedWing](tools/redwing.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Langflow CVE-2026-55255 flow authorization bypass](ops/langflow-cve-2026-55255-flow-authorization-bypass.md)

@@ -98,9 +98,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [AMSI bypass](#amsi-bypass) (2)
 - [Android](#android) (6)
+- [Android Accessibility Service](#android-accessibility-service) (2)
 - [Android ADB](#android-adb) (1)
 - [Android Debug Bridge](#android-debug-bridge) (1)
-- [Android spyware](#android-spyware) (1)
+- [Android malware](#android-malware) (2)
+- [Android spyware](#android-spyware) (3)
 - [anti-analysis](#anti-analysis) (2)
 - [anti-forensics](#anti-forensics) (2)
 - [Anubis ransomware](#anubis-ransomware) (1)
@@ -194,7 +196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Banana RAT](#banana-rat) (1)
 - [banking](#banking) (1)
 - [banking malware](#banking-malware) (1)
-- [banking trojan](#banking-trojan) (1)
+- [banking trojan](#banking-trojan) (3)
 - [Barracuda](#barracuda) (1)
 - [BaseZipInstaller](#basezipinstaller) (1)
 - [Bash Uploader](#bash-uploader) (1)
@@ -264,6 +266,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C2 tasking](#c2-tasking) (1)
 - [CageFS](#cagefs) (1)
 - [Calendly abuse](#calendly-abuse) (1)
+- [call forwarding](#call-forwarding) (2)
 - [campaign](#campaign) (1)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
@@ -424,7 +427,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (34)
+- [credential theft](#credential-theft) (36)
 - [credential-theft](#credential-theft) (51)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
@@ -583,7 +586,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud Uni-App](#dcloud-uni-app) (1)
 - [DcRAT](#dcrat) (1)
 - [DDNS](#ddns) (1)
-- [DDoS](#ddos) (2)
+- [DDoS](#ddos) (4)
 - [DDoS-for-hire](#ddos-for-hire) (1)
 - [dead drop resolver](#dead-drop-resolver) (4)
 - [Debian](#debian) (1)
@@ -743,6 +746,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [external federation](#external-federation) (1)
 - [extortion](#extortion) (7)
 - [F5 BIG-IP](#f5-big-ip) (1)
+- [fake app store](#fake-app-store) (1)
 - [fake CAPTCHA](#fake-captcha) (2)
 - [fake crypto exchange](#fake-crypto-exchange) (1)
 - [fake dating lures](#fake-dating-lures) (1)
@@ -1137,7 +1141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lumen Black Lotus Labs](#lumen-black-lotus-labs) (1)
 - [Luna Moth](#luna-moth) (1)
 - [Lyceum](#lyceum) (1)
-- [MaaS](#maas) (1)
+- [MaaS](#maas) (3)
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
 - [machine-learning](#machine-learning) (1)
@@ -1154,12 +1158,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (4)
-- [malware](#malware) (34)
+- [malware](#malware) (35)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (3)
 - [malware framework](#malware-framework) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
-- [malware-as-a-service](#malware-as-a-service) (2)
+- [malware-as-a-service](#malware-as-a-service) (4)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [MALXMR](#malxmr) (1)
 - [managed file transfer](#managed-file-transfer) (1)
@@ -1237,9 +1241,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MLTBackdoor](#mltbackdoor) (1)
 - [mobile](#mobile) (1)
 - [Mobile Access](#mobile-access) (1)
+- [mobile banking fraud](#mobile-banking-fraud) (1)
 - [mobile device management](#mobile-device-management) (1)
 - [mobile devices](#mobile-devices) (1)
-- [mobile malware](#mobile-malware) (1)
+- [mobile malware](#mobile-malware) (2)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
 - [Model Context Protocol](#model-context-protocol) (5)
 - [model poisoning](#model-poisoning) (1)
@@ -1306,6 +1311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js malware](#nodejs-malware) (1)
 - [North Korea](#north-korea) (11)
 - [notarized malware](#notarized-malware) (1)
+- [notification interception](#notification-interception) (1)
 - [npm](#npm) (44)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm tokens](#npm-tokens) (1)
@@ -1326,6 +1332,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OBF networks](#obf-networks) (1)
 - [obfuscation](#obfuscation) (1)
 - [obfuscator.io](#obfuscatorio) (1)
+- [Oblivion](#oblivion) (2)
 - [OFAC](#ofac) (1)
 - [Offshore LC](#offshore-lc) (1)
 - [OIDC](#oidc) (6)
@@ -1356,7 +1363,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (187)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (193)
+- [ops](#ops) (194)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1367,6 +1374,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OTA update](#ota-update) (1)
 - [OTP interception](#otp-interception) (1)
 - [Outlook](#outlook) (1)
+- [overlay attacks](#overlay-attacks) (2)
 - [OX Security](#ox-security) (1)
 - [OxideHarvest](#oxideharvest) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -1425,7 +1433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (16)
+- [phishing](#phishing) (17)
 - [phishing-as-a-service](#phishing-as-a-service) (2)
 - [PHP](#php) (2)
 - [PHP code execution](#php-code-execution) (1)
@@ -1569,6 +1577,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Redis](#redis) (2)
 - [Redis backdoor](#redis-backdoor) (1)
 - [RediSearch](#redisearch) (1)
+- [RedWing](#redwing) (2)
 - [reflective .NET loading](#reflective-net-loading) (1)
 - [refresh token theft](#refresh-token-theft) (1)
 - [refresh tokens](#refresh-tokens) (1)
@@ -1609,6 +1618,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
+- [Rokarolla](#rokarolla) (2)
 - [RokRAT](#rokrat) (1)
 - [Rollup](#rollup) (1)
 - [RomulusLoader](#romulusloader) (1)
@@ -1716,6 +1726,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ShinyHunters](#shinyhunters) (2)
 - [Shuckworm](#shuckworm) (1)
 - [SideCopy](#sidecopy) (1)
+- [sideloading](#sideloading) (1)
 - [Signal](#signal) (1)
 - [Signal interception](#signal-interception) (1)
 - [signed malware](#signed-malware) (1)
@@ -1742,6 +1753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SMB brute force](#smb-brute-force) (1)
 - [SMB egress](#smb-egress) (1)
 - [smishing](#smishing) (4)
+- [SMS interception](#sms-interception) (2)
 - [sms-phishing](#sms-phishing) (1)
 - [SMTP](#smtp) (1)
 - [Snake](#snake) (1)
@@ -1872,6 +1884,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telegra.ph](#telegraph) (1)
 - [Telegram](#telegram) (6)
 - [telegram](#telegram) (1)
+- [Telegram bot](#telegram-bot) (2)
 - [Telegram C2](#telegram-c2) (3)
 - [Telegram exfiltration](#telegram-exfiltration) (1)
 - [telemetry](#telemetry) (1)
@@ -1905,7 +1918,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (20)
+- [tools](#tools) (21)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
@@ -2009,6 +2022,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VLESS](#vless) (1)
 - [vManage](#vmanage) (1)
 - [VMware](#vmware) (2)
+- [VNC](#vnc) (2)
 - [VNT](#vnt) (2)
 - [Volt Typhoon](#volt-typhoon) (1)
 - [VPN](#vpn) (5)
@@ -2123,6 +2137,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [zero-click](#zero-click) (1)
 - [zero-day](#zero-day) (3)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
+- [Zimperium](#zimperium) (2)
+- [zLabs](#zlabs) (2)
 - [Zoho Assist](#zoho-assist) (2)
 - [Zoho WorkDrive](#zoho-workdrive) (2)
 - [ZOHOMURK](#zohomurk) (2)
@@ -2518,14 +2534,24 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
+## Android Accessibility Service
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
 ## Android ADB
 - [RustDuck](../tools/rustduck.md)
 
 ## Android Debug Bridge
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
+## Android malware
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
 ## Android spyware
 - [GREYVIBE](../actors/greyvibe.md)
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## anti-analysis
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -2854,6 +2880,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## banking trojan
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## Barracuda
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -3115,6 +3143,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Calendly abuse
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
+
+## call forwarding
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## campaign
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -3782,6 +3814,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [QuimaRAT](../tools/quimarat.md)
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -4375,6 +4409,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DDoS
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [RustDuck](../tools/rustduck.md)
 
 ## DDoS-for-hire
@@ -5026,6 +5062,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## F5 BIG-IP
 - [Velvet Ant](../actors/velvet-ant.md)
+
+## fake app store
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## fake CAPTCHA
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
@@ -6475,6 +6514,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MaaS
 - [QuimaRAT](../tools/quimarat.md)
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## MacCMS
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -6558,6 +6599,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PamStealer](../tools/pamstealer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [QuimaRAT](../tools/quimarat.md)
+- [RedWing](../tools/redwing.md)
 - [RemotePE](../tools/remotepe.md)
 - [RustDuck](../tools/rustduck.md)
 - [Showboat](../tools/showboat.md)
@@ -6591,6 +6633,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malware-as-a-service
 - [QuimaRAT](../tools/quimarat.md)
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## malware-signing-as-a-service
@@ -6865,6 +6909,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Mobile Access
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
+## mobile banking fraud
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
 ## mobile device management
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 
@@ -6873,6 +6920,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## mobile malware
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [RedWing](../tools/redwing.md)
 
 ## MobileIron Sentry
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
@@ -7106,6 +7154,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## notarized malware
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
+## notification interception
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
 ## npm
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
@@ -7218,6 +7269,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## obfuscator.io
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
+
+## Oblivion
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## OFAC
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -7658,6 +7713,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -7733,6 +7789,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Outlook
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+
+## overlay attacks
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## OX Security
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -7985,6 +8045,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [TA4922](../actors/ta4922.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
@@ -8551,6 +8612,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RediSearch
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
+## RedWing
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
 ## reflective .NET loading
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
@@ -8699,6 +8764,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## roadtx
 - [ROADtools](../tools/roadtools.md)
+
+## Rokarolla
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## RokRAT
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -9088,6 +9157,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SideCopy
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 
+## sideloading
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
 ## Signal
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 
@@ -9171,6 +9243,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
+
+## SMS interception
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## sms-phishing
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
@@ -9725,6 +9801,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## telegram
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 
+## Telegram bot
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
 ## Telegram C2
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -9851,6 +9931,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MYRA RAT](../tools/myra-rat.md)
 - [PamStealer](../tools/pamstealer.md)
 - [QuimaRAT](../tools/quimarat.md)
+- [RedWing](../tools/redwing.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
 - [RustDuck](../tools/rustduck.md)
@@ -10228,6 +10309,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VMware
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
+## VNC
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## VNT
 - [CL-STA-1062](../actors/cl-sta-1062.md)
@@ -10686,6 +10771,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## zero-reputation infrastructure
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
+
+## Zimperium
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
+## zLabs
+- [RedWing](../tools/redwing.md)
+- [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## Zoho Assist
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)

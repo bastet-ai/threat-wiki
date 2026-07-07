@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - RedWing mobile MaaS Android bank-fraud operation: ops/redwing-mobile-maas-android-bank-fraud.md
       - Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign: ops/paysafe-skrill-neteller-npm-pypi-typosquats.md
       - Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation: ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md
       - Langflow CVE-2026-55255 flow authorization bypass: ops/langflow-cve-2026-55255-flow-authorization-bypass.md
@@ -206,6 +207,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - RedWing: tools/redwing.md
       - GraphSpy: tools/graphspy.md
       - Cavern: tools/cavern.md
       - QuimaRAT: tools/quimarat.md
