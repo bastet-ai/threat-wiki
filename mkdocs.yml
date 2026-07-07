@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - DEBULL device-code phishing and GraphSpy post-exploitation: ops/debull-device-code-phishing-graphspy.md
       - UNK_MassTraction Roundcube university mailserver campaign: ops/unk-masstraction-roundcube-university-mailserver-campaign.md
       - Tenda firmware CVE-2026-11405 hidden authentication backdoor: ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md
       - BeyondTrust RS / PRA CVE-2026-40138 / CVE-2026-40139 authentication bypass: ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md
@@ -202,6 +203,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - GraphSpy: tools/graphspy.md
       - Cavern: tools/cavern.md
       - QuimaRAT: tools/quimarat.md
       - CrownX: tools/crownx.md

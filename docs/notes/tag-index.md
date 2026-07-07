@@ -578,6 +578,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DDoS-for-hire](#ddos-for-hire) (1)
 - [dead drop resolver](#dead-drop-resolver) (4)
 - [Debian](#debian) (1)
+- [DEBULL](#debull) (1)
 - [declarativeNetRequest](#declarativenetrequest) (1)
 - [DeepSeek](#deepseek) (2)
 - [Defender Advanced Hunting](#defender-advanced-hunting) (1)
@@ -867,6 +868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [government-impersonation](#government-impersonation) (1)
 - [GPT](#gpt) (1)
 - [Grandoreiro](#grandoreiro) (2)
+- [GraphSpy](#graphspy) (1)
 - [Gravity SMTP](#gravity-smtp) (1)
 - [GRE](#gre) (1)
 - [GREYVIBE](#greyvibe) (1)
@@ -1184,6 +1186,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (3)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
+- [Microsoft Authentication Broker](#microsoft-authentication-broker) (1)
 - [Microsoft Defender](#microsoft-defender) (1)
 - [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
 - [Microsoft dev tunnels](#microsoft-dev-tunnels) (2)
@@ -4329,6 +4332,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Debian
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
+## DEBULL
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+
 ## declarativeNetRequest
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
@@ -5446,6 +5452,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Grandoreiro
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+
+## GraphSpy
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
 ## Gravity SMTP
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
@@ -6657,6 +6666,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Microsoft 365 Copilot
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
+
+## Microsoft Authentication Broker
+- [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
 ## Microsoft Defender
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)

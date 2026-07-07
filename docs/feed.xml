@@ -2,6 +2,27 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>DEBULL device-code phishing and GraphSpy post-exploitation</title>
+      <link>https://threat.wiki/ops/debull-device-code-phishing-graphspy/</link>
+      <description>Added ZeroBEC coverage of DEBULL, a reusable Microsoft 365 device-code phishing tooling layer active in late June and early July 2026. The page captures collaboration-themed lures, a compromised Team_Meets first-stage website, DEBULL broker calls to generate and poll Microsoft Authentication Broker device codes, attacker-side sessions from 162.35.167[.]138 and 96.126.176[.]130, exposed DEBULL panel and PhaaS deployment artifacts, Turkish code-lineage markers, and the GraphSpy-Device post-authentication pivot for Microsoft Graph / Entra post-exploitation hunts.</description>
+      <pubDate>Tue, 07 Jul 2026 17:49:05 GMT</pubDate>
+      <guid>https://threat.wiki/ops/debull-device-code-phishing-graphspy/</guid>
+    </item>
+    <item>
+      <title>GraphSpy</title>
+      <link>https://threat.wiki/tools/graphspy/</link>
+      <description>Added GraphSpy as a Microsoft Graph / Microsoft 365 post-exploitation tool pivot from ZeroBEC's DEBULL report. The page focuses defender hunts on GraphSpy-Device device-registration artifacts, Microsoft Authentication Broker / device-code sign-ins, OAuth token abuse, Microsoft Graph activity, mailbox / OneDrive / SharePoint / Teams access, and session revocation requirements after device-code phishing.</description>
+      <pubDate>Tue, 07 Jul 2026 17:49:05 GMT</pubDate>
+      <guid>https://threat.wiki/tools/graphspy/</guid>
+    </item>
+    <item>
+      <title>Kali365 device-code phishing expansion: ZeroBEC DEBULL / GraphSpy chain</title>
+      <link>https://threat.wiki/ops/kali365-device-code-phishing-expansion/#zerobec-debull-graphspy-chain</link>
+      <description>Updated device-code phishing coverage with ZeroBEC's DEBULL / GraphSpy chain: legitimate Microsoft devicelogin flows, Microsoft Authentication Broker prompts, DEBULL broker endpoints, compromised collaboration-themed landing pages, GraphSpy-Device post-authentication artifacts, and defender pivots for Entra ID and Microsoft 365 incident response.</description>
+      <pubDate>Tue, 07 Jul 2026 17:49:05 GMT</pubDate>
+      <guid>https://threat.wiki/ops/kali365-device-code-phishing-expansion/#zerobec-debull-graphspy-chain</guid>
+    </item>
+    <item>
       <title>BeyondTrust RS / PRA CVE-2026-40138 / CVE-2026-40139 authentication bypass</title>
       <link>https://threat.wiki/ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass/</link>
       <description>Added coverage for BeyondTrust Remote Support and Privileged Remote Access BT26-03: CVE-2026-40138 and CVE-2026-40139 critical pre-authentication authentication-bypass flaws, plus CVE-2026-40140 denial-of-service and CVE-2026-40141 authenticated data-access risk. The page captures affected RS/PRA 25.3.2 and earlier versions, fixed 25.3.3 releases, configuration-dependent exposure, prior RS/PRA web-shell and backdoor exploitation context, and defender guidance for patching, exposure reduction, authentication-mode review, appliance-account audits, and compromise triage.</description>

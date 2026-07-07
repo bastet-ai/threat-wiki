@@ -7,6 +7,8 @@ The April 2026 activity used Microsoft device-code phishing: victims were social
 
 Kaspersky's July 6, 2026 Securelist writeup adds a separate real-world device-code phishing cluster active from early April to mid-May 2026 and continuing in modified regional campaigns. That chain used law-firm-themed email, a password-protected PDF, Microsoft redirector parameters, CAPTCHA-gated fake legal-portal pages, clipboard-copy behavior for the attacker-generated `user_code`, and Microsoft's real device-login page to collect OAuth tokens after the victim completed MFA.
 
+ZeroBEC's July 2026 DEBULL report adds another device-code phishing cluster active in late June and early July: collaboration-themed lures used a compromised first-stage site, a DEBULL broker endpoint, Microsoft Authentication Broker device-code flows, attacker-side sessions from `162.35.167[.]138` and `96.126.176[.]130`, and a `GraphSpy-Device` post-authentication artifact.
+
 Treat this as an identity-compromise operation, not a password-only phishing kit. Successful victims may have valid OAuth tokens issued by the real identity provider, so MFA success in the logs does not prove the session is benign.
 
 ## Tags
@@ -28,6 +30,9 @@ Treat this as an identity-compromise operation, not a password-only phishing kit
 - refresh token theft
 - OneDrive access
 - Teams access
+- DEBULL
+- GraphSpy
+- Microsoft Authentication Broker
 
 ## Why this matters
 - Device-code phishing routes the victim through a legitimate identity-provider page, which can bypass user training and MFA assumptions built around fake login forms.
@@ -77,11 +82,26 @@ Reported sequence:
 
 This update reinforces the core defensive point: legitimate Microsoft URLs and successful MFA are not sufficient proof that the authenticated session belongs to the user-intended device or application.
 
+### ZeroBEC DEBULL / GraphSpy chain
+ZeroBEC's July 2026 report describes a late-June to early-July Microsoft 365 campaign it tracks as DEBULL. This appears separate from Kali365, but it belongs on this watch page because it exercises the same defensive failure mode: legitimate Microsoft device-code authentication converts a social-engineering lure into attacker-held OAuth tokens.
+
+Reported DEBULL sequence:
+
+1. A payment / shared-folder lure pointed the victim to a compromised website path, `hxxps://trogir-rental[.]com/Team_Meets/`.
+2. The landing page called a DEBULL broker endpoint at `hxxps://frenksv[.]sbs/user/email/office_poll.php?uid=4` with `get_auth_broker_device_code`.
+3. The victim was pushed to `hxxps://www.microsoft[.]com/devicelogin` and saw a Microsoft Authentication Broker prompt.
+4. The page polled `poll_auth_broker_token` until the user completed the legitimate Microsoft flow.
+5. Attacker-side Microsoft 365 sessions were observed from `162.35.167[.]138` and `96.126.176[.]130`.
+6. A post-authentication device object named `GraphSpy-Device` appeared, which ZeroBEC ties with high confidence to GraphSpy or a GraphSpy-derived Microsoft Graph post-exploitation workflow.
+
+ZeroBEC found a directly exposed DEBULL panel on `162.35.167[.]138`, `phpinfo` leakage with document root `/var/www/token`, a `debull[.]app:0` vhost hint, and `/user/email/deploy.php` functionality consistent with a PhaaS deployment layer for templates, analytics, custom-domain publishing, and Cloudflare Workers deployment. Turkish-language code markers appeared in separate components, but ZeroBEC treats those as lineage markers rather than direct attribution.
+
 ## Defender heuristics
 
 ### Identity triage
 - Hunt for successful Microsoft device-code sign-ins followed by unusual mailbox, SharePoint, OneDrive, Graph API, or OAuth-client activity.
 - Review Entra ID sign-in logs for device-code authentication flows, unfamiliar application IDs, suspicious consent grants, and impossible or unusual geolocation after the user authenticated successfully. Include successful MFA events where the initiating workflow was an unsolicited document, legal notice, QR code, or copy/paste code prompt.
+- Search Entra ID device-registration and audit logs for `GraphSpy-Device` or other newly registered devices immediately after Microsoft Authentication Broker / device-code sign-ins.
 - Revoke refresh tokens and active sessions for confirmed victims; password reset alone is insufficient if OAuth tokens remain valid.
 - Review mailbox rules, forwarding, delegated app permissions, Graph API usage, SharePoint/OneDrive downloads, Teams access, and SaaS sessions established after the device-code event.
 
@@ -95,9 +115,12 @@ This update reinforces the core defensive point: legitimate Microsoft URLs and s
 - Monitor for domains and subdomains in Arctic Wolf's IOC package, especially `securehubcloud[.]com`, `attachedfile[.]com`, and the `kali365[.]xyz` panel family.
 - Use the content string `Preparing your secure document...` as a hunting pivot where web-proxy, email-sandbox, or VirusTotal-style content search is available.
 - Treat PDF attachments or web pages that ask users to copy a code and then open `microsoft.com/devicelogin` or `login.microsoftonline.com` as high-risk, even if the final authentication page is legitimate.
+- Hunt for DEBULL pivots from ZeroBEC's July 2026 report: `frenksv[.]sbs`, `trogir-rental[.]com/Team_Meets/`, `162.35.167[.]138`, `96.126.176[.]130`, `office_poll.php`, `get_auth_broker_device_code`, `poll_auth_broker_token`, and `GraphSpy-Device`.
 - For MAX Messenger-themed incidents, review Telegram bot and chat identifiers from Arctic Wolf's IOC repository in addition to web infrastructure.
 
 ## Related pages
+- [DEBULL device-code phishing and GraphSpy post-exploitation](debull-device-code-phishing-graphspy.md)
+- [GraphSpy](../tools/graphspy.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](chinese-language-phaas-wallet-tokenization.md)
 - [BlackFile / UNC6671 vishing extortion operation](blackfile-unc6671-vishing-extortion.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -107,4 +130,6 @@ This update reinforces the core defensive point: legitimate Microsoft URLs and s
 - Arctic Wolf Labs, June 2026 Kali365 expansion report: https://arcticwolf.com/resources/blog/kali365-expands-into-aws-microsoft-okta-xerox-max-messenger/
 - Arctic Wolf public IOC repository: https://github.com/rtkwlf/wolf-tools/tree/main/threat-intelligence/kali365-expands-into-aws-microsoft-okta-xerox-max-messenger
 - Kaspersky Securelist, July 2026 device-code phishing report: https://securelist.com/microsoft-device-code-phishing-attack/120350/
+- ZeroBEC, DEBULL / GraphSpy Microsoft device-code phishing report: https://zerobec.com/blog/debull-storm-2372-microsoft-device-code-phishing-graphspy
+- The Hacker News DEBULL summary: https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html
 - Microsoft OAuth 2.0 device authorization grant documentation: https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-device-code

@@ -3,6 +3,9 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [DEBULL device-code phishing and GraphSpy post-exploitation](../ops/debull-device-code-phishing-graphspy.md)
+- [GraphSpy](../tools/graphspy.md)
+- [Kali365 device-code phishing expansion: ZeroBEC DEBULL / GraphSpy chain](../ops/kali365-device-code-phishing-expansion.md#zerobec-debull-graphspy-chain)
 - [Agentic workflow trust-boundary failures: GitLost and WriteOut](../patterns/agentic-workflow-trust-boundary-failures.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
