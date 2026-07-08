@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>UAT-7810 LONGLEASH ORB network expansion</title>
+      <link>https://threat.wiki/ops/uat-7810-longleash-orb-network/</link>
+      <description>Added Cisco Talos / The Hacker News coverage of China-nexus UAT-7810 expanding the LapDogs Operational Relay Box network with LONGLEASH, DOGLEASH, LEASHTEST, and JARLEASH tooling, including Ruckus and ASUS AiCloud router vulnerability pivots, MIPS embedded-device testing, relay/proxy behavior across HTTP, DNS, SOCKS, TCP, ICMP, and UDP, and defender guidance for exposed networking-device inventory, evidence preservation, and ORB relay hunts.</description>
+      <pubDate>Wed, 08 Jul 2026 11:28:02 GMT</pubDate>
+      <guid>https://threat.wiki/ops/uat-7810-longleash-orb-network/</guid>
+    </item>
+    <item>
       <title>Linux GhostLock CVE-2026-43499 container escape</title>
       <link>https://threat.wiki/ops/linux-ghostlock-cve-2026-43499-container-escape/</link>
       <description>Added Nebula Security / The Hacker News coverage for GhostLock CVE-2026-43499, a Linux rtmutex / futex priority-inheritance stack use-after-free with public exploit code, reported 97% stable local-root exploitation, container-escape impact, Linux 2.6.39-era reachability, upstream Linux 7.1 fix context, and defender guidance for patch-and-reboot validation across container hosts, CI runners, shared Linux, and developer systems.</description>

@@ -157,6 +157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [ASPX web shells](#aspx-web-shells) (2)
 - [Astro](#astro) (1)
+- [ASUS AiCloud routers](#asus-aicloud-routers) (1)
 - [ASUS router](#asus-router) (1)
 - [AsyncRAT](#asyncrat) (1)
 - [Atlas RAT](#atlas-rat) (1)
@@ -297,7 +298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [checkpointers](#checkpointers) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (8)
-- [China-nexus](#china-nexus) (10)
+- [China-nexus](#china-nexus) (11)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
@@ -321,6 +322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV](#cisa-kev) (17)
 - [Cisco](#cisco) (2)
 - [Cisco Nexus](#cisco-nexus) (1)
+- [Cisco Talos](#cisco-talos) (1)
 - [Cisco Unified CM](#cisco-unified-cm) (1)
 - [Cisco Unified Communications Manager](#cisco-unified-communications-manager) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
@@ -463,9 +465,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2013-3307](#cve-2013-3307) (1)
 - [CVE-2016-5681](#cve-2016-5681) (1)
 - [CVE-2020-17103](#cve-2020-17103) (1)
+- [CVE-2020-22653](#cve-2020-22653) (1)
+- [CVE-2020-22658](#cve-2020-22658) (1)
 - [CVE-2021-29441](#cve-2021-29441) (1)
 - [CVE-2022-0492](#cve-2022-0492) (1)
 - [CVE-2023-24932](#cve-2023-24932) (1)
+- [CVE-2023-25717](#cve-2023-25717) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4966](#cve-2023-4966) (1)
 - [CVE-2024-1708](#cve-2024-1708) (1)
@@ -476,6 +481,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-42009](#cve-2024-42009) (1)
 - [CVE-2025-11371](#cve-2025-11371) (1)
 - [CVE-2025-11837](#cve-2025-11837) (1)
+- [CVE-2025-2492](#cve-2025-2492) (1)
 - [CVE-2025-3248](#cve-2025-3248) (1)
 - [CVE-2025-32975](#cve-2025-32975) (1)
 - [CVE-2025-34291](#cve-2025-34291) (1)
@@ -655,6 +661,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Docker images](#docker-images) (1)
 - [document exfiltration](#document-exfiltration) (1)
 - [document theft](#document-theft) (3)
+- [DOGLEASH](#dogleash) (1)
 - [domain squatting](#domain-squatting) (1)
 - [domestic espionage](#domestic-espionage) (1)
 - [DotNetNuke](#dotnetnuke) (1)
@@ -1018,6 +1025,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Jamf Threat Labs](#jamf-threat-labs) (1)
 - [Januscape](#januscape) (1)
 - [Japan](#japan) (1)
+- [JARLEASH](#jarleash) (1)
 - [Java malware](#java-malware) (1)
 - [JavaScript](#javascript) (11)
 - [JavaScript bridge](#javascript-bridge) (1)
@@ -1083,6 +1091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph](#langgraph) (1)
 - [Language Servers for AWS](#language-servers-for-aws) (1)
 - [Lantronix](#lantronix) (1)
+- [LapDogs](#lapdogs) (1)
 - [Laravel](#laravel) (2)
 - [lateral movement](#lateral-movement) (3)
 - [lateral-movement](#lateral-movement) (1)
@@ -1096,6 +1105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LD_PRELOAD](#ld_preload) (2)
 - [LDAP](#ldap) (1)
 - [leaked credentials](#leaked-credentials) (1)
+- [LEASHTEST](#leashtest) (1)
 - [least privilege](#least-privilege) (1)
 - [legacy botnet hijacking](#legacy-botnet-hijacking) (1)
 - [legacy infrastructure](#legacy-infrastructure) (1)
@@ -1115,6 +1125,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux](#linux) (23)
 - [Linux kernel](#linux-kernel) (5)
 - [Linux malware](#linux-malware) (1)
+- [Linux networking devices](#linux-networking-devices) (1)
 - [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (2)
 - [living off the land](#living-off-the-land) (1)
@@ -1139,6 +1150,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LOLBins](#lolbins) (2)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
+- [LONGLEASH](#longleash) (1)
 - [LONGSTREAM](#longstream) (1)
 - [LOOKVALJS](#lookvaljs) (1)
 - [LOOKVALPS](#lookvalps) (1)
@@ -1248,6 +1260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MINIRECON](#minirecon) (2)
 - [Ministry of Finance](#ministry-of-finance) (2)
 - [MiniUpdate](#miniupdate) (1)
+- [MIPS embedded devices](#mips-embedded-devices) (1)
 - [Mirai](#mirai) (3)
 - [Mirai-derived botnet](#mirai-derived-botnet) (1)
 - [Mistic](#mistic) (1)
@@ -1379,16 +1392,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Endgame](#operation-endgame) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
+- [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (188)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (196)
+- [ops](#ops) (197)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
 - [Oracle Payments](#oracle-payments) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
+- [ORB network](#orb-network) (1)
 - [OT](#ot) (1)
 - [OTA update](#ota-update) (1)
 - [OTP interception](#otp-interception) (1)
@@ -1652,6 +1667,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rouki obfuscation](#rouki-obfuscation) (1)
 - [Roundcube](#roundcube) (1)
 - [router](#router) (1)
+- [router compromise](#router-compromise) (1)
 - [router malware](#router-malware) (1)
 - [RSA](#rsa) (1)
 - [RSA-2048](#rsa-2048) (1)
@@ -1659,6 +1675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RTL819X](#rtl819x) (1)
 - [rtmutex](#rtmutex) (1)
 - [RubyGems](#rubygems) (2)
+- [Ruckus routers](#ruckus-routers) (1)
 - [Run key](#run-key) (1)
 - [rundll32](#rundll32) (1)
 - [Runner.Worker](#runnerworker) (1)
@@ -1747,6 +1764,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SharkLoader](#sharkloader) (1)
 - [shell injection](#shell-injection) (1)
 - [ShinyHunters](#shinyhunters) (2)
+- [ShortLeash](#shortleash) (1)
 - [Shuckworm](#shuckworm) (1)
 - [SideCopy](#sidecopy) (1)
 - [sideloading](#sideloading) (1)
@@ -1924,7 +1942,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tetrade](#tetrade) (1)
 - [Thailand](#thailand) (3)
 - [The Gentlemen](#the-gentlemen) (1)
-- [The Hacker News](#the-hacker-news) (3)
+- [The Hacker News](#the-hacker-news) (4)
 - [third-party integrations](#third-party-integrations) (1)
 - [threat hunting](#threat-hunting) (1)
 - [ThrottleBlood](#throttleblood) (1)
@@ -1975,7 +1993,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0098](#uac-0098) (1)
 - [UAC-0194](#uac-0194) (3)
 - [UAC-0226](#uac-0226) (1)
+- [UAT-5918](#uat-5918) (1)
 - [UAT-7237](#uat-7237) (3)
+- [UAT-7810](#uat-7810) (1)
 - [Ubiquiti](#ubiquiti) (1)
 - [Ubuntu](#ubuntu) (1)
 - [Udev persistence](#udev-persistence) (1)
@@ -2762,6 +2782,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Astro
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 
+## ASUS AiCloud routers
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
+
 ## ASUS router
 - [UNC6508](../actors/unc6508.md)
 
@@ -3285,6 +3308,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 - [UNC6508](../actors/unc6508.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 - [Velvet Ant](../actors/velvet-ant.md)
@@ -3424,6 +3448,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cisco Nexus
 - [Velvet Ant](../actors/velvet-ant.md)
+
+## Cisco Talos
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## Cisco Unified CM
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -4043,6 +4070,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2020-17103
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
+## CVE-2020-22653
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
+
+## CVE-2020-22658
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
+
 ## CVE-2021-29441
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
@@ -4051,6 +4084,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2023-24932
 - [SprySOCKS](../tools/sprysocks.md)
+
+## CVE-2023-25717
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## CVE-2023-2868
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -4082,6 +4118,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2025-11837
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
+## CVE-2025-2492
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## CVE-2025-3248
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
@@ -4725,6 +4764,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## DOGLEASH
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## domain squatting
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
@@ -6092,6 +6134,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Japan
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## JARLEASH
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
+
 ## Java malware
 - [QuimaRAT](../tools/quimarat.md)
 
@@ -6318,6 +6363,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Lantronix
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 
+## LapDogs
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
+
 ## Laravel
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -6365,6 +6413,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## leaked credentials
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
+## LEASHTEST
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## least privilege
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
@@ -6449,6 +6500,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Linux malware
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+
+## Linux networking devices
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## LiteLLM
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -6545,6 +6599,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## long-term access
 - [RemotePE](../tools/remotepe.md)
+
+## LONGLEASH
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## LONGSTREAM
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -6968,6 +7025,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MiniUpdate
 - [Screening Serpens](../actors/screening-serpens.md)
+
+## MIPS embedded devices
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## Mirai
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
@@ -7466,6 +7526,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## operational relay box
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
+## Operational Relay Box
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
+
 ## operational resilience
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
@@ -7845,6 +7908,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
@@ -7878,6 +7942,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Oracle WebLogic Server
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
+
+## ORB network
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## OT
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -8919,6 +8986,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## router
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
+## router compromise
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
+
 ## router malware
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
@@ -8940,6 +9010,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RubyGems
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+
+## Ruckus routers
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## Run key
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -9267,6 +9340,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ShinyHunters
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+
+## ShortLeash
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## Shuckworm
 - [Gamaredon](../actors/gamaredon.md)
@@ -9978,6 +10054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## third-party integrations
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -10182,10 +10259,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UAC-0226
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
+## UAT-5918
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
+
 ## UAT-7237
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 - [TinyRCT](../tools/tinyrct.md)
+
+## UAT-7810
+- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## Ubiquiti
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
