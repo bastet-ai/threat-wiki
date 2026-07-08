@@ -60,6 +60,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agent skills](#agent-skills) (1)
 - [agent state](#agent-state) (1)
 - [agentic AI](#agentic-ai) (1)
+- [agentic botnets](#agentic-botnets) (1)
 - [agentic browsers](#agentic-browsers) (1)
 - [agentic malware](#agentic-malware) (1)
 - [agentic ransomware](#agentic-ransomware) (1)
@@ -922,6 +923,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hades](#hades) (2)
 - [Hajime](#hajime) (1)
 - [hallucination](#hallucination) (1)
+- [HalluSquatting](#hallusquatting) (1)
 - [HappyDoor](#happydoor) (1)
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
@@ -1540,6 +1542,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [prompt-injection](#prompt-injection) (4)
 - [PROMPTFLUX](#promptflux) (1)
 - [PROMPTSPY](#promptspy) (1)
+- [promptware](#promptware) (1)
 - [proof of deletion](#proof-of-deletion) (1)
 - [Proofpoint](#proofpoint) (1)
 - [protestware](#protestware) (1)
@@ -2426,6 +2429,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## agentic AI
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
+## agentic botnets
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
 ## agentic browsers
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -5745,6 +5751,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hallucination
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
+## HalluSquatting
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
+
 ## HappyDoor
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -8487,6 +8496,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PROMPTSPY
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## promptware
+- [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
 ## proof of deletion
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)

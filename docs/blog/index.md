@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Phantom squatting: HalluSquatting / agentic botnet extension](../patterns/phantom-squatting-ai-hallucinated-domains.md#hallusquatting-agentic-botnet-extension)
 - [Git hash chain malleability](../patterns/git-hash-chain-malleability.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
