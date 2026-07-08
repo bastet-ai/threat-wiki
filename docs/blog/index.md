@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [RedWing](../tools/redwing.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)

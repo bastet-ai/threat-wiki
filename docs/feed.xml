@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Vidar / XMRig Factory-v3 malvertising campaign</title>
+      <link>https://threat.wiki/ops/vidar-xmrig-factory-v3-malvertising-campaign/</link>
+      <description>Added Unit 42 coverage of an April 2026 Vidar Stealer / XMRig malvertising campaign using cracked-software lures, password-protected .bin archives, Factory-v3 / UpdateFactory Go loaders, fake JustWatch and Bleacher Report Authenticode certificate branding, MpClient.dll sideloading, 491 MB null-byte file inflation, in-memory AmsiScanBuffer patching, Run-key / scheduled-task / Startup-folder persistence, and C2 / mining / credential-theft defender pivots.</description>
+      <pubDate>Wed, 08 Jul 2026 01:27:09 GMT</pubDate>
+      <guid>https://threat.wiki/ops/vidar-xmrig-factory-v3-malvertising-campaign/</guid>
+    </item>
+    <item>
       <title>RedWing mobile MaaS Android bank-fraud operation</title>
       <link>https://threat.wiki/ops/redwing-mobile-maas-android-bank-fraud/</link>
       <description>Added Zimperium zLabs coverage of RedWing / Rokarolla, a Telegram-sold Android malware-as-a-service operation for mobile banking fraud. The pages capture fake app-store sideloading, APK builder and subscription model, Accessibility abuse, overlay credential theft, SMS / notification interception, VNC-style live control, camera / microphone and file access, silent *21* call forwarding, DDoS capability, and defender guidance for mobile fraud, MTD, and incident response.</description>
