@@ -272,6 +272,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Git hash chain malleability: patterns/git-hash-chain-malleability.md
       - Agentic workflow trust-boundary failures: patterns/agentic-workflow-trust-boundary-failures.md
       - Phantom squatting AI-hallucinated domains: patterns/phantom-squatting-ai-hallucinated-domains.md
       - MCP tool-description poisoning: patterns/mcp-tool-description-poisoning.md

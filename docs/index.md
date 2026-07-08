@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Git hash chain malleability](patterns/git-hash-chain-malleability.md)
 - [UAT-7810 LONGLEASH ORB network expansion](ops/uat-7810-longleash-orb-network.md)
 - [Linux GhostLock CVE-2026-43499 container escape](ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 - [Agentic workflow trust-boundary failures: Rogue Agent Dialogflow runtime compromise](patterns/agentic-workflow-trust-boundary-failures.md#rogue-agent-dialogflow-code-blocks-to-shared-ai-runtime-compromise)
