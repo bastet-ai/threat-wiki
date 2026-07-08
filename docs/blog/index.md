@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
+- [Agentic workflow trust-boundary failures: Rogue Agent Dialogflow runtime compromise](../patterns/agentic-workflow-trust-boundary-failures.md#rogue-agent-dialogflow-code-blocks-to-shared-ai-runtime-compromise)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [RedWing](../tools/redwing.md)

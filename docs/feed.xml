@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Linux GhostLock CVE-2026-43499 container escape</title>
+      <link>https://threat.wiki/ops/linux-ghostlock-cve-2026-43499-container-escape/</link>
+      <description>Added Nebula Security / The Hacker News coverage for GhostLock CVE-2026-43499, a Linux rtmutex / futex priority-inheritance stack use-after-free with public exploit code, reported 97% stable local-root exploitation, container-escape impact, Linux 2.6.39-era reachability, upstream Linux 7.1 fix context, and defender guidance for patch-and-reboot validation across container hosts, CI runners, shared Linux, and developer systems.</description>
+      <pubDate>Wed, 08 Jul 2026 07:27:20 GMT</pubDate>
+      <guid>https://threat.wiki/ops/linux-ghostlock-cve-2026-43499-container-escape/</guid>
+    </item>
+    <item>
+      <title>Agentic workflow trust-boundary failures: Rogue Agent Dialogflow runtime compromise</title>
+      <link>https://threat.wiki/patterns/agentic-workflow-trust-boundary-failures/#rogue-agent-dialogflow-code-blocks-to-shared-ai-runtime-compromise</link>
+      <description>Updated agentic workflow trust-boundary guidance with Varonis Rogue Agent research: Dialogflow CX Playbook Code Blocks could overwrite files in a shared Google-managed Cloud Run runtime, causing other agents in the same GCP project to execute attacker logic, leak conversation data, bypass VPC Service Controls expectations through outbound egress, and expose IMDS tokens with limited logging visibility.</description>
+      <pubDate>Wed, 08 Jul 2026 07:27:20 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/agentic-workflow-trust-boundary-failures/#rogue-agent-dialogflow-code-blocks-to-shared-ai-runtime-compromise</guid>
+    </item>
+    <item>
       <title>Vidar / XMRig Factory-v3 malvertising campaign</title>
       <link>https://threat.wiki/ops/vidar-xmrig-factory-v3-malvertising-campaign/</link>
       <description>Added Unit 42 coverage of an April 2026 Vidar Stealer / XMRig malvertising campaign using cracked-software lures, password-protected .bin archives, Factory-v3 / UpdateFactory Go loaders, fake JustWatch and Bleacher Report Authenticode certificate branding, MpClient.dll sideloading, 491 MB null-byte file inflation, in-memory AmsiScanBuffer patching, Run-key / scheduled-task / Startup-folder persistence, and C2 / mining / credential-theft defender pivots.</description>
