@@ -89,6 +89,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
 - [AI-assisted malware](#ai-assisted-malware) (1)
+- [AI-assisted malware development](#ai-assisted-malware-development) (2)
 - [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
 - [AI-augmented operations](#ai-augmented-operations) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
@@ -200,7 +201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Badbox 2.0](#badbox-20) (1)
 - [Banana RAT](#banana-rat) (1)
 - [banking](#banking) (1)
-- [banking malware](#banking-malware) (1)
+- [banking malware](#banking-malware) (3)
 - [banking trojan](#banking-trojan) (3)
 - [Barracuda](#barracuda) (1)
 - [BaseZipInstaller](#basezipinstaller) (1)
@@ -220,6 +221,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
 - [Bitcoin](#bitcoin) (1)
+- [bitsadmin](#bitsadmin) (1)
 - [Bitwarden](#bitwarden) (1)
 - [BlackFile](#blackfile) (1)
 - [Blackpoint Cyber](#blackpoint-cyber) (5)
@@ -337,12 +339,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude](#claude) (2)
 - [Claude Code](#claude-code) (3)
 - [Clever Cloud](#clever-cloud) (1)
-- [ClickFix](#clickfix) (6)
+- [ClickFix](#clickfix) (8)
 - [ClickOnce](#clickonce) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
 - [Cline](#cline) (1)
 - [clipboard hijacker](#clipboard-hijacker) (1)
 - [clipboard injection](#clipboard-injection) (1)
+- [clipboard manipulation](#clipboard-manipulation) (2)
 - [clipboard stealer](#clipboard-stealer) (1)
 - [clipboard theft](#clipboard-theft) (5)
 - [clipper](#clipper) (2)
@@ -702,6 +705,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [education](#education) (1)
 - [Egnyte](#egnyte) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
+- [Elastic Security Labs](#elastic-security-labs) (2)
 - [Elasticsearch](#elasticsearch) (1)
 - [electric power sector](#electric-power-sector) (2)
 - [email](#email) (1)
@@ -762,7 +766,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [F5 BIG-IP](#f5-big-ip) (1)
 - [Factory-v3](#factory-v3) (1)
 - [fake app store](#fake-app-store) (1)
-- [fake CAPTCHA](#fake-captcha) (2)
+- [fake CAPTCHA](#fake-captcha) (4)
 - [fake certificate](#fake-certificate) (1)
 - [fake crypto exchange](#fake-crypto-exchange) (1)
 - [fake dating lures](#fake-dating-lures) (1)
@@ -803,7 +807,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [filename-injection](#filename-injection) (1)
 - [filesystem parser](#filesystem-parser) (1)
 - [finance](#finance) (2)
-- [financial fraud](#financial-fraud) (2)
+- [financial fraud](#financial-fraud) (3)
 - [financial sector](#financial-sector) (3)
 - [financial services](#financial-services) (2)
 - [financial theft](#financial-theft) (3)
@@ -1135,6 +1139,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [living-off-the-land binaries](#living-off-the-land-binaries) (1)
 - [LLM](#llm) (4)
 - [LLM security](#llm-security) (1)
+- [LLM-assisted malware](#llm-assisted-malware) (1)
 - [LLM-driven intrusion](#llm-driven-intrusion) (1)
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
@@ -1187,7 +1192,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malvertising](#malvertising) (5)
-- [malware](#malware) (35)
+- [malware](#malware) (36)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (3)
 - [malware framework](#malware-framework) (1)
@@ -1223,7 +1228,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MeshAgent](#meshagent) (1)
 - [MeshCentral](#meshcentral) (2)
 - [MEV bot lure](#mev-bot-lure) (1)
-- [Mexico](#mexico) (1)
+- [Mexican banking fraud](#mexican-banking-fraud) (2)
+- [Mexico](#mexico) (2)
 - [MFA bypass](#mfa-bypass) (7)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
@@ -1396,9 +1402,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational relay box](#operational-relay-box) (1)
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (188)
+- [operations](#operations) (189)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (197)
+- [ops](#ops) (198)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1509,7 +1515,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postinstall](#postinstall) (9)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (15)
-- [PowerShell malware](#powershell-malware) (1)
+- [PowerShell malware](#powershell-malware) (3)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
 - [PRA](#pra) (1)
@@ -1617,6 +1623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Redis backdoor](#redis-backdoor) (1)
 - [RediSearch](#redisearch) (1)
 - [RedWing](#redwing) (2)
+- [REF6045](#ref6045) (2)
 - [reflective .NET loading](#reflective-net-loading) (1)
 - [refresh token theft](#refresh-token-theft) (1)
 - [refresh tokens](#refresh-tokens) (1)
@@ -1633,6 +1640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote script injection](#remote-script-injection) (1)
 - [Remote Support](#remote-support) (1)
 - [remote support](#remote-support) (2)
+- [Remote Utilities](#remote-utilities) (2)
 - [remote-access](#remote-access) (1)
 - [Remotely](#remotely) (1)
 - [RemotePE](#remotepe) (1)
@@ -1713,6 +1721,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scheduled task](#scheduled-task) (4)
 - [scheduled task persistence](#scheduled-task-persistence) (5)
 - [scheduled tasks](#scheduled-tasks) (4)
+- [SCMBANKER](#scmbanker) (2)
 - [scope squatting](#scope-squatting) (1)
 - [screen capture](#screen-capture) (2)
 - [ScreenConnect](#screenconnect) (4)
@@ -1965,7 +1974,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (21)
+- [tools](#tools) (22)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
@@ -2066,7 +2075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ViewState deserialization](#viewstate-deserialization) (1)
 - [virtualization](#virtualization) (2)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
-- [vishing](#vishing) (2)
+- [vishing](#vishing) (4)
 - [Visual Studio](#visual-studio) (1)
 - [Visual Studio Code Remote SSH](#visual-studio-code-remote-ssh) (1)
 - [VLESS](#vless) (1)
@@ -2553,6 +2562,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI-assisted malware
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 
+## AI-assisted malware development
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
+
 ## AI-assisted vulnerability discovery
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
@@ -2945,6 +2958,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## banking malware
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
 
 ## banking trojan
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
@@ -3006,6 +3021,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bitcoin
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+
+## bitsadmin
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 
 ## Bitwarden
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -3509,6 +3527,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## ClickOnce
@@ -3525,6 +3545,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## clipboard injection
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+
+## clipboard manipulation
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
 
 ## clipboard stealer
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
@@ -4914,6 +4938,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## EKZ Infostealer
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 
+## Elastic Security Labs
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
+
 ## Elasticsearch
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
@@ -5174,6 +5202,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fake CAPTCHA
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
 
 ## fake certificate
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -5305,6 +5335,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## financial fraud
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 
 ## financial sector
 - [RemotePE](../tools/remotepe.md)
@@ -6540,6 +6571,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LLM security
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
+## LLM-assisted malware
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+
 ## LLM-driven intrusion
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
@@ -6754,6 +6788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing](../tools/redwing.md)
 - [RemotePE](../tools/remotepe.md)
 - [RustDuck](../tools/rustduck.md)
+- [SCMBANKER](../tools/scmbanker.md)
 - [Showboat](../tools/showboat.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -6889,7 +6924,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MEV bot lure
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
+## Mexican banking fraud
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
+
 ## Mexico
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## MFA bypass
@@ -7691,6 +7731,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -7886,6 +7927,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -8378,6 +8420,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PowerShell malware
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
 
 ## PowerShower
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -8804,6 +8848,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
+## REF6045
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
+
 ## reflective .NET loading
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
@@ -8870,6 +8918,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## remote support
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
+
+## Remote Utilities
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
 
 ## remote-access
 - [TA4922](../actors/ta4922.md)
@@ -9160,6 +9212,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## SCMBANKER
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
 
 ## scope squatting
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
@@ -10150,6 +10206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
 - [RustDuck](../tools/rustduck.md)
+- [SCMBANKER](../tools/scmbanker.md)
 - [Showboat](../tools/showboat.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [STOCKSTAY](../tools/stockstay.md)
@@ -10519,6 +10576,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## vishing
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
 - [UNC3753](../actors/unc3753.md)
 
 ## Visual Studio

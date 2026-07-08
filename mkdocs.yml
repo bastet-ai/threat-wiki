@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - REF6045 / SCMBANKER Mexican banking fraud: ops/ref6045-scmbanker-mexican-banking-fraud.md
       - UAT-7810 LONGLEASH ORB network expansion: ops/uat-7810-longleash-orb-network.md
       - Linux GhostLock CVE-2026-43499 container escape: ops/linux-ghostlock-cve-2026-43499-container-escape.md
       - Vidar / XMRig Factory-v3 malvertising campaign: ops/vidar-xmrig-factory-v3-malvertising-campaign.md
@@ -210,6 +211,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - SCMBANKER: tools/scmbanker.md
       - RedWing: tools/redwing.md
       - GraphSpy: tools/graphspy.md
       - Cavern: tools/cavern.md

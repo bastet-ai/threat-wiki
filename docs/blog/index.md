@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [SCMBANKER](../tools/scmbanker.md)
 - [Phantom squatting: HalluSquatting / agentic botnet extension](../patterns/phantom-squatting-ai-hallucinated-domains.md#hallusquatting-agentic-botnet-extension)
 - [Git hash chain malleability](../patterns/git-hash-chain-malleability.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)

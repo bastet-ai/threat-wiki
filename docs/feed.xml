@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>REF6045 / SCMBANKER Mexican banking fraud</title>
+      <link>https://threat.wiki/ops/ref6045-scmbanker-mexican-banking-fraud/</link>
+      <description>Added Elastic Security Labs coverage of REF6045 / SCMBANKER, a Mexico-focused operator-assisted banking-fraud operation using ClickFix fake-CAPTCHA pages to stage a PowerShell toolkit. The page captures Windows Run validation.txt delivery, bitsadmin / PowerShell staging, banking-session monitoring, screenshots, vishing overlays, browser redirects, clipboard account-number replacement, Remote Utilities escalation, exposed infrastructure pivots, and Elastic's LLM-assisted tooling-development caveat.</description>
+      <pubDate>Wed, 08 Jul 2026 19:26:27 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ref6045-scmbanker-mexican-banking-fraud/</guid>
+    </item>
+    <item>
+      <title>SCMBANKER</title>
+      <link>https://threat.wiki/tools/scmbanker/</link>
+      <description>Added SCMBANKER as a PowerShell banking-fraud toolkit used by REF6045 against Mexican financial targets, with defender pivots for ClickFix-to-validation.txt execution, bitsadmin script retrieval, banking-session monitoring, clipboard manipulation, vishing overlays, and Remote Utilities deployment.</description>
+      <pubDate>Wed, 08 Jul 2026 19:26:27 GMT</pubDate>
+      <guid>https://threat.wiki/tools/scmbanker/</guid>
+    </item>
+    <item>
       <title>Phantom squatting: HalluSquatting / agentic botnet extension</title>
       <link>https://threat.wiki/patterns/phantom-squatting-ai-hallucinated-domains/#hallusquatting-agentic-botnet-extension</link>
       <description>Updated phantom-squatting guidance with Tel Aviv University / Technion / Intuit HalluSquatting research: predictable hallucinated repositories, skills, plugins, or other resources can be pre-registered by attackers and seeded with indirect prompt-injection content so coding agents with terminal or install privileges retrieve and execute attacker-supplied instructions. The page captures the reported Cursor, Windsurf, GitHub Copilot, Cline, Gemini CLI, and OpenClaw-family research demonstrations, plus defender controls for search-before-fetch grounding, approval gates, provenance checks, and clone/install telemetry.</description>
