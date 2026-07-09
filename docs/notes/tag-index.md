@@ -192,7 +192,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure CLI](#azure-cli) (1)
 - [Azure Storage](#azure-storage) (1)
 - [Backblaze](#backblaze) (1)
-- [backdoor](#backdoor) (12)
+- [backdoor](#backdoor) (13)
 - [Backdoor.Mistic](#backdoormistic) (1)
 - [Backstage](#backstage) (1)
 - [backup disruption](#backup-disruption) (1)
@@ -463,6 +463,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cross-platform malware](#cross-platform-malware) (1)
 - [cross-tenant isolation](#cross-tenant-isolation) (1)
 - [CrownX](#crownx) (2)
+- [Crucio](#crucio) (1)
 - [crypto](#crypto) (2)
 - [crypto clipper](#crypto-clipper) (1)
 - [crypto wallets](#crypto-wallets) (2)
@@ -637,7 +638,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dependency confusion](#dependency-confusion) (2)
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (4)
-- [destructive malware](#destructive-malware) (2)
+- [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (1)
 - [detection engineering](#detection-engineering) (1)
 - [DEV-0206](#dev-0206) (1)
@@ -668,6 +669,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DirtyFrag](#dirtyfrag) (1)
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
+- [disk wiping](#disk-wiping) (1)
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL side-loading](#dll-side-loading) (3)
 - [DLL sideloading](#dll-sideloading) (17)
@@ -763,6 +765,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Europe targeting](#europe-targeting) (1)
 - [Europol](#europol) (2)
 - [evasion](#evasion) (1)
+- [event log clearing](#event-log-clearing) (1)
 - [eventpoll](#eventpoll) (1)
 - [Everest Forms Pro](#everest-forms-pro) (1)
 - [Evil Corp](#evil-corp) (1)
@@ -788,6 +791,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake login screen](#fake-login-screen) (1)
 - [fake plugin](#fake-plugin) (1)
 - [fake PoC](#fake-poc) (2)
+- [fake ransomware](#fake-ransomware) (1)
 - [fake recruiting](#fake-recruiting) (1)
 - [fake reputation](#fake-reputation) (1)
 - [fake update](#fake-update) (2)
@@ -832,6 +836,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [firmware update](#firmware-update) (1)
 - [FishMonger](#fishmonger) (1)
 - [FlexPLM](#flexplm) (1)
+- [FlockWiper](#flockwiper) (1)
 - [flow execution](#flow-execution) (1)
 - [Flutter](#flutter) (1)
 - [FlutterShell](#fluttershell) (1)
@@ -902,6 +907,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
 - [GoFile](#gofile) (1)
+- [Golang](#golang) (1)
 - [Golang malware](#golang-malware) (1)
 - [GOLD PRELUDE](#gold-prelude) (1)
 - [Google Ads](#google-ads) (1)
@@ -1215,7 +1221,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (5)
-- [malware](#malware) (36)
+- [malware](#malware) (37)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (3)
 - [malware framework](#malware-framework) (1)
@@ -1277,6 +1283,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Security Blog](#microsoft-security-blog) (1)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (2)
+- [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (1)
 - [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
 - [Microsoft-signed binary abuse](#microsoft-signed-binary-abuse) (1)
 - [Middle East](#middle-east) (2)
@@ -1624,6 +1631,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA](#quest-kace-sma) (1)
 - [QuimaRAT](#quimarat) (1)
 - [RaaS](#raas) (1)
+- [RabbitMQ](#rabbitmq) (1)
 - [race condition](#race-condition) (1)
 - [RainbowEx](#rainbowex) (1)
 - [RakNet flood](#raknet-flood) (1)
@@ -1655,7 +1663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Red Dev 10](#red-dev-10) (2)
 - [Red Hat](#red-hat) (1)
 - [REDCap](#redcap) (1)
-- [Redis](#redis) (2)
+- [Redis](#redis) (3)
 - [Redis backdoor](#redis-backdoor) (1)
 - [RediSearch](#redisearch) (1)
 - [RedWing](#redwing) (2)
@@ -1757,7 +1765,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft](#scarcruft) (1)
 - [scheduled task](#scheduled-task) (4)
 - [scheduled task persistence](#scheduled-task-persistence) (5)
-- [scheduled tasks](#scheduled-tasks) (4)
+- [scheduled tasks](#scheduled-tasks) (5)
 - [SCMBANKER](#scmbanker) (2)
 - [scope squatting](#scope-squatting) (1)
 - [screen capture](#screen-capture) (2)
@@ -2016,7 +2024,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (22)
+- [tools](#tools) (23)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
@@ -2185,7 +2193,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill](#windchill) (1)
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
-- [Windows](#windows) (24)
+- [Windows](#windows) (25)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Forms](#windows-forms) (1)
@@ -2199,7 +2207,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Winos4.0](#winos40) (1)
 - [WinPython](#winpython) (1)
 - [WinRAR](#winrar) (4)
-- [wiper](#wiper) (2)
+- [wiper](#wiper) (3)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
 - [Wiz Research](#wiz-research) (1)
@@ -2966,6 +2974,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## backdoor
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [GigaWiper](../tools/gigawiper.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -4114,6 +4123,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
 
+## Crucio
+- [GigaWiper](../tools/gigawiper.md)
+
 ## crypto
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -4713,6 +4725,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## destructive malware
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
+- [GigaWiper](../tools/gigawiper.md)
 
 ## destructive operations
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -4836,6 +4849,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## discovery
 - [ROADtools](../tools/roadtools.md)
+
+## disk wiping
+- [GigaWiper](../tools/gigawiper.md)
 
 ## Djinn Stealer
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -5224,6 +5240,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## evasion
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
+## event log clearing
+- [GigaWiper](../tools/gigawiper.md)
+
 ## eventpoll
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 
@@ -5326,6 +5345,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fake PoC
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+
+## fake ransomware
+- [GigaWiper](../tools/gigawiper.md)
 
 ## fake recruiting
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
@@ -5471,6 +5493,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FlexPLM
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+
+## FlockWiper
+- [GigaWiper](../tools/gigawiper.md)
 
 ## flow execution
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
@@ -5736,6 +5761,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GoFile
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
+## Golang
+- [GigaWiper](../tools/gigawiper.md)
 
 ## Golang malware
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
@@ -6913,6 +6941,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [Fast16](../tools/fast16.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
+- [GigaWiper](../tools/gigawiper.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [MYRA RAT](../tools/myra-rat.md)
@@ -7160,6 +7189,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Teams
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+
+## Microsoft Threat Intelligence
+- [GigaWiper](../tools/gigawiper.md)
 
 ## Microsoft Windows Hardware Compatibility Publisher
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
@@ -8883,6 +8915,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RaaS
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## RabbitMQ
+- [GigaWiper](../tools/gigawiper.md)
+
 ## race condition
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 
@@ -9026,6 +9061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Redis
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+- [GigaWiper](../tools/gigawiper.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## Redis backdoor
@@ -9402,6 +9438,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## scheduled tasks
+- [GigaWiper](../tools/gigawiper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
@@ -10414,6 +10451,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](../tools/fast16.md)
 - [First VPN](../tools/first-vpn.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
+- [GigaWiper](../tools/gigawiper.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [PamStealer](../tools/pamstealer.md)
 - [QuimaRAT](../tools/quimarat.md)
@@ -11075,6 +11113,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
+- [GigaWiper](../tools/gigawiper.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -11139,6 +11178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## wiper
+- [GigaWiper](../tools/gigawiper.md)
 - [Handala](../actors/handala.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 

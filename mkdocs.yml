@@ -215,6 +215,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - GigaWiper: tools/gigawiper.md
       - SCMBANKER: tools/scmbanker.md
       - RedWing: tools/redwing.md
       - GraphSpy: tools/graphspy.md
