@@ -111,6 +111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [anti-analysis](#anti-analysis) (2)
 - [anti-forensics](#anti-forensics) (2)
 - [Anubis ransomware](#anubis-ransomware) (1)
+- [AnyDesk](#anydesk) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
 - [API exposure](#api-exposure) (1)
@@ -208,6 +209,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BaseZipInstaller](#basezipinstaller) (1)
 - [Bash Uploader](#bash-uploader) (1)
 - [batch loader](#batch-loader) (1)
+- [Beast ransomware](#beast-ransomware) (1)
 - [BeaverTail](#beavertail) (1)
 - [Bedrock](#bedrock) (1)
 - [behavioral integrity verification](#behavioral-integrity-verification) (1)
@@ -244,7 +246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brazilian banking malware](#brazilian-banking-malware) (1)
 - [BreachForums](#breachforums) (1)
 - [BRICKSTORM](#brickstorm) (2)
-- [Broadcom](#broadcom) (1)
+- [Broadcom](#broadcom) (2)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
 - [browser credential theft](#browser-credential-theft) (15)
@@ -268,7 +270,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [BusySnake Stealer](#busysnake-stealer) (3)
 - [Bybit](#bybit) (1)
-- [BYOVD](#byovd) (2)
+- [BYOVD](#byovd) (3)
 - [bypass2fa](#bypass2fa) (1)
 - [C#](#c) (1)
 - [C++/CLI](#ccli) (1)
@@ -441,7 +443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crates.io](#cratesio) (1)
 - [credential attacks](#credential-attacks) (2)
 - [credential exposure](#credential-exposure) (2)
-- [credential harvesting](#credential-harvesting) (1)
+- [credential harvesting](#credential-harvesting) (2)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
 - [credential theft](#credential-theft) (36)
@@ -620,7 +622,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Defender evasion](#defender-evasion) (2)
 - [Defender exclusion](#defender-exclusion) (1)
 - [defense](#defense) (1)
-- [defense evasion](#defense-evasion) (4)
+- [defense evasion](#defense-evasion) (5)
 - [defense targeting](#defense-targeting) (1)
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
@@ -707,7 +709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge service](#edge-service) (2)
 - [editor profile import](#editor-profile-import) (1)
 - [EDR evasion](#edr-evasion) (2)
-- [EDR killer](#edr-killer) (1)
+- [EDR killer](#edr-killer) (2)
 - [EDS5000](#eds5000) (1)
 - [education](#education) (1)
 - [Egnyte](#egnyte) (1)
@@ -891,6 +893,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Go malware](#go-malware) (1)
 - [Go modules](#go-modules) (2)
 - [Go2Tunnel](#go2tunnel) (1)
+- [GodDamn ransomware](#goddamn-ransomware) (1)
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
 - [GoFile](#gofile) (1)
@@ -970,6 +973,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hugging Face](#hugging-face) (2)
 - [Hunt.io](#huntio) (4)
 - [Huntress](#huntress) (1)
+- [Hyadina](#hyadina) (1)
 - [hydropower](#hydropower) (2)
 - [Hydropower Cooperation Project Proposal.zip](#hydropower-cooperation-project-proposalzip) (1)
 - [hypervisor escape](#hypervisor-escape) (1)
@@ -1109,7 +1113,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lantronix](#lantronix) (1)
 - [LapDogs](#lapdogs) (1)
 - [Laravel](#laravel) (2)
-- [lateral movement](#lateral-movement) (3)
+- [lateral movement](#lateral-movement) (4)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (2)
 - [LaunchAgent](#launchagent) (1)
@@ -1201,6 +1205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious releases](#malicious-releases) (2)
+- [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (5)
 - [malware](#malware) (36)
 - [malware analysis](#malware-analysis) (2)
@@ -1264,12 +1269,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Security Blog](#microsoft-security-blog) (1)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (2)
+- [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
 - [Microsoft-signed binary abuse](#microsoft-signed-binary-abuse) (1)
 - [Middle East](#middle-east) (2)
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
 - [military research](#military-research) (1)
-- [Mimikatz](#mimikatz) (3)
+- [Mimikatz](#mimikatz) (4)
 - [Minecraft DDoS](#minecraft-ddos) (1)
 - [Mini Shai-Hulud](#mini-shai-hulud) (2)
 - [MiniJunk](#minijunk) (1)
@@ -1300,6 +1306,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MOIS](#mois) (5)
 - [Monero](#monero) (2)
 - [Monero mining](#monero-mining) (1)
+- [Monster ransomware](#monster-ransomware) (1)
 - [Mozi](#mozi) (1)
 - [MpClient.dll](#mpclientdll) (1)
 - [MpExtMs.exe](#mpextmsexe) (1)
@@ -1351,6 +1358,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nginx](#nginx) (1)
 - [Nginx module](#nginx-module) (1)
 - [Ngrok C2](#ngrok-c2) (1)
+- [NirSoft](#nirsoft) (1)
 - [no attribution](#no-attribution) (1)
 - [No-IP](#no-ip) (1)
 - [node-gyp](#node-gyp) (2)
@@ -1414,9 +1422,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational relay box](#operational-relay-box) (1)
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (190)
+- [operations](#operations) (191)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (199)
+- [ops](#ops) (200)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1510,6 +1518,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PLENET](#plenet) (2)
 - [plugin architecture](#plugin-architecture) (1)
 - [poisoned-branch](#poisoned-branch) (1)
+- [PoisonX](#poisonx) (1)
 - [PolinRider](#polinrider) (2)
 - [polyfill](#polyfill) (1)
 - [Polymarket](#polymarket) (1)
@@ -1570,7 +1579,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [proxy network](#proxy-network) (2)
 - [ProxyChains](#proxychains) (1)
 - [PSEMHUB](#psemhub) (1)
-- [PsExec](#psexec) (1)
+- [PsExec](#psexec) (2)
 - [PSIGW](#psigw) (1)
 - [psychological operations](#psychological-operations) (1)
 - [PTC](#ptc) (1)
@@ -1606,7 +1615,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RakNet flood](#raknet-flood) (1)
 - [RAM disk](#ram-disk) (1)
 - [Ransom-ISAC](#ransom-isac) (1)
-- [ransomware](#ransomware) (9)
+- [ransomware](#ransomware) (10)
 - [ransomware access](#ransomware-access) (1)
 - [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
@@ -1626,7 +1635,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Reality](#reality) (1)
 - [Reaper](#reaper) (1)
 - [reconnaissance](#reconnaissance) (2)
-- [recovery denial](#recovery-denial) (1)
+- [recovery denial](#recovery-denial) (2)
 - [recovery disruption](#recovery-disruption) (2)
 - [recruitment lures](#recruitment-lures) (1)
 - [Red Dev 10](#red-dev-10) (2)
@@ -1914,7 +1923,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [suspected China-aligned](#suspected-china-aligned) (1)
 - [SWE-agent](#swe-agent) (1)
 - [SWUpdate](#swupdate) (1)
-- [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (1)
+- [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (2)
 - [symlink following](#symlink-following) (1)
 - [Synacktiv](#synacktiv) (1)
 - [Synology](#synology) (1)
@@ -2156,7 +2165,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill](#windchill) (1)
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
-- [Windows](#windows) (23)
+- [Windows](#windows) (24)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Forms](#windows-forms) (1)
@@ -2657,6 +2666,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Anubis ransomware
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
+## AnyDesk
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+
 ## Apex One
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
@@ -2997,6 +3009,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## batch loader
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
+## Beast ransomware
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+
 ## BeaverTail
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
@@ -3125,6 +3140,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Broadcom
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
 ## browser automation
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -3223,6 +3239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 
 ## BYOVD
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -3922,6 +3939,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## credential harvesting
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [UNC6508](../actors/unc6508.md)
 
 ## credential spraying
@@ -4609,6 +4627,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## defense evasion
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [ROADtools](../tools/roadtools.md)
@@ -4963,6 +4982,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 
 ## EDR killer
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## EDS5000
@@ -5664,6 +5684,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Go2Tunnel
 - [Armored Likho](../actors/armored-likho.md)
 
+## GodDamn ransomware
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+
 ## Godzilla
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -5943,6 +5966,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Huntress
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+
+## Hyadina
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
 ## hydropower
 - [Mustang Panda](../actors/mustang-panda.md)
@@ -6465,6 +6491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## lateral movement
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -6811,6 +6838,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
+## malicious signed driver
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+
 ## malvertising
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -7079,6 +7109,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
+## Microsoft Windows Hardware Compatibility Publisher
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+
 ## Microsoft-signed binary abuse
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
@@ -7099,6 +7132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
 ## Minecraft DDoS
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
@@ -7205,6 +7239,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Monero mining
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
+
+## Monster ransomware
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
 ## Mozi
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
@@ -7371,6 +7408,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ngrok C2
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+
+## NirSoft
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
 ## no attribution
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
@@ -7708,6 +7748,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -7905,6 +7946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -8401,6 +8443,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## poisoned-branch
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 
+## PoisonX
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+
 ## PolinRider
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
@@ -8642,6 +8687,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PsExec
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
 ## PSIGW
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -8784,6 +8830,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrownX](../tools/crownx.md)
 - [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -8883,6 +8930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## recovery denial
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
 ## recovery disruption
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -9998,6 +10046,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Symantec Threat Hunter Team
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
 ## symlink following
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
@@ -10928,6 +10977,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)

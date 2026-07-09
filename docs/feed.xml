@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>GodDamn ransomware PoisonX BYOVD activity</title>
+      <link>https://threat.wiki/ops/goddamn-ransomware-poisonx-byovd/</link>
+      <description>Added Broadcom / Symantec coverage of GodDamn ransomware, the latest Monster → Beast → GodDamn Hyadina rebrand, with PoisonX signed-driver defense evasion, AnyDesk and PsExec lateral movement, NirSoft / Mimikatz credential harvesting, g11.sys driver pivots, encryptor indicators, and defender guidance for signed-driver inventory, EDR tamper response, and ransomware credential rotation.</description>
+      <pubDate>Thu, 09 Jul 2026 13:27:33 GMT</pubDate>
+      <guid>https://threat.wiki/ops/goddamn-ransomware-poisonx-byovd/</guid>
+    </item>
+    <item>
       <title>AI coding-agent symlink write confusion</title>
       <link>https://threat.wiki/patterns/ai-coding-agent-symlink-write-confusion/</link>
       <description>Added Wiz GhostApproval and Adversa AI SymJack coverage for AI coding-assistant symlink write-confusion: malicious repositories can make agents approve or execute benign-looking workspace writes while the canonical path resolves to SSH, agent/MCP configuration, shell startup, CI, or other sensitive files outside the workspace. The page captures affected assistant status, CVE-2026-12958 and CVE-2026-50549, workspace-boundary lessons, and defender controls for canonical-path enforcement, symlink inventory, auto-approve restrictions, and credential rotation.</description>

@@ -54,6 +54,7 @@ The durable point for defenders is not just the encryption design. The Gentlemen
 - ESET's June 18, 2026 analysis describes Gentlemen as unusual among RaaS crews because the operators, not just affiliates, actively develop and maintain an EDR-killer portfolio for affiliates.
 - ESET names the in-house framework **GentleKiller** and says it has at least eight variants abusing different vulnerable or malicious drivers.
 - The portfolio also operationally integrates third-party or leaked EDR killers: **HexKiller**, **ThrottleBlood**, and **HavocKiller**.
+- Broadcom / Symantec's July 9, 2026 GodDamn ransomware reporting adds an important cross-crew pivot for **PoisonX**: Symantec observed PoisonX dropped as `g11.sys` by a defense-evasion binary masquerading as `symantec.exe`, and described the driver as malicious code that appears to have obtained a Microsoft Windows Hardware Compatibility Publisher signature rather than merely abusing an older legitimate vulnerable driver.
 - The tools share a defense-evasion layer that impersonates mainly security vendors through fake version metadata plus copied legitimate certificates and icons.
 - Gentlemen operators rapidly adopt newly disclosed BYOVD proof-of-concept techniques, in some cases within days of public release.
 - ESET also links **OxideHarvest**, a credential stealer maintained by one Gentlemen affiliate, to the broader ecosystem.
@@ -95,6 +96,7 @@ The durable point for defenders is not just the encryption design. The Gentlemen
 Microsoft tracks the RaaS operators as **Storm-2697**. Affiliates may vary by intrusion, so distinguish between the platform operator, affiliate hands-on-keyboard behavior, and any initial-access broker involved in a specific incident.
 
 ## Related pages
+- [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -102,3 +104,4 @@ Microsoft tracks the RaaS operators as **Storm-2697**. Affiliates may vary by in
 ## Sources
 - Microsoft Security Blog: https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/
 - ESET WeLiveSecurity: https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/
+- Broadcom / Symantec Threat Hunter Team: https://www.security.com/threat-intelligence/goddamn-ransomware-beast-rebrand
