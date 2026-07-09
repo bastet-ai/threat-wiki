@@ -5,6 +5,8 @@ Adversa AI described **GuardFall**, a class of shell-command guard bypasses affe
 
 Adversa says the research began with a NousResearch Hermes Agent approval-gate bypass and then expanded to ten other popular open-source agents. In its June 30, 2026 survey, ten of eleven reviewed tools left the agent-to-shell boundary exploitable in at least one common configuration; Continue was identified as the reference design that most directly canonicalizes/parses command intent before approval in its default IDE mode. The report frames the issue as a class, not a single CVE, and states that no public exploitation was reported at publication time.
 
+AI Now Institute's July 8, 2026 **Friendly Fire** proof of concept expands the same trust-boundary lesson from shell-guard parsing to defensive security-review agents. The researchers showed that an untrusted source tree can hide ordinary-looking review guidance in `README.md`, a wrapper named `security.sh`, and a decoy Go source file next to a compiled `code_policies` binary. When Claude Code ran in `auto-mode` or Codex ran in `auto-review`, the agent could be convinced to execute the binary while assessing the project, even though no MCP server, hook, skill, plugin, or agent configuration file was involved.
+
 ## Tags
 - patterns
 - AI agents
@@ -29,6 +31,10 @@ Adversa says the research began with a NousResearch Hermes Agent approval-gate b
 - SWE-agent
 - Continue
 - Adversa AI
+- Friendly Fire
+- AI Now Institute
+- Claude Code
+- Codex CLI
 
 ## Attack shape
 - A developer, CI job, or automation service runs an AI coding/computer-use agent with shell access.
@@ -49,6 +55,27 @@ Adversa grouped observed failures into several patterns:
 
 The useful defender takeaway is not a vendor scorecard. It is that an AI-agent shell gate must reason over the command that will execute, not the text the model happened to print.
 
+## Friendly Fire: security-review prompt injection to binary execution
+
+AI Now Institute researchers Boyan Milanov and Heidy Khlaaf published a proof-of-concept exploit called **Friendly Fire** on July 8, 2026. The tested scenario is highly relevant to defensive security teams: point an AI coding agent at an untrusted open-source or third-party library and ask it to perform security testing.
+
+The public proof of concept used a modified copy of the benign Python geocoding library `geopy`, then added several files:
+
+- `README.md` text that looks like routine contributor/security-check guidance and nudges the agent to run `security.sh` before opening a pull request.
+- `security.sh`, a wrapper that appears to invoke normal security tooling but calls the staged binary.
+- `code_policies`, a compiled binary that appears to be a static-analysis helper; the public repository states its reproduction copy was stripped of malicious behavior.
+- `code_policies.go`, benign decoy source placed next to the binary so the model may infer that the binary is just the compiled version of harmless adjacent code.
+
+The reported impact was remote code execution in the agent's deployment environment when Anthropic Claude Code was used in `auto-mode` with Claude Sonnet 4.6 / 5 or Opus 4.8, and when OpenAI Codex CLI was used in `auto-review` with GPT-5.5. The technique is important because it avoids the configuration-file surfaces that many agent defenses have started to warn about, such as `.mcp.json` or `.claude/settings.json`; the steering content sits in ordinary project files that security-review agents are expected to read.
+
+Defensive implications:
+
+- Do not run AI security-review agents over untrusted source trees in auto-execution modes on developer workstations or CI runners with real credentials.
+- Treat repository documentation, test instructions, helper scripts, binaries, and adjacent source files as attacker-controlled evidence, not as trusted instructions.
+- Require explicit approval before an agent executes any repository-supplied binary or script, even if it is framed as a security scanner, linter, policy checker, test harness, or maintainer workflow.
+- Prefer static inspection and sandboxed detonation for repository-local tools. If execution is needed, run it inside a disposable VM/container with no host credential mounts and egress controls.
+- Alert when coding agents invoked for review run project-local binaries, shell scripts, package scripts, or tools that were not already present in an internal allowlist.
+
 ## Defender heuristics
 ### Hardening
 - Disable unattended `--auto`, `--auto-run`, `--auto-exec`, `--auto-test`, `dangerously-skip-permissions`, local-mode, or sandbox-bypass flags unless the workspace, credentials, and network path are disposable.
@@ -60,6 +87,7 @@ The useful defender takeaway is not a vendor scorecard. It is that an AI-agent s
 
 ### Detection and response
 - Monitor developer endpoints and CI runners for AI-agent parent processes spawning shells, package managers, `curl`, `wget`, `base64`, `find`, `dd`, archive tools, credential utilities, cloud CLIs, SSH/SCP, or source-control commands after reading untrusted project content.
+- Separately monitor “defensive review” jobs for agent-spawned execution of repository-local scripts or binaries such as `security.sh`, `scan.sh`, `policy`, `code_policies`, linters, test helpers, and package scripts that were introduced by the reviewed repository.
 - Alert on agent runs where `$HOME` points to a real user profile and command auto-execution flags are present.
 - Preserve agent transcripts, tool-call logs, shell history, generated temporary scripts, package-manager cache, repository configs, and endpoint process telemetry before cleaning the workspace.
 - If a GuardFall-like command ran outside a disposable sandbox, treat the host as a developer-workstation compromise: rotate source-control, package-registry, CI/CD, cloud, SSH, LLM-provider, and deployment credentials reachable from that user context.
@@ -76,3 +104,6 @@ The useful defender takeaway is not a vendor scorecard. It is that an AI-agent s
 - Adversa AI: https://adversa.ai/blog/opensource-ai-coding-agents-shell-injection-vulnerability/
 - The Hacker News summary: https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html
 - Hermes Agent issue referenced by Adversa/THN: https://github.com/NousResearch/hermes-agent/issues/36846
+- AI Now Institute: https://ainowinstitute.org/publications/friendly-fire-exploit-brief
+- Friendly Fire proof-of-concept repository: https://github.com/Boyan-MILANOV/friendly-fire-ai-agent-exploit
+- The Hacker News: https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html

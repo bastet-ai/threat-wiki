@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [GuardFall AI-agent shell-guard bypass: Friendly Fire security-review RCE update](patterns/guardfall-ai-agent-shell-guard-bypass.md#friendly-fire-security-review-prompt-injection-to-binary-execution)
 - [AI coding-agent symlink write confusion](patterns/ai-coding-agent-symlink-write-confusion.md)
 - [npm install explicit-trust controls: npm v12 GA / bypass2fa deprecation update](patterns/npm-install-explicit-trust-controls.md)
 - [Operation Muck and Load GitHub lure network](ops/operation-muck-and-load-github-lure-network.md)

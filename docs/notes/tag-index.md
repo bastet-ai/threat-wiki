@@ -81,6 +81,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI data exfiltration](#ai-data-exfiltration) (1)
 - [AI framework](#ai-framework) (1)
 - [AI gateway](#ai-gateway) (1)
+- [AI Now Institute](#ai-now-institute) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI security](#ai-security) (1)
 - [AI tooling](#ai-tooling) (15)
@@ -340,7 +341,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-CRI-1089](#cl-cri-1089) (1)
 - [CL-STA-1062](#cl-sta-1062) (3)
 - [Claude](#claude) (2)
-- [Claude Code](#claude-code) (3)
+- [Claude Code](#claude-code) (4)
 - [Clever Cloud](#clever-cloud) (1)
 - [ClickFix](#clickfix) (8)
 - [ClickOnce](#clickonce) (1)
@@ -390,6 +391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov](#codecov) (1)
 - [CodeQL](#codeql) (1)
 - [Codex](#codex) (2)
+- [Codex CLI](#codex-cli) (1)
 - [coding agents](#coding-agents) (1)
 - [Coinbase](#coinbase) (1)
 - [ColdFusion](#coldfusion) (1)
@@ -838,6 +840,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fraud](#fraud) (1)
 - [FreeBSD](#freebsd) (2)
 - [freeware impersonation](#freeware-impersonation) (1)
+- [Friendly Fire](#friendly-fire) (1)
 - [FSB](#fsb) (4)
 - [FSB Center 16](#fsb-center-16) (2)
 - [fscan](#fscan) (1)
@@ -2536,6 +2539,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI gateway
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 
+## AI Now Institute
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
 ## AI search poisoning
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
@@ -3538,6 +3544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Claude Code
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## Clever Cloud
@@ -3736,6 +3743,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Codex
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
+## Codex CLI
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## coding agents
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -5448,6 +5458,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## freeware impersonation
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
+
+## Friendly Fire
+- [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## FSB
 - [Gamaredon](../actors/gamaredon.md)
