@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [GigaWiper destructive backdoor](../tools/gigawiper.md)
 - [UAT-7810 LONGLEASH ORB network expansion: Cisco Talos infrastructure update](../ops/uat-7810-longleash-orb-network.md#reported-infrastructure-and-pivots)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)

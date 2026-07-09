@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Braintree.Net NuGet payment skimmer</title>
+      <link>https://threat.wiki/ops/braintree-net-nuget-payment-skimmer/</link>
+      <description>Added Socket coverage of the Braintree.Net NuGet typosquat, which copied PayPal Braintree's .NET SDK surface while intercepting production payment-card data, Braintree merchant credentials, and host environment secrets. The page captures affected Braintree.Net, DependencyInjector.Core, SipNet, and SipNet.OpenAI.Realtime versions, inflated placeholder-download reputation abuse, api.348672-shakepay[.]com exfiltration paths, and PCI-focused defender guidance.</description>
+      <pubDate>Thu, 09 Jul 2026 19:58:26 GMT</pubDate>
+      <guid>https://threat.wiki/ops/braintree-net-nuget-payment-skimmer/</guid>
+    </item>
+    <item>
       <title>Pakistani law enforcement espionage convergence</title>
       <link>https://threat.wiki/ops/pakistani-law-enforcement-espionage-convergence/</link>
       <description>Added SentinelOne coverage of suspected China- and India-nexus espionage converging on Pakistani law enforcement from 2024 to 2026, including Balochistan Police targeting, PlugX / ShadowPad / Cobalt Strike / Remcos C2 windows, TAG-179 / Mysterious Elephant / APT-C-08 context, and cms_plugin.exe implants hosted from a police Complaint Management System portal.</description>

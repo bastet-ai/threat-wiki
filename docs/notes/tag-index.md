@@ -3,7 +3,7 @@
 Generated from page-level `## Tags` sections. Each tag below links to the pages that currently use it.
 
 ## All tags
-- [.NET](#net) (5)
+- [.NET](#net) (6)
 - [.NET malware](#net-malware) (6)
 - [.pth](#pth) (1)
 - [/accessv2](#accessv2) (1)
@@ -242,6 +242,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [blogspot staging](#blogspot-staging) (1)
 - [BLUEBEAM](#bluebeam) (1)
 - [botnet](#botnet) (6)
+- [Braintree](#braintree) (1)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
 - [brand impersonation](#brand-impersonation) (2)
@@ -451,8 +452,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (2)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (37)
+- [credential theft](#credential-theft) (38)
 - [credential-theft](#credential-theft) (51)
+- [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -747,7 +749,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [enterprise applications](#enterprise-applications) (1)
 - [Entra ID](#entra-id) (2)
 - [Environment Management Hub](#environment-management-hub) (1)
-- [environment variable theft](#environment-variable-theft) (1)
+- [environment variable theft](#environment-variable-theft) (2)
 - [environment variables](#environment-variables) (1)
 - [environmental keying](#environmental-keying) (1)
 - [epoll](#epoll) (1)
@@ -1254,6 +1256,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [memory overread](#memory-overread) (1)
 - [memory poisoning](#memory-poisoning) (1)
 - [memory-only malware](#memory-only-malware) (1)
+- [merchant credential theft](#merchant-credential-theft) (1)
 - [MeshAgent](#meshagent) (1)
 - [MeshCentral](#meshcentral) (2)
 - [MEV bot lure](#mev-bot-lure) (1)
@@ -1398,7 +1401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NTFS ADS](#ntfs-ads) (2)
 - [NTLM](#ntlm) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
-- [NuGet](#nuget) (1)
+- [NuGet](#nuget) (2)
 - [Nuitka](#nuitka) (1)
 - [null-byte padding](#null-byte-padding) (1)
 - [NVGRE](#nvgre) (1)
@@ -1442,7 +1445,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (191)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (202)
+- [ops](#ops) (203)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1462,7 +1465,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OYSTERSHUCK](#oystershuck) (1)
 - [P2P](#p2p) (1)
 - [package masquerading](#package-masquerading) (1)
-- [package registry](#package-registry) (4)
+- [package registry](#package-registry) (5)
 - [package registry credentials](#package-registry-credentials) (1)
 - [package scanning](#package-scanning) (1)
 - [package-cooldowns](#package-cooldowns) (1)
@@ -1493,9 +1496,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [payload-as-a-service](#payload-as-a-service) (1)
 - [payment fraud](#payment-fraud) (1)
 - [payment SDK](#payment-sdk) (1)
+- [payment skimmer](#payment-skimmer) (1)
 - [payment workflow exposure](#payment-workflow-exposure) (1)
 - [payment-card theft](#payment-card-theft) (2)
 - [payment-card-theft](#payment-card-theft) (2)
+- [PayPal](#paypal) (1)
 - [payroll lures](#payroll-lures) (1)
 - [Paysafe](#paysafe) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
@@ -1861,7 +1866,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [social engineering](#social-engineering) (14)
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (3)
-- [Socket Security](#socket-security) (1)
+- [Socket Security](#socket-security) (2)
 - [Socket Security Research](#socket-security-research) (1)
 - [Socket.IO](#socketio) (1)
 - [SOCKS tunneling](#socks-tunneling) (1)
@@ -1942,7 +1947,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [SUMMIT](#summit) (3)
 - [Supabase](#supabase) (1)
-- [supply chain](#supply-chain) (7)
+- [supply chain](#supply-chain) (8)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (82)
 - [suspected China-aligned](#suspected-china-aligned) (1)
@@ -2049,7 +2054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Twilio](#twilio) (1)
 - [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (1)
-- [typosquatting](#typosquatting) (12)
+- [typosquatting](#typosquatting) (13)
 - [UAC](#uac) (1)
 - [UAC bypass](#uac-bypass) (1)
 - [UAC-0010](#uac-0010) (3)
@@ -2257,6 +2262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ZOHOMURK](#zohomurk) (2)
 
 ## .NET
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [STOCKSTAY](../tools/stockstay.md)
@@ -3151,6 +3157,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RustDuck](../tools/rustduck.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
+## Braintree
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
+
 ## branch-compromise
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 
@@ -4002,6 +4011,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [ChocoPoC](../tools/chocopoc.md)
@@ -4087,6 +4097,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
+
+## credit card theft
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 
 ## criminal infrastructure
 - [First VPN](../tools/first-vpn.md)
@@ -5141,6 +5154,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
 ## environment variable theft
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 
 ## environment variables
@@ -7078,6 +7092,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## memory-only malware
 - [RemotePE](../tools/remotepe.md)
 
+## merchant credential theft
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
+
 ## MeshAgent
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
@@ -7629,6 +7646,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](../tools/fast16.md)
 
 ## NuGet
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## Nuitka
@@ -8001,6 +8019,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
@@ -8234,6 +8253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 
 ## package registry
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -8364,6 +8384,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## payment SDK
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 
+## payment skimmer
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
+
 ## payment workflow exposure
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 
@@ -8374,6 +8397,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## payment-card-theft
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
+
+## PayPal
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 
 ## payroll lures
 - [TA4922](../actors/ta4922.md)
@@ -9785,6 +9811,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## Socket Security
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 
 ## Socket Security Research
@@ -10064,6 +10091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## supply chain
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -10551,6 +10579,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## typosquatting
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+- [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
