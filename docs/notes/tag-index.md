@@ -268,6 +268,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BusySnake Stealer](#busysnake-stealer) (3)
 - [Bybit](#bybit) (1)
 - [BYOVD](#byovd) (2)
+- [bypass2fa](#bypass2fa) (1)
 - [C#](#c) (1)
 - [C++/CLI](#ccli) (1)
 - [C2](#c2) (9)
@@ -913,6 +914,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [government-impersonation](#government-impersonation) (1)
 - [GPT](#gpt) (1)
 - [Grandoreiro](#grandoreiro) (2)
+- [granular access tokens](#granular-access-tokens) (1)
 - [GraphSpy](#graphspy) (1)
 - [Gravity SMTP](#gravity-smtp) (1)
 - [GRE](#gre) (1)
@@ -1360,6 +1362,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm](#npm) (44)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm tokens](#npm-tokens) (1)
+- [npm v12](#npm-v12) (1)
 - [npx](#npx) (1)
 - [NSecKrnl.sys](#nseckrnlsys) (1)
 - [NTDS.dit](#ntdsdit) (2)
@@ -3216,6 +3219,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BYOVD
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## bypass2fa
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## C#
 - [TinyRCT](../tools/tinyrct.md)
@@ -5739,6 +5745,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
+## granular access tokens
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+
 ## GraphSpy
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
@@ -7448,6 +7457,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## npm tokens
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+
+## npm v12
+- [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## npx
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)

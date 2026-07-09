@@ -1,16 +1,17 @@
 # npm install explicit-trust controls
 
 ## Summary
-JFrog Security Research documented npm v12's move from implicit install-time trust to explicit approvals for the three npm dependency-ingestion paths most often abused by recent supply-chain malware: lifecycle scripts, Git dependencies, and remote URL dependencies. npm v12 was estimated for July 2026 release in JFrog's post, with `allowScripts` defaulting off and `--allow-git` / `--allow-remote` required for Git and URL dependency retrieval.
+JFrog Security Research documented npm v12's move from implicit install-time trust to explicit approvals for the three npm dependency-ingestion paths most often abused by recent supply-chain malware: lifecycle scripts, Git dependencies, and remote URL dependencies. On July 8, 2026, GitHub announced that **npm v12 is generally available and tagged `latest`**, turning those install-time security defaults on in the shipped release rather than leaving them as an upcoming change.
 
 StepSecurity's June 2026 developer-machine package-configuration guidance adds the fleet-control side of the same pattern: registry, cooldown, and authentication policy only protects hosts that are actually configured to use it. Treat package-manager configuration drift on laptops and CI runners as an exposure class, not a compliance footnote.
 
-Track this as a defender pattern rather than a single operation. The same install-time execution paths have appeared across Shai-Hulud / Miasma, Mastra `easy-day-js`, `binding.gyp`, and other developer-machine compromise chains.
+Track this as a defender pattern rather than a single operation. The same install-time execution paths have appeared across Shai-Hulud / Miasma, Mastra `easy-day-js`, `binding.gyp`, and other developer-machine compromise chains. npm v12 reduces one default execution path, but it does not remove the need to govern approved scripts, Git dependencies, remote URL dependencies, package-manager configuration drift, import-time execution, and runtime package behavior.
 
 ## Tags
 - patterns
 - supply-chain
 - npm
+- npm v12
 - JavaScript
 - lifecycle-hooks
 - install-time-execution
@@ -20,15 +21,19 @@ Track this as a defender pattern rather than a single operation. The same instal
 - registry-controls
 - package-cooldowns
 - developer-machine-fleet
+- bypass2fa
+- granular access tokens
 - Shai-Hulud
 - Miasma
 
 ## What changed
+- GitHub's July 8 changelog says npm v12 is now generally available and tagged `latest`; teams should stop treating the new install-time defaults as future planning and start testing real project behavior.
 - `allowScripts` controls which third-party packages may run lifecycle scripts during install, including `preinstall`, `install`, `postinstall`, `prepare`, and implicit `binding.gyp` native-build execution.
 - npm v12 changes the default posture so third-party lifecycle scripts do not run unless explicitly approved.
 - `--allow-git` gates direct and transitive Git repository dependencies.
 - `--allow-remote` gates direct and transitive remote URL dependencies.
 - JFrog said these three vectors appeared in about 53% of malicious npm attacks it observed over the prior year, with lifecycle scripts alone appearing in about 46% of observed malicious npm packages.
+- GitHub also began deprecating **granular access tokens with `bypass2fa` privileges**: existing tokens continue temporarily but lose account-management powers, no new `bypass2fa` tokens can be created, and publication support is scheduled for removal after a migration period. Treat any remaining bypass-2FA publication token as high-risk legacy credential inventory.
 
 ## Why this matters
 - Recent npm worms and credential stealers have relied on automatic install-time execution because it runs on developer machines and CI runners before application code is reviewed.
@@ -50,7 +55,7 @@ Track this as a defender pattern rather than a single operation. The same instal
 - Inventory `.npmrc`, `package.json`, lockfiles, package-manager wrappers, and CI templates for current script, Git dependency, and remote URL behavior.
 - Inventory Python package-manager configuration alongside npm: `pip.conf`, `pip.ini`, `pyproject.toml`, `requirements*.txt`, `PIP_INDEX_URL`, `PIP_EXTRA_INDEX_URL`, and tool-specific config for Poetry, uv, and pip-tools.
 - Verify whether each developer machine and CI runner resolves packages through the intended internal registry / secure registry, whether fallback to public indexes is allowed, and whether package-version cooldown policy is actually enforced at the endpoint.
-- Audit package-manager authentication posture: remove stale registry tokens, avoid shared long-lived tokens on developer machines, and prefer scoped credentials that cannot publish or read unrelated private packages.
+- Audit package-manager authentication posture: remove stale registry tokens, eliminate granular access tokens that retain legacy `bypass2fa` publication privileges, avoid shared long-lived tokens on developer machines, and prefer scoped credentials that cannot publish or read unrelated private packages.
 - Treat every existing lifecycle-script approval as a privileged allowlist entry; record who owns it, why it is needed, and how updates are reviewed.
 - Prefer package-specific approvals over broad flags that allow all scripts or all non-registry dependency sources.
 - Require review for dependency changes that introduce Git URLs, tarball URLs, `preinstall`, `postinstall`, `prepare`, or `binding.gyp` paths.
@@ -79,3 +84,5 @@ Track this as a defender pattern rather than a single operation. The same instal
 ## Sources
 - JFrog Security Research: https://jfrog.com/blog/npm-v12-from-implicit-to-explicit-trust/
 - StepSecurity: https://www.stepsecurity.io/blog/prevent-npm-and-python-supply-chain-attacks-on-developer-machines-with-package-configs
+- GitHub Changelog: https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation/
+- Socket: https://socket.dev/blog/npm-12

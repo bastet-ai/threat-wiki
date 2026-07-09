@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [AI coding-agent symlink write confusion](patterns/ai-coding-agent-symlink-write-confusion.md)
+- [npm install explicit-trust controls: npm v12 GA / bypass2fa deprecation update](patterns/npm-install-explicit-trust-controls.md)
 - [Operation Muck and Load GitHub lure network](ops/operation-muck-and-load-github-lure-network.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](tools/scmbanker.md)

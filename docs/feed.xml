@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>AI coding-agent symlink write confusion</title>
+      <link>https://threat.wiki/patterns/ai-coding-agent-symlink-write-confusion/</link>
+      <description>Added Wiz GhostApproval and Adversa AI SymJack coverage for AI coding-assistant symlink write-confusion: malicious repositories can make agents approve or execute benign-looking workspace writes while the canonical path resolves to SSH, agent/MCP configuration, shell startup, CI, or other sensitive files outside the workspace. The page captures affected assistant status, CVE-2026-12958 and CVE-2026-50549, workspace-boundary lessons, and defender controls for canonical-path enforcement, symlink inventory, auto-approve restrictions, and credential rotation.</description>
+      <pubDate>Thu, 09 Jul 2026 05:30:01 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/ai-coding-agent-symlink-write-confusion/</guid>
+    </item>
+    <item>
+      <title>npm install explicit-trust controls: npm v12 GA / bypass2fa deprecation update</title>
+      <link>https://threat.wiki/patterns/npm-install-explicit-trust-controls/</link>
+      <description>Updated npm install explicit-trust controls after GitHub announced npm v12 is generally available and tagged latest. The update records install scripts off by default, explicit Git and remote dependency allowance, and the deprecation path for granular access tokens with bypass2fa privileges, with defender guidance for project testing, approval inventory, package-manager configuration drift, and legacy publication-token cleanup.</description>
+      <pubDate>Thu, 09 Jul 2026 05:30:01 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/npm-install-explicit-trust-controls/#npm-v12-ga-bypass2fa-deprecation</guid>
+    </item>
+    <item>
       <title>REF6045 / SCMBANKER Mexican banking fraud</title>
       <link>https://threat.wiki/ops/ref6045-scmbanker-mexican-banking-fraud/</link>
       <description>Added Elastic Security Labs coverage of REF6045 / SCMBANKER, a Mexico-focused operator-assisted banking-fraud operation using ClickFix fake-CAPTCHA pages to stage a PowerShell toolkit. The page captures Windows Run validation.txt delivery, bitsadmin / PowerShell staging, banking-session monitoring, screenshots, vishing overlays, browser redirects, clipboard account-number replacement, Remote Utilities escalation, exposed infrastructure pivots, and Elastic's LLM-assisted tooling-development caveat.</description>
