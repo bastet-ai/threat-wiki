@@ -446,7 +446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (2)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (36)
+- [credential theft](#credential-theft) (37)
 - [credential-theft](#credential-theft) (51)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (4)
@@ -462,7 +462,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto clipper](#crypto-clipper) (1)
 - [crypto wallets](#crypto-wallets) (2)
 - [crypto-wallets](#crypto-wallets) (1)
-- [cryptocurrency](#cryptocurrency) (11)
+- [cryptocurrency](#cryptocurrency) (12)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
 - [cryptocurrency theft](#cryptocurrency-theft) (4)
 - [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (2)
@@ -1014,6 +1014,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure disruption](#infrastructure-disruption) (2)
 - [initial access broker](#initial-access-broker) (2)
 - [initial-access](#initial-access) (3)
+- [Injective Labs](#injective-labs) (1)
 - [input capture](#input-capture) (1)
 - [install-time execution](#install-time-execution) (2)
 - [install-time-execution](#install-time-execution) (1)
@@ -1047,7 +1048,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Japan](#japan) (1)
 - [JARLEASH](#jarleash) (1)
 - [Java malware](#java-malware) (1)
-- [JavaScript](#javascript) (11)
+- [JavaScript](#javascript) (12)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
@@ -1200,7 +1201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mail server compromise](#mail-server-compromise) (1)
 - [mailbox theft](#mailbox-theft) (1)
 - [MAIN world injection](#main-world-injection) (1)
-- [maintainer compromise](#maintainer-compromise) (2)
+- [maintainer compromise](#maintainer-compromise) (3)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (1)
 - [malicious GPO](#malicious-gpo) (1)
@@ -1291,6 +1292,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
 - [MLTBackdoor](#mltbackdoor) (1)
+- [mnemonic theft](#mnemonic-theft) (1)
 - [mobile](#mobile) (1)
 - [Mobile Access](#mobile-access) (1)
 - [mobile banking fraud](#mobile-banking-fraud) (1)
@@ -1370,7 +1372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [North Korea](#north-korea) (11)
 - [notarized malware](#notarized-malware) (1)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (44)
+- [npm](#npm) (45)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm tokens](#npm-tokens) (1)
 - [npm v12](#npm-v12) (1)
@@ -1424,7 +1426,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (191)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (200)
+- [ops](#ops) (201)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1444,7 +1446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OYSTERSHUCK](#oystershuck) (1)
 - [P2P](#p2p) (1)
 - [package masquerading](#package-masquerading) (1)
-- [package registry](#package-registry) (3)
+- [package registry](#package-registry) (4)
 - [package registry credentials](#package-registry-credentials) (1)
 - [package scanning](#package-scanning) (1)
 - [package-cooldowns](#package-cooldowns) (1)
@@ -1552,6 +1554,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [priority inheritance](#priority-inheritance) (1)
 - [privacy](#privacy) (1)
 - [privacy exposure](#privacy-exposure) (1)
+- [private key theft](#private-key-theft) (1)
 - [private registry fallback](#private-registry-fallback) (1)
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (8)
@@ -1838,6 +1841,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [social engineering](#social-engineering) (14)
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (3)
+- [Socket Security](#socket-security) (1)
 - [Socket Security Research](#socket-security-research) (1)
 - [Socket.IO](#socketio) (1)
 - [SOCKS tunneling](#socks-tunneling) (1)
@@ -1856,6 +1860,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SolidPDFPcl2Bmp](#solidpdfpcl2bmp) (1)
 - [Sophos](#sophos) (1)
 - [source control](#source-control) (1)
+- [source repository compromise](#source-repository-compromise) (1)
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
@@ -1917,7 +1922,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [SUMMIT](#summit) (3)
 - [Supabase](#supabase) (1)
-- [supply chain](#supply-chain) (6)
+- [supply chain](#supply-chain) (7)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (82)
 - [suspected China-aligned](#suspected-china-aligned) (1)
@@ -2007,6 +2012,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [traffic-distribution-system](#traffic-distribution-system) (1)
 - [traffic-fraud](#traffic-fraud) (1)
 - [transaction authority](#transaction-authority) (1)
+- [transitive dependency](#transitive-dependency) (1)
 - [transnational repression](#transnational-repression) (1)
 - [Transparent Tribe](#transparent-tribe) (2)
 - [Trend Micro](#trend-micro) (3)
@@ -2020,7 +2026,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Turla](#turla) (4)
 - [Turla collaboration](#turla-collaboration) (1)
 - [Twilio](#twilio) (1)
-- [TypeScript](#typescript) (1)
+- [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (1)
 - [typosquatting](#typosquatting) (12)
 - [UAC](#uac) (1)
@@ -2127,7 +2133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet drainer](#wallet-drainer) (1)
 - [wallet infrastructure](#wallet-infrastructure) (1)
 - [wallet replacement](#wallet-replacement) (1)
-- [wallet theft](#wallet-theft) (4)
+- [wallet theft](#wallet-theft) (5)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
 - [Wasabi](#wasabi) (2)
@@ -3962,6 +3968,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -4092,6 +4099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cryptocurrency
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -6147,6 +6155,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
+## Injective Labs
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+
 ## input capture
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
@@ -6262,6 +6273,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JavaScript
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
@@ -6822,6 +6834,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
 ## maintainer compromise
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
@@ -7185,6 +7198,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MLTBackdoor
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 
+## mnemonic theft
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+
 ## mobile
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 
@@ -7473,6 +7489,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -7953,6 +7970,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
@@ -8138,6 +8156,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 
 ## package registry
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -8577,6 +8596,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## privacy exposure
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
+## private key theft
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 
 ## private registry fallback
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
@@ -9667,6 +9689,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
+## Socket Security
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+
 ## Socket Security Research
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
@@ -9725,6 +9750,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## source control
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+
+## source repository compromise
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 
 ## source-code compromise
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -9944,6 +9972,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -10366,6 +10395,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## transaction authority
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
+## transitive dependency
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+
 ## transnational repression
 - [Handala](../actors/handala.md)
 
@@ -10412,6 +10444,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
 ## TypeScript
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 
 ## typosquat
@@ -10825,6 +10858,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## wallet theft
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)

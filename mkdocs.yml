@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Injective SDK npm wallet stealer: ops/injective-sdk-npm-wallet-stealer.md
       - GodDamn ransomware PoisonX BYOVD activity: ops/goddamn-ransomware-poisonx-byovd.md
       - Operation Muck and Load GitHub lure network: ops/operation-muck-and-load-github-lure-network.md
       - REF6045 / SCMBANKER Mexican banking fraud: ops/ref6045-scmbanker-mexican-banking-fraud.md

@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [GuardFall AI-agent shell-guard bypass: Friendly Fire security-review RCE update](../patterns/guardfall-ai-agent-shell-guard-bypass.md#friendly-fire-security-review-prompt-injection-to-binary-execution)
 - [AI coding-agent symlink write confusion](../patterns/ai-coding-agent-symlink-write-confusion.md)
