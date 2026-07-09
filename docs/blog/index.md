@@ -4,6 +4,7 @@ Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
 - [GigaWiper destructive backdoor](../tools/gigawiper.md)
+- [UAT-7810 LONGLEASH ORB network expansion: Cisco Talos infrastructure update](../ops/uat-7810-longleash-orb-network.md#reported-infrastructure-and-pivots)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
@@ -15,7 +16,6 @@ Short updates, summaries, and notable threat writeups.
 - [SCMBANKER](../tools/scmbanker.md)
 - [Phantom squatting: HalluSquatting / agentic botnet extension](../patterns/phantom-squatting-ai-hallucinated-domains.md#hallusquatting-agentic-botnet-extension)
 - [Git hash chain malleability](../patterns/git-hash-chain-malleability.md)
-- [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 - [Agentic workflow trust-boundary failures: Rogue Agent Dialogflow runtime compromise](../patterns/agentic-workflow-trust-boundary-failures.md#rogue-agent-dialogflow-code-blocks-to-shared-ai-runtime-compromise)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
