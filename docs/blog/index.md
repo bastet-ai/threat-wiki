@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
 - [Phantom squatting: HalluSquatting / agentic botnet extension](../patterns/phantom-squatting-ai-hallucinated-domains.md#hallusquatting-agentic-botnet-extension)

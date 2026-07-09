@@ -161,7 +161,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Astro](#astro) (1)
 - [ASUS AiCloud routers](#asus-aicloud-routers) (1)
 - [ASUS router](#asus-router) (1)
-- [AsyncRAT](#asyncrat) (1)
+- [AsyncRAT](#asyncrat) (2)
 - [Atlas RAT](#atlas-rat) (1)
 - [AUDIOFIX](#audiofix) (2)
 - [audit logging](#audit-logging) (1)
@@ -221,6 +221,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
 - [Bitcoin](#bitcoin) (1)
+- [BitMiner](#bitminer) (1)
 - [bitsadmin](#bitsadmin) (1)
 - [Bitwarden](#bitwarden) (1)
 - [BlackFile](#blackfile) (1)
@@ -290,6 +291,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CERT/CC](#certcc) (1)
 - [certificate pinning](#certificate-pinning) (1)
 - [certificate theft](#certificate-theft) (1)
+- [certutil](#certutil) (1)
 - [CFIDE](#cfide) (1)
 - [ChatGPT](#chatgpt) (1)
 - [chattr](#chattr) (1)
@@ -399,6 +401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [commercial messaging applications](#commercial-messaging-applications) (1)
+- [commit farming](#commit-farming) (1)
 - [communications infrastructure](#communications-infrastructure) (1)
 - [Composer](#composer) (4)
 - [compromised accounts](#compromised-accounts) (2)
@@ -605,6 +608,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DDoS](#ddos) (4)
 - [DDoS-for-hire](#ddos-for-hire) (1)
 - [dead drop resolver](#dead-drop-resolver) (4)
+- [dead-drop resolver](#dead-drop-resolver) (1)
 - [Debian](#debian) (1)
 - [DEBULL](#debull) (1)
 - [declarativeNetRequest](#declarativenetrequest) (1)
@@ -636,7 +640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer tooling](#developer-tooling) (2)
 - [developer workstations](#developer-workstations) (2)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
-- [developer-targeting](#developer-targeting) (15)
+- [developer-targeting](#developer-targeting) (16)
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (2)
 - [device registration](#device-registration) (1)
@@ -859,9 +863,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [Gitea](#gitea) (1)
-- [GitHub](#github) (16)
+- [GitHub](#github) (17)
 - [GitHub abuse](#github-abuse) (3)
-- [GitHub Actions](#github-actions) (20)
+- [GitHub Actions](#github-actions) (21)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
 - [GitHub CLI](#github-cli) (1)
@@ -878,10 +882,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [gleeze.com](#gleezecom) (1)
 - [GlobalProtect](#globalprotect) (1)
 - [Gmail](#gmail) (3)
-- [Go](#go) (4)
+- [Go](#go) (5)
 - [Go loader](#go-loader) (1)
 - [Go malware](#go-malware) (1)
-- [Go modules](#go-modules) (1)
+- [Go modules](#go-modules) (2)
 - [Go2Tunnel](#go2tunnel) (1)
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
@@ -996,7 +1000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (1)
-- [infostealer](#infostealer) (19)
+- [infostealer](#infostealer) (20)
 - [infrastructure](#infrastructure) (5)
 - [infrastructure disruption](#infrastructure-disruption) (2)
 - [initial access broker](#initial-access-broker) (2)
@@ -1020,6 +1024,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IPv6](#ipv6) (1)
 - [Iran](#iran) (7)
 - [Iran-nexus](#iran-nexus) (1)
+- [ischhfd83](#ischhfd83) (1)
 - [Island Security Research](#island-security-research) (1)
 - [ISO image](#iso-image) (1)
 - [Israel](#israel) (3)
@@ -1302,6 +1307,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MSP](#msp) (3)
 - [MSSQL](#mssql) (1)
 - [mTLS](#mtls) (1)
+- [Muck and Load](#muck-and-load) (1)
 - [MuddyWater](#muddywater) (3)
 - [multi-tenant cloud](#multi-tenant-cloud) (1)
 - [Mustang Panda](#mustang-panda) (2)
@@ -1402,9 +1408,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational relay box](#operational-relay-box) (1)
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (189)
+- [operations](#operations) (190)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (198)
+- [ops](#ops) (199)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1445,7 +1451,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [parallel-intrusion](#parallel-intrusion) (1)
 - [password spray](#password-spray) (1)
 - [password spraying](#password-spraying) (2)
-- [password-protected archive](#password-protected-archive) (1)
+- [password-protected archive](#password-protected-archive) (2)
 - [Pastebin](#pastebin) (1)
 - [patch management](#patch-management) (2)
 - [path traversal](#path-traversal) (1)
@@ -1514,7 +1520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (9)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (15)
+- [PowerShell](#powershell) (16)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
@@ -1584,6 +1590,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Qilin](#qilin) (2)
 - [QNAP](#qnap) (1)
 - [QR code interception](#qr-code-interception) (1)
+- [Quasar](#quasar) (1)
 - [query injection](#query-injection) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
 - [QuimaRAT](#quimarat) (1)
@@ -1600,7 +1607,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
-- [RAT](#rat) (25)
+- [RAT](#rat) (26)
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RCE](#rce) (6)
@@ -1632,6 +1639,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [registry-controls](#registry-controls) (1)
 - [release automation](#release-automation) (1)
 - [release tampering](#release-tampering) (1)
+- [Remcos](#remcos) (1)
 - [remote access](#remote-access) (6)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (9)
@@ -1814,7 +1822,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SocGholish](#socgholish) (1)
 - [social engineering](#social-engineering) (14)
 - [social-engineering](#social-engineering) (2)
-- [Socket](#socket) (2)
+- [Socket](#socket) (3)
 - [Socket Security Research](#socket-security-research) (1)
 - [Socket.IO](#socketio) (1)
 - [SOCKS tunneling](#socks-tunneling) (1)
@@ -1836,7 +1844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
-- [source-repository poisoning](#source-repository-poisoning) (3)
+- [source-repository poisoning](#source-repository-poisoning) (4)
 - [SourceForge abuse](#sourceforge-abuse) (1)
 - [South Africa](#south-africa) (1)
 - [South Asia](#south-asia) (1)
@@ -1896,7 +1904,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Supabase](#supabase) (1)
 - [supply chain](#supply-chain) (6)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (81)
+- [supply-chain](#supply-chain) (82)
 - [suspected China-aligned](#suspected-china-aligned) (1)
 - [SWE-agent](#swe-agent) (1)
 - [SWUpdate](#swupdate) (1)
@@ -1904,6 +1912,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [symlink following](#symlink-following) (1)
 - [Synacktiv](#synacktiv) (1)
 - [Synology](#synology) (1)
+- [synthetic commits](#synthetic-commits) (1)
 - [Sysdig](#sysdig) (2)
 - [SYSTEM](#system) (1)
 - [systemd-userdbd](#systemd-userdbd) (1)
@@ -2068,7 +2077,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VENOMOUS BEAR](#venomous-bear) (3)
 - [Vercel](#vercel) (1)
 - [Vertex AI](#vertex-ai) (1)
-- [Vidar Stealer](#vidar-stealer) (2)
+- [Vidar Stealer](#vidar-stealer) (3)
 - [Vietnam](#vietnam) (2)
 - [Vietnam-aligned](#vietnam-aligned) (1)
 - [Views](#views) (1)
@@ -2178,7 +2187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XFRM](#xfrm) (1)
 - [xlabs_v1](#xlabs_v1) (1)
 - [XMLDecoder](#xmldecoder) (1)
-- [XMRig](#xmrig) (5)
+- [XMRig](#xmrig) (6)
 - [XOR](#xor) (1)
 - [XOR obfuscation](#xor-obfuscation) (1)
 - [XSLT SSRF](#xslt-ssrf) (1)
@@ -2808,6 +2817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6508](../actors/unc6508.md)
 
 ## AsyncRAT
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## Atlas RAT
@@ -3021,6 +3031,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bitcoin
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+
+## BitMiner
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 
 ## bitsadmin
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
@@ -3284,6 +3297,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## certificate theft
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+
+## certutil
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 
 ## CFIDE
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
@@ -3759,6 +3775,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## commercial messaging applications
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+
+## commit farming
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 
 ## communications infrastructure
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -4543,6 +4562,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
+## dead-drop resolver
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
+
 ## Debian
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
@@ -4679,6 +4701,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
@@ -5518,6 +5541,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [Webworm](../actors/webworm.md)
@@ -5542,6 +5566,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -5603,6 +5628,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Go
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -5613,6 +5639,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## Go modules
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## Go2Tunnel
@@ -6043,6 +6070,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [PamStealer](../tools/pamstealer.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -6138,6 +6166,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Iran-nexus
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+
+## ischhfd83
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 
 ## Island Security Research
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
@@ -7193,6 +7224,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mTLS
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
+## Muck and Load
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
+
 ## MuddyWater
 - [Cavern Manticore](../actors/cavern-manticore.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -7713,6 +7747,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -7908,6 +7943,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -8108,6 +8144,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## password-protected archive
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## Pastebin
@@ -8411,6 +8448,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -8684,6 +8722,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## QR code interception
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
+## Quasar
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
+
 ## query injection
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
@@ -8758,6 +8799,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MYRA RAT](../tools/myra-rat.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [QuimaRAT](../tools/quimarat.md)
@@ -8879,6 +8921,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## release tampering
 - [Trivy compromise](../ops/trivy-compromise.md)
+
+## Remcos
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 
 ## remote access
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -9545,6 +9590,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
 ## Socket
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
@@ -9619,6 +9665,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## source-repository poisoning
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## SourceForge abuse
@@ -9889,6 +9936,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -9934,6 +9982,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Synology
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
+## synthetic commits
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 
 ## Sysdig
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
@@ -10552,6 +10603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Vidar Stealer
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## Vietnam
@@ -11003,6 +11055,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+- [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
