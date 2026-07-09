@@ -129,6 +129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [application delivery controller](#application-delivery-controller) (1)
 - [APSB26-68](#apsb26-68) (1)
 - [APT](#apt) (7)
+- [APT-C-08](#apt-c-08) (1)
 - [APT27](#apt27) (1)
 - [APT28](#apt28) (1)
 - [APT29](#apt29) (1)
@@ -163,7 +164,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Astro](#astro) (1)
 - [ASUS AiCloud routers](#asus-aicloud-routers) (1)
 - [ASUS router](#asus-router) (1)
-- [AsyncRAT](#asyncrat) (2)
+- [AsyncRAT](#asyncrat) (3)
 - [Atlas RAT](#atlas-rat) (1)
 - [AUDIOFIX](#audiofix) (2)
 - [audit logging](#audit-logging) (1)
@@ -201,6 +202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bad Epoll](#bad-epoll) (1)
 - [BadBlocker](#badblocker) (1)
 - [Badbox 2.0](#badbox-20) (1)
+- [Balochistan Police](#balochistan-police) (1)
 - [Banana RAT](#banana-rat) (1)
 - [banking](#banking) (1)
 - [banking malware](#banking-malware) (3)
@@ -219,6 +221,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binary execution](#binary-execution) (1)
 - [BinaryFormatter](#binaryformatter) (1)
 - [binding.gyp](#bindinggyp) (2)
+- [biometric records](#biometric-records) (1)
 - [BIOPASS RAT](#biopass-rat) (1)
 - [BioShocking](#bioshocking) (1)
 - [BirdCall](#birdcall) (1)
@@ -226,6 +229,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitcoin](#bitcoin) (1)
 - [BitMiner](#bitminer) (1)
 - [bitsadmin](#bitsadmin) (1)
+- [Bitter](#bitter) (1)
 - [Bitwarden](#bitwarden) (1)
 - [BlackFile](#blackfile) (1)
 - [Blackpoint Cyber](#blackpoint-cyber) (5)
@@ -307,7 +311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [checkpointers](#checkpointers) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (8)
-- [China-nexus](#china-nexus) (11)
+- [China-nexus](#china-nexus) (12)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
@@ -334,6 +338,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Talos](#cisco-talos) (1)
 - [Cisco Unified CM](#cisco-unified-cm) (1)
 - [Cisco Unified Communications Manager](#cisco-unified-communications-manager) (1)
+- [citizen portal compromise](#citizen-portal-compromise) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (2)
 - [Citrix NetScaler](#citrix-netscaler) (1)
@@ -386,7 +391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cluster compromise](#cluster-compromise) (1)
 - [CMS](#cms) (6)
 - [CMS exploitation](#cms-exploitation) (1)
-- [Cobalt Strike](#cobalt-strike) (5)
+- [Cobalt Strike](#cobalt-strike) (6)
 - [code execution](#code-execution) (1)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
@@ -748,7 +753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ERP](#erp) (1)
 - [eSentire TRU](#esentire-tru) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (43)
+- [espionage](#espionage) (44)
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [EtherHiding](#etherhiding) (1)
 - [ETW patching](#etw-patching) (1)
@@ -1002,6 +1007,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [incident response](#incident-response) (20)
 - [incident-response](#incident-response) (1)
 - [India](#india) (3)
+- [India-nexus](#india-nexus) (1)
 - [Indian government](#indian-government) (1)
 - [indirect prompt injection](#indirect-prompt-injection) (4)
 - [industrial control](#industrial-control) (1)
@@ -1120,6 +1126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LaunchAgent](#launchagent) (1)
 - [launchctl](#launchctl) (1)
 - [law enforcement](#law-enforcement) (1)
+- [law enforcement targeting](#law-enforcement-targeting) (1)
 - [law-enforcement-disruption](#law-enforcement-disruption) (1)
 - [LayerX](#layerx) (1)
 - [Lazarus](#lazarus) (5)
@@ -1329,6 +1336,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mutable tags](#mutable-tags) (2)
 - [MYRA](#myra) (1)
 - [MySQL](#mysql) (1)
+- [Mysterious Elephant](#mysterious-elephant) (1)
 - [Mythos](#mythos) (1)
 - [Nacos](#nacos) (1)
 - [named pipes](#named-pipes) (1)
@@ -1336,6 +1344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [namespace squatting](#namespace-squatting) (1)
 - [NAS targeting](#nas-targeting) (1)
 - [nation-state](#nation-state) (1)
+- [national identity records](#national-identity-records) (1)
 - [native addon](#native-addon) (1)
 - [native extension](#native-extension) (2)
 - [NativeAOT](#nativeaot) (2)
@@ -1426,7 +1435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (191)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (201)
+- [ops](#ops) (202)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1457,7 +1466,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Page Builder CK](#page-builder-ck) (1)
 - [page cache](#page-cache) (2)
 - [page poisoning](#page-poisoning) (1)
-- [Pakistan](#pakistan) (2)
+- [Pakistan](#pakistan) (3)
 - [Pakistan-linked](#pakistan-linked) (2)
 - [Palo Alto Networks](#palo-alto-networks) (1)
 - [PAM](#pam) (2)
@@ -1519,8 +1528,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Plandex](#plandex) (1)
 - [PLENET](#plenet) (2)
 - [plugin architecture](#plugin-architecture) (1)
+- [PlugX](#plugx) (1)
 - [poisoned-branch](#poisoned-branch) (1)
 - [PoisonX](#poisonx) (1)
+- [police digital services](#police-digital-services) (1)
 - [PolinRider](#polinrider) (2)
 - [polyfill](#polyfill) (1)
 - [Polymarket](#polymarket) (1)
@@ -1657,7 +1668,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [registry-controls](#registry-controls) (1)
 - [release automation](#release-automation) (1)
 - [release tampering](#release-tampering) (1)
-- [Remcos](#remcos) (1)
+- [Remcos](#remcos) (2)
 - [remote access](#remote-access) (6)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (9)
@@ -1774,6 +1785,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sendit.sh](#senditsh) (1)
 - [sensitive information exposure](#sensitive-information-exposure) (1)
 - [Sentinel](#sentinel) (1)
+- [SentinelOne](#sentinelone) (1)
 - [Sentry](#sentry) (1)
 - [Sentry abuse](#sentry-abuse) (1)
 - [SEO poisoning](#seo-poisoning) (4)
@@ -1791,7 +1803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER-064](#shadow-aether-064) (1)
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [SHADOW-WATER-063](#shadow-water-063) (1)
-- [ShadowPad](#shadowpad) (2)
+- [ShadowPad](#shadowpad) (3)
 - [Shai-Hulud](#shai-hulud) (7)
 - [SHARDLOADER](#shardloader) (2)
 - [share propagation](#share-propagation) (1)
@@ -1944,6 +1956,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (4)
 - [TAG-124](#tag-124) (1)
+- [TAG-179](#tag-179) (1)
 - [TAG-22](#tag-22) (2)
 - [Taiwan](#taiwan) (7)
 - [takedown](#takedown) (3)
@@ -2143,6 +2156,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [watering-hole](#watering-hole) (2)
 - [weak passwords](#weak-passwords) (1)
 - [web application](#web-application) (4)
+- [web application compromise](#web-application-compromise) (1)
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
 - [web management interface](#web-management-interface) (1)
@@ -2733,6 +2747,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Screening Serpens](../actors/screening-serpens.md)
 - [ToddyCat](../actors/toddycat.md)
 
+## APT-C-08
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
+
 ## APT27
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -2845,6 +2862,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AsyncRAT
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## Atlas RAT
@@ -2987,6 +3005,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Badbox 2.0
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
+## Balochistan Police
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
+
 ## Banana RAT
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
@@ -3047,6 +3068,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 
+## biometric records
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
+
 ## BIOPASS RAT
 - [FishMonger](../actors/fishmonger.md)
 
@@ -3067,6 +3091,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## bitsadmin
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+
+## Bitter
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 
 ## Bitwarden
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -3383,6 +3410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 - [UNC6508](../actors/unc6508.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -3532,6 +3560,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cisco Unified Communications Manager
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
+
+## citizen portal compromise
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 
 ## Citrine Sleet
 - [RemotePE](../tools/remotepe.md)
@@ -3744,6 +3775,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghostwriter](../actors/ghostwriter.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 
 ## code execution
@@ -5141,6 +5173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -6089,6 +6122,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 
+## India-nexus
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
+
 ## Indian government
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
@@ -6522,6 +6558,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## law enforcement
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
+## law enforcement targeting
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 
 ## law-enforcement-disruption
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
@@ -7327,6 +7366,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MySQL
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
+## Mysterious Elephant
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
+
 ## Mythos
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 
@@ -7347,6 +7389,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## nation-state
 - [ROADtools](../tools/roadtools.md)
+
+## national identity records
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 
 ## native addon
 - [MYRA RAT](../tools/myra-rat.md)
@@ -8034,6 +8079,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
@@ -8197,6 +8243,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Pakistan
 - [FishMonger](../actors/fishmonger.md)
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [SprySOCKS](../tools/sprysocks.md)
 
 ## Pakistan-linked
@@ -8459,11 +8506,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## plugin architecture
 - [QuimaRAT](../tools/quimarat.md)
 
+## PlugX
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
+
 ## poisoned-branch
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 
 ## PoisonX
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+
+## police digital services
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 
 ## PolinRider
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
@@ -9019,6 +9072,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Remcos
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 
 ## remote access
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -9447,6 +9501,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Sentinel
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 
+## SentinelOne
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
+
 ## Sentry
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
@@ -9506,6 +9563,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ShadowPad
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [FishMonger](../actors/fishmonger.md)
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 
 ## Shai-Hulud
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -10125,6 +10183,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TAG-124
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+
+## TAG-179
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 
 ## TAG-22
 - [FishMonger](../actors/fishmonger.md)
@@ -10898,6 +10959,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+
+## web application compromise
+- [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 
 ## web hosting
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)

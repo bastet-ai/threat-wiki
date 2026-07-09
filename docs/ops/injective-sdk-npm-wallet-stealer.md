@@ -1,7 +1,7 @@
 # Injective SDK npm wallet stealer
 
 ## Summary
-Socket's July 9, 2026 report describes a short-lived but high-impact compromise of the Injective Labs TypeScript SDK release path. A malicious `@injectivelabs/sdk-ts@1.20.21` release was published to npm with fake telemetry logic that captured wallet mnemonic phrases and private-key material during normal library use, then exfiltrated the data through an Injective-looking public infrastructure endpoint.
+Socket's and StepSecurity's July 9, 2026 reports describe a short-lived but high-impact compromise of the Injective Labs TypeScript SDK release path. A malicious `@injectivelabs/sdk-ts@1.20.21` release was published to npm with fake telemetry logic that captured wallet mnemonic phrases and private-key material during normal library use, then exfiltrated the data through an Injective-looking public infrastructure endpoint.
 
 The same `1.20.21` version was also published across 17 additional `@injectivelabs` scoped packages that directly or transitively pinned the compromised SDK version. This made the incident relevant to transitive dependency consumers, not only applications that depended on `@injectivelabs/sdk-ts` directly.
 
@@ -91,3 +91,4 @@ Using an Injective-looking public infrastructure endpoint could blend exfiltrati
 
 ## Sources
 - Socket: https://socket.dev/blog/compromised-injective-sdk-npm-package
+- StepSecurity: https://www.stepsecurity.io/blog/injective-npm-supply-chain-attack-18-packages-backdoored-to-steal-crypto-wallet-keys

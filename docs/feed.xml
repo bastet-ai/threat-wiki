@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Pakistani law enforcement espionage convergence</title>
+      <link>https://threat.wiki/ops/pakistani-law-enforcement-espionage-convergence/</link>
+      <description>Added SentinelOne coverage of suspected China- and India-nexus espionage converging on Pakistani law enforcement from 2024 to 2026, including Balochistan Police targeting, PlugX / ShadowPad / Cobalt Strike / Remcos C2 windows, TAG-179 / Mysterious Elephant / APT-C-08 context, and cms_plugin.exe implants hosted from a police Complaint Management System portal.</description>
+      <pubDate>Thu, 09 Jul 2026 17:28:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/pakistani-law-enforcement-espionage-convergence/</guid>
+    </item>
+    <item>
       <title>Injective SDK npm wallet stealer</title>
       <link>https://threat.wiki/ops/injective-sdk-npm-wallet-stealer/</link>
       <description>Added Socket coverage of the compromised @injectivelabs/sdk-ts@1.20.21 npm release, which hooked normal wallet key-derivation paths to exfiltrate mnemonics and private-key material through an Injective-looking endpoint. The page captures the 17 additional @injectivelabs packages pinned to the malicious SDK version, source-repository / maintainer-account compromise timeline, affected file hashes, transitive dependency risk, and defender guidance for lockfile hunts, cache eviction, clean upgrades, and wallet key rotation.</description>
