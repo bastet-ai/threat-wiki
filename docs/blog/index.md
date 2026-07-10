@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [GigaWiper destructive backdoor](../tools/gigawiper.md)
 - [UAT-7810 LONGLEASH ORB network expansion: Cisco Talos infrastructure update](../ops/uat-7810-longleash-orb-network.md#reported-infrastructure-and-pivots)

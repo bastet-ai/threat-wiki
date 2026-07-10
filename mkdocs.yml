@@ -280,6 +280,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - GitHub API enumeration and access-token abuse: patterns/github-api-enumeration-token-abuse.md
       - AI coding-agent symlink write confusion: patterns/ai-coding-agent-symlink-write-confusion.md
       - Git hash chain malleability: patterns/git-hash-chain-malleability.md
       - Agentic workflow trust-boundary failures: patterns/agentic-workflow-trust-boundary-failures.md

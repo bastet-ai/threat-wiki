@@ -24,6 +24,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [academic sector](#academic-sector) (1)
 - [Accellion](#accellion) (1)
 - [access brokers](#access-brokers) (1)
+- [access token abuse](#access-token-abuse) (1)
 - [account takeover](#account-takeover) (1)
 - [account-takeover](#account-takeover) (1)
 - [act_pedit](#act_pedit) (1)
@@ -114,6 +115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AnyDesk](#anydesk) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
+- [API enumeration](#api-enumeration) (1)
 - [API exposure](#api-exposure) (1)
 - [API key exposure](#api-key-exposure) (1)
 - [API keys](#api-keys) (1)
@@ -613,6 +615,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data theft](#data-theft) (5)
 - [data-exfiltration](#data-exfiltration) (1)
 - [database extortion](#database-extortion) (1)
+- [Datadog Security Labs](#datadog-security-labs) (1)
 - [DAYLIGHT](#daylight) (1)
 - [DCloud](#dcloud) (1)
 - [DCloud Uni-App](#dcloud-uni-app) (1)
@@ -647,6 +650,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer credential theft](#developer-credential-theft) (2)
 - [developer credentials](#developer-credentials) (1)
 - [developer endpoints](#developer-endpoints) (1)
+- [developer identity](#developer-identity) (1)
 - [developer machines](#developer-machines) (9)
 - [developer mode](#developer-mode) (1)
 - [developer targeting](#developer-targeting) (4)
@@ -686,6 +690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DOGLEASH](#dogleash) (1)
 - [domain squatting](#domain-squatting) (1)
 - [domestic espionage](#domestic-espionage) (1)
+- [dormant accounts](#dormant-accounts) (1)
 - [DotNetNuke](#dotnetnuke) (1)
 - [double extortion](#double-extortion) (1)
 - [downgrade risk](#downgrade-risk) (1)
@@ -872,6 +877,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Garble](#garble) (1)
 - [GCS](#gcs) (1)
 - [GentleKiller](#gentlekiller) (1)
+- [ghost accounts](#ghost-accounts) (1)
 - [Ghost CMS](#ghost-cms) (1)
 - [Ghost Networks](#ghost-networks) (1)
 - [GhostLock](#ghostlock) (1)
@@ -881,7 +887,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [Gitea](#gitea) (1)
-- [GitHub](#github) (17)
+- [GitHub](#github) (18)
 - [GitHub abuse](#github-abuse) (3)
 - [GitHub Actions](#github-actions) (21)
 - [GitHub API](#github-api) (1)
@@ -1409,7 +1415,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OAuth abuse](#oauth-abuse) (3)
 - [OAuth token abuse](#oauth-token-abuse) (1)
 - [OAuth token exposure](#oauth-token-exposure) (1)
-- [OAuth tokens](#oauth-tokens) (2)
+- [OAuth tokens](#oauth-tokens) (3)
 - [OBF networks](#obf-networks) (1)
 - [obfuscation](#obfuscation) (1)
 - [obfuscator.io](#obfuscatorio) (1)
@@ -1488,9 +1494,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [password spraying](#password-spraying) (2)
 - [password-protected archive](#password-protected-archive) (2)
 - [Pastebin](#pastebin) (1)
+- [PAT theft](#pat-theft) (1)
 - [patch management](#patch-management) (2)
 - [path traversal](#path-traversal) (1)
-- [patterns](#patterns) (25)
+- [patterns](#patterns) (26)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
@@ -1512,6 +1519,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
 - [persistence](#persistence) (25)
+- [personal access tokens](#personal-access-tokens) (1)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
 - [Phantom Gyp](#phantom-gyp) (3)
@@ -1699,6 +1707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rentry](#rentry) (1)
 - [replication](#replication) (1)
 - [repo-server](#repo-server) (1)
+- [repository exfiltration](#repository-exfiltration) (1)
 - [repository poisoning](#repository-poisoning) (2)
 - [residential proxies](#residential-proxies) (1)
 - [residential proxy](#residential-proxy) (1)
@@ -1884,12 +1893,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SolidPDFCreator.dll](#solidpdfcreatordll) (1)
 - [SolidPDFPcl2Bmp](#solidpdfpcl2bmp) (1)
 - [Sophos](#sophos) (1)
-- [source control](#source-control) (1)
+- [source control](#source-control) (2)
 - [source repository compromise](#source-repository-compromise) (1)
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
 - [source-repository poisoning](#source-repository-poisoning) (4)
+- [source-repository reconnaissance](#source-repository-reconnaissance) (1)
 - [SourceForge abuse](#sourceforge-abuse) (1)
 - [South Africa](#south-africa) (1)
 - [South Asia](#south-asia) (1)
@@ -1947,7 +1957,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [SUMMIT](#summit) (3)
 - [Supabase](#supabase) (1)
-- [supply chain](#supply-chain) (8)
+- [supply chain](#supply-chain) (9)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (82)
 - [suspected China-aligned](#suspected-china-aligned) (1)
@@ -2334,6 +2344,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## access brokers
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
+## access token abuse
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+
 ## account takeover
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 
@@ -2708,6 +2721,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## API abuse
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
+## API enumeration
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 
 ## API exposure
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
@@ -4631,6 +4647,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## database extortion
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
+## Datadog Security Labs
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+
 ## DAYLIGHT
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -4758,6 +4777,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## developer endpoints
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+
+## developer identity
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 
 ## developer machines
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -4930,6 +4952,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## domestic espionage
 - [OceanLotus](../actors/oceanlotus.md)
+
+## dormant accounts
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 
 ## DotNetNuke
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
@@ -5619,6 +5644,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GentleKiller
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## ghost accounts
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+
 ## Ghost CMS
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
@@ -5654,6 +5682,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JiaT75](../people/jiat75.md)
@@ -7677,6 +7706,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OAuth tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
 ## OBF networks
@@ -8335,6 +8365,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Pastebin
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 
+## PAT theft
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+
 ## patch management
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
@@ -8358,6 +8391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
@@ -8457,6 +8491,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Velvet Ant](../actors/velvet-ant.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
+
+## personal access tokens
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 
 ## pfSense
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -9203,6 +9240,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## repo-server
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 
+## repository exfiltration
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+
 ## repository poisoning
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
@@ -9872,6 +9912,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## source control
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 
 ## source repository compromise
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
@@ -9890,6 +9931,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
+
+## source-repository reconnaissance
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 
 ## SourceForge abuse
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
@@ -10095,6 +10139,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+- [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
