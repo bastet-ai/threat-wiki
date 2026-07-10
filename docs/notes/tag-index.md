@@ -48,6 +48,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adobe ColdFusion](#adobe-coldfusion) (1)
 - [Adobe Commerce](#adobe-commerce) (1)
 - [Adspect](#adspect) (1)
+- [Advanced IP Scanner](#advanced-ip-scanner) (1)
 - [Adversa AI](#adversa-ai) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (2)
 - [adware](#adware) (3)
@@ -156,6 +157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ArgoCD](#argocd) (1)
 - [Arista EOS](#arista-eos) (1)
 - [Armageddon](#armageddon) (1)
+- [ArmCorp](#armcorp) (1)
 - [Armored Likho](#armored-likho) (3)
 - [Artifact Signing](#artifact-signing) (1)
 - [AryStinger](#arystinger) (1)
@@ -776,6 +778,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ESG](#esg) (1)
 - [espionage](#espionage) (44)
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
+- [ESXi](#esxi) (1)
 - [EtherHiding](#etherhiding) (1)
 - [ETW patching](#etw-patching) (1)
 - [ETW tampering](#etw-tampering) (1)
@@ -1003,6 +1006,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hosting provider](#hosting-provider) (1)
 - [hosting providers](#hosting-providers) (1)
 - [hotel targeting](#hotel-targeting) (1)
+- [Howling Scorpius](#howling-scorpius) (1)
 - [HR lures](#hr-lures) (1)
 - [HTA](#hta) (4)
 - [HTML smuggling](#html-smuggling) (1)
@@ -1671,7 +1675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Python stealer](#python-stealer) (1)
 - [Qianxin Threat Intelligence Center](#qianxin-threat-intelligence-center) (2)
 - [QiAnXin XLab](#qianxin-xlab) (2)
-- [Qilin](#qilin) (2)
+- [Qilin](#qilin) (3)
 - [QNAP](#qnap) (1)
 - [QR code interception](#qr-code-interception) (1)
 - [Quasar](#quasar) (1)
@@ -1953,6 +1957,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SPECTRALVIPER](#spectralviper) (1)
 - [Sphinx ransomware](#sphinx-ransomware) (1)
 - [SpiderLabs](#spiderlabs) (1)
+- [Spikey Scorpius](#spikey-scorpius) (1)
 - [Splunk](#splunk) (1)
 - [SprySOCKS](#sprysocks) (2)
 - [SQL injection](#sql-injection) (3)
@@ -2011,6 +2016,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [synthetic commits](#synthetic-commits) (1)
 - [Sysdig](#sysdig) (2)
 - [SYSTEM](#system) (1)
+- [SystemBC](#systembc) (1)
 - [systemd-userdbd](#systemd-userdbd) (1)
 - [T1204.004](#t1204004) (1)
 - [T3](#t3) (1)
@@ -2520,6 +2526,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Adspect
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
+## Advanced IP Scanner
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## Adversa AI
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
@@ -2910,6 +2919,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Armageddon
 - [Gamaredon](../actors/gamaredon.md)
+
+## ArmCorp
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## Armored Likho
 - [Armored Likho](../actors/armored-likho.md)
@@ -5349,6 +5361,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Espressif ESP-IDF
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
+## ESXi
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## EtherHiding
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
@@ -6168,6 +6183,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## hotel targeting
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
+
+## Howling Scorpius
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## HR lures
 - [TA4922](../actors/ta4922.md)
@@ -9144,6 +9162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Qilin
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## QNAP
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
@@ -10197,6 +10216,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SpiderLabs
 - [QuimaRAT](../tools/quimarat.md)
 
+## Spikey Scorpius
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
 ## Splunk
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
@@ -10477,6 +10499,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SYSTEM
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+
+## SystemBC
+- [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## systemd-userdbd
 - [MYRA RAT](../tools/myra-rat.md)
