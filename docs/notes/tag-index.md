@@ -910,7 +910,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub OAuth](#github-oauth) (1)
 - [GitHub Pages abuse](#github-pages-abuse) (1)
 - [GitHub payload delivery](#github-payload-delivery) (1)
-- [GitHub Security Advisories](#github-security-advisories) (1)
+- [GitHub Security Advisories](#github-security-advisories) (2)
 - [GitHub tokens](#github-tokens) (2)
 - [GitLab](#gitlab) (1)
 - [gitleaks](#gitleaks) (1)
@@ -1457,6 +1457,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Open Interpreter](#open-interpreter) (1)
 - [OpenAI](#openai) (1)
 - [OpenAI Codex](#openai-codex) (1)
+- [OpenClaw](#openclaw) (1)
 - [opencode](#opencode) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenHands](#openhands) (1)
@@ -2236,7 +2237,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [websocket-sharp](#websocket-sharp) (1)
 - [WebView](#webview) (1)
 - [Webworm](#webworm) (1)
-- [WhatsApp](#whatsapp) (2)
+- [WhatsApp](#whatsapp) (3)
 - [WhatsApp phishing](#whatsapp-phishing) (1)
 - [WHM](#whm) (3)
 - [Widget Factory](#widget-factory) (1)
@@ -5830,6 +5831,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
 ## GitHub Security Advisories
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## GitHub tokens
@@ -7899,6 +7901,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OpenAI Codex
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+
+## OpenClaw
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
 ## opencode
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -11336,6 +11341,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](../actors/webworm.md)
 
 ## WhatsApp
+- [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 

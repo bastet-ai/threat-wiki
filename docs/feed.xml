@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Agent localhost control-plane RCE: OpenClaw WhatsApp-to-host update</title>
+      <link>https://threat.wiki/patterns/agent-localhost-control-plane-rce/#openclaw-whatsapp-to-host-case-study</link>
+      <description>Updated agent localhost control-plane guidance with OpenClaw GitHub Security Advisories and public WhatsApp-to-host reporting: patched host-execution filtering and sandbox bind-mount flaws could let lower-trust messaging, plugin, repository, or webhook input cross into command execution, credential access, or stronger authorization scopes. The page now captures GHSA-hjr6-g723-hmfm, GHSA-9969-8g9h-rxwm, GHSA-575v-8hfq-m3mc, OpenClaw 2026.6.6 upgrade guidance, and Gateway hardening controls.</description>
+      <pubDate>Fri, 10 Jul 2026 15:28:45 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/agent-localhost-control-plane-rce/#openclaw-whatsapp-to-host-case-study</guid>
+    </item>
+    <item>
       <title>O-UNC-066 Entra passkey vishing</title>
       <link>https://threat.wiki/ops/o-unc-066-entra-passkey-vishing/</link>
       <description>Added Okta Threat Intelligence coverage of O-UNC-066 passkey-themed vishing against Microsoft Entra enrollment flows, including passkey-domain lures, victim-branded Microsoft 365 pages, live operator control, fake BIP-39 recovery-key distractions, attacker-controlled passkey registration risk, and defender guidance for authentication-method enrollment telemetry.</description>
