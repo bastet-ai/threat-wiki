@@ -205,6 +205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bad Epoll](#bad-epoll) (1)
 - [BadBlocker](#badblocker) (1)
 - [Badbox 2.0](#badbox-20) (1)
+- [Balbooa Forms](#balbooa-forms) (1)
 - [Balochistan Police](#balochistan-police) (1)
 - [Banana RAT](#banana-rat) (1)
 - [banking](#banking) (1)
@@ -584,6 +585,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-48558](#cve-2026-48558) (3)
 - [CVE-2026-48907](#cve-2026-48907) (2)
 - [CVE-2026-48908](#cve-2026-48908) (1)
+- [CVE-2026-48939](#cve-2026-48939) (1)
 - [CVE-2026-50751](#cve-2026-50751) (1)
 - [CVE-2026-50752](#cve-2026-50752) (1)
 - [CVE-2026-53359](#cve-2026-53359) (1)
@@ -591,6 +593,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-54420](#cve-2026-54420) (1)
 - [CVE-2026-55255](#cve-2026-55255) (1)
 - [CVE-2026-56290](#cve-2026-56290) (1)
+- [CVE-2026-56291](#cve-2026-56291) (1)
 - [CVE-2026-6682](#cve-2026-6682) (1)
 - [CVE-2026-6683](#cve-2026-6683) (1)
 - [CVE-2026-6684](#cve-2026-6684) (1)
@@ -1014,6 +1017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hypervisor escape](#hypervisor-escape) (1)
 - [Hyunwoo Kim](#hyunwoo-kim) (1)
 - [I-SOON](#i-soon) (2)
+- [iCagenda](#icagenda) (1)
 - [ICE](#ice) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (1)
@@ -2421,8 +2425,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
@@ -2864,7 +2868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
 ## arbitrary file upload
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## arbitrary file write
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
@@ -3081,6 +3085,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Badbox 2.0
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
+## Balbooa Forms
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## Balochistan Police
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
@@ -3619,8 +3626,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
@@ -3860,7 +3867,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## CMS exploitation
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## Cobalt Strike
 - [FishMonger](../actors/fishmonger.md)
@@ -4576,7 +4583,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
 ## CVE-2026-48908
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+
+## CVE-2026-48939
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## CVE-2026-50751
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
@@ -4597,7 +4607,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 
 ## CVE-2026-56290
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+
+## CVE-2026-56291
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## CVE-2026-6682
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -6197,6 +6210,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
 
+## iCagenda
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+
 ## ICE
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -6551,8 +6567,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## Joomla
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
 ## Joomla Content Editor
@@ -6562,10 +6578,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
 ## Joomlack
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## JoomShaper
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## journalists
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -8036,8 +8052,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -8235,8 +8251,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -8449,7 +8465,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## Page Builder CK
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## page cache
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -8686,7 +8702,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 
 ## PHP code execution
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## PHP code injection
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -10122,7 +10138,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 
 ## SP Page Builder
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
 ## spam
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -11175,7 +11191,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -11279,7 +11295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web shell
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
-- [Joomla page-builder CVE-2026-48908 / CVE-2026-56290 exploitation](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)

@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Joomla extension KEV exploitation cluster: Balbooa Forms / iCagenda update</title>
+      <link>https://threat.wiki/ops/joomla-page-builder-cve-2026-48908-56290-exploitation/</link>
+      <description>Updated Joomla KEV coverage after CISA added Balbooa Forms CVE-2026-56291 and iCagenda CVE-2026-48939 on July 10, expanding the July 7 JoomShaper SP Page Builder and Joomlack Page Builder active-exploitation cluster. Treat exposed Joomla extension arbitrary-file-upload flaws as likely CMS web-shell risk until logs and file systems are reviewed.</description>
+      <pubDate>Fri, 10 Jul 2026 17:25:52 GMT</pubDate>
+      <guid>https://threat.wiki/ops/joomla-page-builder-cve-2026-48908-56290-exploitation/#balbooa-forms-icagenda-update</guid>
+    </item>
+    <item>
       <title>Agent localhost control-plane RCE: OpenClaw WhatsApp-to-host update</title>
       <link>https://threat.wiki/patterns/agent-localhost-control-plane-rce/#openclaw-whatsapp-to-host-case-study</link>
       <description>Updated agent localhost control-plane guidance with OpenClaw GitHub Security Advisories and public WhatsApp-to-host reporting: patched host-execution filtering and sandbox bind-mount flaws could let lower-trust messaging, plugin, repository, or webhook input cross into command execution, credential access, or stronger authorization scopes. The page now captures GHSA-hjr6-g723-hmfm, GHSA-9969-8g9h-rxwm, GHSA-575v-8hfq-m3mc, OpenClaw 2026.6.6 upgrade guidance, and Gateway hardening controls.</description>
