@@ -33,6 +33,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Active Directory](#active-directory) (1)
 - [active exploitation](#active-exploitation) (38)
 - [active probing](#active-probing) (1)
+- [active threat](#active-threat) (1)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (4)
@@ -457,7 +458,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrackMapExec](#crackmapexec) (1)
 - [Crates.io](#cratesio) (1)
 - [credential attacks](#credential-attacks) (2)
-- [credential exposure](#credential-exposure) (2)
+- [credential exposure](#credential-exposure) (3)
 - [credential harvesting](#credential-harvesting) (2)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
@@ -731,6 +732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge devices](#edge-devices) (3)
 - [edge exploitation](#edge-exploitation) (1)
 - [edge service](#edge-service) (2)
+- [edge services](#edge-services) (1)
 - [editor profile import](#editor-profile-import) (1)
 - [EDR evasion](#edr-evasion) (2)
 - [EDR killer](#edr-killer) (2)
@@ -834,6 +836,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [file encryption](#file-encryption) (1)
 - [file exfiltration](#file-exfiltration) (1)
 - [file inflation](#file-inflation) (1)
+- [file sharing](#file-sharing) (1)
 - [File Transmission](#file-transmission) (1)
 - [file upload path traversal](#file-upload-path-traversal) (1)
 - [file-system filter](#file-system-filter) (1)
@@ -1040,7 +1043,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (20)
+- [incident response](#incident-response) (21)
 - [incident-response](#incident-response) (1)
 - [India](#india) (3)
 - [India-nexus](#india-nexus) (1)
@@ -1261,7 +1264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malware-as-a-service](#malware-as-a-service) (4)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [MALXMR](#malxmr) (1)
-- [managed file transfer](#managed-file-transfer) (1)
+- [managed file transfer](#managed-file-transfer) (2)
 - [managed service provider](#managed-service-provider) (1)
 - [ManageEngine Endpoint Central](#manageengine-endpoint-central) (1)
 - [management plane](#management-plane) (3)
@@ -1479,7 +1482,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (191)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (207)
+- [ops](#ops) (208)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1628,6 +1631,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [professional services](#professional-services) (1)
 - [profile.d](#profiled) (1)
 - [Progress Kemp LoadMaster](#progress-kemp-loadmaster) (1)
+- [Progress Software](#progress-software) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
 - [prompt injection](#prompt-injection) (8)
 - [prompt-injection](#prompt-injection) (4)
@@ -1863,6 +1867,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [share propagation](#share-propagation) (1)
 - [shared hosting](#shared-hosting) (3)
 - [shared secrets](#shared-secrets) (1)
+- [ShareFile](#sharefile) (1)
 - [SharePoint](#sharepoint) (3)
 - [SharePoint Server](#sharepoint-server) (1)
 - [SharkLoader](#sharkloader) (1)
@@ -1982,6 +1987,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stock exchange](#stock-exchange) (1)
 - [STOCKSTAY](#stockstay) (3)
 - [storage deletion](#storage-deletion) (1)
+- [Storage Zone Controller](#storage-zone-controller) (1)
 - [Storm-2603](#storm-2603) (1)
 - [Storm-2697](#storm-2697) (1)
 - [Storm-3075](#storm-3075) (1)
@@ -2054,7 +2060,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tetrade](#tetrade) (1)
 - [Thailand](#thailand) (3)
 - [The Gentlemen](#the-gentlemen) (1)
-- [The Hacker News](#the-hacker-news) (6)
+- [The Hacker News](#the-hacker-news) (7)
 - [ThemeREX Addons](#themerex-addons) (1)
 - [third-party integrations](#third-party-integrations) (1)
 - [threat hunting](#threat-hunting) (1)
@@ -2203,6 +2209,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vulnerability exploitation](#vulnerability-exploitation) (1)
 - [vulnerability research](#vulnerability-research) (2)
 - [vulnerability-research](#vulnerability-research) (1)
+- [vulnerable appliances](#vulnerable-appliances) (1)
 - [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
 - [wallet address replacement](#wallet-address-replacement) (1)
@@ -2225,6 +2232,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web management interface](#web-management-interface) (1)
 - [web RCE](#web-rce) (1)
 - [web shell](#web-shell) (6)
+- [web shell hunting](#web-shell-hunting) (1)
 - [web shells](#web-shells) (3)
 - [web supply chain](#web-supply-chain) (1)
 - [web-shells](#web-shells) (1)
@@ -2257,6 +2265,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows persistence](#windows-persistence) (1)
 - [Windows Run dialog](#windows-run-dialog) (1)
 - [Windows Script Host](#windows-script-host) (2)
+- [Windows servers](#windows-servers) (1)
 - [Windows service persistence](#windows-service-persistence) (1)
 - [Windows Terminal](#windows-terminal) (1)
 - [Winnti Group](#winnti-group) (2)
@@ -2453,6 +2462,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## active probing
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+
+## active threat
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 
 ## active-exploitation
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
@@ -4076,6 +4088,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## credential exposure
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## credential harvesting
@@ -5149,6 +5162,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
+## edge services
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
+
 ## editor profile import
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
@@ -5546,6 +5562,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## file inflation
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
+
+## file sharing
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 
 ## File Transmission
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
@@ -6299,6 +6318,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
@@ -7167,6 +7187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
 ## managed file transfer
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
 ## managed service provider
@@ -8322,6 +8343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
@@ -8952,6 +8974,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Progress Kemp LoadMaster
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+
+## Progress Software
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 
 ## Project Proposal.exe
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
@@ -9864,6 +9889,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## shared secrets
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## ShareFile
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
+
 ## SharePoint
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
@@ -10282,6 +10310,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## storage deletion
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## Storage Zone Controller
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
+
 ## Storm-2603
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
@@ -10630,6 +10661,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
@@ -11216,6 +11248,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vulnerability-research
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## vulnerable appliances
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
+
 ## VXLAN
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
@@ -11300,6 +11335,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [UNC6508](../actors/unc6508.md)
+
+## web shell hunting
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 
 ## web shells
 - [CL-STA-1062](../actors/cl-sta-1062.md)
@@ -11438,6 +11476,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Windows Script Host
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+
+## Windows servers
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 
 ## Windows service persistence
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)

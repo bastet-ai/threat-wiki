@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Progress ShareFile Storage Zone Controller security threat](ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [Joomla extension KEV exploitation cluster: Balbooa Forms / iCagenda update](ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Agent localhost control-plane RCE: OpenClaw WhatsApp-to-host update](patterns/agent-localhost-control-plane-rce.md#openclaw-whatsapp-to-host-case-study)
 - [O-UNC-066 Entra passkey vishing](ops/o-unc-066-entra-passkey-vishing.md)
