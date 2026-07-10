@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [nodemon-sudo / tslint-conf runtime npm backdoor](ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [GitHub API enumeration and access-token abuse](patterns/github-api-enumeration-token-abuse.md)
 - [Braintree.Net NuGet payment skimmer](ops/braintree-net-nuget-payment-skimmer.md)
 - [GigaWiper destructive backdoor](tools/gigawiper.md)

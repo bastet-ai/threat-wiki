@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - nodemon-sudo / tslint-conf runtime npm backdoor: ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md
       - Braintree.Net NuGet payment skimmer: ops/braintree-net-nuget-payment-skimmer.md
       - Pakistani law enforcement espionage convergence: ops/pakistani-law-enforcement-espionage-convergence.md
       - Injective SDK npm wallet stealer: ops/injective-sdk-npm-wallet-stealer.md
