@@ -7,6 +7,9 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - O-UNC-066 Entra passkey vishing: ops/o-unc-066-entra-passkey-vishing.md
+      - WP-SHELLSTORM webshell access brokerage: ops/wp-shellstorm-webshell-access-brokerage.md
+      - Operation Phnom Penh MODBEACON activity: ops/modbeacon-operation-phnom-penh.md
       - nodemon-sudo / tslint-conf runtime npm backdoor: ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md
       - Braintree.Net NuGet payment skimmer: ops/braintree-net-nuget-payment-skimmer.md
       - Pakistani law enforcement espionage convergence: ops/pakistani-law-enforcement-espionage-convergence.md
@@ -217,6 +220,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - MODBEACON: tools/modbeacon.md
       - GigaWiper: tools/gigawiper.md
       - SCMBANKER: tools/scmbanker.md
       - RedWing: tools/redwing.md

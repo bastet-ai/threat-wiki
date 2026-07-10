@@ -2,6 +2,34 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>O-UNC-066 Entra passkey vishing</title>
+      <link>https://threat.wiki/ops/o-unc-066-entra-passkey-vishing/</link>
+      <description>Added Okta Threat Intelligence coverage of O-UNC-066 passkey-themed vishing against Microsoft Entra enrollment flows, including passkey-domain lures, victim-branded Microsoft 365 pages, live operator control, fake BIP-39 recovery-key distractions, attacker-controlled passkey registration risk, and defender guidance for authentication-method enrollment telemetry.</description>
+      <pubDate>Fri, 10 Jul 2026 13:26:24 GMT</pubDate>
+      <guid>https://threat.wiki/ops/o-unc-066-entra-passkey-vishing/</guid>
+    </item>
+    <item>
+      <title>WP-SHELLSTORM webshell access brokerage</title>
+      <link>https://threat.wiki/ops/wp-shellstorm-webshell-access-brokerage/</link>
+      <description>Added SOCRadar coverage of WP-SHELLSTORM, an exposed attacker infrastructure case showing 1.4M+ targeted domains, 27 weaponized CVEs, 5,700+ active webshells, Breeze Cache Cleaner / ThemeREX / Joomla JCE exploit productivity, parallel Nacos credential theft, and webshell access-broker defender guidance.</description>
+      <pubDate>Fri, 10 Jul 2026 13:26:24 GMT</pubDate>
+      <guid>https://threat.wiki/ops/wp-shellstorm-webshell-access-brokerage/</guid>
+    </item>
+    <item>
+      <title>Operation Phnom Penh MODBEACON activity</title>
+      <link>https://threat.wiki/ops/modbeacon-operation-phnom-penh/</link>
+      <description>Added Qianxin coverage of Operation Phnom Penh, where a Silver Fox / UTG-Q-1000 Ghost distributor used counterfeit-software SEO lures and Ghost infrastructure to deliver MODBEACON, a Rust-linked Windows implant using gRPC over HTTP/2, token authentication, host fingerprinting, WMI persistence, and in-memory plugins.</description>
+      <pubDate>Fri, 10 Jul 2026 13:26:24 GMT</pubDate>
+      <guid>https://threat.wiki/ops/modbeacon-operation-phnom-penh/</guid>
+    </item>
+    <item>
+      <title>MODBEACON</title>
+      <link>https://threat.wiki/tools/modbeacon/</link>
+      <description>Added MODBEACON as a Windows memory-resident stage / implant reported by Qianxin, with gRPC-over-HTTP/2 C2, Xray/V2Ray-inspired transport, agent-token authentication, host fingerprinting, native-v3 in-memory plugins, Ghost delivery infrastructure, and concrete C2 / hash indicators.</description>
+      <pubDate>Fri, 10 Jul 2026 13:26:24 GMT</pubDate>
+      <guid>https://threat.wiki/tools/modbeacon/</guid>
+    </item>
+    <item>
       <title>Braintree.Net NuGet payment skimmer</title>
       <link>https://threat.wiki/ops/braintree-net-nuget-payment-skimmer/</link>
       <description>Added Socket coverage of the Braintree.Net NuGet typosquat, which copied PayPal Braintree's .NET SDK surface while intercepting production payment-card data, Braintree merchant credentials, and host environment secrets. The page captures affected Braintree.Net, DependencyInjector.Core, SipNet, and SipNet.OpenAI.Realtime versions, inflated placeholder-download reputation abuse, api.348672-shakepay[.]com exfiltration paths, and PCI-focused defender guidance.</description>

@@ -7,6 +7,10 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [O-UNC-066 Entra passkey vishing](ops/o-unc-066-entra-passkey-vishing.md)
+- [WP-SHELLSTORM webshell access brokerage](ops/wp-shellstorm-webshell-access-brokerage.md)
+- [Operation Phnom Penh MODBEACON activity](ops/modbeacon-operation-phnom-penh.md)
+- [MODBEACON](tools/modbeacon.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [GitHub API enumeration and access-token abuse](patterns/github-api-enumeration-token-abuse.md)
 - [Braintree.Net NuGet payment skimmer](ops/braintree-net-nuget-payment-skimmer.md)
