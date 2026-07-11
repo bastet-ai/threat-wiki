@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [jscrambler npm preinstall stealer](ops/jscrambler-npm-preinstall-stealer.md)
 - [The Gentlemen ransomware: Unit 42 victim-volume and affiliate-economics update](tools/the-gentlemen-ransomware.md#unit-42-july-2026-operational-context)
 - [Progress ShareFile Storage Zone Controller security threat](ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [Joomla extension KEV exploitation cluster: Balbooa Forms / iCagenda update](ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)

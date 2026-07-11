@@ -112,7 +112,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Debug Bridge](#android-debug-bridge) (1)
 - [Android malware](#android-malware) (2)
 - [Android spyware](#android-spyware) (3)
-- [anti-analysis](#anti-analysis) (2)
+- [anti-analysis](#anti-analysis) (3)
 - [anti-forensics](#anti-forensics) (2)
 - [Anubis ransomware](#anubis-ransomware) (1)
 - [AnyDesk](#anydesk) (1)
@@ -262,7 +262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Broadcom](#broadcom) (2)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
-- [browser credential theft](#browser-credential-theft) (15)
+- [browser credential theft](#browser-credential-theft) (16)
 - [browser extension](#browser-extension) (6)
 - [browser hijacking](#browser-hijacking) (2)
 - [browser session abuse](#browser-session-abuse) (2)
@@ -464,7 +464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (2)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (39)
+- [credential theft](#credential-theft) (40)
 - [credential-theft](#credential-theft) (51)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -485,7 +485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptocurrency](#cryptocurrency) (12)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
 - [cryptocurrency theft](#cryptocurrency-theft) (4)
-- [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (2)
+- [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (3)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (3)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
@@ -727,7 +727,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [e-commerce](#e-commerce) (1)
 - [Eagle Werewolf](#eagle-werewolf) (2)
 - [Earth Lusca](#earth-lusca) (2)
-- [eBPF](#ebpf) (2)
+- [eBPF](#ebpf) (3)
 - [Eclipse](#eclipse) (1)
 - [edge appliance](#edge-appliance) (10)
 - [edge appliances](#edge-appliances) (2)
@@ -1067,7 +1067,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [initial-access](#initial-access) (3)
 - [Injective Labs](#injective-labs) (1)
 - [input capture](#input-capture) (1)
-- [install-time execution](#install-time-execution) (2)
+- [install-time execution](#install-time-execution) (3)
 - [install-time-execution](#install-time-execution) (1)
 - [install.res.1033.dll](#installres1033dll) (1)
 - [Integration Broker](#integration-broker) (1)
@@ -1100,7 +1100,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Japan](#japan) (1)
 - [JARLEASH](#jarleash) (1)
 - [Java malware](#java-malware) (1)
-- [JavaScript](#javascript) (13)
+- [JavaScript](#javascript) (14)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
@@ -1124,6 +1124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JoomShaper](#joomshaper) (1)
 - [journalists](#journalists) (1)
 - [JSCoreRunner](#jscorerunner) (1)
+- [Jscrambler](#jscrambler) (1)
 - [JSON:API](#jsonapi) (1)
 - [JSONKeeper](#jsonkeeper) (1)
 - [JSONPing](#jsonping) (1)
@@ -1141,6 +1142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Keitaro](#keitaro) (1)
 - [Kemp LoadMaster](#kemp-loadmaster) (1)
 - [kernel driver](#kernel-driver) (3)
+- [kernel instrumentation](#kernel-instrumentation) (1)
 - [kernelCTF](#kernelctf) (2)
 - [KEV](#kev) (3)
 - [keychain theft](#keychain-theft) (1)
@@ -1298,6 +1300,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [merchant credential theft](#merchant-credential-theft) (1)
 - [MeshAgent](#meshagent) (1)
 - [MeshCentral](#meshcentral) (2)
+- [MetaMask](#metamask) (1)
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexican banking fraud](#mexican-banking-fraud) (2)
 - [Mexico](#mexico) (2)
@@ -1431,7 +1434,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [North Korea](#north-korea) (11)
 - [notarized malware](#notarized-malware) (1)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (46)
+- [npm](#npm) (47)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm tokens](#npm-tokens) (1)
 - [npm v12](#npm-v12) (1)
@@ -1488,7 +1491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (191)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (208)
+- [ops](#ops) (209)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1508,7 +1511,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OYSTERSHUCK](#oystershuck) (1)
 - [P2P](#p2p) (1)
 - [package masquerading](#package-masquerading) (1)
-- [package registry](#package-registry) (5)
+- [package registry](#package-registry) (6)
 - [package registry credentials](#package-registry-credentials) (1)
 - [package scanning](#package-scanning) (1)
 - [package-cooldowns](#package-cooldowns) (1)
@@ -1618,7 +1621,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PRC-nexus](#prc-nexus) (1)
 - [pre-auth RCE](#pre-auth-rce) (1)
 - [pre-authentication](#pre-authentication) (2)
-- [preinstall](#preinstall) (2)
+- [preinstall](#preinstall) (3)
 - [Primitive Bear](#primitive-bear) (1)
 - [PrincessClub](#princessclub) (1)
 - [priority inheritance](#priority-inheritance) (1)
@@ -1990,6 +1993,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stealer](#stealer) (2)
 - [steganography](#steganography) (1)
 - [StegoAd](#stegoad) (1)
+- [StepSecurity](#stepsecurity) (1)
 - [STM32Cube](#stm32cube) (1)
 - [stock exchange](#stock-exchange) (1)
 - [STOCKSTAY](#stockstay) (3)
@@ -2005,7 +2009,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [SUMMIT](#summit) (3)
 - [Supabase](#supabase) (1)
-- [supply chain](#supply-chain) (10)
+- [supply chain](#supply-chain) (11)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (82)
 - [suspected China-aligned](#suspected-china-aligned) (1)
@@ -2777,6 +2781,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## anti-analysis
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 
 ## anti-forensics
@@ -3306,6 +3311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [PamStealer](../tools/pamstealer.md)
@@ -4133,6 +4139,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -4292,6 +4299,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cryptocurrency wallet theft
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## cryptocurrency wallets
@@ -5145,6 +5153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## eBPF
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 
 ## Eclipse
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -6437,6 +6446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## install-time execution
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
@@ -6552,6 +6562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
@@ -6637,6 +6648,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JSCoreRunner
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
+## Jscrambler
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+
 ## JSON:API
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
@@ -6694,6 +6708,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](../tools/fast16.md)
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
+
+## kernel instrumentation
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 
 ## kernelCTF
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
@@ -7309,6 +7326,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 
+## MetaMask
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+
 ## MEV bot lure
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
@@ -7803,6 +7823,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -8303,6 +8324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -8486,6 +8508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## package registry
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -8937,6 +8960,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## preinstall
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
 ## Primitive Bear
@@ -10329,6 +10353,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## StegoAd
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
+## StepSecurity
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+
 ## STM32Cube
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
@@ -10387,6 +10414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
