@@ -176,7 +176,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [audit logging](#audit-logging) (1)
 - [AUR](#aur) (1)
 - [authenticated RCE](#authenticated-rce) (1)
-- [authentication bypass](#authentication-bypass) (10)
+- [authentication bypass](#authentication-bypass) (11)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -541,6 +541,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-20896](#cve-2026-20896) (1)
 - [CVE-2026-23111](#cve-2026-23111) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
+- [CVE-2026-2699](#cve-2026-2699) (1)
+- [CVE-2026-2701](#cve-2026-2701) (1)
 - [CVE-2026-28318](#cve-2026-28318) (1)
 - [CVE-2026-3300](#cve-2026-3300) (1)
 - [CVE-2026-33017](#cve-2026-33017) (2)
@@ -1732,7 +1734,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Remcos](#remcos) (2)
 - [remote access](#remote-access) (6)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (10)
+- [remote code execution](#remote-code-execution) (11)
 - [remote debugging](#remote-debugging) (2)
 - [remote monitoring and management](#remote-monitoring-and-management) (1)
 - [remote script injection](#remote-script-injection) (1)
@@ -2228,6 +2230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wasabi](#wasabi) (2)
 - [watchdog](#watchdog) (1)
 - [watchTowr](#watchtowr) (3)
+- [watchTowr Labs](#watchtowr-labs) (1)
 - [watering hole](#watering-hole) (1)
 - [watering-hole](#watering-hole) (2)
 - [weak passwords](#weak-passwords) (1)
@@ -2993,6 +2996,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
@@ -4463,6 +4467,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-26980
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
+## CVE-2026-2699
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
+
+## CVE-2026-2701
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 
 ## CVE-2026-28318
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -9404,6 +9414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
@@ -11320,6 +11331,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+
+## watchTowr Labs
+- [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 
 ## watering hole
 - [FishMonger](../actors/fishmonger.md)
