@@ -1,7 +1,7 @@
 # Leo Platform npm Miasma-style compromise
 
 ## Summary
-StepSecurity reported that on June 24, 2026 an attacker published malicious versions of 20 npm packages in the Leo Platform ecosystem in a coordinated burst lasting less than three seconds. Socket's June 25 follow-up expanded the same wave to 23 npm package versions, including three additional `llxlr`-published packages, and added a related Verana Blockchain Go source-archive poisoning case. Sonatype's June 25 analysis aligned the three `llxlr` packages with the campaign, framed the malicious set as Leo Platform / RStreams plus related packages, and warned that three prerelease Leo connector packages named in some early public reporting did **not** appear to contain the observed payload. JFrog's June 25 writeup independently framed the same 20-package Leo / RStreams set as a Shai-Hulud / Hades continuation and reported approximately 126,000 monthly downloads across the affected package set; StepSecurity's weekly-download view for the Leo / RStreams packages was roughly 13,600 weekly downloads. The packages carried the same CI/CD credential-theft toolkit StepSecurity had documented in the earlier Miasma wave.
+StepSecurity reported that on June 24, 2026 an attacker published malicious versions of 20 npm packages in the Leo Platform ecosystem in a coordinated burst lasting less than three seconds. Socket's June 25 follow-up expanded the same wave to 23 npm package versions, including three additional `llxlr`-published packages, and added a related Verana Blockchain Go source-archive poisoning case. Sonatype's June 25 analysis aligned the three `llxlr` packages with the campaign, framed the malicious set as Leo Platform / RStreams plus related packages, and warned that three prerelease Leo connector packages named in some early public reporting did **not** appear to contain the observed payload. JFrog's June 25 writeup independently framed the same 20-package Leo / RStreams set as a Shai-Hulud / Hades continuation and reported approximately 126,000 monthly downloads across the affected package set; StepSecurity's weekly-download view for the Leo / RStreams packages was roughly 13,600 weekly downloads. SafeDep's June 25/26 reconstruction adds a concrete initial-access and repo-poisoning hypothesis: a single shared maintainer account, `czirker`, was common to all 20 Leo / RStreams packages, and the same account created orphan `snapshot-*` branches with fake Dependabot workflows in three LeoPlatform GitHub repositories shortly before the npm publishes. The packages carried the same CI/CD credential-theft toolkit StepSecurity had documented in the earlier Miasma wave.
 
 StepSecurity assessed the Leo Platform payload as structurally identical to Miasma: the same `binding.gyp` "Phantom Gyp" install hook, the same ROT-N plus AES-128-GCM plus obfuscator.io layering, the same Bun `v1.3.13` download path, GitHub Actions `Runner.Worker` memory scraping, GitHub dead-drop exfiltration, npm `bypass_2fa` worming, workflow injection, and passwordless sudo modification on GitHub-hosted runners. Treat the actor link as TTP-based until independent public attribution or maintainer forensics confirms the initial access path.
 
@@ -72,6 +72,7 @@ Sonatype independently reported the same three `llxlr` packages as additional pa
 - GitHub GraphQL / Contents API dead-drop exfiltration using the victim's own GitHub token to commit encrypted stolen material.
 - npm propagation via stolen tokens and the `bypass_2fa` publish path.
 - GitHub workflow modification to request `id-token: write` and add attacker-controlled pinned action SHA steps.
+- GitHub orphan-branch poisoning using fake "Dependabot Updates" workflows that first requested `id-token: write` and later switched to an explicit `NPM_TOKEN` secret path, according to SafeDep's LeoPlatform repository-event reconstruction.
 - Passwordless sudo modification on GitHub-hosted runners by writing `runner ALL=(ALL) NOPASSWD:ALL`.
 - GitHub Actions and repository poisoning markers that overlap adjacent compromises, especially `RevokeAndItGoesKaboom`, `Alright Lets See If This Works`, `TheBeautifulSandsOfTime`, `thebeautifulmarchoftime`, and `thebeautifulsnadsoftime`.
 - AI / IDE persistence through Claude, VS Code, Cursor, Gemini, and Copilot-adjacent configuration paths that can trigger after the malicious package version has already been removed.
@@ -93,6 +94,15 @@ Socket reported a related source archive for `github.com/verana-labs/verana-bloc
 
 Treat this as source-repository execution risk: a developer who clones or opens a poisoned repository in a trusted IDE or AI coding assistant may trigger the payload even if no malicious npm lifecycle hook runs.
 
+## SafeDep LeoPlatform GitHub reconstruction
+SafeDep's June 25/26 writeup adds useful public pivots for scoping repository-side activity in the Leo Platform incident:
+
+- `czirker` was the only npm maintainer account present across all 20 infected Leo / RStreams packages; SafeDep assessed that the worm used this account's npm token for the mass publish and its GitHub token for repository-side activity.
+- GitHub event logs showed `czirker` creating orphan `snapshot-*` branches in `LeoPlatform/Nodejs`, `LeoPlatform/auth-sdk`, and `LeoPlatform/Leo` around `2026-06-24T22:50Z`, roughly 14 minutes before the npm publish burst.
+- The `LeoPlatform/Nodejs` orphan branch added `.github/workflows/npm-publish.yml` and a 5.2 MB `_index.js` worm payload. The workflow was named `Dependabot Updates`, triggered on `push`, requested `id-token: write`, and pinned legitimate `actions/checkout` and `oven-sh/setup-bun` SHAs.
+- A later commit impersonating `dependabot[bot]` changed the publish path from OIDC-style parameters to `NPM_TOKEN: ${{ secrets.NPM_TOKEN }}`, suggesting the payload tries both npm trusted-publishing and direct secret-token publication paths.
+- SafeDep reported the primary branch of `LeoPlatform/Nodejs` was clean; the malicious workflow lived only on the orphan snapshot branch. Defenders should still audit orphan branches and branch-protection / workflow-trigger rules because such branches can become execution paths if merged, checked out by automation, or scanned by overbroad CI.
+
 ## Indicators and hunt pivots
 - Any install, cache entry, lockfile, artifact, or dependency diff containing one of the affected package/version pairs above.
 - Affected publish timestamp: `2026-06-24T23:04:55Z` for Leo Platform packages.
@@ -106,6 +116,8 @@ Treat this as source-repository execution risk: a developer who clones or opens 
 - GitHub repository descriptions containing `Alright Lets See If This Works`, with `RevokeAndItGoesKaboom` as a payload-string pivot if artifacts are available.
 - Release or test workflows exposing a variable named `SEED_PAT`, especially when the repository name or owner path contains `Seeder`.
 - Workflow diffs that unexpectedly add `id-token: write`, pinned opaque action SHAs, or release/publish steps outside the normal release process.
+- LeoPlatform repository pivots from SafeDep: orphan branches named `snapshot-f121a878`, `snapshot-463d9ff7`, and `snapshot-afacc302`; fake workflow name `Dependabot Updates`; a large `_index.js` worm payload; and commits authored as `czirker` or impersonating `dependabot[bot]`.
+- Repositories where release workflows unexpectedly switch between OIDC trusted-publishing and direct `NPM_TOKEN` publication paths.
 - sudoers modification containing `runner ALL=(ALL) NOPASSWD:ALL` on GitHub-hosted runners.
 - Verana / Go source-archive pivots: `github.com/verana-labs/verana-blockchain@v0.10.1-dev.20`, `.claude/index.js`, `.claude/setup.mjs`, `.vscode/setup.mjs`, `.claude/settings.json`, and `.vscode/tasks.json`.
 - Socket-reported SHA256 hashes for the Verana source-repository case include `b3e217f4354e8a4383038b99b0bcaeaff191a79df58e7a1f2355a79aac2faf13` for `verana-blockchain-v0.10.1-dev.20.zip` and `15b415ae41df72acf1f7e9e67569531d41dee62d089d34b4c0fab0c7fe5cc14f` for `.claude/index.js`.
@@ -121,6 +133,7 @@ StepSecurity also published SHA1 package hashes for the malicious tarballs. Use 
 6. Audit repositories reachable by affected tokens for unexpected commits, workflow changes, `id-token: write` additions, and GitHub dead-drop artifacts.
 7. Add package cooldown controls, registry quarantine for newly published versions, and file-content detections for suspicious `binding.gyp` native-build execution.
 8. Extend cleanup from package caches into repositories: audit `.claude/`, `.vscode/`, `.cursor/`, `.gemini/`, `.github/setup.js`, `_index.js`, orphan `snapshot-*` branches, and Dependabot-looking workflow commits reachable by stolen GitHub tokens.
+9. Review GitHub audit logs for orphan branch creation and force-push events, not just default-branch diffs or pull requests. Confirm that release workflows cannot execute from unreviewed snapshot branches and that npm trusted-publishing policies bind to intended immutable repository / workflow identifiers.
 
 ## Attribution notes
 StepSecurity states that the Leo Platform operation appears to be the same actor or payload factory behind Miasma because the hook syntax, Bun URL, obfuscation chain, runner-memory theft, GitHub dead-drop exfiltration, and npm worming capability match. Because Mini Shai-Hulud / Miasma source and techniques have been public and copied, track this as **Miasma-style / likely same payload factory** unless later public sources establish a firmer operator attribution.
@@ -136,3 +149,4 @@ StepSecurity states that the Leo Platform operation appears to be the same actor
 - Socket: https://socket.dev/blog/miasma-mini-shai-hulud-hits-leoplatform-npm-packages-go-ecosystem
 - Sonatype: https://www.sonatype.com/blog/miasma-returns-leo-platform-compromise-in-npm
 - JFrog Security Research: https://research.jfrog.com/post/shai-hulud-miasma-alright-lets-see-if-this-works/
+- SafeDep: https://safedep.io/miasma-worm-hits-leoplatform-20-npm-packages/

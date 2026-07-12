@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Leo Platform npm Miasma-style compromise: SafeDep orphan-branch reconstruction](../ops/leo-platform-npm-miasma-compromise.md#safedep-leoplatform-github-reconstruction)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [The Gentlemen ransomware: Unit 42 victim-volume and affiliate-economics update](../tools/the-gentlemen-ransomware.md#unit-42-july-2026-operational-context)
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
