@@ -83,6 +83,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
+- [AI developer tooling](#ai-developer-tooling) (1)
 - [AI framework](#ai-framework) (1)
 - [AI gateway](#ai-gateway) (1)
 - [AI Now Institute](#ai-now-institute) (1)
@@ -379,7 +380,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud credential hunting](#cloud-credential-hunting) (1)
 - [cloud credential risk](#cloud-credential-risk) (1)
 - [cloud credential theft](#cloud-credential-theft) (5)
-- [cloud credentials](#cloud-credentials) (2)
+- [cloud credentials](#cloud-credentials) (3)
 - [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
 - [Cloud Filter driver](#cloud-filter-driver) (1)
 - [cloud IAM](#cloud-iam) (1)
@@ -1288,6 +1289,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (1)
 - [MCP](#mcp) (7)
+- [MCP credentials](#mcp-credentials) (1)
 - [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
 - [Mekotio](#mekotio) (1)
@@ -1803,7 +1805,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russia-nexus](#russia-nexus) (2)
 - [Russian Intelligence Services](#russian-intelligence-services) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
-- [Rust](#rust) (7)
+- [Rust](#rust) (8)
 - [Rust malware](#rust-malware) (3)
 - [S3 Browser](#s3-browser) (1)
 - [S3-compatible storage](#s3-compatible-storage) (1)
@@ -1922,7 +1924,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SocGholish](#socgholish) (1)
 - [social engineering](#social-engineering) (14)
 - [social-engineering](#social-engineering) (2)
-- [Socket](#socket) (3)
+- [Socket](#socket) (4)
 - [Socket Security](#socket-security) (2)
 - [Socket Security Research](#socket-security-research) (1)
 - [Socket.IO](#socketio) (1)
@@ -2665,6 +2667,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI data exfiltration
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
+## AI developer tooling
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 
 ## AI framework
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -3812,6 +3817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloud credentials
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## Cloud Files Mini Filter Driver
@@ -7289,6 +7295,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
+## MCP credentials
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+
 ## media processing
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
@@ -9671,6 +9680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Rust
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [RustDuck](../tools/rustduck.md)
@@ -10107,6 +10117,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
 ## Socket
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
