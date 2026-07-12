@@ -1087,6 +1087,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IPv6](#ipv6) (1)
 - [Iran](#iran) (7)
 - [Iran-nexus](#iran-nexus) (1)
+- [IronWorm](#ironworm) (1)
 - [ischhfd83](#ischhfd83) (1)
 - [Island Security Research](#island-security-research) (1)
 - [ISO image](#iso-image) (1)
@@ -1114,7 +1115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains](#jetbrains) (2)
 - [JetBrains Marketplace](#jetbrains-marketplace) (1)
 - [JetStream](#jetstream) (1)
-- [JFrog](#jfrog) (1)
+- [JFrog](#jfrog) (2)
 - [JFrog Security Research](#jfrog-security-research) (2)
 - [JINX-0164](#jinx-0164) (2)
 - [joblib](#joblib) (1)
@@ -1125,6 +1126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JoomShaper](#joomshaper) (1)
 - [journalists](#journalists) (1)
 - [JSCoreRunner](#jscorerunner) (1)
+- [jscrambler](#jscrambler) (1)
 - [Jscrambler](#jscrambler) (1)
 - [JSON:API](#jsonapi) (1)
 - [JSONKeeper](#jsonkeeper) (1)
@@ -1251,7 +1253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
 - [machine-learning](#machine-learning) (1)
-- [macOS](#macos) (10)
+- [macOS](#macos) (11)
 - [macOS malware](#macos-malware) (1)
 - [Magento](#magento) (1)
 - [MagicYUV](#magicyuv) (1)
@@ -1438,6 +1440,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notification interception](#notification-interception) (1)
 - [npm](#npm) (47)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
+- [npm token theft](#npm-token-theft) (1)
 - [npm tokens](#npm-tokens) (1)
 - [npm v12](#npm-v12) (1)
 - [npx](#npx) (1)
@@ -2210,6 +2213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VNT](#vnt) (2)
 - [Volt Typhoon](#volt-typhoon) (1)
 - [VPN](#vpn) (5)
+- [VPN credentials](#vpn-credentials) (2)
 - [VPN gateway](#vpn-gateway) (1)
 - [VPN Go](#vpn-go) (1)
 - [VPN session hijacking](#vpn-session-hijacking) (1)
@@ -2272,7 +2276,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill](#windchill) (1)
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
-- [Windows](#windows) (25)
+- [Windows](#windows) (26)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Forms](#windows-forms) (1)
@@ -2299,7 +2303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [workflow backdoor](#workflow-backdoor) (1)
 - [workspace trust](#workspace-trust) (1)
 - [World Cup](#world-cup) (1)
-- [worm](#worm) (12)
+- [worm](#worm) (13)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [WP-SHELLSTORM](#wp-shellstorm) (1)
 - [WScript](#wscript) (1)
@@ -6520,6 +6524,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Iran-nexus
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 
+## IronWorm
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+
 ## ischhfd83
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 
@@ -6618,6 +6625,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## JFrog
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 
 ## JFrog Security Research
@@ -6653,6 +6661,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JSCoreRunner
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
+## jscrambler
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 
 ## Jscrambler
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
@@ -7115,6 +7126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## macOS
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
@@ -7864,6 +7876,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+
+## npm token theft
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 
 ## npm tokens
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
@@ -11255,6 +11270,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
+## VPN credentials
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+
 ## VPN gateway
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
@@ -11514,6 +11533,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [GigaWiper](../tools/gigawiper.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+- [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -11630,6 +11650,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
