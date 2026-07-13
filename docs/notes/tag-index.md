@@ -50,7 +50,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adspect](#adspect) (1)
 - [Advanced IP Scanner](#advanced-ip-scanner) (1)
 - [Adversa AI](#adversa-ai) (1)
-- [adversary-in-the-middle](#adversary-in-the-middle) (2)
+- [adversary-in-the-middle](#adversary-in-the-middle) (3)
 - [adware](#adware) (3)
 - [adware history](#adware-history) (1)
 - [AES-128-CBC](#aes-128-cbc) (1)
@@ -94,7 +94,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI workflow](#ai-workflow) (1)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
-- [AI-assisted malware](#ai-assisted-malware) (1)
+- [AI-assisted development](#ai-assisted-development) (1)
+- [AI-assisted malware](#ai-assisted-malware) (2)
 - [AI-assisted malware development](#ai-assisted-malware-development) (2)
 - [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
 - [AI-augmented operations](#ai-augmented-operations) (1)
@@ -395,7 +396,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud storage exfiltration](#cloud-storage-exfiltration) (1)
 - [cloud transcoding](#cloud-transcoding) (1)
 - [Cloudflare](#cloudflare) (2)
-- [Cloudflare Tunnel](#cloudflare-tunnel) (2)
+- [Cloudflare Tunnel](#cloudflare-tunnel) (3)
 - [Cloudflare tunnels](#cloudflare-tunnels) (1)
 - [Cloudflare Turnstile](#cloudflare-turnstile) (1)
 - [Cloudflare Workers](#cloudflare-workers) (5)
@@ -409,6 +410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
 - [Codecov](#codecov) (1)
+- [codemado](#codemado) (1)
 - [CodeQL](#codeql) (1)
 - [Codex](#codex) (2)
 - [Codex CLI](#codex-cli) (1)
@@ -677,7 +679,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (2)
 - [device registration](#device-registration) (1)
-- [device-code phishing](#device-code-phishing) (1)
+- [device-code phishing](#device-code-phishing) (2)
 - [DevOps](#devops) (1)
 - [DevTools](#devtools) (1)
 - [DEWMODE](#dewmode) (1)
@@ -795,6 +797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro](#everest-forms-pro) (1)
 - [Evil Corp](#evil-corp) (1)
 - [EvilAI](#evilai) (1)
+- [Evilginx](#evilginx) (1)
 - [exFAT](#exfat) (1)
 - [exfiltration](#exfiltration) (4)
 - [exploit-development](#exploit-development) (1)
@@ -1194,6 +1197,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LegionRelay](#legionrelay) (1)
 - [Leo Platform](#leo-platform) (1)
 - [LevelBlue](#levelblue) (1)
+- [Lexfo](#lexfo) (1)
 - [liblzma](#liblzma) (1)
 - [libp2p](#libp2p) (1)
 - [libpeconv](#libpeconv) (1)
@@ -1255,9 +1259,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [machine-learning](#machine-learning) (1)
 - [macOS](#macos) (11)
 - [macOS malware](#macos-malware) (1)
+- [MaDoO Blaster](#madoo-blaster) (1)
 - [Magento](#magento) (1)
 - [MagicYUV](#magicyuv) (1)
 - [mail server compromise](#mail-server-compromise) (1)
+- [mail-argenta](#mail-argenta) (1)
 - [mailbox theft](#mailbox-theft) (1)
 - [MAIN world injection](#main-world-injection) (1)
 - [maintainer compromise](#maintainer-compromise) (3)
@@ -1308,14 +1314,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexican banking fraud](#mexican-banking-fraud) (2)
 - [Mexico](#mexico) (2)
-- [MFA bypass](#mfa-bypass) (7)
+- [MFA bypass](#mfa-bypass) (8)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [Miasma](#miasma) (6)
 - [MicroPython](#micropython) (1)
 - [Microsoft](#microsoft) (6)
 - [Microsoft .NET](#microsoft-net) (1)
-- [Microsoft 365](#microsoft-365) (4)
+- [Microsoft 365](#microsoft-365) (5)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
 - [Microsoft Authentication Broker](#microsoft-authentication-broker) (1)
 - [Microsoft Defender](#microsoft-defender) (1)
@@ -1325,7 +1331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Edge](#microsoft-edge) (2)
 - [Microsoft Edge Add-ons](#microsoft-edge-add-ons) (1)
 - [Microsoft Edge Extensions Security Team](#microsoft-edge-extensions-security-team) (1)
-- [Microsoft Entra ID](#microsoft-entra-id) (2)
+- [Microsoft Entra ID](#microsoft-entra-id) (3)
 - [Microsoft Graph](#microsoft-graph) (2)
 - [Microsoft Identity Platform](#microsoft-identity-platform) (1)
 - [Microsoft Office SharePoint](#microsoft-office-sharepoint) (1)
@@ -1456,6 +1462,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [O-UNC-066](#o-unc-066) (1)
 - [OAuth](#oauth) (4)
 - [OAuth abuse](#oauth-abuse) (3)
+- [OAuth device authorization grant](#oauth-device-authorization-grant) (1)
 - [OAuth token abuse](#oauth-token-abuse) (1)
 - [OAuth token exposure](#oauth-token-exposure) (1)
 - [OAuth tokens](#oauth-tokens) (3)
@@ -1496,7 +1503,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (191)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (209)
+- [ops](#ops) (210)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1573,8 +1580,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (18)
-- [phishing-as-a-service](#phishing-as-a-service) (2)
+- [phishing](#phishing) (19)
+- [phishing-as-a-service](#phishing-as-a-service) (3)
 - [PHP](#php) (2)
 - [PHP code execution](#php-code-execution) (1)
 - [PHP code injection](#php-code-injection) (1)
@@ -1770,7 +1777,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reviewdog](#reviewdog) (1)
 - [RingH23](#ringh23) (1)
 - [RMM](#rmm) (3)
-- [RMM abuse](#rmm-abuse) (7)
+- [RMM abuse](#rmm-abuse) (8)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
@@ -1823,6 +1830,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Samsung TizenRT](#samsung-tizenrt) (1)
 - [sandbox evasion](#sandbox-evasion) (1)
 - [sandboxing](#sandboxing) (1)
+- [saroula01](#saroula01) (1)
 - [scam infrastructure](#scam-infrastructure) (1)
 - [scambling](#scambling) (1)
 - [scanner evasion](#scanner-evasion) (1)
@@ -1865,6 +1873,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [service accounts](#service-accounts) (1)
 - [service-agent](#service-agent) (1)
 - [ServiceNow](#servicenow) (1)
+- [session cookie theft](#session-cookie-theft) (1)
 - [session hijacking](#session-hijacking) (2)
 - [session secret exposure](#session-secret-exposure) (1)
 - [session theft](#session-theft) (1)
@@ -1902,7 +1911,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SilentRunLoader](#silentrunloader) (1)
 - [SiliconFlow](#siliconflow) (1)
 - [Silver Fox](#silver-fox) (2)
-- [SimpleHelp](#simplehelp) (3)
+- [SimpleHelp](#simplehelp) (4)
 - [SimpleHTTPServer exposure](#simplehttpserver-exposure) (1)
 - [simulation tampering](#simulation-tampering) (1)
 - [Site Member permissions](#site-member-permissions) (1)
@@ -1934,7 +1943,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOCKS tunneling](#socks-tunneling) (1)
 - [SOCKS5](#socks5) (4)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
-- [SOCRadar](#socradar) (1)
+- [SOCRadar](#socradar) (2)
 - [SoftEther VPN](#softether-vpn) (2)
 - [software impersonation](#software-impersonation) (1)
 - [software supply chain](#software-supply-chain) (1)
@@ -2077,7 +2086,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tetrade](#tetrade) (1)
 - [Thailand](#thailand) (3)
 - [The Gentlemen](#the-gentlemen) (1)
-- [The Hacker News](#the-hacker-news) (7)
+- [The Hacker News](#the-hacker-news) (8)
+- [The Quarry](#the-quarry) (1)
 - [ThemeREX Addons](#themerex-addons) (1)
 - [third-party integrations](#third-party-integrations) (1)
 - [threat hunting](#threat-hunting) (1)
@@ -2088,8 +2098,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions](#tj-actions) (1)
 - [ToddyCat](#toddycat) (3)
 - [token forgery](#token-forgery) (1)
-- [token replay](#token-replay) (1)
-- [token theft](#token-theft) (2)
+- [token replay](#token-replay) (2)
+- [token theft](#token-theft) (3)
 - [token-theft](#token-theft) (1)
 - [TONESHELL](#toneshell) (2)
 - [tool](#tool) (1)
@@ -2548,6 +2558,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## adversary-in-the-middle
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
 ## adware
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
@@ -2719,8 +2730,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ai-agent
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 
+## AI-assisted development
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+
 ## AI-assisted malware
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
 ## AI-assisted malware development
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
@@ -3877,6 +3892,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## Cloudflare Tunnel
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
@@ -3934,6 +3950,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Codecov
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+
+## codemado
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
 ## CodeQL
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
@@ -4975,6 +4994,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 
 ## device-code phishing
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
 ## DevOps
@@ -5434,6 +5454,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## EvilAI
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## Evilginx
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
 ## exFAT
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -6893,6 +6916,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LevelBlue
 - [QuimaRAT](../tools/quimarat.md)
 
+## Lexfo
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+
 ## liblzma
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -7139,6 +7165,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## macOS malware
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
+## MaDoO Blaster
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+
 ## Magento
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
@@ -7147,6 +7176,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## mail server compromise
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
+## mail-argenta
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
 ## mailbox theft
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -7367,6 +7399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [ROADtools](../tools/roadtools.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
@@ -7401,6 +7434,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft 365
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 
@@ -7435,6 +7469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Microsoft Entra ID
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 
 ## Microsoft Graph
@@ -7933,6 +7968,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
 
+## OAuth device authorization grant
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+
 ## OAuth token abuse
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
@@ -8315,6 +8353,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
@@ -8776,6 +8815,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -8792,6 +8832,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## phishing-as-a-service
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 
 ## PHP
@@ -9559,6 +9600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [Cavern](../tools/cavern.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [TaskWeaver](../tools/taskweaver.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
@@ -9753,6 +9795,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## sandboxing
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
+## saroula01
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+
 ## scam infrastructure
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
@@ -9907,6 +9952,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ServiceNow
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
+## session cookie theft
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+
 ## session hijacking
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -10037,6 +10085,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SimpleHelp
 - [Djinn Stealer](../tools/djinn-stealer.md)
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [TaskWeaver](../tools/taskweaver.md)
 
@@ -10160,6 +10209,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## SOCRadar
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
 ## SoftEther VPN
@@ -10749,12 +10799,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## The Hacker News
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
+
+## The Quarry
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
 ## ThemeREX Addons
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
@@ -10791,9 +10845,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
 ## token replay
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [ROADtools](../tools/roadtools.md)
 
 ## token theft
+- [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [ROADtools](../tools/roadtools.md)
 
