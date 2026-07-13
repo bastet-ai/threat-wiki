@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Injective SDK npm wallet stealer: JFrog runtime reachability and header-exfiltration update](ops/injective-sdk-npm-wallet-stealer.md)
 - [Leo Platform npm Miasma-style compromise: SafeDep orphan-branch reconstruction](ops/leo-platform-npm-miasma-compromise.md#safedep-leoplatform-github-reconstruction)
 - [jscrambler npm preinstall stealer](ops/jscrambler-npm-preinstall-stealer.md)
 - [The Gentlemen ransomware: Unit 42 victim-volume and affiliate-economics update](tools/the-gentlemen-ransomware.md#unit-42-july-2026-operational-context)
@@ -23,7 +24,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [GigaWiper destructive backdoor](tools/gigawiper.md)
 - [UAT-7810 LONGLEASH ORB network expansion: Cisco Talos infrastructure update](ops/uat-7810-longleash-orb-network.md#reported-infrastructure-and-pivots)
 - [Pakistani law enforcement espionage convergence](ops/pakistani-law-enforcement-espionage-convergence.md)
-- [Injective SDK npm wallet stealer](ops/injective-sdk-npm-wallet-stealer.md)
 - [GodDamn ransomware PoisonX BYOVD activity](ops/goddamn-ransomware-poisonx-byovd.md)
 - [GuardFall AI-agent shell-guard bypass: Friendly Fire security-review RCE update](patterns/guardfall-ai-agent-shell-guard-bypass.md#friendly-fire-security-review-prompt-injection-to-binary-execution)
 - [AI coding-agent symlink write confusion](patterns/ai-coding-agent-symlink-write-confusion.md)

@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Injective SDK npm wallet stealer: JFrog runtime reachability and header-exfiltration update</title>
+      <link>https://threat.wiki/ops/injective-sdk-npm-wallet-stealer/</link>
+      <description>Updated Injective SDK compromise coverage with JFrog's July 12 runtime analysis: PrivateKey.generate(), MsgBroadcasterWithPk, and CosmJS-compatible wallet wrappers can route mnemonics or raw/byte-array private keys through the infected PrivateKey class, and the stealer sends base64-encoded secrets in the X-Request-Id header of empty gRPC-Web-looking POSTs to an Injective-looking endpoint.</description>
+      <pubDate>Mon, 13 Jul 2026 03:26:37 GMT</pubDate>
+      <guid>https://threat.wiki/ops/injective-sdk-npm-wallet-stealer/#technical-details</guid>
+    </item>
+    <item>
       <title>jscrambler npm compromise: follow-on malicious releases and runtime trigger shift</title>
       <link>https://threat.wiki/ops/jscrambler-npm-preinstall-stealer/</link>
       <description>Updated jscrambler coverage with Socket and npm registry follow-up: after the initial 8.14.0 preinstall stealer, the actor pushed 8.16.0, 8.17.0, 8.18.0, and 8.20.0. Later releases moved the same native Rust infostealer payload from preinstall execution into runtime files, expanding hunts beyond lifecycle-script telemetry to dist/index.js and dist/bin/jscrambler.js diffs.</description>
