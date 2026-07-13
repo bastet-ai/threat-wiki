@@ -7,6 +7,9 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Forg365 Microsoft 365 PhaaS](ops/forg365-microsoft-365-phaas.md)
+- [ModHeader browser-extension surveillance capability](ops/modheader-browser-extension-surveillance.md)
+- [CrashStealer macOS notarized-dropper campaign](ops/crashstealer-macos-notarized-dropper.md)
 - [Evilginx and device-code phishing open-directory cluster](ops/evilginx-device-code-phishing-open-directory.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Injective SDK npm wallet stealer: JFrog runtime reachability and header-exfiltration update](ops/injective-sdk-npm-wallet-stealer.md)

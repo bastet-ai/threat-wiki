@@ -3,6 +3,9 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
+- [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
+- [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Leo Platform npm Miasma-style compromise: SafeDep orphan-branch reconstruction](../ops/leo-platform-npm-miasma-compromise.md#safedep-leoplatform-github-reconstruction)
