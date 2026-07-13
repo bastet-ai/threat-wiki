@@ -8,6 +8,7 @@ nav:
   - Blog: blog/index.md
   - Ops:
       - Evilginx and device-code phishing open-directory cluster: ops/evilginx-device-code-phishing-open-directory.md
+      - Cisco IOS CVE-2008-4128 CSRF KEV exploitation: ops/cisco-ios-cve-2008-4128-csrf-kev.md
       - jscrambler npm preinstall stealer: ops/jscrambler-npm-preinstall-stealer.md
       - Progress ShareFile Storage Zone Controller security threat: ops/progress-sharefile-storage-zone-controller-security-threat.md
       - O-UNC-066 Entra passkey vishing: ops/o-unc-066-entra-passkey-vishing.md

@@ -8,6 +8,7 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 
 ## Recent entries
 - [Evilginx and device-code phishing open-directory cluster](ops/evilginx-device-code-phishing-open-directory.md)
+- [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Injective SDK npm wallet stealer: JFrog runtime reachability and header-exfiltration update](ops/injective-sdk-npm-wallet-stealer.md)
 - [Leo Platform npm Miasma-style compromise: SafeDep orphan-branch reconstruction](ops/leo-platform-npm-miasma-compromise.md#safedep-leoplatform-github-reconstruction)
 - [jscrambler npm preinstall stealer](ops/jscrambler-npm-preinstall-stealer.md)
