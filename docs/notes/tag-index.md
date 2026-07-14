@@ -31,7 +31,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (39)
+- [active exploitation](#active-exploitation) (40)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (1)
 - [active-exploitation](#active-exploitation) (1)
@@ -43,6 +43,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adaptix C2](#adaptix-c2) (1)
 - [ADB TCP/5555](#adb-tcp5555) (1)
 - [Adblock for YouTube](#adblock-for-youtube) (1)
+- [ADFS](#adfs) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [administrator account creation](#administrator-account-creation) (2)
 - [Adobe ColdFusion](#adobe-coldfusion) (1)
@@ -181,7 +182,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [audit logging](#audit-logging) (1)
 - [AUR](#aur) (1)
 - [authenticated RCE](#authenticated-rce) (1)
-- [authentication bypass](#authentication-bypass) (11)
+- [authentication bypass](#authentication-bypass) (12)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -351,7 +352,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD](#cicd) (36)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
-- [CISA KEV](#cisa-kev) (18)
+- [CISA KEV](#cisa-kev) (19)
 - [Cisco](#cisco) (3)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -415,6 +416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CMS exploitation](#cms-exploitation) (1)
 - [Cobalt Strike](#cobalt-strike) (6)
 - [code execution](#code-execution) (1)
+- [code injection](#code-injection) (1)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
 - [Codecov](#codecov) (1)
@@ -747,7 +749,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Earth Lusca](#earth-lusca) (2)
 - [eBPF](#ebpf) (3)
 - [Eclipse](#eclipse) (1)
-- [edge appliance](#edge-appliance) (10)
+- [edge appliance](#edge-appliance) (11)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (3)
@@ -1062,6 +1064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ide.cfm](#idecfm) (1)
 - [identity](#identity) (3)
 - [identity attacks](#identity-attacks) (1)
+- [identity infrastructure](#identity-infrastructure) (1)
 - [identity security](#identity-security) (1)
 - [identity-first intrusion](#identity-first-intrusion) (1)
 - [IDEs](#ides) (1)
@@ -1350,7 +1353,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA-bypass](#mfa-bypass) (1)
 - [Miasma](#miasma) (7)
 - [MicroPython](#micropython) (1)
-- [Microsoft](#microsoft) (6)
+- [Microsoft](#microsoft) (7)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (6)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
@@ -1538,9 +1541,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational relay box](#operational-relay-box) (1)
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (194)
+- [operations](#operations) (195)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (216)
+- [ops](#ops) (217)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1935,7 +1938,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared hosting](#shared-hosting) (3)
 - [shared secrets](#shared-secrets) (1)
 - [ShareFile](#sharefile) (1)
-- [SharePoint](#sharepoint) (3)
+- [SharePoint](#sharepoint) (4)
 - [SharePoint Server](#sharepoint-server) (1)
 - [SharkLoader](#sharkloader) (1)
 - [shell injection](#shell-injection) (1)
@@ -1967,6 +1970,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sliver](#sliver) (2)
 - [SLSA](#slsa) (1)
 - [SLSA provenance](#slsa-provenance) (1)
+- [SMA1000](#sma1000) (1)
 - [smart TVs](#smart-tvs) (1)
 - [SmartScreen](#smartscreen) (1)
 - [SMB](#smb) (1)
@@ -2003,6 +2007,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solid PDF Creator](#solid-pdf-creator) (1)
 - [SolidPDFCreator.dll](#solidpdfcreatordll) (1)
 - [SolidPDFPcl2Bmp](#solidpdfpcl2bmp) (1)
+- [SonicWall](#sonicwall) (1)
 - [Sophos](#sophos) (1)
 - [source control](#source-control) (2)
 - [source repository compromise](#source-repository-compromise) (1)
@@ -2041,7 +2046,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH persistence](#ssh-persistence) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
 - [SSL VPN](#ssl-vpn) (1)
-- [SSRF](#ssrf) (3)
+- [SSRF](#ssrf) (4)
 - [stack use-after-free](#stack-use-after-free) (1)
 - [staged malicious update](#staged-malicious-update) (1)
 - [stale access](#stale-access) (1)
@@ -2511,6 +2516,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -2591,6 +2597,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Adblock for YouTube
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+
+## ADFS
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 
 ## Admin API key theft
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -3094,6 +3103,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## authentication bypass
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -3774,6 +3784,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CISA KEV
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
@@ -4039,6 +4050,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## code execution
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## code injection
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 
 ## code sandbox scraping
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -5322,6 +5336,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## edge appliance
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -6485,6 +6500,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## identity attacks
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 
+## identity infrastructure
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
+
 ## identity security
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
@@ -7615,6 +7633,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
@@ -8358,6 +8377,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -8560,6 +8580,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -10277,6 +10298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SharePoint
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
@@ -10378,6 +10400,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SLSA provenance
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+
+## SMA1000
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 
 ## smart TVs
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -10515,6 +10540,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SolidPDFPcl2Bmp
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
+## SonicWall
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
+
 ## Sophos
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
@@ -10651,6 +10679,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## SSRF
+- [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
