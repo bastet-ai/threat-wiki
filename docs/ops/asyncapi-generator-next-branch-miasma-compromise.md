@@ -16,6 +16,8 @@ This is durable supply-chain intel because it shows the Miasma / Mini Shai-Hulud
 - SLSA provenance
 - Miasma
 - Mini Shai-Hulud
+- M-RED-TEAM
+- prt-scan
 - credential theft
 - developer tooling
 - AI tooling
@@ -76,10 +78,29 @@ The `@asyncapi/specs` attack used a related but not byte-identical ESM / TypeScr
 4. **Decoded payload:** StepSecurity statically reconstructed an AES-256-GCM / HKDF-SHA256 and ROT-decoded 3.08 MB Node.js application self-identified as `Miasma v3`.
 5. **C2 configuration:** the baked config included HTTP C2 and exfiltration on `85.137.53.71` ports `8080`, `8081`, and `8091`, plus Nostr relays, BitTorrent DHT bootstrap nodes, libp2p / GossipSub, and an Ethereum contract dead drop `0x12c37A86a0Ed0beBe5d1d6a43E42f07860eAc710`. StepSecurity later confirmed runtime egress attempts to `85.137.53.71`, `router.bittorrent.com`, and `dht.transmissionbt.com` in an isolated Harden-Runner analysis.
 
+## Wiz parallel analysis
+Wiz Research independently published the same AsyncAPI incident as **M-Red-Team** on July 14, 2026 and added useful caveats for attribution and hunting. Wiz observed the same package set, import-time first stage, IPFS-delivered `sync.js`, `85.137.53.71` C2 infrastructure, Ethereum fallback control, and `~/.local/share/NodeJS/sync.js` persistence path, but described the final framework as `M-RED-TEAM v6.4` rather than treating it as a simple continuation of prior Shai-Hulud payloads.
+
+Wiz's extracted configuration and code markers included `giteaPackagesOrg` set to `miasma-test-org`, a `miasma-monitor.service` systemd persistence name, and Miasma-branded Nostr relay tags. At the same time, Wiz noted the Rentry dead-drop slug `elzotebo`, which resembles naming from the separate `prt-scan` pull-request attack cluster, and stated it was **not making definitive attribution**. Treat `Miasma`, `M-RED-TEAM`, and `prt-scan` references as hunting pivots unless future public reporting raises confidence.
+
+Additional Wiz indicators:
+
+| Type | Indicator | Notes |
+| --- | --- | --- |
+| SHA1 | `22bf76fe317ea6769bd38619bd440e42d119bd6b` | Malicious `validator.js` in `@asyncapi/generator`. |
+| SHA1 | `a7e18d96efd3cdb127ef4cdcad9e3ad26c482bf2` | Malicious `utils.js` in `@asyncapi/generator-helpers`. |
+| SHA1 | `9890950adcbc2478e7a080234f053214adbad44e` | Malicious `ErrorHandling.js` in `@asyncapi/generator-components`. |
+| SHA1 | `c70e105e212ff3c1daa04bb2a62507717f296b0b` | Malicious `index.js` in `@asyncapi/specs`. |
+| SHA1 | `c8cb3f6d5b90c46686d2bf531dc1a5786e27edc5` | `sync.js` stage-two payload. |
+| Ethereum | `0x1969ab05d67b67fdcaa26240f738ccb077e1cd84` | Backup contract reported by Wiz. |
+| Ethereum | `0x92d4C5413e4F7B258a114964101F9e1C6d64C6Ba` | Deployer wallet reported by Wiz. |
+| Service | `miasma-monitor.service` | Linux systemd persistence pivot. |
+| Domain | `rentry[.]co` | Token-exfiltration / dead-drop pivot; investigate carefully without fetching from production endpoints. |
+
 ## Reported capabilities
 StepSecurity's static analysis identified a modular RAT / worm framework with:
 
-- Six C2 channels: HTTP REST, Nostr, IPFS, BitTorrent DHT, libp2p GossipSub, and Ethereum blockchain dead-drop control.
+- Multi-channel C2 / control paths including HTTP REST, Nostr, IPFS, BitTorrent DHT, libp2p GossipSub, and Ethereum blockchain dead-drop control.
 - Credential harvesting for browser Login Data / Cookies / Local State, SSH keys, `~/.npmrc`, `~/.gitconfig`, GitHub CLI config, AWS credentials, Kubernetes config, Docker credentials, and macOS Keychain.
 - Token-specific handling for `GITHUB_TOKEN`, `NPM_TOKEN`, and `PYPI_TOKEN`.
 - AI tool poisoning capability through an `ai-tool-poisoner` module, relevant to Claude Code, GitHub Copilot, Cursor, and similar developer assistants.
@@ -96,6 +117,8 @@ StepSecurity's static analysis identified a modular RAT / worm framework with:
 - IPFS fetches for `QmQobZSp1wRPrpSEQ56qnyq7ecZh5Bg5k1fnjt4SUwwHb9` or `Qmet4fhsAaWMBUxNDfREHwgiyDeSWy4YSYs9wiKUW5jGyf`.
 - Files at `~/.local/share/NodeJS/sync.js`, `~/Library/Application Support/NodeJS/sync.js`, or `%LOCALAPPDATA%\NodeJS\sync.js` created after AsyncAPI generator use.
 - Outbound connections to `85.137.53.71:8080`, `85.137.53.71:8081`, or `85.137.53.71:8091`.
+- SHA1 hits for malicious first-stage files (`22bf76fe317ea6769bd38619bd440e42d119bd6b`, `a7e18d96efd3cdb127ef4cdcad9e3ad26c482bf2`, `9890950adcbc2478e7a080234f053214adbad44e`, `c70e105e212ff3c1daa04bb2a62507717f296b0b`) or `sync.js` (`c8cb3f6d5b90c46686d2bf531dc1a5786e27edc5`).
+- `miasma-monitor.service`, `miasma-test-org`, `M-RED-TEAM v6.4`, `elzotebo`, or `prt-scan` strings in recovered payloads, memory, logs, or persistence artifacts.
 - Nostr relay, BitTorrent DHT, libp2p, or Ethereum mainnet traffic from CI runners or developer workstations that normally only run documentation / code-generation jobs.
 - Diff hunks with very long leading-whitespace padding or single-line obfuscated JavaScript added to generator, helper, or component utility files.
 
@@ -110,7 +133,7 @@ StepSecurity's static analysis identified a modular RAT / worm framework with:
 8. Audit release workflows that trigger from `next`, prerelease, snapshot, maintenance, or `master` branches based only on commit-message prefixes. Provenance should be considered necessary but not sufficient.
 
 ## Attribution notes
-The payload self-identifies as Miasma and overlaps Mini Shai-Hulud / Miasma supply-chain tradecraft, but StepSecurity framed the public evidence as compromised repository push access and legitimate release-pipeline abuse rather than a named actor claim. Keep this as **Miasma-family / Mini Shai-Hulud-style activity** unless later public reporting ties it to TeamPCP or another operator with higher confidence.
+The payload self-identifies with Miasma markers in StepSecurity and Wiz analysis and overlaps Mini Shai-Hulud / Miasma supply-chain tradecraft, but both public reports frame the evidence as compromised repository push access and legitimate release-pipeline abuse rather than a confident named-actor claim. Wiz also reported `M-RED-TEAM v6.4` and `prt-scan`-style `elzotebo` markers while explicitly declining definitive attribution. Keep this as **Miasma-family / M-RED-TEAM / Mini Shai-Hulud-style activity** unless later public reporting ties it to TeamPCP or another operator with higher confidence.
 
 ## Related pages
 - [Leo Platform npm Miasma-style compromise](leo-platform-npm-miasma-compromise.md)
@@ -121,3 +144,4 @@ The payload self-identifies as Miasma and overlaps Mini Shai-Hulud / Miasma supp
 
 ## Sources
 - StepSecurity: https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm
+- Wiz Research: https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions

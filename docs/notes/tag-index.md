@@ -1278,6 +1278,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lumma Stealer](#lumma-stealer) (1)
 - [Luna Moth](#luna-moth) (1)
 - [Lyceum](#lyceum) (1)
+- [M-RED-TEAM](#m-red-team) (1)
 - [MaaS](#maas) (3)
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
@@ -1700,6 +1701,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [proxy](#proxy) (6)
 - [proxy network](#proxy-network) (2)
 - [ProxyChains](#proxychains) (1)
+- [prt-scan](#prt-scan) (1)
 - [PSEMHUB](#psemhub) (1)
 - [PsExec](#psexec) (2)
 - [PSIGW](#psigw) (1)
@@ -7287,6 +7289,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Lyceum
 - [Cavern Manticore](../actors/cavern-manticore.md)
 
+## M-RED-TEAM
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+
 ## MaaS
 - [QuimaRAT](../tools/quimarat.md)
 - [RedWing](../tools/redwing.md)
@@ -9352,6 +9357,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ProxyChains
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
+## prt-scan
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 
 ## PSEMHUB
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
