@@ -244,7 +244,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitter](#bitter) (1)
 - [Bitwarden](#bitwarden) (1)
 - [BlackFile](#blackfile) (1)
-- [Blackpoint Cyber](#blackpoint-cyber) (5)
+- [Blackpoint Cyber](#blackpoint-cyber) (6)
 - [Bleacher Report](#bleacher-report) (1)
 - [blockchain C2](#blockchain-c2) (3)
 - [blockchain dead drop](#blockchain-dead-drop) (1)
@@ -714,7 +714,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DLL sideloading](#dll-sideloading) (17)
 - [DNS C2](#dns-c2) (2)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
-- [DNS tunneling](#dns-tunneling) (1)
+- [DNS tunneling](#dns-tunneling) (2)
 - [Docker](#docker) (1)
 - [Docker credentials](#docker-credentials) (1)
 - [Docker images](#docker-images) (1)
@@ -1041,6 +1041,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HTTP C2](#http-c2) (1)
 - [HTTP/2](#http2) (1)
 - [HttpMalice](#httpmalice) (1)
+- [HTTPS C2](#https-c2) (1)
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (2)
 - [Hunt.io](#huntio) (4)
@@ -1130,6 +1131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Java malware](#java-malware) (1)
 - [JavaScript](#javascript) (14)
 - [JavaScript bridge](#javascript-bridge) (1)
+- [JavaScript execution](#javascript-execution) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
 - [JavaScript malware](#javascript-malware) (1)
@@ -1191,6 +1193,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [kvmCTF](#kvmctf) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
+- [LabubaPanel](#labubapanel) (1)
+- [LabubaRAT](#labubarat) (1)
 - [LangChain](#langchain) (2)
 - [Langflow](#langflow) (5)
 - [LangFlow](#langflow) (1)
@@ -1300,12 +1304,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (6)
-- [malware](#malware) (38)
+- [malware](#malware) (39)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (3)
 - [malware framework](#malware-framework) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
-- [malware-as-a-service](#malware-as-a-service) (4)
+- [malware-as-a-service](#malware-as-a-service) (5)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [MALXMR](#malxmr) (1)
 - [managed file transfer](#managed-file-transfer) (2)
@@ -1488,6 +1492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nuitka](#nuitka) (1)
 - [null-byte padding](#null-byte-padding) (1)
 - [NVGRE](#nvgre) (1)
+- [NVIDIA impersonation](#nvidia-impersonation) (1)
 - [O-UNC-066](#o-unc-066) (1)
 - [OAuth](#oauth) (4)
 - [OAuth abuse](#oauth-abuse) (4)
@@ -1657,6 +1662,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postinstall](#postinstall) (9)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (16)
+- [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShower](#powershower) (1)
 - [PPtP](#pptp) (1)
@@ -1748,7 +1754,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
-- [RAT](#rat) (26)
+- [RAT](#rat) (27)
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RCE](#rce) (6)
@@ -1783,6 +1789,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [Remcos](#remcos) (2)
 - [remote access](#remote-access) (6)
+- [remote access trojan](#remote-access-trojan) (1)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (11)
 - [remote debugging](#remote-debugging) (2)
@@ -1851,7 +1858,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian Intelligence Services](#russian-intelligence-services) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (8)
-- [Rust malware](#rust-malware) (3)
+- [Rust malware](#rust-malware) (4)
 - [S3 Browser](#s3-browser) (1)
 - [S3-compatible storage](#s3-compatible-storage) (1)
 - [s5cmd](#s5cmd) (1)
@@ -1877,6 +1884,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scope squatting](#scope-squatting) (1)
 - [screen capture](#screen-capture) (2)
 - [ScreenConnect](#screenconnect) (4)
+- [screenshot capture](#screenshot-capture) (1)
 - [screenshot theft](#screenshot-theft) (2)
 - [script-injection](#script-injection) (1)
 - [SD-WAN](#sd-wan) (1)
@@ -1888,6 +1896,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secrets management](#secrets-management) (1)
 - [Secure Preferences](#secure-preferences) (1)
 - [security platform](#security-platform) (1)
+- [security-tool discovery](#security-tool-discovery) (1)
 - [seed phrase theft](#seed-phrase-theft) (1)
 - [Seedworm](#seedworm) (2)
 - [segmented networks](#segmented-networks) (1)
@@ -1980,6 +1989,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Socket.IO](#socketio) (1)
 - [SOCKS tunneling](#socks-tunneling) (1)
 - [SOCKS5](#socks5) (4)
+- [SOCKS5 proxy](#socks5-proxy) (1)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
 - [SOCRadar](#socradar) (2)
 - [SoftEther VPN](#softether-vpn) (2)
@@ -2019,6 +2029,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SprySOCKS](#sprysocks) (2)
 - [SQL injection](#sql-injection) (3)
 - [SQLite](#sqlite) (1)
+- [SQLite state](#sqlite-state) (1)
 - [SquareShell](#squareshell) (1)
 - [SSH](#ssh) (2)
 - [SSH bastion](#ssh-bastion) (1)
@@ -2149,7 +2160,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (24)
+- [tools](#tools) (25)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
@@ -2321,6 +2332,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebSocket C2](#websocket-c2) (6)
 - [websocket-sharp](#websocket-sharp) (1)
 - [WebView](#webview) (1)
+- [WebView2 C2](#webview2-c2) (1)
 - [Webworm](#webworm) (1)
 - [Werkbit](#werkbit) (1)
 - [WhatsApp](#whatsapp) (3)
@@ -2331,7 +2343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill](#windchill) (1)
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
-- [Windows](#windows) (26)
+- [Windows](#windows) (27)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Forms](#windows-forms) (1)
@@ -3309,6 +3321,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
+- [LabubaRAT](../tools/labubarat.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [TaskWeaver](../tools/taskweaver.md)
 
@@ -5196,6 +5209,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## DNS tunneling
+- [LabubaRAT](../tools/labubarat.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## Docker
@@ -6400,6 +6414,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HttpMalice
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
+## HTTPS C2
+- [LabubaRAT](../tools/labubarat.md)
+
 ## HTTPSpy
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -6758,6 +6775,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JavaScript bridge
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
+## JavaScript execution
+- [LabubaRAT](../tools/labubarat.md)
+
 ## JavaScript injection
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -6960,6 +6980,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LA Metro
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+
+## LabubaPanel
+- [LabubaRAT](../tools/labubarat.md)
+
+## LabubaRAT
+- [LabubaRAT](../tools/labubarat.md)
 
 ## LangChain
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -7391,6 +7417,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GigaWiper](../tools/gigawiper.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [LabubaRAT](../tools/labubarat.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [MODBEACON](../tools/modbeacon.md)
 - [MYRA RAT](../tools/myra-rat.md)
@@ -7432,6 +7459,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## malware-as-a-service
+- [LabubaRAT](../tools/labubarat.md)
 - [QuimaRAT](../tools/quimarat.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
@@ -8129,6 +8157,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NVGRE
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+
+## NVIDIA impersonation
+- [LabubaRAT](../tools/labubarat.md)
 
 ## O-UNC-066
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
@@ -9195,6 +9226,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
+## PowerShell execution
+- [LabubaRAT](../tools/labubarat.md)
+
 ## PowerShell malware
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
@@ -9554,6 +9588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [LabubaRAT](../tools/labubarat.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -9698,6 +9733,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+
+## remote access trojan
+- [LabubaRAT](../tools/labubarat.md)
 
 ## Remote Access VPN
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
@@ -9954,6 +9992,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Rust malware
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+- [LabubaRAT](../tools/labubarat.md)
 - [MODBEACON](../tools/modbeacon.md)
 - [PamStealer](../tools/pamstealer.md)
 
@@ -10057,6 +10096,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
+## screenshot capture
+- [LabubaRAT](../tools/labubarat.md)
+
 ## screenshot theft
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
@@ -10096,6 +10138,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## security platform
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+
+## security-tool discovery
+- [LabubaRAT](../tools/labubarat.md)
 
 ## seed phrase theft
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
@@ -10425,6 +10470,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Showboat](../tools/showboat.md)
 
+## SOCKS5 proxy
+- [LabubaRAT](../tools/labubarat.md)
+
 ## SOCKS5 tunneling
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
@@ -10564,6 +10612,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SQLite
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+
+## SQLite state
+- [LabubaRAT](../tools/labubarat.md)
 
 ## SquareShell
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -11127,6 +11178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GigaWiper](../tools/gigawiper.md)
+- [LabubaRAT](../tools/labubarat.md)
 - [MODBEACON](../tools/modbeacon.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [PamStealer](../tools/pamstealer.md)
@@ -11792,6 +11844,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## WebView
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
+## WebView2 C2
+- [LabubaRAT](../tools/labubarat.md)
+
 ## Webworm
 - [Webworm](../actors/webworm.md)
 
@@ -11842,6 +11897,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [LabubaRAT](../tools/labubarat.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)

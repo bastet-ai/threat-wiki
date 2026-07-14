@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>LabubaRAT Rust remote-access trojan</title>
+      <link>https://threat.wiki/tools/labubarat/</link>
+      <description>Added Blackpoint Cyber / The Hacker News coverage of LabubaRAT, a Rust-based Windows RAT masquerading as NVIDIA runtime software. The page captures runtime-supplied C2 configuration, local SQLite state, HTTPS / WebView2 / DNS-tunneling communications, security-tool and browser profiling, SOCKS5 proxying, command / PowerShell / JavaScript execution, screenshot capture, and NVIDIA-impersonation defender hunts.</description>
+      <pubDate>Tue, 14 Jul 2026 17:26:23 GMT</pubDate>
+      <guid>https://threat.wiki/tools/labubarat/</guid>
+    </item>
+    <item>
       <title>AsyncAPI generator next-branch Miasma compromise</title>
       <link>https://threat.wiki/ops/asyncapi-generator-next-branch-miasma-compromise/</link>
       <description>Added StepSecurity coverage of the July 14 AsyncAPI generator monorepo compromise: an attacker pushed to the next branch, triggered the legitimate release-with-changesets GitHub Actions workflow, and published malicious @asyncapi/generator, generator-helpers, generator-components, and specs versions with valid npm OIDC provenance. The page captures runtime require() execution, IPFS sync.js staging, Miasma v3 multi-channel RAT capabilities, C2 indicators, and trusted-publishing hardening guidance.</description>

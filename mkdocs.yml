@@ -230,6 +230,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - LabubaRAT: tools/labubarat.md
       - MODBEACON: tools/modbeacon.md
       - GigaWiper: tools/gigawiper.md
       - SCMBANKER: tools/scmbanker.md
