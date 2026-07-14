@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [AI browser-extension confused deputy: Claude for Chrome cross-extension steering](patterns/ai-browser-extension-confused-deputy.md)
 - [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [LabubaRAT Rust remote-access trojan](tools/labubarat.md)
 - [AsyncAPI generator / specs Miasma compromise](ops/asyncapi-generator-next-branch-miasma-compromise.md)

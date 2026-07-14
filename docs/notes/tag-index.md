@@ -66,6 +66,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agent state](#agent-state) (1)
 - [agentic AI](#agentic-ai) (1)
 - [agentic botnets](#agentic-botnets) (1)
+- [agentic browser](#agentic-browser) (1)
 - [agentic browsers](#agentic-browsers) (1)
 - [agentic malware](#agentic-malware) (1)
 - [agentic ransomware](#agentic-ransomware) (1)
@@ -74,13 +75,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (4)
 - [AI agent](#ai-agent) (1)
-- [AI agents](#ai-agents) (14)
+- [AI agents](#ai-agents) (15)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (1)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
 - [AI assistants](#ai-assistants) (4)
 - [AI brand impersonation](#ai-brand-impersonation) (2)
-- [AI browsers](#ai-browsers) (1)
+- [AI browsers](#ai-browsers) (2)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
@@ -117,6 +118,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Debug Bridge](#android-debug-bridge) (1)
 - [Android malware](#android-malware) (2)
 - [Android spyware](#android-spyware) (3)
+- [Anthropic](#anthropic) (1)
 - [anti-analysis](#anti-analysis) (4)
 - [anti-forensics](#anti-forensics) (2)
 - [Anubis ransomware](#anubis-ransomware) (1)
@@ -269,10 +271,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
 - [browser credential theft](#browser-credential-theft) (17)
-- [browser extension](#browser-extension) (8)
+- [browser extension](#browser-extension) (9)
 - [browser hijacking](#browser-hijacking) (2)
 - [browser malware](#browser-malware) (1)
-- [browser security](#browser-security) (1)
+- [browser security](#browser-security) (2)
 - [browser session abuse](#browser-session-abuse) (2)
 - [browser session risk](#browser-session-risk) (3)
 - [browser zero-day](#browser-zero-day) (1)
@@ -372,6 +374,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1062](#cl-sta-1062) (3)
 - [Claude](#claude) (2)
 - [Claude Code](#claude-code) (4)
+- [Claude for Chrome](#claude-for-chrome) (1)
 - [Clever Cloud](#clever-cloud) (1)
 - [ClickFix](#clickfix) (8)
 - [ClickOnce](#clickonce) (1)
@@ -445,7 +448,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised WordPress](#compromised-wordpress) (2)
 - [Conditional Access](#conditional-access) (1)
 - [configuration theft](#configuration-theft) (1)
-- [confused deputy](#confused-deputy) (1)
+- [confused deputy](#confused-deputy) (2)
 - [ConfuserEx](#confuserex) (2)
 - [connected apps](#connected-apps) (1)
 - [ConnectWise](#connectwise) (1)
@@ -816,6 +819,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Evil Corp](#evil-corp) (1)
 - [EvilAI](#evilai) (1)
 - [Evilginx](#evilginx) (1)
+- [excessive agency](#excessive-agency) (1)
 - [exFAT](#exfat) (1)
 - [exfiltration](#exfiltration) (4)
 - [exploit-development](#exploit-development) (1)
@@ -956,7 +960,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gleaming Pisces](#gleaming-pisces) (1)
 - [gleeze.com](#gleezecom) (1)
 - [GlobalProtect](#globalprotect) (1)
-- [Gmail](#gmail) (3)
+- [Gmail](#gmail) (4)
 - [Go](#go) (5)
 - [Go loader](#go-loader) (1)
 - [Go malware](#go-malware) (1)
@@ -972,11 +976,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Ads](#google-ads) (1)
 - [Google Analytics telemetry](#google-analytics-telemetry) (1)
 - [Google API](#google-api) (3)
+- [Google Calendar](#google-calendar) (1)
 - [Google Chrome](#google-chrome) (1)
 - [Google Cloud](#google-cloud) (1)
 - [Google Cloud Logging](#google-cloud-logging) (1)
 - [Google Cloud Storage](#google-cloud-storage) (1)
 - [Google credential theft](#google-credential-theft) (1)
+- [Google Docs](#google-docs) (1)
 - [Google Drive](#google-drive) (1)
 - [Google Notes](#google-notes) (1)
 - [Google Play](#google-play) (1)
@@ -984,6 +990,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google redirect abuse](#google-redirect-abuse) (1)
 - [Google Stitch](#google-stitch) (1)
 - [Google Threat Intelligence Group](#google-threat-intelligence-group) (2)
+- [Google Workspace](#google-workspace) (1)
 - [Goose](#goose) (1)
 - [government](#government) (4)
 - [government targeting](#government-targeting) (10)
@@ -1085,7 +1092,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [India](#india) (3)
 - [India-nexus](#india-nexus) (1)
 - [Indian government](#indian-government) (1)
-- [indirect prompt injection](#indirect-prompt-injection) (4)
+- [indirect prompt injection](#indirect-prompt-injection) (5)
 - [industrial control](#industrial-control) (1)
 - [industrial control systems](#industrial-control-systems) (1)
 - [INFINITERED](#infinitered) (1)
@@ -1592,7 +1599,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAT theft](#pat-theft) (1)
 - [patch management](#patch-management) (2)
 - [path traversal](#path-traversal) (1)
-- [patterns](#patterns) (26)
+- [patterns](#patterns) (27)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
@@ -1866,6 +1873,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [S3-compatible storage](#s3-compatible-storage) (1)
 - [s5cmd](#s5cmd) (1)
 - [SaaS](#saas) (4)
+- [SaaS data access](#saas-data-access) (1)
 - [SaaS exposure](#saas-exposure) (1)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
@@ -2679,6 +2687,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## agentic botnets
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
+## agentic browser
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
+
 ## agentic browsers
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -2710,6 +2721,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI agents
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -2744,6 +2756,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## AI browsers
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## AI chatbot abuse
@@ -2882,6 +2895,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
+## Anthropic
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 
 ## anti-analysis
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -3436,6 +3452,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browser extension
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
@@ -3452,6 +3469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 
 ## browser security
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 
 ## browser session abuse
@@ -3868,6 +3886,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
+## Claude for Chrome
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
+
 ## Clever Cloud
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
@@ -4158,6 +4179,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## confused deputy
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 
 ## ConfuserEx
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
@@ -5608,6 +5630,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Evilginx
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
+## excessive agency
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
+
 ## exFAT
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
@@ -6122,6 +6147,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## Gmail
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 - [ToddyCat](../actors/toddycat.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
@@ -6178,6 +6204,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
 
+## Google Calendar
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
+
 ## Google Chrome
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 
@@ -6192,6 +6221,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Google credential theft
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
+## Google Docs
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 
 ## Google Drive
 - [GREYVIBE](../actors/greyvibe.md)
@@ -6214,6 +6246,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Google Threat Intelligence Group
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [UNC6508](../actors/unc6508.md)
+
+## Google Workspace
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 
 ## Goose
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -6588,6 +6623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## indirect prompt injection
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
@@ -8923,6 +8959,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## patterns
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -10031,6 +10068,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+
+## SaaS data access
+- [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 
 ## SaaS exposure
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
