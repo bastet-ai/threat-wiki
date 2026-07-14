@@ -174,6 +174,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Astro](#astro) (1)
 - [ASUS AiCloud routers](#asus-aicloud-routers) (1)
 - [ASUS router](#asus-router) (1)
+- [AsyncAPI](#asyncapi) (1)
 - [AsyncRAT](#asyncrat) (3)
 - [Atlas RAT](#atlas-rat) (1)
 - [AUDIOFIX](#audiofix) (2)
@@ -252,7 +253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Blogger abuse](#blogger-abuse) (1)
 - [blogspot staging](#blogspot-staging) (1)
 - [BLUEBEAM](#bluebeam) (1)
-- [botnet](#botnet) (6)
+- [botnet](#botnet) (7)
 - [Braintree](#braintree) (1)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
@@ -269,6 +270,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser credential theft](#browser-credential-theft) (17)
 - [browser extension](#browser-extension) (8)
 - [browser hijacking](#browser-hijacking) (2)
+- [browser malware](#browser-malware) (1)
 - [browser security](#browser-security) (1)
 - [browser session abuse](#browser-session-abuse) (2)
 - [browser session risk](#browser-session-risk) (3)
@@ -650,7 +652,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud Uni-App](#dcloud-uni-app) (1)
 - [DcRAT](#dcrat) (1)
 - [DDNS](#ddns) (1)
-- [DDoS](#ddos) (4)
+- [DDoS](#ddos) (5)
 - [DDoS-for-hire](#ddos-for-hire) (1)
 - [dead drop](#dead-drop) (1)
 - [dead drop resolver](#dead-drop-resolver) (4)
@@ -1139,7 +1141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains](#jetbrains) (2)
 - [JetBrains Marketplace](#jetbrains-marketplace) (1)
 - [JetStream](#jetstream) (1)
-- [JFrog](#jfrog) (2)
+- [JFrog](#jfrog) (3)
 - [JFrog Security Research](#jfrog-security-research) (2)
 - [JINX-0164](#jinx-0164) (2)
 - [joblib](#joblib) (1)
@@ -1296,7 +1298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
-- [malvertising](#malvertising) (5)
+- [malvertising](#malvertising) (6)
 - [malware](#malware) (38)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (3)
@@ -1470,7 +1472,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [North Korea](#north-korea) (11)
 - [notarized malware](#notarized-malware) (2)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (48)
+- [npm](#npm) (49)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm token theft](#npm-token-theft) (1)
 - [npm tokens](#npm-tokens) (1)
@@ -1530,9 +1532,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational relay box](#operational-relay-box) (1)
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (193)
+- [operations](#operations) (194)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (215)
+- [ops](#ops) (216)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1553,6 +1555,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [P2P](#p2p) (1)
 - [package masquerading](#package-masquerading) (1)
 - [package registry](#package-registry) (6)
+- [package registry abuse](#package-registry-abuse) (1)
 - [package registry credentials](#package-registry-credentials) (1)
 - [package scanning](#package-scanning) (1)
 - [package-cooldowns](#package-cooldowns) (1)
@@ -2052,6 +2055,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [STRD](#strd) (3)
 - [streaming boxes](#streaming-boxes) (1)
 - [Stripe OLT](#stripe-olt) (1)
+- [student targeting](#student-targeting) (1)
 - [STUN](#stun) (1)
 - [Stuxnet lineage](#stuxnet-lineage) (1)
 - [subject claim](#subject-claim) (1)
@@ -2296,6 +2300,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
 - [web management interface](#web-management-interface) (1)
+- [web proxy](#web-proxy) (1)
 - [web RCE](#web-rce) (1)
 - [web shell](#web-shell) (6)
 - [web shell hunting](#web-shell-hunting) (1)
@@ -2748,7 +2753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI tooling
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -3048,6 +3053,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ASUS router
 - [UNC6508](../actors/unc6508.md)
 
+## AsyncAPI
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+
 ## AsyncRAT
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
@@ -3332,6 +3340,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+- [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [RustDuck](../tools/rustduck.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
@@ -3413,6 +3422,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser hijacking
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
+## browser malware
+- [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 
 ## browser security
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
@@ -4238,7 +4250,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
@@ -4912,6 +4924,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DDoS
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [RustDuck](../tools/rustduck.md)
@@ -5054,7 +5067,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## developer tooling
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
@@ -6005,7 +6018,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitHub Actions
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -6780,6 +6793,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JFrog
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
+- [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 
 ## JFrog Security Research
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -7351,6 +7365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malvertising
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -7553,7 +7568,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Miasma
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
@@ -7670,7 +7685,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## Mini Shai-Hulud
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 
@@ -8017,7 +8032,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -8037,6 +8052,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
+- [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
@@ -8168,7 +8184,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## OIDC
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
@@ -8289,7 +8305,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -8377,6 +8393,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+- [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -8487,7 +8504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -8582,6 +8599,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+- [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -8749,6 +8767,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
+
+## package registry abuse
+- [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 
 ## package registry credentials
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -10303,7 +10324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## SLSA provenance
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 
 ## smart TVs
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -10660,6 +10681,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Stripe OLT
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 
+## student targeting
+- [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
+
 ## STUN
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
@@ -10704,7 +10728,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -11172,7 +11196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 
 ## trusted publishing
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 
 ## tunnel decapsulation
@@ -11690,6 +11714,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web management interface
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
+
+## web proxy
+- [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 
 ## web RCE
 - [RustDuck](../tools/rustduck.md)

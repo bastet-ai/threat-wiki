@@ -3,7 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
-- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [ShinyHunters Salesforce OAuth abuse](../ops/shinyhunters-salesforce-oauth-abuse.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
