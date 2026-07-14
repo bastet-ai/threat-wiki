@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [ShinyHunters Salesforce OAuth abuse](../ops/shinyhunters-salesforce-oauth-abuse.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)

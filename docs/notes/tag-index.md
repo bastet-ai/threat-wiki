@@ -443,6 +443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [configuration theft](#configuration-theft) (1)
 - [confused deputy](#confused-deputy) (1)
 - [ConfuserEx](#confuserex) (2)
+- [connected apps](#connected-apps) (1)
 - [ConnectWise](#connectwise) (1)
 - [ConnectWise ScreenConnect](#connectwise-screenconnect) (1)
 - [consumer devices](#consumer-devices) (1)
@@ -1486,7 +1487,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NVGRE](#nvgre) (1)
 - [O-UNC-066](#o-unc-066) (1)
 - [OAuth](#oauth) (4)
-- [OAuth abuse](#oauth-abuse) (3)
+- [OAuth abuse](#oauth-abuse) (4)
 - [OAuth device authorization grant](#oauth-device-authorization-grant) (2)
 - [OAuth token abuse](#oauth-token-abuse) (1)
 - [OAuth token exposure](#oauth-token-exposure) (1)
@@ -1849,12 +1850,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [S3 Browser](#s3-browser) (1)
 - [S3-compatible storage](#s3-compatible-storage) (1)
 - [s5cmd](#s5cmd) (1)
-- [SaaS](#saas) (3)
+- [SaaS](#saas) (4)
 - [SaaS exposure](#saas-exposure) (1)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
 - [SafeDep](#safedep) (4)
-- [Salesforce](#salesforce) (2)
+- [Salesforce](#salesforce) (3)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
 - [sandbox evasion](#sandbox-evasion) (1)
@@ -2248,7 +2249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ViewState deserialization](#viewstate-deserialization) (1)
 - [virtualization](#virtualization) (2)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
-- [vishing](#vishing) (5)
+- [vishing](#vishing) (6)
 - [Visual Studio](#visual-studio) (1)
 - [Visual Studio Code Remote SSH](#visual-studio-code-remote-ssh) (1)
 - [VLESS](#vless) (1)
@@ -4118,6 +4119,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ConfuserEx
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
+
+## connected apps
+- [ShinyHunters](../actors/shinyhunters.md)
 
 ## ConnectWise
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
@@ -8107,6 +8111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
 ## OAuth abuse
+- [ShinyHunters](../actors/shinyhunters.md)
 - [ToddyCat](../actors/toddycat.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
@@ -9925,6 +9930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
+- [ShinyHunters](../actors/shinyhunters.md)
 
 ## SaaS exposure
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
@@ -9945,6 +9951,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Salesforce
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
+- [ShinyHunters](../actors/shinyhunters.md)
 
 ## SAML IdP
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -11478,6 +11485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
+- [ShinyHunters](../actors/shinyhunters.md)
 - [UNC3753](../actors/unc3753.md)
 
 ## Visual Studio
