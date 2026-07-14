@@ -89,7 +89,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI Now Institute](#ai-now-institute) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI security](#ai-security) (1)
-- [AI tooling](#ai-tooling) (15)
+- [AI tooling](#ai-tooling) (16)
 - [AI vulnerability discovery](#ai-vulnerability-discovery) (1)
 - [AI workflow](#ai-workflow) (1)
 - [ai-abuse](#ai-abuse) (1)
@@ -475,7 +475,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (2)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (41)
+- [credential theft](#credential-theft) (42)
 - [credential-theft](#credential-theft) (51)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -685,7 +685,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (9)
 - [developer mode](#developer-mode) (1)
 - [developer targeting](#developer-targeting) (4)
-- [developer tooling](#developer-tooling) (3)
+- [developer tooling](#developer-tooling) (4)
 - [developer workstations](#developer-workstations) (2)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
 - [developer-targeting](#developer-targeting) (16)
@@ -935,7 +935,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea](#gitea) (1)
 - [GitHub](#github) (18)
 - [GitHub abuse](#github-abuse) (3)
-- [GitHub Actions](#github-actions) (21)
+- [GitHub Actions](#github-actions) (22)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
 - [GitHub CLI](#github-cli) (1)
@@ -1341,7 +1341,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA bypass](#mfa-bypass) (8)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
-- [Miasma](#miasma) (6)
+- [Miasma](#miasma) (7)
 - [MicroPython](#micropython) (1)
 - [Microsoft](#microsoft) (6)
 - [Microsoft .NET](#microsoft-net) (1)
@@ -1371,7 +1371,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [military research](#military-research) (1)
 - [Mimikatz](#mimikatz) (4)
 - [Minecraft DDoS](#minecraft-ddos) (1)
-- [Mini Shai-Hulud](#mini-shai-hulud) (2)
+- [Mini Shai-Hulud](#mini-shai-hulud) (3)
 - [MiniJunk](#minijunk) (1)
 - [MiniPlasma](#miniplasma) (1)
 - [MINIRAT](#minirat) (2)
@@ -1470,7 +1470,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [North Korea](#north-korea) (11)
 - [notarized malware](#notarized-malware) (2)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (47)
+- [npm](#npm) (48)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm token theft](#npm-token-theft) (1)
 - [npm tokens](#npm-tokens) (1)
@@ -1501,7 +1501,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OFAC](#ofac) (1)
 - [official store compromise](#official-store-compromise) (1)
 - [Offshore LC](#offshore-lc) (1)
-- [OIDC](#oidc) (6)
+- [OIDC](#oidc) (7)
 - [OilRig](#oilrig) (1)
 - [Okta](#okta) (4)
 - [Okta Threat Intelligence](#okta-threat-intelligence) (1)
@@ -1530,9 +1530,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational relay box](#operational-relay-box) (1)
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (192)
+- [operations](#operations) (193)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (214)
+- [ops](#ops) (215)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1952,6 +1952,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sleeper packages](#sleeper-packages) (1)
 - [Sliver](#sliver) (2)
 - [SLSA](#slsa) (1)
+- [SLSA provenance](#slsa-provenance) (1)
 - [smart TVs](#smart-tvs) (1)
 - [SmartScreen](#smartscreen) (1)
 - [SMB](#smb) (1)
@@ -2058,7 +2059,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Supabase](#supabase) (1)
 - [supply chain](#supply-chain) (11)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (82)
+- [supply-chain](#supply-chain) (83)
 - [surveillance](#surveillance) (1)
 - [suspected China-aligned](#suspected-china-aligned) (1)
 - [SWE-agent](#swe-agent) (1)
@@ -2161,7 +2162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trident Ursa](#trident-ursa) (1)
 - [Tron](#tron) (1)
 - [trusted extension risk](#trusted-extension-risk) (1)
-- [trusted publishing](#trusted-publishing) (1)
+- [trusted publishing](#trusted-publishing) (2)
 - [tunnel decapsulation](#tunnel-decapsulation) (1)
 - [tunnel services](#tunnel-services) (1)
 - [Turla](#turla) (4)
@@ -2747,6 +2748,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI tooling
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -4236,6 +4238,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
@@ -5051,6 +5054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## developer tooling
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
@@ -6001,6 +6005,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitHub Actions
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -7548,6 +7553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Miasma
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
@@ -7664,6 +7670,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## Mini Shai-Hulud
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 
@@ -8010,6 +8017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -8160,6 +8168,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## OIDC
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
@@ -8280,6 +8289,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -8477,6 +8487,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -10291,6 +10302,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SLSA
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
+## SLSA provenance
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+
 ## smart TVs
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
@@ -10690,6 +10704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -11157,6 +11172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 
 ## trusted publishing
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 
 ## tunnel decapsulation

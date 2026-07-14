@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>AsyncAPI generator next-branch Miasma compromise</title>
+      <link>https://threat.wiki/ops/asyncapi-generator-next-branch-miasma-compromise/</link>
+      <description>Added StepSecurity coverage of the July 14 AsyncAPI generator monorepo compromise: an attacker pushed to the next branch, triggered the legitimate release-with-changesets GitHub Actions workflow, and published malicious @asyncapi/generator, generator-helpers, generator-components, and specs versions with valid npm OIDC provenance. The page captures runtime require() execution, IPFS sync.js staging, Miasma v3 multi-channel RAT capabilities, C2 indicators, and trusted-publishing hardening guidance.</description>
+      <pubDate>Tue, 14 Jul 2026 09:20:53 GMT</pubDate>
+      <guid>https://threat.wiki/ops/asyncapi-generator-next-branch-miasma-compromise/</guid>
+    </item>
+    <item>
       <title>Injective SDK npm wallet stealer: JFrog runtime reachability and header-exfiltration update</title>
       <link>https://threat.wiki/ops/injective-sdk-npm-wallet-stealer/</link>
       <description>Updated Injective SDK compromise coverage with JFrog's July 12 runtime analysis: PrivateKey.generate(), MsgBroadcasterWithPk, and CosmJS-compatible wallet wrappers can route mnemonics or raw/byte-array private keys through the infected PrivateKey class, and the stealer sends base64-encoded secrets in the X-Request-Id header of empty gRPC-Web-looking POSTs to an Injective-looking endpoint.</description>

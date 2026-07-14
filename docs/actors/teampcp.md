@@ -108,6 +108,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md) (adjacent action-tag compromise; attribution remains caveated)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md) (adjacent IDE-extension compromise; attribution remains caveated)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md) (TeamPCP-adjacent cloud crimeware; public reporting describes TeamPCP artifact removal, not TeamPCP control)
+- [AsyncAPI generator `next` branch Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md) (Miasma-family / Mini Shai-Hulud-style release-pipeline abuse; TeamPCP attribution not confirmed)
 
 ### Operational chain summary
 - **Initial trust-boundary break:** compromised Trivy release and related GitHub Actions enabled credential theft.
@@ -135,6 +136,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Unit 42's May 27 cyber-extortion economy analysis adds that TGR-CRI-1135 / TeamPCP has collaborated with LAPSUS$ Group operators for data-leak-site extortion and with Vect ransomware operators or affiliates in BreachForums-advertised arrangements. That makes stolen developer, cloud, SaaS, and repository data a direct extortion risk even without encryptor deployment.
 - The same Unit 42 update reported a May 13 BreachForums post announcing an open-source Shai-Hulud release, increasing the chance of copycat operations that reuse TeamPCP/Mini Shai-Hulud methods without clean actor attribution.
 - Wiz and StepSecurity's June 1, 2026 Miasma reporting adds a concrete example of this attribution problem: compromised `@redhat-cloud-services` npm packages used Mini Shai-Hulud-derived code and TeamPCP-like cloud/GitHub credential theft, but Wiz explicitly cautioned that the public Mini Shai-Hulud release means a copycat actor could be reusing the tooling. Keep Miasma on the Mini Shai-Hulud operation page unless stronger public attribution emerges.
+- StepSecurity's July 14 AsyncAPI generator reporting adds another Miasma-family release-pipeline variant without firm TeamPCP attribution: an attacker pushed directly to `asyncapi/generator`'s `next` branch, triggered the legitimate `release-with-changesets.yml` workflow, and published malicious packages with valid npm OIDC provenance. Track this as Miasma-family / Mini Shai-Hulud-style activity unless later public sources tie the branch compromise to TeamPCP.
 
 ## Defender signals
 - Moved or force-pushed GitHub Actions tags/refs, especially tags pointing to commits outside normal branch ancestry
@@ -159,6 +161,8 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - `elementary-data==0.23.3`, unexpected large `elementary.pth` files, Python startup-time outbound HTTPS, or CI/cloud identities making unusual `secretsmanager:ListSecrets`, `secretsmanager:GetSecretValue`, or `ssm:DescribeParameters` API calls
 - GitHub Actions tags that resolve to commits not present on a normal source-repository branch, especially for popular security/tooling actions; treat this **imposter commit** condition as a high-confidence supply-chain indicator
 - CI runner processes reading `/proc/*/mem` for `Runner.Worker`, and outbound POST attempts to `scan.aquasecurtiy[.]org` / `45.148.10[.]212` in Trivy-related investigations
+- Release workflows on prerelease branches such as `next` that publish with valid npm OIDC provenance after an unreviewed direct push; pair provenance checks with branch-protection, commit-review, and release-environment controls.
+- Runtime package execution rather than install-script execution in supply-chain malware, especially Node.js packages that spawn detached hidden `node -e` children, download IPFS payloads such as `QmQobZSp1wRPrpSEQ56qnyq7ecZh5Bg5k1fnjt4SUwwHb9`, or drop NodeJS-looking files under user profile paths.
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
@@ -198,3 +202,4 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - [OX Security Telnyx PyPI compromise](https://www.ox.security/blog/telnyx-malware-teampcp-strikes-again-following-litellm-compromise/)
 - [Trend Micro TeamPCP KICS and elementary-data analysis](https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html)
 - [StepSecurity Trivy / TeamPCP defense-in-depth retrospective](https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions)
+- [StepSecurity AsyncAPI generator next-branch compromise](https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm)

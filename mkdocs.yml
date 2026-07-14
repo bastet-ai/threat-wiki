@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - AsyncAPI generator next-branch Miasma compromise: ops/asyncapi-generator-next-branch-miasma-compromise.md
       - ShinyHunters Salesforce OAuth abuse: ops/shinyhunters-salesforce-oauth-abuse.md
       - Forg365 Microsoft 365 PhaaS: ops/forg365-microsoft-365-phaas.md
       - ModHeader browser-extension surveillance capability: ops/modheader-browser-extension-surveillance.md
