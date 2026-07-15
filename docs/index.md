@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Patriot Bait AI-assisted C2 botnet](ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [AI browser-extension confused deputy: Claude for Chrome cross-extension steering](patterns/ai-browser-extension-confused-deputy.md)
 - [CISA KEV: Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions](ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)

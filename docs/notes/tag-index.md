@@ -64,7 +64,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agent memory](#agent-memory) (1)
 - [agent skills](#agent-skills) (1)
 - [agent state](#agent-state) (1)
-- [agentic AI](#agentic-ai) (1)
+- [agentic AI](#agentic-ai) (2)
 - [agentic botnets](#agentic-botnets) (1)
 - [agentic browser](#agentic-browser) (1)
 - [agentic browsers](#agentic-browsers) (1)
@@ -73,7 +73,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agentic threat actor](#agentic-threat-actor) (1)
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
-- [AI](#ai) (4)
+- [AI](#ai) (5)
 - [AI agent](#ai-agent) (1)
 - [AI agents](#ai-agents) (15)
 - [AI anti-analysis](#ai-anti-analysis) (1)
@@ -97,7 +97,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
 - [AI-assisted development](#ai-assisted-development) (1)
-- [AI-assisted malware](#ai-assisted-malware) (2)
+- [AI-assisted malware](#ai-assisted-malware) (3)
 - [AI-assisted malware development](#ai-assisted-malware-development) (2)
 - [AI-assisted phishing](#ai-assisted-phishing) (1)
 - [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
@@ -219,6 +219,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Balbooa Forms](#balbooa-forms) (1)
 - [Balochistan Police](#balochistan-police) (1)
 - [Banana RAT](#banana-rat) (1)
+- [bandcampro](#bandcampro) (1)
 - [banking](#banking) (1)
 - [banking malware](#banking-malware) (3)
 - [banking trojan](#banking-trojan) (3)
@@ -256,7 +257,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Blogger abuse](#blogger-abuse) (1)
 - [blogspot staging](#blogspot-staging) (1)
 - [BLUEBEAM](#bluebeam) (1)
-- [botnet](#botnet) (7)
+- [botnet](#botnet) (8)
 - [Braintree](#braintree) (1)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
@@ -298,7 +299,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bypass2fa](#bypass2fa) (1)
 - [C#](#c) (1)
 - [C++/CLI](#ccli) (1)
-- [C2](#c2) (9)
+- [C2](#c2) (10)
 - [C2 framework](#c2-framework) (2)
 - [C2 tasking](#c2-tasking) (1)
 - [CageFS](#cagefs) (1)
@@ -409,7 +410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud transcoding](#cloud-transcoding) (1)
 - [Cloudflare](#cloudflare) (3)
 - [Cloudflare Tunnel](#cloudflare-tunnel) (3)
-- [Cloudflare tunnels](#cloudflare-tunnels) (1)
+- [Cloudflare tunnels](#cloudflare-tunnels) (2)
 - [Cloudflare Turnstile](#cloudflare-turnstile) (1)
 - [Cloudflare Workers](#cloudflare-workers) (5)
 - [cloudflared](#cloudflared) (1)
@@ -433,7 +434,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [collaboration platforms](#collaboration-platforms) (1)
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
 - [COM-hijacking](#com-hijacking) (1)
-- [command and control](#command-and-control) (1)
+- [command and control](#command-and-control) (2)
 - [command execution](#command-execution) (6)
 - [command injection](#command-injection) (6)
 - [command-execution](#command-execution) (1)
@@ -477,7 +478,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrackMapExec](#crackmapexec) (1)
 - [CrashStealer](#crashstealer) (1)
 - [Crates.io](#cratesio) (1)
-- [credential attacks](#credential-attacks) (2)
+- [credential attacks](#credential-attacks) (3)
 - [credential exposure](#credential-exposure) (3)
 - [credential harvesting](#credential-harvesting) (2)
 - [credential spraying](#credential-spraying) (1)
@@ -909,7 +910,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fortinet](#fortinet) (2)
 - [FortiOS](#fortios) (1)
 - [Fox Tempest](#fox-tempest) (2)
-- [fraud](#fraud) (1)
+- [fraud](#fraud) (2)
 - [FreeBSD](#freebsd) (2)
 - [Freedom365](#freedom365) (1)
 - [freeware impersonation](#freeware-impersonation) (1)
@@ -933,6 +934,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Garble](#garble) (1)
 - [Gatekeeper bypass](#gatekeeper-bypass) (1)
 - [GCS](#gcs) (1)
+- [Gemini CLI](#gemini-cli) (1)
 - [GentleKiller](#gentlekiller) (1)
 - [Ghost](#ghost) (2)
 - [ghost accounts](#ghost-accounts) (1)
@@ -1554,9 +1556,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational relay box](#operational-relay-box) (1)
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (195)
+- [operations](#operations) (196)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (218)
+- [ops](#ops) (219)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1599,12 +1601,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [passkeys](#passkeys) (1)
 - [password manager theft](#password-manager-theft) (1)
 - [password spray](#password-spray) (1)
-- [password spraying](#password-spraying) (2)
+- [password spraying](#password-spraying) (3)
 - [password-protected archive](#password-protected-archive) (2)
 - [Pastebin](#pastebin) (1)
 - [PAT theft](#pat-theft) (1)
 - [patch management](#patch-management) (2)
 - [path traversal](#path-traversal) (1)
+- [Patriot Bait](#patriot-bait) (1)
 - [patterns](#patterns) (27)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
@@ -1677,7 +1680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (9)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (16)
+- [PowerShell](#powershell) (17)
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShower](#powershower) (1)
@@ -1872,6 +1875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russia-linked](#russia-linked) (3)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
+- [Russia-speaking operator](#russia-speaking-operator) (1)
 - [Russian Intelligence Services](#russian-intelligence-services) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (8)
@@ -2385,7 +2389,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wiz Research](#wiz-research) (1)
 - [WM_COPYDATA IPC](#wm_copydata-ipc) (1)
 - [Woodgnat](#woodgnat) (1)
-- [WordPress](#wordpress) (5)
+- [WordPress](#wordpress) (6)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
 - [workspace trust](#workspace-trust) (1)
@@ -2690,6 +2694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## agentic AI
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## agentic botnets
@@ -2720,6 +2725,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
@@ -2830,6 +2836,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI-assisted malware
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
 ## AI-assisted malware development
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
@@ -3261,6 +3268,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Banana RAT
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
+## bandcampro
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
+
 ## banking
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
@@ -3391,6 +3401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [RustDuck](../tools/rustduck.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
@@ -3564,6 +3575,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [QuimaRAT](../tools/quimarat.md)
 - [RemotePE](../tools/remotepe.md)
@@ -4038,6 +4050,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cloudflare tunnels
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
 ## Cloudflare Turnstile
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -4127,6 +4140,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## command and control
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
 ## command execution
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -4287,6 +4301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## credential attacks
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
 ## credential exposure
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -5954,6 +5969,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## fraud
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
 ## FreeBSD
 - [VerdantBamboo](../actors/verdantbamboo.md)
@@ -6030,6 +6046,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GCS
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+
+## Gemini CLI
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
 ## GentleKiller
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -8547,6 +8566,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -8760,6 +8780,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -8968,6 +8989,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## password spraying
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
 ## password-protected archive
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
@@ -8985,6 +9007,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## path traversal
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
+
+## Patriot Bait
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
 ## patterns
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -9307,6 +9332,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -10065,6 +10091,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Russia-nexus
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GREYVIBE](../actors/greyvibe.md)
+
+## Russia-speaking operator
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
 ## Russian Intelligence Services
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -12099,6 +12128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+- [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
