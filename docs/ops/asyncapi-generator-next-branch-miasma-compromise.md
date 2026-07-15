@@ -1,7 +1,7 @@
 # AsyncAPI generator / specs Miasma compromise
 
 ## Summary
-StepSecurity reported that on July 14, 2026, a coordinated AsyncAPI supply-chain attack abused push access in **two repositories** and let legitimate GitHub Actions release workflows publish Miasma-family payloads with valid npm OIDC / SLSA provenance. The first attack pushed directly to `asyncapi/generator`'s `next` branch and published three poisoned generator packages at 07:10 UTC. The second attack pushed to `asyncapi/spec-json-schemas`'s `master` branch and published poisoned `@asyncapi/specs` releases through that repository's release workflow.
+StepSecurity reported that on July 14, 2026, a coordinated AsyncAPI supply-chain attack abused push access in at least **two release repositories** and let legitimate GitHub Actions release workflows publish Miasma-family payloads with valid npm OIDC / SLSA provenance. Unit 42 later described the activity as release-pipeline compromise across **four core AsyncAPI GitHub repositories**. The first attack pushed directly to `asyncapi/generator`'s `next` branch and published three poisoned generator packages at 07:10 UTC. The second attack pushed to `asyncapi/spec-json-schemas`'s `master` branch and published poisoned `@asyncapi/specs` releases through that repository's release workflow.
 
 This is durable supply-chain intel because it shows the Miasma / Mini Shai-Hulud payload family moving from `binding.gyp` install-time hooks into **runtime `require()` execution** inside a high-blast-radius API tooling package. Provenance confirms the workflow and commit that built the package; it does not prove that the commit was reviewed or legitimate.
 
@@ -98,6 +98,21 @@ JFrog also documented additional persistence and runtime pivots:
 | Command channel | `X-Miasma-Spawn-Chain` header and encrypted per-victim command channel. |
 | Campaign config | `miasma-train-p1`, `target.ecosystem: npm`, `persist: true`. |
 
+## Unit 42 July 15 follow-up
+Unit 42's July 15 npm threat-landscape update adds several operational details that widen the defender scope beyond package installation logs. It reports the campaign as `miasma-train-p1`, ties the package set to release-pipeline compromise across four core AsyncAPI repositories, and frames the initial-access issue as a process gap: protected primary branches coexisted with unprotected pre-production release branches such as `next` and `schema` that could still trigger automated publishing.
+
+Unit 42 also observed a macOS developer case where GitHub Copilot opened a workspace, parsed dependencies, imported `@asyncapi/specs@6.11.2`, and silently launched the loader under Homebrew Node.js v22. The developer did not manually run `npm install`. This makes AI/editor-driven dependency loading part of the exposure model: a poisoned runtime module can execute when an assistant, IDE, documentation generator, or schema parser imports it on behalf of the user.
+
+Additional Unit 42 pivots:
+
+| Area | Reported detail |
+| --- | --- |
+| Host identity cache | macOS `~/Library/Application Support/com.apple.spotlight/index-v2.cache`, Linux `~/.cache/mesa_shader_cache/gl_cache.bin`, Windows `%HOME%\AppData\Roaming\Microsoft\CryptnetUrlCache\Content\msrt.dat`. |
+| Primary C2 paths | `hxxp://85.137.53[.]71:8080/api/v1/beacon` and credential upload via `hxxp://85.137.53[.]71:8080/api/v1/file-result`, forwarded to port `8081`. |
+| Backup control | Ethereum RPC gateway `ethereum-rpc[.]publicnode[.]com`, Nostr relays `relay.damus[.]io` and `relay.nostr[.]com`, and BitTorrent DHT bootstrap nodes `router.bittorrent[.]com:6881` / `dht.transmissionbt[.]com:6881`. |
+| Propagation controls | Self-attributed config uses a hard-coded generation cap `maxGen = 4`; default canary rollout initially infects 5% of potential targets before scaling in waves of 100. |
+| Attribution caveat | Unit 42 noted hosting-pattern overlap with TeamPCP infrastructure, including AS43641 / VSYS-AMS, but kept attribution open because public Mini Shai-Hulud tooling makes copycat reuse plausible. |
+
 Additional Wiz indicators:
 
 | Type | Indicator | Notes |
@@ -136,6 +151,9 @@ StepSecurity, Wiz, and JFrog identified a modular RAT / worm framework. Treat th
 - SHA1 hits for malicious first-stage files (`22bf76fe317ea6769bd38619bd440e42d119bd6b`, `a7e18d96efd3cdb127ef4cdcad9e3ad26c482bf2`, `9890950adcbc2478e7a080234f053214adbad44e`, `c70e105e212ff3c1daa04bb2a62507717f296b0b`) or `sync.js` (`c8cb3f6d5b90c46686d2bf531dc1a5786e27edc5`).
 - `miasma-monitor.service`, `miasma-test-org`, `M-RED-TEAM v6.4`, `elzotebo`, or `prt-scan` strings in recovered payloads, memory, logs, or persistence artifacts.
 - Nostr relay, BitTorrent DHT, libp2p, or Ethereum mainnet traffic from CI runners or developer workstations that normally only run documentation / code-generation jobs.
+- AI assistant, IDE, or documentation-generator process trees that import `@asyncapi/specs` / generator packages and spawn Homebrew or system `node` without an explicit human package-manager command.
+- Unit 42-reported OS-masqueraded state/cache files: `~/Library/Application Support/com.apple.spotlight/index-v2.cache`, `~/.cache/mesa_shader_cache/gl_cache.bin`, and `%HOME%\AppData\Roaming\Microsoft\CryptnetUrlCache\Content\msrt.dat`.
+- Campaign-control strings or recovered config values including `miasma-train-p1`, `maxGen = 4`, `batch.defaultStrategy = CANARY`, and canary rollout percentages around 5%.
 - Diff hunks with very long leading-whitespace padding or single-line obfuscated JavaScript added to generator, helper, or component utility files.
 
 ## Response guidance
@@ -162,3 +180,4 @@ The payload self-identifies with Miasma markers in StepSecurity and Wiz analysis
 - StepSecurity: https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm
 - Wiz Research: https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
 - JFrog Security Research: https://research.jfrog.com/post/miasma-worm-returns-to-npm/
+- Unit 42: https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
