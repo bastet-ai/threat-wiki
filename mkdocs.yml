@@ -7,6 +7,8 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - OkoBot cryptocurrency-wallet malware framework: ops/okobot-cryptocurrency-wallet-framework.md
+      - KNX Protocol CVE-2023-4346 KEV exploitation: ops/knx-protocol-cve-2023-4346-kev-exploitation.md
       - TuxBot v3 Evolution IoT botnet framework: ops/tuxbot-v3-evolution-iot-botnet.md
       - Patriot Bait AI-assisted C2 botnet: ops/patriot-bait-ai-assisted-c2-botnet.md
       - NuGet game-cheat DotnetTool pepesoft campaign: ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md

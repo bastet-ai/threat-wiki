@@ -7,6 +7,9 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [OkoBot cryptocurrency-wallet malware framework](ops/okobot-cryptocurrency-wallet-framework.md)
+- [KNX Protocol CVE-2023-4346 KEV exploitation](ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
+- [Oracle E-Business Suite CVE-2026-46817 exploitation: CISA KEV update](ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Cursor Windows workspace-path binary hijack](patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [TuxBot v3 Evolution IoT botnet framework](ops/tuxbot-v3-evolution-iot-botnet.md)
 - [Patriot Bait AI-assisted C2 botnet](ops/patriot-bait-ai-assisted-c2-botnet.md)

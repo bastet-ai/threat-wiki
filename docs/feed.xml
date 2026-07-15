@@ -2,6 +2,27 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>OkoBot cryptocurrency-wallet malware framework</title>
+      <link>https://threat.wiki/ops/okobot-cryptocurrency-wallet-framework/</link>
+      <description>Added Kaspersky GReAT coverage of OkoBot, an active Windows malware framework that starts with TookPS, uses SSH-bot payload delivery, and includes SeedHunter process injection into Trezor Suite, Ledger Wallet, and Ledger Live to collect seed phrases from inside legitimate wallet applications. The page captures USB-gated prompting, moonsand[.]store C2, artifact exfiltration, affected-country telemetry, and wallet compromise response guidance.</description>
+      <pubDate>Wed, 15 Jul 2026 17:27:24 GMT</pubDate>
+      <guid>https://threat.wiki/ops/okobot-cryptocurrency-wallet-framework/</guid>
+    </item>
+    <item>
+      <title>KNX Protocol CVE-2023-4346 KEV exploitation</title>
+      <link>https://threat.wiki/ops/knx-protocol-cve-2023-4346-kev-exploitation/</link>
+      <description>Added CISA KEV coverage for CVE-2023-4346 affecting KNX Protocol Connection Authorization Option 1. CISA says exploitation can purge devices without additional security options enabled and set a BCU key that locks the device, making this a building-automation and facility-control recovery risk with a July 29, 2026 due date.</description>
+      <pubDate>Wed, 15 Jul 2026 17:27:24 GMT</pubDate>
+      <guid>https://threat.wiki/ops/knx-protocol-cve-2023-4346-kev-exploitation/</guid>
+    </item>
+    <item>
+      <title>Oracle E-Business Suite CVE-2026-46817: CISA KEV update</title>
+      <link>https://threat.wiki/ops/oracle-e-business-suite-cve-2026-46817-exploitation/</link>
+      <description>Updated Oracle E-Business Suite CVE-2026-46817 coverage after CISA added the Oracle Payments takeover flaw to KEV on July 15 with a July 18 remediation due date. Exposed EBS systems should be treated as forensics-triage candidates, not patch-only tickets.</description>
+      <pubDate>Wed, 15 Jul 2026 17:27:24 GMT</pubDate>
+      <guid>https://threat.wiki/ops/oracle-e-business-suite-cve-2026-46817-exploitation/#cisa-kev</guid>
+    </item>
+    <item>
       <title>Patriot Bait AI-assisted C2 botnet</title>
       <link>https://threat.wiki/ops/patriot-bait-ai-assisted-c2-botnet/</link>
       <description>Added Trend Micro / TrendAI coverage of Patriot Bait / bandcampro, a Russian-speaking actor observed using Gemini CLI as the primary operator interface for a small C2 botnet. The page captures the six-minute C2 migration, plain-text skill-file operating model, PowerShell polling agent, Cloudflare tunnel troubleshooting, API and persistence pivots, and behavioral guidance for disposable AI-regenerated infrastructure.</description>
