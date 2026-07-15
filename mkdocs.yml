@@ -300,6 +300,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Cursor Windows workspace-path binary hijack: patterns/cursor-windows-workspace-path-binary-hijack.md
       - AI browser-extension confused deputy: patterns/ai-browser-extension-confused-deputy.md
       - GitHub API enumeration and access-token abuse: patterns/github-api-enumeration-token-abuse.md
       - AI coding-agent symlink write confusion: patterns/ai-coding-agent-symlink-write-confusion.md

@@ -85,7 +85,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
-- [AI developer tooling](#ai-developer-tooling) (1)
+- [AI developer tooling](#ai-developer-tooling) (2)
 - [AI framework](#ai-framework) (1)
 - [AI gateway](#ai-gateway) (1)
 - [AI Now Institute](#ai-now-institute) (1)
@@ -154,6 +154,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aptos](#aptos) (1)
 - [Aquatic Panda](#aquatic-panda) (2)
 - [AquilaRAT](#aquilarat) (1)
+- [arbitrary code execution](#arbitrary-code-execution) (1)
 - [arbitrary file read](#arbitrary-file-read) (1)
 - [arbitrary file upload](#arbitrary-file-upload) (1)
 - [arbitrary file write](#arbitrary-file-write) (3)
@@ -486,7 +487,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (2)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (42)
+- [credential theft](#credential-theft) (43)
 - [credential-theft](#credential-theft) (51)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -515,7 +516,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptomining](#cryptomining) (1)
 - [CSRF](#csrf) (1)
 - [Curious Serpens](#curious-serpens) (1)
-- [Cursor](#cursor) (3)
+- [Cursor](#cursor) (4)
 - [Curve25519](#curve25519) (1)
 - [custody APIs](#custody-apis) (1)
 - [CVE-2008-4128](#cve-2008-4128) (1)
@@ -697,7 +698,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (9)
 - [developer mode](#developer-mode) (1)
 - [developer targeting](#developer-targeting) (4)
-- [developer tooling](#developer-tooling) (4)
+- [developer tooling](#developer-tooling) (5)
 - [developer workstations](#developer-workstations) (2)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
 - [developer-targeting](#developer-targeting) (16)
@@ -952,6 +953,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-qrpv-q767-xqq2](#ghsa-qrpv-q767-xqq2) (1)
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
+- [Git](#git) (1)
+- [git.exe](#gitexe) (1)
 - [Gitea](#gitea) (1)
 - [GitHub](#github) (18)
 - [GitHub abuse](#github-abuse) (3)
@@ -1088,7 +1091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [identity infrastructure](#identity-infrastructure) (1)
 - [identity security](#identity-security) (1)
 - [identity-first intrusion](#identity-first-intrusion) (1)
-- [IDEs](#ides) (1)
+- [IDEs](#ides) (2)
 - [IFEO persistence](#ifeo-persistence) (1)
 - [IIOP](#iiop) (1)
 - [IIS](#iis) (1)
@@ -1615,9 +1618,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pastebin](#pastebin) (1)
 - [PAT theft](#pat-theft) (1)
 - [patch management](#patch-management) (2)
+- [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (1)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (27)
+- [patterns](#patterns) (28)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
@@ -2043,7 +2047,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [source-code compromise](#source-code-compromise) (1)
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
-- [source-repository poisoning](#source-repository-poisoning) (4)
+- [source-repository poisoning](#source-repository-poisoning) (5)
 - [source-repository reconnaissance](#source-repository-reconnaissance) (1)
 - [SourceForge abuse](#sourceforge-abuse) (1)
 - [South Africa](#south-africa) (1)
@@ -2264,7 +2268,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [United States](#united-states) (2)
 - [university targeting](#university-targeting) (1)
 - [UNK_MassTraction](#unk_masstraction) (1)
-- [unpatched vulnerability](#unpatched-vulnerability) (1)
+- [unpatched vulnerability](#unpatched-vulnerability) (2)
 - [unsafe deserialization](#unsafe-deserialization) (1)
 - [unsigned installer](#unsigned-installer) (1)
 - [UpdateFactory](#updatefactory) (1)
@@ -2379,7 +2383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill](#windchill) (1)
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
-- [Windows](#windows) (27)
+- [Windows](#windows) (28)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Forms](#windows-forms) (1)
@@ -2404,7 +2408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WordPress](#wordpress) (6)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
-- [workspace trust](#workspace-trust) (1)
+- [workspace trust](#workspace-trust) (2)
 - [World Cup](#world-cup) (1)
 - [worm](#worm) (13)
 - [WP Maps Pro](#wp-maps-pro) (1)
@@ -2796,6 +2800,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## AI developer tooling
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 
 ## AI framework
@@ -3046,6 +3051,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AquilaRAT
 - [Armored Likho](../actors/armored-likho.md)
+
+## arbitrary code execution
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 
 ## arbitrary file read
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
@@ -4356,6 +4364,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
@@ -4549,6 +4558,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 
 ## Cursor
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
@@ -5172,6 +5182,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## developer tooling
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
@@ -6119,6 +6130,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GIFTEDCROOK
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
+## Git
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
+
+## git.exe
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
+
 ## Gitea
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 
@@ -6626,6 +6643,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 
 ## IDEs
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## IFEO persistence
@@ -9053,6 +9071,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
+## path hijacking
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
+
 ## path traversal
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
@@ -9073,6 +9094,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
@@ -10720,6 +10742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## source-repository poisoning
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
@@ -11643,6 +11666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unpatched vulnerability
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 
 ## unsafe deserialization
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -12085,6 +12109,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
@@ -12199,6 +12224,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## workspace trust
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+- [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 
 ## World Cup
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)

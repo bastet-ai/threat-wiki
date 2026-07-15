@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Cursor Windows workspace-path binary hijack](patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [TuxBot v3 Evolution IoT botnet framework](ops/tuxbot-v3-evolution-iot-botnet.md)
 - [Patriot Bait AI-assisted C2 botnet](ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
