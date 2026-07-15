@@ -83,6 +83,21 @@ Wiz Research independently published the same AsyncAPI incident as **M-Red-Team*
 
 Wiz's extracted configuration and code markers included `giteaPackagesOrg` set to `miasma-test-org`, a `miasma-monitor.service` systemd persistence name, and Miasma-branded Nostr relay tags. At the same time, Wiz noted the Rentry dead-drop slug `elzotebo`, which resembles naming from the separate `prt-scan` pull-request attack cluster, and stated it was **not making definitive attribution**. Treat `Miasma`, `M-RED-TEAM`, and `prt-scan` references as hunting pivots unless future public reporting raises confidence.
 
+## JFrog configuration analysis
+JFrog Security Research published an independent July 14 analysis of the same AsyncAPI wave and added an important scoping caveat: the decrypted framework contains credential theft, package propagation, AI-tool poisoning, deadman, evasion, and metamorphic modules, but JFrog found those modules **disabled in this deployment's baked configuration**. JFrog therefore frames the observed AsyncAPI payload as a RAT-first Miasma configuration rather than an automatically self-spreading npm worm.
+
+JFrog's recovered configuration identifies the campaign target as `miasma-train-p1` / `npm`, keeps `persist` enabled, and disables `propagate`, `recon`, `poisonAI`, `deadman`, `evasion`, and `metamorphic`. The active risk remains high: the command channel accepts arbitrary shell commands, with commands allowed to run up to 120 seconds and only `killall` listed in the baked command blacklist. An operator can still manually collect files, credentials, source code, deployment material, or push follow-on tooling from a compromised developer workstation or CI runner.
+
+JFrog also documented additional persistence and runtime pivots:
+
+| Platform / artifact | Pivot |
+| --- | --- |
+| Linux persistence | `~/.config/systemd/user/miasma-monitor.service` plus `~/.config/.miasma/run/node.lock`. |
+| Windows persistence | `HKCU\Software\Microsoft\Windows\CurrentVersion\Run\miasma-monitor`. |
+| macOS persistence | Shell-profile block marked `### Node Auto-Update Script ###` appended to `.zshrc`, `.bashrc`, or `.bash_profile`. |
+| Command channel | `X-Miasma-Spawn-Chain` header and encrypted per-victim command channel. |
+| Campaign config | `miasma-train-p1`, `target.ecosystem: npm`, `persist: true`. |
+
 Additional Wiz indicators:
 
 | Type | Indicator | Notes |
@@ -98,7 +113,7 @@ Additional Wiz indicators:
 | Domain | `rentry[.]co` | Token-exfiltration / dead-drop pivot; investigate carefully without fetching from production endpoints. |
 
 ## Reported capabilities
-StepSecurity's static analysis identified a modular RAT / worm framework with:
+StepSecurity, Wiz, and JFrog identified a modular RAT / worm framework. Treat the full module list as **capability surface** unless runtime evidence confirms a module was enabled in the observed AsyncAPI deployment; JFrog specifically found automatic propagation, recon, AI poisoning, deadman, evasion, and metamorphic toggles disabled in the baked configuration it recovered.
 
 - Multi-channel C2 / control paths including HTTP REST, Nostr, IPFS, BitTorrent DHT, libp2p GossipSub, and Ethereum blockchain dead-drop control.
 - Credential harvesting for browser Login Data / Cookies / Local State, SSH keys, `~/.npmrc`, `~/.gitconfig`, GitHub CLI config, AWS credentials, Kubernetes config, Docker credentials, and macOS Keychain.
@@ -116,6 +131,7 @@ StepSecurity's static analysis identified a modular RAT / worm framework with:
 - Unexpected process trees where `node` spawns detached hidden `node -e` children from AsyncAPI generator execution.
 - IPFS fetches for `QmQobZSp1wRPrpSEQ56qnyq7ecZh5Bg5k1fnjt4SUwwHb9` or `Qmet4fhsAaWMBUxNDfREHwgiyDeSWy4YSYs9wiKUW5jGyf`.
 - Files at `~/.local/share/NodeJS/sync.js`, `~/Library/Application Support/NodeJS/sync.js`, or `%LOCALAPPDATA%\NodeJS\sync.js` created after AsyncAPI generator use.
+- JFrog-reported Miasma runtime/persistence artifacts: `~/.config/.miasma/run/node.lock`, `~/.config/systemd/user/miasma-monitor.service`, `HKCU\Software\Microsoft\Windows\CurrentVersion\Run\miasma-monitor`, shell-profile blocks marked `### Node Auto-Update Script ###`, `X-Miasma-Spawn-Chain`, and `miasma-train-p1`.
 - Outbound connections to `85.137.53.71:8080`, `85.137.53.71:8081`, or `85.137.53.71:8091`.
 - SHA1 hits for malicious first-stage files (`22bf76fe317ea6769bd38619bd440e42d119bd6b`, `a7e18d96efd3cdb127ef4cdcad9e3ad26c482bf2`, `9890950adcbc2478e7a080234f053214adbad44e`, `c70e105e212ff3c1daa04bb2a62507717f296b0b`) or `sync.js` (`c8cb3f6d5b90c46686d2bf531dc1a5786e27edc5`).
 - `miasma-monitor.service`, `miasma-test-org`, `M-RED-TEAM v6.4`, `elzotebo`, or `prt-scan` strings in recovered payloads, memory, logs, or persistence artifacts.
@@ -145,3 +161,4 @@ The payload self-identifies with Miasma markers in StepSecurity and Wiz analysis
 ## Sources
 - StepSecurity: https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm
 - Wiz Research: https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
+- JFrog Security Research: https://research.jfrog.com/post/miasma-worm-returns-to-npm/
