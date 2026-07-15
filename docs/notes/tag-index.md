@@ -98,13 +98,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ai-agent](#ai-agent) (1)
 - [AI-assisted development](#ai-assisted-development) (1)
 - [AI-assisted malware](#ai-assisted-malware) (3)
-- [AI-assisted malware development](#ai-assisted-malware-development) (2)
+- [AI-assisted malware development](#ai-assisted-malware-development) (3)
 - [AI-assisted phishing](#ai-assisted-phishing) (1)
 - [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
 - [AI-augmented operations](#ai-augmented-operations) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AI-generated narrator](#ai-generated-narrator) (1)
 - [Aider](#aider) (1)
+- [AISURU](#aisuru) (1)
 - [AiTM](#aitm) (2)
 - [Albania](#albania) (1)
 - [Amadey](#amadey) (1)
@@ -114,7 +115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
 - [Android](#android) (6)
 - [Android Accessibility Service](#android-accessibility-service) (2)
-- [Android ADB](#android-adb) (1)
+- [Android ADB](#android-adb) (2)
 - [Android Debug Bridge](#android-debug-bridge) (1)
 - [Android malware](#android-malware) (2)
 - [Android spyware](#android-spyware) (3)
@@ -258,6 +259,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [blogspot staging](#blogspot-staging) (1)
 - [BLUEBEAM](#bluebeam) (1)
 - [botnet](#botnet) (8)
+- [botnet framework](#botnet-framework) (1)
 - [Braintree](#braintree) (1)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
@@ -323,6 +325,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [certificate theft](#certificate-theft) (1)
 - [certutil](#certutil) (1)
 - [CFIDE](#cfide) (1)
+- [ChaCha20](#chacha20) (1)
 - [ChatGPT](#chatgpt) (1)
 - [chattr](#chattr) (1)
 - [Chatty Spider](#chatty-spider) (1)
@@ -659,7 +662,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DcRAT](#dcrat) (1)
 - [DDNS](#ddns) (1)
 - [DDoS](#ddos) (5)
-- [DDoS-for-hire](#ddos-for-hire) (1)
+- [DDoS botnet](#ddos-botnet) (1)
+- [DDoS-for-hire](#ddos-for-hire) (2)
 - [dead drop](#dead-drop) (1)
 - [dead drop resolver](#dead-drop-resolver) (4)
 - [dead-drop resolver](#dead-drop-resolver) (1)
@@ -704,6 +708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DevOps](#devops) (1)
 - [DevTools](#devtools) (1)
 - [DEWMODE](#dewmode) (1)
+- [DGA](#dga) (1)
 - [DIAMONDBACK](#diamondback) (2)
 - [Digital Knowledge](#digital-knowledge) (1)
 - [digital wallets](#digital-wallets) (1)
@@ -756,6 +761,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Earth Lusca](#earth-lusca) (2)
 - [eBPF](#ebpf) (3)
 - [Eclipse](#eclipse) (1)
+- [Ed25519](#ed25519) (1)
 - [edge appliance](#edge-appliance) (11)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
@@ -782,7 +788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [email theft](#email-theft) (3)
 - [embedded systems](#embedded-systems) (1)
 - [Emerald Sleet](#emerald-sleet) (1)
-- [encrypted C2](#encrypted-c2) (1)
+- [encrypted C2](#encrypted-c2) (2)
 - [endpoint management](#endpoint-management) (1)
 - [endpoint management abuse](#endpoint-management-abuse) (1)
 - [endpoint response](#endpoint-response) (1)
@@ -1125,7 +1131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (3)
-- [IoT botnet](#iot-botnet) (3)
+- [IoT botnet](#iot-botnet) (4)
 - [IP-in-IP](#ip-in-ip) (1)
 - [IPFS](#ipfs) (1)
 - [IPsec](#ipsec) (1)
@@ -1183,6 +1189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JXA downloader](#jxa-downloader) (1)
 - [K1MORPHER](#k1morpher) (2)
 - [Kairos](#kairos) (1)
+- [Kaitori](#kaitori) (1)
 - [Kali365](#kali365) (1)
 - [Kaspersky](#kaspersky) (2)
 - [Kaspersky Securelist](#kaspersky-securelist) (2)
@@ -1190,6 +1197,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KAZUAR](#kazuar) (2)
 - [KAZUAR overlap](#kazuar-overlap) (1)
 - [Keitaro](#keitaro) (1)
+- [Keksec](#keksec) (1)
 - [Kemp LoadMaster](#kemp-loadmaster) (1)
 - [kernel driver](#kernel-driver) (3)
 - [kernel instrumentation](#kernel-instrumentation) (1)
@@ -1264,7 +1272,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [living-off-the-land binaries](#living-off-the-land-binaries) (1)
 - [LLM](#llm) (4)
 - [LLM security](#llm-security) (1)
-- [LLM-assisted malware](#llm-assisted-malware) (1)
+- [LLM-assisted malware](#llm-assisted-malware) (2)
 - [LLM-driven intrusion](#llm-driven-intrusion) (1)
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
@@ -1556,9 +1564,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational relay box](#operational-relay-box) (1)
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
-- [operations](#operations) (196)
+- [operations](#operations) (197)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (219)
+- [ops](#ops) (220)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1577,6 +1585,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
 - [P2P](#p2p) (1)
+- [P2P C2](#p2p-c2) (1)
 - [package masquerading](#package-masquerading) (1)
 - [package registry](#package-registry) (7)
 - [package registry abuse](#package-registry-abuse) (1)
@@ -1665,6 +1674,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PoisonX](#poisonx) (1)
 - [police digital services](#police-digital-services) (1)
 - [PolinRider](#polinrider) (2)
+- [Poly1305](#poly1305) (1)
 - [polyfill](#polyfill) (1)
 - [Polymarket](#polymarket) (1)
 - [polymorphic loader](#polymorphic-loader) (1)
@@ -2153,7 +2163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telegram notification](#telegram-notification) (1)
 - [telemetry](#telemetry) (1)
 - [Teletype](#teletype) (1)
-- [Telnet brute force](#telnet-brute-force) (1)
+- [Telnet brute force](#telnet-brute-force) (2)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
 - [tenant-project](#tenant-project) (1)
@@ -2208,6 +2218,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tunnel services](#tunnel-services) (1)
 - [Turla](#turla) (4)
 - [Turla collaboration](#turla-collaboration) (1)
+- [TuxBot](#tuxbot) (1)
+- [TuxBot v3 Evolution](#tuxbot-v3-evolution) (1)
 - [Twilio](#twilio) (1)
 - [Twilio SendGrid](#twilio-sendgrid) (1)
 - [TypeScript](#typescript) (2)
@@ -2248,7 +2260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UniFi OS](#unifi-os) (1)
 - [Unified CM SME](#unified-cm-sme) (1)
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
-- [Unit 42](#unit-42) (4)
+- [Unit 42](#unit-42) (5)
 - [United States](#united-states) (2)
 - [university targeting](#university-targeting) (1)
 - [UNK_MassTraction](#unk_masstraction) (1)
@@ -2400,6 +2412,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WScript](#wscript) (1)
 - [X-Secret](#x-secret) (1)
 - [X-WEBAUTH-USER](#x-webauth-user) (1)
+- [X25519](#x25519) (1)
 - [X3D MINER](#x3d-miner) (1)
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
@@ -2841,6 +2854,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI-assisted malware development
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## AI-assisted phishing
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
@@ -2859,6 +2873,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Aider
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
+## AISURU
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## AiTM
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -2898,6 +2915,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Android ADB
 - [RustDuck](../tools/rustduck.md)
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## Android Debug Bridge
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
@@ -3405,6 +3423,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RustDuck](../tools/rustduck.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
+## botnet framework
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
+
 ## Braintree
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 
@@ -3653,6 +3674,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CFIDE
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## ChaCha20
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## ChatGPT
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -5003,7 +5027,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [RustDuck](../tools/rustduck.md)
 
+## DDoS botnet
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
+
 ## DDoS-for-hire
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## dead drop
@@ -5195,6 +5223,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DEWMODE
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+
+## DGA
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## DIAMONDBACK
 - [Turla](../actors/turla.md)
@@ -5388,6 +5419,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Eclipse
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
+## Ed25519
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
+
 ## edge appliance
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
@@ -5490,6 +5524,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## encrypted C2
 - [TaskWeaver](../tools/taskweaver.md)
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## endpoint management
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
@@ -6782,6 +6817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## IoT botnet
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [RustDuck](../tools/rustduck.md)
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## IP-in-IP
@@ -6986,6 +7022,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Kairos
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 
+## Kaitori
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
+
 ## Kali365
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 
@@ -7009,6 +7048,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Keitaro
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
+## Keksec
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## Kemp LoadMaster
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
@@ -7291,6 +7333,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LLM-assisted malware
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## LLM-driven intrusion
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
@@ -8608,6 +8651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -8827,6 +8871,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
@@ -8899,6 +8944,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## P2P
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
+## P2P C2
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## package masquerading
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
@@ -9262,6 +9310,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PolinRider
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
+
+## Poly1305
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## polyfill
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
@@ -11188,6 +11239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Telnet brute force
 - [RustDuck](../tools/rustduck.md)
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## Telnyx
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -11410,6 +11462,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Turla collaboration
 - [Gamaredon](../actors/gamaredon.md)
 
+## TuxBot
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
+
+## TuxBot v3 Evolution
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
+
 ## Twilio
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
@@ -11570,6 +11628,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## United States
@@ -12173,6 +12232,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## X-WEBAUTH-USER
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+
+## X25519
+- [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## X3D MINER
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)

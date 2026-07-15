@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [TuxBot v3 Evolution IoT botnet framework](ops/tuxbot-v3-evolution-iot-botnet.md)
 - [Patriot Bait AI-assisted C2 botnet](ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [AI browser-extension confused deputy: Claude for Chrome cross-extension steering](patterns/ai-browser-extension-confused-deputy.md)
