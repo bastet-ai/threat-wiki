@@ -3,7 +3,7 @@
 Generated from page-level `## Tags` sections. Each tag below links to the pages that currently use it.
 
 ## All tags
-- [.NET](#net) (6)
+- [.NET](#net) (7)
 - [.NET malware](#net-malware) (6)
 - [.pth](#pth) (1)
 - [/accessv2](#accessv2) (1)
@@ -686,7 +686,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DEV-0206](#dev-0206) (1)
 - [developer credential theft](#developer-credential-theft) (2)
 - [developer credentials](#developer-credentials) (1)
-- [developer endpoints](#developer-endpoints) (1)
+- [developer endpoints](#developer-endpoints) (2)
 - [Developer ID abuse](#developer-id-abuse) (1)
 - [developer identity](#developer-identity) (1)
 - [developer machines](#developer-machines) (9)
@@ -720,6 +720,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS C2](#dns-c2) (2)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (2)
+- [DNS-over-HTTPS](#dns-over-https) (1)
 - [Docker](#docker) (1)
 - [Docker credentials](#docker-credentials) (1)
 - [Docker images](#docker-images) (1)
@@ -730,8 +731,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [domestic espionage](#domestic-espionage) (1)
 - [dormant accounts](#dormant-accounts) (1)
 - [DotNetNuke](#dotnetnuke) (1)
+- [DotnetTool](#dotnettool) (1)
 - [double extortion](#double-extortion) (1)
 - [downgrade risk](#downgrade-risk) (1)
+- [downloader](#downloader) (1)
 - [DPAPI](#dpapi) (2)
 - [DPAPILoader](#dpapiloader) (1)
 - [DPRK](#dprk) (4)
@@ -922,6 +925,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](#gamaredon) (3)
 - [Gamaredon collaboration](#gamaredon-collaboration) (1)
 - [gambling industry targeting](#gambling-industry-targeting) (1)
+- [game cheats](#game-cheats) (1)
 - [GammaLoad](#gammaload) (1)
 - [GammaPhish](#gammaphish) (1)
 - [GammaSteel](#gammasteel) (1)
@@ -988,6 +992,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Play](#google-play) (1)
 - [Google Play Protect](#google-play-protect) (1)
 - [Google redirect abuse](#google-redirect-abuse) (1)
+- [Google Sheets](#google-sheets) (1)
 - [Google Stitch](#google-stitch) (1)
 - [Google Threat Intelligence Group](#google-threat-intelligence-group) (2)
 - [Google Workspace](#google-workspace) (1)
@@ -1039,6 +1044,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HONESTCUE](#honestcue) (1)
 - [hospitality targeting](#hospitality-targeting) (1)
 - [Host Radar](#host-radar) (1)
+- [host surveillance](#host-surveillance) (1)
 - [hosting control plane](#hosting-control-plane) (1)
 - [hosting provider](#hosting-provider) (1)
 - [hosting providers](#hosting-providers) (1)
@@ -1498,7 +1504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NTFS ADS](#ntfs-ads) (2)
 - [NTLM](#ntlm) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
-- [NuGet](#nuget) (2)
+- [NuGet](#nuget) (3)
 - [Nuitka](#nuitka) (1)
 - [null-byte padding](#null-byte-padding) (1)
 - [NVGRE](#nvgre) (1)
@@ -1550,7 +1556,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operations](#operations) (195)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (217)
+- [ops](#ops) (218)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1570,7 +1576,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OYSTERSHUCK](#oystershuck) (1)
 - [P2P](#p2p) (1)
 - [package masquerading](#package-masquerading) (1)
-- [package registry](#package-registry) (6)
+- [package registry](#package-registry) (7)
 - [package registry abuse](#package-registry-abuse) (1)
 - [package registry credentials](#package-registry-credentials) (1)
 - [package scanning](#package-scanning) (1)
@@ -1735,7 +1741,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PUP](#pup) (1)
 - [PureLogs Stealer](#purelogs-stealer) (1)
 - [pwn-request](#pwn-request) (1)
-- [PyArmor](#pyarmor) (2)
+- [PyArmor](#pyarmor) (3)
+- [PyInstaller](#pyinstaller) (1)
 - [PyPI](#pypi) (11)
 - [Python](#python) (8)
 - [Python extension modules](#python-extension-modules) (1)
@@ -1896,7 +1903,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [screen capture](#screen-capture) (2)
 - [ScreenConnect](#screenconnect) (4)
 - [screenshot capture](#screenshot-capture) (1)
-- [screenshot theft](#screenshot-theft) (2)
+- [screenshot theft](#screenshot-theft) (3)
 - [script-injection](#script-injection) (1)
 - [SD-WAN](#sd-wan) (1)
 - [search hijacking](#search-hijacking) (1)
@@ -1996,7 +2003,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [social engineering](#social-engineering) (14)
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (4)
-- [Socket Security](#socket-security) (2)
+- [Socket Security](#socket-security) (3)
 - [Socket Security Research](#socket-security-research) (1)
 - [Socket.IO](#socketio) (1)
 - [SOCKS tunneling](#socks-tunneling) (1)
@@ -2087,7 +2094,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [SUMMIT](#summit) (3)
 - [Supabase](#supabase) (1)
-- [supply chain](#supply-chain) (11)
+- [supply chain](#supply-chain) (12)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (83)
 - [surveillance](#surveillance) (1)
@@ -2134,7 +2141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telecom-impersonation](#telecom-impersonation) (1)
 - [telecommunications](#telecommunications) (1)
 - [Telegra.ph](#telegraph) (1)
-- [Telegram](#telegram) (7)
+- [Telegram](#telegram) (8)
 - [telegram](#telegram) (1)
 - [Telegram bot](#telegram-bot) (2)
 - [Telegram C2](#telegram-c2) (3)
@@ -2360,7 +2367,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Forms](#windows-forms) (1)
-- [Windows malware](#windows-malware) (6)
+- [Windows malware](#windows-malware) (7)
 - [Windows persistence](#windows-persistence) (1)
 - [Windows Run dialog](#windows-run-dialog) (1)
 - [Windows Script Host](#windows-script-host) (2)
@@ -2426,6 +2433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## .NET
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [STOCKSTAY](../tools/stockstay.md)
@@ -5090,6 +5098,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## developer endpoints
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
 ## Developer ID abuse
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
@@ -5248,6 +5257,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LabubaRAT](../tools/labubarat.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
+## DNS-over-HTTPS
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
+
 ## Docker
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 
@@ -5280,11 +5292,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DotNetNuke
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 
+## DotnetTool
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
+
 ## double extortion
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## downgrade risk
 - [UNC6508](../actors/unc6508.md)
+
+## downloader
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
 ## DPAPI
 - [Cavern](../tools/cavern.md)
@@ -5989,6 +6007,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## gambling industry targeting
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
 
+## game cheats
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
+
 ## GammaLoad
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
@@ -6240,6 +6261,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Google redirect abuse
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 
+## Google Sheets
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
+
 ## Google Stitch
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 
@@ -6427,6 +6451,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Host Radar
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
+## host surveillance
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
 ## hosting control plane
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
@@ -8202,6 +8229,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NuGet
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## Nuitka
@@ -8709,6 +8737,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -8858,6 +8887,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
@@ -9516,6 +9546,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PyArmor
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
+
+## PyInstaller
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
 ## PyPI
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -10163,6 +10197,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## screenshot theft
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
 ## script-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -10519,6 +10554,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Socket Security
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
 ## Socket Security Research
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
@@ -10839,6 +10875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
@@ -11093,6 +11130,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## telegram
@@ -11994,6 +12032,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrownX](../tools/crownx.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [MODBEACON](../tools/modbeacon.md)
+- [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 

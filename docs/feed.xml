@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>NuGet game-cheat DotnetTool pepesoft campaign</title>
+      <link>https://threat.wiki/ops/nuget-game-cheat-dotnettool-pepesoft-campaign/</link>
+      <description>Added Socket coverage of 11 malicious NuGet DotnetTool packages posing as game cheats and panels. The packages run .NET downloaders that stage pepesoft.exe from pepegit666 GitHub Releases or Hugging Face paths, use DNS-over-HTTPS for GitHub resolution, request clock-resync elevation in most samples, and launch PyInstaller / PyArmor Python payloads with Google Sheets telemetry, hardware-ID binding, proxy fallback, and Telegram screenshot-control paths in direct-bytecode builds.</description>
+      <pubDate>Wed, 15 Jul 2026 05:25:48 GMT</pubDate>
+      <guid>https://threat.wiki/ops/nuget-game-cheat-dotnettool-pepesoft-campaign/</guid>
+    </item>
+    <item>
       <title>LabubaRAT Rust remote-access trojan</title>
       <link>https://threat.wiki/tools/labubarat/</link>
       <description>Added Blackpoint Cyber / The Hacker News coverage of LabubaRAT, a Rust-based Windows RAT masquerading as NVIDIA runtime software. The page captures runtime-supplied C2 configuration, local SQLite state, HTTPS / WebView2 / DNS-tunneling communications, security-tool and browser profiling, SOCKS5 proxying, command / PowerShell / JavaScript execution, screenshot capture, and NVIDIA-impersonation defender hunts.</description>
