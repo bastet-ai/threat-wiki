@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>AsyncAPI Miasma: Microsoft pwn-request root-cause and Defender detection update</title>
+      <link>https://threat.wiki/ops/asyncapi-generator-next-branch-miasma-compromise/#microsoft-july-15-root-cause-and-detection-update</link>
+      <description>Updated AsyncAPI Miasma coverage with Microsoft Threat Intelligence's July 15 analysis: a pull_request_target pwn-request exposed the asyncapi-bot PAT, unauthorized commits reached auto-publish branches, and legitimate OIDC release workflows produced valid npm provenance under npm-oidc-no-reply@github[.]com. The update also captures the staged publish timeline, Yarn-cache observation, M-RED-TEAM v6.4 / miasma-train-p1 details, Defender detections Trojan:JS/MiasmStealer.SC and Trojan:Script/Supychain.A, and response guidance for cache purge, sync.js hunts, C2 blocking, and credential rotation after import-time execution.</description>
+      <pubDate>Thu, 16 Jul 2026 03:26:55 GMT</pubDate>
+      <guid>https://threat.wiki/ops/asyncapi-generator-next-branch-miasma-compromise/#microsoft-july-15-root-cause-and-detection-update</guid>
+    </item>
+    <item>
       <title>OkoBot cryptocurrency-wallet malware framework</title>
       <link>https://threat.wiki/ops/okobot-cryptocurrency-wallet-framework/</link>
       <description>Added Kaspersky GReAT coverage of OkoBot, an active Windows malware framework that starts with TookPS, uses SSH-bot payload delivery, and includes SeedHunter process injection into Trezor Suite, Ledger Wallet, and Ledger Live to collect seed phrases from inside legitimate wallet applications. The page captures USB-gated prompting, moonsand[.]store C2, artifact exfiltration, affected-country telemetry, and wallet compromise response guidance.</description>

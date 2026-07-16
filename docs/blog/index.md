@@ -4,6 +4,7 @@ Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+- [AsyncAPI Miasma: Microsoft pwn-request root-cause and Defender detection update](../ops/asyncapi-generator-next-branch-miasma-compromise.md#microsoft-july-15-root-cause-and-detection-update)
 - [AsyncAPI Miasma `miasma-train-p1`: Unit 42 AI/editor-driven execution and canary-propagation update](../ops/asyncapi-generator-next-branch-miasma-compromise.md#unit-42-july-15-follow-up)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)

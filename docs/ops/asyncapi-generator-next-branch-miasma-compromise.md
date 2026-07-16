@@ -113,6 +113,25 @@ Additional Unit 42 pivots:
 | Propagation controls | Self-attributed config uses a hard-coded generation cap `maxGen = 4`; default canary rollout initially infects 5% of potential targets before scaling in waves of 100. |
 | Attribution caveat | Unit 42 noted hosting-pattern overlap with TeamPCP infrastructure, including AS43641 / VSYS-AMS, but kept attribution open because public Mini Shai-Hulud tooling makes copycat reuse plausible. |
 
+## Microsoft July 15 root-cause and detection update
+Microsoft Threat Intelligence published a July 15 AsyncAPI analysis that confirms the five affected package versions and adds a concrete root-cause path: a GitHub Actions **pwn request** in `asyncapi/generator` used a misconfigured `pull_request_target` workflow to execute attacker-controlled pull-request code, expose the `asyncapi-bot` personal access token, and enable unauthorized pushes to auto-publish branches. Legitimate OIDC release workflows then published the poisoned packages as `npm-oidc-no-reply@github[.]com`, so valid provenance signatures pointed to unauthorized source commits rather than to a clean review path.
+
+Microsoft's timeline matches the public package set and highlights the staged blast-radius expansion: the generator-family packages were republished around 07:10 UTC, `@asyncapi/specs@6.11.2-alpha.1` followed at 08:06:20 UTC, and the stable `@asyncapi/specs@6.11.2` release with a byte-identical payload landed at 08:30:09 UTC. Microsoft also observed the first downstream stable-tarball fetch into a Yarn cache at 08:49:22 UTC, reinforcing that Yarn and npm cache purges matter in addition to lockfile review.
+
+Microsoft's malware analysis converges with Wiz and JFrog on `M-RED-TEAM v6.4` / `miasma-train-p1` but provides several defender-useful specifics:
+
+| Area | Microsoft-reported detail |
+| --- | --- |
+| Trigger model | No `preinstall`, `install`, or `postinstall` hooks; execution happens when affected modules are imported or required. `npm install --ignore-scripts` does not neutralize this variant. |
+| Loader behavior | The imported first stage spawns a detached hidden `node` child process with ignored stdio and `windowsHide: true`, then fetches `sync.js` from IPFS into OS-specific `NodeJS` masquerade paths. |
+| Decryption | Stage two decrypts an approximately 8.2 MB bundle through static embedded key material, including HKDF-SHA256 and AES-256-GCM, then ROT-94-de-rotates and evaluates the runtime. |
+| Active modules | Persistence, C2, data return paths, and decentralized fallback channels were active. |
+| Implemented but disabled | Credential harvest, encrypted exfiltration, propagation, metamorphic generation, AI-tool poisoning, recon, and sandbox-evasion modules were present but disabled in the analyzed build. |
+| Platform persistence | Windows `HKCU` Run value `miasma-monitor`, Linux `miasma-monitor.service`, and macOS shell RC injection via `.zshrc`, `.bashrc`, or `.bash_profile`. |
+| Detections | Microsoft Defender Antivirus detects artifacts as `Trojan:JS/MiasmStealer.SC` and `Trojan:Script/Supychain.A`; Microsoft Defender for Endpoint covers detached Node.js spawning, IPFS retrieval, and persistence behavior. |
+
+Operationally, Microsoft recommends removing all five affected versions, purging npm and Yarn caches, hunting for `sync.js` in the `NodeJS` masquerade directories, blocking `85.137.53[.]71` on ports `8080`, `8081`, and `8091`, and rotating credentials reachable from any environment that imported the compromised packages. That import condition matters: dependency resolution alone may not have executed the loader, but any application, build, code generator, schema parser, IDE, or AI assistant that imported the module should be handled as host compromise until ruled out.
+
 Additional Wiz indicators:
 
 | Type | Indicator | Notes |
@@ -181,3 +200,4 @@ The payload self-identifies with Miasma markers in StepSecurity and Wiz analysis
 - Wiz Research: [https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions](https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions)
 - JFrog Security Research: [https://research.jfrog.com/post/miasma-worm-returns-to-npm/](https://research.jfrog.com/post/miasma-worm-returns-to-npm/)
 - Unit 42: [https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
+- Microsoft Security Blog: [https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/](https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/)
