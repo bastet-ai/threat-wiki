@@ -47,5 +47,5 @@ In June 2026, Kaspersky documented ToddyCat's **Umbrij** tool and **Shadow Token
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 
 ## Sources
-- Kaspersky Securelist: <https://securelist.com/toddycat-apt-umbrij-tool-and-oauth/120251/>
-- The Hacker News: <https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html>
+- [Kaspersky Securelist](https://securelist.com/toddycat-apt-umbrij-tool-and-oauth/120251/)
+- [The Hacker News](https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html)

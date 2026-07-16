@@ -39,5 +39,5 @@ For threat.wiki tracking, the current high-signal update is Acronis Threat Resea
 - Preserve both endpoint and SaaS evidence. Cloud-storage C2 can leave decisive traces in OAuth clients, refresh-token use, folder creation, file upload/download activity, and tenant audit logs.
 
 ## Sources
-- Acronis Threat Research Unit: <https://www.acronis.com/en/tru/posts/mustang-panda-targets-indias-government-and-energy-sectors/>
-- MITRE ATT&CK group profile: <https://attack.mitre.org/groups/G0129/>
+- [Acronis Threat Research Unit](https://www.acronis.com/en/tru/posts/mustang-panda-targets-indias-government-and-energy-sectors/)
+- [MITRE ATT&CK group profile](https://attack.mitre.org/groups/G0129/)

@@ -61,7 +61,7 @@ The highest-signal component is **SeedHunter**: it monitors for Trezor Suite, Le
 - [Injective SDK npm wallet stealer](injective-sdk-npm-wallet-stealer.md)
 
 ## Sources
-- Kaspersky Securelist, July 15, 2026: <https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/>
-- The Hacker News, July 15, 2026: <https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html>
-- Ledger recovery phrase safety guidance: <https://support.ledger.com/article/360023518653-zd>
-- Trezor recovery guidance: <https://trezor.io/guides/backups-recovery/general-standards/recover-wallet-on-model-one>
+- [Kaspersky Securelist, July 15, 2026](https://securelist.com/okobot-framework-targets-cryptocurrency-wallets/120660/)
+- [The Hacker News, July 15, 2026](https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html)
+- [Ledger recovery phrase safety guidance](https://support.ledger.com/article/360023518653-zd)
+- [Trezor recovery guidance](https://trezor.io/guides/backups-recovery/general-standards/recover-wallet-on-model-one)

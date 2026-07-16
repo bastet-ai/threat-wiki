@@ -48,5 +48,5 @@ Trend Micro says the cluster targets Ukrainian military innovation centers, mili
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## Sources
-- Trend Micro: <https://www.trendmicro.com/en_us/research/26/f/old-winrar-flaw-fuels-attacks-on-ukraine.html>
-- The Hacker News summary: <https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html>
+- [Trend Micro](https://www.trendmicro.com/en_us/research/26/f/old-winrar-flaw-fuels-attacks-on-ukraine.html)
+- [The Hacker News summary](https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html)

@@ -62,5 +62,5 @@ Treat this as a source-control exposure pattern. Most requests can look benign b
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## Sources
-- Datadog Security Labs: <https://securitylabs.datadoghq.com/articles/coordinated-github-api-enumeration/>
-- The Hacker News: <https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html>
+- [Datadog Security Labs](https://securitylabs.datadoghq.com/articles/coordinated-github-api-enumeration/)
+- [The Hacker News](https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html)

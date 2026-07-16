@@ -123,6 +123,6 @@ Cybercrime-overlap indicators include possible use of a unique ISO builder linke
 - [Ghostwriter](ghostwriter.md)
 
 ## Sources
-- WithSecure Labs: <https://labs.withsecure.com/publications/greyvibe>
-- WithSecure GREYVIBE IOCs: <https://github.com/WithSecureLabs/iocs/tree/master/GREYVIBE/>
-- The Hacker News summary: <https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html>
+- [WithSecure Labs](https://labs.withsecure.com/publications/greyvibe)
+- [WithSecure GREYVIBE IOCs](https://github.com/WithSecureLabs/iocs/tree/master/GREYVIBE/)
+- [The Hacker News summary](https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html)

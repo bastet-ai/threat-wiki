@@ -65,5 +65,5 @@ The campaign is durable for defenders because it shows how legacy or poorly cove
 - [FortiBleed Fortinet credential exposure](fortibleed-fortinet-credential-exposure.md)
 
 ## Sources
-- Huntress: <https://www.huntress.com/blog/lshiy-password-spray-attack>
-- The Hacker News: <https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html>
+- [Huntress](https://www.huntress.com/blog/lshiy-password-spray-attack)
+- [The Hacker News](https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html)

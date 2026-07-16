@@ -104,6 +104,6 @@ CrowdStrike assesses the operators as likely Russia-based cybercriminals. Public
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## Sources
-- CrowdStrike: <https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/>
-- Socket: <https://socket.dev/blog/glasswasm-malware-open-vsx-extensions>
-- The Hacker News: <https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html>
+- [CrowdStrike](https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/)
+- [Socket](https://socket.dev/blog/glasswasm-malware-open-vsx-extensions)
+- [The Hacker News](https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html)

@@ -93,5 +93,5 @@ JFrog published these durable pivots:
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## Sources
-- JFrog Security Research: <https://research.jfrog.com/post/lucide-proxy-npm-malware-campaign/>
-- The Hacker News: <https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html>
+- [JFrog Security Research](https://research.jfrog.com/post/lucide-proxy-npm-malware-campaign/)
+- [The Hacker News](https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html)

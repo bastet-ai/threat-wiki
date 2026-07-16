@@ -64,4 +64,4 @@ The durable intelligence value is the AI-service exposure pattern: unauthenticat
 - [ROADtools](../tools/roadtools.md)
 
 ## Sources
-- Akamai Security Research: <https://www.akamai.com/blog/security-research/stealthy-p2p-cryptominer-ollama-endpoints>
+- [Akamai Security Research](https://www.akamai.com/blog/security-research/stealthy-p2p-cryptominer-ollama-endpoints)

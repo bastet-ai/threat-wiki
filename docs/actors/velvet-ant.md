@@ -49,6 +49,6 @@ This profile is intentionally sourced to Sygnia's public reporting. Use it to co
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
 ## Sources
-- Sygnia: <https://www.sygnia.co/blog/operation-highland-velvet-ant/>
-- Sygnia Cisco NX-OS report: <https://www.sygnia.co/blog/china-threat-group-velvet-ant-cisco-zero-day/>
-- The Hacker News summary: <https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html>
+- [Sygnia](https://www.sygnia.co/blog/operation-highland-velvet-ant/)
+- [Sygnia Cisco NX-OS report](https://www.sygnia.co/blog/china-threat-group-velvet-ant-cisco-zero-day/)
+- [The Hacker News summary](https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html)

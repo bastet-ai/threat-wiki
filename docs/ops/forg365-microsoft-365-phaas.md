@@ -66,8 +66,8 @@ The durable defender lesson is that device-code authentication and session-trans
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
 ## Sources
-- ZeroBEC: <https://zerobec.com/blog/inside-forg365-telegram-distributed-sneaky2fa-style-phaas>
-- The Hacker News: <https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html>
-- Microsoft Storm-2372 device-code phishing report: <https://www.microsoft.com/en-us/security/blog/2025/02/13/storm-2372-conducts-device-code-phishing-campaign/>
-- Microsoft AI-enabled device-code phishing report: <https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/>
-- Microsoft device-code Conditional Access guidance: <https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-teams-devices-device-code-flow>
+- [ZeroBEC](https://zerobec.com/blog/inside-forg365-telegram-distributed-sneaky2fa-style-phaas)
+- [The Hacker News](https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html)
+- [Microsoft Storm-2372 device-code phishing report](https://www.microsoft.com/en-us/security/blog/2025/02/13/storm-2372-conducts-device-code-phishing-campaign/)
+- [Microsoft AI-enabled device-code phishing report](https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/)
+- [Microsoft device-code Conditional Access guidance](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-teams-devices-device-code-flow)

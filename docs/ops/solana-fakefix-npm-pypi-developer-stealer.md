@@ -115,4 +115,4 @@ The durable defender lesson is that crypto-developer package lures often combine
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Sources
-- JFrog Security Research: <https://research.jfrog.com/post/solana-fakefix/>
+- [JFrog Security Research](https://research.jfrog.com/post/solana-fakefix/)

@@ -91,7 +91,7 @@ Trend Micro's June 2026 follow-up says Earth Dahu / Gamaredon continued using Wi
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
 ## Sources
-- ESET WeLiveSecurity: <https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances/>
-- Trend Micro: <https://www.trendmicro.com/en_us/research/26/f/old-winrar-flaw-fuels-attacks-on-ukraine.html>
-- Sekoia: <https://blog.sekoia.io/fsbs-matryoshka-1-3-gamaredons-gifts-that-keeps-unpacking-gammaphish-and-gammaworm/>
-- The Hacker News summary: <https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html>
+- [ESET WeLiveSecurity](https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances/)
+- [Trend Micro](https://www.trendmicro.com/en_us/research/26/f/old-winrar-flaw-fuels-attacks-on-ukraine.html)
+- [Sekoia](https://blog.sekoia.io/fsbs-matryoshka-1-3-gamaredons-gifts-that-keeps-unpacking-gammaphish-and-gammaworm/)
+- [The Hacker News summary](https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html)

@@ -85,5 +85,5 @@ The package names were tailored to cloud-platform, ML-workspace, car-loan, depos
 - [js-logger-pack Hugging Face exfiltration campaign](js-logger-pack-hugging-face-exfiltration.md)
 
 ## Sources
-- SafeDep: <https://safedep.io/oob-moika-tech-dependency-confusion-campaign/>
-- Microsoft: <https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/>
+- [SafeDep](https://safedep.io/oob-moika-tech-dependency-confusion-campaign/)
+- [Microsoft](https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/)

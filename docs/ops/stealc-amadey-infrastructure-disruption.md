@@ -90,4 +90,4 @@ Treat this as both malware-family reference and intrusion-prevention guidance. T
 - [Operation Endgame SocGholish disruption](operation-endgame-socgholish-disruption.md)
 
 ## Sources
-- Microsoft Security Blog: <https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/>
+- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/)

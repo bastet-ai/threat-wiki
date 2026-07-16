@@ -102,4 +102,4 @@ Treat any developer workstation or CI runner that installed one of the payload v
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Sources
-- SafeDep: <https://safedep.io/wshu-net-npm-credential-stealer-campaign>
+- [SafeDep](https://safedep.io/wshu-net-npm-credential-stealer-campaign)

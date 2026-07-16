@@ -62,8 +62,8 @@ Public reporting attributes the campaign to **TeamPCP**. This page intentionally
 - During scoping, inventory every `aquasecurity/trivy-action` use and identify runs between **March 19, 2026 17:43 UTC** and remediation, especially runs using mutable tags rather than full commit SHAs
 
 ## References
-- Wiz: <https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack>
-- Aikido: <https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise>
-- Socket: <https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise>
-- Boost Security: <https://labs.boostsecurity.io/articles/20-days-later-trivy-compromise-act-ii/>
-- StepSecurity: <https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions>
+- [Wiz](https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack)
+- [Aikido](https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise)
+- [Socket](https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise)
+- [Boost Security](https://labs.boostsecurity.io/articles/20-days-later-trivy-compromise-act-ii/)
+- [StepSecurity](https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions)

@@ -89,4 +89,4 @@ Socket reported that Chrome version `1.0`, published December 22, 2025, behaved 
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 
 ## Sources
-- Socket: <https://socket.dev/blog/chrome-and-firefox-extensions-free-vpns-add-clipboard-stealers>
+- [Socket](https://socket.dev/blog/chrome-and-firefox-extensions-free-vpns-add-clipboard-stealers)

@@ -89,4 +89,4 @@ Microsoft explicitly says the activity is abuse of AI brand names as lures, not 
 - [Microsoft Teams external-chat phishing](microsoft-teams-external-chat-phishing.md)
 
 ## Sources
-- Microsoft Security Blog: <https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/>
+- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/)

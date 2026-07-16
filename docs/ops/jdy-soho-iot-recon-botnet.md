@@ -64,6 +64,6 @@ JDY is best treated as reconnaissance infrastructure rather than an end-stage im
 - Keep JDY as infrastructure / capability coverage unless future public reporting attributes operation of the botnet to a specific named group with stronger sourcing.
 
 ## Sources
-- Lumen Black Lotus Labs: <https://www.lumen.com/blog/en-us/expanded-jdy-iot-and-soho-botnet-enables-rapid-vulnerability-exploitation>
-- U.K. NCSC guidance cited by Black Lotus Labs: <https://www.ncsc.gov.uk/guidance/defending-organisations-against-covert-networks-of-compromised-edge-devices>
-- The Hacker News summary: <https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html>
+- [Lumen Black Lotus Labs](https://www.lumen.com/blog/en-us/expanded-jdy-iot-and-soho-botnet-enables-rapid-vulnerability-exploitation)
+- [U.K. NCSC guidance cited by Black Lotus Labs](https://www.ncsc.gov.uk/guidance/defending-organisations-against-covert-networks-of-compromised-edge-devices)
+- [The Hacker News summary](https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html)

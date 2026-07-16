@@ -68,5 +68,5 @@ For the June 2026 lawsuit and announcement, Google reported:
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## Sources
-- Google: <https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/>
-- Google Affirmative Litigation: <https://affirmativelitigation.withgoogle.com/>
+- [Google](https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/)
+- [Google Affirmative Litigation](https://affirmativelitigation.withgoogle.com/)

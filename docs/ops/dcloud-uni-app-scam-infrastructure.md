@@ -80,5 +80,5 @@ Use Infoblox's source post and DNS intelligence for active domain sets; this pag
 - [Fake-reputation crypto clipboard hijacker](fake-reputation-crypto-clipboard-hijacker.md)
 
 ## Sources
-- Infoblox Threat Intel: <https://www.infoblox.com/blog/threat-intelligence/from-san-pedro-to-salinas-how-a-chinese-framework-dcloud-uni-app-powers-a-global-scam-economy/>
-- The Hacker News summary: <https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html>
+- [Infoblox Threat Intel](https://www.infoblox.com/blog/threat-intelligence/from-san-pedro-to-salinas-how-a-chinese-framework-dcloud-uni-app-powers-a-global-scam-economy/)
+- [The Hacker News summary](https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html)

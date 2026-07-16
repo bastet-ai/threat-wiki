@@ -99,7 +99,7 @@ For defenders, this older but previously unreflected reporting is useful because
 - [ROADtools](../tools/roadtools.md)
 
 ## Sources
-- Broadcom / Symantec and Carbon Black: <https://www.security.com/threat-intelligence/iran-seedworm-electronics>
-- Broadcom / Symantec and Carbon Black: <https://www.security.com/threat-intelligence/iran-cyber-threat-activity-us>
-- The Hacker News summary: <https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html>
-- Group-IB Operation Olalampo: <https://www.group-ib.com/blog/muddywater-operation-olalampo/>
+- [Broadcom / Symantec and Carbon Black](https://www.security.com/threat-intelligence/iran-seedworm-electronics)
+- [Broadcom / Symantec and Carbon Black](https://www.security.com/threat-intelligence/iran-cyber-threat-activity-us)
+- [The Hacker News summary](https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html)
+- [Group-IB Operation Olalampo](https://www.group-ib.com/blog/muddywater-operation-olalampo/)

@@ -65,6 +65,6 @@ The campaign is notable because the delivery path starts as email but can become
 - [Turla STOCKSTAY backdoor operations](turla-stockstay-backdoor-operations.md)
 
 ## Sources
-- The Hacker News, citing Proofpoint reporting shared with THN: <https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html>
-- Roundcube CVE-2024-42009 CVE record: <https://www.cve.org/CVERecord?id=CVE-2024-42009>
-- Roundcube CVE-2025-49113 CVE record: <https://www.cve.org/CVERecord?id=CVE-2025-49113>
+- [The Hacker News, citing Proofpoint reporting shared with THN](https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html)
+- [Roundcube CVE-2024-42009 CVE record](https://www.cve.org/CVERecord?id=CVE-2024-42009)
+- [Roundcube CVE-2025-49113 CVE record](https://www.cve.org/CVERecord?id=CVE-2025-49113)

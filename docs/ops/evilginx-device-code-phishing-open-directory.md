@@ -66,9 +66,9 @@ The cluster is useful defensively because it places two different identity-phish
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
 ## Sources
-- Lexfo: <https://blog.lexfo.fr/opendir-to-phishing-operator.html>
-- The Hacker News: <https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html>
-- Microsoft device-code Conditional Access guidance: <https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-teams-devices-device-code-flow>
-- Microsoft Storm-2372 device-code phishing report: <https://www.microsoft.com/en-us/security/blog/2025/02/13/storm-2372-conducts-device-code-phishing-campaign/>
-- Microsoft AI-enabled device-code phishing report: <https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/>
-- SOCRadar The Quarry PhaaS report: <https://socradar.io/blog/the-quarry-phaas-irs-ssa-phishing/>
+- [Lexfo](https://blog.lexfo.fr/opendir-to-phishing-operator.html)
+- [The Hacker News](https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html)
+- [Microsoft device-code Conditional Access guidance](https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-teams-devices-device-code-flow)
+- [Microsoft Storm-2372 device-code phishing report](https://www.microsoft.com/en-us/security/blog/2025/02/13/storm-2372-conducts-device-code-phishing-campaign/)
+- [Microsoft AI-enabled device-code phishing report](https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/)
+- [SOCRadar The Quarry PhaaS report](https://socradar.io/blog/the-quarry-phaas-irs-ssa-phishing/)

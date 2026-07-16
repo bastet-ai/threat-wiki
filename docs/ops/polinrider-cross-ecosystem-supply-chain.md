@@ -87,5 +87,5 @@ Observed follow-on payload capabilities include command execution, `socket.io-cl
 - [Famous Chollima Packagist dev-branch loader](famous-chollima-packagist-dev-branch-loader.md)
 
 ## Sources
-- Socket: <https://socket.dev/blog/polinrider-north-korea-linked-supply-chain-campaign-expands>
-- Socket live campaign tracker: <https://socket.dev/supply-chain-attacks/polinrider>
+- [Socket](https://socket.dev/blog/polinrider-north-korea-linked-supply-chain-campaign-expands)
+- [Socket live campaign tracker](https://socket.dev/supply-chain-attacks/polinrider)

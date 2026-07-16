@@ -84,4 +84,4 @@ Hunt.io's listed domains include these examples; keep them defanged in notes and
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## Sources
-- Hunt.io: <https://hunt.io/blog/fifa-world-cup-2026-ticket-phishing-kit>
+- [Hunt.io](https://hunt.io/blog/fifa-world-cup-2026-ticket-phishing-kit)

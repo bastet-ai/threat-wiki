@@ -68,5 +68,5 @@ Microsoft did not attribute the activity to a named actor. Track it as a financi
 - [TamperedChef-style productivity malware clusters](tamperedchef-productivity-malware-clusters.md)
 
 ## Sources
-- Microsoft Security Blog: <https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/>
-- The Hacker News summary: <https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html>
+- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/)
+- [The Hacker News summary](https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html)

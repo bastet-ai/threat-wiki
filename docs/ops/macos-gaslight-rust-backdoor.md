@@ -128,5 +128,5 @@ SentinelOne assesses with high confidence that Gaslight belongs to a DPRK-aligne
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
 ## Sources
-- SentinelOne SentinelLABS: <https://www.sentinelone.com/labs/macos-gaslight-rust-backdoor-turns-prompt-injection-on-the-analyst-not-the-sandbox/>
-- The Hacker News: <https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html>
+- [SentinelOne SentinelLABS](https://www.sentinelone.com/labs/macos-gaslight-rust-backdoor-turns-prompt-injection-on-the-analyst-not-the-sandbox/)
+- [The Hacker News](https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html)

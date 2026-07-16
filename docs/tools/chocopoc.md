@@ -61,5 +61,5 @@ Treat these as historical public reporting pivots; confirm against the original 
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
 ## Sources
-- YesWeHack / Sekoia: <https://www.yeswehack.com/news/chocopocs-vulnerability-researchers-trojanised-exploits>
-- The Hacker News: <https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html>
+- [YesWeHack / Sekoia](https://www.yeswehack.com/news/chocopocs-vulnerability-researchers-trojanised-exploits)
+- [The Hacker News](https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html)

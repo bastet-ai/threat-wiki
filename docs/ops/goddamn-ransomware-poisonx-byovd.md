@@ -86,6 +86,6 @@ The durable signal is the driver and tooling combination. Symantec says PoisonX 
 - [Storm-2603 parallel SharePoint ransomware intrusion](storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## Sources
-- Broadcom / Symantec Threat Hunter Team: <https://www.security.com/threat-intelligence/goddamn-ransomware-beast-rebrand>
-- The Hacker News: <https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html>
-- Xcitium Threat Labs: <https://threatlabsnews.xcitium.com/blog/reverse-engineering-a-0-day-poisonx-byovd-driver-bypasses-crowdstrike-edr/>
+- [Broadcom / Symantec Threat Hunter Team](https://www.security.com/threat-intelligence/goddamn-ransomware-beast-rebrand)
+- [The Hacker News](https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html)
+- [Xcitium Threat Labs](https://threatlabsnews.xcitium.com/blog/reverse-engineering-a-0-day-poisonx-byovd-driver-bypasses-crowdstrike-edr/)

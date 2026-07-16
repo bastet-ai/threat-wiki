@@ -90,10 +90,10 @@ Proofpoint's Operation Endgame writeup is useful for defender triage because it 
 - [0ktapus phishing campaign](0ktapus-phishing-campaign.md)
 
 ## Sources
-- Dutch Police: <https://www.politie.nl/en/news/2026/juni/18/11-international-law-enforcement-initiate-hunt-on-malware-group-socgholish.html>
-- Operation Endgame: <https://operation-endgame.com/>
-- RCMP: <https://rcmp.ca/en/news/2026/06/4354276>
-- Shadowserver: <https://www.shadowserver.org/news/socgholish-compromised-wordpress-sites-special-report/>
-- Proofpoint: <https://www.proofpoint.com/us/blog/threat-insight/sayonara-socgholish-operation-endgame-disrupts-major-cybercrime-operation>
-- FBI IC3 Public Service Announcement on malicious traffic distribution systems: <https://www.ic3.gov/PSA/2026/PSA260618>
-- The Hacker News pointer: <https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html>
+- [Dutch Police](https://www.politie.nl/en/news/2026/juni/18/11-international-law-enforcement-initiate-hunt-on-malware-group-socgholish.html)
+- [Operation Endgame](https://operation-endgame.com/)
+- [RCMP](https://rcmp.ca/en/news/2026/06/4354276)
+- [Shadowserver](https://www.shadowserver.org/news/socgholish-compromised-wordpress-sites-special-report/)
+- [Proofpoint](https://www.proofpoint.com/us/blog/threat-insight/sayonara-socgholish-operation-endgame-disrupts-major-cybercrime-operation)
+- [FBI IC3 Public Service Announcement on malicious traffic distribution systems](https://www.ic3.gov/PSA/2026/PSA260618)
+- [The Hacker News pointer](https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html)

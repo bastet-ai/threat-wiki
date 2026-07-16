@@ -70,9 +70,9 @@ Because there is no standalone `Orgs` section in the current taxonomy, the key o
 - GitHub's [reviewdog advisory](https://github.com/advisories/ghsa-qmg3-hpqr-gqvc) and the [maintainer notice](https://github.com/reviewdog/reviewdog/issues/2079) place the `reviewdog/action-setup@v1` compromise window at **2025-03-11 18:42-20:31 UTC**.
 
 ## Sources
-- CISA alert: <https://www.cisa.gov/news-events/alerts/2025/03/18/supply-chain-compromise-third-party-tj-actionschanged-files-cve-2025-30066-and-reviewdogaction>
-- StepSecurity incident writeup: <https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised>
-- GitHub issue for `tj-actions/changed-files`: <https://github.com/tj-actions/changed-files/issues/2463>
-- GitHub advisory for `reviewdog/action-setup@v1`: <https://github.com/advisories/ghsa-qmg3-hpqr-gqvc>
-- reviewdog maintainer advisory issue: <https://github.com/reviewdog/reviewdog/issues/2079>
-- Unit 42 attack-chain analysis: <https://unit42.paloaltonetworks.com/github-actions-supply-chain-attack/>
+- [CISA alert](https://www.cisa.gov/news-events/alerts/2025/03/18/supply-chain-compromise-third-party-tj-actionschanged-files-cve-2025-30066-and-reviewdogaction)
+- [StepSecurity incident writeup](https://www.stepsecurity.io/blog/harden-runner-detection-tj-actions-changed-files-action-is-compromised)
+- [GitHub issue for `tj-actions/changed-files`](https://github.com/tj-actions/changed-files/issues/2463)
+- [GitHub advisory for `reviewdog/action-setup@v1`](https://github.com/advisories/ghsa-qmg3-hpqr-gqvc)
+- [reviewdog maintainer advisory issue](https://github.com/reviewdog/reviewdog/issues/2079)
+- [Unit 42 attack-chain analysis](https://unit42.paloaltonetworks.com/github-actions-supply-chain-attack/)

@@ -47,5 +47,5 @@ That sequencing matters for response:
 - [The Gentlemen ransomware](the-gentlemen-ransomware.md)
 
 ## Sources
-- The Hacker News: <https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html>
-- Blackpoint Cyber: <https://blackpointcyber.com/blog/avalons-path-from-legal-lure-to-crownx-ransom-capabilities/>
+- [The Hacker News](https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html)
+- [Blackpoint Cyber](https://blackpointcyber.com/blog/avalons-path-from-legal-lure-to-crownx-ransom-capabilities/)

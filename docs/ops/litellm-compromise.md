@@ -54,5 +54,5 @@ The LiteLLM compromise shows how a single release-system compromise can become a
 - Search network telemetry for `models.litellm.cloud` and adjacent LiteLLM-looking domains used outside expected application paths.
 
 ## References
-- Boost Security Labs: <https://labs.boostsecurity.io/articles/teampcp-litellm-supply-chain-compromise/>
+- [Boost Security Labs](https://labs.boostsecurity.io/articles/teampcp-litellm-supply-chain-compromise/)
 - Public community discussion and reporting on the LiteLLM supply-chain incident

@@ -153,6 +153,6 @@ Selected indicators from LevelBlue:
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 
 ## Sources
-- LevelBlue SpiderLabs: <https://www.levelblue.com/blogs/spiderlabs-blog/novel-java-based-quimarat-targets-windows-macos-and-linux>
-- LevelBlue report PDF: <https://www.levelblue.com/hubfs/Web/Library/Documents_pdf/Threat_Spotlight_An_In_Depth_Analysis_of_QuimaRAT.pdf>
-- The Hacker News: <https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html>
+- [LevelBlue SpiderLabs](https://www.levelblue.com/blogs/spiderlabs-blog/novel-java-based-quimarat-targets-windows-macos-and-linux)
+- [LevelBlue report PDF](https://www.levelblue.com/hubfs/Web/Library/Documents_pdf/Threat_Spotlight_An_In_Depth_Analysis_of_QuimaRAT.pdf)
+- [The Hacker News](https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html)

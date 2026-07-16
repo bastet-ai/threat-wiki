@@ -50,6 +50,6 @@ This page is intentionally narrow: it records durable, sourced operational facts
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Sources
-- Microsoft Security Blog: <https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/>
-- Google Cloud / Mandiant: <https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/>
-- Oracle security alert for CVE-2026-35273: <https://www.oracle.com/security-alerts/alert-cve-2026-35273.html>
+- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/)
+- [Google Cloud / Mandiant](https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/)
+- [Oracle security alert for CVE-2026-35273](https://www.oracle.com/security-alerts/alert-cve-2026-35273.html)

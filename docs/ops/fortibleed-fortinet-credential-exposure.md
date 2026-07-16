@@ -103,9 +103,9 @@ Arctic Wolf's June 17 bulletin, summarizing SOCRadar and Beaumont / Hudson Rock 
 - [CitrixBleed session-hijack wave](citrixbleed-session-hijack-wave.md)
 
 ## Sources
-- CISA: <https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure>
-- The Hacker News: <https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html>
-- Unit 42: <https://unit42.paloaltonetworks.com/large-scale-credential-attacks/>
-- Arctic Wolf: <https://arcticwolf.com/resources/blog/active-fortibleed-campaign-impacting-fortinet-devices-across-194-countries/>
-- SOCRadar: <https://socradar.io/blog/fortibleed-inc-lynx-ransomware-link/>
-- The Hacker News: <https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html>
+- [CISA](https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure)
+- [The Hacker News](https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html)
+- [Unit 42](https://unit42.paloaltonetworks.com/large-scale-credential-attacks/)
+- [Arctic Wolf](https://arcticwolf.com/resources/blog/active-fortibleed-campaign-impacting-fortinet-devices-across-194-countries/)
+- [SOCRadar](https://socradar.io/blog/fortibleed-inc-lynx-ransomware-link/)
+- [The Hacker News](https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html)

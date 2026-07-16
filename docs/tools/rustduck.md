@@ -58,5 +58,5 @@ The command loop uses a TLS-looking `0x17 0x03 0x03` prefix, a nonce, ciphertext
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## Sources
-- QiAnXin XLab: <https://blog.xlab.qianxin.com/rustduck-en/>
-- The Hacker News summary: <https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html>
+- [QiAnXin XLab](https://blog.xlab.qianxin.com/rustduck-en/)
+- [The Hacker News summary](https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html)

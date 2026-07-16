@@ -73,5 +73,5 @@ The durable defender signal is the browser-extension installation path: rather t
 - [Chrome live-wallpaper extension ad-fraud network](chrome-live-wallpaper-extension-ad-fraud.md)
 
 ## Sources
-- McAfee Labs: <https://www.mcafee.com/blogs/other-blogs/mcafee-labs/crypto-clipper-wallet-swapping-browser-extension-malware/>
-- The Hacker News summary: <https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html>
+- [McAfee Labs](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/crypto-clipper-wallet-swapping-browser-extension-malware/)
+- [The Hacker News summary](https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html)

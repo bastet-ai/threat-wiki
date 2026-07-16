@@ -65,7 +65,7 @@ The new operational detail is a shift from only eliciting verification codes, ac
 - [Microsoft Midnight Blizzard mailbox theft from Microsoft](microsoft-midnight-blizzard-mailbox-theft-from-microsoft.md)
 
 ## Sources
-- FBI IC3 / CISA, June 26, 2026 update: <https://www.ic3.gov/PSA/2026/PSA260626>
-- FBI IC3 / CISA, March 20, 2026 PSA: <https://www.ic3.gov/PSA/2026/PSA260320>
-- Security Service of Ukraine, June 27, 2026 public notice: <https://t.me/SBUkr/17916>
-- The Hacker News, June 27, 2026 secondary coverage: <https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html>
+- [FBI IC3 / CISA, June 26, 2026 update](https://www.ic3.gov/PSA/2026/PSA260626)
+- [FBI IC3 / CISA, March 20, 2026 PSA](https://www.ic3.gov/PSA/2026/PSA260320)
+- [Security Service of Ukraine, June 27, 2026 public notice](https://t.me/SBUkr/17916)
+- [The Hacker News, June 27, 2026 secondary coverage](https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html)

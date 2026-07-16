@@ -74,4 +74,4 @@ The durable defender signal is not just the single removed extension ID. The cha
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 
 ## Sources
-- Microsoft Security Blog: <https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/>
+- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/)

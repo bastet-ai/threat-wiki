@@ -76,4 +76,4 @@ Reported exfiltration used HTTPS GET requests to `stitch-production[.]org/api/v1
 - [Mastra easy-day-js npm scope compromise](mastra-easy-day-js-npm-scope-compromise.md)
 
 ## Sources
-- SafeDep: <https://safedep.io/withgoogle-stitch-sdk-scope-squat-credential-harvester>
+- [SafeDep](https://safedep.io/withgoogle-stitch-sdk-scope-squat-credential-harvester)

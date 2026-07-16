@@ -82,7 +82,7 @@ Track this as a defender pattern rather than a single operation. The same instal
 - [Developer-tool config auto-execution](developer-tool-config-auto-execution.md)
 
 ## Sources
-- JFrog Security Research: <https://jfrog.com/blog/npm-v12-from-implicit-to-explicit-trust/>
-- StepSecurity: <https://www.stepsecurity.io/blog/prevent-npm-and-python-supply-chain-attacks-on-developer-machines-with-package-configs>
-- GitHub Changelog: <https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation/>
-- Socket: <https://socket.dev/blog/npm-12>
+- [JFrog Security Research](https://jfrog.com/blog/npm-v12-from-implicit-to-explicit-trust/)
+- [StepSecurity](https://www.stepsecurity.io/blog/prevent-npm-and-python-supply-chain-attacks-on-developer-machines-with-package-configs)
+- [GitHub Changelog](https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation/)
+- [Socket](https://socket.dev/blog/npm-12)

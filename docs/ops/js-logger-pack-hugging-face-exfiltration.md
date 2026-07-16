@@ -100,6 +100,6 @@ JFrog mapped the distribution infrastructure to linked public personas, but the 
 - [SANDWORM_MODE AI-toolchain npm worm](sandworm-mode-ai-toolchain-worm.md)
 
 ## Sources
-- JFrog: <https://research.jfrog.com/post/hugging-face-exfil/>
-- SafeDep earlier phase: <https://safedep.io/malicious-js-logger-pack-npm-stealer/>
-- SafeDep `MicrosoftSystem64` update: <https://safedep.io/microsoftsystem64-binary-payload-analysis/>
+- [JFrog](https://research.jfrog.com/post/hugging-face-exfil/)
+- [SafeDep earlier phase](https://safedep.io/malicious-js-logger-pack-npm-stealer/)
+- [SafeDep `MicrosoftSystem64` update](https://safedep.io/microsoftsystem64-binary-payload-analysis/)

@@ -68,5 +68,5 @@ Seqrite assesses the activity with **moderate confidence** as China-linked based
 - [Ghostwriter / FrostyNeighbor JavaScript PicassoLoader chain](../actors/ghostwriter.md#2026-ukrtelecom-themed-frostyneighbor-campaign)
 
 ## Sources
-- Seqrite: <https://www.seqrite.com/blog/operation-dragon-weave-uncovering-a-china-linked-campaign-targeting-czech-republic-and-taiwan-using-azure-cloud-c2/>
-- The Hacker News summary: <https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html>
+- [Seqrite](https://www.seqrite.com/blog/operation-dragon-weave-uncovering-a-china-linked-campaign-targeting-czech-republic-and-taiwan-using-azure-cloud-c2/)
+- [The Hacker News summary](https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html)

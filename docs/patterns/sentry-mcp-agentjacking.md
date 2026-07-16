@@ -53,5 +53,5 @@ Agentjacking is a reusable prompt/tool-output injection pattern, not a one-off S
 - [AI-augmented adversary operations](ai-augmented-adversary-operations.md)
 
 ## Sources
-- Tenet Security: <https://tenetsecurity.ai/blog/agentjacking-coding-agents-with-fake-sentry-errors/>
-- The Hacker News summary: <https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html>
+- [Tenet Security](https://tenetsecurity.ai/blog/agentjacking-coding-agents-with-fake-sentry-errors/)
+- [The Hacker News summary](https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html)

@@ -62,8 +62,8 @@ The durable risk is not that ROADtools exists as a public tool; it is that Entra
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## Sources
-- Unit 42: <https://unit42.paloaltonetworks.com/roadtools-cloud-attacks/>
-- ROADtools project: <https://github.com/dirkjanm/ROADtools>
-- Volexity targeted OAuth phishing report: <https://www.volexity.com/blog/2025/04/22/phishing-for-codes-russian-threat-actors-target-microsoft-365-oauth-workflows/>
-- Microsoft on NOBELIUM delegated administrative privilege abuse: <https://www.microsoft.com/en-us/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/>
-- Microsoft on Peach Sandstorm password spray operations: <https://www.microsoft.com/en-us/security/blog/2023/09/14/peach-sandstorm-password-spray-campaigns-enable-intelligence-collection-at-high-value-targets/>
+- [Unit 42](https://unit42.paloaltonetworks.com/roadtools-cloud-attacks/)
+- [ROADtools project](https://github.com/dirkjanm/ROADtools)
+- [Volexity targeted OAuth phishing report](https://www.volexity.com/blog/2025/04/22/phishing-for-codes-russian-threat-actors-target-microsoft-365-oauth-workflows/)
+- [Microsoft on NOBELIUM delegated administrative privilege abuse](https://www.microsoft.com/en-us/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/)
+- [Microsoft on Peach Sandstorm password spray operations](https://www.microsoft.com/en-us/security/blog/2023/09/14/peach-sandstorm-password-spray-campaigns-enable-intelligence-collection-at-high-value-targets/)

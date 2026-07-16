@@ -85,8 +85,8 @@ StepSecurity's July 2 defender retrospective adds more concrete CI/CD detection 
 - Rotate **all** exposed secrets, not just the obvious ones.
 
 ## Sources
-- Wiz: <https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack>
-- Socket: <https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise>
-- Boost Security: <https://labs.boostsecurity.io/articles/20-days-later-trivy-compromise-act-ii/>
-- Aikido: <https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise>
-- StepSecurity: <https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions>
+- [Wiz](https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack)
+- [Socket](https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise)
+- [Boost Security](https://labs.boostsecurity.io/articles/20-days-later-trivy-compromise-act-ii/)
+- [Aikido](https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise)
+- [StepSecurity](https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions)

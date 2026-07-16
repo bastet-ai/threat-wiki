@@ -86,7 +86,7 @@ Elastic published larger indicator tables and companion gists. High-signal pivot
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## Sources
-- Elastic Security Labs: <https://www.elastic.co/security-labs/mexican-banking-fraud-scmbanker-ref6045>
-- The Hacker News: <https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html>
-- Elastic public indicator gist: <https://gist.github.com/jiayuchann/cfbeb1b194b2e186fc599eb51d4719cc>
-- Elastic public indicator gist: <https://gist.github.com/jiayuchann/5851f64467bac4c456dab67e2fb55622>
+- [Elastic Security Labs](https://www.elastic.co/security-labs/mexican-banking-fraud-scmbanker-ref6045)
+- [The Hacker News](https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html)
+- [Elastic public indicator gist](https://gist.github.com/jiayuchann/cfbeb1b194b2e186fc599eb51d4719cc)
+- [Elastic public indicator gist](https://gist.github.com/jiayuchann/5851f64467bac4c456dab67e2fb55622)

@@ -88,7 +88,7 @@ Use Sekoia's source page and intelligence feed for current network indicators; p
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
 ## Sources
-- Trend Micro: <https://www.trendmicro.com/en_us/research/26/f/old-winrar-flaw-fuels-attacks-on-ukraine.html>
-- Sekoia: <https://blog.sekoia.io/fsbs-matryoshka-1-3-gamaredons-gifts-that-keeps-unpacking-gammaphish-and-gammaworm/>
-- The Hacker News summary: <https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html>
-- The Hacker News Trend Micro summary: <https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html>
+- [Trend Micro](https://www.trendmicro.com/en_us/research/26/f/old-winrar-flaw-fuels-attacks-on-ukraine.html)
+- [Sekoia](https://blog.sekoia.io/fsbs-matryoshka-1-3-gamaredons-gifts-that-keeps-unpacking-gammaphish-and-gammaworm/)
+- [The Hacker News summary](https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html)
+- [The Hacker News Trend Micro summary](https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html)

@@ -216,55 +216,55 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- Wiz: <https://www.wiz.io/blog/mini-shai-hulud-supply-chain-sap-npm>
-- Wiz: <https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack>
-- Wiz Miasma / RedHat npm coverage: <https://www.wiz.io/blog/miasma-supply-chain-attack-targeting-redhat-npm-packages>
-- Wiz: <https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack>
-- Wiz TeamPCP post-compromise activity: <https://www.wiz.io/blog/tracking-teampcp-investigating-post-compromise-attacks-seen-in-the-wild>
-- Snyk: <https://snyk.io/blog/tanstack-npm-packages-compromised/>
-- Akamai: <https://www.akamai.com/blog/security-research/mini-shai-hulud-worm-returns-goes-public>
-- JFrog: <https://research.jfrog.com/post/shai-hulud-here-we-go-again/>
-- JFrog May 19 follow-up: <https://research.jfrog.com/post/shai-hulud-here-we-go-again-may19/>
-- JFrog Xinference compromise: <https://research.jfrog.com/post/xinference-compromise/>
-- Microsoft: <https://www.microsoft.com/en-us/security/blog/2025/12/09/shai-hulud-2-0-guidance-for-detecting-investigating-and-defending-against-the-supply-chain-attack/>
-- Unit 42: <https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/>
-- Socket TanStack / OpenSearch / Guardrails AI update: <https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack>
-- StepSecurity AntV wave: <https://www.stepsecurity.io/blog/shai-hulud-here-we-go-again-mass-npm-supply-chain-attack-hits-the-antv-ecosystem>
-- StepSecurity durabletask: <https://www.stepsecurity.io/blog/microsofts-durabletask-pypi-package-compromised-in-supply-chain-attack>
-- StepSecurity Azure/durabletask repository and Microsoft disablement follow-up: <https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents>
-- StepSecurity RedHat Cloud Services npm coverage: <https://www.stepsecurity.io/blog/multiple-redhat-cloud-services-npm-packages-compromised>
-- Boost Security RedHat trusted-publishing branch analysis: <https://labs.boostsecurity.io/articles/trusted-publishing-untrusted-branch-red-hat-npm/>
-- JFrog Miasma / RedHat Cloud Services analysis: <https://research.jfrog.com/post/shai-hulud-miasma-redhat-cloud-services/>
-- SafeDep Miasma / RedHat Cloud Services analysis: <https://safedep.io/redhat-cloud-services-hit-by-mini-shai-hulud-npm-worm>
-- OX Security RedHat Cloud Services Miasma impact note: <https://www.ox.security/blog/new-npm-supply-chain-attack-redhat-cloud-services-compromised/>
-- OX Security Miasma six-stage follow-up: <https://www.ox.security/blog/six-stages-deep-and-an-endless-loop-shai-hulud-is-getting-sophisticated/>
-- Microsoft Miasma analysis: <https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/>
-- StepSecurity Leo Platform Miasma-style compromise: <https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised>
-- StepSecurity Immobiliare Labs Backstage plugin compromise: <https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised>
-- Socket Leo Platform / Verana Go ecosystem expansion: <https://socket.dev/blog/miasma-mini-shai-hulud-hits-leoplatform-npm-packages-go-ecosystem>
-- OX Security June 4 Miasma / binding.gyp update: <https://www.ox.security/blog/600000-monthly-downloads-affected-miasma-supply-chain-attack-is-back-on-npm/>
-- Socket Hades PyPI wave: <https://socket.dev/blog/shai-hulud-descends-to-hades-miasma-pypi-wave>
-- Socket Hades bioinformatics / MCP follow-up: <https://socket.dev/blog/mini-shai-hulud-miasma-and-hades-worms-target-bioinformatics-and-mcp-developers-via-malicious>
-- StepSecurity Hades PyPI campaign: <https://www.stepsecurity.io/blog/the-hades-campaign-pypi-packages>
-- StepSecurity Miasma/Hades developer-machine detection note: <https://www.stepsecurity.io/blog/miasma-and-hades-are-spreading-now-detect-them-on-developer-machines-with-suspicious-files>
-- JFrog Shai-Hulud AI-scanner refusal evasion: <https://research.jfrog.com/post/prompt-injection-vs-scanners/>
-- Snyk AntV wave: <https://snyk.io/blog/mini-shai-hulud-antv-npm-supply-chain-attack/>
-- Snyk durabletask: <https://snyk.io/blog/durabletask-pypi-supply-chain-attack/>
-- Grafana Labs: <https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/>
-- StepSecurity actions-cool: <https://www.stepsecurity.io/blog/actions-cool-issues-helper-github-action-compromised-all-tags-point-to-imposter-commit-that-exfiltrates-ci-cd-credentials>
-- StepSecurity 48-hour timeline: <https://www.stepsecurity.io/blog/5-supply-chain-attacks-in-48-hours-why-securing-one-layer-is-not-enough>
-- StepSecurity Nx Console: <https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised>
-- GitHub Blog Nx Console incident note: <https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/>
-- Socket npm token reset / Mini Shai-Hulud registry response: <https://socket.dev/blog/npm-invalidates-tokens-mini-shai-hulud>
-- Socket AntV package wave: <https://socket.dev/blog/antv-packages-compromised>
-- SafeDep AntV / atool wave analysis: <https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/>
-- Wiz AntV / TeamPCP wave analysis: <https://www.wiz.io/blog/mini-shai-hulud-teampcp-hits-antv-supply-chain>
-- GitHub npm staged publishing / install source controls: <https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/>
-- Socket Intercom npm compromise: <https://socket.dev/blog/intercom-s-npm-package-compromised-in-supply-chain-attack>
-- Socket SAP CAP / Cloud MTA compromise: <https://socket.dev/blog/sap-cap-npm-packages-supply-chain-attack>
-- Socket Intercom Packagist compromise: <https://socket.dev/blog/mini-shai-hulud-packagist-malicious-intercom-php-package-compromise>
-- Socket TeamPCP contest reporting: <https://socket.dev/blog/teampcp-supply-chain-attack-contest>
-- OX Security TeamPCP copycat package cluster: <https://www.ox.security/blog/new-actors-deploy-shai-hulud-clones-teampcp-copycats-are-here/>
-- Socket SANDWORM_MODE reporting: <https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning>
-- CISA: <https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem>
-- CISA KEV: <https://www.cisa.gov/known-exploited-vulnerabilities-catalog>
+- [Wiz](https://www.wiz.io/blog/mini-shai-hulud-supply-chain-sap-npm)
+- [Wiz](https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack)
+- [Wiz Miasma / RedHat npm coverage](https://www.wiz.io/blog/miasma-supply-chain-attack-targeting-redhat-npm-packages)
+- [Wiz](https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack)
+- [Wiz TeamPCP post-compromise activity](https://www.wiz.io/blog/tracking-teampcp-investigating-post-compromise-attacks-seen-in-the-wild)
+- [Snyk](https://snyk.io/blog/tanstack-npm-packages-compromised/)
+- [Akamai](https://www.akamai.com/blog/security-research/mini-shai-hulud-worm-returns-goes-public)
+- [JFrog](https://research.jfrog.com/post/shai-hulud-here-we-go-again/)
+- [JFrog May 19 follow-up](https://research.jfrog.com/post/shai-hulud-here-we-go-again-may19/)
+- [JFrog Xinference compromise](https://research.jfrog.com/post/xinference-compromise/)
+- [Microsoft](https://www.microsoft.com/en-us/security/blog/2025/12/09/shai-hulud-2-0-guidance-for-detecting-investigating-and-defending-against-the-supply-chain-attack/)
+- [Unit 42](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
+- [Socket TanStack / OpenSearch / Guardrails AI update](https://socket.dev/blog/tanstack-npm-packages-compromised-mini-shai-hulud-supply-chain-attack)
+- [StepSecurity AntV wave](https://www.stepsecurity.io/blog/shai-hulud-here-we-go-again-mass-npm-supply-chain-attack-hits-the-antv-ecosystem)
+- [StepSecurity durabletask](https://www.stepsecurity.io/blog/microsofts-durabletask-pypi-package-compromised-in-supply-chain-attack)
+- [StepSecurity Azure/durabletask repository and Microsoft disablement follow-up](https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents)
+- [StepSecurity RedHat Cloud Services npm coverage](https://www.stepsecurity.io/blog/multiple-redhat-cloud-services-npm-packages-compromised)
+- [Boost Security RedHat trusted-publishing branch analysis](https://labs.boostsecurity.io/articles/trusted-publishing-untrusted-branch-red-hat-npm/)
+- [JFrog Miasma / RedHat Cloud Services analysis](https://research.jfrog.com/post/shai-hulud-miasma-redhat-cloud-services/)
+- [SafeDep Miasma / RedHat Cloud Services analysis](https://safedep.io/redhat-cloud-services-hit-by-mini-shai-hulud-npm-worm)
+- [OX Security RedHat Cloud Services Miasma impact note](https://www.ox.security/blog/new-npm-supply-chain-attack-redhat-cloud-services-compromised/)
+- [OX Security Miasma six-stage follow-up](https://www.ox.security/blog/six-stages-deep-and-an-endless-loop-shai-hulud-is-getting-sophisticated/)
+- [Microsoft Miasma analysis](https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/)
+- [StepSecurity Leo Platform Miasma-style compromise](https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised)
+- [StepSecurity Immobiliare Labs Backstage plugin compromise](https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised)
+- [Socket Leo Platform / Verana Go ecosystem expansion](https://socket.dev/blog/miasma-mini-shai-hulud-hits-leoplatform-npm-packages-go-ecosystem)
+- [OX Security June 4 Miasma / binding.gyp update](https://www.ox.security/blog/600000-monthly-downloads-affected-miasma-supply-chain-attack-is-back-on-npm/)
+- [Socket Hades PyPI wave](https://socket.dev/blog/shai-hulud-descends-to-hades-miasma-pypi-wave)
+- [Socket Hades bioinformatics / MCP follow-up](https://socket.dev/blog/mini-shai-hulud-miasma-and-hades-worms-target-bioinformatics-and-mcp-developers-via-malicious)
+- [StepSecurity Hades PyPI campaign](https://www.stepsecurity.io/blog/the-hades-campaign-pypi-packages)
+- [StepSecurity Miasma/Hades developer-machine detection note](https://www.stepsecurity.io/blog/miasma-and-hades-are-spreading-now-detect-them-on-developer-machines-with-suspicious-files)
+- [JFrog Shai-Hulud AI-scanner refusal evasion](https://research.jfrog.com/post/prompt-injection-vs-scanners/)
+- [Snyk AntV wave](https://snyk.io/blog/mini-shai-hulud-antv-npm-supply-chain-attack/)
+- [Snyk durabletask](https://snyk.io/blog/durabletask-pypi-supply-chain-attack/)
+- [Grafana Labs](https://grafana.com/blog/grafana-labs-security-update-latest-on-tanstack-npm-supply-chain-ransomware-incident/)
+- [StepSecurity actions-cool](https://www.stepsecurity.io/blog/actions-cool-issues-helper-github-action-compromised-all-tags-point-to-imposter-commit-that-exfiltrates-ci-cd-credentials)
+- [StepSecurity 48-hour timeline](https://www.stepsecurity.io/blog/5-supply-chain-attacks-in-48-hours-why-securing-one-layer-is-not-enough)
+- [StepSecurity Nx Console](https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised)
+- [GitHub Blog Nx Console incident note](https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/)
+- [Socket npm token reset / Mini Shai-Hulud registry response](https://socket.dev/blog/npm-invalidates-tokens-mini-shai-hulud)
+- [Socket AntV package wave](https://socket.dev/blog/antv-packages-compromised)
+- [SafeDep AntV / atool wave analysis](https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/)
+- [Wiz AntV / TeamPCP wave analysis](https://www.wiz.io/blog/mini-shai-hulud-teampcp-hits-antv-supply-chain)
+- [GitHub npm staged publishing / install source controls](https://github.blog/changelog/2026-05-22-staged-publishing-and-new-install-time-controls-for-npm/)
+- [Socket Intercom npm compromise](https://socket.dev/blog/intercom-s-npm-package-compromised-in-supply-chain-attack)
+- [Socket SAP CAP / Cloud MTA compromise](https://socket.dev/blog/sap-cap-npm-packages-supply-chain-attack)
+- [Socket Intercom Packagist compromise](https://socket.dev/blog/mini-shai-hulud-packagist-malicious-intercom-php-package-compromise)
+- [Socket TeamPCP contest reporting](https://socket.dev/blog/teampcp-supply-chain-attack-contest)
+- [OX Security TeamPCP copycat package cluster](https://www.ox.security/blog/new-actors-deploy-shai-hulud-clones-teampcp-copycats-are-here/)
+- [Socket SANDWORM_MODE reporting](https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning)
+- [CISA](https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem)
+- [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)

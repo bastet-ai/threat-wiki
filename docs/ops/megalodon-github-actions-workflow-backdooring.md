@@ -66,6 +66,6 @@ SafeDep describes Megalodon as an automated campaign but does not publicly tie i
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- SafeDep: <https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/>
-- StepSecurity: <https://www.stepsecurity.io/blog/megalodon-mass-github-actions-secret-exfiltration-across-5-500-public-repositories>
-- The Hacker News: <https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html>
+- [SafeDep](https://safedep.io/megalodon-mass-github-repo-backdooring-ci-workflows/)
+- [StepSecurity](https://www.stepsecurity.io/blog/megalodon-mass-github-actions-secret-exfiltration-across-5-500-public-repositories)
+- [The Hacker News](https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html)

@@ -105,6 +105,6 @@ This variant matters because many agent products treat native file-write tools a
 
 ## Sources
 
-- Wiz: <https://www.wiz.io/blog/ghostapproval-a-trust-boundary-gap-in-ai-coding-assistants>
-- The Hacker News: <https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html>
-- Adversa AI: <https://adversa.ai/blog/the-approval-prompt-is-lying-to-you-symlink-rce-in-five-ai-coding-agents-claude-code-cursor-antigravity-copilot-grok-build/>
+- [Wiz](https://www.wiz.io/blog/ghostapproval-a-trust-boundary-gap-in-ai-coding-assistants)
+- [The Hacker News](https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html)
+- [Adversa AI](https://adversa.ai/blog/the-approval-prompt-is-lying-to-you-symlink-rce-in-five-ai-coding-agents-claude-code-cursor-antigravity-copilot-grok-build/)

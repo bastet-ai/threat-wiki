@@ -19,7 +19,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Keep entries concise, concrete, and easy to scan.
 
 ## Writing conventions
-- Keep links clickable and explicit in Markdown; use Markdown links or `<https://...>` autolinks for source URLs, and run `python3 scripts/audit_clickable_links.py` before committing broad content updates.
+- Keep links clickable and explicit in Markdown; use `[source label](https://...)` links for source citations, reserve `<https://...>` autolinks for cases where the raw URL itself is the desired visible text, and run `python3 scripts/audit_clickable_links.py` before committing broad content updates.
 - Use short, descriptive page titles.
 - Prefer bullets over long paragraphs for ops, tooling, and motivations.
 - Add a `Tags` section to group/people/ops/tool pages when possible.

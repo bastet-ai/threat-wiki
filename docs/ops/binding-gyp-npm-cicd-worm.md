@@ -271,18 +271,18 @@ StepSecurity specifically observed a runner-memory scraping pipeline using `tr -
 - [TeamPCP](../actors/teampcp.md)
 
 ## Sources
-- StepSecurity: <https://www.stepsecurity.io/blog/binding-gyp-npm-supply-chain-attack-spreads-like-worm>
-- Snyk: <https://snyk.io/blog/node-gyp-supply-chain-compromise-self-propagating-npm-worm-binding-gyp/>
-- StepSecurity: <https://www.stepsecurity.io/blog/microsofts-durabletask-pypi-package-compromised-in-supply-chain-attack>
-- StepSecurity Microsoft repository disablement follow-up: <https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents>
-- OX Security June 4 Miasma / binding.gyp update: <https://www.ox.security/blog/600000-monthly-downloads-affected-miasma-supply-chain-attack-is-back-on-npm/>
-- SafeDep source-repository arm analysis: <https://safedep.io/miasma-worm-ai-coding-agent-config-injection/>
-- SafeDep config-file execution blind spot analysis: <https://safedep.io/config-files-that-run-code/>
-- Socket Hades PyPI wave analysis: <https://socket.dev/blog/shai-hulud-descends-to-hades-miasma-pypi-wave>
-- Socket Miasma / Mini Shai-Hulud campaign tracker: <https://socket.dev/supply-chain-attacks/miasma-mini-shai-hulud-supply-chain-attack>
-- StepSecurity Hades graph-ML PyPI import-hook wave analysis: <https://www.stepsecurity.io/blog/the-hades-campaign-pypi-packages>
-- Socket Hades PyPI native-extension and MCP-loader follow-up: <https://socket.dev/blog/mini-shai-hulud-miasma-and-hades-worms-target-bioinformatics-and-mcp-developers-via-malicious>
-- StepSecurity `Pythagora-io/gpt-pilot` repository compromise analysis: <https://www.stepsecurity.io/blog/pythagora-io-gpt-pilot-compromised-on-github-shai-hulud-credential-stealer-blocked-by-python-linter>
-- GitHub Changelog: <https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/>
-- StepSecurity Immobiliare Labs Backstage plugin compromise: <https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised>
-- PyPI: <https://pypi.org/pypi/durabletask/json>
+- [StepSecurity](https://www.stepsecurity.io/blog/binding-gyp-npm-supply-chain-attack-spreads-like-worm)
+- [Snyk](https://snyk.io/blog/node-gyp-supply-chain-compromise-self-propagating-npm-worm-binding-gyp/)
+- [StepSecurity](https://www.stepsecurity.io/blog/microsofts-durabletask-pypi-package-compromised-in-supply-chain-attack)
+- [StepSecurity Microsoft repository disablement follow-up](https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents)
+- [OX Security June 4 Miasma / binding.gyp update](https://www.ox.security/blog/600000-monthly-downloads-affected-miasma-supply-chain-attack-is-back-on-npm/)
+- [SafeDep source-repository arm analysis](https://safedep.io/miasma-worm-ai-coding-agent-config-injection/)
+- [SafeDep config-file execution blind spot analysis](https://safedep.io/config-files-that-run-code/)
+- [Socket Hades PyPI wave analysis](https://socket.dev/blog/shai-hulud-descends-to-hades-miasma-pypi-wave)
+- [Socket Miasma / Mini Shai-Hulud campaign tracker](https://socket.dev/supply-chain-attacks/miasma-mini-shai-hulud-supply-chain-attack)
+- [StepSecurity Hades graph-ML PyPI import-hook wave analysis](https://www.stepsecurity.io/blog/the-hades-campaign-pypi-packages)
+- [Socket Hades PyPI native-extension and MCP-loader follow-up](https://socket.dev/blog/mini-shai-hulud-miasma-and-hades-worms-target-bioinformatics-and-mcp-developers-via-malicious)
+- [StepSecurity `Pythagora-io/gpt-pilot` repository compromise analysis](https://www.stepsecurity.io/blog/pythagora-io-gpt-pilot-compromised-on-github-shai-hulud-credential-stealer-blocked-by-python-linter)
+- [GitHub Changelog](https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/)
+- [StepSecurity Immobiliare Labs Backstage plugin compromise](https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised)
+- [PyPI](https://pypi.org/pypi/durabletask/json)

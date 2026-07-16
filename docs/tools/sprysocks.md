@@ -87,4 +87,4 @@ Use ESET's IOC table as the canonical hash and sample source rather than copying
 - [The Gentlemen ransomware](the-gentlemen-ransomware.md)
 
 ## Sources
-- ESET WeLiveSecurity: <https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/>
+- [ESET WeLiveSecurity](https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/)

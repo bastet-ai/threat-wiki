@@ -79,4 +79,4 @@ Seqrite assesses the activity with **medium-to-high confidence** as linked to a 
 - [Thailand healthcare RAR / Python stealer campaign](thailand-healthcare-rar-python-stealer.md)
 
 ## Sources
-- Seqrite Labs: <https://www.seqrite.com/blog/operation-dragonreturn-china-nexus-cyber-espionage-campaign-targeting-govt-of-india-mof-tax-infrastructure-via-multi-stage-dcrat-deployment/>
+- [Seqrite Labs](https://www.seqrite.com/blog/operation-dragonreturn-china-nexus-cyber-espionage-campaign-targeting-govt-of-india-mof-tax-infrastructure-via-multi-stage-dcrat-deployment/)

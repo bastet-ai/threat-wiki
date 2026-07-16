@@ -55,8 +55,8 @@ The highest-risk shape is a self-hosted LangGraph application that exposes `get_
 - [Agent skill marketplace poisoning](agent-skill-marketplace-poisoning.md)
 
 ## Sources
-- Check Point Research: <https://research.checkpoint.com/2026/from-sqli-to-rce-exploiting-langgraphs-checkpointer/>
-- GitHub Advisory `GHSA-9rwj-6rc7-p77c` / `CVE-2025-67644`: <https://github.com/langchain-ai/langgraph/security/advisories/GHSA-9rwj-6rc7-p77c>
-- GitHub Advisory `GHSA-g48c-2wqr-h844` / `CVE-2026-28277`: <https://github.com/langchain-ai/langgraph/security/advisories/GHSA-g48c-2wqr-h844>
-- GitHub Advisory `GHSA-5mx2-w598-339m` / `CVE-2026-27022`: <https://github.com/langchain-ai/langgraphjs/security/advisories/GHSA-5mx2-w598-339m>
-- The Hacker News summary: <https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html>
+- [Check Point Research](https://research.checkpoint.com/2026/from-sqli-to-rce-exploiting-langgraphs-checkpointer/)
+- [GitHub Advisory `GHSA-9rwj-6rc7-p77c` / `CVE-2025-67644`](https://github.com/langchain-ai/langgraph/security/advisories/GHSA-9rwj-6rc7-p77c)
+- [GitHub Advisory `GHSA-g48c-2wqr-h844` / `CVE-2026-28277`](https://github.com/langchain-ai/langgraph/security/advisories/GHSA-g48c-2wqr-h844)
+- [GitHub Advisory `GHSA-5mx2-w598-339m` / `CVE-2026-27022`](https://github.com/langchain-ai/langgraphjs/security/advisories/GHSA-5mx2-w598-339m)
+- [The Hacker News summary](https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html)

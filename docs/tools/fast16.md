@@ -60,5 +60,5 @@ The durable lesson is that Fast16 shows the Stuxnet pattern before Stuxnet: malw
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## Sources
-- Broadcom / Symantec: <https://www.security.com/threat-intelligence/fast16-nuclear-sabotage>
-- SentinelOne: <https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/>
+- [Broadcom / Symantec](https://www.security.com/threat-intelligence/fast16-nuclear-sabotage)
+- [SentinelOne](https://www.sentinelone.com/labs/fast16-mystery-shadowbrokers-reference-reveals-high-precision-software-sabotage-5-years-before-stuxnet/)

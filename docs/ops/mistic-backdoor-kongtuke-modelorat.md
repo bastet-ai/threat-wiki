@@ -97,5 +97,5 @@ Broadcom published hashes including:
 Use hashes as confirmation pivots, not the only detection path; the sideloading shape and ModeloRAT / ClickFix behaviors are more durable.
 
 ## Sources
-- Broadcom / Symantec Threat Hunter Team, “Backdoor.Mistic: New Backdoor May be Linked to Ransomware Access Broker”: <https://www.security.com/threat-intelligence/new-mistic-backdoor-modeloRAT>
-- The Hacker News summary: <https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html>
+- [Broadcom / Symantec Threat Hunter Team, “Backdoor.Mistic: New Backdoor May be Linked to Ransomware Access Broker”](https://www.security.com/threat-intelligence/new-mistic-backdoor-modeloRAT)
+- [The Hacker News summary](https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html)

@@ -115,5 +115,5 @@ Additional process and service pivots:
 - [Mastra easy-day-js npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 
 ## Sources
-- SafeDep: <https://safedep.io/malicious-apintergrationpost-npm-myra-rat>
-- npm registry metadata: <https://registry.npmjs.org/apintergrationpost>
+- [SafeDep](https://safedep.io/malicious-apintergrationpost-npm-myra-rat)
+- [npm registry metadata](https://registry.npmjs.org/apintergrationpost)

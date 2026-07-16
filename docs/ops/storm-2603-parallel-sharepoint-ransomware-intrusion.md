@@ -83,5 +83,5 @@ Microsoft's report also shows an activity stream that did not match Storm-2603's
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 
 ## Sources
-- Microsoft Security Blog: <https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/>
-- Microsoft Cyberattack Series No. 9 PDF: <https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/security/Cyberattacks-Series-Report-Q4.pdf>
+- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/)
+- [Microsoft Cyberattack Series No. 9 PDF](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/security/Cyberattacks-Series-Report-Q4.pdf)

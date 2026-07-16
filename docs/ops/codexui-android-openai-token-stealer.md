@@ -67,6 +67,6 @@ Because the package version was not pinned, installed apps could pull whatever n
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## Sources
-- Aikido Security: <https://www.aikido.dev/blog/codex-remote-ui-steals-ai-tokens>
-- npm package metadata: <https://www.npmjs.com/package/codexui-android>
-- GitHub issue referenced by Aikido: <https://github.com/friuns2/codex-mobile/issues/198>
+- [Aikido Security](https://www.aikido.dev/blog/codex-remote-ui-steals-ai-tokens)
+- [npm package metadata](https://www.npmjs.com/package/codexui-android)
+- [GitHub issue referenced by Aikido](https://github.com/friuns2/codex-mobile/issues/198)

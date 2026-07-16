@@ -74,4 +74,4 @@ Proofpoint said earlier lures spoofed organizations including Ondo Finance, Empo
 - [StegaBin Pastebin-steganography npm campaign](stegabin-pastebin-steganography-npm-campaign.md)
 
 ## Sources
-- Proofpoint: <https://www.proofpoint.com/us/blog/threat-insight/dont-fear-repo-unkdeaddrop-phishing-campaign-targets-developers-steal>
+- [Proofpoint](https://www.proofpoint.com/us/blog/threat-insight/dont-fear-repo-unkdeaddrop-phishing-campaign-targets-developers-steal)

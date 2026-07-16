@@ -91,6 +91,6 @@ ZeroBEC also found Turkish-language code-lineage markers in separate components:
 
 ## Sources
 
-- ZeroBEC, DEBULL: Storm-2372-Style Microsoft Device-Code Phishing With GraphSpy Post-Exploitation: <https://zerobec.com/blog/debull-storm-2372-microsoft-device-code-phishing-graphspy>
-- The Hacker News summary: <https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html>
-- Microsoft OAuth 2.0 device authorization grant documentation: <https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-device-code>
+- [ZeroBEC, DEBULL: Storm-2372-Style Microsoft Device-Code Phishing With GraphSpy Post-Exploitation](https://zerobec.com/blog/debull-storm-2372-microsoft-device-code-phishing-graphspy)
+- [The Hacker News summary](https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html)
+- [Microsoft OAuth 2.0 device authorization grant documentation](https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-device-code)

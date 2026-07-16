@@ -75,5 +75,5 @@ Track this as a reusable cloud / AI pattern: managed-AI services often bridge de
 - [Developer-tool config auto-execution](developer-tool-config-auto-execution.md)
 
 ## Sources
-- Unit 42: <https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/>
-- Google Cloud Vertex AI SDK for Python release notes: <https://github.com/googleapis/python-aiplatform/releases>
+- [Unit 42](https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/)
+- [Google Cloud Vertex AI SDK for Python release notes](https://github.com/googleapis/python-aiplatform/releases)

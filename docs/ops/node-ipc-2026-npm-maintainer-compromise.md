@@ -47,6 +47,6 @@ Current public reporting points to abuse of a legitimate npm maintainer account 
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- Socket: <https://socket.dev/blog/node-ipc-package-compromised>
-- Snyk: <https://snyk.io/blog/malicious-node-ipc-versions-published-npm/>
-- Snyk advisory: <https://security.snyk.io/vuln/SNYK-JS-NODEIPC-16697063>
+- [Socket](https://socket.dev/blog/node-ipc-package-compromised)
+- [Snyk](https://snyk.io/blog/malicious-node-ipc-versions-published-npm/)
+- [Snyk advisory](https://security.snyk.io/vuln/SNYK-JS-NODEIPC-16697063)

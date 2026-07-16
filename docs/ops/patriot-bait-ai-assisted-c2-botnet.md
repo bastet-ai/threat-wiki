@@ -112,4 +112,4 @@ Beyond the C2 migration, Trend says the same session-log set showed the actor us
 - [PraisonAI CVE-2026-44338 rapid exploitation](praisonai-cve-2026-44338-rapid-exploitation.md)
 
 ## Sources
-- Trend Micro / TrendAI Research: <https://www.trendmicro.com/en_us/research/26/g/actor-behind-patriot-bait-used-ai-to-deploy-c2-botnet.html>
+- [Trend Micro / TrendAI Research](https://www.trendmicro.com/en_us/research/26/g/actor-behind-patriot-bait-used-ai-to-deploy-c2-botnet.html)

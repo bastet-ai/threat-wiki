@@ -67,7 +67,7 @@ Unit 42 observed a February-April 2026 activity surge after the regional conflic
 - [ROADtools](../tools/roadtools.md)
 
 ## Sources
-- Unit 42: <https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/>
-- Check Point: <https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/>
-- Google Cloud: <https://cloud.google.com/blog/topics/threat-intelligence/unc1549-iranian-threat-actor-targets-aerospace-defense>
-- Microsoft Security Insider: <https://www.microsoft.com/en-us/security/security-insider/threat-actors/smoke-sandstorm>
+- [Unit 42](https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/)
+- [Check Point](https://research.checkpoint.com/2025/nimbus-manticore-deploys-new-malware-targeting-europe/)
+- [Google Cloud](https://cloud.google.com/blog/topics/threat-intelligence/unc1549-iranian-threat-actor-targets-aerospace-defense)
+- [Microsoft Security Insider](https://www.microsoft.com/en-us/security/security-insider/threat-actors/smoke-sandstorm)

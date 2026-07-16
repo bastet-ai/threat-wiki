@@ -76,5 +76,5 @@ SOCRadar reported Breeze Cache Cleaner as the most productive single exploit, wi
 - [Operation Endgame SocGholish disruption](operation-endgame-socgholish-disruption.md)
 
 ## Sources
-- SOCRadar: <https://socradar.io/blog/wp-shellstorm-expose-1-4m-wordpress-sites/>
-- The Hacker News: <https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html>
+- [SOCRadar](https://socradar.io/blog/wp-shellstorm-expose-1-4m-wordpress-sites/)
+- [The Hacker News](https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html)

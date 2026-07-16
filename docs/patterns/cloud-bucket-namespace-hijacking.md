@@ -80,4 +80,4 @@ Track this as a reusable cloud pattern, not an actor operation. The issue is the
 - [Vertex AI staging-bucket squatting](vertex-ai-staging-bucket-squatting.md)
 
 ## Sources
-- Unit 42: <https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/>
+- [Unit 42](https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/)

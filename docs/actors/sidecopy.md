@@ -56,5 +56,5 @@ See [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
 ## Sources
-- Seqrite: <https://www.seqrite.com/blog/operation-xenofiscal-sidecopy-deploying-persistent-xenorat-targeting-the-mof-afghanistan/>
-- The Hacker News summary: <https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html>
+- [Seqrite](https://www.seqrite.com/blog/operation-xenofiscal-sidecopy-deploying-persistent-xenorat-targeting-the-mof-afghanistan/)
+- [The Hacker News summary](https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html)

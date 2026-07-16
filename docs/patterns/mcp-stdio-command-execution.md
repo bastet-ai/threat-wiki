@@ -58,7 +58,7 @@ OX frames this as an architectural vulnerability in Anthropic-maintained MCP SDK
 - [Supply-chain group profile](supply-chain-actor-profile.md)
 
 ## Sources
-- Wiz Research: <https://www.wiz.io/blog/amazon-q-vulnerability>
-- AWS security bulletin 2026-047-AWS: <https://aws.amazon.com/security/security-bulletins/2026-047-aws/>
-- OX Security: <https://www.ox.security/blog/the-mother-of-all-ai-supply-chains-critical-systemic-vulnerability-at-the-core-of-the-mcp/>
-- OX Security technical deep dive: <https://www.ox.security/blog/the-mother-of-all-ai-supply-chains-technical-deep-dive/>
+- [Wiz Research](https://www.wiz.io/blog/amazon-q-vulnerability)
+- [AWS security bulletin 2026-047-AWS](https://aws.amazon.com/security/security-bulletins/2026-047-aws/)
+- [OX Security](https://www.ox.security/blog/the-mother-of-all-ai-supply-chains-critical-systemic-vulnerability-at-the-core-of-the-mcp/)
+- [OX Security technical deep dive](https://www.ox.security/blog/the-mother-of-all-ai-supply-chains-technical-deep-dive/)

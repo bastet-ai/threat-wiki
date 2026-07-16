@@ -61,5 +61,5 @@ Manifold rated the first path as high severity in default mode because the user 
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## Sources
-- Manifold Security: <https://www.manifold.security/blog/claude-for-chrome-extension-bypass>
-- The Hacker News secondary coverage: <https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html>
+- [Manifold Security](https://www.manifold.security/blog/claude-for-chrome-extension-bypass)
+- [The Hacker News secondary coverage](https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html)

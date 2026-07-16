@@ -9,7 +9,12 @@ DOCS_DIR = ROOT / "docs"
 
 # Bare URLs are not reliably clickable in the rendered MkDocs site. Allow
 # Markdown targets ([label](https://...)) and explicit autolinks (<https://...>).
+# For list-style source citations, prefer the source label itself as the link:
+#   - [Vendor report](https://example.com/report)
+# not:
+#   - Vendor report: <https://example.com/report>
 BARE_URL_RE = re.compile(r"(?<!\]\()(?<!<)(https?://[^\s<>]+)")
+AUTOLINK_RE = re.compile(r"<https?://[^>]+>")
 
 
 def iter_markdown_lines() -> list[tuple[Path, int, str]]:
@@ -26,7 +31,13 @@ def iter_markdown_lines() -> list[tuple[Path, int, str]]:
             # Skip inline code spans; indicators and example commands inside code
             # should remain literal rather than becoming active links.
             text_segments = line.split("`")[0::2]
-            if any(BARE_URL_RE.search(segment) for segment in text_segments):
+            source_style_autolink = (
+                line.startswith("- ")
+                and "](" not in line
+                and len(AUTOLINK_RE.findall(line)) == 1
+                and re.search(r"(?:[:—-])\s*<https?://[^>]+>\s*$", line) is not None
+            )
+            if any(BARE_URL_RE.search(segment) for segment in text_segments) or source_style_autolink:
                 findings.append((path, line_no, line))
     return findings
 

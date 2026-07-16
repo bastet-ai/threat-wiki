@@ -106,4 +106,4 @@ Microsoft states this was not exploitation of a Salesforce software vulnerabilit
 
 ## Sources
 
-- Microsoft Security Blog: <https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/>
+- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/)

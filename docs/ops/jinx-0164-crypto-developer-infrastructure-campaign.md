@@ -96,6 +96,6 @@ The most important operational lesson is the chain from a single developer lapto
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## Sources
-- Wiz: <https://www.wiz.io/blog/threat-actors-target-crypto-orgs>
-- StepSecurity Velora DEX SDK coverage: <https://www.stepsecurity.io/blog/velora-dex-sdk-compromised-on-npm-malicious-version-drops-macos-backdoor-via-launchctl-persistence>
-- iru MINIRAT coverage: <https://www.iru.com/blog/minirat>
+- [Wiz](https://www.wiz.io/blog/threat-actors-target-crypto-orgs)
+- [StepSecurity Velora DEX SDK coverage](https://www.stepsecurity.io/blog/velora-dex-sdk-compromised-on-npm-malicious-version-drops-macos-backdoor-via-launchctl-persistence)
+- [iru MINIRAT coverage](https://www.iru.com/blog/minirat)

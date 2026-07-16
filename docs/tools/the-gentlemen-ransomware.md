@@ -123,7 +123,7 @@ Microsoft tracks the RaaS operators as **Storm-2697**. Affiliates may vary by in
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
 ## Sources
-- Microsoft Security Blog: <https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/>
-- ESET WeLiveSecurity: <https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/>
-- Broadcom / Symantec Threat Hunter Team: <https://www.security.com/threat-intelligence/goddamn-ransomware-beast-rebrand>
-- Unit 42: <https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/>
+- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/)
+- [ESET WeLiveSecurity](https://www.welivesecurity.com/en/eset-research/killing-me-gently-inside-gentlemens-edr-killer-framework/)
+- [Broadcom / Symantec Threat Hunter Team](https://www.security.com/threat-intelligence/goddamn-ransomware-beast-rebrand)
+- [Unit 42](https://unit42.paloaltonetworks.com/the-gentlemen-ransomware/)

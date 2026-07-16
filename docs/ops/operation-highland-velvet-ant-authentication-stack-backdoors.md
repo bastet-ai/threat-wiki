@@ -69,5 +69,5 @@ Track this as an operation because the durable lesson is bigger than one malware
 - [VerdantBamboo appliance BRICKSTORM operation](verdantbamboo-appliance-brickstorm-operation.md)
 
 ## Sources
-- Sygnia: <https://www.sygnia.co/blog/operation-highland-velvet-ant/>
-- The Hacker News summary: <https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html>
+- [Sygnia](https://www.sygnia.co/blog/operation-highland-velvet-ant/)
+- [The Hacker News summary](https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html)

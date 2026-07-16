@@ -74,6 +74,6 @@ The immediate public finding is not confirmed bulk exfiltration: Stripe OLT repo
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 
 ## Sources
-- Stripe OLT: <https://stripeolt.com/knowledge-hub/threat-research/chrome-extension-hidden-data-exfiltration-900k-users/>
-- The Hacker News: <https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html>
-- HackIndex: <https://hackindex.io/research/modheader-malware-chrome-spyware>
+- [Stripe OLT](https://stripeolt.com/knowledge-hub/threat-research/chrome-extension-hidden-data-exfiltration-900k-users/)
+- [The Hacker News](https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html)
+- [HackIndex](https://hackindex.io/research/modheader-malware-chrome-spyware)
