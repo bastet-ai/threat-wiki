@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [ACR Stealer ClickFix campaigns: WebDAV/Python and MSHTA/steganography intrusion chains](tools/acr-stealer.md)
 - [Shai-Hulud downstream breach: Suno source/customer-data exposure via harvested developer credentials](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-07-16-suno-downstream-breach)
 - [CISA KEV July 16 update: SharePoint CVE-2026-58644 and FortiSandbox command-injection exploitation](ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](ops/chinese-operators-claude-deepseek-government-intrusion.md)

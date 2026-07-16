@@ -29,6 +29,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [account lockout](#account-lockout) (1)
 - [account takeover](#account-takeover) (2)
 - [account-takeover](#account-takeover) (1)
+- [ACR Stealer](#acr-stealer) (1)
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
@@ -111,6 +112,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AiTM](#aitm) (2)
 - [Albania](#albania) (1)
 - [Amadey](#amadey) (1)
+- [Amatera Stealer](#amatera-stealer) (1)
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [Amazon SES](#amazon-ses) (1)
 - [AMSI bypass](#amsi-bypass) (3)
@@ -257,7 +259,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Blackpoint Cyber](#blackpoint-cyber) (6)
 - [Bleacher Report](#bleacher-report) (1)
 - [blockchain C2](#blockchain-c2) (3)
-- [blockchain dead drop](#blockchain-dead-drop) (1)
+- [blockchain dead drop](#blockchain-dead-drop) (2)
 - [blockchain RPC](#blockchain-rpc) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [Blogger abuse](#blogger-abuse) (1)
@@ -278,7 +280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Broadcom](#broadcom) (2)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
-- [browser credential theft](#browser-credential-theft) (17)
+- [browser credential theft](#browser-credential-theft) (18)
 - [browser extension](#browser-extension) (9)
 - [browser extension loader](#browser-extension-loader) (1)
 - [browser hijacking](#browser-hijacking) (2)
@@ -387,7 +389,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code](#claude-code) (5)
 - [Claude for Chrome](#claude-for-chrome) (1)
 - [Clever Cloud](#clever-cloud) (1)
-- [ClickFix](#clickfix) (8)
+- [ClickFix](#clickfix) (9)
 - [ClickOnce](#clickonce) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
 - [Cline](#cline) (1)
@@ -461,6 +463,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [configuration theft](#configuration-theft) (1)
 - [confused deputy](#confused-deputy) (2)
 - [ConfuserEx](#confuserex) (2)
+- [conhost](#conhost) (1)
 - [connected apps](#connected-apps) (1)
 - [ConnectWise](#connectwise) (1)
 - [ConnectWise ScreenConnect](#connectwise-screenconnect) (1)
@@ -741,7 +744,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Docker credentials](#docker-credentials) (1)
 - [Docker images](#docker-images) (1)
 - [document exfiltration](#document-exfiltration) (1)
-- [document theft](#document-theft) (3)
+- [document theft](#document-theft) (4)
 - [DOGLEASH](#dogleash) (1)
 - [domain squatting](#domain-squatting) (1)
 - [domestic espionage](#domestic-espionage) (1)
@@ -751,7 +754,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [double extortion](#double-extortion) (1)
 - [downgrade risk](#downgrade-risk) (1)
 - [downloader](#downloader) (1)
-- [DPAPI](#dpapi) (2)
+- [DPAPI](#dpapi) (3)
 - [DPAPILoader](#dpapiloader) (1)
 - [DPRK](#dprk) (4)
 - [driver loading](#driver-loading) (1)
@@ -826,7 +829,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [espionage](#espionage) (44)
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESXi](#esxi) (1)
-- [EtherHiding](#etherhiding) (1)
+- [EtherHiding](#etherhiding) (2)
 - [ETW patching](#etw-patching) (1)
 - [ETW tampering](#etw-tampering) (1)
 - [Eurojust](#eurojust) (1)
@@ -1128,7 +1131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (1)
-- [infostealer](#infostealer) (21)
+- [infostealer](#infostealer) (22)
 - [infrastructure](#infrastructure) (5)
 - [infrastructure disruption](#infrastructure-disruption) (2)
 - [initial access broker](#initial-access-broker) (2)
@@ -1331,7 +1334,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Luna Moth](#luna-moth) (1)
 - [Lyceum](#lyceum) (1)
 - [M-RED-TEAM](#m-red-team) (1)
-- [MaaS](#maas) (3)
+- [MaaS](#maas) (4)
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
 - [machine-learning](#machine-learning) (1)
@@ -1351,8 +1354,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
-- [malvertising](#malvertising) (6)
-- [malware](#malware) (39)
+- [malvertising](#malvertising) (7)
+- [malware](#malware) (40)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (3)
 - [malware framework](#malware-framework) (2)
@@ -1417,7 +1420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Security Blog](#microsoft-security-blog) (1)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (2)
-- [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (1)
+- [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (2)
 - [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
 - [Microsoft-signed binary abuse](#microsoft-signed-binary-abuse) (1)
 - [Middle East](#middle-east) (2)
@@ -1466,7 +1469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13](#mr_rot13) (1)
 - [MSBuild](#msbuild) (1)
 - [msgpack](#msgpack) (1)
-- [mshta](#mshta) (3)
+- [mshta](#mshta) (4)
 - [MSI](#msi) (1)
 - [MSP](#msp) (3)
 - [MSSQL](#mssql) (1)
@@ -1718,7 +1721,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (9)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (17)
+- [PowerShell](#powershell) (18)
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShower](#powershower) (1)
@@ -1785,7 +1788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PyArmor](#pyarmor) (3)
 - [PyInstaller](#pyinstaller) (1)
 - [PyPI](#pypi) (11)
-- [Python](#python) (8)
+- [Python](#python) (9)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python malware](#python-malware) (2)
 - [Python stealer](#python-stealer) (1)
@@ -1905,7 +1908,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RubyGems](#rubygems) (2)
 - [Ruckus routers](#ruckus-routers) (1)
 - [Run key](#run-key) (1)
-- [rundll32](#rundll32) (1)
+- [rundll32](#rundll32) (2)
 - [Runner.Worker](#runnerworker) (1)
 - [runtime execution](#runtime-execution) (2)
 - [runtime mutation](#runtime-mutation) (1)
@@ -1940,7 +1943,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft](#scarcruft) (1)
 - [scheduled task](#scheduled-task) (4)
 - [scheduled task persistence](#scheduled-task-persistence) (5)
-- [scheduled tasks](#scheduled-tasks) (5)
+- [scheduled tasks](#scheduled-tasks) (6)
 - [SCMBANKER](#scmbanker) (2)
 - [scope squatting](#scope-squatting) (1)
 - [screen capture](#screen-capture) (2)
@@ -1974,7 +1977,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SentinelOne](#sentinelone) (1)
 - [Sentry](#sentry) (1)
 - [Sentry abuse](#sentry-abuse) (1)
-- [SEO poisoning](#seo-poisoning) (5)
+- [SEO poisoning](#seo-poisoning) (6)
 - [Serv-U](#serv-u) (1)
 - [service accounts](#service-accounts) (1)
 - [service-agent](#service-agent) (1)
@@ -2121,7 +2124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stdio](#stdio) (3)
 - [StealC](#stealc) (1)
 - [stealer](#stealer) (2)
-- [steganography](#steganography) (1)
+- [steganography](#steganography) (2)
 - [StegoAd](#stegoad) (1)
 - [StepSecurity](#stepsecurity) (1)
 - [STM32Cube](#stm32cube) (1)
@@ -2221,7 +2224,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat](#toddycat) (3)
 - [token forgery](#token-forgery) (1)
 - [token replay](#token-replay) (3)
-- [token theft](#token-theft) (4)
+- [token theft](#token-theft) (5)
 - [token-theft](#token-theft) (1)
 - [TONESHELL](#toneshell) (2)
 - [TookPS](#tookps) (1)
@@ -2231,7 +2234,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (25)
+- [tools](#tools) (26)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
@@ -2396,6 +2399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web supply chain](#web-supply-chain) (1)
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
+- [WebDAV](#webdav) (1)
 - [WebKit](#webkit) (1)
 - [WebLogic](#weblogic) (1)
 - [webmail](#webmail) (1)
@@ -2577,6 +2581,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## account-takeover
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+
+## ACR Stealer
+- [ACR Stealer](../tools/acr-stealer.md)
 
 ## act_pedit
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
@@ -2936,6 +2943,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Amadey
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
+## Amatera Stealer
+- [ACR Stealer](../tools/acr-stealer.md)
 
 ## Amazon Q Developer
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -3455,6 +3465,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## blockchain dead drop
+- [ACR Stealer](../tools/acr-stealer.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## blockchain RPC
@@ -3531,6 +3542,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## browser credential theft
+- [ACR Stealer](../tools/acr-stealer.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
@@ -4006,6 +4018,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## ClickFix
+- [ACR Stealer](../tools/acr-stealer.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -4299,6 +4312,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ConfuserEx
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
+
+## conhost
+- [ACR Stealer](../tools/acr-stealer.md)
 
 ## connected apps
 - [ShinyHunters](../actors/shinyhunters.md)
@@ -5404,6 +5420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 
 ## document theft
+- [ACR Stealer](../tools/acr-stealer.md)
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
@@ -5436,6 +5453,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
 ## DPAPI
+- [ACR Stealer](../tools/acr-stealer.md)
 - [Cavern](../tools/cavern.md)
 - [RemotePE](../tools/remotepe.md)
 
@@ -5742,6 +5760,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## EtherHiding
+- [ACR Stealer](../tools/acr-stealer.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## ETW patching
@@ -6834,6 +6853,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## infostealer
+- [ACR Stealer](../tools/acr-stealer.md)
 - [Armored Likho](../actors/armored-likho.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
@@ -7589,6 +7609,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 
 ## MaaS
+- [ACR Stealer](../tools/acr-stealer.md)
 - [QuimaRAT](../tools/quimarat.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
@@ -7665,6 +7686,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
 ## malvertising
+- [ACR Stealer](../tools/acr-stealer.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -7673,6 +7695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## malware
+- [ACR Stealer](../tools/acr-stealer.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -7959,6 +7982,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## Microsoft Threat Intelligence
+- [ACR Stealer](../tools/acr-stealer.md)
 - [GigaWiper](../tools/gigawiper.md)
 
 ## Microsoft Windows Hardware Compatibility Publisher
@@ -8128,6 +8152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## mshta
+- [ACR Stealer](../tools/acr-stealer.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
@@ -9525,6 +9550,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Atlas](../actors/cloud-atlas.md)
 
 ## PowerShell
+- [ACR Stealer](../tools/acr-stealer.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -9795,6 +9821,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## Python
+- [ACR Stealer](../tools/acr-stealer.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -10262,6 +10289,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## rundll32
+- [ACR Stealer](../tools/acr-stealer.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## Runner.Worker
@@ -10404,6 +10432,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## scheduled tasks
+- [ACR Stealer](../tools/acr-stealer.md)
 - [GigaWiper](../tools/gigawiper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -10525,6 +10554,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## SEO poisoning
+- [ACR Stealer](../tools/acr-stealer.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
@@ -11051,6 +11081,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## steganography
+- [ACR Stealer](../tools/acr-stealer.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## StegoAd
@@ -11506,6 +11537,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 
 ## token theft
+- [ACR Stealer](../tools/acr-stealer.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -11544,6 +11576,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
 ## tools
+- [ACR Stealer](../tools/acr-stealer.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 - [Cavern](../tools/cavern.md)
 - [CrownX](../tools/crownx.md)
@@ -12195,6 +12228,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WebAssembly
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+
+## WebDAV
+- [ACR Stealer](../tools/acr-stealer.md)
 
 ## WebKit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
