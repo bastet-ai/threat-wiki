@@ -60,12 +60,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AES-GCM](#aes-gcm) (3)
 - [AES-GCM C2](#aes-gcm-c2) (1)
 - [affiliate hijacking](#affiliate-hijacking) (1)
-- [Afghanistan](#afghanistan) (2)
+- [Afghanistan](#afghanistan) (3)
 - [agent frameworks](#agent-frameworks) (3)
 - [agent memory](#agent-memory) (1)
 - [agent skills](#agent-skills) (1)
 - [agent state](#agent-state) (1)
-- [agentic AI](#agentic-ai) (2)
+- [agentic AI](#agentic-ai) (3)
 - [agentic botnets](#agentic-botnets) (1)
 - [agentic browser](#agentic-browser) (1)
 - [agentic browsers](#agentic-browsers) (1)
@@ -98,6 +98,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
 - [AI-assisted development](#ai-assisted-development) (1)
+- [AI-assisted intrusion](#ai-assisted-intrusion) (1)
 - [AI-assisted malware](#ai-assisted-malware) (3)
 - [AI-assisted malware development](#ai-assisted-malware-development) (3)
 - [AI-assisted phishing](#ai-assisted-phishing) (1)
@@ -166,6 +167,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Argo CD](#argo-cd) (1)
 - [ArgoCD](#argocd) (1)
 - [Arista EOS](#arista-eos) (1)
+- [ARL](#arl) (1)
 - [Armageddon](#armageddon) (1)
 - [ArmCorp](#armcorp) (1)
 - [Armored Likho](#armored-likho) (3)
@@ -341,7 +343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [checkpointers](#checkpointers) (1)
 - [China](#china) (2)
 - [China-linked](#china-linked) (8)
-- [China-nexus](#china-nexus) (12)
+- [China-nexus](#china-nexus) (13)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
 - [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
@@ -382,7 +384,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-CRI-1147](#cl-cri-1147) (1)
 - [CL-STA-1062](#cl-sta-1062) (3)
 - [Claude](#claude) (2)
-- [Claude Code](#claude-code) (4)
+- [Claude Code](#claude-code) (5)
 - [Claude for Chrome](#claude-for-chrome) (1)
 - [Clever Cloud](#clever-cloud) (1)
 - [ClickFix](#clickfix) (8)
@@ -488,7 +490,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crates.io](#cratesio) (1)
 - [credential attacks](#credential-attacks) (3)
 - [credential exposure](#credential-exposure) (3)
-- [credential harvesting](#credential-harvesting) (2)
+- [credential harvesting](#credential-harvesting) (3)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
 - [credential theft](#credential-theft) (43)
@@ -676,7 +678,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Debian](#debian) (1)
 - [DEBULL](#debull) (1)
 - [declarativeNetRequest](#declarativenetrequest) (1)
-- [DeepSeek](#deepseek) (2)
+- [DeepAudit](#deepaudit) (1)
+- [DeepSeek](#deepseek) (3)
 - [Defender Advanced Hunting](#defender-advanced-hunting) (1)
 - [Defender evasion](#defender-evasion) (2)
 - [Defender exclusion](#defender-exclusion) (1)
@@ -899,7 +902,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [finance](#finance) (2)
 - [financial fraud](#financial-fraud) (3)
 - [financial sector](#financial-sector) (3)
-- [financial services](#financial-services) (2)
+- [financial services](#financial-services) (3)
 - [financial theft](#financial-theft) (3)
 - [FireAnt MetaKit](#fireant-metakit) (1)
 - [Firefox Add-ons](#firefox-add-ons) (1)
@@ -1016,7 +1019,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Workspace](#google-workspace) (1)
 - [Goose](#goose) (1)
 - [government](#government) (4)
-- [government targeting](#government-targeting) (10)
+- [government targeting](#government-targeting) (11)
 - [government-impersonation](#government-impersonation) (1)
 - [GPT](#gpt) (1)
 - [Grandoreiro](#grandoreiro) (2)
@@ -1031,6 +1034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [gRPC C2](#grpc-c2) (2)
 - [gs-netcat](#gs-netcat) (1)
 - [GS-Netcat](#gs-netcat) (1)
+- [Gshell](#gshell) (1)
 - [GTIG](#gtig) (2)
 - [GUE](#gue) (1)
 - [guest-to-host escape](#guest-to-host-escape) (1)
@@ -1060,6 +1064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [higher education](#higher-education) (2)
 - [Honduras](#honduras) (2)
 - [HONESTCUE](#honestcue) (1)
+- [Hong Kong infrastructure](#hong-kong-infrastructure) (1)
 - [hospitality targeting](#hospitality-targeting) (1)
 - [Host Radar](#host-radar) (1)
 - [host surveillance](#host-surveillance) (1)
@@ -1243,6 +1248,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lantronix](#lantronix) (1)
 - [LapDogs](#lapdogs) (1)
 - [Laravel](#laravel) (2)
+- [Laravel deserialization](#laravel-deserialization) (1)
 - [lateral movement](#lateral-movement) (4)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (2)
@@ -1561,6 +1567,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Omnibox](#omnibox) (1)
 - [OneDrive](#onedrive) (3)
 - [OneDrive access](#onedrive-access) (1)
+- [open directory](#open-directory) (1)
 - [Open Interpreter](#open-interpreter) (1)
 - [OpenAI](#openai) (1)
 - [OpenAI Codex](#openai-codex) (1)
@@ -1581,9 +1588,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (197)
+- [operations](#operations) (198)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (222)
+- [ops](#ops) (223)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2084,7 +2091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk](#splunk) (1)
 - [SprySOCKS](#sprysocks) (2)
 - [spyware](#spyware) (1)
-- [SQL injection](#sql-injection) (3)
+- [SQL injection](#sql-injection) (4)
 - [SQLite](#sqlite) (1)
 - [SQLite state](#sqlite-state) (1)
 - [SquareShell](#squareshell) (1)
@@ -2137,6 +2144,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply-chain](#supply-chain) (83)
 - [surveillance](#surveillance) (1)
 - [suspected China-aligned](#suspected-china-aligned) (1)
+- [suspected China-linked](#suspected-china-linked) (1)
 - [SWE-agent](#swe-agent) (1)
 - [SWUpdate](#swupdate) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (2)
@@ -2158,7 +2166,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TAG-124](#tag-124) (1)
 - [TAG-179](#tag-179) (1)
 - [TAG-22](#tag-22) (2)
-- [Taiwan](#taiwan) (7)
+- [Taiwan](#taiwan) (8)
 - [takedown](#takedown) (3)
 - [TamperedChef](#tamperedchef) (1)
 - [targeted operations](#targeted-operations) (1)
@@ -2191,11 +2199,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
 - [tenant-project](#tenant-project) (1)
+- [TencShell](#tencshell) (1)
 - [Tenda](#tenda) (1)
 - [Tenet Security](#tenet-security) (1)
 - [Tetrade](#tetrade) (1)
 - [TeviRAT](#tevirat) (1)
-- [Thailand](#thailand) (3)
+- [Thailand](#thailand) (4)
 - [The Gentlemen](#the-gentlemen) (1)
 - [The Hacker News](#the-hacker-news) (12)
 - [The Quarry](#the-quarry) (1)
@@ -2288,7 +2297,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unified CM SME](#unified-cm-sme) (1)
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [Unit 42](#unit-42) (5)
-- [United States](#united-states) (2)
+- [United States](#united-states) (3)
 - [university targeting](#university-targeting) (1)
 - [UNK_MassTraction](#unk_masstraction) (1)
 - [unpatched vulnerability](#unpatched-vulnerability) (2)
@@ -2346,6 +2355,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN session hijacking](#vpn-session-hijacking) (1)
 - [VS Code](#vs-code) (8)
 - [VS Code tunnels](#vs-code-tunnels) (1)
+- [Vshell](#vshell) (1)
 - [VShell](#vshell) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
@@ -2378,7 +2388,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web management interface](#web-management-interface) (1)
 - [web proxy](#web-proxy) (1)
 - [web RCE](#web-rce) (1)
-- [web shell](#web-shell) (6)
+- [web shell](#web-shell) (7)
 - [web shell hunting](#web-shell-hunting) (1)
 - [web shells](#web-shells) (3)
 - [web supply chain](#web-supply-chain) (1)
@@ -2723,6 +2733,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Afghanistan
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## agent frameworks
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -2741,6 +2752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## agentic AI
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## agentic botnets
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
@@ -2878,6 +2890,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI-assisted development
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+
+## AI-assisted intrusion
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## AI-assisted malware
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -3114,6 +3129,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Arista EOS
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+
+## ARL
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## Armageddon
 - [Gamaredon](../actors/gamaredon.md)
@@ -3768,6 +3786,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 - [UNC6508](../actors/unc6508.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -3976,6 +3995,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## Claude for Chrome
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
@@ -4381,6 +4401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## credential harvesting
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [UNC6508](../actors/unc6508.md)
 
 ## credential spraying
@@ -5109,9 +5130,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## declarativeNetRequest
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
+## DeepAudit
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+
 ## DeepSeek
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## Defender Advanced Hunting
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
@@ -5985,6 +6010,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## financial services
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [UNC3753](../actors/unc3753.md)
 
 ## financial theft
@@ -6415,6 +6441,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [SprySOCKS](../tools/sprysocks.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## government-impersonation
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
@@ -6473,6 +6500,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GS-Netcat
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+
+## Gshell
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## GTIG
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -6566,6 +6596,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HONESTCUE
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## Hong Kong infrastructure
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## hospitality targeting
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -7240,6 +7273,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Laravel
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+
+## Laravel deserialization
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## lateral movement
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
@@ -8494,6 +8530,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OneDrive access
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
+## open directory
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+
 ## Open Interpreter
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
@@ -8733,6 +8772,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -8954,6 +8994,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
@@ -10910,6 +10951,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## SQLite
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -11173,6 +11215,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## suspected China-aligned
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
+## suspected China-linked
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+
 ## SWE-agent
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
@@ -11250,6 +11295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [SprySOCKS](../tools/sprysocks.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## takedown
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -11370,6 +11416,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tenant-project
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
+## TencShell
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+
 ## Tenda
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
@@ -11385,6 +11434,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Thailand
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
 ## The Gentlemen
@@ -11763,6 +11813,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## United States
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [UNC3753](../actors/unc3753.md)
 
 ## university targeting
@@ -11974,6 +12025,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VS Code tunnels
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
+## Vshell
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+
 ## VShell
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
@@ -12113,6 +12167,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+- [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [UNC6508](../actors/unc6508.md)
 
 ## web shell hunting

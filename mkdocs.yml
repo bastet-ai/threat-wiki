@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Suspected Chinese operators use Claude Code and DeepSeek in government intrusions: ops/chinese-operators-claude-deepseek-government-intrusion.md
       - OkoBot cryptocurrency-wallet malware framework: ops/okobot-cryptocurrency-wallet-framework.md
       - KNX Protocol CVE-2023-4346 KEV exploitation: ops/knx-protocol-cve-2023-4346-kev-exploitation.md
       - TuxBot v3 Evolution IoT botnet framework: ops/tuxbot-v3-evolution-iot-botnet.md
