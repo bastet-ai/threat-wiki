@@ -48,7 +48,7 @@ Hunt.io reported that an exposed debug build and open directory revealed `xlabs_
 - For hosting and game-server operators, correlate DDoS events with source populations exposing TCP/5555 and with traffic shaped like game or VPN protocols rather than treating every event as a generic UDP flood.
 
 ## Sources
-- [Hunt.io, "xlabs_v1 DDoS-for-Hire IoT Botnet Exposed: One Operator Error. An Entire Operation Revealed"](https://hunt.io/blog/xlabs-v1-ddos-for-hire-operation-exposed)
+- Hunt.io, "xlabs_v1 DDoS-for-Hire IoT Botnet Exposed: One Operator Error. An Entire Operation Revealed": [https://hunt.io/blog/xlabs-v1-ddos-for-hire-operation-exposed](https://hunt.io/blog/xlabs-v1-ddos-for-hire-operation-exposed)
 
 ## Tags
 - xlabs_v1

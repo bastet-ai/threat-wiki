@@ -94,4 +94,4 @@ Public reporting describes the combined BeaverTail / InvisibleFerret capability 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## Sources
-- [Trend Micro](https://www.trendmicro.com/en_us/research/26/e/analyzing-void-dokkaebi-invisibleferret-malware.html)
+- Trend Micro: [https://www.trendmicro.com/en_us/research/26/e/analyzing-void-dokkaebi-invisibleferret-malware.html](https://www.trendmicro.com/en_us/research/26/e/analyzing-void-dokkaebi-invisibleferret-malware.html)

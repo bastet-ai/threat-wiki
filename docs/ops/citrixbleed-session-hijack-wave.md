@@ -65,7 +65,7 @@ Because there is no standalone `Orgs` section in the current taxonomy, the key o
 - Keep actor attribution separate from exploit mechanics. Multiple actor sets used the same exposure path, so the durable page is the wave itself, not one group label.
 
 ## Sources
-- [Citrix Security Bulletin CTX579459 for CVE-2023-4966 and CVE-2023-4967](https://support.citrix.com/external/article/579459/netscaler-adc-and-netscaler-gateway-secu.html)
-- [Mandiant: Remediation for Citrix NetScaler ADC and Gateway Vulnerability (CVE-2023-4966)](https://cloud.google.com/blog/topics/threat-intelligence/remediation-netscaler-adc-gateway-cve-2023-4966/)
-- [CISA: #StopRansomware - LockBit 3.0 Ransomware Affiliates Exploit CVE-2023-4966 Citrix Bleed Vulnerability](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-325a)
-- [CISA: MAR-10478915-1.v1 Citrix Bleed](https://www.cisa.gov/news-events/analysis-reports/ar23-325a)
+- Citrix Security Bulletin CTX579459 for CVE-2023-4966 and CVE-2023-4967: [https://support.citrix.com/external/article/579459/netscaler-adc-and-netscaler-gateway-secu.html](https://support.citrix.com/external/article/579459/netscaler-adc-and-netscaler-gateway-secu.html)
+- Mandiant: Remediation for Citrix NetScaler ADC and Gateway Vulnerability (CVE-2023-4966): [https://cloud.google.com/blog/topics/threat-intelligence/remediation-netscaler-adc-gateway-cve-2023-4966/](https://cloud.google.com/blog/topics/threat-intelligence/remediation-netscaler-adc-gateway-cve-2023-4966/)
+- CISA: #StopRansomware - LockBit 3.0 Ransomware Affiliates Exploit CVE-2023-4966 Citrix Bleed Vulnerability: [https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-325a](https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-325a)
+- CISA: MAR-10478915-1.v1 Citrix Bleed: [https://www.cisa.gov/news-events/analysis-reports/ar23-325a](https://www.cisa.gov/news-events/analysis-reports/ar23-325a)

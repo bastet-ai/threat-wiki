@@ -37,8 +37,8 @@
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## Sources
-- [GitHub profile](https://github.com/JiaT75)
-- [GitHub commit history filtered to `JiaT75`](https://github.com/tukaani-project/xz/commits?author=JiaT75)
-- [Tukaani incident page](https://tukaani.org/xz-backdoor/)
-- [Tukaani review notes](https://tukaani.org/xz-backdoor/review.html)
-- [Tukaani old releases page](https://tukaani.org/xz/old.html)
+- GitHub profile: [https://github.com/JiaT75](https://github.com/JiaT75)
+- GitHub commit history filtered to `JiaT75`: [https://github.com/tukaani-project/xz/commits?author=JiaT75](https://github.com/tukaani-project/xz/commits?author=JiaT75)
+- Tukaani incident page: [https://tukaani.org/xz-backdoor/](https://tukaani.org/xz-backdoor/)
+- Tukaani review notes: [https://tukaani.org/xz-backdoor/review.html](https://tukaani.org/xz-backdoor/review.html)
+- Tukaani old releases page: [https://tukaani.org/xz/old.html](https://tukaani.org/xz/old.html)

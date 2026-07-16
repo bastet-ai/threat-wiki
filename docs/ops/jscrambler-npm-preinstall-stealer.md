@@ -130,8 +130,8 @@ StepSecurity noted that recovery of full C2 details and deeper disassembly were 
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## Sources
-- [StepSecurity](https://www.stepsecurity.io/blog/jscrambler-npm-package-publishes-malicious-preinstall-binary)
-- [Socket](https://socket.dev/blog/jscrambler-supply-chain-attack)
-- [JFrog Security Research](https://research.jfrog.com/post/ironworm-returns-rustier-than-ever/)
-- [npm registry metadata](https://registry.npmjs.org/jscrambler)
-- [Jscrambler GitHub issue #322](https://github.com/jscrambler/jscrambler/issues/322)
+- StepSecurity: [https://www.stepsecurity.io/blog/jscrambler-npm-package-publishes-malicious-preinstall-binary](https://www.stepsecurity.io/blog/jscrambler-npm-package-publishes-malicious-preinstall-binary)
+- Socket: [https://socket.dev/blog/jscrambler-supply-chain-attack](https://socket.dev/blog/jscrambler-supply-chain-attack)
+- JFrog Security Research: [https://research.jfrog.com/post/ironworm-returns-rustier-than-ever/](https://research.jfrog.com/post/ironworm-returns-rustier-than-ever/)
+- npm registry metadata: [https://registry.npmjs.org/jscrambler](https://registry.npmjs.org/jscrambler)
+- Jscrambler GitHub issue #322: [https://github.com/jscrambler/jscrambler/issues/322](https://github.com/jscrambler/jscrambler/issues/322)

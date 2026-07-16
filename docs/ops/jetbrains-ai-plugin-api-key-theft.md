@@ -96,5 +96,5 @@ StepSecurity also reported a monetization loop: a plugin "donation wall" could r
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Sources
-- [StepSecurity](https://www.stepsecurity.io/blog/jetbrains-malicious-plugins-ai-api-key-theft)
-- [JetBrains](https://blog.jetbrains.com/platform/2026/06/marketplace-ecosystem-security-update-malicious-ai-plugins/)
+- StepSecurity: [https://www.stepsecurity.io/blog/jetbrains-malicious-plugins-ai-api-key-theft](https://www.stepsecurity.io/blog/jetbrains-malicious-plugins-ai-api-key-theft)
+- JetBrains: [https://blog.jetbrains.com/platform/2026/06/marketplace-ecosystem-security-update-malicious-ai-plugins/](https://blog.jetbrains.com/platform/2026/06/marketplace-ecosystem-security-update-malicious-ai-plugins/)

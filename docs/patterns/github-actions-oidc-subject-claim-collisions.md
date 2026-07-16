@@ -43,6 +43,6 @@ In April 2026, GitHub briefly exposed an immutable subject-claim format that app
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## Sources
-- [Boost Security Labs](https://labs.boostsecurity.io/articles/sleeper-squats-github-oidc-immutable-subject-claim/)
-- [GitHub Changelog](https://github.blog/changelog/2026-04-23-immutable-subject-claims-for-github-actions-oidc-tokens/)
-- [GitHub Docs](https://docs.github.com/en/actions/reference/security/oidc)
+- Boost Security Labs: [https://labs.boostsecurity.io/articles/sleeper-squats-github-oidc-immutable-subject-claim/](https://labs.boostsecurity.io/articles/sleeper-squats-github-oidc-immutable-subject-claim/)
+- GitHub Changelog: [https://github.blog/changelog/2026-04-23-immutable-subject-claims-for-github-actions-oidc-tokens/](https://github.blog/changelog/2026-04-23-immutable-subject-claims-for-github-actions-oidc-tokens/)
+- GitHub Docs: [https://docs.github.com/en/actions/reference/security/oidc](https://docs.github.com/en/actions/reference/security/oidc)

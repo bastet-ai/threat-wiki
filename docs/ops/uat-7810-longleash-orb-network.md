@@ -78,5 +78,5 @@ Treat the vulnerability list as a starting point rather than a complete boundary
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## Sources
-- [Cisco Talos](https://blog.talosintelligence.com/uat-7810/)
-- [The Hacker News](https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html)
+- Cisco Talos: [https://blog.talosintelligence.com/uat-7810/](https://blog.talosintelligence.com/uat-7810/)
+- The Hacker News: [https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html](https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html)

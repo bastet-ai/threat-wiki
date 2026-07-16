@@ -51,5 +51,5 @@ The durable defender lesson: for agents that can act, tool metadata is part of t
 - [Developer-tool config auto-execution](developer-tool-config-auto-execution.md)
 
 ## Sources
-- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/)
-- [The Hacker News summary](https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html)
+- Microsoft Security Blog: [https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/](https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/)
+- The Hacker News summary: [https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html](https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html)

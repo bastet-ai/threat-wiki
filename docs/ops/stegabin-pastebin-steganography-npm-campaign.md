@@ -87,5 +87,5 @@ Socket assessed the tradecraft and infrastructure as consistent with FAMOUS CHOL
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## Sources
-- [Socket](https://socket.dev/blog/stegabin-26-malicious-npm-packages-use-pastebin-steganography)
-- [kmsec.uk disclosure referenced by Socket](https://kmsec.uk/blog/dprk-text-steganography/)
+- Socket: [https://socket.dev/blog/stegabin-26-malicious-npm-packages-use-pastebin-steganography](https://socket.dev/blog/stegabin-26-malicious-npm-packages-use-pastebin-steganography)
+- kmsec.uk disclosure referenced by Socket: [https://kmsec.uk/blog/dprk-text-steganography/](https://kmsec.uk/blog/dprk-text-steganography/)

@@ -73,4 +73,4 @@ GTIG assesses UNC6671 as distinct from ShinyHunters / UNC6240 despite overlap in
 - [ROADtools](../tools/roadtools.md)
 
 ## Sources
-- [Google Cloud / GTIG](https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation)
+- Google Cloud / GTIG: [https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation](https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation)

@@ -69,5 +69,5 @@ CrashStealer is notable because it combines social engineering, notarized delive
 - [JINX-0164 crypto developer infrastructure campaign](jinx-0164-crypto-developer-infrastructure-campaign.md)
 
 ## Sources
-- [The Hacker News](https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html)
-- [Jamf Threat Labs](https://www.jamf.com/blog/)
+- The Hacker News: [https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html](https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html)
+- Jamf Threat Labs: [https://www.jamf.com/blog/](https://www.jamf.com/blog/)

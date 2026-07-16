@@ -72,4 +72,4 @@ Socket did not publicly attribute this campaign to TeamPCP or Mini Shai-Hulud. K
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## Sources
-- [Socket](https://socket.dev/blog/malicious-postinstall-hook-found-across-700-github-repos)
+- Socket: [https://socket.dev/blog/malicious-postinstall-hook-found-across-700-github-repos](https://socket.dev/blog/malicious-postinstall-hook-found-across-700-github-repos)

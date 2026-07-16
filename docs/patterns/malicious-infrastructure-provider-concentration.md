@@ -92,5 +92,5 @@ Hunt.io also highlighted operational examples mapped into regional infrastructur
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 
 ## Sources
-- [Hunt.io](https://hunt.io/blog/eastern-europe-malicious-infrastructure-report)
-- [Hunt.io](https://hunt.io/blog/middle-east-malicious-infrastructure-report)
+- Hunt.io: [https://hunt.io/blog/eastern-europe-malicious-infrastructure-report](https://hunt.io/blog/eastern-europe-malicious-infrastructure-report)
+- Hunt.io: [https://hunt.io/blog/middle-east-malicious-infrastructure-report](https://hunt.io/blog/middle-east-malicious-infrastructure-report)

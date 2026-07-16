@@ -50,7 +50,7 @@ Confirmed public reporting ties APT29 to:
 - Supply-chain incidents can become cloud follow-on incidents when attackers reuse stolen access.
 
 ## Sources
-- [MITRE ATT&CK group page](https://attack.mitre.org/groups/G0016/)
-- [CISA AA20-352A: Advanced Persistent Threat Compromise of Government Agencies, Critical Infrastructure, and Private Sector Organizations](https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a)
-- [Microsoft Security Response Center guidance on nation-state activity and SolarWinds-related compromise](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-0688)
-- [Volexity on Dark Halo / SolarWinds mailbox abuse](https://www.volexity.com/blog/2020/12/14/dark-halo-leverages-solarwinds-compromise-to-breach-organizations/)
+- MITRE ATT&CK group page: [https://attack.mitre.org/groups/G0016/](https://attack.mitre.org/groups/G0016/)
+- CISA AA20-352A: Advanced Persistent Threat Compromise of Government Agencies, Critical Infrastructure, and Private Sector Organizations: [https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a](https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a)
+- Microsoft Security Response Center guidance on nation-state activity and SolarWinds-related compromise: [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-0688](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-0688)
+- Volexity on Dark Halo / SolarWinds mailbox abuse: [https://www.volexity.com/blog/2020/12/14/dark-halo-leverages-solarwinds-compromise-to-breach-organizations/](https://www.volexity.com/blog/2020/12/14/dark-halo-leverages-solarwinds-compromise-to-breach-organizations/)

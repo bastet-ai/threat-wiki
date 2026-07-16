@@ -191,13 +191,13 @@ Defensive changes to make this operational:
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## Sources
-- [Trail of Bits](https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/)
-- [Unit 42 BIV](https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/)
-- [Unit 42 OpenClaw](https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/)
-- [Snyk](https://snyk.io/blog/agentic-development-security-ai-coding-risk/)
-- [JFrog](https://jfrog.com/blog/introducing-agent-plugins-repositories/)
-- [AIR Security](https://www.air.security/blog-posts/the-story-of-skills)
-- [HKUST arXiv](https://arxiv.org/abs/2607.02357)
-- [The Hacker News SkillCloak coverage](https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html)
-- [The Hacker News](https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html)
+- Trail of Bits: [https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/](https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/)
+- Unit 42 BIV: [https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/](https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/)
+- Unit 42 OpenClaw: [https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/](https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/)
+- Snyk: [https://snyk.io/blog/agentic-development-security-ai-coding-risk/](https://snyk.io/blog/agentic-development-security-ai-coding-risk/)
+- JFrog: [https://jfrog.com/blog/introducing-agent-plugins-repositories/](https://jfrog.com/blog/introducing-agent-plugins-repositories/)
+- AIR Security: [https://www.air.security/blog-posts/the-story-of-skills](https://www.air.security/blog-posts/the-story-of-skills)
+- HKUST arXiv: [https://arxiv.org/abs/2607.02357](https://arxiv.org/abs/2607.02357)
+- The Hacker News SkillCloak coverage: [https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html](https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html)
+- The Hacker News: [https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html](https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html)
 

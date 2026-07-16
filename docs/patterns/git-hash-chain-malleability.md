@@ -60,5 +60,5 @@ This belongs in source-repository and CI/CD threat modeling even though it is no
 
 ## Sources
 
-- [Jacob Ginesin, “Git Hash Chain Malleability”](https://arxiv.org/abs/2607.02820)
-- [The Hacker News summary](https://thehackernews.com/2026/07/github-verified-commits-can-be.html)
+- Jacob Ginesin, “Git Hash Chain Malleability”: [https://arxiv.org/abs/2607.02820](https://arxiv.org/abs/2607.02820)
+- The Hacker News summary: [https://thehackernews.com/2026/07/github-verified-commits-can-be.html](https://thehackernews.com/2026/07/github-verified-commits-can-be.html)

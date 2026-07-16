@@ -139,4 +139,4 @@ Public reporting attributes the campaign to an attacker-controlled package and G
 - [SANDWORM_MODE AI-toolchain npm worm](sandworm-mode-ai-toolchain-worm.md)
 
 ## Sources
-- [Socket](https://socket.dev/blog/trapdoor-crypto-stealer-npm-pypi-crates)
+- Socket: [https://socket.dev/blog/trapdoor-crypto-stealer-npm-pypi-crates](https://socket.dev/blog/trapdoor-crypto-stealer-npm-pypi-crates)

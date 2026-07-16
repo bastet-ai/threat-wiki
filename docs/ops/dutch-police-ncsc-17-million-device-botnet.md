@@ -56,5 +56,5 @@ The public release does not name the malware family, operators, victim geography
 - [ConnectWise ScreenConnect exploitation wave](connectwise-screenconnect-exploitation-wave.md)
 
 ## Sources
-- [NCSC-NL](https://www.ncsc.nl/nieuws/gezamenlijke-actie-politie-en-ncsc-legt-groot-botnetwerk-plat)
-- [Dutch Police](https://www.politie.nl/nieuws/2026/mei/28/06-politie-en-ncsc-halen-groot-botnetwerk-offline.html)
+- NCSC-NL: [https://www.ncsc.nl/nieuws/gezamenlijke-actie-politie-en-ncsc-legt-groot-botnetwerk-plat](https://www.ncsc.nl/nieuws/gezamenlijke-actie-politie-en-ncsc-legt-groot-botnetwerk-plat)
+- Dutch Police: [https://www.politie.nl/nieuws/2026/mei/28/06-politie-en-ncsc-halen-groot-botnetwerk-offline.html](https://www.politie.nl/nieuws/2026/mei/28/06-politie-en-ncsc-halen-groot-botnetwerk-offline.html)

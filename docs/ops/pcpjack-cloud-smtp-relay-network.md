@@ -50,6 +50,6 @@ SentinelOne framed PCPJack as evicting or removing TeamPCP-associated artifacts 
 | `9000`, `8080`, `2053` | Excluded / infrastructure-related ports in recovered deployer logic |
 
 ## Sources
-- [Hunt.io: PCPJack hijacked 230 AWS, GCP, and Azure servers to run a hidden SMTP relay network](https://hunt.io/blog/pcpjack-230-cloud-servers-smtp-proxy-network-sliver-chisel)
-- [SentinelOne: PCPJack cloud worm evicts TeamPCP and steals credentials at scale](https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/)
-- [The Hacker News: PCPJack hijacks 230 AWS, Google Cloud, and Azure servers for covert SMTP relay network](https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html)
+- Hunt.io: PCPJack hijacked 230 AWS, GCP, and Azure servers to run a hidden SMTP relay network: [https://hunt.io/blog/pcpjack-230-cloud-servers-smtp-proxy-network-sliver-chisel](https://hunt.io/blog/pcpjack-230-cloud-servers-smtp-proxy-network-sliver-chisel)
+- SentinelOne: PCPJack cloud worm evicts TeamPCP and steals credentials at scale: [https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/](https://www.sentinelone.com/labs/cloud-worm-evicts-teampcp-and-steals-credentials-at-scale/)
+- The Hacker News: PCPJack hijacks 230 AWS, Google Cloud, and Azure servers for covert SMTP relay network: [https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html](https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html)

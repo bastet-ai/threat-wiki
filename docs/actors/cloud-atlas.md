@@ -60,4 +60,4 @@ The current reporting is durable threat.wiki material because it ties the actor 
 - The actor's mix of file theft, credential access, lateral movement, and redundant tunnels warrants full incident-response scoping if any single component appears.
 
 ## Sources
-- [Kaspersky Securelist](https://securelist.com/cloud-atlas-2026/119895/)
+- Kaspersky Securelist: [https://securelist.com/cloud-atlas-2026/119895/](https://securelist.com/cloud-atlas-2026/119895/)

@@ -83,4 +83,4 @@ Socket reports that each exfiltration path swallowed exceptions with empty `catc
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
 ## Sources
-- [Socket](https://socket.dev/blog/braintree-nuget-typosquat-skims-credit-cards)
+- Socket: [https://socket.dev/blog/braintree-nuget-typosquat-skims-credit-cards](https://socket.dev/blog/braintree-nuget-typosquat-skims-credit-cards)

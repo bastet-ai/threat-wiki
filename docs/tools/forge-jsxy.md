@@ -54,5 +54,5 @@ The tool is notable because it behaves like a managed endpoint implant rather th
 - OSV advisory: `MAL-2026-3609`
 
 ## Sources
-- [SafeDep](https://safedep.io/malicious-forge-jsxy-npm-rat-evolution/)
+- SafeDep: [https://safedep.io/malicious-forge-jsxy-npm-rat-evolution/](https://safedep.io/malicious-forge-jsxy-npm-rat-evolution/)
 

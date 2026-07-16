@@ -67,4 +67,4 @@ Kaspersky published full hashes and infrastructure in its report. High-level piv
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## Sources
-- [Kaspersky Securelist](https://securelist.com/whatsapp-vbs-rmm-campaign/120290/)
+- Kaspersky Securelist: [https://securelist.com/whatsapp-vbs-rmm-campaign/120290/](https://securelist.com/whatsapp-vbs-rmm-campaign/120290/)

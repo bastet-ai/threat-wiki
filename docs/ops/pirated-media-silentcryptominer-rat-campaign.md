@@ -72,4 +72,4 @@ The durable intelligence value is the blend of high-traffic piracy lures, DLL si
 - [TamperedChef-style productivity malware clusters](tamperedchef-productivity-malware-clusters.md)
 
 ## Sources
-- [Kaspersky Securelist](https://securelist.com/video-books-pirates-miners-rat/119943/)
+- Kaspersky Securelist: [https://securelist.com/video-books-pirates-miners-rat/119943/](https://securelist.com/video-books-pirates-miners-rat/119943/)

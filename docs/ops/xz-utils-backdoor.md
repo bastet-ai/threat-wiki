@@ -66,10 +66,10 @@ This belongs under `Ops` because the durable value is the compromise chain, expo
 - Audit downstream patches and transitive linkages; the operational path depended on distro-specific `sshd` and `systemd` integration rather than on upstream OpenSSH alone.
 
 ## Sources
-- [Andres Freund disclosure](https://www.openwall.com/lists/oss-security/2024/03/29/4)
-- [Tukaani incident page](https://tukaani.org/xz-backdoor/)
-- [Tukaani review notes](https://tukaani.org/xz-backdoor/review.html)
-- [Debian DSA-5649-1](https://lists.debian.org/debian-security-announce/2024/msg00057.html)
-- [Fedora urgent alert](https://fedoramagazine.org/cve-2024-3094-security-alert-f40-rawhide/)
-- [Fedora follow-up](https://fedoramagazine.org/cve-2024-3094-all-clear/)
-- [Red Hat response timeline](https://www.redhat.com/en/blog/understanding-red-hats-response-xz-security-incident)
+- Andres Freund disclosure: [https://www.openwall.com/lists/oss-security/2024/03/29/4](https://www.openwall.com/lists/oss-security/2024/03/29/4)
+- Tukaani incident page: [https://tukaani.org/xz-backdoor/](https://tukaani.org/xz-backdoor/)
+- Tukaani review notes: [https://tukaani.org/xz-backdoor/review.html](https://tukaani.org/xz-backdoor/review.html)
+- Debian DSA-5649-1: [https://lists.debian.org/debian-security-announce/2024/msg00057.html](https://lists.debian.org/debian-security-announce/2024/msg00057.html)
+- Fedora urgent alert: [https://fedoramagazine.org/cve-2024-3094-security-alert-f40-rawhide/](https://fedoramagazine.org/cve-2024-3094-security-alert-f40-rawhide/)
+- Fedora follow-up: [https://fedoramagazine.org/cve-2024-3094-all-clear/](https://fedoramagazine.org/cve-2024-3094-all-clear/)
+- Red Hat response timeline: [https://www.redhat.com/en/blog/understanding-red-hats-response-xz-security-incident](https://www.redhat.com/en/blog/understanding-red-hats-response-xz-security-incident)

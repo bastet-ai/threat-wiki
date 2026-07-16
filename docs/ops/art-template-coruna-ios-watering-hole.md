@@ -47,4 +47,4 @@ The reported entry point was maintainer handoff rather than a direct registry-to
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- [Socket](https://socket.dev/blog/coruna-respawned-compromised-art-template-npm-package)
+- Socket: [https://socket.dev/blog/coruna-respawned-compromised-art-template-npm-package](https://socket.dev/blog/coruna-respawned-compromised-art-template-npm-package)

@@ -61,5 +61,5 @@ Kaspersky named the technique **Shadow Token via Remote Debug (STRD)**. The dura
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 
 ## Sources
-- [Kaspersky Securelist](https://securelist.com/toddycat-apt-umbrij-tool-and-oauth/120251/)
-- [The Hacker News](https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html)
+- Kaspersky Securelist: [https://securelist.com/toddycat-apt-umbrij-tool-and-oauth/120251/](https://securelist.com/toddycat-apt-umbrij-tool-and-oauth/120251/)
+- The Hacker News: [https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html](https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html)

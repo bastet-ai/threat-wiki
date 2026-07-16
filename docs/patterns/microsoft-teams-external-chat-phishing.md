@@ -58,4 +58,4 @@ The durable pattern is not a single malware family: external chat, open federati
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Sources
-- [Unit 42](https://unit42.paloaltonetworks.com/microsoft-teams-phishing/)
+- Unit 42: [https://unit42.paloaltonetworks.com/microsoft-teams-phishing/](https://unit42.paloaltonetworks.com/microsoft-teams-phishing/)

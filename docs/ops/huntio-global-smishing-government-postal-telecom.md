@@ -128,4 +128,4 @@ Selected backend IPs explicitly listed by Hunt.io:
 - [0ktapus phishing campaign](0ktapus-phishing-campaign.md)
 
 ## Sources
-- [Hunt.io](https://hunt.io/blog/massive-smishing-campaign-governments-postal-telecoms)
+- Hunt.io: [https://hunt.io/blog/massive-smishing-campaign-governments-postal-telecoms](https://hunt.io/blog/massive-smishing-campaign-governments-postal-telecoms)

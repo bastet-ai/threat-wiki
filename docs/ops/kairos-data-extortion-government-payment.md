@@ -58,6 +58,6 @@ The Hacker News reported that proof-of-theft filenames and incident details alig
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## Sources
-- [Ransom-ISAC](https://ransom-isac.org/blog/kairos-ransomware-data-extortion-case-study/)
-- [The Hacker News](https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html)
-- [Union County, Ohio public notice](https://www.unioncountyohio.gov/media/Officials/Auditor/IT/Union_County_CyberIncident_Notice_092425.pdf)
+- Ransom-ISAC: [https://ransom-isac.org/blog/kairos-ransomware-data-extortion-case-study/](https://ransom-isac.org/blog/kairos-ransomware-data-extortion-case-study/)
+- The Hacker News: [https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html](https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html)
+- Union County, Ohio public notice: [https://www.unioncountyohio.gov/media/Officials/Auditor/IT/Union_County_CyberIncident_Notice_092425.pdf](https://www.unioncountyohio.gov/media/Officials/Auditor/IT/Union_County_CyberIncident_Notice_092425.pdf)

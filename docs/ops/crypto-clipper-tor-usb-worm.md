@@ -114,4 +114,4 @@ Microsoft lists the following SHA-256 indicators for the Crypto Clipper Worm:
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
 ## Sources
-- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/)
+- Microsoft Security Blog: [https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/](https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/)

@@ -126,10 +126,10 @@ ZeroBEC found a directly exposed DEBULL panel on `162.35.167[.]138`, `phpinfo` l
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## Sources
-- [Arctic Wolf Labs, April 2026 Kali365 / Token Bingo report](https://arcticwolf.com/resources/blog/token-bingo-dont-let-your-code-be-the-winner/)
-- [Arctic Wolf Labs, June 2026 Kali365 expansion report](https://arcticwolf.com/resources/blog/kali365-expands-into-aws-microsoft-okta-xerox-max-messenger/)
-- [Arctic Wolf public IOC repository](https://github.com/rtkwlf/wolf-tools/tree/main/threat-intelligence/kali365-expands-into-aws-microsoft-okta-xerox-max-messenger)
-- [Kaspersky Securelist, July 2026 device-code phishing report](https://securelist.com/microsoft-device-code-phishing-attack/120350/)
-- [ZeroBEC, DEBULL / GraphSpy Microsoft device-code phishing report](https://zerobec.com/blog/debull-storm-2372-microsoft-device-code-phishing-graphspy)
-- [The Hacker News DEBULL summary](https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html)
-- [Microsoft OAuth 2.0 device authorization grant documentation](https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-device-code)
+- Arctic Wolf Labs, April 2026 Kali365 / Token Bingo report: [https://arcticwolf.com/resources/blog/token-bingo-dont-let-your-code-be-the-winner/](https://arcticwolf.com/resources/blog/token-bingo-dont-let-your-code-be-the-winner/)
+- Arctic Wolf Labs, June 2026 Kali365 expansion report: [https://arcticwolf.com/resources/blog/kali365-expands-into-aws-microsoft-okta-xerox-max-messenger/](https://arcticwolf.com/resources/blog/kali365-expands-into-aws-microsoft-okta-xerox-max-messenger/)
+- Arctic Wolf public IOC repository: [https://github.com/rtkwlf/wolf-tools/tree/main/threat-intelligence/kali365-expands-into-aws-microsoft-okta-xerox-max-messenger](https://github.com/rtkwlf/wolf-tools/tree/main/threat-intelligence/kali365-expands-into-aws-microsoft-okta-xerox-max-messenger)
+- Kaspersky Securelist, July 2026 device-code phishing report: [https://securelist.com/microsoft-device-code-phishing-attack/120350/](https://securelist.com/microsoft-device-code-phishing-attack/120350/)
+- ZeroBEC, DEBULL / GraphSpy Microsoft device-code phishing report: [https://zerobec.com/blog/debull-storm-2372-microsoft-device-code-phishing-graphspy](https://zerobec.com/blog/debull-storm-2372-microsoft-device-code-phishing-graphspy)
+- The Hacker News DEBULL summary: [https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html](https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html)
+- Microsoft OAuth 2.0 device authorization grant documentation: [https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-device-code](https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-device-code)

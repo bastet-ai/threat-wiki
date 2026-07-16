@@ -70,4 +70,4 @@ The AWS-aware logic attempted IMDSv2 token retrieval and SigV4-signed calls for 
 - [Trivy → TeamPCP → CanisterWorm timeline](trivy-lite-llm-compromise-timeline.md)
 
 ## Sources
-- [JFrog Security Research](https://research.jfrog.com/post/xinference-compromise/)
+- JFrog Security Research: [https://research.jfrog.com/post/xinference-compromise/](https://research.jfrog.com/post/xinference-compromise/)

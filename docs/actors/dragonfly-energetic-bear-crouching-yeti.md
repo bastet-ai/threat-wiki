@@ -38,6 +38,6 @@ Confirmed public reporting shows Dragonfly activity against:
 - Watch for watering-hole infrastructure and spearphishing that leverage trusted relationships.
 
 ## Sources
-- [MITRE ATT&CK group page](https://attack.mitre.org/groups/G0035/)
-- [CISA/FBI alert on Russian government activity targeting energy and other critical infrastructure sectors](https://www.cisa.gov/news-events/alerts/2018/03/15/russian-government-cyber-activity-targeting-energy-and-other-critical-infrastructure-sectors)
-- [Symantec reporting referenced by CISA](https://www.symantec.com/connect/blogs/dragonfly-western-energy-sector-targeted-sophisticated-attack-group)
+- MITRE ATT&CK group page: [https://attack.mitre.org/groups/G0035/](https://attack.mitre.org/groups/G0035/)
+- CISA/FBI alert on Russian government activity targeting energy and other critical infrastructure sectors: [https://www.cisa.gov/news-events/alerts/2018/03/15/russian-government-cyber-activity-targeting-energy-and-other-critical-infrastructure-sectors](https://www.cisa.gov/news-events/alerts/2018/03/15/russian-government-cyber-activity-targeting-energy-and-other-critical-infrastructure-sectors)
+- Symantec reporting referenced by CISA: [https://www.symantec.com/connect/blogs/dragonfly-western-energy-sector-targeted-sophisticated-attack-group](https://www.symantec.com/connect/blogs/dragonfly-western-energy-sector-targeted-sophisticated-attack-group)

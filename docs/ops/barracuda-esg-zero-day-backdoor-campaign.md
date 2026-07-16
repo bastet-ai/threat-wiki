@@ -71,10 +71,10 @@ Because there is no standalone `Orgs` section in the current taxonomy, the key o
 - Keep descriptive incident names separate from vendor actor branding. Here, the durable operational lesson is the appliance exploit and persistence chain, not the `UNC4841` label by itself.
 
 ## Sources
-- [Barracuda Email Security Gateway Appliance (ESG) Vulnerability](https://trust.barracuda.com/security/information/esg-vulnerability)
-- [Mandiant: Barracuda ESG Zero-Day Vulnerability (CVE-2023-2868) Exploited Globally by Aggressive and Skilled Actor](https://cloud.google.com/blog/topics/threat-intelligence/barracuda-esg-exploited-globally/)
-- [Mandiant: Diving Deep into UNC4841 Operations Following Barracuda ESG Zero-Day Remediation](https://cloud.google.com/blog/topics/threat-intelligence/unc4841-post-barracuda-zero-day-remediation)
-- [CISA: Barracuda Networks Releases Update to Address ESG Vulnerability](https://www.cisa.gov/news-events/alerts/2023/06/15/barracuda-networks-releases-update-address-esg-vulnerability)
-- [CISA: CISA Releases Malware Analysis Reports on Barracuda Backdoors](https://www.cisa.gov/news-events/alerts/2023/07/28/cisa-releases-malware-analysis-reports-barracuda-backdoors)
-- [CISA: CISA Releases IOCs Associated with Malicious Barracuda Activity](https://www.cisa.gov/news-events/alerts/2023/08/29/cisa-releases-iocs-associated-malicious-barracuda-activity)
-- [CISA: MAR-10454006-r3.v1 Exploit Payload Backdoor](https://www.cisa.gov/news-events/analysis-reports/ar23-209c)
+- Barracuda Email Security Gateway Appliance (ESG) Vulnerability: [https://trust.barracuda.com/security/information/esg-vulnerability](https://trust.barracuda.com/security/information/esg-vulnerability)
+- Mandiant: Barracuda ESG Zero-Day Vulnerability (CVE-2023-2868) Exploited Globally by Aggressive and Skilled Actor: [https://cloud.google.com/blog/topics/threat-intelligence/barracuda-esg-exploited-globally/](https://cloud.google.com/blog/topics/threat-intelligence/barracuda-esg-exploited-globally/)
+- Mandiant: Diving Deep into UNC4841 Operations Following Barracuda ESG Zero-Day Remediation: [https://cloud.google.com/blog/topics/threat-intelligence/unc4841-post-barracuda-zero-day-remediation](https://cloud.google.com/blog/topics/threat-intelligence/unc4841-post-barracuda-zero-day-remediation)
+- CISA: Barracuda Networks Releases Update to Address ESG Vulnerability: [https://www.cisa.gov/news-events/alerts/2023/06/15/barracuda-networks-releases-update-address-esg-vulnerability](https://www.cisa.gov/news-events/alerts/2023/06/15/barracuda-networks-releases-update-address-esg-vulnerability)
+- CISA: CISA Releases Malware Analysis Reports on Barracuda Backdoors: [https://www.cisa.gov/news-events/alerts/2023/07/28/cisa-releases-malware-analysis-reports-barracuda-backdoors](https://www.cisa.gov/news-events/alerts/2023/07/28/cisa-releases-malware-analysis-reports-barracuda-backdoors)
+- CISA: CISA Releases IOCs Associated with Malicious Barracuda Activity: [https://www.cisa.gov/news-events/alerts/2023/08/29/cisa-releases-iocs-associated-malicious-barracuda-activity](https://www.cisa.gov/news-events/alerts/2023/08/29/cisa-releases-iocs-associated-malicious-barracuda-activity)
+- CISA: MAR-10454006-r3.v1 Exploit Payload Backdoor: [https://www.cisa.gov/news-events/analysis-reports/ar23-209c](https://www.cisa.gov/news-events/analysis-reports/ar23-209c)

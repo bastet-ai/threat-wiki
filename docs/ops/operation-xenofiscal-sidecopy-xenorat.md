@@ -82,5 +82,5 @@ Seqrite attributes the campaign to **SideCopy** with **medium-to-high confidence
 - [Operation Dragon Weave Azure Blob C2 campaign](operation-dragon-weave-azure-blob-c2.md)
 
 ## Sources
-- [Seqrite](https://www.seqrite.com/blog/operation-xenofiscal-sidecopy-deploying-persistent-xenorat-targeting-the-mof-afghanistan/)
-- [The Hacker News summary](https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html)
+- Seqrite: [https://www.seqrite.com/blog/operation-xenofiscal-sidecopy-deploying-persistent-xenorat-targeting-the-mof-afghanistan/](https://www.seqrite.com/blog/operation-xenofiscal-sidecopy-deploying-persistent-xenorat-targeting-the-mof-afghanistan/)
+- The Hacker News summary: [https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html](https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html)

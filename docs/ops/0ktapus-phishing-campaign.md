@@ -81,8 +81,8 @@ Because there is no standalone `Orgs` section in the current taxonomy, the key o
 - Okta customers can adapt the [Okta](https://sec.okta.com/articles/scatterswine/) log-hunting guidance for new-device, new-IP, Windows-based sign-ins after SMS events or proxy-backed authentication attempts.
 
 ## Sources
-- [Group-IB](https://www.group-ib.com/blog/0ktapus/)
-- [Cloudflare](https://blog.cloudflare.com/2022-07-sms-phishing-attacks/)
-- [Twilio](https://www.twilio.com/en-us/blog/archive/2022/august-2022-social-engineering-attack)
-- [Okta Security](https://sec.okta.com/articles/scatterswine/)
-- [Signal Support](https://support.signal.org/hc/en-us/articles/4850133017242-Twilio-Incident-What-Signal-Users-Need-to-Know)
+- Group-IB: [https://www.group-ib.com/blog/0ktapus/](https://www.group-ib.com/blog/0ktapus/)
+- Cloudflare: [https://blog.cloudflare.com/2022-07-sms-phishing-attacks/](https://blog.cloudflare.com/2022-07-sms-phishing-attacks/)
+- Twilio: [https://www.twilio.com/en-us/blog/archive/2022/august-2022-social-engineering-attack](https://www.twilio.com/en-us/blog/archive/2022/august-2022-social-engineering-attack)
+- Okta Security: [https://sec.okta.com/articles/scatterswine/](https://sec.okta.com/articles/scatterswine/)
+- Signal Support: [https://support.signal.org/hc/en-us/articles/4850133017242-Twilio-Incident-What-Signal-Users-Need-to-Know](https://support.signal.org/hc/en-us/articles/4850133017242-Twilio-Incident-What-Signal-Users-Need-to-Know)

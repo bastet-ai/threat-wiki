@@ -85,4 +85,4 @@ The durable defender lesson is that GigaWiper is not a single wiper binary. Micr
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
 ## Sources
-- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/)
+- Microsoft Security Blog: [https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/](https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/)

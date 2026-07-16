@@ -38,4 +38,4 @@ The original GitHub repository and owner account were removed, but Socket noted 
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- [Socket](https://socket.dev/blog/popular-go-decimal-library-typosquat-dns-backdoor)
+- Socket: [https://socket.dev/blog/popular-go-decimal-library-typosquat-dns-backdoor](https://socket.dev/blog/popular-go-decimal-library-typosquat-dns-backdoor)

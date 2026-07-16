@@ -61,5 +61,5 @@ ESET's June 2026 Gamaredon retrospective reports an early-2025 **Gamaredon / Tur
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## Sources
-- [ESET WeLiveSecurity](https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances/)
-- [Google Cloud / Google Threat Intelligence Group](https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering)
+- ESET WeLiveSecurity: [https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances/](https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances/)
+- Google Cloud / Google Threat Intelligence Group: [https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering](https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering)

@@ -69,5 +69,5 @@ Zimperium assesses RedWing as a new variant or close relative of **Oblivion**, c
 - [Fake-reputation crypto clipboard hijacker](fake-reputation-crypto-clipboard-hijacker.md)
 
 ## Sources
-- [Zimperium zLabs](https://zimperium.com/blog/redwing-a-mobile-malware-as-a-service-operation)
-- [The Hacker News](https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html)
+- Zimperium zLabs: [https://zimperium.com/blog/redwing-a-mobile-malware-as-a-service-operation](https://zimperium.com/blog/redwing-a-mobile-malware-as-a-service-operation)
+- The Hacker News: [https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html](https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html)

@@ -53,5 +53,5 @@ See [MODBEACON](../tools/modbeacon.md#indicators) for malware and infrastructure
 - [Operation GriefLure Southeast Asia LNK dropper](operation-grieflure-southeast-asia-lnk-dropper.md)
 
 ## Sources
-- [Qianxin Threat Intelligence Center](https://ti.qianxin.com/blog/articles/operation-phnom-penh-silverfox-ghost-distributor-targets-specific-victims-with-modbeacon-en/)
-- [The Hacker News](https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html)
+- Qianxin Threat Intelligence Center: [https://ti.qianxin.com/blog/articles/operation-phnom-penh-silverfox-ghost-distributor-targets-specific-victims-with-modbeacon-en/](https://ti.qianxin.com/blog/articles/operation-phnom-penh-silverfox-ghost-distributor-targets-specific-victims-with-modbeacon-en/)
+- The Hacker News: [https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html](https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html)

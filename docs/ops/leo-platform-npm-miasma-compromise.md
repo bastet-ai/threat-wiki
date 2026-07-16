@@ -145,8 +145,8 @@ StepSecurity states that the Leo Platform operation appears to be the same actor
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- [StepSecurity](https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised)
-- [Socket](https://socket.dev/blog/miasma-mini-shai-hulud-hits-leoplatform-npm-packages-go-ecosystem)
-- [Sonatype](https://www.sonatype.com/blog/miasma-returns-leo-platform-compromise-in-npm)
-- [JFrog Security Research](https://research.jfrog.com/post/shai-hulud-miasma-alright-lets-see-if-this-works/)
-- [SafeDep](https://safedep.io/miasma-worm-hits-leoplatform-20-npm-packages/)
+- StepSecurity: [https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised](https://www.stepsecurity.io/blog/mass-npm-supply-chain-attack-20-leo-platform-packages-compromised)
+- Socket: [https://socket.dev/blog/miasma-mini-shai-hulud-hits-leoplatform-npm-packages-go-ecosystem](https://socket.dev/blog/miasma-mini-shai-hulud-hits-leoplatform-npm-packages-go-ecosystem)
+- Sonatype: [https://www.sonatype.com/blog/miasma-returns-leo-platform-compromise-in-npm](https://www.sonatype.com/blog/miasma-returns-leo-platform-compromise-in-npm)
+- JFrog Security Research: [https://research.jfrog.com/post/shai-hulud-miasma-alright-lets-see-if-this-works/](https://research.jfrog.com/post/shai-hulud-miasma-alright-lets-see-if-this-works/)
+- SafeDep: [https://safedep.io/miasma-worm-hits-leoplatform-20-npm-packages/](https://safedep.io/miasma-worm-hits-leoplatform-20-npm-packages/)

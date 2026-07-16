@@ -86,4 +86,4 @@ Selected public indicators from Kaspersky's report include:
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 
 ## Sources
-- [Kaspersky Securelist](https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/)
+- Kaspersky Securelist: [https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/](https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/)

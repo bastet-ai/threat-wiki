@@ -77,9 +77,9 @@ CISA added **CVE-2026-48027** to the Known Exploited Vulnerabilities catalog on 
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- [StepSecurity](https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised)
-- [GitHub Blog](https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/)
-- [GitHub Security Advisory](https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w)
-- [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-- [Visual Studio Code release notes](https://code.visualstudio.com/updates/v1_123#_delayed-extension-autoupdates)
-- [The Hacker News](https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html)
+- StepSecurity: [https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised](https://www.stepsecurity.io/blog/nx-console-vs-code-extension-compromised)
+- GitHub Blog: [https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/](https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/)
+- GitHub Security Advisory: [https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w](https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w)
+- CISA KEV: [https://www.cisa.gov/known-exploited-vulnerabilities-catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+- Visual Studio Code release notes: [https://code.visualstudio.com/updates/v1_123#_delayed-extension-autoupdates](https://code.visualstudio.com/updates/v1_123#_delayed-extension-autoupdates)
+- The Hacker News: [https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html](https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html)

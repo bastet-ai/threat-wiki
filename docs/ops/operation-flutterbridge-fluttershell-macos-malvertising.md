@@ -88,4 +88,4 @@ Use Unit 42's indicator tables for the current SHA256 values, actor-related webs
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## Sources
-- [Unit 42](https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/)
+- Unit 42: [https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/](https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/)

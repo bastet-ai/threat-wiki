@@ -97,7 +97,7 @@ Arctic Wolf's public GitHub IOC bundle includes these durable examples:
 - [FortiBleed Fortinet credential exposure](fortibleed-fortinet-credential-exposure.md)
 
 ## Sources
-- [Arctic Wolf](https://arcticwolf.com/resources/blog/citrixbleed-2-to-cloudflared-the-tools-and-techniques-behind-anubis-ransomware-attacks/)
-- [Arctic Wolf public IOC bundle](https://github.com/rtkwlf/wolf-tools/tree/main/threat-intelligence/anubis-citrixbleed2-to-cloudflared)
-- [Citrix CVE-2025-5777 guidance](https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX693420)
-- [CISA KEV catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+- Arctic Wolf: [https://arcticwolf.com/resources/blog/citrixbleed-2-to-cloudflared-the-tools-and-techniques-behind-anubis-ransomware-attacks/](https://arcticwolf.com/resources/blog/citrixbleed-2-to-cloudflared-the-tools-and-techniques-behind-anubis-ransomware-attacks/)
+- Arctic Wolf public IOC bundle: [https://github.com/rtkwlf/wolf-tools/tree/main/threat-intelligence/anubis-citrixbleed2-to-cloudflared](https://github.com/rtkwlf/wolf-tools/tree/main/threat-intelligence/anubis-citrixbleed2-to-cloudflared)
+- Citrix CVE-2025-5777 guidance: [https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX693420](https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX693420)
+- CISA KEV catalog: [https://www.cisa.gov/known-exploited-vulnerabilities-catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)

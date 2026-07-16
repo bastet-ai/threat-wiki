@@ -65,5 +65,5 @@ This is durable defender signal even if the specific victim path is narrow: expo
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 
 ## Sources
-- [Sysdig Threat Research Team](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion)
-- [The Hacker News](https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html)
+- Sysdig Threat Research Team: [https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion)
+- The Hacker News: [https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html](https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html)

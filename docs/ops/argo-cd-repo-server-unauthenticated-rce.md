@@ -55,5 +55,5 @@ The exploit path matters because `repo-server` prepares Kubernetes manifests fro
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
 ## Sources
-- [Synacktiv](https://www.synacktiv.com/en/publications/caught-in-the-octopus-trap-unauthenticated-rce-in-argo-cd-with-codeql)
-- [The Hacker News](https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html)
+- Synacktiv: [https://www.synacktiv.com/en/publications/caught-in-the-octopus-trap-unauthenticated-rce-in-argo-cd-with-codeql](https://www.synacktiv.com/en/publications/caught-in-the-octopus-trap-unauthenticated-rce-in-argo-cd-with-codeql)
+- The Hacker News: [https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html](https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html)

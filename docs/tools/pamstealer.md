@@ -73,5 +73,5 @@ Jamf recovered a decrypted configuration named `avenger-config-v2` that included
 - Example stage-one SHA-256 values: `2b512f6c393edad89a89ecafe26cd23b71cfdd271c10522f8dba98997ebf39bb`, `36d46ac7123e0cef04f179d88e590891c7e7c64ec5a77df4512cb485e40286da`, `60df952153696d46a09774e44ca602393c6829f9e2c2ec4f95d571f9846242a8`, `96c8ad78f6ccdf83d3dcabfd33ba563f7995f7237fe825de1eefd340821abdf3`, `ab3a14096851cc18a253c1cd1c25df74f2cf23eb29051784ce47f9fc318f0f22`, `bb01f3c36110d2cc31ae51c4ff2f17be19bea625755b5339680431fab98616df`, `e8b18c420669deb8fc6f69e74146e499057c3c77436ac6ca54af37befa9ddaa5`
 
 ## Sources
-- [Jamf Threat Labs](https://www.jamf.com/blog/pamstealer-macos-infostealer-applescript-rust/)
-- [The Hacker News](https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html)
+- Jamf Threat Labs: [https://www.jamf.com/blog/pamstealer-macos-infostealer-applescript-rust/](https://www.jamf.com/blog/pamstealer-macos-infostealer-applescript-rust/)
+- The Hacker News: [https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html](https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html)

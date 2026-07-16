@@ -74,5 +74,5 @@ Because there is no standalone `Orgs` section in the current taxonomy, the key o
 - Strong user auth is not enough by itself if a valid session can be stolen from an already-compromised endpoint. Session theft defeated the targeted employee's 2FA-backed login.
 
 ## Sources
-- [CircleCI security alert: Rotate any secrets stored in CircleCI](https://circleci.com/blog/january-4-2023-security-alert/)
-- [CircleCI incident report for January 4, 2023 security incident](https://circleci.com/blog/jan-4-2023-incident-report/)
+- CircleCI security alert: Rotate any secrets stored in CircleCI: [https://circleci.com/blog/january-4-2023-security-alert/](https://circleci.com/blog/january-4-2023-security-alert/)
+- CircleCI incident report for January 4, 2023 security incident: [https://circleci.com/blog/jan-4-2023-incident-report/](https://circleci.com/blog/jan-4-2023-incident-report/)

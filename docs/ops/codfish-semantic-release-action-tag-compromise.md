@@ -81,6 +81,6 @@ StepSecurity's public post does not attribute the `codfish/semantic-release-acti
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- [StepSecurity](https://www.stepsecurity.io/blog/supply-chain-compromise-codfish-semantic-release-action)
-- [GitHub repository](https://github.com/codfish/semantic-release-action)
-- [GitHub Changelog](https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response)
+- StepSecurity: [https://www.stepsecurity.io/blog/supply-chain-compromise-codfish-semantic-release-action](https://www.stepsecurity.io/blog/supply-chain-compromise-codfish-semantic-release-action)
+- GitHub repository: [https://github.com/codfish/semantic-release-action](https://github.com/codfish/semantic-release-action)
+- GitHub Changelog: [https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response](https://github.blog/changelog/2026-06-24-self-service-credential-revocation-for-incident-response)

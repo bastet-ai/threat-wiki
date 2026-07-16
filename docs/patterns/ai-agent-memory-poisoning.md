@@ -73,4 +73,4 @@ Microsoft notes that Microsoft 365 Copilot records memory updates into organizat
 - [AI-augmented adversary operations](ai-augmented-adversary-operations.md)
 
 ## Sources
-- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/)
+- Microsoft Security Blog: [https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/](https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/)

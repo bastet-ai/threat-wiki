@@ -79,4 +79,4 @@ Selected public indicators from Kaspersky reporting:
 - [Fake-reputation crypto clipboard hijacker](fake-reputation-crypto-clipboard-hijacker.md)
 
 ## Sources
-- [Kaspersky Securelist](https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/)
+- Kaspersky Securelist: [https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/](https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/)

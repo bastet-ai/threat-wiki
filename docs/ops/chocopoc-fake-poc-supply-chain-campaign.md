@@ -88,5 +88,5 @@ Treat these as public reporting pivots, not a complete detection set.
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
 ## Sources
-- [YesWeHack / Sekoia](https://www.yeswehack.com/news/chocopocs-vulnerability-researchers-trojanised-exploits)
-- [The Hacker News](https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html)
+- YesWeHack / Sekoia: [https://www.yeswehack.com/news/chocopocs-vulnerability-researchers-trojanised-exploits](https://www.yeswehack.com/news/chocopocs-vulnerability-researchers-trojanised-exploits)
+- The Hacker News: [https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html](https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html)

@@ -49,7 +49,7 @@ On July 14, 2026, CISA added four newly reported exploited vulnerabilities to th
 - [BeyondTrust RS / PRA CVE-2026-40138 / CVE-2026-40139 authentication bypass](beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 
 ## Sources
-- [CISA Known Exploited Vulnerabilities catalog](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json)
-- [MSRC CVE-2026-56155](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-56155)
-- [MSRC CVE-2026-56164](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-56164)
-- [SonicWall PSIRT SNWLID-2026-0008](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0008)
+- CISA Known Exploited Vulnerabilities catalog: [https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json)
+- MSRC CVE-2026-56155: [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-56155](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-56155)
+- MSRC CVE-2026-56164: [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-56164](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-56164)
+- SonicWall PSIRT SNWLID-2026-0008: [https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0008](https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0008)

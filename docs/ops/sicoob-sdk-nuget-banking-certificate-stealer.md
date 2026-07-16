@@ -80,4 +80,4 @@ The surrounding identity also showed impersonation signals:
 - [TrapDoor crypto-stealer cross-ecosystem campaign](trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## Sources
-- [Socket](https://socket.dev/blog/malicious-nuget-package-impersonates-sicoob-sdk)
+- Socket: [https://socket.dev/blog/malicious-nuget-package-impersonates-sicoob-sdk](https://socket.dev/blog/malicious-nuget-package-impersonates-sicoob-sdk)

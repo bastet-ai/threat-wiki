@@ -99,9 +99,9 @@ Defensive takeaways:
 - [AI-augmented adversary operations](ai-augmented-adversary-operations.md)
 
 ## Sources
-- [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/)
-- [The Hacker News](https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html)
-- [GitHub Security Advisory GHSA-hjr6-g723-hmfm](https://github.com/openclaw/openclaw/security/advisories/GHSA-hjr6-g723-hmfm)
-- [GitHub Security Advisory GHSA-9969-8g9h-rxwm](https://github.com/openclaw/openclaw/security/advisories/GHSA-9969-8g9h-rxwm)
-- [GitHub Security Advisory GHSA-575v-8hfq-m3mc](https://github.com/openclaw/openclaw/security/advisories/GHSA-575v-8hfq-m3mc)
-- [The Hacker News](https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html)
+- Microsoft Security Blog: [https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/](https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/)
+- The Hacker News: [https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html](https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html)
+- GitHub Security Advisory GHSA-hjr6-g723-hmfm: [https://github.com/openclaw/openclaw/security/advisories/GHSA-hjr6-g723-hmfm](https://github.com/openclaw/openclaw/security/advisories/GHSA-hjr6-g723-hmfm)
+- GitHub Security Advisory GHSA-9969-8g9h-rxwm: [https://github.com/openclaw/openclaw/security/advisories/GHSA-9969-8g9h-rxwm](https://github.com/openclaw/openclaw/security/advisories/GHSA-9969-8g9h-rxwm)
+- GitHub Security Advisory GHSA-575v-8hfq-m3mc: [https://github.com/openclaw/openclaw/security/advisories/GHSA-575v-8hfq-m3mc](https://github.com/openclaw/openclaw/security/advisories/GHSA-575v-8hfq-m3mc)
+- The Hacker News: [https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html](https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html)

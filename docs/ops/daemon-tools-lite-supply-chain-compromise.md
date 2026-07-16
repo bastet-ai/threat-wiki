@@ -59,8 +59,8 @@ CISA added **CVE-2026-8398** as “Daemon Tools Lite Embedded Malicious Code Vul
 - [Nx Console VS Code extension compromise](nx-console-vscode-extension-compromise.md)
 
 ## Sources
-- [Kaspersky Securelist](https://securelist.com/tr/daemon-tools-backdoor/119654/)
-- [DAEMON Tools vendor notice](https://blog.daemon-tools.cc/post/security-incident)
-- [DAEMON Tools Lite release notes](https://www.daemon-tools.cc/releasenotes/dtLite)
-- [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-- [GitHub Advisory Database](https://github.com/advisories/GHSA-rm3r-35x9-jv93)
+- Kaspersky Securelist: [https://securelist.com/tr/daemon-tools-backdoor/119654/](https://securelist.com/tr/daemon-tools-backdoor/119654/)
+- DAEMON Tools vendor notice: [https://blog.daemon-tools.cc/post/security-incident](https://blog.daemon-tools.cc/post/security-incident)
+- DAEMON Tools Lite release notes: [https://www.daemon-tools.cc/releasenotes/dtLite](https://www.daemon-tools.cc/releasenotes/dtLite)
+- CISA KEV: [https://www.cisa.gov/known-exploited-vulnerabilities-catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+- GitHub Advisory Database: [https://github.com/advisories/GHSA-rm3r-35x9-jv93](https://github.com/advisories/GHSA-rm3r-35x9-jv93)

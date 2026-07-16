@@ -134,4 +134,4 @@ File / path / task markers:
 - [Operation Dragon Weave Azure Blob C2 campaign](operation-dragon-weave-azure-blob-c2.md)
 
 ## Sources
-- [Hunt.io](https://hunt.io/blog/iranian-nexus-oman-government-intrusion)
+- Hunt.io: [https://hunt.io/blog/iranian-nexus-oman-government-intrusion](https://hunt.io/blog/iranian-nexus-oman-government-intrusion)

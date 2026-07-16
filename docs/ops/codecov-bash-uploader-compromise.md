@@ -65,5 +65,5 @@ Because there is no standalone `Orgs` section in the current taxonomy, the key o
 - Separate the vendor compromise from its downstream impact. The durable lesson is not just that Codecov had a bad key path; it is that one compromised CI helper can fan out into many unrelated environments.
 
 ## Sources
-- [Codecov: Bash Uploader Security Update](https://about.codecov.io/security-update/)
-- [CISA: Codecov Releases New Detections for Supply Chain Compromise](https://www.cisa.gov/news-events/alerts/2021/04/30/codecov-releases-new-detections-supply-chain-compromise)
+- Codecov: Bash Uploader Security Update: [https://about.codecov.io/security-update/](https://about.codecov.io/security-update/)
+- CISA: Codecov Releases New Detections for Supply Chain Compromise: [https://www.cisa.gov/news-events/alerts/2021/04/30/codecov-releases-new-detections-supply-chain-compromise](https://www.cisa.gov/news-events/alerts/2021/04/30/codecov-releases-new-detections-supply-chain-compromise)

@@ -94,6 +94,6 @@ No public reporting used here attributes the Laravel-Lang compromise to TeamPCP,
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- [StepSecurity](https://www.stepsecurity.io/blog/laravel-lang-supply-chain-attack)
-- [Socket](https://socket.dev/blog/laravel-lang-compromise)
-- [Snyk](https://snyk.io/blog/laravel-lang-supply-chain-advisory/)
+- StepSecurity: [https://www.stepsecurity.io/blog/laravel-lang-supply-chain-attack](https://www.stepsecurity.io/blog/laravel-lang-supply-chain-attack)
+- Socket: [https://socket.dev/blog/laravel-lang-compromise](https://socket.dev/blog/laravel-lang-compromise)
+- Snyk: [https://snyk.io/blog/laravel-lang-supply-chain-advisory/](https://snyk.io/blog/laravel-lang-supply-chain-advisory/)

@@ -143,6 +143,6 @@ Defensively, HalluSquatting pushes phantom-squatting controls deeper into the ag
 - [AI-brand impersonation phishing and malvertising](ai-brand-impersonation-phishing-malvertising.md)
 
 ## Sources
-- [Unit 42](https://unit42.paloaltonetworks.com/phantom-squatting/)
-- [HalluSquatting research site](https://sites.google.com/view/agentic-botnets/home)
-- [The Hacker News HalluSquatting coverage](https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html)
+- Unit 42: [https://unit42.paloaltonetworks.com/phantom-squatting/](https://unit42.paloaltonetworks.com/phantom-squatting/)
+- HalluSquatting research site: [https://sites.google.com/view/agentic-botnets/home](https://sites.google.com/view/agentic-botnets/home)
+- The Hacker News HalluSquatting coverage: [https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html](https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html)

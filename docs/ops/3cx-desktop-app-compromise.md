@@ -72,10 +72,10 @@ Because there is no standalone `Orgs` section in the current taxonomy, the key o
 - If upstream compromise is suspected, keep attribution caveats explicit. In this case, the operational chain is clearer than the exact boundary between `UNC4736`, `AppleJeus`, and later vendor branding.
 
 ## Sources
-- [3CX DesktopApp Security Alert - Mandiant Appointed to Investigate](https://www.3cx.com/blog/news/desktopapp-security-alert-updates/)
-- [3CX Security Update Tuesday 11 April 2023 - Interim Assessment Concluded](https://www.3cx.com/blog/news/mandiant-initial-results/)
-- [3CX Security Update Thursday 20 April 2023 - Initial Intrusion Vector Found](https://www.3cx.com/blog/news/mandiant-security-update2/)
-- [Mandiant: 3CX Software Supply Chain Compromise Initiated by a Prior Software Supply Chain Compromise](https://cloud.google.com/blog/topics/threat-intelligence/3cx-software-supply-chain-compromise)
-- [CISA: Supply Chain Attack Against 3CXDesktopApp](https://www.cisa.gov/news-events/alerts/2023/03/30/supply-chain-attack-against-3cxdesktopapp)
-- [CISA: MAR-10435108-1.v1 ICONICSTEALER](https://www.cisa.gov/news-events/analysis-reports/ar23-110a)
-- [SentinelOne: 3CX SmoothOperator | 3CXDesktopApp in Supply Chain Attack](https://www.sentinelone.com/blog/smoothoperator-ongoing-campaign-trojanizes-3cx-software-in-software-supply-chain-attack/)
+- 3CX DesktopApp Security Alert - Mandiant Appointed to Investigate: [https://www.3cx.com/blog/news/desktopapp-security-alert-updates/](https://www.3cx.com/blog/news/desktopapp-security-alert-updates/)
+- 3CX Security Update Tuesday 11 April 2023 - Interim Assessment Concluded: [https://www.3cx.com/blog/news/mandiant-initial-results/](https://www.3cx.com/blog/news/mandiant-initial-results/)
+- 3CX Security Update Thursday 20 April 2023 - Initial Intrusion Vector Found: [https://www.3cx.com/blog/news/mandiant-security-update2/](https://www.3cx.com/blog/news/mandiant-security-update2/)
+- Mandiant: 3CX Software Supply Chain Compromise Initiated by a Prior Software Supply Chain Compromise: [https://cloud.google.com/blog/topics/threat-intelligence/3cx-software-supply-chain-compromise](https://cloud.google.com/blog/topics/threat-intelligence/3cx-software-supply-chain-compromise)
+- CISA: Supply Chain Attack Against 3CXDesktopApp: [https://www.cisa.gov/news-events/alerts/2023/03/30/supply-chain-attack-against-3cxdesktopapp](https://www.cisa.gov/news-events/alerts/2023/03/30/supply-chain-attack-against-3cxdesktopapp)
+- CISA: MAR-10435108-1.v1 ICONICSTEALER: [https://www.cisa.gov/news-events/analysis-reports/ar23-110a](https://www.cisa.gov/news-events/analysis-reports/ar23-110a)
+- SentinelOne: 3CX SmoothOperator | 3CXDesktopApp in Supply Chain Attack: [https://www.sentinelone.com/blog/smoothoperator-ongoing-campaign-trojanizes-3cx-software-in-software-supply-chain-attack/](https://www.sentinelone.com/blog/smoothoperator-ongoing-campaign-trojanizes-3cx-software-in-software-supply-chain-attack/)

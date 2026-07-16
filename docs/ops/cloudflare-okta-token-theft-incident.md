@@ -65,8 +65,8 @@ Because there is no standalone `Orgs` section in the current taxonomy, the key o
 - Complete remediation matters. Cloudflare's later November incident shows that failing to rotate every exposed credential after an upstream compromise can preserve attacker access opportunities.
 
 ## Sources
-- [Okta: Tracking Unauthorized Access to Okta's Support System](https://sec.okta.com/articles/2023/10/tracking-unauthorized-access-oktas-support-system/)
-- [Okta: Unauthorized Access to Okta's Support Case Management System: Root Cause and Remediation](https://sec.okta.com/articles/2023/11/unauthorized-access-oktas-support-case-management-system-root-cause/)
-- [Cloudflare: How Cloudflare mitigated yet another Okta compromise](https://blog.cloudflare.com/how-cloudflare-mitigated-yet-another-okta-compromise/)
-- [Cloudflare: Introducing HAR Sanitizer: secure HAR sharing](https://blog.cloudflare.com/introducing-har-sanitizer-secure-har-sharing/)
-- [Cloudflare: Thanksgiving 2023 security incident](https://blog.cloudflare.com/thanksgiving-2023-security-incident/)
+- Okta: Tracking Unauthorized Access to Okta's Support System: [https://sec.okta.com/articles/2023/10/tracking-unauthorized-access-oktas-support-system/](https://sec.okta.com/articles/2023/10/tracking-unauthorized-access-oktas-support-system/)
+- Okta: Unauthorized Access to Okta's Support Case Management System: Root Cause and Remediation: [https://sec.okta.com/articles/2023/11/unauthorized-access-oktas-support-case-management-system-root-cause/](https://sec.okta.com/articles/2023/11/unauthorized-access-oktas-support-case-management-system-root-cause/)
+- Cloudflare: How Cloudflare mitigated yet another Okta compromise: [https://blog.cloudflare.com/how-cloudflare-mitigated-yet-another-okta-compromise/](https://blog.cloudflare.com/how-cloudflare-mitigated-yet-another-okta-compromise/)
+- Cloudflare: Introducing HAR Sanitizer: secure HAR sharing: [https://blog.cloudflare.com/introducing-har-sanitizer-secure-har-sharing/](https://blog.cloudflare.com/introducing-har-sanitizer-secure-har-sharing/)
+- Cloudflare: Thanksgiving 2023 security incident: [https://blog.cloudflare.com/thanksgiving-2023-security-incident/](https://blog.cloudflare.com/thanksgiving-2023-security-incident/)

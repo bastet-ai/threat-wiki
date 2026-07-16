@@ -88,4 +88,4 @@ STOCKSTAY communicates over secure WebSockets, splits responsibilities across tu
 - [Operation Dragon Weave Azure Blob C2 campaign](operation-dragon-weave-azure-blob-c2.md)
 
 ## Sources
-- [Google Cloud / Google Threat Intelligence Group](https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering)
+- Google Cloud / Google Threat Intelligence Group: [https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering](https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering)

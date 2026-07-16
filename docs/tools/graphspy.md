@@ -47,5 +47,5 @@ ZeroBEC's DEBULL report links GraphSpy to a late-June / early-July 2026 Microsof
 
 ## Sources
 
-- [ZeroBEC, DEBULL: Storm-2372-Style Microsoft Device-Code Phishing With GraphSpy Post-Exploitation](https://zerobec.com/blog/debull-storm-2372-microsoft-device-code-phishing-graphspy)
-- [The Hacker News summary](https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html)
+- ZeroBEC, DEBULL: Storm-2372-Style Microsoft Device-Code Phishing With GraphSpy Post-Exploitation: [https://zerobec.com/blog/debull-storm-2372-microsoft-device-code-phishing-graphspy](https://zerobec.com/blog/debull-storm-2372-microsoft-device-code-phishing-graphspy)
+- The Hacker News summary: [https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html](https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html)

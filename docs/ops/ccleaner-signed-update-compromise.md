@@ -74,10 +74,10 @@ Because there is no standalone `Orgs` section in the current taxonomy, the key o
 - Keep attribution caveats explicit. The operational chain is well sourced; the exact threat-actor label remains less stable than the supply-chain mechanics.
 
 ## Sources
-- [CCleaner Security Notification for v5.33.6162 and Cloud v1.07.3191](https://community.ccleaner.com/t/security-notification-for-ccleaner-v5-33-6162-and-ccleaner-cloud-v1-07-3191-for-32-bit-windows-users/64184)
-- [Cisco Talos: CCleanup: A Vast Number of Machines at Risk](https://blog.talosintelligence.com/avast-distributes-malware/)
-- [Cisco Talos: CCleaner Command and Control Causes Concern](https://blog.talosintelligence.com/2017/09/ccleaner-c2-concern.html)
-- [Avast: Update to the CCleaner 5.33.6162 Security Incident](https://blog.avast.com/update-to-the-ccleaner-5.33.6162-security-incident)
-- [Avast: Additional information regarding the recent CCleaner APT security incident](https://blog.avast.com/additional-information-regarding-the-recent-ccleaner-apt-security-incident)
-- [Avast: New investigations into the CCleaner incident point to a possible third stage that had keylogger capacities](https://blog.avast.com/new-investigations-in-ccleaner-incident-point-to-a-possible-third-stage-that-had-keylogger-capacities)
-- [Avast: Recent findings from CCleaner APT investigation reveal that attackers entered the Piriform network via TeamViewer](https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer)
+- CCleaner Security Notification for v5.33.6162 and Cloud v1.07.3191: [https://community.ccleaner.com/t/security-notification-for-ccleaner-v5-33-6162-and-ccleaner-cloud-v1-07-3191-for-32-bit-windows-users/64184](https://community.ccleaner.com/t/security-notification-for-ccleaner-v5-33-6162-and-ccleaner-cloud-v1-07-3191-for-32-bit-windows-users/64184)
+- Cisco Talos: CCleanup: A Vast Number of Machines at Risk: [https://blog.talosintelligence.com/avast-distributes-malware/](https://blog.talosintelligence.com/avast-distributes-malware/)
+- Cisco Talos: CCleaner Command and Control Causes Concern: [https://blog.talosintelligence.com/2017/09/ccleaner-c2-concern.html](https://blog.talosintelligence.com/2017/09/ccleaner-c2-concern.html)
+- Avast: Update to the CCleaner 5.33.6162 Security Incident: [https://blog.avast.com/update-to-the-ccleaner-5.33.6162-security-incident](https://blog.avast.com/update-to-the-ccleaner-5.33.6162-security-incident)
+- Avast: Additional information regarding the recent CCleaner APT security incident: [https://blog.avast.com/additional-information-regarding-the-recent-ccleaner-apt-security-incident](https://blog.avast.com/additional-information-regarding-the-recent-ccleaner-apt-security-incident)
+- Avast: New investigations into the CCleaner incident point to a possible third stage that had keylogger capacities: [https://blog.avast.com/new-investigations-in-ccleaner-incident-point-to-a-possible-third-stage-that-had-keylogger-capacities](https://blog.avast.com/new-investigations-in-ccleaner-incident-point-to-a-possible-third-stage-that-had-keylogger-capacities)
+- Avast: Recent findings from CCleaner APT investigation reveal that attackers entered the Piriform network via TeamViewer: [https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer](https://blog.avast.com/update-ccleaner-attackers-entered-via-teamviewer)

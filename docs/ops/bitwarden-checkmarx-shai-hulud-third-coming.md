@@ -88,6 +88,6 @@ Trend Micro's May 2026 analysis links two April incidents to a broader TeamPCP c
 - [actions-cool GitHub Actions tag compromise](actions-cool-github-actions-tag-compromise.md)
 
 ## Sources
-- [Unit 42](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
-- [Bitwarden security advisory context as cited by Unit 42](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
-- [Trend Micro](https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html)
+- Unit 42: [https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
+- Bitwarden security advisory context as cited by Unit 42: [https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
+- Trend Micro: [https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html](https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html)

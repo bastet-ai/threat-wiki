@@ -87,6 +87,6 @@ Track this as an operation because the durable defender lesson is not limited to
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Sources
-- [Sonatype Security Research](https://www.sonatype.com/blog/atomic-arch-npm-campaign-adds-malicious-dependency)
-- [Sonatype vulnerability guide entry](https://guide.sonatype.com/vulnerability/sonatype-2026-003775/sonatype-research)
-- [StepSecurity](https://www.stepsecurity.io/blog/400-aur-packages-hijacked-atomic-arch-campaign)
+- Sonatype Security Research: [https://www.sonatype.com/blog/atomic-arch-npm-campaign-adds-malicious-dependency](https://www.sonatype.com/blog/atomic-arch-npm-campaign-adds-malicious-dependency)
+- Sonatype vulnerability guide entry: [https://guide.sonatype.com/vulnerability/sonatype-2026-003775/sonatype-research](https://guide.sonatype.com/vulnerability/sonatype-2026-003775/sonatype-research)
+- StepSecurity: [https://www.stepsecurity.io/blog/400-aur-packages-hijacked-atomic-arch-campaign](https://www.stepsecurity.io/blog/400-aur-packages-hijacked-atomic-arch-campaign)

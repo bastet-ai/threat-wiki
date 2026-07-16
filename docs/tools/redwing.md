@@ -77,5 +77,5 @@ Zimperium observed RedWing telemetry where the implant reports permission state 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
 ## Sources
-- [Zimperium zLabs](https://zimperium.com/blog/redwing-a-mobile-malware-as-a-service-operation)
-- [The Hacker News](https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html)
+- Zimperium zLabs: [https://zimperium.com/blog/redwing-a-mobile-malware-as-a-service-operation](https://zimperium.com/blog/redwing-a-mobile-malware-as-a-service-operation)
+- The Hacker News: [https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html](https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html)

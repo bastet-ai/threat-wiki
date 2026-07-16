@@ -81,6 +81,6 @@ Google Cloud / Mandiant separately published vSphere-focused BRICKSTORM defender
 - [VerdantBamboo](../actors/verdantbamboo.md)
 
 ## Sources
-- [Volexity](https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/)
-- [Google Cloud / Mandiant vSphere BRICKSTORM defender guide](https://cloud.google.com/blog/topics/threat-intelligence/vsphere-brickstorm-defender-guide)
-- [The Hacker News summary](https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html)
+- Volexity: [https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/](https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/)
+- Google Cloud / Mandiant vSphere BRICKSTORM defender guide: [https://cloud.google.com/blog/topics/threat-intelligence/vsphere-brickstorm-defender-guide](https://cloud.google.com/blog/topics/threat-intelligence/vsphere-brickstorm-defender-guide)
+- The Hacker News summary: [https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html](https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html)

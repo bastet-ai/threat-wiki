@@ -59,4 +59,4 @@ Primary sectors called out publicly:
 - Detect reverse SSH usage with `-R 0.0.0.0:<port>`, disabled host-key checking, and keys supplied at runtime from untrusted infrastructure.
 
 ## Sources
-- [Kaspersky Securelist](https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/)
+- Kaspersky Securelist: [https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/](https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/)

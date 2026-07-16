@@ -86,7 +86,7 @@ ESET reports the compromise in the context of Lazarus and Operation DangerousPas
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## Sources
-- [ESET](https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/)
-- [ESET PDF](https://web-assets.esetstatic.com/wls/en/papers/threat-reports/eset-apt-activity-report-q4-2025-q1-2026.pdf)
-- [Socket](https://socket.dev/blog/axios-npm-package-compromised)
-- [Hunt.io](https://hunt.io/blog/axios-supply-chain-attack-ta444-bluenoroff)
+- ESET: [https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/](https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/)
+- ESET PDF: [https://web-assets.esetstatic.com/wls/en/papers/threat-reports/eset-apt-activity-report-q4-2025-q1-2026.pdf](https://web-assets.esetstatic.com/wls/en/papers/threat-reports/eset-apt-activity-report-q4-2025-q1-2026.pdf)
+- Socket: [https://socket.dev/blog/axios-npm-package-compromised](https://socket.dev/blog/axios-npm-package-compromised)
+- Hunt.io: [https://hunt.io/blog/axios-supply-chain-attack-ta444-bluenoroff](https://hunt.io/blog/axios-supply-chain-attack-ta444-bluenoroff)

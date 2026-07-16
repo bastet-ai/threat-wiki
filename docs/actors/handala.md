@@ -93,12 +93,12 @@ Public reporting names possible supervisors and individual officials behind rela
 - Do not collapse `Handala` into unrelated Iranian personas such as `CyberAvengers`; shared targeting alone is not enough.
 
 ## Sources
-- [U.S. Department of Justice: Justice Department Disrupts Iranian Cyber Enabled Psychological Operations](https://www.justice.gov/opa/pr/justice-department-disrupts-iranian-cyber-enabled-psychological-operations)
-- [Microsoft: Iran surges cyber-enabled influence operations in support of Hamas](https://www.microsoft.com/en-sg/security/security-insider/intelligence-reports/iran-surges-cyber-enabled-influence-operations-in-support-of-hamas/)
-- [Microsoft Learn: How Microsoft names threat actors](https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming)
-- [Check Point Research: Bad Karma, No Justice: Void Manticore Destructive Activities in Israel](https://research.checkpoint.com/2024/bad-karma-no-justice-void-manticore-destructive-activities-in-israel/)
-- [Check Point Research: "Handala Hack" - Unveiling Group's Modus Operandi](https://research.checkpoint.com/2026/handala-hack-unveiling-groups-modus-operandi/)
-- [Check Point Research: Iranian MOIS Actors & the Cyber Crime Connection](https://research.checkpoint.com/2026/iranian-mois-actors-the-cyber-crime-connection/)
-- [CISA/FBI: Iranian State Actors Conduct Cyber Operations Against the Government of Albania](https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-264a)
-- [Cyber Daily: Iranian hackers claim Israeli radar hack, send citizens text threats](https://www.cyberdaily.au/security/10427-iranian-hackers-claim-israeli-radar-hack-sends-citizens-text-threats)
-- [The Jerusalem Post: Iranian hackers broadcast rocket sirens, pro-terror songs at 20 kindergartens](https://www.jpost.com/israel-news/article-839386)
+- U.S. Department of Justice: Justice Department Disrupts Iranian Cyber Enabled Psychological Operations: [https://www.justice.gov/opa/pr/justice-department-disrupts-iranian-cyber-enabled-psychological-operations](https://www.justice.gov/opa/pr/justice-department-disrupts-iranian-cyber-enabled-psychological-operations)
+- Microsoft: Iran surges cyber-enabled influence operations in support of Hamas: [https://www.microsoft.com/en-sg/security/security-insider/intelligence-reports/iran-surges-cyber-enabled-influence-operations-in-support-of-hamas/](https://www.microsoft.com/en-sg/security/security-insider/intelligence-reports/iran-surges-cyber-enabled-influence-operations-in-support-of-hamas/)
+- Microsoft Learn: How Microsoft names threat actors: [https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming](https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming)
+- Check Point Research: Bad Karma, No Justice: Void Manticore Destructive Activities in Israel: [https://research.checkpoint.com/2024/bad-karma-no-justice-void-manticore-destructive-activities-in-israel/](https://research.checkpoint.com/2024/bad-karma-no-justice-void-manticore-destructive-activities-in-israel/)
+- Check Point Research: "Handala Hack" - Unveiling Group's Modus Operandi: [https://research.checkpoint.com/2026/handala-hack-unveiling-groups-modus-operandi/](https://research.checkpoint.com/2026/handala-hack-unveiling-groups-modus-operandi/)
+- Check Point Research: Iranian MOIS Actors & the Cyber Crime Connection: [https://research.checkpoint.com/2026/iranian-mois-actors-the-cyber-crime-connection/](https://research.checkpoint.com/2026/iranian-mois-actors-the-cyber-crime-connection/)
+- CISA/FBI: Iranian State Actors Conduct Cyber Operations Against the Government of Albania: [https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-264a](https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-264a)
+- Cyber Daily: Iranian hackers claim Israeli radar hack, send citizens text threats: [https://www.cyberdaily.au/security/10427-iranian-hackers-claim-israeli-radar-hack-sends-citizens-text-threats](https://www.cyberdaily.au/security/10427-iranian-hackers-claim-israeli-radar-hack-sends-citizens-text-threats)
+- The Jerusalem Post: Iranian hackers broadcast rocket sirens, pro-terror songs at 20 kindergartens: [https://www.jpost.com/israel-news/article-839386](https://www.jpost.com/israel-news/article-839386)
