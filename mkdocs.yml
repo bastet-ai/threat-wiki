@@ -13,7 +13,7 @@ nav:
       - TuxBot v3 Evolution IoT botnet framework: ops/tuxbot-v3-evolution-iot-botnet.md
       - Patriot Bait AI-assisted C2 botnet: ops/patriot-bait-ai-assisted-c2-botnet.md
       - NuGet game-cheat DotnetTool pepesoft campaign: ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md
-      - CISA KEV Microsoft SharePoint / ADFS and SonicWall SMA1000 July 2026 additions: ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md
+      - CISA KEV Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions: ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md
       - AsyncAPI generator / specs Miasma compromise: ops/asyncapi-generator-next-branch-miasma-compromise.md
       - Lucide Proxy npm browser DDoS botnet: ops/lucide-proxy-npm-browser-ddos-botnet.md
       - ShinyHunters Salesforce OAuth abuse: ops/shinyhunters-salesforce-oauth-abuse.md

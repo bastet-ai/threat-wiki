@@ -111,4 +111,6 @@ Feeds and primary sources we consider worth monitoring for future threat coverag
 - If a source produces repeated noise, lower its priority before removing it.
 
 ## Active watch topics
+- **Shai-Hulud downstream credential-reuse incidents** — monitor public incident reporting where credentials dumped by the 2025 worm are reused months later, such as the July 2026 Suno breach reporting that links one infected employee to source-code, customer-list, cloud, GitHub, and Stripe-related exposure.
+- **CISA KEV July 2026 emergency additions** — track same-week Microsoft SharePoint, ADFS, SonicWall SMA1000, and Fortinet FortiSandbox KEV entries for vendor guidance, exploit-chain reporting, and appliance compromise indicators.
 - **Shai-Hulud / Mini Shai-Hulud / TeamPCP supply-chain activity** — monitor vendor research, affected-package appendices, maintainer postmortems, CISA/GitHub advisories, and registry notices for new package families, propagation methods, persistence paths, infrastructure, and attribution changes.

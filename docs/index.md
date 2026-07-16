@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Shai-Hulud downstream breach: Suno source/customer-data exposure via harvested developer credentials](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-07-16-suno-downstream-breach)
+- [CISA KEV July 16 update: SharePoint CVE-2026-58644 and FortiSandbox command-injection exploitation](ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [AsyncAPI Miasma: Microsoft pwn-request root-cause and Defender detection update](ops/asyncapi-generator-next-branch-miasma-compromise.md#microsoft-july-15-root-cause-and-detection-update)
 - [AsyncAPI Miasma `miasma-train-p1`: Unit 42 AI/editor-driven execution and canary-propagation update](ops/asyncapi-generator-next-branch-miasma-compromise.md#unit-42-july-15-follow-up)

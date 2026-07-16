@@ -34,6 +34,7 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - Microsoft and Unit 42 describe the original Shai-Hulud activity as a self-propagating npm worm era shift.
 - The campaign pattern: run during package install, steal tokens/secrets, create public exfiltration repositories, and use npm access to republish infected packages.
 - Later 2025 waves added more automation and destructive behavior.
+- <a id="2026-07-16-suno-downstream-breach"></a>Socket's July 16, 2026 writeup, citing 404 Media reporting, shows the long tail of those original waves: a threat actor using the handle `ellie.191` reportedly said they reached Suno after one employee was compromised by Shai-Hulud, then used harvested GitHub and cloud credentials to access source code, a customer list, and Stripe-related payment data. Suno told 404 Media the incident occurred in November 2025, was limited and quickly contained, primarily involved outdated source code, and did not expose full credit card numbers stored in Stripe. Socket's caveat is important for attribution: the actor may have planted the trojanized packages, or may simply have found Shai-Hulud-exfiltrated credentials in the victim-created public GitHub repository and reused them. For defenders, the durable point is that Shai-Hulud public credential dumps can become downstream corporate breaches months later, even when the original package incident is no longer active.
 
 ### March 2026: TeamPCP / Trivy precursor activity
 - Wiz and other researchers reported a TeamPCP-linked Trivy compromise that used GitHub Actions/release infrastructure to steal runner secrets and publish malicious artifacts.
@@ -216,6 +217,7 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
+- Socket: [https://socket.dev/blog/suno-breach-shai-hulud-worm](https://socket.dev/blog/suno-breach-shai-hulud-worm)
 - Wiz: [https://www.wiz.io/blog/mini-shai-hulud-supply-chain-sap-npm](https://www.wiz.io/blog/mini-shai-hulud-supply-chain-sap-npm)
 - Wiz: [https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack](https://www.wiz.io/blog/durabletask-teampcp-supply-chain-attack)
 - Wiz Miasma / RedHat npm coverage: [https://www.wiz.io/blog/miasma-supply-chain-attack-targeting-redhat-npm-packages](https://www.wiz.io/blog/miasma-supply-chain-attack-targeting-redhat-npm-packages)
