@@ -82,5 +82,5 @@ StepSecurity frames the incident as connected to the Miasma campaign because it 
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Sources
-- StepSecurity: https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised
-- Socket: https://socket.dev/blog/miasma-mini-shai-hulud-hits-immobiliarelabs-npm-packages
+- StepSecurity: <https://www.stepsecurity.io/blog/immobiliarelabs-npm-packages-compromised>
+- Socket: <https://socket.dev/blog/miasma-mini-shai-hulud-hits-immobiliarelabs-npm-packages>

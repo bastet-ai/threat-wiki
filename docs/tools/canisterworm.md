@@ -34,5 +34,5 @@ CanisterWorm is the NPM worm associated with TeamPCP's supply-chain campaign. It
 - Treat a package-scoped publish spree as a likely worm event
 
 ## Sources
-- Aikido: https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise
-- Wiz: https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack
+- Aikido: <https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise>
+- Wiz: <https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack>

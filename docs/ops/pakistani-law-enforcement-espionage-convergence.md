@@ -112,4 +112,4 @@ SentinelOne reports three notable `cms_plugin.exe` findings around the Balochist
 - [Stock exchange executive mailbox espionage](stock-exchange-executive-mailbox-espionage.md)
 
 ## Sources
-- SentinelOne SentinelLABS: https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/
+- SentinelOne SentinelLABS: <https://www.sentinelone.com/labs/one-target-china-india-espionage-converge-on-pakistani-law-enforcement/>

@@ -108,18 +108,18 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - [Agentic workflow trust-boundary failures](agentic-workflow-trust-boundary-failures.md)
 
 ## Sources
-- Google Cloud / Google Threat Intelligence Group: https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access
-- WithSecure Labs: https://labs.withsecure.com/publications/greyvibe
-- Sysdig Threat Research: https://www.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots
-- Trend Micro: https://www.trendmicro.com/en_us/research/26/e/vibe-hacking-two-ai-augmented-campaigns-target-government-and-financial-sectors-in-latin-america.html
-- Sysdig Threat Research: https://www.sysdig.com/blog/cve-2026-44338-praisonai-authentication-bypass-in-under-4-hours-and-the-growing-trend-of-rapid-exploitation
-- Trend Micro / TrendAI Research: https://www.trendmicro.com/en_us/research/26/g/actor-behind-patriot-bait-used-ai-to-deploy-c2-botnet.html
-- Unit 42: https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/
-- Permiso Security: https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability
-- The Hacker News: https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html
-- LayerX Security: https://layerxsecurity.com/blog/bioshocking-ai-gaming-the-ai-browser-and-escaping-its-guardrails/
-- The Hacker News: https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html
-- Snyk jqwik prompt injection: https://snyk.io/blog/protestware-open-source-maintainer-qwik-1-10-0-prompt-injection/
-- CleverHans Lab / arXiv: https://arxiv.org/abs/2606.03811
-- Noma Labs GitLost: https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/
-- SAND Security WriteOut: https://www.sandsecurity.ai/blog/writeout-writer-ai-cross-tenant
+- Google Cloud / Google Threat Intelligence Group: <https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access>
+- WithSecure Labs: <https://labs.withsecure.com/publications/greyvibe>
+- Sysdig Threat Research: <https://www.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots>
+- Trend Micro: <https://www.trendmicro.com/en_us/research/26/e/vibe-hacking-two-ai-augmented-campaigns-target-government-and-financial-sectors-in-latin-america.html>
+- Sysdig Threat Research: <https://www.sysdig.com/blog/cve-2026-44338-praisonai-authentication-bypass-in-under-4-hours-and-the-growing-trend-of-rapid-exploitation>
+- Trend Micro / TrendAI Research: <https://www.trendmicro.com/en_us/research/26/g/actor-behind-patriot-bait-used-ai-to-deploy-c2-botnet.html>
+- Unit 42: <https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/>
+- Permiso Security: <https://permiso.io/blog/chatgpt-markdown-rendering-vulnerability>
+- The Hacker News: <https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html>
+- LayerX Security: <https://layerxsecurity.com/blog/bioshocking-ai-gaming-the-ai-browser-and-escaping-its-guardrails/>
+- The Hacker News: <https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html>
+- Snyk jqwik prompt injection: <https://snyk.io/blog/protestware-open-source-maintainer-qwik-1-10-0-prompt-injection/>
+- CleverHans Lab / arXiv: <https://arxiv.org/abs/2606.03811>
+- Noma Labs GitLost: <https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/>
+- SAND Security WriteOut: <https://www.sandsecurity.ai/blog/writeout-writer-ai-cross-tenant>

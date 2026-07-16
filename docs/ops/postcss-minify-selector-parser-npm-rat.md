@@ -146,4 +146,4 @@ JFrog described the module split as:
 - [binding.gyp npm CI/CD worm](binding-gyp-npm-cicd-worm.md)
 
 ## Sources
-- JFrog Security Research: https://research.jfrog.com/post/from-postcss-typosquat-to-windows-rat/
+- JFrog Security Research: <https://research.jfrog.com/post/from-postcss-typosquat-to-windows-rat/>

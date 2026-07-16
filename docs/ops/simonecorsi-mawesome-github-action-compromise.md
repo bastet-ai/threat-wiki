@@ -69,5 +69,5 @@ StepSecurity's public post does not attribute the `simonecorsi/mawesome` comprom
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- StepSecurity: https://www.stepsecurity.io/blog/simonecorsi-mawesome-github-action-has-been-compromised
-- GitHub repository: https://github.com/simonecorsi/mawesome
+- StepSecurity: <https://www.stepsecurity.io/blog/simonecorsi-mawesome-github-action-has-been-compromised>
+- GitHub repository: <https://github.com/simonecorsi/mawesome>

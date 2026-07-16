@@ -80,5 +80,5 @@ ESET's 2026 analysis, building on earlier Elastic Security Labs reporting, expos
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
 ## Sources
-- ESET Research: https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/
-- The Hacker News summary: https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html
+- ESET Research: <https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/>
+- The Hacker News summary: <https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html>

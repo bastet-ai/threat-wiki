@@ -92,4 +92,4 @@ SafeDep's recovered sample reported:
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- SafeDep: https://safedep.io/malicious-faster-axios-npm-epsilon-stealer
+- SafeDep: <https://safedep.io/malicious-faster-axios-npm-epsilon-stealer>

@@ -83,6 +83,6 @@ The finding should be tracked separately from Mini Shai-Hulud / TeamPCP. It is a
 - [JINX-0164 crypto developer infrastructure campaign](jinx-0164-crypto-developer-infrastructure-campaign.md)
 
 ## Sources
-- Socket: https://socket.dev/blog/famous-chollima-targets-php-developers-through-compromised-packagist-package
-- Trend Micro VOID DOKKAEBI / DEV#POPPER context cited by Socket: https://www.trendmicro.com/en_us/research/26/d/void-dokkaebi-uses-fake-job-interview-lure-to-spread-malware-via-code-repositories.html
-- Microsoft Contagious Interview context cited by Socket: https://www.microsoft.com/en-us/security/blog/2026/03/11/contagious-interview-malware-delivered-through-fake-developer-job-interviews/
+- Socket: <https://socket.dev/blog/famous-chollima-targets-php-developers-through-compromised-packagist-package>
+- Trend Micro VOID DOKKAEBI / DEV#POPPER context cited by Socket: <https://www.trendmicro.com/en_us/research/26/d/void-dokkaebi-uses-fake-job-interview-lure-to-spread-malware-via-code-repositories.html>
+- Microsoft Contagious Interview context cited by Socket: <https://www.microsoft.com/en-us/security/blog/2026/03/11/contagious-interview-malware-delivered-through-fake-developer-job-interviews/>

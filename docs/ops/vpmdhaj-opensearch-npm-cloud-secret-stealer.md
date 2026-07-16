@@ -92,5 +92,5 @@ Microsoft describes the bundled second stage as a roughly 195 KB Bun-compiled Ja
 - [Megalodon GitHub Actions workflow backdooring](megalodon-github-actions-workflow-backdooring.md)
 
 ## Sources
-- Microsoft Security Blog: https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/
-- The Hacker News roundup: https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html
+- Microsoft Security Blog: <https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/>
+- The Hacker News roundup: <https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html>

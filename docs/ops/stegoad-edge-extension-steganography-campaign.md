@@ -86,6 +86,6 @@ Microsoft named the campaign **StegoAd** for the combination of steganographic p
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
 ## Sources
-- Microsoft Edge Extensions Security Team: https://microsoftedge.github.io/edgevr/posts/Inside-StegoAd-How-We-Disrupted-a-Massive-Malicious-Extension-Campaign/
-- Microsoft Edge Security technical report PDF: https://microsoftedge.github.io/edgevr/assets/files/stego_ad/Microsoft_Edge_Security_StegoAd.pdf
-- The Hacker News: https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html
+- Microsoft Edge Extensions Security Team: <https://microsoftedge.github.io/edgevr/posts/Inside-StegoAd-How-We-Disrupted-a-Massive-Malicious-Extension-Campaign/>
+- Microsoft Edge Security technical report PDF: <https://microsoftedge.github.io/edgevr/assets/files/stego_ad/Microsoft_Edge_Security_StegoAd.pdf>
+- The Hacker News: <https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html>

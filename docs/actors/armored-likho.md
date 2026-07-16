@@ -42,4 +42,4 @@ Kaspersky assesses the July 2026 BusySnake activity as Armored Likho with **medi
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 
 ## Sources
-- Kaspersky Securelist: https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/
+- Kaspersky Securelist: <https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/>

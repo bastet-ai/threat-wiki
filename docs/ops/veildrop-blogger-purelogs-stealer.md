@@ -68,5 +68,5 @@ Securonix assesses initial delivery likely occurs through spear-phishing or a dr
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## Sources
-- Securonix: https://www.securonix.com/blog/veildrop-blogspot-hosted-powershell-loader/
-- The Hacker News: https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html
+- Securonix: <https://www.securonix.com/blog/veildrop-blogspot-hosted-powershell-loader/>
+- The Hacker News: <https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html>

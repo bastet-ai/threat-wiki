@@ -92,4 +92,4 @@ Unit 42 assesses the operator as a Vidar stealer malware-as-a-service affiliate 
 - [StealC / Amadey infrastructure disruption](stealc-amadey-infrastructure-disruption.md)
 
 ## Sources
-- Unit 42: https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/
+- Unit 42: <https://unit42.paloaltonetworks.com/vidar-stealer-xmrig-miner-campaign-analysis/>

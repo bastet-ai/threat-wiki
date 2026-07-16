@@ -65,4 +65,4 @@ See [SprySOCKS](../tools/sprysocks.md).
 - [OceanLotus](oceanlotus.md)
 
 ## Sources
-- ESET WeLiveSecurity: https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/
+- ESET WeLiveSecurity: <https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/>

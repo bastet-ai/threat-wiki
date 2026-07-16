@@ -78,5 +78,5 @@ Fox-IT ties the toolset to a North Korea-aligned Lazarus subgroup overlapping Ap
 - [First VPN](first-vpn.md)
 
 ## Sources
-- Fox-IT / NCC Group: https://blog.fox-it.com/2026/05/22/remotepe-the-lazarus-rat-that-lives-in-memory/
-- The Hacker News: https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html
+- Fox-IT / NCC Group: <https://blog.fox-it.com/2026/05/22/remotepe-the-lazarus-rat-that-lives-in-memory/>
+- The Hacker News: <https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html>

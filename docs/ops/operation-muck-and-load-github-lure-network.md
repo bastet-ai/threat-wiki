@@ -109,4 +109,4 @@ Socket assesses with high confidence that Operation Muck and Load belongs to the
 - [Vidar / XMRig Factory-v3 malvertising campaign](vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## Sources
-- Socket: https://socket.dev/blog/malicious-go-module-exposes-github-malware-lure-network
+- Socket: <https://socket.dev/blog/malicious-go-module-exposes-github-malware-lure-network>

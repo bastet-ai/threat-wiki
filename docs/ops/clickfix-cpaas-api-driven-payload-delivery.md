@@ -77,5 +77,5 @@ Additional defensive pivots:
 - [Fake-reputation crypto clipboard hijacker](fake-reputation-crypto-clipboard-hijacker.md)
 
 ## Sources
-- Bert-Jan Pals: https://kqlquery.com/posts/clickfix-gift-that-keeps-on-giving/
-- The Hacker News: https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html
+- Bert-Jan Pals: <https://kqlquery.com/posts/clickfix-gift-that-keeps-on-giving/>
+- The Hacker News: <https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html>

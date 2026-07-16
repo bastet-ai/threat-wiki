@@ -73,4 +73,4 @@ SANDWORM_MODE is best tracked as an adjacent Shai-Hulud-style operation rather t
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- Socket: https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning
+- Socket: <https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning>

@@ -91,4 +91,4 @@ Socket also published hardcoded key material and webhook URLs; treat those as pu
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Sources
-- Socket: https://socket.dev/blog/11-malicious-nuget-tools-pose-as-game-cheats
+- Socket: <https://socket.dev/blog/11-malicious-nuget-tools-pose-as-game-cheats>

@@ -106,6 +106,6 @@ The stolen material is sufficient for an attacker to regenerate private keys and
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Sources
-- Socket: https://socket.dev/blog/compromised-injective-sdk-npm-package
-- StepSecurity: https://www.stepsecurity.io/blog/injective-npm-supply-chain-attack-18-packages-backdoored-to-steal-crypto-wallet-keys
-- JFrog Security Research: https://research.jfrog.com/post/injective-sdk-supply-chain-attack/
+- Socket: <https://socket.dev/blog/compromised-injective-sdk-npm-package>
+- StepSecurity: <https://www.stepsecurity.io/blog/injective-npm-supply-chain-attack-18-packages-backdoored-to-steal-crypto-wallet-keys>
+- JFrog Security Research: <https://research.jfrog.com/post/injective-sdk-supply-chain-attack/>

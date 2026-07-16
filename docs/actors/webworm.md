@@ -43,5 +43,5 @@ The 2025 activity described by ESET targets government and enterprise environmen
 - [Dragonfly](dragonfly-energetic-bear-crouching-yeti.md)
 
 ## Sources
-- ESET: https://www.welivesecurity.com/en/eset-research/webworm-new-burrowing-techniques/
-- The Hacker News summary: https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html
+- ESET: <https://www.welivesecurity.com/en/eset-research/webworm-new-burrowing-techniques/>
+- The Hacker News summary: <https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html>

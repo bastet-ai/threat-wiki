@@ -65,4 +65,4 @@ The durable risk is two-sided:
 - [ROADtools](../tools/roadtools.md)
 
 ## Sources
-- Unit 42: https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/
+- Unit 42: <https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/>

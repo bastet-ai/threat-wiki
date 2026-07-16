@@ -41,6 +41,6 @@ Microsoft reported in May 2026 that Fox Tempest had created more than a thousand
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- Microsoft Security Blog: https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/
-- Microsoft Digital Crimes Unit: https://blogs.microsoft.com/on-the-issues/2026/05/19/disrupting-fox-tempest-a-cybercrime-service/
-- The Hacker News summary: https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html
+- Microsoft Security Blog: <https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/>
+- Microsoft Digital Crimes Unit: <https://blogs.microsoft.com/on-the-issues/2026/05/19/disrupting-fox-tempest-a-cybercrime-service/>
+- The Hacker News summary: <https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html>

@@ -135,10 +135,10 @@ Microsoft's June 17 post adds publish-timeline, dropper, Windows injection, exfi
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Sources
-- StepSecurity: https://www.stepsecurity.io/blog/mastra-npm-packages-compromised-using-easy-day-js
-- Socket: https://socket.dev/blog/mastra-npm-packages-compromised
-- Snyk: https://snyk.io/blog/a-forgotten-contributor-account-compromised-the-entire-mastra-npm-package-scope/
-- SafeDep: https://safedep.io/mastra-npm-scope-takeover-supply-chain-attack/
-- Microsoft Security Blog: https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/
-- Mastra GitHub issue: https://github.com/mastra-ai/mastra/issues/18045
-- Mastra remediation PR: https://github.com/mastra-ai/mastra/pull/18056
+- StepSecurity: <https://www.stepsecurity.io/blog/mastra-npm-packages-compromised-using-easy-day-js>
+- Socket: <https://socket.dev/blog/mastra-npm-packages-compromised>
+- Snyk: <https://snyk.io/blog/a-forgotten-contributor-account-compromised-the-entire-mastra-npm-package-scope/>
+- SafeDep: <https://safedep.io/mastra-npm-scope-takeover-supply-chain-attack/>
+- Microsoft Security Blog: <https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/>
+- Mastra GitHub issue: <https://github.com/mastra-ai/mastra/issues/18045>
+- Mastra remediation PR: <https://github.com/mastra-ai/mastra/pull/18056>

@@ -117,4 +117,4 @@ Use Broadcom's IOC table for the complete hash set, including SharpDecryptPwd, F
 - [ROADtools Entra ID cloud-intrusion toolkit](../tools/roadtools.md)
 
 ## Sources
-- Broadcom / Symantec Threat Intelligence: https://www.security.com/threat-intelligence/stock-exchange-espionage
+- Broadcom / Symantec Threat Intelligence: <https://www.security.com/threat-intelligence/stock-exchange-espionage>

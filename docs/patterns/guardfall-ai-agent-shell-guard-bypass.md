@@ -101,9 +101,9 @@ Defensive implications:
 - [AI-augmented adversary operations](ai-augmented-adversary-operations.md)
 
 ## Sources
-- Adversa AI: https://adversa.ai/blog/opensource-ai-coding-agents-shell-injection-vulnerability/
-- The Hacker News summary: https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html
-- Hermes Agent issue referenced by Adversa/THN: https://github.com/NousResearch/hermes-agent/issues/36846
-- AI Now Institute: https://ainowinstitute.org/publications/friendly-fire-exploit-brief
-- Friendly Fire proof-of-concept repository: https://github.com/Boyan-MILANOV/friendly-fire-ai-agent-exploit
-- The Hacker News: https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
+- Adversa AI: <https://adversa.ai/blog/opensource-ai-coding-agents-shell-injection-vulnerability/>
+- The Hacker News summary: <https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html>
+- Hermes Agent issue referenced by Adversa/THN: <https://github.com/NousResearch/hermes-agent/issues/36846>
+- AI Now Institute: <https://ainowinstitute.org/publications/friendly-fire-exploit-brief>
+- Friendly Fire proof-of-concept repository: <https://github.com/Boyan-MILANOV/friendly-fire-ai-agent-exploit>
+- The Hacker News: <https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html>

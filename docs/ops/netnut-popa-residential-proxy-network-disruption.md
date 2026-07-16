@@ -49,8 +49,8 @@ Google describes the result as **degradation**, not permanent eradication. The c
 - The 2-million-device and 316-threat-cluster figures are GTIG estimates/observations, not a full global census of all residential-proxy abuse.
 
 ## Sources
-- Google Cloud / GTIG: https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks
-- The Hacker News: https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html
+- Google Cloud / GTIG: <https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks>
+- The Hacker News: <https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html>
 
 ## Tags
 - NetNut

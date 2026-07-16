@@ -19,7 +19,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Keep entries concise, concrete, and easy to scan.
 
 ## Writing conventions
-- Keep links clickable and explicit in Markdown.
+- Keep links clickable and explicit in Markdown; use Markdown links or `<https://...>` autolinks for source URLs, and run `python3 scripts/audit_clickable_links.py` before committing broad content updates.
 - Use short, descriptive page titles.
 - Prefer bullets over long paragraphs for ops, tooling, and motivations.
 - Add a `Tags` section to group/people/ops/tool pages when possible.
@@ -52,6 +52,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 
 ## Verified commands
 - `python3 scripts/generate_drafts_from_todo.py`
+- `python3 scripts/audit_clickable_links.py`
 - `uvx --from mkdocs-material mkdocs build --strict`
 - `npm run test:sources` checks the WebLogic source section renders clickable Markdown links and that each external source returns HTTP 200 with the expected CVE token.
 - `./contribute.sh --dry-run`

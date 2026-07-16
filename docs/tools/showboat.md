@@ -64,5 +64,5 @@ Certificate pivots called out by Lumen include SHA-256 prefixes / fingerprints s
 - [Webworm](../actors/webworm.md)
 
 ## Sources
-- Lumen Black Lotus Labs: https://www.lumen.com/blog/en-us/introducing-showboat-a-new-malware-family-taunts-defenses-and-targets-international-telecom-firms
-- The Hacker News summary: https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html
+- Lumen Black Lotus Labs: <https://www.lumen.com/blog/en-us/introducing-showboat-a-new-malware-family-taunts-defenses-and-targets-international-telecom-firms>
+- The Hacker News summary: <https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html>

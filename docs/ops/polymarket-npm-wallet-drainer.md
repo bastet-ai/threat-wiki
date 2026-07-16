@@ -85,7 +85,7 @@ Public reporting ties the cluster to the `polymarketdev` npm publisher and `texs
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## Sources
-- SafeDep: https://safedep.io/malicious-polymarket-npm-crypto-wallet-drainer/
-- npm: https://www.npmjs.com/package/polymarket-trading-cli
-- npm: https://www.npmjs.com/package/polymarket-claude-code
-- GitHub: https://github.com/texsellix/polymarket-trading-bot
+- SafeDep: <https://safedep.io/malicious-polymarket-npm-crypto-wallet-drainer/>
+- npm: <https://www.npmjs.com/package/polymarket-trading-cli>
+- npm: <https://www.npmjs.com/package/polymarket-claude-code>
+- GitHub: <https://github.com/texsellix/polymarket-trading-bot>

@@ -65,5 +65,5 @@ CrowdStrike's June 18, 2026 research describes both known ClickOnce weaponizatio
 - [Agent localhost control-plane RCE](agent-localhost-control-plane-rce.md)
 
 ## Sources
-- CrowdStrike: https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one.html
-- CrowdStrike: https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two.html
+- CrowdStrike: <https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one.html>
+- CrowdStrike: <https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two.html>

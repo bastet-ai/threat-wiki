@@ -131,4 +131,4 @@ Staging paths reported by JFrog include `%USERPROFILE%\.npm` on Windows and `/tm
 - [postcss-minify-selector-parser npm RAT](postcss-minify-selector-parser-npm-rat.md)
 
 ## Sources
-- JFrog Security Research: https://research.jfrog.com/post/hijacked-npm-vscode-tasks-blockchain/
+- JFrog Security Research: <https://research.jfrog.com/post/hijacked-npm-vscode-tasks-blockchain/>

@@ -55,7 +55,7 @@ The durable intelligence value is infrastructure tradecraft: crimeware and ranso
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- Eurojust: https://www.eurojust.europa.eu/news/eurojust-coordinated-investigation-shuts-down-criminal-vpn-network
-- Europol: https://www.europol.europa.eu/media-press/newsroom/news/cybercriminal-vpn-used-ransomware-actors-dismantled-in-global-crackdown
-- The Hacker News summary with FBI flash-alert details: https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html
-- FBI IC3 flash alert PDF: https://www.ic3.gov/CSA/2026/260521.pdf
+- Eurojust: <https://www.eurojust.europa.eu/news/eurojust-coordinated-investigation-shuts-down-criminal-vpn-network>
+- Europol: <https://www.europol.europa.eu/media-press/newsroom/news/cybercriminal-vpn-used-ransomware-actors-dismantled-in-global-crackdown>
+- The Hacker News summary with FBI flash-alert details: <https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html>
+- FBI IC3 flash alert PDF: <https://www.ic3.gov/CSA/2026/260521.pdf>

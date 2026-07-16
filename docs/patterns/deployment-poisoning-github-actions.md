@@ -71,8 +71,8 @@ The durable lesson is not that one GitHub Actions trigger is uniquely unsafe. Th
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## Sources
-- Boost Security Labs: https://labs.boostsecurity.io/articles/deployment_poisoning/
-- GitHub Changelog, safer `pull_request_target` defaults for `actions/checkout`: https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout
-- GitHub Changelog, workflow execution protections: https://github.blog/changelog/2026-06-18-control-who-and-what-triggers-github-actions-workflows
-- Novee Security, Cordyceps: https://novee.security/blog/cordyceps/
-- The Hacker News, Cordyceps CI/CD flaws: https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html
+- Boost Security Labs: <https://labs.boostsecurity.io/articles/deployment_poisoning/>
+- GitHub Changelog, safer `pull_request_target` defaults for `actions/checkout`: <https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout>
+- GitHub Changelog, workflow execution protections: <https://github.blog/changelog/2026-06-18-control-who-and-what-triggers-github-actions-workflows>
+- Novee Security, Cordyceps: <https://novee.security/blog/cordyceps/>
+- The Hacker News, Cordyceps CI/CD flaws: <https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html>

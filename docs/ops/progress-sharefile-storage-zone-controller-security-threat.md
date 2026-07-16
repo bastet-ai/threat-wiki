@@ -70,7 +70,7 @@ The earlier watchTowr chain is still operationally relevant:
 - [CitrixBleed session-hijack wave](citrixbleed-session-hijack-wave.md)
 
 ## Sources
-- ShareFile status incident: https://status.sharefile.com/incidents/c59n5343lbkq
-- ShareFile status RSS: https://status.sharefile.com/history.rss
-- The Hacker News: https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html
-- watchTowr Labs: https://labs.watchtowr.com/youre-not-supposed-to-sharefile-with-everyone-progress-sharefile-pre-auth-rce-chain-cve-2026-2699-cve-2026-2701/
+- ShareFile status incident: <https://status.sharefile.com/incidents/c59n5343lbkq>
+- ShareFile status RSS: <https://status.sharefile.com/history.rss>
+- The Hacker News: <https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html>
+- watchTowr Labs: <https://labs.watchtowr.com/youre-not-supposed-to-sharefile-with-everyone-progress-sharefile-pre-auth-rce-chain-cve-2026-2699-cve-2026-2701/>

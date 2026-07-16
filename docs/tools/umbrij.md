@@ -72,5 +72,5 @@ Treat these as public pivots, not a complete detection set.
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 
 ## Sources
-- Kaspersky Securelist: https://securelist.com/toddycat-apt-umbrij-tool-and-oauth/120251/
-- The Hacker News: https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html
+- Kaspersky Securelist: <https://securelist.com/toddycat-apt-umbrij-tool-and-oauth/120251/>
+- The Hacker News: <https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html>

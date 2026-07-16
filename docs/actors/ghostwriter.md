@@ -69,6 +69,6 @@ ESET's FrostyNeighbor report adds a March 2026 Ukrainian-government chain using 
 - The combination of compromised-account delivery, JavaScript archive execution, registry-staged payloads, and Cobalt Strike follow-on should trigger incident-response handling even if individual domains have rotated.
 
 ## Sources
-- ESET: https://www.welivesecurity.com/en/eset-research/frostyneighbor-fresh-mischief-digital-shenanigans/
-- CERT-UA: https://cert.gov.ua/article/6315762
-- The Hacker News: https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html
+- ESET: <https://www.welivesecurity.com/en/eset-research/frostyneighbor-fresh-mischief-digital-shenanigans/>
+- CERT-UA: <https://cert.gov.ua/article/6315762>
+- The Hacker News: <https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html>

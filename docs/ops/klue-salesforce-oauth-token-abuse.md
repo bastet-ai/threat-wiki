@@ -74,7 +74,7 @@ Salesforce disabled the Klue Battlecards app integration while the incident was 
 - [UNC3753 law-firm vishing extortion campaign](../actors/unc3753.md)
 
 ## Sources
-- Klue: https://klue.com/blog/an-update-on-recent-klue-security-incident
-- Huntress: https://www.huntress.com/blog/klue-breach-investigation
-- Salesforce Trust status message: https://status.salesforce.com/generalmessages/20000257
-- The Hacker News: https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
+- Klue: <https://klue.com/blog/an-update-on-recent-klue-security-incident>
+- Huntress: <https://www.huntress.com/blog/klue-breach-investigation>
+- Salesforce Trust status message: <https://status.salesforce.com/generalmessages/20000257>
+- The Hacker News: <https://thehackernews.com/2026/06/salesforce-disables-klue-app.html>

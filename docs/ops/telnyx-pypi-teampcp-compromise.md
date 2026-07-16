@@ -54,5 +54,5 @@ OX directly described the Telnyx incident as TeamPCP activity and framed it as a
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
 
 ## Sources
-- OX Security: https://www.ox.security/blog/telnyx-malware-teampcp-strikes-again-following-litellm-compromise/
-- PyPI project metadata: https://pypi.org/pypi/telnyx/json
+- OX Security: <https://www.ox.security/blog/telnyx-malware-teampcp-strikes-again-following-litellm-compromise/>
+- PyPI project metadata: <https://pypi.org/pypi/telnyx/json>

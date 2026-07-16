@@ -80,4 +80,4 @@ Socket listed these PyPI packages:
 - [Sicoob.Sdk NuGet banking certificate stealer](sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## Sources
-- Socket: https://socket.dev/blog/npm-pypi-campaign-typosquats-popular-secure-payment-apps
+- Socket: <https://socket.dev/blog/npm-pypi-campaign-typosquats-popular-secure-payment-apps>

@@ -177,7 +177,7 @@ The payload self-identifies with Miasma markers in StepSecurity and Wiz analysis
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## Sources
-- StepSecurity: https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm
-- Wiz Research: https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions
-- JFrog Security Research: https://research.jfrog.com/post/miasma-worm-returns-to-npm/
-- Unit 42: https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
+- StepSecurity: <https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm>
+- Wiz Research: <https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions>
+- JFrog Security Research: <https://research.jfrog.com/post/miasma-worm-returns-to-npm/>
+- Unit 42: <https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/>

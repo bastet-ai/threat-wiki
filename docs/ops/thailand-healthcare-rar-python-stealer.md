@@ -72,4 +72,4 @@ Seqrite published hashes and additional IOCs. High-level pivots include:
 - [Stock exchange executive mailbox espionage](stock-exchange-executive-mailbox-espionage.md)
 
 ## Sources
-- Seqrite Labs: https://www.seqrite.com/blog/threat-actors-weaponizing-rar-archives-to-target-thailands-healthcare-sector/
+- Seqrite Labs: <https://www.seqrite.com/blog/threat-actors-weaponizing-rar-archives-to-target-thailands-healthcare-sector/>

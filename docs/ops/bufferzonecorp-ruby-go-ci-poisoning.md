@@ -113,5 +113,5 @@ Public reporting attributes the package cluster to the `BufferZoneCorp` GitHub a
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## Sources
-- Socket: https://socket.dev/blog/malicious-ruby-gems-and-go-modules-steal-secrets-poison-ci
-- The Hacker News: https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html
+- Socket: <https://socket.dev/blog/malicious-ruby-gems-and-go-modules-steal-secrets-poison-ci>
+- The Hacker News: <https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html>

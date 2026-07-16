@@ -87,4 +87,4 @@ GTIG assesses that Turla has developed and deployed STOCKSTAY since at least Dec
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
 ## Sources
-- Google Cloud / Google Threat Intelligence Group: https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering
+- Google Cloud / Google Threat Intelligence Group: <https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering>

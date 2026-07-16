@@ -88,5 +88,5 @@ The durable defender signal is the combination of China-aligned targeting, legit
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
 ## Sources
-- Acronis Threat Research Unit: https://www.acronis.com/en/tru/posts/mustang-panda-targets-indias-government-and-energy-sectors/
-- The Hacker News summary: https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html
+- Acronis Threat Research Unit: <https://www.acronis.com/en/tru/posts/mustang-panda-targets-indias-government-and-energy-sectors/>
+- The Hacker News summary: <https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html>

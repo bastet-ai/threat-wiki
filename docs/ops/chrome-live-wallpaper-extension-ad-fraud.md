@@ -82,4 +82,4 @@ Track this as an operation because the durable defender lesson is browser-extens
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## Sources
-- Socket Security Research: https://socket.dev/blog/152-chrome-live-wallpaper-extensions-hid-ad-tracking
+- Socket Security Research: <https://socket.dev/blog/152-chrome-live-wallpaper-extensions-hid-ad-tracking>

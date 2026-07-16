@@ -149,4 +149,4 @@ Hunt.io assessed the observable indicators as consistent with China-based threat
 - [Hunt.io global smishing infrastructure campaign](huntio-global-smishing-government-postal-telecom.md)
 
 ## Sources
-- Hunt.io: https://hunt.io/blog/chinese-operators-claude-deepseek-government-intrusion
+- Hunt.io: <https://hunt.io/blog/chinese-operators-claude-deepseek-government-intrusion>

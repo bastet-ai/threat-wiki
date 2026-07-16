@@ -86,4 +86,4 @@ Trend Micro published additional hashes and tables. High-signal pivots from the 
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## Sources
-- Trend Micro: https://www.trendmicro.com/en_us/research/26/e/banana-rat.html
+- Trend Micro: <https://www.trendmicro.com/en_us/research/26/e/banana-rat.html>

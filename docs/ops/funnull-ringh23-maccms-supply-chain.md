@@ -65,5 +65,5 @@ The durable threat-intelligence value is the blend of infrastructure-provider co
 - [TrapDoor crypto-stealer cross-ecosystem campaign](trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## Sources
-- QiAnXin XLab: https://blog.xlab.qianxin.com/funnull-resurfaces-exposing-ringh23-arsenal-and-maccms-supply-chain-attacks/
-- U.S. Treasury sanctions notice: https://home.treasury.gov/news/press-releases/sb0149
+- QiAnXin XLab: <https://blog.xlab.qianxin.com/funnull-resurfaces-exposing-ringh23-arsenal-and-maccms-supply-chain-attacks/>
+- U.S. Treasury sanctions notice: <https://home.treasury.gov/news/press-releases/sb0149>

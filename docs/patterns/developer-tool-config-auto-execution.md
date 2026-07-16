@@ -83,9 +83,9 @@ The operational lesson is narrow and reusable: cloning was not the dangerous ste
 - [Browser-based developer IDE OAuth token theft](browser-based-developer-ide-oauth-token-theft.md)
 
 ## Sources
-- SafeDep source-repository arm analysis: https://safedep.io/miasma-worm-ai-coding-agent-config-injection/
-- SafeDep config-file execution blind spot analysis: https://safedep.io/config-files-that-run-code/
-- StepSecurity Miasma Microsoft repository disablement follow-up: https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents
-- StepSecurity Miasma/Hades suspicious-files detection note: https://www.stepsecurity.io/blog/miasma-and-hades-are-spreading-now-detect-them-on-developer-machines-with-suspicious-files
-- SafeDep Astro config PR injection: https://safedep.io/astro-config-blockchain-c2-supply-chain
-- JFrog `html-to-gutenberg` / `fetch-page-assets` VS Code task stealer: https://research.jfrog.com/post/hijacked-npm-vscode-tasks-blockchain/
+- SafeDep source-repository arm analysis: <https://safedep.io/miasma-worm-ai-coding-agent-config-injection/>
+- SafeDep config-file execution blind spot analysis: <https://safedep.io/config-files-that-run-code/>
+- StepSecurity Miasma Microsoft repository disablement follow-up: <https://www.stepsecurity.io/blog/miasma-worm-hits-microsoft-again-azure-functions-action-and-72-other-repositories-disabled-after-supply-chain-attack-targeting-ai-coding-agents>
+- StepSecurity Miasma/Hades suspicious-files detection note: <https://www.stepsecurity.io/blog/miasma-and-hades-are-spreading-now-detect-them-on-developer-machines-with-suspicious-files>
+- SafeDep Astro config PR injection: <https://safedep.io/astro-config-blockchain-c2-supply-chain>
+- JFrog `html-to-gutenberg` / `fetch-page-assets` VS Code task stealer: <https://research.jfrog.com/post/hijacked-npm-vscode-tasks-blockchain/>

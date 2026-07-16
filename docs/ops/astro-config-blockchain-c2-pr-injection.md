@@ -56,4 +56,4 @@ SafeDep ties the payload fingerprints to the DPRK-attributed PolinRider campaign
 - Keep attribution caveated to SafeDep's linkage to OpenSourceMalware's PolinRider reporting unless additional primary sources publish operator or infrastructure confirmation.
 
 ## Sources
-- SafeDep: https://safedep.io/astro-config-blockchain-c2-supply-chain
+- SafeDep: <https://safedep.io/astro-config-blockchain-c2-supply-chain>

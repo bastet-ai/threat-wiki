@@ -111,6 +111,6 @@ This page tracks IronWorm as an operation and malware campaign. It is adjacent t
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## Sources
-- JFrog Security Research: https://research.jfrog.com/post/iron-worm-shai-hulud-rustier-cousin/
-- JFrog Security Research: https://research.jfrog.com/post/ironworm-returns-rustier-than-ever/
+- JFrog Security Research: <https://research.jfrog.com/post/iron-worm-shai-hulud-rustier-cousin/>
+- JFrog Security Research: <https://research.jfrog.com/post/ironworm-returns-rustier-than-ever/>
 - jscrambler incident page: jscrambler-npm-preinstall-stealer.md

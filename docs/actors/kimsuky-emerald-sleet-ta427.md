@@ -77,6 +77,6 @@ The most durable May 2026 updates are Kaspersky's consolidation of new PebbleDas
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
 ## Sources
-- Kaspersky Securelist: https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/
-- ENKI Whitehat: https://www.enki.co.kr/en/media-center/blog/kimsuky-s-advanced-attack-techniques-jsonping-webex-spoofing-and-a-new-httpspy-variant
-- The Hacker News summary: https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html
+- Kaspersky Securelist: <https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/>
+- ENKI Whitehat: <https://www.enki.co.kr/en/media-center/blog/kimsuky-s-advanced-attack-techniques-jsonping-webex-spoofing-and-a-new-httpspy-variant>
+- The Hacker News summary: <https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html>

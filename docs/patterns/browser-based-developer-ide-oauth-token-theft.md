@@ -68,6 +68,6 @@ This is a pattern page, not evidence of a named actor or active exploitation cam
 - [AI-augmented adversary operations](ai-augmented-adversary-operations.md)
 
 ## Sources
-- Ammar Askar: https://blog.ammaraskar.com/github-token-stealing/
-- The Hacker News: https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html
-- GitHub.dev project: https://github.com/github/dev
+- Ammar Askar: <https://blog.ammaraskar.com/github-token-stealing/>
+- The Hacker News: <https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html>
+- GitHub.dev project: <https://github.com/github/dev>

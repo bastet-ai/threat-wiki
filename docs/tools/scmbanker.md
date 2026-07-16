@@ -40,5 +40,5 @@
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
 ## Sources
-- Elastic Security Labs: https://www.elastic.co/security-labs/mexican-banking-fraud-scmbanker-ref6045
-- The Hacker News: https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html
+- Elastic Security Labs: <https://www.elastic.co/security-labs/mexican-banking-fraud-scmbanker-ref6045>
+- The Hacker News: <https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html>

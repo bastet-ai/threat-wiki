@@ -86,4 +86,4 @@ The update matters because it reframes Gamaredon as an operator that wins throug
 - [Turla STOCKSTAY backdoor operations](turla-stockstay-backdoor-operations.md)
 
 ## Sources
-- ESET WeLiveSecurity: https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances/
+- ESET WeLiveSecurity: <https://www.welivesecurity.com/en/eset-research/gamaredon-2025-leveraging-tunnels-workers-dead-drops-new-alliances/>

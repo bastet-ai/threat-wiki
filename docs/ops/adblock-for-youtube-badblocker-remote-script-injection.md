@@ -66,5 +66,5 @@ The risk comes from a YouTube-focused extension requesting `<all_urls>`, using a
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Sources
-- Island Security Research: http://www.island.io/blog/badblocker-11-million-users-one-server-call-away-from-compromise
-- The Hacker News: https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html
+- Island Security Research: <http://www.island.io/blog/badblocker-11-million-users-one-server-call-away-from-compromise>
+- The Hacker News: <https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html>

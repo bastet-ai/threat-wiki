@@ -60,6 +60,6 @@ The Hacker News follow-up adds public scoping caveats: as of July 15, 2026 it fo
 - [AI coding-agent symlink write confusion](ai-coding-agent-symlink-write-confusion.md)
 
 ## Sources
-- Mindgard: https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left
-- The Hacker News: https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html
-- Cursor security advisories: https://github.com/cursor/cursor/security/advisories
+- Mindgard: <https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left>
+- The Hacker News: <https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html>
+- Cursor security advisories: <https://github.com/cursor/cursor/security/advisories>

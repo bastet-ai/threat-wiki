@@ -121,4 +121,4 @@ SafeDep reports `procwire/lib/worker.js`:
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
 ## Sources
-- SafeDep: https://safedep.io/procwire-npm-windows-dropper-campaign
+- SafeDep: <https://safedep.io/procwire-npm-windows-dropper-campaign>

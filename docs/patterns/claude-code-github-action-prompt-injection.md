@@ -68,7 +68,7 @@ This is best tracked as a reusable pattern rather than a single intrusion: AI-as
 - [MCP stdio command-execution boundary](mcp-stdio-command-execution.md)
 
 ## Sources
-- GMO Flatt Security: https://flatt.tech/research/posts/poisoning-claude-code-one-github-issue-to-break-the-supply-chain/
-- Anthropic fix commit linked by public reporting: https://github.com/anthropics/claude-code-action/commit/1bbc9e7ff7d48e1299f7fa9698273d248e0cafea
-- The Hacker News summary: https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html
-- Microsoft Security Blog: https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/
+- GMO Flatt Security: <https://flatt.tech/research/posts/poisoning-claude-code-one-github-issue-to-break-the-supply-chain/>
+- Anthropic fix commit linked by public reporting: <https://github.com/anthropics/claude-code-action/commit/1bbc9e7ff7d48e1299f7fa9698273d248e0cafea>
+- The Hacker News summary: <https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html>
+- Microsoft Security Blog: <https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/>

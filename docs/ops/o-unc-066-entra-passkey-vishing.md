@@ -53,5 +53,5 @@ Okta links O-UNC-066 to the data-leak site named **Pink**, which Unit 42 reports
 - [UNC3753 law-firm vishing extortion campaign](../actors/unc3753.md)
 
 ## Sources
-- Okta Threat Intelligence: https://www.okta.com/blog/threat-intelligence/vishing-actors-target-microsoft-entra-passkey-enrollment-/
-- The Hacker News: https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html
+- Okta Threat Intelligence: <https://www.okta.com/blog/threat-intelligence/vishing-actors-target-microsoft-entra-passkey-enrollment-/>
+- The Hacker News: <https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html>

@@ -86,4 +86,4 @@ Seqrite says the malware searches for:
 - The public report does not establish a stable named group profile, so this page tracks the operation rather than creating a separate actor page.
 
 ## Sources
-- Seqrite Labs — Operation GriefLure: Dissecting an APT Campaign Targeting Vietnam's Military Telecom & Philippine Healthcare: https://www.seqrite.com/blog/operation-grieflure-dissecting-an-apt-campaign-targeting-vietnams-military-telecom-philippine-healthcare/
+- Seqrite Labs — Operation GriefLure: Dissecting an APT Campaign Targeting Vietnam's Military Telecom & Philippine Healthcare: <https://www.seqrite.com/blog/operation-grieflure-dissecting-an-apt-campaign-targeting-vietnams-military-telecom-philippine-healthcare/>

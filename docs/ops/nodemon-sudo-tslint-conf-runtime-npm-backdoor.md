@@ -99,4 +99,4 @@ The script retried up to five times and saved/restored `console.log` around exec
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## Sources
-- SafeDep: https://safedep.io/malicious-nodemon-sudo-tslint-conf-npm-backdoor
+- SafeDep: <https://safedep.io/malicious-nodemon-sudo-tslint-conf-npm-backdoor>

@@ -124,5 +124,5 @@ The actor changed the payload underneath that marker:
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Sources
-- SafeDep: https://safedep.io/marketfront-dependency-confusion-campaign
-- Microsoft: https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/
+- SafeDep: <https://safedep.io/marketfront-dependency-confusion-campaign>
+- Microsoft: <https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/>

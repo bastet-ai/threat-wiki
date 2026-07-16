@@ -77,4 +77,4 @@ ESET attributes the campaign to ScarCruft, also known as APT37 or Reaper. This p
 - [CCleaner signed-update compromise](ccleaner-signed-update-compromise.md)
 
 ## Sources
-- ESET: https://www.welivesecurity.com/en/eset-research/rigged-game-scarcruft-compromises-gaming-platform-supply-chain-attack/
+- ESET: <https://www.welivesecurity.com/en/eset-research/rigged-game-scarcruft-compromises-gaming-platform-supply-chain-attack/>

@@ -58,4 +58,4 @@ Attribution remains unset. Kaspersky noted open-source post-compromise tools ass
 - Do not collapse this campaign into a named China-linked actor without additional sourcing; keep attribution separate from tool-language or public-tool provenance.
 
 ## Sources
-- Kaspersky Securelist, StrikeShark / SharkLoader campaign: https://securelist.com/strikeshark-campaign/120326/
+- Kaspersky Securelist, StrikeShark / SharkLoader campaign: <https://securelist.com/strikeshark-campaign/120326/>

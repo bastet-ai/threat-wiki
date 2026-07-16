@@ -96,5 +96,5 @@ Use XLab's full IOC list for hash coverage. High-signal pivots from the public r
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## Sources
-- QiAnXin XLab: https://blog.xlab.qianxin.com/arystinger-botnet-hijacks-legacy-routers-for-global-attacks-en/
-- The Hacker News: https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html
+- QiAnXin XLab: <https://blog.xlab.qianxin.com/arystinger-botnet-hijacks-legacy-routers-for-global-attacks-en/>
+- The Hacker News: <https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html>

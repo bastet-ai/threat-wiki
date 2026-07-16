@@ -88,4 +88,4 @@ Sygnia describes the representative path as:
 - [Cloud logging control-plane tampering](cloud-logging-control-plane-tampering.md)
 
 ## Sources
-- Sygnia: https://www.sygnia.co/blog/when-supply-chain-attacks-hit-the-crypto-ecosystem/
+- Sygnia: <https://www.sygnia.co/blog/when-supply-chain-attacks-hit-the-crypto-ecosystem/>

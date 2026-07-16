@@ -64,6 +64,6 @@ Hunt.io's June 2026 follow-up exposed the operator-side staging layer behind the
 - [Langflow CVE-2025-34291 exploitation](langflow-cve-2025-34291-exploitation.md)
 
 ## Sources
-- Gambit Security: https://gambit.security/blog-posts/babil-of-minab-iran-mois-destruction-campaign
-- Hunt.io: https://hunt.io/blog/ababil-of-minab-iranian-hackers-exposed-la-metro-breach-open-directory
-- The Hacker News summary: https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html
+- Gambit Security: <https://gambit.security/blog-posts/babil-of-minab-iran-mois-destruction-campaign>
+- Hunt.io: <https://hunt.io/blog/ababil-of-minab-iranian-hackers-exposed-la-metro-breach-open-directory>
+- The Hacker News summary: <https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html>

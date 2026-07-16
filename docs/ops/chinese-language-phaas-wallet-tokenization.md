@@ -66,4 +66,4 @@ GTIG frames this as an ecosystem of Chinese-language cybercrime service provider
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## Sources
-- Google Cloud / GTIG: https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/
+- Google Cloud / GTIG: <https://cloud.google.com/blog/topics/threat-intelligence/chinese-language-phishing-services/>

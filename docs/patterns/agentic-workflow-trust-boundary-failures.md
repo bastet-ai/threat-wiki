@@ -124,9 +124,9 @@ Defensive takeaways:
 
 ## Sources
 
-- Noma Labs: https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/
-- SAND Security: https://www.sandsecurity.ai/blog/writeout-writer-ai-cross-tenant
-- The Hacker News GitLost summary: https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html
-- The Hacker News WriteOut summary: https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html
-- Varonis Threat Labs: https://www.varonis.com/blog/rogue-agent-dialogflow-attack
-- The Hacker News Rogue Agent summary: https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html
+- Noma Labs: <https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/>
+- SAND Security: <https://www.sandsecurity.ai/blog/writeout-writer-ai-cross-tenant>
+- The Hacker News GitLost summary: <https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html>
+- The Hacker News WriteOut summary: <https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html>
+- Varonis Threat Labs: <https://www.varonis.com/blog/rogue-agent-dialogflow-attack>
+- The Hacker News Rogue Agent summary: <https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html>

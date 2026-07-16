@@ -67,6 +67,6 @@ The Hacker News summary of Blackpoint's analysis says Djinn attempts to collect:
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
 ## Sources
-- The Hacker News: https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html
-- Blackpoint Cyber: https://blackpointcyber.com/blog/a-djinn-in-the-machine-taskweavers-node-js-intrusion-chain/
-- Horizon3.ai: https://horizon3.ai/attack-research/disclosures/cve-2026-48558-simplehelp-authentication-bypass-iocs/
+- The Hacker News: <https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html>
+- Blackpoint Cyber: <https://blackpointcyber.com/blog/a-djinn-in-the-machine-taskweavers-node-js-intrusion-chain/>
+- Horizon3.ai: <https://horizon3.ai/attack-research/disclosures/cve-2026-48558-simplehelp-authentication-bypass-iocs/>

@@ -147,5 +147,5 @@ Selected hashes surfaced in CPR's article text:
 - [ROADtools](roadtools.md)
 
 ## Sources
-- Check Point Research: https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/
-- The Hacker News: https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html
+- Check Point Research: <https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/>
+- The Hacker News: <https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html>

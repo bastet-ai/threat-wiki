@@ -71,5 +71,5 @@ The durable defender point is the framework design: LabubaRAT separates runtime 
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## Sources
-- Blackpoint Cyber: https://blackpointcyber.com/blog/labubarat-a-rust-based-remote-access-tool-masquerading-as-nvidia-software/
-- The Hacker News: https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html
+- Blackpoint Cyber: <https://blackpointcyber.com/blog/labubarat-a-rust-based-remote-access-tool-masquerading-as-nvidia-software/>
+- The Hacker News: <https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html>

@@ -74,4 +74,4 @@ Use Unit 42's IOC table as the canonical source. High-value pivots from the publ
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
 ## Sources
-- Unit 42: https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
+- Unit 42: <https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/>

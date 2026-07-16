@@ -66,4 +66,4 @@ The durable signal is the command-and-control architecture. Instead of a convent
 - [oob.moika.tech dependency-confusion environment stealer](oob-moika-dependency-confusion-env-stealer.md)
 
 ## Sources
-- Sysdig Threat Research: https://www.sysdig.com/blog/nats-as-c2-inside-a-new-technique-attackers-are-using-to-harvest-cloud-credentials-and-ai-api-keys
+- Sysdig Threat Research: <https://www.sysdig.com/blog/nats-as-c2-inside-a-new-technique-attackers-are-using-to-harvest-cloud-credentials-and-ai-api-keys>

@@ -48,5 +48,5 @@ The malicious action behavior overlaps with the broader Mini Shai-Hulud / TeamPC
 - [Supply-chain group profile](../patterns/supply-chain-actor-profile.md)
 
 ## Sources
-- StepSecurity actions-cool report: https://www.stepsecurity.io/blog/actions-cool-issues-helper-github-action-compromised-all-tags-point-to-imposter-commit-that-exfiltrates-ci-cd-credentials
-- StepSecurity 48-hour supply-chain timeline: https://www.stepsecurity.io/blog/5-supply-chain-attacks-in-48-hours-why-securing-one-layer-is-not-enough
+- StepSecurity actions-cool report: <https://www.stepsecurity.io/blog/actions-cool-issues-helper-github-action-compromised-all-tags-point-to-imposter-commit-that-exfiltrates-ci-cd-credentials>
+- StepSecurity 48-hour supply-chain timeline: <https://www.stepsecurity.io/blog/5-supply-chain-attacks-in-48-hours-why-securing-one-layer-is-not-enough>
