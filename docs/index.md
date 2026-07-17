@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Siemens ROX II zero-day exploit chain](ops/siemens-rox-ii-zero-day-chain.md)
 - [UAT-11795 Starland / WLDR campaign](ops/uat-11795-starland-wldr-campaign.md)
 - [WLDR agent](tools/wldr-agent.md)
 - [Starland RAT](tools/starland-rat.md)

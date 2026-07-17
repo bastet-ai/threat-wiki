@@ -159,6 +159,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aquatic Panda](#aquatic-panda) (2)
 - [AquilaRAT](#aquilarat) (1)
 - [arbitrary code execution](#arbitrary-code-execution) (1)
+- [arbitrary file disclosure](#arbitrary-file-disclosure) (1)
 - [arbitrary file read](#arbitrary-file-read) (1)
 - [arbitrary file upload](#arbitrary-file-upload) (1)
 - [arbitrary file write](#arbitrary-file-write) (3)
@@ -449,7 +450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COM-hijacking](#com-hijacking) (1)
 - [command and control](#command-and-control) (2)
 - [command execution](#command-execution) (6)
-- [command injection](#command-injection) (6)
+- [command injection](#command-injection) (7)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [commercial messaging applications](#commercial-messaging-applications) (1)
@@ -501,7 +502,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential-theft](#credential-theft) (51)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
-- [critical infrastructure](#critical-infrastructure) (4)
+- [critical infrastructure](#critical-infrastructure) (5)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
 - [cron](#cron) (1)
@@ -554,6 +555,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-3248](#cve-2025-3248) (1)
 - [CVE-2025-32975](#cve-2025-32975) (1)
 - [CVE-2025-34291](#cve-2025-34291) (1)
+- [CVE-2025-40947](#cve-2025-40947) (1)
+- [CVE-2025-40948](#cve-2025-40948) (1)
+- [CVE-2025-40949](#cve-2025-40949) (1)
 - [CVE-2025-48595](#cve-2025-48595) (1)
 - [CVE-2025-49113](#cve-2025-49113) (1)
 - [CVE-2025-49704](#cve-2025-49704) (1)
@@ -847,6 +851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [excessive agency](#excessive-agency) (1)
 - [exFAT](#exfat) (1)
 - [exfiltration](#exfiltration) (4)
+- [exploit chain](#exploit-chain) (1)
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
@@ -1129,7 +1134,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Indian government](#indian-government) (1)
 - [indirect prompt injection](#indirect-prompt-injection) (5)
 - [industrial control](#industrial-control) (1)
-- [industrial control systems](#industrial-control-systems) (1)
+- [industrial control systems](#industrial-control-systems) (2)
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (1)
@@ -1595,9 +1600,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (199)
+- [operations](#operations) (200)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (224)
+- [ops](#ops) (225)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1607,6 +1612,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ORB network](#orb-network) (1)
 - [OS command injection](#os-command-injection) (1)
 - [OT](#ot) (2)
+- [OT switches](#ot-switches) (1)
 - [OTA update](#ota-update) (1)
 - [OTP interception](#otp-interception) (1)
 - [Outlook](#outlook) (1)
@@ -1672,6 +1678,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
 - [persistence](#persistence) (25)
+- [persistent root access](#persistent-root-access) (1)
 - [personal access tokens](#personal-access-tokens) (1)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
@@ -1746,7 +1753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private key theft](#private-key-theft) (1)
 - [private registry fallback](#private-registry-fallback) (1)
 - [private-key theft](#private-key-theft) (1)
-- [privilege escalation](#privilege-escalation) (8)
+- [privilege escalation](#privilege-escalation) (9)
 - [Privileged Remote Access](#privileged-remote-access) (1)
 - [process doppelgänging](#process-doppelganging) (1)
 - [process environment scraping](#process-environment-scraping) (1)
@@ -1905,6 +1912,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [router](#router) (1)
 - [router compromise](#router-compromise) (1)
 - [router malware](#router-malware) (1)
+- [ROX II](#rox-ii) (1)
 - [RSA](#rsa) (1)
 - [RSA-2048](#rsa-2048) (1)
 - [RT-Thread](#rt-thread) (1)
@@ -1912,6 +1920,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rtmutex](#rtmutex) (1)
 - [RubyGems](#rubygems) (2)
 - [Ruckus routers](#ruckus-routers) (1)
+- [RUGGEDCOM](#ruggedcom) (1)
 - [Run key](#run-key) (1)
 - [rundll32](#rundll32) (2)
 - [Runner.Worker](#runnerworker) (1)
@@ -2016,6 +2025,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Shuckworm](#shuckworm) (1)
 - [SideCopy](#sidecopy) (1)
 - [sideloading](#sideloading) (1)
+- [Siemens](#siemens) (1)
 - [Signal](#signal) (1)
 - [Signal interception](#signal-interception) (1)
 - [signed malware](#signed-malware) (1)
@@ -2185,6 +2195,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [targeted operations](#targeted-operations) (1)
 - [TartarusGate](#tartarusgate) (1)
 - [task queue](#task-queue) (1)
+- [task scheduler abuse](#task-scheduler-abuse) (1)
 - [TaskWeaver](#taskweaver) (3)
 - [tax-season phishing](#tax-season-phishing) (1)
 - [tc](#tc) (1)
@@ -2312,7 +2323,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UniFi OS](#unifi-os) (1)
 - [Unified CM SME](#unified-cm-sme) (1)
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
-- [Unit 42](#unit-42) (5)
+- [Unit 42](#unit-42) (6)
 - [United States](#united-states) (3)
 - [university targeting](#university-targeting) (1)
 - [UNK_MassTraction](#unk_masstraction) (1)
@@ -2483,7 +2494,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XSS](#xss) (1)
 - [XSS.is](#xssis) (1)
 - [XXE](#xxe) (1)
-- [xz](#xz) (1)
+- [xz](#xz) (2)
 - [Yanbian](#yanbian) (1)
 - [YesWeHack](#yeswehack) (1)
 - [YouTube abuse](#youtube-abuse) (1)
@@ -2494,7 +2505,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zephyr RTOS](#zephyr-rtos) (1)
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
-- [zero-day](#zero-day) (3)
+- [zero-day](#zero-day) (4)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [ZeroBEC](#zerobec) (1)
 - [Zimperium](#zimperium) (2)
@@ -3122,6 +3133,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## arbitrary code execution
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
+
+## arbitrary file disclosure
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
 ## arbitrary file read
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
@@ -4283,6 +4297,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## command-execution
@@ -4561,6 +4576,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [Velvet Ant](../actors/velvet-ant.md)
 
 ## critical-infrastructure
@@ -4751,6 +4767,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2025-34291
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+
+## CVE-2025-40947
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+
+## CVE-2025-40948
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+
+## CVE-2025-40949
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
 ## CVE-2025-48595
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
@@ -5847,6 +5872,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 
+## exploit chain
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+
 ## exploit-development
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -6877,6 +6905,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## industrial control systems
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
 ## INFINITERED
 - [UNC6508](../actors/unc6508.md)
@@ -8834,6 +8863,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
@@ -9055,6 +9085,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
@@ -9126,6 +9157,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OT
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
+
+## OT switches
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
 ## OTA update
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -9393,6 +9427,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Velvet Ant](../actors/velvet-ant.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
+
+## persistent root access
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
 ## personal access tokens
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
@@ -9691,6 +9728,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## Privileged Remote Access
@@ -10320,6 +10358,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## router malware
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
+## ROX II
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+
 ## RSA
 - [OP-512](../actors/op-512.md)
 
@@ -10341,6 +10382,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ruckus routers
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
+
+## RUGGEDCOM
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
 ## Run key
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -10734,6 +10778,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## sideloading
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
+## Siemens
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
 ## Signal
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -11422,6 +11469,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## task queue
 - [WLDR agent](../tools/wldr-agent.md)
 
+## task scheduler abuse
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+
 ## TaskWeaver
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
@@ -11934,6 +11984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
@@ -12612,6 +12663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## xz
 - [JiaT75](../people/jiat75.md)
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
 ## Yanbian
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -12648,6 +12700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
 ## zero-reputation infrastructure
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)

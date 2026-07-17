@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [Unit 42 AI incident-response update: AI compresses attacker timelines without replacing core TTPs](../patterns/ai-augmented-adversary-operations.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [WLDR agent](../tools/wldr-agent.md)
