@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - UAT-11795 Starland / WLDR campaign: ops/uat-11795-starland-wldr-campaign.md
       - Suspected Chinese operators use Claude Code and DeepSeek in government intrusions: ops/chinese-operators-claude-deepseek-government-intrusion.md
       - OkoBot cryptocurrency-wallet malware framework: ops/okobot-cryptocurrency-wallet-framework.md
       - KNX Protocol CVE-2023-4346 KEV exploitation: ops/knx-protocol-cve-2023-4346-kev-exploitation.md
@@ -237,6 +238,8 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - WLDR agent: tools/wldr-agent.md
+      - Starland RAT: tools/starland-rat.md
       - ACR Stealer: tools/acr-stealer.md
       - LabubaRAT: tools/labubarat.md
       - MODBEACON: tools/modbeacon.md
@@ -267,6 +270,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - UAT-11795: actors/uat-11795.md
       - Cavern Manticore: actors/cavern-manticore.md
       - Armored Likho: actors/armored-likho.md
       - ToddyCat: actors/toddycat.md
