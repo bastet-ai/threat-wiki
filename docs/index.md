@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [TELEPUZ ClickFix / VIDAR campaign](ops/telepuz-clickfix-vidar-campaign.md)
+- [TELEPUZ](tools/telepuz.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Siemens ROX II zero-day exploit chain](ops/siemens-rox-ii-zero-day-chain.md)
 - [UAT-11795 Starland / WLDR campaign](ops/uat-11795-starland-wldr-campaign.md)

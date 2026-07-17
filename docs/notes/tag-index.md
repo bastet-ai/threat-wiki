@@ -115,7 +115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amatera Stealer](#amatera-stealer) (1)
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [Amazon SES](#amazon-ses) (1)
-- [AMSI bypass](#amsi-bypass) (3)
+- [AMSI bypass](#amsi-bypass) (4)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
 - [Android](#android) (6)
 - [Android Accessibility Service](#android-accessibility-service) (2)
@@ -281,7 +281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Broadcom](#broadcom) (2)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
-- [browser credential theft](#browser-credential-theft) (19)
+- [browser credential theft](#browser-credential-theft) (21)
 - [browser extension](#browser-extension) (9)
 - [browser extension loader](#browser-extension-loader) (1)
 - [browser hijacking](#browser-hijacking) (2)
@@ -357,6 +357,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chisel](#chisel) (3)
 - [ChocoPoC](#chocopoc) (1)
 - [Chrome](#chrome) (2)
+- [Chrome App-Bound Encryption](#chrome-app-bound-encryption) (1)
+- [Chrome DevTools Protocol](#chrome-devtools-protocol) (1)
 - [Chrome extension](#chrome-extension) (2)
 - [Chrome renderer sandbox](#chrome-renderer-sandbox) (1)
 - [Chrome Web Store](#chrome-web-store) (5)
@@ -391,7 +393,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code](#claude-code) (5)
 - [Claude for Chrome](#claude-for-chrome) (1)
 - [Clever Cloud](#clever-cloud) (1)
-- [ClickFix](#clickfix) (12)
+- [ClickFix](#clickfix) (14)
 - [ClickOnce](#clickonce) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
 - [Cline](#cline) (1)
@@ -743,6 +745,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DLL side-loading](#dll-side-loading) (3)
 - [DLL sideloading](#dll-sideloading) (17)
 - [DNS C2](#dns-c2) (2)
+- [DNS dead drop](#dns-dead-drop) (1)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (2)
 - [DNS-over-HTTPS](#dns-over-https) (1)
@@ -797,7 +800,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [education](#education) (1)
 - [Egnyte](#egnyte) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
-- [Elastic Security Labs](#elastic-security-labs) (3)
+- [Elastic Security Labs](#elastic-security-labs) (5)
 - [Elasticsearch](#elasticsearch) (1)
 - [electric power sector](#electric-power-sector) (2)
 - [Electron](#electron) (1)
@@ -836,6 +839,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESXi](#esxi) (1)
 - [EtherHiding](#etherhiding) (2)
+- [ETW bypass](#etw-bypass) (1)
 - [ETW patching](#etw-patching) (1)
 - [ETW tampering](#etw-tampering) (1)
 - [Eurojust](#eurojust) (1)
@@ -918,6 +922,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [financially motivated](#financially-motivated) (1)
 - [FireAnt MetaKit](#fireant-metakit) (1)
 - [Firefox Add-ons](#firefox-add-ons) (1)
+- [Firefox WebDriver BiDi](#firefox-webdriver-bidi) (1)
 - [firewall](#firewall) (1)
 - [firmware](#firmware) (1)
 - [firmware update](#firmware-update) (1)
@@ -1135,6 +1140,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [India-nexus](#india-nexus) (1)
 - [Indian government](#indian-government) (1)
 - [indirect prompt injection](#indirect-prompt-injection) (5)
+- [indirect syscalls](#indirect-syscalls) (1)
 - [industrial control](#industrial-control) (1)
 - [industrial control systems](#industrial-control-systems) (2)
 - [INFINITERED](#infinitered) (1)
@@ -1234,7 +1240,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KEV](#kev) (3)
 - [keychain theft](#keychain-theft) (2)
 - [KeyHunter](#keyhunter) (1)
-- [keylogger](#keylogger) (3)
+- [keylogger](#keylogger) (4)
 - [keylogging](#keylogging) (1)
 - [Kimsuky](#kimsuky) (1)
 - [Klue](#klue) (1)
@@ -1343,7 +1349,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Luna Moth](#luna-moth) (1)
 - [Lyceum](#lyceum) (1)
 - [M-RED-TEAM](#m-red-team) (1)
-- [MaaS](#maas) (4)
+- [MaaS](#maas) (6)
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
 - [machine-learning](#machine-learning) (1)
@@ -1364,9 +1370,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (7)
-- [malware](#malware) (42)
+- [malware](#malware) (43)
 - [malware analysis](#malware-analysis) (2)
-- [malware delivery](#malware-delivery) (3)
+- [malware delivery](#malware-delivery) (4)
 - [malware framework](#malware-framework) (2)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-as-a-service](#malware-as-a-service) (5)
@@ -1467,6 +1473,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [model-provider abuse](#model-provider-abuse) (1)
 - [ModeloRAT](#modelorat) (1)
 - [ModHeader](#modheader) (1)
+- [modular malware](#modular-malware) (1)
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (5)
 - [Monero](#monero) (2)
@@ -1602,9 +1609,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (201)
+- [operations](#operations) (202)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (226)
+- [ops](#ops) (227)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1721,6 +1728,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Poly1305](#poly1305) (1)
 - [polyfill](#polyfill) (1)
 - [Polygon](#polygon) (1)
+- [Polygon blockchain dead drop](#polygon-blockchain-dead-drop) (2)
 - [Polymarket](#polymarket) (1)
 - [polymorphic loader](#polymorphic-loader) (1)
 - [polymorphic payloads](#polymorphic-payloads) (1)
@@ -1735,7 +1743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (9)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (20)
+- [PowerShell](#powershell) (21)
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShower](#powershower) (1)
@@ -2000,6 +2008,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SEO poisoning](#seo-poisoning) (6)
 - [Serv-U](#serv-u) (1)
 - [service accounts](#service-accounts) (1)
+- [service persistence](#service-persistence) (1)
 - [service-agent](#service-agent) (1)
 - [ServiceNow](#servicenow) (1)
 - [session cookie theft](#session-cookie-theft) (2)
@@ -2145,7 +2154,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Static Kitten](#static-kitten) (1)
 - [stdio](#stdio) (3)
 - [StealC](#stealc) (1)
-- [stealer](#stealer) (2)
+- [stealer](#stealer) (3)
+- [Steam profile dead drop](#steam-profile-dead-drop) (2)
 - [steganography](#steganography) (3)
 - [StegoAd](#stegoad) (1)
 - [StepSecurity](#stepsecurity) (1)
@@ -2221,9 +2231,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telegram](#telegram) (1)
 - [Telegram bot](#telegram-bot) (2)
 - [Telegram C2](#telegram-c2) (3)
+- [Telegram dead drop](#telegram-dead-drop) (2)
 - [Telegram exfiltration](#telegram-exfiltration) (1)
 - [Telegram notification](#telegram-notification) (1)
 - [telemetry](#telemetry) (1)
+- [TELEPUZ](#telepuz) (1)
 - [Teletype](#teletype) (1)
 - [Telnet brute force](#telnet-brute-force) (2)
 - [Telnyx](#telnyx) (1)
@@ -2259,7 +2271,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (28)
+- [tools](#tools) (29)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
@@ -2364,6 +2376,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VENOMOUS BEAR](#venomous-bear) (3)
 - [Vercel](#vercel) (1)
 - [Vertex AI](#vertex-ai) (1)
+- [VIDAR](#vidar) (2)
 - [Vidar Stealer](#vidar-stealer) (3)
 - [Vietnam](#vietnam) (2)
 - [Vietnam-aligned](#vietnam-aligned) (1)
@@ -2417,6 +2430,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web application compromise](#web-application-compromise) (1)
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
+- [web injection](#web-injection) (1)
+- [web injector](#web-injector) (1)
 - [web management interface](#web-management-interface) (1)
 - [web proxy](#web-proxy) (1)
 - [web RCE](#web-rce) (1)
@@ -2435,7 +2450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [webshells](#webshells) (1)
 - [website-compromise](#website-compromise) (1)
 - [WebSocket](#websocket) (1)
-- [WebSocket C2](#websocket-c2) (6)
+- [WebSocket C2](#websocket-c2) (7)
 - [websocket-sharp](#websocket-sharp) (1)
 - [WebView](#webview) (1)
 - [WebView2 C2](#webview2-c2) (1)
@@ -2453,7 +2468,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Forms](#windows-forms) (1)
-- [Windows malware](#windows-malware) (8)
+- [Windows malware](#windows-malware) (10)
 - [Windows persistence](#windows-persistence) (1)
 - [Windows Run dialog](#windows-run-dialog) (1)
 - [Windows Script Host](#windows-script-host) (2)
@@ -2985,6 +3000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AMSI bypass
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
+- [TELEPUZ](../tools/telepuz.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## AmsiScanBuffer
@@ -3589,6 +3605,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PamStealer](../tools/pamstealer.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+- [TELEPUZ](../tools/telepuz.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
@@ -3877,6 +3895,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
 
+## Chrome App-Bound Encryption
+- [TELEPUZ](../tools/telepuz.md)
+
+## Chrome DevTools Protocol
+- [TELEPUZ](../tools/telepuz.md)
+
 ## Chrome extension
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
@@ -4066,6 +4090,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SCMBANKER](../tools/scmbanker.md)
 - [Starland RAT](../tools/starland-rat.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+- [TELEPUZ](../tools/telepuz.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [UAT-11795](../actors/uat-11795.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 
@@ -5465,6 +5491,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OP-512](../actors/op-512.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
+## DNS dead drop
+- [TELEPUZ](../tools/telepuz.md)
+
 ## DNS threat intelligence
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
@@ -5664,6 +5693,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
+- [TELEPUZ](../tools/telepuz.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 
 ## Elasticsearch
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
@@ -5833,6 +5864,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## EtherHiding
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
+## ETW bypass
+- [TELEPUZ](../tools/telepuz.md)
 
 ## ETW patching
 - [RemotePE](../tools/remotepe.md)
@@ -6125,6 +6159,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Firefox Add-ons
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
+
+## Firefox WebDriver BiDi
+- [TELEPUZ](../tools/telepuz.md)
 
 ## firewall
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -6921,6 +6958,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
+## indirect syscalls
+- [TELEPUZ](../tools/telepuz.md)
+
 ## industrial control
 - [Fast16](../tools/fast16.md)
 
@@ -7300,6 +7340,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
+- [TELEPUZ](../tools/telepuz.md)
 
 ## keylogging
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
@@ -7699,6 +7740,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QuimaRAT](../tools/quimarat.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+- [TELEPUZ](../tools/telepuz.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 
 ## MacCMS
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -7818,6 +7861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TaskWeaver](../tools/taskweaver.md)
 - [TeamPCP](../actors/teampcp.md)
+- [TELEPUZ](../tools/telepuz.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [TinyRCT](../tools/tinyrct.md)
 - [Umbrij](../tools/umbrij.md)
@@ -7831,6 +7875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malware delivery
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## malware framework
@@ -8200,6 +8245,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ModHeader
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
+
+## modular malware
+- [TELEPUZ](../tools/telepuz.md)
 
 ## module-proxy
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -8901,6 +8949,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -9125,6 +9174,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
@@ -9605,6 +9655,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Polygon
 - [Starland RAT](../tools/starland-rat.md)
 
+## Polygon blockchain dead drop
+- [TELEPUZ](../tools/telepuz.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+
 ## Polymarket
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
@@ -9678,6 +9732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -10706,6 +10761,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## service accounts
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
+## service persistence
+- [TELEPUZ](../tools/telepuz.md)
+
 ## service-agent
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
@@ -11227,6 +11285,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## stealer
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [TELEPUZ](../tools/telepuz.md)
+
+## Steam profile dead drop
+- [TELEPUZ](../tools/telepuz.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 
 ## steganography
 - [ACR Stealer](../tools/acr-stealer.md)
@@ -11590,6 +11653,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
+## Telegram dead drop
+- [TELEPUZ](../tools/telepuz.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+
 ## Telegram exfiltration
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
@@ -11598,6 +11665,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## telemetry
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+
+## TELEPUZ
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 
 ## Teletype
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
@@ -11759,6 +11829,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Starland RAT](../tools/starland-rat.md)
 - [STOCKSTAY](../tools/stockstay.md)
 - [TaskWeaver](../tools/taskweaver.md)
+- [TELEPUZ](../tools/telepuz.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [TinyRCT](../tools/tinyrct.md)
 - [Umbrij](../tools/umbrij.md)
@@ -12146,6 +12217,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Vertex AI
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
+## VIDAR
+- [TELEPUZ](../tools/telepuz.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+
 ## Vidar Stealer
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
@@ -12366,6 +12441,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## web IDE
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 
+## web injection
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+
+## web injector
+- [TELEPUZ](../tools/telepuz.md)
+
 ## web management interface
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
@@ -12434,6 +12515,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [STOCKSTAY](../tools/stockstay.md)
+- [TELEPUZ](../tools/telepuz.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
 ## websocket-sharp
@@ -12527,6 +12609,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MODBEACON](../tools/modbeacon.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
+- [TELEPUZ](../tools/telepuz.md)
+- [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
