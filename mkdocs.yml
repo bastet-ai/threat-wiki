@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Contagious Interview SVG-steganography OtterCookie campaign: ops/contagious-interview-svg-steganography-ottercookie.md
       - Siemens ROX II zero-day exploit chain: ops/siemens-rox-ii-zero-day-chain.md
       - UAT-11795 Starland / WLDR campaign: ops/uat-11795-starland-wldr-campaign.md
       - Suspected Chinese operators use Claude Code and DeepSeek in government intrusions: ops/chinese-operators-claude-deepseek-government-intrusion.md

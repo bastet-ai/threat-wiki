@@ -281,7 +281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Broadcom](#broadcom) (2)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
-- [browser credential theft](#browser-credential-theft) (18)
+- [browser credential theft](#browser-credential-theft) (19)
 - [browser extension](#browser-extension) (9)
 - [browser extension loader](#browser-extension-loader) (1)
 - [browser hijacking](#browser-hijacking) (2)
@@ -399,7 +399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [clipboard injection](#clipboard-injection) (1)
 - [clipboard manipulation](#clipboard-manipulation) (2)
 - [clipboard stealer](#clipboard-stealer) (1)
-- [clipboard theft](#clipboard-theft) (5)
+- [clipboard theft](#clipboard-theft) (6)
 - [clipper](#clipper) (2)
 - [Cloaked Ursa](#cloaked-ursa) (1)
 - [cloaking](#cloaking) (1)
@@ -443,6 +443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codex](#codex) (2)
 - [Codex CLI](#codex-cli) (1)
 - [coding agents](#coding-agents) (1)
+- [coding challenge](#coding-challenge) (1)
 - [Coinbase](#coinbase) (1)
 - [ColdFusion](#coldfusion) (1)
 - [collaboration platforms](#collaboration-platforms) (1)
@@ -471,7 +472,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise ScreenConnect](#connectwise-screenconnect) (1)
 - [consumer devices](#consumer-devices) (1)
 - [consumer IoT](#consumer-iot) (1)
-- [Contagious Interview](#contagious-interview) (3)
+- [Contagious Interview](#contagious-interview) (4)
 - [container](#container) (1)
 - [container escape](#container-escape) (4)
 - [container escape pre-check](#container-escape-pre-check) (1)
@@ -498,7 +499,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (3)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (46)
+- [credential theft](#credential-theft) (47)
 - [credential-theft](#credential-theft) (51)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -520,7 +521,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptocurrency](#cryptocurrency) (12)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
 - [cryptocurrency theft](#cryptocurrency-theft) (8)
-- [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (4)
+- [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (5)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (4)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
@@ -717,7 +718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer tooling](#developer-tooling) (5)
 - [developer workstations](#developer-workstations) (2)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
-- [developer-targeting](#developer-targeting) (16)
+- [developer-targeting](#developer-targeting) (17)
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (2)
 - [device lockout](#device-lockout) (1)
@@ -761,7 +762,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [downloader](#downloader) (1)
 - [DPAPI](#dpapi) (3)
 - [DPAPILoader](#dpapiloader) (1)
-- [DPRK](#dprk) (4)
+- [DPRK](#dprk) (5)
 - [driver loading](#driver-loading) (1)
 - [DroneLink](#dronelink) (1)
 - [Dropbear](#dropbear) (1)
@@ -796,7 +797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [education](#education) (1)
 - [Egnyte](#egnyte) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
-- [Elastic Security Labs](#elastic-security-labs) (2)
+- [Elastic Security Labs](#elastic-security-labs) (3)
 - [Elasticsearch](#elasticsearch) (1)
 - [electric power sector](#electric-power-sector) (2)
 - [Electron](#electron) (1)
@@ -874,7 +875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake plugin](#fake-plugin) (1)
 - [fake PoC](#fake-poc) (2)
 - [fake ransomware](#fake-ransomware) (1)
-- [fake recruiting](#fake-recruiting) (1)
+- [fake recruiting](#fake-recruiting) (2)
 - [fake reputation](#fake-reputation) (1)
 - [fake update](#fake-update) (2)
 - [FakeCaptcha](#fakecaptcha) (1)
@@ -898,6 +899,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [file exfiltration](#file-exfiltration) (1)
 - [file inflation](#file-inflation) (1)
 - [file sharing](#file-sharing) (1)
+- [file theft](#file-theft) (1)
 - [File Transmission](#file-transmission) (1)
 - [file upload path traversal](#file-upload-path-traversal) (1)
 - [file-system filter](#file-system-filter) (1)
@@ -977,7 +979,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Git](#git) (1)
 - [git.exe](#gitexe) (1)
 - [Gitea](#gitea) (1)
-- [GitHub](#github) (18)
+- [GitHub](#github) (19)
 - [GitHub abuse](#github-abuse) (3)
 - [GitHub Actions](#github-actions) (22)
 - [GitHub API](#github-api) (1)
@@ -1184,7 +1186,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript execution](#javascript-execution) (1)
 - [JavaScript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
-- [JavaScript malware](#javascript-malware) (1)
+- [JavaScript malware](#javascript-malware) (2)
 - [JavaScript masquerading](#javascript-masquerading) (1)
 - [JavaScript tampering](#javascript-tampering) (1)
 - [JCE](#jce) (1)
@@ -1533,7 +1535,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Node.js](#nodejs) (3)
 - [Node.js implant](#nodejs-implant) (1)
 - [Node.js malware](#nodejs-malware) (1)
-- [North Korea](#north-korea) (11)
+- [North Korea](#north-korea) (12)
 - [notarized malware](#notarized-malware) (2)
 - [notification interception](#notification-interception) (1)
 - [npm](#npm) (49)
@@ -1600,9 +1602,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (200)
+- [operations](#operations) (201)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (225)
+- [ops](#ops) (226)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1615,6 +1617,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OT switches](#ot-switches) (1)
 - [OTA update](#ota-update) (1)
 - [OTP interception](#otp-interception) (1)
+- [OtterCookie](#ottercookie) (1)
 - [Outlook](#outlook) (1)
 - [overlay attacks](#overlay-attacks) (2)
 - [OX Security](#ox-security) (1)
@@ -1826,7 +1829,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rapid exploitation](#rapid-exploitation) (2)
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
-- [RAT](#rat) (29)
+- [RAT](#rat) (30)
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RCE](#rce) (6)
@@ -1851,6 +1854,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RediSearch](#redisearch) (1)
 - [RedWing](#redwing) (2)
 - [REF6045](#ref6045) (2)
+- [REF9403](#ref9403) (1)
 - [reflective .NET loading](#reflective-net-loading) (1)
 - [refresh token theft](#refresh-token-theft) (1)
 - [refresh tokens](#refresh-tokens) (1)
@@ -2070,7 +2074,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Socket](#socket) (4)
 - [Socket Security](#socket-security) (3)
 - [Socket Security Research](#socket-security-research) (1)
-- [Socket.IO](#socketio) (1)
+- [Socket.IO](#socketio) (2)
 - [SOCKS tunneling](#socks-tunneling) (1)
 - [SOCKS5](#socks5) (4)
 - [SOCKS5 proxy](#socks5-proxy) (1)
@@ -2142,7 +2146,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stdio](#stdio) (3)
 - [StealC](#stealc) (1)
 - [stealer](#stealer) (2)
-- [steganography](#steganography) (2)
+- [steganography](#steganography) (3)
 - [StegoAd](#stegoad) (1)
 - [StepSecurity](#stepsecurity) (1)
 - [STM32Cube](#stm32cube) (1)
@@ -2168,6 +2172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [surveillance](#surveillance) (1)
 - [suspected China-aligned](#suspected-china-aligned) (1)
 - [suspected China-linked](#suspected-china-linked) (1)
+- [SVG](#svg) (1)
 - [SWE-agent](#swe-agent) (1)
 - [SWUpdate](#swupdate) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (2)
@@ -3573,6 +3578,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -4087,6 +4093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## clipboard theft
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [PamStealer](../tools/pamstealer.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
@@ -4264,6 +4271,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## coding agents
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
+## coding challenge
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
+
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
@@ -4368,6 +4378,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## Contagious Interview
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -4477,6 +4488,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -4654,6 +4666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cryptocurrency wallet theft
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -5337,6 +5350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## developer-targeting
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -5517,6 +5531,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DPRK
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
@@ -5646,6 +5661,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 
 ## Elastic Security Labs
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
 
@@ -5967,6 +5983,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GigaWiper](../tools/gigawiper.md)
 
 ## fake recruiting
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## fake reputation
@@ -6040,6 +6057,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## file sharing
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
+
+## file theft
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 
 ## File Transmission
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
@@ -6306,6 +6326,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
@@ -7113,6 +7134,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## JavaScript malware
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 
 ## JavaScript masquerading
@@ -8408,6 +8430,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
 ## North Korea
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
@@ -8747,6 +8770,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -8955,6 +8979,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
@@ -9166,6 +9191,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OTP interception
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+
+## OtterCookie
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 
 ## Outlook
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -10019,6 +10047,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armored Likho](../actors/armored-likho.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
@@ -10134,6 +10163,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## REF6045
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
+
+## REF9403
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 
 ## reflective .NET loading
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -10943,6 +10975,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
 ## Socket.IO
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 
 ## SOCKS tunneling
@@ -11197,6 +11230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## steganography
 - [ACR Stealer](../tools/acr-stealer.md)
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## StegoAd
@@ -11372,6 +11406,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## suspected China-linked
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+
+## SVG
+- [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 
 ## SWE-agent
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
