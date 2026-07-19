@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>SleeperGem RubyGems maintainer-account compromise</title>
+      <link>https://threat.wiki/ops/sleepergem-rubygems-maintainer-account-compromise/</link>
+      <description>Added Aikido Security and StepSecurity coverage of SleeperGem, a coordinated RubyGems supply-chain attack targeting developer workstations through malicious git_credential_manager, Dendreo, and fastlane-plugin-run_tests_firebase_testlab releases. The page captures dormant maintainer-account compromise, CI-environment evasion, require-time execution, Forgejo payload staging, systemd and cron persistence, the setuid-shell privilege path, registry hashes, host artifacts, and credential-rotation guidance.</description>
+      <pubDate>Sun, 19 Jul 2026 17:28:48 GMT</pubDate>
+      <guid>https://threat.wiki/ops/sleepergem-rubygems-maintainer-account-compromise/</guid>
+    </item>
+    <item>
       <title>HelloNet ViPNet update-system campaign</title>
       <link>https://threat.wiki/ops/hellonet-vipnet-update-system-campaign/</link>
       <description>Added Kaspersky coverage of an active targeted campaign that persists by sideloading wtsapi32.dll through the startup-launched ViPNet update component. The page captures HelloInjector process injection, HelloProxy protocol markers, HelloExecutor and HelloCleaner follow-ons, the Rust HelloBackdoor, reverse SSH tunneling, targeted Russian sectors, and the low-confidence Chinese-speaking attribution caveat.</description>

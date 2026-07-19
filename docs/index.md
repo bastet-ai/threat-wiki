@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [SleeperGem RubyGems maintainer-account compromise](ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAC-0145](actors/uac-0145.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)

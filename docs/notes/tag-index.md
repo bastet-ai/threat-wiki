@@ -512,13 +512,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
 - [credential theft](#credential-theft) (50)
-- [credential-theft](#credential-theft) (51)
+- [credential-theft](#credential-theft) (52)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (5)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
-- [cron](#cron) (1)
+- [cron](#cron) (2)
 - [cron persistence](#cron-persistence) (2)
 - [cross-platform](#cross-platform) (1)
 - [cross-platform malware](#cross-platform-malware) (1)
@@ -730,9 +730,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer mode](#developer-mode) (1)
 - [developer targeting](#developer-targeting) (5)
 - [developer tooling](#developer-tooling) (5)
-- [developer workstations](#developer-workstations) (2)
+- [developer workstations](#developer-workstations) (3)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
-- [developer-targeting](#developer-targeting) (17)
+- [developer-targeting](#developer-targeting) (18)
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (2)
 - [device lockout](#device-lockout) (1)
@@ -770,7 +770,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DOGLEASH](#dogleash) (1)
 - [domain squatting](#domain-squatting) (1)
 - [domestic espionage](#domestic-espionage) (1)
-- [dormant accounts](#dormant-accounts) (1)
+- [dormant accounts](#dormant-accounts) (2)
 - [DotNetNuke](#dotnetnuke) (1)
 - [DotnetTool](#dotnettool) (1)
 - [double extortion](#double-extortion) (1)
@@ -954,6 +954,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Forest Blizzard](#forest-blizzard) (1)
 - [Forg365](#forg365) (1)
 - [ForgCookie](#forgcookie) (1)
+- [Forgejo](#forgejo) (1)
 - [FortiClient EMS](#forticlient-ems) (1)
 - [FortiGate](#fortigate) (1)
 - [Fortinet](#fortinet) (3)
@@ -1396,7 +1397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MAIN world injection](#main-world-injection) (1)
 - [maintainer compromise](#maintainer-compromise) (3)
 - [maintainer persona](#maintainer-persona) (1)
-- [maintainer-compromise](#maintainer-compromise) (1)
+- [maintainer-compromise](#maintainer-compromise) (2)
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious packages](#malicious-packages) (1)
 - [malicious releases](#malicious-releases) (2)
@@ -1647,9 +1648,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (208)
+- [operations](#operations) (209)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (233)
+- [ops](#ops) (234)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1726,7 +1727,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PeopleTools](#peopletools) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
-- [persistence](#persistence) (25)
+- [persistence](#persistence) (26)
 - [persistent root access](#persistent-root-access) (1)
 - [personal access tokens](#personal-access-tokens) (1)
 - [pfSense](#pfsense) (1)
@@ -1972,7 +1973,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RT-Thread](#rt-thread) (1)
 - [RTL819X](#rtl819x) (1)
 - [rtmutex](#rtmutex) (1)
-- [RubyGems](#rubygems) (2)
+- [RubyGems](#rubygems) (3)
 - [Ruckus routers](#ruckus-routers) (1)
 - [RUGGEDCOM](#ruggedcom) (1)
 - [Run key](#run-key) (1)
@@ -2062,6 +2063,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session secret exposure](#session-secret-exposure) (1)
 - [session theft](#session-theft) (1)
 - [session token theft](#session-token-theft) (1)
+- [setuid](#setuid) (1)
 - [shadow copy deletion](#shadow-copy-deletion) (2)
 - [shadow MMU](#shadow-mmu) (1)
 - [SHADOW-AETHER-040](#shadow-aether-040) (1)
@@ -2231,7 +2233,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Supabase](#supabase) (1)
 - [supply chain](#supply-chain) (12)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (83)
+- [supply-chain](#supply-chain) (84)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
 - [surveillance](#surveillance) (1)
 - [suspected China-aligned](#suspected-china-aligned) (1)
@@ -2247,6 +2249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sysdig](#sysdig) (2)
 - [SYSTEM](#system) (1)
 - [SystemBC](#systembc) (1)
+- [systemd](#systemd) (1)
 - [systemd-userdbd](#systemd-userdbd) (1)
 - [T1204.004](#t1204004) (1)
 - [T3](#t3) (1)
@@ -4710,6 +4713,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [TA4922](../actors/ta4922.md)
@@ -4741,6 +4745,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cron
 - [MYRA RAT](../tools/myra-rat.md)
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 
 ## cron persistence
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
@@ -5494,6 +5499,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## developer workstations
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 
 ## developer-machine-fleet
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
@@ -5513,6 +5519,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -5664,6 +5671,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## dormant accounts
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 
 ## DotNetNuke
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
@@ -6356,6 +6364,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ForgCookie
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
+
+## Forgejo
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 
 ## FortiClient EMS
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -8011,6 +8022,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## maintainer-compromise
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 
 ## malicious GPO
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
@@ -9176,6 +9188,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -9406,6 +9419,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
@@ -9745,6 +9759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QuimaRAT](../tools/quimarat.md)
 - [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -10733,6 +10748,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RubyGems
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 
 ## Ruckus routers
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
@@ -11071,6 +11087,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## session token theft
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
+## setuid
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 
 ## shadow copy deletion
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -11759,6 +11778,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -11820,6 +11840,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SystemBC
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## systemd
+- [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 
 ## systemd-userdbd
 - [MYRA RAT](../tools/myra-rat.md)
