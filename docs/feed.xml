@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>HelloNet ViPNet update-system campaign</title>
+      <link>https://threat.wiki/ops/hellonet-vipnet-update-system-campaign/</link>
+      <description>Added Kaspersky coverage of an active targeted campaign that persists by sideloading wtsapi32.dll through the startup-launched ViPNet update component. The page captures HelloInjector process injection, HelloProxy protocol markers, HelloExecutor and HelloCleaner follow-ons, the Rust HelloBackdoor, reverse SSH tunneling, targeted Russian sectors, and the low-confidence Chinese-speaking attribution caveat.</description>
+      <pubDate>Sun, 19 Jul 2026 05:26:58 GMT</pubDate>
+      <guid>https://threat.wiki/ops/hellonet-vipnet-update-system-campaign/</guid>
+    </item>
+    <item>
+      <title>GoSerpent Southeast Asia espionage campaign</title>
+      <link>https://threat.wiki/ops/goserpent-southeast-asia-espionage-campaign/</link>
+      <description>Added Kaspersky GReAT coverage of a government and diplomatic espionage operation using GoSerpent, McMx, ThumbcacheService, Stowaway, and TmcLoader/TmcPayload. The page captures delayed document collection, credential dumping, chained proxying, network-share exfiltration, durable file and infrastructure pivots, and the uncertain TetrisPhantom relationship.</description>
+      <pubDate>Sun, 19 Jul 2026 05:26:58 GMT</pubDate>
+      <guid>https://threat.wiki/ops/goserpent-southeast-asia-espionage-campaign/</guid>
+    </item>
+    <item>
       <title>NadMesh AI-service and cloud-credential botnet</title>
       <link>https://threat.wiki/ops/nadmesh-ai-service-cloud-credential-botnet/</link>
       <description>Added QiAnXin XLab coverage of NadMesh, an autonomous Go botnet that prioritizes exposed ComfyUI, Ollama, n8n, Open WebUI, Langflow, Gradio, and MCP services while also exploiting Docker, Kubernetes, Redis, Jenkins, and weak remote-access credentials. The page captures AWS and Kubernetes credential theft, polymorphic builds, three-way SSH/agent/cron persistence, operator-panel scale caveats, high-priority ports, behavioral hunts, and revoke-before-recovery guidance.</description>

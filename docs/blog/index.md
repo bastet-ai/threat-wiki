@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
+- [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
