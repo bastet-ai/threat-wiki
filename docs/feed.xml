@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>NadMesh AI-service and cloud-credential botnet</title>
+      <link>https://threat.wiki/ops/nadmesh-ai-service-cloud-credential-botnet/</link>
+      <description>Added QiAnXin XLab coverage of NadMesh, an autonomous Go botnet that prioritizes exposed ComfyUI, Ollama, n8n, Open WebUI, Langflow, Gradio, and MCP services while also exploiting Docker, Kubernetes, Redis, Jenkins, and weak remote-access credentials. The page captures AWS and Kubernetes credential theft, polymorphic builds, three-way SSH/agent/cron persistence, operator-panel scale caveats, high-priority ports, behavioral hunts, and revoke-before-recovery guidance.</description>
+      <pubDate>Sun, 19 Jul 2026 03:27:44 GMT</pubDate>
+      <guid>https://threat.wiki/ops/nadmesh-ai-service-cloud-credential-botnet/</guid>
+    </item>
+    <item>
+      <title>ViteVenom / ChainVeil npm campaign</title>
+      <link>https://threat.wiki/ops/vitevenom-chainveil-npm-campaign/</link>
+      <description>Added Checkmarx Zero coverage of seven malicious scoped npm packages impersonating Vite and Vitest tooling. ViteVenom uses import-time execution, mixed clean and malicious package versions, detached Node.js persistence, and Tron/Aptos/Binance Smart Chain payload resolution; shared Tier-2 wallets, XOR keys, and a final RAT link it with high confidence to SuccessKey's ChainVeil infrastructure.</description>
+      <pubDate>Sun, 19 Jul 2026 03:27:44 GMT</pubDate>
+      <guid>https://threat.wiki/ops/vitevenom-chainveil-npm-campaign/</guid>
+    </item>
+    <item>
       <title>ACR Stealer ClickFix campaigns: WebDAV/Python and MSHTA/steganography intrusion chains</title>
       <link>https://threat.wiki/tools/acr-stealer/</link>
       <description>Added Microsoft Threat Intelligence coverage of increased ACR Stealer activity from late April through mid-June 2026. The new page captures two observed ClickFix-led intrusion chains: WebDAV/rundll32/pushd delivery with bundled Python loaders, scheduled-task persistence, Fiber API in-memory execution, and EtherHiding-style blockchain C2 resolution; and an MSHTA/VBScript/PowerShell chain that extracts encrypted shellcode from JPEG pixels. Defender guidance focuses on ClickFix paste-and-run telemetry, remote WebDAV DLL loading, conhost --headless, mshta remote HTA execution, browser Login Data / Web Data access, DPAPI decryption, and document staging from OneDrive / SharePoint synced paths.</description>

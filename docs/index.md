@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [NadMesh AI-service and cloud-credential botnet](ops/nadmesh-ai-service-cloud-credential-botnet.md)
+- [ViteVenom / ChainVeil npm campaign](ops/vitevenom-chainveil-npm-campaign.md)
 - [TELEPUZ ClickFix / VIDAR campaign](ops/telepuz-clickfix-vidar-campaign.md)
 - [TELEPUZ](tools/telepuz.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](ops/contagious-interview-svg-steganography-ottercookie.md)
