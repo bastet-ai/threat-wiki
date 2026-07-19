@@ -49,6 +49,7 @@ On July 14-16, 2026, CISA added seven newly reported exploited vulnerabilities t
 6. For internet-facing appliances, treat a successful exploit as a control-plane compromise: rebuild from trusted media/configuration where feasible, review downstream VPN/authentication/logging paths, and inspect for persistent accounts, altered access policy, tampered sample-processing pipelines, or exfiltrated configuration.
 
 ## Related pages
+- [UTA0533 SonicWall SMA1000 zero-day compromise](uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [FortiBleed Fortinet credential exposure](fortibleed-fortinet-credential-exposure.md)
 - [Check Point VPN CVE-2026-50751 exploitation](check-point-vpn-cve-2026-50751-exploitation.md)

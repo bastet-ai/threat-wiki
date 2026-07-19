@@ -33,12 +33,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (41)
+- [active exploitation](#active-exploitation) (42)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (2)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
-- [actor](#actor) (4)
+- [actor](#actor) (5)
 - [actors](#actors) (10)
 - [ad blocker](#ad-blocker) (1)
 - [ad fraud](#ad-fraud) (1)
@@ -118,7 +118,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon SES](#amazon-ses) (1)
 - [AMSI bypass](#amsi-bypass) (4)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
-- [Android](#android) (6)
+- [Android](#android) (8)
 - [Android Accessibility Service](#android-accessibility-service) (2)
 - [Android ADB](#android-adb) (2)
 - [Android Debug Bridge](#android-debug-bridge) (1)
@@ -155,6 +155,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT36](#apt36) (2)
 - [APT37](#apt37) (1)
 - [APT43](#apt43) (1)
+- [APT44](#apt44) (2)
 - [APT45](#apt45) (1)
 - [Aptos](#aptos) (2)
 - [Aquatic Panda](#aquatic-panda) (2)
@@ -242,6 +243,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BeaverTail](#beavertail) (1)
 - [Bedrock](#bedrock) (1)
 - [behavioral integrity verification](#behavioral-integrity-verification) (1)
+- [Behinder](#behinder) (1)
 - [Belarus](#belarus) (2)
 - [BELQI](#belqi) (1)
 - [BeyondTrust](#beyondtrust) (1)
@@ -397,7 +399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code](#claude-code) (5)
 - [Claude for Chrome](#claude-for-chrome) (1)
 - [Clever Cloud](#clever-cloud) (1)
-- [ClickFix](#clickfix) (14)
+- [ClickFix](#clickfix) (16)
 - [ClickOnce](#clickonce) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
 - [Cline](#cline) (1)
@@ -468,6 +470,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised accounts](#compromised-accounts) (2)
 - [compromised credentials](#compromised-credentials) (1)
 - [compromised infrastructure](#compromised-infrastructure) (1)
+- [compromised websites](#compromised-websites) (2)
 - [compromised WordPress](#compromised-wordpress) (2)
 - [Conditional Access](#conditional-access) (1)
 - [configuration theft](#configuration-theft) (1)
@@ -495,6 +498,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coruna](#coruna) (1)
 - [counterfeit software](#counterfeit-software) (1)
 - [COW](#cow) (1)
+- [COWARDDUCK](#cowardduck) (1)
 - [CPaaS](#cpaas) (1)
 - [cPanel](#cpanel) (3)
 - [cracked software](#cracked-software) (1)
@@ -507,7 +511,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (3)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (49)
+- [credential theft](#credential-theft) (50)
 - [credential-theft](#credential-theft) (51)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -582,6 +586,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-12569](#cve-2026-12569) (1)
 - [CVE-2026-12957](#cve-2026-12957) (1)
 - [CVE-2026-12958](#cve-2026-12958) (1)
+- [CVE-2026-15409](#cve-2026-15409) (1)
+- [CVE-2026-15410](#cve-2026-15410) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
 - [CVE-2026-20230](#cve-2026-20230) (1)
@@ -712,7 +718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (4)
 - [destructive malware](#destructive-malware) (3)
-- [destructive operations](#destructive-operations) (1)
+- [destructive operations](#destructive-operations) (2)
 - [detection engineering](#detection-engineering) (1)
 - [DEV-0206](#dev-0206) (1)
 - [developer credential theft](#developer-credential-theft) (2)
@@ -791,7 +797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [eBPF](#ebpf) (3)
 - [Eclipse](#eclipse) (1)
 - [Ed25519](#ed25519) (1)
-- [edge appliance](#edge-appliance) (11)
+- [edge appliance](#edge-appliance) (12)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (3)
@@ -842,10 +848,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ERP](#erp) (1)
 - [eSentire TRU](#esentire-tru) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (46)
+- [espionage](#espionage) (47)
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESXi](#esxi) (1)
-- [EtherHiding](#etherhiding) (2)
+- [Ethereum](#ethereum) (1)
+- [EtherHiding](#etherhiding) (4)
 - [ETW bypass](#etw-bypass) (1)
 - [ETW patching](#etw-patching) (1)
 - [ETW tampering](#etw-tampering) (1)
@@ -876,7 +883,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [F5 BIG-IP](#f5-big-ip) (1)
 - [Factory-v3](#factory-v3) (1)
 - [fake app store](#fake-app-store) (1)
-- [fake CAPTCHA](#fake-captcha) (4)
+- [fake CAPTCHA](#fake-captcha) (5)
 - [fake certificate](#fake-certificate) (1)
 - [fake crypto exchange](#fake-crypto-exchange) (1)
 - [fake dating lures](#fake-dating-lures) (1)
@@ -937,6 +944,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FlexPLM](#flexplm) (1)
 - [FlockWiper](#flockwiper) (1)
 - [flow execution](#flow-execution) (1)
+- [FLUIDLEECH](#fluidleech) (1)
 - [Flutter](#flutter) (1)
 - [FlutterShell](#fluttershell) (1)
 - [FOFA](#fofa) (1)
@@ -953,6 +961,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiSandbox](#fortisandbox) (1)
 - [Fox Tempest](#fox-tempest) (2)
 - [fraud](#fraud) (2)
+- [FREAKYPOLL](#freakypoll) (1)
 - [FreeBSD](#freebsd) (2)
 - [Freedom365](#freedom365) (1)
 - [freeware impersonation](#freeware-impersonation) (1)
@@ -978,6 +987,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GCS](#gcs) (1)
 - [Gemini CLI](#gemini-cli) (1)
 - [GentleKiller](#gentlekiller) (1)
+- [GHETTOVIBE](#ghettovibe) (1)
 - [Ghost](#ghost) (2)
 - [ghost accounts](#ghost-accounts) (1)
 - [Ghost CMS](#ghost-cms) (1)
@@ -1055,10 +1065,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gravity SMTP](#gravity-smtp) (1)
 - [GRE](#gre) (1)
 - [GREYVIBE](#greyvibe) (1)
-- [group](#group) (3)
+- [group](#group) (4)
 - [groups](#groups) (14)
 - [gRPC](#grpc) (1)
 - [gRPC C2](#grpc-c2) (2)
+- [GRU](#gru) (2)
 - [gs-netcat](#gs-netcat) (1)
 - [GS-Netcat](#gs-netcat) (1)
 - [Gshell](#gshell) (1)
@@ -1263,6 +1274,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimsuky](#kimsuky) (1)
 - [Klue](#klue) (1)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
+- [KNUCKLEBALL](#knuckleball) (1)
 - [KNX](#knx) (1)
 - [KNX Association](#knx-association) (1)
 - [KNX Protocol](#knx-protocol) (1)
@@ -1338,6 +1350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LNK files](#lnk-files) (1)
 - [load balancer](#load-balancer) (1)
 - [loader](#loader) (4)
+- [LOADLOOP](#loadloop) (1)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (6)
 - [local-file-inclusion](#local-file-inclusion) (1)
@@ -1634,15 +1647,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (206)
+- [operations](#operations) (208)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (231)
+- [ops](#ops) (233)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
 - [Oracle Payments](#oracle-payments) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
+- [ORANGETAIL](#orangetail) (1)
 - [ORB network](#orb-network) (1)
 - [OS command injection](#os-command-injection) (1)
 - [OT](#ot) (2)
@@ -1768,7 +1782,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (9)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (21)
+- [PowerShell](#powershell) (22)
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShower](#powershower) (1)
@@ -1789,7 +1803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private key theft](#private-key-theft) (1)
 - [private registry fallback](#private-registry-fallback) (1)
 - [private-key theft](#private-key-theft) (1)
-- [privilege escalation](#privilege-escalation) (9)
+- [privilege escalation](#privilege-escalation) (10)
 - [Privileged Remote Access](#privileged-remote-access) (1)
 - [process doppelgänging](#process-doppelganging) (1)
 - [process environment scraping](#process-environment-scraping) (1)
@@ -1941,9 +1955,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RomulusLoader](#romulusloader) (1)
 - [Roo-Code](#roo-code) (1)
 - [root](#root) (2)
+- [root access](#root-access) (1)
 - [root escalation](#root-escalation) (1)
 - [root execution](#root-execution) (2)
 - [rootkit](#rootkit) (4)
+- [ROOTRUN](#rootrun) (1)
 - [ROPC](#ropc) (1)
 - [Rouki obfuscation](#rouki-obfuscation) (1)
 - [Roundcube](#roundcube) (1)
@@ -1966,7 +1982,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [runtime execution](#runtime-execution) (2)
 - [runtime mutation](#runtime-mutation) (1)
 - [runZero](#runzero) (1)
-- [Russia](#russia) (9)
+- [Russia](#russia) (11)
 - [Russia-linked](#russia-linked) (3)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
@@ -1990,6 +2006,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Samsung TizenRT](#samsung-tizenrt) (1)
 - [sandbox evasion](#sandbox-evasion) (1)
 - [sandboxing](#sandboxing) (1)
+- [Sandworm](#sandworm) (2)
 - [saroula01](#saroula01) (1)
 - [scam infrastructure](#scam-infrastructure) (1)
 - [scambling](#scambling) (1)
@@ -2001,6 +2018,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SCMBANKER](#scmbanker) (2)
 - [scope squatting](#scope-squatting) (1)
 - [scoped package impersonation](#scoped-package-impersonation) (1)
+- [SCOUTCURL](#scoutcurl) (1)
 - [screen capture](#screen-capture) (2)
 - [ScreenConnect](#screenconnect) (4)
 - [screenshot capture](#screenshot-capture) (1)
@@ -2009,6 +2027,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SD-WAN](#sd-wan) (1)
 - [search hijacking](#search-hijacking) (1)
 - [search result poisoning](#search-result-poisoning) (1)
+- [Seashell Blizzard](#seashell-blizzard) (2)
 - [Secret Blizzard](#secret-blizzard) (3)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (5)
@@ -2067,7 +2086,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](#sidecopy) (1)
 - [sideloading](#sideloading) (1)
 - [Siemens](#siemens) (1)
-- [Signal](#signal) (1)
+- [Signal](#signal) (3)
 - [Signal interception](#signal-interception) (1)
 - [signed malware](#signed-malware) (1)
 - [signed updates](#signed-updates) (1)
@@ -2090,9 +2109,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sliver](#sliver) (2)
 - [SLSA](#slsa) (1)
 - [SLSA provenance](#slsa-provenance) (1)
-- [SMA1000](#sma1000) (1)
+- [SMA1000](#sma1000) (2)
 - [smart building](#smart-building) (1)
 - [smart TVs](#smart-tvs) (1)
+- [SMARTAXE](#smartaxe) (1)
 - [SmartScreen](#smartscreen) (1)
 - [SMB](#smb) (1)
 - [SMB brute force](#smb-brute-force) (1)
@@ -2128,7 +2148,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solid PDF Creator](#solid-pdf-creator) (1)
 - [SolidPDFCreator.dll](#solidpdfcreatordll) (1)
 - [SolidPDFPcl2Bmp](#solidpdfpcl2bmp) (1)
-- [SonicWall](#sonicwall) (1)
+- [SonicWall](#sonicwall) (2)
 - [Sophos](#sophos) (1)
 - [source control](#source-control) (2)
 - [source repository compromise](#source-repository-compromise) (1)
@@ -2171,7 +2191,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunneling](#ssh-tunneling) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
 - [SSL VPN](#ssl-vpn) (1)
-- [SSRF](#ssrf) (4)
+- [SSRF](#ssrf) (5)
 - [stack use-after-free](#stack-use-after-free) (1)
 - [staged malicious update](#staged-malicious-update) (1)
 - [stale access](#stale-access) (1)
@@ -2207,6 +2227,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [SuccessKey](#successkey) (1)
 - [SUMMIT](#summit) (3)
+- [Suo5](#suo5) (1)
 - [Supabase](#supabase) (1)
 - [supply chain](#supply-chain) (12)
 - [supply chain compromise](#supply-chain-compromise) (1)
@@ -2344,8 +2365,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [typosquatting](#typosquatting) (14)
 - [UAC](#uac) (1)
 - [UAC bypass](#uac-bypass) (1)
+- [UAC-0002](#uac-0002) (2)
 - [UAC-0010](#uac-0010) (3)
 - [UAC-0098](#uac-0098) (1)
+- [UAC-0145](#uac-0145) (2)
 - [UAC-0194](#uac-0194) (3)
 - [UAC-0226](#uac-0226) (1)
 - [UAT-11795](#uat-11795) (3)
@@ -2356,7 +2379,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubuntu](#ubuntu) (1)
 - [Udev persistence](#udev-persistence) (1)
 - [UDP C2](#udp-c2) (1)
-- [Ukraine](#ukraine) (9)
+- [Ukraine](#ukraine) (11)
 - [Ukraine targeting](#ukraine-targeting) (3)
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
@@ -2395,6 +2418,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [user execution](#user-execution) (1)
 - [user namespaces](#user-namespaces) (2)
 - [UTA0355](#uta0355) (1)
+- [UTA0533](#uta0533) (1)
 - [UTG-Q-1000](#utg-q-1000) (2)
 - [uTLS](#utls) (1)
 - [V2Ray](#v2ray) (1)
@@ -2405,7 +2429,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBCloud](#vbcloud) (1)
 - [VBE](#vbe) (1)
 - [VBS](#vbs) (1)
-- [VBScript](#vbscript) (6)
+- [VBScript](#vbscript) (7)
 - [VEIL#DROP](#veildrop) (1)
 - [Velociraptor](#velociraptor) (1)
 - [Velvet Ant](#velvet-ant) (2)
@@ -2436,7 +2460,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VNC](#vnc) (2)
 - [VNT](#vnt) (2)
 - [Volt Typhoon](#volt-typhoon) (1)
-- [VPN](#vpn) (5)
+- [VPN](#vpn) (6)
 - [VPN credentials](#vpn-credentials) (2)
 - [VPN gateway](#vpn-gateway) (1)
 - [VPN Go](#vpn-go) (1)
@@ -2478,7 +2502,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web management interface](#web-management-interface) (1)
 - [web proxy](#web-proxy) (1)
 - [web RCE](#web-rce) (1)
-- [web shell](#web-shell) (7)
+- [web shell](#web-shell) (8)
 - [web shell hunting](#web-shell-hunting) (1)
 - [web shells](#web-shells) (3)
 - [web supply chain](#web-supply-chain) (1)
@@ -2492,7 +2516,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [webshell](#webshell) (1)
 - [webshells](#webshells) (1)
 - [website-compromise](#website-compromise) (1)
-- [WebSocket](#websocket) (1)
+- [WebSocket](#websocket) (2)
 - [WebSocket C2](#websocket-c2) (7)
 - [websocket-sharp](#websocket-sharp) (1)
 - [WebView](#webview) (1)
@@ -2568,7 +2592,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zephyr RTOS](#zephyr-rtos) (1)
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
-- [zero-day](#zero-day) (4)
+- [zero-day](#zero-day) (5)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [ZeroBEC](#zerobec) (1)
 - [Zimperium](#zimperium) (2)
@@ -2721,6 +2745,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## active probing
@@ -2739,6 +2764,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## actor
 - [Mustang Panda](../actors/mustang-panda.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+- [UAC-0145](../actors/uac-0145.md)
 - [UNC3753](../actors/unc3753.md)
 - [Velvet Ant](../actors/velvet-ant.md)
 
@@ -3059,6 +3085,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## Android Accessibility Service
 - [RedWing](../tools/redwing.md)
@@ -3185,6 +3213,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## APT43
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
+## APT44
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## APT45
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -3493,6 +3525,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## behavioral integrity verification
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+
+## Behinder
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## Belarus
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -4153,6 +4188,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TELEPUZ](../tools/telepuz.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAT-11795](../actors/uat-11795.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 
@@ -4432,6 +4469,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## compromised infrastructure
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
+## compromised websites
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
+
 ## compromised WordPress
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
@@ -4524,6 +4565,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## COW
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
+## COWARDDUCK
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## CPaaS
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
@@ -4618,6 +4662,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Umbrij](../tools/umbrij.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
@@ -4934,6 +4979,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-12958
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+
+## CVE-2026-15409
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
+
+## CVE-2026-15410
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## CVE-2026-20127
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -5387,6 +5438,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## destructive operations
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+- [UAC-0145](../actors/uac-0145.md)
 
 ## detection engineering
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
@@ -5714,6 +5766,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## edge appliances
 - [VerdantBamboo](../actors/verdantbamboo.md)
@@ -5931,6 +5984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Turla](../actors/turla.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
+- [UAC-0145](../actors/uac-0145.md)
 - [UNC6508](../actors/unc6508.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [Velvet Ant](../actors/velvet-ant.md)
@@ -5944,9 +5998,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ESXi
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## Ethereum
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
+
 ## EtherHiding
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## ETW bypass
 - [TELEPUZ](../tools/telepuz.md)
@@ -6070,6 +6129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## fake certificate
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -6267,6 +6327,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## flow execution
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 
+## FLUIDLEECH
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
+
 ## Flutter
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
@@ -6318,6 +6381,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fraud
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
+
+## FREAKYPOLL
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## FreeBSD
 - [VerdantBamboo](../actors/verdantbamboo.md)
@@ -6401,6 +6467,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GentleKiller
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## GHETTOVIBE
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## Ghost
 - [MODBEACON](../tools/modbeacon.md)
@@ -6709,6 +6778,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## group
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+- [UAC-0145](../actors/uac-0145.md)
 - [Velvet Ant](../actors/velvet-ant.md)
 
 ## groups
@@ -6733,6 +6803,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## gRPC C2
 - [MODBEACON](../tools/modbeacon.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
+
+## GRU
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## gs-netcat
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
@@ -7478,6 +7552,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## KnowledgeDeliver
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## KNUCKLEBALL
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
+
 ## KNX
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 
@@ -7767,6 +7844,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RustDuck](../tools/rustduck.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TaskWeaver](../tools/taskweaver.md)
+
+## LOADLOOP
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## local LLMs
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -9116,9 +9196,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
@@ -9347,12 +9429,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -9384,6 +9468,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Oracle WebLogic Server
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
+
+## ORANGETAIL
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## ORB network
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
@@ -9895,6 +9982,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -9974,6 +10062,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## Privileged Remote Access
@@ -10586,6 +10675,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
+## root access
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
+
 ## root escalation
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 
@@ -10598,6 +10690,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
+
+## ROOTRUN
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## ROPC
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -10677,6 +10772,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## Russia-linked
@@ -10771,6 +10868,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## sandboxing
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
+## Sandworm
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
+
 ## saroula01
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
@@ -10817,6 +10918,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## scoped package impersonation
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
+## SCOUTCURL
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
+
 ## screen capture
 - [MYRA RAT](../tools/myra-rat.md)
 - [TinyRCT](../tools/tinyrct.md)
@@ -10846,6 +10950,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## search result poisoning
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
+
+## Seashell Blizzard
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## Secret Blizzard
 - [STOCKSTAY](../tools/stockstay.md)
@@ -11054,6 +11162,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Signal
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## Signal interception
 - [Turla](../actors/turla.md)
@@ -11128,12 +11238,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SMA1000
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## smart building
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 
 ## smart TVs
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
+## SMARTAXE
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## SmartScreen
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
@@ -11273,6 +11387,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SonicWall
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## Sophos
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -11429,6 +11544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## stack use-after-free
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
@@ -11549,6 +11665,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [STOCKSTAY](../tools/stockstay.md)
 - [Turla](../actors/turla.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
+
+## Suo5
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## Supabase
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
@@ -12175,6 +12294,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UAC bypass
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
+## UAC-0002
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
+
 ## UAC-0010
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
@@ -12182,6 +12305,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UAC-0098
 - [GREYVIBE](../actors/greyvibe.md)
+
+## UAC-0145
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## UAC-0194
 - [STOCKSTAY](../tools/stockstay.md)
@@ -12228,6 +12355,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Showboat](../tools/showboat.md)
+- [UAC-0145](../actors/uac-0145.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## Ukraine targeting
@@ -12363,6 +12492,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UTA0355
 - [ROADtools](../tools/roadtools.md)
 
+## UTA0533
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
+
 ## UTG-Q-1000
 - [MODBEACON](../tools/modbeacon.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
@@ -12401,6 +12533,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## VEIL#DROP
@@ -12514,6 +12647,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [First VPN](../tools/first-vpn.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
 ## VPN credentials
@@ -12692,6 +12826,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [UNC6508](../actors/unc6508.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## web shell hunting
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
@@ -12736,6 +12871,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WebSocket
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## WebSocket C2
 - [Cavern](../tools/cavern.md)
@@ -13050,6 +13186,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+- [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## zero-reputation infrastructure
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
