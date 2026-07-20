@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Hugging Face autonomous-agent production intrusion</title>
+      <link>https://threat.wiki/ops/hugging-face-autonomous-agent-production-intrusion/</link>
+      <description>Added Hugging Face's first-party disclosure of a production intrusion initiated through malicious-dataset processing. A remote-code loader and dataset-configuration template injection led from worker execution to node access, cloud and cluster credential harvesting, and lateral movement across internal clusters. The vendor attributes more than 17,000 logged actions to an autonomous agent framework but did not name the framework, model, actor, CVEs, or IOCs. Coverage distinguishes confirmed internal dataset and credential access from the vendor's finding of no public model, dataset, Space, container-image, or package tampering, and provides dataset-sandboxing, workload-identity, egress, telemetry, token-response, and forensic guidance.</description>
+      <pubDate>Mon, 20 Jul 2026 07:26:03 GMT</pubDate>
+      <guid>https://threat.wiki/ops/hugging-face-autonomous-agent-production-intrusion/</guid>
+    </item>
+    <item>
       <title>NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk</title>
       <link>https://threat.wiki/ops/nginx-cve-2026-42533-capture-clobbering-rce/</link>
       <description>Added NGINX, F5, and researcher coverage of CVE-2026-42533, a configuration-dependent heap overflow caused by regex map evaluation clobbering capture state between NGINX script-engine sizing and writing passes. The page captures the 15-year affected range, fixed 1.30.4 and 1.31.3 builds, worker-crash and RCE risk, the researcher's ASLR-bypass memory-disclosure claim, vulnerable directive patterns, temporary named-capture mitigation, and an explicit caveat that no confirmed exploitation of this CVE was identified.</description>

@@ -72,14 +72,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agentic browsers](#agentic-browsers) (1)
 - [agentic malware](#agentic-malware) (1)
 - [agentic ransomware](#agentic-ransomware) (1)
-- [agentic threat actor](#agentic-threat-actor) (1)
+- [agentic threat actor](#agentic-threat-actor) (2)
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (5)
 - [AI agent](#ai-agent) (1)
 - [AI agents](#ai-agents) (15)
 - [AI anti-analysis](#ai-anti-analysis) (1)
-- [AI application infrastructure](#ai-application-infrastructure) (1)
+- [AI application infrastructure](#ai-application-infrastructure) (2)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
 - [AI assistants](#ai-assistants) (4)
 - [AI brand impersonation](#ai-brand-impersonation) (2)
@@ -105,7 +105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-assisted malware development](#ai-assisted-malware-development) (3)
 - [AI-assisted phishing](#ai-assisted-phishing) (1)
 - [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
-- [AI-augmented operations](#ai-augmented-operations) (1)
+- [AI-augmented operations](#ai-augmented-operations) (2)
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AI-generated narrator](#ai-generated-narrator) (1)
 - [Aider](#aider) (1)
@@ -206,7 +206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AutoGen Studio](#autogen-studio) (1)
 - [AutoHotKey](#autohotkey) (1)
 - [AutoJack](#autojack) (1)
-- [autonomous agents](#autonomous-agents) (1)
+- [autonomous agents](#autonomous-agents) (2)
 - [autonomous scanning](#autonomous-scanning) (1)
 - [Avalon](#avalon) (2)
 - [AWS](#aws) (4)
@@ -416,7 +416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud C2](#cloud-c2) (1)
 - [cloud credential hunting](#cloud-credential-hunting) (1)
 - [cloud credential risk](#cloud-credential-risk) (1)
-- [cloud credential theft](#cloud-credential-theft) (6)
+- [cloud credential theft](#cloud-credential-theft) (7)
 - [cloud credentials](#cloud-credentials) (3)
 - [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
 - [Cloud Filter driver](#cloud-filter-driver) (1)
@@ -690,6 +690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data-exfiltration](#data-exfiltration) (1)
 - [database extortion](#database-extortion) (1)
 - [Datadog Security Labs](#datadog-security-labs) (1)
+- [dataset processing](#dataset-processing) (1)
 - [DAYLIGHT](#daylight) (1)
 - [DCloud](#dcloud) (1)
 - [DCloud Uni-App](#dcloud-uni-app) (1)
@@ -1131,7 +1132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HttpMalice](#httpmalice) (1)
 - [HTTPS C2](#https-c2) (1)
 - [HTTPSpy](#httpspy) (1)
-- [Hugging Face](#hugging-face) (2)
+- [Hugging Face](#hugging-face) (3)
 - [Hunt.io](#huntio) (4)
 - [Huntress](#huntress) (1)
 - [Hyadina](#hyadina) (1)
@@ -1165,7 +1166,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (21)
+- [incident response](#incident-response) (22)
 - [incident-response](#incident-response) (1)
 - [IndexedDB](#indexeddb) (1)
 - [India](#india) (3)
@@ -1286,7 +1287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KNX Protocol](#knx-protocol) (1)
 - [KongTuke](#kongtuke) (1)
 - [KORKERDS](#korkerds) (1)
-- [Kubernetes](#kubernetes) (3)
+- [Kubernetes](#kubernetes) (4)
 - [KV-botnet](#kv-botnet) (1)
 - [KVM](#kvm) (1)
 - [KVM escape](#kvm-escape) (1)
@@ -1304,7 +1305,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LapDogs](#lapdogs) (1)
 - [Laravel](#laravel) (2)
 - [Laravel deserialization](#laravel-deserialization) (1)
-- [lateral movement](#lateral-movement) (4)
+- [lateral movement](#lateral-movement) (5)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (2)
 - [LaunchAgent](#launchagent) (2)
@@ -1403,6 +1404,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer compromise](#maintainer-compromise) (3)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (2)
+- [malicious dataset](#malicious-dataset) (1)
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious packages](#malicious-packages) (1)
 - [malicious releases](#malicious-releases) (2)
@@ -1654,9 +1656,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (210)
+- [operations](#operations) (211)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (235)
+- [ops](#ops) (236)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1849,6 +1851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public exploit](#public-exploit) (3)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public sector](#public-sector) (2)
+- [public service abuse](#public-service-abuse) (1)
 - [pull requests](#pull-requests) (1)
 - [PUP](#pup) (1)
 - [PureLogs Stealer](#purelogs-stealer) (1)
@@ -1922,7 +1925,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access](#remote-access) (6)
 - [remote access trojan](#remote-access-trojan) (3)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (12)
+- [remote code execution](#remote-code-execution) (13)
 - [remote debugging](#remote-debugging) (2)
 - [remote monitoring and management](#remote-monitoring-and-management) (1)
 - [remote script injection](#remote-script-injection) (1)
@@ -2240,6 +2243,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (12)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (84)
+- [supply-chain integrity](#supply-chain-integrity) (1)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
 - [surveillance](#surveillance) (1)
 - [suspected China-aligned](#suspected-china-aligned) (1)
@@ -2303,6 +2307,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnet brute force](#telnet-brute-force) (2)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
+- [template injection](#template-injection) (1)
 - [tenant-project](#tenant-project) (1)
 - [TencShell](#tencshell) (1)
 - [Tenda](#tenda) (1)
@@ -2902,6 +2907,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## agentic threat actor
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## Agentjacking
@@ -2942,6 +2948,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
 ## AI application infrastructure
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
 ## AI assistant credentials
@@ -3046,6 +3053,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## AI-augmented operations
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## AI-generated malware
@@ -3402,6 +3410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
 ## autonomous agents
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
 ## autonomous scanning
@@ -4266,6 +4275,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud credential theft
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -5334,6 +5344,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Datadog Security Labs
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+
+## dataset processing
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## DAYLIGHT
 - [GREYVIBE](../actors/greyvibe.md)
@@ -7019,6 +7032,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Hugging Face
 - [forge-jsxy](../tools/forge-jsxy.md)
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 
 ## Hunt.io
@@ -7139,6 +7153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
@@ -7607,6 +7622,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Kubernetes
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 
 ## KV-botnet
@@ -7670,6 +7686,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## lateral movement
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -8046,6 +8063,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## maintainer-compromise
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
+
+## malicious dataset
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## malicious GPO
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
@@ -9121,6 +9141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
@@ -9341,6 +9362,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
@@ -10256,6 +10278,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## public service abuse
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
 ## pull requests
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 
@@ -10578,6 +10603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
@@ -11825,6 +11851,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## supply-chain integrity
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
 ## supply-chain-adjacent
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 
@@ -12051,6 +12080,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Temp Zagros
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## template injection
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## tenant-project
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
