@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Exposed WebDAV malware delivery lab and CURP campaign</title>
+      <link>https://threat.wiki/ops/exposed-webdav-malware-delivery-lab-curp-campaign/</link>
+      <description>Added Rapid7 intelligence from an exposed attacker server containing 1,048 artifacts across lure generation, filename-spoofing QA, WebDAV delivery, signed-binary execution tests, encrypted droppers, ClickFix pages, and operator notes. The page links the LLM-assisted Simba Service workflow to a Mexico-focused CURP search-ms campaign, distinguishes 59 candidate CVE-2025-33053-style working-directory tests from confirmed vulnerable paths, documents RTLO-disguised stealer and DlrtyGames PureRAT chains, preserves launch-event caveats, and provides WebClient, davclnt.dll, WebDAV, LOLBin, filename-spoofing, credential-response, and forensic guidance.</description>
+      <pubDate>Mon, 20 Jul 2026 19:29:53 GMT</pubDate>
+      <guid>https://threat.wiki/ops/exposed-webdav-malware-delivery-lab-curp-campaign/</guid>
+    </item>
+    <item>
       <title>HOLLOWGRAPH Microsoft 365 calendar C2 implant</title>
       <link>https://threat.wiki/tools/hollowgraph/</link>
       <description>Added Group-IB intelligence on HOLLOWGRAPH, a .NET NativeAOT espionage implant that uses a compromised Microsoft 365 mailbox calendar as a two-way dead drop. The page captures fixed May 13, 2050 events, Event ID and Boss ID subject patterns, File{n}.txt attachments, RSA-OAEP and AES-256-GCM payload protection, cloudlanecdn[.]com AAAA-record credential refresh, logAzure.txt evidence, at least 12 infected systems, targeted Israeli interest, high-confidence Cavern framework linkage, low-confidence Lyceum overlap, and Graph, Entra ID, Exchange, endpoint, DNS, and incident-response hunts.</description>

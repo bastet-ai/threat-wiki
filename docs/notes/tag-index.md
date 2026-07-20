@@ -99,7 +99,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI workflow](#ai-workflow) (1)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
-- [AI-assisted development](#ai-assisted-development) (1)
+- [AI-assisted development](#ai-assisted-development) (2)
 - [AI-assisted intrusion](#ai-assisted-intrusion) (1)
 - [AI-assisted malware](#ai-assisted-malware) (3)
 - [AI-assisted malware development](#ai-assisted-malware-development) (3)
@@ -401,7 +401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code](#claude-code) (5)
 - [Claude for Chrome](#claude-for-chrome) (1)
 - [Clever Cloud](#clever-cloud) (1)
-- [ClickFix](#clickfix) (16)
+- [ClickFix](#clickfix) (17)
 - [ClickOnce](#clickonce) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
 - [Cline](#cline) (1)
@@ -515,7 +515,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (3)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (50)
+- [credential theft](#credential-theft) (51)
 - [credential-theft](#credential-theft) (52)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -536,7 +536,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (12)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
-- [cryptocurrency theft](#cryptocurrency-theft) (8)
+- [cryptocurrency theft](#cryptocurrency-theft) (9)
 - [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (5)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (4)
 - [cryptojacking](#cryptojacking) (1)
@@ -544,6 +544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptomining](#cryptomining) (1)
 - [CSRF](#csrf) (1)
 - [Curious Serpens](#curious-serpens) (1)
+- [CURP](#curp) (1)
 - [Cursor](#cursor) (4)
 - [Curve25519](#curve25519) (1)
 - [custody APIs](#custody-apis) (1)
@@ -568,9 +569,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-42009](#cve-2024-42009) (1)
 - [CVE-2025-11371](#cve-2025-11371) (1)
 - [CVE-2025-11837](#cve-2025-11837) (1)
+- [CVE-2025-24054](#cve-2025-24054) (1)
 - [CVE-2025-2492](#cve-2025-2492) (1)
 - [CVE-2025-3248](#cve-2025-3248) (1)
 - [CVE-2025-32975](#cve-2025-32975) (1)
+- [CVE-2025-33053](#cve-2025-33053) (1)
 - [CVE-2025-34291](#cve-2025-34291) (1)
 - [CVE-2025-40947](#cve-2025-40947) (1)
 - [CVE-2025-40948](#cve-2025-40948) (1)
@@ -599,6 +602,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-20253](#cve-2026-20253) (1)
 - [CVE-2026-20262](#cve-2026-20262) (1)
 - [CVE-2026-20896](#cve-2026-20896) (1)
+- [CVE-2026-21513](#cve-2026-21513) (1)
 - [CVE-2026-23111](#cve-2026-23111) (1)
 - [CVE-2026-26980](#cve-2026-26980) (1)
 - [CVE-2026-2699](#cve-2026-2699) (1)
@@ -761,7 +765,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [disk wiping](#disk-wiping) (1)
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL side-loading](#dll-side-loading) (3)
-- [DLL sideloading](#dll-sideloading) (18)
+- [DLL sideloading](#dll-sideloading) (19)
 - [DNS C2](#dns-c2) (2)
 - [DNS dead drop](#dns-dead-drop) (1)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
@@ -1355,7 +1359,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [living-off-the-land binaries](#living-off-the-land-binaries) (1)
 - [LLM](#llm) (4)
 - [LLM security](#llm-security) (1)
-- [LLM-assisted malware](#llm-assisted-malware) (2)
+- [LLM-assisted malware](#llm-assisted-malware) (3)
 - [LLM-driven intrusion](#llm-driven-intrusion) (1)
 - [LLMjacking](#llmjacking) (1)
 - [LMS](#lms) (1)
@@ -1371,7 +1375,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [log poisoning](#log-poisoning) (1)
 - [logging](#logging) (1)
 - [login item persistence](#login-item-persistence) (1)
-- [LOLBins](#lolbins) (2)
+- [LOLBins](#lolbins) (3)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
 - [LONGLEASH](#longleash) (1)
@@ -1458,7 +1462,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MetaMask](#metamask) (1)
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexican banking fraud](#mexican-banking-fraud) (2)
-- [Mexico](#mexico) (2)
+- [Mexico](#mexico) (3)
 - [MFA bypass](#mfa-bypass) (8)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
@@ -1666,9 +1670,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (212)
+- [operations](#operations) (213)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (237)
+- [ops](#ops) (238)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1755,7 +1759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (20)
+- [phishing](#phishing) (21)
 - [phishing-as-a-service](#phishing-as-a-service) (4)
 - [PHP](#php) (2)
 - [PHP code execution](#php-code-execution) (1)
@@ -1826,7 +1830,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Privileged Remote Access](#privileged-remote-access) (1)
 - [process doppelgänging](#process-doppelganging) (1)
 - [process environment scraping](#process-environment-scraping) (1)
-- [process hollowing](#process-hollowing) (2)
+- [process hollowing](#process-hollowing) (3)
 - [process injection](#process-injection) (6)
 - [product lifecycle management](#product-lifecycle-management) (1)
 - [professional services](#professional-services) (1)
@@ -1865,6 +1869,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pull requests](#pull-requests) (1)
 - [PUP](#pup) (1)
 - [PureLogs Stealer](#purelogs-stealer) (1)
+- [PureRAT](#purerat) (1)
 - [pwn-request](#pwn-request) (1)
 - [PyArmor](#pyarmor) (3)
 - [PyInstaller](#pyinstaller) (1)
@@ -1894,6 +1899,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
 - [rapid exploitation](#rapid-exploitation) (2)
+- [Rapid7](#rapid7) (1)
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
 - [RAT](#rat) (30)
@@ -1992,6 +1998,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RSA-OAEP](#rsa-oaep) (1)
 - [RT-Thread](#rt-thread) (1)
 - [RTL819X](#rtl819x) (1)
+- [RTLO](#rtlo) (1)
 - [rtmutex](#rtmutex) (1)
 - [RubyGems](#rubygems) (3)
 - [Ruckus routers](#ruckus-routers) (1)
@@ -2050,6 +2057,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SD-WAN](#sd-wan) (1)
 - [search hijacking](#search-hijacking) (1)
 - [search result poisoning](#search-result-poisoning) (1)
+- [search-ms](#search-ms) (1)
 - [Seashell Blizzard](#seashell-blizzard) (2)
 - [Secret Blizzard](#secret-blizzard) (3)
 - [secret exposure](#secret-exposure) (1)
@@ -2537,7 +2545,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web supply chain](#web-supply-chain) (1)
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
-- [WebDAV](#webdav) (1)
+- [WebDAV](#webdav) (2)
 - [WebKit](#webkit) (1)
 - [WebLogic](#weblogic) (1)
 - [webmail](#webmail) (1)
@@ -2586,6 +2594,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WordPress](#wordpress) (6)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
+- [working-directory hijacking](#working-directory-hijacking) (1)
 - [workspace trust](#workspace-trust) (2)
 - [World Cup](#world-cup) (1)
 - [worm](#worm) (13)
@@ -3048,6 +3057,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI-assisted development
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## AI-assisted intrusion
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
@@ -4221,6 +4231,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -4679,6 +4690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
@@ -4849,6 +4861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## cryptocurrency theft
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
@@ -4886,6 +4899,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Curious Serpens
 - [ROADtools](../tools/roadtools.md)
+
+## CURP
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## Cursor
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
@@ -4963,6 +4979,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2025-11837
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
+## CVE-2025-24054
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
+
 ## CVE-2025-2492
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
@@ -4971,6 +4990,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2025-32975
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+
+## CVE-2025-33053
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## CVE-2025-34291
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -5058,6 +5080,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-20896
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+
+## CVE-2026-21513
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## CVE-2026-23111
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
@@ -5660,6 +5685,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [Cavern](../tools/cavern.md)
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [Mustang Panda](../actors/mustang-panda.md)
@@ -7905,6 +7931,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
 ## LLM-assisted malware
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
@@ -7972,6 +7999,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LOLBins
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## long-lived tokens
@@ -8328,6 +8356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SCMBANKER](../tools/scmbanker.md)
 
 ## Mexico
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
@@ -9181,6 +9210,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
@@ -9403,6 +9433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
@@ -9923,6 +9954,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Ghostwriter](../actors/ghostwriter.md)
@@ -10207,6 +10239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## process hollowing
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## process injection
@@ -10355,6 +10388,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PureLogs Stealer
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
+## PureRAT
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
+
 ## pwn-request
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
@@ -10479,6 +10515,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## rapid exploitation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+
+## Rapid7
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## RAR archives
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
@@ -10867,6 +10906,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RTL819X
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
+## RTLO
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
+
 ## rtmutex
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
@@ -11098,6 +11140,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## search result poisoning
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
+
+## search-ms
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## Seashell Blizzard
 - [UAC-0145](../actors/uac-0145.md)
@@ -13018,6 +13063,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WebDAV
 - [ACR Stealer](../tools/acr-stealer.md)
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## WebKit
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -13225,6 +13271,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## workflow backdoor
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
+
+## working-directory hijacking
+- [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## workspace trust
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
