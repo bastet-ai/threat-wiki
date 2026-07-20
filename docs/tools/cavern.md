@@ -81,6 +81,11 @@ Reported transport traits:
 - C2-bound HTTP verbs attach an `X-User-token` header containing the agent ID plus `00`.
 - Operator-driven `cget`, `cpost`, and `upload` verbs can fetch, post to, or upload files to arbitrary URLs outside the Cavern C2 path.
 
+### HOLLOWGRAPH Microsoft 365 calendar transport
+Group-IB documented [HOLLOWGRAPH](hollowgraph.md) on July 20, 2026 and links it to the Cavern framework with high confidence. The NativeAOT DLL preserves Cavern's `_;;_` / `_,_` command grammar and observed `003` debug self-command, but replaces the framework's direct HTTP / WebSocket path with application-only Microsoft Graph access to a compromised mailbox calendar.
+
+HOLLOWGRAPH retrieves encrypted tasking from `Event ID: <taskID>` events dated May 13, 2050 and exfiltrates encrypted files as `File{n}.txt` attachments on events renamed to `Boss{...}ID{...}`. A secondary AAAA-record channel under `cloudlanecdn[.]com` refreshes tenant, client, secret, and mailbox configuration stored in `logAzure.txt`. Group-IB identified at least 12 infected systems and focused Israeli interest, but does not attribute this operation to Cavern Manticore; its separate Lyceum overlap assessment is low confidence.
+
 ## Post-exploitation capabilities
 CPR recovered a shared command enum with 61 IDs. Confirmed capability areas include:
 
@@ -142,10 +147,12 @@ Selected hashes surfaced in CPR's article text:
 - Preserve RMM audit logs, dropped DLLs, `config.txt`, logs, proxy records, memory captures, and EDR module-load telemetry before eradication.
 
 ## Related pages
+- [HOLLOWGRAPH](hollowgraph.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [ROADtools](roadtools.md)
 
 ## Sources
+- Group-IB: [https://www.group-ib.com/blog/hollowgraph-microsoft-365/](https://www.group-ib.com/blog/hollowgraph-microsoft-365/)
 - Check Point Research: [https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/](https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/)
 - The Hacker News: [https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html](https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html)

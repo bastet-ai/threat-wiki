@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [HOLLOWGRAPH Microsoft 365 calendar C2 implant](tools/hollowgraph.md)
 - [Russian state IP-camera military-logistics espionage](ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [Hugging Face autonomous-agent production intrusion](ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
