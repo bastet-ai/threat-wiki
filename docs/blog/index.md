@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [HOLLOWGRAPH Microsoft 365 calendar C2 implant](../tools/hollowgraph.md)

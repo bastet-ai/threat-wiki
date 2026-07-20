@@ -33,7 +33,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (42)
+- [active exploitation](#active-exploitation) (43)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (2)
 - [active-exploitation](#active-exploitation) (1)
@@ -441,7 +441,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloudflared](#cloudflared) (1)
 - [CloudLinux](#cloudlinux) (1)
 - [cluster compromise](#cluster-compromise) (1)
-- [CMS](#cms) (6)
+- [CMS](#cms) (7)
 - [CMS exploitation](#cms-exploitation) (1)
 - [Cobalt Strike](#cobalt-strike) (6)
 - [code execution](#code-execution) (1)
@@ -665,6 +665,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-55255](#cve-2026-55255) (1)
 - [CVE-2026-56290](#cve-2026-56290) (1)
 - [CVE-2026-56291](#cve-2026-56291) (1)
+- [CVE-2026-60137](#cve-2026-60137) (1)
+- [CVE-2026-63030](#cve-2026-63030) (1)
 - [CVE-2026-6682](#cve-2026-6682) (1)
 - [CVE-2026-6683](#cve-2026-6683) (1)
 - [CVE-2026-6684](#cve-2026-6684) (1)
@@ -1420,6 +1422,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious dataset](#malicious-dataset) (1)
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious packages](#malicious-packages) (1)
+- [malicious plugin](#malicious-plugin) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (7)
@@ -1673,9 +1676,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (214)
+- [operations](#operations) (215)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (239)
+- [ops](#ops) (240)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1769,6 +1772,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PHP code injection](#php-code-injection) (1)
 - [PHP object injection](#php-object-injection) (1)
 - [PHP upload](#php-upload) (1)
+- [PHP web shell](#php-web-shell) (1)
 - [physical systems](#physical-systems) (1)
 - [physics](#physics) (1)
 - [PicassoLoader](#picassoloader) (1)
@@ -1944,7 +1948,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access](#remote-access) (6)
 - [remote access trojan](#remote-access-trojan) (3)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (13)
+- [remote code execution](#remote-code-execution) (14)
 - [remote debugging](#remote-debugging) (2)
 - [remote monitoring and management](#remote-monitoring-and-management) (1)
 - [remote script injection](#remote-script-injection) (1)
@@ -1963,6 +1967,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [repository poisoning](#repository-poisoning) (3)
 - [residential proxies](#residential-proxies) (1)
 - [residential proxy](#residential-proxy) (1)
+- [REST API](#rest-api) (1)
 - [REST C2](#rest-c2) (1)
 - [restart-triggered execution](#restart-triggered-execution) (1)
 - [reverse proxy](#reverse-proxy) (2)
@@ -2210,7 +2215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk](#splunk) (1)
 - [SprySOCKS](#sprysocks) (2)
 - [spyware](#spyware) (1)
-- [SQL injection](#sql-injection) (4)
+- [SQL injection](#sql-injection) (5)
 - [SQLite](#sqlite) (1)
 - [SQLite state](#sqlite-state) (1)
 - [SquareShell](#squareshell) (1)
@@ -2595,7 +2600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WLDR agent](#wldr-agent) (2)
 - [WM_COPYDATA IPC](#wm_copydata-ipc) (1)
 - [Woodgnat](#woodgnat) (1)
-- [WordPress](#wordpress) (6)
+- [WordPress](#wordpress) (7)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
 - [working-directory hijacking](#working-directory-hijacking) (1)
@@ -2604,6 +2609,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [worm](#worm) (13)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [WP-SHELLSTORM](#wp-shellstorm) (1)
+- [wp2shell](#wp2shell) (1)
 - [WScript](#wscript) (1)
 - [X-Secret](#x-secret) (1)
 - [X-WEBAUTH-USER](#x-webauth-user) (1)
@@ -2789,6 +2795,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## active probing
@@ -4415,6 +4422,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## CMS exploitation
@@ -5282,6 +5290,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-56291
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+
+## CVE-2026-60137
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
+
+## CVE-2026-63030
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
 ## CVE-2026-6682
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -8167,6 +8181,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malicious packages
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
+## malicious plugin
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
+
 ## malicious releases
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -9388,6 +9405,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -9631,6 +9649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -10017,6 +10036,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PHP upload
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+
+## PHP web shell
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
 ## physical systems
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
@@ -10742,6 +10764,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
 ## remote debugging
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
@@ -10801,6 +10824,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## residential proxy
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
+## REST API
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
 ## REST C2
 - [GREYVIBE](../actors/greyvibe.md)
@@ -11717,6 +11743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
 ## SQLite
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -13296,6 +13323,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
@@ -13335,6 +13363,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WP-SHELLSTORM
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
+
+## wp2shell
+- [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
 ## WScript
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)

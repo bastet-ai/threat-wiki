@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation</title>
+      <link>https://threat.wiki/ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation/</link>
+      <description>Added Wiz Research intelligence on active exploitation of the WordPress Core wp2shell pre-authentication RCE chain. The page captures affected and fixed versions, REST batch-route entry points, malicious-plugin and PHP-webshell persistence, admin access, user enumeration, wp-config targeting, HTTP and user-agent detection pivots, public addresses and hashes, and patch-plus-compromise-assessment guidance.</description>
+      <pubDate>Mon, 20 Jul 2026 23:34:50 GMT</pubDate>
+      <guid>https://threat.wiki/ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation/</guid>
+    </item>
+    <item>
       <title>FakeGit AgentBaiting and SmartLoader campaign</title>
       <link>https://threat.wiki/ops/fakegit-agentbaiting-smartloader-campaign/</link>
       <description>Added Island Security Research intelligence on roughly 7,600 malicious GitHub repositories created by about 6,600 profiles, including more than 800 fake AI Skills and MCP servers and more than 600 public-registry listings. The page documents AgentBaiting through Claude Code, Gemini, and ChatGPT discovery tests; SmartLoader delivery through ZIP archives, launcher scripts, renamed LuaJIT-style runtimes, and disguised Lua payloads; Polygon and GitHub dead-drop staging; StealC credential and session theft; representative hashes; and curated-catalog, sandboxing, endpoint-hunting, session-revocation, and developer-credential response guidance.</description>
