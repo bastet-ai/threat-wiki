@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk</title>
+      <link>https://threat.wiki/ops/nginx-cve-2026-42533-capture-clobbering-rce/</link>
+      <description>Added NGINX, F5, and researcher coverage of CVE-2026-42533, a configuration-dependent heap overflow caused by regex map evaluation clobbering capture state between NGINX script-engine sizing and writing passes. The page captures the 15-year affected range, fixed 1.30.4 and 1.31.3 builds, worker-crash and RCE risk, the researcher's ASLR-bypass memory-disclosure claim, vulnerable directive patterns, temporary named-capture mitigation, and an explicit caveat that no confirmed exploitation of this CVE was identified.</description>
+      <pubDate>Mon, 20 Jul 2026 05:25:28 GMT</pubDate>
+      <guid>https://threat.wiki/ops/nginx-cve-2026-42533-capture-clobbering-rce/</guid>
+    </item>
+    <item>
       <title>SleeperGem RubyGems maintainer-account compromise</title>
       <link>https://threat.wiki/ops/sleepergem-rubygems-maintainer-account-compromise/</link>
       <description>Added Aikido Security and StepSecurity coverage of SleeperGem, a coordinated RubyGems supply-chain attack targeting developer workstations through malicious git_credential_manager, Dendreo, and fastlane-plugin-run_tests_firebase_testlab releases. The page captures dormant maintainer-account compromise, CI-environment evasion, require-time execution, Forgejo payload staging, systemd and cron persistence, the setuid-shell privilege path, registry hashes, host artifacts, and credential-rotation guidance.</description>

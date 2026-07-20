@@ -180,6 +180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AryStinger](#arystinger) (1)
 - [AS32167](#as32167) (1)
 - [Asia targeting](#asia-targeting) (1)
+- [ASLR bypass](#aslr-bypass) (1)
 - [ASNs](#asns) (1)
 - [ASP.NET](#aspnet) (2)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
@@ -473,6 +474,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised websites](#compromised-websites) (2)
 - [compromised WordPress](#compromised-wordpress) (2)
 - [Conditional Access](#conditional-access) (1)
+- [configuration exposure](#configuration-exposure) (1)
 - [configuration theft](#configuration-theft) (1)
 - [confused deputy](#confused-deputy) (2)
 - [ConfuserEx](#confuserex) (2)
@@ -618,6 +620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-41091](#cve-2026-41091) (1)
 - [CVE-2026-41940](#cve-2026-41940) (1)
 - [CVE-2026-42271](#cve-2026-42271) (1)
+- [CVE-2026-42533](#cve-2026-42533) (1)
 - [CVE-2026-43074](#cve-2026-43074) (1)
 - [CVE-2026-43284](#cve-2026-43284) (1)
 - [CVE-2026-43499](#cve-2026-43499) (1)
@@ -712,7 +715,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
 - [delayed execution](#delayed-execution) (1)
-- [denial of service](#denial-of-service) (4)
+- [denial of service](#denial-of-service) (5)
 - [Deno](#deno) (2)
 - [dependency confusion](#dependency-confusion) (3)
 - [deployment_status](#deployment_status) (1)
@@ -880,6 +883,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [extension supply-chain](#extension-supply-chain) (2)
 - [external federation](#external-federation) (1)
 - [extortion](#extortion) (7)
+- [F5](#f5) (1)
 - [F5 BIG-IP](#f5-big-ip) (1)
 - [Factory-v3](#factory-v3) (1)
 - [fake app store](#fake-app-store) (1)
@@ -1092,6 +1096,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HavocKiller](#havockiller) (1)
 - [headless browser](#headless-browser) (2)
 - [healthcare](#healthcare) (2)
+- [heap buffer overflow](#heap-buffer-overflow) (1)
 - [HelloBackdoor](#hellobackdoor) (1)
 - [HelloCleaner](#hellocleaner) (1)
 - [HelloDoor](#hellodoor) (1)
@@ -1434,7 +1439,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mekotio](#mekotio) (1)
 - [memfd](#memfd) (1)
 - [memory corruption](#memory-corruption) (1)
-- [memory disclosure](#memory-disclosure) (1)
+- [memory disclosure](#memory-disclosure) (2)
 - [memory implant](#memory-implant) (1)
 - [memory overread](#memory-overread) (1)
 - [memory poisoning](#memory-poisoning) (1)
@@ -1567,6 +1572,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nextcloud](#nextcloud) (1)
 - [nf_tables](#nf_tables) (1)
 - [nftables](#nftables) (1)
+- [NGINX](#nginx) (1)
 - [Nginx](#nginx) (1)
 - [Nginx module](#nginx-module) (1)
 - [Ngrok C2](#ngrok-c2) (1)
@@ -1648,9 +1654,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (209)
+- [operations](#operations) (210)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (234)
+- [ops](#ops) (235)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1916,7 +1922,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access](#remote-access) (6)
 - [remote access trojan](#remote-access-trojan) (3)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (11)
+- [remote code execution](#remote-code-execution) (12)
 - [remote debugging](#remote-debugging) (2)
 - [remote monitoring and management](#remote-monitoring-and-management) (1)
 - [remote script injection](#remote-script-injection) (1)
@@ -1937,7 +1943,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [residential proxy](#residential-proxy) (1)
 - [REST C2](#rest-c2) (1)
 - [restart-triggered execution](#restart-triggered-execution) (1)
-- [reverse proxy](#reverse-proxy) (1)
+- [reverse proxy](#reverse-proxy) (2)
 - [reverse SSH tunneling](#reverse-ssh-tunneling) (2)
 - [reverse tunneling](#reverse-tunneling) (1)
 - [REVERSE_PROXY_TRUSTED_PROXIES](#reverse_proxy_trusted_proxies) (1)
@@ -2477,7 +2483,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VU#213560](#vu213560) (1)
 - [vulnerability](#vulnerability) (22)
 - [vulnerability exploitation](#vulnerability-exploitation) (1)
-- [vulnerability research](#vulnerability-research) (2)
+- [vulnerability research](#vulnerability-research) (3)
 - [vulnerability-research](#vulnerability-research) (1)
 - [vulnerable appliances](#vulnerable-appliances) (1)
 - [VXLAN](#vxlan) (1)
@@ -2505,6 +2511,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web management interface](#web-management-interface) (1)
 - [web proxy](#web-proxy) (1)
 - [web RCE](#web-rce) (1)
+- [web server](#web-server) (1)
 - [web shell](#web-shell) (8)
 - [web shell hunting](#web-shell-hunting) (1)
 - [web shells](#web-shells) (3)
@@ -3298,6 +3305,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Asia targeting
 - [ToddyCat](../actors/toddycat.md)
+
+## ASLR bypass
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 
 ## ASNs
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
@@ -4483,6 +4493,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Conditional Access
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 
+## configuration exposure
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+
 ## configuration theft
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
@@ -5083,6 +5096,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-42271
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 
+## CVE-2026-42533
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+
 ## CVE-2026-43074
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 
@@ -5416,6 +5432,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
 ## Deno
@@ -6122,6 +6139,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 - [UNC3753](../actors/unc3753.md)
+
+## F5
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 
 ## F5 BIG-IP
 - [Velvet Ant](../actors/velvet-ant.md)
@@ -6885,6 +6905,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## healthcare
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
+
+## heap buffer overflow
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 
 ## HelloBackdoor
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
@@ -8203,6 +8226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## memory disclosure
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 
 ## memory implant
 - [WLDR agent](../tools/wldr-agent.md)
@@ -8676,6 +8700,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## nftables
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 
+## NGINX
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+
 ## Nginx
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 
@@ -9142,6 +9169,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -9365,6 +9393,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
@@ -10552,6 +10581,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
@@ -10623,6 +10653,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## reverse proxy
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 
 ## reverse SSH tunneling
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
@@ -12745,6 +12776,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vulnerability research
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 
 ## vulnerability-research
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -12840,6 +12872,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web RCE
 - [RustDuck](../tools/rustduck.md)
+
+## web server
+- [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 
 ## web shell
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
