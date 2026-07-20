@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Russian state IP-camera military-logistics espionage</title>
+      <link>https://threat.wiki/ops/russian-state-ip-camera-military-logistics-espionage/</link>
+      <description>Added AIVD and MIVD intelligence on systematic Russian state access to internet-exposed IP cameras in Ukraine and EU/NATO states. Operators use image recognition to find military vehicles, cargo, transport routes, weapons deliveries, and Ukrainian personnel; the Dutch services link camera-derived locations in Ukraine to attempts to neutralise personnel and materiel. Coverage distinguishes the unnamed-service attribution from specific GRU campaigns and provides exposure, stream-access, network-segmentation, field-of-view, evidence-preservation, and incident-response guidance.</description>
+      <pubDate>Mon, 20 Jul 2026 13:26:01 GMT</pubDate>
+      <guid>https://threat.wiki/ops/russian-state-ip-camera-military-logistics-espionage/</guid>
+    </item>
+    <item>
       <title>Hugging Face autonomous-agent production intrusion</title>
       <link>https://threat.wiki/ops/hugging-face-autonomous-agent-production-intrusion/</link>
       <description>Added Hugging Face's first-party disclosure of a production intrusion initiated through malicious-dataset processing. A remote-code loader and dataset-configuration template injection led from worker execution to node access, cloud and cluster credential harvesting, and lateral movement across internal clusters. The vendor attributes more than 17,000 logged actions to an autonomous agent framework but did not name the framework, model, actor, CVEs, or IOCs. Coverage distinguishes confirmed internal dataset and credential access from the vendor's finding of no public model, dataset, Space, container-image, or package tampering, and provides dataset-sandboxing, workload-identity, egress, telemetry, token-response, and forensic guidance.</description>

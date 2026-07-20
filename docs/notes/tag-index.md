@@ -473,6 +473,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised infrastructure](#compromised-infrastructure) (1)
 - [compromised websites](#compromised-websites) (2)
 - [compromised WordPress](#compromised-wordpress) (2)
+- [computer vision](#computer-vision) (1)
 - [Conditional Access](#conditional-access) (1)
 - [configuration exposure](#configuration-exposure) (1)
 - [configuration theft](#configuration-theft) (1)
@@ -805,7 +806,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (3)
-- [edge devices](#edge-devices) (3)
+- [edge devices](#edge-devices) (4)
 - [edge exploitation](#edge-exploitation) (1)
 - [Edge extension](#edge-extension) (1)
 - [edge service](#edge-service) (2)
@@ -852,7 +853,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ERP](#erp) (1)
 - [eSentire TRU](#esentire-tru) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (47)
+- [espionage](#espionage) (48)
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESXi](#esxi) (1)
 - [Ethereum](#ethereum) (1)
@@ -863,6 +864,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Eurojust](#eurojust) (1)
 - [Europe](#europe) (3)
 - [Europe targeting](#europe-targeting) (1)
+- [European Union](#european-union) (1)
 - [Europol](#europol) (2)
 - [evasion](#evasion) (1)
 - [event log clearing](#event-log-clearing) (1)
@@ -1159,6 +1161,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IIOP](#iiop) (1)
 - [IIS](#iis) (1)
 - [IKEv1](#ikev1) (1)
+- [image recognition](#image-recognition) (1)
 - [iMessage](#imessage) (1)
 - [Impacket](#impacket) (2)
 - [impersonation](#impersonation) (1)
@@ -1199,8 +1202,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [investment scam](#investment-scam) (1)
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
-- [IoT](#iot) (3)
+- [IoT](#iot) (4)
 - [IoT botnet](#iot-botnet) (4)
+- [IP cameras](#ip-cameras) (1)
 - [IP-in-IP](#ip-in-ip) (1)
 - [IPFS](#ipfs) (1)
 - [IPsec](#ipsec) (1)
@@ -1483,6 +1487,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Middle East](#middle-east) (2)
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
+- [military logistics](#military-logistics) (1)
 - [military research](#military-research) (1)
 - [Mimikatz](#mimikatz) (5)
 - [Minecraft DDoS](#minecraft-ddos) (1)
@@ -1554,6 +1559,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [native addon](#native-addon) (1)
 - [native extension](#native-extension) (2)
 - [NativeAOT](#nativeaot) (2)
+- [NATO](#nato) (1)
 - [NATS](#nats) (1)
 - [NCSC-NL](#ncsc-nl) (1)
 - [Nebo](#nebo) (1)
@@ -1562,7 +1568,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Neo-reGeorg](#neo-regeorg) (1)
 - [nested virtualization](#nested-virtualization) (1)
 - [Neteller](#neteller) (1)
-- [Netherlands](#netherlands) (1)
+- [Netherlands](#netherlands) (2)
 - [NetNut](#netnut) (1)
 - [NetScaler](#netscaler) (2)
 - [NetScaler ADC](#netscaler-adc) (2)
@@ -1655,10 +1661,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational relay box](#operational-relay-box) (1)
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
+- [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (211)
+- [operations](#operations) (212)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (236)
+- [ops](#ops) (237)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1992,12 +1999,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [runtime execution](#runtime-execution) (2)
 - [runtime mutation](#runtime-mutation) (1)
 - [runZero](#runzero) (1)
-- [Russia](#russia) (11)
+- [Russia](#russia) (12)
 - [Russia-linked](#russia-linked) (3)
 - [Russia-linked cybercrime](#russia-linked-cybercrime) (1)
 - [Russia-nexus](#russia-nexus) (2)
 - [Russia-speaking operator](#russia-speaking-operator) (1)
 - [Russian Intelligence Services](#russian-intelligence-services) (1)
+- [Russian intelligence services](#russian-intelligence-services) (1)
 - [Russian-speaking ecosystem](#russian-speaking-ecosystem) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (8)
@@ -2210,7 +2218,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Starland RAT](#starland-rat) (3)
 - [Startup folder](#startup-folder) (1)
 - [Startup folder persistence](#startup-folder-persistence) (1)
-- [state-linked](#state-linked) (1)
+- [state-linked](#state-linked) (2)
 - [state-owned enterprise](#state-owned-enterprise) (1)
 - [Static Kitten](#static-kitten) (1)
 - [stdio](#stdio) (3)
@@ -2393,7 +2401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubuntu](#ubuntu) (1)
 - [Udev persistence](#udev-persistence) (1)
 - [UDP C2](#udp-c2) (1)
-- [Ukraine](#ukraine) (11)
+- [Ukraine](#ukraine) (12)
 - [Ukraine targeting](#ukraine-targeting) (3)
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
@@ -2507,6 +2515,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [watering hole](#watering-hole) (1)
 - [watering-hole](#watering-hole) (2)
 - [weak passwords](#weak-passwords) (1)
+- [weapons shipments](#weapons-shipments) (1)
 - [web application](#web-application) (4)
 - [web application compromise](#web-application-compromise) (1)
 - [web hosting](#web-hosting) (2)
@@ -4500,6 +4509,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
+## computer vision
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
+
 ## Conditional Access
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 
@@ -5821,6 +5833,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## edge devices
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## edge exploitation
@@ -6011,6 +6024,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -6064,6 +6078,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Europe targeting
 - [ToddyCat](../actors/toddycat.md)
+
+## European Union
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 
 ## Europol
 - [First VPN](../tools/first-vpn.md)
@@ -7122,6 +7139,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## IKEv1
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
+## image recognition
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
+
 ## iMessage
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
@@ -7308,12 +7328,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 
 ## IoT botnet
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [RustDuck](../tools/rustduck.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
+
+## IP cameras
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 
 ## IP-in-IP
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -8408,6 +8432,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Midnight Blizzard
 - [ROADtools](../tools/roadtools.md)
 
+## military logistics
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
+
 ## military research
 - [UNC6508](../actors/unc6508.md)
 
@@ -8657,6 +8684,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cavern](../tools/cavern.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
 
+## NATO
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
+
 ## NATS
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
@@ -8683,6 +8713,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Netherlands
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 
 ## NetNut
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -9058,6 +9089,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## operational resilience
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## operational security
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
+
 ## operational technology
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 
@@ -9226,6 +9260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
@@ -9459,6 +9494,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
@@ -10845,6 +10881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
@@ -10866,6 +10903,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Russian Intelligence Services
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+
+## Russian intelligence services
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 
 ## Russian-speaking ecosystem
 - [UAT-11795](../actors/uat-11795.md)
@@ -11647,6 +11687,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## state-linked
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 
 ## state-owned enterprise
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
@@ -12440,6 +12481,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghostwriter](../actors/ghostwriter.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [Showboat](../tools/showboat.md)
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
@@ -12873,6 +12915,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## weak passwords
 - [RustDuck](../tools/rustduck.md)
+
+## weapons shipments
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 
 ## web application
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)

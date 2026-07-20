@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
