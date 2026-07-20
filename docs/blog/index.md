@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [HOLLOWGRAPH Microsoft 365 calendar C2 implant](../tools/hollowgraph.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)

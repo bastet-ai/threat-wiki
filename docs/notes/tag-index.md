@@ -64,8 +64,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Afghanistan](#afghanistan) (3)
 - [agent frameworks](#agent-frameworks) (3)
 - [agent memory](#agent-memory) (1)
-- [agent skills](#agent-skills) (1)
+- [agent skills](#agent-skills) (2)
 - [agent state](#agent-state) (1)
+- [AgentBaiting](#agentbaiting) (1)
 - [agentic AI](#agentic-ai) (3)
 - [agentic botnets](#agentic-botnets) (1)
 - [agentic browser](#agentic-browser) (1)
@@ -77,7 +78,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (5)
 - [AI agent](#ai-agent) (1)
-- [AI agents](#ai-agents) (15)
+- [AI agents](#ai-agents) (16)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (2)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
@@ -266,7 +267,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Blackpoint Cyber](#blackpoint-cyber) (6)
 - [Bleacher Report](#bleacher-report) (1)
 - [blockchain C2](#blockchain-c2) (4)
-- [blockchain dead drop](#blockchain-dead-drop) (2)
+- [blockchain dead drop](#blockchain-dead-drop) (3)
 - [blockchain RPC](#blockchain-rpc) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [Blogger abuse](#blogger-abuse) (1)
@@ -515,7 +516,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (3)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (51)
+- [credential theft](#credential-theft) (52)
 - [credential-theft](#credential-theft) (52)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -738,7 +739,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer identity](#developer-identity) (1)
 - [developer machines](#developer-machines) (9)
 - [developer mode](#developer-mode) (1)
-- [developer targeting](#developer-targeting) (5)
+- [developer targeting](#developer-targeting) (6)
 - [developer tooling](#developer-tooling) (5)
 - [developer workstations](#developer-workstations) (3)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
@@ -909,6 +910,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake reputation](#fake-reputation) (1)
 - [fake update](#fake-update) (2)
 - [FakeCaptcha](#fakecaptcha) (1)
+- [FakeGit](#fakegit) (1)
 - [Fakeset](#fakeset) (1)
 - [faketivism](#faketivism) (1)
 - [FakeUpdates](#fakeupdates) (1)
@@ -1014,7 +1016,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Git](#git) (1)
 - [git.exe](#gitexe) (1)
 - [Gitea](#gitea) (1)
-- [GitHub](#github) (19)
+- [GitHub](#github) (20)
 - [GitHub abuse](#github-abuse) (3)
 - [GitHub Actions](#github-actions) (22)
 - [GitHub API](#github-api) (1)
@@ -1219,7 +1221,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Iran-nexus](#iran-nexus) (1)
 - [IronWorm](#ironworm) (1)
 - [ischhfd83](#ischhfd83) (1)
-- [Island Security Research](#island-security-research) (1)
+- [Island Security Research](#island-security-research) (2)
 - [ISO image](#iso-image) (1)
 - [Israel](#israel) (4)
 - [IT providers](#it-providers) (1)
@@ -1391,6 +1393,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LSHIY](#lshiy) (1)
 - [LSSC](#lssc) (1)
 - [Lua](#lua) (1)
+- [LuaJIT](#luajit) (1)
 - [Lumen](#lumen) (1)
 - [Lumen Black Lotus Labs](#lumen-black-lotus-labs) (1)
 - [Lumma Stealer](#lumma-stealer) (1)
@@ -1422,7 +1425,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malvertising](#malvertising) (7)
 - [malware](#malware) (44)
 - [malware analysis](#malware-analysis) (2)
-- [malware delivery](#malware-delivery) (4)
+- [malware delivery](#malware-delivery) (5)
 - [malware framework](#malware-framework) (2)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-as-a-service](#malware-as-a-service) (5)
@@ -1437,14 +1440,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mapbox](#mapbox) (2)
 - [marimo](#marimo) (1)
 - [MARKETMAKER](#marketmaker) (1)
-- [marketplace abuse](#marketplace-abuse) (1)
+- [marketplace abuse](#marketplace-abuse) (2)
 - [marketplace trust](#marketplace-trust) (1)
 - [Maven Central](#maven-central) (1)
 - [mawesome](#mawesome) (1)
 - [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (1)
 - [McMx](#mcmx) (1)
-- [MCP](#mcp) (8)
+- [MCP](#mcp) (9)
 - [MCP credentials](#mcp-credentials) (1)
 - [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
@@ -1520,7 +1523,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile malware](#mobile-malware) (2)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
 - [MODBEACON](#modbeacon) (2)
-- [Model Context Protocol](#model-context-protocol) (6)
+- [Model Context Protocol](#model-context-protocol) (7)
 - [model poisoning](#model-poisoning) (1)
 - [model-provider abuse](#model-provider-abuse) (1)
 - [ModeloRAT](#modelorat) (1)
@@ -1670,9 +1673,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (213)
+- [operations](#operations) (214)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (238)
+- [ops](#ops) (239)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1957,7 +1960,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [replication](#replication) (1)
 - [repo-server](#repo-server) (1)
 - [repository exfiltration](#repository-exfiltration) (1)
-- [repository poisoning](#repository-poisoning) (2)
+- [repository poisoning](#repository-poisoning) (3)
 - [residential proxies](#residential-proxies) (1)
 - [residential proxy](#residential-proxy) (1)
 - [REST C2](#rest-c2) (1)
@@ -2091,7 +2094,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session cookie theft](#session-cookie-theft) (2)
 - [session hijacking](#session-hijacking) (2)
 - [session secret exposure](#session-secret-exposure) (1)
-- [session theft](#session-theft) (1)
+- [session theft](#session-theft) (2)
 - [session token theft](#session-token-theft) (1)
 - [setuid](#setuid) (1)
 - [shadow copy deletion](#shadow-copy-deletion) (2)
@@ -2145,6 +2148,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [smart building](#smart-building) (1)
 - [smart TVs](#smart-tvs) (1)
 - [SMARTAXE](#smartaxe) (1)
+- [SmartLoader](#smartloader) (1)
 - [SmartScreen](#smartscreen) (1)
 - [SMB](#smb) (1)
 - [SMB brute force](#smb-brute-force) (1)
@@ -2158,7 +2162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sneaky 2FA](#sneaky-2fa) (1)
 - [SNOWLIGHT](#snowlight) (1)
 - [SocGholish](#socgholish) (1)
-- [social engineering](#social-engineering) (14)
+- [social engineering](#social-engineering) (15)
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (4)
 - [Socket Security](#socket-security) (3)
@@ -2235,7 +2239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [state-owned enterprise](#state-owned-enterprise) (1)
 - [Static Kitten](#static-kitten) (1)
 - [stdio](#stdio) (3)
-- [StealC](#stealc) (1)
+- [StealC](#stealc) (2)
 - [stealer](#stealer) (3)
 - [Steam profile dead drop](#steam-profile-dead-drop) (2)
 - [steganography](#steganography) (3)
@@ -2907,9 +2911,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## agent skills
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 
 ## agent state
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+
+## AgentBaiting
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 
 ## agentic AI
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
@@ -2958,6 +2966,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -3652,6 +3661,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## blockchain dead drop
 - [ACR Stealer](../tools/acr-stealer.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## blockchain RPC
@@ -4691,6 +4701,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
@@ -5565,6 +5576,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## developer targeting
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
@@ -6273,6 +6285,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FakeCaptcha
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
+## FakeGit
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+
 ## Fakeset
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -6622,6 +6637,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -7417,6 +7433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Island Security Research
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 
 ## ISO image
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -8050,6 +8067,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Lua
 - [Fast16](../tools/fast16.md)
 
+## LuaJIT
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+
 ## Lumen
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
@@ -8215,6 +8235,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malware delivery
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -8272,6 +8293,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## marketplace abuse
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 
 ## marketplace trust
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
@@ -8294,6 +8316,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MCP
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
@@ -8583,6 +8606,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Model Context Protocol
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
@@ -9212,6 +9236,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -9435,6 +9460,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -10768,6 +10794,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## repository poisoning
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 
 ## residential proxies
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -11261,6 +11288,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## session theft
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 
 ## session token theft
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -11445,6 +11473,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SMARTAXE
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
+## SmartLoader
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+
 ## SmartScreen
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
@@ -11493,6 +11524,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
@@ -11781,6 +11813,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## StealC
+- [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## stealer
