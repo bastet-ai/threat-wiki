@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>ENCFORGE AI-model ransomware and JADEPUFFER follow-up</title>
+      <link>https://threat.wiki/tools/encforge/</link>
+      <description>Added Sysdig intelligence on JADEPUFFER returning through Langflow CVE-2025-3248 to deploy ENCFORGE, a Go locker targeting AI models, vector indexes, and training data. Coverage includes Docker-socket host escape, encryption behavior, public hashes and infrastructure, recovery priorities, and container-runtime detections.</description>
+      <pubDate>Tue, 21 Jul 2026 09:28:21 GMT</pubDate>
+      <guid>https://threat.wiki/tools/encforge/</guid>
+    </item>
+    <item>
+      <title>ServiceNow AI Platform CVE-2026-6875 exploitation</title>
+      <link>https://threat.wiki/ops/servicenow-ai-platform-cve-2026-6875-exploitation/</link>
+      <description>Added public reporting on active exploitation of the ServiceNow AI Platform CVE-2026-6875 pre-authentication sandbox escape, with patch validation, behavior-based hunting, credential scoping, and incident-separation guidance.</description>
+      <pubDate>Tue, 21 Jul 2026 09:28:21 GMT</pubDate>
+      <guid>https://threat.wiki/ops/servicenow-ai-platform-cve-2026-6875-exploitation/</guid>
+    </item>
+    <item>
       <title>WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation</title>
       <link>https://threat.wiki/ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation/</link>
       <description>Added Wiz Research intelligence on active exploitation of the WordPress Core wp2shell pre-authentication RCE chain. The page captures affected and fixed versions, REST batch-route entry points, malicious-plugin and PHP-webshell persistence, admin access, user enumeration, wp-config targeting, HTTP and user-agent detection pivots, public addresses and hashes, and patch-plus-compromise-assessment guidance.</description>

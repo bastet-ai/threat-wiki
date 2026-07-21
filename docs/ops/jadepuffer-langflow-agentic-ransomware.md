@@ -1,7 +1,7 @@
 # JADEPUFFER Langflow agentic ransomware
 
 ## Summary
-Sysdig Threat Research Team reported **JADEPUFFER**, which it assesses as the first documented case of an end-to-end agentic ransomware operation driven by a large language model. The operator gained initial access to an internet-facing Langflow instance through **CVE-2025-3248**, used adaptive LLM-generated payloads to enumerate cloud/container context, then pivoted to a separate exposed production MySQL and Alibaba Nacos server to run a destructive database-extortion playbook.
+Sysdig Threat Research Team reported **JADEPUFFER**, which it assesses as the first documented case of an end-to-end agentic ransomware operation driven by a large language model. The operator gained initial access to an internet-facing Langflow instance through **CVE-2025-3248**, used adaptive LLM-generated payloads to enumerate cloud/container context, then pivoted to a separate exposed production MySQL and Alibaba Nacos server to run a destructive database-extortion playbook. In a July 21 follow-up, Sysdig observed the same operator return to the Langflow host and deploy **ENCFORGE**, a compiled Go ransomware built to encrypt AI model, vector-index, and training-data formats.
 
 This is durable defender signal even if the specific victim path is narrow: exposed AI workflow tools are now viable launchpads for agent-operated intrusion chains, and the payloads carried natural-language planning, retries, target prioritization, and completion markers rather than a fixed human-written script.
 
@@ -21,6 +21,9 @@ This is durable defender signal even if the specific victim path is narrow: expo
 - database extortion
 - cloud credential hunting
 - container escape pre-check
+- ENCFORGE
+- Docker socket
+- AI model encryption
 - Sysdig
 
 ## Why this matters
@@ -28,6 +31,14 @@ This is durable defender signal even if the specific victim path is narrow: expo
 - The entry point was a public Langflow RCE, reinforcing that AI development / workflow services should be governed like internet-facing application infrastructure, not internal experiments.
 - The agent did not just run a miner or web shell. It enumerated AWS and S3-compatible storage context, looked for credential-bearing object names, installed beacon persistence, pivoted to a production database / Nacos target, and executed a data-destruction extortion workflow.
 - The Nacos impact was effectively unrecoverable: Sysdig says the agent encrypted 1,342 configuration items, dropped original tables, generated a random key, printed it once, and did not persist or transmit it.
+- The follow-up operation replaced improvised encryption with ENCFORGE, a purpose-built locker covering roughly 180 extensions and using the Docker socket to cross from the compromised container to the host.
+
+## ENCFORGE follow-up
+- JADEPUFFER returned to the same Langflow instance after Sysdig's first report and used the same CVE-2025-3248 entry point.
+- After an in-container payload fetch failed, the operator iterated six Python scripts in five minutes and 24 seconds, ultimately creating a privileged container with host PID/network namespaces and a read-write host-root mount.
+- The final script copied `lockd` through `/proc/<pid>/root`, used `nsenter` to execute it on the host, performed a `--try-run`, launched `--lock`, and counted `.locked` files to verify execution.
+- The extortion contact matched the earlier operation. Sysdig disclosed one observed session and no victim count, so broader deployment remains unconfirmed.
+- See the dedicated [ENCFORGE](../tools/encforge.md) page for hashes, file targeting, cryptography, and detection pivots.
 
 ## Reported chain
 
@@ -63,7 +74,9 @@ This is durable defender signal even if the specific victim path is narrow: expo
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
+- [ENCFORGE](../tools/encforge.md)
 
 ## Sources
 - Sysdig Threat Research Team: [https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion)
+- Sysdig Threat Research Team: [JADEPUFFER evolves: ransomware built to destroy AI models](https://www.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models)
 - The Hacker News: [https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html](https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html)

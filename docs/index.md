@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [ENCFORGE AI-model ransomware and JADEPUFFER follow-up](tools/encforge.md)
+- [ServiceNow AI Platform CVE-2026-6875 exploitation](ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
