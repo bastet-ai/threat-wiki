@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Shai-Hulud-affected Jenkins to AWS Redshift breach chain</title>
+      <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-07-21-fortiguard-jenkins-redshift</link>
+      <description>Added FortiGuard Labs incident intelligence connecting a Shai-Hulud-affected Jenkins environment to external use of its AWS instance role, administrator-user creation, Aurora and Redshift control-plane changes, Secrets Manager enumeration, Redshift data collection, and S3, SSM, and SES staging. Coverage preserves the source's caveat that the evidence strongly supports, but does not definitively prove, a malicious package caused the cloud compromise, and adds public identity, network, IAM, STS, and CloudTrail hunting pivots.</description>
+      <pubDate>Tue, 21 Jul 2026 21:25:53 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-07-21-fortiguard-jenkins-redshift</guid>
+    </item>
+    <item>
       <title>Iran-linked threat landscape: access optionality and evidence quality</title>
       <link>https://threat.wiki/notes/iran-linked-threat-landscape-july-2026/</link>
       <description>Added SentinelLABS' July 21 midyear assessment of Iran-linked cyber activity. Coverage organizes public clusters by mission, explains access optionality across identity, cloud, RMM, and service-provider paths, treats persona operations as coercive infrastructure, provides an evidence ladder for OT impact claims, and prioritizes dependency-aware enterprise, incident-response, and industrial defenses.</description>

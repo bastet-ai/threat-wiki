@@ -57,6 +57,8 @@ Wiz CIRT's March 2026 incident-response reporting adds a useful view of what hap
 
 The same reporting observed GitHub PAT abuse for malicious workflow pull requests, workflow-log deletion, repository cloning at scale, ECS Exec / SSM-based command execution in running containers, and bulk exfiltration from S3, databases, Secrets Manager, and source repositories. Wiz characterized the activity as fast, high-volume, and not especially stealthy, with open-source tools, conspicuous resource names such as `pawn` or `massive-exfil`, Mullvad VPN exit nodes, and InterServer-hosted VPS infrastructure appearing in observed cases.
 
+FortiGuard Labs' June 26 report adds a victim-side consequence chain from a Shai-Hulud-affected Jenkins environment into AWS production data. The Jenkins instance role was used externally, an administrator user named `cloudops-monitor` was created, Aurora and Redshift network controls were changed, Secrets Manager and Redshift were queried at volume, and S3/SSM/SES paths were staged or used. FortiGuard correlated runner IMDS access and outbound traffic to `89.22.231[.]63:8080` with the later operator address and reported a confirmed warehouse breach. Attribution must remain bounded: FortiGuard says temporal, identity, and capability evidence strongly supports a Shai-Hulud link, but host forensics had not definitively tied a specific malicious package to the cloud session.
+
 ## Python toolkit / FIRESCALE fallback
 Hunt.io's June 2026 TeamPCP toolkit analysis fills in the post-delivery stage behind Mini Shai-Hulud-style npm and PyPI compromises. Hunt describes a 13-file Python second-stage toolkit with a hardcoded primary C2 at `83.142.209[.]194`, broad cloud/developer credential collection, persistence, optional destructive behavior, and multiple fallback exfiltration paths.
 
@@ -163,11 +165,13 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - CI runner processes reading `/proc/*/mem` for `Runner.Worker`, and outbound POST attempts to `scan.aquasecurtiy[.]org` / `45.148.10[.]212` in Trivy-related investigations
 - Release workflows on prerelease branches such as `next` that publish with valid npm OIDC provenance after an unreviewed direct push; pair provenance checks with branch-protection, commit-review, and release-environment controls.
 - Runtime package execution rather than install-script execution in supply-chain malware, especially Node.js packages that spawn detached hidden `node -e` children, download IPFS payloads such as `QmQobZSp1wRPrpSEQ56qnyq7ecZh5Bg5k1fnjt4SUwwHb9`, or drop NodeJS-looking files under user profile paths.
+- External use of CI instance-role credentials, especially followed by IAM user creation, administrator-policy attachment, Secrets Manager enumeration, datastore security-group changes, Redshift Data API use, or SSM command execution. FortiGuard's case pivots include `cloudops-monitor`, `exfil-s3-write`, `exfil-s3-full`, `exfil*` STS sessions, `185.204.1[.]225`, and `89.22.231[.]63:8080`.
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
 
 ## Sources
+- FortiGuard Labs Shai-Hulud-affected Jenkins to Redshift incident report: [https://www.fortinet.com/blog/threat-research/from-ci-cd-to-cloud-data-how-shai-hulud-persistence-leads-to-redshift-breach](https://www.fortinet.com/blog/threat-research/from-ci-cd-to-cloud-data-how-shai-hulud-persistence-leads-to-redshift-breach)
 - Aikido: [https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise](https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise)
 - Wiz: [https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack](https://www.wiz.io/blog/trivy-compromised-teampcp-supply-chain-attack)
 - Wiz TeamPCP post-compromise activity: [https://www.wiz.io/blog/tracking-teampcp-investigating-post-compromise-attacks-seen-in-the-wild](https://www.wiz.io/blog/tracking-teampcp-investigating-post-compromise-attacks-seen-in-the-wild)
