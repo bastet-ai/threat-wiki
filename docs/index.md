@@ -7,6 +7,9 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [C0XMO Gafgyt DD-WRT botnet](ops/c0xmo-gafgyt-dd-wrt-botnet.md)
+- [Langflow CVE-2026-0770 exploitation](ops/langflow-cve-2026-0770-exploitation.md)
+- [WordPress wp2shell: CISA KEV confirmation and emergency due dates](ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [ENCFORGE AI-model ransomware and JADEPUFFER follow-up](tools/encforge.md)
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)

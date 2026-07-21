@@ -7,6 +7,8 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - C0XMO Gafgyt DD-WRT botnet: ops/c0xmo-gafgyt-dd-wrt-botnet.md
+      - Langflow CVE-2026-0770 exploitation: ops/langflow-cve-2026-0770-exploitation.md
       - Newtonsoftt.Json.Net NuGet betting-rigging trojan: ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md
       - ServiceNow AI Platform CVE-2026-6875 exploitation: ops/servicenow-ai-platform-cve-2026-6875-exploitation.md
       - WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation: ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md

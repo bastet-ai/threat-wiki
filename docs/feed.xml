@@ -2,6 +2,27 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>C0XMO Gafgyt DD-WRT botnet</title>
+      <link>https://threat.wiki/ops/c0xmo-gafgyt-dd-wrt-botnet/</link>
+      <description>Added FortiGuard Labs and CISA KEV intelligence on C0XMO, a cross-architecture Gafgyt botnet exploiting DD-WRT CVE-2021-27137. Coverage includes UPnP SSDP exploitation, hidden-file and cron persistence, competitor removal, 19 DDoS methods, standalone Python scanning, Telnet/SSH/ADB and HTTP propagation, public infrastructure, and router incident-response guidance.</description>
+      <pubDate>Tue, 21 Jul 2026 15:30:37 GMT</pubDate>
+      <guid>https://threat.wiki/ops/c0xmo-gafgyt-dd-wrt-botnet/</guid>
+    </item>
+    <item>
+      <title>Langflow CVE-2026-0770 exploitation</title>
+      <link>https://threat.wiki/ops/langflow-cve-2026-0770-exploitation/</link>
+      <description>Added CISA KEV coverage of Langflow CVE-2026-0770, a pre-authentication exec_globals validation-path RCE fixed in version 1.9.0. The page captures the July 24 emergency due date, exposure triage, host and container hunts, credential scoping, rebuild guidance, and caveats around still-unpublished actor, payload, infrastructure, and victim details.</description>
+      <pubDate>Tue, 21 Jul 2026 15:30:37 GMT</pubDate>
+      <guid>https://threat.wiki/ops/langflow-cve-2026-0770-exploitation/</guid>
+    </item>
+    <item>
+      <title>WordPress wp2shell: CISA KEV confirmation and emergency due dates</title>
+      <link>https://threat.wiki/ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation/</link>
+      <description>Updated wp2shell coverage after CISA added CVE-2026-63030 and CVE-2026-60137 to KEV. CVE-2026-63030 is due July 24 and CVE-2026-60137 is due August 4; defenders should patch both applicable halves of the chain and triage previously exposed WordPress hosts for plugins, web shells, sessions, and stolen secrets.</description>
+      <pubDate>Tue, 21 Jul 2026 15:30:37 GMT</pubDate>
+      <guid>https://threat.wiki/ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation/#cisa-kev</guid>
+    </item>
+    <item>
       <title>ENCFORGE AI-model ransomware and JADEPUFFER follow-up</title>
       <link>https://threat.wiki/tools/encforge/</link>
       <description>Added Sysdig intelligence on JADEPUFFER returning through Langflow CVE-2025-3248 to deploy ENCFORGE, a Go locker targeting AI models, vector indexes, and training data. Coverage includes Docker-socket host escape, encryption behavior, public hashes and infrastructure, recovery priorities, and container-runtime detections.</description>
