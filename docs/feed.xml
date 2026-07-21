@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Iran-linked threat landscape: access optionality and evidence quality</title>
+      <link>https://threat.wiki/notes/iran-linked-threat-landscape-july-2026/</link>
+      <description>Added SentinelLABS' July 21 midyear assessment of Iran-linked cyber activity. Coverage organizes public clusters by mission, explains access optionality across identity, cloud, RMM, and service-provider paths, treats persona operations as coercive infrastructure, provides an evidence ladder for OT impact claims, and prioritizes dependency-aware enterprise, incident-response, and industrial defenses.</description>
+      <pubDate>Tue, 21 Jul 2026 17:28:32 GMT</pubDate>
+      <guid>https://threat.wiki/notes/iran-linked-threat-landscape-july-2026/</guid>
+    </item>
+    <item>
       <title>C0XMO Gafgyt DD-WRT botnet</title>
       <link>https://threat.wiki/ops/c0xmo-gafgyt-dd-wrt-botnet/</link>
       <description>Added FortiGuard Labs and CISA KEV intelligence on C0XMO, a cross-architecture Gafgyt botnet exploiting DD-WRT CVE-2021-27137. Coverage includes UPnP SSDP exploitation, hidden-file and cron persistence, competitor removal, 19 DDoS methods, standalone Python scanning, Telnet/SSH/ADB and HTTP propagation, public infrastructure, and router incident-response guidance.</description>

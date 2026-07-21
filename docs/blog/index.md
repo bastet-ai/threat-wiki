@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Iran-linked threat landscape: access optionality and evidence quality](../notes/iran-linked-threat-landscape-july-2026.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
 - [WordPress wp2shell: CISA KEV confirmation and emergency due dates](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)

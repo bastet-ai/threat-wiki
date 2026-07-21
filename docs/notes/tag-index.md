@@ -25,6 +25,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [access broker](#access-broker) (2)
 - [access brokers](#access-brokers) (1)
+- [access optionality](#access-optionality) (1)
 - [access token abuse](#access-token-abuse) (1)
 - [account lockout](#account-lockout) (1)
 - [account takeover](#account-takeover) (2)
@@ -158,6 +159,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT32](#apt32) (1)
 - [APT36](#apt36) (2)
 - [APT37](#apt37) (1)
+- [APT42](#apt42) (1)
 - [APT43](#apt43) (1)
 - [APT44](#apt44) (2)
 - [APT45](#apt45) (1)
@@ -339,7 +341,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
 - [Cav3rn](#cav3rn) (1)
 - [Cavern](#cavern) (2)
-- [Cavern Manticore](#cavern-manticore) (2)
+- [Cavern Manticore](#cavern-manticore) (3)
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
 - [CERT-In](#cert-in) (1)
@@ -420,6 +422,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloaking](#cloaking) (1)
 - [cloud](#cloud) (6)
 - [cloud C2](#cloud-c2) (2)
+- [cloud compromise](#cloud-compromise) (1)
 - [cloud credential hunting](#cloud-credential-hunting) (1)
 - [cloud credential risk](#cloud-credential-risk) (1)
 - [cloud credential theft](#cloud-credential-theft) (7)
@@ -693,6 +696,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-78](#cwe-78) (1)
 - [CWE-829](#cwe-829) (1)
 - [cyber-espionage](#cyber-espionage) (1)
+- [CyberAv3ngers](#cyberav3ngers) (1)
 - [cybercrime](#cybercrime) (13)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [Cython](#cython) (1)
@@ -740,7 +744,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (4)
 - [destructive malware](#destructive-malware) (3)
-- [destructive operations](#destructive-operations) (2)
+- [destructive operations](#destructive-operations) (3)
 - [detection engineering](#detection-engineering) (1)
 - [DEV-0206](#dev-0206) (1)
 - [developer credential theft](#developer-credential-theft) (2)
@@ -872,7 +876,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ERP](#erp) (1)
 - [eSentire TRU](#esentire-tru) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (49)
+- [espionage](#espionage) (50)
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESXi](#esxi) (1)
 - [Ethereum](#ethereum) (1)
@@ -889,6 +893,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [event log clearing](#event-log-clearing) (1)
 - [eventpoll](#eventpoll) (1)
 - [Everest Forms Pro](#everest-forms-pro) (1)
+- [evidence quality](#evidence-quality) (1)
 - [Evil Corp](#evil-corp) (1)
 - [EvilAI](#evilai) (1)
 - [Evilginx](#evilginx) (1)
@@ -1108,13 +1113,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GUE](#gue) (1)
 - [guest-to-host escape](#guest-to-host-escape) (1)
 - [Guildma](#guildma) (1)
-- [hack-and-leak](#hack-and-leak) (1)
+- [hack-and-leak](#hack-and-leak) (2)
 - [HackIndex](#hackindex) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
 - [Hades](#hades) (2)
 - [Hajime](#hajime) (1)
 - [hallucination](#hallucination) (1)
 - [HalluSquatting](#hallusquatting) (1)
+- [Handala](#handala) (1)
 - [HappyDoor](#happydoor) (1)
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
@@ -1172,12 +1178,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [iCagenda](#icagenda) (1)
 - [ICE](#ice) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
-- [ICS](#ics) (2)
+- [ICS](#ics) (3)
 - [IDE extension](#ide-extension) (1)
 - [IDE plugins](#ide-plugins) (1)
 - [ide.cfm](#idecfm) (1)
 - [identity](#identity) (3)
 - [identity attacks](#identity-attacks) (1)
+- [identity compromise](#identity-compromise) (1)
 - [identity infrastructure](#identity-infrastructure) (1)
 - [identity security](#identity-security) (1)
 - [identity-first intrusion](#identity-first-intrusion) (1)
@@ -1194,7 +1201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (22)
+- [incident response](#incident-response) (23)
 - [incident-response](#incident-response) (1)
 - [IndexedDB](#indexeddb) (1)
 - [India](#india) (3)
@@ -1234,8 +1241,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IPFS](#ipfs) (1)
 - [IPsec](#ipsec) (1)
 - [IPv6](#ipv6) (2)
-- [Iran](#iran) (7)
+- [Iran](#iran) (8)
 - [Iran-nexus](#iran-nexus) (1)
+- [IRGC](#irgc) (1)
 - [IronWorm](#ironworm) (1)
 - [ischhfd83](#ischhfd83) (1)
 - [Island Security Research](#island-security-research) (2)
@@ -1460,6 +1468,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MARKETMAKER](#marketmaker) (1)
 - [marketplace abuse](#marketplace-abuse) (2)
 - [marketplace trust](#marketplace-trust) (1)
+- [MarkiRAT](#markirat) (1)
 - [Maven Central](#maven-central) (1)
 - [mawesome](#mawesome) (1)
 - [Mbed](#mbed) (1)
@@ -1549,7 +1558,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ModHeader](#modheader) (1)
 - [modular malware](#modular-malware) (1)
 - [module-proxy](#module-proxy) (1)
-- [MOIS](#mois) (5)
+- [MOIS](#mois) (6)
 - [Monero](#monero) (2)
 - [Monero mining](#monero-mining) (1)
 - [Monster ransomware](#monster-ransomware) (1)
@@ -1566,7 +1575,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MSSQL](#mssql) (1)
 - [mTLS](#mtls) (1)
 - [Muck and Load](#muck-and-load) (1)
-- [MuddyWater](#muddywater) (3)
+- [MuddyWater](#muddywater) (4)
 - [multi-tenant cloud](#multi-tenant-cloud) (1)
 - [Mustang Panda](#mustang-panda) (2)
 - [Mustard Tempest](#mustard-tempest) (1)
@@ -1704,7 +1713,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ORANGETAIL](#orangetail) (1)
 - [ORB network](#orb-network) (1)
 - [OS command injection](#os-command-injection) (1)
-- [OT](#ot) (2)
+- [OT](#ot) (3)
 - [OT switches](#ot-switches) (1)
 - [OTA update](#ota-update) (1)
 - [OTP interception](#otp-interception) (1)
@@ -1773,6 +1782,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Perplexity AI](#perplexity-ai) (1)
 - [persistence](#persistence) (26)
 - [persistent root access](#persistent-root-access) (1)
+- [persona operations](#persona-operations) (1)
 - [personal access tokens](#personal-access-tokens) (1)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (2)
@@ -1996,7 +2006,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rilide](#rilide) (1)
 - [RingH23](#ringh23) (1)
 - [RMM](#rmm) (3)
-- [RMM abuse](#rmm-abuse) (8)
+- [RMM abuse](#rmm-abuse) (9)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
@@ -2078,6 +2088,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SCOUTCURL](#scoutcurl) (1)
 - [screen capture](#screen-capture) (2)
 - [ScreenConnect](#screenconnect) (4)
+- [Screening Serpens](#screening-serpens) (1)
 - [screenshot capture](#screenshot-capture) (1)
 - [screenshot theft](#screenshot-theft) (3)
 - [script-injection](#script-injection) (1)
@@ -2095,7 +2106,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [security-tool discovery](#security-tool-discovery) (1)
 - [seed phrase theft](#seed-phrase-theft) (2)
 - [SeedHunter](#seedhunter) (1)
-- [Seedworm](#seedworm) (2)
+- [Seedworm](#seedworm) (3)
 - [segmented networks](#segmented-networks) (1)
 - [Sekoia](#sekoia) (1)
 - [self-delete](#self-delete) (1)
@@ -2113,6 +2124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Serv-U](#serv-u) (1)
 - [service accounts](#service-accounts) (1)
 - [service persistence](#service-persistence) (1)
+- [service providers](#service-providers) (1)
 - [service-agent](#service-agent) (1)
 - [ServiceNow](#servicenow) (2)
 - [ServiceNow AI Platform](#servicenow-ai-platform) (1)
@@ -2294,6 +2306,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (13)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (84)
+- [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
 - [surveillance](#surveillance) (1)
@@ -2321,6 +2334,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tag tampering](#tag-tampering) (4)
 - [TAG-124](#tag-124) (1)
 - [TAG-179](#tag-179) (1)
+- [TAG-182](#tag-182) (1)
 - [TAG-22](#tag-22) (2)
 - [Taiwan](#taiwan) (8)
 - [takedown](#takedown) (3)
@@ -2375,6 +2389,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ThemeREX Addons](#themerex-addons) (1)
 - [third-party integrations](#third-party-integrations) (1)
 - [threat hunting](#threat-hunting) (1)
+- [threat landscape](#threat-landscape) (1)
 - [ThrottleBlood](#throttleblood) (1)
 - [ThumbcacheService](#thumbcacheservice) (1)
 - [thumbnail generation](#thumbnail-generation) (1)
@@ -2530,6 +2545,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMware](#vmware) (2)
 - [VNC](#vnc) (2)
 - [VNT](#vnt) (2)
+- [Void Manticore](#void-manticore) (1)
 - [Volt Typhoon](#volt-typhoon) (1)
 - [VPN](#vpn) (6)
 - [VPN credentials](#vpn-credentials) (2)
@@ -2756,6 +2772,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## access brokers
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
+## access optionality
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## access token abuse
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
@@ -3314,6 +3333,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## APT37
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
+## APT42
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## APT43
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
@@ -3991,6 +4013,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cavern Manticore
 - [Cavern](../tools/cavern.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## CCleaner
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
@@ -4365,6 +4388,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud C2
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+
+## cloud compromise
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## cloud credential hunting
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
@@ -5417,6 +5443,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cyber-espionage
 - [Armored Likho](../actors/armored-likho.md)
 
+## CyberAv3ngers
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
+
 ## cybercrime
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [First VPN](../tools/first-vpn.md)
@@ -5620,6 +5649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## destructive operations
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [UAC-0145](../actors/uac-0145.md)
 
 ## detection engineering
@@ -6159,6 +6189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Mustang Panda](../actors/mustang-panda.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
@@ -6246,6 +6277,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Everest Forms Pro
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+
+## evidence quality
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## Evil Corp
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
@@ -7057,6 +7091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## hack-and-leak
 - [Handala](../actors/handala.md)
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## HackIndex
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
@@ -7076,6 +7111,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HalluSquatting
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
+
+## Handala
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## HappyDoor
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
@@ -7265,6 +7303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ICS
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 
 ## IDE extension
@@ -7283,6 +7322,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## identity attacks
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+
+## identity compromise
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## identity infrastructure
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -7344,6 +7386,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
@@ -7528,12 +7571,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cavern](../tools/cavern.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
 - [Handala](../actors/handala.md)
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Iran-nexus
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+
+## IRGC
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## IronWorm
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
@@ -8418,6 +8465,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## marketplace trust
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
+## MarkiRAT
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
+
 ## Maven Central
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -8758,6 +8808,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cavern](../tools/cavern.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
 - [Handala](../actors/handala.md)
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Monero
@@ -8817,6 +8868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MuddyWater
 - [Cavern Manticore](../actors/cavern-manticore.md)
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -9800,6 +9852,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OT
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 
 ## OT switches
@@ -10079,6 +10132,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## persistent root access
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+
+## persona operations
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## personal access tokens
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
@@ -10992,6 +11048,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cavern](../tools/cavern.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [TaskWeaver](../tools/taskweaver.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
@@ -11303,6 +11360,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
+## Screening Serpens
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
+
 ## screenshot capture
 - [LabubaRAT](../tools/labubarat.md)
 
@@ -11366,6 +11426,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Seedworm
 - [Cavern Manticore](../actors/cavern-manticore.md)
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## segmented networks
@@ -11423,6 +11484,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## service persistence
 - [TELEPUZ](../tools/telepuz.md)
+
+## service providers
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## service-agent
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
@@ -12170,6 +12234,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## supply-chain attribution
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
+
 ## supply-chain integrity
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
@@ -12255,6 +12322,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TAG-179
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
+
+## TAG-182
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## TAG-22
 - [FishMonger](../actors/fishmonger.md)
@@ -12464,6 +12534,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## threat hunting
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+
+## threat landscape
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## ThrottleBlood
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -13065,6 +13138,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VNT
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
+
+## Void Manticore
+- [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
 ## Volt Typhoon
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)

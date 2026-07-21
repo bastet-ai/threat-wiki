@@ -365,6 +365,7 @@ nav:
       - GitHub Actions deployment poisoning: patterns/deployment-poisoning-github-actions.md
       - Supply-chain group profile: patterns/supply-chain-actor-profile.md
   - Notes:
+      - Iran-linked threat landscape — access optionality and evidence quality: notes/iran-linked-threat-landscape-july-2026.md
       - How to use this wiki: notes/how-to-use.md
       - Tag index: notes/tag-index.md
       - Motivation taxonomy: notes/motivation-taxonomy.md
