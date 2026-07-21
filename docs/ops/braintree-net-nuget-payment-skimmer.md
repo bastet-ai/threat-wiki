@@ -77,6 +77,7 @@ Socket reports that each exfiltration path swallowed exceptions with empty `catc
 - Flag NuGet packages that combine official-project metadata with mismatched publisher identity, unusual version-line divergence from the official SDK, inflated download counts from placeholder releases, and realistic API-surface cloning.
 
 ## Related pages
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [Operation DangerousPassword axios npm compromise](operation-dangerouspassword-axios-npm-compromise.md)

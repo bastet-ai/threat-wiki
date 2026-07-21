@@ -3,7 +3,7 @@
 Generated from page-level `## Tags` sections. Each tag below links to the pages that currently use it.
 
 ## All tags
-- [.NET](#net) (7)
+- [.NET](#net) (8)
 - [.NET malware](#net-malware) (7)
 - [.pth](#pth) (1)
 - [/accessv2](#accessv2) (1)
@@ -695,7 +695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Czech Republic](#czech-republic) (1)
 - [D-Link](#d-link) (1)
 - [dangling resources](#dangling-resources) (1)
-- [data exfiltration](#data-exfiltration) (8)
+- [data exfiltration](#data-exfiltration) (9)
 - [data exposure](#data-exposure) (1)
 - [data extortion](#data-extortion) (2)
 - [data leak site](#data-leak-site) (2)
@@ -728,7 +728,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense targeting](#defense-targeting) (1)
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
-- [delayed execution](#delayed-execution) (1)
+- [delayed execution](#delayed-execution) (2)
 - [denial of service](#denial-of-service) (5)
 - [Deno](#deno) (2)
 - [dependency confusion](#dependency-confusion) (3)
@@ -951,7 +951,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [filename-injection](#filename-injection) (1)
 - [filesystem parser](#filesystem-parser) (1)
 - [finance](#finance) (2)
-- [financial fraud](#financial-fraud) (3)
+- [financial fraud](#financial-fraud) (4)
 - [financial sector](#financial-sector) (3)
 - [financial services](#financial-services) (3)
 - [financial theft](#financial-theft) (3)
@@ -999,6 +999,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [futex PI](#futex-pi) (1)
 - [Gamaredon](#gamaredon) (3)
 - [Gamaredon collaboration](#gamaredon-collaboration) (1)
+- [gambling](#gambling) (1)
 - [gambling industry targeting](#gambling-industry-targeting) (1)
 - [game cheats](#game-cheats) (1)
 - [GammaLoad](#gammaload) (1)
@@ -1110,6 +1111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HappyDoor](#happydoor) (1)
 - [HAR files](#har-files) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
+- [HarmonyLib](#harmonylib) (1)
 - [HashiCorp Vault](#hashicorp-vault) (1)
 - [HavocKiller](#havockiller) (1)
 - [headless browser](#headless-browser) (2)
@@ -1258,7 +1260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains Marketplace](#jetbrains-marketplace) (1)
 - [JetStream](#jetstream) (1)
 - [JFrog](#jfrog) (3)
-- [JFrog Security Research](#jfrog-security-research) (2)
+- [JFrog Security Research](#jfrog-security-research) (3)
 - [JINX-0164](#jinx-0164) (2)
 - [joblib](#joblib) (1)
 - [Joomla](#joomla) (3)
@@ -1627,7 +1629,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NTFS ADS](#ntfs-ads) (2)
 - [NTLM](#ntlm) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
-- [NuGet](#nuget) (3)
+- [NuGet](#nuget) (4)
 - [Nuitka](#nuitka) (1)
 - [null-byte padding](#null-byte-padding) (1)
 - [NVGRE](#nvgre) (1)
@@ -1685,7 +1687,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational technology](#operational-technology) (1)
 - [operations](#operations) (216)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (241)
+- [ops](#ops) (242)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1710,7 +1712,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [P2P](#p2p) (1)
 - [P2P C2](#p2p-c2) (1)
 - [package masquerading](#package-masquerading) (1)
-- [package registry](#package-registry) (7)
+- [package registry](#package-registry) (8)
 - [package registry abuse](#package-registry-abuse) (1)
 - [package registry credentials](#package-registry-credentials) (1)
 - [package scanning](#package-scanning) (1)
@@ -2024,6 +2026,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Runspace](#runspace) (1)
 - [runtime execution](#runtime-execution) (2)
 - [runtime mutation](#runtime-mutation) (1)
+- [runtime patching](#runtime-patching) (1)
 - [runZero](#runzero) (1)
 - [Russia](#russia) (12)
 - [Russia-linked](#russia-linked) (3)
@@ -2279,7 +2282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUMMIT](#summit) (3)
 - [Suo5](#suo5) (1)
 - [Supabase](#supabase) (1)
-- [supply chain](#supply-chain) (12)
+- [supply chain](#supply-chain) (13)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (84)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -2313,6 +2316,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Taiwan](#taiwan) (8)
 - [takedown](#takedown) (3)
 - [TamperedChef](#tamperedchef) (1)
+- [targeted malware](#targeted-malware) (1)
 - [targeted operations](#targeted-operations) (1)
 - [TartarusGate](#tartarusgate) (1)
 - [task queue](#task-queue) (1)
@@ -2416,7 +2420,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Twilio SendGrid](#twilio-sendgrid) (1)
 - [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (1)
-- [typosquatting](#typosquatting) (14)
+- [typosquatting](#typosquatting) (15)
 - [UAC](#uac) (1)
 - [UAC bypass](#uac-bypass) (1)
 - [UAC-0002](#uac-0002) (2)
@@ -2662,6 +2666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## .NET
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
@@ -5418,6 +5423,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## data exposure
@@ -5543,6 +5549,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## delayed execution
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 
 ## denial of service
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -6443,6 +6450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## financial fraud
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 
 ## financial sector
@@ -6602,6 +6610,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Gamaredon collaboration
 - [Turla](../actors/turla.md)
+
+## gambling
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 
 ## gambling industry targeting
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
@@ -7031,6 +7042,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## hard-coded secrets
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## HarmonyLib
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 
 ## HashiCorp Vault
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
@@ -7595,6 +7609,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JFrog Security Research
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
 ## JINX-0164
@@ -9046,6 +9061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NuGet
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
@@ -9600,6 +9616,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
@@ -9783,6 +9800,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -11046,6 +11064,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## runtime mutation
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
+## runtime patching
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
+
 ## runZero
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
@@ -11996,6 +12017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
@@ -12197,6 +12219,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TamperedChef
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+
+## targeted malware
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 
 ## targeted operations
 - [Fast16](../tools/fast16.md)
@@ -12610,6 +12635,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+- [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
