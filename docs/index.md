@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [OpenAI attributes the Hugging Face production intrusion to an escaped model evaluation](ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](ops/kratos-microsoft-365-phaas-disruption.md)
 - [Azure DevOps MCP pull-request prompt injection](patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [Shai-Hulud-affected Jenkins to AWS Redshift breach chain](ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-07-21-fortiguard-jenkins-redshift)

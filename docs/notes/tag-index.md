@@ -96,6 +96,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI gateway](#ai-gateway) (1)
 - [AI infrastructure](#ai-infrastructure) (1)
 - [AI model encryption](#ai-model-encryption) (1)
+- [AI model evaluation](#ai-model-evaluation) (1)
 - [AI Now Institute](#ai-now-institute) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI security](#ai-security) (1)
@@ -915,6 +916,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (15)
 - [exploitation attempts](#exploitation-attempts) (1)
+- [ExploitGym](#exploitgym) (1)
 - [exposed attacker infrastructure](#exposed-attacker-infrastructure) (1)
 - [extension supply-chain](#extension-supply-chain) (2)
 - [external federation](#external-federation) (1)
@@ -1103,6 +1105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [government targeting](#government-targeting) (12)
 - [government-impersonation](#government-impersonation) (1)
 - [GPT](#gpt) (1)
+- [GPT-5.6 Sol](#gpt-56-sol) (1)
 - [Gradio](#gradio) (1)
 - [Grandoreiro](#grandoreiro) (2)
 - [granular access tokens](#granular-access-tokens) (1)
@@ -1416,6 +1419,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [logging](#logging) (1)
 - [login item persistence](#login-item-persistence) (1)
 - [LOLBins](#lolbins) (3)
+- [long-horizon autonomy](#long-horizon-autonomy) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
 - [LONGLEASH](#longleash) (1)
@@ -1695,7 +1699,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [open directory](#open-directory) (1)
 - [Open Interpreter](#open-interpreter) (1)
 - [Open WebUI](#open-webui) (1)
-- [OpenAI](#openai) (1)
+- [OpenAI](#openai) (2)
 - [OpenAI Codex](#openai-codex) (1)
 - [OpenClaw](#openclaw) (1)
 - [opencode](#opencode) (1)
@@ -1745,6 +1749,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package registry](#package-registry) (8)
 - [package registry abuse](#package-registry-abuse) (1)
 - [package registry credentials](#package-registry-credentials) (1)
+- [package registry proxy](#package-registry-proxy) (1)
 - [package scanning](#package-scanning) (1)
 - [package-cooldowns](#package-cooldowns) (1)
 - [package-manager-hardening](#package-manager-hardening) (1)
@@ -1975,6 +1980,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Redis](#redis) (4)
 - [Redis backdoor](#redis-backdoor) (1)
 - [RediSearch](#redisearch) (1)
+- [reduced cyber refusals](#reduced-cyber-refusals) (1)
 - [RedWing](#redwing) (2)
 - [REF6045](#ref6045) (2)
 - [REF9403](#ref9403) (1)
@@ -2086,7 +2092,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Salesforce](#salesforce) (3)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
-- [sandbox escape](#sandbox-escape) (1)
+- [sandbox escape](#sandbox-escape) (2)
 - [sandbox evasion](#sandbox-evasion) (1)
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (2)
@@ -2703,6 +2709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
 - [zero-day](#zero-day) (5)
+- [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [ZeroBEC](#zerobec) (1)
 - [Zimperium](#zimperium) (2)
@@ -3114,6 +3121,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI model encryption
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+
+## AI model evaluation
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## AI Now Institute
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -6387,6 +6397,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## exploitation attempts
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
+## ExploitGym
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
 ## exposed attacker infrastructure
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
@@ -7064,6 +7077,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GPT
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## GPT-5.6 Sol
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## Gradio
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
@@ -8251,6 +8267,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
+## long-horizon autonomy
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
 ## long-lived tokens
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
@@ -9367,6 +9386,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 
 ## OpenAI
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
 ## OpenAI Codex
@@ -9991,6 +10011,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## package registry credentials
 - [Djinn Stealer](../tools/djinn-stealer.md)
+
+## package registry proxy
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## package scanning
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -10952,6 +10975,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RediSearch
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
+## reduced cyber refusals
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
 ## RedWing
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
@@ -11378,6 +11404,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## sandbox escape
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 
 ## sandbox evasion
@@ -13807,6 +13834,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
+
+## zero-day exploitation
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## zero-reputation infrastructure
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
