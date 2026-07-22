@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Kratos Microsoft 365 PhaaS and infrastructure disruption</title>
+      <link>https://threat.wiki/ops/kratos-microsoft-365-phaas-disruption/</link>
+      <description>Added BKA and ANY.RUN intelligence on the Kratos phishing-as-a-service disruption. Coverage captures the alleged developer's arrest, more than 200 disabled servers, 1,800 customers and roughly 15,000 monthly campaigns; Microsoft 365 credential-harvesting and reverse-proxy session theft; durable barr.svg/lg.svg and V2 asset pivots; compromised WordPress and shared-hosting caveats; and post-takedown identity, web-host, and evidence-preservation guidance.</description>
+      <pubDate>Wed, 22 Jul 2026 13:26:56 GMT</pubDate>
+      <guid>https://threat.wiki/ops/kratos-microsoft-365-phaas-disruption/</guid>
+    </item>
+    <item>
+      <title>Azure DevOps MCP pull-request prompt injection</title>
+      <link>https://threat.wiki/patterns/azure-devops-mcp-pr-prompt-injection/</link>
+      <description>Added Manifold Security's Azure DevOps MCP confused-deputy finding: hidden HTML comments in pull-request descriptions can steer a review agent using a more-privileged identity into cross-project pipeline, wiki, source, and output actions. Coverage documents the Copilot CLI and Claude Code proof of concept, inconsistent spotlighting in repo_get_pull_request_by_id, the no-CVE/no-public-fix status checked July 22, and least-privilege, tool-separation, raw-Markdown, audit-sequence, and incident-response controls.</description>
+      <pubDate>Wed, 22 Jul 2026 13:26:56 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/azure-devops-mcp-pr-prompt-injection/</guid>
+    </item>
+    <item>
       <title>Shai-Hulud-affected Jenkins to AWS Redshift breach chain</title>
       <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-07-21-fortiguard-jenkins-redshift</link>
       <description>Added FortiGuard Labs incident intelligence connecting a Shai-Hulud-affected Jenkins environment to external use of its AWS instance role, administrator-user creation, Aurora and Redshift control-plane changes, Secrets Manager enumeration, Redshift data collection, and S3, SSM, and SES staging. Coverage preserves the source's caveat that the evidence strongly supports, but does not definitively prove, a malicious package caused the cloud compromise, and adds public identity, network, IAM, STS, and CloudTrail hunting pivots.</description>

@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Kratos Microsoft 365 PhaaS and infrastructure disruption: ops/kratos-microsoft-365-phaas-disruption.md
       - C0XMO Gafgyt DD-WRT botnet: ops/c0xmo-gafgyt-dd-wrt-botnet.md
       - Langflow CVE-2026-0770 exploitation: ops/langflow-cve-2026-0770-exploitation.md
       - Newtonsoftt.Json.Net NuGet betting-rigging trojan: ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md
@@ -332,6 +333,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Azure DevOps MCP pull-request prompt injection: patterns/azure-devops-mcp-pr-prompt-injection.md
       - Cursor Windows workspace-path binary hijack: patterns/cursor-windows-workspace-path-binary-hijack.md
       - AI browser-extension confused deputy: patterns/ai-browser-extension-confused-deputy.md
       - GitHub API enumeration and access-token abuse: patterns/github-api-enumeration-token-abuse.md
