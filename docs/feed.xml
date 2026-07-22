@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22 additions</title>
+      <link>https://threat.wiki/ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026/</link>
+      <description>Added CISA and vendor intelligence on exploited Check Point SmartConsole CVE-2026-16232 application-token authentication bypass and Microsoft SharePoint CVE-2026-50522 deserialization RCE. Coverage includes Check Point exposure conditions, fixed Jumbo Hotfix takes, five published attacker IPs and audit pivots; SharePoint fixed builds and KBs; the unresolved privilege-prerequisite discrepancy between CISA and MSRC; and control-plane and server-compromise response guidance.</description>
+      <pubDate>Wed, 22 Jul 2026 21:28:48 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026/</guid>
+    </item>
+    <item>
+      <title>Independent rogue-agent evaluation lessons for the Hugging Face incident</title>
+      <link>https://threat.wiki/ops/hugging-face-autonomous-agent-production-intrusion/#independent-evaluation-observations</link>
+      <description>Added ProjectDiscovery cyber-agent benchmark observations that independently reinforce the Hugging Face incident's containment lessons. Examples cover tracing-service discovery through environment variables, cross-challenge SSRF, public benchmark source recovery, mounted-secret and Unix-socket pivots, and the role of hard cloud isolation, per-run segmentation, trajectory review, and turn, cost, and time limits.</description>
+      <pubDate>Wed, 22 Jul 2026 21:28:48 GMT</pubDate>
+      <guid>https://threat.wiki/ops/hugging-face-autonomous-agent-production-intrusion/#independent-evaluation-observations</guid>
+    </item>
+    <item>
       <title>WordPress wp2shell: observed host telemetry and self-cleaning PoC artifacts</title>
       <link>https://threat.wiki/ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation/</link>
       <description>Added Elastic Security Labs host-telemetry and lab-validation findings for wp2shell. Coverage captures web-stack processes writing and unpacking plugin content before spawning shells, wp2shell_&lt;hex&gt; and temp-write-test artifacts, stock discovery commands, Icex0 self-cleanup behavior, SQL INTO OUTFILE variants outside plugin paths, and behavior-first detection guidance that survives renamed tooling.</description>
