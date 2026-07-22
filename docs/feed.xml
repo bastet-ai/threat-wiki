@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>WordPress wp2shell: observed host telemetry and self-cleaning PoC artifacts</title>
+      <link>https://threat.wiki/ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation/</link>
+      <description>Added Elastic Security Labs host-telemetry and lab-validation findings for wp2shell. Coverage captures web-stack processes writing and unpacking plugin content before spawning shells, wp2shell_&lt;hex&gt; and temp-write-test artifacts, stock discovery commands, Icex0 self-cleanup behavior, SQL INTO OUTFILE variants outside plugin paths, and behavior-first detection guidance that survives renamed tooling.</description>
+      <pubDate>Wed, 22 Jul 2026 19:26:32 GMT</pubDate>
+      <guid>https://threat.wiki/ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation/#elastic-host-telemetry-follow-up</guid>
+    </item>
+    <item>
       <title>Windmill CVE-2026-29059 active exploitation</title>
       <link>https://threat.wiki/ops/windmill-cve-2026-29059-active-exploitation/</link>
       <description>Added Windmill, VulnCheck, and NVD intelligence on active attempts to exploit unauthenticated path traversal in Windmill's get_log_file endpoint. Coverage distinguishes default arbitrary file read from conditional SUPERADMIN_SECRET-to-superadmin code execution, captures direct and Nextcloud proxy-path targeting plus the roughly 170-system exposure estimate, and provides proxy, file-access, token-use, job-preview, credential-rotation, and rebuild guidance.</description>
