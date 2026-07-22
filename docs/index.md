@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22 additions](ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [Independent rogue-agent evaluation lessons for the Hugging Face incident](ops/hugging-face-autonomous-agent-production-intrusion.md#independent-evaluation-observations)
 - [WordPress wp2shell: observed host telemetry and self-cleaning PoC artifacts](ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md#elastic-host-telemetry-follow-up)

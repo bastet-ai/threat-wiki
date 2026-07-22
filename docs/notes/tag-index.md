@@ -13,6 +13,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [192.42.116.58](#1924211658) (1)
 - [3CX](#3cx) (1)
 - [404 TDS](#404-tds) (1)
+- [43.228.157.68](#4322815768) (1)
 - [4sync](#4sync) (1)
 - [@marketfront](#marketfront) (1)
 - [@tqm-mfe](#tqm-mfe) (1)
@@ -34,7 +35,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (48)
+- [active exploitation](#active-exploitation) (49)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (2)
 - [active-exploitation](#active-exploitation) (1)
@@ -206,7 +207,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [audit logging](#audit-logging) (1)
 - [AUR](#aur) (1)
 - [authenticated RCE](#authenticated-rce) (1)
-- [authentication bypass](#authentication-bypass) (14)
+- [authentication bypass](#authentication-bypass) (15)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -392,6 +393,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (2)
 - [CI/CD](#cicd) (36)
+- [CI/CD abuse](#cicd-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CISA](#cisa) (1)
 - [CISA KEV](#cisa-kev) (24)
@@ -433,7 +435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud compromise](#cloud-compromise) (1)
 - [cloud credential hunting](#cloud-credential-hunting) (1)
 - [cloud credential risk](#cloud-credential-risk) (1)
-- [cloud credential theft](#cloud-credential-theft) (7)
+- [cloud credential theft](#cloud-credential-theft) (8)
 - [cloud credentials](#cloud-credentials) (3)
 - [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
 - [Cloud Filter driver](#cloud-filter-driver) (1)
@@ -484,7 +486,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [commercial messaging applications](#commercial-messaging-applications) (1)
 - [commit farming](#commit-farming) (1)
 - [communications infrastructure](#communications-infrastructure) (1)
-- [Composer](#composer) (4)
+- [Composer](#composer) (5)
 - [compromised accounts](#compromised-accounts) (2)
 - [compromised credentials](#compromised-credentials) (1)
 - [compromised infrastructure](#compromised-infrastructure) (1)
@@ -521,7 +523,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COW](#cow) (1)
 - [COWARDDUCK](#cowardduck) (1)
 - [CPaaS](#cpaas) (1)
-- [cPanel](#cpanel) (3)
+- [cPanel](#cpanel) (4)
 - [cracked software](#cracked-software) (1)
 - [CrackMapExec](#crackmapexec) (1)
 - [CrashStealer](#crashstealer) (1)
@@ -529,7 +531,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential attacks](#credential-attacks) (3)
 - [credential dumping](#credential-dumping) (1)
 - [credential exposure](#credential-exposure) (3)
-- [credential harvesting](#credential-harvesting) (3)
+- [credential harvesting](#credential-harvesting) (4)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
 - [credential theft](#credential-theft) (53)
@@ -646,7 +648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-40141](#cve-2026-40141) (1)
 - [CVE-2026-4020](#cve-2026-4020) (1)
 - [CVE-2026-41091](#cve-2026-41091) (1)
-- [CVE-2026-41940](#cve-2026-41940) (1)
+- [CVE-2026-41940](#cve-2026-41940) (2)
 - [CVE-2026-42271](#cve-2026-42271) (1)
 - [CVE-2026-42533](#cve-2026-42533) (1)
 - [CVE-2026-43074](#cve-2026-43074) (1)
@@ -794,10 +796,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Discord](#discord) (2)
 - [discovery](#discovery) (1)
 - [disk wiping](#disk-wiping) (1)
+- [distributed scanning](#distributed-scanning) (1)
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL side-loading](#dll-side-loading) (3)
 - [DLL sideloading](#dll-sideloading) (19)
 - [DNS C2](#dns-c2) (2)
+- [DNS callback](#dns-callback) (1)
 - [DNS dead drop](#dns-dead-drop) (1)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (3)
@@ -1057,7 +1061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea](#gitea) (1)
 - [GitHub](#github) (20)
 - [GitHub abuse](#github-abuse) (3)
-- [GitHub Actions](#github-actions) (22)
+- [GitHub Actions](#github-actions) (23)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
 - [GitHub CLI](#github-cli) (1)
@@ -1068,6 +1072,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub Security Advisories](#github-security-advisories) (2)
 - [GitHub tokens](#github-tokens) (2)
+- [GitHub-hosted runners](#github-hosted-runners) (1)
 - [GitLab](#gitlab) (1)
 - [gitleaks](#gitleaks) (1)
 - [GitOps](#gitops) (1)
@@ -1222,7 +1227,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (23)
+- [incident response](#incident-response) (24)
 - [incident-response](#incident-response) (1)
 - [IndexedDB](#indexeddb) (1)
 - [India](#india) (3)
@@ -1728,9 +1733,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (221)
+- [operations](#operations) (222)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (247)
+- [ops](#ops) (248)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1764,7 +1769,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package-manager-hardening](#package-manager-hardening) (1)
 - [package-splitting](#package-splitting) (1)
 - [package-takeover](#package-takeover) (1)
-- [Packagist](#packagist) (4)
+- [Packagist](#packagist) (5)
 - [Page Builder CK](#page-builder-ck) (1)
 - [page cache](#page-cache) (2)
 - [page poisoning](#page-poisoning) (1)
@@ -2021,6 +2026,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rentry](#rentry) (1)
 - [replication](#replication) (1)
 - [repo-server](#repo-server) (1)
+- [repository compromise](#repository-compromise) (1)
 - [repository exfiltration](#repository-exfiltration) (1)
 - [repository poisoning](#repository-poisoning) (3)
 - [residential proxies](#residential-proxies) (1)
@@ -2260,6 +2266,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [source control](#source-control) (2)
 - [source repository compromise](#source-repository-compromise) (1)
 - [source-code compromise](#source-code-compromise) (1)
+- [source-control token theft](#source-control-token-theft) (1)
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (1)
 - [source-repository poisoning](#source-repository-poisoning) (5)
@@ -2338,7 +2345,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suo5](#suo5) (1)
 - [Supabase](#supabase) (1)
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
-- [supply chain](#supply-chain) (13)
+- [supply chain](#supply-chain) (14)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (84)
 - [supply-chain attribution](#supply-chain-attribution) (1)
@@ -2651,7 +2658,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Werkbit](#werkbit) (1)
 - [WhatsApp](#whatsapp) (3)
 - [WhatsApp phishing](#whatsapp-phishing) (1)
-- [WHM](#whm) (3)
+- [WHM](#whm) (4)
 - [Widget Factory](#widget-factory) (1)
 - [wiki](#wiki) (1)
 - [WILDDAY](#wildday) (2)
@@ -2775,6 +2782,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## 404 TDS
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 
+## 43.228.157.68
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+
 ## 4sync
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -2857,6 +2867,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
@@ -3539,6 +3550,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
@@ -4285,6 +4297,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
+## CI/CD abuse
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+
 ## CircleCI
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
@@ -4475,6 +4490,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud credential theft
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
@@ -4681,6 +4697,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Composer
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
@@ -4809,6 +4826,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
 ## cPanel
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -4839,6 +4857,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## credential harvesting
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [UNC6508](../actors/unc6508.md)
@@ -5344,6 +5363,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 
 ## CVE-2026-41940
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## CVE-2026-42271
@@ -5898,6 +5918,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## disk wiping
 - [GigaWiper](../tools/gigawiper.md)
 
+## distributed scanning
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+
 ## Djinn Stealer
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
@@ -5932,6 +5955,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DNS C2
 - [OP-512](../actors/op-512.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
+
+## DNS callback
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 
 ## DNS dead drop
 - [TELEPUZ](../tools/telepuz.md)
@@ -6911,6 +6937,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -6958,6 +6985,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub tokens
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+
+## GitHub-hosted runners
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 
 ## GitLab
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
@@ -7502,6 +7532,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -9573,6 +9604,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
@@ -9805,6 +9837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
@@ -10086,6 +10119,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Packagist
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
@@ -11158,6 +11192,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## repo-server
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 
+## repository compromise
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+
 ## repository exfiltration
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 
@@ -12036,6 +12073,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## source-code compromise
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 
+## source-control token theft
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+
 ## source-package drift
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
@@ -12321,6 +12361,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
@@ -13610,6 +13651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## WHM
+- [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
