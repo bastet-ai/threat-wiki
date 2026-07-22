@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Windmill CVE-2026-29059 active exploitation](ops/windmill-cve-2026-29059-active-exploitation.md)
 - [OpenAI attributes the Hugging Face production intrusion to an escaped model evaluation](ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](ops/kratos-microsoft-365-phaas-disruption.md)
 - [Azure DevOps MCP pull-request prompt injection](patterns/azure-devops-mcp-pr-prompt-injection.md)

@@ -34,7 +34,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (46)
+- [active exploitation](#active-exploitation) (47)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (2)
 - [active-exploitation](#active-exploitation) (1)
@@ -172,7 +172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AquilaRAT](#aquilarat) (1)
 - [arbitrary code execution](#arbitrary-code-execution) (1)
 - [arbitrary file disclosure](#arbitrary-file-disclosure) (1)
-- [arbitrary file read](#arbitrary-file-read) (1)
+- [arbitrary file read](#arbitrary-file-read) (2)
 - [arbitrary file upload](#arbitrary-file-upload) (1)
 - [arbitrary file write](#arbitrary-file-write) (3)
 - [arbitrary JavaScript](#arbitrary-javascript) (1)
@@ -627,6 +627,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-2699](#cve-2026-2699) (1)
 - [CVE-2026-2701](#cve-2026-2701) (1)
 - [CVE-2026-28318](#cve-2026-28318) (1)
+- [CVE-2026-29059](#cve-2026-29059) (1)
 - [CVE-2026-3300](#cve-2026-3300) (1)
 - [CVE-2026-33017](#cve-2026-33017) (2)
 - [CVE-2026-33691](#cve-2026-33691) (1)
@@ -699,6 +700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-8461](#cve-2026-8461) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
+- [CWE-22](#cwe-22) (1)
 - [CWE-352](#cwe-352) (1)
 - [CWE-502](#cwe-502) (1)
 - [CWE-77](#cwe-77) (1)
@@ -763,6 +765,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer identity](#developer-identity) (1)
 - [developer machines](#developer-machines) (9)
 - [developer mode](#developer-mode) (1)
+- [developer platform](#developer-platform) (1)
 - [developer targeting](#developer-targeting) (6)
 - [developer tooling](#developer-tooling) (5)
 - [developer workstations](#developer-workstations) (3)
@@ -1633,6 +1636,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [network policies](#network-policies) (1)
 - [network-share exfiltration](#network-share-exfiltration) (1)
 - [Nextcloud](#nextcloud) (1)
+- [Nextcloud Flow](#nextcloud-flow) (1)
 - [nf_tables](#nf_tables) (1)
 - [nftables](#nftables) (1)
 - [NGINX](#nginx) (1)
@@ -1719,9 +1723,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (219)
+- [operations](#operations) (220)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (245)
+- [ops](#ops) (246)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1776,7 +1780,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAT theft](#pat-theft) (1)
 - [patch management](#patch-management) (2)
 - [path hijacking](#path-hijacking) (1)
-- [path traversal](#path-traversal) (1)
+- [path traversal](#path-traversal) (2)
 - [Patriot Bait](#patriot-bait) (1)
 - [patterns](#patterns) (29)
 - [payload loader](#payload-loader) (1)
@@ -2326,6 +2330,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUMMIT](#summit) (3)
 - [Suo5](#suo5) (1)
 - [Supabase](#supabase) (1)
+- [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (13)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (84)
@@ -2582,6 +2587,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
 - [VU#213560](#vu213560) (1)
+- [VulnCheck](#vulncheck) (1)
 - [vulnerability](#vulnerability) (22)
 - [vulnerability exploitation](#vulnerability-exploitation) (1)
 - [vulnerability research](#vulnerability-research) (3)
@@ -2645,6 +2651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill](#windchill) (1)
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
+- [Windmill](#windmill) (1)
 - [Windows](#windows) (29)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
@@ -2872,6 +2879,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
+- [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
@@ -3407,6 +3415,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## arbitrary file read
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+- [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
 ## arbitrary file upload
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
@@ -5264,6 +5273,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-28318
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
+## CVE-2026-29059
+- [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
+
 ## CVE-2026-3300
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 
@@ -5484,6 +5496,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-9082
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## CWE-22
+- [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
 ## CWE-352
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
@@ -5748,6 +5763,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## developer mode
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
+## developer platform
+- [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
 ## developer targeting
 - [ChocoPoC](../tools/chocopoc.md)
@@ -9094,6 +9112,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Nextcloud
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
+## Nextcloud Flow
+- [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
+
 ## nf_tables
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 
@@ -9664,6 +9685,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+- [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -9913,6 +9935,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+- [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
@@ -10107,6 +10130,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## path traversal
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
+- [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
 ## Patriot Bait
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
@@ -12251,6 +12275,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Supabase
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
+## SUPERADMIN_SECRET
+- [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
+
 ## supply chain
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [ChocoPoC](../tools/chocopoc.md)
@@ -13317,6 +13344,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VU#213560
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
+## VulnCheck
+- [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
+
 ## vulnerability
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -13564,6 +13594,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WinDirStat
 - [Cavern](../tools/cavern.md)
+
+## Windmill
+- [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
