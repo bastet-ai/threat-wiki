@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [Independent rogue-agent evaluation lessons for the Hugging Face incident](../ops/hugging-face-autonomous-agent-production-intrusion.md#independent-evaluation-observations)

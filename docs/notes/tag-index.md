@@ -124,6 +124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amatera Stealer](#amatera-stealer) (1)
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [Amazon SES](#amazon-ses) (1)
+- [AMOS](#amos) (1)
 - [AMSI bypass](#amsi-bypass) (4)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
 - [Android](#android) (8)
@@ -203,6 +204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AsyncAPI](#asyncapi) (1)
 - [AsyncRAT](#asyncrat) (3)
 - [Atlas RAT](#atlas-rat) (1)
+- [Atomic Stealer](#atomic-stealer) (1)
 - [AUDIOFIX](#audiofix) (2)
 - [audit logging](#audit-logging) (1)
 - [AUR](#aur) (1)
@@ -221,7 +223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [autonomous agents](#autonomous-agents) (2)
 - [autonomous scanning](#autonomous-scanning) (1)
 - [Avalon](#avalon) (2)
-- [AWS](#aws) (4)
+- [AWS](#aws) (5)
 - [AWS CloudTrail](#aws-cloudtrail) (1)
 - [AWS S3](#aws-s3) (2)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
@@ -301,7 +303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Broadcom](#broadcom) (2)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
-- [browser credential theft](#browser-credential-theft) (21)
+- [browser credential theft](#browser-credential-theft) (22)
 - [browser extension](#browser-extension) (9)
 - [browser extension loader](#browser-extension-loader) (1)
 - [browser hijacking](#browser-hijacking) (2)
@@ -534,7 +536,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (4)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (53)
+- [credential theft](#credential-theft) (54)
 - [credential-theft](#credential-theft) (52)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -556,7 +558,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (12)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
-- [cryptocurrency theft](#cryptocurrency-theft) (9)
+- [cryptocurrency theft](#cryptocurrency-theft) (10)
 - [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (5)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (4)
 - [cryptojacking](#cryptojacking) (1)
@@ -775,7 +777,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer tooling](#developer-tooling) (5)
 - [developer workstations](#developer-workstations) (3)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
-- [developer-targeting](#developer-targeting) (18)
+- [developer-targeting](#developer-targeting) (19)
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (2)
 - [device lockout](#device-lockout) (1)
@@ -1070,6 +1072,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub OAuth](#github-oauth) (1)
 - [GitHub Pages abuse](#github-pages-abuse) (1)
 - [GitHub payload delivery](#github-payload-delivery) (1)
+- [GitHub release assets](#github-release-assets) (1)
 - [GitHub Security Advisories](#github-security-advisories) (2)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
@@ -1242,7 +1245,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (1)
-- [infostealer](#infostealer) (22)
+- [infostealer](#infostealer) (23)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (5)
 - [infrastructure disruption](#infrastructure-disruption) (3)
@@ -1250,7 +1253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [initial-access](#initial-access) (3)
 - [Injective Labs](#injective-labs) (1)
 - [input capture](#input-capture) (1)
-- [install-time execution](#install-time-execution) (3)
+- [install-time execution](#install-time-execution) (4)
 - [install-time-execution](#install-time-execution) (1)
 - [install.res.1033.dll](#installres1033dll) (1)
 - [Integration Broker](#integration-broker) (1)
@@ -1338,6 +1341,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [kernel instrumentation](#kernel-instrumentation) (1)
 - [kernelCTF](#kernelctf) (2)
 - [KEV](#kev) (3)
+- [Keychain theft](#keychain-theft) (1)
 - [keychain theft](#keychain-theft) (2)
 - [KeyHunter](#keyhunter) (1)
 - [keylogger](#keylogger) (4)
@@ -1352,7 +1356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KongTuke](#kongtuke) (1)
 - [KORKERDS](#korkerds) (1)
 - [Kratos](#kratos) (1)
-- [Kubernetes](#kubernetes) (4)
+- [Kubernetes](#kubernetes) (5)
 - [KV-botnet](#kv-botnet) (1)
 - [KVM](#kvm) (1)
 - [KVM escape](#kvm-escape) (1)
@@ -1373,7 +1377,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lateral movement](#lateral-movement) (5)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (2)
-- [LaunchAgent](#launchagent) (2)
+- [LaunchAgent](#launchagent) (3)
 - [launchctl](#launchctl) (1)
 - [law enforcement](#law-enforcement) (2)
 - [law enforcement targeting](#law-enforcement-targeting) (1)
@@ -1458,8 +1462,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
 - [machine-learning](#machine-learning) (1)
-- [macOS](#macos) (12)
-- [macOS malware](#macos-malware) (1)
+- [macOS](#macos) (13)
+- [macOS malware](#macos-malware) (2)
 - [MaDoO Blaster](#madoo-blaster) (1)
 - [Magento](#magento) (1)
 - [MagicYUV](#magicyuv) (1)
@@ -1504,7 +1508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (1)
 - [McMx](#mcmx) (1)
-- [MCP](#mcp) (10)
+- [MCP](#mcp) (11)
 - [MCP credentials](#mcp-credentials) (1)
 - [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
@@ -1665,7 +1669,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [North Korea](#north-korea) (12)
 - [notarized malware](#notarized-malware) (2)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (50)
+- [npm](#npm) (51)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm supply-chain](#npm-supply-chain) (1)
 - [npm token theft](#npm-token-theft) (1)
@@ -1733,9 +1737,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (222)
+- [operations](#operations) (223)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (248)
+- [ops](#ops) (249)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1764,7 +1768,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package registry abuse](#package-registry-abuse) (1)
 - [package registry credentials](#package-registry-credentials) (1)
 - [package registry proxy](#package-registry-proxy) (1)
+- [package republishing](#package-republishing) (1)
 - [package scanning](#package-scanning) (1)
+- [package takedown](#package-takedown) (1)
 - [package-cooldowns](#package-cooldowns) (1)
 - [package-manager-hardening](#package-manager-hardening) (1)
 - [package-splitting](#package-splitting) (1)
@@ -1813,7 +1819,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PeopleTools](#peopletools) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
-- [persistence](#persistence) (26)
+- [persistence](#persistence) (27)
 - [persistent root access](#persistent-root-access) (1)
 - [persona operations](#persona-operations) (1)
 - [personal access tokens](#personal-access-tokens) (2)
@@ -1870,7 +1876,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postal-impersonation](#postal-impersonation) (1)
 - [PostCSS](#postcss) (1)
 - [PostgreSQL](#postgresql) (3)
-- [postinstall](#postinstall) (9)
+- [postinstall](#postinstall) (10)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (22)
 - [PowerShell execution](#powershell-execution) (1)
@@ -2013,6 +2019,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (17)
 - [remote debugging](#remote-debugging) (2)
+- [remote MCP](#remote-mcp) (1)
 - [remote monitoring and management](#remote-monitoring-and-management) (1)
 - [remote script injection](#remote-script-injection) (1)
 - [Remote Support](#remote-support) (1)
@@ -2103,7 +2110,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SaaS exposure](#saas-exposure) (1)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
-- [SafeDep](#safedep) (4)
+- [SafeDep](#safedep) (5)
 - [Salesforce](#salesforce) (3)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
@@ -2268,7 +2275,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [source-code compromise](#source-code-compromise) (1)
 - [source-control token theft](#source-control-token-theft) (1)
 - [source-package drift](#source-package-drift) (1)
-- [source-package mismatch](#source-package-mismatch) (1)
+- [source-package mismatch](#source-package-mismatch) (2)
 - [source-repository poisoning](#source-repository-poisoning) (5)
 - [source-repository reconnaissance](#source-repository-reconnaissance) (1)
 - [SourceForge abuse](#sourceforge-abuse) (1)
@@ -2299,7 +2306,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH brute force](#ssh-brute-force) (1)
 - [SSH key exposure](#ssh-key-exposure) (1)
 - [SSH key persistence](#ssh-key-persistence) (1)
-- [SSH keys](#ssh-keys) (1)
+- [SSH keys](#ssh-keys) (2)
 - [SSH lateral movement](#ssh-lateral-movement) (1)
 - [SSH persistence](#ssh-persistence) (1)
 - [SSH tunnel](#ssh-tunnel) (1)
@@ -2347,7 +2354,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (14)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (84)
+- [supply-chain](#supply-chain) (85)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
@@ -2613,7 +2620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet drainer](#wallet-drainer) (1)
 - [wallet infrastructure](#wallet-infrastructure) (1)
 - [wallet replacement](#wallet-replacement) (1)
-- [wallet theft](#wallet-theft) (5)
+- [wallet theft](#wallet-theft) (6)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
 - [Wasabi](#wasabi) (2)
@@ -3253,6 +3260,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Amazon SES
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 
+## AMOS
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+
 ## AMSI bypass
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
@@ -3531,6 +3541,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Atlas RAT
 - [TA4922](../actors/ta4922.md)
 
+## Atomic Stealer
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+
 ## AUDIOFIX
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -3604,6 +3617,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrownX](../tools/crownx.md)
 
 ## AWS
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -3894,6 +3908,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## browser credential theft
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -4870,6 +4885,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## credential theft
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -5061,6 +5077,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## cryptocurrency theft
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -5832,6 +5849,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## developer-targeting
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
@@ -6978,6 +6996,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub payload delivery
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
+## GitHub release assets
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+
 ## GitHub Security Advisories
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -7602,6 +7623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## infostealer
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Armored Likho](../actors/armored-likho.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
@@ -7656,6 +7678,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## install-time execution
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -7976,6 +7999,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
+## Keychain theft
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+
 ## keychain theft
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
@@ -8023,6 +8049,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 
 ## Kubernetes
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -8103,6 +8130,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## LaunchAgent
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
@@ -8431,6 +8459,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## macOS
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
@@ -8444,6 +8473,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QuimaRAT](../tools/quimarat.md)
 
 ## macOS malware
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
 ## MaDoO Blaster
@@ -8648,6 +8678,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
 ## MCP
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
@@ -9244,6 +9275,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
 ## npm
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -9532,6 +9564,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## operations
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -9759,6 +9792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ops
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -10101,8 +10135,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## package registry proxy
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
+## package republishing
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+
 ## package scanning
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+
+## package takedown
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 
 ## package-cooldowns
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
@@ -10293,6 +10333,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
 ## persistence
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [ChocoPoC](../tools/chocopoc.md)
@@ -10529,6 +10570,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## postinstall
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -11151,6 +11193,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
 
+## remote MCP
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+
 ## remote monitoring and management
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
@@ -11479,6 +11524,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## SafeDep
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [MYRA RAT](../tools/myra-rat.md)
@@ -12080,6 +12126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
 ## source-package mismatch
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## source-repository poisoning
@@ -12198,6 +12245,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## SSH keys
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 
 ## SSH lateral movement
@@ -12377,6 +12425,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## supply-chain
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -13483,6 +13532,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## wallet theft
+- [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)

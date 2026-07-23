@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>@copilot-mcp/apex macOS infostealer campaign</title>
+      <link>https://threat.wiki/ops/copilot-mcp-apex-macos-infostealer/</link>
+      <description>Added SafeDep intelligence on an npm postinstall campaign that republished a macOS AMOS-family stealer about 11 hours after its first package takedown. Coverage captures the two removed droppers, attacker-controlled MCP front, mutable GitHub release delivery, password phishing, browser/wallet/developer credential theft, LaunchAgent command polling, public indicators, registry verification, and containment and credential-rotation guidance.</description>
+      <pubDate>Thu, 23 Jul 2026 01:25:40 GMT</pubDate>
+      <guid>https://threat.wiki/ops/copilot-mcp-apex-macos-infostealer/</guid>
+    </item>
+    <item>
       <title>GitHub Actions cPanel CVE-2026-41940 exploitation campaign</title>
       <link>https://threat.wiki/ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign/</link>
       <description>Added Socket intelligence on compromised GitHub repositories using thousands of malicious workflow files and GitHub-hosted runners as distributed infrastructure to scan for and exploit cPanel and WHM CVE-2026-41940. Coverage distinguishes benign Packagist library code from root-level workflow execution, records campaign scale caveats, architecture-specific payload delivery, heartbeat and incremental exfiltration, public indicators, and repository, CI/CD, package, and hosting-control-plane response guidance.</description>

@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - '@copilot-mcp/apex macOS infostealer campaign': ops/copilot-mcp-apex-macos-infostealer.md
       - GitHub Actions cPanel CVE-2026-41940 exploitation campaign: ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md
       - CISA KEV Check Point SmartConsole and Microsoft SharePoint July 22 additions: ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md
       - Windmill CVE-2026-29059 active exploitation: ops/windmill-cve-2026-29059-active-exploitation.md
