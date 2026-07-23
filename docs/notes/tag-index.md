@@ -125,7 +125,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amadey](#amadey) (1)
 - [Amatera Stealer](#amatera-stealer) (1)
 - [Amazon Q Developer](#amazon-q-developer) (1)
-- [Amazon SES](#amazon-ses) (1)
+- [Amazon SES](#amazon-ses) (2)
 - [AMOS](#amos) (1)
 - [AMSI bypass](#amsi-bypass) (4)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
@@ -330,7 +330,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bulletproof hosting](#bulletproof-hosting) (1)
 - [Bun](#bun) (2)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
-- [business email compromise](#business-email-compromise) (1)
+- [business email compromise](#business-email-compromise) (2)
 - [BusySnake Stealer](#busysnake-stealer) (3)
 - [Bybit](#bybit) (1)
 - [BYOVD](#byovd) (3)
@@ -343,6 +343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C2 tasking](#c2-tasking) (1)
 - [CageFS](#cagefs) (1)
 - [calendar dead drop](#calendar-dead-drop) (1)
+- [calendar invitation](#calendar-invitation) (1)
 - [Calendly abuse](#calendly-abuse) (1)
 - [call forwarding](#call-forwarding) (2)
 - [Cambodia](#cambodia) (1)
@@ -427,6 +428,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Clever Cloud](#clever-cloud) (1)
 - [ClickFix](#clickfix) (17)
 - [ClickOnce](#clickonce) (1)
+- [ClickUp](#clickup) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
 - [Cline](#cline) (1)
 - [clipboard hijacker](#clipboard-hijacker) (1)
@@ -541,7 +543,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (4)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (56)
+- [credential theft](#credential-theft) (57)
 - [credential-theft](#credential-theft) (52)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -1495,7 +1497,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malvertising](#malvertising) (7)
 - [malware](#malware) (45)
 - [malware analysis](#malware-analysis) (2)
-- [malware delivery](#malware-delivery) (5)
+- [malware delivery](#malware-delivery) (6)
 - [malware framework](#malware-framework) (2)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-as-a-service](#malware-as-a-service) (5)
@@ -1561,8 +1563,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Office SharePoint](#microsoft-office-sharepoint) (1)
 - [Microsoft Security Blog](#microsoft-security-blog) (1)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
-- [Microsoft Teams](#microsoft-teams) (2)
-- [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (2)
+- [Microsoft Teams](#microsoft-teams) (3)
+- [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (3)
 - [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
 - [Microsoft-signed binary abuse](#microsoft-signed-binary-abuse) (1)
 - [Middle East](#middle-east) (2)
@@ -1702,6 +1704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OAuth abuse](#oauth-abuse) (4)
 - [OAuth client credentials](#oauth-client-credentials) (1)
 - [OAuth device authorization grant](#oauth-device-authorization-grant) (2)
+- [OAuth redirect](#oauth-redirect) (1)
 - [OAuth token abuse](#oauth-token-abuse) (1)
 - [OAuth token exposure](#oauth-token-exposure) (1)
 - [OAuth tokens](#oauth-tokens) (3)
@@ -1750,7 +1753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational technology](#operational-technology) (1)
 - [operations](#operations) (223)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (250)
+- [ops](#ops) (251)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1841,7 +1844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (22)
+- [phishing](#phishing) (23)
 - [phishing-as-a-service](#phishing-as-a-service) (5)
 - [PHP](#php) (2)
 - [PHP code execution](#php-code-execution) (1)
@@ -1860,6 +1863,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
 - [Pix](#pix) (1)
+- [Pixeldrain](#pixeldrain) (1)
 - [PixelSmash](#pixelsmash) (1)
 - [PKGBUILD](#pkgbuild) (1)
 - [plaintext HTTP](#plaintext-http) (1)
@@ -2508,6 +2512,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TuxBot v3 Evolution](#tuxbot-v3-evolution) (1)
 - [Twilio](#twilio) (1)
 - [Twilio SendGrid](#twilio-sendgrid) (1)
+- [Tycoon2FA](#tycoon2fa) (1)
 - [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (1)
 - [typosquatting](#typosquatting) (15)
@@ -2599,7 +2604,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ViPNet](#vipnet) (1)
 - [virtualization](#virtualization) (2)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
-- [vishing](#vishing) (6)
+- [vishing](#vishing) (7)
 - [Visual Studio](#visual-studio) (1)
 - [Visual Studio Code Remote SSH](#visual-studio-code-remote-ssh) (1)
 - [Vite](#vite) (1)
@@ -3286,6 +3291,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Amazon SES
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 
 ## AMOS
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -4047,6 +4053,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## business email compromise
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 
 ## BusySnake Stealer
 - [Armored Likho](../actors/armored-likho.md)
@@ -4098,6 +4105,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## calendar dead drop
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
+
+## calendar invitation
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 
 ## Calendly abuse
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -4482,6 +4492,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ClickOnce
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
+
+## ClickUp
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 
 ## client-side exploitation
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
@@ -4952,6 +4965,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
@@ -8668,6 +8682,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
@@ -8929,12 +8944,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OceanLotus](../actors/oceanlotus.md)
 
 ## Microsoft Teams
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## Microsoft Threat Intelligence
 - [ACR Stealer](../tools/acr-stealer.md)
 - [GigaWiper](../tools/gigawiper.md)
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 
 ## Microsoft Windows Hardware Compatibility Publisher
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
@@ -9480,6 +9497,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 
+## OAuth redirect
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
+
 ## OAuth token abuse
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
@@ -10003,6 +10023,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -10487,6 +10508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
@@ -10554,6 +10576,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Pix
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+
+## Pixeldrain
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 
 ## PixelSmash
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -13126,6 +13151,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Twilio SendGrid
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 
+## Tycoon2FA
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
+
 ## TypeScript
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -13476,6 +13504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## vishing
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)

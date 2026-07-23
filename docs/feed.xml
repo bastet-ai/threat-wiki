@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Microsoft Q2 2026 email and Teams phishing landscape</title>
+      <link>https://threat.wiki/ops/microsoft-q2-2026-email-teams-phishing-landscape/</link>
+      <description>Added Microsoft Threat Intelligence's Q2 email and collaboration-threat review. Coverage captures the sustained 92% post-disruption decline in Tycoon2FA volume, nearly tenfold growth in weekly Teams vishing from the mid-2025 baseline, a 67,000-recipient automated BEC operation, a 107,000-recipient nested-EML and calendar-invite malware chain abusing a Microsoft authentication redirect, public indicators, and email, Teams, Entra, endpoint, and redirect-chain hunting guidance.</description>
+      <pubDate>Thu, 23 Jul 2026 17:25:54 GMT</pubDate>
+      <guid>https://threat.wiki/ops/microsoft-q2-2026-email-teams-phishing-landscape/</guid>
+    </item>
+    <item>
       <title>CL-STA-1114 Zimbra webmail espionage</title>
       <link>https://threat.wiki/ops/cl-sta-1114-zimbra-webmail-espionage/</link>
       <description>Added Unit 42 intelligence on a Russia-affiliated Zimbra espionage campaign exploiting CVE-2025-66376 through crafted HTML email. Coverage captures CL-STA-1114 overlap with Void Blizzard and LAUNDRY BEAR, browser-resident credential, recovery-code, app-password, search-history, and 90-day mailbox theft, SOAP/export and DNS/HTTPS detection pivots, 18 public infrastructure indicators, patch and response guidance, and the unresolved APT28 attribution difference in earlier Seqrite reporting.</description>
