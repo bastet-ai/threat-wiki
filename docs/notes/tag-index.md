@@ -112,7 +112,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-assisted development](#ai-assisted-development) (2)
 - [AI-assisted intrusion](#ai-assisted-intrusion) (1)
 - [AI-assisted malware](#ai-assisted-malware) (3)
-- [AI-assisted malware development](#ai-assisted-malware-development) (3)
+- [AI-assisted malware development](#ai-assisted-malware-development) (4)
 - [AI-assisted phishing](#ai-assisted-phishing) (1)
 - [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
 - [AI-augmented operations](#ai-augmented-operations) (2)
@@ -317,6 +317,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser zero-day](#browser-zero-day) (1)
 - [browser-credential-theft](#browser-credential-theft) (1)
 - [browser-extensions](#browser-extensions) (2)
+- [browser-resident malware](#browser-resident-malware) (1)
 - [browser-security](#browser-security) (1)
 - [browser-session risk](#browser-session-risk) (1)
 - [browsing history](#browsing-history) (1)
@@ -354,6 +355,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Casbaneiro](#casbaneiro) (1)
 - [CastleStealer](#castlestealer) (1)
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
+- [Catcher](#catcher) (1)
 - [Cav3rn](#cav3rn) (1)
 - [Cavern](#cavern) (2)
 - [Cavern Manticore](#cavern-manticore) (3)
@@ -361,6 +363,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CDN](#cdn) (1)
 - [CERT-In](#cert-in) (1)
 - [CERT/CC](#certcc) (1)
+- [Certbot](#certbot) (1)
 - [certificate pinning](#certificate-pinning) (1)
 - [certificate theft](#certificate-theft) (1)
 - [certutil](#certutil) (1)
@@ -402,7 +405,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (1)
+- [CISA](#cisa) (3)
 - [CISA KEV](#cisa-kev) (24)
 - [Cisco](#cisco) (3)
 - [Cisco IOS](#cisco-ios) (1)
@@ -421,7 +424,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-CRI-1089](#cl-cri-1089) (1)
 - [CL-CRI-1147](#cl-cri-1147) (1)
 - [CL-STA-1062](#cl-sta-1062) (3)
-- [CL-STA-1114](#cl-sta-1114) (2)
+- [CL-STA-1114](#cl-sta-1114) (3)
 - [Claude](#claude) (2)
 - [Claude Code](#claude-code) (6)
 - [Claude for Chrome](#claude-for-chrome) (1)
@@ -614,7 +617,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-49704](#cve-2025-49704) (1)
 - [CVE-2025-49706](#cve-2025-49706) (1)
 - [CVE-2025-5777](#cve-2025-5777) (1)
-- [CVE-2025-66376](#cve-2025-66376) (2)
+- [CVE-2025-66376](#cve-2025-66376) (3)
 - [CVE-2025-67038](#cve-2025-67038) (1)
 - [CVE-2025-8088](#cve-2025-8088) (4)
 - [CVE-2026-0257](#cve-2026-0257) (1)
@@ -815,11 +818,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS C2](#dns-c2) (2)
 - [DNS callback](#dns-callback) (1)
 - [DNS dead drop](#dns-dead-drop) (1)
-- [DNS exfiltration](#dns-exfiltration) (1)
+- [DNS exfiltration](#dns-exfiltration) (2)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (3)
 - [DNS-over-HTTPS](#dns-over-https) (1)
-- [Docker](#docker) (2)
+- [Docker](#docker) (3)
 - [Docker credentials](#docker-credentials) (1)
 - [Docker images](#docker-images) (1)
 - [Docker socket](#docker-socket) (2)
@@ -908,7 +911,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ERP](#erp) (1)
 - [eSentire TRU](#esentire-tru) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (50)
+- [espionage](#espionage) (51)
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESXi](#esxi) (1)
 - [Ethereum](#ethereum) (1)
@@ -1011,6 +1014,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FlexPLM](#flexplm) (1)
 - [FlockWiper](#flockwiper) (1)
 - [flow execution](#flow-execution) (1)
+- [Flowerbed](#flowerbed) (3)
 - [FLUIDLEECH](#fluidleech) (1)
 - [Flutter](#flutter) (1)
 - [FlutterShell](#fluttershell) (1)
@@ -1053,6 +1057,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GammaSteel](#gammasteel) (1)
 - [GammaWorm](#gammaworm) (1)
 - [Garble](#garble) (2)
+- [Gardener](#gardener) (1)
 - [Gatekeeper bypass](#gatekeeper-bypass) (1)
 - [GCS](#gcs) (1)
 - [Gemini CLI](#gemini-cli) (1)
@@ -1205,6 +1210,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HTTP/2](#http2) (1)
 - [HttpMalice](#httpmalice) (1)
 - [HTTPS C2](#https-c2) (1)
+- [HTTPS exfiltration](#https-exfiltration) (1)
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (3)
 - [Hunt.io](#huntio) (4)
@@ -1301,7 +1307,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Japan](#japan) (1)
 - [JARLEASH](#jarleash) (1)
 - [Java malware](#java-malware) (1)
-- [JavaScript](#javascript) (14)
+- [JavaScript](#javascript) (15)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript execution](#javascript-execution) (1)
 - [JavaScript injection](#javascript-injection) (2)
@@ -1391,7 +1397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Latin America](#latin-america) (2)
 - [LaunchAgent](#launchagent) (3)
 - [launchctl](#launchctl) (1)
-- [LAUNDRY BEAR](#laundry-bear) (2)
+- [LAUNDRY BEAR](#laundry-bear) (3)
 - [law enforcement](#law-enforcement) (2)
 - [law enforcement targeting](#law-enforcement-targeting) (1)
 - [law-enforcement-disruption](#law-enforcement-disruption) (1)
@@ -1623,6 +1629,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mTLS](#mtls) (1)
 - [Muck and Load](#muck-and-load) (1)
 - [MuddyWater](#muddywater) (4)
+- [Mullvad VPN](#mullvad-vpn) (1)
 - [Multi-Domain Security Management](#multi-domain-security-management) (1)
 - [multi-tenant cloud](#multi-tenant-cloud) (1)
 - [Mustang Panda](#mustang-panda) (2)
@@ -1667,7 +1674,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nf_tables](#nf_tables) (1)
 - [nftables](#nftables) (1)
 - [NGINX](#nginx) (1)
-- [Nginx](#nginx) (1)
+- [Nginx](#nginx) (2)
 - [Nginx module](#nginx-module) (1)
 - [Ngrok C2](#ngrok-c2) (1)
 - [NirSoft](#nirsoft) (1)
@@ -1963,7 +1970,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PyArmor](#pyarmor) (3)
 - [PyInstaller](#pyinstaller) (1)
 - [PyPI](#pypi) (11)
-- [Python](#python) (11)
+- [Python](#python) (12)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python malware](#python-malware) (2)
 - [Python stealer](#python-stealer) (1)
@@ -2113,6 +2120,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russia-speaking operator](#russia-speaking-operator) (1)
 - [Russian Intelligence Services](#russian-intelligence-services) (1)
 - [Russian intelligence services](#russian-intelligence-services) (1)
+- [Russian state-supported](#russian-state-supported) (3)
 - [Russian-speaking ecosystem](#russian-speaking-ecosystem) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (8)
@@ -2396,6 +2404,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [T1204.004](#t1204004) (1)
 - [T3](#t3) (1)
 - [TA427](#ta427) (1)
+- [TA488](#ta488) (3)
 - [TA569](#ta569) (1)
 - [Tactical RMM](#tactical-rmm) (1)
 - [tag rewrite](#tag-rewrite) (1)
@@ -2479,7 +2488,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (31)
+- [tools](#tools) (32)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
@@ -2535,6 +2544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UDP/1900](#udp1900) (1)
 - [Ukraine](#ukraine) (14)
 - [Ukraine targeting](#ukraine-targeting) (3)
+- [Ulej](#ulej) (3)
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
 - [unauthenticated access](#unauthenticated-access) (1)
@@ -2559,6 +2569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [United States](#united-states) (3)
 - [university targeting](#university-targeting) (1)
 - [UNK_MassTraction](#unk_masstraction) (1)
+- [UNK_PitStop](#unk_pitstop) (1)
 - [unpatched vulnerability](#unpatched-vulnerability) (2)
 - [unsafe deserialization](#unsafe-deserialization) (1)
 - [unsigned installer](#unsigned-installer) (1)
@@ -2615,7 +2626,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMware](#vmware) (2)
 - [VNC](#vnc) (2)
 - [VNT](#vnt) (2)
-- [Void Blizzard](#void-blizzard) (2)
+- [Void Blizzard](#void-blizzard) (3)
 - [Void Manticore](#void-manticore) (1)
 - [Volt Typhoon](#volt-typhoon) (1)
 - [VPN](#vpn) (6)
@@ -2762,7 +2773,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [ZeroBEC](#zerobec) (1)
-- [Zimbra](#zimbra) (2)
+- [Zimbra](#zimbra) (3)
 - [Zimbra Collaboration Suite](#zimbra-collaboration-suite) (1)
 - [Zimperium](#zimperium) (2)
 - [zLabs](#zlabs) (2)
@@ -3249,6 +3260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## AI-assisted phishing
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
@@ -4011,6 +4023,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
+## browser-resident malware
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+
 ## browser-security
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
@@ -4142,6 +4157,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Catalyst SD-WAN Manager
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
+## Catcher
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+
 ## Cav3rn
 - [Cavern](../tools/cavern.md)
 
@@ -4165,6 +4183,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CERT/CC
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
+
+## Certbot
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## certificate pinning
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
@@ -4364,6 +4385,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 
 ## CISA
+- [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
+- [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## CISA KEV
@@ -4452,6 +4475,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CL-STA-1114
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## Claude
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -5303,6 +5327,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2025-66376
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## CVE-2025-67038
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
@@ -6050,6 +6075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DNS exfiltration
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## DNS threat intelligence
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -6065,6 +6091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Docker
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## Docker credentials
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
@@ -6432,6 +6459,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Turla](../actors/turla.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 - [UAC-0145](../actors/uac-0145.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 - [UNC6508](../actors/unc6508.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [Velvet Ant](../actors/velvet-ant.md)
@@ -6798,6 +6826,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## flow execution
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 
+## Flowerbed
+- [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
+- [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+
 ## FLUIDLEECH
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
@@ -6935,6 +6968,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Garble
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## Gardener
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## Gatekeeper bypass
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
@@ -7500,6 +7536,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HTTPS C2
 - [LabubaRAT](../tools/labubarat.md)
 
+## HTTPS exfiltration
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+
 ## HTTPSpy
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -7903,6 +7942,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [TaskWeaver](../tools/taskweaver.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## JavaScript bridge
@@ -8221,6 +8261,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LAUNDRY BEAR
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## law enforcement
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -9163,6 +9204,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## Mullvad VPN
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+
 ## Multi-Domain Security Management
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 
@@ -9309,6 +9353,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Nginx
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## Nginx module
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -10989,6 +11034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Starland RAT](../tools/starland-rat.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## Python extension modules
@@ -11573,6 +11619,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Russian intelligence services
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
+
+## Russian state-supported
+- [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
+- [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## Russian-speaking ecosystem
 - [UAT-11795](../actors/uat-11795.md)
@@ -12694,6 +12745,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TA427
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
+## TA488
+- [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
+- [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+
 ## TA569
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
@@ -13039,6 +13095,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TELEPUZ](../tools/telepuz.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [TinyRCT](../tools/tinyrct.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 - [Umbrij](../tools/umbrij.md)
 - [WLDR agent](../tools/wldr-agent.md)
 
@@ -13260,6 +13317,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Turla](../actors/turla.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
+## Ulej
+- [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
+- [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+
 ## UltraVNC
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
@@ -13346,6 +13408,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UNK_MassTraction
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
+## UNK_PitStop
+- [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 
 ## unpatched vulnerability
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
@@ -13547,6 +13612,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Void Blizzard
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## Void Manticore
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
@@ -14144,6 +14210,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Zimbra
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## Zimbra Collaboration Suite
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)

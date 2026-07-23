@@ -265,6 +265,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - Ulej / Flowerbed: tools/ulej-flowerbed.md
       - ENCFORGE: tools/encforge.md
       - HOLLOWGRAPH: tools/hollowgraph.md
       - TELEPUZ: tools/telepuz.md

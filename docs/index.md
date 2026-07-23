@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Ulej / Flowerbed: joint-government Zimbra espionage follow-up](tools/ulej-flowerbed.md)
+- [CL-STA-1114 Zimbra webmail espionage: AA26-204A follow-up](ops/cl-sta-1114-zimbra-webmail-espionage.md#joint-advisory-technical-follow-up)
 - [Microsoft Q2 2026 email and Teams phishing landscape](ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [CL-STA-1114 Zimbra webmail espionage](ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [CL-STA-1114 / Void Blizzard](actors/cl-sta-1114-void-blizzard.md)
