@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [CL-STA-1114 Zimbra webmail espionage](ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [CL-STA-1114 / Void Blizzard](actors/cl-sta-1114-void-blizzard.md)
 - [@copilot-mcp/apex macOS infostealer campaign](ops/copilot-mcp-apex-macos-infostealer.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22 additions](ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)

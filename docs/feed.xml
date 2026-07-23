@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>CL-STA-1114 Zimbra webmail espionage</title>
+      <link>https://threat.wiki/ops/cl-sta-1114-zimbra-webmail-espionage/</link>
+      <description>Added Unit 42 intelligence on a Russia-affiliated Zimbra espionage campaign exploiting CVE-2025-66376 through crafted HTML email. Coverage captures CL-STA-1114 overlap with Void Blizzard and LAUNDRY BEAR, browser-resident credential, recovery-code, app-password, search-history, and 90-day mailbox theft, SOAP/export and DNS/HTTPS detection pivots, 18 public infrastructure indicators, patch and response guidance, and the unresolved APT28 attribution difference in earlier Seqrite reporting.</description>
+      <pubDate>Thu, 23 Jul 2026 15:27:48 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cl-sta-1114-zimbra-webmail-espionage/</guid>
+    </item>
+    <item>
       <title>@copilot-mcp/apex macOS infostealer campaign</title>
       <link>https://threat.wiki/ops/copilot-mcp-apex-macos-infostealer/</link>
       <description>Added SafeDep intelligence on an npm postinstall campaign that republished a macOS AMOS-family stealer about 11 hours after its first package takedown. Coverage captures the two removed droppers, attacker-controlled MCP front, mutable GitHub release delivery, password phishing, browser/wallet/developer credential theft, LaunchAgent command polling, public indicators, registry verification, and containment and credential-rotation guidance.</description>
