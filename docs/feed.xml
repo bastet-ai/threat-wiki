@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>MrMustard PyPI credential-stealer compromise</title>
+      <link>https://threat.wiki/ops/mrmustard-pypi-credential-stealer-compromise/</link>
+      <description>Added StepSecurity and public upstream evidence on malicious mrmustard 0.7.4, a source-artifact-only PyPI credential stealer reportedly published after a maintainer GitHub account and long-lived release token were compromised. Coverage records the self-hosted-runner reconnaissance and secret-exfiltration commits, import-time SSH, AWS, Kubernetes, GPU, and HPC collection, cron, .pth, and shell persistence, public indicators, package-removal status, account-takeover caveats, and developer and research-cluster response guidance.</description>
+      <pubDate>Fri, 24 Jul 2026 17:26:22 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mrmustard-pypi-credential-stealer-compromise/</guid>
+    </item>
+    <item>
       <title>Fake Corepack site infostealer and proxyware campaign</title>
       <link>https://threat.wiki/ops/fake-corepack-site-infostealer-proxyware/</link>
       <description>Added Socket Security Research intelligence on corepack.org, an unofficial site impersonating the Node.js Corepack project to deliver OpenShield infostealer and hidden bandwidth-sharing proxyware to developers. Coverage records the separate adware and trojan redirect path, public domains and filenames, official-project warnings, search and brand-impersonation caveats, endpoint and network hunts, proxy-exit-node scoping, evidence preservation, and developer-credential and session response guidance.</description>

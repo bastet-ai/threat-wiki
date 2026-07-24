@@ -225,7 +225,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [autonomous agents](#autonomous-agents) (2)
 - [autonomous scanning](#autonomous-scanning) (1)
 - [Avalon](#avalon) (2)
-- [AWS](#aws) (5)
+- [AWS](#aws) (6)
 - [AWS CloudTrail](#aws-cloudtrail) (1)
 - [AWS S3](#aws-s3) (2)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
@@ -402,7 +402,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chromium extension](#chromium-extension) (1)
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (2)
-- [CI/CD](#cicd) (36)
+- [CI/CD](#cicd) (37)
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
@@ -548,7 +548,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (4)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (57)
+- [credential theft](#credential-theft) (58)
 - [credential-theft](#credential-theft) (52)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -1084,7 +1084,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea](#gitea) (1)
 - [GitHub](#github) (20)
 - [GitHub abuse](#github-abuse) (3)
-- [GitHub Actions](#github-actions) (23)
+- [GitHub Actions](#github-actions) (24)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
 - [GitHub CLI](#github-cli) (1)
@@ -1206,6 +1206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hosting providers](#hosting-providers) (1)
 - [hotel targeting](#hotel-targeting) (1)
 - [Howling Scorpius](#howling-scorpius) (1)
+- [HPC](#hpc) (1)
 - [HR lures](#hr-lures) (1)
 - [HTA](#hta) (5)
 - [HTML comments](#html-comments) (1)
@@ -1249,7 +1250,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [iMessage](#imessage) (1)
 - [Impacket](#impacket) (2)
 - [impersonation](#impersonation) (1)
-- [import-time execution](#import-time-execution) (3)
+- [import-time execution](#import-time-execution) (4)
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory plugins](#in-memory-plugins) (1)
@@ -1379,7 +1380,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KongTuke](#kongtuke) (1)
 - [KORKERDS](#korkerds) (1)
 - [Kratos](#kratos) (1)
-- [Kubernetes](#kubernetes) (5)
+- [Kubernetes](#kubernetes) (6)
 - [KV-botnet](#kv-botnet) (1)
 - [KVM](#kvm) (1)
 - [KVM escape](#kvm-escape) (1)
@@ -1496,7 +1497,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mailbox compromise](#mailbox-compromise) (1)
 - [mailbox theft](#mailbox-theft) (3)
 - [MAIN world injection](#main-world-injection) (1)
-- [maintainer compromise](#maintainer-compromise) (3)
+- [maintainer compromise](#maintainer-compromise) (4)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (2)
 - [malicious dataset](#malicious-dataset) (1)
@@ -1764,9 +1765,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (224)
+- [operations](#operations) (225)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (252)
+- [ops](#ops) (253)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1846,7 +1847,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PeopleTools](#peopletools) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
-- [persistence](#persistence) (27)
+- [persistence](#persistence) (28)
 - [persistent root access](#persistent-root-access) (1)
 - [persona operations](#persona-operations) (1)
 - [personal access tokens](#personal-access-tokens) (2)
@@ -1977,8 +1978,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pwn-request](#pwn-request) (1)
 - [PyArmor](#pyarmor) (3)
 - [PyInstaller](#pyinstaller) (1)
-- [PyPI](#pypi) (11)
-- [Python](#python) (12)
+- [PyPI](#pypi) (12)
+- [Python](#python) (13)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python malware](#python-malware) (2)
 - [Python stealer](#python-stealer) (1)
@@ -1988,6 +1989,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QNAP](#qnap) (1)
 - [QR code](#qr-code) (1)
 - [QR code interception](#qr-code-interception) (1)
+- [quantum computing](#quantum-computing) (1)
 - [Quasar](#quasar) (1)
 - [query injection](#query-injection) (1)
 - [Quest KACE SMA](#quest-kace-sma) (1)
@@ -2066,6 +2068,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [repository compromise](#repository-compromise) (1)
 - [repository exfiltration](#repository-exfiltration) (1)
 - [repository poisoning](#repository-poisoning) (3)
+- [research sector](#research-sector) (1)
 - [residential proxies](#residential-proxies) (1)
 - [residential proxy](#residential-proxy) (1)
 - [REST API](#rest-api) (1)
@@ -2191,6 +2194,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [self-delete](#self-delete) (1)
 - [self-hosted AI services](#self-hosted-ai-services) (1)
 - [self-hosted media](#self-hosted-media) (1)
+- [self-hosted runner](#self-hosted-runner) (1)
 - [self-propagation](#self-propagation) (1)
 - [semantic-release](#semantic-release) (1)
 - [sendit.sh](#senditsh) (1)
@@ -2342,7 +2346,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH brute force](#ssh-brute-force) (1)
 - [SSH key exposure](#ssh-key-exposure) (1)
 - [SSH key persistence](#ssh-key-persistence) (1)
-- [SSH keys](#ssh-keys) (3)
+- [SSH keys](#ssh-keys) (4)
 - [SSH lateral movement](#ssh-lateral-movement) (1)
 - [SSH persistence](#ssh-persistence) (1)
 - [SSH tunnel](#ssh-tunnel) (1)
@@ -2366,7 +2370,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Steam profile dead drop](#steam-profile-dead-drop) (2)
 - [steganography](#steganography) (3)
 - [StegoAd](#stegoad) (1)
-- [StepSecurity](#stepsecurity) (1)
+- [StepSecurity](#stepsecurity) (2)
 - [STM32Cube](#stm32cube) (1)
 - [stock exchange](#stock-exchange) (1)
 - [STOCKSTAY](#stockstay) (3)
@@ -2391,7 +2395,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (14)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (85)
+- [supply-chain](#supply-chain) (86)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
@@ -2488,7 +2492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat](#toddycat) (3)
 - [token forgery](#token-forgery) (1)
 - [token replay](#token-replay) (3)
-- [token theft](#token-theft) (5)
+- [token theft](#token-theft) (6)
 - [token-theft](#token-theft) (1)
 - [TONESHELL](#toneshell) (2)
 - [TookPS](#tookps) (1)
@@ -3676,6 +3680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
@@ -4378,6 +4383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -5010,6 +5016,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -7104,6 +7111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
@@ -7535,6 +7543,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Howling Scorpius
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## HPC
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
+
 ## HR lures
 - [TA4922](../actors/ta4922.md)
 
@@ -7683,6 +7694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## import-time execution
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
@@ -8205,6 +8217,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 
 ## KV-botnet
@@ -8662,6 +8675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## maintainer compromise
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
 ## maintainer persona
@@ -9874,6 +9888,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -10114,6 +10129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -10523,6 +10539,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -11064,6 +11081,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -11076,6 +11094,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Starland RAT](../tools/starland-rat.md)
@@ -11116,6 +11135,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## QR code interception
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+
+## quantum computing
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 
 ## Quasar
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
@@ -11442,6 +11464,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+
+## research sector
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 
 ## residential proxies
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -11911,6 +11936,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## self-hosted media
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+
+## self-hosted runner
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 
 ## self-propagation
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -12465,6 +12493,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 
 ## SSH lateral movement
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
@@ -12552,6 +12581,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## StepSecurity
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 
 ## STM32Cube
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -12699,6 +12729,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -13085,6 +13116,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
+- [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [ROADtools](../tools/roadtools.md)
 
