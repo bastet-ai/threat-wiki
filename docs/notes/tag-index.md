@@ -704,6 +704,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-56290](#cve-2026-56290) (1)
 - [CVE-2026-56291](#cve-2026-56291) (1)
 - [CVE-2026-60137](#cve-2026-60137) (1)
+- [CVE-2026-62144](#cve-2026-62144) (1)
+- [CVE-2026-62145](#cve-2026-62145) (1)
 - [CVE-2026-63030](#cve-2026-63030) (1)
 - [CVE-2026-6682](#cve-2026-6682) (1)
 - [CVE-2026-6683](#cve-2026-6683) (1)
@@ -1047,6 +1049,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull](#funnull) (1)
 - [futex PI](#futex-pi) (1)
 - [Gafgyt](#gafgyt) (1)
+- [GaiaOS WebUI](#gaiaos-webui) (1)
 - [Gamaredon](#gamaredon) (3)
 - [Gamaredon collaboration](#gamaredon-collaboration) (1)
 - [gambling](#gambling) (1)
@@ -5596,6 +5599,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-60137
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
+## CVE-2026-62144
+- [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
+
+## CVE-2026-62145
+- [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
+
 ## CVE-2026-63030
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
@@ -6935,6 +6944,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Gafgyt
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
+
+## GaiaOS WebUI
+- [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 
 ## Gamaredon
 - [Gamaredon](../actors/gamaredon.md)
