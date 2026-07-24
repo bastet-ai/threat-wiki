@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [JADEPUFFER autonomous-ransomware analysis: adaptive payloads and indicator caveats](ops/jadepuffer-langflow-agentic-ransomware.md#trend-micro-july-24-analysis)
 - [MrMustard PyPI credential-stealer compromise](ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Fake Corepack site infostealer and proxyware campaign](ops/fake-corepack-site-infostealer-proxyware.md)
 - [Check Point SmartConsole emergency update: companion CVEs and sixth exploitation IP](ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md#companion-vulnerabilities-in-the-emergency-update)

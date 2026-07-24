@@ -33,6 +33,17 @@ This is durable defender signal even if the specific victim path is narrow: expo
 - The Nacos impact was effectively unrecoverable: Sysdig says the agent encrypted 1,342 configuration items, dropped original tables, generated a random key, printed it once, and did not persist or transmit it.
 - The follow-up operation replaced improvised encryption with ENCFORGE, a purpose-built locker covering roughly 180 extensions and using the Docker socket to cross from the compromised container to the host.
 
+## Trend Micro July 24 analysis
+Trend Micro published a synthesis of Sysdig's evidence and framed JADEPUFFER as the first reported case combining all three of these properties: an end-to-end agent-driven chain, destructive extortion impact, and a live production target. That is a useful description of the public claim, not independent victim telemetry: the underlying incident evidence still comes from Sysdig.
+
+- The captured agent issued **more than 600 distinct purposeful payloads** during the intrusion rather than replaying one static toolchain.
+- After creating a Nacos backdoor administrator with a malformed password hash, it diagnosed the failed login, removed the account, generated a valid hash, recreated the account, and confirmed access in about **31 seconds**.
+- When an object-storage service returned an unexpected format, the agent rewrote its parser. When it learned that another path used a custom secret, it abandoned that path. These are durable examples of adaptive execution that defenders should model as behavior rather than as a reusable payload signature.
+- The monetization path was nonfunctional: the agent failed to retain the encryption key and copied a public Bitcoin documentation example into the ransom note. Successful destructive impact therefore did not imply a viable decryption or payment workflow.
+- Trend Micro cautions that `64.20.53[.]230` appeared only in a payload comment and was likely model-invented; the public example Bitcoin address is also not attacker infrastructure. Neither should be promoted as a confirmed malicious indicator.
+
+The defender implication is narrower than “AI makes existing controls obsolete.” JADEPUFFER succeeded through a patched-in-2025 Langflow flaw, default MinIO credentials, a known Nacos authentication weakness, and an unrotated signing key. Autonomous execution compressed the sequence and made the payloads disposable, but established exposure reduction, credential rotation, process telemetry, and recoverable backups still address the durable failure modes.
+
 ## ENCFORGE follow-up
 - JADEPUFFER returned to the same Langflow instance after Sysdig's first report and used the same CVE-2025-3248 entry point.
 - After an in-container payload fetch failed, the operator iterated six Python scripts in five minutes and 24 seconds, ultimately creating a privileged container with host PID/network namespaces and a read-write host-root mount.
@@ -67,6 +78,7 @@ This is durable defender signal even if the specific victim path is narrow: expo
 4. Treat compromise of AI workflow hosts as a credential-scoping incident: review environment variables, mounted secrets, cloud role bindings, S3-compatible object stores, SSH material, database credentials, and reachable internal services.
 5. For Nacos deployments, rotate default JWT signing keys, remove public exposure, patch known authentication bypasses, audit admin users, and review config-history tables for mass update, encryption, deletion, or ransom-note artifacts.
 6. Do not rely on ransom payment as a recovery path when destructive automation is involved; prioritize offline backups, configuration export hygiene, and database point-in-time recovery.
+7. Prefer behavior detections over JADEPUFFER's weak or disposable network indicators: application-server child processes decoding inline payloads, newly created fixed-interval cron beacons, forged or unexpected Nacos administrators, and bulk `AES_ENCRYPT()` activity followed by configuration-table deletion.
 
 ## Related pages
 - [Langflow CVE-2026-33017 cryptominer SSH worm](langflow-cve-2026-33017-cryptominer-ssh-worm.md)
@@ -79,4 +91,5 @@ This is durable defender signal even if the specific victim path is narrow: expo
 ## Sources
 - Sysdig Threat Research Team: [https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion)
 - Sysdig Threat Research Team: [JADEPUFFER evolves: ransomware built to destroy AI models](https://www.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models)
+- Trend Micro Research: [The Signs Were There: What the First Autonomous Ransomware Case Confirms](https://www.trendmicro.com/en_us/research/26/g/autonomous-ransomware.html)
 - The Hacker News: [https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html](https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html)
