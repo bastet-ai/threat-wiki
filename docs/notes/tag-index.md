@@ -57,7 +57,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Advanced IP Scanner](#advanced-ip-scanner) (1)
 - [Adversa AI](#adversa-ai) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (5)
-- [adware](#adware) (4)
+- [adware](#adware) (5)
 - [adware history](#adware-history) (1)
 - [AES-128-CBC](#aes-128-cbc) (1)
 - [AES-256-CTR](#aes-256-ctr) (1)
@@ -296,7 +296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Braintree](#braintree) (1)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
-- [brand impersonation](#brand-impersonation) (2)
+- [brand impersonation](#brand-impersonation) (3)
 - [brand-impersonation](#brand-impersonation) (1)
 - [Brazil](#brazil) (4)
 - [Brazilian banking malware](#brazilian-banking-malware) (1)
@@ -307,6 +307,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
 - [browser credential theft](#browser-credential-theft) (22)
+- [browser data theft](#browser-data-theft) (1)
 - [browser extension](#browser-extension) (9)
 - [browser extension loader](#browser-extension-loader) (1)
 - [browser hijacking](#browser-hijacking) (2)
@@ -491,7 +492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COM-hijacking](#com-hijacking) (1)
 - [ComfyUI](#comfyui) (1)
 - [command and control](#command-and-control) (2)
-- [command execution](#command-execution) (6)
+- [command execution](#command-execution) (7)
 - [command injection](#command-injection) (7)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
@@ -530,6 +531,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Copilot](#copilot) (1)
 - [Copilot CLI](#copilot-cli) (1)
 - [Copy-on-Write](#copy-on-write) (1)
+- [Corepack](#corepack) (1)
 - [Coruna](#coruna) (1)
 - [counterfeit software](#counterfeit-software) (1)
 - [COW](#cow) (1)
@@ -788,8 +790,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (9)
 - [developer mode](#developer-mode) (1)
 - [developer platform](#developer-platform) (1)
-- [developer targeting](#developer-targeting) (6)
-- [developer tooling](#developer-tooling) (5)
+- [developer targeting](#developer-targeting) (7)
+- [developer tooling](#developer-tooling) (6)
 - [developer workstations](#developer-workstations) (3)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
 - [developer-targeting](#developer-targeting) (19)
@@ -1266,7 +1268,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (1)
-- [infostealer](#infostealer) (23)
+- [infostealer](#infostealer) (24)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (5)
 - [infrastructure disruption](#infrastructure-disruption) (3)
@@ -1503,10 +1505,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious plugin](#malicious-plugin) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
-- [malvertising](#malvertising) (7)
+- [malvertising](#malvertising) (8)
 - [malware](#malware) (45)
 - [malware analysis](#malware-analysis) (2)
-- [malware delivery](#malware-delivery) (6)
+- [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (2)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-as-a-service](#malware-as-a-service) (5)
@@ -1686,7 +1688,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-gyp](#node-gyp) (2)
 - [node-ipc](#node-ipc) (1)
 - [node-pty](#node-pty) (1)
-- [Node.js](#nodejs) (3)
+- [Node.js](#nodejs) (4)
 - [Node.js implant](#nodejs-implant) (1)
 - [Node.js malware](#nodejs-malware) (1)
 - [North Korea](#north-korea) (12)
@@ -1748,6 +1750,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenConnect](#openconnect) (1)
 - [OpenHands](#openhands) (1)
 - [OpenSearch](#opensearch) (1)
+- [OpenShield](#openshield) (1)
 - [OpenSSH](#openssh) (2)
 - [OpenVPN](#openvpn) (1)
 - [OpenVPN-shaped UDP](#openvpn-shaped-udp) (1)
@@ -1761,9 +1764,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (223)
+- [operations](#operations) (224)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (251)
+- [ops](#ops) (252)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1854,7 +1857,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (23)
+- [phishing](#phishing) (24)
 - [phishing-as-a-service](#phishing-as-a-service) (5)
 - [PHP](#php) (2)
 - [PHP code execution](#php-code-execution) (1)
@@ -1903,7 +1906,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (10)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (22)
+- [PowerShell](#powershell) (23)
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShower](#powershower) (1)
@@ -1950,6 +1953,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [proxy](#proxy) (8)
 - [proxy network](#proxy-network) (2)
 - [ProxyChains](#proxychains) (1)
+- [proxyjacking](#proxyjacking) (1)
+- [proxyware](#proxyware) (1)
 - [prt-scan](#prt-scan) (1)
 - [PSEMHUB](#psemhub) (1)
 - [PsExec](#psexec) (2)
@@ -2108,6 +2113,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ruckus routers](#ruckus-routers) (1)
 - [RUGGEDCOM](#ruggedcom) (1)
 - [Run key](#run-key) (1)
+- [Run key persistence](#run-key-persistence) (1)
 - [rundll32](#rundll32) (2)
 - [Runner.Worker](#runnerworker) (1)
 - [Runspace](#runspace) (1)
@@ -2165,6 +2171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [script-injection](#script-injection) (1)
 - [SD-WAN](#sd-wan) (1)
 - [search hijacking](#search-hijacking) (1)
+- [search poisoning](#search-poisoning) (1)
 - [search result poisoning](#search-result-poisoning) (1)
 - [search-ms](#search-ms) (1)
 - [Seashell Blizzard](#seashell-blizzard) (2)
@@ -2278,7 +2285,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (4)
 - [Socket Security](#socket-security) (3)
-- [Socket Security Research](#socket-security-research) (1)
+- [Socket Security Research](#socket-security-research) (2)
 - [Socket.IO](#socketio) (2)
 - [SOCKS tunneling](#socks-tunneling) (1)
 - [SOCKS5](#socks5) (5)
@@ -2335,7 +2342,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH brute force](#ssh-brute-force) (1)
 - [SSH key exposure](#ssh-key-exposure) (1)
 - [SSH key persistence](#ssh-key-persistence) (1)
-- [SSH keys](#ssh-keys) (2)
+- [SSH keys](#ssh-keys) (3)
 - [SSH lateral movement](#ssh-lateral-movement) (1)
 - [SSH persistence](#ssh-persistence) (1)
 - [SSH tunnel](#ssh-tunnel) (1)
@@ -3032,6 +3039,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## adware
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -3924,6 +3932,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## brand impersonation
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 
 ## brand-impersonation
@@ -3981,6 +3990,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
+
+## browser data theft
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 
 ## browser extension
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
@@ -4760,6 +4772,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -4903,6 +4916,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Copy-on-Write
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
+## Corepack
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 
 ## Coruna
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -5930,6 +5946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## developer targeting
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
@@ -5939,6 +5956,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
@@ -7762,6 +7780,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -8674,6 +8693,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malvertising
 - [ACR Stealer](../tools/acr-stealer.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -8733,6 +8753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malware delivery
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
@@ -9393,6 +9414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 
 ## Node.js
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [TaskWeaver](../tools/taskweaver.md)
@@ -9672,6 +9694,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OpenSearch
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
+## OpenShield
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
+
 ## OpenSSH
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Velvet Ant](../actors/velvet-ant.md)
@@ -9775,6 +9800,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -10009,6 +10035,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -10558,6 +10585,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Ghostwriter](../actors/ghostwriter.md)
@@ -10748,6 +10776,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
@@ -10943,6 +10972,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ProxyChains
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
+## proxyjacking
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
+
+## proxyware
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 
 ## prt-scan
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
@@ -11570,6 +11605,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Run key
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
+## Run key persistence
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
+
 ## rundll32
 - [ACR Stealer](../tools/acr-stealer.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -11802,6 +11840,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## search hijacking
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
+## search poisoning
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 
 ## search result poisoning
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
@@ -12214,6 +12255,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Socket Security Research
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 
 ## Socket.IO
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
@@ -12422,6 +12464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SSH keys
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
+- [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 
 ## SSH lateral movement
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)

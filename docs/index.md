@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Fake Corepack site infostealer and proxyware campaign](ops/fake-corepack-site-infostealer-proxyware.md)
 - [Check Point SmartConsole emergency update: companion CVEs and sixth exploitation IP](ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md#companion-vulnerabilities-in-the-emergency-update)
 - [Ulej / Flowerbed: joint-government Zimbra espionage follow-up](tools/ulej-flowerbed.md)
 - [CL-STA-1114 Zimbra webmail espionage: AA26-204A follow-up](ops/cl-sta-1114-zimbra-webmail-espionage.md#joint-advisory-technical-follow-up)
