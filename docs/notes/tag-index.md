@@ -62,6 +62,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AES-128-CBC](#aes-128-cbc) (1)
 - [AES-256-CTR](#aes-256-ctr) (1)
 - [AES-256-GCM](#aes-256-gcm) (2)
+- [AES-CTR](#aes-ctr) (1)
 - [AES-GCM](#aes-gcm) (3)
 - [AES-GCM C2](#aes-gcm-c2) (1)
 - [affiliate hijacking](#affiliate-hijacking) (1)
@@ -305,6 +306,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Breeze Cache Cleaner](#breeze-cache-cleaner) (1)
 - [BRICKSTORM](#brickstorm) (2)
 - [Broadcom](#broadcom) (2)
+- [browser assembly](#browser-assembly) (1)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
 - [browser credential theft](#browser-credential-theft) (22)
@@ -331,7 +333,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [build-time compromise](#build-time-compromise) (1)
 - [building automation](#building-automation) (1)
 - [bulletproof hosting](#bulletproof-hosting) (1)
-- [Bun](#bun) (2)
+- [Bun](#bun) (3)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [business email compromise](#business-email-compromise) (2)
 - [BusySnake Stealer](#busysnake-stealer) (3)
@@ -443,7 +445,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [clipboard theft](#clipboard-theft) (6)
 - [clipper](#clipper) (2)
 - [Cloaked Ursa](#cloaked-ursa) (1)
-- [cloaking](#cloaking) (1)
+- [cloaking](#cloaking) (2)
 - [cloud](#cloud) (6)
 - [cloud C2](#cloud-c2) (2)
 - [cloud compromise](#cloud-compromise) (1)
@@ -569,7 +571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto clipper](#crypto-clipper) (1)
 - [crypto wallets](#crypto-wallets) (2)
 - [crypto-wallets](#crypto-wallets) (1)
-- [cryptocurrency](#cryptocurrency) (12)
+- [cryptocurrency](#cryptocurrency) (13)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
 - [cryptocurrency theft](#cryptocurrency-theft) (10)
 - [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (5)
@@ -770,7 +772,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Defender evasion](#defender-evasion) (2)
 - [Defender exclusion](#defender-exclusion) (1)
 - [defense](#defense) (3)
-- [defense evasion](#defense-evasion) (5)
+- [defense evasion](#defense-evasion) (6)
 - [defense targeting](#defense-targeting) (1)
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
@@ -1329,6 +1331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript malware](#javascript-malware) (2)
 - [JavaScript masquerading](#javascript-masquerading) (1)
 - [JavaScript tampering](#javascript-tampering) (1)
+- [JavaScriptCore](#javascriptcore) (1)
 - [JCE](#jce) (1)
 - [JDY](#jdy) (1)
 - [Jellyfin](#jellyfin) (1)
@@ -1491,6 +1494,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lumen Black Lotus Labs](#lumen-black-lotus-labs) (1)
 - [Lumma Stealer](#lumma-stealer) (1)
 - [Luna Moth](#luna-moth) (1)
+- [Luno](#luno) (1)
 - [Lyceum](#lyceum) (1)
 - [M-RED-TEAM](#m-red-team) (1)
 - [MaaS](#maas) (6)
@@ -1516,7 +1520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious plugin](#malicious-plugin) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
-- [malvertising](#malvertising) (8)
+- [malvertising](#malvertising) (9)
 - [malware](#malware) (45)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
@@ -1776,9 +1780,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (227)
+- [operations](#operations) (228)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (255)
+- [ops](#ops) (256)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2087,6 +2091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [REST API](#rest-api) (1)
 - [REST C2](#rest-c2) (1)
 - [restart-triggered execution](#restart-triggered-execution) (1)
+- [retail trading](#retail-trading) (1)
 - [reverse proxy](#reverse-proxy) (2)
 - [reverse SSH tunneling](#reverse-ssh-tunneling) (2)
 - [reverse tunneling](#reverse-tunneling) (1)
@@ -2225,6 +2230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [service-agent](#service-agent) (1)
 - [ServiceNow](#servicenow) (2)
 - [ServiceNow AI Platform](#servicenow-ai-platform) (1)
+- [ServiceWorker](#serviceworker) (1)
 - [session cookie theft](#session-cookie-theft) (3)
 - [session hijacking](#session-hijacking) (2)
 - [session secret exposure](#session-secret-exposure) (1)
@@ -2243,6 +2249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [share propagation](#share-propagation) (1)
 - [shared hosting](#shared-hosting) (3)
 - [shared secrets](#shared-secrets) (1)
+- [SharedWorker](#sharedworker) (1)
 - [ShareFile](#sharefile) (1)
 - [SharePoint](#sharepoint) (5)
 - [SharePoint Server](#sharepoint-server) (1)
@@ -2315,7 +2322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [software-deployment](#software-deployment) (1)
 - [SOHO router](#soho-router) (1)
 - [SOHO routers](#soho-routers) (1)
-- [Solana](#solana) (2)
+- [Solana](#solana) (3)
 - [SolarWinds](#solarwinds) (1)
 - [Solid PDF Creator](#solid-pdf-creator) (1)
 - [SolidPDFCreator.dll](#solidpdfcreatordll) (1)
@@ -2332,6 +2339,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [source-repository poisoning](#source-repository-poisoning) (5)
 - [source-repository reconnaissance](#source-repository-reconnaissance) (1)
 - [SourceForge abuse](#sourceforge-abuse) (1)
+- [SourTrade](#sourtrade) (1)
 - [South Africa](#south-africa) (1)
 - [South Asia](#south-asia) (1)
 - [South Korea](#south-korea) (2)
@@ -2520,6 +2528,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
+- [TradingView](#tradingview) (1)
 - [traffic broker](#traffic-broker) (1)
 - [traffic control](#traffic-control) (1)
 - [traffic hijacking](#traffic-hijacking) (1)
@@ -2738,7 +2747,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Forms](#windows-forms) (1)
-- [Windows malware](#windows-malware) (10)
+- [Windows malware](#windows-malware) (11)
 - [Windows persistence](#windows-persistence) (1)
 - [Windows Run dialog](#windows-run-dialog) (1)
 - [Windows Script Host](#windows-script-host) (2)
@@ -3075,6 +3084,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AES-256-GCM
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
+
+## AES-CTR
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
 ## AES-GCM
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
@@ -3984,6 +3996,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
+## browser assembly
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
+
 ## browser automation
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
@@ -4100,6 +4115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bun
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
 ## Bun runtime abuse
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
@@ -4595,6 +4611,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloaking
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
 ## cloud
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
@@ -5194,6 +5211,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
 ## cryptocurrency scam
@@ -5878,6 +5896,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [ROADtools](../tools/roadtools.md)
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
 ## defense targeting
 - [Turla](../actors/turla.md)
@@ -8052,6 +8071,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JavaScript tampering
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## JavaScriptCore
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
+
 ## JCE
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
@@ -8651,6 +8673,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Luna Moth
 - [UNC3753](../actors/unc3753.md)
 
+## Luno
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
+
 ## Lyceum
 - [Cavern Manticore](../actors/cavern-manticore.md)
 
@@ -8757,6 +8782,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -9997,6 +10023,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -10250,6 +10277,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -11546,6 +11574,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## restart-triggered execution
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
+## retail trading
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
+
 ## reverse proxy
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
@@ -12060,6 +12091,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ServiceNow AI Platform
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 
+## ServiceWorker
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
+
 ## session cookie theft
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
@@ -12129,6 +12163,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## shared secrets
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## SharedWorker
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
 ## ShareFile
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
@@ -12394,6 +12431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Solana
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
 ## SolarWinds
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -12450,6 +12488,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SourceForge abuse
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
+## SourTrade
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
 ## South Africa
 - [Webworm](../actors/webworm.md)
@@ -13263,6 +13304,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Trading Technologies
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+
+## TradingView
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
 ## traffic broker
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
@@ -14133,6 +14177,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MODBEACON](../tools/modbeacon.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
+- [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [TELEPUZ](../tools/telepuz.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
