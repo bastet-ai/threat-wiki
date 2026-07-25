@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Fastjson CVE-2026-16723 active exploitation: ops/fastjson-cve-2026-16723-active-exploitation.md
       - GitLab Oj notebook-diff authenticated RCE chain: ops/gitlab-oj-notebook-diff-authenticated-rce.md
       - MrMustard PyPI credential-stealer compromise: ops/mrmustard-pypi-credential-stealer-compromise.md
       - Fake Corepack site infostealer and proxyware campaign: ops/fake-corepack-site-infostealer-proxyware.md

@@ -36,7 +36,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (50)
+- [active exploitation](#active-exploitation) (51)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (2)
 - [active-exploitation](#active-exploitation) (1)
@@ -635,6 +635,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-15409](#cve-2026-15409) (1)
 - [CVE-2026-15410](#cve-2026-15410) (1)
 - [CVE-2026-16232](#cve-2026-16232) (1)
+- [CVE-2026-16723](#cve-2026-16723) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
 - [CVE-2026-20230](#cve-2026-20230) (1)
@@ -778,7 +779,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Deno](#deno) (2)
 - [dependency confusion](#dependency-confusion) (3)
 - [deployment_status](#deployment_status) (1)
-- [deserialization](#deserialization) (5)
+- [deserialization](#deserialization) (6)
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
 - [detection engineering](#detection-engineering) (1)
@@ -982,6 +983,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fast16](#fast16) (1)
 - [FastAPI](#fastapi) (1)
 - [FastCGI](#fastcgi) (1)
+- [Fastjson](#fastjson) (1)
+- [fat JAR](#fat-jar) (1)
 - [FAT32](#fat32) (1)
 - [FatFs](#fatfs) (1)
 - [FBI](#fbi) (2)
@@ -1316,6 +1319,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Januscape](#januscape) (1)
 - [Japan](#japan) (1)
 - [JARLEASH](#jarleash) (1)
+- [Java](#java) (1)
 - [Java malware](#java-malware) (1)
 - [JavaScript](#javascript) (15)
 - [JavaScript bridge](#javascript-bridge) (1)
@@ -1345,6 +1349,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JSCoreRunner](#jscorerunner) (1)
 - [jscrambler](#jscrambler) (1)
 - [Jscrambler](#jscrambler) (1)
+- [JSON](#json) (1)
 - [JSON:API](#jsonapi) (1)
 - [JSONKeeper](#jsonkeeper) (1)
 - [JSONPing](#jsonping) (1)
@@ -1771,9 +1776,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (226)
+- [operations](#operations) (227)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (254)
+- [ops](#ops) (255)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2057,7 +2062,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access](#remote-access) (6)
 - [remote access trojan](#remote-access-trojan) (3)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (17)
+- [remote code execution](#remote-code-execution) (18)
 - [remote debugging](#remote-debugging) (2)
 - [remote MCP](#remote-mcp) (1)
 - [remote monitoring and management](#remote-monitoring-and-management) (1)
@@ -2341,6 +2346,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SpiderLabs](#spiderlabs) (1)
 - [Spikey Scorpius](#spikey-scorpius) (1)
 - [Splunk](#splunk) (1)
+- [Spring Boot](#spring-boot) (1)
 - [SprySOCKS](#sprysocks) (2)
 - [spyware](#spyware) (1)
 - [SQL injection](#sql-injection) (5)
@@ -2571,7 +2577,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Umbrij](#umbrij) (3)
 - [unauthenticated access](#unauthenticated-access) (1)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
-- [unauthenticated RCE](#unauthenticated-rce) (3)
+- [unauthenticated RCE](#unauthenticated-rce) (4)
 - [UNC1543](#unc1543) (1)
 - [UNC2814](#unc2814) (1)
 - [UNC3753](#unc3753) (1)
@@ -2665,7 +2671,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VU#213560](#vu213560) (1)
 - [VulnCheck](#vulncheck) (1)
 - [vulnerability](#vulnerability) (22)
-- [vulnerability exploitation](#vulnerability-exploitation) (1)
+- [vulnerability exploitation](#vulnerability-exploitation) (2)
 - [vulnerability research](#vulnerability-research) (4)
 - [vulnerability-research](#vulnerability-research) (1)
 - [vulnerable appliances](#vulnerable-appliances) (1)
@@ -2687,7 +2693,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [weak credentials](#weak-credentials) (1)
 - [weak passwords](#weak-passwords) (1)
 - [weapons shipments](#weapons-shipments) (1)
-- [web application](#web-application) (4)
+- [web application](#web-application) (5)
 - [web application compromise](#web-application-compromise) (1)
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
@@ -2931,6 +2937,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -5411,6 +5418,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-16232
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 
+## CVE-2026-16723
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
+
 ## CVE-2026-20127
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
@@ -5906,6 +5916,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## deserialization
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
@@ -6744,6 +6755,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FastCGI
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+
+## Fastjson
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
+
+## fat JAR
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 
 ## FAT32
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -7989,6 +8006,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JARLEASH
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
+## Java
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
+
 ## Java malware
 - [QuimaRAT](../tools/quimarat.md)
 
@@ -8099,6 +8119,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Jscrambler
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+
+## JSON
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 
 ## JSON:API
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -9848,6 +9871,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -10085,6 +10109,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
@@ -11429,6 +11454,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
@@ -12481,6 +12507,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Splunk
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
+## Spring Boot
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
+
 ## SprySOCKS
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
@@ -13463,6 +13492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unauthenticated RCE
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
@@ -13823,6 +13853,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## vulnerability exploitation
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
 ## vulnerability research
@@ -13905,6 +13936,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## web application
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
