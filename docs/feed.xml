@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>GitLab Oj notebook-diff authenticated RCE chain</title>
+      <link>https://threat.wiki/ops/gitlab-oj-notebook-diff-authenticated-rce/</link>
+      <description>Added depthfirst and GitLab evidence for a public authenticated RCE chain in self-managed GitLab. Coverage records the crafted Jupyter notebook diff path into Oj's native parser, heap-pointer disclosure and out-of-bounds write, command execution as git, affected and fixed GitLab and Oj versions, public-PoC versus in-the-wild exploitation caveats, Helm and Operator version-validation guidance, and notebook-diff, Puma, credential, and post-exploitation response pivots.</description>
+      <pubDate>Sat, 25 Jul 2026 11:29:15 GMT</pubDate>
+      <guid>https://threat.wiki/ops/gitlab-oj-notebook-diff-authenticated-rce/</guid>
+    </item>
+    <item>
       <title>JADEPUFFER autonomous-ransomware analysis: adaptive payloads and indicator caveats</title>
       <link>https://threat.wiki/ops/jadepuffer-langflow-agentic-ransomware/#trend-micro-july-24-analysis</link>
       <description>Updated JADEPUFFER coverage with Trend Micro's July 24 analysis of the Sysdig-reported incident. The page now records more than 600 adaptive payloads, a roughly 31-second failed-account self-correction, runtime parser rewriting, the nonfunctional key and payment path, caveats against treating a likely model-invented exfiltration IP or public sample Bitcoin address as attacker infrastructure, and behavior-first hunting guidance.</description>

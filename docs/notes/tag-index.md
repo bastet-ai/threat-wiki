@@ -211,6 +211,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [audit logging](#audit-logging) (1)
 - [AUR](#aur) (1)
 - [authenticated RCE](#authenticated-rce) (1)
+- [authenticated remote code execution](#authenticated-remote-code-execution) (1)
 - [authentication bypass](#authentication-bypass) (15)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
@@ -787,6 +788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer endpoints](#developer-endpoints) (2)
 - [Developer ID abuse](#developer-id-abuse) (1)
 - [developer identity](#developer-identity) (1)
+- [developer infrastructure](#developer-infrastructure) (1)
 - [developer machines](#developer-machines) (9)
 - [developer mode](#developer-mode) (1)
 - [developer platform](#developer-platform) (1)
@@ -1097,7 +1099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Security Advisories](#github-security-advisories) (2)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
-- [GitLab](#gitlab) (1)
+- [GitLab](#gitlab) (2)
 - [gitleaks](#gitleaks) (1)
 - [GitOps](#gitops) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
@@ -1178,6 +1180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [headless browser](#headless-browser) (2)
 - [healthcare](#healthcare) (2)
 - [heap buffer overflow](#heap-buffer-overflow) (1)
+- [heap pointer disclosure](#heap-pointer-disclosure) (1)
 - [HelloBackdoor](#hellobackdoor) (1)
 - [HelloCleaner](#hellocleaner) (1)
 - [HelloDoor](#hellodoor) (1)
@@ -1295,6 +1298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IPFS](#ipfs) (1)
 - [IPsec](#ipsec) (1)
 - [IPv6](#ipv6) (2)
+- [ipynbdiff](#ipynbdiff) (1)
 - [Iran](#iran) (8)
 - [Iran-nexus](#iran-nexus) (1)
 - [IRGC](#irgc) (1)
@@ -1346,6 +1350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JSONPing](#jsonping) (1)
 - [JSP web shell](#jsp-web-shell) (1)
 - [JuicyPotato](#juicypotato) (2)
+- [Jupyter Notebook](#jupyter-notebook) (1)
 - [JustWatch](#justwatch) (1)
 - [JXA downloader](#jxa-downloader) (1)
 - [K1MORPHER](#k1morpher) (2)
@@ -1539,7 +1544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [medical research](#medical-research) (1)
 - [Mekotio](#mekotio) (1)
 - [memfd](#memfd) (1)
-- [memory corruption](#memory-corruption) (1)
+- [memory corruption](#memory-corruption) (2)
 - [memory disclosure](#memory-disclosure) (2)
 - [memory implant](#memory-implant) (1)
 - [memory overread](#memory-overread) (1)
@@ -1655,7 +1660,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nation-state](#nation-state) (1)
 - [national identity records](#national-identity-records) (1)
 - [native addon](#native-addon) (1)
-- [native extension](#native-extension) (2)
+- [native extension](#native-extension) (3)
 - [NativeAOT](#nativeaot) (3)
 - [NATO](#nato) (3)
 - [NATS](#nats) (1)
@@ -1732,6 +1737,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Offshore LC](#offshore-lc) (1)
 - [OIDC](#oidc) (7)
 - [OilRig](#oilrig) (1)
+- [Oj](#oj) (1)
 - [OkoBot](#okobot) (1)
 - [Okta](#okta) (4)
 - [Okta Threat Intelligence](#okta-threat-intelligence) (1)
@@ -1765,9 +1771,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (225)
+- [operations](#operations) (226)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (253)
+- [ops](#ops) (254)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1782,6 +1788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OTA update](#ota-update) (1)
 - [OTP interception](#otp-interception) (1)
 - [OtterCookie](#ottercookie) (1)
+- [out-of-bounds write](#out-of-bounds-write) (1)
 - [Outlook](#outlook) (1)
 - [overlay attacks](#overlay-attacks) (2)
 - [OX Security](#ox-security) (1)
@@ -1969,6 +1976,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PteroVDoor](#pterovdoor) (2)
 - [public exploit](#public-exploit) (3)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
+- [public proof of concept](#public-proof-of-concept) (1)
 - [public sector](#public-sector) (2)
 - [public service abuse](#public-service-abuse) (1)
 - [pull requests](#pull-requests) (2)
@@ -2310,7 +2318,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SonicWall](#sonicwall) (2)
 - [Sophos](#sophos) (1)
 - [source code](#source-code) (1)
-- [source control](#source-control) (2)
+- [source control](#source-control) (3)
 - [source repository compromise](#source-repository-compromise) (1)
 - [source-code compromise](#source-code-compromise) (1)
 - [source-control token theft](#source-control-token-theft) (1)
@@ -2658,7 +2666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VulnCheck](#vulncheck) (1)
 - [vulnerability](#vulnerability) (22)
 - [vulnerability exploitation](#vulnerability-exploitation) (1)
-- [vulnerability research](#vulnerability-research) (3)
+- [vulnerability research](#vulnerability-research) (4)
 - [vulnerability-research](#vulnerability-research) (1)
 - [vulnerable appliances](#vulnerable-appliances) (1)
 - [VXLAN](#vxlan) (1)
@@ -3616,6 +3624,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## authenticated RCE
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
+
+## authenticated remote code execution
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
 ## authentication bypass
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
@@ -5933,6 +5944,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## developer identity
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 
+## developer infrastructure
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
+
 ## developer machines
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
@@ -7159,6 +7173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 
 ## GitLab
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
 ## gitleaks
@@ -7456,6 +7471,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## heap buffer overflow
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+
+## heap pointer disclosure
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
 ## HelloBackdoor
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
@@ -7904,6 +7922,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 
+## ipynbdiff
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
+
 ## Iran
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Cavern](../tools/cavern.md)
@@ -8094,6 +8115,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JuicyPotato
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
+
+## Jupyter Notebook
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
 ## JustWatch
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -8883,6 +8907,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## memory corruption
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
 ## memory disclosure
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -9317,6 +9342,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## native extension
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
 ## NativeAOT
 - [Cavern](../tools/cavern.md)
@@ -9644,6 +9670,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OilRig
 - [Cavern Manticore](../actors/cavern-manticore.md)
 
+## Oj
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
+
 ## OkoBot
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
@@ -9831,6 +9860,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
@@ -10068,6 +10098,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
@@ -10282,6 +10313,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OtterCookie
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
+
+## out-of-bounds write
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
 ## Outlook
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -11042,6 +11076,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## public file-transfer exfiltration
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## public proof of concept
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
 ## public sector
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
@@ -12357,6 +12394,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## source control
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
 ## source repository compromise
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
@@ -13790,6 +13828,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vulnerability research
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+- [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 
 ## vulnerability-research
