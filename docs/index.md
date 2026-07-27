@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [FortiOS CVE-2025-68686 symlink-persistence bypass: CISA KEV](ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Operation BlueDash multi-RMM workplace phishing](ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [TELESHIM Middle East government espionage campaign](ops/teleshim-middle-east-government-espionage.md)
 - [TELESHIM](tools/teleshim.md), [MIXEDKEY](tools/mixedkey.md), and [BINDCLOAK](tools/bindcloak.md)

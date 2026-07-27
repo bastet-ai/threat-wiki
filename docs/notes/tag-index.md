@@ -36,7 +36,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (51)
+- [active exploitation](#active-exploitation) (52)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (2)
 - [active-exploitation](#active-exploitation) (1)
@@ -412,7 +412,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
 - [CISA](#cisa) (3)
-- [CISA KEV](#cisa-kev) (24)
+- [CISA KEV](#cisa-kev) (25)
 - [Cisco](#cisco) (3)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -513,7 +513,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [computer vision](#computer-vision) (1)
 - [Conditional Access](#conditional-access) (1)
 - [configuration exposure](#configuration-exposure) (1)
-- [configuration theft](#configuration-theft) (1)
+- [configuration theft](#configuration-theft) (2)
 - [confused deputy](#confused-deputy) (3)
 - [ConfuserEx](#confuserex) (2)
 - [conhost](#conhost) (1)
@@ -628,6 +628,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-5777](#cve-2025-5777) (1)
 - [CVE-2025-66376](#cve-2025-66376) (3)
 - [CVE-2025-67038](#cve-2025-67038) (1)
+- [CVE-2025-68686](#cve-2025-68686) (1)
 - [CVE-2025-8088](#cve-2025-8088) (4)
 - [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-0770](#cve-2026-0770) (1)
@@ -874,7 +875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [eBPF](#ebpf) (3)
 - [Eclipse](#eclipse) (1)
 - [Ed25519](#ed25519) (1)
-- [edge appliance](#edge-appliance) (12)
+- [edge appliance](#edge-appliance) (13)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (3)
@@ -1045,9 +1046,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ForgCookie](#forgcookie) (1)
 - [Forgejo](#forgejo) (1)
 - [FortiClient EMS](#forticlient-ems) (1)
-- [FortiGate](#fortigate) (1)
-- [Fortinet](#fortinet) (3)
-- [FortiOS](#fortios) (1)
+- [FortiGate](#fortigate) (2)
+- [Fortinet](#fortinet) (4)
+- [FortiOS](#fortios) (2)
 - [FortiSandbox](#fortisandbox) (1)
 - [Fox Tempest](#fox-tempest) (2)
 - [fraud](#fraud) (2)
@@ -1270,7 +1271,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (24)
+- [incident response](#incident-response) (25)
 - [incident-response](#incident-response) (1)
 - [IndexedDB](#indexeddb) (1)
 - [India](#india) (3)
@@ -1284,7 +1285,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [industrial targeting](#industrial-targeting) (1)
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
-- [information disclosure](#information-disclosure) (1)
+- [information disclosure](#information-disclosure) (2)
 - [infostealer](#infostealer) (24)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (5)
@@ -1797,9 +1798,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (230)
+- [operations](#operations) (231)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (258)
+- [ops](#ops) (259)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1880,7 +1881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PeopleTools](#peopletools) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
-- [persistence](#persistence) (28)
+- [persistence](#persistence) (29)
 - [persistent root access](#persistent-root-access) (1)
 - [persona operations](#persona-operations) (1)
 - [personal access tokens](#personal-access-tokens) (2)
@@ -1933,7 +1934,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [portmap](#portmap) (1)
 - [Portugal](#portugal) (1)
 - [post-authentication RCE](#post-authentication-rce) (1)
-- [post-exploitation](#post-exploitation) (5)
+- [post-exploitation](#post-exploitation) (6)
 - [post-exploitation framework](#post-exploitation-framework) (1)
 - [postal-impersonation](#postal-impersonation) (1)
 - [PostCSS](#postcss) (1)
@@ -2393,7 +2394,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunnel](#ssh-tunnel) (1)
 - [SSH tunneling](#ssh-tunneling) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
-- [SSL VPN](#ssl-vpn) (1)
+- [SSL VPN](#ssl-vpn) (2)
 - [SSRF](#ssrf) (5)
 - [stack use-after-free](#stack-use-after-free) (1)
 - [staged malicious update](#staged-malicious-update) (1)
@@ -2447,6 +2448,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SWE-agent](#swe-agent) (1)
 - [SWUpdate](#swupdate) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (2)
+- [symbolic link](#symbolic-link) (1)
 - [symlink following](#symlink-following) (1)
 - [Synacktiv](#synacktiv) (1)
 - [Synology](#synology) (1)
@@ -2972,6 +2974,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
@@ -4488,6 +4491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
@@ -4915,6 +4919,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## configuration theft
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 
 ## confused deputy
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -5438,6 +5443,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2025-67038
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
+
+## CVE-2025-68686
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 
 ## CVE-2025-8088
 - [Gamaredon](../actors/gamaredon.md)
@@ -6357,6 +6365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
@@ -7015,14 +7024,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FortiGate
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 
 ## Fortinet
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 
 ## FortiOS
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 
 ## FortiSandbox
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -7835,6 +7847,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -7904,6 +7917,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## information disclosure
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 
 ## infostealer
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -10010,6 +10024,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -10252,6 +10267,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -10737,6 +10753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [MYRA RAT](../tools/myra-rat.md)
@@ -10954,6 +10971,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## post-exploitation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Showboat](../tools/showboat.md)
 - [TaskWeaver](../tools/taskweaver.md)
@@ -12746,6 +12764,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SSL VPN
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 
 ## SSRF
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -13027,6 +13046,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Symantec Threat Hunter Team
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+
+## symbolic link
+- [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 
 ## symlink following
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)

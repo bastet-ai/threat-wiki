@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>FortiOS CVE-2025-68686 symlink-persistence bypass: CISA KEV</title>
+      <link>https://threat.wiki/ops/fortios-cve-2025-68686-symlink-persistence-bypass/</link>
+      <description>Added CISA KEV and Fortinet incident-response guidance for a conditional FortiOS SSL-VPN information-exposure flaw. Coverage explains how crafted requests can reuse a symlink planted after an earlier appliance compromise, records affected and fixed branches plus the August 10 federal due date, reconciles CISA's current exploitation finding with Fortinet's older advisory status, and provides evidence-preservation, upgrade, rebuild, secret-rotation, and configuration-integrity guidance.</description>
+      <pubDate>Mon, 27 Jul 2026 17:25:52 GMT</pubDate>
+      <guid>https://threat.wiki/ops/fortios-cve-2025-68686-symlink-persistence-bypass/</guid>
+    </item>
+    <item>
       <title>TELESHIM Middle East government espionage campaign</title>
       <link>https://threat.wiki/ops/teleshim-middle-east-government-espionage/</link>
       <description>Added Zscaler ThreatLabz intelligence on an East Asia-linked but unattributed campaign against Middle Eastern government entities. Coverage reconstructs the ISO and DLL-side-loading chain through TELESHIM, MIXEDKEY, and BINDCLOAK; Telegram C2; scheduled-task persistence; operator reconnaissance; victim-specific volume-serial environmental keying; public file, path, task, domain, mutex, and hash pivots; evidence-preservation guidance; and attribution and victim-scope caveats.</description>

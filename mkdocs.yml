@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - FortiOS CVE-2025-68686 symlink-persistence bypass: ops/fortios-cve-2025-68686-symlink-persistence-bypass.md
       - Operation BlueDash multi-RMM workplace phishing: ops/operation-bluedash-multi-rmm-workplace-phishing.md
       - TELESHIM Middle East government espionage campaign: ops/teleshim-middle-east-government-espionage.md
       - SourTrade browser-assembled malware malvertising: ops/sourtrade-browser-assembled-malware-malvertising.md
