@@ -137,7 +137,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android malware](#android-malware) (2)
 - [Android spyware](#android-spyware) (3)
 - [Anthropic](#anthropic) (1)
-- [anti-analysis](#anti-analysis) (4)
+- [anti-analysis](#anti-analysis) (6)
 - [anti-bot](#anti-bot) (1)
 - [anti-forensics](#anti-forensics) (2)
 - [Anubis ransomware](#anubis-ransomware) (1)
@@ -237,7 +237,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure DevOps](#azure-devops) (1)
 - [Azure Storage](#azure-storage) (1)
 - [Backblaze](#backblaze) (1)
-- [backdoor](#backdoor) (14)
+- [backdoor](#backdoor) (16)
 - [Backdoor.Mistic](#backdoormistic) (1)
 - [Backstage](#backstage) (1)
 - [backup disruption](#backup-disruption) (1)
@@ -271,6 +271,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Binance Smart Chain](#binance-smart-chain) (1)
 - [binary execution](#binary-execution) (1)
 - [BinaryFormatter](#binaryformatter) (1)
+- [BINDCLOAK](#bindcloak) (3)
 - [binding.gyp](#bindinggyp) (2)
 - [biometric records](#biometric-records) (1)
 - [BIOPASS RAT](#biopass-rat) (1)
@@ -341,9 +342,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BYOVD](#byovd) (3)
 - [bypass2fa](#bypass2fa) (1)
 - [C#](#c) (1)
+- [C++](#c) (2)
 - [C++/CLI](#ccli) (1)
 - [C0XMO](#c0xmo) (1)
-- [C2](#c2) (11)
+- [C2](#c2) (12)
 - [C2 framework](#c2-framework) (2)
 - [C2 tasking](#c2-tasking) (1)
 - [CageFS](#cagefs) (1)
@@ -528,6 +530,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [context flooding](#context-flooding) (1)
 - [Continue](#continue) (1)
 - [continuous visibility](#continuous-visibility) (1)
+- [control flow flattening](#control-flow-flattening) (3)
 - [control panel compromise](#control-panel-compromise) (1)
 - [control plane](#control-plane) (1)
 - [cookie theft](#cookie-theft) (4)
@@ -541,6 +544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COWARDDUCK](#cowardduck) (1)
 - [CPaaS](#cpaas) (1)
 - [cPanel](#cpanel) (4)
+- [CPUID](#cpuid) (1)
 - [cracked software](#cracked-software) (1)
 - [CrackMapExec](#crackmapexec) (1)
 - [CrashStealer](#crashstealer) (1)
@@ -822,7 +826,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [disk wiping](#disk-wiping) (1)
 - [distributed scanning](#distributed-scanning) (1)
 - [Djinn Stealer](#djinn-stealer) (3)
-- [DLL side-loading](#dll-side-loading) (3)
+- [DLL side-loading](#dll-side-loading) (6)
 - [DLL sideloading](#dll-sideloading) (19)
 - [DNS C2](#dns-c2) (2)
 - [DNS callback](#dns-callback) (1)
@@ -865,6 +869,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [e-commerce](#e-commerce) (1)
 - [Eagle Werewolf](#eagle-werewolf) (2)
 - [Earth Lusca](#earth-lusca) (2)
+- [East Asia](#east-asia) (1)
+- [East Asia-linked](#east-asia-linked) (1)
 - [eBPF](#ebpf) (3)
 - [Eclipse](#eclipse) (1)
 - [Ed25519](#ed25519) (1)
@@ -914,13 +920,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Environment Management Hub](#environment-management-hub) (1)
 - [environment variable theft](#environment-variable-theft) (2)
 - [environment variables](#environment-variables) (1)
-- [environmental keying](#environmental-keying) (1)
+- [environmental keying](#environmental-keying) (4)
 - [epoll](#epoll) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ERP](#erp) (1)
 - [eSentire TRU](#esentire-tru) (1)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (51)
+- [espionage](#espionage) (52)
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESXi](#esxi) (1)
 - [Ethereum](#ethereum) (1)
@@ -1145,7 +1151,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Goose](#goose) (1)
 - [GoSerpent](#goserpent) (1)
 - [government](#government) (5)
-- [government targeting](#government-targeting) (14)
+- [government targeting](#government-targeting) (16)
 - [government-impersonation](#government-impersonation) (1)
 - [GPT](#gpt) (1)
 - [GPT-5.6 Sol](#gpt-56-sol) (1)
@@ -1258,6 +1264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [iMessage](#imessage) (1)
 - [Impacket](#impacket) (2)
 - [impersonation](#impersonation) (1)
+- [implant](#implant) (1)
 - [import-time execution](#import-time-execution) (4)
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
@@ -1310,7 +1317,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm](#ironworm) (1)
 - [ischhfd83](#ischhfd83) (1)
 - [Island Security Research](#island-security-research) (2)
-- [ISO image](#iso-image) (1)
+- [ISO image](#iso-image) (2)
 - [Israel](#israel) (4)
 - [IT providers](#it-providers) (1)
 - [Italian foreign-policy targeting](#italian-foreign-policy-targeting) (1)
@@ -1463,7 +1470,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LNK](#lnk) (10)
 - [LNK files](#lnk-files) (1)
 - [load balancer](#load-balancer) (1)
-- [loader](#loader) (4)
+- [loader](#loader) (5)
 - [LOADLOOP](#loadloop) (1)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (6)
@@ -1498,6 +1505,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lyceum](#lyceum) (1)
 - [M-RED-TEAM](#m-red-team) (1)
 - [MaaS](#maas) (6)
+- [MAC address](#mac-address) (1)
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
 - [machine-learning](#machine-learning) (1)
@@ -1521,7 +1529,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (9)
-- [malware](#malware) (45)
+- [malware](#malware) (48)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (2)
@@ -1593,7 +1601,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (3)
 - [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
 - [Microsoft-signed binary abuse](#microsoft-signed-binary-abuse) (1)
-- [Middle East](#middle-east) (2)
+- [Middle East](#middle-east) (4)
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (1)
 - [military logistics](#military-logistics) (1)
@@ -1613,6 +1621,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mistic](#mistic) (1)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
+- [mixed boolean arithmetic](#mixed-boolean-arithmetic) (3)
+- [MIXEDKEY](#mixedkey) (3)
 - [MLTBackdoor](#mltbackdoor) (1)
 - [mnemonic theft](#mnemonic-theft) (1)
 - [mobile](#mobile) (1)
@@ -1756,6 +1766,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Omnibox](#omnibox) (1)
 - [OneDrive](#onedrive) (3)
 - [OneDrive access](#onedrive-access) (1)
+- [opaque predicates](#opaque-predicates) (2)
 - [open directory](#open-directory) (1)
 - [Open Interpreter](#open-interpreter) (1)
 - [Open WebUI](#open-webui) (1)
@@ -1780,9 +1791,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (228)
+- [operations](#operations) (229)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (256)
+- [ops](#ops) (257)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2054,6 +2065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [REF6045](#ref6045) (2)
 - [REF9403](#ref9403) (1)
 - [reflective .NET loading](#reflective-net-loading) (1)
+- [reflective loading](#reflective-loading) (3)
 - [refresh token theft](#refresh-token-theft) (1)
 - [refresh tokens](#refresh-tokens) (1)
 - [RegAsm process hollowing](#regasm-process-hollowing) (1)
@@ -2177,7 +2189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scambling](#scambling) (1)
 - [scanner evasion](#scanner-evasion) (1)
 - [ScarCruft](#scarcruft) (1)
-- [scheduled task](#scheduled-task) (4)
+- [scheduled task](#scheduled-task) (6)
 - [scheduled task persistence](#scheduled-task-persistence) (5)
 - [scheduled tasks](#scheduled-tasks) (6)
 - [SCMBANKER](#scmbanker) (2)
@@ -2476,12 +2488,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telegram](#telegram) (10)
 - [telegram](#telegram) (1)
 - [Telegram bot](#telegram-bot) (2)
-- [Telegram C2](#telegram-c2) (3)
+- [Telegram C2](#telegram-c2) (5)
 - [Telegram dead drop](#telegram-dead-drop) (2)
 - [Telegram exfiltration](#telegram-exfiltration) (1)
 - [Telegram notification](#telegram-notification) (1)
 - [telemetry](#telemetry) (1)
 - [TELEPUZ](#telepuz) (1)
+- [TELESHIM](#teleshim) (4)
 - [Teletype](#teletype) (1)
 - [Telnet](#telnet) (1)
 - [Telnet brute force](#telnet-brute-force) (2)
@@ -2524,7 +2537,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (32)
+- [tools](#tools) (35)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Trading Technologies](#trading-technologies) (1)
@@ -2666,6 +2679,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Void Blizzard](#void-blizzard) (3)
 - [Void Manticore](#void-manticore) (1)
 - [Volt Typhoon](#volt-typhoon) (1)
+- [volume serial number](#volume-serial-number) (1)
 - [VPN](#vpn) (6)
 - [VPN credentials](#vpn-credentials) (2)
 - [VPN gateway](#vpn-gateway) (1)
@@ -2743,11 +2757,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
 - [Windmill](#windmill) (1)
-- [Windows](#windows) (29)
+- [Windows](#windows) (32)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Forms](#windows-forms) (1)
-- [Windows malware](#windows-malware) (11)
+- [Windows malware](#windows-malware) (12)
 - [Windows persistence](#windows-persistence) (1)
 - [Windows Run dialog](#windows-run-dialog) (1)
 - [Windows Script Host](#windows-script-host) (2)
@@ -2765,6 +2779,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wiz Research](#wiz-research) (1)
 - [WLDR agent](#wldr-agent) (2)
 - [WM_COPYDATA IPC](#wm_copydata-ipc) (1)
+- [WMI](#wmi) (1)
 - [Woodgnat](#woodgnat) (1)
 - [WordPress](#wordpress) (8)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
@@ -2788,7 +2803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xlabs_v1](#xlabs_v1) (1)
 - [XMLDecoder](#xmldecoder) (1)
 - [XMRig](#xmrig) (6)
-- [XOR](#xor) (1)
+- [XOR](#xor) (2)
 - [XOR obfuscation](#xor-obfuscation) (1)
 - [Xray](#xray) (1)
 - [XSLT SSRF](#xslt-ssrf) (1)
@@ -3398,6 +3413,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+- [TELESHIM](../tools/teleshim.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
 ## anti-bot
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
@@ -3745,6 +3762,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## backdoor
+- [BINDCLOAK](../tools/bindcloak.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [GigaWiper](../tools/gigawiper.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -3757,6 +3775,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [STOCKSTAY](../tools/stockstay.md)
+- [TELESHIM](../tools/teleshim.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [TinyRCT](../tools/tinyrct.md)
 
@@ -3863,6 +3882,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BinaryFormatter
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+
+## BINDCLOAK
+- [BINDCLOAK](../tools/bindcloak.md)
+- [MIXEDKEY](../tools/mixedkey.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
 ## binding.gyp
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -4143,6 +4167,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## C#
 - [TinyRCT](../tools/tinyrct.md)
 
+## C++
+- [BINDCLOAK](../tools/bindcloak.md)
+- [TELESHIM](../tools/teleshim.md)
+
 ## C++/CLI
 - [Cavern](../tools/cavern.md)
 
@@ -4150,6 +4178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 
 ## C2
+- [BINDCLOAK](../tools/bindcloak.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
@@ -4937,6 +4966,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## continuous visibility
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 
+## control flow flattening
+- [MIXEDKEY](../tools/mixedkey.md)
+- [TELESHIM](../tools/teleshim.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
+
 ## control panel compromise
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
@@ -4981,6 +5015,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## CPUID
+- [TELESHIM](../tools/teleshim.md)
 
 ## cracked software
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -6116,9 +6153,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TaskWeaver](../tools/taskweaver.md)
 
 ## DLL side-loading
+- [MIXEDKEY](../tools/mixedkey.md)
 - [OceanLotus](../actors/oceanlotus.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [SprySOCKS](../tools/sprysocks.md)
+- [TELESHIM](../tools/teleshim.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
 ## DLL sideloading
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -6283,6 +6323,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Earth Lusca
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
+
+## East Asia
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
+
+## East Asia-linked
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
 ## eBPF
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
@@ -6475,7 +6521,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 
 ## environmental keying
+- [BINDCLOAK](../tools/bindcloak.md)
+- [MIXEDKEY](../tools/mixedkey.md)
 - [RemotePE](../tools/remotepe.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
 ## epoll
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
@@ -6532,6 +6581,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](../actors/sidecopy.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 - [ToddyCat](../actors/toddycat.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Turla](../actors/turla.md)
@@ -7353,6 +7403,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## government targeting
 - [Armored Likho](../actors/armored-likho.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
+- [BINDCLOAK](../tools/bindcloak.md)
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
@@ -7365,6 +7416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
 ## government-impersonation
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
@@ -7746,6 +7798,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## impersonation
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
+## implant
+- [BINDCLOAK](../tools/bindcloak.md)
+
 ## import-time execution
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
@@ -7989,6 +8044,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ISO image
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
 ## Israel
 - [Cavern Manticore](../actors/cavern-manticore.md)
@@ -8569,6 +8625,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## loader
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
+- [MIXEDKEY](../tools/mixedkey.md)
 - [RustDuck](../tools/rustduck.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TaskWeaver](../tools/taskweaver.md)
@@ -8690,6 +8747,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TELEPUZ](../tools/telepuz.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 
+## MAC address
+- [TELESHIM](../tools/teleshim.md)
+
 ## MacCMS
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -8791,6 +8851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACR Stealer](../tools/acr-stealer.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+- [BINDCLOAK](../tools/bindcloak.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 - [CanisterWorm](../tools/canisterworm.md)
@@ -8807,6 +8868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [LabubaRAT](../tools/labubarat.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+- [MIXEDKEY](../tools/mixedkey.md)
 - [MODBEACON](../tools/modbeacon.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
@@ -8828,6 +8890,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TaskWeaver](../tools/taskweaver.md)
 - [TeamPCP](../actors/teampcp.md)
 - [TELEPUZ](../tools/telepuz.md)
+- [TELESHIM](../tools/teleshim.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [TinyRCT](../tools/tinyrct.md)
 - [Umbrij](../tools/umbrij.md)
@@ -9122,8 +9185,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## Middle East
+- [BINDCLOAK](../tools/bindcloak.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Showboat](../tools/showboat.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
 ## middleware
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
@@ -9192,6 +9257,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MITRE ATT&CK T1562
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+
+## mixed boolean arithmetic
+- [MIXEDKEY](../tools/mixedkey.md)
+- [TELESHIM](../tools/teleshim.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
+
+## MIXEDKEY
+- [BINDCLOAK](../tools/bindcloak.md)
+- [MIXEDKEY](../tools/mixedkey.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
 ## MLTBackdoor
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -9755,6 +9830,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OneDrive access
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
+## opaque predicates
+- [MIXEDKEY](../tools/mixedkey.md)
+- [TELESHIM](../tools/teleshim.md)
+
 ## open directory
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
@@ -10034,6 +10113,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -10288,6 +10368,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
@@ -11429,6 +11510,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## reflective .NET loading
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
+## reflective loading
+- [BINDCLOAK](../tools/bindcloak.md)
+- [MIXEDKEY](../tools/mixedkey.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
+
 ## refresh token theft
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
@@ -11899,6 +11985,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## scheduled task
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+- [TELESHIM](../tools/teleshim.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 - [TinyRCT](../tools/tinyrct.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
@@ -13085,6 +13173,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Telegram C2
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+- [TELESHIM](../tools/teleshim.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## Telegram dead drop
@@ -13102,6 +13192,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TELEPUZ
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+
+## TELESHIM
+- [BINDCLOAK](../tools/bindcloak.md)
+- [MIXEDKEY](../tools/mixedkey.md)
+- [TELESHIM](../tools/teleshim.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
 ## Teletype
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
@@ -13262,6 +13358,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## tools
 - [ACR Stealer](../tools/acr-stealer.md)
+- [BINDCLOAK](../tools/bindcloak.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 - [Cavern](../tools/cavern.md)
 - [CrownX](../tools/crownx.md)
@@ -13273,6 +13370,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GigaWiper](../tools/gigawiper.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [LabubaRAT](../tools/labubarat.md)
+- [MIXEDKEY](../tools/mixedkey.md)
 - [MODBEACON](../tools/modbeacon.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [PamStealer](../tools/pamstealer.md)
@@ -13288,6 +13386,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [STOCKSTAY](../tools/stockstay.md)
 - [TaskWeaver](../tools/taskweaver.md)
 - [TELEPUZ](../tools/telepuz.md)
+- [TELESHIM](../tools/teleshim.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [TinyRCT](../tools/tinyrct.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
@@ -13819,6 +13918,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Volt Typhoon
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
+## volume serial number
+- [MIXEDKEY](../tools/mixedkey.md)
+
 ## VPN
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -14134,6 +14236,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+- [BINDCLOAK](../tools/bindcloak.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
@@ -14149,6 +14252,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LabubaRAT](../tools/labubarat.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+- [MIXEDKEY](../tools/mixedkey.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
@@ -14158,6 +14262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Starland RAT](../tools/starland-rat.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+- [TELESHIM](../tools/teleshim.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [TinyRCT](../tools/tinyrct.md)
 
@@ -14180,6 +14285,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [TELEPUZ](../tools/telepuz.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+- [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
@@ -14242,6 +14348,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WM_COPYDATA IPC
 - [STOCKSTAY](../tools/stockstay.md)
+
+## WMI
+- [TELESHIM](../tools/teleshim.md)
 
 ## Woodgnat
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -14340,6 +14449,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## XOR
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+- [MIXEDKEY](../tools/mixedkey.md)
 
 ## XOR obfuscation
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
