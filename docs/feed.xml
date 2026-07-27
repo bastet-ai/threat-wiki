@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Dysphoria IoT botnet: blockchain C2 and victim-operated relays</title>
+      <link>https://threat.wiki/ops/dysphoria-iot-botnet/</link>
+      <description>Added CNCERT, QiAnXin XLab, Nokia Deepfield, and NICT intelligence on Dysphoria's post-JackSkid evolution. Coverage records ENS and SNS infrastructure resolution, dynamic victim-relay lists, the relay-only build's 155 UPnP mappings and epoll forwarding, DDoS protocol artifacts, weak-credential and IoT-RCE propagation, public infrastructure and hashes, measurement and attribution caveats, and device, gateway, blockchain-resolution, and network hunting guidance.</description>
+      <pubDate>Mon, 27 Jul 2026 23:26:45 GMT</pubDate>
+      <guid>https://threat.wiki/ops/dysphoria-iot-botnet/</guid>
+    </item>
+    <item>
       <title>Arista VeloCloud Orchestrator CVE-2026-16812 exploitation</title>
       <link>https://threat.wiki/ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation/</link>
       <description>Added Arista and CISA intelligence on active exploitation of unauthenticated OS command injection in on-premises VeloCloud Orchestrator. Coverage records affected and fixed release trains, the July 30 KEV due date, three observed attack-source addresses, VCO and managed-Edge control-plane impact, evidence-preservation and behavior-based hunting pivots, and upgrade, restoration, credential-rotation, and downstream device-validation guidance.</description>

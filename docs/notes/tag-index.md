@@ -289,13 +289,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Blackpoint Cyber](#blackpoint-cyber) (6)
 - [Bleacher Report](#bleacher-report) (1)
 - [blockchain C2](#blockchain-c2) (4)
-- [blockchain dead drop](#blockchain-dead-drop) (3)
+- [blockchain dead drop](#blockchain-dead-drop) (4)
 - [blockchain RPC](#blockchain-rpc) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [Blogger abuse](#blogger-abuse) (1)
 - [blogspot staging](#blogspot-staging) (1)
 - [BLUEBEAM](#bluebeam) (1)
-- [botnet](#botnet) (10)
+- [botnet](#botnet) (11)
 - [botnet framework](#botnet-framework) (1)
 - [Braintree](#braintree) (1)
 - [branch-compromise](#branch-compromise) (1)
@@ -479,6 +479,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cluster compromise](#cluster-compromise) (1)
 - [CMS](#cms) (7)
 - [CMS exploitation](#cms-exploitation) (1)
+- [CNCERT](#cncert) (1)
 - [Cobalt Strike](#cobalt-strike) (6)
 - [code execution](#code-execution) (1)
 - [code injection](#code-injection) (1)
@@ -764,9 +765,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DcRAT](#dcrat) (1)
 - [DD-WRT](#dd-wrt) (1)
 - [DDNS](#ddns) (1)
-- [DDoS](#ddos) (6)
+- [DDoS](#ddos) (7)
 - [DDoS botnet](#ddos-botnet) (1)
-- [DDoS-for-hire](#ddos-for-hire) (2)
+- [DDoS-for-hire](#ddos-for-hire) (3)
 - [dead drop](#dead-drop) (1)
 - [dead drop resolver](#dead-drop-resolver) (4)
 - [dead-drop resolver](#dead-drop-resolver) (1)
@@ -869,6 +870,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dynamic DNS](#dynamic-dns) (1)
 - [dynamic obfuscation](#dynamic-obfuscation) (1)
 - [Dynu](#dynu) (1)
+- [Dysphoria](#dysphoria) (1)
 - [e-commerce](#e-commerce) (1)
 - [Eagle Werewolf](#eagle-werewolf) (2)
 - [Earth Lusca](#earth-lusca) (2)
@@ -933,6 +935,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESXi](#esxi) (1)
 - [Ethereum](#ethereum) (1)
+- [Ethereum Name Service](#ethereum-name-service) (1)
 - [EtherHiding](#etherhiding) (4)
 - [ETW bypass](#etw-bypass) (1)
 - [ETW patching](#etw-patching) (1)
@@ -1000,6 +1003,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FAT32](#fat32) (1)
 - [FatFs](#fatfs) (1)
 - [FBI](#fbi) (2)
+- [fbot](#fbot) (1)
 - [FFmpeg](#ffmpeg) (1)
 - [FIDO2](#fido2) (1)
 - [FIFA](#fifa) (1)
@@ -1308,7 +1312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [InvisibleFerret](#invisibleferret) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (4)
-- [IoT botnet](#iot-botnet) (5)
+- [IoT botnet](#iot-botnet) (6)
 - [IP cameras](#ip-cameras) (1)
 - [IP-in-IP](#ip-in-ip) (1)
 - [IPFS](#ipfs) (1)
@@ -1327,6 +1331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Italian foreign-policy targeting](#italian-foreign-policy-targeting) (1)
 - [Italy targeting](#italy-targeting) (1)
 - [Ivanti Sentry](#ivanti-sentry) (1)
+- [JackSkid](#jackskid) (1)
 - [JADEPUFFER](#jadepuffer) (2)
 - [Jamf Threat Labs](#jamf-threat-labs) (2)
 - [Januscape](#januscape) (1)
@@ -1460,7 +1465,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linksys](#linksys) (1)
 - [Linux](#linux) (24)
 - [Linux kernel](#linux-kernel) (5)
-- [Linux malware](#linux-malware) (2)
+- [Linux malware](#linux-malware) (3)
 - [Linux networking devices](#linux-networking-devices) (1)
 - [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (2)
@@ -1800,9 +1805,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (232)
+- [operations](#operations) (233)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (260)
+- [ops](#ops) (261)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2021,7 +2026,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Python malware](#python-malware) (2)
 - [Python stealer](#python-stealer) (1)
 - [Qianxin Threat Intelligence Center](#qianxin-threat-intelligence-center) (2)
-- [QiAnXin XLab](#qianxin-xlab) (3)
+- [QiAnXin XLab](#qianxin-xlab) (4)
 - [Qilin](#qilin) (3)
 - [QNAP](#qnap) (1)
 - [QR code](#qr-code) (1)
@@ -2142,7 +2147,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rouki obfuscation](#rouki-obfuscation) (1)
 - [Roundcube](#roundcube) (1)
 - [router](#router) (1)
-- [router compromise](#router-compromise) (1)
+- [router compromise](#router-compromise) (2)
 - [router malware](#router-malware) (1)
 - [ROX II](#rox-ii) (1)
 - [RSA](#rsa) (1)
@@ -2345,6 +2350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOHO router](#soho-router) (1)
 - [SOHO routers](#soho-routers) (1)
 - [Solana](#solana) (3)
+- [Solana Name Service](#solana-name-service) (1)
 - [SolarWinds](#solarwinds) (1)
 - [Solid PDF Creator](#solid-pdf-creator) (1)
 - [SolidPDFCreator.dll](#solidpdfcreatordll) (1)
@@ -2387,7 +2393,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH](#ssh) (3)
 - [SSH backdoor](#ssh-backdoor) (1)
 - [SSH bastion](#ssh-bastion) (1)
-- [SSH brute force](#ssh-brute-force) (1)
+- [SSH brute force](#ssh-brute-force) (2)
 - [SSH key exposure](#ssh-key-exposure) (1)
 - [SSH key persistence](#ssh-key-persistence) (1)
 - [SSH keys](#ssh-keys) (4)
@@ -2508,7 +2514,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TELESHIM](#teleshim) (4)
 - [Teletype](#teletype) (1)
 - [Telnet](#telnet) (1)
-- [Telnet brute force](#telnet-brute-force) (2)
+- [Telnet brute force](#telnet-brute-force) (3)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
 - [template injection](#template-injection) (1)
@@ -2635,7 +2641,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unsafe deserialization](#unsafe-deserialization) (1)
 - [unsigned installer](#unsigned-installer) (1)
 - [UpdateFactory](#updatefactory) (1)
-- [UPnP](#upnp) (1)
+- [UPnP](#upnp) (2)
 - [UPX](#upx) (1)
 - [uranium compression](#uranium-compression) (1)
 - [USB propagation](#usb-propagation) (1)
@@ -2669,6 +2675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VENOMOUS BEAR](#venomous-bear) (3)
 - [Vercel](#vercel) (1)
 - [Vertex AI](#vertex-ai) (1)
+- [victim-owned relay infrastructure](#victim-owned-relay-infrastructure) (1)
 - [VIDAR](#vidar) (2)
 - [Vidar Stealer](#vidar-stealer) (3)
 - [Vietnam](#vietnam) (2)
@@ -2727,7 +2734,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [watering hole](#watering-hole) (1)
 - [watering-hole](#watering-hole) (2)
 - [weak credentials](#weak-credentials) (1)
-- [weak passwords](#weak-passwords) (1)
+- [weak passwords](#weak-passwords) (2)
 - [weapons shipments](#weapons-shipments) (1)
 - [web application](#web-application) (5)
 - [web application compromise](#web-application-compromise) (1)
@@ -3966,6 +3973,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## blockchain dead drop
 - [ACR Stealer](../tools/acr-stealer.md)
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
@@ -3987,6 +3995,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## botnet
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
@@ -4792,6 +4801,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CMS exploitation
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+
+## CNCERT
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 
 ## Cobalt Strike
 - [FishMonger](../actors/fishmonger.md)
@@ -5899,6 +5911,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DDoS
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
@@ -5908,6 +5921,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## DDoS-for-hire
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
@@ -6341,6 +6355,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Dynu
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 
+## Dysphoria
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+
 ## e-commerce
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
@@ -6634,6 +6651,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ethereum
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
+## Ethereum Name Service
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+
 ## EtherHiding
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
@@ -6874,6 +6894,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FBI
 - [First VPN](../tools/first-vpn.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
+## fbot
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 
 ## FFmpeg
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -8034,6 +8057,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## IoT botnet
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [RustDuck](../tools/rustduck.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
@@ -8104,6 +8128,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ivanti Sentry
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+
+## JackSkid
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 
 ## JADEPUFFER
 - [ENCFORGE](../tools/encforge.md)
@@ -8606,6 +8633,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Linux malware
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
 ## Linux networking devices
@@ -10029,6 +10057,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
@@ -10271,6 +10300,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
@@ -11360,6 +11390,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## QiAnXin XLab
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [RustDuck](../tools/rustduck.md)
 
@@ -11840,6 +11871,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
 ## router compromise
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## router malware
@@ -12597,6 +12629,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
+## Solana Name Service
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+
 ## SolarWinds
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
@@ -12753,6 +12788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 
 ## SSH brute force
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [RustDuck](../tools/rustduck.md)
 
 ## SSH key exposure
@@ -13287,6 +13323,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 
 ## Telnet brute force
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [RustDuck](../tools/rustduck.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
@@ -13807,6 +13844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UPnP
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 
 ## UPX
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
@@ -13920,6 +13958,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Vertex AI
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+
+## victim-owned relay infrastructure
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 
 ## VIDAR
 - [TELEPUZ](../tools/telepuz.md)
@@ -14162,6 +14203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 
 ## weak passwords
+- [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [RustDuck](../tools/rustduck.md)
 
 ## weapons shipments
