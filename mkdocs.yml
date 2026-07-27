@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Operation BlueDash multi-RMM workplace phishing: ops/operation-bluedash-multi-rmm-workplace-phishing.md
       - TELESHIM Middle East government espionage campaign: ops/teleshim-middle-east-government-espionage.md
       - SourTrade browser-assembled malware malvertising: ops/sourtrade-browser-assembled-malware-malvertising.md
       - Fastjson CVE-2026-16723 active exploitation: ops/fastjson-cve-2026-16723-active-exploitation.md

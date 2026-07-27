@@ -973,12 +973,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake gambling](#fake-gambling) (1)
 - [fake installers](#fake-installers) (1)
 - [fake login screen](#fake-login-screen) (1)
+- [fake Microsoft Store](#fake-microsoft-store) (1)
 - [fake plugin](#fake-plugin) (1)
 - [fake PoC](#fake-poc) (2)
 - [fake ransomware](#fake-ransomware) (1)
 - [fake recruiting](#fake-recruiting) (2)
 - [fake reputation](#fake-reputation) (1)
-- [fake update](#fake-update) (2)
+- [fake update](#fake-update) (3)
 - [FakeCaptcha](#fakecaptcha) (1)
 - [FakeGit](#fakegit) (1)
 - [Fakeset](#fakeset) (1)
@@ -1104,7 +1105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub dead drop](#github-dead-drop) (1)
 - [GitHub issue spam](#github-issue-spam) (1)
 - [GitHub OAuth](#github-oauth) (1)
-- [GitHub Pages abuse](#github-pages-abuse) (1)
+- [GitHub Pages abuse](#github-pages-abuse) (2)
 - [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub release assets](#github-release-assets) (1)
 - [GitHub Security Advisories](#github-security-advisories) (2)
@@ -1359,6 +1360,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JSCoreRunner](#jscorerunner) (1)
 - [jscrambler](#jscrambler) (1)
 - [Jscrambler](#jscrambler) (1)
+- [JScript](#jscript) (1)
 - [JSON](#json) (1)
 - [JSON:API](#jsonapi) (1)
 - [JSONKeeper](#jsonkeeper) (1)
@@ -1441,6 +1443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [legal sector](#legal-sector) (1)
 - [LegionRelay](#legionrelay) (1)
 - [Leo Platform](#leo-platform) (1)
+- [Level RMM](#level-rmm) (1)
 - [LevelBlue](#levelblue) (1)
 - [Lexfo](#lexfo) (1)
 - [libcurl](#libcurl) (1)
@@ -1597,7 +1600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Office SharePoint](#microsoft-office-sharepoint) (1)
 - [Microsoft Security Blog](#microsoft-security-blog) (1)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
-- [Microsoft Teams](#microsoft-teams) (3)
+- [Microsoft Teams](#microsoft-teams) (4)
 - [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (3)
 - [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
 - [Microsoft-signed binary abuse](#microsoft-signed-binary-abuse) (1)
@@ -1691,6 +1694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nested virtualization](#nested-virtualization) (1)
 - [Neteller](#neteller) (1)
 - [Netherlands](#netherlands) (2)
+- [Netlify abuse](#netlify-abuse) (1)
 - [NetNut](#netnut) (1)
 - [NetScaler](#netscaler) (2)
 - [NetScaler ADC](#netscaler-adc) (2)
@@ -1707,6 +1711,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nginx](#nginx) (2)
 - [Nginx module](#nginx-module) (1)
 - [Ngrok C2](#ngrok-c2) (1)
+- [Nigeria-nexus](#nigeria-nexus) (1)
 - [NirSoft](#nirsoft) (1)
 - [no attribution](#no-attribution) (1)
 - [No-IP](#no-ip) (1)
@@ -1783,6 +1788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVPN-shaped UDP](#openvpn-shaped-udp) (1)
 - [OpenVSX](#openvsx) (1)
 - [operation](#operation) (2)
+- [Operation BlueDash](#operation-bluedash) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Endgame](#operation-endgame) (1)
 - [Operation Highland](#operation-highland) (2)
@@ -1791,9 +1797,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (229)
+- [operations](#operations) (230)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (257)
+- [ops](#ops) (258)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1885,7 +1891,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (24)
+- [phishing](#phishing) (25)
 - [phishing-as-a-service](#phishing-as-a-service) (5)
 - [PHP](#php) (2)
 - [PHP code execution](#php-code-execution) (1)
@@ -1934,7 +1940,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (3)
 - [postinstall](#postinstall) (10)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (23)
+- [PowerShell](#powershell) (24)
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShower](#powershower) (1)
@@ -2076,6 +2082,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Remcos](#remcos) (2)
 - [Remcos RAT](#remcos-rat) (1)
 - [remote access](#remote-access) (6)
+- [remote access software](#remote-access-software) (1)
 - [remote access trojan](#remote-access-trojan) (3)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (18)
@@ -2113,7 +2120,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rilide](#rilide) (1)
 - [RingH23](#ringh23) (1)
 - [RMM](#rmm) (3)
-- [RMM abuse](#rmm-abuse) (9)
+- [RMM abuse](#rmm-abuse) (10)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
@@ -2197,7 +2204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scoped package impersonation](#scoped-package-impersonation) (1)
 - [SCOUTCURL](#scoutcurl) (1)
 - [screen capture](#screen-capture) (2)
-- [ScreenConnect](#screenconnect) (4)
+- [ScreenConnect](#screenconnect) (5)
 - [Screening Serpens](#screening-serpens) (1)
 - [screenshot capture](#screenshot-capture) (1)
 - [screenshot theft](#screenshot-theft) (3)
@@ -2454,7 +2461,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA427](#ta427) (1)
 - [TA488](#ta488) (3)
 - [TA569](#ta569) (1)
-- [Tactical RMM](#tactical-rmm) (1)
+- [Tactical RMM](#tactical-rmm) (2)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (4)
 - [TAG-124](#tag-124) (1)
@@ -2832,6 +2839,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zoho Assist](#zoho-assist) (2)
 - [Zoho WorkDrive](#zoho-workdrive) (2)
 - [ZOHOMURK](#zohomurk) (2)
+- [Zoom](#zoom) (1)
 
 ## .NET
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
@@ -6767,6 +6775,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fake login screen
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 
+## fake Microsoft Store
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
+
 ## fake plugin
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -6786,6 +6797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## fake update
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## FakeCaptcha
@@ -7239,6 +7251,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
 ## GitHub Pages abuse
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## GitHub payload delivery
@@ -8198,6 +8211,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Jscrambler
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 
+## JScript
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
+
 ## JSON
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 
@@ -8489,6 +8505,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Leo Platform
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
+
+## Level RMM
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 
 ## LevelBlue
 - [QuimaRAT](../tools/quimarat.md)
@@ -9171,6 +9190,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Teams
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## Microsoft Threat Intelligence
@@ -9506,6 +9526,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 
+## Netlify abuse
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
+
 ## NetNut
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
@@ -9557,6 +9580,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ngrok C2
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+
+## Nigeria-nexus
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 
 ## NirSoft
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
@@ -9885,6 +9911,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 
+## Operation BlueDash
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
+
 ## Operation DangerousPassword
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
@@ -10058,6 +10087,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
@@ -10308,6 +10338,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
@@ -10780,6 +10811,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -10968,6 +11000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -11555,6 +11588,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
+## remote access software
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
+
 ## remote access trojan
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [LabubaRAT](../tools/labubarat.md)
@@ -11701,6 +11737,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cavern Manticore](../actors/cavern-manticore.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [TaskWeaver](../tools/taskweaver.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
@@ -12026,6 +12063,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## Screening Serpens
@@ -13037,6 +13075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Tactical RMM
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 
 ## tag rewrite
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -14547,3 +14586,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ZOHOMURK
 - [Mustang Panda](../actors/mustang-panda.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+
+## Zoom
+- [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)

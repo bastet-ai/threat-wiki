@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Operation BlueDash multi-RMM workplace phishing](ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [TELESHIM Middle East government espionage campaign](ops/teleshim-middle-east-government-espionage.md)
 - [TELESHIM](tools/teleshim.md), [MIXEDKEY](tools/mixedkey.md), and [BINDCLOAK](tools/bindcloak.md)
 - [SourTrade browser-assembled malware malvertising](ops/sourtrade-browser-assembled-malware-malvertising.md)
