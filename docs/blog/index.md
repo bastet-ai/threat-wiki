@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass: CISA KEV](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)

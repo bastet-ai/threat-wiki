@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Arista VeloCloud Orchestrator CVE-2026-16812 exploitation</title>
+      <link>https://threat.wiki/ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation/</link>
+      <description>Added Arista and CISA intelligence on active exploitation of unauthenticated OS command injection in on-premises VeloCloud Orchestrator. Coverage records affected and fixed release trains, the July 30 KEV due date, three observed attack-source addresses, VCO and managed-Edge control-plane impact, evidence-preservation and behavior-based hunting pivots, and upgrade, restoration, credential-rotation, and downstream device-validation guidance.</description>
+      <pubDate>Mon, 27 Jul 2026 21:26:54 GMT</pubDate>
+      <guid>https://threat.wiki/ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation/</guid>
+    </item>
+    <item>
       <title>FortiOS CVE-2025-68686 symlink-persistence bypass: CISA KEV</title>
       <link>https://threat.wiki/ops/fortios-cve-2025-68686-symlink-persistence-bypass/</link>
       <description>Added CISA KEV and Fortinet incident-response guidance for a conditional FortiOS SSL-VPN information-exposure flaw. Coverage explains how crafted requests can reuse a symlink planted after an earlier appliance compromise, records affected and fixed branches plus the August 10 federal due date, reconciles CISA's current exploitation finding with Fortinet's older advisory status, and provides evidence-preservation, upgrade, rebuild, secret-rotation, and configuration-integrity guidance.</description>

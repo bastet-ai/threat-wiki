@@ -36,7 +36,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (52)
+- [active exploitation](#active-exploitation) (53)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (2)
 - [active-exploitation](#active-exploitation) (1)
@@ -187,6 +187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ArduPilot](#ardupilot) (1)
 - [Argo CD](#argo-cd) (1)
 - [ArgoCD](#argocd) (1)
+- [Arista](#arista) (1)
 - [Arista EOS](#arista-eos) (1)
 - [ARL](#arl) (1)
 - [Armageddon](#armageddon) (1)
@@ -412,7 +413,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
 - [CISA](#cisa) (3)
-- [CISA KEV](#cisa-kev) (25)
+- [CISA KEV](#cisa-kev) (26)
 - [Cisco](#cisco) (3)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -643,6 +644,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-15410](#cve-2026-15410) (1)
 - [CVE-2026-16232](#cve-2026-16232) (1)
 - [CVE-2026-16723](#cve-2026-16723) (1)
+- [CVE-2026-16812](#cve-2026-16812) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
 - [CVE-2026-20230](#cve-2026-20230) (1)
@@ -879,7 +881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (3)
-- [edge devices](#edge-devices) (4)
+- [edge devices](#edge-devices) (5)
 - [edge exploitation](#edge-exploitation) (1)
 - [Edge extension](#edge-extension) (1)
 - [edge service](#edge-service) (2)
@@ -1271,7 +1273,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (25)
+- [incident response](#incident-response) (26)
 - [incident-response](#incident-response) (1)
 - [IndexedDB](#indexeddb) (1)
 - [India](#india) (3)
@@ -1544,7 +1546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [managed file transfer](#managed-file-transfer) (2)
 - [managed service provider](#managed-service-provider) (1)
 - [ManageEngine Endpoint Central](#manageengine-endpoint-central) (1)
-- [management plane](#management-plane) (3)
+- [management plane](#management-plane) (4)
 - [Manifest V3](#manifest-v3) (1)
 - [Manifold Security](#manifold-security) (1)
 - [manufacturing](#manufacturing) (1)
@@ -1700,7 +1702,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetScaler](#netscaler) (2)
 - [NetScaler ADC](#netscaler-adc) (2)
 - [NetScaler Gateway](#netscaler-gateway) (2)
-- [network infrastructure](#network-infrastructure) (1)
+- [network infrastructure](#network-infrastructure) (2)
 - [network infrastructure exploitation](#network-infrastructure-exploitation) (1)
 - [network policies](#network-policies) (1)
 - [network-share exfiltration](#network-share-exfiltration) (1)
@@ -1798,9 +1800,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (231)
+- [operations](#operations) (232)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (259)
+- [ops](#ops) (260)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1809,7 +1811,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic Server](#oracle-weblogic-server) (1)
 - [ORANGETAIL](#orangetail) (1)
 - [ORB network](#orb-network) (1)
-- [OS command injection](#os-command-injection) (1)
+- [OS command injection](#os-command-injection) (2)
 - [OT](#ot) (3)
 - [OT switches](#ot-switches) (1)
 - [OTA update](#ota-update) (1)
@@ -2210,7 +2212,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [screenshot capture](#screenshot-capture) (1)
 - [screenshot theft](#screenshot-theft) (3)
 - [script-injection](#script-injection) (1)
-- [SD-WAN](#sd-wan) (1)
+- [SD-WAN](#sd-wan) (2)
 - [search hijacking](#search-hijacking) (1)
 - [search poisoning](#search-poisoning) (1)
 - [search result poisoning](#search-result-poisoning) (1)
@@ -2608,7 +2610,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Umbrij](#umbrij) (3)
 - [unauthenticated access](#unauthenticated-access) (1)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
-- [unauthenticated RCE](#unauthenticated-rce) (4)
+- [unauthenticated RCE](#unauthenticated-rce) (5)
 - [UNC1543](#unc1543) (1)
 - [UNC2814](#unc2814) (1)
 - [UNC3753](#unc3753) (1)
@@ -2658,6 +2660,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vector databases](#vector-databases) (1)
 - [VEIL#DROP](#veildrop) (1)
 - [Velociraptor](#velociraptor) (1)
+- [VeloCloud](#velocloud) (1)
+- [VeloCloud Orchestrator](#velocloud-orchestrator) (1)
 - [Velvet Ant](#velvet-ant) (2)
 - [VELVETSHELL](#velvetshell) (1)
 - [vendor compromise](#vendor-compromise) (1)
@@ -2960,6 +2964,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## active exploitation
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
@@ -3589,6 +3594,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ArgoCD
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+
+## Arista
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 
 ## Arista EOS
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -4487,6 +4495,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CISA KEV
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -5492,6 +5501,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-16723
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 
+## CVE-2026-16812
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
+
 ## CVE-2026-20127
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
@@ -6385,6 +6397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
 ## edge devices
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
@@ -7842,6 +7855,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MODBEACON](../tools/modbeacon.md)
 
 ## incident response
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -8974,6 +8988,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## management plane
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
@@ -9560,6 +9575,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## network infrastructure
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 
 ## network infrastructure exploitation
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
@@ -9971,6 +9987,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
@@ -10207,6 +10224,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
@@ -10476,6 +10494,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## OS command injection
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 
 ## OT
@@ -12099,6 +12118,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 
 ## SD-WAN
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
 ## search hijacking
@@ -13696,6 +13716,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unauthenticated RCE
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
@@ -13869,6 +13890,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Velociraptor
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
+## VeloCloud
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
+
+## VeloCloud Orchestrator
+- [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 
 ## Velvet Ant
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
