@@ -72,7 +72,7 @@ Socket's source report contains the full file-hash, wallet/address, and transact
 StepSecurity additionally documented request paths `/$/boot`, `/u/e`, `/u/f`, `/0x/js`, `/verify-human/`, and `/snv`; `ip-api[.]com` as a lookup endpoint; and Tron addresses `TMfKQEd7TJJa5xNZJZ2Lep838vrzrs7mAP`, `TXfxHUet9pJVU1BgVkBAbrES4YUc1nGzcG`, and `TA48dct6rFW8BXsiLAtjFaVFoSuryMjD3v`.
 
 ## Independent runtime validation
-StepSecurity detonated all six `2773` versions in a sandbox with install-time and import-time observation. Installation produced no lifecycle-script or child-process activity, while importing loaded the compromised bundles. The tests did not observe outbound C2 traffic; StepSecurity assessed that the on-chain configuration or operator infrastructure was likely already unavailable, so absence of a callout is not evidence that an installed artifact is clean. Bundle diffs against clean siblings exposed roughly 333 lines of injected code and the decoded `global.r = require` assignment.
+StepSecurity detonated all six `2773` versions in a sandbox with install-time and import-time observation. Installation produced no lifecycle-script or child-process activity, while importing loaded the compromised bundles. Direct payload detonation then reached `api[.]trongrid[.]io`, the two documented BSC RPC services, and the Aptos fallback, and recovered a live second stage from the attacker's on-chain transaction. This independently confirms that the blockchain resolver and downstream infrastructure were reachable during StepSecurity's July 28 testing; it does not prove that every package import completed the same path. Bundle diffs against clean siblings exposed roughly 333 lines of injected code and the decoded `global.r = require` assignment.
 
 ## Defender actions
 1. Block and remove all six affected versions from lockfiles, caches, internal mirrors, images, and deployment artifacts. Avoid the packages' `beta` dist-tag pending public remediation confirmation.
@@ -85,7 +85,7 @@ StepSecurity detonated all six `2773` versions in a sandbox with install-time an
 
 ## Assessment caveats
 - Public source maps prove that malicious code was present at bundle time, not which upstream trust boundary was first compromised.
-- Socket found that the first components artifact did not execute normally through its analyzed bundle path. StepSecurity confirmed injected bundles across three components versions, but its no-callout detonation did not establish successful downstream C2 execution; do not generalize either result to layouts.
+- Socket found that the first components artifact did not execute normally through its analyzed bundle path. StepSecurity confirmed injected bundles across three components versions and separately demonstrated live blockchain resolution through direct payload detonation, but did not report that every normal package import completed downstream C2 execution; do not generalize either result to all versions or bundle paths.
 - PolinRider, DEV#POPPER, and OmniStealer describe code and infrastructure overlap. They do not establish actor attribution for this incident.
 - The live boot and Python captures match campaign keys and infrastructure but lack provenance proving universal delivery to affected Joyfill systems.
 
