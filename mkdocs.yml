@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Joyfill npm blockchain-RAT compromise: ops/joyfill-npm-blockchain-rat-compromise.md
       - Mirage Kitten NightLedger / BridgeHead / ArcBridge campaign: ops/mirage-kitten-nightledger-bridgehead-arcbridge.md
       - 'Dysphoria IoT botnet: blockchain C2 and victim-operated relays': ops/dysphoria-iot-botnet.md
       - Arista VeloCloud Orchestrator CVE-2026-16812 exploitation: ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md

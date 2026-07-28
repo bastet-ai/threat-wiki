@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Joyfill npm blockchain-RAT compromise</title>
+      <link>https://threat.wiki/ops/joyfill-npm-blockchain-rat-compromise/</link>
+      <description>Added Socket Research intelligence on two compromised Joyfill npm beta releases. Coverage records import-time execution, Tron/Aptos/BSC payload resolution, the recovered Node.js RAT and detached downloader, PolinRider and DEV#POPPER overlap without actor over-attribution, matching OmniStealer-like follow-on captures, developer-tool persistence, public indicators, and package, endpoint, CI, and credential-response guidance.</description>
+      <pubDate>Tue, 28 Jul 2026 15:27:35 GMT</pubDate>
+      <guid>https://threat.wiki/ops/joyfill-npm-blockchain-rat-compromise/</guid>
+    </item>
+    <item>
       <title>GitHub Actions automatic suspicious-workflow approval holds</title>
       <link>https://threat.wiki/patterns/deployment-poisoning-github-actions/#github-hardening-updates</link>
       <description>Updated GitHub Actions deployment-poisoning guidance with GitHub's automatic approval hold for certain workflow runs identified as potentially malicious in public repositories. Coverage records the compromised-credential and malicious-workflow threat model, authenticated write-collaborator approval boundary, GitHub.com public-repository and GitHub Enterprise Server scope limits, investigation pivots, and guidance against treating approval as a click-through control.</description>

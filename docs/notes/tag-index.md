@@ -291,7 +291,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile](#blackfile) (1)
 - [Blackpoint Cyber](#blackpoint-cyber) (6)
 - [Bleacher Report](#bleacher-report) (1)
-- [blockchain C2](#blockchain-c2) (4)
+- [blockchain C2](#blockchain-c2) (5)
 - [blockchain dead drop](#blockchain-dead-drop) (4)
 - [blockchain RPC](#blockchain-rpc) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
@@ -562,7 +562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential harvesting](#credential-harvesting) (4)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (58)
+- [credential theft](#credential-theft) (59)
 - [credential-theft](#credential-theft) (52)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -798,6 +798,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
 - [detection engineering](#detection-engineering) (1)
+- [DEV#POPPER](#devpopper) (1)
 - [DEV-0206](#dev-0206) (1)
 - [developer credential theft](#developer-credential-theft) (2)
 - [developer credentials](#developer-credentials) (1)
@@ -808,7 +809,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (9)
 - [developer mode](#developer-mode) (1)
 - [developer platform](#developer-platform) (1)
-- [developer targeting](#developer-targeting) (7)
+- [developer targeting](#developer-targeting) (8)
 - [developer tooling](#developer-tooling) (6)
 - [developer workstations](#developer-workstations) (3)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
@@ -1285,7 +1286,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Impacket](#impacket) (2)
 - [impersonation](#impersonation) (1)
 - [implant](#implant) (1)
-- [import-time execution](#import-time-execution) (4)
+- [import-time execution](#import-time-execution) (5)
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory plugins](#in-memory-plugins) (1)
@@ -1543,7 +1544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mailbox compromise](#mailbox-compromise) (1)
 - [mailbox theft](#mailbox-theft) (3)
 - [MAIN world injection](#main-world-injection) (1)
-- [maintainer compromise](#maintainer-compromise) (4)
+- [maintainer compromise](#maintainer-compromise) (5)
 - [maintainer persona](#maintainer-persona) (1)
 - [maintainer-compromise](#maintainer-compromise) (2)
 - [malicious dataset](#malicious-dataset) (1)
@@ -1745,13 +1746,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-gyp](#node-gyp) (2)
 - [node-ipc](#node-ipc) (1)
 - [node-pty](#node-pty) (1)
-- [Node.js](#nodejs) (4)
+- [Node.js](#nodejs) (5)
 - [Node.js implant](#nodejs-implant) (1)
 - [Node.js malware](#nodejs-malware) (1)
 - [North Korea](#north-korea) (12)
 - [notarized malware](#notarized-malware) (2)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (51)
+- [npm](#npm) (52)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm supply-chain](#npm-supply-chain) (1)
 - [npm token theft](#npm-token-theft) (1)
@@ -1796,6 +1797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama](#ollama) (2)
 - [Oman](#oman) (1)
 - [Omnibox](#omnibox) (1)
+- [OmniStealer](#omnistealer) (1)
 - [OneDrive](#onedrive) (3)
 - [OneDrive access](#onedrive-access) (1)
 - [opaque predicates](#opaque-predicates) (2)
@@ -1824,9 +1826,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (233)
+- [operations](#operations) (234)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (262)
+- [ops](#ops) (263)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1948,7 +1950,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [poisoned-branch](#poisoned-branch) (1)
 - [PoisonX](#poisonx) (1)
 - [police digital services](#police-digital-services) (1)
-- [PolinRider](#polinrider) (2)
+- [PolinRider](#polinrider) (3)
 - [Poly1305](#poly1305) (1)
 - [polyfill](#polyfill) (1)
 - [Polygon](#polygon) (1)
@@ -2111,7 +2113,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Remcos RAT](#remcos-rat) (1)
 - [remote access](#remote-access) (6)
 - [remote access software](#remote-access-software) (1)
-- [remote access trojan](#remote-access-trojan) (3)
+- [remote access trojan](#remote-access-trojan) (4)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (18)
 - [remote debugging](#remote-debugging) (2)
@@ -2466,7 +2468,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (14)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (86)
+- [supply-chain](#supply-chain) (87)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
@@ -4010,6 +4012,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## blockchain C2
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
@@ -5165,6 +5168,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -6084,6 +6088,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## detection engineering
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
+## DEV#POPPER
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
+
 ## DEV-0206
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
@@ -6129,6 +6136,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
@@ -7948,6 +7956,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BINDCLOAK](../tools/bindcloak.md)
 
 ## import-time execution
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -8971,6 +8980,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## maintainer compromise
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -9780,6 +9790,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Node.js
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [TaskWeaver](../tools/taskweaver.md)
@@ -9833,6 +9844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
@@ -10023,6 +10035,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Omnibox
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
+## OmniStealer
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 
 ## OneDrive
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -10220,6 +10235,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -10465,6 +10481,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
@@ -11103,6 +11120,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PolinRider
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
 ## Poly1305
@@ -11787,6 +11805,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## remote access trojan
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [LabubaRAT](../tools/labubarat.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
@@ -13161,6 +13180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JiaT75](../people/jiat75.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)

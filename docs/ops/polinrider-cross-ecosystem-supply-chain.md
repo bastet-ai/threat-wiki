@@ -80,6 +80,7 @@ Observed follow-on payload capabilities include command execution, `socket.io-cl
 - Do not assume that absence of a malicious release in one registry means the repository is clean; Socket reported cases where repository compromise did not produce corresponding npm or PyPI publishes.
 
 ## Related pages
+- [Joyfill npm blockchain-RAT compromise](joyfill-npm-blockchain-rat-compromise.md)
 - [Astro config blockchain C2 PR injection](astro-config-blockchain-c2-pr-injection.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [UNK_DeadDrop developer repository phishing](unk-deaddrop-developer-repository-phishing.md)

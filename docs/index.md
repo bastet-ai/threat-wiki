@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Joyfill npm blockchain-RAT compromise](ops/joyfill-npm-blockchain-rat-compromise.md)
 - [GitHub Actions automatic suspicious-workflow approval holds](patterns/deployment-poisoning-github-actions.md#github-hardening-updates)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 - [Mirage Kitten](actors/mirage-kitten.md), [NightLedger](tools/nightledger.md), [BridgeHead](tools/bridgehead.md), and [ArcBridge](tools/arcbridge.md)
