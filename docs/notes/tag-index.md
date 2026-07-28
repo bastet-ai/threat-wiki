@@ -412,7 +412,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chromium](#chromium) (5)
 - [Chromium extension](#chromium-extension) (1)
 - [CI secrets](#ci-secrets) (1)
-- [CI-CD](#ci-cd) (2)
+- [CI-CD](#ci-cd) (3)
 - [CI/CD](#cicd) (37)
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CircleCI](#circleci) (1)
@@ -792,6 +792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [delayed execution](#delayed-execution) (2)
 - [denial of service](#denial-of-service) (5)
 - [Deno](#deno) (2)
+- [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (3)
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (6)
@@ -815,7 +816,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer-machine-fleet](#developer-machine-fleet) (1)
 - [developer-targeting](#developer-targeting) (19)
 - [developer-tools](#developer-tools) (1)
-- [developer-workstations](#developer-workstations) (2)
+- [developer-workstations](#developer-workstations) (3)
 - [device lockout](#device-lockout) (1)
 - [device registration](#device-registration) (1)
 - [device-code phishing](#device-code-phishing) (3)
@@ -1116,9 +1117,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Git](#git) (1)
 - [git.exe](#gitexe) (1)
 - [Gitea](#gitea) (1)
-- [GitHub](#github) (20)
+- [GitHub](#github) (21)
 - [GitHub abuse](#github-abuse) (3)
 - [GitHub Actions](#github-actions) (24)
+- [GitHub Advisory Database](#github-advisory-database) (1)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
 - [GitHub CLI](#github-cli) (1)
@@ -1128,7 +1130,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Pages abuse](#github-pages-abuse) (2)
 - [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub release assets](#github-release-assets) (1)
-- [GitHub Security Advisories](#github-security-advisories) (2)
+- [GitHub Security Advisories](#github-security-advisories) (3)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
 - [GitLab](#gitlab) (2)
@@ -1291,7 +1293,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory plugins](#in-memory-plugins) (1)
 - [incident response](#incident-response) (26)
-- [incident-response](#incident-response) (1)
+- [incident-response](#incident-response) (2)
 - [IndexedDB](#indexeddb) (1)
 - [India](#india) (3)
 - [India-nexus](#india-nexus) (1)
@@ -1549,7 +1551,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (2)
 - [malicious dataset](#malicious-dataset) (1)
 - [malicious GPO](#malicious-gpo) (1)
-- [malicious packages](#malicious-packages) (1)
+- [malicious packages](#malicious-packages) (2)
 - [malicious plugin](#malicious-plugin) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
@@ -1602,7 +1604,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA bypass](#mfa-bypass) (8)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
-- [Miasma](#miasma) (7)
+- [Miasma](#miasma) (8)
 - [MicroPython](#micropython) (1)
 - [Microsoft](#microsoft) (10)
 - [Microsoft .NET](#microsoft-net) (1)
@@ -1633,7 +1635,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [military research](#military-research) (1)
 - [Mimikatz](#mimikatz) (5)
 - [Minecraft DDoS](#minecraft-ddos) (1)
-- [Mini Shai-Hulud](#mini-shai-hulud) (3)
+- [Mini Shai-Hulud](#mini-shai-hulud) (4)
 - [MiniJunk](#minijunk) (1)
 - [MiniPlasma](#miniplasma) (1)
 - [MINIRAT](#minirat) (2)
@@ -1752,7 +1754,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [North Korea](#north-korea) (12)
 - [notarized malware](#notarized-malware) (2)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (52)
+- [npm](#npm) (53)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm supply-chain](#npm-supply-chain) (1)
 - [npm token theft](#npm-token-theft) (1)
@@ -1812,6 +1814,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenHands](#openhands) (1)
 - [OpenSearch](#opensearch) (1)
 - [OpenShield](#openshield) (1)
+- [OpenSSF](#openssf) (1)
 - [OpenSSH](#openssh) (2)
 - [OpenVPN](#openvpn) (1)
 - [OpenVPN-shaped UDP](#openvpn-shaped-udp) (1)
@@ -1888,7 +1891,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (2)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (29)
+- [patterns](#patterns) (30)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
@@ -2042,7 +2045,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pwn-request](#pwn-request) (1)
 - [PyArmor](#pyarmor) (3)
 - [PyInstaller](#pyinstaller) (1)
-- [PyPI](#pypi) (12)
+- [PyPI](#pypi) (13)
 - [Python](#python) (13)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python malware](#python-malware) (2)
@@ -2293,7 +2296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [SHADOW-WATER-063](#shadow-water-063) (1)
 - [ShadowPad](#shadowpad) (3)
-- [Shai-Hulud](#shai-hulud) (7)
+- [Shai-Hulud](#shai-hulud) (8)
 - [SHARDLOADER](#shardloader) (2)
 - [share propagation](#share-propagation) (1)
 - [shared hosting](#shared-hosting) (3)
@@ -2468,7 +2471,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (14)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (87)
+- [supply-chain](#supply-chain) (88)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
@@ -2515,7 +2518,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tc](#tc) (1)
 - [TCP traffic diversion](#tcp-traffic-diversion) (1)
 - [TDS](#tds) (1)
-- [TeamPCP](#teampcp) (8)
+- [TeamPCP](#teampcp) (9)
 - [TeamPCP-adjacent](#teampcp-adjacent) (1)
 - [Teams access](#teams-access) (1)
 - [TeamViewer](#teamviewer) (1)
@@ -4498,6 +4501,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CI-CD
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## CI/CD
@@ -6059,6 +6063,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
+## Dependabot
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
+
 ## dependency confusion
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
@@ -6183,6 +6190,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## developer-workstations
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## device lockout
@@ -7324,6 +7332,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
@@ -7370,6 +7379,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 
+## GitHub Advisory Database
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
+
 ## GitHub API
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 
@@ -7400,6 +7412,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitHub Security Advisories
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## GitHub tokens
@@ -8000,6 +8013,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## incident-response
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## IndexedDB
@@ -8999,6 +9013,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
 ## malicious packages
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
 ## malicious plugin
@@ -9258,6 +9273,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
@@ -9394,6 +9410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Mini Shai-Hulud
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 
@@ -9834,6 +9851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
@@ -10084,6 +10102,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OpenShield
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
+
+## OpenSSF
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 
 ## OpenSSH
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
@@ -10855,6 +10876,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
@@ -11493,6 +11515,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -12486,6 +12509,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
@@ -13162,6 +13186,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
@@ -13390,6 +13415,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+- [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)

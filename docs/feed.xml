@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Dependabot cross-ecosystem malware advisory alerts</title>
+      <link>https://threat.wiki/patterns/dependabot-cross-ecosystem-malware-alerts/</link>
+      <description>Added GitHub's July 28 expansion of Dependabot malware alerts through automatic ingestion of OpenSSF malicious-packages advisories. Coverage records broader ecosystem support beyond npm, including PyPI, the GitHub Advisory Database type:malware pivot, organization and repository enablement, execution-evidence caveats, and package, endpoint, CI, artifact, and credential-response guidance.</description>
+      <pubDate>Tue, 28 Jul 2026 21:26:56 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/dependabot-cross-ecosystem-malware-alerts/</guid>
+    </item>
+    <item>
       <title>Joyfill npm blockchain-RAT compromise</title>
       <link>https://threat.wiki/ops/joyfill-npm-blockchain-rat-compromise/</link>
       <description>Added Socket Research intelligence and StepSecurity follow-ups expanding the affected set to six Joyfill npm prereleases and independently confirming live blockchain resolution during direct payload detonation. Coverage records import-time execution, sandbox and bundle-diff validation, Tron/Aptos/BSC payload resolution, the recovered Node.js RAT and detached downloader, PolinRider and DEV#POPPER overlap without actor over-attribution, matching OmniStealer-like follow-on captures, developer-tool persistence, public indicators, and package, endpoint, CI, and credential-response guidance.</description>

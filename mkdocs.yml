@@ -360,6 +360,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Dependabot cross-ecosystem malware advisory alerts: patterns/dependabot-cross-ecosystem-malware-alerts.md
       - Azure DevOps MCP pull-request prompt injection: patterns/azure-devops-mcp-pr-prompt-injection.md
       - Cursor Windows workspace-path binary hijack: patterns/cursor-windows-workspace-path-binary-hijack.md
       - AI browser-extension confused deputy: patterns/ai-browser-extension-confused-deputy.md
