@@ -47,6 +47,9 @@ The durable lesson is not that one GitHub Actions trigger is uniquely unsafe. Th
 - The protection blocks checkout patterns that resolve to fork pull-request code through a fork `repository`, `refs/pull/<number>/head`, `refs/pull/<number>/merge`, or a fork pull request head / merge commit SHA.
 - GitHub says the enforcement will be backported on 2026-07-16 to supported major versions such as floating `actions/checkout@v4`; workflows pinned to a SHA, minor, or patch release need an explicit upgrade path.
 - GitHub also introduced workflow execution protections in public preview for enterprises, organizations, and repositories. The control lets administrators define rulesets that allow-list who can trigger workflows and which events are allowed, so approval logic does not live only inside mutable workflow YAML.
+- On 2026-07-28, GitHub added an automatic approval hold for certain workflow runs it identifies as potentially malicious in public repositories on GitHub.com. GitHub tied the control to recent supply-chain attacks in which compromised credentials were used to push malicious workflow files that stole CI/CD credentials and enabled follow-on attacks.
+- A held workflow does not execute until a repository collaborator with write access reviews and approves it through an authenticated web session. Repository owners do not need to enable the control, but GitHub has not disclosed a complete public detection specification.
+- The automatic hold does not currently cover private or internal repositories, and GitHub Enterprise Server does not receive it. It should be treated as an additional platform tripwire rather than a substitute for branch protection, workflow code ownership, token minimization, egress control, or audit review.
 - These platform changes do not make deployment metadata safe by default: `deployment_status` consumers should still validate the producer, event type, environment name, and URL before any secret-bearing step.
 
 ## Defender heuristics
@@ -56,6 +59,8 @@ The durable lesson is not that one GitHub Actions trigger is uniquely unsafe. Th
 - Treat PR comments, branch names, titles, labels, artifact contents, and deployment metadata as attacker-controlled even when a downstream workflow runs on the default branch.
 - Prefer floating supported `actions/checkout` majors or planned upgrade automation where that is operationally acceptable; if you pin by SHA for supply-chain control, deliberately roll to a version that includes GitHub's June 2026 pwn-request refusal logic.
 - For GitHub Enterprise / organization environments, evaluate workflow execution protections to restrict workflow runs by actor and event outside the workflow file itself.
+- For public GitHub.com repositories, investigate every GitHub-generated suspicious-workflow approval hold before approving it. Validate the triggering actor, commit and diff, workflow provenance, requested permissions, external downloads, encoded commands, runner egress, and any direct-push or credential-compromise evidence.
+- Do not normalize approval holds into a click-through step. Require an out-of-band check of the triggering account and preserve the workflow, commit, audit, and run metadata when repository compromise is plausible.
 - Treat `github.event.deployment_status.*` fields as untrusted unless the workflow explicitly verifies the producer and expected environment.
 - Do not let comments or labels directly approve, merge, release, or publish without binding the request to a trusted actor, immutable reviewed commit, and expected workflow producer.
 - Avoid direct `${{ }}` interpolation inside `run:` blocks; pass values through environment variables and quote/use them carefully.
@@ -74,5 +79,6 @@ The durable lesson is not that one GitHub Actions trigger is uniquely unsafe. Th
 - Boost Security Labs: [https://labs.boostsecurity.io/articles/deployment_poisoning/](https://labs.boostsecurity.io/articles/deployment_poisoning/)
 - GitHub Changelog, safer `pull_request_target` defaults for `actions/checkout`: [https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout](https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout)
 - GitHub Changelog, workflow execution protections: [https://github.blog/changelog/2026-06-18-control-who-and-what-triggers-github-actions-workflows](https://github.blog/changelog/2026-06-18-control-who-and-what-triggers-github-actions-workflows)
+- GitHub Changelog, automatic approval holds for potentially malicious workflows: [https://github.blog/changelog/2026-07-28-github-actions-holds-unproven-workflows-for-approval](https://github.blog/changelog/2026-07-28-github-actions-holds-unproven-workflows-for-approval)
 - Novee Security, Cordyceps: [https://novee.security/blog/cordyceps/](https://novee.security/blog/cordyceps/)
 - The Hacker News, Cordyceps CI/CD flaws: [https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html](https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html)
