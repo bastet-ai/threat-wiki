@@ -4,8 +4,8 @@
     <item>
       <title>Joyfill npm blockchain-RAT compromise</title>
       <link>https://threat.wiki/ops/joyfill-npm-blockchain-rat-compromise/</link>
-      <description>Added Socket Research intelligence on two compromised Joyfill npm beta releases. Coverage records import-time execution, Tron/Aptos/BSC payload resolution, the recovered Node.js RAT and detached downloader, PolinRider and DEV#POPPER overlap without actor over-attribution, matching OmniStealer-like follow-on captures, developer-tool persistence, public indicators, and package, endpoint, CI, and credential-response guidance.</description>
-      <pubDate>Tue, 28 Jul 2026 15:27:35 GMT</pubDate>
+      <description>Added Socket Research intelligence and a StepSecurity follow-up expanding the affected set to six Joyfill npm prereleases. Coverage records import-time execution, independent sandbox and bundle-diff validation, Tron/Aptos/BSC payload resolution, the recovered Node.js RAT and detached downloader, PolinRider and DEV#POPPER overlap without actor over-attribution, matching OmniStealer-like follow-on captures, developer-tool persistence, public indicators, and package, endpoint, CI, and credential-response guidance.</description>
+      <pubDate>Tue, 28 Jul 2026 17:25:38 GMT</pubDate>
       <guid>https://threat.wiki/ops/joyfill-npm-blockchain-rat-compromise/</guid>
     </item>
     <item>

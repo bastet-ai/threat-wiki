@@ -1,7 +1,7 @@
 # Joyfill npm blockchain-RAT compromise
 
 ## Summary
-Socket Research reported on July 28, 2026 that two beta releases in the legitimate `@joyfill` npm namespace contained an import-time JavaScript implant. The functional `@joyfill/layouts` release resolved encrypted code through Tron, Aptos, and BNB Smart Chain transactions, recovered a 77 KB Node.js remote-access trojan, and launched a separate detached downloader. The same source-level injection reached `@joyfill/components`, although a throwing dynamic-`require` shim limited normal execution in that artifact.
+Socket Research reported on July 28, 2026 that beta releases in the legitimate `@joyfill` npm namespace contained an import-time JavaScript implant. Socket initially analyzed one release of each package; a same-day StepSecurity follow-up expanded the affected set to six `2773` prereleases across `@joyfill/layouts` and `@joyfill/components`. The functional layouts release resolved encrypted code through Tron, Aptos, and BNB Smart Chain transactions, recovered a 77 KB Node.js remote-access trojan, and launched a separate detached downloader. The same source-level injection reached components, although Socket found that a throwing dynamic-`require` shim limited normal execution in the first components artifact it analyzed.
 
 The loader has exact PolinRider-family fingerprints, while the recovered RAT and live downstream captures overlap with DEV#POPPER and an OmniStealer-like Python credential stealer. Socket explicitly described these as malware-family assessments, not attribution of the Joyfill compromise to a particular actor.
 
@@ -22,8 +22,8 @@ The loader has exact PolinRider-family fingerprints, while the recovered RAT and
 - remote access trojan
 
 ## Affected releases
-- `@joyfill/layouts@0.1.2-2773.beta.0` — published `2026-07-28T10:54:57.311Z`; the CommonJS entrypoint executes the implant when imported.
-- `@joyfill/components@4.0.0-rc24-2773-beta.4` — published `2026-07-28T11:03:59.568Z`; contains the injection in `dist/index.js`, `dist/index.esm.js`, and `dist/joyfill.min.js`, but Socket found that the bundled dynamic-`require` shim prevents normal dependency resolution in this artifact.
+- `@joyfill/layouts@0.1.2-2773.beta.0`, `0.1.2-2773.beta.1`, and `0.1.2-2773.beta.2` — StepSecurity found the injected block prepended to `dist/index.cjs.js` and `dist/index.es.js`; Socket recorded beta.0 as published at `2026-07-28T10:54:57.311Z` and confirmed its CommonJS entrypoint executes the implant when imported.
+- `@joyfill/components@4.0.0-rc24-2773-beta.4`, `4.0.0-rc24-2773-beta.5`, and `4.0.0-rc24-2773-beta.6` — StepSecurity found the injected block appended to `dist/index.js`, `dist/index.esm.js`, and `dist/joyfill.min.js`; Socket recorded beta.4 as published at `2026-07-28T11:03:59.568Z` but found that its bundled dynamic-`require` shim prevents normal dependency resolution through the analyzed path.
 
 Socket found the preceding `@joyfill/layouts@0.1.1` and `@joyfill/components@4.0.0-rc24` releases clean and did not find the signature in other public `@joyfill` packages it checked. The shared `2773` prerelease marker, publisher identity, and bundle source maps show that the implant was present at build time, but public evidence does not yet distinguish developer-workstation, repository, CI, or publishing-credential initial access.
 
@@ -69,9 +69,14 @@ The matching Python stealer collects environment and host data, browser credenti
 
 Socket's source report contains the full file-hash, wallet/address, and transaction-hash set. Blockchain identifiers should be used as resolver and telemetry pivots, not as proof of actor identity.
 
+StepSecurity additionally documented request paths `/$/boot`, `/u/e`, `/u/f`, `/0x/js`, `/verify-human/`, and `/snv`; `ip-api[.]com` as a lookup endpoint; and Tron addresses `TMfKQEd7TJJa5xNZJZ2Lep838vrzrs7mAP`, `TXfxHUet9pJVU1BgVkBAbrES4YUc1nGzcG`, and `TA48dct6rFW8BXsiLAtjFaVFoSuryMjD3v`.
+
+## Independent runtime validation
+StepSecurity detonated all six `2773` versions in a sandbox with install-time and import-time observation. Installation produced no lifecycle-script or child-process activity, while importing loaded the compromised bundles. The tests did not observe outbound C2 traffic; StepSecurity assessed that the on-chain configuration or operator infrastructure was likely already unavailable, so absence of a callout is not evidence that an installed artifact is clean. Bundle diffs against clean siblings exposed roughly 333 lines of injected code and the decoded `global.r = require` assignment.
+
 ## Defender actions
-1. Block and remove both affected versions from lockfiles, caches, internal mirrors, images, and deployment artifacts. Avoid the packages' `beta` dist-tag pending public remediation confirmation.
-2. Treat any system that **imported** the affected layouts release as potentially compromised. `npm install --ignore-scripts` is not protective because this is module-load execution.
+1. Block and remove all six affected versions from lockfiles, caches, internal mirrors, images, and deployment artifacts. Avoid the packages' `beta` dist-tag pending public remediation confirmation.
+2. Treat any system that **imported** an affected package as potentially compromised. `npm install --ignore-scripts` is not protective because this is module-load execution.
 3. Isolate affected hosts and preserve endpoint, process, DNS, proxy, package, lockfile, CI, source-map, and registry-cache evidence before cleanup.
 4. From a known-clean system, rotate npm and source-control credentials, cloud and Kubernetes secrets, SSH keys, browser sessions, wallet material, password-manager data, and other credentials reachable from the affected process.
 5. Hunt for detached `node -e` processes; `Sec-V` requests; blockchain RPC traffic from developer or CI hosts; and unexpected modifications to VS Code, Cursor, Antigravity, Discord, GitHub Desktop, and global npm files.
@@ -80,7 +85,7 @@ Socket's source report contains the full file-hash, wallet/address, and transact
 
 ## Assessment caveats
 - Public source maps prove that malicious code was present at bundle time, not which upstream trust boundary was first compromised.
-- The components artifact is maliciously modified but does not execute normally through the analyzed bundle path; do not generalize that limitation to layouts.
+- Socket found that the first components artifact did not execute normally through its analyzed bundle path. StepSecurity confirmed injected bundles across three components versions, but its no-callout detonation did not establish successful downstream C2 execution; do not generalize either result to layouts.
 - PolinRider, DEV#POPPER, and OmniStealer describe code and infrastructure overlap. They do not establish actor attribution for this incident.
 - The live boot and Python captures match campaign keys and infrastructure but lack provenance proving universal delivery to affected Joyfill systems.
 
@@ -92,4 +97,5 @@ Socket's source report contains the full file-hash, wallet/address, and transact
 
 ## Sources
 - Socket Research: [Two Joyfill npm Beta Releases Compromised With Blockchain-Backed Remote Access Trojan Loader](https://socket.dev/blog/joyfill-npm-beta-releases-compromised)
+- StepSecurity: [Compromised npm Packages: @joyfill/components and @joyfill/layouts Ship an Obfuscated Remote Access Trojan](https://www.stepsecurity.io/blog/joyfill-npm-supply-chain-compromise)
 - npm registry: [`@joyfill/layouts`](https://www.npmjs.com/package/@joyfill/layouts) and [`@joyfill/components`](https://www.npmjs.com/package/@joyfill/components)
