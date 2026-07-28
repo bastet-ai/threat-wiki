@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Mirage Kitten NightLedger / BridgeHead / ArcBridge campaign: ops/mirage-kitten-nightledger-bridgehead-arcbridge.md
       - 'Dysphoria IoT botnet: blockchain C2 and victim-operated relays': ops/dysphoria-iot-botnet.md
       - Arista VeloCloud Orchestrator CVE-2026-16812 exploitation: ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md
       - FortiOS CVE-2025-68686 symlink-persistence bypass: ops/fortios-cve-2025-68686-symlink-persistence-bypass.md
@@ -275,6 +276,9 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - NightLedger: tools/nightledger.md
+      - BridgeHead: tools/bridgehead.md
+      - ArcBridge: tools/arcbridge.md
       - TELESHIM: tools/teleshim.md
       - MIXEDKEY: tools/mixedkey.md
       - BINDCLOAK: tools/bindcloak.md
@@ -314,6 +318,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - Mirage Kitten / UNC1549: actors/mirage-kitten.md
       - CL-STA-1114 / Void Blizzard: actors/cl-sta-1114-void-blizzard.md
       - UAC-0145: actors/uac-0145.md
       - UAT-11795: actors/uat-11795.md

@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+- [Mirage Kitten](../actors/mirage-kitten.md), [NightLedger](../tools/nightledger.md), [BridgeHead](../tools/bridgehead.md), and [ArcBridge](../tools/arcbridge.md)
 - [Dysphoria IoT botnet: blockchain C2 and victim-operated relays](../ops/dysphoria-iot-botnet.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass: CISA KEV](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
