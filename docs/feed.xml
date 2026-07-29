@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Cisco Secure FMC CVE-2026-20316 static-credential exploitation</title>
+      <link>https://threat.wiki/ops/cisco-fmc-cve-2026-20316-static-credential-exploitation/</link>
+      <description>Added Cisco and CISA coverage of active exploitation of a static low-privilege credential in Secure Firewall Management Center. The page records affected and unaffected products, branch-specific hot fixes, the absence of a workaround, Cisco's /var/tmp/license.tmp host-log pivot, management-plane containment, evidence preservation, full device credential, key, and certificate rotation, and actor-attribution caveats.</description>
+      <pubDate>Wed, 29 Jul 2026 19:28:20 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cisco-fmc-cve-2026-20316-static-credential-exploitation/</guid>
+    </item>
+    <item>
       <title>Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE</title>
       <link>https://threat.wiki/ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce/</link>
       <description>Added GitHub and Ruflo disclosure coverage for a default Docker Compose MCP bridge that exposed terminal execution without authentication before 3.16.3. The page records provider-key and conversation theft, AgentDB memory poisoning, persistent container writes, listener and tool-policy fixes, exploitation-status caveats, and credential rotation, clean rebuild, memory audit, and behavioral hunting guidance.</description>

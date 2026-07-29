@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 - [Internet-exposed unauthenticated MCP servers](patterns/internet-exposed-unauthenticated-mcp-servers.md)

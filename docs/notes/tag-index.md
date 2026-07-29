@@ -37,7 +37,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (53)
+- [active exploitation](#active-exploitation) (54)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (2)
 - [active-exploitation](#active-exploitation) (1)
@@ -425,8 +425,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
 - [CISA](#cisa) (3)
-- [CISA KEV](#cisa-kev) (26)
-- [Cisco](#cisco) (3)
+- [CISA KEV](#cisa-kev) (27)
+- [Cisco](#cisco) (4)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
 - [Cisco Nexus](#cisco-nexus) (1)
@@ -549,7 +549,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [continuous visibility](#continuous-visibility) (1)
 - [control flow flattening](#control-flow-flattening) (3)
 - [control panel compromise](#control-panel-compromise) (1)
-- [control plane](#control-plane) (1)
+- [control plane](#control-plane) (2)
 - [conversation theft](#conversation-theft) (1)
 - [cookie theft](#cookie-theft) (4)
 - [Copilot](#copilot) (1)
@@ -571,6 +571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential dumping](#credential-dumping) (1)
 - [credential exposure](#credential-exposure) (3)
 - [credential harvesting](#credential-harvesting) (4)
+- [credential rotation](#credential-rotation) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
 - [credential theft](#credential-theft) (60)
@@ -601,6 +602,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
 - [cryptomining](#cryptomining) (1)
+- [CSCwt95997](#cscwt95997) (1)
 - [CSI token theft](#csi-token-theft) (1)
 - [CSRF](#csrf) (1)
 - [CSRF token theft](#csrf-token-theft) (1)
@@ -669,6 +671,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-20245](#cve-2026-20245) (1)
 - [CVE-2026-20253](#cve-2026-20253) (1)
 - [CVE-2026-20262](#cve-2026-20262) (1)
+- [CVE-2026-20316](#cve-2026-20316) (1)
 - [CVE-2026-20896](#cve-2026-20896) (1)
 - [CVE-2026-21513](#cve-2026-21513) (1)
 - [CVE-2026-23111](#cve-2026-23111) (1)
@@ -759,6 +762,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [CWE-22](#cwe-22) (1)
+- [CWE-259](#cwe-259) (1)
 - [CWE-306](#cwe-306) (1)
 - [CWE-352](#cwe-352) (1)
 - [CWE-502](#cwe-502) (1)
@@ -1074,8 +1078,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Firebase](#firebase) (1)
 - [Firefox Add-ons](#firefox-add-ons) (1)
 - [Firefox WebDriver BiDi](#firefox-webdriver-bidi) (1)
+- [Firepower Management Center](#firepower-management-center) (1)
 - [firewall](#firewall) (1)
-- [firewall management](#firewall-management) (1)
+- [firewall management](#firewall-management) (2)
 - [firmware](#firmware) (1)
 - [firmware update](#firmware-update) (1)
 - [FishMonger](#fishmonger) (1)
@@ -1087,6 +1092,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Flutter](#flutter) (1)
 - [FlutterShell](#fluttershell) (1)
 - [Flying Eagle](#flying-eagle) (1)
+- [FMC](#fmc) (1)
 - [FOFA](#fofa) (1)
 - [folderOpen](#folderopen) (1)
 - [foreign affairs targeting](#foreign-affairs-targeting) (1)
@@ -1239,6 +1245,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Handala](#handala) (1)
 - [HappyDoor](#happydoor) (1)
 - [HAR files](#har-files) (1)
+- [hard-coded password](#hard-coded-password) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
 - [HarmonyLib](#harmonylib) (1)
 - [HashiCorp Vault](#hashicorp-vault) (1)
@@ -1326,7 +1333,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (26)
+- [incident response](#incident-response) (27)
 - [incident-response](#incident-response) (2)
 - [IndexedDB](#indexeddb) (1)
 - [India](#india) (3)
@@ -1357,7 +1364,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Intercolo](#intercolo) (1)
 - [internet exposure](#internet-exposure) (1)
 - [internet-facing admin surface](#internet-facing-admin-surface) (1)
-- [internet-facing appliance](#internet-facing-appliance) (1)
+- [internet-facing appliance](#internet-facing-appliance) (2)
 - [internet-facing applications](#internet-facing-applications) (1)
 - [investment scam](#investment-scam) (1)
 - [InvisibleFerret](#invisibleferret) (1)
@@ -1875,9 +1882,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (238)
+- [operations](#operations) (239)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (267)
+- [ops](#ops) (268)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2306,6 +2313,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (6)
 - [secrets management](#secrets-management) (1)
+- [Secure Firewall Management Center](#secure-firewall-management-center) (1)
 - [Secure Preferences](#secure-preferences) (1)
 - [Security Management Server](#security-management-server) (1)
 - [security platform](#security-platform) (1)
@@ -2497,6 +2505,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Startup folder persistence](#startup-folder-persistence) (1)
 - [state-linked](#state-linked) (2)
 - [state-owned enterprise](#state-owned-enterprise) (1)
+- [static credentials](#static-credentials) (1)
 - [Static Kitten](#static-kitten) (1)
 - [stdio](#stdio) (3)
 - [StealC](#stealc) (2)
@@ -3079,6 +3088,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -4664,6 +4674,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
@@ -4687,6 +4698,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cisco
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 
 ## Cisco IOS
@@ -5176,6 +5188,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
 ## control plane
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
 ## conversation theft
@@ -5253,6 +5266,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [UNC6508](../actors/unc6508.md)
+
+## credential rotation
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 
 ## credential spraying
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
@@ -5496,6 +5512,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cryptomining
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
+## CSCwt95997
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
+
 ## CSI token theft
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
@@ -5709,6 +5728,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-20262
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+
+## CVE-2026-20316
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 
 ## CVE-2026-20896
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
@@ -5985,6 +6007,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CWE-22
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
+
+## CWE-259
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 
 ## CWE-306
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
@@ -7268,11 +7293,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Firefox WebDriver BiDi
 - [TELEPUZ](../tools/telepuz.md)
 
+## Firepower Management Center
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
+
 ## firewall
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## firewall management
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 
 ## firmware
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -7308,6 +7337,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Flying Eagle
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+
+## FMC
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 
 ## FOFA
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
@@ -7889,6 +7921,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HAR files
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
+## hard-coded password
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
+
 ## hard-coded secrets
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -8180,6 +8215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -8342,6 +8378,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
 ## internet-facing appliance
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## internet-facing applications
@@ -10443,6 +10480,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -10689,6 +10727,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -12640,6 +12679,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## secrets management
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
+## Secure Firewall Management Center
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
+
 ## Secure Preferences
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
@@ -13333,6 +13375,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## state-owned enterprise
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
+
+## static credentials
+- [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 
 ## Static Kitten
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
