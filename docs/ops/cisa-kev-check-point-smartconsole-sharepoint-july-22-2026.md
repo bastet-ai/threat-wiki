@@ -84,6 +84,13 @@ Authentication method: application token
 
 Also review newly created or changed administrators, policy installations, object and rule changes, Trusted Client changes, management API activity, exports or backups, and outbound connections from the management server. Preserve audit and policy history before remediation.
 
+### Rapid7 root-cause and public-PoC follow-up
+On 2026-07-29, Rapid7 published a technical analysis and proof-of-concept validator after reproducing the flaw against `R81.20` and `R82.10`. The root cause is a broken identity-binding boundary: the remote application-authentication path trusted an attacker-supplied Secure Internal Communication distinguished name instead of binding it to the authenticated peer certificate's DN. An unauthenticated client could learn the management server's own SIC DN during bootstrap, replay it during an application bind, obtain an application token, and exchange that token through the legacy management service for a SmartConsole SSO ticket.
+
+Rapid7 compared `R81.20` Jumbo Hotfix Take 146 with fixed Take 158. The patched path accepts a supplied DN only for loopback traffic and otherwise requires the supplied identity to match the authenticated peer certificate and expected remote IP context. Rapid7 confirmed that the public validator succeeds against its vulnerable test systems and fails after the vendor hotfix.
+
+The new public PoC increases the likelihood of scanning and copycat exploitation but does not itself establish new victims. Do not run it against systems you do not own or have explicit permission to test. Defenders should prioritize patch verification, restrict management-plane reachability, and hunt for the existing audit event `Authentication method: application token`; a successful ticket redemption uses the normal SmartConsole SOAP login path and can therefore look like a privileged console session after the initial bind.
+
 ## Microsoft SharePoint CVE-2026-50522
 
 ### Affected products and fixes
@@ -131,6 +138,8 @@ This discrepancy should lower confidence in the exact initial-access preconditio
 - CISA Known Exploited Vulnerabilities catalog: [https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json](https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json)
 - Check Point `sk185169`, CVE-2026-16232: [https://support.checkpoint.com/results/sk/sk185169](https://support.checkpoint.com/results/sk/sk185169)
 - Rapid7, “CVE-2026-16232: Critical Check Point SmartConsole Authentication Bypass Exploited in the Wild,” 2026-07-23: [https://www.rapid7.com/blog/post/etr-cve-2026-16232-critical-check-point-smartconsole-authentication-bypass-exploited-in-the-wild/](https://www.rapid7.com/blog/post/etr-cve-2026-16232-critical-check-point-smartconsole-authentication-bypass-exploited-in-the-wild/)
+- Rapid7, “Check Point SmartConsole Authentication Bypass Technical Analysis (CVE-2026-16232),” 2026-07-29: [https://www.rapid7.com/blog/post/ra-check-point-smartconsole-authentication-bypass-technical-analysis-cve-2026-16232/](https://www.rapid7.com/blog/post/ra-check-point-smartconsole-authentication-bypass-technical-analysis-cve-2026-16232/)
+- Rapid7 public validator repository: [https://github.com/sfewer-r7/CVE-2026-16232](https://github.com/sfewer-r7/CVE-2026-16232)
 - MSRC CVE-2026-50522: [https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50522](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50522)
 - MSRC Security Update Guide API, CVE-2026-50522: [https://api.msrc.microsoft.com/sug/v2.0/en-US/vulnerability/CVE-2026-50522](https://api.msrc.microsoft.com/sug/v2.0/en-US/vulnerability/CVE-2026-50522)
 - MSRC affected-product API query, CVE-2026-50522: [https://api.msrc.microsoft.com/sug/v2.0/en-US/affectedProduct?$filter=cveNumber%20eq%20%27CVE-2026-50522%27](https://api.msrc.microsoft.com/sug/v2.0/en-US/affectedProduct?$filter=cveNumber%20eq%20%27CVE-2026-50522%27)

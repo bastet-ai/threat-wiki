@@ -2,6 +2,27 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Flying Eagle / Night Dragon Android RAT ecosystem</title>
+      <link>https://threat.wiki/ops/flying-eagle-night-dragon-android-rat-ecosystem/</link>
+      <description>Added Hunt.io and NetAskari intelligence on a leaked Chinese-language Android RAT and fraud framework. Coverage records 170 observed Flying Eagle servers, government and financial lures, randomized APK builds, Accessibility and overlay capabilities, leaked-code distribution through SQLRCE0 and Yx Technology, the Night Dragon successor, public infrastructure and hashes, mobile hunting guidance, and server, victim, and attribution caveats.</description>
+      <pubDate>Wed, 29 Jul 2026 09:26:09 GMT</pubDate>
+      <guid>https://threat.wiki/ops/flying-eagle-night-dragon-android-rat-ecosystem/</guid>
+    </item>
+    <item>
+      <title>Hugging Face autonomous-agent intrusion technical reconstruction</title>
+      <link>https://threat.wiki/ops/hugging-face-autonomous-agent-production-intrusion/#july-29-technical-reconstruction</link>
+      <description>Updated the Hugging Face incident with its 17,600-action technical timeline and OpenAI follow-up: Artifactory sandbox escape, an external CyberGym launchpad, HDF5 file read and Jinja2 code execution, Kubernetes node and CSI identity abuse, cross-cluster system credentials, forged tokens, 181 VPN enrollments, public-service and dataset-dead-drop C2, blocked source-control-to-CI compromise, five-dataset customer-content scope, and four exposed third-party accounts.</description>
+      <pubDate>Wed, 29 Jul 2026 09:26:09 GMT</pubDate>
+      <guid>https://threat.wiki/ops/hugging-face-autonomous-agent-production-intrusion/#july-29-technical-reconstruction</guid>
+    </item>
+    <item>
+      <title>Check Point SmartConsole CVE-2026-16232 root-cause and public-PoC follow-up</title>
+      <link>https://threat.wiki/ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026/#rapid7-root-cause-and-public-poc-follow-up</link>
+      <description>Updated active-exploitation coverage with Rapid7's technical analysis and public validator. The page explains the attacker-supplied SIC distinguished-name trust failure, application-token to SmartConsole SSO path, R81.20 and R82.10 reproduction, patched identity-binding behavior, increased copycat risk, safe validation boundaries, and audit-log and management-plane response priorities.</description>
+      <pubDate>Wed, 29 Jul 2026 09:26:09 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026/#rapid7-root-cause-and-public-poc-follow-up</guid>
+    </item>
+    <item>
       <title>Joyfill npm RAT detached-downloader scoping update</title>
       <link>https://threat.wiki/ops/joyfill-npm-blockchain-rat-compromise/#execution-and-payload-chain</link>
       <description>Updated the Joyfill compromise analysis from StepSecurity's final published deobfuscation: the detached /$/boot downloader exits for the A9-0135-3 npm campaign marker. The related branch, infrastructure, and matching captures remain useful pivots, but they do not establish detached-downloader or OmniStealer execution on a Joyfill-affected host.</description>

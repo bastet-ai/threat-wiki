@@ -29,6 +29,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [access brokers](#access-brokers) (1)
 - [access optionality](#access-optionality) (1)
 - [access token abuse](#access-token-abuse) (1)
+- [Accessibility Service](#accessibility-service) (1)
 - [account lockout](#account-lockout) (1)
 - [account takeover](#account-takeover) (3)
 - [account-takeover](#account-takeover) (1)
@@ -133,11 +134,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AMOS](#amos) (1)
 - [AMSI bypass](#amsi-bypass) (4)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
-- [Android](#android) (8)
+- [Android](#android) (9)
 - [Android Accessibility Service](#android-accessibility-service) (2)
 - [Android ADB](#android-adb) (3)
 - [Android Debug Bridge](#android-debug-bridge) (1)
-- [Android malware](#android-malware) (2)
+- [Android malware](#android-malware) (3)
+- [Android RAT](#android-rat) (1)
 - [Android spyware](#android-spyware) (3)
 - [Anthropic](#anthropic) (1)
 - [anti-analysis](#anti-analysis) (6)
@@ -259,7 +261,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Banana RAT](#banana-rat) (1)
 - [bandcampro](#bandcampro) (1)
 - [banking](#banking) (1)
-- [banking malware](#banking-malware) (3)
+- [banking malware](#banking-malware) (4)
 - [banking trojan](#banking-trojan) (3)
 - [Barracuda](#barracuda) (1)
 - [Base64](#base64) (1)
@@ -393,11 +395,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point Research](#check-point-research) (1)
 - [Checkmarx](#checkmarx) (2)
 - [checkpointers](#checkpointers) (1)
-- [China](#china) (2)
+- [China](#china) (3)
 - [China-linked](#china-linked) (8)
 - [China-nexus](#china-nexus) (13)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
-- [Chinese-language cybercrime](#chinese-language-cybercrime) (1)
+- [Chinese-language cybercrime](#chinese-language-cybercrime) (2)
 - [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
 - [Chinese-speaking](#chinese-speaking) (4)
 - [Chinese-speaking cybercrime](#chinese-speaking-cybercrime) (1)
@@ -594,6 +596,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
 - [cryptomining](#cryptomining) (1)
+- [CSI token theft](#csi-token-theft) (1)
 - [CSRF](#csrf) (1)
 - [CSRF token theft](#csrf-token-theft) (1)
 - [Curious Serpens](#curious-serpens) (1)
@@ -767,6 +770,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data-exfiltration](#data-exfiltration) (1)
 - [database extortion](#database-extortion) (1)
 - [Datadog Security Labs](#datadog-security-labs) (1)
+- [dataset dead drop](#dataset-dead-drop) (1)
 - [dataset processing](#dataset-processing) (1)
 - [DAYLIGHT](#daylight) (1)
 - [DCloud](#dcloud) (1)
@@ -1024,6 +1028,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FatFs](#fatfs) (1)
 - [FBI](#fbi) (2)
 - [fbot](#fbot) (1)
+- [Feiying](#feiying) (1)
 - [FFmpeg](#ffmpeg) (1)
 - [FIDO2](#fido2) (1)
 - [FIFA](#fifa) (1)
@@ -1044,12 +1049,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [filename-injection](#filename-injection) (1)
 - [filesystem parser](#filesystem-parser) (1)
 - [finance](#finance) (2)
-- [financial fraud](#financial-fraud) (4)
+- [financial fraud](#financial-fraud) (5)
 - [financial sector](#financial-sector) (6)
 - [financial services](#financial-services) (3)
 - [financial theft](#financial-theft) (3)
 - [financially motivated](#financially-motivated) (1)
 - [FireAnt MetaKit](#fireant-metakit) (1)
+- [Firebase](#firebase) (1)
 - [Firefox Add-ons](#firefox-add-ons) (1)
 - [Firefox WebDriver BiDi](#firefox-webdriver-bidi) (1)
 - [firewall](#firewall) (1)
@@ -1064,6 +1070,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FLUIDLEECH](#fluidleech) (1)
 - [Flutter](#flutter) (1)
 - [FlutterShell](#fluttershell) (1)
+- [Flying Eagle](#flying-eagle) (1)
 - [FOFA](#fofa) (1)
 - [folderOpen](#folderopen) (1)
 - [foreign affairs targeting](#foreign-affairs-targeting) (1)
@@ -1181,6 +1188,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Goose](#goose) (1)
 - [GoSerpent](#goserpent) (1)
 - [government](#government) (5)
+- [government impersonation](#government-impersonation) (1)
 - [government targeting](#government-targeting) (17)
 - [government-impersonation](#government-impersonation) (1)
 - [GPT](#gpt) (1)
@@ -1218,6 +1226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HarmonyLib](#harmonylib) (1)
 - [HashiCorp Vault](#hashicorp-vault) (1)
 - [HavocKiller](#havockiller) (1)
+- [HDF5](#hdf5) (1)
 - [headless browser](#headless-browser) (2)
 - [healthcare](#healthcare) (2)
 - [heap buffer overflow](#heap-buffer-overflow) (1)
@@ -1241,6 +1250,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HOLLOWGRAPH](#hollowgraph) (1)
 - [Honduras](#honduras) (2)
 - [HONESTCUE](#honestcue) (1)
+- [Hong Kong](#hong-kong) (1)
 - [Hong Kong infrastructure](#hong-kong-infrastructure) (1)
 - [hospitality targeting](#hospitality-targeting) (1)
 - [Host Radar](#host-radar) (1)
@@ -1317,7 +1327,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [information disclosure](#information-disclosure) (2)
 - [infostealer](#infostealer) (24)
 - [InfoTeCS](#infotecs) (1)
-- [infrastructure](#infrastructure) (5)
+- [infrastructure](#infrastructure) (6)
 - [infrastructure disruption](#infrastructure-disruption) (3)
 - [initial access broker](#initial-access-broker) (2)
 - [initial-access](#initial-access) (3)
@@ -1379,7 +1389,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains Marketplace](#jetbrains-marketplace) (1)
 - [JetStream](#jetstream) (1)
 - [JFrog](#jfrog) (3)
+- [JFrog Artifactory](#jfrog-artifactory) (1)
 - [JFrog Security Research](#jfrog-security-research) (3)
+- [Jinja2](#jinja2) (1)
 - [JINX-0164](#jinx-0164) (2)
 - [joblib](#joblib) (1)
 - [Joomla](#joomla) (3)
@@ -1423,7 +1435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keychain theft](#keychain-theft) (2)
 - [KeyHunter](#keyhunter) (1)
 - [keylogger](#keylogger) (4)
-- [keylogging](#keylogging) (1)
+- [keylogging](#keylogging) (2)
 - [Kimsuky](#kimsuky) (1)
 - [Klue](#klue) (1)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
@@ -1466,6 +1478,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LD_PRELOAD](#ld_preload) (2)
 - [LDAP](#ldap) (1)
 - [leaked credentials](#leaked-credentials) (1)
+- [leaked source code](#leaked-source-code) (1)
 - [LEASHTEST](#leashtest) (1)
 - [least privilege](#least-privilege) (2)
 - [Ledger](#ledger) (1)
@@ -1539,7 +1552,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Luno](#luno) (1)
 - [Lyceum](#lyceum) (1)
 - [M-RED-TEAM](#m-red-team) (1)
-- [MaaS](#maas) (6)
+- [MaaS](#maas) (7)
 - [MAC address](#mac-address) (1)
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
@@ -1567,7 +1580,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malware](#malware) (48)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
-- [malware framework](#malware-framework) (2)
+- [malware framework](#malware-framework) (3)
 - [malware scanning](#malware-scanning) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-as-a-service](#malware-as-a-service) (5)
@@ -1604,6 +1617,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [memory poisoning](#memory-poisoning) (1)
 - [memory-only malware](#memory-only-malware) (1)
 - [merchant credential theft](#merchant-credential-theft) (1)
+- [mesh VPN](#mesh-vpn) (1)
 - [MeshAgent](#meshagent) (1)
 - [MeshCentral](#meshcentral) (2)
 - [MetaMask](#metamask) (1)
@@ -1667,7 +1681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile banking fraud](#mobile-banking-fraud) (1)
 - [mobile device management](#mobile-device-management) (1)
 - [mobile devices](#mobile-devices) (1)
-- [mobile malware](#mobile-malware) (2)
+- [mobile malware](#mobile-malware) (3)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
 - [MODBEACON](#modbeacon) (2)
 - [Model Context Protocol](#model-context-protocol) (8)
@@ -1749,6 +1763,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nginx module](#nginx-module) (1)
 - [Ngrok C2](#ngrok-c2) (1)
 - [Nigeria-nexus](#nigeria-nexus) (1)
+- [Night Dragon](#night-dragon) (1)
 - [NightLedger](#nightledger) (2)
 - [Nimbus Manticore](#nimbus-manticore) (2)
 - [NirSoft](#nirsoft) (1)
@@ -1838,9 +1853,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (235)
+- [operations](#operations) (236)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (264)
+- [ops](#ops) (265)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -1933,6 +1948,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
 - [phishing](#phishing) (25)
+- [phishing overlays](#phishing-overlays) (1)
 - [phishing-as-a-service](#phishing-as-a-service) (5)
 - [PHP](#php) (2)
 - [PHP code execution](#php-code-execution) (1)
@@ -2047,7 +2063,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public proof of concept](#public-proof-of-concept) (1)
 - [public sector](#public-sector) (2)
+- [Public Security Bureau impersonation](#public-security-bureau-impersonation) (1)
 - [public service abuse](#public-service-abuse) (1)
+- [public-service C2](#public-service-c2) (1)
 - [publish-time scanning](#publish-time-scanning) (1)
 - [pull requests](#pull-requests) (2)
 - [PUP](#pup) (1)
@@ -2248,7 +2266,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scope squatting](#scope-squatting) (1)
 - [scoped package impersonation](#scoped-package-impersonation) (1)
 - [SCOUTCURL](#scoutcurl) (1)
-- [screen capture](#screen-capture) (2)
+- [screen capture](#screen-capture) (3)
 - [ScreenConnect](#screenconnect) (5)
 - [Screening Serpens](#screening-serpens) (1)
 - [screenshot capture](#screenshot-capture) (2)
@@ -2362,6 +2380,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [smishing](#smishing) (4)
 - [Smoke Sandstorm](#smoke-sandstorm) (2)
 - [SMS interception](#sms-interception) (2)
+- [SMS theft](#sms-theft) (1)
 - [sms-phishing](#sms-phishing) (1)
 - [SMTP](#smtp) (1)
 - [SMTP abuse](#smtp-abuse) (1)
@@ -2427,6 +2446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SQL injection](#sql-injection) (5)
 - [SQLite](#sqlite) (1)
 - [SQLite state](#sqlite-state) (1)
+- [SQLRCE0](#sqlrce0) (1)
 - [SquareShell](#squareshell) (1)
 - [SSDP](#ssdp) (1)
 - [SSH](#ssh) (3)
@@ -2543,7 +2563,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telecom-impersonation](#telecom-impersonation) (1)
 - [telecommunications](#telecommunications) (3)
 - [Telegra.ph](#telegraph) (1)
-- [Telegram](#telegram) (10)
+- [Telegram](#telegram) (11)
 - [telegram](#telegram) (1)
 - [Telegram bot](#telegram-bot) (2)
 - [Telegram C2](#telegram-c2) (5)
@@ -2580,10 +2600,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyGo](#tinygo) (1)
 - [TinyRCT](#tinyrct) (3)
 - [tj-actions](#tj-actions) (1)
+- [TLS certificates](#tls-certificates) (1)
 - [TmcLoader](#tmcloader) (1)
 - [TmcPayload](#tmcpayload) (1)
 - [ToddyCat](#toddycat) (3)
-- [token forgery](#token-forgery) (1)
+- [token forgery](#token-forgery) (2)
 - [token replay](#token-replay) (3)
 - [token theft](#token-theft) (6)
 - [token-theft](#token-theft) (1)
@@ -2805,7 +2826,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [webshell](#webshell) (1)
 - [webshells](#webshells) (1)
 - [website-compromise](#website-compromise) (1)
-- [WebSocket](#websocket) (5)
+- [WebSocket](#websocket) (6)
 - [WebSocket C2](#websocket-c2) (7)
 - [websocket-sharp](#websocket-sharp) (1)
 - [WebView](#webview) (1)
@@ -2882,6 +2903,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [YouTube abuse](#youtube-abuse) (1)
 - [Yuechi Shared Technology](#yuechi-shared-technology) (1)
 - [yuze](#yuze) (2)
+- [Yx Technology](#yx-technology) (1)
 - [ZAPiXDESK](#zapixdesk) (1)
 - [Zendesk](#zendesk) (1)
 - [Zephyr RTOS](#zephyr-rtos) (1)
@@ -2991,6 +3013,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## access token abuse
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+
+## Accessibility Service
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
 ## account lockout
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
@@ -3459,6 +3484,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Android
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -3479,8 +3505,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## Android malware
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
+## Android RAT
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
 ## Android spyware
 - [GREYVIBE](../actors/greyvibe.md)
@@ -3919,6 +3949,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## banking malware
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
@@ -4423,6 +4454,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## China
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Showboat](../tools/showboat.md)
 - [Webworm](../actors/webworm.md)
 
@@ -4456,6 +4488,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Chinese-language cybercrime
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
 ## Chinese-language fraud ecosystem
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -5412,6 +5445,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cryptomining
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
+## CSI token theft
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
 ## CSRF
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 
@@ -5975,6 +6011,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Datadog Security Labs
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+
+## dataset dead drop
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## dataset processing
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -7035,6 +7074,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fbot
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 
+## Feiying
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+
 ## FFmpeg
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
@@ -7100,6 +7142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## financial fraud
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
@@ -7127,6 +7170,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FireAnt MetaKit
 - [OceanLotus](../actors/oceanlotus.md)
+
+## Firebase
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
 ## Firefox Add-ons
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
@@ -7171,6 +7217,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FlutterShell
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
+## Flying Eagle
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
 ## FOFA
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
@@ -7607,6 +7656,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 
+## government impersonation
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+
 ## government targeting
 - [Armored Likho](../actors/armored-likho.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
@@ -7758,6 +7810,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HavocKiller
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## HDF5
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
 ## headless browser
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
@@ -7830,6 +7885,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HONESTCUE
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## Hong Kong
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
 ## Hong Kong infrastructure
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
@@ -8141,6 +8199,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## infrastructure
 - [First VPN](../tools/first-vpn.md)
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
@@ -8381,10 +8440,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 
+## JFrog Artifactory
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
 ## JFrog Security Research
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+
+## Jinja2
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## JINX-0164
 - [JINX-0164](../actors/jinx-0164.md)
@@ -8535,6 +8600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TELEPUZ](../tools/telepuz.md)
 
 ## keylogging
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 
 ## Kimsuky
@@ -8692,6 +8758,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## leaked credentials
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
+## leaked source code
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
 ## LEASHTEST
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
@@ -8976,6 +9045,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MaaS
 - [ACR Stealer](../tools/acr-stealer.md)
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [QuimaRAT](../tools/quimarat.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
@@ -9150,6 +9220,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malware framework
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
 ## malware scanning
@@ -9281,6 +9352,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## merchant credential theft
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
+
+## mesh VPN
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## MeshAgent
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -9547,6 +9621,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## mobile malware
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [RedWing](../tools/redwing.md)
 
@@ -9830,6 +9905,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Nigeria-nexus
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
+
+## Night Dragon
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
 ## NightLedger
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
@@ -10279,6 +10357,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
@@ -10525,6 +10604,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -11104,6 +11184,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA4922](../actors/ta4922.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
+## phishing overlays
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+
 ## phishing-as-a-service
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
@@ -11545,7 +11628,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## Public Security Bureau impersonation
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+
 ## public service abuse
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
+## public-service C2
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## publish-time scanning
@@ -12361,6 +12450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## screen capture
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [TinyRCT](../tools/tinyrct.md)
 
@@ -12764,6 +12854,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
+## SMS theft
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+
 ## sms-phishing
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 
@@ -13019,6 +13112,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SQLite state
 - [LabubaRAT](../tools/labubarat.md)
+
+## SQLRCE0
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
 ## SquareShell
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -13536,6 +13632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Telegram
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -13680,6 +13777,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tj-actions
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## TLS certificates
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+
 ## TmcLoader
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
@@ -13692,6 +13792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Umbrij](../tools/umbrij.md)
 
 ## token forgery
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
 ## token replay
@@ -14593,6 +14694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [ArcBridge](../tools/arcbridge.md)
 - [BridgeHead](../tools/bridgehead.md)
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
@@ -14918,6 +15020,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## yuze
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
+
+## Yx Technology
+- [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
 ## ZAPiXDESK
 - [GREYVIBE](../actors/greyvibe.md)

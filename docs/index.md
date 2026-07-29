@@ -7,6 +7,9 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Flying Eagle / Night Dragon Android RAT ecosystem](ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+- [Hugging Face autonomous-agent intrusion: 17,600-action technical reconstruction](ops/hugging-face-autonomous-agent-production-intrusion.md#july-29-technical-reconstruction)
+- [Check Point SmartConsole CVE-2026-16232: root-cause and public-PoC follow-up](ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md#rapid7-root-cause-and-public-poc-follow-up)
 - [Joyfill npm RAT follow-up: detached downloader is dormant for the npm campaign marker](ops/joyfill-npm-blockchain-rat-compromise.md#execution-and-payload-chain)
 - [npm publish-time malware scanning and dual-use declarations](patterns/npm-publish-time-malware-scanning.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](ops/alibaba-developer-targeted-distributed-npm-rat.md)
