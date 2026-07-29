@@ -1,7 +1,7 @@
 # Joyfill npm blockchain-RAT compromise
 
 ## Summary
-Socket Research reported on July 28, 2026 that beta releases in the legitimate `@joyfill` npm namespace contained an import-time JavaScript implant. Socket initially analyzed one release of each package; a same-day StepSecurity follow-up expanded the affected set to six `2773` prereleases across `@joyfill/layouts` and `@joyfill/components`. The functional layouts release resolved encrypted code through Tron, Aptos, and BNB Smart Chain transactions, recovered a 77 KB Node.js remote-access trojan, and launched a separate detached downloader. The same source-level injection reached components, although Socket found that a throwing dynamic-`require` shim limited normal execution in the first components artifact it analyzed.
+Socket Research reported on July 28, 2026 that beta releases in the legitimate `@joyfill` npm namespace contained an import-time JavaScript implant. Socket initially analyzed one release of each package; a same-day StepSecurity follow-up expanded the affected set to six `2773` prereleases across `@joyfill/layouts` and `@joyfill/components`. The functional layouts release resolved encrypted code through Tron, Aptos, and BNB Smart Chain transactions and recovered a 77 KB Node.js remote-access trojan. The malware code also contains a detached downloader, but StepSecurity's final published deobfuscation shows that branch is dormant for the Joyfill npm campaign marker. The same source-level injection reached components, although Socket found that a throwing dynamic-`require` shim limited normal execution in the first components artifact it analyzed.
 
 The loader has exact PolinRider-family fingerprints, while the recovered RAT and live downstream captures overlap with DEV#POPPER and an OmniStealer-like Python credential stealer. Socket explicitly described these as malware-family assessments, not attribution of the Joyfill compromise to a particular actor.
 
@@ -32,8 +32,8 @@ Socket found the preceding `@joyfill/layouts@0.1.1` and `@joyfill/components@4.0
 2. An obfuscated bootstrap exposes Node.js module primitives through globals, sets marker `A9-0135-3`, and starts two payload-resolution branches.
 3. The in-process branch uses a hard-coded Tron address, with Aptos fallback, to obtain a BSC transaction hash. It reverses, decodes, and XOR-decrypts the BSC transaction input before evaluating it.
 4. A second blockchain hop recovers a 77,276-byte Node.js RAT. The RAT uses Socket.IO and supports JavaScript and shell execution, upload, file management, host discovery, clipboard collection, and additional payload retrieval.
-5. A parallel branch launches detached `node -e` execution, requests `23[.]27[.]13[.]43/$/boot` with `Sec-V: A9-0135-3`, decrypts the response, and evaluates it. The detached process can outlive the build, test, or CLI command that imported the package.
-6. Matching live boot captures can provision Python and retrieve a cross-platform credential stealer. Socket assessed with medium likelihood that the captured Python payload is an OmniStealer iteration; it cautioned that the captures lack request provenance proving every infected Joyfill host received that payload.
+5. The codebase also contains a detached `node -e` downloader for `/$/boot` requests carrying a `Sec-V` campaign header. StepSecurity's published deobfuscation shows this branch exits when the campaign identifier begins with `A`, making it dormant for the Joyfill npm marker `A9-0135-3`; numeric campaign identifiers can instead select `198[.]105[.]127[.]210` or `23[.]27[.]202[.]27`. Where enabled, the detached process can outlive the build, test, or CLI command that imported the package.
+6. Matching live boot captures from related campaign paths can provision Python and retrieve a cross-platform credential stealer. Socket assessed with medium likelihood that the captured Python payload is an OmniStealer iteration; it cautioned that the captures lack request provenance proving affected Joyfill hosts received that payload.
 
 The use of public blockchain transactions makes payload selection mutable without republishing the package. Blocking one conventional C2 address does not stop the initial resolution path.
 
@@ -69,7 +69,7 @@ The matching Python stealer collects environment and host data, browser credenti
 
 Socket's source report contains the full file-hash, wallet/address, and transaction-hash set. Blockchain identifiers should be used as resolver and telemetry pivots, not as proof of actor identity.
 
-StepSecurity additionally documented request paths `/$/boot`, `/u/e`, `/u/f`, `/0x/js`, `/verify-human/`, and `/snv`; `ip-api[.]com` as a lookup endpoint; and Tron addresses `TMfKQEd7TJJa5xNZJZ2Lep838vrzrs7mAP`, `TXfxHUet9pJVU1BgVkBAbrES4YUc1nGzcG`, and `TA48dct6rFW8BXsiLAtjFaVFoSuryMjD3v`.
+StepSecurity additionally documented request paths `/$/boot`, `/u/e`, `/u/f`, `/0x/js`, `/verify-human/`, and `/snv`; `ip-api[.]com` as a lookup endpoint; and Tron addresses `TMfKQEd7TJJa5xNZJZ2Lep838vrzrs7mAP`, `TXfxHUet9pJVU1BgVkBAbrES4YUc1nGzcG`, and `TA48dct6rFW8BXsiLAtjFaVFoSuryMjD3v`. Treat `Sec-V: A9-0135-3` and `/$/boot` as related-code and infrastructure pivots rather than evidence that the Joyfill npm path itself executed the dormant detached branch.
 
 ## Independent runtime validation
 StepSecurity detonated all six `2773` versions in a sandbox with install-time and import-time observation. Installation produced no lifecycle-script or child-process activity, while importing loaded the compromised bundles. Direct payload detonation then reached `api[.]trongrid[.]io`, the two documented BSC RPC services, and the Aptos fallback, and recovered a live second stage from the attacker's on-chain transaction. This independently confirms that the blockchain resolver and downstream infrastructure were reachable during StepSecurity's July 28 testing; it does not prove that every package import completed the same path. Bundle diffs against clean siblings exposed roughly 333 lines of injected code and the decoded `global.r = require` assignment.
@@ -79,13 +79,14 @@ StepSecurity detonated all six `2773` versions in a sandbox with install-time an
 2. Treat any system that **imported** an affected package as potentially compromised. `npm install --ignore-scripts` is not protective because this is module-load execution.
 3. Isolate affected hosts and preserve endpoint, process, DNS, proxy, package, lockfile, CI, source-map, and registry-cache evidence before cleanup.
 4. From a known-clean system, rotate npm and source-control credentials, cloud and Kubernetes secrets, SSH keys, browser sessions, wallet material, password-manager data, and other credentials reachable from the affected process.
-5. Hunt for detached `node -e` processes; `Sec-V` requests; blockchain RPC traffic from developer or CI hosts; and unexpected modifications to VS Code, Cursor, Antigravity, Discord, GitHub Desktop, and global npm files.
+5. Hunt first for blockchain RPC and `166[.]88[.]134[.]62` Socket.IO traffic from developer or CI hosts and unexpected modifications to VS Code, Cursor, Antigravity, Discord, GitHub Desktop, and global npm files. Detached `node -e`, `Sec-V`, and `/$/boot` activity remain useful pivots for related campaign identifiers but are not expected from the dormant Joyfill npm branch.
 6. If the Python follow-on may have run, inspect `%USERPROFILE%\.npm` and `/tmp/.npm`, and assume browser-saved credentials, cookies, extension storage, and platform credential stores were exposed.
 7. Rebuild affected developer and CI systems from known-good media after evidence collection. Removing the package alone does not remove developer-tool persistence.
 
 ## Assessment caveats
 - Public source maps prove that malicious code was present at bundle time, not which upstream trust boundary was first compromised.
 - Socket found that the first components artifact did not execute normally through its analyzed bundle path. StepSecurity confirmed injected bundles across three components versions and separately demonstrated live blockchain resolution through direct payload detonation, but did not report that every normal package import completed downstream C2 execution; do not generalize either result to all versions or bundle paths.
+- StepSecurity's final published analysis clarifies that the detached `/$/boot` branch is disabled for the Joyfill npm campaign identifier. Its presence and matching captures establish shared malware capability and infrastructure, not execution on a Joyfill-affected host.
 - PolinRider, DEV#POPPER, and OmniStealer describe code and infrastructure overlap. They do not establish actor attribution for this incident.
 - The live boot and Python captures match campaign keys and infrastructure but lack provenance proving universal delivery to affected Joyfill systems.
 

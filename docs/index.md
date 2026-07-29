@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Joyfill npm RAT follow-up: detached downloader is dormant for the npm campaign marker](ops/joyfill-npm-blockchain-rat-compromise.md#execution-and-payload-chain)
 - [npm publish-time malware scanning and dual-use declarations](patterns/npm-publish-time-malware-scanning.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](ops/alibaba-developer-targeted-distributed-npm-rat.md)
 - [Dependabot cross-ecosystem malware advisory alerts](patterns/dependabot-cross-ecosystem-malware-alerts.md)
