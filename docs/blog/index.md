@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [Flying Eagle / Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Hugging Face autonomous-agent intrusion: 17,600-action technical reconstruction](../ops/hugging-face-autonomous-agent-production-intrusion.md#july-29-technical-reconstruction)
 - [Check Point SmartConsole CVE-2026-16232: root-cause and public-PoC follow-up](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md#rapid7-root-cause-and-public-poc-follow-up)

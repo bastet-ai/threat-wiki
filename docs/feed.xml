@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Internet-exposed unauthenticated MCP servers</title>
+      <link>https://threat.wiki/patterns/internet-exposed-unauthenticated-mcp-servers/</link>
+      <description>Added Wiz Research telemetry on internet-reachable MCP servers acting as unauthenticated privileged proxies. Coverage records cloud-environment and exposed-server measurements, anonymous tool discovery and invocation, production data and destructive-capability exposure, agent-mediated command execution, metadata-service credential access, direct secret return, protocol-version caveats, safe validation boundaries, and authentication, least-privilege, egress, logging, hunting, and incident-response guidance.</description>
+      <pubDate>Wed, 29 Jul 2026 11:26:29 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/internet-exposed-unauthenticated-mcp-servers/</guid>
+    </item>
+    <item>
       <title>Flying Eagle / Night Dragon Android RAT ecosystem</title>
       <link>https://threat.wiki/ops/flying-eagle-night-dragon-android-rat-ecosystem/</link>
       <description>Added Hunt.io and NetAskari intelligence on a leaked Chinese-language Android RAT and fraud framework. Coverage records 170 observed Flying Eagle servers, government and financial lures, randomized APK builds, Accessibility and overlay capabilities, leaked-code distribution through SQLRCE0 and Yx Technology, the Night Dragon successor, public infrastructure and hashes, mobile hunting guidance, and server, victim, and attribution caveats.</description>

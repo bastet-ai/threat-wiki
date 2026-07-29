@@ -362,6 +362,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Internet-exposed unauthenticated MCP servers: patterns/internet-exposed-unauthenticated-mcp-servers.md
       - npm publish-time malware scanning and dual-use declarations: patterns/npm-publish-time-malware-scanning.md
       - Dependabot cross-ecosystem malware advisory alerts: patterns/dependabot-cross-ecosystem-malware-alerts.md
       - Azure DevOps MCP pull-request prompt injection: patterns/azure-devops-mcp-pr-prompt-injection.md

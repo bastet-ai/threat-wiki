@@ -86,9 +86,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (5)
 - [AI agent](#ai-agent) (1)
-- [AI agents](#ai-agents) (17)
+- [AI agents](#ai-agents) (18)
 - [AI anti-analysis](#ai-anti-analysis) (1)
-- [AI application infrastructure](#ai-application-infrastructure) (4)
+- [AI application infrastructure](#ai-application-infrastructure) (5)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
 - [AI assistants](#ai-assistants) (4)
 - [AI brand impersonation](#ai-brand-impersonation) (2)
@@ -465,7 +465,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud credential hunting](#cloud-credential-hunting) (1)
 - [cloud credential risk](#cloud-credential-risk) (1)
 - [cloud credential theft](#cloud-credential-theft) (8)
-- [cloud credentials](#cloud-credentials) (3)
+- [cloud credentials](#cloud-credentials) (4)
 - [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
 - [Cloud Filter driver](#cloud-filter-driver) (1)
 - [cloud IAM](#cloud-iam) (1)
@@ -473,6 +473,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud identity abuse](#cloud-identity-abuse) (1)
 - [cloud infrastructure](#cloud-infrastructure) (1)
 - [cloud logging](#cloud-logging) (1)
+- [cloud metadata service](#cloud-metadata-service) (1)
 - [cloud secrets](#cloud-secrets) (4)
 - [cloud security](#cloud-security) (3)
 - [cloud service abuse](#cloud-service-abuse) (4)
@@ -509,7 +510,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COM-hijacking](#com-hijacking) (1)
 - [ComfyUI](#comfyui) (1)
 - [command and control](#command-and-control) (2)
-- [command execution](#command-execution) (8)
+- [command execution](#command-execution) (9)
 - [command injection](#command-injection) (7)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
@@ -763,7 +764,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [D-Link](#d-link) (1)
 - [dangling resources](#dangling-resources) (1)
 - [data exfiltration](#data-exfiltration) (9)
-- [data exposure](#data-exposure) (1)
+- [data exposure](#data-exposure) (2)
 - [data extortion](#data-extortion) (2)
 - [data leak site](#data-leak-site) (2)
 - [data theft](#data-theft) (6)
@@ -804,6 +805,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dependency confusion](#dependency-confusion) (4)
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (6)
+- [destructive actions](#destructive-actions) (1)
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
 - [detection engineering](#detection-engineering) (1)
@@ -1338,11 +1340,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [install.res.1033.dll](#installres1033dll) (1)
 - [Integration Broker](#integration-broker) (1)
 - [Intercolo](#intercolo) (1)
+- [internet exposure](#internet-exposure) (1)
 - [internet-facing admin surface](#internet-facing-admin-surface) (1)
 - [internet-facing appliance](#internet-facing-appliance) (1)
 - [internet-facing applications](#internet-facing-applications) (1)
 - [investment scam](#investment-scam) (1)
 - [InvisibleFerret](#invisibleferret) (1)
+- [invocation logging](#invocation-logging) (1)
 - [iOS](#ios) (1)
 - [IoT](#iot) (4)
 - [IoT botnet](#iot-botnet) (6)
@@ -1480,7 +1484,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [leaked credentials](#leaked-credentials) (1)
 - [leaked source code](#leaked-source-code) (1)
 - [LEASHTEST](#leashtest) (1)
-- [least privilege](#least-privilege) (2)
+- [least privilege](#least-privilege) (3)
 - [Ledger](#ledger) (1)
 - [legacy botnet hijacking](#legacy-botnet-hijacking) (1)
 - [legacy infrastructure](#legacy-infrastructure) (1)
@@ -1604,7 +1608,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (1)
 - [McMx](#mcmx) (1)
-- [MCP](#mcp) (11)
+- [MCP](#mcp) (12)
 - [MCP credentials](#mcp-credentials) (1)
 - [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
@@ -1684,7 +1688,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile malware](#mobile-malware) (3)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
 - [MODBEACON](#modbeacon) (2)
-- [Model Context Protocol](#model-context-protocol) (8)
+- [Model Context Protocol](#model-context-protocol) (9)
 - [model poisoning](#model-poisoning) (1)
 - [model weights](#model-weights) (1)
 - [model-provider abuse](#model-provider-abuse) (1)
@@ -1797,6 +1801,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NVIDIA impersonation](#nvidia-impersonation) (1)
 - [O-UNC-066](#o-unc-066) (1)
 - [OAuth](#oauth) (4)
+- [OAuth 2.1](#oauth-21) (1)
 - [OAuth abuse](#oauth-abuse) (4)
 - [OAuth client credentials](#oauth-client-credentials) (1)
 - [OAuth device authorization grant](#oauth-device-authorization-grant) (2)
@@ -1915,7 +1920,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (2)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (31)
+- [patterns](#patterns) (32)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
@@ -2021,6 +2026,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private registry fallback](#private-registry-fallback) (1)
 - [private-key theft](#private-key-theft) (1)
 - [privilege escalation](#privilege-escalation) (10)
+- [privileged proxy](#privileged-proxy) (1)
 - [Privileged Remote Access](#privileged-remote-access) (1)
 - [process discovery](#process-discovery) (1)
 - [process doppelgänging](#process-doppelganging) (1)
@@ -2462,7 +2468,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunneling](#ssh-tunneling) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
 - [SSL VPN](#ssl-vpn) (2)
-- [SSRF](#ssrf) (5)
+- [SSRF](#ssrf) (6)
 - [stack use-after-free](#stack-use-after-free) (1)
 - [staged malicious update](#staged-malicious-update) (1)
 - [staged publishing](#staged-publishing) (1)
@@ -2678,7 +2684,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ulej](#ulej) (3)
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
-- [unauthenticated access](#unauthenticated-access) (1)
+- [unauthenticated access](#unauthenticated-access) (2)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
 - [unauthenticated RCE](#unauthenticated-rce) (5)
 - [UNC1543](#unc1543) (1)
@@ -2862,7 +2868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wiper](#wiper) (3)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
-- [Wiz Research](#wiz-research) (1)
+- [Wiz Research](#wiz-research) (2)
 - [WLDR agent](#wldr-agent) (2)
 - [WM_COPYDATA IPC](#wm_copydata-ipc) (1)
 - [WMI](#wmi) (1)
@@ -3292,6 +3298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -3307,6 +3314,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI application infrastructure
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
@@ -4820,6 +4828,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloud credentials
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
@@ -4844,6 +4853,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloud logging
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+
+## cloud metadata service
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## cloud secrets
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
@@ -4993,6 +5005,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
@@ -5985,6 +5998,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## data exposure
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
 ## data extortion
@@ -6152,6 +6166,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+
+## destructive actions
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## destructive malware
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -8243,6 +8260,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Intercolo
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
+## internet exposure
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
+
 ## internet-facing admin surface
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
@@ -8257,6 +8277,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## InvisibleFerret
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
+
+## invocation logging
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## iOS
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -8768,6 +8791,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## least privilege
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## Ledger
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
@@ -9308,6 +9332,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
@@ -9637,6 +9662,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
@@ -10091,6 +10117,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
+
+## OAuth 2.1
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## OAuth abuse
 - [ShinyHunters](../actors/shinyhunters.md)
@@ -11019,6 +11048,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -11465,6 +11495,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+
+## privileged proxy
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## Privileged Remote Access
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
@@ -13172,6 +13205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
@@ -14128,6 +14162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Umbrij](../tools/umbrij.md)
 
 ## unauthenticated access
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
 ## unauthenticated HTTP exploitation
@@ -14870,6 +14905,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Wiz Research
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## WLDR agent
 - [UAT-11795](../actors/uat-11795.md)
