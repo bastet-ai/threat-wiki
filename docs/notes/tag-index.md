@@ -86,7 +86,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (5)
 - [AI agent](#ai-agent) (1)
-- [AI agents](#ai-agents) (18)
+- [AI agents](#ai-agents) (19)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (5)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
@@ -101,6 +101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI framework](#ai-framework) (1)
 - [AI gateway](#ai-gateway) (1)
 - [AI infrastructure](#ai-infrastructure) (1)
+- [AI memory poisoning](#ai-memory-poisoning) (1)
 - [AI model encryption](#ai-model-encryption) (1)
 - [AI model evaluation](#ai-model-evaluation) (1)
 - [AI Now Institute](#ai-now-institute) (1)
@@ -154,6 +155,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [API enumeration](#api-enumeration) (1)
 - [API exposure](#api-exposure) (1)
 - [API key exposure](#api-key-exposure) (1)
+- [API key theft](#api-key-theft) (1)
 - [API keys](#api-keys) (1)
 - [API-driven payloads](#api-driven-payloads) (1)
 - [apintergrationpost](#apintergrationpost) (1)
@@ -221,7 +223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AUR](#aur) (1)
 - [authenticated RCE](#authenticated-rce) (1)
 - [authenticated remote code execution](#authenticated-remote-code-execution) (1)
-- [authentication bypass](#authentication-bypass) (15)
+- [authentication bypass](#authentication-bypass) (16)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -316,7 +318,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Breeze Cache Cleaner](#breeze-cache-cleaner) (1)
 - [BRICKSTORM](#brickstorm) (2)
 - [BridgeHead](#bridgehead) (2)
-- [Broadcom](#broadcom) (2)
+- [Broadcom](#broadcom) (3)
 - [browser assembly](#browser-assembly) (1)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
@@ -468,6 +470,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud credentials](#cloud-credentials) (4)
 - [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
 - [Cloud Filter driver](#cloud-filter-driver) (1)
+- [Cloud Foundation](#cloud-foundation) (1)
 - [cloud IAM](#cloud-iam) (1)
 - [cloud identity](#cloud-identity) (2)
 - [cloud identity abuse](#cloud-identity-abuse) (1)
@@ -547,6 +550,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [control flow flattening](#control-flow-flattening) (3)
 - [control panel compromise](#control-panel-compromise) (1)
 - [control plane](#control-plane) (1)
+- [conversation theft](#conversation-theft) (1)
 - [cookie theft](#cookie-theft) (4)
 - [Copilot](#copilot) (1)
 - [Copilot CLI](#copilot-cli) (1)
@@ -689,6 +693,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-40141](#cve-2026-40141) (1)
 - [CVE-2026-4020](#cve-2026-4020) (1)
 - [CVE-2026-41091](#cve-2026-41091) (1)
+- [CVE-2026-41703](#cve-2026-41703) (1)
+- [CVE-2026-41709](#cve-2026-41709) (1)
 - [CVE-2026-41940](#cve-2026-41940) (2)
 - [CVE-2026-42271](#cve-2026-42271) (1)
 - [CVE-2026-42533](#cve-2026-42533) (1)
@@ -705,6 +711,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-46300](#cve-2026-46300) (1)
 - [CVE-2026-46331](#cve-2026-46331) (1)
 - [CVE-2026-46817](#cve-2026-46817) (1)
+- [CVE-2026-47876](#cve-2026-47876) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
 - [CVE-2026-48276](#cve-2026-48276) (1)
 - [CVE-2026-48277](#cve-2026-48277) (1)
@@ -730,6 +737,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-55255](#cve-2026-55255) (1)
 - [CVE-2026-56290](#cve-2026-56290) (1)
 - [CVE-2026-56291](#cve-2026-56291) (1)
+- [CVE-2026-59309](#cve-2026-59309) (1)
+- [CVE-2026-59310](#cve-2026-59310) (1)
+- [CVE-2026-59726](#cve-2026-59726) (1)
 - [CVE-2026-60137](#cve-2026-60137) (1)
 - [CVE-2026-62144](#cve-2026-62144) (1)
 - [CVE-2026-62145](#cve-2026-62145) (1)
@@ -749,10 +759,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [CWE-22](#cwe-22) (1)
+- [CWE-306](#cwe-306) (1)
 - [CWE-352](#cwe-352) (1)
 - [CWE-502](#cwe-502) (1)
 - [CWE-77](#cwe-77) (1)
-- [CWE-78](#cwe-78) (1)
+- [CWE-78](#cwe-78) (2)
 - [CWE-829](#cwe-829) (1)
 - [cyber-espionage](#cyber-espionage) (1)
 - [CyberAv3ngers](#cyberav3ngers) (1)
@@ -799,7 +810,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
 - [delayed execution](#delayed-execution) (2)
-- [denial of service](#denial-of-service) (5)
+- [denial of service](#denial-of-service) (6)
 - [Deno](#deno) (2)
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (4)
@@ -841,6 +852,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dindoor](#dindoor) (1)
 - [DingTalk](#dingtalk) (1)
 - [diplomatic targeting](#diplomatic-targeting) (3)
+- [directory traversal](#directory-traversal) (1)
 - [DirtyClone](#dirtyclone) (1)
 - [DirtyFrag](#dirtyfrag) (1)
 - [DISCLOSURE](#disclosure) (1)
@@ -861,6 +873,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS tunneling](#dns-tunneling) (3)
 - [DNS-over-HTTPS](#dns-over-https) (1)
 - [Docker](#docker) (3)
+- [Docker Compose](#docker-compose) (1)
 - [Docker credentials](#docker-credentials) (1)
 - [Docker images](#docker-images) (1)
 - [Docker socket](#docker-socket) (2)
@@ -958,7 +971,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ESG](#esg) (1)
 - [espionage](#espionage) (57)
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
-- [ESXi](#esxi) (1)
+- [ESX](#esx) (1)
+- [ESXi](#esxi) (2)
 - [Ethereum](#ethereum) (1)
 - [Ethereum Name Service](#ethereum-name-service) (1)
 - [EtherHiding](#etherhiding) (4)
@@ -1127,6 +1141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GhostLock](#ghostlock) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GHSA-6v3r-4p5c-mrp5](#ghsa-6v3r-4p5c-mrp5) (1)
+- [GHSA-c4hm-4h84-2cf3](#ghsa-c4hm-4h84-2cf3) (1)
 - [GHSA-qrpv-q767-xqq2](#ghsa-qrpv-q767-xqq2) (1)
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
@@ -1326,7 +1341,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [industrial targeting](#industrial-targeting) (1)
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
-- [information disclosure](#information-disclosure) (2)
+- [information disclosure](#information-disclosure) (3)
 - [infostealer](#infostealer) (24)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
@@ -1530,6 +1545,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [localhost](#localhost) (1)
 - [log poisoning](#log-poisoning) (1)
 - [logging](#logging) (1)
+- [logging impairment](#logging-impairment) (1)
 - [login item persistence](#login-item-persistence) (1)
 - [LOLBins](#lolbins) (3)
 - [long-horizon autonomy](#long-horizon-autonomy) (1)
@@ -1608,7 +1624,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (1)
 - [McMx](#mcmx) (1)
-- [MCP](#mcp) (12)
+- [MCP](#mcp) (13)
 - [MCP credentials](#mcp-credentials) (1)
 - [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
@@ -1688,7 +1704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile malware](#mobile-malware) (3)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
 - [MODBEACON](#modbeacon) (2)
-- [Model Context Protocol](#model-context-protocol) (9)
+- [Model Context Protocol](#model-context-protocol) (10)
 - [model poisoning](#model-poisoning) (1)
 - [model weights](#model-weights) (1)
 - [model-provider abuse](#model-provider-abuse) (1)
@@ -1699,6 +1715,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MOIS](#mois) (6)
 - [Monero](#monero) (2)
 - [Monero mining](#monero-mining) (1)
+- [MongoDB](#mongodb) (1)
 - [Monster ransomware](#monster-ransomware) (1)
 - [Mozi](#mozi) (1)
 - [MpClient.dll](#mpclientdll) (1)
@@ -1858,9 +1875,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (236)
+- [operations](#operations) (238)
 - [OpFauxSign](#opfauxsign) (1)
-- [ops](#ops) (265)
+- [ops](#ops) (267)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2154,7 +2171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access software](#remote-access-software) (1)
 - [remote access trojan](#remote-access-trojan) (5)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (18)
+- [remote code execution](#remote-code-execution) (20)
 - [remote debugging](#remote-debugging) (2)
 - [remote MCP](#remote-mcp) (1)
 - [remote monitoring and management](#remote-monitoring-and-management) (1)
@@ -2220,6 +2237,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rtmutex](#rtmutex) (1)
 - [RubyGems](#rubygems) (3)
 - [Ruckus routers](#ruckus-routers) (1)
+- [Ruflo](#ruflo) (1)
 - [RUGGEDCOM](#ruggedcom) (1)
 - [Run key](#run-key) (1)
 - [Run key persistence](#run-key-persistence) (1)
@@ -2684,7 +2702,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ulej](#ulej) (3)
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
-- [unauthenticated access](#unauthenticated-access) (2)
+- [unauthenticated access](#unauthenticated-access) (3)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
 - [unauthenticated RCE](#unauthenticated-rce) (5)
 - [UNC1543](#unc1543) (1)
@@ -2735,6 +2753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBE](#vbe) (1)
 - [VBS](#vbs) (1)
 - [VBScript](#vbscript) (7)
+- [vCenter](#vcenter) (1)
 - [vector databases](#vector-databases) (1)
 - [VEIL#DROP](#veildrop) (1)
 - [Velociraptor](#velociraptor) (1)
@@ -2755,6 +2774,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Views](#views) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
 - [ViPNet](#vipnet) (1)
+- [virtual machine escape](#virtual-machine-escape) (1)
 - [virtualization](#virtualization) (2)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
 - [vishing](#vishing) (7)
@@ -2765,7 +2785,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ViteVenom](#vitevenom) (1)
 - [VLESS](#vless) (1)
 - [vManage](#vmanage) (1)
-- [VMware](#vmware) (2)
+- [VMSA-2026-0006](#vmsa-2026-0006) (1)
+- [VMware](#vmware) (3)
+- [VMXNET3](#vmxnet3) (1)
 - [VNC](#vnc) (2)
 - [VNT](#vnt) (2)
 - [Void Blizzard](#void-blizzard) (3)
@@ -2783,6 +2805,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VShell](#vshell) (1)
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
+- [vSphere Foundation](#vsphere-foundation) (1)
 - [VU#213560](#vu213560) (1)
 - [VulnCheck](#vulncheck) (1)
 - [vulnerability](#vulnerability) (22)
@@ -3307,6 +3330,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## AI anti-analysis
@@ -3361,6 +3385,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI infrastructure
 - [ENCFORGE](../tools/encforge.md)
+
+## AI memory poisoning
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
 ## AI model encryption
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
@@ -3569,6 +3596,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## API key exposure
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
+
+## API key theft
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
 ## API keys
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
@@ -3810,6 +3840,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## authentication laundering
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -4162,6 +4193,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Broadcom
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## browser assembly
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
@@ -4838,6 +4870,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cloud Filter driver
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 
+## Cloud Foundation
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
 ## cloud IAM
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 
@@ -5142,6 +5177,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## control plane
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
+
+## conversation theft
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
 ## cookie theft
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
@@ -5746,6 +5784,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-41091
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 
+## CVE-2026-41703
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
+## CVE-2026-41709
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
 ## CVE-2026-41940
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -5794,6 +5838,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-46817
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
+
+## CVE-2026-47876
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## CVE-2026-48172
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -5873,6 +5920,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-56291
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
+## CVE-2026-59309
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
+## CVE-2026-59310
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
+## CVE-2026-59726
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
+
 ## CVE-2026-60137
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
@@ -5930,6 +5986,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CWE-22
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
+## CWE-306
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
+
 ## CWE-352
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 
@@ -5941,6 +6000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CWE-78
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
 ## CWE-829
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
@@ -6142,6 +6202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## Deno
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -6330,6 +6391,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [Mustang Panda](../actors/mustang-panda.md)
 
+## directory traversal
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
 ## DirtyClone
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 
@@ -6422,6 +6486,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+
+## Docker Compose
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
 ## Docker credentials
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
@@ -6833,8 +6900,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Espressif ESP-IDF
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
+## ESX
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
 ## ESXi
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## Ethereum
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
@@ -7415,6 +7486,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GHSA-6v3r-4p5c-mrp5
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+
+## GHSA-c4hm-4h84-2cf3
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
 ## GHSA-qrpv-q767-xqq2
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
@@ -8184,6 +8258,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## information disclosure
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## infostealer
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -8984,6 +9059,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## logging
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
+## logging impairment
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
 ## login item persistence
 - [PamStealer](../tools/pamstealer.md)
 
@@ -9337,6 +9415,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
@@ -9667,6 +9746,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
 ## model poisoning
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
@@ -9703,6 +9783,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Monero mining
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
+
+## MongoDB
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
 ## Monster ransomware
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
@@ -10497,6 +10580,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -10542,6 +10626,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
@@ -10759,6 +10844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
@@ -10811,6 +10897,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
@@ -12041,8 +12128,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
 ## remote debugging
@@ -12267,6 +12356,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ruckus routers
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
+
+## Ruflo
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
 ## RUGGEDCOM
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
@@ -14163,6 +14255,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unauthenticated access
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
 ## unauthenticated HTTP exploitation
@@ -14347,6 +14440,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
+## vCenter
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
 ## vector databases
 - [ENCFORGE](../tools/encforge.md)
 
@@ -14414,6 +14510,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ViPNet
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 
+## virtual machine escape
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
 ## virtualization
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
@@ -14451,9 +14550,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vManage
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 
+## VMSA-2026-0006
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
 ## VMware
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
+## VMXNET3
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## VNC
 - [RedWing](../tools/redwing.md)
@@ -14523,6 +14629,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vSphere
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
+## vSphere Foundation
+- [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## VU#213560
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)

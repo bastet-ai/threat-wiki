@@ -75,6 +75,7 @@ Some tools returned credentials without a further pivot. Wiz reported API keys i
 Use non-destructive checks. Confirm authentication and authorization with a benign tool or a test tenant, and inspect configuration or code to establish backend permissions. Do not invoke production write/delete methods, query sensitive records, request secrets, or probe metadata endpoints merely to prove impact.
 
 ## Related pages
+- [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [MCP stdio command-execution boundary](mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](mcp-tool-description-poisoning.md)
 - [Sentry MCP Agentjacking](sentry-mcp-agentjacking.md)

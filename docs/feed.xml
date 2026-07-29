@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE</title>
+      <link>https://threat.wiki/ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce/</link>
+      <description>Added GitHub and Ruflo disclosure coverage for a default Docker Compose MCP bridge that exposed terminal execution without authentication before 3.16.3. The page records provider-key and conversation theft, AgentDB memory poisoning, persistent container writes, listener and tool-policy fixes, exploitation-status caveats, and credential rotation, clean rebuild, memory audit, and behavioral hunting guidance.</description>
+      <pubDate>Wed, 29 Jul 2026 17:27:52 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce/</guid>
+    </item>
+    <item>
+      <title>VMware VMSA-2026-0006 vCenter and ESX critical flaws</title>
+      <link>https://threat.wiki/ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws/</link>
+      <description>Added Broadcom's July 29 critical advisory covering network-reachable vCenter authentication bypass and code execution, a VMXNET3 guest-to-host escape, information disclosure or denial of service, and an ESX logging gap. The page records fixed branches, no-workaround and no-known-exploitation caveats, management-plane isolation, evidence preservation, behavioral hunting, and control-plane recovery guidance.</description>
+      <pubDate>Wed, 29 Jul 2026 17:27:52 GMT</pubDate>
+      <guid>https://threat.wiki/ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws/</guid>
+    </item>
+    <item>
       <title>Internet-exposed unauthenticated MCP servers</title>
       <link>https://threat.wiki/patterns/internet-exposed-unauthenticated-mcp-servers/</link>
       <description>Added Wiz Research telemetry on internet-reachable MCP servers acting as unauthenticated privileged proxies. Coverage records cloud-environment and exposed-server measurements, anonymous tool discovery and invocation, production data and destructive-capability exposure, agent-mediated command execution, metadata-service credential access, direct secret return, protocol-version caveats, safe validation boundaries, and authentication, least-privilege, egress, logging, hunting, and incident-response guidance.</description>

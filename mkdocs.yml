@@ -7,6 +7,8 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE: ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md
+      - VMware VMSA-2026-0006 vCenter and ESX critical flaws: ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md
       - Flying Eagle / Night Dragon Android RAT ecosystem: ops/flying-eagle-night-dragon-android-rat-ecosystem.md
       - Alibaba developer-targeted distributed npm RAT campaign: ops/alibaba-developer-targeted-distributed-npm-rat.md
       - Joyfill npm blockchain-RAT compromise: ops/joyfill-npm-blockchain-rat-compromise.md
