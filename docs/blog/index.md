@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
+- [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [GitHub Actions automatic suspicious-workflow approval holds](../patterns/deployment-poisoning-github-actions.md#github-hardening-updates)

@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Alibaba developer-targeted distributed npm RAT campaign: ops/alibaba-developer-targeted-distributed-npm-rat.md
       - Joyfill npm blockchain-RAT compromise: ops/joyfill-npm-blockchain-rat-compromise.md
       - Mirage Kitten NightLedger / BridgeHead / ArcBridge campaign: ops/mirage-kitten-nightledger-bridgehead-arcbridge.md
       - 'Dysphoria IoT botnet: blockchain C2 and victim-operated relays': ops/dysphoria-iot-botnet.md
@@ -360,6 +361,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - npm publish-time malware scanning and dual-use declarations: patterns/npm-publish-time-malware-scanning.md
       - Dependabot cross-ecosystem malware advisory alerts: patterns/dependabot-cross-ecosystem-malware-alerts.md
       - Azure DevOps MCP pull-request prompt injection: patterns/azure-devops-mcp-pr-prompt-injection.md
       - Cursor Windows workspace-path binary hijack: patterns/cursor-windows-workspace-path-binary-hijack.md

@@ -76,6 +76,7 @@ Track this as a defender pattern rather than a single operation. The same instal
 - Continue import-time and runtime scanning; npm v12 controls reduce install-time execution but do not stop malicious code that waits for application import or invocation.
 
 ## Related pages
+- [npm publish-time malware scanning and dual-use declarations](npm-publish-time-malware-scanning.md)
 - [Dependabot cross-ecosystem malware advisory alerts](dependabot-cross-ecosystem-malware-alerts.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)

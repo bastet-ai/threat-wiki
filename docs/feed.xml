@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>npm publish-time malware scanning and dual-use declarations</title>
+      <link>https://threat.wiki/patterns/npm-publish-time-malware-scanning/</link>
+      <description>Added GitHub's July 28 npm registry hardening update. Coverage records automatic pre-availability package scanning, publish, manual-review, and block outcomes, expected release-automation delays, contentPolicy and text-only DISCLOSURE requirements for dual-use packages, 2FA-enforced publishing and persistent declarations, operational migration guidance, and limits against compositional, import-time, runtime, and mutable-payload evasion.</description>
+      <pubDate>Wed, 29 Jul 2026 01:26:15 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/npm-publish-time-malware-scanning/</guid>
+    </item>
+    <item>
+      <title>Alibaba developer-targeted distributed npm RAT campaign</title>
+      <link>https://threat.wiki/ops/alibaba-developer-targeted-distributed-npm-rat/</link>
+      <description>Added Socket Research intelligence on a targeted npm campaign that split loader behavior across private-package lookalikes and independently plausible helpers before using mutable GitHub configuration, a Node.js vm escape, Alibaba OSS staging, and a cross-platform aone-cli RAT. Coverage records the package set, macOS, Windows, Linux, Alilang, AI-skill, and DingTalk persistence or lateral-movement paths, public domains and hashes, compositional-analysis guidance, clean-host credential rotation, and attribution caveats.</description>
+      <pubDate>Wed, 29 Jul 2026 01:26:15 GMT</pubDate>
+      <guid>https://threat.wiki/ops/alibaba-developer-targeted-distributed-npm-rat/</guid>
+    </item>
+    <item>
       <title>Dependabot cross-ecosystem malware advisory alerts</title>
       <link>https://threat.wiki/patterns/dependabot-cross-ecosystem-malware-alerts/</link>
       <description>Added GitHub's July 28 expansion of Dependabot malware alerts through automatic ingestion of OpenSSF malicious-packages advisories. Coverage records broader ecosystem support beyond npm, including PyPI, the GitHub Advisory Database type:malware pivot, organization and repository enablement, execution-evidence caveats, and package, endpoint, CI, artifact, and credential-response guidance.</description>
