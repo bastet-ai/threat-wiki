@@ -5,6 +5,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## All tags
 - [.NET](#net) (8)
 - [.NET malware](#net-malware) (7)
+- [.NET reflection](#net-reflection) (1)
 - [.pth](#pth) (1)
 - [/accessv2](#accessv2) (1)
 - [/dev/kvm](#devkvm) (1)
@@ -247,6 +248,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [axios](#axios) (1)
 - [Azure](#azure) (3)
 - [Azure CLI](#azure-cli) (1)
+- [Azure Cosmos DB](#azure-cosmos-db) (1)
 - [Azure DevOps](#azure-devops) (1)
 - [Azure Storage](#azure-storage) (1)
 - [Babuk](#babuk) (1)
@@ -483,7 +485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud logging](#cloud-logging) (1)
 - [cloud metadata service](#cloud-metadata-service) (1)
 - [cloud secrets](#cloud-secrets) (4)
-- [cloud security](#cloud-security) (3)
+- [cloud security](#cloud-security) (4)
 - [cloud service abuse](#cloud-service-abuse) (4)
 - [cloud storage](#cloud-storage) (1)
 - [cloud storage exfiltration](#cloud-storage-exfiltration) (1)
@@ -556,7 +558,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [continuous visibility](#continuous-visibility) (1)
 - [control flow flattening](#control-flow-flattening) (3)
 - [control panel compromise](#control-panel-compromise) (1)
-- [control plane](#control-plane) (2)
+- [control plane](#control-plane) (3)
 - [conversation theft](#conversation-theft) (1)
 - [cookie theft](#cookie-theft) (4)
 - [Copilot](#copilot) (1)
@@ -564,6 +566,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Copy-on-Write](#copy-on-write) (1)
 - [Corepack](#corepack) (1)
 - [Coruna](#coruna) (1)
+- [CosmosEscape](#cosmosescape) (1)
 - [counterfeit software](#counterfeit-software) (1)
 - [COW](#cow) (1)
 - [COWARDDUCK](#cowardduck) (1)
@@ -576,7 +579,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crates.io](#cratesio) (1)
 - [credential attacks](#credential-attacks) (3)
 - [credential dumping](#credential-dumping) (1)
-- [credential exposure](#credential-exposure) (3)
+- [credential exposure](#credential-exposure) (4)
 - [credential harvesting](#credential-harvesting) (4)
 - [credential rotation](#credential-rotation) (1)
 - [credential spraying](#credential-spraying) (1)
@@ -594,6 +597,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cross-platform malware](#cross-platform-malware) (2)
 - [cross-project access](#cross-project-access) (1)
 - [cross-site request forgery](#cross-site-request-forgery) (1)
+- [cross-tenant access](#cross-tenant-access) (1)
 - [cross-tenant isolation](#cross-tenant-isolation) (1)
 - [CrownX](#crownx) (2)
 - [Crucio](#crucio) (1)
@@ -1243,6 +1247,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GraphSpy](#graphspy) (1)
 - [Gravity SMTP](#gravity-smtp) (1)
 - [GRE](#gre) (1)
+- [Gremlin API](#gremlin-api) (1)
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (5)
 - [groups](#groups) (16)
@@ -1647,6 +1652,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malware-as-a-service](#malware-as-a-service) (5)
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [MALXMR](#malxmr) (1)
+- [managed database](#managed-database) (1)
 - [managed file transfer](#managed-file-transfer) (2)
 - [managed service provider](#managed-service-provider) (1)
 - [ManageEngine Endpoint Central](#manageengine-endpoint-central) (1)
@@ -1695,6 +1701,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft 365](#microsoft-365) (8)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
 - [Microsoft Authentication Broker](#microsoft-authentication-broker) (1)
+- [Microsoft Azure](#microsoft-azure) (1)
 - [Microsoft Defender](#microsoft-defender) (1)
 - [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
 - [Microsoft dev tunnels](#microsoft-dev-tunnels) (2)
@@ -1775,7 +1782,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MuddyWater](#muddywater) (4)
 - [Mullvad VPN](#mullvad-vpn) (1)
 - [Multi-Domain Security Management](#multi-domain-security-management) (1)
-- [multi-tenant cloud](#multi-tenant-cloud) (1)
+- [multi-tenant cloud](#multi-tenant-cloud) (2)
 - [Mustang Panda](#mustang-panda) (2)
 - [Mustard Tempest](#mustard-tempest) (1)
 - [mutable tags](#mutable-tags) (2)
@@ -1815,6 +1822,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetSetup.log](#netsetuplog) (1)
 - [network infrastructure](#network-infrastructure) (2)
 - [network infrastructure exploitation](#network-infrastructure-exploitation) (1)
+- [network isolation bypass](#network-isolation-bypass) (1)
 - [network policies](#network-policies) (1)
 - [network-share exfiltration](#network-share-exfiltration) (1)
 - [Nextcloud](#nextcloud) (1)
@@ -1919,10 +1927,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (241)
+- [operations](#operations) (242)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (272)
+- [ops](#ops) (273)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2084,6 +2092,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pre-authentication](#pre-authentication) (2)
 - [pre-authentication RCE](#pre-authentication-rce) (1)
 - [preinstall](#preinstall) (3)
+- [primary keys](#primary-keys) (1)
 - [Primitive Bear](#primitive-bear) (1)
 - [PrincessClub](#princessclub) (1)
 - [priority inheritance](#priority-inheritance) (1)
@@ -2224,7 +2233,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access software](#remote-access-software) (1)
 - [remote access trojan](#remote-access-trojan) (5)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (20)
+- [remote code execution](#remote-code-execution) (21)
 - [remote debugging](#remote-debugging) (2)
 - [remote MCP](#remote-mcp) (1)
 - [remote monitoring and management](#remote-monitoring-and-management) (1)
@@ -2246,6 +2255,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [research sector](#research-sector) (1)
 - [residential proxies](#residential-proxies) (1)
 - [residential proxy](#residential-proxy) (1)
+- [responsible disclosure](#responsible-disclosure) (1)
 - [REST API](#rest-api) (1)
 - [REST C2](#rest-c2) (1)
 - [restart-triggered execution](#restart-triggered-execution) (1)
@@ -2329,7 +2339,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Salesforce](#salesforce) (3)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
-- [sandbox escape](#sandbox-escape) (2)
+- [sandbox escape](#sandbox-escape) (3)
 - [sandbox evasion](#sandbox-evasion) (1)
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (2)
@@ -2666,6 +2676,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
 - [template injection](#template-injection) (1)
+- [tenant isolation](#tenant-isolation) (1)
 - [tenant-project](#tenant-project) (1)
 - [TencShell](#tencshell) (1)
 - [Tenda](#tenda) (1)
@@ -3042,6 +3053,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
+
+## .NET reflection
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 
 ## .pth
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -4000,6 +4014,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Azure CLI
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+
+## Azure Cosmos DB
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 
 ## Azure DevOps
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
@@ -5010,6 +5027,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud security
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
 ## cloud service abuse
@@ -5293,6 +5311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## control plane
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
 ## conversation theft
@@ -5318,6 +5337,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Coruna
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+
+## CosmosEscape
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 
 ## counterfeit software
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
@@ -5361,6 +5383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
 ## credential exposure
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -5540,6 +5563,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cross-site request forgery
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+
+## cross-tenant access
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 
 ## cross-tenant isolation
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
@@ -8013,6 +8039,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GRE
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
+## Gremlin API
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
+
 ## GREYVIBE
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -9635,6 +9664,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MALXMR
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
+## managed database
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
+
 ## managed file transfer
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -9837,6 +9869,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Microsoft Authentication Broker
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+
+## Microsoft Azure
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 
 ## Microsoft Defender
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -10150,6 +10185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 
 ## multi-tenant cloud
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
 ## Mustang Panda
@@ -10283,6 +10319,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## network infrastructure exploitation
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+
+## network isolation bypass
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 
 ## network policies
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
@@ -10767,6 +10806,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -11020,6 +11060,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
@@ -11891,6 +11932,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
+## primary keys
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
+
 ## Primitive Bear
 - [Gamaredon](../actors/gamaredon.md)
 
@@ -12476,6 +12520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## remote code execution
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -12563,6 +12608,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## residential proxy
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
+## responsible disclosure
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 
 ## REST API
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
@@ -12882,6 +12930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## sandbox escape
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 
@@ -14228,6 +14277,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## template injection
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
+## tenant isolation
+- [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 
 ## tenant-project
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
