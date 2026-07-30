@@ -7,6 +7,9 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [TA488 OWAReaper and CVE-2026-42897 exploitation](ops/ta488-owareaper-owa-cve-2026-42897.md)
+- [Toy Ghouls GenieLocker ransomware activity](ops/toy-ghouls-genielocker-ransomware.md)
+- [OWAReaper](tools/owareaper.md), [Toy Ghouls](actors/toy-ghouls.md), and [GenieLocker](tools/genielocker.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)

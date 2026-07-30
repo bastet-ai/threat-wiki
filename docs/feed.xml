@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>TA488 OWAReaper and CVE-2026-42897 exploitation</title>
+      <link>https://threat.wiki/ops/ta488-owareaper-owa-cve-2026-42897/</link>
+      <description>Added Proofpoint intelligence on TA488 exploitation of an Outlook Web Access XSS flaw with the browser-resident OWAReaper implant. Coverage records message-render execution, localStorage and IndexedDB persistence, EWS OAuth-token theft, server-side Default-folder Owner grants, GitHub and email tasking, HTTPS and DNS exfiltration, public indicators, and Exchange, browser, token, and mailbox-permission response guidance.</description>
+      <pubDate>Thu, 30 Jul 2026 09:25:34 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ta488-owareaper-owa-cve-2026-42897/</guid>
+    </item>
+    <item>
+      <title>Toy Ghouls GenieLocker ransomware activity</title>
+      <link>https://threat.wiki/ops/toy-ghouls-genielocker-ransomware/</link>
+      <description>Added Kaspersky intelligence on Toy Ghouls' custom Windows, Linux, and ESXi ransomware. Coverage records partner-OpenVPN credential abuse, discovery and credential access, RDP and SSH movement, PsExec and PAExec deployment, cross-platform encryption behavior and cryptography, public samples and infrastructure, and VPN, endpoint, hypervisor, backup, and recovery guidance.</description>
+      <pubDate>Thu, 30 Jul 2026 09:25:34 GMT</pubDate>
+      <guid>https://threat.wiki/ops/toy-ghouls-genielocker-ransomware/</guid>
+    </item>
+    <item>
       <title>Cisco Secure FMC CVE-2026-20316 static-credential exploitation</title>
       <link>https://threat.wiki/ops/cisco-fmc-cve-2026-20316-static-credential-exploitation/</link>
       <description>Added Cisco and CISA coverage of active exploitation of a static low-privilege credential in Secure Firewall Management Center. The page records affected and unaffected products, branch-specific hot fixes, the absence of a workaround, Cisco's /var/tmp/license.tmp host-log pivot, management-plane containment, evidence preservation, full device credential, key, and certificate rotation, and actor-attribution caveats.</description>
