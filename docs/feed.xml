@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>knaithe Hermes/DeepSeek autonomous exploitation campaign</title>
+      <link>https://threat.wiki/ops/knaithe-hermes-deepseek-autonomous-exploitation/</link>
+      <description>Added Unit 42 intelligence on a Chinese-speaking opportunistic exploit operator using Hermes Agent, DeepSeek, FOFA, custom skills, MCP, Telegram, and public proof-of-concept code in an autonomous scan-to-exploit loop. Coverage distinguishes failed autonomous Langflow and n8n attempts from successful manual NetScaler and marimo activity, records tool configuration and attribution caveats, and adds agent-runtime, exposure, exploit-chain, and evidence-preservation guidance.</description>
+      <pubDate>Thu, 30 Jul 2026 11:27:53 GMT</pubDate>
+      <guid>https://threat.wiki/ops/knaithe-hermes-deepseek-autonomous-exploitation/</guid>
+    </item>
+    <item>
+      <title>OctLurk and SilkLurk Central Asia espionage campaign</title>
+      <link>https://threat.wiki/ops/octlurk-silklurk-central-asia-espionage/</link>
+      <description>Added Kaspersky GReAT intelligence on a Chinese-speaking but unattributed government-espionage operation using tailored OctLurk and SilkLurk backdoors. Coverage records victim-bound decryption, reflective in-memory plugins, DLL sideloading, LurkProxy, PlugX, credential and email theft, internal scanning and document collection, public infrastructure and hashes, attribution caveats, and host-context-preserving response guidance.</description>
+      <pubDate>Thu, 30 Jul 2026 11:27:53 GMT</pubDate>
+      <guid>https://threat.wiki/ops/octlurk-silklurk-central-asia-espionage/</guid>
+    </item>
+    <item>
       <title>TA488 OWAReaper and CVE-2026-42897 exploitation</title>
       <link>https://threat.wiki/ops/ta488-owareaper-owa-cve-2026-42897/</link>
       <description>Added Proofpoint intelligence on TA488 exploitation of an Outlook Web Access XSS flaw with the browser-resident OWAReaper implant. Coverage records message-render execution, localStorage and IndexedDB persistence, EWS OAuth-token theft, server-side Default-folder Owner grants, GitHub and email tasking, HTTPS and DNS exfiltration, public indicators, and Exchange, browser, token, and mailbox-permission response guidance.</description>

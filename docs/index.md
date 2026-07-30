@@ -7,6 +7,9 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [knaithe Hermes/DeepSeek autonomous exploitation campaign](ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
+- [OctLurk and SilkLurk Central Asia espionage campaign](ops/octlurk-silklurk-central-asia-espionage.md)
+- [OctLurk](tools/octlurk.md), [SilkLurk](tools/silklurk.md), and [LurkProxy](tools/lurkproxy.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [Toy Ghouls GenieLocker ransomware activity](ops/toy-ghouls-genielocker-ransomware.md)
 - [OWAReaper](tools/owareaper.md), [Toy Ghouls](actors/toy-ghouls.md), and [GenieLocker](tools/genielocker.md)

@@ -7,6 +7,8 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - knaithe Hermes / DeepSeek autonomous exploitation campaign: ops/knaithe-hermes-deepseek-autonomous-exploitation.md
+      - OctLurk and SilkLurk Central Asia espionage campaign: ops/octlurk-silklurk-central-asia-espionage.md
       - TA488 OWAReaper and CVE-2026-42897 exploitation: ops/ta488-owareaper-owa-cve-2026-42897.md
       - Toy Ghouls GenieLocker ransomware activity: ops/toy-ghouls-genielocker-ransomware.md
       - Cisco Secure FMC CVE-2026-20316 static-credential exploitation: ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md
@@ -284,6 +286,9 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - OctLurk: tools/octlurk.md
+      - SilkLurk: tools/silklurk.md
+      - LurkProxy: tools/lurkproxy.md
       - OWAReaper: tools/owareaper.md
       - GenieLocker: tools/genielocker.md
       - NightLedger: tools/nightledger.md

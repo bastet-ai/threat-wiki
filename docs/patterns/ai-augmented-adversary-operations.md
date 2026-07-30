@@ -5,6 +5,8 @@ Google Threat Intelligence Group's May 2026 AI Threat Tracker documents a transi
 
 The durable defender lesson is that AI is now part of the operational fabric for multiple actor types rather than only a novelty. Treat AI use as a force multiplier across existing intrusion patterns: faster vulnerability triage, more scalable exploit validation, easier malware refactoring, synthetic social-engineering content, compressed operator timelines, and new initial-access paths through ML and AI-tooling dependencies.
 
+Unit 42's July 30 knaithe / KnYuan case adds a recovered autonomous scan-to-exploit loop rather than only AI-assisted operator activity. Hermes Agent and DeepSeek used FOFA, custom skills, MCP, Telegram orchestration, and public exploit repositories to select and test Langflow and n8n targets, abandon paths when prerequisites were absent, and conserve compute through sampling. The autonomous attempts failed because target configurations did not expose the required flow or unauthenticated-upload conditions; separate manual activity by the same actor achieved NetScaler data theft and marimo command execution.
+
 ## Tags
 - patterns
 - AI
@@ -41,9 +43,15 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - DPRK
 - PRC
 - Russia-nexus
+- knaithe
+- KnYuan
+- Hermes Agent
+- DeepSeek
+- autonomous exploitation
 - GREYVIBE
 
 ## Why this matters
+- Unit 42 recovered a functional autonomous workflow that moved from internet-asset enumeration to proof-of-concept acquisition, version and prerequisite checks, target sampling, threaded scanning, and exploit attempts without further visible operator input. Secure target configuration stopped the recovered attempts, while the agent itself exposed the actor's home directory by starting a file server from the wrong working directory.
 - GTIG says it identified a cybercrime actor using a zero-day exploit that it assesses was developed with AI support. The planned mass exploitation was disrupted through disclosure and counter-discovery, but the case shows that LLMs can help reason about semantic logic flaws that traditional scanners may miss.
 - State-linked PRC and DPRK clusters are using AI for vulnerability-research workflows, including persona-driven prompting, curated vulnerability corpora, recursive CVE/PoC validation, and agentic testing in controlled labs.
 - AI coding support can speed obfuscation and infrastructure development. GTIG highlights dynamic/self-modifying malware experiments, AI-assisted relay-box tooling, and LLM-generated decoy logic in malware linked to suspected Russia-nexus activity; WithSecure separately reports GREYVIBE indicators of AI assistance in LOOKVALJS, DAYLIGHT, TEASOUP, LegionRelay, lure sites, backend infrastructure, and operator scripts.
@@ -59,6 +67,7 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - LayerX's June 2026 BioShocking proof of concept showed that six agentic browser or browser-plugin products — ChatGPT Atlas, Perplexity Comet, Fellou, Genspark Browser, Sigma Browser, and the Claude Chrome plugin — could be steered by a puzzle/game framing into copying credentials from an authenticated GitHub repository in a controlled test. LayerX says vendors were notified; reported outcomes ranged from fixed to no response or failed patch.
 
 ## Operational shapes to watch
+- **Autonomous scan-to-exploit loops:** agent frameworks can connect internet-asset search, vulnerability prioritization, public PoC retrieval, target-list generation, prerequisite validation, and exploit execution. Detect the joined sequence and enforce isolated, secretless workspaces; any one component remains legitimate dual-use tooling.
 - **AI-assisted vulnerability discovery:** actors feed firmware, source code, CVEs, PoCs, or historical bug corpora into models to prioritize logic flaws and improve exploit reliability.
 - **Mass exploit preparation:** clean, tutorial-like exploit scripts with excessive docstrings, hallucinated scores, or textbook code structure may indicate LLM-assisted development, though this is only a weak signal by itself.
 - **AI-generated obfuscation:** malware families may contain inert but coherent code, repetitive benign-looking routines, or generated comments that camouflage the active payload path; repeated refactoring can also weaken clustering that depends on stable code lineage.
@@ -98,6 +107,7 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - When investigating AI-package compromises, look beyond credential theft to lateral movement, repository cloning, workflow-log deletion, cloud runtime abuse, and extortion staging.
 
 ## Related pages
+- [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -113,6 +123,7 @@ The durable defender lesson is that AI is now part of the operational fabric for
 - [Agentic workflow trust-boundary failures](agentic-workflow-trust-boundary-failures.md)
 
 ## Sources
+- Unit 42: [https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/](https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/)
 - Google Cloud / Google Threat Intelligence Group: [https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access](https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access)
 - WithSecure Labs: [https://labs.withsecure.com/publications/greyvibe](https://labs.withsecure.com/publications/greyvibe)
 - Sysdig Threat Research: [https://www.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots](https://www.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots)
