@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [XCSSET v40 Xcode supply-chain campaign](ops/xcsset-v40-xcode-supply-chain-campaign.md)
+- [XCSSET](tools/xcsset.md)
 - [Anthropic cyber-evaluation real-world intrusions](ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [Hugging Face autonomous-agent intrusion: Elastic endpoint, Kubernetes, cloud, and C2 detection mapping](ops/hugging-face-autonomous-agent-production-intrusion.md#elastic-detection-mapping)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)

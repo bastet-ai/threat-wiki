@@ -332,7 +332,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser data theft](#browser-data-theft) (1)
 - [browser extension](#browser-extension) (9)
 - [browser extension loader](#browser-extension-loader) (1)
-- [browser hijacking](#browser-hijacking) (2)
+- [browser hijacking](#browser-hijacking) (4)
 - [browser malware](#browser-malware) (1)
 - [browser security](#browser-security) (2)
 - [browser session abuse](#browser-session-abuse) (2)
@@ -349,7 +349,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BTMOB](#btmob) (1)
 - [bucket hijacking](#bucket-hijacking) (1)
 - [bucket squatting](#bucket-squatting) (1)
-- [build-time compromise](#build-time-compromise) (1)
+- [build-time compromise](#build-time-compromise) (2)
 - [building automation](#building-automation) (1)
 - [bulletproof hosting](#bulletproof-hosting) (1)
 - [Bun](#bun) (3)
@@ -587,7 +587,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential rotation](#credential-rotation) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (63)
+- [credential theft](#credential-theft) (65)
 - [credential-theft](#credential-theft) (52)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -833,7 +833,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Defender evasion](#defender-evasion) (2)
 - [Defender exclusion](#defender-exclusion) (1)
 - [defense](#defense) (4)
-- [defense evasion](#defense-evasion) (6)
+- [defense evasion](#defense-evasion) (8)
 - [defense targeting](#defense-targeting) (1)
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
@@ -859,7 +859,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer machines](#developer-machines) (9)
 - [developer mode](#developer-mode) (1)
 - [developer platform](#developer-platform) (1)
-- [developer targeting](#developer-targeting) (9)
+- [developer targeting](#developer-targeting) (11)
 - [developer tooling](#developer-tooling) (6)
 - [developer workstations](#developer-workstations) (3)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
@@ -1185,7 +1185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Git](#git) (1)
 - [git.exe](#gitexe) (1)
 - [Gitea](#gitea) (1)
-- [GitHub](#github) (21)
+- [GitHub](#github) (22)
 - [GitHub abuse](#github-abuse) (3)
 - [GitHub Actions](#github-actions) (24)
 - [GitHub Advisory Database](#github-advisory-database) (1)
@@ -1365,7 +1365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [import-time execution](#import-time-execution) (5)
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
-- [in-memory malware](#in-memory-malware) (1)
+- [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
 - [incident response](#incident-response) (28)
 - [incident-response](#incident-response) (2)
@@ -1629,7 +1629,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
 - [machine-learning](#machine-learning) (1)
-- [macOS](#macos) (13)
+- [macOS](#macos) (15)
 - [macOS malware](#macos-malware) (2)
 - [MaDoO Blaster](#madoo-blaster) (1)
 - [Magento](#magento) (1)
@@ -1651,7 +1651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (9)
-- [malware](#malware) (53)
+- [malware](#malware) (54)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
@@ -1936,10 +1936,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (1)
-- [operations](#operations) (243)
+- [operations](#operations) (244)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (274)
+- [ops](#ops) (275)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2524,7 +2524,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [source-package drift](#source-package-drift) (1)
 - [source-package mismatch](#source-package-mismatch) (2)
 - [source-repository abuse](#source-repository-abuse) (1)
-- [source-repository poisoning](#source-repository-poisoning) (5)
+- [source-repository poisoning](#source-repository-poisoning) (6)
 - [source-repository reconnaissance](#source-repository-reconnaissance) (1)
 - [SourceForge abuse](#sourceforge-abuse) (1)
 - [SourTrade](#sourtrade) (1)
@@ -2608,7 +2608,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (14)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (91)
+- [supply-chain](#supply-chain) (93)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
@@ -2724,7 +2724,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (43)
+- [tools](#tools) (44)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Toy Ghouls](#toy-ghouls) (3)
@@ -2994,7 +2994,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [working-directory hijacking](#working-directory-hijacking) (1)
 - [workspace trust](#workspace-trust) (2)
 - [World Cup](#world-cup) (1)
-- [worm](#worm) (13)
+- [worm](#worm) (15)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [WP-SHELLSTORM](#wp-shellstorm) (1)
 - [wp2shell](#wp2shell) (1)
@@ -3007,6 +3007,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [X_TRADER](#x_trader) (1)
 - [XChaCha20](#xchacha20) (1)
 - [XChaCha20-Poly1305](#xchacha20-poly1305) (1)
+- [Xcode](#xcode) (2)
+- [XCSSET](#xcsset) (2)
+- [XCSSET v40](#xcsset-v40) (2)
 - [XenoRAT](#xenorat) (2)
 - [XFRM](#xfrm) (1)
 - [xlabs_v1](#xlabs_v1) (1)
@@ -4374,6 +4377,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser hijacking
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+- [XCSSET](../tools/xcsset.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
 ## browser malware
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
@@ -4431,6 +4436,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## build-time compromise
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
 ## building automation
@@ -5492,6 +5498,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
+- [XCSSET](../tools/xcsset.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
 ## credential-theft
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
@@ -6403,6 +6411,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [ROADtools](../tools/roadtools.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
+- [XCSSET](../tools/xcsset.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
 ## defense targeting
 - [Turla](../actors/turla.md)
@@ -6521,6 +6531,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
+- [XCSSET](../tools/xcsset.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
 ## developer tooling
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
@@ -7803,6 +7815,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [Webworm](../actors/webworm.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
 ## GitHub abuse
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -8468,6 +8481,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## in-memory malware
 - [OctLurk](../tools/octlurk.md)
+- [XCSSET](../tools/xcsset.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
 ## in-memory plugins
 - [MODBEACON](../tools/modbeacon.md)
@@ -9530,6 +9545,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [PamStealer](../tools/pamstealer.md)
 - [QuimaRAT](../tools/quimarat.md)
+- [XCSSET](../tools/xcsset.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
 ## macOS malware
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -9668,6 +9685,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Umbrij](../tools/umbrij.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [WLDR agent](../tools/wldr-agent.md)
+- [XCSSET](../tools/xcsset.md)
 
 ## malware analysis
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -11036,6 +11054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -11318,6 +11337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -13631,6 +13651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
 ## source-repository reconnaissance
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
@@ -14037,6 +14058,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
+- [XCSSET](../tools/xcsset.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
@@ -14523,6 +14546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 - [Umbrij](../tools/umbrij.md)
 - [WLDR agent](../tools/wldr-agent.md)
+- [XCSSET](../tools/xcsset.md)
 
 ## Tor
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -15622,6 +15646,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [XCSSET](../tools/xcsset.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
 ## WP Maps Pro
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
@@ -15658,6 +15684,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## XChaCha20-Poly1305
 - [GenieLocker](../tools/genielocker.md)
+
+## Xcode
+- [XCSSET](../tools/xcsset.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
+
+## XCSSET
+- [XCSSET](../tools/xcsset.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
+
+## XCSSET v40
+- [XCSSET](../tools/xcsset.md)
+- [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
 ## XenoRAT
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
