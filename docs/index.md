@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [Anthropic PyPI incident: StepSecurity excluded as the affected scanner operator](ops/anthropic-cyber-evaluation-real-world-intrusions.md#stepsecurity-victim-clarification)
 - [Anthropic PyPI incident: unconfirmed `anthropickit` candidate and hunt pivots](ops/anthropic-cyber-evaluation-real-world-intrusions.md#unconfirmed-anthropickit-candidate)
 - [npm bypass-2FA token restrictions take effect](patterns/npm-install-explicit-trust-controls.md#what-changed)

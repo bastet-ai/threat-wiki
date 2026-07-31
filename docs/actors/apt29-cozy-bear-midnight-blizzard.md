@@ -9,6 +9,8 @@
 - email
 - supply-chain
 - credential-theft
+- captive portal
+- device-code phishing
 
 ## Summary
 APT29 is a long-running, publicly tracked espionage group associated with Russian state-linked operations. Public reporting and defensive guidance most often use **APT29**, **Cozy Bear**, and **Midnight Blizzard** as the durable names for this cluster.
@@ -34,8 +36,10 @@ Confirmed public reporting ties APT29 to:
 - Has used compromised accounts, service principals, and device-registration paths to expand access.
 - Microsoft and Unit 42 reporting tie APT29 / Midnight Blizzard-aligned activity to ROADtools-style Entra ID enumeration and token workflows after targeted access.
 - Has relied on supply-chain access and downstream credential abuse in major campaigns.
+- Microsoft attributes the 2026 **CaptiveCrunch** campaign to Storm-2945, an operational Midnight Blizzard subcluster. The operation manipulates traffic on compromised hospitality and shared-venue captive-portal networks to deliver ClickFix malware or device-code phishing to travelers, then targets endpoint credentials, browser sessions, Entra tokens, and Microsoft 365 data.
 
 ## Related ops
+- [CaptiveCrunch hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [Microsoft Midnight Blizzard mailbox theft from Microsoft](../ops/microsoft-midnight-blizzard-mailbox-theft-from-microsoft.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -54,3 +58,4 @@ Confirmed public reporting ties APT29 to:
 - CISA AA20-352A: Advanced Persistent Threat Compromise of Government Agencies, Critical Infrastructure, and Private Sector Organizations: [https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a](https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a)
 - Microsoft Security Response Center guidance on nation-state activity and SolarWinds-related compromise: [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-0688](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-0688)
 - Volexity on Dark Halo / SolarWinds mailbox abuse: [https://www.volexity.com/blog/2020/12/14/dark-halo-leverages-solarwinds-compromise-to-breach-organizations/](https://www.volexity.com/blog/2020/12/14/dark-halo-leverages-solarwinds-compromise-to-breach-organizations/)
+- Microsoft Security Blog on Storm-2945 and CaptiveCrunch: [https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/](https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/)

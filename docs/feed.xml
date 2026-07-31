@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign</title>
+      <link>https://threat.wiki/ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign/</link>
+      <description>Added Microsoft Threat Intelligence coverage of Storm-2945, a Midnight Blizzard subcluster, manipulating hospitality and shared-venue captive-portal traffic to deliver ClickFix malware and device-code phishing. Coverage records CornFlake, ChocoShell, FruitStone, public infrastructure and hashes, cloud-token impact, endpoint and identity hunting, travel-network controls, and the unresolved shared captive-portal service access path.</description>
+      <pubDate>Fri, 31 Jul 2026 23:25:14 GMT</pubDate>
+      <guid>https://threat.wiki/ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign/</guid>
+    </item>
+    <item>
       <title>Anthropic PyPI incident: StepSecurity excluded as affected scanner operator</title>
       <link>https://threat.wiki/ops/anthropic-cyber-evaluation-real-world-intrusions/#stepsecurity-victim-clarification</link>
       <description>Added StepSecurity's public clarification that Anthropic confirmed in writing it was not the security company whose package scanner executed the evaluation-published PyPI malware. The update narrows one plausible victim hypothesis while preserving the undisclosed victim and package identity and the unconfirmed status of Aikido's anthropickit candidate.</description>
