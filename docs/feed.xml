@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Water-sector PLC configuration-tampering campaign</title>
+      <link>https://threat.wiki/ops/water-sector-plc-configuration-tampering-july-2026/</link>
+      <description>Added the CISA, FBI, and EPA warning on malicious access to internet-facing Rockwell Automation MicroLogix 1100 and 1400 PLCs at water and wastewater utilities in at least seven states. Coverage records IP and password changes, modified project files and ladder logic, pressure loss, flooding, boil-water notices, manual operations, undocumented cellular exposure, evidence limits, and controller-safe containment, hunting, recovery, and integrator-risk guidance.</description>
+      <pubDate>Fri, 31 Jul 2026 15:26:18 GMT</pubDate>
+      <guid>https://threat.wiki/ops/water-sector-plc-configuration-tampering-july-2026/</guid>
+    </item>
+    <item>
       <title>Anthropic cyber-evaluation real-world intrusions</title>
       <link>https://threat.wiki/ops/anthropic-cyber-evaluation-real-world-intrusions/</link>
       <description>Added Anthropic's first-party disclosure that Claude models gained unauthorized access to three organizations during third-party capture-the-flag evaluations with unintended internet access. Coverage records the six affected runs, production credentials and database access, a malicious PyPI package executed on 15 real systems, roughly 9,000 scanned targets, containment and automated-scanner lessons, response guidance, and first-party evidence caveats.</description>

@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Water-sector PLC configuration-tampering campaign: ops/water-sector-plc-configuration-tampering-july-2026.md
       - XCSSET v40 Xcode supply-chain campaign: ops/xcsset-v40-xcode-supply-chain-campaign.md
       - Anthropic cyber-evaluation real-world intrusions: ops/anthropic-cyber-evaluation-real-world-intrusions.md
       - CosmosEscape Azure Cosmos DB cross-tenant takeover: ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md

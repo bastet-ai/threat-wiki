@@ -40,7 +40,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Active Directory](#active-directory) (1)
 - [active exploitation](#active-exploitation) (55)
 - [active probing](#active-probing) (1)
-- [active threat](#active-threat) (2)
+- [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (6)
@@ -129,6 +129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AiTM](#aitm) (3)
 - [Albania](#albania) (1)
 - [Alibaba](#alibaba) (1)
+- [Allen-Bradley](#allen-bradley) (1)
 - [Amadey](#amadey) (1)
 - [Amatera Stealer](#amatera-stealer) (1)
 - [Amazon Q Developer](#amazon-q-developer) (1)
@@ -387,6 +388,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cavern Manticore](#cavern-manticore) (3)
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
+- [cellular modem](#cellular-modem) (1)
 - [Central Asia](#central-asia) (1)
 - [CERT-In](#cert-in) (1)
 - [CERT/CC](#certcc) (1)
@@ -540,6 +542,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [computer vision](#computer-vision) (1)
 - [Conditional Access](#conditional-access) (1)
 - [configuration exposure](#configuration-exposure) (1)
+- [configuration tampering](#configuration-tampering) (1)
 - [configuration theft](#configuration-theft) (2)
 - [confused deputy](#confused-deputy) (3)
 - [ConfuserEx](#confuserex) (2)
@@ -591,7 +594,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential-theft](#credential-theft) (52)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
-- [critical infrastructure](#critical-infrastructure) (5)
+- [critical infrastructure](#critical-infrastructure) (6)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
 - [cron](#cron) (2)
@@ -1367,7 +1370,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (28)
+- [incident response](#incident-response) (29)
 - [incident-response](#incident-response) (2)
 - [IndexedDB](#indexeddb) (3)
 - [India](#india) (3)
@@ -1377,7 +1380,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [indirect syscalls](#indirect-syscalls) (1)
 - [Indonesia](#indonesia) (1)
 - [industrial control](#industrial-control) (1)
-- [industrial control systems](#industrial-control-systems) (2)
+- [industrial control systems](#industrial-control-systems) (3)
 - [industrial espionage](#industrial-espionage) (1)
 - [industrial targeting](#industrial-targeting) (1)
 - [INFINITERED](#infinitered) (1)
@@ -1704,6 +1707,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [Miasma](#miasma) (9)
+- [MicroLogix 1100](#micrologix-1100) (1)
+- [MicroLogix 1400](#micrologix-1400) (1)
 - [MicroPython](#micropython) (1)
 - [Microsoft](#microsoft) (10)
 - [Microsoft .NET](#microsoft-net) (1)
@@ -1935,11 +1940,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
-- [operational technology](#operational-technology) (1)
-- [operations](#operations) (244)
+- [operational technology](#operational-technology) (2)
+- [operations](#operations) (245)
+- [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (275)
+- [ops](#ops) (276)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2062,6 +2068,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PKGBUILD](#pkgbuild) (1)
 - [plaintext HTTP](#plaintext-http) (1)
 - [Plandex](#plandex) (1)
+- [PLC](#plc) (1)
 - [PLENET](#plenet) (2)
 - [plugin architecture](#plugin-architecture) (2)
 - [PlugX](#plugx) (3)
@@ -2283,6 +2290,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
+- [Rockwell Automation](#rockwell-automation) (1)
 - [Rokarolla](#rokarolla) (2)
 - [RokRAT](#rokrat) (1)
 - [Rollup](#rollup) (1)
@@ -2915,9 +2923,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
 - [Wasabi](#wasabi) (2)
+- [wastewater](#wastewater) (1)
 - [watchdog](#watchdog) (1)
 - [watchTowr](#watchtowr) (3)
 - [watchTowr Labs](#watchtowr-labs) (1)
+- [water sector](#water-sector) (1)
 - [watering hole](#watering-hole) (1)
 - [watering-hole](#watering-hole) (2)
 - [weak credentials](#weak-credentials) (1)
@@ -3233,6 +3243,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## active threat
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## active-exploitation
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
@@ -3597,6 +3608,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Alibaba
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
+
+## Allen-Bradley
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## Amadey
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -4579,6 +4593,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CDN
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## cellular modem
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
+
 ## Central Asia
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 
@@ -5262,6 +5279,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## configuration exposure
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 
+## configuration tampering
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
+
 ## configuration theft
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
@@ -5567,6 +5587,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [Velvet Ant](../actors/velvet-ant.md)
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## critical-infrastructure
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -8516,6 +8537,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## incident-response
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
@@ -8557,6 +8579,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## industrial control systems
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## industrial espionage
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
@@ -9899,6 +9922,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 
+## MicroLogix 1100
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
+
+## MicroLogix 1400
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
+
 ## MicroPython
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
@@ -10811,6 +10840,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## operational technology
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## operations
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
@@ -11049,6 +11079,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
@@ -11057,6 +11088,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+
+## operator lockout
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## OpFauxSign
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -11331,6 +11365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
@@ -11830,6 +11865,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Plandex
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
+## PLC
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## PLENET
 - [VerdantBamboo](../actors/verdantbamboo.md)
@@ -12748,6 +12786,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## roadtx
 - [ROADtools](../tools/roadtools.md)
+
+## Rockwell Automation
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## Rokarolla
 - [RedWing](../tools/redwing.md)
@@ -15288,6 +15329,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## wastewater
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
+
 ## watchdog
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
@@ -15298,6 +15342,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## watchTowr Labs
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
+
+## water sector
+- [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## watering hole
 - [FishMonger](../actors/fishmonger.md)
