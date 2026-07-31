@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Anthropic PyPI incident: StepSecurity excluded as the affected scanner operator](../ops/anthropic-cyber-evaluation-real-world-intrusions.md#stepsecurity-victim-clarification)
 - [Anthropic PyPI incident: unconfirmed `anthropickit` candidate and hunt pivots](../ops/anthropic-cyber-evaluation-real-world-intrusions.md#unconfirmed-anthropickit-candidate)
 - [npm bypass-2FA token restrictions take effect](../patterns/npm-install-explicit-trust-controls.md#what-changed)
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)

@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Anthropic PyPI incident: StepSecurity excluded as affected scanner operator</title>
+      <link>https://threat.wiki/ops/anthropic-cyber-evaluation-real-world-intrusions/#stepsecurity-victim-clarification</link>
+      <description>Added StepSecurity's public clarification that Anthropic confirmed in writing it was not the security company whose package scanner executed the evaluation-published PyPI malware. The update narrows one plausible victim hypothesis while preserving the undisclosed victim and package identity and the unconfirmed status of Aikido's anthropickit candidate.</description>
+      <pubDate>Fri, 31 Jul 2026 19:27:20 GMT</pubDate>
+      <guid>https://threat.wiki/ops/anthropic-cyber-evaluation-real-world-intrusions/#stepsecurity-victim-clarification</guid>
+    </item>
+    <item>
       <title>Anthropic PyPI incident: unconfirmed anthropickit candidate</title>
       <link>https://threat.wiki/ops/anthropic-cyber-evaluation-real-world-intrusions/#unconfirmed-anthropickit-candidate</link>
       <description>Added Aikido Security's unconfirmed candidate for Anthropic's undisclosed evaluation-published PyPI package. The update records anthropickit 999.9.9, install-time SSH and environment-secret collection, /tmp/runner_exfil.json, the defanged Pipedream endpoint, CI-log behavior, weak archive metadata, credential-response guidance, and an explicit requirement not to attribute the candidate to Anthropic's incident without confirmation.</description>
