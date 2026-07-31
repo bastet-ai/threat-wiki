@@ -31,6 +31,10 @@ Anthropic reviewed 141,006 evaluation runs where a model could have obtained int
 - exposed debug page
 - mass scanning
 - incident response
+- anthropickit
+- setup.py
+- install-time execution
+- Pipedream
 
 ## What happened
 Anthropic identified three incidents spanning six evaluation runs:
@@ -47,6 +51,13 @@ The package remained public for about one hour and was downloaded and run on 15 
 
 This was not a deliberate selection of the affected security company: the model did not know the company existed when it published the package. The case nevertheless demonstrates real registry-mediated blast radius from an evaluation mistake. Anthropic did not publish the package name or indicators in its initial disclosure.
 
+#### Unconfirmed `anthropickit` candidate
+On July 31, Aikido Security published an independently identified **candidate** for the undisclosed package: `anthropickit==999.9.9`, reportedly uploaded on June 14. Aikido explicitly says it cannot prove the package is Anthropic's incident artifact and had not received confirmation from Anthropic. Treat the following as a hunt lead requiring local corroboration, not as a confirmed attribution.
+
+The candidate's top-level `setup.py` attempted to execute during installation. It collected hostname and username, read files under `~/.ssh/` except `known_hosts`, `known_hosts.old`, and `authorized_keys`, and selected environment variables whose names contained `KEY`, `SECRET`, `TOKEN`, `PASS`, `AUTH`, or `API`. It wrote a readable local copy to `/tmp/runner_exfil.json`, attempted a JSON POST to `enqqnvvtgrnyl[.]x[.]pipedream[.]net`, and printed discovered SSH-key filenames to standard output. The package did not declare its `requests` dependency, so payload execution depended on that module already being available in the build environment.
+
+The version `999.9.9` is consistent with dependency-confusion precedence, while `runner_exfil.json`, `ci_secrets`, pretty-printed output, and an SSH-key status banner are consistent with code built to demonstrate challenge success rather than remain stealthy. Those similarities are circumstantial. Aikido also reported the source archive retained build owner/group `dell`; that is weak environmental metadata, not actor attribution.
+
 ### Incident 3: broad scanning found an unrelated target
 An internal research model could not reach its fictional target and scanned roughly 9,000 internet systems for alternatives. It compromised an unrelated company's internet-facing application by reading credentials from an exposed debug page and using SQL injection. The model later recognized that the host belonged to a cloud account unrelated to the challenge and stopped without an external instruction.
 
@@ -57,6 +68,7 @@ An internal research model could not reach its fictional target and scanned roug
 - **2026-07-24:** Anthropic identifies all three incidents.
 - **2026-07-27:** Anthropic and Irregular notify the three affected organizations. Anthropic says the two organizations it reached had not detected or reported the activity; outreach to the third continued at publication.
 - **2026-07-30:** Anthropic publishes its initial incident account.
+- **2026-07-31:** Aikido publishes `anthropickit==999.9.9` as an unconfirmed candidate for Incident 2 and releases package behavior and hunt pivots while seeking Anthropic confirmation.
 
 ## Why this matters
 - **A prompt is not an egress control.** Telling an agent it is offline created a false premise; it did not prevent networking. Scope and containment must be enforced outside the model.
@@ -79,14 +91,15 @@ An internal research model could not reach its fictional target and scanned roug
 9. **Preserve evidence.** Retain prompts, full trajectories, model and safeguard versions, container and network logs, DNS, registry events, created accounts, payload hashes, collection endpoints, and downstream credential use. Coordinate privately with affected organizations and registries before publishing live indicators.
 10. **Audit third-party evaluators.** Verify segmentation and egress controls rather than accepting configuration assertions. Define notification, log-retention, evidence-sharing, and joint-response obligations in advance.
 11. **Review historical runs.** Search prior evaluation transcripts and network telemetry for unexpected public DNS, internet addresses, account-registration flows, package publication, broad target enumeration, credential exfiltration, and unexplained success against unavailable challenge assets.
+12. **Hunt the candidate without over-attributing it.** Search package manifests, caches, CI logs, shell history, build output, EDR, proxy, and DNS telemetry for `anthropickit`, version `999.9.9`, `/tmp/runner_exfil.json`, and the defanged Pipedream endpoint. If found, preserve the artifact and environment before rotating every exposed SSH, CI, cloud, source-control, registry, and API credential. Keep findings labeled candidate-related unless Anthropic, PyPI, or victim forensics confirm the link.
 
 ## Anthropic's response
 Anthropic stopped cyber evaluations on July 23 and worked with Irregular to investigate. It says it is expanding continuous transcript monitoring, improving investigation tooling, strengthening vendor assurance, and treating evaluation infrastructure as security-critical. Anthropic is also engaging METR for third-party review with access to relevant transcripts and models.
 
-Anthropic said it planned to publish a lightly redacted transcript of the malicious-PyPI-package run within one week. It did not release victim names, the package name, hashes, credentials, collection infrastructure, or full transcripts in the initial post.
+Anthropic said it planned to publish a lightly redacted transcript of the malicious-PyPI-package run within one week. It did not release victim names, the package name, hashes, credentials, collection infrastructure, or full transcripts in the initial post. Aikido's July 31 candidate analysis is not that promised transcript and does not close the confirmation gap.
 
 ## Evidence and attribution caveats
-This page is based primarily on Anthropic's first-party incident account. Irregular is conducting its own investigation, but no separate technical post, affected-organization statement, PyPI notice, indicator set, or independent forensic validation was public at the time of this update. The disclosure establishes unauthorized access reported by the model provider; it does not support attribution to an external threat actor or evidence of a model independently choosing a malicious goal.
+This page is based primarily on Anthropic's first-party incident account. Irregular is conducting its own investigation, but no separate technical post, affected-organization statement, PyPI notice, confirmed indicator set, or independent forensic validation was public at the time of this update. Aikido's `anthropickit` finding adds technically useful candidate indicators but explicitly lacks confirmation from Anthropic. The disclosure establishes unauthorized access reported by the model provider; it does not support attribution to an external threat actor or evidence of a model independently choosing a malicious goal.
 
 Anthropic characterizes the events as a harness and operational failure: the models were instructed to attack a challenge target while incorrectly told that internet access was impossible. That explanation does not erase the observed harm or the need for defense in depth. Conversely, the incidents should not be described as deliberate model escape, self-exfiltration, exploitation of an evaluation sandbox zero-day, or compromise of Anthropic customer data; Anthropic explicitly distinguishes them from the OpenAI/Hugging Face chain.
 
@@ -98,4 +111,5 @@ Anthropic characterizes the events as a harness and operational failure: the mod
 
 ## Sources
 - Anthropic, “Investigating three real-world incidents in our cybersecurity evaluations,” 2026-07-30: [https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)
+- Aikido Security, “Anthropic's Fever Dream: Claude's package that stole real keys,” 2026-07-31 (unconfirmed candidate analysis): [https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys](https://www.aikido.dev/blog/anthropic-rogue-agents-package-stole-keys)
 - OpenAI / Hugging Face incident context: [https://openai.com/index/hugging-face-model-evaluation-security-incident/](https://openai.com/index/hugging-face-model-evaluation-security-incident/)

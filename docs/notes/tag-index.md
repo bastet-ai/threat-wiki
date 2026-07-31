@@ -145,6 +145,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android RAT](#android-rat) (1)
 - [Android spyware](#android-spyware) (3)
 - [Anthropic](#anthropic) (2)
+- [anthropickit](#anthropickit) (1)
 - [anti-analysis](#anti-analysis) (6)
 - [anti-bot](#anti-bot) (1)
 - [anti-forensics](#anti-forensics) (2)
@@ -1394,7 +1395,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [initial-access](#initial-access) (3)
 - [Injective Labs](#injective-labs) (1)
 - [input capture](#input-capture) (1)
-- [install-time execution](#install-time-execution) (4)
+- [install-time execution](#install-time-execution) (5)
 - [install-time-execution](#install-time-execution) (1)
 - [install.res.1033.dll](#installres1033dll) (1)
 - [Integration Broker](#integration-broker) (1)
@@ -2059,6 +2060,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pig butchering](#pig-butchering) (1)
 - [pig-butchering](#pig-butchering) (1)
 - [Pink](#pink) (1)
+- [Pipedream](#pipedream) (1)
 - [pipelines](#pipelines) (1)
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
@@ -2427,6 +2429,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session theft](#session-theft) (2)
 - [session token theft](#session-token-theft) (1)
 - [setuid](#setuid) (1)
+- [setup.py](#setuppy) (1)
 - [shadow copy deletion](#shadow-copy-deletion) (2)
 - [shadow MMU](#shadow-mmu) (1)
 - [SHADOW-AETHER-040](#shadow-aether-040) (1)
@@ -3675,6 +3678,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Anthropic
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
+- [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
+
+## anthropickit
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 
 ## anti-analysis
@@ -8657,6 +8663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## install-time execution
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -11839,6 +11846,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Pink
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 
+## Pipedream
+- [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
+
 ## pipelines
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 
@@ -13299,6 +13309,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## setuid
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
+
+## setup.py
+- [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 
 ## shadow copy deletion
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)

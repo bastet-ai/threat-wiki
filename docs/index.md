@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Anthropic PyPI incident: unconfirmed `anthropickit` candidate and hunt pivots](ops/anthropic-cyber-evaluation-real-world-intrusions.md#unconfirmed-anthropickit-candidate)
+- [npm bypass-2FA token restrictions take effect](patterns/npm-install-explicit-trust-controls.md#what-changed)
 - [Water-sector PLC configuration-tampering campaign](ops/water-sector-plc-configuration-tampering-july-2026.md)
 - [XCSSET v40 Xcode supply-chain campaign](ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [XCSSET](tools/xcsset.md)

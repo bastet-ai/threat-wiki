@@ -33,7 +33,8 @@ Track this as a defender pattern rather than a single operation. The same instal
 - `--allow-git` gates direct and transitive Git repository dependencies.
 - `--allow-remote` gates direct and transitive remote URL dependencies.
 - JFrog said these three vectors appeared in about 53% of malicious npm attacks it observed over the prior year, with lifecycle scripts alone appearing in about 46% of observed malicious npm packages.
-- GitHub also began deprecating **granular access tokens with `bypass2fa` privileges**: existing tokens continue temporarily but lose account-management powers, no new `bypass2fa` tokens can be created, and publication support is scheduled for removal after a migration period. Treat any remaining bypass-2FA publication token as high-risk legacy credential inventory.
+- GitHub also began deprecating **granular access tokens with `bypass2fa` privileges**. As of July 31, those tokens can no longer create or delete tokens; change package access, maintainers, or trusted-publishing configuration; or manage organization/team membership and package grants. Those operations now require an interactive 2FA challenge. This restriction applies to npm granular access tokens, not GitHub PATs, GitHub App tokens, or Actions `GITHUB_TOKEN`.
+- Direct publication with npm 2FA-bypass tokens remains temporarily available, but GitHub targets **January 2027** for removing it. The remaining surface is expected to permit reading private packages and staging a publish that a maintainer approves with 2FA. Migrate automation to trusted publishing with OIDC or staged publishing rather than treating the current management-action restriction as full token retirement.
 
 ## Why this matters
 - Recent npm worms and credential stealers have relied on automatic install-time execution because it runs on developer machines and CI runners before application code is reviewed.
@@ -56,6 +57,7 @@ Track this as a defender pattern rather than a single operation. The same instal
 - Inventory Python package-manager configuration alongside npm: `pip.conf`, `pip.ini`, `pyproject.toml`, `requirements*.txt`, `PIP_INDEX_URL`, `PIP_EXTRA_INDEX_URL`, and tool-specific config for Poetry, uv, and pip-tools.
 - Verify whether each developer machine and CI runner resolves packages through the intended internal registry / secure registry, whether fallback to public indexes is allowed, and whether package-version cooldown policy is actually enforced at the endpoint.
 - Audit package-manager authentication posture: remove stale registry tokens, eliminate granular access tokens that retain legacy `bypass2fa` publication privileges, avoid shared long-lived tokens on developer machines, and prefer scoped credentials that cannot publish or read unrelated private packages.
+- Review automation for account, organization, team, maintainer, package-access, and trusted-publishing changes formerly performed with npm bypass-2FA tokens; move those actions to an interactive, phishing-resistant 2FA path and alert on failed legacy attempts.
 - Treat every existing lifecycle-script approval as a privileged allowlist entry; record who owns it, why it is needed, and how updates are reviewed.
 - Prefer package-specific approvals over broad flags that allow all scripts or all non-registry dependency sources.
 - Require review for dependency changes that introduce Git URLs, tarball URLs, `preinstall`, `postinstall`, `prepare`, or `binding.gyp` paths.
@@ -87,4 +89,5 @@ Track this as a defender pattern rather than a single operation. The same instal
 - JFrog Security Research: [https://jfrog.com/blog/npm-v12-from-implicit-to-explicit-trust/](https://jfrog.com/blog/npm-v12-from-implicit-to-explicit-trust/)
 - StepSecurity: [https://www.stepsecurity.io/blog/prevent-npm-and-python-supply-chain-attacks-on-developer-machines-with-package-configs](https://www.stepsecurity.io/blog/prevent-npm-and-python-supply-chain-attacks-on-developer-machines-with-package-configs)
 - GitHub Changelog: [https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation/](https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation/)
+- GitHub Changelog, “Restricting npm bypass-2FA granular access tokens,” 2026-07-31: [https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens](https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens)
 - Socket: [https://socket.dev/blog/npm-12](https://socket.dev/blog/npm-12)

@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Anthropic PyPI incident: unconfirmed anthropickit candidate</title>
+      <link>https://threat.wiki/ops/anthropic-cyber-evaluation-real-world-intrusions/#unconfirmed-anthropickit-candidate</link>
+      <description>Added Aikido Security's unconfirmed candidate for Anthropic's undisclosed evaluation-published PyPI package. The update records anthropickit 999.9.9, install-time SSH and environment-secret collection, /tmp/runner_exfil.json, the defanged Pipedream endpoint, CI-log behavior, weak archive metadata, credential-response guidance, and an explicit requirement not to attribute the candidate to Anthropic's incident without confirmation.</description>
+      <pubDate>Fri, 31 Jul 2026 17:27:41 GMT</pubDate>
+      <guid>https://threat.wiki/ops/anthropic-cyber-evaluation-real-world-intrusions/#unconfirmed-anthropickit-candidate</guid>
+    </item>
+    <item>
+      <title>npm bypass-2FA granular-token restrictions take effect</title>
+      <link>https://threat.wiki/patterns/npm-install-explicit-trust-controls/#what-changed</link>
+      <description>Updated npm hardening guidance after GitHub blocked bypass-2FA granular access tokens from sensitive account, organization, maintainer, package-access, and trusted-publishing management actions. Coverage distinguishes npm tokens from GitHub credentials, records the January 2027 target for removing direct publish, and recommends trusted publishing with OIDC or staged publishing.</description>
+      <pubDate>Fri, 31 Jul 2026 17:27:41 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/npm-install-explicit-trust-controls/#what-changed</guid>
+    </item>
+    <item>
       <title>Water-sector PLC configuration-tampering campaign</title>
       <link>https://threat.wiki/ops/water-sector-plc-configuration-tampering-july-2026/</link>
       <description>Added the CISA, FBI, and EPA warning on malicious access to internet-facing Rockwell Automation MicroLogix 1100 and 1400 PLCs at water and wastewater utilities in at least seven states. Coverage records IP and password changes, modified project files and ladder logic, pressure loss, flooding, boil-water notices, manual operations, undocumented cellular exposure, evidence limits, and controller-safe containment, hunting, recovery, and integrator-risk guidance.</description>
