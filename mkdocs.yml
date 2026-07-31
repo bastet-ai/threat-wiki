@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Anthropic cyber-evaluation real-world intrusions: ops/anthropic-cyber-evaluation-real-world-intrusions.md
       - CosmosEscape Azure Cosmos DB cross-tenant takeover: ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md
       - knaithe Hermes / DeepSeek autonomous exploitation campaign: ops/knaithe-hermes-deepseek-autonomous-exploitation.md
       - OctLurk and SilkLurk Central Asia espionage campaign: ops/octlurk-silklurk-central-asia-espionage.md
