@@ -50,6 +50,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adaptix C2](#adaptix-c2) (1)
 - [ADB TCP/5555](#adb-tcp5555) (1)
 - [Adblock for YouTube](#adblock-for-youtube) (1)
+- [Adform](#adform) (1)
 - [ADFS](#adfs) (1)
 - [Admin API key theft](#admin-api-key-theft) (1)
 - [administrator account creation](#administrator-account-creation) (2)
@@ -59,6 +60,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Advanced IP Scanner](#advanced-ip-scanner) (1)
 - [Adversa AI](#adversa-ai) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (6)
+- [advertising technology](#advertising-technology) (1)
 - [adware](#adware) (5)
 - [adware history](#adware-history) (1)
 - [aerospace](#aerospace) (3)
@@ -297,7 +299,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BioShocking](#bioshocking) (1)
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
-- [Bitcoin](#bitcoin) (1)
+- [Bitcoin](#bitcoin) (2)
 - [BitMiner](#bitminer) (1)
 - [bitsadmin](#bitsadmin) (1)
 - [Bitter](#bitter) (1)
@@ -336,7 +338,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser extension loader](#browser-extension-loader) (1)
 - [browser hijacking](#browser-hijacking) (4)
 - [browser malware](#browser-malware) (1)
-- [browser security](#browser-security) (2)
+- [browser security](#browser-security) (3)
 - [browser session abuse](#browser-session-abuse) (2)
 - [browser session risk](#browser-session-risk) (3)
 - [browser zero-day](#browser-zero-day) (1)
@@ -469,6 +471,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [client-side exploitation](#client-side-exploitation) (1)
 - [Cline](#cline) (1)
 - [clipboard hijacker](#clipboard-hijacker) (1)
+- [clipboard hijacking](#clipboard-hijacking) (1)
 - [clipboard injection](#clipboard-injection) (1)
 - [clipboard manipulation](#clipboard-manipulation) (2)
 - [clipboard stealer](#clipboard-stealer) (1)
@@ -612,12 +615,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrownX](#crownx) (2)
 - [Crucio](#crucio) (1)
 - [crypto](#crypto) (2)
-- [crypto clipper](#crypto-clipper) (1)
+- [crypto clipper](#crypto-clipper) (2)
 - [crypto wallets](#crypto-wallets) (2)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (13)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
-- [cryptocurrency theft](#cryptocurrency-theft) (10)
+- [cryptocurrency theft](#cryptocurrency-theft) (11)
 - [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (5)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (4)
 - [cryptojacking](#cryptojacking) (1)
@@ -1010,7 +1013,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESX](#esx) (1)
 - [ESXi](#esxi) (3)
-- [Ethereum](#ethereum) (1)
+- [Ethereum](#ethereum) (2)
 - [Ethereum Name Service](#ethereum-name-service) (1)
 - [EtherHiding](#etherhiding) (4)
 - [Ethiopia](#ethiopia) (1)
@@ -1377,7 +1380,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (29)
+- [incident response](#incident-response) (30)
 - [incident-response](#incident-response) (2)
 - [IndexedDB](#indexeddb) (3)
 - [India](#india) (3)
@@ -1952,7 +1955,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (277)
+- [ops](#ops) (278)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2627,6 +2630,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (14)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (93)
+- [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
@@ -2717,6 +2721,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The Quarry](#the-quarry) (1)
 - [ThemeREX Addons](#themerex-addons) (1)
 - [third-party integrations](#third-party-integrations) (1)
+- [third-party JavaScript](#third-party-javascript) (1)
 - [third-party risk](#third-party-risk) (1)
 - [threat hunting](#threat-hunting) (1)
 - [threat landscape](#threat-landscape) (1)
@@ -2768,7 +2773,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
 - [trojanized installers](#trojanized-installers) (3)
-- [Tron](#tron) (2)
+- [Tron](#tron) (3)
 - [trusted extension risk](#trusted-extension-risk) (1)
 - [trusted publishing](#trusted-publishing) (3)
 - [trusted relationship abuse](#trusted-relationship-abuse) (2)
@@ -2957,7 +2962,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web shell](#web-shell) (8)
 - [web shell hunting](#web-shell-hunting) (1)
 - [web shells](#web-shells) (3)
-- [web supply chain](#web-supply-chain) (1)
+- [web supply chain](#web-supply-chain) (2)
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
 - [WebDAV](#webdav) (2)
@@ -3297,6 +3302,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Adblock for YouTube
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
+## Adform
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
+
 ## ADFS
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 
@@ -3329,6 +3337,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+
+## advertising technology
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 
 ## adware
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
@@ -4235,6 +4246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
 ## Bitcoin
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 
 ## BitMiner
@@ -4416,6 +4428,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 
 ## browser security
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 
@@ -4996,6 +5009,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## clipboard hijacker
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
+## clipboard hijacking
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 
 ## clipboard injection
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
@@ -5666,6 +5682,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## crypto clipper
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## crypto wallets
@@ -5695,6 +5712,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cryptocurrency theft
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -7215,6 +7233,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## Ethereum
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## Ethereum Name Service
@@ -8552,6 +8571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MODBEACON](../tools/modbeacon.md)
 
 ## incident response
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
@@ -11155,6 +11175,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
@@ -14163,6 +14184,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## supply-chain attack
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
+
 ## supply-chain attribution
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
@@ -14507,6 +14531,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## third-party integrations
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 
+## third-party JavaScript
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
+
 ## third-party risk
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 
@@ -14735,6 +14762,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 
 ## Tron
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
@@ -15480,6 +15508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 
 ## web supply chain
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## web-shells

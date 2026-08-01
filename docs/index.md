@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Adform Trackpoint JavaScript supply-chain crypto clipper](ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [Anthropic PyPI incident: StepSecurity excluded as the affected scanner operator](ops/anthropic-cyber-evaluation-real-world-intrusions.md#stepsecurity-victim-clarification)
 - [Anthropic PyPI incident: unconfirmed `anthropickit` candidate and hunt pivots](ops/anthropic-cyber-evaluation-real-world-intrusions.md#unconfirmed-anthropickit-candidate)

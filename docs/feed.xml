@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Adform Trackpoint JavaScript supply-chain crypto clipper</title>
+      <link>https://threat.wiki/ops/adform-trackpoint-javascript-supply-chain-crypto-clipper/</link>
+      <description>Added Adform's provider notice and independent sample analysis of malicious code appended to a shared advertising-technology script. Coverage records Bitcoin, Ethereum, and Tron address replacement across clipboard, text, and form interactions; the affected resource, external destination, and sample hash; unresolved exposure timing and scope; cache-aware containment; transaction review; third-party JavaScript integrity monitoring; and evidence limits.</description>
+      <pubDate>Sat, 01 Aug 2026 11:25:38 GMT</pubDate>
+      <guid>https://threat.wiki/ops/adform-trackpoint-javascript-supply-chain-crypto-clipper/</guid>
+    </item>
+    <item>
       <title>CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign</title>
       <link>https://threat.wiki/ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign/</link>
       <description>Added Microsoft Threat Intelligence coverage of Storm-2945, a Midnight Blizzard subcluster, manipulating hospitality and shared-venue captive-portal traffic to deliver ClickFix malware and device-code phishing. Coverage records CornFlake, ChocoShell, FruitStone, public infrastructure and hashes, cloud-token impact, endpoint and identity hunting, travel-network controls, and the unresolved shared captive-portal service access path.</description>
