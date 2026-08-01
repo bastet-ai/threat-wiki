@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>COLDCARD predictable-RNG Bitcoin theft risk</title>
+      <link>https://threat.wiki/ops/coldcard-predictable-rng-bitcoin-theft/</link>
+      <description>Added Coinkite and Block's emergency warnings on a COLDCARD firmware integration error that routed wallet generation through a deterministic MicroPython PRNG fallback. Coverage records affected standard and Edge firmware, the Mk2/Mk3 version-range discrepancy, constrained seed entropy, offline recovery mechanics, fixed releases, mandatory seed replacement and fund migration, multisig and dice/passphrase caveats, the circumstantial $70.2 million sweep linkage, and attribution limits.</description>
+      <pubDate>Sat, 01 Aug 2026 21:26:35 GMT</pubDate>
+      <guid>https://threat.wiki/ops/coldcard-predictable-rng-bitcoin-theft/</guid>
+    </item>
+    <item>
       <title>S3-compatible neocloud object-storage trust gaps</title>
       <link>https://threat.wiki/patterns/cloud-bucket-namespace-hijacking/#s3-compatible-clone-risk</link>
       <description>Expanded cloud bucket namespace-hijacking guidance with Wiz Research's review of S3-compatible object storage across neocloud providers. The update covers predictable-name squatting, partial API-semantic mismatches, uneven public access, secret-scanner and quarantine gaps, weak least-privilege controls, reusable presigned URLs, encryption and TLS assumption failures, audit-logging validation, and provider-specific hardening and detection.</description>

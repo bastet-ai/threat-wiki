@@ -39,7 +39,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (55)
+- [active exploitation](#active-exploitation) (56)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -298,9 +298,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [biometric records](#biometric-records) (1)
 - [BIOPASS RAT](#biopass-rat) (1)
 - [BioShocking](#bioshocking) (1)
+- [BIP-39](#bip-39) (1)
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
-- [Bitcoin](#bitcoin) (2)
+- [Bitcoin](#bitcoin) (3)
 - [BitMiner](#bitminer) (1)
 - [bitsadmin](#bitsadmin) (1)
 - [Bitter](#bitter) (1)
@@ -526,6 +527,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [coding agents](#coding-agents) (1)
 - [coding challenge](#coding-challenge) (1)
 - [Coinbase](#coinbase) (1)
+- [Coinkite](#coinkite) (1)
+- [COLDCARD](#coldcard) (1)
 - [ColdFusion](#coldfusion) (1)
 - [collaboration platforms](#collaboration-platforms) (1)
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
@@ -621,7 +624,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (13)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
-- [cryptocurrency theft](#cryptocurrency-theft) (11)
+- [cryptocurrency theft](#cryptocurrency-theft) (12)
 - [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (5)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (4)
 - [cryptojacking](#cryptojacking) (1)
@@ -1121,7 +1124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Firepower Management Center](#firepower-management-center) (1)
 - [firewall](#firewall) (1)
 - [firewall management](#firewall-management) (2)
-- [firmware](#firmware) (1)
+- [firmware](#firmware) (2)
 - [firmware update](#firmware-update) (1)
 - [FishMonger](#fishmonger) (1)
 - [FlexPLM](#flexplm) (1)
@@ -1293,6 +1296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HAR files](#har-files) (1)
 - [hard-coded password](#hard-coded-password) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
+- [hardware wallet](#hardware-wallet) (1)
 - [HarmonyLib](#harmonylib) (1)
 - [HashiCorp Vault](#hashicorp-vault) (1)
 - [HavocKiller](#havockiller) (1)
@@ -1381,7 +1385,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (30)
+- [incident response](#incident-response) (31)
 - [incident-response](#incident-response) (2)
 - [IndexedDB](#indexeddb) (3)
 - [India](#india) (3)
@@ -1720,7 +1724,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Miasma](#miasma) (9)
 - [MicroLogix 1100](#micrologix-1100) (1)
 - [MicroLogix 1400](#micrologix-1400) (1)
-- [MicroPython](#micropython) (1)
+- [MicroPython](#micropython) (2)
 - [Microsoft](#microsoft) (10)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (8)
@@ -1953,11 +1957,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (245)
+- [operations](#operations) (246)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (278)
+- [ops](#ops) (279)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2135,6 +2139,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [privilege escalation](#privilege-escalation) (10)
 - [privileged proxy](#privileged-proxy) (1)
 - [Privileged Remote Access](#privileged-remote-access) (1)
+- [PRNG](#prng) (1)
 - [process discovery](#process-discovery) (1)
 - [process doppelgänging](#process-doppelganging) (1)
 - [process environment scraping](#process-environment-scraping) (1)
@@ -2210,6 +2215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RainbowEx](#rainbowex) (1)
 - [RakNet flood](#raknet-flood) (1)
 - [RAM disk](#ram-disk) (1)
+- [random number generator](#random-number-generator) (1)
 - [Ransom-ISAC](#ransom-isac) (1)
 - [ransomware](#ransomware) (14)
 - [ransomware access](#ransomware-access) (1)
@@ -2408,6 +2414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [security platform](#security-platform) (1)
 - [security-tool discovery](#security-tool-discovery) (1)
 - [seed phrase theft](#seed-phrase-theft) (2)
+- [seed recovery](#seed-recovery) (1)
 - [SeedHunter](#seedhunter) (1)
 - [Seedworm](#seedworm) (3)
 - [segmented networks](#segmented-networks) (1)
@@ -2630,7 +2637,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suo5](#suo5) (1)
 - [Supabase](#supabase) (1)
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
-- [supply chain](#supply-chain) (14)
+- [supply chain](#supply-chain) (15)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (93)
 - [supply-chain attack](#supply-chain-attack) (1)
@@ -2938,7 +2945,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet drainer](#wallet-drainer) (1)
 - [wallet infrastructure](#wallet-infrastructure) (1)
 - [wallet replacement](#wallet-replacement) (1)
-- [wallet theft](#wallet-theft) (6)
+- [wallet theft](#wallet-theft) (7)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
 - [Wasabi](#wasabi) (2)
@@ -2950,6 +2957,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [watering hole](#watering-hole) (1)
 - [watering-hole](#watering-hole) (2)
 - [weak credentials](#weak-credentials) (1)
+- [weak entropy](#weak-entropy) (1)
 - [weak passwords](#weak-passwords) (2)
 - [weapons shipments](#weapons-shipments) (1)
 - [web application](#web-application) (5)
@@ -3053,6 +3061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XXE](#xxe) (1)
 - [xz](#xz) (2)
 - [Yanbian](#yanbian) (1)
+- [Yasmarang](#yasmarang) (1)
 - [YesWeHack](#yeswehack) (1)
 - [YouTube abuse](#youtube-abuse) (1)
 - [Yuechi Shared Technology](#yuechi-shared-technology) (1)
@@ -3215,6 +3224,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
@@ -4245,6 +4255,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BioShocking
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## BIP-39
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
+
 ## BirdCall
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
@@ -4253,6 +4266,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bitcoin
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 
 ## BitMiner
@@ -5236,6 +5250,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## Coinkite
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
+
+## COLDCARD
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
+
 ## ColdFusion
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
@@ -5719,6 +5739,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cryptocurrency theft
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -7626,6 +7647,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 
 ## firmware
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## firmware update
@@ -8278,6 +8300,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hard-coded secrets
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## hardware wallet
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
+
 ## HarmonyLib
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 
@@ -8584,6 +8609,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
@@ -9999,6 +10025,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## MicroPython
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## Microsoft
@@ -10974,6 +11001,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
@@ -11236,6 +11264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
@@ -12170,6 +12199,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Privileged Remote Access
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 
+## PRNG
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
+
 ## process discovery
 - [NightLedger](../tools/nightledger.md)
 
@@ -12467,6 +12499,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RAM disk
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
+
+## random number generator
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 
 ## Ransom-ISAC
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
@@ -13275,6 +13310,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## seed phrase theft
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
+## seed recovery
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 
 ## SeedHunter
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
@@ -14087,6 +14125,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
@@ -15415,6 +15454,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## wallet theft
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -15459,6 +15499,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## weak credentials
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
+
+## weak entropy
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 
 ## weak passwords
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
@@ -15900,6 +15943,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Yanbian
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
+## Yasmarang
+- [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 
 ## YesWeHack
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
