@@ -28,6 +28,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion](#accellion) (1)
 - [access broker](#access-broker) (2)
 - [access brokers](#access-brokers) (1)
+- [access keys](#access-keys) (1)
 - [access optionality](#access-optionality) (1)
 - [access token abuse](#access-token-abuse) (1)
 - [Accessibility Service](#accessibility-service) (1)
@@ -1835,6 +1836,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Negotiate](#negotiate) (1)
 - [negotiation](#negotiation) (1)
 - [Neo-reGeorg](#neo-regeorg) (1)
+- [neocloud](#neocloud) (1)
 - [nested virtualization](#nested-virtualization) (1)
 - [Neteller](#neteller) (1)
 - [Netherlands](#netherlands) (2)
@@ -2119,6 +2121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pre-authentication](#pre-authentication) (2)
 - [pre-authentication RCE](#pre-authentication-rce) (1)
 - [preinstall](#preinstall) (3)
+- [presigned URLs](#presigned-urls) (1)
 - [primary keys](#primary-keys) (1)
 - [Primitive Bear](#primitive-bear) (1)
 - [PrincessClub](#princessclub) (1)
@@ -2355,7 +2358,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rust](#rust) (8)
 - [Rust malware](#rust-malware) (5)
 - [S3 Browser](#s3-browser) (1)
-- [S3-compatible storage](#s3-compatible-storage) (1)
+- [S3-compatible storage](#s3-compatible-storage) (2)
 - [s5cmd](#s5cmd) (1)
 - [SaaS](#saas) (5)
 - [SaaS abuse](#saas-abuse) (1)
@@ -3163,6 +3166,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## access brokers
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
+## access keys
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
 ## access optionality
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
@@ -10440,6 +10446,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Neo-reGeorg
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
+## neocloud
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+
 ## nested virtualization
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
@@ -12110,6 +12119,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
+## presigned URLs
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+
 ## primary keys
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 
@@ -13066,6 +13078,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## S3-compatible storage
+- [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
 ## s5cmd

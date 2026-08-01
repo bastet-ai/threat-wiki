@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>S3-compatible neocloud object-storage trust gaps</title>
+      <link>https://threat.wiki/patterns/cloud-bucket-namespace-hijacking/#s3-compatible-clone-risk</link>
+      <description>Expanded cloud bucket namespace-hijacking guidance with Wiz Research's review of S3-compatible object storage across neocloud providers. The update covers predictable-name squatting, partial API-semantic mismatches, uneven public access, secret-scanner and quarantine gaps, weak least-privilege controls, reusable presigned URLs, encryption and TLS assumption failures, audit-logging validation, and provider-specific hardening and detection.</description>
+      <pubDate>Sat, 01 Aug 2026 17:26:09 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/cloud-bucket-namespace-hijacking/#s3-compatible-clone-risk</guid>
+    </item>
+    <item>
       <title>Adform Trackpoint JavaScript supply-chain crypto clipper</title>
       <link>https://threat.wiki/ops/adform-trackpoint-javascript-supply-chain-crypto-clipper/</link>
       <description>Added Adform's provider notice and independent sample analysis of malicious code appended to a shared advertising-technology script. Coverage records Bitcoin, Ethereum, and Tron address replacement across clipboard, text, and form interactions; the affected resource, external destination, and sample hash; unresolved exposure timing and scope; cache-aware containment; transaction review; third-party JavaScript integrity monitoring; and evidence limits.</description>
