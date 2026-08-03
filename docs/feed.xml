@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>CISA KEV: N-able N-central CVE-2026-18577</title>
+      <link>https://threat.wiki/ops/n-able-n-central-cve-2026-18556-18577-exploitation/#cisa-kev-update-2026-08-03</link>
+      <description>Updated the N-central active-exploitation page after CISA added CVE-2026-18577 to the Known Exploited Vulnerabilities catalog. The addition confirms the incomplete CVE-2026-18556 patch as the alternate authentication-bypass path, records ransomware use as unknown, imposes an accelerated August 6 federal remediation deadline, and reinforces immediate upgrade to build 2026.3.1.7 plus downstream endpoint triage for Take Control and Cloudflare Tunnel persistence.</description>
+      <pubDate>Mon, 03 Aug 2026 19:28:21 GMT</pubDate>
+      <guid>https://threat.wiki/ops/n-able-n-central-cve-2026-18556-18577-exploitation/#cisa-kev-update-2026-08-03</guid>
+    </item>
+    <item>
       <title>Offensive-agent trajectory auditing and rapid-exploitation field context</title>
       <link>https://threat.wiki/patterns/ai-augmented-adversary-operations/</link>
       <description>Added ProjectDiscovery's 54-target behavioral audit of offensive-security agents and CrowdStrike's first-half 2026 threat-hunting observations. Coverage distinguishes discovery from execution failures, intended exploits from alternate paths and side channels, reachable-harness access from isolation-boundary exploitation, and raw trajectories from final narratives; records the 88% public-PoC exploitation-within-48-hours observation, AI-agent lead-volume increase, rapid state-linked cases, and public-PoC testing caveat; and adds evaluation-isolation and scoring guidance.</description>

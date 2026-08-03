@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [CISA KEV: N-able N-central CVE-2026-18577 with August 6 deadline](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md#cisa-kev-update-2026-08-03)
 - [Offensive-agent trajectory auditing and rapid-exploitation field context](../patterns/ai-augmented-adversary-operations.md)
 - [CrowdStrike supply-chain context: npm prevalence and vendor actor labels](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-08-03-crowdstrike-supply-chain-context)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
