@@ -24,7 +24,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab](#ababil-of-minab) (1)
 - [abuse response](#abuse-response) (1)
 - [academic research](#academic-research) (1)
-- [academic sector](#academic-sector) (1)
+- [academic sector](#academic-sector) (2)
 - [Accellion](#accellion) (1)
 - [access broker](#access-broker) (2)
 - [access brokers](#access-brokers) (1)
@@ -137,6 +137,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amatera Stealer](#amatera-stealer) (1)
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [Amazon SES](#amazon-ses) (2)
+- [Amcache](#amcache) (1)
 - [AMOS](#amos) (1)
 - [AMSI bypass](#amsi-bypass) (4)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
@@ -154,7 +155,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [anti-forensics](#anti-forensics) (2)
 - [Anubis ransomware](#anubis-ransomware) (1)
 - [ANY.RUN](#anyrun) (1)
-- [AnyDesk](#anydesk) (1)
+- [AnyDesk](#anydesk) (2)
 - [Aone](#aone) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
@@ -244,6 +245,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [autonomous attacks](#autonomous-attacks) (1)
 - [autonomous exploitation](#autonomous-exploitation) (1)
 - [autonomous scanning](#autonomous-scanning) (1)
+- [AV killer](#av-killer) (1)
 - [Avalon](#avalon) (2)
 - [aviation](#aviation) (2)
 - [AWS](#aws) (6)
@@ -268,6 +270,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bad Epoll](#bad-epoll) (1)
 - [BadBlocker](#badblocker) (1)
 - [Badbox 2.0](#badbox-20) (1)
+- [BadPotato](#badpotato) (1)
 - [Balbooa Forms](#balbooa-forms) (1)
 - [Balochistan Police](#balochistan-police) (1)
 - [Banana RAT](#banana-rat) (1)
@@ -325,7 +328,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [branch-name-injection](#branch-name-injection) (1)
 - [brand impersonation](#brand-impersonation) (3)
 - [brand-impersonation](#brand-impersonation) (1)
-- [Brazil](#brazil) (4)
+- [Brazil](#brazil) (5)
 - [Brazilian banking malware](#brazilian-banking-malware) (1)
 - [BreachForums](#breachforums) (1)
 - [Breeze Cache Cleaner](#breeze-cache-cleaner) (1)
@@ -894,6 +897,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DEWMODE](#dewmode) (1)
 - [DGA](#dga) (1)
 - [DIAMONDBACK](#diamondback) (2)
+- [digital forensics](#digital-forensics) (1)
 - [Digital Knowledge](#digital-knowledge) (1)
 - [digital wallets](#digital-wallets) (1)
 - [DigitalOcean](#digitalocean) (1)
@@ -942,6 +946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DPAPI](#dpapi) (3)
 - [DPAPILoader](#dpapiloader) (1)
 - [DPRK](#dprk) (5)
+- [DragonForce](#dragonforce) (1)
 - [drive serial number](#drive-serial-number) (1)
 - [driver loading](#driver-loading) (1)
 - [DroneLink](#dronelink) (1)
@@ -978,7 +983,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [EDR evasion](#edr-evasion) (2)
 - [EDR killer](#edr-killer) (2)
 - [EDS5000](#eds5000) (1)
-- [education](#education) (2)
+- [education](#education) (3)
 - [Egnyte](#egnyte) (1)
 - [Egypt](#egypt) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
@@ -1058,6 +1063,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exploitation](#exploitation) (15)
 - [exploitation attempts](#exploitation-attempts) (1)
 - [ExploitGym](#exploitgym) (1)
+- [exposed applications](#exposed-applications) (1)
 - [exposed attacker infrastructure](#exposed-attacker-infrastructure) (1)
 - [exposed debug page](#exposed-debug-page) (1)
 - [extension supply-chain](#extension-supply-chain) (2)
@@ -1240,6 +1246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Go modules](#go-modules) (2)
 - [Go2Tunnel](#go2tunnel) (1)
 - [GodDamn ransomware](#goddamn-ransomware) (1)
+- [GodPotato](#godpotato) (1)
 - [Godzilla](#godzilla) (1)
 - [GoEdge](#goedge) (1)
 - [GoFile](#gofile) (1)
@@ -1396,7 +1403,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (32)
+- [incident response](#incident-response) (33)
 - [incident-response](#incident-response) (2)
 - [incomplete patch](#incomplete-patch) (1)
 - [IndexedDB](#indexeddb) (3)
@@ -1422,6 +1429,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [initial-access](#initial-access) (3)
 - [Injective Labs](#injective-labs) (1)
 - [input capture](#input-capture) (1)
+- [insider threat](#insider-threat) (1)
 - [install-time execution](#install-time-execution) (5)
 - [install-time-execution](#install-time-execution) (1)
 - [install.res.1033.dll](#installres1033dll) (1)
@@ -1512,6 +1520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kaitori](#kaitori) (1)
 - [Kali365](#kali365) (1)
 - [Kaspersky](#kaspersky) (2)
+- [Kaspersky GERT](#kaspersky-gert) (1)
 - [Kaspersky GReAT](#kaspersky-great) (3)
 - [Kaspersky Securelist](#kaspersky-securelist) (2)
 - [Kazakhstan](#kazakhstan) (2)
@@ -1528,7 +1537,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Keychain theft](#keychain-theft) (1)
 - [keychain theft](#keychain-theft) (3)
 - [KeyHunter](#keyhunter) (1)
-- [keylogger](#keylogger) (4)
+- [keylogger](#keylogger) (5)
 - [keylogging](#keylogging) (2)
 - [Kimsuky](#kimsuky) (1)
 - [Klue](#klue) (1)
@@ -1585,6 +1594,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [legacy botnet hijacking](#legacy-botnet-hijacking) (1)
 - [legacy infrastructure](#legacy-infrastructure) (1)
 - [legacy software](#legacy-software) (1)
+- [legacy systems](#legacy-systems) (1)
 - [legal sector](#legal-sector) (1)
 - [LegionRelay](#legionrelay) (1)
 - [Leo Platform](#leo-platform) (1)
@@ -1626,7 +1636,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [local-file-inclusion](#local-file-inclusion) (1)
 - [localhost](#localhost) (1)
 - [localStorage](#localstorage) (2)
-- [LockBit](#lockbit) (1)
+- [LockBit](#lockbit) (2)
+- [LockBit 3.0](#lockbit-30) (1)
 - [log poisoning](#log-poisoning) (1)
 - [logging](#logging) (1)
 - [logging impairment](#logging-impairment) (1)
@@ -1736,6 +1747,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA bypass](#mfa-bypass) (8)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
+- [MFT](#mft) (1)
 - [Miasma](#miasma) (9)
 - [MicroLogix 1100](#micrologix-1100) (1)
 - [MicroLogix 1400](#micrologix-1400) (1)
@@ -1975,11 +1987,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (248)
+- [operations](#operations) (249)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (281)
+- [ops](#ops) (282)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2142,6 +2154,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pre-auth RCE](#pre-auth-rce) (1)
 - [pre-authentication](#pre-authentication) (2)
 - [pre-authentication RCE](#pre-authentication-rce) (1)
+- [Prefetch](#prefetch) (1)
 - [preinstall](#preinstall) (3)
 - [presigned URLs](#presigned-urls) (1)
 - [primary keys](#primary-keys) (1)
@@ -2167,6 +2180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [product lifecycle management](#product-lifecycle-management) (1)
 - [professional services](#professional-services) (1)
 - [profile.d](#profiled) (1)
+- [Program Compatibility Assistant](#program-compatibility-assistant) (1)
 - [Progress Kemp LoadMaster](#progress-kemp-loadmaster) (1)
 - [Progress Software](#progress-software) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
@@ -2187,7 +2201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [proxyware](#proxyware) (1)
 - [prt-scan](#prt-scan) (1)
 - [PSEMHUB](#psemhub) (1)
-- [PsExec](#psexec) (3)
+- [PsExec](#psexec) (4)
 - [PSIGW](#psigw) (1)
 - [psychological operations](#psychological-operations) (1)
 - [PTC](#ptc) (1)
@@ -2212,7 +2226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PyArmor](#pyarmor) (3)
 - [PyInstaller](#pyinstaller) (1)
 - [PyPI](#pypi) (14)
-- [Python](#python) (13)
+- [Python](#python) (14)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python malware](#python-malware) (2)
 - [Python stealer](#python-stealer) (1)
@@ -2235,7 +2249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAM disk](#ram-disk) (1)
 - [random number generator](#random-number-generator) (1)
 - [Ransom-ISAC](#ransom-isac) (1)
-- [ransomware](#ransomware) (14)
+- [ransomware](#ransomware) (15)
 - [ransomware access](#ransomware-access) (1)
 - [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
@@ -2250,7 +2264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rclone](#rclone) (1)
 - [rclone](#rclone) (1)
 - [RCS](#rcs) (1)
-- [RDP](#rdp) (2)
+- [RDP](#rdp) (3)
 - [RDP phishing](#rdp-phishing) (1)
 - [RDS](#rds) (1)
 - [Reality](#reality) (1)
@@ -2477,6 +2491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Shai-Hulud](#shai-hulud) (9)
 - [SHARDLOADER](#shardloader) (2)
 - [share propagation](#share-propagation) (1)
+- [shared accounts](#shared-accounts) (1)
 - [shared hosting](#shared-hosting) (3)
 - [shared secrets](#shared-secrets) (1)
 - [SharedWorker](#sharedworker) (1)
@@ -2667,6 +2682,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [suspected China-linked](#suspected-china-linked) (1)
 - [SVG](#svg) (2)
 - [SWE-agent](#swe-agent) (1)
+- [SweetPotato](#sweetpotato) (1)
 - [SWUpdate](#swupdate) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (2)
 - [symbolic link](#symbolic-link) (1)
@@ -2875,13 +2891,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UPnP](#upnp) (2)
 - [UPX](#upx) (1)
 - [uranium compression](#uranium-compression) (1)
+- [USB exfiltration](#usb-exfiltration) (1)
 - [USB propagation](#usb-propagation) (1)
 - [USB weaponizer](#usb-weaponizer) (1)
 - [USB worm](#usb-worm) (2)
 - [use-after-free](#use-after-free) (2)
 - [user execution](#user-execution) (1)
 - [user namespaces](#user-namespaces) (2)
+- [UserAssist](#userassist) (1)
 - [username environmental keying](#username-environmental-keying) (1)
+- [USN Journal](#usn-journal) (1)
 - [UTA0355](#uta0355) (1)
 - [UTA0533](#uta0533) (1)
 - [UTG-Q-1000](#utg-q-1000) (2)
@@ -2890,7 +2909,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [V2Ray](#v2ray) (1)
 - [V4bel](#v4bel) (1)
 - [V8](#v8) (1)
-- [valid accounts](#valid-accounts) (3)
+- [valid accounts](#valid-accounts) (4)
 - [ValleyRAT](#valleyrat) (2)
 - [VBCloud](#vbcloud) (1)
 - [VBE](#vbe) (1)
@@ -3024,6 +3043,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows](#windows) (41)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
+- [Windows Defender impairment](#windows-defender-impairment) (1)
 - [Windows Forms](#windows-forms) (1)
 - [Windows malware](#windows-malware) (12)
 - [Windows persistence](#windows-persistence) (1)
@@ -3184,6 +3204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6508](../actors/unc6508.md)
 
 ## academic sector
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
 ## Accellion
@@ -3687,6 +3708,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 
+## Amcache
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
 ## AMOS
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 
@@ -3764,6 +3788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 
 ## AnyDesk
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
 ## Aone
@@ -4076,6 +4101,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## autonomous scanning
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 
+## AV killer
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
 ## Avalon
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
@@ -4177,6 +4205,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Badbox 2.0
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
+## BadPotato
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 
 ## Balbooa Forms
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
@@ -4388,6 +4419,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Brazil
 - [Armored Likho](../actors/armored-likho.md)
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
@@ -6753,6 +6785,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Turla](../actors/turla.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
+## digital forensics
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
 ## Digital Knowledge
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -6947,6 +6982,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
+## DragonForce
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
 ## drive serial number
 - [OctLurk](../tools/octlurk.md)
 
@@ -7083,6 +7121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 
 ## education
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -7435,6 +7474,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ExploitGym
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
+## exposed applications
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 
 ## exposed attacker infrastructure
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
@@ -8111,6 +8153,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GodDamn ransomware
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
+## GodPotato
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
 ## Godzilla
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -8670,6 +8715,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
@@ -8821,6 +8867,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## input capture
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
+
+## insider threat
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 
 ## install-time execution
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -9152,6 +9201,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
+## Kaspersky GERT
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
 ## Kaspersky GReAT
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
@@ -9213,6 +9265,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
 ## keylogger
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
@@ -9427,6 +9480,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## legacy software
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
+## legacy systems
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
 ## legal sector
 - [UNC3753](../actors/unc3753.md)
 
@@ -9611,7 +9667,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 
 ## LockBit
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [Toy Ghouls](../actors/toy-ghouls.md)
+
+## LockBit 3.0
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 
 ## log poisoning
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -10088,6 +10148,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MFA-bypass
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
+## MFT
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 
 ## Miasma
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -11070,6 +11133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [CanisterWorm](../tools/canisterworm.md)
@@ -11333,6 +11397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
@@ -12238,6 +12303,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## pre-authentication RCE
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
 
+## Prefetch
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
 ## preinstall
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
@@ -12331,6 +12399,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## profile.d
 - [MYRA RAT](../tools/myra-rat.md)
 
+## Program Compatibility Assistant
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
 ## Progress Kemp LoadMaster
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
@@ -12414,6 +12485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PsExec
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 
@@ -12515,6 +12587,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Python
 - [ACR Stealer](../tools/acr-stealer.md)
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -12604,6 +12677,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ransomware
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [CrownX](../tools/crownx.md)
 - [ENCFORGE](../tools/encforge.md)
@@ -12699,6 +12773,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## RDP
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 
@@ -13567,6 +13642,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## share propagation
 - [Fast16](../tools/fast16.md)
 
+## shared accounts
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
 ## shared hosting
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
@@ -14360,6 +14438,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SWE-agent
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
+## SweetPotato
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 
 ## SWUpdate
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -15210,6 +15291,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## uranium compression
 - [Fast16](../tools/fast16.md)
 
+## USB exfiltration
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
 ## USB propagation
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 
@@ -15231,8 +15315,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
+## UserAssist
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
 ## username environmental keying
 - [BridgeHead](../tools/bridgehead.md)
+
+## USN Journal
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 
 ## UTA0355
 - [ROADtools](../tools/roadtools.md)
@@ -15261,6 +15351,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## valid accounts
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 
@@ -15820,6 +15911,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Windows Defender exclusions
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
+
+## Windows Defender impairment
+- [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 
 ## Windows Forms
 - [STOCKSTAY](../tools/stockstay.md)
