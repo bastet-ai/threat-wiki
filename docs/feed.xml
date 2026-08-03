@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Offensive-agent trajectory auditing and rapid-exploitation field context</title>
+      <link>https://threat.wiki/patterns/ai-augmented-adversary-operations/</link>
+      <description>Added ProjectDiscovery's 54-target behavioral audit of offensive-security agents and CrowdStrike's first-half 2026 threat-hunting observations. Coverage distinguishes discovery from execution failures, intended exploits from alternate paths and side channels, reachable-harness access from isolation-boundary exploitation, and raw trajectories from final narratives; records the 88% public-PoC exploitation-within-48-hours observation, AI-agent lead-volume increase, rapid state-linked cases, and public-PoC testing caveat; and adds evaluation-isolation and scoring guidance.</description>
+      <pubDate>Mon, 03 Aug 2026 17:26:19 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/ai-augmented-adversary-operations/#evaluation-harness-boundary-drift</guid>
+    </item>
+    <item>
+      <title>CrowdStrike software-supply-chain threat-hunting context</title>
+      <link>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-08-03-crowdstrike-supply-chain-context</link>
+      <description>Added CrowdStrike's first-half 2026 field context: ALTERED SPIDER reportedly compromised more than 300 dependencies in one day and pivoted into cloud environments, STARDUST CHOLLIMA was separately linked to Axios/ZshBucket and Mastra incidents, and npm represented 87% of CrowdStrike-identified software-registry threats. The update preserves vendor-label and telemetry-scope caveats and does not assert that ALTERED SPIDER is a TeamPCP alias.</description>
+      <pubDate>Mon, 03 Aug 2026 17:26:19 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mini-shai-hulud-npm-pypi-worm-campaign/#2026-08-03-crowdstrike-supply-chain-context</guid>
+    </item>
+    <item>
       <title>Synced passkey theft after endpoint compromise</title>
       <link>https://threat.wiki/patterns/synced-passkey-endpoint-compromise/</link>
       <description>Added Unit 42's Pass-ta-key research on post-compromise abuse of Google Password Manager synced passkeys in Chrome on Windows. Coverage records device-identity impersonation, relying-party UV validation failures, attacker-controlled verification-key registration during re-onboarding, security domain secret extraction from browser memory, the fixed FIDO-log leak, master-key revocation limits, endpoint and identity detections, and incident-response scope.</description>

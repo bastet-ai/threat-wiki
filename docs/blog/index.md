@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Offensive-agent trajectory auditing and rapid-exploitation field context](../patterns/ai-augmented-adversary-operations.md)
+- [CrowdStrike supply-chain context: npm prevalence and vendor actor labels](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md#2026-08-03-crowdstrike-supply-chain-context)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
