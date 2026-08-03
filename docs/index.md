@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Synced passkey theft after endpoint compromise](patterns/synced-passkey-endpoint-compromise.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)

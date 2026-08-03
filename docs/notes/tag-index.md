@@ -33,7 +33,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [access token abuse](#access-token-abuse) (1)
 - [Accessibility Service](#accessibility-service) (1)
 - [account lockout](#account-lockout) (1)
-- [account takeover](#account-takeover) (4)
+- [account takeover](#account-takeover) (5)
 - [account-takeover](#account-takeover) (1)
 - [ACR Stealer](#acr-stealer) (1)
 - [act_pedit](#act_pedit) (1)
@@ -344,6 +344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser extension loader](#browser-extension-loader) (1)
 - [browser hijacking](#browser-hijacking) (4)
 - [browser malware](#browser-malware) (1)
+- [browser memory](#browser-memory) (1)
 - [browser security](#browser-security) (3)
 - [browser session abuse](#browser-session-abuse) (2)
 - [browser session risk](#browser-session-risk) (3)
@@ -607,7 +608,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential rotation](#credential-rotation) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (66)
+- [credential theft](#credential-theft) (67)
 - [credential-theft](#credential-theft) (52)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -889,6 +890,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer-targeting](#developer-targeting) (19)
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (4)
+- [device identity](#device-identity) (1)
 - [device lockout](#device-lockout) (1)
 - [device registration](#device-registration) (1)
 - [device-code phishing](#device-code-phishing) (5)
@@ -1001,6 +1003,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Emerald Sleet](#emerald-sleet) (1)
 - [ENCFORGE](#encforge) (2)
 - [encrypted C2](#encrypted-c2) (4)
+- [endpoint compromise](#endpoint-compromise) (1)
 - [endpoint management](#endpoint-management) (2)
 - [endpoint management abuse](#endpoint-management-abuse) (1)
 - [endpoint response](#endpoint-response) (1)
@@ -1108,7 +1111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fbot](#fbot) (1)
 - [Feiying](#feiying) (1)
 - [FFmpeg](#ffmpeg) (1)
-- [FIDO2](#fido2) (1)
+- [FIDO2](#fido2) (2)
 - [FIFA](#fifa) (1)
 - [file encryption](#file-encryption) (1)
 - [file exfiltration](#file-exfiltration) (1)
@@ -1253,18 +1256,21 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Golang](#golang) (2)
 - [Golang malware](#golang-malware) (1)
 - [GOLD PRELUDE](#gold-prelude) (1)
+- [Golden Pass-ta-key](#golden-pass-ta-key) (1)
 - [Google Ads](#google-ads) (1)
 - [Google Analytics telemetry](#google-analytics-telemetry) (1)
 - [Google API](#google-api) (3)
 - [Google Calendar](#google-calendar) (1)
-- [Google Chrome](#google-chrome) (1)
+- [Google Chrome](#google-chrome) (2)
 - [Google Cloud](#google-cloud) (1)
+- [Google Cloud Authenticator](#google-cloud-authenticator) (1)
 - [Google Cloud Logging](#google-cloud-logging) (1)
 - [Google Cloud Storage](#google-cloud-storage) (1)
 - [Google credential theft](#google-credential-theft) (1)
 - [Google Docs](#google-docs) (1)
 - [Google Drive](#google-drive) (1)
 - [Google Notes](#google-notes) (1)
+- [Google Password Manager](#google-password-manager) (1)
 - [Google Play](#google-play) (1)
 - [Google Play Protect](#google-play-protect) (1)
 - [Google redirect abuse](#google-redirect-abuse) (1)
@@ -2046,18 +2052,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pandora RC](#pandora-rc) (1)
 - [parallel-intrusion](#parallel-intrusion) (1)
 - [partial encryption](#partial-encryption) (1)
-- [passkeys](#passkeys) (1)
+- [Pass-ta-key](#pass-ta-key) (1)
+- [passkeys](#passkeys) (2)
 - [password manager theft](#password-manager-theft) (1)
 - [password spray](#password-spray) (1)
 - [password spraying](#password-spraying) (3)
 - [password-protected archive](#password-protected-archive) (2)
+- [passwordless authentication](#passwordless-authentication) (1)
 - [Pastebin](#pastebin) (1)
 - [PAT theft](#pat-theft) (1)
 - [patch management](#patch-management) (2)
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (2)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (32)
+- [patterns](#patterns) (33)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
@@ -2272,6 +2280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reconnaissance](#reconnaissance) (2)
 - [recovery denial](#recovery-denial) (2)
 - [recovery disruption](#recovery-disruption) (2)
+- [recovery flow](#recovery-flow) (1)
 - [recruitment lures](#recruitment-lures) (1)
 - [Red Dev 10](#red-dev-10) (2)
 - [Red Hat](#red-hat) (1)
@@ -2519,6 +2528,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SiliconFlow](#siliconflow) (1)
 - [SilkLurk](#silklurk) (2)
 - [Silver Fox](#silver-fox) (2)
+- [Silver Pass-ta-key](#silver-pass-ta-key) (1)
 - [SimpleHelp](#simplehelp) (4)
 - [SimpleHTTPServer exposure](#simplehttpserver-exposure) (1)
 - [simulation tampering](#simulation-tampering) (1)
@@ -2796,6 +2806,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [Toy Ghouls](#toy-ghouls) (3)
+- [TPM](#tpm) (1)
 - [Trading Technologies](#trading-technologies) (1)
 - [TradingView](#tradingview) (1)
 - [traffic broker](#traffic-broker) (1)
@@ -2879,7 +2890,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unified CM SME](#unified-cm-sme) (1)
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [unintended internet access](#unintended-internet-access) (1)
-- [Unit 42](#unit-42) (8)
+- [Unit 42](#unit-42) (9)
 - [United States](#united-states) (3)
 - [university targeting](#university-targeting) (1)
 - [UNK_MassTraction](#unk_masstraction) (1)
@@ -2898,6 +2909,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [use-after-free](#use-after-free) (2)
 - [user execution](#user-execution) (1)
 - [user namespaces](#user-namespaces) (2)
+- [user verification](#user-verification) (1)
 - [UserAssist](#userassist) (1)
 - [username environmental keying](#username-environmental-keying) (1)
 - [USN Journal](#usn-journal) (1)
@@ -3014,6 +3026,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web supply chain](#web-supply-chain) (2)
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
+- [WebAuthn](#webauthn) (1)
 - [WebDAV](#webdav) (2)
 - [WebKit](#webkit) (1)
 - [WebLogic](#weblogic) (1)
@@ -3040,7 +3053,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
 - [Windmill](#windmill) (1)
-- [Windows](#windows) (41)
+- [Windows](#windows) (42)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Defender impairment](#windows-defender-impairment) (1)
@@ -3237,6 +3250,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## account-takeover
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -4505,6 +4519,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser malware
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 
+## browser memory
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
 ## browser security
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
@@ -5648,6 +5665,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -6756,6 +6774,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 
+## device identity
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
 ## device lockout
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 
@@ -7188,6 +7209,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TaskWeaver](../tools/taskweaver.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [WLDR agent](../tools/wldr-agent.md)
+
+## endpoint compromise
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## endpoint management
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
@@ -7633,6 +7657,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FIDO2
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## FIFA
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
@@ -8175,6 +8200,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GOLD PRELUDE
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
+## Golden Pass-ta-key
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
 ## Google Ads
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
@@ -8191,9 +8219,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Google Chrome
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## Google Cloud
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+
+## Google Cloud Authenticator
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## Google Cloud Logging
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -8212,6 +8244,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Google Notes
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
+## Google Password Manager
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## Google Play
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -11829,8 +11864,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## partial encryption
 - [GenieLocker](../tools/genielocker.md)
 
+## Pass-ta-key
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
 ## passkeys
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## password manager theft
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
@@ -11846,6 +11885,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## password-protected archive
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
+
+## passwordless authentication
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## Pastebin
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -11899,6 +11941,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
 ## payload loader
@@ -12800,6 +12843,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## recovery disruption
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
+
+## recovery flow
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## recruitment lures
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -13736,6 +13782,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Silver Fox
 - [MODBEACON](../tools/modbeacon.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
+
+## Silver Pass-ta-key
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## SimpleHelp
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -14922,6 +14971,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 
+## TPM
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
 ## Trading Technologies
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
@@ -15251,6 +15303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
@@ -15314,6 +15367,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## user namespaces
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
+## user verification
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## UserAssist
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
@@ -15765,6 +15821,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## WebAssembly
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
+## WebAuthn
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
 ## WebDAV
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
@@ -15899,6 +15958,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SilkLurk](../tools/silklurk.md)
 - [Starland RAT](../tools/starland-rat.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
+- [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TELESHIM](../tools/teleshim.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)

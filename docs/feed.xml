@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Synced passkey theft after endpoint compromise</title>
+      <link>https://threat.wiki/patterns/synced-passkey-endpoint-compromise/</link>
+      <description>Added Unit 42's Pass-ta-key research on post-compromise abuse of Google Password Manager synced passkeys in Chrome on Windows. Coverage records device-identity impersonation, relying-party UV validation failures, attacker-controlled verification-key registration during re-onboarding, security domain secret extraction from browser memory, the fixed FIDO-log leak, master-key revocation limits, endpoint and identity detections, and incident-response scope.</description>
+      <pubDate>Mon, 03 Aug 2026 15:28:02 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/synced-passkey-endpoint-compromise/</guid>
+    </item>
+    <item>
       <title>Brazilian education LockBit, DragonForce, and insider incidents</title>
       <link>https://threat.wiki/ops/brazil-education-lockbit-dragonforce-insider-incidents/</link>
       <description>Added Kaspersky GERT's incident-response review of Brazilian educational institutions from January 2025 through June 2026. Coverage records valid-account and exposed-application access, a leaked-builder LockBit intrusion with manual PsExec movement and defense impairment, DragonForce deployment through AnyDesk, a shared-account Python keylogger with likely USB collection, forensic reconstruction pivots, responder actions, and dataset and attribution limits.</description>
