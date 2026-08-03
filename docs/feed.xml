@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>DarkSword / GHOSTBLADE iOS exploit infrastructure</title>
+      <link>https://threat.wiki/ops/darksword-ghostblade-ios-exploit-infrastructure/</link>
+      <description>Added Censys ARC and Google Threat Intelligence reporting on a Chinese-speaking operator deploying the leaked DarkSword iOS exploit chain across rapidly rotating lure, staging, credential-harvesting, and panel infrastructure. Coverage records GHOSTBLADE collection behavior, stable HTTP body hashes, 27-host and 180-property July telemetry, a separate 100-property code comparison, multi-panel and Coruna co-hosting, public hunt pivots, mobile response guidance, and attribution limits created by exploit-kit proliferation.</description>
+      <pubDate>Mon, 03 Aug 2026 11:29:26 GMT</pubDate>
+      <guid>https://threat.wiki/ops/darksword-ghostblade-ios-exploit-infrastructure/</guid>
+    </item>
+    <item>
       <title>N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation</title>
       <link>https://threat.wiki/ops/n-able-n-central-cve-2026-18556-18577-exploitation/</link>
       <description>Added N-able and Huntress reporting on active authentication-bypass exploitation of N-central RMM servers after an initial fix proved incomplete. Coverage records the mandatory 2026.3.1.7 hotfix, administrative takeover, Take Control pivots into managed endpoints, persistent Cloudflare Tunnel services, public indicators and VPN-exit caveats, downstream MSP blast radius, and server-plus-endpoint containment guidance.</description>

@@ -317,6 +317,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Blogger abuse](#blogger-abuse) (1)
 - [blogspot staging](#blogspot-staging) (1)
 - [BLUEBEAM](#bluebeam) (1)
+- [body hash](#body-hash) (1)
 - [botnet](#botnet) (11)
 - [botnet framework](#botnet-framework) (1)
 - [Braintree](#braintree) (1)
@@ -372,6 +373,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C0XMO](#c0xmo) (1)
 - [C2](#c2) (12)
 - [C2 framework](#c2-framework) (2)
+- [C2 panel](#c2-panel) (1)
 - [C2 tasking](#c2-tasking) (1)
 - [CageFS](#cagefs) (1)
 - [calendar dead drop](#calendar-dead-drop) (1)
@@ -395,6 +397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCleaner](#ccleaner) (1)
 - [CDN](#cdn) (1)
 - [cellular modem](#cellular-modem) (1)
+- [Censys ARC](#censys-arc) (1)
 - [Central Asia](#central-asia) (1)
 - [CERT-In](#cert-in) (1)
 - [CERT/CC](#certcc) (1)
@@ -421,7 +424,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
 - [Chinese-speaking](#chinese-speaking) (6)
 - [Chinese-speaking cybercrime](#chinese-speaking-cybercrime) (1)
-- [Chinese-speaking operator](#chinese-speaking-operator) (1)
+- [Chinese-speaking operator](#chinese-speaking-operator) (2)
 - [Chisel](#chisel) (3)
 - [ChocoPoC](#chocopoc) (1)
 - [ChocoShell](#chocoshell) (1)
@@ -582,7 +585,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Copy-on-Write](#copy-on-write) (1)
 - [Corepack](#corepack) (1)
 - [CornFlake](#cornflake) (1)
-- [Coruna](#coruna) (1)
+- [Coruna](#coruna) (2)
 - [CosmosEscape](#cosmosescape) (1)
 - [counterfeit software](#counterfeit-software) (1)
 - [COW](#cow) (1)
@@ -597,7 +600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential attacks](#credential-attacks) (3)
 - [credential dumping](#credential-dumping) (1)
 - [credential exposure](#credential-exposure) (4)
-- [credential harvesting](#credential-harvesting) (4)
+- [credential harvesting](#credential-harvesting) (5)
 - [credential rotation](#credential-rotation) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
@@ -817,7 +820,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Czech Republic](#czech-republic) (1)
 - [D-Link](#d-link) (1)
 - [dangling resources](#dangling-resources) (1)
-- [data exfiltration](#data-exfiltration) (9)
+- [DarkSword](#darksword) (1)
+- [data exfiltration](#data-exfiltration) (10)
 - [data exposure](#data-exposure) (3)
 - [data extortion](#data-extortion) (2)
 - [data leak site](#data-leak-site) (2)
@@ -1047,6 +1051,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exFAT](#exfat) (1)
 - [exfiltration](#exfiltration) (4)
 - [exploit chain](#exploit-chain) (1)
+- [exploit kit](#exploit-kit) (1)
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
@@ -1068,6 +1073,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake dating lures](#fake-dating-lures) (1)
 - [fake gambling](#fake-gambling) (1)
 - [fake installers](#fake-installers) (1)
+- [fake login](#fake-login) (1)
 - [fake login screen](#fake-login-screen) (1)
 - [fake Microsoft Store](#fake-microsoft-store) (1)
 - [fake plugin](#fake-plugin) (1)
@@ -1194,6 +1200,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ghost accounts](#ghost-accounts) (1)
 - [Ghost CMS](#ghost-cms) (1)
 - [Ghost Networks](#ghost-networks) (1)
+- [GHOSTBLADE](#ghostblade) (1)
 - [GhostLock](#ghostlock) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GHSA-6v3r-4p5c-mrp5](#ghsa-6v3r-4p5c-mrp5) (1)
@@ -1256,7 +1263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google redirect abuse](#google-redirect-abuse) (1)
 - [Google Sheets](#google-sheets) (1)
 - [Google Stitch](#google-stitch) (1)
-- [Google Threat Intelligence Group](#google-threat-intelligence-group) (2)
+- [Google Threat Intelligence Group](#google-threat-intelligence-group) (3)
 - [Google Workspace](#google-workspace) (1)
 - [Goose](#goose) (1)
 - [GoSerpent](#goserpent) (1)
@@ -1362,6 +1369,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [I-SOON](#i-soon) (2)
 - [iCagenda](#icagenda) (1)
 - [ICE](#ice) (1)
+- [iCloud theft](#icloud-theft) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (3)
 - [IDE extension](#ide-extension) (1)
@@ -1408,6 +1416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infostealer](#infostealer) (24)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
+- [infrastructure churn](#infrastructure-churn) (1)
 - [infrastructure disruption](#infrastructure-disruption) (3)
 - [initial access broker](#initial-access-broker) (2)
 - [initial-access](#initial-access) (3)
@@ -1425,12 +1434,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [investment scam](#investment-scam) (1)
 - [InvisibleFerret](#invisibleferret) (1)
 - [invocation logging](#invocation-logging) (1)
-- [iOS](#ios) (1)
+- [iOS](#ios) (2)
 - [IoT](#iot) (4)
 - [IoT botnet](#iot-botnet) (6)
 - [IP cameras](#ip-cameras) (1)
 - [IP-in-IP](#ip-in-ip) (1)
 - [IPFS](#ipfs) (1)
+- [iPhone](#iphone) (1)
 - [IPsec](#ipsec) (1)
 - [IPv6](#ipv6) (2)
 - [ipynbdiff](#ipynbdiff) (1)
@@ -1516,7 +1526,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [kernelCTF](#kernelctf) (2)
 - [KEV](#kev) (3)
 - [Keychain theft](#keychain-theft) (1)
-- [keychain theft](#keychain-theft) (2)
+- [keychain theft](#keychain-theft) (3)
 - [KeyHunter](#keyhunter) (1)
 - [keylogger](#keylogger) (4)
 - [keylogging](#keylogging) (2)
@@ -1567,6 +1577,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LD_PRELOAD](#ld_preload) (2)
 - [LDAP](#ldap) (1)
 - [leaked credentials](#leaked-credentials) (1)
+- [leaked exploit](#leaked-exploit) (1)
 - [leaked source code](#leaked-source-code) (1)
 - [LEASHTEST](#leashtest) (1)
 - [least privilege](#least-privilege) (3)
@@ -1783,6 +1794,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile banking fraud](#mobile-banking-fraud) (1)
 - [mobile device management](#mobile-device-management) (1)
 - [mobile devices](#mobile-devices) (1)
+- [mobile exploitation](#mobile-exploitation) (1)
 - [mobile malware](#mobile-malware) (3)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
 - [MODBEACON](#modbeacon) (2)
@@ -1963,11 +1975,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (247)
+- [operations](#operations) (248)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (280)
+- [ops](#ops) (281)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2961,7 +2973,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [watchTowr](#watchtowr) (3)
 - [watchTowr Labs](#watchtowr-labs) (1)
 - [water sector](#water-sector) (1)
-- [watering hole](#watering-hole) (1)
+- [watering hole](#watering-hole) (2)
 - [watering-hole](#watering-hole) (2)
 - [weak credentials](#weak-credentials) (1)
 - [weak entropy](#weak-entropy) (1)
@@ -3001,6 +3013,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp](#whatsapp) (3)
 - [WhatsApp phishing](#whatsapp-phishing) (1)
 - [WHM](#whm) (4)
+- [Wi-Fi credential theft](#wi-fi-credential-theft) (1)
 - [Widget Factory](#widget-factory) (1)
 - [wiki](#wiki) (1)
 - [WILDDAY](#wildday) (2)
@@ -4336,6 +4349,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BLUEBEAM
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## body hash
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
+
 ## botnet
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -4582,6 +4598,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cavern](../tools/cavern.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
 
+## C2 panel
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
+
 ## C2 tasking
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 
@@ -4660,6 +4679,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cellular modem
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
+
+## Censys ARC
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
 ## Central Asia
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
@@ -4770,6 +4792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
 ## Chinese-speaking operator
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## Chisel
@@ -5470,6 +5493,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Coruna
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
 ## CosmosEscape
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
@@ -5522,6 +5546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## credential harvesting
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
@@ -6387,10 +6412,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## dangling resources
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
+## DarkSword
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
+
 ## data exfiltration
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
@@ -7372,6 +7401,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## exploit chain
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
+## exploit kit
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
+
 ## exploit-development
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -7461,6 +7493,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## fake installers
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
+
+## fake login
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
 ## fake login screen
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -7892,6 +7927,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ghost Networks
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
+## GHOSTBLADE
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
+
 ## GhostLock
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
@@ -8146,6 +8184,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 
 ## Google Threat Intelligence Group
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [UNC6508](../actors/unc6508.md)
 
@@ -8533,6 +8572,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ICE
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
+## iCloud theft
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
+
 ## ICONICSTEALER
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 
@@ -8757,6 +8799,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
+## infrastructure churn
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
+
 ## infrastructure disruption
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -8820,6 +8865,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## iOS
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
 ## IoT
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -8843,6 +8889,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## IPFS
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
+
+## iPhone
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
 ## IPsec
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -9157,6 +9206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## keychain theft
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
 ## KeyHunter
@@ -9350,6 +9400,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## leaked credentials
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
+## leaked exploit
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
 ## leaked source code
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
@@ -10279,6 +10332,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mobile devices
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
+## mobile exploitation
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
+
 ## mobile malware
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -11042,6 +11098,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -11307,6 +11364,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -15533,6 +15591,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## watering hole
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [FishMonger](../actors/fishmonger.md)
 
 ## watering-hole
@@ -15687,6 +15746,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## Wi-Fi credential theft
+- [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
 ## Widget Factory
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
