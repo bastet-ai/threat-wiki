@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation</title>
+      <link>https://threat.wiki/ops/n-able-n-central-cve-2026-18556-18577-exploitation/</link>
+      <description>Added N-able and Huntress reporting on active authentication-bypass exploitation of N-central RMM servers after an initial fix proved incomplete. Coverage records the mandatory 2026.3.1.7 hotfix, administrative takeover, Take Control pivots into managed endpoints, persistent Cloudflare Tunnel services, public indicators and VPN-exit caveats, downstream MSP blast radius, and server-plus-endpoint containment guidance.</description>
+      <pubDate>Mon, 03 Aug 2026 07:28:21 GMT</pubDate>
+      <guid>https://threat.wiki/ops/n-able-n-central-cve-2026-18556-18577-exploitation/</guid>
+    </item>
+    <item>
       <title>COLDCARD predictable-RNG Bitcoin theft risk</title>
       <link>https://threat.wiki/ops/coldcard-predictable-rng-bitcoin-theft/</link>
       <description>Added Coinkite and Block's emergency warnings on a COLDCARD firmware integration error that routed wallet generation through a deterministic MicroPython PRNG fallback. Coverage records affected standard and Edge firmware, the Mk2/Mk3 version-range discrepancy, constrained seed entropy, offline recovery mechanics, fixed releases, mandatory seed replacement and fund migration, multisig and dice/passphrase caveats, the circumstantial $70.2 million sweep linkage, and attribution limits.</description>

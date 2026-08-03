@@ -33,13 +33,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [access token abuse](#access-token-abuse) (1)
 - [Accessibility Service](#accessibility-service) (1)
 - [account lockout](#account-lockout) (1)
-- [account takeover](#account-takeover) (3)
+- [account takeover](#account-takeover) (4)
 - [account-takeover](#account-takeover) (1)
 - [ACR Stealer](#acr-stealer) (1)
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (56)
+- [active exploitation](#active-exploitation) (57)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -229,7 +229,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AUR](#aur) (1)
 - [authenticated RCE](#authenticated-rce) (1)
 - [authenticated remote code execution](#authenticated-remote-code-execution) (1)
-- [authentication bypass](#authentication-bypass) (16)
+- [authentication bypass](#authentication-bypass) (17)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -504,11 +504,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud storage exfiltration](#cloud-storage-exfiltration) (1)
 - [cloud transcoding](#cloud-transcoding) (1)
 - [Cloudflare](#cloudflare) (4)
-- [Cloudflare Tunnel](#cloudflare-tunnel) (3)
+- [Cloudflare Tunnel](#cloudflare-tunnel) (4)
 - [Cloudflare tunnels](#cloudflare-tunnels) (2)
 - [Cloudflare Turnstile](#cloudflare-turnstile) (1)
 - [Cloudflare Workers](#cloudflare-workers) (5)
-- [cloudflared](#cloudflared) (1)
+- [cloudflared](#cloudflared) (2)
 - [CloudLinux](#cloudlinux) (1)
 - [cluster compromise](#cluster-compromise) (1)
 - [CMS](#cms) (7)
@@ -696,6 +696,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-16232](#cve-2026-16232) (1)
 - [CVE-2026-16723](#cve-2026-16723) (1)
 - [CVE-2026-16812](#cve-2026-16812) (1)
+- [CVE-2026-18556](#cve-2026-18556) (1)
+- [CVE-2026-18577](#cve-2026-18577) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
 - [CVE-2026-20230](#cve-2026-20230) (1)
@@ -932,6 +934,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [double extortion](#double-extortion) (1)
 - [downgrade risk](#downgrade-risk) (1)
 - [downloader](#downloader) (1)
+- [downstream blast radius](#downstream-blast-radius) (1)
 - [DPAPI](#dpapi) (3)
 - [DPAPILoader](#dpapiloader) (1)
 - [DPRK](#dprk) (5)
@@ -989,7 +992,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Emerald Sleet](#emerald-sleet) (1)
 - [ENCFORGE](#encforge) (2)
 - [encrypted C2](#encrypted-c2) (4)
-- [endpoint management](#endpoint-management) (1)
+- [endpoint management](#endpoint-management) (2)
 - [endpoint management abuse](#endpoint-management-abuse) (1)
 - [endpoint response](#endpoint-response) (1)
 - [endpoint-detection](#endpoint-detection) (1)
@@ -1349,7 +1352,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (3)
 - [Hunt.io](#huntio) (4)
-- [Huntress](#huntress) (1)
+- [Huntress](#huntress) (2)
 - [Hyadina](#hyadina) (1)
 - [hybrid threat actor](#hybrid-threat-actor) (1)
 - [hydropower](#hydropower) (2)
@@ -1385,8 +1388,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (31)
+- [incident response](#incident-response) (32)
 - [incident-response](#incident-response) (2)
+- [incomplete patch](#incomplete-patch) (1)
 - [IndexedDB](#indexeddb) (3)
 - [India](#india) (3)
 - [India-nexus](#india-nexus) (1)
@@ -1680,9 +1684,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MALXMR](#malxmr) (1)
 - [managed database](#managed-database) (1)
 - [managed file transfer](#managed-file-transfer) (2)
-- [managed service provider](#managed-service-provider) (1)
+- [managed service provider](#managed-service-provider) (2)
 - [ManageEngine Endpoint Central](#manageengine-endpoint-central) (1)
-- [management plane](#management-plane) (4)
+- [management plane](#management-plane) (5)
 - [Manifest V3](#manifest-v3) (1)
 - [Manifold Security](#manifold-security) (1)
 - [manufacturing](#manufacturing) (3)
@@ -1820,6 +1824,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MySQL](#mysql) (1)
 - [Mysterious Elephant](#mysterious-elephant) (1)
 - [Mythos](#mythos) (1)
+- [N-able](#n-able) (1)
+- [N-central](#n-central) (1)
 - [n8n](#n8n) (2)
 - [Nacos](#nacos) (2)
 - [NadMesh](#nadmesh) (1)
@@ -1957,11 +1963,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (246)
+- [operations](#operations) (247)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (279)
+- [ops](#ops) (280)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2272,7 +2278,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote code execution](#remote-code-execution) (21)
 - [remote debugging](#remote-debugging) (2)
 - [remote MCP](#remote-mcp) (1)
-- [remote monitoring and management](#remote-monitoring-and-management) (1)
+- [remote monitoring and management](#remote-monitoring-and-management) (2)
 - [remote script injection](#remote-script-injection) (1)
 - [Remote Support](#remote-support) (1)
 - [remote support](#remote-support) (2)
@@ -2305,7 +2311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reviewdog](#reviewdog) (1)
 - [Rilide](#rilide) (1)
 - [RingH23](#ringh23) (1)
-- [RMM](#rmm) (3)
+- [RMM](#rmm) (4)
 - [RMM abuse](#rmm-abuse) (10)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
@@ -2676,6 +2682,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TAG-22](#tag-22) (2)
 - [Taiwan](#taiwan) (8)
 - [Tajikistan](#tajikistan) (1)
+- [Take Control](#take-control) (1)
 - [takedown](#takedown) (3)
 - [TamperedChef](#tamperedchef) (1)
 - [Tanzania](#tanzania) (1)
@@ -3193,6 +3200,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## account takeover
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 
@@ -3250,6 +3258,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
@@ -3999,6 +4008,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -5163,6 +5173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cloudflare Tunnel
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## Cloudflare tunnels
@@ -5181,6 +5192,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloudflared
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## CloudLinux
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
@@ -5980,6 +5992,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-16812
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
+
+## CVE-2026-18556
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+
+## CVE-2026-18577
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## CVE-2026-20127
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -6882,6 +6900,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## downloader
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
+## downstream blast radius
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+
 ## DPAPI
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Cavern](../tools/cavern.md)
@@ -7101,6 +7122,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WLDR agent](../tools/wldr-agent.md)
 
 ## endpoint management
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## endpoint management abuse
@@ -8480,6 +8502,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Huntress
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## Hyadina
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
@@ -8622,6 +8645,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -8637,6 +8661,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## incident-response
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
+## incomplete patch
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## IndexedDB
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
@@ -9851,6 +9878,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
 ## managed service provider
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## ManageEngine Endpoint Central
@@ -9860,6 +9888,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## Manifest V3
@@ -10404,6 +10433,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Mythos
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
+
+## N-able
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+
+## N-central
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## n8n
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
@@ -11095,6 +11130,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
@@ -11366,6 +11402,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
@@ -12775,6 +12812,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 
 ## remote monitoring and management
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## remote script injection
@@ -12883,6 +12921,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RMM
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [UNC3753](../actors/unc3753.md)
 
@@ -14362,6 +14401,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Tajikistan
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
+
+## Take Control
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## takedown
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)

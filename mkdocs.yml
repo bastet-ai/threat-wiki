@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation: ops/n-able-n-central-cve-2026-18556-18577-exploitation.md
       - COLDCARD predictable-RNG Bitcoin theft risk: ops/coldcard-predictable-rng-bitcoin-theft.md
       - Adform Trackpoint JavaScript supply-chain crypto clipper: ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md
       - CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign: ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md
