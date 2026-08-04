@@ -2,11 +2,11 @@
 <rss version="2.0">
   <channel>
     <item>
-      <title>ChainDrop Ethereum C2 and token-revocation-trigger persistence</title>
-      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#stepsecurity-technical-update-1513-utc</link>
-      <description>Updated ChainDrop coverage with StepSecurity's expanded payload analysis: 11 full worm carriers and 424 propagated packages, poisoned commit and trusted-publishing workflow pivots, Ethereum contract and GitHub signed-commit C2 resolution, npm-cache.com router traffic, bidirectional remote-code responses, encrypted exfiltration, results repository staging, Russian-locale gating, and a user-level token monitor that can execute an attacker-supplied handler when a stolen GitHub token is revoked. Response guidance now removes that persistence before credential rotation.</description>
-      <pubDate>Tue, 04 Aug 2026 15:27:20 GMT</pubDate>
-      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#stepsecurity-technical-update-1513-utc</guid>
+      <title>ChainDrop containment update: propagated-package cleanup continues</title>
+      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#stepsecurity-containment-update-1620-utc</link>
+      <description>Updated ChainDrop coverage with StepSecurity's 16:20 UTC response snapshot. npm had reverted all 11 full worm carriers, while cleanup of the propagated wave remained incomplete: ServiceTitan and Nebula packages were being removed, clean Thiennq and OneReach releases were available, and malicious Picsart and Deliveroo releases reportedly remained on latest. Added private-mirror and cache cautions plus Run Copilot workflow, format-results artifact, and token-monitor persistence pivots.</description>
+      <pubDate>Tue, 04 Aug 2026 17:25:51 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#stepsecurity-containment-update-1620-utc</guid>
     </item>
     <item>
       <title>Direct-to-IP malware communications</title>

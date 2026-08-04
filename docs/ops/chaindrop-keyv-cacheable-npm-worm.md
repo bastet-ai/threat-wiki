@@ -5,7 +5,7 @@ On August 4, 2026, StepSecurity, Socket, and Aikido reported a fast-moving npm s
 
 The malicious releases add an npm `preinstall` hook, download Bun `1.3.13`, run a heavily obfuscated second stage, harvest developer, CI/CD, cloud, package-registry, Vault, and Kubernetes credentials, and use stolen npm access or OIDC trusted publishing to republish trojanized packages. Socket also reported GitHub and DNS exfiltration plus `.claude` and `.vscode` repository hooks that can execute when source is opened without requiring `npm install`.
 
-This is an **active incident**. Package and version counts below reflect public reporting captured through 11:44 UTC, while technical detail reflects StepSecurity's 15:13 UTC feed revision on August 4. Both can change. Use the linked vendor-maintained lists for live scoping.
+This is an **active incident**. Package and version counts below reflect public reporting captured through 11:44 UTC, while containment and technical detail reflect StepSecurity's 16:20 UTC revision on August 4. Both can change. Use the linked vendor-maintained lists for live scoping.
 
 ## Tags
 - ops
@@ -32,6 +32,7 @@ This is an **active incident**. Package and version counts below reflect public 
 - The initial package family sits deep in common dependency trees. Public reporting identifies `keyv`, `cacheable-request`, `flat-cache`, `file-entry-cache`, and related caching packages used transitively by developer tooling.
 - Aikido says malicious source changes were pushed to the legitimate repository and released through GitHub Actions, so affected packages could carry valid provenance. Provenance proved which workflow built the artifact, not that the source or maintainer identity was clean.
 - The payload turns credential theft into automated package propagation and adds source-repository execution paths for IDEs and AI coding agents.
+- By StepSecurity's 16:20 UTC update, npm had reverted all 11 full worm carriers to safe versions. Cleanup of the propagated wave was incomplete: `@servicetitan/*` and `@nebula.js/*` removals were underway, clean replacements existed for `@thiennq/docs-viewer` and `@onereach/ui-components`, and two reported malicious releases still held the `latest` tag. Registry cleanup does not remove copies already pinned in lockfiles, mirrors, caches, or artifacts.
 
 ## Confidence and attribution
 - The compromise and malicious package behavior are corroborated by StepSecurity, Socket, and Aikido.
@@ -97,6 +98,17 @@ The payload also:
 - installs `~/.local/bin/gh-token-monitor.sh` with a user service or macOS LaunchAgent, polls `api.github.com/user` every 60 seconds for 24 hours, and executes an attacker-supplied handler after token revocation;
 - resolves C2 through Ethereum and sends a gzip, AES-256-GCM, RSA-OAEP-SHA256, and base64 envelope that StepSecurity says it intercepted and decrypted in its sandbox.
 
+### StepSecurity containment update — 16:20 UTC
+
+StepSecurity reported that npm's rolling response began with removal of `cacheable-request@13.0.20` at 10:39 UTC and a `keyv` dist-tag rollback to `5.6.0` around 11:15. By 16:20, all 11 full carriers had been reverted to safe versions. The response was still incomplete across the worm-propagated package set:
+
+- `@servicetitan/*` and `@nebula.js/*` packages were being removed wholesale;
+- clean releases were available for `@thiennq/docs-viewer@1.6.4` and `@onereach/ui-components@27.0.4`;
+- `@picsart/ai-sdk@3.32.2` and `@deliveroo/reevent@1.0.1` reportedly remained on `latest` at the capture time; and
+- the compromised maintainer account and three initially affected GitHub repositories were no longer available, limiting access to the original issue and commit history.
+
+Treat these as a time-bounded response snapshot, not a final registry inventory. Continue using vendor-maintained affected-version lists and inspect internal registry proxies, package caches, lockfiles, and built artifacts even after public removal or dist-tag rollback.
+
 ## Indicators and hunting pivots
 
 ### Files and execution
@@ -111,6 +123,8 @@ The payload also:
 - `~/.local/bin/gh-token-monitor.sh` and unexpected associated user-level systemd service or macOS LaunchAgent
 - temporary files matching `tmp.dpkg_<pid>.lock`
 - victim-account repositories or commits containing `results-*.json`
+- `~/.config/gh-token-monitor/`, `~/.config/systemd/user/gh-token-monitor.service`, or `~/Library/LaunchAgents/com.user.gh-token-monitor.plist`
+- unexpected GitHub Actions workflow named `Run Copilot`, artifact named `format-results`, or workflow content that writes `${{ toJSON(secrets) }}` to `format-results.txt`
 
 ### SHA-256
 - `fd3ca4007b225fdf8de7af4345a19179d5efa8c4bb9205f88cda806e5684b1eb` — `setup.mjs`
@@ -162,6 +176,7 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Current values and transaction history of the Ethereum C2 contract, replacement domains, and signed-commit fallback infrastructure.
 - Whether ChainDrop is operated by TeamPCP, another Shai-Hulud-lineage actor, or a copycat using leaked tooling.
 - Confirmed victim execution and downstream cloud/repository compromise beyond package publication.
+- Final disposition of propagated releases, including the `@picsart`, `@deliveroo`, `@servicetitan`, and `@nebula.js` scopes, and whether clean restoration preserved or replaced package names.
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md)
