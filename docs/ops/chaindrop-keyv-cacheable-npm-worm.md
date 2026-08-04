@@ -1,7 +1,7 @@
 # ChainDrop keyv / cacheable npm worm
 
 ## Summary
-On August 4, 2026, StepSecurity, Socket, and Aikido reported a fast-moving npm supply-chain worm affecting `keyv`, the `cacheable` package family, and packages reachable through stolen maintainer identities. StepSecurity named the activity **ChainDrop**. Aikido described it as active Shai-Hulud activity; Socket assessed that its tradecraft closely matches Shai-Hulud but did not recover a self-identifying campaign marker from the analyzed payload.
+On August 4, 2026, StepSecurity, Socket, Aikido, and Snyk reported a fast-moving npm supply-chain worm affecting `keyv`, the `cacheable` package family, and packages reachable through stolen maintainer identities. StepSecurity named the activity **ChainDrop**. Aikido described it as active Shai-Hulud activity; Socket assessed that its tradecraft closely matches Shai-Hulud but did not recover a self-identifying campaign marker from the analyzed payload.
 
 The malicious releases add an npm `preinstall` hook, download Bun `1.3.13`, run a heavily obfuscated second stage, harvest developer, CI/CD, cloud, package-registry, Vault, and Kubernetes credentials, and use stolen npm access or OIDC trusted publishing to republish trojanized packages. Socket also reported GitHub and DNS exfiltration plus `.claude` and `.vscode` repository hooks that can execute when source is opened without requiring `npm install`.
 
@@ -34,9 +34,10 @@ This is an **active incident**. Scope and execution evidence reflect StepSecurit
 - The payload turns credential theft into automated package propagation and adds source-repository execution paths for IDEs and AI coding agents.
 - By StepSecurity's 18:10 UTC update, npm had reverted all 11 full worm carriers to safe versions. Cleanup of the propagated wave was incomplete: `@servicetitan/*` and `@nebula.js/*` removals were underway, clean replacements existed for `@thiennq/docs-viewer` and `@onereach/ui-components`, and two reported malicious releases still held the `latest` tag. Registry cleanup does not remove copies already pinned in lockfiles, mirrors, caches, or artifacts.
 - StepSecurity found real execution in ten public `backstage/backstage` CI runs between 09:31 and 10:40 UTC. Fresh E2E scaffolding resolved a compromised transitive dependency outside the repository's committed lockfile; Bun then contacted Ethereum RPC services and `npm-cache.com`. StepSecurity found no evidence of long-lived credential loss in those runs because the affected workflows referenced no repository secrets, but the payload did execute and reach C2.
+- Snyk independently fetched and compared the maintainer-linked tarballs without installing them, confirmed the same 11 full-carrier releases, and published malicious-code advisory `SNYK-JS-KEYV-18515941` for `keyv@6.0.0`. Its registry sweep also found that the other `@keyv/*` packages published before the payload commit did not carry the malicious lifecycle hook, preventing an overbroad all-`@keyv` assessment.
 
 ## Confidence and attribution
-- The compromise and malicious package behavior are corroborated by StepSecurity, Socket, and Aikido.
+- The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, and Snyk.
 - Aikido labels the wave active Shai-Hulud activity. Socket says the behavior closely matches Shai-Hulud: TruffleHog-style secret collection, maintainer-package enumeration, npm token and OIDC publication, and victim-account GitHub repositories.
 - Socket did **not** recover the campaign's self-identifying repository or commit markers because relevant strings were assembled at runtime. Public Shai-Hulud-derived tooling also makes copycat reuse possible. Track ChainDrop as a Shai-Hulud-lineage assessment, not confirmed TeamPCP attribution.
 - StepSecurity assesses the payload as a direct, heavily evolved descendant of Shai-Hulud 2.0 based on Bun/preinstall delivery, `Runner.Worker` memory scraping, npm self-republication, and GitHub exfiltration. Its Russian-locale kill switch is an operator-language clue, not sufficient actor or nationality attribution.
@@ -79,7 +80,7 @@ Socket's ongoing list at capture time included:
 | `@cacheable/memory` | `2.2.1` |
 | `@cacheable/utils` | `2.5.1` |
 | `cache-manager` | `7.2.10` |
-| `file-entry-cache` / `@file-entry-cache` | `11.1.6` as reported; verify registry identity against vendor lists |
+| `file-entry-cache` | `11.1.6` |
 
 StepSecurity's early list also included packages in `@arv-bedrock`, `@deliveroo`, `@hubsync`, `@onereach`, `@or-sdk`, `@ornikar`, `@picsart`, `@qlik`, and `@servicetitan` scopes, plus `ecto`, `pob-test-typescript-package-in-monorepo`, and `tslint-folder-schema`. Aikido reported rapid spread into additional maintainers and organizations. Do not treat this table as complete.
 
@@ -118,6 +119,14 @@ The runs occurred across Renovate pull requests, pushes to `master`, and changes
 
 The case demonstrates a lockfile boundary: a committed application lockfile does not constrain jobs that scaffold a new project or otherwise resolve fresh dependencies during testing.
 
+### Snyk independent tarball validation
+
+Snyk queried npm for 61 package names associated with maintainer `jaredwray`, checked August 4 releases, and independently confirmed the 11 full-carrier versions listed above. It found `ecto@5.0.1` particularly important for scoping because it appeared after the first public warnings, while the other `@keyv/*` version 6 packages published between 09:30 and 09:32 predated the payload and did not contain the malicious hook.
+
+Its file-by-file comparison of `keyv@6.0.0` against `keyv@6.0.0-rc.1` found the compiled `dist/` tree unchanged. The material differences were the stable version metadata, `setup.mjs`, `Math_Symbol.js`, and the `preinstall` hook. Snyk calculated SHA-256 `d584f9b6af48b7ed1f93713944f033783bf149e1c25e1643eb8c0e9df5dc7782` for the `keyv@6.0.0` tarball and independently reproduced the two payload hashes below.
+
+Snyk also clarified the commit-verification boundary. The initial poisoned release commits were reported as unsigned, while repository-hook commit `d8c850c7` was GitHub-verified and used `github-actions[bot]` identity. A verified commit badge proves how GitHub signed that commit object; it does not prove the project authorized the change. Snyk did not execute or independently decrypt the second stage, so detailed second-stage capabilities remain grounded in the runtime and malware analyses cited above rather than in Snyk's static validation.
+
 ## Indicators and hunting pivots
 
 ### Files and execution
@@ -136,6 +145,7 @@ The case demonstrates a lockfile boundary: a committed application lockfile does
 - unexpected GitHub Actions workflow named `Run Copilot`, artifact named `format-results`, or workflow content that writes `${{ toJSON(secrets) }}` to `format-results.txt`
 
 ### SHA-256
+- `d584f9b6af48b7ed1f93713944f033783bf149e1c25e1643eb8c0e9df5dc7782` — `keyv@6.0.0` npm tarball, independently calculated by Snyk
 - `fd3ca4007b225fdf8de7af4345a19179d5efa8c4bb9205f88cda806e5684b1eb` — `setup.mjs`
 - `54dc7ea54a1317cca0e890a2770630cf7fa6c97813e0cb9d2caa93012b350668` — `setup.mjs` tarball variant
 - `9fc2570b7cef51c1b8df116d144d11ff4096357be7d2c4c6367cfc2509cf1bcc` — `math_init.js` / `Math_Symbol.js`
@@ -195,5 +205,6 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 
 ## Sources
 - StepSecurity: [ChainDrop npm Worm: Bun-loaded CI/CD credential harvester with Ethereum dead-drop C2](https://www.stepsecurity.io/blog/chaindrop-npm-worm)
+- Snyk: [Inside the keyv npm Compromise: preinstall Malware, Trusted Provenance, and IDE Hooks](https://snyk.io/blog/inside-keyv-npm-compromise-preinstall-malware-trusted-provenance-ide-hooks/)
 - Socket: [Popular npm Packages in the keyv and Cacheable Namespaces Compromised in Active Supply Chain Attack](https://socket.dev/blog/popular-npm-packages-in-the-keyv-and-cacheable-namespaces-compromised-in-active-supply-chain)
 - Aikido Security: [Keyv and friends compromised in active Shai-Hulud supply chain attack](https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack)

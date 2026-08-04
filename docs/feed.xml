@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>ChainDrop: independent tarball validation and Snyk advisory</title>
+      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#snyk-independent-tarball-validation</link>
+      <description>Added Snyk's independent static validation of the 11 maintainer-linked ChainDrop carriers, clean scoping for earlier @keyv version 6 releases, SNYK-JS-KEYV-18515941, the keyv@6.0.0 tarball SHA-256, and the distinction between a GitHub-verified commit object and maintainer-authorized change. Snyk did not execute or decrypt the second stage, so runtime capability claims remain scoped to the cited dynamic analyses.</description>
+      <pubDate>Tue, 04 Aug 2026 21:25:38 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#snyk-independent-tarball-validation</guid>
+    </item>
+    <item>
       <title>CISA KEV August 4 additions: N-central, Tomcat, and Langflow</title>
       <link>https://threat.wiki/ops/cisa-kev-n-central-tomcat-langflow-august-4-2026/</link>
       <description>Added CISA's August 4 KEV entries for N-central CVE-2026-18556, Apache Tomcat CVE-2026-34486, and Langflow CVE-2026-9198. Coverage records the August 7 deadline, exact Tomcat affected and fixed releases, Langflow's unauthenticated auto-login token and Python validation chain, the 1.10.1 fix, N-central's paired KEV status, and campaign and attribution limits.</description>
