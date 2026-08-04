@@ -40,6 +40,17 @@ This page covers the April 22 Bitwarden/Checkmarx distribution-channel wave. Use
 5. The payload harvested developer, cloud, CI/CD, package-manager, and repository credentials, then used encrypted HTTPS and public GitHub repositories for exfiltration/fallback.
 6. Unit 42 reported the same payload family across Checkmarx channels, including poisoned `checkmarx/kics` Docker Hub images, `checkmarx/ast-github-action`, and backdoored Checkmarx VS Code extensions.
 
+## JFrog package deep dive
+JFrog's April 23 real-time analysis supplies package-level indicators and confirms that the malicious packaging layer was added around an older legitimate build: root package version `2026.4.0` contained compiled application metadata still identifying Bitwarden CLI `2026.3.0`.
+
+- `bw_setup.js` checked for Bun and, when absent, downloaded platform-specific Bun `1.3.13` archives from the official `oven-sh/bun` GitHub releases before executing `bw1.js`.
+- Local collection included `gh auth token`, process environment variables, GitHub and npm token patterns, SSH keys and known-hosts data, Git credentials, `.npmrc`, `.env`, shell histories, AWS and GCP credential stores, and Claude/Kiro MCP configuration.
+- JFrog reported active GitHub abuse rather than passive token collection. The payload validated tokens, enumerated writable repositories and Actions secrets, created a branch and workflow, waited for the workflow artifact, downloaded it, and deleted the branch and workflow run.
+- The primary exfiltration path compressed results with gzip, encrypted them with AES-256-GCM, wrapped the AES key with embedded RSA/OAEP-SHA256 material, and posted the envelope to `audit.checkmarx[.]cx/v1/telemetry`.
+- If that route failed, the payload searched public GitHub commits for `LongLiveTheResistanceAgainstMachines` to recover staged PATs and for RSA-verified `beautifulcastle` messages to recover a replacement destination. It could then create a repository in the victim account and upload encrypted result blobs under `results/`.
+
+This adds two durable hunting lessons: successful blocking of the primary domain does not remove GitHub-based fallback and exfiltration, and responders should include short-lived workflow branches, artifacts, and deleted workflow runs when scoping a compromised developer token.
+
 ## Trend Micro follow-up: KICS and elementary-data
 Trend Micro's May 2026 analysis links two April incidents to a broader TeamPCP campaign that abused trusted CI/CD and release workflows for credential theft at scale:
 
@@ -64,6 +75,12 @@ Trend Micro's May 2026 analysis links two April incidents to a broader TeamPCP c
 - Unexpected oversized `elementary.pth` files in Python site-packages, Python interpreter startup spawning outbound HTTPS, or temporary `trin.tar.gz` collection artifacts
 - GitHub Actions logs where `github.event.comment.body`, issue titles, or other user-controlled event fields are interpolated directly into `run:` blocks
 - CloudTrail events for `secretsmanager:ListSecrets`, `secretsmanager:GetSecretValue`, or `ssm:DescribeParameters` from CI/CD runner roles or data-pipeline identities that do not normally enumerate managed secrets
+- `bw1.js`
+- Loader SHA-256 `18f784b3bc9a0bcdcb1a8d7f51bc5f54323fc40cbd874119354ab609bef6e4cb`
+- Payload SHA-256 `8605e365edf11160aad517c7d79a3b26b62290e5072ef97b102a01ddbb343f14`
+- Tampered root-metadata SHA-256 `167ce57ef59a32a6a0ef4137785828077879092d7f83ddbc1755d6e69116e0ad`
+- GitHub commit-search marker `beautifulcastle` for signed fallback-domain routing
+- Bun `1.3.13` archives fetched from `github[.]com/oven-sh/bun/releases` during package install or first command execution; validate process ancestry and package context before treating the legitimate host as malicious
 
 ## Defender heuristics
 - Treat affected `@bitwarden/cli@2026.4.0` installs as developer-host compromise, not only package compromise.
@@ -91,3 +108,4 @@ Trend Micro's May 2026 analysis links two April incidents to a broader TeamPCP c
 - Unit 42: [https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
 - Bitwarden security advisory context as cited by Unit 42: [https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/](https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/)
 - Trend Micro: [https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html](https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html)
+- JFrog Security Research: [https://research.jfrog.com/post/bitwarden-cli-hijack/](https://research.jfrog.com/post/bitwarden-cli-hijack/)
