@@ -1,11 +1,11 @@
 # ChainDrop keyv / cacheable npm worm
 
 ## Summary
-On August 4, 2026, StepSecurity, Socket, Aikido, and Snyk reported a fast-moving npm supply-chain worm affecting `keyv`, the `cacheable` package family, and packages reachable through stolen maintainer identities. StepSecurity named the activity **ChainDrop**. Aikido described it as active Shai-Hulud activity; Socket assessed that its tradecraft closely matches Shai-Hulud but did not recover a self-identifying campaign marker from the analyzed payload.
+On August 4, 2026, StepSecurity, Socket, Aikido, Snyk, JFrog, and SafeDep reported a fast-moving npm supply-chain worm affecting `keyv`, the `cacheable` package family, and packages reachable through stolen maintainer identities. StepSecurity named the activity **ChainDrop**. Aikido and JFrog described it as Shai-Hulud activity; Socket assessed that its tradecraft closely matches Shai-Hulud but did not recover a self-identifying campaign marker from the analyzed payload.
 
 The malicious releases add an npm `preinstall` hook, download Bun `1.3.13`, run a heavily obfuscated second stage, harvest developer, CI/CD, cloud, package-registry, Vault, and Kubernetes credentials, and use stolen npm access or OIDC trusted publishing to republish trojanized packages. Socket also reported GitHub and DNS exfiltration plus `.claude` and `.vscode` repository hooks that can execute when source is opened without requiring `npm install`.
 
-This is an **active incident**. Scope and execution evidence reflect StepSecurity's 18:10 UTC revision on August 4. Counts and registry state can change; use the linked vendor-maintained lists for live scoping.
+This is an **active incident**. SafeDep's later August 4 snapshot counted **2,234 poisoned versions across 444 package names and 12 organizations**, 22 more versions than StepSecurity's 18:10 UTC snapshot while leaving the package-name count unchanged. Counts and registry state can change; use the linked vendor-maintained lists for live scoping.
 
 ## Tags
 - ops
@@ -35,13 +35,17 @@ This is an **active incident**. Scope and execution evidence reflect StepSecurit
 - By StepSecurity's 18:10 UTC update, npm had reverted all 11 full worm carriers to safe versions. Cleanup of the propagated wave was incomplete: `@servicetitan/*` and `@nebula.js/*` removals were underway, clean replacements existed for `@thiennq/docs-viewer` and `@onereach/ui-components`, and two reported malicious releases still held the `latest` tag. Registry cleanup does not remove copies already pinned in lockfiles, mirrors, caches, or artifacts.
 - StepSecurity found real execution in ten public `backstage/backstage` CI runs between 09:31 and 10:40 UTC. Fresh E2E scaffolding resolved a compromised transitive dependency outside the repository's committed lockfile; Bun then contacted Ethereum RPC services and `npm-cache.com`. StepSecurity found no evidence of long-lived credential loss in those runs because the affected workflows referenced no repository secrets, but the payload did execute and reach C2.
 - Snyk independently fetched and compared the maintainer-linked tarballs without installing them, confirmed the same 11 full-carrier releases, and published malicious-code advisory `SNYK-JS-KEYV-18515941` for `keyv@6.0.0`. Its registry sweep also found that the other `@keyv/*` packages published before the payload commit did not carry the malicious lifecycle hook, preventing an overbroad all-`@keyv` assessment.
+- SafeDep's later registry reconstruction counted 2,234 poisoned versions under the same 444 package names across 12 organizations between 09:35 and 13:18 UTC. It found that 80% of affected names carried more than one poisoned release and 43 names carried at least 11, making package-name, lifecycle-hook, and payload-hash checks more durable than relying on an early version list.
+- SafeDep found the same 727,680-byte payload across the initial `keyv`/`cacheable`, `@hubsync`, and `@ornikar` publisher clusters, but two loader builds and different publication paths. The initial family retained valid OIDC/SLSA provenance, while the latter clusters used direct npm identities without provenance. One campaign therefore crossed both source/CI compromise and stolen-token publication paths.
+- JFrog independently recovered repository-infection and GitHub Actions secret-harvesting detail, including branch and workflow artifacts plus file hashes defenders can hunt independently of the package list.
 
 ## Confidence and attribution
-- The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, and Snyk.
+- The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, Snyk, JFrog, and SafeDep.
 - Aikido labels the wave active Shai-Hulud activity. Socket says the behavior closely matches Shai-Hulud: TruffleHog-style secret collection, maintainer-package enumeration, npm token and OIDC publication, and victim-account GitHub repositories.
 - Socket did **not** recover the campaign's self-identifying repository or commit markers because relevant strings were assembled at runtime. Public Shai-Hulud-derived tooling also makes copycat reuse possible. Track ChainDrop as a Shai-Hulud-lineage assessment, not confirmed TeamPCP attribution.
 - StepSecurity assesses the payload as a direct, heavily evolved descendant of Shai-Hulud 2.0 based on Bun/preinstall delivery, `Runner.Worker` memory scraping, npm self-republication, and GitHub exfiltration. Its Russian-locale kill switch is an operator-language clue, not sufficient actor or nationality attribution.
 - Socket and Aikido identify compromise of the `Jaredwray` maintainer/GitHub account as the initial high-impact access path. Maintainer and registry postmortems were not yet public at capture time.
+- JFrog treats the `Shai-Hulud: Here We Go Again` dead-drop description as a self-identifying campaign marker. That supports Shai-Hulud lineage, but a reusable public marker still does not establish TeamPCP operator identity.
 
 ## Reported execution chain
 1. The attacker publishes a new package version containing `setup.mjs`, `Math_Symbol.js` (also referenced internally as `math_init.js`), and `"preinstall": "node setup.mjs"`.
@@ -127,6 +131,18 @@ Its file-by-file comparison of `keyv@6.0.0` against `keyv@6.0.0-rc.1` found the 
 
 Snyk also clarified the commit-verification boundary. The initial poisoned release commits were reported as unsigned, while repository-hook commit `d8c850c7` was GitHub-verified and used `github-actions[bot]` identity. A verified commit badge proves how GitHub signed that commit object; it does not prove the project authorized the change. Snyk did not execute or independently decrypt the second stage, so detailed second-stage capabilities remain grounded in the runtime and malware analyses cited above rather than in Snyk's static validation.
 
+### JFrog and SafeDep scope and infrastructure follow-up
+
+SafeDep reconstructed 2,234 poisoned versions across 444 package names and 12 unrelated organizations between 09:35 and 13:18 UTC. This is 22 versions above StepSecurity's 18:10 snapshot but does not increase the package-name count. SafeDep reported 537 poisoned versions across 47 `@ornikar/*` and related names, 27 consecutive poisoned `@hubsync/web-sdk-react` releases, and continued republishing after initial public warnings. These are registry-observation counts, not confirmed installations or victims.
+
+The same 727,680-byte stage-two payload, SHA-256 `9fc2570b7cef51c1b8df116d144d11ff4096357be7d2c4c6367cfc2509cf1bcc`, appeared under different filenames across three publisher clusters. SafeDep separated two loaders: the 29,918-byte `54dc7ea5…` build in the initial `keyv`/`cacheable` family and the 11,017-byte `fd3ca400…` build in `@hubsync`, `@ornikar`, and the repository's IDE hooks. The initial family published through a valid trusted-publisher workflow; the other two clusters lacked provenance and used direct npm identities. This demonstrates that one payload family can arrive through both compromised source/CI and stolen registry tokens.
+
+SafeDep also verified that the earlier `@keyv/*` storage-adapter releases were clean as published, agreeing with Snyk's narrower scoping. It warned that a later repository commit staged the malicious files across 19 workspaces even though only core `keyv` had shipped the hook, so responders should distinguish published tarballs from compromised source awaiting a possible release.
+
+Registry state remained uneven. SafeDep reported the initial `keyv`/`cacheable` family largely unpublished or rolled back, while many `@hubsync` and `@ornikar` names still resolved `latest` to poisoned releases. Its statement that there was “no C2 host” is narrower than, and conflicts with, StepSecurity and JFrog's dynamic-HTTPS analysis: JFrog independently documented the Ethereum contract, selector, and `/router` path. Treat SafeDep's finding as **no plaintext embedded host** in its analyzed material, not evidence that the Ethereum-resolved HTTPS channel was absent.
+
+JFrog added hashes for the planted repository and workflow artifacts and reported that the worm can target up to 50 writable branches per repository, skipping `dependabot/*` and `copilot/*`. It described a separate `dependabot/github_actions/format/setup-formatter` branch containing `.github/workflows/codeql_analysis.yml`, which writes the secrets context to `format-results.txt` and uploads it as an artifact. These artifacts should be hunted even where package-install evidence is absent.
+
 ## Indicators and hunting pivots
 
 ### Files and execution
@@ -143,12 +159,18 @@ Snyk also clarified the commit-verification boundary. The initial poisoned relea
 - victim-account repositories or commits containing `results-*.json`
 - `~/.config/gh-token-monitor/`, `~/.config/systemd/user/gh-token-monitor.service`, or `~/Library/LaunchAgents/com.user.gh-token-monitor.plist`
 - unexpected GitHub Actions workflow named `Run Copilot`, artifact named `format-results`, or workflow content that writes `${{ toJSON(secrets) }}` to `format-results.txt`
+- branch `dependabot/github_actions/format/setup-formatter`, workflow `.github/workflows/codeql_analysis.yml`, output `format-results.txt`, commit message `Add CodeQL Analysis`, or forged `github-advanced-security[bot]` identity
+- repository commits `ee2681a9b62f3637b0eb5133c36c864d3376cc5b` (payload), `d8c850c7800e…` (IDE/agent hooks), `f97eabcdd057105f1fce3f05d6c029dac3f2ac78` (evidence removal), and `174f6a55690b0812a69adef47260ba8714a9be48` (sibling staging)
 
 ### SHA-256
 - `d584f9b6af48b7ed1f93713944f033783bf149e1c25e1643eb8c0e9df5dc7782` — `keyv@6.0.0` npm tarball, independently calculated by Snyk
 - `fd3ca4007b225fdf8de7af4345a19179d5efa8c4bb9205f88cda806e5684b1eb` — `setup.mjs`
 - `54dc7ea54a1317cca0e890a2770630cf7fa6c97813e0cb9d2caa93012b350668` — `setup.mjs` tarball variant
 - `9fc2570b7cef51c1b8df116d144d11ff4096357be7d2c4c6367cfc2509cf1bcc` — `math_init.js` / `Math_Symbol.js`
+- `927387d0cfac1118df4b383decc2ea6ba49c9d2f98b47098bcbcba1efc026e1f` — planted `.vscode/tasks.json`, per JFrog
+- `14eb4ce01dd4307759887ff819359b70d7d9ff709ecde039a5abc1aac325b128` — planted `.claude/settings.json`, per JFrog
+- `3f3f42d072bd36860ab7bd7fb5e10ac0d22c741c13c89505ccd6ec0ea572eea7` — injected GitHub Actions workflow, per JFrog
+- `29ac906c8bd801dfe1cb39596197df49f80fff2270b3e7fbab52278c24e4f1a7` — runner-memory scraper, per JFrog
 
 ### Network and control-plane behavior
 - `github[.]com/oven-sh/bun/releases/download/bun-v1.3.13/` — legitimate Bun distribution path; validate package-install process ancestry rather than blocking blindly
@@ -188,7 +210,7 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Restrict CI and developer egress to cloud metadata, secret stores, npm publication endpoints, GitHub repository creation, and unnecessary DNS resolvers.
 
 ## Open questions
-- Final affected package/version and download scope after npm containment; StepSecurity's 18:10 snapshot is 444 packages and 2,212 versions.
+- Final affected package/version and download scope after npm containment; SafeDep's later August 4 snapshot is 444 packages and 2,234 versions across 12 organizations.
 - Initial access and whether the `Jaredwray` account, endpoint, token, GitHub session, or another upstream identity was first compromised.
 - Registry and GitHub containment actions, malicious-version removal times, and credential invalidation scope.
 - Names, visibility, and recoverable indicators for attacker-created GitHub exfiltration repositories and the DNS channel.
@@ -206,5 +228,7 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 ## Sources
 - StepSecurity: [ChainDrop npm Worm: Bun-loaded CI/CD credential harvester with Ethereum dead-drop C2](https://www.stepsecurity.io/blog/chaindrop-npm-worm)
 - Snyk: [Inside the keyv npm Compromise: preinstall Malware, Trusted Provenance, and IDE Hooks](https://snyk.io/blog/inside-keyv-npm-compromise-preinstall-malware-trusted-provenance-ide-hooks/)
+- JFrog Security Research: [Major Shai Hulud campaign strikes npm again, affecting keyv and 400+ packages](https://research.jfrog.com/post/shai-hulud-is-back-august/)
+- SafeDep: [npm Worm Poisons keyv, cacheable and 400+ Other Packages Across Twelve Organisations](https://safedep.io/keyv-npm-supply-chain-compromise/)
 - Socket: [Popular npm Packages in the keyv and Cacheable Namespaces Compromised in Active Supply Chain Attack](https://socket.dev/blog/popular-npm-packages-in-the-keyv-and-cacheable-namespaces-compromised-in-active-supply-chain)
 - Aikido Security: [Keyv and friends compromised in active Shai-Hulud supply chain attack](https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack)

@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [ChainDrop reaches 2,234 poisoned versions; JFrog and SafeDep add workflow and publisher-path evidence](../ops/chaindrop-keyv-cacheable-npm-worm.md#jfrog-and-safedep-scope-and-infrastructure-follow-up)
 - [ChainDrop: Snyk independently validates carrier scope, tarball hash, and advisory](../ops/chaindrop-keyv-cacheable-npm-worm.md#snyk-independent-tarball-validation)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [ChainDrop expands to 444 packages / 2,212 versions; Backstage CI execution confirmed](../ops/chaindrop-keyv-cacheable-npm-worm.md#confirmed-public-ci-execution-backstage)
