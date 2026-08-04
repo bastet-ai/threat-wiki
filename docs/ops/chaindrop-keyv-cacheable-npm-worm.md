@@ -5,7 +5,7 @@ On August 4, 2026, StepSecurity, Socket, and Aikido reported a fast-moving npm s
 
 The malicious releases add an npm `preinstall` hook, download Bun `1.3.13`, run a heavily obfuscated second stage, harvest developer, CI/CD, cloud, package-registry, Vault, and Kubernetes credentials, and use stolen npm access or OIDC trusted publishing to republish trojanized packages. Socket also reported GitHub and DNS exfiltration plus `.claude` and `.vscode` repository hooks that can execute when source is opened without requiring `npm install`.
 
-This is an **active incident**. Package and version counts below reflect public reporting captured around 11:25 UTC on August 4 and will change. Use the linked vendor-maintained lists for live scoping.
+This is an **active incident**. Package and version counts below reflect public reporting captured through 11:44 UTC on August 4 and will change. Use the linked vendor-maintained lists for live scoping.
 
 ## Tags
 - ops
@@ -23,7 +23,7 @@ This is an **active incident**. Package and version counts below reflect public 
 - developer-targeting
 
 ## Why this matters
-- Aikido reported at least **1,280 compromised packages** by its 13:20 CEST update, while StepSecurity observed dozens of releases across unrelated scopes in one hour. The vendor lists were still expanding at publication time.
+- StepSecurity's 12:51 UTC feed update reported **435 packages and 1,557 compromised versions** observed between 09:40 and 11:44 UTC. Aikido separately reported at least **1,280 compromised packages** by its 13:20 CEST update. The difference reflects changing collection windows and package classification during an active incident; neither count should be treated as final.
 - The initial package family sits deep in common dependency trees. Public reporting identifies `keyv`, `cacheable-request`, `flat-cache`, `file-entry-cache`, and related caching packages used transitively by developer tooling.
 - Aikido says malicious source changes were pushed to the legitimate repository and released through GitHub Actions, so affected packages could carry valid provenance. Provenance proved which workflow built the artifact, not that the source or maintainer identity was clean.
 - The payload turns credential theft into automated package propagation and adds source-repository execution paths for IDEs and AI coding agents.
@@ -72,6 +72,10 @@ Socket's ongoing list at capture time included:
 | `file-entry-cache` / `@file-entry-cache` | `11.1.6` as reported; verify registry identity against vendor lists |
 
 StepSecurity's early list also included packages in `@arv-bedrock`, `@deliveroo`, `@hubsync`, `@onereach`, `@or-sdk`, `@ornikar`, `@picsart`, `@qlik`, and `@servicetitan` scopes, plus `ecto`, `pob-test-typescript-package-in-monorepo`, and `tslint-folder-schema`. Aikido reported rapid spread into additional maintainers and organizations. Do not treat this table as complete.
+
+### StepSecurity scope update — 11:44 UTC
+
+StepSecurity's updated incident snapshot counted 435 package names and 1,557 malicious versions during the 09:40–11:44 UTC observation window. This is a version-level expansion, not evidence that every package had a distinct victim installation. Scope exposure from lockfiles and caches separately from confirmed execution of the `preinstall` hook.
 
 ## Indicators and hunting pivots
 

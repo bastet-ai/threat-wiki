@@ -387,6 +387,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Direct-to-IP malware communications: patterns/direct-to-ip-malware-communications.md
       - Synced passkey theft after endpoint compromise: patterns/synced-passkey-endpoint-compromise.md
       - Internet-exposed unauthenticated MCP servers: patterns/internet-exposed-unauthenticated-mcp-servers.md
       - npm publish-time malware scanning and dual-use declarations: patterns/npm-publish-time-malware-scanning.md

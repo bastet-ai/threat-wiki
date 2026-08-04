@@ -320,6 +320,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Blogger abuse](#blogger-abuse) (1)
 - [blogspot staging](#blogspot-staging) (1)
 - [BLUEBEAM](#bluebeam) (1)
+- [Boatnet](#boatnet) (1)
 - [body hash](#body-hash) (1)
 - [botnet](#botnet) (11)
 - [botnet framework](#botnet-framework) (1)
@@ -542,7 +543,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
 - [COM-hijacking](#com-hijacking) (1)
 - [ComfyUI](#comfyui) (1)
-- [command and control](#command-and-control) (2)
+- [command and control](#command-and-control) (3)
 - [command execution](#command-execution) (9)
 - [command injection](#command-injection) (7)
 - [command-execution](#command-execution) (1)
@@ -824,6 +825,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cython](#cython) (1)
 - [Czech Republic](#czech-republic) (1)
 - [D-Link](#d-link) (1)
+- [D2IP](#d2ip) (1)
 - [dangling resources](#dangling-resources) (1)
 - [DarkSword](#darksword) (1)
 - [data exfiltration](#data-exfiltration) (10)
@@ -907,6 +909,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dindoor](#dindoor) (1)
 - [DingTalk](#dingtalk) (1)
 - [diplomatic targeting](#diplomatic-targeting) (3)
+- [direct-to-IP](#direct-to-ip) (1)
 - [directory traversal](#directory-traversal) (1)
 - [DirtyClone](#dirtyclone) (1)
 - [DirtyFrag](#dirtyfrag) (1)
@@ -1058,7 +1061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [excessive agency](#excessive-agency) (1)
 - [exec_globals](#exec_globals) (1)
 - [exFAT](#exfat) (1)
-- [exfiltration](#exfiltration) (4)
+- [exfiltration](#exfiltration) (5)
 - [exploit chain](#exploit-chain) (1)
 - [exploit kit](#exploit-kit) (1)
 - [exploit-development](#exploit-development) (1)
@@ -1451,7 +1454,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [invocation logging](#invocation-logging) (1)
 - [iOS](#ios) (2)
 - [IoT](#iot) (4)
-- [IoT botnet](#iot-botnet) (6)
+- [IoT botnet](#iot-botnet) (7)
 - [IP cameras](#ip-cameras) (1)
 - [IP-in-IP](#ip-in-ip) (1)
 - [IPFS](#ipfs) (1)
@@ -1702,7 +1705,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (9)
-- [malware](#malware) (54)
+- [malware](#malware) (55)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
@@ -1830,7 +1833,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Monero mining](#monero-mining) (1)
 - [MongoDB](#mongodb) (1)
 - [Monster ransomware](#monster-ransomware) (1)
-- [Mozi](#mozi) (1)
+- [Mozi](#mozi) (2)
 - [MpClient.dll](#mpclientdll) (1)
 - [MpExtMs.exe](#mpextmsexe) (1)
 - [MPR network provider](#mpr-network-provider) (1)
@@ -1887,6 +1890,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetScaler ADC](#netscaler-adc) (2)
 - [NetScaler Gateway](#netscaler-gateway) (2)
 - [NetSetup.log](#netsetuplog) (1)
+- [network detection](#network-detection) (1)
 - [network infrastructure](#network-infrastructure) (2)
 - [network infrastructure exploitation](#network-infrastructure-exploitation) (1)
 - [network isolation bypass](#network-isolation-bypass) (1)
@@ -2066,7 +2070,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (2)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (33)
+- [patterns](#patterns) (34)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
@@ -2101,6 +2105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [phishing](#phishing) (25)
 - [phishing overlays](#phishing-overlays) (1)
 - [phishing-as-a-service](#phishing-as-a-service) (5)
+- [Phorpiex](#phorpiex) (1)
 - [PHP](#php) (2)
 - [PHP code execution](#php-code-execution) (1)
 - [PHP code injection](#php-code-injection) (1)
@@ -2258,7 +2263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAM disk](#ram-disk) (1)
 - [random number generator](#random-number-generator) (1)
 - [Ransom-ISAC](#ransom-isac) (1)
-- [ransomware](#ransomware) (15)
+- [ransomware](#ransomware) (16)
 - [ransomware access](#ransomware-access) (1)
 - [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
@@ -2450,6 +2455,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (6)
 - [secrets management](#secrets-management) (1)
+- [SectopRAT](#sectoprat) (1)
 - [Secure Firewall Management Center](#secure-firewall-management-center) (1)
 - [Secure Preferences](#secure-preferences) (1)
 - [Security Management Server](#security-management-server) (1)
@@ -4395,6 +4401,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BLUEBEAM
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## Boatnet
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
+
 ## body hash
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
@@ -5362,6 +5371,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 
 ## command and control
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
@@ -6466,6 +6476,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## D-Link
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
+## D2IP
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
+
 ## dangling resources
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
@@ -6836,6 +6849,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [Mustang Panda](../actors/mustang-panda.md)
+
+## direct-to-IP
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
 ## directory traversal
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
@@ -7465,6 +7481,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## exfiltration
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -8969,6 +8986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## IoT botnet
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [RustDuck](../tools/rustduck.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
@@ -9946,6 +9964,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC](../tools/chocopoc.md)
 - [CrownX](../tools/crownx.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [ENCFORGE](../tools/encforge.md)
 - [Fast16](../tools/fast16.md)
@@ -10511,6 +10530,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
 ## Mozi
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
 ## MpClient.dll
@@ -10704,6 +10724,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NetSetup.log
 - [NightLedger](../tools/nightledger.md)
+
+## network detection
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
 ## network infrastructure
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -11940,6 +11963,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
@@ -12121,6 +12145,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
+
+## Phorpiex
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
 ## PHP
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -12736,6 +12763,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [CrownX](../tools/crownx.md)
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 - [ENCFORGE](../tools/encforge.md)
 - [First VPN](../tools/first-vpn.md)
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -13522,6 +13550,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## secrets management
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+
+## SectopRAT
+- [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
 ## Secure Firewall Management Center
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)

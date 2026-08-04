@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Direct-to-IP malware communications: Phorpiex, SectopRAT, Mozi, and Boatnet](patterns/direct-to-ip-malware-communications.md)
 - [ChainDrop keyv / cacheable npm worm](ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [Bitwarden CLI TeamPCP package deep dive and GitHub fallback indicators](ops/bitwarden-checkmarx-shai-hulud-third-coming.md#jfrog-package-deep-dive)
 - [CISA KEV: N-able N-central CVE-2026-18577 with August 6 deadline](ops/n-able-n-central-cve-2026-18556-18577-exploitation.md#cisa-kev-update-2026-08-03)
