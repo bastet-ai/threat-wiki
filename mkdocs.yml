@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - CISA KEV August 4 N-central, Tomcat, and Langflow additions: ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md
       - ChainDrop keyv / cacheable npm worm: ops/chaindrop-keyv-cacheable-npm-worm.md
       - Brazilian education LockBit, DragonForce, and insider incidents: ops/brazil-education-lockbit-dragonforce-insider-incidents.md
       - DarkSword / GHOSTBLADE iOS exploit infrastructure: ops/darksword-ghostblade-ios-exploit-infrastructure.md

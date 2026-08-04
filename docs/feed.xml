@@ -2,11 +2,25 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>CISA KEV August 4 additions: N-central, Tomcat, and Langflow</title>
+      <link>https://threat.wiki/ops/cisa-kev-n-central-tomcat-langflow-august-4-2026/</link>
+      <description>Added CISA's August 4 KEV entries for N-central CVE-2026-18556, Apache Tomcat CVE-2026-34486, and Langflow CVE-2026-9198. Coverage records the August 7 deadline, exact Tomcat affected and fixed releases, Langflow's unauthenticated auto-login token and Python validation chain, the 1.10.1 fix, N-central's paired KEV status, and campaign and attribution limits.</description>
+      <pubDate>Tue, 04 Aug 2026 19:33:13 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cisa-kev-n-central-tomcat-langflow-august-4-2026/</guid>
+    </item>
+    <item>
+      <title>ChainDrop expands to 444 packages; Backstage CI execution confirmed</title>
+      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#confirmed-public-ci-execution-backstage</link>
+      <description>Updated ChainDrop to StepSecurity's 18:10 UTC snapshot of 444 package names and 2,212 compromised versions, including 433 propagated packages and 2,201 versions across at least a dozen organizations. Added confirmed payload execution and C2 reachability in ten Backstage public CI runs, the fresh-scaffolding lockfile boundary, and the finding that no long-lived credential loss was evidenced in those workflows.</description>
+      <pubDate>Tue, 04 Aug 2026 19:33:13 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#confirmed-public-ci-execution-backstage</guid>
+    </item>
+    <item>
       <title>ChainDrop containment update: propagated-package cleanup continues</title>
-      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#stepsecurity-containment-update-1620-utc</link>
+      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#stepsecurity-containment-update-1810-utc</link>
       <description>Updated ChainDrop coverage with StepSecurity's 16:20 UTC response snapshot. npm had reverted all 11 full worm carriers, while cleanup of the propagated wave remained incomplete: ServiceTitan and Nebula packages were being removed, clean Thiennq and OneReach releases were available, and malicious Picsart and Deliveroo releases reportedly remained on latest. Added private-mirror and cache cautions plus Run Copilot workflow, format-results artifact, and token-monitor persistence pivots.</description>
       <pubDate>Tue, 04 Aug 2026 17:25:51 GMT</pubDate>
-      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#stepsecurity-containment-update-1620-utc</guid>
+      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#stepsecurity-containment-update-1810-utc</guid>
     </item>
     <item>
       <title>Direct-to-IP malware communications</title>

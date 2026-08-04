@@ -3,7 +3,9 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
-- [ChainDrop containment update: full carriers reverted while propagated-package cleanup continues](../ops/chaindrop-keyv-cacheable-npm-worm.md#stepsecurity-containment-update-1620-utc)
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [ChainDrop expands to 444 packages / 2,212 versions; Backstage CI execution confirmed](../ops/chaindrop-keyv-cacheable-npm-worm.md#confirmed-public-ci-execution-backstage)
+- [ChainDrop containment update: full carriers reverted while propagated-package cleanup continues](../ops/chaindrop-keyv-cacheable-npm-worm.md#stepsecurity-containment-update-1810-utc)
 - [Direct-to-IP malware communications: Phorpiex, SectopRAT, Mozi, and Boatnet](../patterns/direct-to-ip-malware-communications.md)
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [Bitwarden CLI TeamPCP package deep dive and GitHub fallback indicators](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md#jfrog-package-deep-dive)

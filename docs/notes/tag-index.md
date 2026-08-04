@@ -39,7 +39,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (57)
+- [active exploitation](#active-exploitation) (58)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -92,7 +92,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI agent](#ai-agent) (1)
 - [AI agents](#ai-agents) (19)
 - [AI anti-analysis](#ai-anti-analysis) (1)
-- [AI application infrastructure](#ai-application-infrastructure) (5)
+- [AI application infrastructure](#ai-application-infrastructure) (6)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
 - [AI assistants](#ai-assistants) (4)
 - [AI brand impersonation](#ai-brand-impersonation) (2)
@@ -157,6 +157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ANY.RUN](#anyrun) (1)
 - [AnyDesk](#anydesk) (2)
 - [Aone](#aone) (1)
+- [Apache Tomcat](#apache-tomcat) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
 - [API enumeration](#api-enumeration) (1)
@@ -230,7 +231,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AUR](#aur) (1)
 - [authenticated RCE](#authenticated-rce) (1)
 - [authenticated remote code execution](#authenticated-remote-code-execution) (1)
-- [authentication bypass](#authentication-bypass) (17)
+- [authentication bypass](#authentication-bypass) (18)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -450,8 +451,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (3)
-- [CISA KEV](#cisa-kev) (27)
+- [CISA](#cisa) (4)
+- [CISA KEV](#cisa-kev) (28)
 - [Cisco](#cisco) (4)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -524,7 +525,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CMS exploitation](#cms-exploitation) (1)
 - [CNCERT](#cncert) (1)
 - [Cobalt Strike](#cobalt-strike) (6)
-- [code execution](#code-execution) (1)
+- [code execution](#code-execution) (2)
 - [code injection](#code-injection) (1)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
@@ -705,7 +706,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-16232](#cve-2026-16232) (1)
 - [CVE-2026-16723](#cve-2026-16723) (1)
 - [CVE-2026-16812](#cve-2026-16812) (1)
-- [CVE-2026-18556](#cve-2026-18556) (1)
+- [CVE-2026-18556](#cve-2026-18556) (2)
 - [CVE-2026-18577](#cve-2026-18577) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
@@ -728,7 +729,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-33017](#cve-2026-33017) (3)
 - [CVE-2026-33691](#cve-2026-33691) (1)
 - [CVE-2026-33824](#cve-2026-33824) (1)
-- [CVE-2026-34486](#cve-2026-34486) (1)
+- [CVE-2026-34486](#cve-2026-34486) (2)
 - [CVE-2026-34908](#cve-2026-34908) (1)
 - [CVE-2026-34909](#cve-2026-34909) (1)
 - [CVE-2026-34910](#cve-2026-34910) (1)
@@ -808,6 +809,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-8461](#cve-2026-8461) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
+- [CVE-2026-9198](#cve-2026-9198) (1)
 - [CWE-22](#cwe-22) (1)
 - [CWE-259](#cwe-259) (1)
 - [CWE-306](#cwe-306) (1)
@@ -1007,6 +1009,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Emerald Sleet](#emerald-sleet) (1)
 - [ENCFORGE](#encforge) (2)
 - [encrypted C2](#encrypted-c2) (4)
+- [EncryptInterceptor](#encryptinterceptor) (1)
 - [endpoint compromise](#endpoint-compromise) (1)
 - [endpoint management](#endpoint-management) (2)
 - [endpoint management abuse](#endpoint-management-abuse) (1)
@@ -1384,6 +1387,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hypervisor escape](#hypervisor-escape) (1)
 - [Hyunwoo Kim](#hyunwoo-kim) (1)
 - [I-SOON](#i-soon) (2)
+- [IBM](#ibm) (1)
 - [iCagenda](#icagenda) (1)
 - [ICE](#ice) (1)
 - [iCloud theft](#icloud-theft) (1)
@@ -1574,7 +1578,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LabubaRAT](#labubarat) (1)
 - [Labubu](#labubu) (2)
 - [LangChain](#langchain) (2)
-- [Langflow](#langflow) (9)
+- [Langflow](#langflow) (10)
 - [LangFlow](#langflow) (1)
 - [LangGraph](#langgraph) (1)
 - [Language Servers for AWS](#language-servers-for-aws) (1)
@@ -1858,8 +1862,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MySQL](#mysql) (1)
 - [Mysterious Elephant](#mysterious-elephant) (1)
 - [Mythos](#mythos) (1)
-- [N-able](#n-able) (1)
-- [N-central](#n-central) (1)
+- [N-able](#n-able) (2)
+- [N-central](#n-central) (2)
 - [n8n](#n8n) (2)
 - [Nacos](#nacos) (2)
 - [NadMesh](#nadmesh) (1)
@@ -1998,11 +2002,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (250)
+- [operations](#operations) (251)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (283)
+- [ops](#ops) (284)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2352,7 +2356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reviewdog](#reviewdog) (1)
 - [Rilide](#rilide) (1)
 - [RingH23](#ringh23) (1)
-- [RMM](#rmm) (4)
+- [RMM](#rmm) (5)
 - [RMM abuse](#rmm-abuse) (10)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
@@ -3280,6 +3284,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -3557,6 +3562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
 ## AI application infrastructure
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
@@ -3815,6 +3821,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Aone
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
 
+## Apache Tomcat
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+
 ## Apex One
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
@@ -4061,6 +4070,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## authentication bypass
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
@@ -4969,6 +4979,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 
 ## CISA
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -4978,6 +4989,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
@@ -5311,6 +5323,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 
 ## code execution
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## code injection
@@ -6086,6 +6099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 
 ## CVE-2026-18556
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## CVE-2026-18577
@@ -6157,6 +6171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 
 ## CVE-2026-34486
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 
 ## CVE-2026-34908
@@ -6402,6 +6417,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-9082
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## CVE-2026-9198
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 
 ## CWE-22
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
@@ -7233,6 +7251,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TaskWeaver](../tools/taskweaver.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [WLDR agent](../tools/wldr-agent.md)
+
+## EncryptInterceptor
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 
 ## endpoint compromise
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
@@ -8674,6 +8695,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
 
+## IBM
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+
 ## iCagenda
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
@@ -9425,6 +9449,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
 ## Langflow
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [ENCFORGE](../tools/encforge.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
@@ -10620,9 +10645,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 
 ## N-able
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## N-central
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## n8n
@@ -11215,6 +11242,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -11481,6 +11509,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -13145,6 +13174,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RMM
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
+- [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [UNC3753](../actors/unc3753.md)

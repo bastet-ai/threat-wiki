@@ -5,7 +5,7 @@ On August 4, 2026, StepSecurity, Socket, and Aikido reported a fast-moving npm s
 
 The malicious releases add an npm `preinstall` hook, download Bun `1.3.13`, run a heavily obfuscated second stage, harvest developer, CI/CD, cloud, package-registry, Vault, and Kubernetes credentials, and use stolen npm access or OIDC trusted publishing to republish trojanized packages. Socket also reported GitHub and DNS exfiltration plus `.claude` and `.vscode` repository hooks that can execute when source is opened without requiring `npm install`.
 
-This is an **active incident**. Package and version counts below reflect public reporting captured through 11:44 UTC, while containment and technical detail reflect StepSecurity's 16:20 UTC revision on August 4. Both can change. Use the linked vendor-maintained lists for live scoping.
+This is an **active incident**. Scope and execution evidence reflect StepSecurity's 18:10 UTC revision on August 4. Counts and registry state can change; use the linked vendor-maintained lists for live scoping.
 
 ## Tags
 - ops
@@ -27,12 +27,13 @@ This is an **active incident**. Package and version counts below reflect public 
 - persistence
 
 ## Why this matters
-- StepSecurity's 12:51 UTC feed update reported **435 packages and 1,557 compromised versions** observed between 09:40 and 11:44 UTC. Aikido separately reported at least **1,280 compromised packages** by its 13:20 CEST update. The difference reflects changing collection windows and package classification during an active incident; neither count should be treated as final.
-- StepSecurity's later technical revision separated **11 full worm carriers** in the Jared Wray ecosystem from **424 propagated package names covering 1,546 versions**. This distinction matters: the first group carried the complete propagation logic, while the second wave was republished through credentials harvested from earlier victims.
+- StepSecurity's 18:10 UTC revision reported **444 package names and 2,212 compromised versions** observed between 09:40 and 13:20 UTC. Aikido separately reported at least **1,280 compromised packages** in an earlier update. The difference reflects changing collection windows and package classification during an active incident; neither count should be treated as final.
+- StepSecurity separated **11 full worm carriers** in the Jared Wray ecosystem from **433 propagated package names covering 2,201 versions**. This distinction matters: the first group carried the complete propagation logic, while the second wave was republished through credentials harvested from at least a dozen unrelated organizations.
 - The initial package family sits deep in common dependency trees. Public reporting identifies `keyv`, `cacheable-request`, `flat-cache`, `file-entry-cache`, and related caching packages used transitively by developer tooling.
 - Aikido says malicious source changes were pushed to the legitimate repository and released through GitHub Actions, so affected packages could carry valid provenance. Provenance proved which workflow built the artifact, not that the source or maintainer identity was clean.
 - The payload turns credential theft into automated package propagation and adds source-repository execution paths for IDEs and AI coding agents.
-- By StepSecurity's 16:20 UTC update, npm had reverted all 11 full worm carriers to safe versions. Cleanup of the propagated wave was incomplete: `@servicetitan/*` and `@nebula.js/*` removals were underway, clean replacements existed for `@thiennq/docs-viewer` and `@onereach/ui-components`, and two reported malicious releases still held the `latest` tag. Registry cleanup does not remove copies already pinned in lockfiles, mirrors, caches, or artifacts.
+- By StepSecurity's 18:10 UTC update, npm had reverted all 11 full worm carriers to safe versions. Cleanup of the propagated wave was incomplete: `@servicetitan/*` and `@nebula.js/*` removals were underway, clean replacements existed for `@thiennq/docs-viewer` and `@onereach/ui-components`, and two reported malicious releases still held the `latest` tag. Registry cleanup does not remove copies already pinned in lockfiles, mirrors, caches, or artifacts.
+- StepSecurity found real execution in ten public `backstage/backstage` CI runs between 09:31 and 10:40 UTC. Fresh E2E scaffolding resolved a compromised transitive dependency outside the repository's committed lockfile; Bun then contacted Ethereum RPC services and `npm-cache.com`. StepSecurity found no evidence of long-lived credential loss in those runs because the affected workflows referenced no repository secrets, but the payload did execute and reach C2.
 
 ## Confidence and attribution
 - The compromise and malicious package behavior are corroborated by StepSecurity, Socket, and Aikido.
@@ -82,9 +83,9 @@ Socket's ongoing list at capture time included:
 
 StepSecurity's early list also included packages in `@arv-bedrock`, `@deliveroo`, `@hubsync`, `@onereach`, `@or-sdk`, `@ornikar`, `@picsart`, `@qlik`, and `@servicetitan` scopes, plus `ecto`, `pob-test-typescript-package-in-monorepo`, and `tslint-folder-schema`. Aikido reported rapid spread into additional maintainers and organizations. Do not treat this table as complete.
 
-### StepSecurity scope update — 11:44 UTC
+### StepSecurity scope update — 13:20 UTC
 
-StepSecurity's updated incident snapshot counted 435 package names and 1,557 malicious versions during the 09:40–11:44 UTC observation window. This is a version-level expansion, not evidence that every package had a distinct victim installation. Scope exposure from lockfiles and caches separately from confirmed execution of the `preinstall` hook.
+StepSecurity's updated incident snapshot counted 444 package names and 2,212 malicious versions during the 09:40–13:20 UTC observation window. Eleven Jared Wray ecosystem packages were full carriers; the worm republished 433 additional package names and 2,201 versions through credentials belonging to at least a dozen unrelated organizations. Many historical versions were replayed, so the version count is not a victim or execution count. Scope exposure from lockfiles and caches separately from confirmed execution of the `preinstall` hook.
 
 ### StepSecurity technical update — 15:13 UTC
 
@@ -98,9 +99,9 @@ The payload also:
 - installs `~/.local/bin/gh-token-monitor.sh` with a user service or macOS LaunchAgent, polls `api.github.com/user` every 60 seconds for 24 hours, and executes an attacker-supplied handler after token revocation;
 - resolves C2 through Ethereum and sends a gzip, AES-256-GCM, RSA-OAEP-SHA256, and base64 envelope that StepSecurity says it intercepted and decrypted in its sandbox.
 
-### StepSecurity containment update — 16:20 UTC
+### StepSecurity containment update — 18:10 UTC
 
-StepSecurity reported that npm's rolling response began with removal of `cacheable-request@13.0.20` at 10:39 UTC and a `keyv` dist-tag rollback to `5.6.0` around 11:15. By 16:20, all 11 full carriers had been reverted to safe versions. The response was still incomplete across the worm-propagated package set:
+StepSecurity reported that npm's rolling response began with removal of `cacheable-request@13.0.20` at 10:39 UTC and a `keyv` dist-tag rollback to `5.6.0` around 11:15. By 18:10, all 11 full carriers had been reverted to safe versions. The response was still incomplete across the worm-propagated package set:
 
 - `@servicetitan/*` and `@nebula.js/*` packages were being removed wholesale;
 - clean releases were available for `@thiennq/docs-viewer@1.6.4` and `@onereach/ui-components@27.0.4`;
@@ -108,6 +109,14 @@ StepSecurity reported that npm's rolling response began with removal of `cacheab
 - the compromised maintainer account and three initially affected GitHub repositories were no longer available, limiting access to the original issue and commit history.
 
 Treat these as a time-bounded response snapshot, not a final registry inventory. Continue using vendor-maintained affected-version lists and inspect internal registry proxies, package caches, lockfiles, and built artifacts even after public removal or dist-tag rollback.
+
+### Confirmed public CI execution — Backstage
+
+StepSecurity searched roughly 44,000 public workflow runs from an eight-hour window for connections to `npm-cache.com`. Excluding five runs in its own detonation repository, it found ten matching runs in `backstage/backstage`. In the affected E2E jobs, fresh application scaffolding installed current dependencies outside the project's committed lockfile. The resulting Bun process contacted `eth.llamarpc.com`, `go.getblock.io`, `eth-mainnet.nodereal.io`, and then `npm-cache.com` in the same sequence observed in StepSecurity's detonation.
+
+The runs occurred across Renovate pull requests, pushes to `master`, and changeset branches between 09:31 and 10:40 UTC. StepSecurity reported the finding to Backstage as issue `backstage/backstage#35100`. It found no evidence of long-lived credential loss: the two affected workflow definitions referenced no repository secrets, the only job credential was an ephemeral `GITHUB_TOKEN`, and the older audit-mode agent did not record a `Runner.Worker` memory-read event. This is confirmed payload execution and C2 reachability, not confirmed credential theft.
+
+The case demonstrates a lockfile boundary: a committed application lockfile does not constrain jobs that scaffold a new project or otherwise resolve fresh dependencies during testing.
 
 ## Indicators and hunting pivots
 
@@ -169,7 +178,7 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Restrict CI and developer egress to cloud metadata, secret stores, npm publication endpoints, GitHub repository creation, and unnecessary DNS resolvers.
 
 ## Open questions
-- Final affected package/version and download scope after npm containment.
+- Final affected package/version and download scope after npm containment; StepSecurity's 18:10 snapshot is 444 packages and 2,212 versions.
 - Initial access and whether the `Jaredwray` account, endpoint, token, GitHub session, or another upstream identity was first compromised.
 - Registry and GitHub containment actions, malicious-version removal times, and credential invalidation scope.
 - Names, visibility, and recoverable indicators for attacker-created GitHub exfiltration repositories and the DNS channel.
