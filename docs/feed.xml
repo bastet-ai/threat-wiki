@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>ChainDrop Ethereum C2 and token-revocation-trigger persistence</title>
+      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#stepsecurity-technical-update-1513-utc</link>
+      <description>Updated ChainDrop coverage with StepSecurity's expanded payload analysis: 11 full worm carriers and 424 propagated packages, poisoned commit and trusted-publishing workflow pivots, Ethereum contract and GitHub signed-commit C2 resolution, npm-cache.com router traffic, bidirectional remote-code responses, encrypted exfiltration, results repository staging, Russian-locale gating, and a user-level token monitor that can execute an attacker-supplied handler when a stolen GitHub token is revoked. Response guidance now removes that persistence before credential rotation.</description>
+      <pubDate>Tue, 04 Aug 2026 15:27:20 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#stepsecurity-technical-update-1513-utc</guid>
+    </item>
+    <item>
       <title>Direct-to-IP malware communications</title>
       <link>https://threat.wiki/patterns/direct-to-ip-malware-communications/</link>
       <description>Added Unit 42's four-million-report analysis of malware that bypasses DNS by communicating directly with IP addresses. Coverage records the 45.32% C2-active sample prevalence, Phorpiex ransomware staging, the rotating backslash-GET exfiltration campaign, SectopRAT browser proxying, Mozi and Boatnet IoT propagation, public indicators, DNS-to-flow correlation, scoped enforcement, and telemetry and attribution caveats. The ChainDrop page was also updated to StepSecurity's 11:44 UTC snapshot of 435 packages and 1,557 compromised versions.</description>

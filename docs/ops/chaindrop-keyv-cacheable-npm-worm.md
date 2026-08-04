@@ -5,7 +5,7 @@ On August 4, 2026, StepSecurity, Socket, and Aikido reported a fast-moving npm s
 
 The malicious releases add an npm `preinstall` hook, download Bun `1.3.13`, run a heavily obfuscated second stage, harvest developer, CI/CD, cloud, package-registry, Vault, and Kubernetes credentials, and use stolen npm access or OIDC trusted publishing to republish trojanized packages. Socket also reported GitHub and DNS exfiltration plus `.claude` and `.vscode` repository hooks that can execute when source is opened without requiring `npm install`.
 
-This is an **active incident**. Package and version counts below reflect public reporting captured through 11:44 UTC on August 4 and will change. Use the linked vendor-maintained lists for live scoping.
+This is an **active incident**. Package and version counts below reflect public reporting captured through 11:44 UTC, while technical detail reflects StepSecurity's 15:13 UTC feed revision on August 4. Both can change. Use the linked vendor-maintained lists for live scoping.
 
 ## Tags
 - ops
@@ -21,9 +21,14 @@ This is an **active incident**. Package and version counts below reflect public 
 - OIDC
 - CI/CD
 - developer-targeting
+- Ethereum
+- EtherHiding
+- remote-access
+- persistence
 
 ## Why this matters
 - StepSecurity's 12:51 UTC feed update reported **435 packages and 1,557 compromised versions** observed between 09:40 and 11:44 UTC. Aikido separately reported at least **1,280 compromised packages** by its 13:20 CEST update. The difference reflects changing collection windows and package classification during an active incident; neither count should be treated as final.
+- StepSecurity's later technical revision separated **11 full worm carriers** in the Jared Wray ecosystem from **424 propagated package names covering 1,546 versions**. This distinction matters: the first group carried the complete propagation logic, while the second wave was republished through credentials harvested from earlier victims.
 - The initial package family sits deep in common dependency trees. Public reporting identifies `keyv`, `cacheable-request`, `flat-cache`, `file-entry-cache`, and related caching packages used transitively by developer tooling.
 - Aikido says malicious source changes were pushed to the legitimate repository and released through GitHub Actions, so affected packages could carry valid provenance. Provenance proved which workflow built the artifact, not that the source or maintainer identity was clean.
 - The payload turns credential theft into automated package propagation and adds source-repository execution paths for IDEs and AI coding agents.
@@ -32,6 +37,7 @@ This is an **active incident**. Package and version counts below reflect public 
 - The compromise and malicious package behavior are corroborated by StepSecurity, Socket, and Aikido.
 - Aikido labels the wave active Shai-Hulud activity. Socket says the behavior closely matches Shai-Hulud: TruffleHog-style secret collection, maintainer-package enumeration, npm token and OIDC publication, and victim-account GitHub repositories.
 - Socket did **not** recover the campaign's self-identifying repository or commit markers because relevant strings were assembled at runtime. Public Shai-Hulud-derived tooling also makes copycat reuse possible. Track ChainDrop as a Shai-Hulud-lineage assessment, not confirmed TeamPCP attribution.
+- StepSecurity assesses the payload as a direct, heavily evolved descendant of Shai-Hulud 2.0 based on Bun/preinstall delivery, `Runner.Worker` memory scraping, npm self-republication, and GitHub exfiltration. Its Russian-locale kill switch is an operator-language clue, not sufficient actor or nationality attribution.
 - Socket and Aikido identify compromise of the `Jaredwray` maintainer/GitHub account as the initial high-impact access path. Maintainer and registry postmortems were not yet public at capture time.
 
 ## Reported execution chain
@@ -42,7 +48,9 @@ This is an **active incident**. Package and version counts below reflect public 
 5. The collector reads local credentials, environment variables, cloud metadata, managed secret stores, runner identity material, and generic token/private-key patterns.
 6. The worm calls npm identity and search endpoints, discovers packages reachable by the stolen maintainer identity, downloads clean tarballs, injects its files and lifecycle hook, bumps versions, recomputes integrity metadata, and republishes.
 7. Where trusted publishing is available, it attempts npm's OIDC token-exchange endpoint. A poisoned source tree can therefore produce a valid npm/Sigstore provenance attestation.
-8. Socket reports encrypted findings sent through attacker-created GitHub repositories and a separate DNS channel. The source repository can also receive `.claude/settings.json` `SessionStart` hooks and `.vscode/tasks.json` `folderOpen` tasks that rerun the loader when a developer or coding agent opens a clone.
+8. Socket reports encrypted findings sent through attacker-created GitHub repositories and a separate DNS channel. StepSecurity further observed `results-*.json` staging repositories and a GitHub-token monitor that creates a delayed execution path when defenders revoke the stolen token.
+9. The source repository can receive `.claude/settings.json` `SessionStart` hooks and `.vscode/tasks.json` `folderOpen` tasks that rerun the loader when a developer or coding agent opens a clone.
+10. StepSecurity reports that the payload resolves command-and-control domains from an Ethereum mainnet contract, falls back to signed-commit searches on GitHub, and sends encrypted data to `/router`. A response containing a `code` field is passed to `eval`, making the channel bidirectional remote access rather than exfiltration only.
 
 ## Credential and secret targets
 Reported collection includes:
@@ -77,6 +85,18 @@ StepSecurity's early list also included packages in `@arv-bedrock`, `@deliveroo`
 
 StepSecurity's updated incident snapshot counted 435 package names and 1,557 malicious versions during the 09:40–11:44 UTC observation window. This is a version-level expansion, not evidence that every package had a distinct victim installation. Scope exposure from lockfiles and caches separately from confirmed execution of the `preinstall` hook.
 
+### StepSecurity technical update — 15:13 UTC
+
+The expanded analysis places the first poisoned `keyv` commit (`ee2681a`) at 09:02:37 UTC and the repository-hook commit (`d8c850c`) at 09:04:30. `keyv@6.0.0` was then published at 09:35 through GitHub Actions workflow run `30896232272` with a valid trusted-publishing attestation. StepSecurity observed the automated second wave beginning at 09:38:13 and continuing through 11:44.
+
+The payload also:
+
+- exits when `LANG` indicates a Russian locale and otherwise respawns detached outside GitHub Actions;
+- writes a camouflaged `<tmpdir>/tmp.dpkg_<pid>.lock` state file;
+- creates `results-*.json` exfiltration commits under victim identities;
+- installs `~/.local/bin/gh-token-monitor.sh` with a user service or macOS LaunchAgent, polls `api.github.com/user` every 60 seconds for 24 hours, and executes an attacker-supplied handler after token revocation;
+- resolves C2 through Ethereum and sends a gzip, AES-256-GCM, RSA-OAEP-SHA256, and base64 envelope that StepSecurity says it intercepted and decrypted in its sandbox.
+
 ## Indicators and hunting pivots
 
 ### Files and execution
@@ -88,6 +108,9 @@ StepSecurity's updated incident snapshot counted 435 package names and 1,557 mal
 - temporary paths matching `bun-dl-*`
 - unexpected `.claude/settings.json` `SessionStart` hooks
 - unexpected `.vscode/tasks.json` tasks with `runOn: folderOpen`
+- `~/.local/bin/gh-token-monitor.sh` and unexpected associated user-level systemd service or macOS LaunchAgent
+- temporary files matching `tmp.dpkg_<pid>.lock`
+- victim-account repositories or commits containing `results-*.json`
 
 ### SHA-256
 - `fd3ca4007b225fdf8de7af4345a19179d5efa8c4bb9205f88cda806e5684b1eb` — `setup.mjs`
@@ -102,6 +125,9 @@ StepSecurity's updated incident snapshot counted 435 package names and 1,557 mal
 - `registry[.]npmjs[.]org/-/npm/v1/oidc/token/exchange/package/`
 - GitHub API `POST /user/repos`, GraphQL `createCommitOnBranch`, newly created repositories, and commits from developer or CI identities
 - anomalous DNS exfiltration from package-install or Bun processes
+- Ethereum mainnet contract `0xE1f2395ee43e45A1556EC6438a88c31B83493103`, queried with `eth_call` selector `0x53ed5143`
+- GitHub commit-search strings `thebeautifulmarchoftime` and `IfYouBlockThisAPIKeyItWillCrashTheLiveProductionServersOfAllThirdPartyClients`
+- `npm-cache[.]com` — C2 domain observed by StepSecurity; investigate `GET /router` health checks returning HTTP 400/404 and encrypted `POST /router` traffic
 
 The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, identity, volume, and timing rather than treating the domains as stand-alone malicious indicators.
 
@@ -116,7 +142,7 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 ### If an affected version executed
 1. Isolate developer hosts and runners; stop active workflows and publication paths.
 2. Preserve endpoint, CI, npm, GitHub, DNS, cloud, and registry evidence before rebuilding.
-3. Treat every credential reachable from the process as exposed. Revoke and replace npm, GitHub, cloud, Vault, Kubernetes, SSH, CI, and application secrets; do not rotate only npm tokens.
+3. Before revoking the stolen GitHub token, contain the host and remove the token-monitor persistence described above; StepSecurity reports that token revocation can trigger an attacker-supplied handler. Then revoke and replace npm, GitHub, cloud, Vault, Kubernetes, SSH, CI, and application secrets; do not rotate only npm tokens.
 4. Audit npm for unexpected versions published by affected identities and GitHub for force pushes, deleted/recreated tags, new repositories, unexpected commits, transient workflows, OIDC exchanges, and repository hooks.
 5. Rebuild affected machines/runners and dependency caches from known-clean images and commits. Roll back to verified clean package versions only after maintainer or registry confirmation.
 6. Review cloud control planes for metadata-credential use outside expected hosts, broad secret enumeration, and activity by CI identities after the first package installation.
@@ -133,6 +159,7 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Initial access and whether the `Jaredwray` account, endpoint, token, GitHub session, or another upstream identity was first compromised.
 - Registry and GitHub containment actions, malicious-version removal times, and credential invalidation scope.
 - Names, visibility, and recoverable indicators for attacker-created GitHub exfiltration repositories and the DNS channel.
+- Current values and transaction history of the Ethereum C2 contract, replacement domains, and signed-commit fallback infrastructure.
 - Whether ChainDrop is operated by TeamPCP, another Shai-Hulud-lineage actor, or a copycat using leaked tooling.
 - Confirmed victim execution and downstream cloud/repository compromise beyond package publication.
 

@@ -1036,9 +1036,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESX](#esx) (1)
 - [ESXi](#esxi) (3)
-- [Ethereum](#ethereum) (2)
+- [Ethereum](#ethereum) (3)
 - [Ethereum Name Service](#ethereum-name-service) (1)
-- [EtherHiding](#etherhiding) (4)
+- [EtherHiding](#etherhiding) (5)
 - [Ethiopia](#ethiopia) (1)
 - [ETW bypass](#etw-bypass) (1)
 - [ETW patching](#etw-patching) (1)
@@ -2091,7 +2091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PeopleTools](#peopletools) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
-- [persistence](#persistence) (30)
+- [persistence](#persistence) (31)
 - [persistent root access](#persistent-root-access) (1)
 - [persona operations](#persona-operations) (1)
 - [personal access tokens](#personal-access-tokens) (2)
@@ -2324,7 +2324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Remote Support](#remote-support) (1)
 - [remote support](#remote-support) (2)
 - [Remote Utilities](#remote-utilities) (2)
-- [remote-access](#remote-access) (1)
+- [remote-access](#remote-access) (2)
 - [Remotely](#remotely) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
@@ -7399,6 +7399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ethereum
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
+- [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## Ethereum Name Service
@@ -7406,6 +7407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## EtherHiding
 - [ACR Stealer](../tools/acr-stealer.md)
+- [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
@@ -12047,6 +12049,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
+- [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
@@ -13050,6 +13053,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SCMBANKER](../tools/scmbanker.md)
 
 ## remote-access
+- [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [TA4922](../actors/ta4922.md)
 
 ## Remotely

@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [ChainDrop technical update: Ethereum dead-drop C2 and token-revocation-trigger persistence](ops/chaindrop-keyv-cacheable-npm-worm.md#stepsecurity-technical-update-1513-utc)
 - [Direct-to-IP malware communications: Phorpiex, SectopRAT, Mozi, and Boatnet](patterns/direct-to-ip-malware-communications.md)
 - [ChainDrop keyv / cacheable npm worm](ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [Bitwarden CLI TeamPCP package deep dive and GitHub fallback indicators](ops/bitwarden-checkmarx-shai-hulud-third-coming.md#jfrog-package-deep-dive)
