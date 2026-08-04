@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [Bitwarden CLI TeamPCP package deep dive and GitHub fallback indicators](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md#jfrog-package-deep-dive)
 - [CISA KEV: N-able N-central CVE-2026-18577 with August 6 deadline](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md#cisa-kev-update-2026-08-03)
 - [Offensive-agent trajectory auditing and rapid-exploitation field context](../patterns/ai-augmented-adversary-operations.md)
