@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [macOS ClickFix fingerprinting-gate campaign](ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Open VSX evil-twin extension campaign](ops/open-vsx-evil-twin-extension-campaign.md)
 - [QuickFox FDMTP software supply-chain compromise](ops/quickfox-fdmtp-supply-chain-compromise.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [ChainDrop reaches 2,234 poisoned versions; JFrog and SafeDep add workflow and publisher-path evidence](ops/chaindrop-keyv-cacheable-npm-worm.md#jfrog-and-safedep-scope-and-infrastructure-follow-up)
 - [ChainDrop: Snyk independently validates carrier scope, tarball hash, and advisory](ops/chaindrop-keyv-cacheable-npm-worm.md#snyk-independent-tarball-validation)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
-- [ChainDrop expands to 444 packages / 2,212 versions; Backstage CI execution confirmed](ops/chaindrop-keyv-cacheable-npm-worm.md#confirmed-public-ci-execution-backstage)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

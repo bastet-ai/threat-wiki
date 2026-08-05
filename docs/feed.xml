@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>macOS ClickFix fingerprinting-gate campaign</title>
+      <link>https://threat.wiki/ops/macos-clickfix-fingerprinting-gate-campaign/</link>
+      <description>Added Microsoft Threat Intelligence's analysis of a macOS ClickFix campaign that moved more than 250 dictionary-style front-end domains behind server-side browser fingerprinting. Coverage records conditional lure and decoy delivery, WebGL and anti-analysis checks, the mode: php submission pivot, MacSync and AMOS staging through /curl/&lt;id&gt;, published domains, endpoint hunts, and campaign-scope and attribution limits.</description>
+      <pubDate>Wed, 05 Aug 2026 17:27:32 GMT</pubDate>
+      <guid>https://threat.wiki/ops/macos-clickfix-fingerprinting-gate-campaign/</guid>
+    </item>
+    <item>
       <title>ENDLESSDOORS implant in Zbtlink router firmware</title>
       <link>https://threat.wiki/ops/endlessdoors-zbtlink-router-firmware-implant/</link>
       <description>Added VulnCheck's analysis of an unauthenticated root command channel enabled by default in 21 firmware images for 20 Zbtlink router models. Coverage records the userland kworker masquerade, rctl command and interactive-shell protocol, CVE-2026-66747, white-label inventory risk, affected models, public endpoints, filesystem artifacts, and replacement-first response guidance while preserving operator, intent, and deployment-scope caveats.</description>

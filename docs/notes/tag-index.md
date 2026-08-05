@@ -138,7 +138,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [Amazon SES](#amazon-ses) (2)
 - [Amcache](#amcache) (1)
-- [AMOS](#amos) (1)
+- [AMOS](#amos) (2)
 - [AMSI bypass](#amsi-bypass) (4)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
 - [Android](#android) (9)
@@ -150,7 +150,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android spyware](#android-spyware) (3)
 - [Anthropic](#anthropic) (2)
 - [anthropickit](#anthropickit) (1)
-- [anti-analysis](#anti-analysis) (6)
+- [anti-analysis](#anti-analysis) (7)
 - [anti-bot](#anti-bot) (1)
 - [anti-forensics](#anti-forensics) (2)
 - [Anubis ransomware](#anubis-ransomware) (1)
@@ -225,7 +225,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AsyncAPI](#asyncapi) (1)
 - [AsyncRAT](#asyncrat) (3)
 - [Atlas RAT](#atlas-rat) (1)
-- [Atomic Stealer](#atomic-stealer) (1)
+- [Atomic Stealer](#atomic-stealer) (2)
 - [AUDIOFIX](#audiofix) (2)
 - [audit logging](#audit-logging) (1)
 - [AUR](#aur) (1)
@@ -344,6 +344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser data theft](#browser-data-theft) (1)
 - [browser extension](#browser-extension) (9)
 - [browser extension loader](#browser-extension-loader) (1)
+- [browser fingerprinting](#browser-fingerprinting) (1)
 - [browser hijacking](#browser-hijacking) (4)
 - [browser malware](#browser-malware) (1)
 - [browser memory](#browser-memory) (1)
@@ -477,7 +478,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Mythos 5](#claude-mythos-5) (1)
 - [Claude Opus 4.7](#claude-opus-47) (1)
 - [Clever Cloud](#clever-cloud) (1)
-- [ClickFix](#clickfix) (18)
+- [ClickFix](#clickfix) (19)
 - [ClickOnce](#clickonce) (1)
 - [ClickUp](#clickup) (1)
 - [client-side exploitation](#client-side-exploitation) (1)
@@ -490,7 +491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [clipboard theft](#clipboard-theft) (6)
 - [clipper](#clipper) (2)
 - [Cloaked Ursa](#cloaked-ursa) (1)
-- [cloaking](#cloaking) (2)
+- [cloaking](#cloaking) (3)
 - [cloud](#cloud) (6)
 - [cloud C2](#cloud-c2) (2)
 - [cloud compromise](#cloud-compromise) (1)
@@ -611,7 +612,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential rotation](#credential-rotation) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (67)
+- [credential theft](#credential-theft) (68)
 - [credential-theft](#credential-theft) (53)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -635,7 +636,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptocurrency](#cryptocurrency) (14)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
 - [cryptocurrency theft](#cryptocurrency-theft) (12)
-- [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (5)
+- [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (6)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (4)
 - [cryptojacking](#cryptojacking) (1)
 - [cryptominer](#cryptominer) (2)
@@ -1441,7 +1442,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (3)
-- [infostealer](#infostealer) (24)
+- [infostealer](#infostealer) (25)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
 - [infrastructure churn](#infrastructure-churn) (1)
@@ -1694,7 +1695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
 - [machine-learning](#machine-learning) (1)
-- [macOS](#macos) (15)
+- [macOS](#macos) (16)
 - [macOS malware](#macos-malware) (2)
 - [MaDoO Blaster](#madoo-blaster) (1)
 - [Magento](#magento) (1)
@@ -1794,7 +1795,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Security Blog](#microsoft-security-blog) (1)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (4)
-- [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (3)
+- [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (4)
 - [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
 - [Microsoft-signed binary abuse](#microsoft-signed-binary-abuse) (1)
 - [Middle East](#middle-east) (7)
@@ -2011,11 +2012,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (254)
+- [operations](#operations) (255)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (287)
+- [ops](#ops) (288)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2589,7 +2590,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SNOWLIGHT](#snowlight) (1)
 - [SOAP API abuse](#soap-api-abuse) (1)
 - [SocGholish](#socgholish) (1)
-- [social engineering](#social-engineering) (15)
+- [social engineering](#social-engineering) (16)
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (4)
 - [Socket Security](#socket-security) (3)
@@ -2760,7 +2761,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tax-season phishing](#tax-season-phishing) (1)
 - [tc](#tc) (1)
 - [TCP traffic diversion](#tcp-traffic-diversion) (1)
-- [TDS](#tds) (1)
+- [TDS](#tds) (2)
 - [TeamPCP](#teampcp) (10)
 - [TeamPCP-adjacent](#teampcp-adjacent) (1)
 - [Teams access](#teams-access) (1)
@@ -2937,7 +2938,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [USB weaponizer](#usb-weaponizer) (1)
 - [USB worm](#usb-worm) (2)
 - [use-after-free](#use-after-free) (2)
-- [user execution](#user-execution) (1)
+- [user execution](#user-execution) (2)
 - [user namespaces](#user-namespaces) (2)
 - [user verification](#user-verification) (1)
 - [UserAssist](#userassist) (1)
@@ -3762,6 +3763,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AMOS
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 
 ## AMSI bypass
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
@@ -3819,6 +3821,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [TELESHIM](../tools/teleshim.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
@@ -4072,6 +4075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Atomic Stealer
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 
 ## AUDIOFIX
 - [JINX-0164](../actors/jinx-0164.md)
@@ -4553,6 +4557,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browser extension loader
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
+
+## browser fingerprinting
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 
 ## browser hijacking
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -5140,6 +5147,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
 - [Starland RAT](../tools/starland-rat.md)
@@ -5196,6 +5204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloaking
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
 ## cloud
@@ -5701,6 +5710,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
@@ -5901,6 +5911,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## cryptocurrency wallets
@@ -8971,6 +8982,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
@@ -9951,6 +9963,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -10422,6 +10435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Threat Intelligence
 - [ACR Stealer](../tools/acr-stealer.md)
 - [GigaWiper](../tools/gigawiper.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 
 ## Microsoft Windows Hardware Compatibility Publisher
@@ -11412,6 +11426,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -11688,6 +11703,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -14085,6 +14101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -14820,6 +14837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SprySOCKS](../tools/sprysocks.md)
 
 ## TDS
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
 ## TeamPCP
@@ -15560,6 +15578,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## user execution
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 
 ## user namespaces
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
