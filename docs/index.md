@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Flooding Dropper npm campaign](ops/flooding-dropper-npm-campaign.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [ChainDrop: Sonatype tracks 2,225 affected versions and adds response guidance](ops/chaindrop-keyv-cacheable-npm-worm.md#sonatype-affected-version-and-response-update)
 - [macOS ClickFix fingerprinting-gate campaign](ops/macos-clickfix-fingerprinting-gate-campaign.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [FDMTP](tools/fdmtp.md)
 - [ChainDrop: Microsoft adds direct-publication evidence and Defender hunts](ops/chaindrop-keyv-cacheable-npm-worm.md#microsoft-defender-and-direct-publication-follow-up)
 - [ChainDrop: Wiz adds selective dead-man-switch control, host fingerprinting, and historical C2](ops/chaindrop-keyv-cacheable-npm-worm.md#wiz-payload-control-and-credential-scope-update)
-- [ChainDrop reaches 2,234 poisoned versions; JFrog and SafeDep add workflow and publisher-path evidence](ops/chaindrop-keyv-cacheable-npm-worm.md#jfrog-and-safedep-scope-and-infrastructure-follow-up)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

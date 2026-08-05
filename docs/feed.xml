@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Flooding Dropper npm campaign</title>
+      <link>https://threat.wiki/ops/flooding-dropper-npm-campaign/</link>
+      <description>Added Sonatype Research Labs' active Flooding Dropper campaign spanning 846 npm components across many low-volume publisher accounts. Coverage records the cross-platform JavaScript loader, randomized HTTPS and DNS TXT fallback delivery, detached execution, Windows ETW and AMSI impairment, AppData and Run-key plus scheduled-task persistence, encrypted reflective follow-on loading, behavioral hunts, response priorities, and the absence of a public full package list, infrastructure set, hashes, victim scope, or attribution.</description>
+      <pubDate>Wed, 05 Aug 2026 21:26:26 GMT</pubDate>
+      <guid>https://threat.wiki/ops/flooding-dropper-npm-campaign/</guid>
+    </item>
+    <item>
       <title>JetBrains TeamCity CVE-2026-63077 active exploitation</title>
       <link>https://threat.wiki/ops/jetbrains-teamcity-cve-2026-63077-exploitation/</link>
       <description>Added CISA's August 5 KEV entry for unauthenticated TeamCity On-Premises remote code execution through the agent polling protocol. Coverage records the August 8 deadline, affected and fixed releases, JetBrains' patch-plugin fallback, TeamCity Cloud scope, CI/CD and artifact-integrity impact, evidence-preserving response priorities, and the absence of public actor, payload, infrastructure, or request indicators.</description>

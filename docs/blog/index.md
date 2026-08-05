@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [ChainDrop: Sonatype tracks 2,225 affected versions and adds response guidance](../ops/chaindrop-keyv-cacheable-npm-worm.md#sonatype-affected-version-and-response-update)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
