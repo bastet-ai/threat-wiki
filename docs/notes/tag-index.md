@@ -39,7 +39,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (58)
+- [active exploitation](#active-exploitation) (59)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -76,6 +76,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Africa](#africa) (4)
 - [agent frameworks](#agent-frameworks) (3)
 - [agent memory](#agent-memory) (1)
+- [agent polling protocol](#agent-polling-protocol) (1)
 - [agent skills](#agent-skills) (2)
 - [agent state](#agent-state) (1)
 - [AgentBaiting](#agentbaiting) (1)
@@ -363,6 +364,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BTMOB](#btmob) (1)
 - [bucket hijacking](#bucket-hijacking) (1)
 - [bucket squatting](#bucket-squatting) (1)
+- [build server](#build-server) (1)
 - [build-time compromise](#build-time-compromise) (2)
 - [building automation](#building-automation) (1)
 - [bulletproof hosting](#bulletproof-hosting) (1)
@@ -448,12 +450,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chromium extension](#chromium-extension) (1)
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (3)
-- [CI/CD](#cicd) (40)
+- [CI/CD](#cicd) (41)
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (4)
-- [CISA KEV](#cisa-kev) (28)
+- [CISA](#cisa) (5)
+- [CISA KEV](#cisa-kev) (29)
 - [Cisco](#cisco) (4)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -526,7 +528,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CMS exploitation](#cms-exploitation) (1)
 - [CNCERT](#cncert) (1)
 - [Cobalt Strike](#cobalt-strike) (6)
-- [code execution](#code-execution) (2)
+- [code execution](#code-execution) (3)
 - [code injection](#code-injection) (1)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
@@ -796,6 +798,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-62144](#cve-2026-62144) (1)
 - [CVE-2026-62145](#cve-2026-62145) (1)
 - [CVE-2026-63030](#cve-2026-63030) (1)
+- [CVE-2026-63077](#cve-2026-63077) (1)
 - [CVE-2026-66747](#cve-2026-66747) (1)
 - [CVE-2026-6682](#cve-2026-6682) (1)
 - [CVE-2026-6683](#cve-2026-6683) (1)
@@ -874,7 +877,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (4)
 - [deployment_status](#deployment_status) (1)
-- [deserialization](#deserialization) (6)
+- [deserialization](#deserialization) (7)
 - [destructive actions](#destructive-actions) (1)
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
@@ -1508,7 +1511,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JDY](#jdy) (1)
 - [Jellyfin](#jellyfin) (1)
 - [Jenkins](#jenkins) (1)
-- [JetBrains](#jetbrains) (2)
+- [JetBrains](#jetbrains) (3)
 - [JetBrains Marketplace](#jetbrains-marketplace) (1)
 - [JetStream](#jetstream) (1)
 - [JFrog](#jfrog) (3)
@@ -2012,11 +2015,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (255)
+- [operations](#operations) (256)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (288)
+- [ops](#ops) (289)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2604,7 +2607,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SoftEther VPN](#softether-vpn) (2)
 - [SoftPerfect Network Scanner](#softperfect-network-scanner) (1)
 - [software impersonation](#software-impersonation) (1)
-- [software supply chain](#software-supply-chain) (1)
+- [software supply chain](#software-supply-chain) (2)
 - [software-deployment](#software-deployment) (1)
 - [SOHO router](#soho-router) (1)
 - [SOHO routers](#soho-routers) (1)
@@ -2762,6 +2765,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tc](#tc) (1)
 - [TCP traffic diversion](#tcp-traffic-diversion) (1)
 - [TDS](#tds) (2)
+- [TeamCity](#teamcity) (1)
 - [TeamPCP](#teampcp) (10)
 - [TeamPCP-adjacent](#teampcp-adjacent) (1)
 - [Teams access](#teams-access) (1)
@@ -2903,7 +2907,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unattributed](#unattributed) (1)
 - [unauthenticated access](#unauthenticated-access) (3)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
-- [unauthenticated RCE](#unauthenticated-rce) (6)
+- [unauthenticated RCE](#unauthenticated-rce) (7)
 - [UNC1543](#unc1543) (1)
 - [UNC1549](#unc1549) (5)
 - [UNC2814](#unc2814) (1)
@@ -3327,6 +3331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -3507,6 +3512,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## agent memory
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
+
+## agent polling protocol
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 
 ## agent skills
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
@@ -4626,6 +4634,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## bucket squatting
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
+## build server
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
+
 ## build-time compromise
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
@@ -4980,6 +4991,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -5017,6 +5029,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 
 ## CISA KEV
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
@@ -5030,6 +5043,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
@@ -5361,6 +5375,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## code execution
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 
 ## code injection
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -6416,6 +6431,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-63030
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
+## CVE-2026-63077
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
+
 ## CVE-2026-66747
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 
@@ -6733,6 +6751,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## deserialization
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
@@ -9254,6 +9273,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JetBrains
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 
 ## JetBrains Marketplace
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
@@ -11396,6 +11416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
@@ -11671,6 +11692,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
@@ -14170,6 +14192,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## software supply chain
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 
 ## software-deployment
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
@@ -14840,6 +14863,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
+## TeamCity
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
+
 ## TeamPCP
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -15451,6 +15477,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
+- [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 

@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>JetBrains TeamCity CVE-2026-63077 active exploitation</title>
+      <link>https://threat.wiki/ops/jetbrains-teamcity-cve-2026-63077-exploitation/</link>
+      <description>Added CISA's August 5 KEV entry for unauthenticated TeamCity On-Premises remote code execution through the agent polling protocol. Coverage records the August 8 deadline, affected and fixed releases, JetBrains' patch-plugin fallback, TeamCity Cloud scope, CI/CD and artifact-integrity impact, evidence-preserving response priorities, and the absence of public actor, payload, infrastructure, or request indicators.</description>
+      <pubDate>Wed, 05 Aug 2026 19:28:41 GMT</pubDate>
+      <guid>https://threat.wiki/ops/jetbrains-teamcity-cve-2026-63077-exploitation/</guid>
+    </item>
+    <item>
+      <title>ChainDrop: Sonatype affected-version and response update</title>
+      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#sonatype-affected-version-and-response-update</link>
+      <description>Added Sonatype Research Labs' independent 2,225-component-version snapshot and sonatype-2026-005579 advisory, reconciled the lower count with SafeDep's 2,234-version reconstruction as a collection and classification difference, added the Math_Init.js filename variant, and reinforced isolate-preserve-remove-persistence-then-rotate containment order for any environment that executed an affected release.</description>
+      <pubDate>Wed, 05 Aug 2026 19:28:41 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#sonatype-affected-version-and-response-update</guid>
+    </item>
+    <item>
       <title>macOS ClickFix fingerprinting-gate campaign</title>
       <link>https://threat.wiki/ops/macos-clickfix-fingerprinting-gate-campaign/</link>
       <description>Added Microsoft Threat Intelligence's analysis of a macOS ClickFix campaign that moved more than 250 dictionary-style front-end domains behind server-side browser fingerprinting. Coverage records conditional lure and decoy delivery, WebGL and anti-analysis checks, the mode: php submission pivot, MacSync and AMOS staging through /curl/&lt;id&gt;, published domains, endpoint hunts, and campaign-scope and attribution limits.</description>

@@ -40,9 +40,10 @@ This is an **active incident**. SafeDep's later August 4 snapshot counted **2,23
 - JFrog independently recovered repository-infection and GitHub Actions secret-harvesting detail, including branch and workflow artifacts plus file hashes defenders can hunt independently of the package list.
 - Wiz's 19:50 UTC payload update found selective, C2-controlled arming of the token-revocation dead-man switch, per-host fingerprinting, a rotated exfiltration key, nearly 70% more credential-target definitions, and two prior smart-contract-resolved domains. This changes containment and scoping: responders should not assume every infected host received the same destructive command or that blocking only the currently resolved domain covers the campaign history.
 - Microsoft Threat Intelligence independently classified the payload as a Mini Shai-Hulud variant and published Defender detections and Advanced Hunting pivots. Microsoft also found that many propagated patch releases had no matching source commit, pull request, tag, or legitimate release, supporting direct tarball modification with stolen npm publication access rather than a separate source-repository compromise for every affected publisher.
+- Sonatype independently tracked **2,225 affected component versions** under `sonatype-2026-005579`. Its August 5 snapshot is nine versions below SafeDep's later 2,234-version reconstruction, reinforcing that vendor inventories reflect different collection and classification windows rather than a stable final count. Sonatype also added `Math_Init.js` as a filename/case variant and explicitly recommends treating any environment that executed an affected version as potentially compromised.
 
 ## Confidence and attribution
-- The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, SafeDep, and Microsoft Threat Intelligence.
+- The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, SafeDep, Microsoft Threat Intelligence, and Sonatype Research Labs.
 - Aikido labels the wave active Shai-Hulud activity. Socket says the behavior closely matches Shai-Hulud: TruffleHog-style secret collection, maintainer-package enumeration, npm token and OIDC publication, and victim-account GitHub repositories.
 - Socket did **not** recover the campaign's self-identifying repository or commit markers because relevant strings were assembled at runtime. Public Shai-Hulud-derived tooling also makes copycat reuse possible. Track ChainDrop as a Shai-Hulud-lineage assessment, not confirmed TeamPCP attribution.
 - StepSecurity assesses the payload as a direct, heavily evolved descendant of Shai-Hulud 2.0 based on Bun/preinstall delivery, `Runner.Worker` memory scraping, npm self-republication, and GitHub exfiltration. Its Russian-locale kill switch is an operator-language clue, not sufficient actor or nationality attribution.
@@ -169,11 +170,20 @@ Microsoft added two useful implementation details:
 
 Published Microsoft Defender Antivirus labels include `Trojan:NPM/ShaiLoader.BY`, `Trojan:NPM/MalBun.A`, and `Trojan:NPM/ShaiWorm.DAY!MTB`, with behavior detections `Behavior:Linux/SuspBunActivity.A` and `Behavior:Win32/SuspBunActivity.A`. Microsoft Defender for Endpoint hunting focuses on `node setup.mjs`, a Node-launched `bun` or `bun.exe` under `bun-dl-*` or `node_modules`, the three known loader/payload hashes, and Bun-launched credential commands such as `gh auth token`, `gcloud config config-helper`, `az account get-access-token`, and `azd auth token`.
 
+### Sonatype affected-version and response update
+
+Sonatype Research Labs' August 5 snapshot tracks **2,225 component versions** under advisory `sonatype-2026-005579`. That total is lower than SafeDep's 2,234-version reconstruction despite being published later. Treat the difference as a reminder that active-incident inventories depend on observation windows, registry state, and classification rules; do not infer that nine versions were remediated or removed solely from the count change.
+
+Sonatype independently describes the same `preinstall` → `setup.mjs` → downloaded Bun → `Math_Symbol.js` / `Math_Init.js` chain, credential discovery across files, environment variables, processes, metadata services, Kubernetes, and Vault, and automated republishing through stolen npm access. It also highlights the case-sensitive `Math_Init.js` spelling in addition to names already reported by other vendors.
+
+For response, Sonatype says an environment that installed an affected release should be treated as potentially compromised. Its guidance aligns with the containment order already recorded here: isolate and preserve evidence, remove malware and persistence, then revoke and rotate exposed credentials, and rebuild from known-good components. A numerically later package release is not sufficient evidence of cleanliness.
+
 ## Indicators and hunting pivots
 
 ### Files and execution
 - `setup.mjs`
 - `Math_Symbol.js`
+- `Math_Init.js`
 - `math_init.js`
 - npm lifecycle entry `"preinstall": "node setup.mjs"`
 - process chain `node setup.mjs` spawning a downloaded `bun`
@@ -268,3 +278,4 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Socket: [Popular npm Packages in the keyv and Cacheable Namespaces Compromised in Active Supply Chain Attack](https://socket.dev/blog/popular-npm-packages-in-the-keyv-and-cacheable-namespaces-compromised-in-active-supply-chain)
 - Aikido Security: [Keyv and friends compromised in active Shai-Hulud supply chain attack](https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack)
 - Microsoft Security Blog: [ChainDrop supply chain compromise: Anatomy of a self-propagating worm](https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/)
+- Sonatype Research: [Mini Shai-Hulud npm Attack: More Than 2,200 Components Impacted](https://www.sonatype.com/blog/mini-shai-hulud-npm-attack-more-than-2200-components-impacted)
