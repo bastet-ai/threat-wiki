@@ -31,6 +31,7 @@ For threat.wiki tracking, the current high-signal update is Acronis Threat Resea
 - Acronis specifically noted code and design similarities between MINIRECON and **TONESHELL**, a tool family associated in public reporting with Mustang Panda.
 
 ## Current durable coverage
+- [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md) — trojanized VPN/accelerator installers filtered Windows endpoints and deployed the FDMTP backdoor. Fortinet found high-confidence tooling and infrastructure continuity with Twill Typhoon / Mustang Panda reporting but did not confidently attribute the QuickFox compromise itself.
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md) — two concurrent India-focused campaigns using Solid PDF Creator DLL sideloading, SHARDLOADER, MINIRECON, ZOHOMURK, Zoho WorkDrive C2/exfiltration, and CERT-In coordination.
 
 ## Defender notes

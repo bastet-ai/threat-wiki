@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>QuickFox FDMTP software supply-chain compromise</title>
+      <link>https://threat.wiki/ops/quickfox-fdmtp-supply-chain-compromise/</link>
+      <description>Added FortiGuard Labs reporting on a year-long compromise of QuickFox Windows installers. Coverage records the Electron JavaScript loader, process-based corporate target selection, two generations of csmonitor.exe DLL sideloading, modular FDMTP backdoor behavior, affected-version limits, vendor remediation, infrastructure and file indicators, Mustang Panda attribution caveats, and endpoint response guidance.</description>
+      <pubDate>Wed, 05 Aug 2026 07:25:53 GMT</pubDate>
+      <guid>https://threat.wiki/ops/quickfox-fdmtp-supply-chain-compromise/</guid>
+    </item>
+    <item>
       <title>ChainDrop: Microsoft adds direct-publication evidence and Defender hunts</title>
       <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#microsoft-defender-and-direct-publication-follow-up</link>
       <description>Added Microsoft Threat Intelligence's classification of ChainDrop as a Mini Shai-Hulud variant, evidence that many propagated patch releases were direct tarball modifications without matching source releases, additional Claude and VS Code setup-file pivots, the double-Base64 GitHub-token fallback, and Microsoft Defender malware labels, behavior detections, and process-lineage hunts.</description>

@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
+- [FDMTP](../tools/fdmtp.md)
 - [ChainDrop: Microsoft adds direct-publication evidence and Defender hunts](../ops/chaindrop-keyv-cacheable-npm-worm.md#microsoft-defender-and-direct-publication-follow-up)
 - [ChainDrop: Wiz adds selective dead-man-switch control, host fingerprinting, and historical C2](../ops/chaindrop-keyv-cacheable-npm-worm.md#wiz-payload-control-and-credential-scope-update)
 - [ChainDrop reaches 2,234 poisoned versions; JFrog and SafeDep add workflow and publisher-path evidence](../ops/chaindrop-keyv-cacheable-npm-worm.md#jfrog-and-safedep-scope-and-infrastructure-follow-up)
