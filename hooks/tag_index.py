@@ -4,8 +4,14 @@ from collections import defaultdict
 from pathlib import Path
 import posixpath
 import re
+import sys
 
 from markdown.extensions.toc import slugify as md_slugify
+
+# MkDocs loads hook files directly rather than as a Python package, so make the
+# sibling helper importable without requiring an installed project package.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from recent_entries import trim_recent_entries  # noqa: E402
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -114,6 +120,12 @@ def on_pre_build(**kwargs) -> None:
 
 
 def on_page_markdown(markdown: str, page, **kwargs) -> str:
+    # Render-time enforcement is the final safety net: even if an automated
+    # editor forgets to trim the source block, the public homepage never grows
+    # beyond the configured Recent entries limit.
+    if page.file.src_uri == "index.md":
+        markdown = trim_recent_entries(markdown)
+
     if page.file.src_uri == TAG_INDEX_SRC_URI:
         return markdown
 
