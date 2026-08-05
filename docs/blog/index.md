@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [FDMTP](../tools/fdmtp.md)
 - [ChainDrop: Microsoft adds direct-publication evidence and Defender hunts](../ops/chaindrop-keyv-cacheable-npm-worm.md#microsoft-defender-and-direct-publication-follow-up)

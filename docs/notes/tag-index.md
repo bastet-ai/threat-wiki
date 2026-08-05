@@ -447,7 +447,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chromium extension](#chromium-extension) (1)
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (3)
-- [CI/CD](#cicd) (39)
+- [CI/CD](#cicd) (40)
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
@@ -830,7 +830,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [D2IP](#d2ip) (1)
 - [dangling resources](#dangling-resources) (1)
 - [DarkSword](#darksword) (1)
-- [data exfiltration](#data-exfiltration) (10)
+- [data exfiltration](#data-exfiltration) (11)
 - [data exposure](#data-exposure) (3)
 - [data extortion](#data-extortion) (2)
 - [data leak site](#data-leak-site) (2)
@@ -892,9 +892,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer tooling](#developer-tooling) (6)
 - [developer workstations](#developer-workstations) (3)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
-- [developer-targeting](#developer-targeting) (21)
+- [developer-targeting](#developer-targeting) (22)
 - [developer-tools](#developer-tools) (1)
-- [developer-workstations](#developer-workstations) (4)
+- [developer-workstations](#developer-workstations) (5)
 - [device identity](#device-identity) (1)
 - [device lockout](#device-lockout) (1)
 - [device registration](#device-registration) (1)
@@ -927,7 +927,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DMTP](#dmtp) (1)
 - [DNS C2](#dns-c2) (2)
 - [DNS callback](#dns-callback) (1)
-- [DNS dead drop](#dns-dead-drop) (1)
+- [DNS dead drop](#dns-dead-drop) (2)
 - [DNS exfiltration](#dns-exfiltration) (4)
 - [DNS hijacking](#dns-hijacking) (1)
 - [DNS resolution](#dns-resolution) (1)
@@ -1396,7 +1396,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [iCloud theft](#icloud-theft) (1)
 - [ICONICSTEALER](#iconicstealer) (1)
 - [ICS](#ics) (3)
-- [IDE extension](#ide-extension) (1)
+- [IDE extension](#ide-extension) (2)
 - [IDE plugins](#ide-plugins) (1)
 - [ide.cfm](#idecfm) (1)
 - [identity](#identity) (3)
@@ -1872,7 +1872,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NadMesh](#nadmesh) (1)
 - [named pipes](#named-pipes) (1)
 - [namespace recycling](#namespace-recycling) (1)
-- [namespace squatting](#namespace-squatting) (1)
+- [namespace squatting](#namespace-squatting) (2)
 - [NAS targeting](#nas-targeting) (1)
 - [nation-state](#nation-state) (1)
 - [national identity records](#national-identity-records) (1)
@@ -1981,6 +1981,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [opaque predicates](#opaque-predicates) (2)
 - [open directory](#open-directory) (1)
 - [Open Interpreter](#open-interpreter) (1)
+- [Open VSX](#open-vsx) (1)
 - [Open WebUI](#open-webui) (1)
 - [OpenAI](#openai) (2)
 - [OpenAI Codex](#openai-codex) (1)
@@ -2005,11 +2006,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (252)
+- [operations](#operations) (253)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (285)
+- [ops](#ops) (286)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2292,7 +2293,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RDS](#rds) (1)
 - [Reality](#reality) (1)
 - [Reaper](#reaper) (1)
-- [reconnaissance](#reconnaissance) (2)
+- [reconnaissance](#reconnaissance) (3)
 - [recovery denial](#recovery-denial) (2)
 - [recovery disruption](#recovery-disruption) (2)
 - [recovery flow](#recovery-flow) (1)
@@ -2699,7 +2700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (15)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (95)
+- [supply-chain](#supply-chain) (96)
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -2995,7 +2996,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN gateway](#vpn-gateway) (1)
 - [VPN Go](#vpn-go) (1)
 - [VPN session hijacking](#vpn-session-hijacking) (1)
-- [VS Code](#vs-code) (8)
+- [VS Code](#vs-code) (9)
 - [VS Code tunnels](#vs-code-tunnels) (1)
 - [Vshell](#vshell) (1)
 - [VShell](#vshell) (1)
@@ -4972,6 +4973,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
@@ -6528,6 +6530,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## data exposure
@@ -6811,6 +6814,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
@@ -6828,6 +6832,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 
 ## device identity
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
@@ -6965,6 +6970,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 
 ## DNS dead drop
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 - [TELEPUZ](../tools/telepuz.md)
 
 ## DNS exfiltration
@@ -8747,6 +8753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## IDE extension
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 
 ## IDE plugins
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
@@ -10705,6 +10712,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## namespace squatting
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 
 ## NAS targeting
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -11151,6 +11159,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Open Interpreter
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
+## Open VSX
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
+
 ## Open WebUI
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 
@@ -11396,6 +11407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
@@ -11678,6 +11690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
@@ -12951,6 +12964,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## reconnaissance
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 
 ## recovery denial
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -14556,6 +14570,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
@@ -15751,6 +15766,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 

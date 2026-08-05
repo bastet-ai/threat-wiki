@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Open VSX evil-twin extension campaign</title>
+      <link>https://threat.wiki/ops/open-vsx-evil-twin-extension-campaign/</link>
+      <description>Added Manifold Security's analysis of 77 counterfeit Open VSX extensions removed after beaconing to shared infrastructure. Coverage distinguishes 58 hostname-oriented beacons from 19 reconnaissance payloads that collected Git, workspace, editor, and private CI project identity; records mangorbit.com endpoints and DNS TXT failover; and provides registry-ownership, endpoint-inventory, exposure-scoping, and seven-day retry hunting guidance without overstating source or credential theft.</description>
+      <pubDate>Wed, 05 Aug 2026 11:26:31 GMT</pubDate>
+      <guid>https://threat.wiki/ops/open-vsx-evil-twin-extension-campaign/</guid>
+    </item>
+    <item>
       <title>QuickFox FDMTP software supply-chain compromise</title>
       <link>https://threat.wiki/ops/quickfox-fdmtp-supply-chain-compromise/</link>
       <description>Added FortiGuard Labs reporting on a year-long compromise of QuickFox Windows installers. Coverage records the Electron JavaScript loader, process-based corporate target selection, two generations of csmonitor.exe DLL sideloading, modular FDMTP backdoor behavior, affected-version limits, vendor remediation, infrastructure and file indicators, Mustang Panda attribution caveats, and endpoint response guidance.</description>

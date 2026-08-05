@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Open VSX evil-twin extension campaign](ops/open-vsx-evil-twin-extension-campaign.md)
 - [QuickFox FDMTP software supply-chain compromise](ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [FDMTP](tools/fdmtp.md)
 - [ChainDrop: Microsoft adds direct-publication evidence and Defender hunts](ops/chaindrop-keyv-cacheable-npm-worm.md#microsoft-defender-and-direct-publication-follow-up)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [ChainDrop expands to 444 packages / 2,212 versions; Backstage CI execution confirmed](ops/chaindrop-keyv-cacheable-npm-worm.md#confirmed-public-ci-execution-backstage)
 - [ChainDrop containment update: full carriers reverted while propagated-package cleanup continues](ops/chaindrop-keyv-cacheable-npm-worm.md#stepsecurity-containment-update-1810-utc)
-- [Direct-to-IP malware communications: Phorpiex, SectopRAT, Mozi, and Boatnet](patterns/direct-to-ip-malware-communications.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
