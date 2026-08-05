@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>ChainDrop: Microsoft adds direct-publication evidence and Defender hunts</title>
+      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#microsoft-defender-and-direct-publication-follow-up</link>
+      <description>Added Microsoft Threat Intelligence's classification of ChainDrop as a Mini Shai-Hulud variant, evidence that many propagated patch releases were direct tarball modifications without matching source releases, additional Claude and VS Code setup-file pivots, the double-Base64 GitHub-token fallback, and Microsoft Defender malware labels, behavior detections, and process-lineage hunts.</description>
+      <pubDate>Wed, 05 Aug 2026 03:27:40 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#microsoft-defender-and-direct-publication-follow-up</guid>
+    </item>
+    <item>
       <title>ChainDrop: selective dead-man-switch control and historical C2</title>
       <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#wiz-payload-control-and-credential-scope-update</link>
       <description>Added Wiz's later ChainDrop payload analysis: selective C2-controlled arming of token-revocation commands, per-host SHA-256 identifiers, RSA-key rotation, historical pypi-get.com and js-mirror.com smart-contract destinations, a fixed lock-file pivot, and expanded AI-agent, wallet, CI, registry, and cloud credential targeting.</description>

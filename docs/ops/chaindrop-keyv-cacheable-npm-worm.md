@@ -39,14 +39,16 @@ This is an **active incident**. SafeDep's later August 4 snapshot counted **2,23
 - SafeDep found the same 727,680-byte payload across the initial `keyv`/`cacheable`, `@hubsync`, and `@ornikar` publisher clusters, but two loader builds and different publication paths. The initial family retained valid OIDC/SLSA provenance, while the latter clusters used direct npm identities without provenance. One campaign therefore crossed both source/CI compromise and stolen-token publication paths.
 - JFrog independently recovered repository-infection and GitHub Actions secret-harvesting detail, including branch and workflow artifacts plus file hashes defenders can hunt independently of the package list.
 - Wiz's 19:50 UTC payload update found selective, C2-controlled arming of the token-revocation dead-man switch, per-host fingerprinting, a rotated exfiltration key, nearly 70% more credential-target definitions, and two prior smart-contract-resolved domains. This changes containment and scoping: responders should not assume every infected host received the same destructive command or that blocking only the currently resolved domain covers the campaign history.
+- Microsoft Threat Intelligence independently classified the payload as a Mini Shai-Hulud variant and published Defender detections and Advanced Hunting pivots. Microsoft also found that many propagated patch releases had no matching source commit, pull request, tag, or legitimate release, supporting direct tarball modification with stolen npm publication access rather than a separate source-repository compromise for every affected publisher.
 
 ## Confidence and attribution
-- The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, and SafeDep.
+- The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, SafeDep, and Microsoft Threat Intelligence.
 - Aikido labels the wave active Shai-Hulud activity. Socket says the behavior closely matches Shai-Hulud: TruffleHog-style secret collection, maintainer-package enumeration, npm token and OIDC publication, and victim-account GitHub repositories.
 - Socket did **not** recover the campaign's self-identifying repository or commit markers because relevant strings were assembled at runtime. Public Shai-Hulud-derived tooling also makes copycat reuse possible. Track ChainDrop as a Shai-Hulud-lineage assessment, not confirmed TeamPCP attribution.
 - StepSecurity assesses the payload as a direct, heavily evolved descendant of Shai-Hulud 2.0 based on Bun/preinstall delivery, `Runner.Worker` memory scraping, npm self-republication, and GitHub exfiltration. Its Russian-locale kill switch is an operator-language clue, not sufficient actor or nationality attribution.
 - Socket and Aikido identify compromise of the `Jaredwray` maintainer/GitHub account as the initial high-impact access path. Maintainer and registry postmortems were not yet public at capture time.
 - JFrog treats the `Shai-Hulud: Here We Go Again` dead-drop description as a self-identifying campaign marker. That supports Shai-Hulud lineage, but a reusable public marker still does not establish TeamPCP operator identity.
+- Microsoft Threat Intelligence calls the payload a Mini Shai-Hulud variant. This strengthens multi-vendor lineage agreement but does not resolve whether TeamPCP, another operator, or a copycat controlled this incident.
 
 ## Reported execution chain
 1. The attacker publishes a new package version containing `setup.mjs`, `Math_Symbol.js` (also referenced internally as `math_init.js`), and `"preinstall": "node setup.mjs"`.
@@ -154,6 +156,19 @@ Wiz independently confirmed Ethereum `eth_call` resolution through a `StringList
 
 The same payload revision expanded credential-target definitions by almost 70%, according to Wiz. Newly covered stores included Claude, OpenAI, Codex, Cursor, and Gemini agent credentials; Foundry, Solana, and Monero keystores; Jenkins `master.key`, Argo CD, and Harbor secrets; Alibaba Cloud and Tencent Cloud CLI configurations; and `/etc/shadow`. This widens post-execution rotation and review beyond the cloud, GitHub, npm, Vault, and Kubernetes targets in earlier reports.
 
+### Microsoft Defender and direct-publication follow-up
+
+Microsoft Threat Intelligence's late August 4 analysis independently reproduced the preinstall-to-Bun execution chain, cloud and secret-store API enumeration, npm token and GitHub Actions OIDC propagation, Ethereum and signed-commit C2 resolution, GitHub fallback exfiltration, and repository-hook persistence. It classified the payload as a Mini Shai-Hulud variant.
+
+Microsoft observed that many malicious patch releases lacked a corresponding source commit, pull request, tag, or legitimate release. This supports a mixed propagation model: the initial `keyv` path could publish attacker-controlled source through a legitimate OIDC workflow, while many later publisher identities were used to alter and publish tarballs directly. A clean public repository is therefore not evidence that its npm artifact was clean.
+
+Microsoft added two useful implementation details:
+
+- the repository path set includes `.claude/setup.mjs` and `.vscode/setup.mjs` alongside the previously reported settings and task files; and
+- one GitHub fallback path stores a stolen token under double Base64 encoding rather than the RSA/AES encrypted results envelope. Responders should not assume every value in a `results-*.json` repository is cryptographically protected or search only for encrypted blobs.
+
+Published Microsoft Defender Antivirus labels include `Trojan:NPM/ShaiLoader.BY`, `Trojan:NPM/MalBun.A`, and `Trojan:NPM/ShaiWorm.DAY!MTB`, with behavior detections `Behavior:Linux/SuspBunActivity.A` and `Behavior:Win32/SuspBunActivity.A`. Microsoft Defender for Endpoint hunting focuses on `node setup.mjs`, a Node-launched `bun` or `bun.exe` under `bun-dl-*` or `node_modules`, the three known loader/payload hashes, and Bun-launched credential commands such as `gh auth token`, `gcloud config config-helper`, `az account get-access-token`, and `azd auth token`.
+
 ## Indicators and hunting pivots
 
 ### Files and execution
@@ -165,6 +180,7 @@ The same payload revision expanded credential-target definitions by almost 70%, 
 - temporary paths matching `bun-dl-*`
 - unexpected `.claude/settings.json` `SessionStart` hooks
 - unexpected `.vscode/tasks.json` tasks with `runOn: folderOpen`
+- unexpected `.claude/setup.mjs` or `.vscode/setup.mjs` repository loaders
 - `~/.local/bin/gh-token-monitor.sh` and unexpected associated user-level systemd service or macOS LaunchAgent
 - temporary files matching `tmp.dpkg_<pid>.lock`
 - `tmp.dpkg_14527.lock` in the later Wiz-analyzed payload revision
@@ -216,10 +232,12 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 4. Audit npm for unexpected versions published by affected identities and GitHub for force pushes, deleted/recreated tags, new repositories, unexpected commits, transient workflows, OIDC exchanges, and repository hooks.
 5. Rebuild affected machines/runners and dependency caches from known-clean images and commits. Roll back to verified clean package versions only after maintainer or registry confirmation.
 6. Review cloud control planes for metadata-credential use outside expected hosts, broad secret enumeration, and activity by CI identities after the first package installation.
+7. Where Microsoft Defender telemetry is available, hunt for the published malware and behavior labels plus Node-to-Bun process lineage; preserve detections and process trees before reimaging.
 
 ### Preventive controls
 - Deny package install scripts by default where feasible and explicitly approve required scripts. This reduces the initial `preinstall` lane but does not stop malicious source hooks or runtime imports.
 - Use dependency cooldowns and tarball diffs; flag new lifecycle hooks, large obfuscated root files, runtime downloads, and sudden releases across many packages.
+- Microsoft specifically recommends npm CLI 11.10.0 or later and its `min-release-age` control. Treat this as a delay layer, not a substitute for install-script restrictions or artifact inspection.
 - Bind trusted publishing to protected GitHub Environments and branch rules. Provenance alone cannot distinguish a legitimate workflow building attacker-controlled source.
 - Separate untrusted pull-request workflows from release permissions, protect release branches/tags, require reviewed changes to workflow and editor/agent configuration, and monitor force pushes.
 - Restrict CI and developer egress to cloud metadata, secret stores, npm publication endpoints, GitHub repository creation, and unnecessary DNS resolvers.
@@ -249,3 +267,4 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - SafeDep: [npm Worm Poisons keyv, cacheable and 400+ Other Packages Across Twelve Organisations](https://safedep.io/keyv-npm-supply-chain-compromise/)
 - Socket: [Popular npm Packages in the keyv and Cacheable Namespaces Compromised in Active Supply Chain Attack](https://socket.dev/blog/popular-npm-packages-in-the-keyv-and-cacheable-namespaces-compromised-in-active-supply-chain)
 - Aikido Security: [Keyv and friends compromised in active Shai-Hulud supply chain attack](https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack)
+- Microsoft Security Blog: [ChainDrop supply chain compromise: Anatomy of a self-propagating worm](https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/)
