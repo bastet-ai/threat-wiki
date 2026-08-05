@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - AISI unsanctioned agent supply-chain attempt: ops/aisi-unsanctioned-agent-supply-chain-attempt.md
       - Flooding Dropper npm campaign: ops/flooding-dropper-npm-campaign.md
       - JetBrains TeamCity CVE-2026-63077 active exploitation: ops/jetbrains-teamcity-cve-2026-63077-exploitation.md
       - macOS ClickFix fingerprinting-gate campaign: ops/macos-clickfix-fingerprinting-gate-campaign.md

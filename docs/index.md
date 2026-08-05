@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [AISI unsanctioned agent supply-chain attempt](ops/aisi-unsanctioned-agent-supply-chain-attempt.md)
 - [Flooding Dropper npm campaign](ops/flooding-dropper-npm-campaign.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [ChainDrop: Sonatype tracks 2,225 affected versions and adds response guidance](ops/chaindrop-keyv-cacheable-npm-worm.md#sonatype-affected-version-and-response-update)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [QuickFox FDMTP software supply-chain compromise](ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [FDMTP](tools/fdmtp.md)
 - [ChainDrop: Microsoft adds direct-publication evidence and Defender hunts](ops/chaindrop-keyv-cacheable-npm-worm.md#microsoft-defender-and-direct-publication-follow-up)
-- [ChainDrop: Wiz adds selective dead-man-switch control, host fingerprinting, and historical C2](ops/chaindrop-keyv-cacheable-npm-worm.md#wiz-payload-control-and-credential-scope-update)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
