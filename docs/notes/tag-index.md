@@ -544,7 +544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [collaboration-tool phishing](#collaboration-tool-phishing) (1)
 - [COM-hijacking](#com-hijacking) (1)
 - [ComfyUI](#comfyui) (1)
-- [command and control](#command-and-control) (3)
+- [command and control](#command-and-control) (4)
 - [command execution](#command-execution) (9)
 - [command injection](#command-injection) (7)
 - [command-execution](#command-execution) (1)
@@ -795,6 +795,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-62144](#cve-2026-62144) (1)
 - [CVE-2026-62145](#cve-2026-62145) (1)
 - [CVE-2026-63030](#cve-2026-63030) (1)
+- [CVE-2026-66747](#cve-2026-66747) (1)
 - [CVE-2026-6682](#cve-2026-6682) (1)
 - [CVE-2026-6683](#cve-2026-6683) (1)
 - [CVE-2026-6684](#cve-2026-6684) (1)
@@ -1006,11 +1007,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [email infrastructure abuse](#email-infrastructure-abuse) (1)
 - [email theft](#email-theft) (4)
 - [embedded configuration](#embedded-configuration) (1)
+- [embedded Linux](#embedded-linux) (1)
 - [embedded systems](#embedded-systems) (1)
 - [Emerald Sleet](#emerald-sleet) (1)
 - [ENCFORGE](#encforge) (2)
 - [encrypted C2](#encrypted-c2) (4)
 - [EncryptInterceptor](#encryptinterceptor) (1)
+- [ENDLESSDOORS](#endlessdoors) (1)
 - [endpoint compromise](#endpoint-compromise) (1)
 - [endpoint management](#endpoint-management) (2)
 - [endpoint management abuse](#endpoint-management-abuse) (1)
@@ -1153,6 +1156,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [firewall](#firewall) (1)
 - [firewall management](#firewall-management) (2)
 - [firmware](#firmware) (2)
+- [firmware backdoor](#firmware-backdoor) (1)
 - [firmware update](#firmware-update) (1)
 - [FishMonger](#fishmonger) (1)
 - [FlexPLM](#flexplm) (1)
@@ -1460,7 +1464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [InvisibleFerret](#invisibleferret) (1)
 - [invocation logging](#invocation-logging) (1)
 - [iOS](#ios) (2)
-- [IoT](#iot) (4)
+- [IoT](#iot) (5)
 - [IoT botnet](#iot-botnet) (7)
 - [IP cameras](#ip-cameras) (1)
 - [IP-in-IP](#ip-in-ip) (1)
@@ -1996,6 +2000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVPN](#openvpn) (3)
 - [OpenVPN-shaped UDP](#openvpn-shaped-udp) (1)
 - [OpenVSX](#openvsx) (1)
+- [OpenWrt](#openwrt) (1)
 - [operation](#operation) (3)
 - [Operation BlueDash](#operation-bluedash) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
@@ -2006,11 +2011,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (253)
+- [operations](#operations) (254)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (286)
+- [ops](#ops) (287)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2026,6 +2031,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OTP interception](#otp-interception) (1)
 - [OtterCookie](#ottercookie) (1)
 - [out-of-bounds write](#out-of-bounds-write) (1)
+- [outbound C2](#outbound-c2) (1)
 - [Outlook](#outlook) (1)
 - [Outlook Web Access](#outlook-web-access) (2)
 - [overlay attacks](#overlay-attacks) (2)
@@ -2378,13 +2384,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [root access](#root-access) (1)
 - [root escalation](#root-escalation) (1)
 - [root execution](#root-execution) (2)
+- [root shell](#root-shell) (1)
 - [rootkit](#rootkit) (4)
 - [ROOTRUN](#rootrun) (1)
 - [ROPC](#ropc) (1)
 - [Rouki obfuscation](#rouki-obfuscation) (1)
 - [Roundcube](#roundcube) (1)
 - [router](#router) (1)
-- [router compromise](#router-compromise) (2)
+- [router compromise](#router-compromise) (3)
 - [router malware](#router-malware) (1)
 - [ROX II](#rox-ii) (1)
 - [RSA](#rsa) (1)
@@ -2527,6 +2534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SharePoint Server](#sharepoint-server) (1)
 - [SharkLoader](#sharkloader) (1)
 - [shell injection](#shell-injection) (1)
+- [Shenzhen Zhibotong Electronics](#shenzhen-zhibotong-electronics) (1)
 - [ShinyHunters](#shinyhunters) (2)
 - [Shodan](#shodan) (1)
 - [ShortLeash](#shortleash) (1)
@@ -2704,6 +2712,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
+- [supply-chain risk](#supply-chain-risk) (1)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
 - [surveillance](#surveillance) (1)
 - [suspected China-aligned](#suspected-china-aligned) (1)
@@ -2893,7 +2902,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unattributed](#unattributed) (1)
 - [unauthenticated access](#unauthenticated-access) (3)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
-- [unauthenticated RCE](#unauthenticated-rce) (5)
+- [unauthenticated RCE](#unauthenticated-rce) (6)
 - [UNC1543](#unc1543) (1)
 - [UNC1549](#unc1549) (5)
 - [UNC2814](#unc2814) (1)
@@ -3004,7 +3013,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vSphere](#vsphere) (2)
 - [vSphere Foundation](#vsphere-foundation) (1)
 - [VU#213560](#vu213560) (1)
-- [VulnCheck](#vulncheck) (1)
+- [VulnCheck](#vulncheck) (2)
 - [vulnerability](#vulnerability) (22)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
 - [vulnerability research](#vulnerability-research) (4)
@@ -3068,6 +3077,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WHM](#whm) (4)
 - [Wi-Fi credential theft](#wi-fi-credential-theft) (1)
 - [Widget Factory](#widget-factory) (1)
+- [Wiflyer](#wiflyer) (1)
 - [wiki](#wiki) (1)
 - [WILDDAY](#wildday) (2)
 - [Windchill](#windchill) (1)
@@ -3142,6 +3152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [yuze](#yuze) (2)
 - [Yx Technology](#yx-technology) (1)
 - [ZAPiXDESK](#zapixdesk) (1)
+- [Zbtlink](#zbtlink) (1)
 - [Zendesk](#zendesk) (1)
 - [Zephyr RTOS](#zephyr-rtos) (1)
 - [Zero Trust](#zero-trust) (1)
@@ -5401,6 +5412,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## command and control
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
@@ -6393,6 +6405,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-63030
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
+## CVE-2026-66747
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+
 ## CVE-2026-6682
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
@@ -7264,6 +7279,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## embedded configuration
 - [ArcBridge](../tools/arcbridge.md)
 
+## embedded Linux
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+
 ## embedded systems
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
@@ -7282,6 +7300,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## EncryptInterceptor
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+
+## ENDLESSDOORS
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 
 ## endpoint compromise
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
@@ -7857,6 +7878,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## firmware
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## firmware backdoor
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 
 ## firmware update
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -9042,6 +9066,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## IoT
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
@@ -11208,6 +11233,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OpenVSX
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
+## OpenWrt
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+
 ## operation
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
@@ -11312,6 +11340,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
@@ -11583,6 +11612,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
@@ -11842,6 +11872,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## out-of-bounds write
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
+
+## outbound C2
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 
 ## Outlook
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -13293,6 +13326,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
+## root shell
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+
 ## rootkit
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -13316,6 +13352,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## router compromise
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## router malware
@@ -13859,6 +13896,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## shell injection
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
+## Shenzhen Zhibotong Electronics
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 
 ## ShinyHunters
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -14610,6 +14650,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## supply-chain integrity
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
+## supply-chain risk
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 
 ## supply-chain-adjacent
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
@@ -15388,6 +15431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## unauthenticated RCE
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
@@ -15793,6 +15837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
 ## VulnCheck
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
 ## vulnerability
@@ -16056,6 +16101,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Widget Factory
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+
+## Wiflyer
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 
 ## wiki
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
@@ -16380,6 +16428,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ZAPiXDESK
 - [GREYVIBE](../actors/greyvibe.md)
+
+## Zbtlink
+- [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 
 ## Zendesk
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)

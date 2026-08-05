@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [ENDLESSDOORS implant in Zbtlink router firmware](ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Open VSX evil-twin extension campaign](ops/open-vsx-evil-twin-extension-campaign.md)
 - [QuickFox FDMTP software supply-chain compromise](ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [FDMTP](tools/fdmtp.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [ChainDrop: Snyk independently validates carrier scope, tarball hash, and advisory](ops/chaindrop-keyv-cacheable-npm-worm.md#snyk-independent-tarball-validation)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [ChainDrop expands to 444 packages / 2,212 versions; Backstage CI execution confirmed](ops/chaindrop-keyv-cacheable-npm-worm.md#confirmed-public-ci-execution-backstage)
-- [ChainDrop containment update: full carriers reverted while propagated-package cleanup continues](ops/chaindrop-keyv-cacheable-npm-worm.md#stepsecurity-containment-update-1810-utc)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

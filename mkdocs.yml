@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - ENDLESSDOORS implant in Zbtlink router firmware: ops/endlessdoors-zbtlink-router-firmware-implant.md
       - Open VSX evil-twin extension campaign: ops/open-vsx-evil-twin-extension-campaign.md
       - QuickFox FDMTP software supply-chain compromise: ops/quickfox-fdmtp-supply-chain-compromise.md
       - CISA KEV August 4 N-central, Tomcat, and Langflow additions: ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md
