@@ -1,7 +1,7 @@
 # ChainDrop keyv / cacheable npm worm
 
 ## Summary
-On August 4, 2026, StepSecurity, Socket, Aikido, Snyk, JFrog, and SafeDep reported a fast-moving npm supply-chain worm affecting `keyv`, the `cacheable` package family, and packages reachable through stolen maintainer identities. StepSecurity named the activity **ChainDrop**. Aikido and JFrog described it as Shai-Hulud activity; Socket assessed that its tradecraft closely matches Shai-Hulud but did not recover a self-identifying campaign marker from the analyzed payload.
+On August 4, 2026, StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, and SafeDep reported a fast-moving npm supply-chain worm affecting `keyv`, the `cacheable` package family, and packages reachable through stolen maintainer identities. StepSecurity named the activity **ChainDrop**. Aikido and JFrog described it as Shai-Hulud activity; Socket assessed that its tradecraft closely matches Shai-Hulud but did not recover a self-identifying campaign marker from the analyzed payload.
 
 The malicious releases add an npm `preinstall` hook, download Bun `1.3.13`, run a heavily obfuscated second stage, harvest developer, CI/CD, cloud, package-registry, Vault, and Kubernetes credentials, and use stolen npm access or OIDC trusted publishing to republish trojanized packages. Socket also reported GitHub and DNS exfiltration plus `.claude` and `.vscode` repository hooks that can execute when source is opened without requiring `npm install`.
 
@@ -38,9 +38,10 @@ This is an **active incident**. SafeDep's later August 4 snapshot counted **2,23
 - SafeDep's later registry reconstruction counted 2,234 poisoned versions under the same 444 package names across 12 organizations between 09:35 and 13:18 UTC. It found that 80% of affected names carried more than one poisoned release and 43 names carried at least 11, making package-name, lifecycle-hook, and payload-hash checks more durable than relying on an early version list.
 - SafeDep found the same 727,680-byte payload across the initial `keyv`/`cacheable`, `@hubsync`, and `@ornikar` publisher clusters, but two loader builds and different publication paths. The initial family retained valid OIDC/SLSA provenance, while the latter clusters used direct npm identities without provenance. One campaign therefore crossed both source/CI compromise and stolen-token publication paths.
 - JFrog independently recovered repository-infection and GitHub Actions secret-harvesting detail, including branch and workflow artifacts plus file hashes defenders can hunt independently of the package list.
+- Wiz's 19:50 UTC payload update found selective, C2-controlled arming of the token-revocation dead-man switch, per-host fingerprinting, a rotated exfiltration key, nearly 70% more credential-target definitions, and two prior smart-contract-resolved domains. This changes containment and scoping: responders should not assume every infected host received the same destructive command or that blocking only the currently resolved domain covers the campaign history.
 
 ## Confidence and attribution
-- The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, Snyk, JFrog, and SafeDep.
+- The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, and SafeDep.
 - Aikido labels the wave active Shai-Hulud activity. Socket says the behavior closely matches Shai-Hulud: TruffleHog-style secret collection, maintainer-package enumeration, npm token and OIDC publication, and victim-account GitHub repositories.
 - Socket did **not** recover the campaign's self-identifying repository or commit markers because relevant strings were assembled at runtime. Public Shai-Hulud-derived tooling also makes copycat reuse possible. Track ChainDrop as a Shai-Hulud-lineage assessment, not confirmed TeamPCP attribution.
 - StepSecurity assesses the payload as a direct, heavily evolved descendant of Shai-Hulud 2.0 based on Bun/preinstall delivery, `Runner.Worker` memory scraping, npm self-republication, and GitHub exfiltration. Its Russian-locale kill switch is an operator-language clue, not sufficient actor or nationality attribution.
@@ -143,6 +144,16 @@ Registry state remained uneven. SafeDep reported the initial `keyv`/`cacheable` 
 
 JFrog added hashes for the planted repository and workflow artifacts and reported that the worm can target up to 50 writable branches per repository, skipping `dependabot/*` and `copilot/*`. It described a separate `dependabot/github_actions/format/setup-formatter` branch containing `.github/workflows/codeql_analysis.yml`, which writes the secrets context to `format-results.txt` and uploads it as an artifact. These artifacts should be hunted even where package-install evidence is absent.
 
+### Wiz payload-control and credential-scope update
+
+Wiz's August 4 update provides a later payload snapshot rather than another registry count. It reported that repository-hook commits had shifted to the message `chore: update config`, the state-file name had become `tmp.dpkg_14527.lock`, and the operator had rotated the RSA key used to encrypt exfiltrated data while retaining the key used to verify GitHub-hosted fallback C2 instructions.
+
+The dead-man switch was no longer simply armed for every infection. Wiz found that the C2 `code` response could select both the command and the GitHub-valid token to monitor through `api.github.com/user`. The payload also attached a SHA-256 host identifier built from concatenated system properties to stolen data. Wiz assesses that this supports per-host delivery of customized dead-man-switch values. Responders should still isolate and stop the implant before token revocation, but should preserve C2 responses and host identifiers to determine which systems were actually armed.
+
+Wiz independently confirmed Ethereum `eth_call` resolution through a `StringListStore` contract and reported that its on-chain history initially returned three domains before being changed to only `npm-cache[.]com`. Its IOC table identifies the two historical alternatives as `pypi-get[.]com` and `js-mirror[.]com`. The contract owner's funding source had previously been flagged for scam association; that is infrastructure context, not actor attribution.
+
+The same payload revision expanded credential-target definitions by almost 70%, according to Wiz. Newly covered stores included Claude, OpenAI, Codex, Cursor, and Gemini agent credentials; Foundry, Solana, and Monero keystores; Jenkins `master.key`, Argo CD, and Harbor secrets; Alibaba Cloud and Tencent Cloud CLI configurations; and `/etc/shadow`. This widens post-execution rotation and review beyond the cloud, GitHub, npm, Vault, and Kubernetes targets in earlier reports.
+
 ## Indicators and hunting pivots
 
 ### Files and execution
@@ -156,10 +167,12 @@ JFrog added hashes for the planted repository and workflow artifacts and reporte
 - unexpected `.vscode/tasks.json` tasks with `runOn: folderOpen`
 - `~/.local/bin/gh-token-monitor.sh` and unexpected associated user-level systemd service or macOS LaunchAgent
 - temporary files matching `tmp.dpkg_<pid>.lock`
+- `tmp.dpkg_14527.lock` in the later Wiz-analyzed payload revision
 - victim-account repositories or commits containing `results-*.json`
 - `~/.config/gh-token-monitor/`, `~/.config/systemd/user/gh-token-monitor.service`, or `~/Library/LaunchAgents/com.user.gh-token-monitor.plist`
 - unexpected GitHub Actions workflow named `Run Copilot`, artifact named `format-results`, or workflow content that writes `${{ toJSON(secrets) }}` to `format-results.txt`
 - branch `dependabot/github_actions/format/setup-formatter`, workflow `.github/workflows/codeql_analysis.yml`, output `format-results.txt`, commit message `Add CodeQL Analysis`, or forged `github-advanced-security[bot]` identity
+- repository-hook commit message `chore: update config`
 - repository commits `ee2681a9b62f3637b0eb5133c36c864d3376cc5b` (payload), `d8c850c7800e…` (IDE/agent hooks), `f97eabcdd057105f1fce3f05d6c029dac3f2ac78` (evidence removal), and `174f6a55690b0812a69adef47260ba8714a9be48` (sibling staging)
 
 ### SHA-256
@@ -183,6 +196,8 @@ JFrog added hashes for the planted repository and workflow artifacts and reporte
 - Ethereum mainnet contract `0xE1f2395ee43e45A1556EC6438a88c31B83493103`, queried with `eth_call` selector `0x53ed5143`
 - GitHub commit-search strings `thebeautifulmarchoftime` and `IfYouBlockThisAPIKeyItWillCrashTheLiveProductionServersOfAllThirdPartyClients`
 - `npm-cache[.]com` — C2 domain observed by StepSecurity; investigate `GET /router` health checks returning HTTP 400/404 and encrypted `POST /router` traffic
+- `pypi-get[.]com` and `js-mirror[.]com` — historical smart-contract-resolved domains reported by Wiz; validate current ownership and historical DNS/HTTP telemetry before blocking
+- `Bun/1.3.13` — Wiz-reported user agent; correlate with npm install, temporary Bun-download paths, and the listed C2/RPC destinations because Bun itself is legitimate
 
 The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, identity, volume, and timing rather than treating the domains as stand-alone malicious indicators.
 
@@ -215,6 +230,7 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Registry and GitHub containment actions, malicious-version removal times, and credential invalidation scope.
 - Names, visibility, and recoverable indicators for attacker-created GitHub exfiltration repositories and the DNS channel.
 - Current values and transaction history of the Ethereum C2 contract, replacement domains, and signed-commit fallback infrastructure.
+- Which infected hosts received selectively armed dead-man-switch instructions, what commands were returned, and whether the per-host identifier was used for other targeted tasking.
 - Whether ChainDrop is operated by TeamPCP, another Shai-Hulud-lineage actor, or a copycat using leaked tooling.
 - Confirmed victim execution and downstream cloud/repository compromise beyond package publication.
 - Final disposition of propagated releases, including the `@picsart`, `@deliveroo`, `@servicetitan`, and `@nebula.js` scopes, and whether clean restoration preserved or replaced package names.
@@ -227,6 +243,7 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 
 ## Sources
 - StepSecurity: [ChainDrop npm Worm: Bun-loaded CI/CD credential harvester with Ethereum dead-drop C2](https://www.stepsecurity.io/blog/chaindrop-npm-worm)
+- Wiz Research: [keyv and cacheable npm Package Hijacked in Supply Chain Attack](https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack)
 - Snyk: [Inside the keyv npm Compromise: preinstall Malware, Trusted Provenance, and IDE Hooks](https://snyk.io/blog/inside-keyv-npm-compromise-preinstall-malware-trusted-provenance-ide-hooks/)
 - JFrog Security Research: [Major Shai Hulud campaign strikes npm again, affecting keyv and 400+ packages](https://research.jfrog.com/post/shai-hulud-is-back-august/)
 - SafeDep: [npm Worm Poisons keyv, cacheable and 400+ Other Packages Across Twelve Organisations](https://safedep.io/keyv-npm-supply-chain-compromise/)

@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>ChainDrop: selective dead-man-switch control and historical C2</title>
+      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#wiz-payload-control-and-credential-scope-update</link>
+      <description>Added Wiz's later ChainDrop payload analysis: selective C2-controlled arming of token-revocation commands, per-host SHA-256 identifiers, RSA-key rotation, historical pypi-get.com and js-mirror.com smart-contract destinations, a fixed lock-file pivot, and expanded AI-agent, wallet, CI, registry, and cloud credential targeting.</description>
+      <pubDate>Wed, 05 Aug 2026 01:26:54 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#wiz-payload-control-and-credential-scope-update</guid>
+    </item>
+    <item>
       <title>ChainDrop reaches 2,234 poisoned versions; JFrog and SafeDep add workflow evidence</title>
       <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#jfrog-and-safedep-scope-and-infrastructure-follow-up</link>
       <description>Updated ChainDrop with SafeDep's later reconstruction of 2,234 poisoned versions across 444 package names and 12 organizations, repeated-version and publisher-path analysis, and clean @keyv adapter scoping. Added JFrog's planted workflow, repository-hook, runner-memory-scraper hashes, branch and commit pivots, and reconciliation of conflicting no-C2-host wording with independently documented Ethereum-resolved HTTPS C2.</description>

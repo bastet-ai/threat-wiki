@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [ChainDrop: Wiz adds selective dead-man-switch control, host fingerprinting, and historical C2](ops/chaindrop-keyv-cacheable-npm-worm.md#wiz-payload-control-and-credential-scope-update)
 - [ChainDrop reaches 2,234 poisoned versions; JFrog and SafeDep add workflow and publisher-path evidence](ops/chaindrop-keyv-cacheable-npm-worm.md#jfrog-and-safedep-scope-and-infrastructure-follow-up)
 - [ChainDrop: Snyk independently validates carrier scope, tarball hash, and advisory](ops/chaindrop-keyv-cacheable-npm-worm.md#snyk-independent-tarball-validation)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
