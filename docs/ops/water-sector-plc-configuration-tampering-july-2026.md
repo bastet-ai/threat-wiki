@@ -45,6 +45,19 @@ The joint public reporting describes this sequence:
 
 Impact depended on whether the PLC monitored or controlled equipment, the MicroLogix model, the process function, and the facility's ability to operate manually.
 
+## August 6 exposure-measurement follow-up
+Forescout's August 3 internet scan counted **4,407 exposed Rockwell controllers worldwide**, including **2,844 in the United States**. It found 22 internet-facing controllers in cities named in the recent water incidents; 19 used the same mobile-carrier network. These are exposure correlations, not confirmed compromised devices or utilities.
+
+The scan sharpens several defensive pivots:
+
+- EtherNet/IP on TCP/44818 can expose controller identity and, depending on configuration, unauthenticated setting changes. The observed campaign effects do not require exploitation of a software vulnerability when controller management is already publicly reachable.
+- More than 70% of the US exposure set was hosted on large mobile-carrier networks. Cellular inventory, private-APN design, modem authentication, and carrier-side exposure review should be treated as first-class OT controls.
+- MicroLogix 1400 represented 50% of Forescout's results and MicroLogix 1100 represented 8%.
+- Nineteen of the 22 controllers in affected cities advertised firmware susceptible to `CVE-2017-16740`, a Modbus TCP buffer overflow in MicroLogix 1400 Series B and C firmware 21.002 and earlier. Forescout could not determine whether Modbus TCP was enabled and found no evidence that this flaw was used in the campaign.
+- Rockwell discontinued MicroLogix 1100 in April 2022. Advisory `SD1790` documents factory reset and known-good project restoration after attacker-set password lockout, reinforcing the need for current offline logic backups.
+
+A separate July 30 Censys snapshot found **4,148 Rockwell / Allen-Bradley EtherNet/IP hosts**; Verizon Business, AT&T Mobility, and T-Mobile USA accounted for 59%. Censys and Forescout use different queries, platforms, and dates, so their counts should not be merged or treated as a victim estimate. Both independently show a persistent population of more than 4,100 publicly reachable hosts.
+
 ## Scope and evidence limits
 - **Confirmed devices:** Rockwell Automation / Allen-Bradley MicroLogix 1100 and 1400 series.
 - **Confirmed victim scope:** water and wastewater utilities in at least seven US states reporting incidents to the FBI since July 27, 2026.
@@ -100,3 +113,6 @@ If telemetry suggests access to connected systems, review all adjacent devices a
 - FBI / EPA Public Service Announcement `I-073026-PSA`, July 30, 2026: [https://www.ic3.gov/PSA/2026/PSA260730.pdf](https://www.ic3.gov/PSA/2026/PSA260730.pdf)
 - CISA, FBI, EPA, and DOE, Primary Mitigations to Reduce Cyber Threats to Operational Technology: [https://www.cisa.gov/resources-tools/resources/primary-mitigations-reduce-cyber-threats-operational-technology](https://www.cisa.gov/resources-tools/resources/primary-mitigations-reduce-cyber-threats-operational-technology)
 - UK NCSC, Secure connectivity principles for operational technology: [https://www.ncsc.gov.uk/collection/operational-technology/secure-connectivity](https://www.ncsc.gov.uk/collection/operational-technology/secure-connectivity)
+- Forescout Research, “Exposed Devices Attacked in US Water Systems,” August 6, 2026: [https://www.forescout.com/blog/ot-security-analysis-exposed-devices-attacked-in-us-water-systems/](https://www.forescout.com/blog/ot-security-analysis-exposed-devices-attacked-in-us-water-systems/)
+- Censys, “CISA Alert: Water Tower PLC Targeting,” August 2026: [https://censys.com/blog/cisa-alert-water-tower-plc-targeting/](https://censys.com/blog/cisa-alert-water-tower-plc-targeting/)
+- The Hacker News, “Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities,” August 6, 2026: [https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html](https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html)

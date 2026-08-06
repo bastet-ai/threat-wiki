@@ -39,7 +39,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (59)
+- [active exploitation](#active-exploitation) (60)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -294,6 +294,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Behinder](#behinder) (1)
 - [Belarus](#belarus) (2)
 - [BELQI](#belqi) (1)
+- [Bexo Wallet](#bexo-wallet) (1)
 - [BeyondTrust](#beyondtrust) (1)
 - [Binance Smart Chain](#binance-smart-chain) (1)
 - [binary execution](#binary-execution) (1)
@@ -303,10 +304,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [biometric records](#biometric-records) (1)
 - [BIOPASS RAT](#biopass-rat) (1)
 - [BioShocking](#bioshocking) (1)
-- [BIP-39](#bip-39) (1)
+- [BIP-39](#bip-39) (2)
 - [BirdCall](#birdcall) (1)
 - [Bitbucket](#bitbucket) (1)
-- [Bitcoin](#bitcoin) (3)
+- [Bitcoin](#bitcoin) (4)
+- [Bitcoin Libre](#bitcoin-libre) (1)
 - [BitMiner](#bitminer) (1)
 - [bitsadmin](#bitsadmin) (1)
 - [Bitter](#bitter) (1)
@@ -634,13 +636,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto](#crypto) (2)
 - [crypto clipper](#crypto-clipper) (2)
 - [crypto wallets](#crypto-wallets) (2)
+- [crypto-js](#crypto-js) (1)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (14)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
-- [cryptocurrency theft](#cryptocurrency-theft) (12)
+- [cryptocurrency theft](#cryptocurrency-theft) (13)
 - [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (6)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (4)
 - [cryptojacking](#cryptojacking) (1)
+- [CryptoJS](#cryptojs) (1)
 - [cryptominer](#cryptominer) (2)
 - [cryptomining](#cryptomining) (1)
 - [CSCwt95997](#cscwt95997) (1)
@@ -1049,7 +1053,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESX](#esx) (1)
 - [ESXi](#esxi) (3)
-- [Ethereum](#ethereum) (3)
+- [Ethereum](#ethereum) (4)
 - [Ethereum Name Service](#ethereum-name-service) (1)
 - [EtherHiding](#etherhiding) (5)
 - [Ethiopia](#ethiopia) (1)
@@ -1236,6 +1240,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-6v3r-4p5c-mrp5](#ghsa-6v3r-4p5c-mrp5) (1)
 - [GHSA-c4hm-4h84-2cf3](#ghsa-c4hm-4h84-2cf3) (1)
 - [GHSA-qrpv-q767-xqq2](#ghsa-qrpv-q767-xqq2) (1)
+- [GHSA-rg76-677x-56q9](#ghsa-rg76-677x-56q9) (1)
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [Git](#git) (1)
@@ -1422,6 +1427,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IIOP](#iiop) (1)
 - [IIS](#iis) (1)
 - [IKEv1](#ikev1) (1)
+- [Ill Bloom](#ill-bloom) (1)
 - [image recognition](#image-recognition) (1)
 - [iMessage](#imessage) (1)
 - [Impacket](#impacket) (3)
@@ -1432,7 +1438,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (33)
+- [incident response](#incident-response) (34)
 - [incident-response](#incident-response) (2)
 - [incomplete patch](#incomplete-patch) (1)
 - [IndexedDB](#indexeddb) (3)
@@ -1810,6 +1816,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Midnight Blizzard](#midnight-blizzard) (2)
 - [military logistics](#military-logistics) (1)
 - [military research](#military-research) (1)
+- [Milo Wallet](#milo-wallet) (1)
 - [Mimikatz](#mimikatz) (6)
 - [Minecraft DDoS](#minecraft-ddos) (1)
 - [Mini Shai-Hulud](#mini-shai-hulud) (5)
@@ -1869,6 +1876,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mullvad VPN](#mullvad-vpn) (1)
 - [Multi-Domain Security Management](#multi-domain-security-management) (1)
 - [multi-tenant cloud](#multi-tenant-cloud) (2)
+- [Multiply-With-Carry](#multiply-with-carry) (1)
 - [Mustang Panda](#mustang-panda) (4)
 - [Mustard Tempest](#mustard-tempest) (1)
 - [mutable tags](#mutable-tags) (2)
@@ -1885,6 +1893,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [named pipes](#named-pipes) (1)
 - [namespace recycling](#namespace-recycling) (1)
 - [namespace squatting](#namespace-squatting) (2)
+- [NanChat](#nanchat) (1)
 - [NAS targeting](#nas-targeting) (1)
 - [nation-state](#nation-state) (1)
 - [national identity records](#national-identity-records) (1)
@@ -2019,11 +2028,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (258)
+- [operations](#operations) (259)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (291)
+- [ops](#ops) (292)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2162,7 +2171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PolinRider](#polinrider) (3)
 - [Poly1305](#poly1305) (1)
 - [polyfill](#polyfill) (1)
-- [Polygon](#polygon) (1)
+- [Polygon](#polygon) (2)
 - [Polygon blockchain dead drop](#polygon-blockchain-dead-drop) (2)
 - [Polymarket](#polymarket) (1)
 - [polymorphic loader](#polymorphic-loader) (1)
@@ -2238,6 +2247,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [proxyware](#proxyware) (1)
 - [prt-scan](#prt-scan) (1)
 - [PSEMHUB](#psemhub) (1)
+- [pseudorandom number generator](#pseudorandom-number-generator) (1)
 - [PsExec](#psexec) (4)
 - [PSIGW](#psigw) (1)
 - [psychological operations](#psychological-operations) (1)
@@ -2311,6 +2321,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [recovery denial](#recovery-denial) (2)
 - [recovery disruption](#recovery-disruption) (2)
 - [recovery flow](#recovery-flow) (1)
+- [recovery phrase](#recovery-phrase) (1)
 - [recruitment lures](#recruitment-lures) (1)
 - [Red Dev 10](#red-dev-10) (2)
 - [Red Hat](#red-hat) (1)
@@ -2395,6 +2406,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [root shell](#root-shell) (1)
 - [rootkit](#rootkit) (4)
 - [ROOTRUN](#rootrun) (1)
+- [Rootstock](#rootstock) (1)
 - [ROPC](#ropc) (1)
 - [Rouki obfuscation](#rouki-obfuscation) (1)
 - [Roundcube](#roundcube) (1)
@@ -2402,6 +2414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [router compromise](#router-compromise) (3)
 - [router malware](#router-malware) (1)
 - [ROX II](#rox-ii) (1)
+- [RRWallet](#rrwallet) (1)
 - [RSA](#rsa) (1)
 - [RSA-2048](#rsa-2048) (2)
 - [RSA-OAEP](#rsa-oaep) (1)
@@ -2871,7 +2884,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
 - [trojanized installers](#trojanized-installers) (3)
-- [Tron](#tron) (3)
+- [Tron](#tron) (4)
 - [trusted extension risk](#trusted-extension-risk) (1)
 - [trusted publishing](#trusted-publishing) (3)
 - [trusted relationship abuse](#trusted-relationship-abuse) (2)
@@ -3038,7 +3051,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet drainer](#wallet-drainer) (1)
 - [wallet infrastructure](#wallet-infrastructure) (1)
 - [wallet replacement](#wallet-replacement) (1)
-- [wallet theft](#wallet-theft) (7)
+- [wallet theft](#wallet-theft) (8)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
 - [Wasabi](#wasabi) (2)
@@ -3050,8 +3063,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [watering hole](#watering-hole) (2)
 - [watering-hole](#watering-hole) (2)
 - [weak credentials](#weak-credentials) (1)
-- [weak entropy](#weak-entropy) (1)
+- [weak entropy](#weak-entropy) (2)
 - [weak passwords](#weak-passwords) (2)
+- [weak RNG](#weak-rng) (1)
 - [weapons shipments](#weapons-shipments) (1)
 - [web application](#web-application) (5)
 - [web application compromise](#web-application-compromise) (1)
@@ -3339,6 +3353,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
@@ -4359,6 +4374,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BELQI
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 
+## Bexo Wallet
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
+
 ## BeyondTrust
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 
@@ -4391,6 +4409,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BIP-39
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
 ## BirdCall
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -4401,7 +4420,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bitcoin
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+
+## Bitcoin Libre
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
 ## BitMiner
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
@@ -5900,6 +5923,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
+## crypto-js
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
+
 ## crypto-wallets
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 
@@ -5929,6 +5955,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [Starland RAT](../tools/starland-rat.md)
@@ -5952,6 +5979,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cryptojacking
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
+## CryptoJS
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
 ## cryptominer
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -7523,6 +7553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ethereum
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## Ethereum Name Service
@@ -8176,6 +8207,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GHSA-qrpv-q767-xqq2
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
+
+## GHSA-rg76-677x-56q9
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
 ## GHSA-xhcr-j4j9-3gh7
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -8881,6 +8915,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## IKEv1
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
+## Ill Bloom
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
+
 ## image recognition
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 
@@ -8935,6 +8972,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -10524,6 +10562,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## military research
 - [UNC6508](../actors/unc6508.md)
 
+## Milo Wallet
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
+
 ## Mimikatz
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [CL-STA-1062](../actors/cl-sta-1062.md)
@@ -10754,6 +10795,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
+## Multiply-With-Carry
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
+
 ## Mustang Panda
 - [FDMTP](../tools/fdmtp.md)
 - [Mustang Panda](../actors/mustang-panda.md)
@@ -10810,6 +10854,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## namespace squatting
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
+
+## NanChat
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
 ## NAS targeting
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -11451,6 +11498,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
@@ -11728,6 +11776,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
@@ -12457,6 +12506,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 
 ## Polygon
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [Starland RAT](../tools/starland-rat.md)
 
 ## Polygon blockchain dead drop
@@ -12766,6 +12816,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PSEMHUB
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
+## pseudorandom number generator
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
 ## PsExec
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -13093,6 +13146,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## recovery flow
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
+## recovery phrase
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
 ## recruitment lures
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -13424,6 +13480,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ROOTRUN
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
+## Rootstock
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
+
 ## ROPC
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 
@@ -13446,6 +13505,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ROX II
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+
+## RRWallet
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
 ## RSA
 - [OP-512](../actors/op-512.md)
@@ -15349,6 +15411,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Tron
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
 ## trusted extension risk
@@ -16012,6 +16075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -16059,10 +16123,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## weak entropy
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
 ## weak passwords
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [RustDuck](../tools/rustduck.md)
+
+## weak RNG
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
 ## weapons shipments
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)

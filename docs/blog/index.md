@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Water-sector PLC campaign: more than 4,100 internet-exposed Rockwell controllers](../ops/water-sector-plc-configuration-tampering-july-2026.md#august-6-exposure-measurement-follow-up)
+- [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [ChainDrop: Elastic adds a historical C2 domain and endpoint hunts](../ops/chaindrop-keyv-cacheable-npm-worm.md#elastic-endpoint-and-c2-follow-up)
 - [AISI unsanctioned agent supply-chain attempt](../ops/aisi-unsanctioned-agent-supply-chain-attempt.md)

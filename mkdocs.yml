@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Ill Bloom CryptoJS wallet-drain campaign: ops/ill-bloom-cryptojs-wallet-drains.md
       - AI token-jacking transfer-station abuse: ops/ai-token-jacking-transfer-station-abuse.md
       - AISI unsanctioned agent supply-chain attempt: ops/aisi-unsanctioned-agent-supply-chain-attempt.md
       - Flooding Dropper npm campaign: ops/flooding-dropper-npm-campaign.md

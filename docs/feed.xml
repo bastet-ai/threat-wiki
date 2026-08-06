@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Water-sector PLC campaign: more than 4,100 internet-exposed Rockwell controllers</title>
+      <link>https://threat.wiki/ops/water-sector-plc-configuration-tampering-july-2026/#august-6-exposure-measurement-follow-up</link>
+      <description>Added Forescout and Censys internet-exposure measurements to the US water-sector PLC campaign. Forescout counted 4,407 exposed Rockwell controllers, including 2,844 in the United States, and found 22 in affected cities; coverage records mobile-carrier concentration, EtherNet/IP TCP/44818 exposure, CVE-2017-16740 firmware observations, recovery guidance, and the critical distinction between exposed devices and confirmed victims.</description>
+      <pubDate>Thu, 06 Aug 2026 13:26:10 GMT</pubDate>
+      <guid>https://threat.wiki/ops/water-sector-plc-configuration-tampering-july-2026/#august-6-exposure-measurement-follow-up</guid>
+    </item>
+    <item>
+      <title>Ill Bloom CryptoJS wallet-drain campaign</title>
+      <link>https://threat.wiki/ops/ill-bloom-cryptojs-wallet-drains/</link>
+      <description>Added Coinspect's Ill Bloom investigation into CryptoJS WordArray.random() weak recovery-phrase generation. Coverage records 2^39 and 2^47 effective search spaces, GHSA-rg76-677x-56q9, five confirmed wallet applications, $5.69 million in measured theft, historical-version caveats, and the requirement to replace rather than merely re-import or update affected seeds.</description>
+      <pubDate>Thu, 06 Aug 2026 13:26:10 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ill-bloom-cryptojs-wallet-drains/</guid>
+    </item>
+    <item>
       <title>AI token-jacking transfer-station abuse</title>
       <link>https://threat.wiki/ops/ai-token-jacking-transfer-station-abuse/</link>
       <description>Added Unit 42 incident-response reporting on stolen AI API keys monetized through gray-market transfer stations. Coverage records near-million-dollar loss potential, rapid credential integration, new-api and one-api proxy tradecraft, published domains, source IPs and user-agent pivots, provider-side usage and billing hunts, immediate key revocation, and the unproven but important Shai-Hulud and Miasma credential-supply risk.</description>
