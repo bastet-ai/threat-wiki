@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>GitHub details the guarded OpenSSF malware-advisory ingestion pipeline</title>
+      <link>https://threat.wiki/patterns/dependabot-cross-ecosystem-malware-alerts/#august-6-ingestion-pipeline-follow-up</link>
+      <description>Added GitHub's first-party engineering detail for cross-ecosystem malware alerts: eight covered package ecosystems, the OpenSSF OSV importer and GitHub-origin deduplication path, auto-published advisory risk, exact-commit provenance, fail-closed batch caps, batch rollback, backfill behavior, and responder guidance for preserving advisory revisions and execution evidence.</description>
+      <pubDate>Thu, 06 Aug 2026 19:26:16 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/dependabot-cross-ecosystem-malware-alerts/#august-6-ingestion-pipeline-follow-up</guid>
+    </item>
+    <item>
       <title>JINX-0163 / FulcrumSec cloud-native extortion cluster</title>
       <link>https://threat.wiki/actors/jinx-0163/</link>
       <description>Added Wiz Research's JINX-0163 cloud-native extortion cluster. Coverage records its focus on non-human identities, movement across AWS, Azure, GCP, Okta, and Snowflake, a cloud-hosted AI platform incident involving thousands of secrets, the moderate-confidence FulcrumSec linkage, cloud detection pivots, and the report's indicator and attribution limits.</description>
