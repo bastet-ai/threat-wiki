@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>ChainDrop: Elastic adds a historical C2 domain and endpoint hunts</title>
+      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#elastic-endpoint-and-c2-follow-up</link>
+      <description>Added Elastic Security Labs' independent ChainDrop detonation, including the previously unrecorded smart-contract-resolved awqhnjewqjkl[.]icu C2 domain, claude / claude@users.noreply.github.com repository-commit pivots, Node-to-Bun process and DNS hunts, and careful scoping of the reported aggregate package download reach.</description>
+      <pubDate>Thu, 06 Aug 2026 03:26:16 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#elastic-endpoint-and-c2-follow-up</guid>
+    </item>
+    <item>
       <title>Flooding Dropper npm campaign</title>
       <link>https://threat.wiki/ops/flooding-dropper-npm-campaign/</link>
       <description>Added Sonatype Research Labs' active Flooding Dropper campaign spanning 846 npm components across many low-volume publisher accounts. Coverage records the cross-platform JavaScript loader, randomized HTTPS and DNS TXT fallback delivery, detached execution, Windows ETW and AMSI impairment, AppData and Run-key plus scheduled-task persistence, encrypted reflective follow-on loading, behavioral hunts, response priorities, and the absence of a public full package list, infrastructure set, hashes, victim scope, or attribution.</description>

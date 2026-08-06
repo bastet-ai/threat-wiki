@@ -1,7 +1,7 @@
 # ChainDrop keyv / cacheable npm worm
 
 ## Summary
-On August 4, 2026, StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, and SafeDep reported a fast-moving npm supply-chain worm affecting `keyv`, the `cacheable` package family, and packages reachable through stolen maintainer identities. StepSecurity named the activity **ChainDrop**. Aikido and JFrog described it as Shai-Hulud activity; Socket assessed that its tradecraft closely matches Shai-Hulud but did not recover a self-identifying campaign marker from the analyzed payload.
+On August 4, 2026, StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, SafeDep, and Elastic Security Labs reported a fast-moving npm supply-chain worm affecting `keyv`, the `cacheable` package family, and packages reachable through stolen maintainer identities. StepSecurity named the activity **ChainDrop**. Aikido, JFrog, and Elastic described it as Shai-Hulud activity; Socket assessed that its tradecraft closely matches Shai-Hulud but did not recover a self-identifying campaign marker from the analyzed payload.
 
 The malicious releases add an npm `preinstall` hook, download Bun `1.3.13`, run a heavily obfuscated second stage, harvest developer, CI/CD, cloud, package-registry, Vault, and Kubernetes credentials, and use stolen npm access or OIDC trusted publishing to republish trojanized packages. Socket also reported GitHub and DNS exfiltration plus `.claude` and `.vscode` repository hooks that can execute when source is opened without requiring `npm install`.
 
@@ -41,9 +41,10 @@ This is an **active incident**. SafeDep's later August 4 snapshot counted **2,23
 - Wiz's 19:50 UTC payload update found selective, C2-controlled arming of the token-revocation dead-man switch, per-host fingerprinting, a rotated exfiltration key, nearly 70% more credential-target definitions, and two prior smart-contract-resolved domains. This changes containment and scoping: responders should not assume every infected host received the same destructive command or that blocking only the currently resolved domain covers the campaign history.
 - Microsoft Threat Intelligence independently classified the payload as a Mini Shai-Hulud variant and published Defender detections and Advanced Hunting pivots. Microsoft also found that many propagated patch releases had no matching source commit, pull request, tag, or legitimate release, supporting direct tarball modification with stolen npm publication access rather than a separate source-repository compromise for every affected publisher.
 - Sonatype independently tracked **2,225 affected component versions** under `sonatype-2026-005579`. Its August 5 snapshot is nine versions below SafeDep's later 2,234-version reconstruction, reinforcing that vendor inventories reflect different collection and classification windows rather than a stable final count. Sonatype also added `Math_Init.js` as a filename/case variant and explicitly recommends treating any environment that executed an affected version as potentially compromised.
+- Elastic Security Labs independently detonated the payload and observed an additional smart-contract-resolved C2 domain, `awqhnjewqjkl[.]icu`, alongside `npm-cache[.]com`. Elastic also published endpoint process and DNS hunts and identified worm-generated Git commits by the author `claude` / `claude@users.noreply.github.com` and message `chore: update config`.
 
 ## Confidence and attribution
-- The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, SafeDep, Microsoft Threat Intelligence, and Sonatype Research Labs.
+- The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, SafeDep, Microsoft Threat Intelligence, Sonatype Research Labs, and Elastic Security Labs.
 - Aikido labels the wave active Shai-Hulud activity. Socket says the behavior closely matches Shai-Hulud: TruffleHog-style secret collection, maintainer-package enumeration, npm token and OIDC publication, and victim-account GitHub repositories.
 - Socket did **not** recover the campaign's self-identifying repository or commit markers because relevant strings were assembled at runtime. Public Shai-Hulud-derived tooling also makes copycat reuse possible. Track ChainDrop as a Shai-Hulud-lineage assessment, not confirmed TeamPCP attribution.
 - StepSecurity assesses the payload as a direct, heavily evolved descendant of Shai-Hulud 2.0 based on Bun/preinstall delivery, `Runner.Worker` memory scraping, npm self-republication, and GitHub exfiltration. Its Russian-locale kill switch is an operator-language clue, not sufficient actor or nationality attribution.
@@ -178,6 +179,14 @@ Sonatype independently describes the same `preinstall` → `setup.mjs` → downl
 
 For response, Sonatype says an environment that installed an affected release should be treated as potentially compromised. Its guidance aligns with the containment order already recorded here: isolate and preserve evidence, remove malware and persistence, then revoke and rotate exposed credentials, and rebuild from known-good components. A numerically later package release is not sufficient evidence of cleanliness.
 
+### Elastic endpoint and C2 follow-up
+
+Elastic Security Labs' August 6 analysis independently reproduced the npm `preinstall` path, Bun download, cross-platform payload, credential collection, automated npm republishing, Ethereum dead-drop resolution, GitHub fallback, and Claude Code / VS Code repository hooks. Its detonation observed `awqhnjewqjkl[.]icu` returned through the smart-contract discovery path in addition to `npm-cache[.]com`. This is a new historical C2 pivot; because the contract is mutable, a domain's presence in historical telemetry is stronger evidence when correlated with Bun or Node ancestry, the contract query, or known files.
+
+Elastic reported that the collector checks more than 300 credential patterns and highlighted AI-tool credentials for Anthropic, Claude, Codex, Cursor, OpenAI, and Gemini alongside cloud, GitHub, npm, Vault, SSH, and Kubernetes material. It also tied worm-generated repository changes to author `claude` / `claude@users.noreply.github.com` and commit message `chore: update config`. The author and message are hunt pivots, not proof on their own: both fields can be chosen by legitimate users or copied by another actor.
+
+Elastic's process hunts focus on `node setup.mjs`, Bun command lines containing `Math_Symbol.js` or `math_init.js`, and Bun/Node DNS lookups for the Ethereum RPC providers plus the two observed C2 domains. Its reported 1.3-billion-plus aggregate monthly-download figure describes package reach, not malicious-version downloads, successful installations, or victims.
+
 ## Indicators and hunting pivots
 
 ### Files and execution
@@ -199,6 +208,7 @@ For response, Sonatype says an environment that installed an affected release sh
 - unexpected GitHub Actions workflow named `Run Copilot`, artifact named `format-results`, or workflow content that writes `${{ toJSON(secrets) }}` to `format-results.txt`
 - branch `dependabot/github_actions/format/setup-formatter`, workflow `.github/workflows/codeql_analysis.yml`, output `format-results.txt`, commit message `Add CodeQL Analysis`, or forged `github-advanced-security[bot]` identity
 - repository-hook commit message `chore: update config`
+- repository-hook author `claude` or `claude@users.noreply.github.com`, especially when paired with `chore: update config` and changes under `.claude/` or `.vscode/`
 - repository commits `ee2681a9b62f3637b0eb5133c36c864d3376cc5b` (payload), `d8c850c7800e…` (IDE/agent hooks), `f97eabcdd057105f1fce3f05d6c029dac3f2ac78` (evidence removal), and `174f6a55690b0812a69adef47260ba8714a9be48` (sibling staging)
 
 ### SHA-256
@@ -222,6 +232,7 @@ For response, Sonatype says an environment that installed an affected release sh
 - Ethereum mainnet contract `0xE1f2395ee43e45A1556EC6438a88c31B83493103`, queried with `eth_call` selector `0x53ed5143`
 - GitHub commit-search strings `thebeautifulmarchoftime` and `IfYouBlockThisAPIKeyItWillCrashTheLiveProductionServersOfAllThirdPartyClients`
 - `npm-cache[.]com` — C2 domain observed by StepSecurity; investigate `GET /router` health checks returning HTTP 400/404 and encrypted `POST /router` traffic
+- `awqhnjewqjkl[.]icu` — additional smart-contract-resolved C2 domain observed during Elastic Security Labs detonation
 - `pypi-get[.]com` and `js-mirror[.]com` — historical smart-contract-resolved domains reported by Wiz; validate current ownership and historical DNS/HTTP telemetry before blocking
 - `Bun/1.3.13` — Wiz-reported user agent; correlate with npm install, temporary Bun-download paths, and the listed C2/RPC destinations because Bun itself is legitimate
 
@@ -279,3 +290,4 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Aikido Security: [Keyv and friends compromised in active Shai-Hulud supply chain attack](https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack)
 - Microsoft Security Blog: [ChainDrop supply chain compromise: Anatomy of a self-propagating worm](https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/)
 - Sonatype Research: [Mini Shai-Hulud npm Attack: More Than 2,200 Components Impacted](https://www.sonatype.com/blog/mini-shai-hulud-npm-attack-more-than-2200-components-impacted)
+- Elastic Security Labs: [Shai-Hulud strikes again: CHAINDROP worm hits 400+ npm packages](https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain)
