@@ -45,7 +45,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (6)
-- [actors](#actors) (10)
+- [actors](#actors) (11)
 - [ad blocker](#ad-blocker) (1)
 - [ad fraud](#ad-fraud) (1)
 - [Adaptix C2](#adaptix-c2) (1)
@@ -250,12 +250,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AV killer](#av-killer) (1)
 - [Avalon](#avalon) (2)
 - [aviation](#aviation) (2)
-- [AWS](#aws) (6)
+- [AWS](#aws) (7)
 - [AWS CloudTrail](#aws-cloudtrail) (1)
 - [AWS S3](#aws-s3) (2)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
 - [axios](#axios) (1)
-- [Azure](#azure) (3)
+- [Azure](#azure) (4)
 - [Azure CLI](#azure-cli) (1)
 - [Azure Cosmos DB](#azure-cosmos-db) (1)
 - [Azure DevOps](#azure-devops) (1)
@@ -496,7 +496,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [clipper](#clipper) (2)
 - [Cloaked Ursa](#cloaked-ursa) (1)
 - [cloaking](#cloaking) (3)
-- [cloud](#cloud) (6)
+- [cloud](#cloud) (7)
 - [cloud C2](#cloud-c2) (2)
 - [cloud compromise](#cloud-compromise) (1)
 - [cloud credential hunting](#cloud-credential-hunting) (1)
@@ -616,7 +616,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential rotation](#credential-rotation) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (69)
+- [credential theft](#credential-theft) (70)
 - [credential-theft](#credential-theft) (53)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -843,7 +843,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data exposure](#data-exposure) (3)
 - [data extortion](#data-extortion) (2)
 - [data leak site](#data-leak-site) (2)
-- [data theft](#data-theft) (6)
+- [data theft](#data-theft) (7)
 - [data-exfiltration](#data-exfiltration) (1)
 - [database extortion](#database-extortion) (1)
 - [Datadog Security Labs](#datadog-security-labs) (1)
@@ -1093,7 +1093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exposed debug page](#exposed-debug-page) (1)
 - [extension supply-chain](#extension-supply-chain) (2)
 - [external federation](#external-federation) (1)
-- [extortion](#extortion) (9)
+- [extortion](#extortion) (10)
 - [F5](#f5) (1)
 - [F5 BIG-IP](#f5-big-ip) (1)
 - [Factory-v3](#factory-v3) (1)
@@ -1224,6 +1224,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Garble](#garble) (2)
 - [Gardener](#gardener) (1)
 - [Gatekeeper bypass](#gatekeeper-bypass) (1)
+- [GCP](#gcp) (1)
 - [GCS](#gcs) (1)
 - [Gemini CLI](#gemini-cli) (1)
 - [GenieLocker](#genielocker) (3)
@@ -1407,6 +1408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hypervisor escape](#hypervisor-escape) (1)
 - [Hyunwoo Kim](#hyunwoo-kim) (1)
 - [I-SOON](#i-soon) (2)
+- [IAM](#iam) (1)
 - [IBM](#ibm) (1)
 - [iCagenda](#icagenda) (1)
 - [ICE](#ice) (1)
@@ -1416,7 +1418,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IDE extension](#ide-extension) (2)
 - [IDE plugins](#ide-plugins) (1)
 - [ide.cfm](#idecfm) (1)
-- [identity](#identity) (3)
+- [identity](#identity) (4)
 - [identity attacks](#identity-attacks) (1)
 - [identity compromise](#identity-compromise) (1)
 - [identity infrastructure](#identity-infrastructure) (1)
@@ -1990,7 +1992,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OilRig](#oilrig) (1)
 - [Oj](#oj) (1)
 - [OkoBot](#okobot) (1)
-- [Okta](#okta) (4)
+- [Okta](#okta) (5)
 - [Okta Threat Intelligence](#okta-threat-intelligence) (1)
 - [OKX](#okx) (1)
 - [Ollama](#ollama) (2)
@@ -2521,7 +2523,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SEO poisoning](#seo-poisoning) (6)
 - [Seqrite Labs](#seqrite-labs) (1)
 - [Serv-U](#serv-u) (1)
-- [service accounts](#service-accounts) (1)
+- [service accounts](#service-accounts) (2)
 - [service persistence](#service-persistence) (1)
 - [service providers](#service-providers) (1)
 - [service stop](#service-stop) (1)
@@ -2607,6 +2609,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SMTP abuse](#smtp-abuse) (1)
 - [Snake](#snake) (1)
 - [Sneaky 2FA](#sneaky-2fa) (1)
+- [Snowflake](#snowflake) (1)
 - [SNOWLIGHT](#snowlight) (1)
 - [SOAP API abuse](#soap-api-abuse) (1)
 - [SocGholish](#socgholish) (1)
@@ -3416,6 +3419,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armored Likho](../actors/armored-likho.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
 - [Fox Tempest](../actors/fox-tempest.md)
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [Mustang Panda](../actors/mustang-panda.md)
 - [OP-512](../actors/op-512.md)
@@ -4209,6 +4213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
@@ -4228,6 +4233,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Azure
 - [Fox Tempest](../actors/fox-tempest.md)
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [ROADtools](../tools/roadtools.md)
 
@@ -5259,6 +5265,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloud
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [ROADtools](../tools/roadtools.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
@@ -5756,6 +5763,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
@@ -6638,6 +6646,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## data theft
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [ShinyHunters](../actors/shinyhunters.md)
@@ -7704,6 +7713,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [CrownX](../tools/crownx.md)
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
@@ -8156,6 +8166,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Gatekeeper bypass
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
+
+## GCP
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 
 ## GCS
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
@@ -8849,6 +8862,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
 
+## IAM
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
+
 ## IBM
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 
@@ -8882,6 +8898,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## identity
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [ROADtools](../tools/roadtools.md)
 
 ## identity attacks
@@ -11265,6 +11282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Okta
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
@@ -13922,6 +13940,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## service accounts
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 
 ## service persistence
 - [TELEPUZ](../tools/telepuz.md)
@@ -14217,6 +14236,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Sneaky 2FA
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
+
+## Snowflake
+- [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 
 ## SNOWLIGHT
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
