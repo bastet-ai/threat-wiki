@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>ChainDrop: Unit 42 observes execution and live Ethereum C2 rotation</title>
+      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#unit-42-observed-execution-and-c2-rotation-follow-up</link>
+      <description>Added Unit 42's detection of ChainDrop in 10 environments, 453 matching public exfiltration repositories across five candidate victim accounts, the exact Ethereum transaction that rotated C2 to awqhnjewqjkl[.]icu, observed traffic across four continents, a reachable but unobserved OpenSearch-specific OIDC publication branch, and sample-specific persistence caveats.</description>
+      <pubDate>Thu, 06 Aug 2026 23:25:58 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#unit-42-observed-execution-and-c2-rotation-follow-up</guid>
+    </item>
+    <item>
       <title>GitHub details the guarded OpenSSF malware-advisory ingestion pipeline</title>
       <link>https://threat.wiki/patterns/dependabot-cross-ecosystem-malware-alerts/#august-6-ingestion-pipeline-follow-up</link>
       <description>Added GitHub's first-party engineering detail for cross-ecosystem malware alerts: eight covered package ecosystems, the OpenSSF OSV importer and GitHub-origin deduplication path, auto-published advisory risk, exact-commit provenance, fail-closed batch caps, batch rollback, backfill behavior, and responder guidance for preserving advisory revisions and execution evidence.</description>

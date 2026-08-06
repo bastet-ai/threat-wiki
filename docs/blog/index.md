@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [ChainDrop: Unit 42 observes execution and live Ethereum C2 rotation](../ops/chaindrop-keyv-cacheable-npm-worm.md#unit-42-observed-execution-and-c2-rotation-follow-up)
 - [GitHub details the guarded OpenSSF malware-advisory ingestion pipeline](../patterns/dependabot-cross-ecosystem-malware-alerts.md#august-6-ingestion-pipeline-follow-up)
 - [JINX-0163 / FulcrumSec cloud-native extortion cluster](../actors/jinx-0163.md)
 - [Water-sector PLC campaign: more than 4,100 internet-exposed Rockwell controllers](../ops/water-sector-plc-configuration-tampering-july-2026.md#august-6-exposure-measurement-follow-up)
