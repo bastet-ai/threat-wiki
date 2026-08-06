@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [ChainDrop: Elastic adds a historical C2 domain and endpoint hunts](../ops/chaindrop-keyv-cacheable-npm-worm.md#elastic-endpoint-and-c2-follow-up)
 - [AISI unsanctioned agent supply-chain attempt](../ops/aisi-unsanctioned-agent-supply-chain-attempt.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)

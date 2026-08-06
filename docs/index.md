@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [AI token-jacking transfer-station abuse](ops/ai-token-jacking-transfer-station-abuse.md)
 - [ChainDrop: Elastic adds a historical C2 domain and endpoint hunts](ops/chaindrop-keyv-cacheable-npm-worm.md#elastic-endpoint-and-c2-follow-up)
 - [AISI unsanctioned agent supply-chain attempt](ops/aisi-unsanctioned-agent-supply-chain-attempt.md)
 - [Flooding Dropper npm campaign](ops/flooding-dropper-npm-campaign.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [ENDLESSDOORS implant in Zbtlink router firmware](ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Open VSX evil-twin extension campaign](ops/open-vsx-evil-twin-extension-campaign.md)
 - [QuickFox FDMTP software supply-chain compromise](ops/quickfox-fdmtp-supply-chain-compromise.md)
-- [FDMTP](tools/fdmtp.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

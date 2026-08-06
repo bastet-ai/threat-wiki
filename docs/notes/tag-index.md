@@ -27,7 +27,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [academic sector](#academic-sector) (2)
 - [Accellion](#accellion) (1)
 - [access broker](#access-broker) (2)
-- [access brokers](#access-brokers) (1)
+- [access brokers](#access-brokers) (2)
 - [access keys](#access-keys) (1)
 - [access optionality](#access-optionality) (1)
 - [access token abuse](#access-token-abuse) (1)
@@ -89,7 +89,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agentic threat actor](#agentic-threat-actor) (2)
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
-- [AI](#ai) (5)
+- [AI](#ai) (6)
 - [AI agent](#ai-agent) (1)
 - [AI agents](#ai-agents) (19)
 - [AI anti-analysis](#ai-anti-analysis) (1)
@@ -165,7 +165,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [API exposure](#api-exposure) (1)
 - [API key exposure](#api-key-exposure) (1)
 - [API key theft](#api-key-theft) (1)
-- [API keys](#api-keys) (1)
+- [API keys](#api-keys) (2)
 - [API-driven payloads](#api-driven-payloads) (1)
 - [apintergrationpost](#apintergrationpost) (1)
 - [App-Bound Encryption bypass](#app-bound-encryption-bypass) (1)
@@ -614,7 +614,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential rotation](#credential-rotation) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (68)
+- [credential theft](#credential-theft) (69)
 - [credential-theft](#credential-theft) (53)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -1149,7 +1149,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [filename-injection](#filename-injection) (1)
 - [filesystem parser](#filesystem-parser) (1)
 - [finance](#finance) (2)
-- [financial fraud](#financial-fraud) (5)
+- [financial fraud](#financial-fraud) (6)
 - [financial sector](#financial-sector) (7)
 - [financial services](#financial-services) (5)
 - [financial theft](#financial-theft) (3)
@@ -1312,6 +1312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [granular access tokens](#granular-access-tokens) (1)
 - [GraphSpy](#graphspy) (1)
 - [Gravity SMTP](#gravity-smtp) (1)
+- [gray market](#gray-market) (1)
 - [GRE](#gre) (1)
 - [Gremlin API](#gremlin-api) (1)
 - [GREYVIBE](#greyvibe) (1)
@@ -1648,7 +1649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [living off the land](#living-off-the-land) (1)
 - [living-off-the-land](#living-off-the-land) (1)
 - [living-off-the-land binaries](#living-off-the-land-binaries) (1)
-- [LLM](#llm) (4)
+- [LLM](#llm) (5)
 - [LLM security](#llm-security) (1)
 - [LLM-assisted malware](#llm-assisted-malware) (3)
 - [LLM-driven intrusion](#llm-driven-intrusion) (1)
@@ -1776,7 +1777,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [MFT](#mft) (1)
-- [Miasma](#miasma) (9)
+- [Miasma](#miasma) (10)
 - [MicroLogix 1100](#micrologix-1100) (1)
 - [MicroLogix 1400](#micrologix-1400) (1)
 - [MicroPython](#micropython) (2)
@@ -1938,7 +1939,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [North Korea](#north-korea) (12)
 - [notarized malware](#notarized-malware) (2)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (57)
+- [npm](#npm) (58)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm supply-chain](#npm-supply-chain) (1)
 - [npm token theft](#npm-token-theft) (1)
@@ -2018,11 +2019,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (257)
+- [operations](#operations) (258)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (290)
+- [ops](#ops) (291)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2529,7 +2530,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [SHADOW-WATER-063](#shadow-water-063) (1)
 - [ShadowPad](#shadowpad) (3)
-- [Shai-Hulud](#shai-hulud) (10)
+- [Shai-Hulud](#shai-hulud) (11)
 - [SHARDLOADER](#shardloader) (2)
 - [share propagation](#share-propagation) (1)
 - [shared accounts](#shared-accounts) (1)
@@ -2717,7 +2718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (15)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (97)
+- [supply-chain](#supply-chain) (98)
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -2828,6 +2829,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TmcPayload](#tmcpayload) (1)
 - [ToddyCat](#toddycat) (3)
 - [token forgery](#token-forgery) (2)
+- [token jacking](#token-jacking) (1)
 - [token replay](#token-replay) (3)
 - [token theft](#token-theft) (7)
 - [token-theft](#token-theft) (1)
@@ -2855,6 +2857,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [traffic-fraud](#traffic-fraud) (1)
 - [training data](#training-data) (1)
 - [transaction authority](#transaction-authority) (1)
+- [transfer stations](#transfer-stations) (1)
 - [transitive dependency](#transitive-dependency) (1)
 - [translation software](#translation-software) (1)
 - [transnational repression](#transnational-repression) (1)
@@ -3271,6 +3274,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
 ## access brokers
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## access keys
@@ -3564,6 +3568,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
 ## AI
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
@@ -3883,6 +3888,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
 ## API keys
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
 ## API-driven payloads
@@ -5703,6 +5709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -7868,6 +7875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
 ## financial fraud
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -8490,6 +8498,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Gravity SMTP
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
+
+## gray market
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 
 ## GRE
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -9801,6 +9812,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
 ## LLM
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -10366,6 +10378,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Miasma
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
@@ -10996,6 +11009,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
@@ -11342,6 +11356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
@@ -11611,6 +11626,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
@@ -13918,6 +13934,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Shai-Hulud
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
@@ -14631,6 +14648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
@@ -15132,6 +15150,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
+## token jacking
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
+
 ## token replay
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
@@ -15276,6 +15297,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## transaction authority
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+
+## transfer stations
+- [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 
 ## transitive dependency
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)

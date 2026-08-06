@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>AI token-jacking transfer-station abuse</title>
+      <link>https://threat.wiki/ops/ai-token-jacking-transfer-station-abuse/</link>
+      <description>Added Unit 42 incident-response reporting on stolen AI API keys monetized through gray-market transfer stations. Coverage records near-million-dollar loss potential, rapid credential integration, new-api and one-api proxy tradecraft, published domains, source IPs and user-agent pivots, provider-side usage and billing hunts, immediate key revocation, and the unproven but important Shai-Hulud and Miasma credential-supply risk.</description>
+      <pubDate>Thu, 06 Aug 2026 11:27:03 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ai-token-jacking-transfer-station-abuse/</guid>
+    </item>
+    <item>
       <title>ChainDrop: Elastic adds a historical C2 domain and endpoint hunts</title>
       <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#elastic-endpoint-and-c2-follow-up</link>
       <description>Added Elastic Security Labs' independent ChainDrop detonation, including the previously unrecorded smart-contract-resolved awqhnjewqjkl[.]icu C2 domain, claude / claude@users.noreply.github.com repository-commit pivots, Node-to-Bun process and DNS hunts, and careful scoping of the reported aggregate package download reach.</description>
