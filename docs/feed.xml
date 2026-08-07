@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Coding-agent ancestry does not make tunnels and LaunchAgent persistence benign</title>
+      <link>https://threat.wiki/patterns/coding-agent-parented-tunnels-and-persistence/</link>
+      <description>Added Elastic Security Labs' macOS detection case covering Claude Code-parented shells, ephemeral public tunnels, credential-bearing HTTP commands, Cloudflare Quick Tunnels, ngrok, and persistent LaunchAgents. Coverage emphasizes full process ancestry, outcome-based detection beneath signed agent parents, permission-bypass risk, dual-use tunnel caveats, and the report's explicit uncertainty between authorized remote administration and malicious activity.</description>
+      <pubDate>Fri, 07 Aug 2026 19:26:33 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/coding-agent-parented-tunnels-and-persistence/</guid>
+    </item>
+    <item>
       <title>Progress Kemp LoadMaster CVE-2026-8037 enters CISA KEV</title>
       <link>https://threat.wiki/ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce/#cisa-kev-update-august-7-2026</link>
       <description>Added CISA's August 7 known-exploitation determination and August 10 remediation deadline for Progress Kemp LoadMaster CVE-2026-8037. Coverage reconciles the KEV entry with eSentire's earlier failed exploitation attempts and watchTowr's public /accessv2 path, records the BOD 26-04 forensic-triage requirement, and preserves the absence of public successful-victim, actor, payload, or new infrastructure detail.</description>

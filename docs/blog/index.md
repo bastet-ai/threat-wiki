@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Coding-agent ancestry does not make tunnels and LaunchAgent persistence benign](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 enters CISA KEV](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md#cisa-kev-update-august-7-2026)
 - [npm cooldown drift: detect `min-release-age` removal as configuration state](../patterns/npm-install-explicit-trust-controls.md#detection-pivots)
 - [TeamPCP: ShadowRay 2.0 and TA-NATALSTATUS lineage](../actors/teampcp.md#shadowray-20-and-ta-natalstatus-lineage)

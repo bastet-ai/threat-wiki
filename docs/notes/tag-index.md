@@ -99,7 +99,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI brand impersonation](#ai-brand-impersonation) (2)
 - [AI browsers](#ai-browsers) (2)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
-- [AI coding agents](#ai-coding-agents) (1)
+- [AI coding agents](#ai-coding-agents) (2)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
 - [AI developer tooling](#ai-developer-tooling) (2)
@@ -477,7 +477,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1062](#cl-sta-1062) (3)
 - [CL-STA-1114](#cl-sta-1114) (4)
 - [Claude](#claude) (3)
-- [Claude Code](#claude-code) (6)
+- [Claude Code](#claude-code) (7)
 - [Claude for Chrome](#claude-for-chrome) (1)
 - [Claude Mythos 5](#claude-mythos-5) (1)
 - [Claude Opus 4.7](#claude-opus-47) (1)
@@ -520,7 +520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud storage exfiltration](#cloud-storage-exfiltration) (1)
 - [cloud transcoding](#cloud-transcoding) (1)
 - [Cloudflare](#cloudflare) (4)
-- [Cloudflare Tunnel](#cloudflare-tunnel) (4)
+- [Cloudflare Tunnel](#cloudflare-tunnel) (5)
 - [Cloudflare tunnels](#cloudflare-tunnels) (2)
 - [Cloudflare Turnstile](#cloudflare-turnstile) (1)
 - [Cloudflare Workers](#cloudflare-workers) (5)
@@ -612,7 +612,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crates.io](#cratesio) (1)
 - [credential attacks](#credential-attacks) (3)
 - [credential dumping](#credential-dumping) (1)
-- [credential exposure](#credential-exposure) (4)
+- [credential exposure](#credential-exposure) (5)
 - [credential harvesting](#credential-harvesting) (5)
 - [credential rotation](#credential-rotation) (1)
 - [credential spraying](#credential-spraying) (1)
@@ -654,7 +654,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CSRF token theft](#csrf-token-theft) (1)
 - [Curious Serpens](#curious-serpens) (1)
 - [CURP](#curp) (1)
-- [Cursor](#cursor) (4)
+- [Cursor](#cursor) (5)
 - [Curve25519](#curve25519) (1)
 - [Curve25519-XSalsa20-Poly1305](#curve25519-xsalsa20-poly1305) (1)
 - [custody APIs](#custody-apis) (1)
@@ -887,12 +887,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
 - [detached process](#detached-process) (1)
-- [detection engineering](#detection-engineering) (1)
+- [detection engineering](#detection-engineering) (2)
 - [DEV#POPPER](#devpopper) (1)
 - [DEV-0206](#dev-0206) (1)
 - [developer credential theft](#developer-credential-theft) (2)
 - [developer credentials](#developer-credentials) (1)
-- [developer endpoints](#developer-endpoints) (2)
+- [developer endpoints](#developer-endpoints) (3)
 - [Developer ID abuse](#developer-id-abuse) (1)
 - [developer identity](#developer-identity) (1)
 - [developer infrastructure](#developer-infrastructure) (1)
@@ -976,6 +976,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dropper](#dropper) (1)
 - [Drupal](#drupal) (1)
 - [dual-use](#dual-use) (1)
+- [dual-use tooling](#dual-use-tooling) (1)
 - [duckdns](#duckdns) (1)
 - [Dutch Police](#dutch-police) (1)
 - [DWAgent](#dwagent) (1)
@@ -1573,7 +1574,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [kernelCTF](#kernelctf) (2)
 - [KEV](#kev) (3)
 - [Keychain theft](#keychain-theft) (1)
-- [keychain theft](#keychain-theft) (3)
+- [keychain theft](#keychain-theft) (4)
 - [KeyHunter](#keyhunter) (1)
 - [keylogger](#keylogger) (5)
 - [keylogging](#keylogging) (2)
@@ -1614,7 +1615,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lateral movement](#lateral-movement) (7)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (2)
-- [LaunchAgent](#launchagent) (3)
+- [LaunchAgent](#launchagent) (4)
 - [launchctl](#launchctl) (1)
 - [LAUNDRY BEAR](#laundry-bear) (4)
 - [law enforcement](#law-enforcement) (2)
@@ -1674,6 +1675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [local privilege escalation](#local-privilege-escalation) (6)
 - [local-file-inclusion](#local-file-inclusion) (1)
 - [localhost](#localhost) (1)
+- [localhost.run](#localhostrun) (1)
 - [localStorage](#localstorage) (2)
 - [LockBit](#lockbit) (2)
 - [LockBit 3.0](#lockbit-30) (1)
@@ -1712,7 +1714,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
 - [machine-learning](#machine-learning) (1)
-- [macOS](#macos) (17)
+- [macOS](#macos) (18)
 - [macOS malware](#macos-malware) (2)
 - [MaDoO Blaster](#madoo-blaster) (1)
 - [Magento](#magento) (1)
@@ -1935,6 +1937,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NGINX](#nginx) (1)
 - [Nginx](#nginx) (2)
 - [Nginx module](#nginx-module) (1)
+- [ngrok](#ngrok) (1)
 - [Ngrok C2](#ngrok-c2) (1)
 - [Nigeria-nexus](#nigeria-nexus) (1)
 - [Night Dragon](#night-dragon) (1)
@@ -2105,7 +2108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (2)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (34)
+- [patterns](#patterns) (35)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
@@ -2388,6 +2391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reverse proxy](#reverse-proxy) (2)
 - [reverse SSH tunneling](#reverse-ssh-tunneling) (3)
 - [reverse tunneling](#reverse-tunneling) (1)
+- [reverse tunnels](#reverse-tunnels) (1)
 - [REVERSE_PROXY_TRUSTED_PROXIES](#reverse_proxy_trusted_proxies) (1)
 - [ReverseSocks](#reversesocks) (1)
 - [reviewdog](#reviewdog) (1)
@@ -3655,6 +3659,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI coding agents
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 
 ## AI credential theft
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -5182,6 +5187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
@@ -5370,6 +5376,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## Cloudflare Tunnel
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
@@ -5720,6 +5727,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
 ## credential exposure
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
@@ -6024,6 +6032,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## Cursor
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -6836,6 +6845,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## detection engineering
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 
 ## DEV#POPPER
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
@@ -6851,6 +6861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 
 ## developer endpoints
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
@@ -7212,6 +7223,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## dual-use
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
+
+## dual-use tooling
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 
 ## duckdns
 - [RustDuck](../tools/rustduck.md)
@@ -9534,6 +9548,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 
 ## keychain theft
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
@@ -9692,6 +9707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LaunchAgent
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
@@ -9946,6 +9962,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## localhost
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
+## localhost.run
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
+
 ## localStorage
 - [OWAReaper](../tools/owareaper.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
@@ -10077,6 +10096,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## macOS
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
@@ -11007,6 +11027,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Nginx module
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## ngrok
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 
 ## Ngrok C2
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
@@ -12232,6 +12255,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
@@ -13423,6 +13447,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## reverse tunneling
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
+
+## reverse tunnels
+- [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 
 ## REVERSE_PROXY_TRUSTED_PROXIES
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
