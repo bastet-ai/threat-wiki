@@ -5,6 +5,8 @@ JFrog Security Research documented npm v12's move from implicit install-time tru
 
 StepSecurity's June 2026 developer-machine package-configuration guidance adds the fleet-control side of the same pattern: registry, cooldown, and authentication policy only protects hosts that are actually configured to use it. Treat package-manager configuration drift on laptops and CI runners as an exposure class, not a compliance footnote.
 
+Elastic Security Labs' August 2026 implementation report adds a concrete way to detect that drift. Elastic monitors `.npmrc` as **current configuration state**, not as an append-only log, so removal of `min-release-age` becomes an explicit signal instead of leaving a stale “configured” event in the index. The design also filters registry-token lines on the endpoint before telemetry leaves the workstation.
+
 Track this as a defender pattern rather than a single operation. The same install-time execution paths have appeared across Shai-Hulud / Miasma, Mastra `easy-day-js`, `binding.gyp`, and other developer-machine compromise chains. npm v12 reduces one default execution path, but it does not remove the need to govern approved scripts, Git dependencies, remote URL dependencies, package-manager configuration drift, import-time execution, and runtime package behavior.
 
 ## Tags
@@ -35,6 +37,8 @@ Track this as a defender pattern rather than a single operation. The same instal
 - JFrog said these three vectors appeared in about 53% of malicious npm attacks it observed over the prior year, with lifecycle scripts alone appearing in about 46% of observed malicious npm packages.
 - GitHub also began deprecating **granular access tokens with `bypass2fa` privileges**. As of July 31, those tokens can no longer create or delete tokens; change package access, maintainers, or trusted-publishing configuration; or manage organization/team membership and package grants. Those operations now require an interactive 2FA challenge. This restriction applies to npm granular access tokens, not GitHub PATs, GitHub App tokens, or Actions `GITHUB_TOKEN`.
 - Direct publication with npm 2FA-bypass tokens remains temporarily available, but GitHub targets **January 2027** for removing it. The remaining surface is expected to permit reading private packages and staging a publish that a maintainer approves with 2FA. Migrate automation to trusted publishing with OIDC or staged publishing rather than treating the current management-action restriction as full token retirement.
+- npm `11.10` and later support `min-release-age=<days>`, which excludes versions newer than the configured age from dependency resolution. Elastic uses a seven-day value and re-applies it daily in its macOS fleet; the value and enforcement mechanism are organization choices, not universal defaults.
+- Capability inventory can overstate protection. Node Version Manager can leave several npm versions on one host; they share the user `.npmrc`, but npm versions older than `11.10` ignore `min-release-age`.
 
 ## Why this matters
 - Recent npm worms and credential stealers have relied on automatic install-time execution because it runs on developer machines and CI runners before application code is reviewed.
@@ -42,6 +46,7 @@ Track this as a defender pattern rather than a single operation. The same instal
 - Git and remote URL dependencies bypass some registry-centric controls; requiring explicit allowance makes those dependency sources visible policy decisions.
 - Native-module builds deserve special review: packages that legitimately need `node-gyp` or postinstall downloads can become high-value compromise targets because organizations may pre-approve their scripts.
 - Internal registries, secure registries, and package-version cooldowns are only effective when developer machines and CI runners consistently use them. A single laptop with a direct public-registry path can become the first compromised host in a supply-chain incident.
+- Cooldown state is not append-only telemetry. npm can rewrite `.npmrc` in place or delete the file when its final setting is removed; a file-tail input may retain the last positive event without emitting the removal that defenders need to see.
 
 ## Attacker adaptations to expect
 - Compromise of packages that are already approved in an organization's `allowScripts` / `approve-scripts` configuration.
@@ -73,6 +78,10 @@ Track this as a defender pattern rather than a single operation. The same instal
 ### Detection pivots
 - Alert on lifecycle scripts added to packages that did not previously need install-time execution.
 - Alert when package-manager config changes introduce public-index fallback, disable cooldown enforcement, add broad extra indexes, or replace an organization registry with direct upstream npm / PyPI access.
+- Monitor user and machine-global npm configuration as snapshots or another state-aware data source. Elastic's reference design checks user `.npmrc` files plus platform-global paths on a six-hour heartbeat and marks a present file without the key as `cooldown.absent = true`.
+- Distinguish a missing cooldown key, a deleted configuration file, an offline endpoint, and an npm binary too old to enforce the key. A time-windowed dashboard needs periodic current-state reports or equivalent host-liveness context; one-shot change events age out and can create false adoption decline.
+- If configuration files can contain registry credentials, allowlist the required keys **before** collection leaves the endpoint. Filtering `_authToken` or other secret-bearing lines only in a central ingest pipeline is too late.
+- Do not infer state-file removals from append-oriented log tailing alone. Elastic found that small `.npmrc` files also fall below Filebeat filestream's default 1,024-byte fingerprint threshold unless native file identity is selected; snapshot semantics address the more fundamental removal-detection gap.
 - Correlate package approval changes with maintainer-account changes, newly published versions, and package-source repository changes.
 - Hunt for developer or runner processes where `npm` spawns shells, network tools, Python, Bun, native compilers, or updater-like binaries during dependency installation.
 - Continue import-time and runtime scanning; npm v12 controls reduce install-time execution but do not stop malicious code that waits for application import or invocation.
@@ -91,3 +100,4 @@ Track this as a defender pattern rather than a single operation. The same instal
 - GitHub Changelog: [https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation/](https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation/)
 - GitHub Changelog, “Restricting npm bypass-2FA granular access tokens,” 2026-07-31: [https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens](https://github.blog/changelog/2026-07-31-restricting-npm-bypass-2fa-granular-access-tokens)
 - Socket: [https://socket.dev/blog/npm-12](https://socket.dev/blog/npm-12)
+- Elastic Security Labs, “The security signal log tailing can't see: tracking npm cooldown removals with Elastic Agent,” 2026-08-07: [https://www.elastic.co/security-labs/npm-cooldown-removal-detection-elastic-agent](https://www.elastic.co/security-labs/npm-cooldown-removal-detection-elastic-agent)

@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>npm cooldown drift: detect min-release-age removal as configuration state</title>
+      <link>https://threat.wiki/patterns/npm-install-explicit-trust-controls/#detection-pivots</link>
+      <description>Added Elastic Security Labs' fleet implementation for detecting npm cooldown drift. Coverage records npm 11.10's min-release-age control, why append-only file tailing misses rewritten or deleted .npmrc state, six-hour snapshot and heartbeat semantics, old-npm and nvm enforcement caveats, and endpoint-side allowlisting that prevents registry tokens from entering telemetry.</description>
+      <pubDate>Fri, 07 Aug 2026 13:27:32 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/npm-install-explicit-trust-controls/#detection-pivots</guid>
+    </item>
+    <item>
       <title>TeamPCP: ShadowRay 2.0 and TA-NATALSTATUS lineage</title>
       <link>https://threat.wiki/actors/teampcp/#shadowray-20-and-ta-natalstatus-lineage</link>
       <description>Added Oligo Security's evidence extending the TeamPCP ecosystem to TA-NATALSTATUS activity dating to 2020 and attributing the 2025 ShadowRay 2.0 Ray-cluster campaign. Coverage records recurring masscan[.]cloud infrastructure, EP9ts2 staging and shell-script paths, IronErn GitHub/GitLab identities, reverse-shell and authentication overlap, the shift from exposed-service exploitation into supply-chain compromise, a destructive kube.py branch, and the report's operator-continuity caveat.</description>
