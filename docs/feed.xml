@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Progress Kemp LoadMaster CVE-2026-8037 enters CISA KEV</title>
+      <link>https://threat.wiki/ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce/#cisa-kev-update-august-7-2026</link>
+      <description>Added CISA's August 7 known-exploitation determination and August 10 remediation deadline for Progress Kemp LoadMaster CVE-2026-8037. Coverage reconciles the KEV entry with eSentire's earlier failed exploitation attempts and watchTowr's public /accessv2 path, records the BOD 26-04 forensic-triage requirement, and preserves the absence of public successful-victim, actor, payload, or new infrastructure detail.</description>
+      <pubDate>Fri, 07 Aug 2026 17:27:29 GMT</pubDate>
+      <guid>https://threat.wiki/ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce/#cisa-kev-update-august-7-2026</guid>
+    </item>
+    <item>
       <title>npm cooldown drift: detect min-release-age removal as configuration state</title>
       <link>https://threat.wiki/patterns/npm-install-explicit-trust-controls/#detection-pivots</link>
       <description>Added Elastic Security Labs' fleet implementation for detecting npm cooldown drift. Coverage records npm 11.10's min-release-age control, why append-only file tailing misses rewritten or deleted .npmrc state, six-hour snapshot and heartbeat semantics, old-npm and nvm enforcement caveats, and endpoint-side allowlisting that prevents registry tokens from entering telemetry.</description>
