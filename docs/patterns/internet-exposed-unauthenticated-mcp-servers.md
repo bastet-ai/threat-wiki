@@ -26,6 +26,9 @@ This is exposure research, not evidence that the reported servers were exploited
 - least privilege
 - invocation logging
 - Wiz Research
+- Meta Ads
+- access token theft
+- error-message disclosure
 
 ## Reported prevalence
 Wiz reported the following measurements from its cloud-environment data and exposed-server testing:
@@ -39,6 +42,15 @@ Wiz reported the following measurements from its cloud-environment data and expo
 - Nearly all observed servers negotiated the original `2024-11-05` protocol version, which predates the March 2025 authentication and tool-annotation additions.
 
 Treat these figures as Wiz telemetry, not a census of all cloud tenants or all public MCP servers. An open catalog can also be intentional; risk depends on whether anonymous callers can reach sensitive data or actions and on the permissions held by the server.
+
+## Meta Ads MCP concrete case
+GitHub advisory `GHSA-9gw6-46qc-99vr` / `CVE-2026-48039` documents the same privileged-proxy failure in `pipeboard-co/meta-ads-mcp`. In affected releases, `AuthInjectionMiddleware.dispatch()` logs that no authentication token was supplied but still forwards the request to the MCP tool handler. The handler can then fall back to the server operator's `META_ACCESS_TOKEN` environment variable.
+
+The flaw compounds unauthenticated tool execution with direct credential disclosure. The Meta Graph API client places `access_token` in the request URL; its error path serializes the raw URL into the JSON-RPC response. A remote caller who can reach the Streamable HTTP endpoint can therefore invoke registered tools as the operator and deliberately trigger an API error that returns the long-lived Meta token. Depending on the connected account and token scope, this can expose Meta Ads data, consume API quota, or permit write operations outside the MCP server after the token is copied.
+
+The advisory currently scopes `meta-ads-mcp` versions through `1.0.108` as vulnerable and identifies `1.0.109` as the first patched release. Operators should upgrade, require authentication before dispatching any tool, stop placing access tokens in query strings, and redact request URLs from errors and logs. Rotate the Meta token after any internet exposure because patching cannot invalidate a credential already returned to an anonymous caller.
+
+This is a public code-level vulnerability and proof of concept, not evidence of exploitation in the wild. The advisory was originally published on June 11, 2026 and updated on August 7 with the affected and fixed package range.
 
 ## Exposure classes
 ### Sensitive-data access
@@ -85,3 +97,5 @@ Use non-destructive checks. Confirm authentication and authorization with a beni
 
 ## Sources
 - Wiz Research: [The risk hiding behind exposed MCP servers](https://www.wiz.io/blog/the-risk-hiding-behind-exposed-mcp-servers) (2026-07-28)
+- GitHub Security Advisory: [Meta Ads MCP unauthenticated HTTP tool execution leaks the operator Meta access token](https://github.com/advisories/GHSA-9gw6-46qc-99vr) (`GHSA-9gw6-46qc-99vr`, `CVE-2026-48039`; updated 2026-08-07)
+- `pipeboard-co/meta-ads-mcp`: [release 1.0.109](https://github.com/pipeboard-co/meta-ads-mcp/releases/tag/1.0.109)

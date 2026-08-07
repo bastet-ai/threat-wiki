@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Meta Ads MCP leaks the operator access token to unauthenticated callers](patterns/internet-exposed-unauthenticated-mcp-servers.md#meta-ads-mcp-concrete-case)
 - [Coding-agent ancestry does not make tunnels and LaunchAgent persistence benign](patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 enters CISA KEV](ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md#cisa-kev-update-august-7-2026)
 - [npm cooldown drift: detect `min-release-age` removal as configuration state](patterns/npm-install-explicit-trust-controls.md#detection-pivots)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [JINX-0163 / FulcrumSec cloud-native extortion cluster](actors/jinx-0163.md)
 - [Water-sector PLC campaign: more than 4,100 internet-exposed Rockwell controllers](ops/water-sector-plc-configuration-tampering-july-2026.md#august-6-exposure-measurement-follow-up)
 - [Ill Bloom CryptoJS wallet-drain campaign](ops/ill-bloom-cryptojs-wallet-drains.md)
-- [AI token-jacking transfer-station abuse](ops/ai-token-jacking-transfer-station-abuse.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

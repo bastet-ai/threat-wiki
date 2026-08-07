@@ -31,6 +31,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [access keys](#access-keys) (1)
 - [access optionality](#access-optionality) (1)
 - [access token abuse](#access-token-abuse) (1)
+- [access token theft](#access-token-theft) (1)
 - [Accessibility Service](#accessibility-service) (1)
 - [account lockout](#account-lockout) (1)
 - [account takeover](#account-takeover) (5)
@@ -1049,6 +1050,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [epoll](#epoll) (1)
 - [Epsilon Stealer](#epsilon-stealer) (1)
 - [ERP](#erp) (1)
+- [error-message disclosure](#error-message-disclosure) (1)
 - [eSentire TRU](#esentire-tru) (1)
 - [ESG](#esg) (1)
 - [espionage](#espionage) (58)
@@ -1781,6 +1783,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mesh VPN](#mesh-vpn) (1)
 - [MeshAgent](#meshagent) (1)
 - [MeshCentral](#meshcentral) (2)
+- [Meta Ads](#meta-ads) (1)
 - [MetaMask](#metamask) (1)
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexican banking fraud](#mexican-banking-fraud) (2)
@@ -3309,6 +3312,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## access token abuse
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+
+## access token theft
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## Accessibility Service
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
@@ -7503,6 +7509,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ERP
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 
+## error-message disclosure
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
+
 ## eSentire TRU
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
@@ -10426,6 +10435,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MeshCentral
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+
+## Meta Ads
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## MetaMask
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
