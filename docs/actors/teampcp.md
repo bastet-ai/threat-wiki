@@ -1,7 +1,7 @@
 # TeamPCP
 
 ## Summary
-TeamPCP is a supply-chain focused threat actor tracked publicly in connection with multiple operations in 2026, including the **Trivy compromise**, the follow-on **CanisterWorm** NPM campaign, and Python package compromises such as LiteLLM and Telnyx. StepSecurity also connects TeamPCP to the broader **HackerBot Claw** GitHub Actions exploitation ecosystem.
+TeamPCP is a financially motivated threat actor best known for software-supply-chain operations in 2026, including the **Trivy compromise**, the follow-on **CanisterWorm** NPM campaign, and Python package compromises such as LiteLLM and Telnyx. StepSecurity also connects TeamPCP to the broader **HackerBot Claw** GitHub Actions exploitation ecosystem. Oligo Security assesses with infrastructure and operational evidence that the same ecosystem extends back to opportunistic internet-service exploitation tracked as **TA-NATALSTATUS** from 2020 and includes the 2025 **ShadowRay 2.0** campaign; this is a public vendor attribution, not proof that every historical intrusion had identical operators.
 
 ## Page role
 This actor page should stay focused on TeamPCP identity, motivation, tradecraft, and associated operations. Keep detailed timelines and wave-specific indicators on the operation pages, especially [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md), [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md), and [Trivy → TeamPCP → CanisterWorm timeline](../ops/trivy-lite-llm-compromise-timeline.md).
@@ -16,6 +16,9 @@ This actor page should stay focused on TeamPCP identity, motivation, tradecraft,
 - malware
 - tooling
 - operations
+- cloud exploitation
+- Redis
+- Ray
 
 ## Primary motivation
 - **Access monetization through supply-chain abuse**
@@ -51,6 +54,20 @@ This actor page should stay focused on TeamPCP identity, motivation, tradecraft,
   - another portion turned that access into package-level worming
 - Uses **rapid iteration**: operations were followed quickly by propagation campaigns, and payloads were updated over time
 - Comfort with both **attack tooling** and **operational logistics** (repo access, npm publishing, persistence, and C2 rotation)
+
+## ShadowRay 2.0 and TA-NATALSTATUS lineage
+Oligo Security's August 2026 investigation substantially extends the public timeline. Oligo links TeamPCP to activity previously tracked as **TA-NATALSTATUS** between 2020 and August 2025 and assesses that TeamPCP operated the 2025 **ShadowRay 2.0** campaign against exposed Ray clusters. The report describes an evolution from automated, wormable exploitation of internet-facing Redis, Docker, Ray, React, and Next.js systems into GitHub/GitLab abuse, credential theft, and software-supply-chain compromise.
+
+The strongest bridge is repeated infrastructure and deployment tradecraft rather than branding alone:
+
+- `masscan[.]cloud` and `matrix.masscan[.]cloud` recur across TA-NATALSTATUS, ShadowRay 2.0, and later TeamPCP activity. Oligo dates the certificates for both names to May 11, 2025 and reports that the infrastructure remained under actor control from July through December 2025.
+- The distinctive `/EP9ts2/` staging path and scripts including `ndt.sh`, `nnt.sh`, `is.sh`, and propagation script `rs.sh` recur across the historical and later activity. Oligo also observed payload staging under `/files/<malware_binary>`.
+- Oligo observed long-lived reverse shells from compromised Ray clusters to `67.217.57[.]240:666`. It reports that `103.127.134[.]124` both received ShadowRay reverse shells and authenticated to the `ironern440` and `least3654` GitLab accounts that hosted campaign C2 scripts. Oligo treats this dual use as a direct operational intersection, not merely shared hosting.
+- The report links the GitLab identities `IronErn`, `IronErn440`, and `least3654` and GitHub identity `thisisforwork440-ops` to the cluster. GitLab reviewed the investigation and banned the named accounts, but Oligo explicitly leaves open whether the continuity reflects a rebrand, the same operators, closely affiliated groups, or shared operational infrastructure.
+
+The timeline also connects the exposed-service and supply-chain phases. Oligo says the December 2025 **PCPcat** wave targeted React2Shell-vulnerable applications and exposed Docker APIs with ransomware. By February 2026 the cluster was exploiting CVE-2025-29927 and CVE-2025-55182 across a wider internet-facing technology set, and by March it had moved into Trivy, Checkmarx, and LiteLLM-related release and credential-theft operations. This broadens TeamPCP response scope: an affected organization should hunt not only developer and registry events but also older Ray, Redis, Docker, Kubernetes, and web-service compromise that may predate the TeamPCP name.
+
+Oligo also reports that the Kubernetes second stage `kube.py` evolved from propagation and DaemonSet persistence to a March 26 destructive branch. The new logic checked for an Iran timezone before deploying a destructive DaemonSet or running `poison_pill()` to delete filesystems and reboot. Public evidence did not establish whether or how widely that branch executed, so it is a capability and hunt pivot rather than confirmed destructive impact.
 
 ## Post-compromise operating style
 Wiz CIRT's March 2026 incident-response reporting adds a useful view of what happens after TeamPCP-style supply-chain malware steals credentials. Stolen secrets were validated within hours with TruffleHog-style live API checks, then used for AWS discovery across IAM, EC2, Lambda, RDS, Route 53, S3, ECS, and Secrets Manager.
@@ -168,11 +185,15 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Release workflows on prerelease branches such as `next` that publish with valid npm OIDC provenance after an unreviewed direct push; pair provenance checks with branch-protection, commit-review, and release-environment controls.
 - Runtime package execution rather than install-script execution in supply-chain malware, especially Node.js packages that spawn detached hidden `node -e` children, download IPFS payloads such as `QmQobZSp1wRPrpSEQ56qnyq7ecZh5Bg5k1fnjt4SUwwHb9`, or drop NodeJS-looking files under user profile paths.
 - External use of CI instance-role credentials, especially followed by IAM user creation, administrator-policy attachment, Secrets Manager enumeration, datastore security-group changes, Redshift Data API use, or SSM command execution. FortiGuard's case pivots include `cloudops-monitor`, `exfil-s3-write`, `exfil-s3-full`, `exfil*` STS sessions, `185.204.1[.]225`, and `89.22.231[.]63:8080`.
+- Historical exposed-service compromise involving `masscan[.]cloud`, `matrix.masscan[.]cloud`, `/EP9ts2/`, `ndt.sh`, `nnt.sh`, `is.sh`, `rs.sh`, `/files/netsh`, or reverse-shell traffic to `67.217.57[.]240:666`; correlate with Ray, Redis, Docker, Kubernetes, React, and Next.js exposure rather than treating these as package-only indicators.
+- GitLab activity involving `IronErn`, `IronErn440`, or `least3654`, GitHub activity involving `thisisforwork440-ops`, or traffic to `103.127.134[.]124`; preserve authentication and reverse-shell timing because Oligo's attribution depends on the same infrastructure performing both roles.
+- Kubernetes `kube.py`, unexpected cluster-wide DaemonSet creation, Iran-timezone checks, `poison_pill()` strings, filesystem deletion, or reboot behavior; absence of confirmed execution means these signals should drive validation rather than an assumption of destructive impact.
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
 
 ## Sources
+- Oligo Security TeamPCP / ShadowRay 2.0 lineage investigation: [https://www.oligo.security/blog/new-intelligence-links-teampcp-to-shadowray-2-0-and-traces-activity-back-to-2020](https://www.oligo.security/blog/new-intelligence-links-teampcp-to-shadowray-2-0-and-traces-activity-back-to-2020)
 - Wiz Research H1 2026 cloud threat review: [https://www.wiz.io/blog/cloud-threat-highlights-h1-2026](https://www.wiz.io/blog/cloud-threat-highlights-h1-2026)
 - FortiGuard Labs Shai-Hulud-affected Jenkins to Redshift incident report: [https://www.fortinet.com/blog/threat-research/from-ci-cd-to-cloud-data-how-shai-hulud-persistence-leads-to-redshift-breach](https://www.fortinet.com/blog/threat-research/from-ci-cd-to-cloud-data-how-shai-hulud-persistence-leads-to-redshift-breach)
 - Aikido: [https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise](https://www.aikido.dev/blog/teampcp-deploys-worm-npm-trivy-compromise)

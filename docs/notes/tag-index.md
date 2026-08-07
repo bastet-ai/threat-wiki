@@ -503,6 +503,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud credential risk](#cloud-credential-risk) (1)
 - [cloud credential theft](#cloud-credential-theft) (8)
 - [cloud credentials](#cloud-credentials) (4)
+- [cloud exploitation](#cloud-exploitation) (1)
 - [Cloud Files Mini Filter Driver](#cloud-files-mini-filter-driver) (1)
 - [Cloud Filter driver](#cloud-filter-driver) (1)
 - [Cloud Foundation](#cloud-foundation) (1)
@@ -2308,6 +2309,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
 - [RAT](#rat) (31)
+- [Ray](#ray) (1)
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RCE](#rce) (6)
@@ -2330,7 +2332,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Red Raindrop Team](#red-raindrop-team) (2)
 - [RedAlert](#redalert) (1)
 - [REDCap](#redcap) (1)
-- [Redis](#redis) (4)
+- [Redis](#redis) (5)
 - [Redis backdoor](#redis-backdoor) (1)
 - [RediSearch](#redisearch) (1)
 - [reduced cyber refusals](#reduced-cyber-refusals) (1)
@@ -5300,6 +5302,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
+
+## cloud exploitation
+- [TeamPCP](../actors/teampcp.md)
 
 ## Cloud Files Mini Filter Driver
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -13106,6 +13111,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](../tools/tinyrct.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 
+## Ray
+- [TeamPCP](../actors/teampcp.md)
+
 ## RC4
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [OP-512](../actors/op-512.md)
@@ -13193,6 +13201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GigaWiper](../tools/gigawiper.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
+- [TeamPCP](../actors/teampcp.md)
 
 ## Redis backdoor
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)

@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>TeamPCP: ShadowRay 2.0 and TA-NATALSTATUS lineage</title>
+      <link>https://threat.wiki/actors/teampcp/#shadowray-20-and-ta-natalstatus-lineage</link>
+      <description>Added Oligo Security's evidence extending the TeamPCP ecosystem to TA-NATALSTATUS activity dating to 2020 and attributing the 2025 ShadowRay 2.0 Ray-cluster campaign. Coverage records recurring masscan[.]cloud infrastructure, EP9ts2 staging and shell-script paths, IronErn GitHub/GitLab identities, reverse-shell and authentication overlap, the shift from exposed-service exploitation into supply-chain compromise, a destructive kube.py branch, and the report's operator-continuity caveat.</description>
+      <pubDate>Fri, 07 Aug 2026 09:26:34 GMT</pubDate>
+      <guid>https://threat.wiki/actors/teampcp/#shadowray-20-and-ta-natalstatus-lineage</guid>
+    </item>
+    <item>
       <title>ChainDrop: Unit 42 observes execution and live Ethereum C2 rotation</title>
       <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#unit-42-observed-execution-and-c2-rotation-follow-up</link>
       <description>Added Unit 42's detection of ChainDrop in 10 environments, 453 matching public exfiltration repositories across five candidate victim accounts, the exact Ethereum transaction that rotated C2 to awqhnjewqjkl[.]icu, observed traffic across four continents, a reachable but unobserved OpenSearch-specific OIDC publication branch, and sample-specific persistence caveats.</description>

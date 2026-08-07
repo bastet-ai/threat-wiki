@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [TeamPCP: ShadowRay 2.0 and TA-NATALSTATUS lineage](../actors/teampcp.md#shadowray-20-and-ta-natalstatus-lineage)
 - [ChainDrop: Unit 42 observes execution and live Ethereum C2 rotation](../ops/chaindrop-keyv-cacheable-npm-worm.md#unit-42-observed-execution-and-c2-rotation-follow-up)
 - [GitHub details the guarded OpenSSF malware-advisory ingestion pipeline](../patterns/dependabot-cross-ecosystem-malware-alerts.md#august-6-ingestion-pipeline-follow-up)
 - [JINX-0163 / FulcrumSec cloud-native extortion cluster](../actors/jinx-0163.md)
