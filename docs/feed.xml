@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>One public issue, three coding-agent harness boundary failures</title>
+      <link>https://threat.wiki/patterns/coding-agent-ci-harness-handoff-failures/</link>
+      <description>Added Novee Security's Black Hat research on Claude Code, Gemini CLI, and Codex CI harness failures. Coverage records CVE-2026-12537 pre-sandbox Gemini host execution, CVE-2026-54316's Hugging Face download-counter exfiltration channel, Codex AGENTS.md poisoning across shared agent passes, fixed versions, isolation and detection guidance, and the absence of reported malicious exploitation.</description>
+      <pubDate>Sat, 08 Aug 2026 05:29:18 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/coding-agent-ci-harness-handoff-failures/</guid>
+    </item>
+    <item>
       <title>UNC6671 expands BlackFile tradecraft across REDACT, PINK, HELIX, and FALCON</title>
       <link>https://threat.wiki/ops/blackfile-unc6671-vishing-extortion/#august-2026-multi-brand-follow-up</link>
       <description>Added GTIG's August follow-up showing that UNC6671 continued after BlackFile's announced retirement through REDACT, PINK, HELIX, and FALCON. Coverage records shared passkey-themed infrastructure and victim overlap, the shift toward financial and professional-services targets, caller-ID spoofing, deletion of account-security alerts, reviewed Bitcoin payment measurements, and GTIG's alternative shared-ecosystem and outsourced-extortion explanations.</description>
