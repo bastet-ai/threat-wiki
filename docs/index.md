@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Kiota turns untrusted OpenAPI metadata into a recommended install command](patterns/kiota-openapi-metadata-command-injection.md)
 - [One public issue, three coding-agent harness boundary failures](patterns/coding-agent-ci-harness-handoff-failures.md)
 - [UNC6671 expands BlackFile tradecraft across REDACT, PINK, HELIX, and FALCON](ops/blackfile-unc6671-vishing-extortion.md#august-2026-multi-brand-follow-up)
 - [Meta Ads MCP leaks the operator access token to unauthenticated callers](patterns/internet-exposed-unauthenticated-mcp-servers.md#meta-ads-mcp-concrete-case)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [TeamPCP: ShadowRay 2.0 and TA-NATALSTATUS lineage](actors/teampcp.md#shadowray-20-and-ta-natalstatus-lineage)
 - [ChainDrop: Unit 42 observes execution and live Ethereum C2 rotation](ops/chaindrop-keyv-cacheable-npm-worm.md#unit-42-observed-execution-and-c2-rotation-follow-up)
 - [GitHub details the guarded OpenSSF malware-advisory ingestion pipeline](patterns/dependabot-cross-ecosystem-malware-alerts.md#august-6-ingestion-pipeline-follow-up)
-- [JINX-0163 / FulcrumSec cloud-native extortion cluster](actors/jinx-0163.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

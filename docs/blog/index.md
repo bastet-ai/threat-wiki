@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Kiota turns untrusted OpenAPI metadata into a recommended install command](../patterns/kiota-openapi-metadata-command-injection.md)
 - [One public issue, three coding-agent harness boundary failures](../patterns/coding-agent-ci-harness-handoff-failures.md)
 - [UNC6671 expands BlackFile tradecraft across REDACT, PINK, HELIX, and FALCON](../ops/blackfile-unc6671-vishing-extortion.md#august-2026-multi-brand-follow-up)
 - [Meta Ads MCP leaks the operator access token to unauthenticated callers](../patterns/internet-exposed-unauthenticated-mcp-servers.md#meta-ads-mcp-concrete-case)

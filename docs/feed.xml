@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Kiota turns untrusted OpenAPI metadata into a recommended install command</title>
+      <link>https://threat.wiki/patterns/kiota-openapi-metadata-command-injection/</link>
+      <description>Added Microsoft Kiota CVE-2026-59865 / GHSA-hq9q-27g5-qwpj. Coverage records how an OpenAPI description-controlled dependencyInstallCommand crossed through kiota info and its JSON interface into trusted install guidance and VS Code integration, the 1.32.5 fix, affected-range discrepancy, provenance and process-lineage hunts, and the absence of reported malicious exploitation.</description>
+      <pubDate>Sat, 08 Aug 2026 09:26:23 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/kiota-openapi-metadata-command-injection/</guid>
+    </item>
+    <item>
       <title>One public issue, three coding-agent harness boundary failures</title>
       <link>https://threat.wiki/patterns/coding-agent-ci-harness-handoff-failures/</link>
       <description>Added Novee Security's Black Hat research on Claude Code, Gemini CLI, and Codex CI harness failures. Coverage records CVE-2026-12537 pre-sandbox Gemini host execution, CVE-2026-54316's Hugging Face download-counter exfiltration channel, Codex AGENTS.md poisoning across shared agent passes, fixed versions, isolation and detection guidance, and the absence of reported malicious exploitation.</description>
