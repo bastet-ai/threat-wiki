@@ -1122,6 +1122,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fakeset](#fakeset) (1)
 - [faketivism](#faketivism) (1)
 - [FakeUpdates](#fakeupdates) (1)
+- [FALCON](#falcon) (1)
 - [FallSpy](#fallspy) (1)
 - [FAMOUS CHOLLIMA](#famous-chollima) (2)
 - [Famous Chollima](#famous-chollima) (1)
@@ -1360,6 +1361,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [healthcare](#healthcare) (3)
 - [heap buffer overflow](#heap-buffer-overflow) (1)
 - [heap pointer disclosure](#heap-pointer-disclosure) (1)
+- [HELIX](#helix) (1)
 - [HelloBackdoor](#hellobackdoor) (1)
 - [HelloCleaner](#hellocleaner) (1)
 - [HelloDoor](#hellodoor) (1)
@@ -2159,6 +2161,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pickle](#pickle) (1)
 - [pig butchering](#pig-butchering) (1)
 - [pig-butchering](#pig-butchering) (1)
+- [PINK](#pink) (1)
 - [Pink](#pink) (1)
 - [Pipedream](#pipedream) (1)
 - [pipelines](#pipelines) (1)
@@ -2337,6 +2340,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Red Dev 10](#red-dev-10) (2)
 - [Red Hat](#red-hat) (1)
 - [Red Raindrop Team](#red-raindrop-team) (2)
+- [REDACT](#redact) (1)
 - [RedAlert](#redalert) (1)
 - [REDCap](#redcap) (1)
 - [Redis](#redis) (5)
@@ -3783,9 +3787,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## AiTM
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Albania
 - [Handala](../actors/handala.md)
@@ -4462,7 +4466,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 
 ## BlackFile
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Blackpoint Cyber
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -7741,7 +7745,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [CrownX](../tools/crownx.md)
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -7750,6 +7753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 - [UNC3753](../actors/unc3753.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## F5
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
@@ -7832,6 +7836,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FakeUpdates
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
+## FALCON
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## FallSpy
 - [GREYVIBE](../actors/greyvibe.md)
@@ -8717,6 +8724,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## heap pointer disclosure
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
+## HELIX
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
 ## HelloBackdoor
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 
@@ -8927,9 +8937,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## identity
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [ROADtools](../tools/roadtools.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## identity attacks
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -10468,7 +10478,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
 ## MFA-bypass
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## MFT
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
@@ -10512,13 +10522,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Microsoft 365
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Microsoft 365 Copilot
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
@@ -11326,10 +11336,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Okta
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Okta Threat Intelligence
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
@@ -11351,8 +11361,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 
 ## OneDrive
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Webworm](../actors/webworm.md)
 
 ## OneDrive access
@@ -11488,7 +11498,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
@@ -11697,6 +11706,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -11761,7 +11771,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -11996,6 +12005,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -12496,6 +12506,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pig-butchering
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## PINK
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Pink
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
@@ -13231,6 +13244,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MODBEACON](../tools/modbeacon.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
 
+## REDACT
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
 ## RedAlert
 - [Toy Ghouls](../actors/toy-ghouls.md)
 
@@ -13729,11 +13745,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## SaaS
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## SaaS abuse
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
@@ -13759,9 +13775,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 
 ## Salesforce
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## SAML IdP
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -14104,11 +14120,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 
 ## SharePoint
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## SharePoint Server
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
@@ -14321,8 +14337,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## social-engineering
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Socket
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
@@ -15716,7 +15732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6508](../actors/unc6508.md)
 
 ## UNC6671
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## UNC6692
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
@@ -15963,13 +15979,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
 ## vishing
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 - [UNC3753](../actors/unc3753.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Visual Studio
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -16687,7 +16703,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 
 ## Zendesk
-- [BlackFile / UNC6671 vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+- [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Zephyr RTOS
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)

@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>UNC6671 expands BlackFile tradecraft across REDACT, PINK, HELIX, and FALCON</title>
+      <link>https://threat.wiki/ops/blackfile-unc6671-vishing-extortion/#august-2026-multi-brand-follow-up</link>
+      <description>Added GTIG's August follow-up showing that UNC6671 continued after BlackFile's announced retirement through REDACT, PINK, HELIX, and FALCON. Coverage records shared passkey-themed infrastructure and victim overlap, the shift toward financial and professional-services targets, caller-ID spoofing, deletion of account-security alerts, reviewed Bitcoin payment measurements, and GTIG's alternative shared-ecosystem and outsourced-extortion explanations.</description>
+      <pubDate>Sat, 08 Aug 2026 01:27:20 GMT</pubDate>
+      <guid>https://threat.wiki/ops/blackfile-unc6671-vishing-extortion/#august-2026-multi-brand-follow-up</guid>
+    </item>
+    <item>
       <title>Meta Ads MCP leaks the operator access token to unauthenticated callers</title>
       <link>https://threat.wiki/patterns/internet-exposed-unauthenticated-mcp-servers/#meta-ads-mcp-concrete-case</link>
       <description>Added GHSA-9gw6-46qc-99vr / CVE-2026-48039 as a concrete privileged-proxy failure: affected Meta Ads MCP releases dispatch anonymous HTTP tool calls, fall back to the operator's META_ACCESS_TOKEN, and return that token inside Graph API error URLs. Coverage records the through-1.0.108 affected range, 1.0.109 patch, token-rotation and logging guidance, and the absence of reported in-the-wild exploitation.</description>

@@ -246,7 +246,7 @@ nav:
       - PraisonAI CVE-2026-44338 rapid exploitation: ops/praisonai-cve-2026-44338-rapid-exploitation.md
       - NATS-as-C2 KeyHunter credential-harvesting operation: ops/nats-as-c2-keyhunter-credential-harvesting.md
       - StegaBin Pastebin-steganography npm campaign: ops/stegabin-pastebin-steganography-npm-campaign.md
-      - BlackFile / UNC6671 vishing extortion operation: ops/blackfile-unc6671-vishing-extortion.md
+      - UNC6671 / BlackFile multi-brand vishing extortion operation: ops/blackfile-unc6671-vishing-extortion.md
       - Sicoob.Sdk NuGet banking certificate stealer: ops/sicoob-sdk-nuget-banking-certificate-stealer.md
       - Operation DangerousPassword axios npm compromise: ops/operation-dangerouspassword-axios-npm-compromise.md
       - FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign: ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md

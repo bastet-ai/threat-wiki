@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [UNC6671 expands BlackFile tradecraft across REDACT, PINK, HELIX, and FALCON](../ops/blackfile-unc6671-vishing-extortion.md#august-2026-multi-brand-follow-up)
 - [Meta Ads MCP leaks the operator access token to unauthenticated callers](../patterns/internet-exposed-unauthenticated-mcp-servers.md#meta-ads-mcp-concrete-case)
 - [Coding-agent ancestry does not make tunnels and LaunchAgent persistence benign](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 enters CISA KEV](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md#cisa-kev-update-august-7-2026)
