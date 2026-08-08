@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Metabase zero-day gives unauthenticated attackers administrator access](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
+- [N-central Hotfix 2 supersedes the first emergency fix](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md#hotfix-2-supersedes-hotfix-1-2026-08-06)
 - [Kiota turns untrusted OpenAPI metadata into a recommended install command](../patterns/kiota-openapi-metadata-command-injection.md)
 - [One public issue, three coding-agent harness boundary failures](../patterns/coding-agent-ci-harness-handoff-failures.md)
 - [UNC6671 expands BlackFile tradecraft across REDACT, PINK, HELIX, and FALCON](../ops/blackfile-unc6671-vishing-extortion.md#august-2026-multi-brand-follow-up)

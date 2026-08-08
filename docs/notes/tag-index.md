@@ -8,6 +8,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [.NET reflection](#net-reflection) (1)
 - [.pth](#pth) (1)
 - [/accessv2](#accessv2) (1)
+- [/api/session/reset_password](#apisessionreset_password) (1)
 - [/dev/kvm](#devkvm) (1)
 - [146.70.139.154](#14670139154) (1)
 - [192.42.116.105](#19242116105) (1)
@@ -40,7 +41,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (60)
+- [active exploitation](#active-exploitation) (61)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -176,6 +177,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AppleScript](#applescript) (1)
 - [AppleSeed](#appleseed) (1)
 - [appliance](#appliance) (1)
+- [application database](#application-database) (1)
 - [application delivery controller](#application-delivery-controller) (1)
 - [application token](#application-token) (1)
 - [APSB26-68](#apsb26-68) (1)
@@ -233,7 +235,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AUR](#aur) (1)
 - [authenticated RCE](#authenticated-rce) (1)
 - [authenticated remote code execution](#authenticated-remote-code-execution) (1)
-- [authentication bypass](#authentication-bypass) (18)
+- [authentication bypass](#authentication-bypass) (19)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -375,6 +377,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [Burkina Faso](#burkina-faso) (1)
 - [business email compromise](#business-email-compromise) (2)
+- [business intelligence](#business-intelligence) (1)
 - [BusySnake Stealer](#busysnake-stealer) (3)
 - [Bybit](#bybit) (1)
 - [BYOVD](#byovd) (3)
@@ -618,7 +621,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential rotation](#credential-rotation) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (70)
+- [credential theft](#credential-theft) (71)
 - [credential-theft](#credential-theft) (53)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -841,11 +844,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [D2IP](#d2ip) (1)
 - [dangling resources](#dangling-resources) (1)
 - [DarkSword](#darksword) (1)
+- [data analytics](#data-analytics) (1)
 - [data exfiltration](#data-exfiltration) (11)
 - [data exposure](#data-exposure) (3)
 - [data extortion](#data-extortion) (2)
 - [data leak site](#data-leak-site) (2)
-- [data theft](#data-theft) (7)
+- [data theft](#data-theft) (8)
 - [data-exfiltration](#data-exfiltration) (1)
 - [database extortion](#database-extortion) (1)
 - [Datadog Security Labs](#datadog-security-labs) (1)
@@ -1247,6 +1251,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-c4hm-4h84-2cf3](#ghsa-c4hm-4h84-2cf3) (1)
 - [GHSA-qrpv-q767-xqq2](#ghsa-qrpv-q767-xqq2) (1)
 - [GHSA-rg76-677x-56q9](#ghsa-rg76-677x-56q9) (1)
+- [GHSA-vwf4-m7j8-wcjf](#ghsa-vwf4-m7j8-wcjf) (1)
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [Git](#git) (1)
@@ -1446,7 +1451,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (34)
+- [incident response](#incident-response) (35)
 - [incident-response](#incident-response) (2)
 - [incomplete patch](#incomplete-patch) (1)
 - [IndexedDB](#indexeddb) (3)
@@ -1786,6 +1791,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MeshAgent](#meshagent) (1)
 - [MeshCentral](#meshcentral) (2)
 - [Meta Ads](#meta-ads) (1)
+- [Metabase](#metabase) (1)
 - [MetaMask](#metamask) (1)
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexican banking fraud](#mexican-banking-fraud) (2)
@@ -2040,11 +2046,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (259)
+- [operations](#operations) (260)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (292)
+- [ops](#ops) (293)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2684,7 +2690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Spring Boot](#spring-boot) (1)
 - [SprySOCKS](#sprysocks) (2)
 - [spyware](#spyware) (1)
-- [SQL injection](#sql-injection) (6)
+- [SQL injection](#sql-injection) (7)
 - [SQLite](#sqlite) (1)
 - [SQLite state](#sqlite-state) (1)
 - [SQLRCE0](#sqlrce0) (1)
@@ -2944,6 +2950,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Umbrij](#umbrij) (3)
 - [unattributed](#unattributed) (1)
 - [unauthenticated access](#unauthenticated-access) (3)
+- [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
 - [unauthenticated RCE](#unauthenticated-rce) (7)
 - [UNC1543](#unc1543) (1)
@@ -3201,7 +3208,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zephyr RTOS](#zephyr-rtos) (1)
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
-- [zero-day](#zero-day) (5)
+- [zero-day](#zero-day) (6)
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [ZeroBEC](#zerobec) (1)
@@ -3244,6 +3251,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## /accessv2
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+
+## /api/session/reset_password
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 
 ## /dev/kvm
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
@@ -3387,6 +3397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -3956,6 +3967,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## appliance
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
+## application database
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
+
 ## application delivery controller
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
@@ -4160,6 +4174,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
@@ -4722,6 +4737,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## business email compromise
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
+
+## business intelligence
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 
 ## BusySnake Stealer
 - [Armored Likho](../actors/armored-likho.md)
@@ -5796,6 +5814,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
@@ -6643,6 +6662,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DarkSword
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
+## data analytics
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
+
 ## data exfiltration
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
@@ -6675,6 +6697,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 - [UNC3753](../actors/unc3753.md)
 
@@ -8261,6 +8284,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-rg76-677x-56q9
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
+## GHSA-vwf4-m7j8-wcjf
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
+
 ## GHSA-xhcr-j4j9-3gh7
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
@@ -9035,6 +9061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
@@ -10449,6 +10476,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Meta Ads
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
+## Metabase
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
+
 ## MetaMask
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 
@@ -11615,6 +11645,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
@@ -11896,6 +11927,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
@@ -14556,6 +14588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [LangGraph checkpointer injection and unsafe deserialization](../patterns/langgraph-checkpointer-injection-rce.md)
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
@@ -15687,6 +15720,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
+## unauthenticated admin access
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
+
 ## unauthenticated HTTP exploitation
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 
@@ -16716,6 +16752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## zero-day
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)

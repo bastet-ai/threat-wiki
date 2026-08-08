@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Metabase zero-day gives unauthenticated attackers administrator access</title>
+      <link>https://threat.wiki/ops/metabase-unauthenticated-sql-injection-zero-day/</link>
+      <description>Added Metabase's actively exploited GHSA-vwf4-m7j8-wcjf zero-day. Coverage records unauthenticated SQL injection through the password-reset API, administrator takeover and connected-database risk, the fixed point-release matrix, the vendor's two-request compromise sequence, and session, key, credential, and downstream-data response guidance.</description>
+      <pubDate>Sat, 08 Aug 2026 11:28:19 GMT</pubDate>
+      <guid>https://threat.wiki/ops/metabase-unauthenticated-sql-injection-zero-day/</guid>
+    </item>
+    <item>
+      <title>N-central Hotfix 2 supersedes the first emergency fix</title>
+      <link>https://threat.wiki/ops/n-able-n-central-cve-2026-18556-18577-exploitation/#hotfix-2-supersedes-hotfix-1-2026-08-06</link>
+      <description>Updated the N-able N-central exploitation page for Hotfix 2. Build 2026.3.1.10 is required even on servers already upgraded to 2026.3.1.7 because N-able observed threat actors evolving their techniques; the update preserves the distinction between server hardening and removal of downstream Cloudflare Tunnel persistence.</description>
+      <pubDate>Sat, 08 Aug 2026 11:27:19 GMT</pubDate>
+      <guid>https://threat.wiki/ops/n-able-n-central-cve-2026-18556-18577-exploitation/#hotfix-2-supersedes-hotfix-1-2026-08-06</guid>
+    </item>
+    <item>
       <title>Kiota turns untrusted OpenAPI metadata into a recommended install command</title>
       <link>https://threat.wiki/patterns/kiota-openapi-metadata-command-injection/</link>
       <description>Added Microsoft Kiota CVE-2026-59865 / GHSA-hq9q-27g5-qwpj. Coverage records how an OpenAPI description-controlled dependencyInstallCommand crossed through kiota info and its JSON interface into trusted install guidance and VS Code integration, the 1.32.5 fix, affected-range discrepancy, provenance and process-lineage hunts, and the absence of reported malicious exploitation.</description>
