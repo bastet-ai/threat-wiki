@@ -400,6 +400,8 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Atlassian Rovo prompt-to-data exfiltration: patterns/atlassian-rovo-prompt-to-data-exfiltration.md
+      - Webmail CSS trust-boundary attacks: patterns/webmail-css-trust-boundary-attacks.md
       - Kiota OpenAPI metadata command injection: patterns/kiota-openapi-metadata-command-injection.md
       - Coding-agent CI harness handoff failures: patterns/coding-agent-ci-harness-handoff-failures.md
       - Coding-agent-parented tunnels and persistence: patterns/coding-agent-parented-tunnels-and-persistence.md

@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Atlassian Rovo turns untrusted prompts into authenticated data exfiltration</title>
+      <link>https://threat.wiki/patterns/atlassian-rovo-prompt-to-data-exfiltration/</link>
+      <description>Added two distinct Atlassian Rovo trust-boundary failures: the fixed rovoChatPrompt one-click injection path and PromptArmor's separately reported indirect-injection chain through processed content, URL retrieval, and Markdown images. Coverage preserves remediation-status and no-known-exploitation caveats, and adds connector least privilege, destination policy, sequence detection, and response guidance.</description>
+      <pubDate>Sun, 09 Aug 2026 05:30:20 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/atlassian-rovo-prompt-to-data-exfiltration/</guid>
+    </item>
+    <item>
+      <title>Webmail CSS crosses sanitizer, UI, token, and agent trust boundaries</title>
+      <link>https://threat.wiki/patterns/webmail-css-trust-boundary-attacks/</link>
+      <description>Added PortSwigger's webmail CSS research across Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail. Coverage records CSSOM mutation, application gadgets, click interception, token and password theft, image-proxy bypasses, clipboard prerequisites, a Gmail-to-Cowork indirect-prompt-injection chain, per-product status caveats, and isolation, sanitizer, egress, and detection guidance.</description>
+      <pubDate>Sun, 09 Aug 2026 05:29:20 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/webmail-css-trust-boundary-attacks/</guid>
+    </item>
+    <item>
       <title>Metabase zero-day gives unauthenticated attackers administrator access</title>
       <link>https://threat.wiki/ops/metabase-unauthenticated-sql-injection-zero-day/</link>
       <description>Added Metabase's actively exploited GHSA-vwf4-m7j8-wcjf zero-day. Coverage records unauthenticated SQL injection through the password-reset API, administrator takeover and connected-database risk, the fixed point-release matrix, the vendor's two-request compromise sequence, and session, key, credential, and downstream-data response guidance.</description>
