@@ -5,7 +5,7 @@ Beginning August 4, 2026, StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, SafeDe
 
 The malicious releases add an npm `preinstall` hook, download Bun `1.3.13`, run a heavily obfuscated second stage, harvest developer, CI/CD, cloud, package-registry, Vault, and Kubernetes credentials, and use stolen npm access or OIDC trusted publishing to republish trojanized packages. Socket also reported GitHub and DNS exfiltration plus `.claude` and `.vscode` repository hooks that can execute when source is opened without requiring `npm install`.
 
-This is an **active incident**. SafeDep's later August 4 snapshot counted **2,234 poisoned versions across 444 package names and 12 organizations**, 22 more versions than StepSecurity's 18:10 UTC snapshot while leaving the package-name count unchanged. Counts and registry state can change; use the linked vendor-maintained lists for live scoping.
+This is an **active incident**. SafeDep's later August 4 snapshot counted **2,234 poisoned versions across 444 package names and 12 organizations**, 22 more versions than StepSecurity's 18:10 UTC snapshot while leaving the package-name count unchanged. Unit 42's August 9 response-list update separately names **483 packages and 1,675 package-version pairs**. The inventories use different collection and classification windows; use their union for scoping rather than treating either count as final.
 
 ## Tags
 - ops
@@ -44,6 +44,7 @@ This is an **active incident**. SafeDep's later August 4 snapshot counted **2,23
 - Elastic Security Labs independently detonated the payload and observed an additional smart-contract-resolved C2 domain, `awqhnjewqjkl[.]icu`, alongside `npm-cache[.]com`. Elastic also published endpoint process and DNS hunts and identified worm-generated Git commits by the author `claude` / `claude@users.noreply.github.com` and message `chore: update config`.
 - Unit 42 detected ChainDrop execution in **10 distinct environments** and found **453 public repositories across five accounts** matching the worm's exfiltration marker and Dune-themed naming pattern. It treats those accounts as candidate, not confirmed, victims; the repositories had been removed by publication time.
 - Unit 42 tied `awqhnjewqjkl[.]icu` to a specific August 4 Ethereum transaction and observed the rotated domain become operational within an hour, followed by traffic involving environments on four continents. This converts the domain from a detonation-only pivot into an observed live C2 rotation while still not establishing how many connections represented successful compromise.
+- On August 9, Unit 42 updated its article with a public response list containing **483 unique package names and 1,675 listed package-version pairs**. That is 39 more package names but 559 fewer version pairs than SafeDep's 444-name / 2,234-version snapshot. The difference is a scoping signal, not evidence that one list supersedes the other: preserve both lists, search their union across lockfiles, caches, mirrors, SBOMs, and built artifacts, and retain the source and retrieval time with results.
 
 ## Confidence and attribution
 - The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, SafeDep, Microsoft Threat Intelligence, Sonatype Research Labs, Elastic Security Labs, and Unit 42.
@@ -200,6 +201,12 @@ Unit 42 recovered a narrowly gated propagation branch for `opensearch-project/op
 
 Its sample also narrows persistence claims. The VS Code task calls `.claude/setup.mjs` and reaches the dropped `.claude/math_init.js`; the reciprocal Claude Code hook calls `.vscode/setup.mjs`, but that loader looks for a missing `.vscode/math_init.js`, so only the VS Code path was functional in that build. The macOS LaunchAgent and Linux user-service installer was embedded but had no call site in the analyzed main path. Other reports observed or described token-monitor persistence, so responders should still hunt all artifacts while distinguishing latent code from execution evidence on each host.
 
+#### August 9 affected-package inventory update
+
+Unit 42 marked the article updated at 16:06:20 UTC on August 9 and linked a public GitHub response list. The file contains 483 unique package rows and 1,675 comma-delimited package-version pairs. It includes scoped families such as `@servicetitan`, `@onereach`, `@or-sdk`, `@ornikar`, `@qlik`, `@nebula.js`, `@redhat-cloud-services`, and the initial `@cacheable` family, plus unscoped packages.
+
+This list expands package-name scoping beyond SafeDep's 444-name reconstruction but contains fewer version pairs than SafeDep's 2,234. Public reporting does not yet reconcile the methodology, collection time, or inclusion rules behind that difference. Responders should not subtract entries found in only one source. Store a local, timestamped copy of each vendor list and search the union; public lists can change while compromised artifacts remain in internal mirrors and caches.
+
 ## Indicators and hunting pivots
 
 ### Files and execution
@@ -283,7 +290,7 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Restrict CI and developer egress to cloud metadata, secret stores, npm publication endpoints, GitHub repository creation, and unnecessary DNS resolvers.
 
 ## Open questions
-- Final affected package/version and download scope after npm containment; SafeDep's later August 4 snapshot is 444 packages and 2,234 versions across 12 organizations.
+- Final affected package/version and download scope after npm containment; SafeDep's later August 4 snapshot is 444 packages and 2,234 versions across 12 organizations, while Unit 42's August 9 response list contains 483 package names and 1,675 package-version pairs.
 - Initial access and whether the `Jaredwray` account, endpoint, token, GitHub session, or another upstream identity was first compromised.
 - Registry and GitHub containment actions, malicious-version removal times, and credential invalidation scope.
 - Names, visibility, and recoverable indicators for attacker-created GitHub exfiltration repositories and the DNS channel.
@@ -312,3 +319,4 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Sonatype Research: [Mini Shai-Hulud npm Attack: More Than 2,200 Components Impacted](https://www.sonatype.com/blog/mini-shai-hulud-npm-attack-more-than-2200-components-impacted)
 - Elastic Security Labs: [Shai-Hulud strikes again: CHAINDROP worm hits 400+ npm packages](https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain)
 - Unit 42: [ChainDrop: Inside a Self-Propagating npm Worm](https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/)
+- Unit 42 GitHub: [List of packages affected by the ChainDrop worm](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information/blob/main/List-of-packages-affected-by-the-ChainDrop-worm.txt)

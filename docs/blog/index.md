@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [ChainDrop: Unit 42 expands response scoping to 483 package names](../ops/chaindrop-keyv-cacheable-npm-worm.md#august-9-affected-package-inventory-update)
 - [Atlassian Rovo turns untrusted prompts into authenticated data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
 - [Webmail CSS crosses sanitizer, UI, token, and agent trust boundaries](../patterns/webmail-css-trust-boundary-attacks.md)
 - [Metabase zero-day gives unauthenticated attackers administrator access](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
