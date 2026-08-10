@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>ChainDrop reaches the MCP Registry through a poisoned source repository</title>
+      <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#ox-mcp-registry-and-residual-repository-follow-up</link>
+      <description>Added OX Security's August 9 finding that a clean PyPI package and public MCP Registry entry routed users to a repository carrying known ChainDrop Claude Code and VS Code execution hooks. An August 10 recheck found the exact hook hashes in four of five named repositories while the V.A.P.E registry entry no longer appeared, documenting both the cross-registry trust boundary and volatile cleanup state.</description>
+      <pubDate>Mon, 10 Aug 2026 01:25:28 GMT</pubDate>
+      <guid>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#ox-mcp-registry-and-residual-repository-follow-up</guid>
+    </item>
+    <item>
       <title>ChainDrop: Unit 42 expands response scoping to 483 package names</title>
       <link>https://threat.wiki/ops/chaindrop-keyv-cacheable-npm-worm/#august-9-affected-package-inventory-update</link>
       <description>Added Unit 42's August 9 public response list containing 483 unique ChainDrop-affected package names and 1,675 package-version pairs. Coverage preserves the discrepancy with SafeDep's 444-name / 2,234-version snapshot, treats the lists as different time-bounded classifications rather than replacements, and directs responders to search their union across lockfiles, caches, mirrors, SBOMs, and built artifacts.</description>

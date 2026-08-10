@@ -45,6 +45,8 @@ This is an **active incident**. SafeDep's later August 4 snapshot counted **2,23
 - Unit 42 detected ChainDrop execution in **10 distinct environments** and found **453 public repositories across five accounts** matching the worm's exfiltration marker and Dune-themed naming pattern. It treats those accounts as candidate, not confirmed, victims; the repositories had been removed by publication time.
 - Unit 42 tied `awqhnjewqjkl[.]icu` to a specific August 4 Ethereum transaction and observed the rotated domain become operational within an hour, followed by traffic involving environments on four continents. This converts the domain from a detonation-only pivot into an observed live C2 rotation while still not establishing how many connections represented successful compromise.
 - On August 9, Unit 42 updated its article with a public response list containing **483 unique package names and 1,675 listed package-version pairs**. That is 39 more package names but 559 fewer version pairs than SafeDep's 444-name / 2,234-version snapshot. The difference is a scoping signal, not evidence that one list supersedes the other: preserve both lists, search their union across lockfiles, caches, mirrors, SBOMs, and built artifacts, and retain the source and retrieval time with results.
+- OX Security reported a new distribution boundary on August 9: a ChainDrop-infected repository was linked from a **V.A.P.E entry in the public MCP Registry**, while its referenced PyPI package remained clean. The repository carried the already known `.claude/settings.json` and `.vscode/tasks.json` execution hooks, showing that registry metadata can route users to a poisoned source tree even when package-only scanning finds nothing.
+- OX also found five GitHub repositories still serving the hook pair five days after the initial wave and said two `@ornikar` packages remained available for roughly 72 hours. A threat.wiki recheck early on August 10 found the exact known hook hashes in four of the five named repositories; the fifth repository had changed, and the MCP Registry API no longer returned V.A.P.E. Treat repository and registry status as volatile response snapshots, not permanent indicators.
 
 ## Confidence and attribution
 - The compromise and malicious package behavior are corroborated by StepSecurity, Socket, Aikido, Wiz, Snyk, JFrog, SafeDep, Microsoft Threat Intelligence, Sonatype Research Labs, Elastic Security Labs, and Unit 42.
@@ -201,6 +203,22 @@ Unit 42 recovered a narrowly gated propagation branch for `opensearch-project/op
 
 Its sample also narrows persistence claims. The VS Code task calls `.claude/setup.mjs` and reaches the dropped `.claude/math_init.js`; the reciprocal Claude Code hook calls `.vscode/setup.mjs`, but that loader looks for a missing `.vscode/math_init.js`, so only the VS Code path was functional in that build. The macOS LaunchAgent and Linux user-service installer was embedded but had no call site in the analyzed main path. Other reports observed or described token-monitor persistence, so responders should still hunt all artifacts while distinguishing latent code from execution evidence on each host.
 
+### OX MCP Registry and residual-repository follow-up
+
+OX Security's August 9 response review found a **V.A.P.E** MCP server entry whose linked PyPI package was clean but whose source repository, `jUXTAPOSITION1/V.A.P.E`, contained the ChainDrop `.claude/settings.json` and `.vscode/tasks.json` hooks. The Claude `SessionStart` hook called `node .vscode/setup.mjs`; the VS Code `folderOpen` task called `node .claude/setup.mjs`. Their SHA-256 values match the JFrog-published hook indicators already listed below. This is a registry-to-repository delivery path, not evidence that the clean PyPI artifact itself was compromised.
+
+OX named five repositories that were still distributing this configuration pair at publication time:
+
+- `techtoboggan/claude-desktop-hardened-linux`
+- `rainb0w-clwn/node-cache-manager-fs-binary-ts`
+- `diegobbarbosa09/Automacao_swaglabs_cypress`
+- `evilgodfahim/kal`
+- `jUXTAPOSITION1/V.A.P.E`
+
+An August 10 threat.wiki API recheck found all five repositories reachable, but only the latter four still exposed both known hook files. The V.A.P.E search returned no result from the MCP Registry API. Those changes reinforce that public takedown state is transient: retain repository IDs, commit and blob metadata, audit logs, clones, and endpoint evidence rather than relying on a later URL check.
+
+OX separately reported that `@ornikar/intl-config` and `@ornikar/react-native-svg-transformer` remained in npm for about 72 hours after the initial infection, and estimated more than 3,800 searchable `results-<ID>.json` credential-dump repositories across recent Shai-Hulud variants. The latter is a cross-variant structural count and should not replace Unit 42's narrower ChainDrop finding of 453 repositories across five candidate victim accounts. Repository-pattern matches also do not independently establish credential validity, unique victims, or downstream use.
+
 #### August 9 affected-package inventory update
 
 Unit 42 marked the article updated at 16:06:20 UTC on August 9 and linked a public GitHub response list. The file contains 483 unique package rows and 1,675 comma-delimited package-version pairs. It includes scoped families such as `@servicetitan`, `@onereach`, `@or-sdk`, `@ornikar`, `@qlik`, `@nebula.js`, `@redhat-cloud-services`, and the initial `@cacheable` family, plus unscoped packages.
@@ -295,6 +313,7 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Registry and GitHub containment actions, malicious-version removal times, and credential invalidation scope.
 - Names, visibility, and recoverable indicators for attacker-created GitHub exfiltration repositories and the DNS channel.
 - Current values and transaction history of the Ethereum C2 contract, replacement domains, and signed-commit fallback infrastructure.
+- Whether additional package, MCP, skill, extension, or AI-tool registries still point to repositories carrying ChainDrop hooks despite clean linked package artifacts.
 - Which infected hosts received selectively armed dead-man-switch instructions, what commands were returned, and whether the per-host identifier was used for other targeted tasking.
 - Whether the implemented OpenSearch-specific trusted-publishing branch ever executed; current Unit 42 evidence does not show that it did.
 - Whether ChainDrop is operated by TeamPCP, another Shai-Hulud-lineage actor, or a copycat using leaked tooling.
@@ -320,3 +339,4 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Elastic Security Labs: [Shai-Hulud strikes again: CHAINDROP worm hits 400+ npm packages](https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain)
 - Unit 42: [ChainDrop: Inside a Self-Propagating npm Worm](https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/)
 - Unit 42 GitHub: [List of packages affected by the ChainDrop worm](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information/blob/main/List-of-packages-affected-by-the-ChainDrop-worm.txt)
+- OX Security: [Shai-Hulud Outbreak Debrief: The Worm Evolves into MCP](https://www.ox.security/blog/shai-hulud-outbreak-debrief-the-worm-evolves-into-mcp/)
