@@ -29,6 +29,10 @@ This is exposure research, not evidence that the reported servers were exploited
 - Meta Ads
 - access token theft
 - error-message disclosure
+- Flyto2 Core
+- CVE-2026-67426
+- callback URL
+- internal secret exfiltration
 
 ## Reported prevalence
 Wiz reported the following measurements from its cloud-environment data and exposed-server testing:
@@ -51,6 +55,17 @@ The flaw compounds unauthenticated tool execution with direct credential disclos
 The advisory currently scopes `meta-ads-mcp` versions through `1.0.108` as vulnerable and identifies `1.0.109` as the first patched release. Operators should upgrade, require authentication before dispatching any tool, stop placing access tokens in query strings, and redact request URLs from errors and logs. Rotate the Meta token after any internet exposure because patching cannot invalidate a credential already returned to an anonymous caller.
 
 This is a public code-level vulnerability and proof of concept, not evidence of exploitation in the wild. The advisory was originally published on June 11, 2026 and updated on August 7 with the affected and fixed package range.
+
+## Flyto2 Core concrete case
+GitHub's reviewed `GHSA-jx74-cqjv-2c67` / `CVE-2026-67426` documents a related trust-boundary failure in Flyto2 Core, an MCP-native automation and AI-agent workflow engine. The standalone `flyto-verification` service exposed `POST /run` without authentication, and the shipped container listened on all interfaces at port `8344`. A caller could set `callback_url` to an arbitrary destination; after running the supplied verification workflow, the service sent a JSON callback to that URL and attached `X-Internal-Key: $FLYTO_RUNNER_SECRET`.
+
+This combined two impacts. An unauthenticated caller could direct the service to make a server-side request to an internal or cloud-metadata destination, and an attacker-controlled callback host could directly receive the runner secret. The latter crossed the vulnerability from network reachability into credential compromise: the copied key could be replayed when forging callbacks to the real Flyto engine.
+
+The application's existing destination control did not cover this path. `target_allowed` checked only `params.target_url`; `resolve_callback_url` returned the separate caller-provided callback verbatim, and the callback code added the internal header whenever the environment variable existed. This is a useful review rule beyond Flyto: validate every outbound destination at its final network sink, and bind privileged headers to a trusted destination identity rather than to the request type or code path.
+
+The reviewed advisory scopes `flyto-core` **2.26.6** as affected and identifies **2.26.7** as the first patched version. The security release adds authentication to `/run`, fails closed when no verification key is configured, applies the SSRF guard to callbacks, and sends the internal key only to configured trusted hosts. The same release also fixes missing SSRF checks in several HTTP-emitting modules and revalidates each redirect hop for generic HTTP modules.
+
+Operators should upgrade to 2.26.7 or later, remove public reachability to port 8344, rotate `FLYTO_RUNNER_SECRET` and any equivalent verification key after exposure, and inspect reverse-proxy, container, application, DNS, and egress logs for anonymous `/run` requests and callbacks to first-seen or non-engine destinations. Preserve workflow bodies and subsequent authenticated callback activity before rotation. The public advisory provides code-level proof but does **not** report malicious exploitation or confirmed victims.
 
 ## Exposure classes
 ### Sensitive-data access
@@ -99,3 +114,5 @@ Use non-destructive checks. Confirm authentication and authorization with a beni
 - Wiz Research: [The risk hiding behind exposed MCP servers](https://www.wiz.io/blog/the-risk-hiding-behind-exposed-mcp-servers) (2026-07-28)
 - GitHub Security Advisory: [Meta Ads MCP unauthenticated HTTP tool execution leaks the operator Meta access token](https://github.com/advisories/GHSA-9gw6-46qc-99vr) (`GHSA-9gw6-46qc-99vr`, `CVE-2026-48039`; updated 2026-08-07)
 - `pipeboard-co/meta-ads-mcp`: [release 1.0.109](https://github.com/pipeboard-co/meta-ads-mcp/releases/tag/1.0.109)
+- GitHub Security Advisory: [Flyto2 Core unauthenticated callback SSRF and internal runner-secret exfiltration](https://github.com/advisories/GHSA-jx74-cqjv-2c67) (`GHSA-jx74-cqjv-2c67`, `CVE-2026-67426`; reviewed 2026-08-10)
+- `flytohub/flyto-core`: [2.26.7 security release](https://github.com/flytohub/flyto-core/releases/tag/v2.26.7) and [remediation commit](https://github.com/flytohub/flyto-core/commit/0a0a528520ec18f5a21f1ddf858a71cc1edfb6e9)

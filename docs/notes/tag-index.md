@@ -399,6 +399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [calendar invitation](#calendar-invitation) (1)
 - [Calendly abuse](#calendly-abuse) (1)
 - [call forwarding](#call-forwarding) (2)
+- [callback URL](#callback-url) (1)
 - [Cambodia](#cambodia) (1)
 - [campaign](#campaign) (5)
 - [Canada](#canada) (1)
@@ -825,6 +826,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-6686](#cve-2026-6686) (1)
 - [CVE-2026-6687](#cve-2026-6687) (1)
 - [CVE-2026-6688](#cve-2026-6688) (1)
+- [CVE-2026-67426](#cve-2026-67426) (1)
 - [CVE-2026-6875](#cve-2026-6875) (1)
 - [CVE-2026-7473](#cve-2026-7473) (1)
 - [CVE-2026-8037](#cve-2026-8037) (1)
@@ -1200,6 +1202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Flutter](#flutter) (1)
 - [FlutterShell](#fluttershell) (1)
 - [Flying Eagle](#flying-eagle) (1)
+- [Flyto2 Core](#flyto2-core) (1)
 - [FMC](#fmc) (1)
 - [FOFA](#fofa) (2)
 - [FofaMap](#fofamap) (1)
@@ -1498,6 +1501,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [install.res.1033.dll](#installres1033dll) (1)
 - [Integration Broker](#integration-broker) (1)
 - [Intercolo](#intercolo) (1)
+- [internal secret exfiltration](#internal-secret-exfiltration) (1)
 - [internet exposure](#internet-exposure) (1)
 - [internet-facing admin surface](#internet-facing-admin-surface) (1)
 - [internet-facing appliance](#internet-facing-appliance) (2)
@@ -4851,6 +4855,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
+## callback URL
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
+
 ## Cambodia
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
 
@@ -6615,6 +6622,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-6688
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
+## CVE-2026-67426
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
+
 ## CVE-2026-6875
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 
@@ -8144,6 +8154,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Flying Eagle
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
+## Flyto2 Core
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
+
 ## FMC
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 
@@ -9302,6 +9315,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Intercolo
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
+## internal secret exfiltration
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## internet exposure
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)

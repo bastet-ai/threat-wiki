@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Flyto2 sends its internal runner secret to a caller-selected callback](patterns/internet-exposed-unauthenticated-mcp-servers.md#flyto2-core-concrete-case)
 - [Metabase zero-day root cause and downstream customer-data impact](ops/metabase-unauthenticated-sql-injection-zero-day.md#august-10-technical-and-victim-impact-follow-up)
 - [OpenAI pauses insufficiently isolated Astra work after it cannot rule out a critical cyber threshold](ops/hugging-face-autonomous-agent-production-intrusion.md#august-7-astra-capability-containment-follow-up)
 - [ChainDrop reaches the MCP Registry through a poisoned source repository](ops/chaindrop-keyv-cacheable-npm-worm.md#ox-mcp-registry-and-residual-repository-follow-up)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Metabase zero-day gives unauthenticated attackers administrator access](ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [N-central Hotfix 2 supersedes the first emergency fix](ops/n-able-n-central-cve-2026-18556-18577-exploitation.md#hotfix-2-supersedes-hotfix-1-2026-08-06)
 - [Kiota turns untrusted OpenAPI metadata into a recommended install command](patterns/kiota-openapi-metadata-command-injection.md)
-- [One public issue, three coding-agent harness boundary failures](patterns/coding-agent-ci-harness-handoff-failures.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

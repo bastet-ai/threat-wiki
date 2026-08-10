@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Flyto2 sends its internal runner secret to a caller-selected callback](../patterns/internet-exposed-unauthenticated-mcp-servers.md#flyto2-core-concrete-case)
 - [Metabase zero-day root cause and downstream customer-data impact](../ops/metabase-unauthenticated-sql-injection-zero-day.md#august-10-technical-and-victim-impact-follow-up)
 - [OpenAI pauses insufficiently isolated Astra work after it cannot rule out a critical cyber threshold](../ops/hugging-face-autonomous-agent-production-intrusion.md#august-7-astra-capability-containment-follow-up)
 - [ChainDrop reaches the MCP Registry through a poisoned source repository](../ops/chaindrop-keyv-cacheable-npm-worm.md#ox-mcp-registry-and-residual-repository-follow-up)

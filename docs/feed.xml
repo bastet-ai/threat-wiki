@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Flyto2 sends its internal runner secret to a caller-selected callback</title>
+      <link>https://threat.wiki/patterns/internet-exposed-unauthenticated-mcp-servers/#flyto2-core-concrete-case</link>
+      <description>Added GitHub's reviewed Flyto2 Core CVE-2026-67426 / GHSA-jx74-cqjv-2c67. The unauthenticated flyto-verification /run service accepted a caller-selected callback URL, made an outbound request, and attached the internal runner secret; coverage records the SSRF and callback-forgery impact, 2.26.7 fix, secret rotation and egress hunts, and the absence of reported exploitation.</description>
+      <pubDate>Mon, 10 Aug 2026 15:26:28 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/internet-exposed-unauthenticated-mcp-servers/#flyto2-core-concrete-case</guid>
+    </item>
+    <item>
       <title>Metabase zero-day root cause and downstream customer-data impact</title>
       <link>https://threat.wiki/ops/metabase-unauthenticated-sql-injection-zero-day/#august-10-technical-and-victim-impact-follow-up</link>
       <description>Added Wiz Research's reverse engineering of GHSA-vwf4-m7j8-wcjf, including the request-merge and HoneySQL raw-SQL path, public proof-of-concept status, and cloud exposure measurements. First-party n8n and Anaconda/Kilo Code notices now confirm downstream access to customer records, a small number of password hashes and Slack tokens, and possible AI prompt exposure.</description>
