@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>DeadLock ransomware decentralizes recovery chat and leak infrastructure</title>
+      <link>https://threat.wiki/tools/deadlock-ransomware/</link>
+      <description>Added Microsoft Threat Intelligence's technical analysis of the Rust-based DeadLock double-extortion operation. Coverage records more than 80 leak-site claims, resource-aware and intermittent XChaCha20 encryption, backup and logging impairment, Polygon smart-contract configuration, Session encrypted chat, Wasabi leak storage, durable host and network pivots, and the remaining off-chain dependencies in its decentralized recovery stack.</description>
+      <pubDate>Mon, 10 Aug 2026 17:27:35 GMT</pubDate>
+      <guid>https://threat.wiki/tools/deadlock-ransomware/</guid>
+    </item>
+    <item>
+      <title>Six npm packages use the NullReceiver Ethereum dead-drop loader</title>
+      <link>https://threat.wiki/ops/nullreceiver-dprk-npm-blockchain-loader/</link>
+      <description>Added Sonatype's same-day report on three hijacked legitimate npm packages and three newly published packages carrying one JavaScript loader. Coverage records exact versions, redundant Ethereum RPC and Blockscout resolution, /0x/cls and /0x/ls staging, X-Payload-B64 HEAD-response fallback, in-process and detached execution, response guidance, and the source-linked but carefully bounded Contagious Interview and PolinRider relationships.</description>
+      <pubDate>Mon, 10 Aug 2026 17:26:35 GMT</pubDate>
+      <guid>https://threat.wiki/ops/nullreceiver-dprk-npm-blockchain-loader/</guid>
+    </item>
+    <item>
       <title>Flyto2 sends its internal runner secret to a caller-selected callback</title>
       <link>https://threat.wiki/patterns/internet-exposed-unauthenticated-mcp-servers/#flyto2-core-concrete-case</link>
       <description>Added GitHub's reviewed Flyto2 Core CVE-2026-67426 / GHSA-jx74-cqjv-2c67. The unauthenticated flyto-verification /run service accepted a caller-selected callback URL, made an outbound request, and attached the internal runner secret; coverage records the SSRF and callback-forgery impact, 2.26.7 fix, secret rotation and egress hunts, and the absence of reported exploitation.</description>
