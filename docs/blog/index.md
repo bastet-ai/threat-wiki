@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Gunra affiliates turn Fortinet and VDI access into cross-platform double extortion](../ops/gunra-ransomware-raas.md)
 - [DeadLock ransomware decentralizes recovery chat and leak infrastructure](../tools/deadlock-ransomware.md)
 - [Six npm packages use the NullReceiver Ethereum dead-drop loader](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 - [Flyto2 sends its internal runner secret to a caller-selected callback](../patterns/internet-exposed-unauthenticated-mcp-servers.md#flyto2-core-concrete-case)

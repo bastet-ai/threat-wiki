@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Gunra affiliates turn Fortinet and VDI access into cross-platform double extortion</title>
+      <link>https://threat.wiki/ops/gunra-ransomware-raas/</link>
+      <description>Added the joint CISA, FBI, DC3, NSA, U.S. Secret Service, and KNPA advisory on Gunra ransomware-as-a-service. Coverage records observed FortiOS and FortiProxy exploitation, VPN and VDI session abuse, an attacker-selected OTP bypass, Impacket lateral movement, OneDrive and SharePoint exfiltration reaching tens of terabytes in one case, primary and disaster-recovery backup deletion, encryption artifacts, historical indicators, and response priorities.</description>
+      <pubDate>Mon, 10 Aug 2026 19:35:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/gunra-ransomware-raas/</guid>
+    </item>
+    <item>
       <title>DeadLock ransomware decentralizes recovery chat and leak infrastructure</title>
       <link>https://threat.wiki/tools/deadlock-ransomware/</link>
       <description>Added Microsoft Threat Intelligence's technical analysis of the Rust-based DeadLock double-extortion operation. Coverage records more than 80 leak-site claims, resource-aware and intermittent XChaCha20 encryption, backup and logging impairment, Polygon smart-contract configuration, Session encrypted chat, Wasabi leak storage, durable host and network pivots, and the remaining off-chain dependencies in its decentralized recovery stack.</description>

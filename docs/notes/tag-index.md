@@ -401,7 +401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [call forwarding](#call-forwarding) (2)
 - [callback URL](#callback-url) (1)
 - [Cambodia](#cambodia) (1)
-- [campaign](#campaign) (5)
+- [campaign](#campaign) (6)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [CAP_NET_ADMIN](#cap_net_admin) (2)
@@ -465,7 +465,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (5)
+- [CISA](#cisa) (6)
 - [CISA KEV](#cisa-kev) (30)
 - [Cisco](#cisco) (4)
 - [Cisco IOS](#cisco-ios) (1)
@@ -860,7 +860,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data exposure](#data-exposure) (3)
 - [data extortion](#data-extortion) (2)
 - [data leak site](#data-leak-site) (3)
-- [data theft](#data-theft) (9)
+- [data theft](#data-theft) (10)
 - [data-exfiltration](#data-exfiltration) (1)
 - [database extortion](#database-extortion) (1)
 - [Datadog Security Labs](#datadog-security-labs) (1)
@@ -978,7 +978,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dormant accounts](#dormant-accounts) (2)
 - [DotNetNuke](#dotnetnuke) (1)
 - [DotnetTool](#dotnettool) (1)
-- [double extortion](#double-extortion) (2)
+- [double extortion](#double-extortion) (3)
 - [downgrade risk](#downgrade-risk) (1)
 - [downloader](#downloader) (1)
 - [downstream blast radius](#downstream-blast-radius) (1)
@@ -1154,7 +1154,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fat JAR](#fat-jar) (1)
 - [FAT32](#fat32) (1)
 - [FatFs](#fatfs) (1)
-- [FBI](#fbi) (2)
+- [FBI](#fbi) (3)
 - [fbot](#fbot) (1)
 - [FDMTP](#fdmtp) (2)
 - [Feiying](#feiying) (1)
@@ -1216,9 +1216,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ForgCookie](#forgcookie) (1)
 - [Forgejo](#forgejo) (1)
 - [FortiClient EMS](#forticlient-ems) (1)
-- [FortiGate](#fortigate) (2)
+- [FortiGate](#fortigate) (3)
 - [Fortinet](#fortinet) (4)
-- [FortiOS](#fortios) (2)
+- [FortiOS](#fortios) (3)
 - [FortiSandbox](#fortisandbox) (1)
 - [Fox Tempest](#fox-tempest) (2)
 - [fraud](#fraud) (2)
@@ -1362,6 +1362,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GUE](#gue) (1)
 - [guest-to-host escape](#guest-to-host-escape) (1)
 - [Guildma](#guildma) (1)
+- [Gunra](#gunra) (1)
 - [hack-and-leak](#hack-and-leak) (2)
 - [HackIndex](#hackindex) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
@@ -1463,7 +1464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [image proxy bypass](#image-proxy-bypass) (1)
 - [image recognition](#image-recognition) (1)
 - [iMessage](#imessage) (1)
-- [Impacket](#impacket) (3)
+- [Impacket](#impacket) (4)
 - [impersonation](#impersonation) (1)
 - [implant](#implant) (1)
 - [import-time execution](#import-time-execution) (5)
@@ -1819,7 +1820,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexican banking fraud](#mexican-banking-fraud) (2)
 - [Mexico](#mexico) (3)
-- [MFA bypass](#mfa-bypass) (8)
+- [MFA bypass](#mfa-bypass) (9)
 - [MFA fatigue](#mfa-fatigue) (1)
 - [MFA-bypass](#mfa-bypass) (1)
 - [MFT](#mft) (1)
@@ -2076,7 +2077,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (294)
+- [ops](#ops) (295)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2339,7 +2340,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA](#quest-kace-sma) (1)
 - [QuickFox](#quickfox) (1)
 - [QuimaRAT](#quimarat) (1)
-- [RaaS](#raas) (1)
+- [RaaS](#raas) (2)
 - [RabbitMQ](#rabbitmq) (1)
 - [race condition](#race-condition) (1)
 - [RainbowEx](#rainbowex) (1)
@@ -2347,7 +2348,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAM disk](#ram-disk) (1)
 - [random number generator](#random-number-generator) (1)
 - [Ransom-ISAC](#ransom-isac) (1)
-- [ransomware](#ransomware) (17)
+- [ransomware](#ransomware) (18)
 - [ransomware access](#ransomware-access) (1)
 - [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
@@ -3091,7 +3092,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Void Manticore](#void-manticore) (1)
 - [Volt Typhoon](#volt-typhoon) (1)
 - [volume serial number](#volume-serial-number) (1)
-- [VPN](#vpn) (6)
+- [VPN](#vpn) (7)
 - [VPN credentials](#vpn-credentials) (2)
 - [VPN gateway](#vpn-gateway) (1)
 - [VPN Go](#vpn-go) (1)
@@ -4876,6 +4877,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## campaign
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
@@ -5169,6 +5171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 
 ## CISA KEV
@@ -6782,6 +6785,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -7300,6 +7304,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## double extortion
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## downgrade risk
@@ -8009,6 +8014,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FBI
 - [First VPN](../tools/first-vpn.md)
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## fbot
@@ -8226,6 +8232,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FortiGate
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 
 ## Fortinet
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -8236,6 +8243,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FortiOS
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 
 ## FortiSandbox
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -8796,6 +8804,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Guildma
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
+## Gunra
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
+
 ## hack-and-leak
 - [Handala](../actors/handala.md)
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
@@ -9131,6 +9142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
 ## Impacket
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -10640,6 +10652,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [ROADtools](../tools/roadtools.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
@@ -12026,6 +12039,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -13273,6 +13287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QuimaRAT](../tools/quimarat.md)
 
 ## RaaS
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## RabbitMQ
@@ -13309,6 +13324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 - [GenieLocker](../tools/genielocker.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -16296,6 +16312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [First VPN](../tools/first-vpn.md)
+- [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)

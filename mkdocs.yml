@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Gunra ransomware-as-a-service activity: ops/gunra-ransomware-raas.md
       - NullReceiver DPRK-linked npm blockchain-loader wave: ops/nullreceiver-dprk-npm-blockchain-loader.md
       - Metabase unauthenticated SQL-injection zero-day: ops/metabase-unauthenticated-sql-injection-zero-day.md
       - Ill Bloom CryptoJS wallet-drain campaign: ops/ill-bloom-cryptojs-wallet-drains.md
