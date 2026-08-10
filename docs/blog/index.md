@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Metabase zero-day root cause and downstream customer-data impact](../ops/metabase-unauthenticated-sql-injection-zero-day.md#august-10-technical-and-victim-impact-follow-up)
 - [OpenAI pauses insufficiently isolated Astra work after it cannot rule out a critical cyber threshold](../ops/hugging-face-autonomous-agent-production-intrusion.md#august-7-astra-capability-containment-follow-up)
 - [ChainDrop reaches the MCP Registry through a poisoned source repository](../ops/chaindrop-keyv-cacheable-npm-worm.md#ox-mcp-registry-and-residual-repository-follow-up)
 - [ChainDrop: Unit 42 expands response scoping to 483 package names](../ops/chaindrop-keyv-cacheable-npm-worm.md#august-9-affected-package-inventory-update)
