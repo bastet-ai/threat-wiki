@@ -73,6 +73,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AES-CTR](#aes-ctr) (1)
 - [AES-GCM](#aes-gcm) (3)
 - [AES-GCM C2](#aes-gcm-c2) (1)
+- [Aeternum](#aeternum) (1)
 - [affiliate hijacking](#affiliate-hijacking) (1)
 - [Afghanistan](#afghanistan) (4)
 - [Africa](#africa) (4)
@@ -323,7 +324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile](#blackfile) (1)
 - [Blackpoint Cyber](#blackpoint-cyber) (6)
 - [Bleacher Report](#bleacher-report) (1)
-- [blockchain C2](#blockchain-c2) (7)
+- [blockchain C2](#blockchain-c2) (8)
 - [blockchain dead drop](#blockchain-dead-drop) (5)
 - [blockchain RPC](#blockchain-rpc) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
@@ -332,7 +333,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BLUEBEAM](#bluebeam) (1)
 - [Boatnet](#boatnet) (1)
 - [body hash](#body-hash) (1)
-- [botnet](#botnet) (11)
+- [botnet](#botnet) (12)
 - [botnet framework](#botnet-framework) (1)
 - [Braintree](#braintree) (1)
 - [branch-compromise](#branch-compromise) (1)
@@ -387,7 +388,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BYOVD](#byovd) (3)
 - [bypass2fa](#bypass2fa) (1)
 - [C#](#c) (1)
-- [C++](#c) (2)
+- [C++](#c) (3)
 - [C++/CLI](#ccli) (1)
 - [C0XMO](#c0xmo) (1)
 - [C2](#c2) (12)
@@ -628,7 +629,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential rotation](#credential-rotation) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (73)
+- [credential theft](#credential-theft) (74)
 - [credential-theft](#credential-theft) (53)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -651,9 +652,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto-js](#crypto-js) (1)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (14)
+- [cryptocurrency mining](#cryptocurrency-mining) (1)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
 - [cryptocurrency theft](#cryptocurrency-theft) (13)
-- [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (6)
+- [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (7)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (4)
 - [cryptojacking](#cryptojacking) (1)
 - [CryptoJS](#cryptojs) (1)
@@ -877,7 +879,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DDoS-for-hire](#ddos-for-hire) (3)
 - [dead drop](#dead-drop) (1)
 - [dead drop resolver](#dead-drop-resolver) (4)
-- [dead-drop resolver](#dead-drop-resolver) (1)
+- [dead-drop resolver](#dead-drop-resolver) (2)
 - [DeadLock](#deadlock) (1)
 - [Debian](#debian) (1)
 - [debugger evasion](#debugger-evasion) (1)
@@ -1004,6 +1006,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dysphoria](#dysphoria) (1)
 - [e-commerce](#e-commerce) (1)
 - [Eagle Werewolf](#eagle-werewolf) (2)
+- [Early Bird APC injection](#early-bird-apc-injection) (1)
 - [Earth Lusca](#earth-lusca) (2)
 - [East Asia](#east-asia) (1)
 - [East Asia-linked](#east-asia-linked) (1)
@@ -1275,7 +1278,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Git](#git) (1)
 - [git.exe](#gitexe) (1)
 - [Gitea](#gitea) (1)
-- [GitHub](#github) (22)
+- [GitHub](#github) (23)
 - [GitHub abuse](#github-abuse) (3)
 - [GitHub Actions](#github-actions) (25)
 - [GitHub Advisory Database](#github-advisory-database) (1)
@@ -1578,6 +1581,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Jscrambler](#jscrambler) (1)
 - [JScript](#jscript) (1)
 - [JSON](#json) (1)
+- [JSON-RPC](#json-rpc) (1)
 - [JSON:API](#jsonapi) (1)
 - [JSONKeeper](#jsonkeeper) (1)
 - [JSONPing](#jsonping) (1)
@@ -1701,7 +1705,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LNK](#lnk) (10)
 - [LNK files](#lnk-files) (1)
 - [load balancer](#load-balancer) (1)
-- [loader](#loader) (6)
+- [loader](#loader) (7)
 - [LOADLOOP](#loadloop) (1)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (6)
@@ -1768,7 +1772,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (9)
-- [malware](#malware) (57)
+- [malware](#malware) (58)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
@@ -2142,7 +2146,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [password spraying](#password-spraying) (3)
 - [password-protected archive](#password-protected-archive) (2)
 - [passwordless authentication](#passwordless-authentication) (1)
-- [Pastebin](#pastebin) (1)
+- [Pastebin](#pastebin) (2)
 - [PAT theft](#pat-theft) (1)
 - [patch management](#patch-management) (2)
 - [path hijacking](#path-hijacking) (1)
@@ -2219,7 +2223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PolinRider](#polinrider) (3)
 - [Poly1305](#poly1305) (1)
 - [polyfill](#polyfill) (1)
-- [Polygon](#polygon) (3)
+- [Polygon](#polygon) (4)
 - [Polygon blockchain dead drop](#polygon-blockchain-dead-drop) (2)
 - [Polymarket](#polymarket) (1)
 - [polymorphic loader](#polymorphic-loader) (1)
@@ -2322,9 +2326,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PureRAT](#purerat) (1)
 - [pwn-request](#pwn-request) (1)
 - [PyArmor](#pyarmor) (3)
-- [PyInstaller](#pyinstaller) (1)
+- [PyInstaller](#pyinstaller) (2)
 - [PyPI](#pypi) (14)
-- [Python](#python) (14)
+- [Python](#python) (15)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python malware](#python-malware) (2)
 - [Python stealer](#python-stealer) (1)
@@ -2648,7 +2652,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SLSA provenance](#slsa-provenance) (1)
 - [SMA1000](#sma1000) (2)
 - [smart building](#smart-building) (1)
-- [smart contracts](#smart-contracts) (1)
+- [smart contracts](#smart-contracts) (2)
 - [smart TVs](#smart-tvs) (1)
 - [SMARTAXE](#smartaxe) (1)
 - [SmartConsole](#smartconsole) (1)
@@ -2859,7 +2863,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telecom-impersonation](#telecom-impersonation) (1)
 - [telecommunications](#telecommunications) (4)
 - [Telegra.ph](#telegraph) (1)
-- [Telegram](#telegram) (12)
+- [Telegram](#telegram) (13)
 - [telegram](#telegram) (1)
 - [Telegram bot](#telegram-bot) (2)
 - [Telegram C2](#telegram-c2) (5)
@@ -2916,7 +2920,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (46)
+- [tools](#tools) (47)
 - [Tor](#tor) (3)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [TouchSocket](#touchsocket) (1)
@@ -3177,7 +3181,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
 - [Windmill](#windmill) (1)
-- [Windows](#windows) (46)
+- [Windows](#windows) (47)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Defender impairment](#windows-defender-impairment) (1)
@@ -3228,13 +3232,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XFRM](#xfrm) (1)
 - [xlabs_v1](#xlabs_v1) (1)
 - [XMLDecoder](#xmldecoder) (1)
-- [XMRig](#xmrig) (6)
+- [XMRig](#xmrig) (7)
 - [XOR](#xor) (3)
 - [XOR obfuscation](#xor-obfuscation) (1)
 - [Xray](#xray) (1)
 - [XSLT SSRF](#xslt-ssrf) (1)
 - [XSS](#xss) (2)
 - [XSS.is](#xssis) (1)
+- [XWorm](#xworm) (1)
 - [XXE](#xxe) (1)
 - [xz](#xz) (2)
 - [Yahoo Mail](#yahoo-mail) (1)
@@ -3588,6 +3593,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AES-GCM C2
 - [RustDuck](../tools/rustduck.md)
+
+## Aeternum
+- [Aeternum](../tools/aeternum.md)
 
 ## affiliate hijacking
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
@@ -4548,6 +4556,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## blockchain C2
+- [Aeternum](../tools/aeternum.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -4585,6 +4594,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
 ## botnet
+- [Aeternum](../tools/aeternum.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
@@ -4820,6 +4830,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](../tools/tinyrct.md)
 
 ## C++
+- [Aeternum](../tools/aeternum.md)
 - [BINDCLOAK](../tools/bindcloak.md)
 - [TELESHIM](../tools/teleshim.md)
 
@@ -5854,6 +5865,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## credential theft
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+- [Aeternum](../tools/aeternum.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -6072,6 +6084,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
+## cryptocurrency mining
+- [Aeternum](../tools/aeternum.md)
+
 ## cryptocurrency scam
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
@@ -6091,6 +6106,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
 ## cryptocurrency wallet theft
+- [Aeternum](../tools/aeternum.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
@@ -6853,6 +6869,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## dead-drop resolver
+- [Aeternum](../tools/aeternum.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 
 ## DeadLock
@@ -7390,6 +7407,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Eagle Werewolf
 - [Armored Likho](../actors/armored-likho.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
+
+## Early Bird APC injection
+- [Aeternum](../tools/aeternum.md)
 
 ## Earth Lusca
 - [FishMonger](../actors/fishmonger.md)
@@ -8427,6 +8447,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 
 ## GitHub
+- [Aeternum](../tools/aeternum.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -9640,6 +9661,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JSON
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 
+## JSON-RPC
+- [Aeternum](../tools/aeternum.md)
+
 ## JSON:API
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
@@ -10127,6 +10151,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## loader
+- [Aeternum](../tools/aeternum.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [MIXEDKEY](../tools/mixedkey.md)
@@ -10392,6 +10417,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malware
 - [ACR Stealer](../tools/acr-stealer.md)
+- [Aeternum](../tools/aeternum.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [BINDCLOAK](../tools/bindcloak.md)
@@ -12450,6 +12476,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## Pastebin
+- [Aeternum](../tools/aeternum.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 
 ## PAT theft
@@ -12791,6 +12818,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 
 ## Polygon
+- [Aeternum](../tools/aeternum.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [Starland RAT](../tools/starland-rat.md)
@@ -13200,6 +13228,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
 ## PyInstaller
+- [Aeternum](../tools/aeternum.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
 ## PyPI
@@ -13220,6 +13249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Python
 - [ACR Stealer](../tools/acr-stealer.md)
+- [Aeternum](../tools/aeternum.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
@@ -14487,6 +14517,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 
 ## smart contracts
+- [Aeternum](../tools/aeternum.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 
 ## smart TVs
@@ -15377,6 +15408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Telegram
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [Aeternum](../tools/aeternum.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
@@ -15606,6 +15638,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## tools
 - [ACR Stealer](../tools/acr-stealer.md)
+- [Aeternum](../tools/aeternum.md)
 - [ArcBridge](../tools/arcbridge.md)
 - [BINDCLOAK](../tools/bindcloak.md)
 - [BridgeHead](../tools/bridgehead.md)
@@ -16660,6 +16693,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
+- [Aeternum](../tools/aeternum.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [ArcBridge](../tools/arcbridge.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -16906,6 +16940,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
 ## XMRig
+- [Aeternum](../tools/aeternum.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -16933,6 +16968,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## XSS.is
 - [First VPN](../tools/first-vpn.md)
+
+## XWorm
+- [Aeternum](../tools/aeternum.md)
 
 ## XXE
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)

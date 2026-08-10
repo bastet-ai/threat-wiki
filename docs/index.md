@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Aeternum turns Polygon smart contracts into a durable botnet control plane](tools/aeternum.md)
 - [Gunra affiliates turn Fortinet and VDI access into cross-platform double extortion](ops/gunra-ransomware-raas.md)
 - [DeadLock ransomware decentralizes recovery chat and leak infrastructure](tools/deadlock-ransomware.md)
 - [Six npm packages use the NullReceiver Ethereum dead-drop loader](ops/nullreceiver-dprk-npm-blockchain-loader.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [ChainDrop reaches the MCP Registry through a poisoned source repository](ops/chaindrop-keyv-cacheable-npm-worm.md#ox-mcp-registry-and-residual-repository-follow-up)
 - [ChainDrop: Unit 42 expands response scoping to 483 package names](ops/chaindrop-keyv-cacheable-npm-worm.md#august-9-affected-package-inventory-update)
 - [Atlassian Rovo turns untrusted prompts into authenticated data exfiltration](patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
-- [Webmail CSS crosses sanitizer, UI, token, and agent trust boundaries](patterns/webmail-css-trust-boundary-attacks.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

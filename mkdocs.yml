@@ -310,6 +310,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - Aeternum: tools/aeternum.md
       - DeadLock ransomware: tools/deadlock-ransomware.md
       - FDMTP: tools/fdmtp.md
       - XCSSET: tools/xcsset.md
