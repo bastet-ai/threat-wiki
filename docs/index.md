@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [LangGraph namespace prefix matching crosses tenant boundaries](patterns/langgraph-checkpointer-injection-rce.md)
 - [Aeternum turns Polygon smart contracts into a durable botnet control plane](tools/aeternum.md)
 - [Gunra affiliates turn Fortinet and VDI access into cross-platform double extortion](ops/gunra-ransomware-raas.md)
 - [DeadLock ransomware decentralizes recovery chat and leak infrastructure](tools/deadlock-ransomware.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [OpenAI pauses insufficiently isolated Astra work after it cannot rule out a critical cyber threshold](ops/hugging-face-autonomous-agent-production-intrusion.md#august-7-astra-capability-containment-follow-up)
 - [ChainDrop reaches the MCP Registry through a poisoned source repository](ops/chaindrop-keyv-cacheable-npm-worm.md#ox-mcp-registry-and-residual-repository-follow-up)
 - [ChainDrop: Unit 42 expands response scoping to 483 package names](ops/chaindrop-keyv-cacheable-npm-worm.md#august-9-affected-package-inventory-update)
-- [Atlassian Rovo turns untrusted prompts into authenticated data exfiltration](patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

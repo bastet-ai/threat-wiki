@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>LangGraph namespace prefix matching crosses tenant boundaries</title>
+      <link>https://threat.wiki/patterns/langgraph-checkpointer-injection-rce/</link>
+      <description>Added CVE-2026-71433 / GHSA-47pj-3jcm-6whg to the LangGraph checkpointer trust-boundary analysis. PostgreSQL and SQLite stores used non-segment-aware namespace pattern matching, allowing ordinary scoped reads to return sibling tenant data for prefix-colliding, wildcard-bearing, suffix-matching, or case-colliding labels. Coverage records affected hosted deployments, the 3.1.1 fixes, audit pivots, and the absence of reported exploitation.</description>
+      <pubDate>Tue, 11 Aug 2026 05:26:06 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/langgraph-checkpointer-injection-rce/#cve-2026-71433-namespace-isolation-failure</guid>
+    </item>
+    <item>
       <title>Aeternum turns Polygon smart contracts into a durable botnet control plane</title>
       <link>https://threat.wiki/tools/aeternum/</link>
       <description>Added Unit 42's analysis of Aeternum's C++, PyInstaller, and Python malware branches. Coverage records the shared Polygon getDomain selector and operator update path, weakly encrypted and plaintext on-chain instructions, Windows Startup and Early Bird APC persistence, GitHub, Pastebin, Telegram, and HTTP dependencies, XWorm and XMRig payloads, wallet-focused collection, durable hashes and infrastructure pivots, detection guidance, and attribution limits.</description>

@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [LangGraph namespace prefix matching crosses tenant boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Aeternum turns Polygon smart contracts into a durable botnet control plane](../tools/aeternum.md)
 - [Gunra affiliates turn Fortinet and VDI access into cross-platform double extortion](../ops/gunra-ransomware-raas.md)
 - [DeadLock ransomware decentralizes recovery chat and leak infrastructure](../tools/deadlock-ransomware.md)

@@ -1,9 +1,12 @@
-# LangGraph checkpointer injection and unsafe deserialization
+# LangGraph checkpointer and namespace trust boundaries
 
 ## Summary
 Check Point Research disclosed a LangGraph checkpointer vulnerability chain where user-controlled checkpoint-history filters can cross from agent state lookup into database query injection and, in some self-hosted SQLite deployments, into runtime code execution through unsafe `msgpack` checkpoint deserialization.
 
-The highest-risk shape is a self-hosted LangGraph application that exposes `get_state_history()` or equivalent checkpoint search with user-controlled filter keys, while using the SQLite checkpointer. LangChain's managed LangSmith Deployment / LangGraph Platform is described by Check Point as not affected because it uses PostgreSQL, but self-hosted agent services should inventory their checkpointer backends and patch.
+For that earlier chain, the highest-risk shape is a self-hosted LangGraph application that exposes `get_state_history()` or equivalent checkpoint search with user-controlled filter keys, while using the SQLite checkpointer. LangChain's managed LangSmith Deployment / LangGraph Platform is described by Check Point as not affected because it uses PostgreSQL, but self-hosted agent services should inventory their checkpointer backends and patch.
+
+## CVE-2026-71433 namespace isolation failure
+An August 2026 LangGraph advisory adds a separate read-isolation failure: PostgreSQL and SQLite stores flattened hierarchical namespaces into dot-joined strings and used non-segment-aware pattern matching. Ordinary scoped reads could therefore return a sibling tenant's items when one namespace label prefixed another, contained SQL wildcard characters, or matched a suffix inside another label. This issue does reach hosted LangSmith deployments using the affected Python PostgreSQL backend; there is no reported exploitation.
 
 ## Tags
 - patterns
@@ -14,6 +17,7 @@ The highest-risk shape is a self-hosted LangGraph application that exposes `get_
 - checkpointers
 - agent state
 - SQLite
+- PostgreSQL
 - Redis
 - RediSearch
 - SQL injection
@@ -22,6 +26,8 @@ The highest-risk shape is a self-hosted LangGraph application that exposes `get_
 - msgpack
 - RCE
 - self-hosted AI services
+- multi-tenant isolation
+- information disclosure
 - Check Point Research
 - GitHub Security Advisories
 
@@ -29,6 +35,7 @@ The highest-risk shape is a self-hosted LangGraph application that exposes `get_
 - `CVE-2025-67644` / `GHSA-9rwj-6rc7-p77c`: SQL injection in `langgraph-checkpoint-sqlite` metadata filter-key handling. Affected versions are `< 3.0.1`; patched in `3.0.1`.
 - `CVE-2026-28277` / `GHSA-g48c-2wqr-h844`: unsafe `msgpack` checkpoint deserialization in `langgraph`. Affected versions are `<= 1.0.9`; patched in `1.0.10`.
 - `CVE-2026-27022` / `GHSA-5mx2-w598-339m`: RediSearch query injection in `@langchain/langgraph-checkpoint-redis` filter handling. The GitHub advisory lists affected versions as `< 1.0.1`; Check Point recommends updating to `1.0.2+`.
+- `CVE-2026-71433` / `GHSA-47pj-3jcm-6whg`: namespace-prefix authorization failure in `langgraph-checkpoint-postgres` and `langgraph-checkpoint-sqlite` `< 3.1.1`; patched in `3.1.1`. The advisory rates it medium severity and reports no exploitation in the wild.
 
 ## Attack shape
 - LangGraph checkpointers store agent execution state and metadata so applications can resume, inspect, or query prior agent runs.
@@ -37,15 +44,20 @@ The highest-risk shape is a self-hosted LangGraph application that exposes `get_
 - Check Point describes a SQLite chain where SQL injection can return attacker-shaped checkpoint rows, and later checkpoint loading reaches unsafe `msgpack` object reconstruction, producing remote code execution in the application runtime.
 - The Redis issue is parallel query-injection risk in RediSearch filter construction: unescaped filter keys or values can alter query logic and cross thread or namespace boundaries.
 - The `msgpack` issue is also a post-exploitation blast-radius problem by itself: if an attacker can write checkpoint bytes at rest, loading those bytes can turn checkpoint-store compromise into code execution with the agent service's environment variables, cloud credentials, filesystem access, and network permissions.
+- The namespace issue is not SQL injection. Stores encoded tuples such as `("memories", "alice")` as `memories.alice`, then used `LIKE '<path>%'`; a scope for `foo` also matched `foobar` and `foo2`, while unescaped `_` and `%` acted as pattern metacharacters. Suffix matching could likewise treat `alice` as a match for `malice`.
+- Only scoped read paths were affected. Exact-match `get`, `put`, and `delete` operations retained integrity, and the element-wise `InMemoryStore` implementation was not affected. Fixed-length labels such as UUIDs that contain no `_` or `%` are not prefix-collision candidates.
+- The new advisory changes the earlier managed-service boundary: hosted LangSmith deployments defaulting to the Python `AsyncPostgresStore` backend were in scope, while the separate gRPC backend received an equivalent fix.
 
 ## Defender heuristics
-- Patch self-hosted LangGraph deployments to at least `langgraph-checkpoint-sqlite` `3.0.1`, `langgraph` `1.0.10`, and `@langchain/langgraph-checkpoint-redis` `1.0.2` where those packages are in use.
+- Patch LangGraph deployments to at least `langgraph-checkpoint-postgres` `3.1.1`, `langgraph-checkpoint-sqlite` `3.1.1`, `langgraph` `1.0.10`, and `@langchain/langgraph-checkpoint-redis` `1.0.2` where those packages are in use. The `3.1.1` store releases supersede the older SQLite `3.0.1` injection fix.
 - Treat checkpoint filters as a trust boundary. Do not let tenants, chat users, tools, or API clients choose arbitrary metadata filter keys; map user choices to a small allow-list of server-side field names.
 - Search application code for `get_state_history(` and check whether `filter` keys come from request JSON, URL parameters, LLM/tool output, plugin metadata, or other untrusted input.
 - Review checkpoint stores for suspicious metadata keys, malformed `json_extract` / RediSearch syntax, unexpected checkpoint namespaces, and checkpoint rows not produced by normal agent execution.
 - Run self-hosted agent services with least privilege: isolate checkpoint databases, keep runtime credentials narrow, block metadata-service access where possible, and restrict outbound network egress from agent workers.
 - Add telemetry around checkpoint reads and loads, not only agent tool calls. Alert on checkpoint-history queries that use unusual filter keys, broad OR-style Redis predicates, or cross-tenant/thread access patterns.
 - During incident response, preserve checkpoint databases before cleanup; they may contain both malicious serialized payloads and evidence of prompt/tool execution history.
+- Review tenant namespace design and historical broad `search` / `list_namespaces` results. Prioritize variable-length human labels, prefix pairs such as `1` / `12` or `alice` / `alice2`, labels containing `_` or `%`, and SQLite namespaces differing only by ASCII case.
+- Do not rely on namespace naming as the only authorization control. Bind the authenticated tenant identity server-side, validate returned namespace segments before releasing records, and use fixed-length opaque identifiers where practical.
 
 ## Related pages
 - [MCP stdio command-execution boundary](mcp-stdio-command-execution.md)
@@ -59,4 +71,5 @@ The highest-risk shape is a self-hosted LangGraph application that exposes `get_
 - GitHub Advisory `GHSA-9rwj-6rc7-p77c` / `CVE-2025-67644`: [https://github.com/langchain-ai/langgraph/security/advisories/GHSA-9rwj-6rc7-p77c](https://github.com/langchain-ai/langgraph/security/advisories/GHSA-9rwj-6rc7-p77c)
 - GitHub Advisory `GHSA-g48c-2wqr-h844` / `CVE-2026-28277`: [https://github.com/langchain-ai/langgraph/security/advisories/GHSA-g48c-2wqr-h844](https://github.com/langchain-ai/langgraph/security/advisories/GHSA-g48c-2wqr-h844)
 - GitHub Advisory `GHSA-5mx2-w598-339m` / `CVE-2026-27022`: [https://github.com/langchain-ai/langgraphjs/security/advisories/GHSA-5mx2-w598-339m](https://github.com/langchain-ai/langgraphjs/security/advisories/GHSA-5mx2-w598-339m)
+- GitHub Advisory `GHSA-47pj-3jcm-6whg` / `CVE-2026-71433`: [https://github.com/langchain-ai/langgraph/security/advisories/GHSA-47pj-3jcm-6whg](https://github.com/langchain-ai/langgraph/security/advisories/GHSA-47pj-3jcm-6whg)
 - The Hacker News summary: [https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html](https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html)
