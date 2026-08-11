@@ -727,11 +727,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-12958](#cve-2026-12958) (1)
 - [CVE-2026-15409](#cve-2026-15409) (1)
 - [CVE-2026-15410](#cve-2026-15410) (1)
+- [CVE-2026-15583](#cve-2026-15583) (1)
 - [CVE-2026-16232](#cve-2026-16232) (1)
 - [CVE-2026-16723](#cve-2026-16723) (1)
 - [CVE-2026-16812](#cve-2026-16812) (1)
 - [CVE-2026-18556](#cve-2026-18556) (2)
 - [CVE-2026-18577](#cve-2026-18577) (1)
+- [CVE-2026-19516](#cve-2026-19516) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
 - [CVE-2026-20230](#cve-2026-20230) (1)
@@ -1345,6 +1347,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GPT](#gpt) (1)
 - [GPT-5.6 Sol](#gpt-56-sol) (1)
 - [Gradio](#gradio) (1)
+- [Grafana MCP Server](#grafana-mcp-server) (1)
 - [Grandoreiro](#grandoreiro) (2)
 - [granular access tokens](#granular-access-tokens) (1)
 - [GraphSpy](#graphspy) (1)
@@ -1804,6 +1807,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [McMx](#mcmx) (1)
 - [MCP](#mcp) (14)
 - [MCP credentials](#mcp-credentials) (1)
+- [mcp-grafana](#mcp-grafana) (1)
 - [media processing](#media-processing) (1)
 - [medical research](#medical-research) (1)
 - [Mekotio](#mekotio) (1)
@@ -3219,6 +3223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wp2shell](#wp2shell) (1)
 - [WScript](#wscript) (1)
 - [WSS](#wss) (1)
+- [X-Grafana-URL](#x-grafana-url) (1)
 - [X-Secret](#x-secret) (1)
 - [X-WEBAUTH-USER](#x-webauth-user) (1)
 - [X25519](#x25519) (1)
@@ -6344,6 +6349,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-15410
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
+## CVE-2026-15583
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
+
 ## CVE-2026-16232
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 
@@ -6359,6 +6367,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-18577
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+
+## CVE-2026-19516
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## CVE-2026-20127
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -8743,6 +8754,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Gradio
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 
+## Grafana MCP Server
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
+
 ## Grandoreiro
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -10606,6 +10620,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MCP credentials
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+
+## mcp-grafana
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## media processing
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -16897,6 +16914,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WSS
 - [BridgeHead](../tools/bridgehead.md)
+
+## X-Grafana-URL
+- [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
 ## X-Secret
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)

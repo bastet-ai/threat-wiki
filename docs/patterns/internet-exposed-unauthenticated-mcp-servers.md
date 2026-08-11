@@ -33,6 +33,11 @@ This is exposure research, not evidence that the reported servers were exploited
 - CVE-2026-67426
 - callback URL
 - internal secret exfiltration
+- Grafana MCP Server
+- mcp-grafana
+- CVE-2026-19516
+- CVE-2026-15583
+- X-Grafana-URL
 
 ## Reported prevalence
 Wiz reported the following measurements from its cloud-environment data and exposed-server testing:
@@ -66,6 +71,15 @@ The application's existing destination control did not cover this path. `target_
 The reviewed advisory scopes `flyto-core` **2.26.6** as affected and identifies **2.26.7** as the first patched version. The security release adds authentication to `/run`, fails closed when no verification key is configured, applies the SSRF guard to callbacks, and sends the internal key only to configured trusted hosts. The same release also fixes missing SSRF checks in several HTTP-emitting modules and revalidates each redirect hop for generic HTTP modules.
 
 Operators should upgrade to 2.26.7 or later, remove public reachability to port 8344, rotate `FLYTO_RUNNER_SECRET` and any equivalent verification key after exposure, and inspect reverse-proxy, container, application, DNS, and egress logs for anonymous `/run` requests and callbacks to first-seen or non-engine destinations. Preserve workflow bodies and subsequent authenticated callback activity before rotation. The public advisory provides code-level proof but does **not** report malicious exploitation or confirmed victims.
+
+## Grafana MCP concrete case
+Grafana's `CVE-2026-19516` advisory documents a critical server-side request-forgery path in Grafana MCP Server / `mcp-grafana` through **1.0.0**. A caller could supply the undocumented `X-Grafana-URL` request header to select the destination used by the server's outbound requests. The `grafana_api_request` tool separately let the caller select the HTTP method, path, and body. Together, those controls let anyone able to invoke the tool direct requests to internal, loopback, or link-local services—including cloud instance-metadata endpoints—and read the responses.
+
+This advisory is also a useful partial-fix case study. Version 0.17.2 addressed `CVE-2026-15583` by binding environment-configured Grafana credentials and extra headers to the configured Grafana URL. That prevented a caller-selected host from receiving the server's Grafana service-account token, deprecated API key, basic-auth credentials, or extra headers. It did **not** remove the caller's destination control, so the server remained a readable network proxy even without forwarding its Grafana credential.
+
+Version **1.1.0** removes support for `X-Grafana-URL` and is the first release outside the CNA's affected range. The same release adds optional bearer-token caller authentication for the SSE and Streamable HTTP transports. Authentication is not enabled by default: operators must configure `--server-auth-token` or `MCP_GRAFANA_SERVER_TOKEN`; otherwise a non-loopback listener still starts and emits a security error. Upgrade to 1.1.0 or later, explicitly enable caller authentication, keep the listener private where possible, restrict workload egress to the intended Grafana origin, and block metadata, loopback, link-local, and unnecessary internal destinations independently of application checks.
+
+For exposed deployments, preserve MCP transport, reverse-proxy, application, DNS, and egress telemetry before changing access. Hunt for `X-Grafana-URL`, especially values naming raw IPs, `localhost`, loopback, link-local ranges, metadata hostnames, or first-seen internal services; correlate those requests with `grafana_api_request` invocations and unusual methods or paths. Review the reachable services and any returned data, and rotate credentials only where evidence shows they were exposed through a reachable service or the earlier `CVE-2026-15583` path. The public record says the issue was found through bug bounty and does not report exploitation or victims.
 
 ## Exposure classes
 ### Sensitive-data access
@@ -116,3 +130,6 @@ Use non-destructive checks. Confirm authentication and authorization with a beni
 - `pipeboard-co/meta-ads-mcp`: [release 1.0.109](https://github.com/pipeboard-co/meta-ads-mcp/releases/tag/1.0.109)
 - GitHub Security Advisory: [Flyto2 Core unauthenticated callback SSRF and internal runner-secret exfiltration](https://github.com/advisories/GHSA-jx74-cqjv-2c67) (`GHSA-jx74-cqjv-2c67`, `CVE-2026-67426`; reviewed 2026-08-10)
 - `flytohub/flyto-core`: [2.26.7 security release](https://github.com/flytohub/flyto-core/releases/tag/v2.26.7) and [remediation commit](https://github.com/flytohub/flyto-core/commit/0a0a528520ec18f5a21f1ddf858a71cc1edfb6e9)
+- Grafana Labs: [`CVE-2026-19516` CNA record](https://www.cve.org/CVERecord?id=CVE-2026-19516) (published 2026-08-11)
+- GitHub Security Advisory: [`GHSA-fr94-7cqc-vjrq`](https://github.com/advisories/GHSA-fr94-7cqc-vjrq) (`CVE-2026-19516`)
+- `grafana/mcp-grafana`: [1.1.0 security release](https://github.com/grafana/mcp-grafana/releases/tag/v1.1.0) and [changelog](https://github.com/grafana/mcp-grafana/blob/main/CHANGELOG.md)

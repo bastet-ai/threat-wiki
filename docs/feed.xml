@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Grafana MCP turns a caller-selected destination into a readable SSRF proxy</title>
+      <link>https://threat.wiki/patterns/internet-exposed-unauthenticated-mcp-servers/#grafana-mcp-concrete-case</link>
+      <description>Added Grafana's critical CVE-2026-19516 advisory. Grafana MCP Server and mcp-grafana through 1.0.0 accepted a caller-selected X-Grafana-URL while grafana_api_request exposed method, path, and body controls, enabling readable SSRF to internal, loopback, link-local, and metadata services. Coverage records why the earlier credential-binding fix was incomplete, the 1.1.0 header removal and optional caller authentication, exposure hunts, and the absence of reported exploitation.</description>
+      <pubDate>Tue, 11 Aug 2026 07:27:10 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/internet-exposed-unauthenticated-mcp-servers/#grafana-mcp-concrete-case</guid>
+    </item>
+    <item>
       <title>LangGraph namespace prefix matching crosses tenant boundaries</title>
       <link>https://threat.wiki/patterns/langgraph-checkpointer-injection-rce/</link>
       <description>Added CVE-2026-71433 / GHSA-47pj-3jcm-6whg to the LangGraph checkpointer trust-boundary analysis. PostgreSQL and SQLite stores used non-segment-aware namespace pattern matching, allowing ordinary scoped reads to return sibling tenant data for prefix-colliding, wildcard-bearing, suffix-matching, or case-colliding labels. Coverage records affected hosted deployments, the 3.1.1 fixes, audit pivots, and the absence of reported exploitation.</description>
