@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Kimwolf v7 hardens Android/IoT DDoS operations with HTTP/2 fingerprints, ENS, and Tor](../tools/kimwolf-v7.md)
 - [Grafana MCP turns a caller-selected destination into a readable SSRF proxy](../patterns/internet-exposed-unauthenticated-mcp-servers.md#grafana-mcp-concrete-case)
 - [LangGraph namespace prefix matching crosses tenant boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Aeternum turns Polygon smart contracts into a durable botnet control plane](../tools/aeternum.md)

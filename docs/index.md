@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Kimwolf v7 hardens Android/IoT DDoS operations with HTTP/2 fingerprints, ENS, and Tor](tools/kimwolf-v7.md)
 - [Grafana MCP turns a caller-selected destination into a readable SSRF proxy](patterns/internet-exposed-unauthenticated-mcp-servers.md#grafana-mcp-concrete-case)
 - [LangGraph namespace prefix matching crosses tenant boundaries](patterns/langgraph-checkpointer-injection-rce.md)
 - [Aeternum turns Polygon smart contracts into a durable botnet control plane](tools/aeternum.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Flyto2 sends its internal runner secret to a caller-selected callback](patterns/internet-exposed-unauthenticated-mcp-servers.md#flyto2-core-concrete-case)
 - [Metabase zero-day root cause and downstream customer-data impact](ops/metabase-unauthenticated-sql-injection-zero-day.md#august-10-technical-and-victim-impact-follow-up)
 - [OpenAI pauses insufficiently isolated Astra work after it cannot rule out a critical cyber threshold](ops/hugging-face-autonomous-agent-production-intrusion.md#august-7-astra-capability-containment-follow-up)
-- [ChainDrop reaches the MCP Registry through a poisoned source repository](ops/chaindrop-keyv-cacheable-npm-worm.md#ox-mcp-registry-and-residual-repository-follow-up)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

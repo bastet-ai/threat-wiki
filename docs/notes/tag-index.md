@@ -51,7 +51,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ad blocker](#ad-blocker) (1)
 - [ad fraud](#ad-fraud) (1)
 - [Adaptix C2](#adaptix-c2) (1)
-- [ADB TCP/5555](#adb-tcp5555) (1)
+- [ADB TCP/5555](#adb-tcp5555) (2)
 - [Adblock for YouTube](#adblock-for-youtube) (1)
 - [Adform](#adform) (1)
 - [ADFS](#adfs) (1)
@@ -133,7 +133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AI-generated narrator](#ai-generated-narrator) (1)
 - [Aider](#aider) (1)
-- [AISURU](#aisuru) (1)
+- [AISURU](#aisuru) (2)
 - [AiTM](#aitm) (3)
 - [Albania](#albania) (1)
 - [Alibaba](#alibaba) (1)
@@ -146,13 +146,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AMOS](#amos) (2)
 - [AMSI bypass](#amsi-bypass) (5)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
-- [Android](#android) (9)
+- [Android](#android) (10)
 - [Android Accessibility Service](#android-accessibility-service) (2)
 - [Android ADB](#android-adb) (3)
-- [Android Debug Bridge](#android-debug-bridge) (1)
+- [Android Debug Bridge](#android-debug-bridge) (2)
 - [Android malware](#android-malware) (3)
 - [Android RAT](#android-rat) (1)
 - [Android spyware](#android-spyware) (3)
+- [Android TV](#android-tv) (1)
 - [Anthropic](#anthropic) (2)
 - [anthropickit](#anthropickit) (1)
 - [anti-analysis](#anti-analysis) (8)
@@ -324,7 +325,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile](#blackfile) (1)
 - [Blackpoint Cyber](#blackpoint-cyber) (6)
 - [Bleacher Report](#bleacher-report) (1)
-- [blockchain C2](#blockchain-c2) (8)
+- [blockchain C2](#blockchain-c2) (9)
 - [blockchain dead drop](#blockchain-dead-drop) (5)
 - [blockchain RPC](#blockchain-rpc) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
@@ -333,7 +334,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BLUEBEAM](#bluebeam) (1)
 - [Boatnet](#boatnet) (1)
 - [body hash](#body-hash) (1)
-- [botnet](#botnet) (12)
+- [botnet](#botnet) (13)
 - [botnet framework](#botnet-framework) (1)
 - [Braintree](#braintree) (1)
 - [branch-compromise](#branch-compromise) (1)
@@ -354,6 +355,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser data theft](#browser-data-theft) (1)
 - [browser extension](#browser-extension) (9)
 - [browser extension loader](#browser-extension-loader) (1)
+- [browser fingerprint spoofing](#browser-fingerprint-spoofing) (1)
 - [browser fingerprinting](#browser-fingerprinting) (1)
 - [browser hijacking](#browser-hijacking) (4)
 - [browser malware](#browser-malware) (1)
@@ -876,7 +878,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DcRAT](#dcrat) (1)
 - [DD-WRT](#dd-wrt) (1)
 - [DDNS](#ddns) (1)
-- [DDoS](#ddos) (7)
+- [DDoS](#ddos) (8)
 - [DDoS botnet](#ddos-botnet) (1)
 - [DDoS-for-hire](#ddos-for-hire) (3)
 - [dead drop](#dead-drop) (1)
@@ -1082,7 +1084,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ESX](#esx) (1)
 - [ESXi](#esxi) (3)
 - [Ethereum](#ethereum) (5)
-- [Ethereum Name Service](#ethereum-name-service) (1)
+- [Ethereum Name Service](#ethereum-name-service) (2)
 - [EtherHiding](#etherhiding) (5)
 - [Ethiopia](#ethiopia) (1)
 - [ETW bypass](#etw-bypass) (1)
@@ -1430,7 +1432,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HTML sanitization](#html-sanitization) (1)
 - [HTML smuggling](#html-smuggling) (1)
 - [HTTP C2](#http-c2) (1)
-- [HTTP/2](#http2) (1)
+- [HTTP/2](#http2) (2)
 - [HttpMalice](#httpmalice) (1)
 - [HTTPS C2](#https-c2) (2)
 - [HTTPS exfiltration](#https-exfiltration) (1)
@@ -1519,7 +1521,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [InvisibleFerret](#invisibleferret) (1)
 - [invocation logging](#invocation-logging) (1)
 - [iOS](#ios) (2)
-- [IoT](#iot) (5)
+- [IoT](#iot) (6)
 - [IoT botnet](#iot-botnet) (7)
 - [IP cameras](#ip-cameras) (1)
 - [IP-in-IP](#ip-in-ip) (1)
@@ -1618,6 +1620,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keylogger](#keylogger) (5)
 - [keylogging](#keylogging) (2)
 - [Kimsuky](#kimsuky) (1)
+- [Kimwolf](#kimwolf) (1)
+- [Kimwolf v7](#kimwolf-v7) (1)
 - [Klue](#klue) (1)
 - [knaithe](#knaithe) (2)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
@@ -1775,7 +1779,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (9)
-- [malware](#malware) (58)
+- [malware](#malware) (59)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
@@ -2436,6 +2440,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [research sector](#research-sector) (1)
 - [residential proxies](#residential-proxies) (1)
 - [residential proxy](#residential-proxy) (1)
+- [residential proxy abuse](#residential-proxy-abuse) (1)
 - [responsible disclosure](#responsible-disclosure) (1)
 - [REST API](#rest-api) (1)
 - [REST C2](#rest-c2) (1)
@@ -2925,8 +2930,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (47)
-- [Tor](#tor) (3)
+- [tools](#tools) (48)
+- [Tor](#tor) (4)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [TouchSocket](#touchsocket) (1)
 - [Toy Ghouls](#toy-ghouls) (3)
@@ -3520,6 +3525,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 
 ## ADB TCP/5555
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## Adblock for YouTube
@@ -3856,6 +3862,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## AISURU
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## AiTM
@@ -3907,6 +3914,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -3923,6 +3931,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## Android Debug Bridge
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
 ## Android malware
@@ -3937,6 +3946,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
+## Android TV
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 
 ## Anthropic
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
@@ -4567,6 +4579,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
@@ -4606,6 +4619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -4712,6 +4726,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browser extension loader
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
+
+## browser fingerprint spoofing
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 
 ## browser fingerprinting
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
@@ -6858,6 +6875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
@@ -7766,6 +7784,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ethereum Name Service
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 
 ## EtherHiding
 - [ACR Stealer](../tools/acr-stealer.md)
@@ -9042,6 +9061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](../tools/tinyrct.md)
 
 ## HTTP/2
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 - [MODBEACON](../tools/modbeacon.md)
 
 ## HttpMalice
@@ -9430,6 +9450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 
 ## IoT botnet
@@ -9799,6 +9820,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Kimsuky
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
+## Kimwolf
+- [Kimwolf v7](../tools/kimwolf-v7.md)
+
+## Kimwolf v7
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 
 ## Klue
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -10455,6 +10482,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GigaWiper](../tools/gigawiper.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 - [LabubaRAT](../tools/labubarat.md)
 - [LurkProxy](../tools/lurkproxy.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
@@ -13721,6 +13749,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## residential proxy
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
+## residential proxy abuse
+- [Kimwolf v7](../tools/kimwolf-v7.md)
+
 ## responsible disclosure
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 
@@ -15678,6 +15709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GenieLocker](../tools/genielocker.md)
 - [GigaWiper](../tools/gigawiper.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 - [LabubaRAT](../tools/labubarat.md)
 - [LurkProxy](../tools/lurkproxy.md)
 - [MIXEDKEY](../tools/mixedkey.md)
@@ -15712,6 +15744,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [Kimwolf v7](../tools/kimwolf-v7.md)
 
 ## Total Software Deployment
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
