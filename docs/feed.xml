@@ -2,6 +2,27 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, macOS</title>
+      <link>https://threat.wiki/ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026/</link>
+      <description>Added CISA's August 17–18 KEV entries: Microsoft IKE Service Extensions CVE-2026-33824 (double free, RCE), VMware vCenter CVE-2026-59310 (Syslog path traversal, RCE), Microsoft SharePoint CVE-2026-55040 (weak authentication bypass), Apple macOS CVE-2026-65400 (Screen Sharing improper authentication), and Ray-Project CVE-2025-62593 (browser-exploitable code injection, GHSA-q279-jhrf-cc6v, fixed in 2.52.0). Coverage records the August 20/21 BOD 26-04 deadlines, exact fixed builds where available, the VMware vCenter escalation from "no evidence of exploitation" to confirmed known exploitation, and defender priorities that keep post-exploitation scoping separate from patching. CISA records ransomware use as unknown and does not link the five entries to a shared campaign.</description>
+      <pubDate>Wed, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026/</guid>
+    </item>
+    <item>
+      <title>Wiz Red Agent finds Snowflake GitHub Actions script injection leading to Jira credential exfiltration</title>
+      <link>https://threat.wiki/ops/wiz-red-agent-snowflake-jira-cicd-script-injection/</link>
+      <description>Added Wiz Research's reporting of its autonomous Red Agent AI security-research tool identifying a critical GitHub Actions workflow script-injection in snowflakedb/snowflake-connector-net. An unauthenticated issue title interpolated into a jira_issue.yml run block gave command execution on Snowflake's CI runner; GitHub Advanced Security scanned the vulnerable revision without flagging it. Coverage records the five-day exposure window, responsible disclosure and same-day patching, Jira token exfiltration and rotation, runner and IP pivots, and the August 17 clarification that Copilot co-author review checked the merged PR without catching the flaw.</description>
+      <pubDate>Mon, 17 Aug 2026 19:57:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/wiz-red-agent-snowflake-jira-cicd-script-injection/</guid>
+    </item>
+    <item>
+      <title>CloudSEK publishes TeamPCP victim dataset: 78,330 secrets from 2,186 organizations; Wiz CIRT documents multi-org PAT mass-cloning campaign</title>
+      <link>https://threat.wiki/actors/teampcp/</link>
+      <description>Added StepSecurity's analysis of the CloudSEK TeamPCP exposure dataset (78,330 distinct secrets from 2,186 organizations, March 19-24, 2026, with GitLab the most affected platform and 157 leaked OpenAI API keys) and Wiz CIRT's coordinated multi-organization GitHub PAT campaign (readme reconnaissance from 13.221.167.217, validation clones from 107.174.201.183, and 102 ca-central-1 AWS IPs mass-cloning up to thousands of repositories per organization on June 1). Coverage records secret-class breakdowns, investigation playbooks, audit-log retention limits, and the unconfirmed initial access vector.</description>
+      <pubDate>Sat, 15 Aug 2026 12:00:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/teampcp/#cloudsek-disclosure-and-multi-organization-pat-campaign</guid>
+    </item>
+    <item>
       <title>Kimwolf v7 hardens Android/IoT DDoS operations with HTTP/2 fingerprints, ENS, and Tor</title>
       <link>https://threat.wiki/tools/kimwolf-v7/</link>
       <description>Added Unit 42's analysis of Kimwolf v7, an Android TV and set-top-box DDoS bot in the AISURU operator ecosystem. Coverage records residential-proxy access to unauthenticated ADB, externalized propagation, 15 flood methods, Chrome-like HTTP/2 fingerprints, ENS resolution through public Ethereum RPC, a moderate-confidence operator RPC facade, Tor and localhost-proxy fallback, hashes, historical infrastructure, and response guidance.</description>

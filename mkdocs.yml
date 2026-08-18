@@ -7,6 +7,8 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, macOS": ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md
+      - Wiz Red Agent Snowflake GitHub Actions script injection: ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md
       - Gunra ransomware-as-a-service activity: ops/gunra-ransomware-raas.md
       - NullReceiver DPRK-linked npm blockchain-loader wave: ops/nullreceiver-dprk-npm-blockchain-loader.md
       - Metabase unauthenticated SQL-injection zero-day: ops/metabase-unauthenticated-sql-injection-zero-day.md

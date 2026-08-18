@@ -19,6 +19,13 @@ This actor page should stay focused on TeamPCP identity, motivation, tradecraft,
 - cloud exploitation
 - Redis
 - Ray
+- CloudSEK
+- secret exfiltration
+- AI supply chain
+- OpenAI API keys
+- multi-organization PAT campaign
+- GitHub PAT abuse
+- mass repository cloning
 
 ## Primary motivation
 - **Access monetization through supply-chain abuse**
@@ -108,6 +115,25 @@ Two defender implications follow from that update:
 - Treat TeamPCP-style supply-chain incidents as potential **data-extortion precursors**, not only package-registry or developer-endpoint events. Cloud, source-code, SaaS, and CI/CD secret exposure can become leverage even when no ransomware is deployed.
 - Attribution may become noisier because Unit 42 observed a May 13, 2026 BreachForums announcement claiming an open-source release of Shai-Hulud. Public or leaked tooling can let copycats mimic TeamPCP tradecraft while still feeding the same extortion economy.
 
+## CloudSEK disclosure and multi-organization PAT campaign
+CloudSEK's August 2026 publication of a searchable victim dataset is the largest public measurement of TeamPCP's March 2026 CI/CD credential exposure. StepSecurity's August 13 analysis of that dataset reports **78,330 distinct secrets exfiltrated from the CI/CD pipelines of 2,186 organizations between March 19 and March 24, 2026**, with 92 publicly traded victim companies whose combined market capitalization StepSecurity estimates above $6.2 trillion. The dataset confirms the flywheel described in the March Trivy / KICS / telnyx / LiteLLM wave: compromise one trusted component, harvest runner credentials, pivot into the next organization.
+
+Three findings from the dataset deserve durable tracking:
+
+- **The exposure was cross-platform, not GitHub-Actions-only.** StepSecurity's platform breakdown of the 2,186 organizations puts GitLab first (1,064), ahead of GitHub Actions (618), with Azure DevOps (233), Jenkins (105), Bitbucket Pipelines (94), and CircleCI (15) also affected; some organizations ran multiple platforms. A separate group leaked private keys directly from hosts and mail servers rather than from a pipeline.
+- **The secret mix enables post-exfiltration pivot paths.** StepSecurity reports 999 organizations leaked JWT session tokens, 480 leaked private-key blocks (TLS/SSH/signing keys), 320 leaked AWS access keys, 308 leaked GitLab personal access tokens, 183 leaked GitHub personal access tokens, 157 leaked OpenAI API keys, 131 leaked GitHub server tokens, 129 leaked Slack webhooks, and 101 leaked Google API keys.
+- **The AI supply-chain angle is measurable.** The 157 leaked OpenAI API keys, centered on the LiteLLM compromise, are why CloudSEK frames the March incident as an AI supply-chain event: the AI stack is built on the same pipelines that leak.
+
+Treat the dataset as vendor-reported scoping of the March 19–24 window: it documents exposure, not confirmed misuse of every secret, and the public dataset is searchable, so assume any organization not yet aware of its appearance will be soon. Response teams should check the CloudSEK dataset, then treat the leaked secret classes above as the rotation and hunt scope for any listed organization.
+
+Wiz CIRT's August 13, 2026 investigation of a coordinated multi-organization GitHub PAT campaign adds a post-exfiltration consequence chain consistent with the CloudSEK disclosure. Active from mid-May through early June 2026, the campaign used compromised GitHub PATs belonging to employees of multiple organizations for repository reconnaissance, validation, and mass repository cloning:
+
+- **Reconnaissance (May 15, 2026):** GitHub API queries to the `/repositories/{id}/readme` endpoint from a single AWS EC2 IP in us-east-1, `13.221.167[.]217`, with a standard Chrome 125 user agent.
+- **Validation (May 29–31, 2026):** a limited number of `git.clone` operations from `107.174.201[.]183` (HostPapa, US) using the `git/2.25.1` user agent, with clones beginning within seconds of one another across several victims.
+- **Mass cloning (June 1, 2026):** between 09:14 and 14:55 UTC, 102 AWS IP addresses in the ca-central-1 region cloned up to thousands of repositories per organization, using the `git/2.43.0` user agent and highly parallelized automated tooling.
+
+Wiz did not identify the initial access vector that produced the valid PATs across unrelated organizations; no evidence pointed to code or cloud-resource exposure, leaving endpoint compromise as an unconfirmed hypothesis. Wiz's investigation guidance: stream GitHub audit logs (Git events are retained only seven days in GitHub Enterprise Cloud), identify every cloned repository, treat every valid secret inside an exfiltrated repository as potentially compromised, rotate before hunting unauthorized use, and correlate GitHub events with cloud control-plane telemetry. The campaign is not publicly attributed to TeamPCP, but the tradecraft — stolen PATs, parallelized mass cloning from AWS, post-exfiltration credential hunting — matches the TeamPCP post-compromise style described above and the credential classes in the CloudSEK dataset.
+
 ## PCPJack adjacency caveat
 SentinelOne's May 2026 PCPJack reporting describes a separate cloud credential-theft framework that deliberately removes artifacts associated with TeamPCP / PCPcat-style infections. Hunt.io's June 2026 follow-up recovered PCPJack infrastructure used to convert 230 compromised AWS, Google Cloud, and Azure Linux servers into a Chisel-backed SMTP relay network.
 
@@ -188,6 +214,8 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 - Historical exposed-service compromise involving `masscan[.]cloud`, `matrix.masscan[.]cloud`, `/EP9ts2/`, `ndt.sh`, `nnt.sh`, `is.sh`, `rs.sh`, `/files/netsh`, or reverse-shell traffic to `67.217.57[.]240:666`; correlate with Ray, Redis, Docker, Kubernetes, React, and Next.js exposure rather than treating these as package-only indicators.
 - GitLab activity involving `IronErn`, `IronErn440`, or `least3654`, GitHub activity involving `thisisforwork440-ops`, or traffic to `103.127.134[.]124`; preserve authentication and reverse-shell timing because Oligo's attribution depends on the same infrastructure performing both roles.
 - Kubernetes `kube.py`, unexpected cluster-wide DaemonSet creation, Iran-timezone checks, `poison_pill()` strings, filesystem deletion, or reboot behavior; absence of confirmed execution means these signals should drive validation rather than an assumption of destructive impact.
+- CloudSEK March 2026 disclosure indicators: check the searchable CloudSEK victim dataset for TeamPCP CI/CD exposure, then hunt for the leaked secret classes StepSecurity tallied — JWT session tokens, private-key blocks, AWS access keys, GitLab and GitHub personal access tokens, OpenAI API keys, GitHub server tokens, Slack webhooks, and Google API keys — across GitLab (the largest affected platform in the dataset), GitHub Actions, Azure DevOps, Jenkins, Bitbucket, and CircleCI pipelines.
+- Wiz CIRT multi-organization PAT-campaign pivots: `git.clone` spikes from 102 AWS ca-central-1 IP addresses between 09:14 and 14:55 UTC on June 1, 2026 with the `git/2.43.0` user agent; `/repositories/{id}/readme` API reconnaissance from `13.221.167[.]217` (May 15, 2026); validation clones from `107.174.201[.]183` with the `git/2.25.1` user agent (May 29–31, 2026). The campaign is not publicly attributed to TeamPCP; use it as a consequence-chain and tradecraft match against the CloudSEK dataset, and remember GitHub Enterprise Cloud retains Git events only seven days.
 
 ## Notes
 This page is intended as a durable profile based on public reporting. Prefer primary-source reports and investigative writeups over social commentary.
@@ -231,3 +259,5 @@ This page is intended as a durable profile based on public reporting. Prefer pri
 - Trend Micro TeamPCP KICS and elementary-data analysis: [https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html](https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html)
 - StepSecurity Trivy / TeamPCP defense-in-depth retrospective: [https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions](https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions)
 - StepSecurity AsyncAPI generator next-branch compromise: [https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm](https://www.stepsecurity.io/blog/compromised-next-branch-pushes-malicious-asyncapi-generator-generator-helpers-and-generator-components-to-npm)
+- StepSecurity Team PCP / CloudSEK disclosure analysis: [https://www.stepsecurity.io/blog/teampcp-supply-chain-attack-cicd-secrets-cloudsek-disclosure](https://www.stepsecurity.io/blog/teampcp-supply-chain-attack-cicd-secrets-cloudsek-disclosure)
+- Wiz CIRT GitHub PAT compromise multi-organization campaign investigation: [https://www.wiz.io/blog/investigating-github-pat-compromise](https://www.wiz.io/blog/investigating-github-pat-compromise)

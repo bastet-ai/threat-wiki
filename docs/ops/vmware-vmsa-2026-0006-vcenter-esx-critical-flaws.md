@@ -66,6 +66,9 @@ Consult the live Broadcom response matrix before deployment. The July 29 initial
 ## Exploitation-status caveat
 The initial Broadcom advisory says the issues were privately reported and that Broadcom had found no evidence of in-the-wild exploitation. Public discussion of a VM escape or unauthenticated vCenter path does not establish exploitation. Reassess if Broadcom, CISA, incident responders, or credible telemetry later changes that status.
 
+## August 18 update: CISA KEV confirms exploitation of CVE-2026-59310
+On August 18, 2026, CISA added **CVE-2026-59310** (the vCenter Syslog-server path traversal) to the Known Exploited Vulnerabilities catalog with a **2026-08-21** BOD 26-04 remediation deadline. This upgrades the flaw from "no evidence of exploitation" to confirmed known exploitation. The remaining four vulnerabilities in VMSA-2026-0006 (CVE-2026-59309, CVE-2026-47876, CVE-2026-41703, CVE-2026-41709) are not yet in KEV. See the [CISA KEV August 17–18 additions page](cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md#cve-2026-59310-vmware-vcenter-syslog-path-traversal) for the full entry. Treat the VMSA-2026-0006 fixed-build matrix as urgent for all network-reachable vCenter deployments.
+
 ## Related pages
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [VerdantBamboo appliance BRICKSTORM operation](verdantbamboo-appliance-brickstorm-operation.md)

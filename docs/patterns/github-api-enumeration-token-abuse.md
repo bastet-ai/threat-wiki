@@ -54,6 +54,15 @@ Treat this as a source-control exposure pattern. Most requests can look benign b
 - Repository clone or archive-download activity shortly after broad enumeration.
 - Multiple users or tokens touching similar route families from related networks within the same time window.
 
+## Concrete case: Wiz CIRT multi-organization PAT campaign (May–June 2026)
+Wiz CIRT's August 13, 2026 writeup documents a coordinated campaign in which compromised GitHub PATs were used across multiple organizations over roughly three weeks. The reconstruction adds three durable specifics to this pattern:
+
+- **Staged escalation with distinct infrastructure per phase.** Reconnaissance on May 15 hit the `/repositories/{id}/readme` endpoint from a single us-east-1 EC2 IP (`13.221.167[.]217`) using a standard Chrome 125 user agent. Validation clones on May 29–31 came from `107.174.201[.]183` with the `git/2.25.1` user agent. Mass cloning on June 1 (09:14–14:55 UTC) came from 102 ca-central-1 AWS IPs with the `git/2.43.0` user agent, cloning up to thousands of repositories per organization.
+- **Valid employee PATs, unknown origin.** The clones used valid PATs belonging to employees of the affected organizations. Wiz found no code or cloud-resource source for the tokens, leaving endpoint compromise as an unconfirmed hypothesis — so the initial access vector is still open.
+- **Retention trap.** GitHub Enterprise Cloud retains `git.clone`, `git.fetch`, and `git.push` events only seven days. Without external streaming, the full exfiltration scope may be unrecoverable.
+
+Investigation order from Wiz's playbook: contain (revoke the token), expand the timeline from audit logs, identify the leak source, enumerate every cloned repository, treat every valid secret inside those repositories as compromised, rotate, then hunt for unauthorized use of the rotated credentials in cloud and SaaS control planes.
+
 ## Related pages
 - [Git hash chain malleability](git-hash-chain-malleability.md)
 - [GitHub Actions deployment poisoning](deployment-poisoning-github-actions.md)
@@ -64,3 +73,4 @@ Treat this as a source-control exposure pattern. Most requests can look benign b
 ## Sources
 - Datadog Security Labs: [https://securitylabs.datadoghq.com/articles/coordinated-github-api-enumeration/](https://securitylabs.datadoghq.com/articles/coordinated-github-api-enumeration/)
 - The Hacker News: [https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html](https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html)
+- Wiz CIRT GitHub PAT compromise campaign investigation: [https://www.wiz.io/blog/investigating-github-pat-compromise](https://www.wiz.io/blog/investigating-github-pat-compromise)

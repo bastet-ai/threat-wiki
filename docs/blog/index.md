@@ -3,6 +3,9 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+- [Wiz Red Agent finds Snowflake GitHub Actions script injection leading to Jira credential exfiltration](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
+- [CloudSEK publishes TeamPCP victim dataset: 78,330 secrets from 2,186 organizations; Wiz CIRT documents multi-org PAT mass-cloning campaign](../actors/teampcp.md#cloudsek-disclosure-and-multi-organization-pat-campaign)
 - [Kimwolf v7 hardens Android/IoT DDoS operations with HTTP/2 fingerprints, ENS, and Tor](../tools/kimwolf-v7.md)
 - [Grafana MCP turns a caller-selected destination into a readable SSRF proxy](../patterns/internet-exposed-unauthenticated-mcp-servers.md#grafana-mcp-concrete-case)
 - [LangGraph namespace prefix matching crosses tenant boundaries](../patterns/langgraph-checkpointer-injection-rce.md)

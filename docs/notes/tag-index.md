@@ -41,7 +41,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (61)
+- [active exploitation](#active-exploitation) (62)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -95,7 +95,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AGENTPSD](#agentpsd) (2)
 - [AI](#ai) (6)
 - [AI agent](#ai-agent) (1)
-- [AI agents](#ai-agents) (20)
+- [AI agents](#ai-agents) (21)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (6)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
@@ -117,6 +117,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI search poisoning](#ai-search-poisoning) (1)
 - [AI security](#ai-security) (1)
 - [AI services](#ai-services) (1)
+- [AI supply chain](#ai-supply-chain) (1)
 - [AI tooling](#ai-tooling) (16)
 - [AI tools](#ai-tools) (1)
 - [AI vulnerability discovery](#ai-vulnerability-discovery) (1)
@@ -177,6 +178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [App-Bound Encryption bypass](#app-bound-encryption-bypass) (1)
 - [AppDomainManager](#appdomainmanager) (1)
 - [AppDomainManager injection](#appdomainmanager-injection) (2)
+- [Apple](#apple) (1)
 - [AppleJeus](#applejeus) (1)
 - [AppleScript](#applescript) (1)
 - [AppleSeed](#appleseed) (1)
@@ -333,6 +335,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [blogspot staging](#blogspot-staging) (1)
 - [BLUEBEAM](#bluebeam) (1)
 - [Boatnet](#boatnet) (1)
+- [BOD 26-04](#bod-26-04) (1)
 - [body hash](#body-hash) (1)
 - [botnet](#botnet) (13)
 - [botnet framework](#botnet-framework) (1)
@@ -347,7 +350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Breeze Cache Cleaner](#breeze-cache-cleaner) (1)
 - [BRICKSTORM](#brickstorm) (2)
 - [BridgeHead](#bridgehead) (2)
-- [Broadcom](#broadcom) (3)
+- [Broadcom](#broadcom) (4)
 - [browser assembly](#browser-assembly) (1)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
@@ -464,12 +467,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chromium extension](#chromium-extension) (1)
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (3)
-- [CI/CD](#cicd) (41)
+- [CI/CD](#cicd) (42)
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (6)
-- [CISA KEV](#cisa-kev) (30)
+- [CISA](#cisa) (7)
+- [CISA KEV](#cisa-kev) (32)
 - [Cisco](#cisco) (4)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -539,13 +542,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare Workers](#cloudflare-workers) (5)
 - [cloudflared](#cloudflared) (2)
 - [CloudLinux](#cloudlinux) (1)
+- [CloudSEK](#cloudsek) (1)
 - [cluster compromise](#cluster-compromise) (1)
 - [CMS](#cms) (7)
 - [CMS exploitation](#cms-exploitation) (1)
 - [CNCERT](#cncert) (1)
 - [Cobalt Strike](#cobalt-strike) (6)
 - [code execution](#code-execution) (3)
-- [code injection](#code-injection) (1)
+- [code injection](#code-injection) (2)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
 - [Codecov](#codecov) (1)
@@ -626,6 +630,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crates.io](#cratesio) (1)
 - [credential attacks](#credential-attacks) (3)
 - [credential dumping](#credential-dumping) (1)
+- [credential exfiltration](#credential-exfiltration) (1)
 - [credential exposure](#credential-exposure) (5)
 - [credential harvesting](#credential-harvesting) (5)
 - [credential rotation](#credential-rotation) (1)
@@ -712,6 +717,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-49704](#cve-2025-49704) (1)
 - [CVE-2025-49706](#cve-2025-49706) (1)
 - [CVE-2025-5777](#cve-2025-5777) (1)
+- [CVE-2025-62593](#cve-2025-62593) (1)
 - [CVE-2025-66376](#cve-2025-66376) (3)
 - [CVE-2025-67038](#cve-2025-67038) (1)
 - [CVE-2025-68613](#cve-2025-68613) (1)
@@ -756,7 +762,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-3300](#cve-2026-3300) (1)
 - [CVE-2026-33017](#cve-2026-33017) (3)
 - [CVE-2026-33691](#cve-2026-33691) (1)
-- [CVE-2026-33824](#cve-2026-33824) (1)
+- [CVE-2026-33824](#cve-2026-33824) (2)
 - [CVE-2026-34486](#cve-2026-34486) (2)
 - [CVE-2026-34908](#cve-2026-34908) (1)
 - [CVE-2026-34909](#cve-2026-34909) (1)
@@ -813,17 +819,19 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-53359](#cve-2026-53359) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-54420](#cve-2026-54420) (1)
+- [CVE-2026-55040](#cve-2026-55040) (1)
 - [CVE-2026-55255](#cve-2026-55255) (1)
 - [CVE-2026-56290](#cve-2026-56290) (1)
 - [CVE-2026-56291](#cve-2026-56291) (1)
 - [CVE-2026-59309](#cve-2026-59309) (1)
-- [CVE-2026-59310](#cve-2026-59310) (1)
+- [CVE-2026-59310](#cve-2026-59310) (2)
 - [CVE-2026-59726](#cve-2026-59726) (1)
 - [CVE-2026-60137](#cve-2026-60137) (1)
 - [CVE-2026-62144](#cve-2026-62144) (1)
 - [CVE-2026-62145](#cve-2026-62145) (1)
 - [CVE-2026-63030](#cve-2026-63030) (1)
 - [CVE-2026-63077](#cve-2026-63077) (1)
+- [CVE-2026-65400](#cve-2026-65400) (1)
 - [CVE-2026-66747](#cve-2026-66747) (1)
 - [CVE-2026-6682](#cve-2026-6682) (1)
 - [CVE-2026-6683](#cve-2026-6683) (1)
@@ -834,6 +842,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-6688](#cve-2026-6688) (1)
 - [CVE-2026-67426](#cve-2026-67426) (1)
 - [CVE-2026-6875](#cve-2026-6875) (1)
+- [CVE-2026-72898](#cve-2026-72898) (1)
 - [CVE-2026-7473](#cve-2026-7473) (1)
 - [CVE-2026-8037](#cve-2026-8037) (1)
 - [CVE-2026-8451](#cve-2026-8451) (1)
@@ -966,6 +975,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS dead drop](#dns-dead-drop) (2)
 - [DNS exfiltration](#dns-exfiltration) (4)
 - [DNS hijacking](#dns-hijacking) (1)
+- [DNS rebinding](#dns-rebinding) (1)
 - [DNS resolution](#dns-resolution) (1)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (3)
@@ -985,6 +995,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DotNetNuke](#dotnetnuke) (1)
 - [DotnetTool](#dotnettool) (1)
 - [double extortion](#double-extortion) (3)
+- [double free](#double-free) (1)
 - [downgrade risk](#downgrade-risk) (1)
 - [downloader](#downloader) (1)
 - [downstream blast radius](#downstream-blast-radius) (1)
@@ -1284,7 +1295,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea](#gitea) (1)
 - [GitHub](#github) (23)
 - [GitHub abuse](#github-abuse) (3)
-- [GitHub Actions](#github-actions) (25)
+- [GitHub Actions](#github-actions) (26)
 - [GitHub Advisory Database](#github-advisory-database) (1)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
@@ -1293,6 +1304,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub issue spam](#github-issue-spam) (1)
 - [GitHub OAuth](#github-oauth) (1)
 - [GitHub Pages abuse](#github-pages-abuse) (2)
+- [GitHub PAT abuse](#github-pat-abuse) (1)
 - [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub release assets](#github-release-assets) (1)
 - [GitHub Security Advisories](#github-security-advisories) (3)
@@ -1467,6 +1479,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IFEO persistence](#ifeo-persistence) (1)
 - [IIOP](#iiop) (1)
 - [IIS](#iis) (1)
+- [IKE](#ike) (1)
 - [IKEv1](#ikev1) (1)
 - [Ill Bloom](#ill-bloom) (1)
 - [image proxy bypass](#image-proxy-bypass) (1)
@@ -1476,6 +1489,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (1)
 - [implant](#implant) (1)
 - [import-time execution](#import-time-execution) (5)
+- [improper authentication](#improper-authentication) (1)
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory malware](#in-memory-malware) (3)
@@ -1572,7 +1586,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JFrog Security Research](#jfrog-security-research) (3)
 - [Jinja2](#jinja2) (1)
 - [JINX-0164](#jinx-0164) (2)
-- [Jira](#jira) (1)
+- [Jira](#jira) (2)
 - [joblib](#joblib) (1)
 - [Joomla](#joomla) (3)
 - [Joomla Content Editor](#joomla-content-editor) (1)
@@ -1757,7 +1771,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
 - [machine-learning](#machine-learning) (1)
-- [macOS](#macos) (18)
+- [macOS](#macos) (19)
 - [macOS malware](#macos-malware) (2)
 - [MaDoO Blaster](#madoo-blaster) (1)
 - [Magento](#magento) (1)
@@ -1803,6 +1817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marketplace abuse](#marketplace-abuse) (2)
 - [marketplace trust](#marketplace-trust) (1)
 - [MarkiRAT](#markirat) (1)
+- [mass repository cloning](#mass-repository-cloning) (1)
 - [mass scanning](#mass-scanning) (1)
 - [Maven Central](#maven-central) (1)
 - [mawesome](#mawesome) (1)
@@ -1840,7 +1855,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MicroLogix 1100](#micrologix-1100) (1)
 - [MicroLogix 1400](#micrologix-1400) (1)
 - [MicroPython](#micropython) (2)
-- [Microsoft](#microsoft) (10)
+- [Microsoft](#microsoft) (11)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (8)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
@@ -1928,6 +1943,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MuddyWater](#muddywater) (4)
 - [Mullvad VPN](#mullvad-vpn) (1)
 - [Multi-Domain Security Management](#multi-domain-security-management) (1)
+- [multi-organization PAT campaign](#multi-organization-pat-campaign) (1)
 - [multi-tenant cloud](#multi-tenant-cloud) (2)
 - [multi-tenant isolation](#multi-tenant-isolation) (1)
 - [Multiply-With-Carry](#multiply-with-carry) (1)
@@ -2063,6 +2079,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Open VSX](#open-vsx) (1)
 - [Open WebUI](#open-webui) (1)
 - [OpenAI](#openai) (2)
+- [OpenAI API keys](#openai-api-keys) (1)
 - [OpenAI Codex](#openai-codex) (1)
 - [OpenClaw](#openclaw) (1)
 - [opencode](#opencode) (1)
@@ -2086,11 +2103,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (261)
+- [operations](#operations) (263)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (295)
+- [ops](#ops) (297)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2159,7 +2176,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAT theft](#pat-theft) (1)
 - [patch management](#patch-management) (2)
 - [path hijacking](#path-hijacking) (1)
-- [path traversal](#path-traversal) (2)
+- [path traversal](#path-traversal) (3)
 - [Patriot Bait](#patriot-bait) (1)
 - [patterns](#patterns) (37)
 - [payload loader](#payload-loader) (1)
@@ -2370,7 +2387,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
 - [RAT](#rat) (31)
-- [Ray](#ray) (1)
+- [Ray](#ray) (2)
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RCE](#rce) (6)
@@ -2418,7 +2435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access software](#remote-access-software) (1)
 - [remote access trojan](#remote-access-trojan) (5)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (21)
+- [remote code execution](#remote-code-execution) (22)
 - [remote debugging](#remote-debugging) (2)
 - [remote MCP](#remote-mcp) (1)
 - [remote monitoring and management](#remote-monitoring-and-management) (2)
@@ -2441,7 +2458,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [residential proxies](#residential-proxies) (1)
 - [residential proxy](#residential-proxy) (1)
 - [residential proxy abuse](#residential-proxy-abuse) (1)
-- [responsible disclosure](#responsible-disclosure) (1)
+- [responsible disclosure](#responsible-disclosure) (2)
 - [REST API](#rest-api) (1)
 - [REST C2](#rest-c2) (1)
 - [restart-triggered execution](#restart-triggered-execution) (1)
@@ -2549,10 +2566,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scoped package impersonation](#scoped-package-impersonation) (1)
 - [SCOUTCURL](#scoutcurl) (1)
 - [screen capture](#screen-capture) (3)
+- [Screen Sharing](#screen-sharing) (1)
 - [ScreenConnect](#screenconnect) (5)
 - [Screening Serpens](#screening-serpens) (1)
 - [screenshot capture](#screenshot-capture) (2)
 - [screenshot theft](#screenshot-theft) (3)
+- [script injection](#script-injection) (1)
 - [script-injection](#script-injection) (1)
 - [SD-WAN](#sd-wan) (2)
 - [search hijacking](#search-hijacking) (1)
@@ -2561,6 +2580,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [search-ms](#search-ms) (1)
 - [Seashell Blizzard](#seashell-blizzard) (2)
 - [Secret Blizzard](#secret-blizzard) (3)
+- [secret exfiltration](#secret-exfiltration) (1)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (6)
 - [secrets management](#secrets-management) (1)
@@ -2623,7 +2643,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared secrets](#shared-secrets) (1)
 - [SharedWorker](#sharedworker) (1)
 - [ShareFile](#sharefile) (1)
-- [SharePoint](#sharepoint) (5)
+- [SharePoint](#sharepoint) (6)
 - [SharePoint Server](#sharepoint-server) (1)
 - [SharkLoader](#sharkloader) (1)
 - [shell injection](#shell-injection) (1)
@@ -2680,7 +2700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SMTP abuse](#smtp-abuse) (1)
 - [Snake](#snake) (1)
 - [Sneaky 2FA](#sneaky-2fa) (1)
-- [Snowflake](#snowflake) (1)
+- [Snowflake](#snowflake) (2)
 - [SNOWLIGHT](#snowlight) (1)
 - [SOAP API abuse](#soap-api-abuse) (1)
 - [SocGholish](#socgholish) (1)
@@ -3003,7 +3023,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
 - [unattributed](#unattributed) (1)
-- [unauthenticated access](#unauthenticated-access) (3)
+- [unauthenticated access](#unauthenticated-access) (4)
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
 - [unauthenticated RCE](#unauthenticated-rce) (7)
@@ -3063,7 +3083,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBE](#vbe) (1)
 - [VBS](#vbs) (1)
 - [VBScript](#vbscript) (7)
-- [vCenter](#vcenter) (1)
+- [vCenter](#vcenter) (2)
 - [vector databases](#vector-databases) (1)
 - [VEIL#DROP](#veildrop) (1)
 - [Velociraptor](#velociraptor) (1)
@@ -3097,7 +3117,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VLESS](#vless) (1)
 - [vManage](#vmanage) (1)
 - [VMSA-2026-0006](#vmsa-2026-0006) (1)
-- [VMware](#vmware) (3)
+- [VMware](#vmware) (4)
 - [VMware ESXi](#vmware-esxi) (2)
 - [VMXNET3](#vmxnet3) (1)
 - [VNC](#vnc) (2)
@@ -3142,6 +3162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [water sector](#water-sector) (1)
 - [watering hole](#watering-hole) (2)
 - [watering-hole](#watering-hole) (2)
+- [weak authentication](#weak-authentication) (1)
 - [weak credentials](#weak-credentials) (1)
 - [weak entropy](#weak-entropy) (2)
 - [weak passwords](#weak-passwords) (2)
@@ -3219,6 +3240,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WordPress](#wordpress) (8)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
+- [workflow injection](#workflow-injection) (1)
 - [working-directory hijacking](#working-directory-hijacking) (1)
 - [workspace trust](#workspace-trust) (2)
 - [World Cup](#world-cup) (1)
@@ -3423,6 +3445,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -3712,6 +3735,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+- [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
 ## AI anti-analysis
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
@@ -3789,6 +3813,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI services
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
+
+## AI supply chain
+- [TeamPCP](../actors/teampcp.md)
 
 ## AI tooling
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
@@ -4030,6 +4057,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AppDomainManager injection
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 - [TinyRCT](../tools/tinyrct.md)
+
+## Apple
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 
 ## AppleJeus
 - [RemotePE](../tools/remotepe.md)
@@ -4609,6 +4639,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Boatnet
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
+## BOD 26-04
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+
 ## body hash
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
@@ -4673,6 +4706,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Broadcom
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
@@ -5189,6 +5223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+- [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
 ## CI/CD abuse
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
@@ -5201,6 +5236,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 
 ## CISA
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
@@ -5213,6 +5249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -5229,6 +5266,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
@@ -5533,6 +5571,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CloudLinux
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
+## CloudSEK
+- [TeamPCP](../actors/teampcp.md)
+
 ## cluster compromise
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 
@@ -5565,6 +5606,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 
 ## code injection
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 
 ## code sandbox scraping
@@ -5860,6 +5902,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## credential dumping
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
+
+## credential exfiltration
+- [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
 ## credential exposure
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
@@ -6310,6 +6355,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2025-5777
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
+## CVE-2025-62593
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+
 ## CVE-2025-66376
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
@@ -6451,6 +6499,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## CVE-2026-33824
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 
 ## CVE-2026-34486
@@ -6629,6 +6678,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-54420
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
+## CVE-2026-55040
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+
 ## CVE-2026-55255
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 
@@ -6642,6 +6694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## CVE-2026-59310
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## CVE-2026-59726
@@ -6661,6 +6714,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-63077
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
+
+## CVE-2026-65400
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 
 ## CVE-2026-66747
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
@@ -6691,6 +6747,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-6875
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
+
+## CVE-2026-72898
+- [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 
 ## CVE-2026-7473
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -7286,6 +7345,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DNS hijacking
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 
+## DNS rebinding
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+
 ## DNS resolution
 - [ArcBridge](../tools/arcbridge.md)
 
@@ -7353,6 +7415,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## double free
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 
 ## downgrade risk
 - [UNC6508](../actors/unc6508.md)
@@ -8533,6 +8598,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
 ## GitHub Advisory Database
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
@@ -8560,6 +8626,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub Pages abuse
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
+## GitHub PAT abuse
+- [TeamPCP](../actors/teampcp.md)
 
 ## GitHub payload delivery
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
@@ -9182,6 +9251,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## IIS
 - [OP-512](../actors/op-512.md)
 
+## IKE
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+
 ## IKEv1
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
@@ -9215,6 +9287,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
+
+## improper authentication
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 
 ## improper privilege management
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
@@ -9656,6 +9731,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Jira
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
+- [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
 ## joblib
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
@@ -10356,6 +10432,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## macOS
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -10612,6 +10689,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MarkiRAT
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 
+## mass repository cloning
+- [TeamPCP](../actors/teampcp.md)
+
 ## mass scanning
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 
@@ -10765,6 +10845,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
@@ -11115,6 +11196,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Multi-Domain Security Management
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
+
+## multi-organization PAT campaign
+- [TeamPCP](../actors/teampcp.md)
 
 ## multi-tenant cloud
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
@@ -11658,6 +11742,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
+## OpenAI API keys
+- [TeamPCP](../actors/teampcp.md)
+
 ## OpenAI Codex
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 
@@ -11779,6 +11866,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -11990,6 +12078,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
+- [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -12056,6 +12145,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -12295,6 +12385,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
+- [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
@@ -12540,6 +12631,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 
 ## path traversal
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
@@ -13469,6 +13561,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 
 ## Ray
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [TeamPCP](../actors/teampcp.md)
 
 ## RC4
@@ -13657,6 +13750,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
 ## remote code execution
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
@@ -13754,6 +13848,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## responsible disclosure
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
+- [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
 ## REST API
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
@@ -14171,6 +14266,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MYRA RAT](../tools/myra-rat.md)
 - [TinyRCT](../tools/tinyrct.md)
 
+## Screen Sharing
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+
 ## ScreenConnect
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -14189,6 +14287,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
+
+## script injection
+- [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
 ## script-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -14217,6 +14318,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [STOCKSTAY](../tools/stockstay.md)
 - [Turla](../actors/turla.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
+
+## secret exfiltration
+- [TeamPCP](../actors/teampcp.md)
 
 ## secret exposure
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -14440,6 +14544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 
 ## SharePoint
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
@@ -14632,6 +14737,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Snowflake
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
+- [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
 ## SNOWLIGHT
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -16028,6 +16134,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
+- [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
 ## unauthenticated admin access
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
@@ -16246,6 +16353,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## vCenter
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## vector databases
@@ -16363,6 +16471,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## VMware
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
@@ -16561,6 +16670,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## watering-hole
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+
+## weak authentication
+- [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 
 ## weak credentials
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
@@ -16904,6 +17016,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## workflow backdoor
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
+
+## workflow injection
+- [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
 ## working-directory hijacking
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)

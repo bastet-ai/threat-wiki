@@ -1,7 +1,9 @@
 # Metabase unauthenticated SQL-injection zero-day
 
 ## Summary
-On August 8, 2026, Metabase disclosed active exploitation of a previously unknown vulnerability in self-hosted and cloud releases **1.58 / 0.58 and later**. The flaw, tracked as **GHSA-vwf4-m7j8-wcjf** but not yet assigned a CVE, lets an unauthenticated remote attacker inject SQL into the Metabase application database through the password-reset API. Successful exploitation can produce Metabase administrator access and expose connected-database credentials and all data those connections can read. Public follow-ups from n8n and Anaconda/Kilo Code now confirm downstream customer-data access, including a small set of exposed credentials and possible AI-prompt exposure.
+On August 8, 2026, Metabase disclosed active exploitation of a previously unknown vulnerability in self-hosted and cloud releases **1.58 / 0.58 and later**. The flaw, tracked as **GHSA-vwf4-m7j8-wcjf** and assigned **CVE-2026-72898** on August 11, lets an unauthenticated remote attacker inject SQL into the Metabase application database through the password-reset API. Successful exploitation can produce Metabase administrator access and expose connected-database credentials and all data those connections can read. Public follow-ups from n8n and Anaconda/Kilo Code now confirm downstream customer-data access, including a small set of exposed credentials and possible AI-prompt exposure.
+
+CISA added CVE-2026-72898 to the Known Exploited Vulnerabilities catalog on **August 11, 2026** with an **August 14, 2026** BOD 26-04 remediation deadline. CISA records ransomware use as unknown and does not identify actors, infrastructure, payloads, or victim scope.
 
 Metabase says it detected the zero-day in an attack against Metabase Cloud, blocked the abused endpoints, and patched its hosted service. Self-hosted operators must upgrade to a fixed point release. Blocking `/api/session/reset_password` is only a temporary workaround; an exposed vulnerable instance should also be investigated for compromise.
 
@@ -14,6 +16,8 @@ Metabase says it detected the zero-day in an attack against Metabase Cloud, bloc
 - business intelligence
 - data analytics
 - GHSA-vwf4-m7j8-wcjf
+- CVE-2026-72898
+- CISA KEV
 - SQL injection
 - authentication bypass
 - unauthenticated admin access
@@ -90,7 +94,8 @@ The vulnerability directly affects Metabase's application database and authoriza
 
 ## Sources
 - Metabase, “Security update available for Metabase — Please upgrade now,” 2026-08-08: [https://www.metabase.com/blog/security-update](https://www.metabase.com/blog/security-update)
-- GitHub Security Advisory, GHSA-vwf4-m7j8-wcjf, “SQL injection using an unauthenticated endpoint leading to admin access,” 2026-08-08: [https://github.com/metabase/metabase/security/advisories/GHSA-vwf4-m7j8-wcjf](https://github.com/metabase/metabase/security/advisories/GHSA-vwf4-m7j8-wcjf)
+- GitHub Security Advisory, GHSA-vwf4-m7j8-wcjf / CVE-2026-72898, “SQL injection using an unauthenticated endpoint leading to admin access,” 2026-08-08: [https://github.com/metabase/metabase/security/advisories/GHSA-vwf4-m7j8-wcjf](https://github.com/metabase/metabase/security/advisories/GHSA-vwf4-m7j8-wcjf)
+- CISA: [Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) (CVE-2026-72898 added August 11, 2026; BOD 26-04 due August 14, 2026)
 - Wiz Research, “Inside the Metabase SQLi: Exploited in the Wild,” 2026-08-10: [https://www.wiz.io/blog/inside-the-metabase-sqli-exploited-in-the-wild](https://www.wiz.io/blog/inside-the-metabase-sqli-exploited-in-the-wild)
 - n8n, “Metabase security incident update,” 2026-08-08: [https://blog.n8n.io/metabase-security-incident-update/](https://blog.n8n.io/metabase-security-incident-update/)
 - Anaconda, “Metabase Incident Impacting Kilo Code Data,” updated 2026-08-09: [https://www.anaconda.com/blog/metabase-incident-impacting-kilo-code-data](https://www.anaconda.com/blog/metabase-incident-impacting-kilo-code-data)
