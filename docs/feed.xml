@@ -2,6 +2,34 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>macOS ClickFix campaign: MacSync Stealer behavioral pivots and rotating infrastructure</title>
+      <link>https://threat.wiki/ops/macos-clickfix-fingerprinting-gate-campaign/#macsync-behavioral-pivots-and-rotating-infrastructure</link>
+      <description>Updated the macOS ClickFix campaign page with Microsoft Defender Experts' August 18 MacSync Stealer follow-up. RST Cloud identified the threat through a limited domain set and documented rapid C2 replacement after public disclosure; Microsoft correlated recurring endpoints and network behaviors instead and connected more than 30 domains. Coverage records the /curl/, /dynamic?txd=, and /gate?buildtxd= request shapes, the custom api-key header, chunked HTTP PUT exfiltration with upload_id/chunk_index/total_chunks parameters, staged compressed archives, shared static api-key values across four C2 domains with per-deployment rotating build tokens, RST Cloud's eleven candidate-domain pivots, and chunked-exfiltration detection corollaries for hunting across rotating domains.</description>
+      <pubDate>Wed, 18 Aug 2026 17:08:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/macos-clickfix-fingerprinting-gate-campaign/#macsync-behavioral-pivots-and-rotating-infrastructure</guid>
+    </item>
+    <item>
+      <title>vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)</title>
+      <link>https://threat.wiki/tools/vm2-nodevm-host-dns-hijack/</link>
+      <description>Added OX Security's analysis of vm2 through 3.11.5, where the documented builtin: ['*'] wildcard admitted the os and dns Node built-ins into the sandbox, letting sandboxed code read the host process owner's identity, enumerate host interfaces, and call dns.setServers() to rewrite the host process-wide DNS resolver list with no notification to the embedder. Coverage records the CVSS 10.0 GHSA-m5w8-4gq2-6f8x advisory, the denylist-inversion root cause, the 3.11.6 fix that adds os and dns to DANGEROUS_BUILTINS at both enforcement layers, upgrade notes for code calling os.platform()/EOL/tmpdir(), the still-exposed child_process wildcard caveat, and DNS-resolver and identity-read detections.</description>
+      <pubDate>Wed, 18 Aug 2026 15:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/tools/vm2-nodevm-host-dns-hijack/</guid>
+    </item>
+    <item>
+      <title>GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch</title>
+      <link>https://threat.wiki/ops/gitlab-graphql-cve-2026-19478-19650-critical-patch/</link>
+      <description>Added GitLab's August 17 critical patch release (19.2.4, 19.1.6, 19.0.8, 18.11.11) fixing two GraphQL vulnerabilities in self-managed CE/EE. CVE-2026-19478 (CVSS 9.4, CWE-94) lets an unauthenticated remote user modify or delete public projects through the rolling-deploy @gl_introduced version-filtering path by synthesizing a resolver-less field that dispatches to an attacker-chosen object method; CVE-2026-19650 (CVSS 7.1, CWE-352) lets multiplex-query document swapping execute GET mutations, breaking GitLab's read-only GET protection. Coverage records the NilResolver and per-tracer-hash patches, the four-branch affected range, the absence of a configuration workaround, unauthenticated-write compromise hunts, and the no-KEV/no-exploitation status as of the last scan.</description>
+      <pubDate>Wed, 18 Aug 2026 15:00:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/gitlab-graphql-cve-2026-19478-19650-critical-patch/</guid>
+    </item>
+    <item>
+      <title>npm bin-entry dependency confusion: Google-scoped bin name harvesting</title>
+      <link>https://threat.wiki/patterns/npm-bin-entry-dependency-confusion/</link>
+      <description>Added SafeDep's writeup of an August 12 campaign that published 21 npm packages squatting CLI binary names exposed by Google's scoped packages through the bin field rather than package names, bypassing every standard dependency-confusion mitigation. Each package carried a minimal postinstall beacon posting a system fingerprint to a per-package C2 subdomain under *.instances.poc.jchunt[.]top; all 21 were unpublished within about an hour and recovered from npmmirror.com. Coverage records the 21 package names and versions, the publisher rootdaddy-msrc, the two-wave publish timeline, the source.txt breadcrumb methodology, the three unclaimed non-published names, the mitigation gap table, and a scope-wide bin-entry audit recipe.</description>
+      <pubDate>Wed, 18 Aug 2026 14:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/npm-bin-entry-dependency-confusion/</guid>
+    </item>
+    <item>
       <title>CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, macOS</title>
       <link>https://threat.wiki/ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026/</link>
       <description>Added CISA's August 17–18 KEV entries: Microsoft IKE Service Extensions CVE-2026-33824 (double free, RCE), VMware vCenter CVE-2026-59310 (Syslog path traversal, RCE), Microsoft SharePoint CVE-2026-55040 (weak authentication bypass), Apple macOS CVE-2026-65400 (Screen Sharing improper authentication), and Ray-Project CVE-2025-62593 (browser-exploitable code injection, GHSA-q279-jhrf-cc6v, fixed in 2.52.0). Coverage records the August 20/21 BOD 26-04 deadlines, exact fixed builds where available, the VMware vCenter escalation from "no evidence of exploitation" to confirmed known exploitation, and defender priorities that keep post-exploitation scoping separate from patching. CISA records ransomware use as unknown and does not link the five entries to a shared campaign.</description>

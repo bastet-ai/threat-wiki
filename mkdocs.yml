@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch: ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md
       - "CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, macOS": ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md
       - Wiz Red Agent Snowflake GitHub Actions script injection: ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md
       - Gunra ransomware-as-a-service activity: ops/gunra-ransomware-raas.md
@@ -312,6 +313,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - vm2 NodeVM host state exposure and DNS hijack: tools/vm2-nodevm-host-dns-hijack.md
       - Kimwolf v7: tools/kimwolf-v7.md
       - Aeternum: tools/aeternum.md
       - DeadLock ransomware: tools/deadlock-ransomware.md
@@ -407,6 +409,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - 'npm bin-entry dependency confusion: Google-scoped bin name harvesting': patterns/npm-bin-entry-dependency-confusion.md
       - Atlassian Rovo prompt-to-data exfiltration: patterns/atlassian-rovo-prompt-to-data-exfiltration.md
       - Webmail CSS trust-boundary attacks: patterns/webmail-css-trust-boundary-attacks.md
       - Kiota OpenAPI metadata command injection: patterns/kiota-openapi-metadata-command-injection.md

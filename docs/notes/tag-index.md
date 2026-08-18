@@ -18,6 +18,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [404 TDS](#404-tds) (1)
 - [43.228.157.68](#4322815768) (1)
 - [4sync](#4sync) (1)
+- [@gl_introduced](#gl_introduced) (1)
 - [@marketfront](#marketfront) (1)
 - [@tqm-mfe](#tqm-mfe) (1)
 - [`.bin`](#bin) (1)
@@ -306,8 +307,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BELQI](#belqi) (1)
 - [Bexo Wallet](#bexo-wallet) (1)
 - [BeyondTrust](#beyondtrust) (1)
+- [bin entry](#bin-entry) (1)
 - [Binance Smart Chain](#binance-smart-chain) (1)
 - [binary execution](#binary-execution) (1)
+- [binary squatting](#binary-squatting) (1)
 - [BinaryFormatter](#binaryformatter) (1)
 - [BINDCLOAK](#bindcloak) (3)
 - [binding.gyp](#bindinggyp) (2)
@@ -379,9 +382,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bucket hijacking](#bucket-hijacking) (1)
 - [bucket squatting](#bucket-squatting) (1)
 - [Bugcrowd](#bugcrowd) (1)
+- [build pipeline](#build-pipeline) (1)
 - [build server](#build-server) (1)
 - [build-time compromise](#build-time-compromise) (2)
 - [building automation](#building-automation) (1)
+- [builtin wildcard](#builtin-wildcard) (1)
 - [bulletproof hosting](#bulletproof-hosting) (1)
 - [Bun](#bun) (4)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
@@ -465,8 +470,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (5)
 - [Chromium extension](#chromium-extension) (1)
+- [chunked exfiltration](#chunked-exfiltration) (1)
 - [CI secrets](#ci-secrets) (1)
-- [CI-CD](#ci-cd) (3)
+- [CI-CD](#ci-cd) (4)
 - [CI/CD](#cicd) (42)
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CircleCI](#circleci) (1)
@@ -549,7 +555,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CNCERT](#cncert) (1)
 - [Cobalt Strike](#cobalt-strike) (6)
 - [code execution](#code-execution) (3)
-- [code injection](#code-injection) (2)
+- [code injection](#code-injection) (3)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
 - [Codecov](#codecov) (1)
@@ -633,6 +639,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential exfiltration](#credential-exfiltration) (1)
 - [credential exposure](#credential-exposure) (5)
 - [credential harvesting](#credential-harvesting) (5)
+- [credential interception](#credential-interception) (1)
 - [credential rotation](#credential-rotation) (1)
 - [credential spraying](#credential-spraying) (1)
 - [credential stuffing](#credential-stuffing) (2)
@@ -641,6 +648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (6)
+- [critical vulnerability](#critical-vulnerability) (2)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
 - [cron](#cron) (2)
@@ -670,7 +678,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptomining](#cryptomining) (1)
 - [CSCwt95997](#cscwt95997) (1)
 - [CSI token theft](#csi-token-theft) (1)
-- [CSRF](#csrf) (1)
+- [CSRF](#csrf) (2)
 - [CSRF token theft](#csrf-token-theft) (1)
 - [CSS](#css) (1)
 - [CSS sanitization](#css-sanitization) (1)
@@ -681,6 +689,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Curve25519](#curve25519) (2)
 - [Curve25519-XSalsa20-Poly1305](#curve25519-xsalsa20-poly1305) (1)
 - [custody APIs](#custody-apis) (1)
+- [CVE](#cve) (1)
 - [CVE-2008-4128](#cve-2008-4128) (1)
 - [CVE-2013-3307](#cve-2013-3307) (1)
 - [CVE-2016-5681](#cve-2016-5681) (1)
@@ -741,7 +750,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-16812](#cve-2026-16812) (1)
 - [CVE-2026-18556](#cve-2026-18556) (2)
 - [CVE-2026-18577](#cve-2026-18577) (1)
+- [CVE-2026-19478](#cve-2026-19478) (1)
 - [CVE-2026-19516](#cve-2026-19516) (1)
+- [CVE-2026-19650](#cve-2026-19650) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
 - [CVE-2026-20182](#cve-2026-20182) (1)
 - [CVE-2026-20230](#cve-2026-20230) (1)
@@ -912,7 +923,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [denial of service](#denial-of-service) (6)
 - [Deno](#deno) (2)
 - [Dependabot](#dependabot) (1)
-- [dependency confusion](#dependency-confusion) (4)
+- [dependency confusion](#dependency-confusion) (5)
 - [deployment_status](#deployment_status) (1)
 - [deserialization](#deserialization) (7)
 - [destructive actions](#destructive-actions) (1)
@@ -975,7 +986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS dead drop](#dns-dead-drop) (2)
 - [DNS exfiltration](#dns-exfiltration) (4)
 - [DNS hijacking](#dns-hijacking) (1)
-- [DNS rebinding](#dns-rebinding) (1)
+- [DNS rebinding](#dns-rebinding) (2)
 - [DNS resolution](#dns-resolution) (1)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (3)
@@ -1284,7 +1295,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GhostLock](#ghostlock) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GHSA-6v3r-4p5c-mrp5](#ghsa-6v3r-4p5c-mrp5) (1)
+- [GHSA-6whr-xjjm-6pf8](#ghsa-6whr-xjjm-6pf8) (1)
+- [GHSA-78mw-f4q2-924q](#ghsa-78mw-f4q2-924q) (1)
 - [GHSA-c4hm-4h84-2cf3](#ghsa-c4hm-4h84-2cf3) (1)
+- [GHSA-m5w8-4gq2-6f8x](#ghsa-m5w8-4gq2-6f8x) (1)
 - [GHSA-qrpv-q767-xqq2](#ghsa-qrpv-q767-xqq2) (1)
 - [GHSA-rg76-677x-56q9](#ghsa-rg76-677x-56q9) (1)
 - [GHSA-vwf4-m7j8-wcjf](#ghsa-vwf4-m7j8-wcjf) (1)
@@ -1310,7 +1324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Security Advisories](#github-security-advisories) (3)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
-- [GitLab](#gitlab) (2)
+- [GitLab](#gitlab) (3)
 - [gitleaks](#gitleaks) (1)
 - [GitOps](#gitops) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
@@ -1331,6 +1345,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Golang malware](#golang-malware) (1)
 - [GOLD PRELUDE](#gold-prelude) (1)
 - [Golden Pass-ta-key](#golden-pass-ta-key) (1)
+- [Google](#google) (1)
 - [Google Ads](#google-ads) (1)
 - [Google Analytics telemetry](#google-analytics-telemetry) (1)
 - [Google API](#google-api) (3)
@@ -1364,6 +1379,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grafana MCP Server](#grafana-mcp-server) (1)
 - [Grandoreiro](#grandoreiro) (2)
 - [granular access tokens](#granular-access-tokens) (1)
+- [GraphQL](#graphql) (1)
 - [GraphSpy](#graphspy) (1)
 - [Gravity SMTP](#gravity-smtp) (1)
 - [gray market](#gray-market) (1)
@@ -1429,6 +1445,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hong Kong infrastructure](#hong-kong-infrastructure) (1)
 - [hospitality](#hospitality) (1)
 - [hospitality targeting](#hospitality-targeting) (2)
+- [host DNS hijacking](#host-dns-hijacking) (1)
 - [Host Radar](#host-radar) (1)
 - [host surveillance](#host-surveillance) (1)
 - [hosting control plane](#hosting-control-plane) (1)
@@ -1510,7 +1527,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [industrial targeting](#industrial-targeting) (1)
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
-- [information disclosure](#information-disclosure) (4)
+- [information disclosure](#information-disclosure) (5)
 - [infostealer](#infostealer) (25)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
@@ -1565,7 +1582,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JARLEASH](#jarleash) (1)
 - [Java](#java) (1)
 - [Java malware](#java-malware) (1)
-- [JavaScript](#javascript) (17)
+- [JavaScript](#javascript) (18)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript execution](#javascript-execution) (1)
 - [JavaScript injection](#javascript-injection) (2)
@@ -1773,6 +1790,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [machine-learning](#machine-learning) (1)
 - [macOS](#macos) (19)
 - [macOS malware](#macos-malware) (2)
+- [MacSync](#macsync) (1)
 - [MaDoO Blaster](#madoo-blaster) (1)
 - [Magento](#magento) (1)
 - [MagicYUV](#magicyuv) (1)
@@ -1946,6 +1964,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [multi-organization PAT campaign](#multi-organization-pat-campaign) (1)
 - [multi-tenant cloud](#multi-tenant-cloud) (2)
 - [multi-tenant isolation](#multi-tenant-isolation) (1)
+- [multiplex queries](#multiplex-queries) (1)
 - [Multiply-With-Carry](#multiply-with-carry) (1)
 - [Mustang Panda](#mustang-panda) (4)
 - [Mustard Tempest](#mustard-tempest) (1)
@@ -2014,19 +2033,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-gyp](#node-gyp) (2)
 - [node-ipc](#node-ipc) (1)
 - [node-pty](#node-pty) (1)
-- [Node.js](#nodejs) (5)
+- [Node.js](#nodejs) (6)
 - [Node.js implant](#nodejs-implant) (1)
 - [Node.js malware](#nodejs-malware) (1)
 - [North Korea](#north-korea) (13)
 - [notarized malware](#notarized-malware) (2)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (59)
+- [npm](#npm) (60)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm supply-chain](#npm-supply-chain) (1)
 - [npm token theft](#npm-token-theft) (1)
 - [npm tokens](#npm-tokens) (1)
 - [npm v12](#npm-v12) (1)
 - [npx](#npx) (1)
+- [npx confusion](#npx-confusion) (1)
 - [NSecKrnl.sys](#nseckrnlsys) (1)
 - [NTDS.dit](#ntdsdit) (2)
 - [NTFS ADS](#ntfs-ads) (2)
@@ -2103,11 +2123,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (263)
+- [operations](#operations) (264)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (297)
+- [ops](#ops) (298)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2129,7 +2149,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [overlay attacks](#overlay-attacks) (2)
 - [OWA](#owa) (1)
 - [OWAReaper](#owareaper) (2)
-- [OX Security](#ox-security) (1)
+- [OX Security](#ox-security) (3)
 - [OxideHarvest](#oxideharvest) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
@@ -2175,10 +2195,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pastebin](#pastebin) (2)
 - [PAT theft](#pat-theft) (1)
 - [patch management](#patch-management) (2)
+- [patch-now](#patch-now) (1)
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (3)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (37)
+- [patterns](#patterns) (38)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
@@ -2264,7 +2285,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postal-impersonation](#postal-impersonation) (1)
 - [PostCSS](#postcss) (1)
 - [PostgreSQL](#postgresql) (4)
-- [postinstall](#postinstall) (10)
+- [postinstall](#postinstall) (11)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (25)
 - [PowerShell execution](#powershell-execution) (1)
@@ -2397,6 +2418,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RDP](#rdp) (3)
 - [RDP phishing](#rdp-phishing) (1)
 - [RDS](#rds) (1)
+- [readonly proxy](#readonly-proxy) (1)
 - [Reality](#reality) (1)
 - [Reaper](#reaper) (1)
 - [reconnaissance](#reconnaissance) (3)
@@ -2424,6 +2446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [refresh tokens](#refresh-tokens) (1)
 - [RegAsm process hollowing](#regasm-process-hollowing) (1)
 - [registry controls](#registry-controls) (1)
+- [registry metadata](#registry-metadata) (1)
 - [registry persistence](#registry-persistence) (6)
 - [registry storage](#registry-storage) (1)
 - [registry-controls](#registry-controls) (1)
@@ -2481,6 +2504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rockwell Automation](#rockwell-automation) (1)
 - [Rokarolla](#rokarolla) (2)
 - [RokRAT](#rokrat) (1)
+- [rolling deploy](#rolling-deploy) (1)
 - [Rollup](#rollup) (1)
 - [RomulusLoader](#romulusloader) (1)
 - [Roo-Code](#roo-code) (1)
@@ -2545,11 +2569,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SaaS exposure](#saas-exposure) (1)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
-- [SafeDep](#safedep) (5)
+- [SafeDep](#safedep) (6)
 - [Salesforce](#salesforce) (3)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
-- [sandbox escape](#sandbox-escape) (3)
+- [sandbox escape](#sandbox-escape) (4)
 - [sandbox evasion](#sandbox-evasion) (1)
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (2)
@@ -2600,6 +2624,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [self-hosted AI services](#self-hosted-ai-services) (1)
 - [self-hosted media](#self-hosted-media) (1)
 - [self-hosted runner](#self-hosted-runner) (1)
+- [self-managed](#self-managed) (1)
 - [self-propagation](#self-propagation) (1)
 - [semantic-release](#semantic-release) (1)
 - [sendit.sh](#senditsh) (1)
@@ -2827,7 +2852,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (15)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (99)
+- [supply-chain](#supply-chain) (101)
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -2950,7 +2975,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (48)
+- [tools](#tools) (49)
 - [Tor](#tor) (4)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [TouchSocket](#touchsocket) (1)
@@ -3023,6 +3048,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
 - [unattributed](#unattributed) (1)
+- [unauthenticated](#unauthenticated) (1)
 - [unauthenticated access](#unauthenticated-access) (4)
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
@@ -3039,6 +3065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6671](#unc6671) (1)
 - [UNC6692](#unc6692) (2)
 - [UNC6780](#unc6780) (1)
+- [unclaimed names](#unclaimed-names) (1)
 - [Uni-App](#uni-app) (1)
 - [UniFi OS](#unifi-os) (1)
 - [Unified CM SME](#unified-cm-sme) (1)
@@ -3115,6 +3142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vitest](#vitest) (1)
 - [ViteVenom](#vitevenom) (1)
 - [VLESS](#vless) (1)
+- [vm2](#vm2) (1)
 - [vManage](#vmanage) (1)
 - [VMSA-2026-0006](#vmsa-2026-0006) (1)
 - [VMware](#vmware) (4)
@@ -3362,6 +3390,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## 4sync
 - [GREYVIBE](../actors/greyvibe.md)
+
+## @gl_introduced
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 
 ## @marketfront
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
@@ -4528,11 +4559,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BeyondTrust
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 
+## bin entry
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
+
 ## Binance Smart Chain
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
 ## binary execution
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+
+## binary squatting
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 
 ## BinaryFormatter
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
@@ -4835,6 +4872,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bugcrowd
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
 
+## build pipeline
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
+
 ## build server
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 
@@ -4844,6 +4884,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## building automation
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
+
+## builtin wildcard
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
 ## bulletproof hosting
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -5173,12 +5216,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Chromium extension
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
+## chunked exfiltration
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
+
 ## CI secrets
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 
 ## CI-CD
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
 ## CI/CD
@@ -5608,6 +5655,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## code injection
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 
 ## code sandbox scraping
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -5920,6 +5968,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [UNC6508](../actors/unc6508.md)
 
+## credential interception
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
+
 ## credential rotation
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 
@@ -6075,6 +6126,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Velvet Ant](../actors/velvet-ant.md)
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
+## critical vulnerability
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
+
 ## critical-infrastructure
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 - [Showboat](../tools/showboat.md)
@@ -6209,6 +6264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CSRF
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 
 ## CSRF token theft
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
@@ -6244,6 +6300,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## custody APIs
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+
+## CVE
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
 ## CVE-2008-4128
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
@@ -6433,8 +6492,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-18577
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
+## CVE-2026-19478
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+
 ## CVE-2026-19516
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
+
+## CVE-2026-19650
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 
 ## CVE-2026-20127
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -7048,6 +7113,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 
 ## deployment_status
@@ -7347,6 +7413,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DNS rebinding
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
 ## DNS resolution
 - [ArcBridge](../tools/arcbridge.md)
@@ -8515,8 +8582,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-6v3r-4p5c-mrp5
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
+## GHSA-6whr-xjjm-6pf8
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+
+## GHSA-78mw-f4q2-924q
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+
 ## GHSA-c4hm-4h84-2cf3
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
+
+## GHSA-m5w8-4gq2-6f8x
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
 ## GHSA-qrpv-q767-xqq2
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
@@ -8649,6 +8725,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 
 ## GitLab
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
@@ -8724,6 +8801,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Golden Pass-ta-key
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
+## Google
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 
 ## Google Ads
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -8851,6 +8931,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## granular access tokens
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+
+## GraphQL
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 
 ## GraphSpy
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -9078,6 +9161,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hospitality targeting
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
+
+## host DNS hijacking
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
 ## Host Radar
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
@@ -9405,6 +9491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## infostealer
@@ -9655,6 +9742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [TaskWeaver](../tools/taskweaver.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## JavaScript bridge
@@ -10454,6 +10542,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
+## MacSync
+- [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
+
 ## MaDoO Blaster
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
@@ -11207,6 +11298,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## multi-tenant isolation
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 
+## multiplex queries
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+
 ## Multiply-With-Carry
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
@@ -11441,6 +11535,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [TaskWeaver](../tools/taskweaver.md)
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
 ## Node.js implant
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -11510,6 +11605,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MYRA RAT](../tools/myra-rat.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
@@ -11550,6 +11646,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## npx
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
+## npx confusion
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 
 ## NSecKrnl.sys
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -11916,6 +12015,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
@@ -12199,6 +12299,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
@@ -12466,7 +12567,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 
 ## OX Security
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
 ## OxideHarvest
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -12627,6 +12730,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
+## patch-now
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+
 ## path hijacking
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 
@@ -12669,6 +12775,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
@@ -13023,6 +13130,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [MYRA RAT](../tools/myra-rat.md)
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -13601,6 +13709,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RDS
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
+## readonly proxy
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
+
 ## Reality
 - [First VPN](../tools/first-vpn.md)
 
@@ -13700,6 +13811,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## registry controls
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
+
+## registry metadata
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 
 ## registry persistence
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
@@ -13933,6 +14047,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RokRAT
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
+
+## rolling deploy
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 
 ## Rollup
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
@@ -14182,6 +14299,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 
 ## Salesforce
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -14198,6 +14316,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
 ## sandbox evasion
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
@@ -14386,6 +14505,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## self-hosted runner
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
+
+## self-managed
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 
 ## self-propagation
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -15295,6 +15417,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
@@ -15323,6 +15446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
@@ -15843,6 +15967,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](../tools/tinyrct.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 - [Umbrij](../tools/umbrij.md)
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 - [WLDR agent](../tools/wldr-agent.md)
 - [XCSSET](../tools/xcsset.md)
 
@@ -16130,6 +16255,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## unattributed
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 
+## unauthenticated
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+
 ## unauthenticated access
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
@@ -16192,6 +16320,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UNC6780
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+
+## unclaimed names
+- [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 
 ## Uni-App
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -16463,6 +16594,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VLESS
 - [First VPN](../tools/first-vpn.md)
+
+## vm2
+- [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
 ## vManage
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
