@@ -28,6 +28,8 @@ Check Point Research reported the activity on July 6, 2026, based on intrusions 
 
 Observed targeting focused on Israeli organizations, particularly government and IT-provider sectors. In multiple intrusions, CPR says the initial foothold came through abuse of RMM software already deployed in the victim organization, after which the operators staged a WinDirStat DLL-sideloading package under `C:\ProgramData\WinDir\`.
 
+**Kaspersky GReAT (August 11, 2026)** independently continued tracking the cluster under its "Project CAV3RN" label and documented previously undocumented components: a complex C2 communication module (`GoogleService.dll`, .NET 8 NativeAOT) that uses **DNS A-record responses to choose between a direct HTTPS channel and a Google Apps Script relay per transaction**, with the same DNS infrastructure able to validate and rotate the relay's deployment ID; and a **local broker** that discovers and loads DLL components, routes messages between them, and supports runtime upgrades. Kaspersky's PDB paths (`C:\Users\user\Desktop\Modules\broker-cavern\...`) and the shared modular design corroborate the same cluster CPR documented. See [Cavern](../tools/cavern.md#c2-transport-and-the-gas-relay) for the transport detail.
+
 ## Tradecraft
 - Uses legitimate `WinDirStat.exe` to sideload a trojanized `uxtheme.dll` that acts as the Cavern agent.
 - Deploys a separate `n-HTCommp.dll` communication module for HTTPS / WebSocket C2 transport.
@@ -62,3 +64,4 @@ Keep attribution caveated at the public-cluster level: CPR links the activity to
 ## Sources
 - Check Point Research: [https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/](https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/)
 - The Hacker News: [https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html](https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html)
+- Kaspersky GReAT: [Project CAV3RN continues: Google Apps Script as C2 relay and DNS-based C2 channel selection](https://securelist.com/project-cav3rn-continues/120991/) — August 11, 2026

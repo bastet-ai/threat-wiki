@@ -2,6 +2,34 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph</title>
+      <link>https://threat.wiki/ops/head-mare-trueconf-phantomcore-campaign/</link>
+      <description>Added Kaspersky Threat Response's August 11, 2026 report on a July 2026 Head Mare campaign that exploited two TrueConf server vulnerabilities (KLCERT-26-057 / KLCERT-26-058, affecting 5.3.x-5.5.5) to plant a web shell in locale.php, then replaced legitimate TrueConf client installers with PhantomCore carriers and deployed the PhantomGraph backdoor (SysExcSvc.dll / SysReadSvc.dll Windows services, Microsoft OneDrive C2) to video-conference participants. Head Mare is reclassified from hacktivist cluster to APT group; affected builds were patched June 18, 2026 in 5.3.9 / 5.4.9 / 5.5.5. Coverage records the attack chain, the CLSID InprocServer32 persistence key, and defender priorities including client-distribution integrity audits and OneDrive-C2 hunting.</description>
+      <pubDate>Wed, 19 Aug 2026 20:15:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/head-mare-trueconf-phantomcore-campaign/</guid>
+    </item>
+    <item>
+      <title>CoolClient adds a signed kernel-mode rootkit driver (HoneyMyte / Mustang Panda)</title>
+      <link>https://threat.wiki/actors/mustang-panda/</link>
+      <description>Added Kaspersky GReAT's August 14, 2026 finding that the newest CoolClient variant used by the HoneyMyte APT group (also tracked as Mustang Panda) deploys a signed kernel-mode driver as a Windows service with dedicated IOCTL handlers that hide the CoolClient process, protect related files and registry entries, and block inspection or modification - an architecture comparable to ToneShell's kernel enhancements. Observed in intrusions across Pakistan, Mongolia, and Myanmar (late 2025-2026). The documented Myanmar intrusion shows Defender folder/file exclusions, a fake %ProgramFiles%\Microsoft\Windows Defender staging directory, a renamed Sangfor executable used as DLL sideloader, and SYSTEM persistence via a scheduled task named after the Windows Defender Advanced Threat Protection service.</description>
+      <pubDate>Wed, 19 Aug 2026 20:10:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/mustang-panda/</guid>
+    </item>
+    <item>
+      <title>Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia</title>
+      <link>https://threat.wiki/ops/armored-likho-still-toolkit-russia-campaign/</link>
+      <description>Added Kaspersky GReAT's August 13, 2026 report on a May 2026 Armored Likho (Eagle Werewolf) espionage campaign against Russian individuals and organizations in major corporations, the public sector, IT, and education. Initial access used a Rust/Tauri app mimicking a donation service (catalog fetched from orderapiserver[.]info) as a dropper. The new Still Toolkit suite includes Still Sync, a Tokio-based Rust stealer that steals Telegram tdata session files and pulls chat logs and media through the Telegram API (gRPC/FlatBuffers, default C2 tg4service[.]com:443), and Still Audio, a speech-detecting audio surveillance implant that uploads recordings to C2.</description>
+      <pubDate>Wed, 19 Aug 2026 20:05:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/armored-likho-still-toolkit-russia-campaign/</guid>
+    </item>
+    <item>
+      <title>Project CAV3RN continues: Google Apps Script C2 relay and DNS-based channel selection</title>
+      <link>https://threat.wiki/tools/cavern/#c2-transport-and-the-gas-relay</link>
+      <description>Updated the Cavern page with Kaspersky GReAT's August 11, 2026 "Project CAV3RN continues" report on the Iran-linked Cavern Manticore cluster. The new GoogleService.dll communication module selects C2 transport per transaction from DNS A-record responses: a direct HTTPS channel at api.studiotikva[.]com gated by an X-Client-Id header, or a Google Apps Script relay at script.google[.]com/macros/s/{id}/exec that answers with a 302 to script.googleusercontent.com carrying Base64+XOR(0xAC) task payloads. A new inter-component broker (rnp.dll, masquerading as the RNP OpenPGP library) routes messages between DLL modules and supports runtime upgrades. Coverage adds the DNS-channel-selection mechanism, the GAS relay request shape for egress detection, the leaked relay backend api.studiotikva[.]com/ac, and new file hashes and domain/IP indicators.</description>
+      <pubDate>Wed, 19 Aug 2026 20:00:00 GMT</pubDate>
+      <guid>https://threat.wiki/tools/cavern/#c2-transport-and-the-gas-relay</guid>
+    </item>
+    <item>
       <title>Clop-linked Windchill JSP web shell decrypts keystore credentials</title>
       <link>https://threat.wiki/ops/ptc-windchill-flexplm-cve-2026-12569-exploitation/#clop-linked-jsp-web-shell-follow-up</link>
       <description>Updated the PTC Windchill / FlexPLM CVE-2026-12569 page with ReliaQuest's August 19 reporting, corroborated by Ransom-ISAC with eCrime.ch and Defused, that a JSP web shell deployed after CVE-2026-12569 exploitation is a bespoke PLM-specific extortion platform attributed to the Clop (Cl0p) ransomware operation. The implant maps sensitive vault data, decrypts every credential in the Windchill keystore without additional tooling, and executes additional code via a custom Java class loader, converting the web shell into a backdoor for lateral movement, ransomware deployment, and persistence. Coverage records the attribution chain, the keystore-decryption and class-loader mechanics, and defender priorities including keystore access alerts and JSP web-shell hunting on Windchill / FlexPLM deployments.</description>

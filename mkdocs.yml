@@ -7,6 +7,8 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Head Mare TrueConf PhantomCore / PhantomGraph campaign: ops/head-mare-trueconf-phantomcore-campaign.md
+      - Armored Likho Still Toolkit Russia campaign: ops/armored-likho-still-toolkit-russia-campaign.md
       - Operation CameraSwarm 14,500+ Dahua camera compromise: ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md
       - StopAndProtect hacked-WordPress malware infrastructure: ops/stopandprotect-hacked-wordpress-malware-infrastructure.md
       - TWINLOOT M365 dead-drop / Teams TURN Python implant: ops/twinloot-m365-dead-drop-teams-turn-python-implant.md

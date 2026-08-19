@@ -3,6 +3,10 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
+- [CoolClient adds a signed kernel-mode rootkit driver (HoneyMyte / Mustang Panda)](../actors/mustang-panda.md)
+- [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
+- [Project CAV3RN continues: Google Apps Script C2 relay and DNS-based channel selection](../tools/cavern.md#c2-transport-and-the-gas-relay)
 - [Clop-linked Windchill JSP web shell decrypts keystore credentials](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md#clop-linked-jsp-web-shell-follow-up)
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 - [SilkParasite: China-nexus Central Asia espionage cluster with five new RAT families](../actors/silkparasite.md)

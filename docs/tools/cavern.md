@@ -86,6 +86,18 @@ Group-IB documented [HOLLOWGRAPH](hollowgraph.md) on July 20, 2026 and links it 
 
 HOLLOWGRAPH retrieves encrypted tasking from `Event ID: <taskID>` events dated May 13, 2050 and exfiltrates encrypted files as `File{n}.txt` attachments on events renamed to `Boss{...}ID{...}`. A secondary AAAA-record channel under `cloudlanecdn[.]com` refreshes tenant, client, secret, and mailbox configuration stored in `logAzure.txt`. Group-IB identified at least 12 infected systems and focused Israeli interest, but does not attribute this operation to Cavern Manticore; its separate Lyceum overlap assessment is low confidence.
 
+## C2 transport and the GAS relay
+Kaspersky GReAT's **August 11, 2026 "Project CAV3RN continues"** report documents a more complex transport layer in the same cluster, centered on `GoogleService.dll` (a .NET 8 NativeAOT communication module, PDB `C:\Users\user\Desktop\Modules\gas-cavern\...\gas.pdb`) and an inter-component DLL broker:
+
+- **DNS-based channel selection.** Each C2 transaction first performs DNS lookups; the A-record response selects the transport for that transaction. Certain final octets (notably 130 / 0x82, and 120 / 0x78 in failure states) select a direct HTTPS channel; other responses select the Google Apps Script relay. The same DNS infrastructure can also validate and rotate the relay's deployment ID, so relay rotation does not require new infrastructure.
+- **Google Apps Script relay (GAS mode).** The module builds `https://script.google[.]com/macros/s/{deployment-ID}/exec`. A plain GET returns a decoy page titled "My App" ("This application is running normally"). Real C2 polling POSTs a JSON envelope (`{"k":...,"m":"GET","h":{...},"b":null,"ct":null,"r":true}`) whose `m` field instructs the relay to issue the upstream request; the relay answers with a 302 to `script.googleusercontent.com/macros/echo?...` carrying a JSON body containing the Base64+XOR-obfuscated (`0xAC`) task payload. An upstream timeout leaked the relay backend: `https://api.studiotikva[.]com/ac`.
+- **Direct HTTPS channel.** The module calls `https://api.studiotikva[.]com/api/v1/update/check` without the relay. The endpoint is gated by a custom `X-Client-Id` header: requests without it get `{"res":"failed"}`; with the expected header, a GET returned a 76-byte body that decodes to a broker task packet (`[{"type":"broker","cid":109,"payload":"002_;;__,_"}]`) — confirming the framework's `_;;_` / `_,_` command grammar persists across both transports.
+- **Inter-component broker (`rnp.dll`).** A 64-bit C++ DLL (PDB `C:\Users\user\Desktop\Modules\broker-cavern\1.out\rnp.pdb`) that masquerades as the RNP OpenPGP library through `rnp_*` exports; `rnp_backend_string` starts the broker. The broker scans the host directory for component DLLs, groups them by CompanyName, loads the highest-version candidate per group, routes messages between components, and supports runtime module upgrades — a layer that sits between the communication module and the capability DLLs.
+
+Indicators from the Kaspersky report: file hashes `904784c9...` (CommunicationUxTheme.dll), `f9156d42...` (net.dll), `2dcd4a8a...` (rnp.dll), `981c7404...` (GoogleService.dll), `34d50eec...` (texture.dll); domains `studiotikva[.]com`, `api.studiotikva[.]com`, `ns1/ns2.studiotikva[.]com`; IPs `144.172.115[.]17`, `144.172.104[.]82`.
+
+Defender note: egress rules that blanket-allow `script.google.com` / `script.googleusercontent.com` will not stop this relay — the C2 shape is a POST to `/macros/s/<id>/exec` with a JSON `k`/`m`/`h`/`r` envelope (often with a spoofed old-Chrome User-Agent) followed by a 302 to `macros/echo`. Hunt for those request shapes in proxy and web-traffic logs, and for `X-Client-Id`-gated endpoints returning `{"res":"failed"}`.
+
 ## Post-exploitation capabilities
 CPR recovered a shared command enum with 61 IDs. Confirmed capability areas include:
 
@@ -156,3 +168,4 @@ Selected hashes surfaced in CPR's article text:
 - Group-IB: [https://www.group-ib.com/blog/hollowgraph-microsoft-365/](https://www.group-ib.com/blog/hollowgraph-microsoft-365/)
 - Check Point Research: [https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/](https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/)
 - The Hacker News: [https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html](https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html)
+- Kaspersky GReAT: [Project CAV3RN continues: Google Apps Script as C2 relay and DNS-based C2 channel selection](https://securelist.com/project-cav3rn-continues/120991/) — August 11, 2026
