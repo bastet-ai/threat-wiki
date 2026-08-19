@@ -2,6 +2,20 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>TheHatman: Microsoft Entra tenant credential-theft and forum sale claims</title>
+      <link>https://threat.wiki/actors/thehatman/</link>
+      <description>Added Unit 42's August 18 update to its Large-Scale Credential Attacks threat brief, which tracks an actor using the handle TheHatman who posted across multiple forums from August 1-17, 2026 offering to sell employee information for multiple enterprises. TheHatman allegedly exfiltrated data from organizations' Microsoft Entra tenants and claims access was gained through MFA fatigue and password spraying, but Unit 42 has not verified the claims or identified an intrusion vector, and the brief names no victims. Coverage records the claims-versus-evidence split, MFA fatigue and password-spray hunting pivots, the brief's recommendation to audit for successful logins shortly after large password-failure events, phishing-resistant MFA and Conditional Access hardening, and response steps if forum posts implicate your tenant.</description>
+      <pubDate>Wed, 19 Aug 2026 04:00:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/thehatman/</guid>
+    </item>
+    <item>
+      <title>Entra ID rogue device registration and AI-generated identifiers</title>
+      <link>https://threat.wiki/patterns/entra-rogue-device-registration-ai-identifiers/</link>
+      <description>Added Wiz Research's August 18 analysis of how AI-generated device names and User-Agent strings are eroding static Entra ID device-registration detection. The post measures nearly one in seven Entra ID environments hit by rogue DRS device registration in a 90-day window, notes the DESKTOP-XXXXXXXX pattern affects about one in ten customer environments, documents ROADrecon-era atomic IOCs (Dsreg/10.0 User-Agent, DESKTOP names, trivial microsoft-XXXXXXXX variants), the observed MSTokens-PRT/1.0. User-Agent registering a device named Work PC, the AWS 3.149.231.11 multi-victim device-code source and lockwall.xyz/prime/ shared-document phishing page, and pivots to behavioral detection: naming-convention anomaly baselining plus device-code-phishing-to-registration correlation, with MFA-for-device-registration as the hardening control and a tenant-naming-convention KQL baseline query.</description>
+      <pubDate>Wed, 19 Aug 2026 03:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/entra-rogue-device-registration-ai-identifiers/</guid>
+    </item>
+    <item>
       <title>macOS ClickFix campaign: MacSync Stealer behavioral pivots and rotating infrastructure</title>
       <link>https://threat.wiki/ops/macos-clickfix-fingerprinting-gate-campaign/#macsync-behavioral-pivots-and-rotating-infrastructure</link>
       <description>Updated the macOS ClickFix campaign page with Microsoft Defender Experts' August 18 MacSync Stealer follow-up. RST Cloud identified the threat through a limited domain set and documented rapid C2 replacement after public disclosure; Microsoft correlated recurring endpoints and network behaviors instead and connected more than 30 domains. Coverage records the /curl/, /dynamic?txd=, and /gate?buildtxd= request shapes, the custom api-key header, chunked HTTP PUT exfiltration with upload_id/chunk_index/total_chunks parameters, staged compressed archives, shared static api-key values across four C2 domains with per-deployment rotating build tokens, RST Cloud's eleven candidate-domain pivots, and chunked-exfiltration detection corollaries for hunting across rotating domains.</description>

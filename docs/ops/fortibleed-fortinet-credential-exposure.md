@@ -98,6 +98,7 @@ Arctic Wolf's June 17 bulletin, summarizing SOCRadar and Beaumont / Hudson Rock 
 - Do not redistribute leaked credential lists or victim-specific device data. Use vendor, CISA, and trusted exposure-management channels to determine whether a specific environment is affected.
 
 ## Related pages
+- [TheHatman Entra tenant credential-theft and forum sale claims](../actors/thehatman.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [Check Point VPN CVE-2026-50751 exploitation](check-point-vpn-cve-2026-50751-exploitation.md)
 - [CitrixBleed session-hijack wave](citrixbleed-session-hijack-wave.md)

@@ -366,6 +366,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - TheHatman: actors/thehatman.md
       - JINX-0163 / FulcrumSec: actors/jinx-0163.md
       - Toy Ghouls: actors/toy-ghouls.md
       - Mirage Kitten / UNC1549: actors/mirage-kitten.md
@@ -409,6 +410,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Entra ID rogue device registration and AI-generated identifiers: patterns/entra-rogue-device-registration-ai-identifiers.md
       - 'npm bin-entry dependency confusion: Google-scoped bin name harvesting': patterns/npm-bin-entry-dependency-confusion.md
       - Atlassian Rovo prompt-to-data exfiltration: patterns/atlassian-rovo-prompt-to-data-exfiltration.md
       - Webmail CSS trust-boundary attacks: patterns/webmail-css-trust-boundary-attacks.md
