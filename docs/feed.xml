@@ -2,6 +2,69 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Clop-linked Windchill JSP web shell decrypts keystore credentials</title>
+      <link>https://threat.wiki/ops/ptc-windchill-flexplm-cve-2026-12569-exploitation/#clop-linked-jsp-web-shell-follow-up</link>
+      <description>Updated the PTC Windchill / FlexPLM CVE-2026-12569 page with ReliaQuest's August 19 reporting, corroborated by Ransom-ISAC with eCrime.ch and Defused, that a JSP web shell deployed after CVE-2026-12569 exploitation is a bespoke PLM-specific extortion platform attributed to the Clop (Cl0p) ransomware operation. The implant maps sensitive vault data, decrypts every credential in the Windchill keystore without additional tooling, and executes additional code via a custom Java class loader, converting the web shell into a backdoor for lateral movement, ransomware deployment, and persistence. Coverage records the attribution chain, the keystore-decryption and class-loader mechanics, and defender priorities including keystore access alerts and JSP web-shell hunting on Windchill / FlexPLM deployments.</description>
+      <pubDate>Wed, 19 Aug 2026 16:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/ptc-windchill-flexplm-cve-2026-12569-exploitation/#clop-linked-jsp-web-shell-follow-up</guid>
+    </item>
+    <item>
+      <title>SilkParasite: China-nexus Central Asia espionage cluster with five new RAT families</title>
+      <link>https://threat.wiki/actors/silkparasite/</link>
+      <description>Added SilkParasite, a previously unreported cyber-espionage operation targeting Central Asian government bodies assessed by Bitdefender Labs as a medium-confidence China-nexus threat cluster discovered in late 2025. The operation deploys seven RAT families, five previously undocumented: DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and NodeEdgeRAT, plus updated BLOODALCHEMY (a Deed/ShadowPad/PlugX-lineage backdoor first documented by Elastic in October 2023) and an updated SpiceRAT. Initial access uses password-protected RAR archives with malicious Office documents whose macros check for Kaspersky before executing a DLL-sideloading sequence; lures are tailored to ministries in Uzbekistan, Turkmenistan, Kyrgyzstan, Tajikistan, and Kazakhstan. Bitdefender characterizes the tooling as expert human-developed espionage code with traces of AI-assisted development, citing Go test functions, a hard-coded AES key set to 0123456789abcdef, and a change_this_key configuration field as the clearest artifacts.</description>
+      <pubDate>Wed, 19 Aug 2026 15:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/actors/silkparasite/</guid>
+    </item>
+    <item>
+      <title>Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay</title>
+      <link>https://threat.wiki/ops/cameraswarm-dahua-camera-compromise-cve-2021-33044/</link>
+      <description>Added Hunt.io's disclosure of Operation CameraSwarm, a campaign that compromised more than 14,530 Dahua cameras between June 17 and July 22, 2026 using credential attacks, two 2021 authentication-bypass flaws (CVE-2021-33044 and CVE-2021-33045, both in CISA KEV), and a peer-to-peer relay technique. Confirmed compromises were concentrated in Ukraine and Russia. The campaign was reconstructed from a 407 MB exposed working directory containing 2,616 files across 234 subdirectories of tooling, logs, shell history, and campaign records, including Easy4IP serial-number P2P relay infrastructure first analyzed by ITRES Labs in October 2025. Coverage records the NetKeyboard loopback-login abuse, the serial-number relay mechanics, and defender priorities for Dahua deployments.</description>
+      <pubDate>Wed, 19 Aug 2026 14:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cameraswarm-dahua-camera-compromise-cve-2021-33044/</guid>
+    </item>
+    <item>
+      <title>StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware and ransomware</title>
+      <link>https://threat.wiki/ops/stopandprotect-hacked-wordpress-malware-infrastructure/</link>
+      <description>Added Check Point Research's tracking of StopAndProtect, a global cybercrime operation abusing close to 2,000 hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, and store stolen documents, screenshots, and activity logs. The operator's opsec blunders (exposed infection logs, victim screenshots, and mass-management tooling on the compromised sites) gave visibility into the campaign. The infection chain starts with ClickFix social engineering: a fake CAPTCHA overlay on a compromised WordPress site shown to non-Windows visitors via a malicious MU plugin instructs the visitor to copy-paste a command that deploys .NET downloaders and loaders, then a distributed toolkit that encrypts files, steals documents, locks screens via an SMB/USB-spreading VBS worm, and operates a live attacker-victim chat. Coverage records the infection chain, the malware family of the same name found in mid-May 2026, and the 6,000+ victim IP count Check Point's telemetry indicated as of July 24, 2026.</description>
+      <pubDate>Wed, 19 Aug 2026 13:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/stopandprotect-hacked-wordpress-malware-infrastructure/</guid>
+    </item>
+    <item>
+      <title>CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)</title>
+      <link>https://threat.wiki/ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil/</link>
+      <description>Added Varonis Threat Labs' disclosure of three vulnerabilities in Microsoft Copilot Personal collectively named CoSnitch, in which a single click on a crafted link silently pulls data from connected apps using the undocumented URL parameter autorun=1 (discovered via meta-hacking of the assistant itself). Varonis reported the issue in December 2025; Microsoft patched it on August 18, 2026 as CVE-2026-24301. The exfiltration request is indistinguishable at the network layer from ordinary Copilot web-page summarization fetches, the prompt runs to completion even if the victim closes the tab, and a separate memory-injection path writes an instruction that survives password changes, session revocation, and device re-enrollment with no endpoint-visible artifact. No in-the-wild exploitation has been reported; M365 Copilot is not stated to be affected.</description>
+      <pubDate>Wed, 19 Aug 2026 02:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil/</guid>
+    </item>
+    <item>
+      <title>MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks</title>
+      <link>https://threat.wiki/ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft/</link>
+      <description>Added watchTowr and VulnCheck August 18 reporting that two open-source products are under active malicious scanning and exploitation: MLflow CVE-2026-64849, a flaw in model-registry webhooks that proxies requests through the affected system to reach cloud metadata services and exfiltrate cloud credentials and secrets, and FUXA CVE-2026-25895, a path traversal in the open-source web-based SCADA/HMI that observed attackers use to overwrite main.js with junk data (destructive DoS, no RCE observed in public reporting). watchTowr's global honeypot telemetry shows attackers indiscriminately scanning for exposed MLflow instances within hours of the CVE being assigned on August 17, 2026, targeting cloud-hosted MLflow systems to extract credentials from well-known internal IP addresses.</description>
+      <pubDate>Wed, 19 Aug 2026 01:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft/</guid>
+    </item>
+    <item>
+      <title>Gogs CVE-2026-52813 path-traversal RCE and remaining unpatched bypass</title>
+      <link>https://threat.wiki/ops/gogs-cve-2026-52813-path-traversal-rce/</link>
+      <description>Added Aikido's report (via Aikido Attack AI pentesting) of flaws in Gogs, the open-source self-hosted Git platform, headlined by CVE-2026-52813 (GHSA-c39w-43gm-34h5), a path traversal to Remote Code Execution caused by UserPath() in repox.go joining the username with the repositories root directory without sanitizing ../ sequences. Gogs maintainers fixed the reported issues in 0.14.3, but one unpatched bypass of a reported vulnerability and the push-authorization bypass CVE-2026-52810 remain unfixed, plus GHSA-6vxv-wg6j-5qwp XSS via Jupyter notebookjs. Aikido recommends using a different self-hosted Git solution while Gogs is not actively maintained. No in-the-wild exploitation of CVE-2026-52813 has been reported.</description>
+      <pubDate>Tue, 18 Aug 2026 23:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/gogs-cve-2026-52813-path-traversal-rce/</guid>
+    </item>
+    <item>
+      <title>TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services</title>
+      <link>https://threat.wiki/ops/twinloot-m365-dead-drop-teams-turn-python-implant/</link>
+      <description>Added Ontinue Cyber Defense Center's disclosure of TWINLOOT, a previously undocumented PyArmor-hardened modular Python implant framework discovered during a July 2026 campaign investigation, whose defining characteristic is operating its entire C2 infrastructure inside trusted Microsoft services: tasking through SharePoint Online file dead-drops via the Microsoft Graph API, interactive operator access through WebRTC DataChannels relayed by Microsoft Teams TURN servers, and Graph-API traffic driven through a headless instance of the victim's own Edge browser over Chrome DevTools Protocol. Ontinue describes it as the first tool to combine M365 dead-drop C2, Teams TURN relay abuse, and headless-browser transport under one umbrella. Coverage records the infection and C2 architecture, pixel-perfect fake lock screens for Windows credential harvesting, reverse SOCKS5 pivots, and defender priorities including STAC4749 / Chaos overlap assessment when Teams vishing delivery pairs with a PyArmor Python backdoor.</description>
+      <pubDate>Tue, 18 Aug 2026 22:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/twinloot-m365-dead-drop-teams-turn-python-implant/</guid>
+    </item>
+    <item>
+      <title>AI "mind viruses": agent-to-agent spread via persistent prompt files</title>
+      <link>https://threat.wiki/patterns/ai-mind-viruses-agent-to-agent-propagation/</link>
+      <description>Added the Anthropic/EPFL August 10, 2026 preprint demonstrating that self-propagating payloads can spread between AI agents through the editable system-prompt files (SOUL.md, MEMORY.md) that autonomous agent harnesses persist across sessions, tested in a simulated six-agent coding collaboration and OpenClaw-modeled agent chains. In the observed propagation, agents writing payloads into SOUL.md accounted for 88% of attempts with 55% next-agent infection; ordinary workspace files accounted for 12% of attempts with 17% success. A one-paragraph warning in the system prompt reduced spread to near zero, and 15 generations of adversarial optimization against that warning (150+ payloads, Claude Haiku 4.5) produced no multi-hop strain. A review of Moltbook archives found no successful in-the-wild agent-to-agent propagation; the authors assess a real but currently limited risk. Defender priorities treat agent prompt/memory files as attack surface and add a one-paragraph anti-propagation warning plus cross-session persistence anomaly detection.</description>
+      <pubDate>Tue, 18 Aug 2026 21:30:00 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/ai-mind-viruses-agent-to-agent-propagation/</guid>
+    </item>
+    <item>
       <title>Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions</title>
       <link>https://threat.wiki/ops/apache-zeppelin-cve-2026-44613-csrf/</link>
       <description>Added OX Security's August 6 analysis of CVE-2026-44613, a cross-site request forgery in Apache Zeppelin 0.6.0 through 0.12.0 fixed in 0.12.1. The CorsFilter defaulted zeppelin.server.allowed.origins to *, accepting credentialed, state-changing cross-origin requests, and some endpoints accepted text/plain bodies that skip the CORS preflight entirely. A malicious page can therefore drive an authenticated Zeppelin session into forged administrative REST and WebSocket actions. Coverage records the CVSS 6.1 High vector, the 0.12.1 fix (empty default allow-list plus JSON-only content-type enforcement), the April-June-July disclosure-to-public timeline, and defender priorities including allow-list hardening and hunting for cross-origin administrative requests. No public exploitation or actor linkage has been reported; not in CISA KEV as of the last scan.</description>

@@ -7,6 +7,12 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Operation CameraSwarm 14,500+ Dahua camera compromise: ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md
+      - StopAndProtect hacked-WordPress malware infrastructure: ops/stopandprotect-hacked-wordpress-malware-infrastructure.md
+      - TWINLOOT M365 dead-drop / Teams TURN Python implant: ops/twinloot-m365-dead-drop-teams-turn-python-implant.md
+      - CoSnitch Copilot Personal one-click exfil (CVE-2026-24301): ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md
+      - MLflow CVE-2026-64849 SSRF cloud-credential theft: ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md
+      - Gogs CVE-2026-52813 path-traversal RCE: ops/gogs-cve-2026-52813-path-traversal-rce.md
       - Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions: ops/apache-zeppelin-cve-2026-44613-csrf.md
       - GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch: ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md
       - "CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, macOS": ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md
@@ -367,6 +373,7 @@ nav:
       - Showboat: tools/showboat.md
       - CanisterWorm: tools/canisterworm.md
   - Groups:
+      - SilkParasite: actors/silkparasite.md
       - TheHatman: actors/thehatman.md
       - JINX-0163 / FulcrumSec: actors/jinx-0163.md
       - Toy Ghouls: actors/toy-ghouls.md
@@ -411,6 +418,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - 'AI "mind viruses": agent-to-agent spread via persistent prompt files': patterns/ai-mind-viruses-agent-to-agent-propagation.md
       - Entra ID rogue device registration and AI-generated identifiers: patterns/entra-rogue-device-registration-ai-identifiers.md
       - 'npm bin-entry dependency confusion: Google-scoped bin name harvesting': patterns/npm-bin-entry-dependency-confusion.md
       - Atlassian Rovo prompt-to-data exfiltration: patterns/atlassian-rovo-prompt-to-data-exfiltration.md
