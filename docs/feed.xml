@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions</title>
+      <link>https://threat.wiki/ops/apache-zeppelin-cve-2026-44613-csrf/</link>
+      <description>Added OX Security's August 6 analysis of CVE-2026-44613, a cross-site request forgery in Apache Zeppelin 0.6.0 through 0.12.0 fixed in 0.12.1. The CorsFilter defaulted zeppelin.server.allowed.origins to *, accepting credentialed, state-changing cross-origin requests, and some endpoints accepted text/plain bodies that skip the CORS preflight entirely. A malicious page can therefore drive an authenticated Zeppelin session into forged administrative REST and WebSocket actions. Coverage records the CVSS 6.1 High vector, the 0.12.1 fix (empty default allow-list plus JSON-only content-type enforcement), the April-June-July disclosure-to-public timeline, and defender priorities including allow-list hardening and hunting for cross-origin administrative requests. No public exploitation or actor linkage has been reported; not in CISA KEV as of the last scan.</description>
+      <pubDate>Wed, 19 Aug 2026 10:32:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/apache-zeppelin-cve-2026-44613-csrf/</guid>
+    </item>
+    <item>
       <title>TheHatman: Microsoft Entra tenant credential-theft and forum sale claims</title>
       <link>https://threat.wiki/actors/thehatman/</link>
       <description>Added Unit 42's August 18 update to its Large-Scale Credential Attacks threat brief, which tracks an actor using the handle TheHatman who posted across multiple forums from August 1-17, 2026 offering to sell employee information for multiple enterprises. TheHatman allegedly exfiltrated data from organizations' Microsoft Entra tenants and claims access was gained through MFA fatigue and password spraying, but Unit 42 has not verified the claims or identified an intrusion vector, and the brief names no victims. Coverage records the claims-versus-evidence split, MFA fatigue and password-spray hunting pivots, the brief's recommendation to audit for successful logins shortly after large password-failure events, phishing-resistant MFA and Conditional Access hardening, and response steps if forum posts implicate your tenant.</description>

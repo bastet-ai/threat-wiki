@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [TheHatman: Microsoft Entra tenant credential-theft and forum sale claims](../actors/thehatman.md)
 - [Entra ID rogue device registration and AI-generated identifiers](../patterns/entra-rogue-device-registration-ai-identifiers.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)

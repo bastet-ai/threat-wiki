@@ -167,6 +167,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AOL Mail](#aol-mail) (1)
 - [Aone](#aone) (1)
 - [Apache Tomcat](#apache-tomcat) (1)
+- [Apache Zeppelin](#apache-zeppelin) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
 - [API enumeration](#api-enumeration) (1)
@@ -622,6 +623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Copy-on-Write](#copy-on-write) (1)
 - [Corepack](#corepack) (1)
 - [CornFlake](#cornflake) (1)
+- [CORS](#cors) (1)
 - [Coruna](#coruna) (2)
 - [CosmosEscape](#cosmosescape) (1)
 - [counterfeit software](#counterfeit-software) (1)
@@ -653,6 +655,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CRM data theft](#crm-data-theft) (1)
 - [cron](#cron) (2)
 - [cron persistence](#cron-persistence) (3)
+- [cross-origin requests](#cross-origin-requests) (1)
 - [cross-platform](#cross-platform) (2)
 - [cross-platform malware](#cross-platform-malware) (2)
 - [cross-project access](#cross-project-access) (1)
@@ -678,7 +681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptomining](#cryptomining) (1)
 - [CSCwt95997](#cscwt95997) (1)
 - [CSI token theft](#csi-token-theft) (1)
-- [CSRF](#csrf) (2)
+- [CSRF](#csrf) (3)
 - [CSRF token theft](#csrf-token-theft) (1)
 - [CSS](#css) (1)
 - [CSS sanitization](#css-sanitization) (1)
@@ -800,6 +803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-43500](#cve-2026-43500) (1)
 - [CVE-2026-43503](#cve-2026-43503) (1)
 - [CVE-2026-44338](#cve-2026-44338) (1)
+- [CVE-2026-44613](#cve-2026-44613) (1)
 - [CVE-2026-45247](#cve-2026-45247) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
 - [CVE-2026-45659](#cve-2026-45659) (1)
@@ -864,7 +868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-22](#cwe-22) (1)
 - [CWE-259](#cwe-259) (1)
 - [CWE-306](#cwe-306) (1)
-- [CWE-352](#cwe-352) (1)
+- [CWE-352](#cwe-352) (2)
 - [CWE-502](#cwe-502) (1)
 - [CWE-77](#cwe-77) (1)
 - [CWE-78](#cwe-78) (2)
@@ -2123,11 +2127,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (264)
+- [operations](#operations) (265)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (298)
+- [ops](#ops) (299)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2149,7 +2153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [overlay attacks](#overlay-attacks) (2)
 - [OWA](#owa) (1)
 - [OWAReaper](#owareaper) (2)
-- [OX Security](#ox-security) (3)
+- [OX Security](#ox-security) (4)
 - [OxideHarvest](#oxideharvest) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
@@ -2481,7 +2485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [residential proxies](#residential-proxies) (1)
 - [residential proxy](#residential-proxy) (1)
 - [residential proxy abuse](#residential-proxy-abuse) (1)
-- [responsible disclosure](#responsible-disclosure) (2)
+- [responsible disclosure](#responsible-disclosure) (3)
 - [REST API](#rest-api) (1)
 - [REST C2](#rest-c2) (1)
 - [restart-triggered execution](#restart-triggered-execution) (1)
@@ -2942,6 +2946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tetrade](#tetrade) (1)
 - [TetrisPhantom](#tetrisphantom) (1)
 - [TeviRAT](#tevirat) (1)
+- [text/plain request body](#textplain-request-body) (1)
 - [Thailand](#thailand) (4)
 - [The Gentlemen](#the-gentlemen) (1)
 - [The Hacker News](#the-hacker-news) (12)
@@ -4050,6 +4055,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Apache Tomcat
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+
+## Apache Zeppelin
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 
 ## Apex One
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -5903,6 +5911,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CornFlake
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 
+## CORS
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
+
 ## Coruna
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
@@ -6146,6 +6157,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 
+## cross-origin requests
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
+
 ## cross-platform
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
@@ -6263,6 +6277,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## CSRF
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 
@@ -6650,6 +6665,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-44338
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
+## CVE-2026-44613
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
+
 ## CVE-2026-45247
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
@@ -6847,6 +6865,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
 ## CWE-352
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 
 ## CWE-502
@@ -11938,6 +11957,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -12214,6 +12234,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -12567,6 +12588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 
 ## OX Security
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
@@ -13961,6 +13983,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 
 ## responsible disclosure
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
@@ -15784,6 +15807,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TeviRAT
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
+
+## text/plain request body
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 
 ## Thailand
 - [FishMonger](../actors/fishmonger.md)

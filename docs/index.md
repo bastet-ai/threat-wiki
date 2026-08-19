@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [TheHatman: Microsoft Entra tenant credential-theft and forum sale claims](actors/thehatman.md)
 - [Entra ID rogue device registration and AI-generated identifiers](patterns/entra-rogue-device-registration-ai-identifiers.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, macOS](ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [Wiz Red Agent finds Snowflake GitHub Actions script injection leading to Jira credential exfiltration](ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 - [CloudSEK publishes TeamPCP victim dataset: 78,330 secrets from 2,186 organizations; Wiz CIRT documents multi-org PAT mass-cloning campaign](actors/teampcp.md)
-- [Kimwolf v7 hardens Android/IoT DDoS operations with HTTP/2 fingerprints, ENS, and Tor](tools/kimwolf-v7.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

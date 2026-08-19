@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions: ops/apache-zeppelin-cve-2026-44613-csrf.md
       - GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch: ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md
       - "CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, macOS": ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md
       - Wiz Red Agent Snowflake GitHub Actions script injection: ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md
