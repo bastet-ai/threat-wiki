@@ -7,16 +7,16 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass leaves SYSTEM escalation open](ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
+- [Cloudflare Workers remote Spectre attack leaks co-tenant JWT at 12 bits/second](ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
+- [City Forum: single-IP Salesforce and ServiceNow guest-access scraping since March 2025](ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
+- [StubMaker: 16 typosquatted RubyGems packages deliver a Windows stealer](ops/stubmaker-rubygems-typosquat-windows-stealer.md)
+- [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](ops/balonx-sistema-mexican-banking-phaas.md)
+- [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
+- [Unisoc VoLTE video-call exploit chain reaches full Android kernel access](ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](ops/head-mare-trueconf-phantomcore-campaign.md)
 - [CoolClient adds a signed kernel-mode rootkit driver (HoneyMyte)](actors/mustang-panda.md)
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](ops/armored-likho-still-toolkit-russia-campaign.md)
-- [Project CAV3RN continues: Google Apps Script C2 relay and DNS-based channel selection](tools/cavern.md#c2-transport-and-the-gas-relay)
-- [AI "mind viruses": agent-to-agent spread via persistent prompt files](patterns/ai-mind-viruses-agent-to-agent-propagation.md)
-- [SilkParasite: China-nexus Central Asia espionage cluster with five new RAT families](actors/silkparasite.md)
-- [Clop-linked Windchill JSP web shell decrypts keystore credentials](ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md#clop-linked-jsp-web-shell-follow-up)
-- [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
-- [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration](ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
-- [Gogs CVE-2026-52813 path-traversal RCE and remaining unpatched bypass](ops/gogs-cve-2026-52813-path-traversal-rce.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

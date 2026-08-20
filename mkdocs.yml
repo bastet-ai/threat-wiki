@@ -7,6 +7,13 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass: ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md
+      - Cloudflare Workers remote Spectre co-located JWT leak: ops/cloudflare-workers-spectre-co-located-jwt-leak.md
+      - City Forum Salesforce and ServiceNow guest-access scraping: ops/city-forum-salesforce-servicenow-guest-access-scraping.md
+      - StubMaker 16 typosquatted RubyGems Windows stealer: ops/stubmaker-rubygems-typosquat-windows-stealer.md
+      - Balonx Sistema Mexican banking PhaaS: ops/balonx-sistema-mexican-banking-phaas.md
+      - PATCHCORD / SHEETCORD APT36 Afghan telecom and South Asia campaign: ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md
+      - Unisoc VoLTE video-call modem-to-Android-kernel exploit chain: ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md
       - Head Mare TrueConf PhantomCore / PhantomGraph campaign: ops/head-mare-trueconf-phantomcore-campaign.md
       - Armored Likho Still Toolkit Russia campaign: ops/armored-likho-still-toolkit-russia-campaign.md
       - Operation CameraSwarm 14,500+ Dahua camera compromise: ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md

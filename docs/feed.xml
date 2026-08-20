@@ -2,6 +2,55 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass leaves SYSTEM escalation open</title>
+      <link>https://threat.wiki/ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak/</link>
+      <description>Added Arctic Wolf Labs' August 12, 2026 report that researcher "Chaotic Eclipse" released ShieldBreak, a public exploit fully bypassing Microsoft's July 2026 initial patch (Engine 1.1.26060.3008) for CVE-2026-50656 (RoguePlanet), a race-condition-plus-link-resolution local privilege escalation in mpengine.dll that lets a low-privilege local user reach NT AUTHORITY\SYSTEM. No official fix for the ShieldBreak bypass was available as of the alert, so patched-and-current Defender environments remain exposed. Coverage records the exploit mechanics, defender actions including host-level mitigation, and the patch-bypass monitoring outlook.</description>
+      <pubDate>Thu, 20 Aug 2026 03:18:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak/</guid>
+    </item>
+    <item>
+      <title>Cloudflare Workers remote Spectre attack leaks co-tenant JWT at 12 bits/second</title>
+      <link>https://threat.wiki/ops/cloudflare-workers-spectre-co-located-jwt-leak/</link>
+      <description>Added coverage of the arXiv:2608.17043 paper (TU Graz and collaborators) demonstrating a remote Spectre side-channel against production Cloudflare Workers that leaked a JSON Web Token from a co-located worker at up to 12 bits/second, roughly 360x faster than the 2021 remote-Spectre demonstration on the same platform. The end-to-end experiment used attacker- and researcher-controlled workers with no customer data accessed, and Cloudflare found no indicators of active exploitation over the preceding three years. Cloudflare states the attack is mitigated in production via improved Dynamic Process Isolation, V8 Sandbox integration, and MPK-based in-process isolation.</description>
+      <pubDate>Thu, 20 Aug 2026 03:17:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/cloudflare-workers-spectre-co-located-jwt-leak/</guid>
+    </item>
+    <item>
+      <title>City Forum: single-IP Salesforce and ServiceNow guest-access scraping since March 2025</title>
+      <link>https://threat.wiki/ops/city-forum-salesforce-servicenow-guest-access-scraping/</link>
+      <description>Added Reco's naming of the City Forum campaign: a single Contabo VPS (158.220.87.79) with the default Go net/http user agent has scraped records from both Salesforce and ServiceNow customer portals since at least March 2025, spanning telecoms, banks, financial services, enterprise software vendors, and public-sector portals. The root cause is a guest identity granted more access than the site needed to serve the public: Salesforce Experience Cloud guest profiles reaching Aura and Lightning Web Runtime UI-API objects, and ServiceNow Service Portal guests hitting the anonymous POST /api/now/sp/search endpoint. Reco has not attributed the campaign to a named group; it is distinguished from the widely reported ShinyHunters Salesforce abuse mainly by the range of surfaces it touches.</description>
+      <pubDate>Thu, 20 Aug 2026 03:16:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/city-forum-salesforce-servicenow-guest-access-scraping/</guid>
+    </item>
+    <item>
+      <title>StubMaker: 16 typosquatted RubyGems packages deliver a Windows stealer</title>
+      <link>https://threat.wiki/ops/stubmaker-rubygems-typosquat-windows-stealer/</link>
+      <description>Added OpenSourceMalware's (with Paul "6mile" McCarty) StubMaker campaign tracking: sixteen clumsy typosquats of popular Ruby gems (r18n, i18n, active_support, builder-style names) published by RubyGems owner accounts mod8rz41mje and rbq95bwt6q between at least mid-August 2026, all delivering the same Windows information stealer for browser-credential and cryptocurrency-wallet theft via install-time execution. The durable finding is weaponization of RubyGems' yank-and-reclaim behavior: when all of a gem's versions are yanked, the name becomes claimable, letting the attacker re-publish malicious versions under previously dead package names. Discovered August 15, 2026; packages yanked.</description>
+      <pubDate>Thu, 20 Aug 2026 03:15:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/stubmaker-rubygems-typosquat-windows-stealer/</guid>
+    </item>
+    <item>
+      <title>Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing</title>
+      <link>https://threat.wiki/ops/balonx-sistema-mexican-banking-phaas/</link>
+      <description>Added Group-IB's technical analysis of Balonx Sistema, a Mexican banking Phishing-as-a-Service platform targeting 20+ financial institutions with weekly subscription tiers (3,000/6,000 MXN), live WebSocket victim sessions with 14 on-demand fraudulent screens, an integrated Spyroid-based Android RAT, and a CallFlow AI synthetic-voice vishing module. Leaked GitHub repositories exposed the operations, victims, infrastructure, and affiliate network; the platform has harvested credentials and financial information from 1,100+ users since at least October 2025.</description>
+      <pubDate>Thu, 20 Aug 2026 03:14:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/balonx-sistema-mexican-banking-phaas/</guid>
+    </item>
+    <item>
+      <title>PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure</title>
+      <link>https://threat.wiki/ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia/</link>
+      <description>Added Acronis TRU's report of an ongoing campaign delivering the previously undocumented C/C++ PATCHCORD backdoor against Afghan telecom providers and South Asian critical-infrastructure organizations, with fake AFTEL VPN installer and telecom-management lures (Telecom_TMS.zip / TMS_AfghanTelecom.exe Inno Setup chain). A second Go-based backdoor, SHEETCORD, uses Google Sheets C2; a related domain impersonates India's National Informatics Centre. Moderate-confidence attribution to APT36 (Transparent Tribe) based on targeting, malware, infrastructure, and tradecraft overlap.</description>
+      <pubDate>Thu, 20 Aug 2026 03:13:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia/</guid>
+    </item>
+    <item>
+      <title>Unisoc VoLTE video-call exploit chain reaches full Android kernel access</title>
+      <link>https://threat.wiki/ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain/</link>
+      <description>Added coverage of SSD Secure Disclosure's August 17, 2026 publication of stage two of a two-part Unisoc modem-firmware exploit chain: after the March 2026 VoLTE SIP video-call RCE, a shared-resource isolation flaw (CWE-1189) escalates to full Android kernel access on T606/T612/T7250 SoCs (tested on Motorola E13, Realme C33, Xiaomi Redmi A5). Completing the chain requires an attacker-controlled private 4G network and a victim who answers the video call. No CVE assigned; Unisoc has not responded to repeated outreach.</description>
+      <pubDate>Thu, 20 Aug 2026 03:12:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain/</guid>
+    </item>
+    <item>
       <title>Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph</title>
       <link>https://threat.wiki/ops/head-mare-trueconf-phantomcore-campaign/</link>
       <description>Added Kaspersky Threat Response's August 11, 2026 report on a July 2026 Head Mare campaign that exploited two TrueConf server vulnerabilities (KLCERT-26-057 / KLCERT-26-058, affecting 5.3.x-5.5.5) to plant a web shell in locale.php, then replaced legitimate TrueConf client installers with PhantomCore carriers and deployed the PhantomGraph backdoor (SysExcSvc.dll / SysReadSvc.dll Windows services, Microsoft OneDrive C2) to video-conference participants. Head Mare is reclassified from hacktivist cluster to APT group; affected builds were patched June 18, 2026 in 5.3.9 / 5.4.9 / 5.5.5. Coverage records the attack chain, the CLSID InprocServer32 persistence key, and defender priorities including client-distribution integrity audits and OneDrive-C2 hunting.</description>
