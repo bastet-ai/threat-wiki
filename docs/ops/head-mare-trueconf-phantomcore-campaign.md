@@ -5,6 +5,8 @@ Kaspersky Threat Response reported a **July 2026 campaign by the Head Mare group
 
 Kaspersky now classifies Head Mare as an **APT group** (previously tracked as a hacktivist cluster) based on the sophistication of its TTPs and the absence of destructive activity (encryption, wiping) in its target infrastructure.
 
+On **August 20, 2026**, CISA added both exploited flaws to the **Known Exploited Vulnerabilities catalog**: **CVE-2026-72529** (TrueConf Server missing authentication for critical function, CWE-306; the port-4307 script-execution step) and **CVE-2026-72530** (TrueConf Server code injection, CWE-94; the isolation-environment breakout to SYSTEM). CISA's KEV entries confirm the unpatched-at-exploitation status of the 5.3.x–5.3.8 / 5.4.x–5.4.8 / 5.5.x–5.5.4 lines, with federal-agency remediation deadlines of **August 23, 2026** (CVE-2026-72529) and **September 3, 2026** (CVE-2026-72530) under BOD 26-04.
+
 ## Tags
 - ops
 - operations
@@ -14,6 +16,9 @@ Kaspersky now classifies Head Mare as an **APT group** (previously tracked as a 
 - PhantomGraph
 - KLCERT-26-057
 - KLCERT-26-058
+- CVE-2026-72529
+- CVE-2026-72530
+- CISA KEV
 - video conferencing
 - web shell
 - client installer poisoning
@@ -36,6 +41,8 @@ Kaspersky now classifies Head Mare as an **APT group** (previously tracked as a 
 ## Patching and vendor response
 The two exploited vulnerabilities were patched by the TrueConf vendor in the latest server updates (**5.3.9, 5.4.9, and 5.5.5**, released **June 18, 2026**). Kaspersky detections: `Trojan.Win32.Phoenax`-family naming aside, the backdoor was detected by Kaspersky products; the article publishes MD5 file hashes, IPs, domains, Windows service names, file paths, registry keys, and YARA rules.
 
+Both flaws are now in **CISA KEV** (added **August 20, 2026**): `CVE-2026-72529` (missing authentication for critical function, CWE-306) and `CVE-2026-72530` (code injection, CWE-94). The KEV entries cite the TrueConf vendor advisory blog and the Kaspersky ICS-CERT advisories of August 11, 2026, confirming that the 5.3.9 / 5.4.9 / 5.5.5 fixes close both flaws.
+
 ## Defender priorities
 1. **Patch TrueConf Server immediately** to 5.3.9 / 5.4.9 / 5.5.5 (or later) and verify the build; this campaign hit unpatched servers over a default-open port (4307/TCP).
 2. **Assume client-distribution poisoning on any compromised TrueConf server.** Audit TrueConf deployments for replacement of the client installer files, and compare current client distributions against vendor-published integrity values; force re-download of clients through trusted channels.
@@ -45,8 +52,9 @@ The two exploited vulnerabilities were patched by the TrueConf vendor in the lat
 6. **Treat Head Mare as an espionage actor, not a hacktivist**, in Triage and threat-modeling: Kaspersky's reclassification means the durable behavior is persistent, low-destructive access rather than disruption.
 
 ## Assessment limits
-- Reporting is Kaspersky Threat Response (August 11, 2026); no independent vendor corroboration is published as of this scan.
-- KLCERT-26-057 / KLCERT-26-058 are Kaspersky internal identifiers; the corresponding public CVEs, if any, were not referenced in the article.
+- Reporting is Kaspersky Threat Response (August 11, 2026); no independent vendor corroboration of the campaign itself is published as of this scan.
+- KLCERT-26-057 / KLCERT-26-058 are Kaspersky internal identifiers; the corresponding public CVEs were `CVE-2026-72529` and `CVE-2026-72530`, confirmed by the CISA KEV entries added August 20, 2026 (the Kaspersky article itself did not reference CVEs at publication).
+- KEV remediation deadlines (August 23, 2026 for CVE-2026-72529; September 3, 2026 for CVE-2026-72530) are federal-agency deadlines under BOD 26-04, not vendor-fix dates.
 - Victim scope beyond "participants of compromised TrueConf conferences" is not further detailed in the article.
 
 ## Related pages

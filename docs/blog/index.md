@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Wiz stage-2 implant analysis and DPRK infrastructure overlap in the arrayref Rust supply-chain attack](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md#wiz-stage-2-implant-analysis-and-dprk-infrastructure-overlap)
+- [CISA adds both Head Mare TrueConf flaws to KEV (CVE-2026-72529 / CVE-2026-72530)](../ops/head-mare-trueconf-phantomcore-campaign.md)
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 - [JFrog expands the Rust crate compromise: internment and append-only-vec join arrayref](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md#jfrog-follow-up-two-more-crates-in-the-same-droundy-account)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat execute a remote payload at build time](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)

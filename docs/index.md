@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Wiz stage-2 implant analysis and DPRK infrastructure overlap in the arrayref Rust supply-chain attack](ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md#wiz-stage-2-implant-analysis-and-dprk-infrastructure-overlap)
 - [Trusted collaboration-channel identity abuse](patterns/collaboration-channel-identity-abuse.md)
 - [JFrog expands the Rust crate compromise: internment and append-only-vec join arrayref](ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md#jfrog-follow-up-two-more-crates-in-the-same-droundy-account)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat execute a remote payload at build time](ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass leaves SYSTEM escalation open](ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT at 12 bits/second](ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping since March 2025](ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
-- [StubMaker: 16 typosquatted RubyGems packages deliver a Windows stealer](ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

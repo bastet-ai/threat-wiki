@@ -514,7 +514,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
 - [CISA](#cisa) (7)
-- [CISA KEV](#cisa-kev) (32)
+- [CISA KEV](#cisa-kev) (33)
 - [Cisco](#cisco) (4)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -915,6 +915,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-6688](#cve-2026-6688) (1)
 - [CVE-2026-67426](#cve-2026-67426) (1)
 - [CVE-2026-6875](#cve-2026-6875) (1)
+- [CVE-2026-72529](#cve-2026-72529) (1)
+- [CVE-2026-72530](#cve-2026-72530) (1)
 - [CVE-2026-72898](#cve-2026-72898) (1)
 - [CVE-2026-7473](#cve-2026-7473) (1)
 - [CVE-2026-8037](#cve-2026-8037) (1)
@@ -1079,7 +1081,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [downstream blast radius](#downstream-blast-radius) (1)
 - [DPAPI](#dpapi) (3)
 - [DPAPILoader](#dpapiloader) (1)
-- [DPRK](#dprk) (6)
+- [DPRK](#dprk) (7)
 - [DragonForce](#dragonforce) (1)
 - [drive serial number](#drive-serial-number) (1)
 - [driver loading](#driver-loading) (1)
@@ -2745,6 +2747,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sandbox evasion](#sandbox-evasion) (1)
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (2)
+- [Sapphire Sleet](#sapphire-sleet) (1)
 - [saroula01](#saroula01) (1)
 - [SCADA](#scada) (1)
 - [scam infrastructure](#scam-infrastructure) (1)
@@ -3264,6 +3267,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
 - [unauthenticated RCE](#unauthenticated-rce) (8)
+- [UNC1069](#unc1069) (1)
 - [UNC1543](#unc1543) (1)
 - [UNC1549](#unc1549) (5)
 - [UNC2814](#unc2814) (1)
@@ -5655,6 +5659,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
+- [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
@@ -7254,6 +7259,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-6875
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 
+## CVE-2026-72529
+- [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
+
+## CVE-2026-72530
+- [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
+
 ## CVE-2026-72898
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 
@@ -7972,6 +7983,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
 ## DragonForce
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
@@ -15192,6 +15204,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
+## Sapphire Sleet
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+
 ## saroula01
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
@@ -17287,6 +17302,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+
+## UNC1069
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
 ## UNC1543
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
