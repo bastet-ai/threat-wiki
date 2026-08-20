@@ -2,6 +2,13 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat execute a remote payload at build time</title>
+      <link>https://threat.wiki/ops/arrayref-proc-macro1-rust-crate-supply-chain-attack/</link>
+      <description>Added coverage of the August 20, 2026 Rust crates.io supply-chain incident: compromised arrayref 0.3.10 (published 07:15 UTC, first dependency in the crate's decade-long history) pulled in a typosquatted proc-macro1 crate (1.0.106 staging copy of proc-macro2, 1.0.107 payload) whose build.rs downloads a platform-specific stage-2 binary from 23.254.165.112:9089 (Hostwinds hwsrv-798836.hostwindsdns.com) and executes it detached from the Cargo build. The legitimate droundy maintainer account (in good standing since 2009) is presumed compromised; the attacker's dtolney persona impersonating David Tolnay was fabricated the same morning with forged rchaitm@gmail.com metadata. A scripted yank burst of arrayref 0.3.5-0.3.9 nudged lockfile holders toward the trap. Exposure window was roughly 86 minutes; reverse-dependency reach includes tiny-skia/winit (egui/eframe, iced), blake3, revm-precompile, and solana-runtime/spl-token. Coverage records the full UTC timeline, IOCs (files, binaries, hashes, network), lockfile-based triage, and CI hardening guidance. Stage-2 payload behavior is still under analysis per StepSecurity; no actor attribution asserted.</description>
+      <pubDate>Thu, 20 Aug 2026 10:40:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/arrayref-proc-macro1-rust-crate-supply-chain-attack/</guid>
+    </item>
+    <item>
       <title>Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640</title>
       <link>https://threat.wiki/ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704/</link>
       <description>Added Patchstack-reported Elementor Pro CVE-2026-32475 (CVSS 9.0, unauthenticated remote-code-execution in the Forms module's File Upload field, patched in 4.2.2 on August 19, 2026) and WordPress core CVE-2026-65640 (CVSS 8.8, Author-or-higher RCE via malicious Postscript media handed to ImageMagick, fixed in WordPress 7.0.4 on August 12, 2026). Coverage records the Elementor dual-file-part extension-bypass mechanics and the predictable-shape wp-content/uploads/elementor/forms/&lt;uniqid&gt;.php upload sink, the forced-update nature of WordPress 7.0.4, defender priorities including emergency patching, Form-widget exposure inventory, WAF/extension blocklists, and post-exploitation web-shell hunts, and the assessment limits (no confirmed in-the-wild exploitation as of the survey).</description>

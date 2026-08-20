@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat execute a remote payload at build time](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 - [Stealing reasoning traces: encrypted-reasoning replay across sessions, users, and models (arXiv:2608.09867)](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
 - [OpenAI pauses frontier RL training for two weeks amid expanded monitoring](../ops/hugging-face-autonomous-agent-production-intrusion.md)

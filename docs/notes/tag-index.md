@@ -237,6 +237,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armageddon](#armageddon) (1)
 - [ArmCorp](#armcorp) (1)
 - [Armored Likho](#armored-likho) (4)
+- [arrayref](#arrayref) (1)
 - [Artifact Signing](#artifact-signing) (1)
 - [arXiv](#arxiv) (1)
 - [AryStinger](#arystinger) (1)
@@ -411,6 +412,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [build pipeline](#build-pipeline) (1)
 - [build server](#build-server) (1)
 - [build-time compromise](#build-time-compromise) (2)
+- [build-time execution](#build-time-execution) (1)
+- [build.rs](#buildrs) (1)
 - [building automation](#building-automation) (1)
 - [builtin wildcard](#builtin-wildcard) (1)
 - [bulletproof hosting](#bulletproof-hosting) (1)
@@ -445,6 +448,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CAP_NET_ADMIN](#cap_net_admin) (2)
 - [captive portal](#captive-portal) (2)
 - [capture the flag](#capture-the-flag) (1)
+- [cargo](#cargo) (1)
 - [Casbaneiro](#casbaneiro) (1)
 - [CastleStealer](#castlestealer) (1)
 - [Catalyst SD-WAN Manager](#catalyst-sd-wan-manager) (1)
@@ -505,7 +509,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [chunked exfiltration](#chunked-exfiltration) (1)
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (4)
-- [CI/CD](#cicd) (42)
+- [CI/CD](#cicd) (43)
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
@@ -673,6 +677,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cracked software](#cracked-software) (1)
 - [CrackMapExec](#crackmapexec) (1)
 - [CrashStealer](#crashstealer) (1)
+- [crates.io](#cratesio) (1)
 - [Crates.io](#cratesio) (1)
 - [credential attack](#credential-attack) (1)
 - [credential attacks](#credential-attacks) (3)
@@ -1543,6 +1548,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hosting control plane](#hosting-control-plane) (1)
 - [hosting provider](#hosting-provider) (1)
 - [hosting providers](#hosting-providers) (1)
+- [Hostwinds](#hostwinds) (1)
 - [hotel targeting](#hotel-targeting) (1)
 - [Howling Scorpius](#howling-scorpius) (1)
 - [HPC](#hpc) (1)
@@ -1604,7 +1610,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (36)
+- [incident response](#incident-response) (37)
 - [incident-response](#incident-response) (2)
 - [incomplete patch](#incomplete-patch) (1)
 - [IndexedDB](#indexeddb) (3)
@@ -2260,11 +2266,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (281)
+- [operations](#operations) (282)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (315)
+- [ops](#ops) (316)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
@@ -2467,6 +2473,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [privileged proxy](#privileged-proxy) (1)
 - [Privileged Remote Access](#privileged-remote-access) (1)
 - [PRNG](#prng) (1)
+- [proc-macro1](#proc-macro1) (1)
+- [proc-macro2](#proc-macro2) (1)
 - [process discovery](#process-discovery) (1)
 - [process doppelgänging](#process-doppelganging) (1)
 - [process environment scraping](#process-environment-scraping) (1)
@@ -2715,7 +2723,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian state-supported](#russian-state-supported) (4)
 - [Russian-speaking ecosystem](#russian-speaking-ecosystem) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
-- [Rust](#rust) (8)
+- [Rust](#rust) (9)
 - [Rust loader](#rust-loader) (1)
 - [Rust malware](#rust-malware) (7)
 - [S3 Browser](#s3-browser) (1)
@@ -3036,7 +3044,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suo5](#suo5) (1)
 - [Supabase](#supabase) (1)
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
-- [supply chain](#supply-chain) (17)
+- [supply chain](#supply-chain) (18)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (101)
 - [supply-chain attack](#supply-chain-attack) (1)
@@ -3222,7 +3230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [two-factor authentication](#two-factor-authentication) (1)
 - [Tycoon2FA](#tycoon2fa) (1)
 - [TypeScript](#typescript) (2)
-- [typosquat](#typosquat) (1)
+- [typosquat](#typosquat) (2)
 - [typosquatting](#typosquatting) (16)
 - [UAC](#uac) (1)
 - [UAC bypass](#uac-bypass) (1)
@@ -4506,6 +4514,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 
+## arrayref
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+
 ## Artifact Signing
 - [Fox Tempest](../actors/fox-tempest.md)
 
@@ -5188,6 +5199,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## build-time execution
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+
+## build.rs
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+
 ## building automation
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 
@@ -5321,6 +5338,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## capture the flag
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
+
+## cargo
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
 ## Casbaneiro
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
@@ -5591,6 +5611,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -6295,6 +6316,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CrashStealer
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
+
+## crates.io
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
 ## Crates.io
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -9713,6 +9737,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hosting providers
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
+## Hostwinds
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+
 ## hotel targeting
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 
@@ -9960,6 +9987,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -12826,6 +12854,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
@@ -13142,6 +13171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
@@ -14037,6 +14067,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PRNG
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
+
+## proc-macro1
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+
+## proc-macro2
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
 ## process discovery
 - [NightLedger](../tools/nightledger.md)
@@ -15052,6 +15088,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [RustDuck](../tools/rustduck.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -16249,6 +16286,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
@@ -17082,6 +17120,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## typosquat
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+- [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
 ## typosquatting
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
