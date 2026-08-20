@@ -50,13 +50,30 @@ The exposure window was roughly **86 minutes** (07:11 to ~08:41 UTC). crates.io 
 - **Network:** `23.254.165.112:9089` (payload host), `23.254.165.112:443` (C2), `hwsrv-798836.hostwindsdns.com`
 - **Files:** `/tmp/rust-setup`, `%TEMP%\rust-setup.ps1`, `%TEMP%\rust-setup-launch.vbs`
 - **Binaries:** `rust-crate_0.1.0` / `_0.2.0` / `_0.3.0` / `_0.4.0`
-- **Crates:** `arrayref` 0.3.10, `proc-macro1` 1.0.106 and 1.0.107
+- **Crates:** `arrayref` 0.3.10, `internment` 0.8.7, `append-only-vec` 0.1.9 (all under the same `droundy` owner), `proc-macro1` 1.0.106 and 1.0.107
 - **Accounts:** `dtolney` (crates.io id 438608, impersonator); `droundy` (legitimate `arrayref` owner, presumed compromised; associated GitHub account returning 404 at time of writing)
 - **Email:** `rchaitm@gmail.com` (forged author metadata)
 - **SHA-256:**
   - `25ad700976873c76af785cb99b33c48db7df8b81f21d1e9e06b3676b9a9373ae` — `arrayref-0.3.10.crate`
   - `61198155da51b838772eecf5bfaac6cbc4dcc388dccc56658fc28a8e831b34d4` — `proc-macro1-1.0.107.crate`
   - `b5c1b5b0763a8809a644a8f92224653f0aca623a98eecc714d27f74b80fbe436` — `proc-macro1-1.0.106.crate`
+
+## JFrog follow-up: two more crates in the same `droundy` account
+
+On **August 20, 2026**, JFrog Security Research independently confirmed the `arrayref` / `proc-macro1` incident and **expanded the compromised-crate list to three parent crates** — all published from the same crates.io owner account (`droundy`) and all silently pulling in the `proc-macro1` typosquat as a transitive dependency:
+
+| Crate | Compromised version | ~Downloads | Last clean pin | JFrog Xray ID |
+| --- | --- | --- | --- | --- |
+| `arrayref` | 0.3.10 | 245M | `arrayref = "=0.3.9"` | `XRAY-1058267` |
+| `internment` | 0.8.7 | 14.4M | `internment = "=0.8.6"` | `XRAY-1058269` |
+| `append-only-vec` | 0.1.9 | 4.5M | `append-only-vec = "=0.1.8"` | `XRAY-1058268` |
+| `proc-macro1` (carrier) | 1.0.107 | — | remove entirely | `XRAY-1058266` |
+
+- **The carrier is still `proc-macro1` 1.0.107.** JFrog's mechanics match StepSecurity's: the parent crates only *add a dependency* on the typosquat; all malicious runtime lives in `proc-macro1`'s `build.rs` (split-base64 C2 fragments, accept-all TLS, `ureq` / `rustls` / `base64` build-deps, detached stage-2 spawn).
+- **The stage-2 endpoints were down at JFrog's time of writing** (`23.254.165.112:9089` and `:443` did not respond), so the remote payload had not been recovered as of the JFrog post. JFrog's explicit caveat: inactive URLs do **not** mean the attack failed — with `arrayref` at ~245M lifetime downloads, any `cargo build` against a freshly resolved lockfile inside the window was enough to execute whatever the operator served.
+- **Remediation (JFrog):** validate `Cargo.lock` / vendored trees for the three compromised versions or any `proc-macro1` entry; remove them and pin to the clean versions above; regenerate lockfiles from trusted crates.io metadata after the malicious versions were deleted; hunt for `/tmp/rust-setup`, `%TEMP%\rust-setup.ps1`, `%TEMP%\rust-setup-launch.vbs`; block `23.254.165.112` on ports 9089 and 443; and rotate credentials from any host/CI that ran Cargo against an affected lockfile (treat confirmed execution as full host compromise).
+- **JFrog Curation** customers with an immaturity policy in place were fully protected: all hijacked packages were flagged the same day.
+- The `proc-macro1` author field is spoofed as `David Tolnay <rchaitm@gmail.com>` with repository `https://github.com/dtolnay/proc-macro1` — corroborating StepSecurity's `dtolney` impersonation persona.
 
 ## Defender priorities
 1. **Check lockfiles everywhere:** `grep -A2 'name = "arrayref"' Cargo.lock`. Version `0.3.10`, or any entry named `proc-macro1`, means the payload ran on that machine — CI runners included.
@@ -80,4 +97,5 @@ The exposure window was roughly **86 minutes** (07:11 to ~08:41 UTC). crates.io 
 
 ## Sources
 - StepSecurity: [Rust Supply-Chain Attack: arrayref 0.3.10 and the proc-macro1 Typosquat Execute a Remote Payload at Build Time](https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack) — August 20, 2026 (timeline, IOCs, hashes, remediation; developing story)
+- JFrog Security Research: [Compromised Rust crates on crates.io silently execute malware at build time](https://research.jfrog.com/post/arrayref-proc-macro1-crates-io/) — August 20, 2026 (independent confirmation; `internment` / `append-only-vec` scope, Xray IDs, clean-version pins)
 - RustSec advisory-db: report filed 2026-08-20 07:54 UTC (referenced by StepSecurity)

@@ -429,6 +429,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - Trusted collaboration-channel identity abuse: patterns/collaboration-channel-identity-abuse.md
       - 'Stealing reasoning traces: encrypted-reasoning replay (arXiv:2608.09867)': patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md
       - 'AI "mind viruses": agent-to-agent spread via persistent prompt files': patterns/ai-mind-viruses-agent-to-agent-propagation.md
       - Entra ID rogue device registration and AI-generated identifiers: patterns/entra-rogue-device-registration-ai-identifiers.md

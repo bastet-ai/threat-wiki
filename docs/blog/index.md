@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
+- [JFrog expands the Rust crate compromise: internment and append-only-vec join arrayref](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md#jfrog-follow-up-two-more-crates-in-the-same-droundy-account)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat execute a remote payload at build time](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 - [Stealing reasoning traces: encrypted-reasoning replay across sessions, users, and models (arXiv:2608.09867)](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)

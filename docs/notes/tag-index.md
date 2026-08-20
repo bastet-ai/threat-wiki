@@ -610,8 +610,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coinkite](#coinkite) (1)
 - [COLDCARD](#coldcard) (1)
 - [ColdFusion](#coldfusion) (1)
-- [collaboration platforms](#collaboration-platforms) (1)
-- [collaboration-tool phishing](#collaboration-tool-phishing) (1)
+- [collaboration platforms](#collaboration-platforms) (2)
+- [collaboration-tool phishing](#collaboration-tool-phishing) (2)
 - [COM-hijacking](#com-hijacking) (1)
 - [ComfyUI](#comfyui) (1)
 - [command and control](#command-and-control) (4)
@@ -691,7 +691,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (76)
+- [credential theft](#credential-theft) (77)
 - [credential-theft](#credential-theft) (53)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -1045,7 +1045,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL search-order hijacking](#dll-search-order-hijacking) (2)
 - [DLL side-loading](#dll-side-loading) (6)
-- [DLL sideloading](#dll-sideloading) (24)
+- [DLL sideloading](#dll-sideloading) (25)
 - [DMTP](#dmtp) (1)
 - [DNS](#dns) (1)
 - [DNS C2](#dns-c2) (3)
@@ -1588,6 +1588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [identity attacks](#identity-attacks) (1)
 - [identity compromise](#identity-compromise) (1)
 - [identity infrastructure](#identity-infrastructure) (1)
+- [identity phishing](#identity-phishing) (1)
 - [identity security](#identity-security) (1)
 - [identity-first intrusion](#identity-first-intrusion) (1)
 - [IDEs](#ides) (2)
@@ -1602,7 +1603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ImageMagick](#imagemagick) (1)
 - [iMessage](#imessage) (1)
 - [Impacket](#impacket) (4)
-- [impersonation](#impersonation) (1)
+- [impersonation](#impersonation) (2)
 - [implant](#implant) (1)
 - [import-time execution](#import-time-execution) (5)
 - [improper authentication](#improper-authentication) (1)
@@ -1987,7 +1988,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mexican banking fraud](#mexican-banking-fraud) (3)
 - [Mexico](#mexico) (3)
 - [MFA bypass](#mfa-bypass) (9)
-- [MFA fatigue](#mfa-fatigue) (1)
+- [MFA fatigue](#mfa-fatigue) (2)
 - [MFA-bypass](#mfa-bypass) (1)
 - [MFT](#mft) (1)
 - [Miasma](#miasma) (10)
@@ -2351,7 +2352,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (5)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (40)
+- [patterns](#patterns) (41)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
@@ -2618,7 +2619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Remcos](#remcos) (2)
 - [Remcos RAT](#remcos-rat) (1)
 - [remote access](#remote-access) (6)
-- [remote access software](#remote-access-software) (1)
+- [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (5)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (23)
@@ -2729,7 +2730,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [S3 Browser](#s3-browser) (1)
 - [S3-compatible storage](#s3-compatible-storage) (2)
 - [s5cmd](#s5cmd) (1)
-- [SaaS](#saas) (5)
+- [SaaS](#saas) (6)
 - [SaaS abuse](#saas-abuse) (1)
 - [SaaS connectors](#saas-connectors) (1)
 - [SaaS data access](#saas-data-access) (1)
@@ -2880,6 +2881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SkillCloak](#skillcloak) (1)
 - [SkillDetonate](#skilldetonate) (1)
 - [Skrill](#skrill) (1)
+- [Slack webhook](#slack-webhook) (1)
 - [sleeper packages](#sleeper-packages) (1)
 - [Sliver](#sliver) (2)
 - [SLSA](#slsa) (1)
@@ -2910,7 +2912,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOAP API abuse](#soap-api-abuse) (1)
 - [SoC](#soc) (1)
 - [SocGholish](#socgholish) (1)
-- [social engineering](#social-engineering) (16)
+- [social engineering](#social-engineering) (17)
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (4)
 - [Socket Security](#socket-security) (3)
@@ -6068,9 +6070,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## collaboration platforms
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 
 ## collaboration-tool phishing
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 
 ## COM-hijacking
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
@@ -6435,6 +6439,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 - [UAT-11795](../actors/uat-11795.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
@@ -7837,6 +7842,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [ToddyCat](../actors/toddycat.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 - [Umbrij](../tools/umbrij.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
@@ -9879,6 +9885,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## identity infrastructure
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 
+## identity phishing
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
+
 ## identity security
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
@@ -9927,6 +9936,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## impersonation
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 
 ## implant
 - [BINDCLOAK](../tools/bindcloak.md)
@@ -11544,6 +11554,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MFA fatigue
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 
 ## MFA-bypass
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -13563,6 +13574,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
 
@@ -14680,6 +14692,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## remote access software
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 
 ## remote access trojan
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
@@ -15120,6 +15133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## SaaS abuse
@@ -15667,6 +15681,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Skrill
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 
+## Slack webhook
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
+
 ## sleeper packages
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 
@@ -15779,6 +15796,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Screening Serpens](../actors/screening-serpens.md)
+- [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 - [UNC3753](../actors/unc3753.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
