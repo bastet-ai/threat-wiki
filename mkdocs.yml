@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4: ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md
       - Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass: ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md
       - Cloudflare Workers remote Spectre co-located JWT leak: ops/cloudflare-workers-spectre-co-located-jwt-leak.md
       - City Forum Salesforce and ServiceNow guest-access scraping: ops/city-forum-salesforce-servicenow-guest-access-scraping.md
@@ -427,6 +428,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - 'Stealing reasoning traces: encrypted-reasoning replay (arXiv:2608.09867)': patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md
       - 'AI "mind viruses": agent-to-agent spread via persistent prompt files': patterns/ai-mind-viruses-agent-to-agent-propagation.md
       - Entra ID rogue device registration and AI-generated identifiers: patterns/entra-rogue-device-registration-ai-identifiers.md
       - 'npm bin-entry dependency confusion: Google-scoped bin name harvesting': patterns/npm-bin-entry-dependency-confusion.md

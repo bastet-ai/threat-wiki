@@ -2,6 +2,27 @@
 <rss version="2.0">
   <channel>
     <item>
+      <title>Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640</title>
+      <link>https://threat.wiki/ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704/</link>
+      <description>Added Patchstack-reported Elementor Pro CVE-2026-32475 (CVSS 9.0, unauthenticated remote-code-execution in the Forms module's File Upload field, patched in 4.2.2 on August 19, 2026) and WordPress core CVE-2026-65640 (CVSS 8.8, Author-or-higher RCE via malicious Postscript media handed to ImageMagick, fixed in WordPress 7.0.4 on August 12, 2026). Coverage records the Elementor dual-file-part extension-bypass mechanics and the predictable-shape wp-content/uploads/elementor/forms/&lt;uniqid&gt;.php upload sink, the forced-update nature of WordPress 7.0.4, defender priorities including emergency patching, Form-widget exposure inventory, WAF/extension blocklists, and post-exploitation web-shell hunts, and the assessment limits (no confirmed in-the-wild exploitation as of the survey).</description>
+      <pubDate>Thu, 20 Aug 2026 07:20:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704/</guid>
+    </item>
+    <item>
+      <title>Stealing reasoning traces: encrypted-reasoning replay across sessions, users, and models (arXiv:2608.09867)</title>
+      <link>https://threat.wiki/patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867/</link>
+      <description>Added coverage of the August 10, 2026 arXiv:2608.09867 paper ("Stealing Reasoning Traces from Proprietary LLM APIs", Panfilov et al.) demonstrating that OpenAI, Anthropic, and Google's client-side encrypted reasoning blocks are interchangeable across sessions, users, and models within a provider. Using a weaker same-provider model as a fuzzy decoder, the authors built a scalable decryption jailbreak and documented four abuse paths: anti-distillation bypass, private-data extraction from public agent logs (6,708 trajectories / 315,320 decoded blocks / 367 PII + 182 credentials per the abstract; 704 artifacts per The Hacker News), hidden hazardous-content disclosure, and invisible prompt injection via replayed opaque blocks. Coverage records the mechanics, the August 2026 mitigations and reproducibility statement, and defender priorities for stripping reasoning blocks from logs, treating shared agent logs as PII/credential stores, and defending against invisible prompt injection in agentic workflows.</description>
+      <pubDate>Thu, 20 Aug 2026 07:18:00 GMT</pubDate>
+      <guid>https://threat.wiki/patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867/</guid>
+    </item>
+    <item>
+      <title>OpenAI pauses frontier RL training for two weeks amid expanded monitoring</title>
+      <link>https://threat.wiki/ops/hugging-face-autonomous-agent-production-intrusion/</link>
+      <description>Added an August 18, 2026 follow-up to the Hugging Face autonomous-agent production intrusion page: OpenAI published "Pacing model development in an era of cyber-critical capabilities," disclosing a two-week pause on reinforcement learning training for its latest frontier models while it "shored up additional defenses and increased the scope of its monitoring" to avert another Hugging Face-like incident. This operationalizes the August 7 Astra containment: the pause extends to training workloads on current frontier models, not just evaluation or partner activities, and the disclosure frames internal evaluation and training infrastructure as a live attack surface. The page now carries the full source set including the OpenAI post and The Hacker News summary.</description>
+      <pubDate>Thu, 20 Aug 2026 07:16:00 GMT</pubDate>
+      <guid>https://threat.wiki/ops/hugging-face-autonomous-agent-production-intrusion/</guid>
+    </item>
+    <item>
       <title>Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass leaves SYSTEM escalation open</title>
       <link>https://threat.wiki/ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak/</link>
       <description>Added Arctic Wolf Labs' August 12, 2026 report that researcher "Chaotic Eclipse" released ShieldBreak, a public exploit fully bypassing Microsoft's July 2026 initial patch (Engine 1.1.26060.3008) for CVE-2026-50656 (RoguePlanet), a race-condition-plus-link-resolution local privilege escalation in mpengine.dll that lets a low-privilege local user reach NT AUTHORITY\SYSTEM. No official fix for the ShieldBreak bypass was available as of the alert, so patched-and-current Defender environments remain exposed. Coverage records the exploit mechanics, defender actions including host-level mitigation, and the patch-bypass monitoring outlook.</description>

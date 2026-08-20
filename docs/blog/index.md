@@ -3,6 +3,9 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
+- [Stealing reasoning traces: encrypted-reasoning replay across sessions, users, and models (arXiv:2608.09867)](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
+- [OpenAI pauses frontier RL training for two weeks amid expanded monitoring](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass leaves SYSTEM escalation open](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT at 12 bits/second](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping since March 2025](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
