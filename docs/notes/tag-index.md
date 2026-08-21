@@ -49,7 +49,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (63)
+- [active exploitation](#active-exploitation) (65)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -57,7 +57,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actor](#actor) (6)
 - [actors](#actors) (11)
 - [ad blocker](#ad-blocker) (1)
-- [ad fraud](#ad-fraud) (1)
+- [ad fraud](#ad-fraud) (2)
 - [Adaptix C2](#adaptix-c2) (1)
 - [ADB TCP/5555](#adb-tcp5555) (2)
 - [Adblock for YouTube](#adblock-for-youtube) (1)
@@ -166,6 +166,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android](#android) (10)
 - [Android Accessibility Service](#android-accessibility-service) (2)
 - [Android ADB](#android-adb) (3)
+- [Android automotive](#android-automotive) (1)
 - [Android Debug Bridge](#android-debug-bridge) (2)
 - [Android kernel](#android-kernel) (1)
 - [Android malware](#android-malware) (3)
@@ -278,6 +279,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AutoGen Studio](#autogen-studio) (1)
 - [AutoHotKey](#autohotkey) (1)
 - [AutoJack](#autojack) (1)
+- [automotive](#automotive) (1)
 - [autonomous agents](#autonomous-agents) (3)
 - [autonomous attacks](#autonomous-attacks) (1)
 - [autonomous exploitation](#autonomous-exploitation) (1)
@@ -292,6 +294,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
 - [axios](#axios) (1)
 - [Azure](#azure) (4)
+- [Azure Active Directory](#azure-active-directory) (1)
 - [Azure CLI](#azure-cli) (1)
 - [Azure Cosmos DB](#azure-cosmos-db) (1)
 - [Azure DevOps](#azure-devops) (1)
@@ -308,6 +311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [backups](#backups) (1)
 - [Bad Epoll](#bad-epoll) (1)
 - [BadBlocker](#badblocker) (1)
+- [BADBOX](#badbox) (1)
 - [Badbox 2.0](#badbox-20) (1)
 - [BadPotato](#badpotato) (1)
 - [Baileys](#baileys) (1)
@@ -370,7 +374,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BLUEBEAM](#bluebeam) (1)
 - [bluemonday](#bluemonday) (1)
 - [Boatnet](#boatnet) (1)
-- [BOD 26-04](#bod-26-04) (1)
+- [BOD 26-04](#bod-26-04) (2)
 - [body hash](#body-hash) (1)
 - [botnet](#botnet) (13)
 - [botnet framework](#botnet-framework) (1)
@@ -435,7 +439,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C++](#c) (4)
 - [C++/CLI](#ccli) (1)
 - [C0XMO](#c0xmo) (1)
-- [C2](#c2) (13)
+- [C2](#c2) (14)
 - [C2 framework](#c2-framework) (2)
 - [C2 panel](#c2-panel) (1)
 - [C2 tasking](#c2-tasking) (1)
@@ -469,6 +473,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cellular modem](#cellular-modem) (1)
 - [Censys ARC](#censys-arc) (1)
 - [Central Asia](#central-asia) (2)
+- [CERT Polska](#cert-polska) (1)
 - [CERT-In](#cert-in) (1)
 - [CERT/CC](#certcc) (1)
 - [Certbot](#certbot) (1)
@@ -519,8 +524,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (7)
-- [CISA KEV](#cisa-kev) (33)
+- [CISA](#cisa) (8)
+- [CISA KEV](#cisa-kev) (34)
 - [Cisco](#cisco) (4)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -549,6 +554,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClawWorm](#clawworm) (1)
 - [Clever Cloud](#clever-cloud) (1)
 - [click interception](#click-interception) (1)
+- [clicker](#clicker) (1)
 - [ClickFix](#clickfix) (20)
 - [ClickOnce](#clickonce) (1)
 - [ClickUp](#clickup) (1)
@@ -921,9 +927,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-6688](#cve-2026-6688) (1)
 - [CVE-2026-67426](#cve-2026-67426) (1)
 - [CVE-2026-6875](#cve-2026-6875) (1)
+- [CVE-2026-69836](#cve-2026-69836) (1)
 - [CVE-2026-72529](#cve-2026-72529) (1)
 - [CVE-2026-72530](#cve-2026-72530) (1)
 - [CVE-2026-72898](#cve-2026-72898) (1)
+- [CVE-2026-73570](#cve-2026-73570) (1)
 - [CVE-2026-7473](#cve-2026-7473) (1)
 - [CVE-2026-8037](#cve-2026-8037) (1)
 - [CVE-2026-8451](#cve-2026-8451) (1)
@@ -999,7 +1007,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (5)
 - [deployment_status](#deployment_status) (1)
-- [deserialization](#deserialization) (7)
+- [deserialization](#deserialization) (8)
 - [destructive actions](#destructive-actions) (1)
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
@@ -1075,6 +1083,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [document collection](#document-collection) (1)
 - [document exfiltration](#document-exfiltration) (1)
 - [document theft](#document-theft) (4)
+- [DoFun](#dofun) (1)
 - [DOGLEASH](#dogleash) (1)
 - [domain squatting](#domain-squatting) (1)
 - [domestic espionage](#domestic-espionage) (1)
@@ -1174,7 +1183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [enterprise application exploitation](#enterprise-application-exploitation) (1)
 - [enterprise applications](#enterprise-applications) (1)
 - [enterprise proxy](#enterprise-proxy) (1)
-- [Entra ID](#entra-id) (3)
+- [Entra ID](#entra-id) (4)
 - [Environment Management Hub](#environment-management-hub) (1)
 - [environment variable theft](#environment-variable-theft) (2)
 - [environment variables](#environment-variables) (1)
@@ -1531,6 +1540,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HavocKiller](#havockiller) (1)
 - [HDF5](#hdf5) (1)
 - [Head Mare](#head-mare) (1)
+- [head unit](#head-unit) (1)
 - [headless browser](#headless-browser) (3)
 - [HEADRUSH](#headrush) (1)
 - [healthcare](#healthcare) (3)
@@ -1584,6 +1594,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HTTPS exfiltration](#https-exfiltration) (1)
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (3)
+- [HUMAN Satori](#human-satori) (1)
 - [Hunt.io](#huntio) (5)
 - [Huntress](#huntress) (2)
 - [Hyadina](#hyadina) (1)
@@ -1650,6 +1661,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [information disclosure](#information-disclosure) (5)
 - [information stealer](#information-stealer) (1)
 - [infostealer](#infostealer) (26)
+- [infotainment](#infotainment) (1)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
 - [infrastructure churn](#infrastructure-churn) (1)
@@ -1704,6 +1716,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Januscape](#januscape) (1)
 - [Japan](#japan) (1)
 - [JARLEASH](#jarleash) (1)
+- [JarService](#jarservice) (1)
 - [Java](#java) (1)
 - [Java malware](#java-malware) (1)
 - [JavaScript](#javascript) (19)
@@ -1758,7 +1771,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kairos](#kairos) (1)
 - [Kaitori](#kaitori) (1)
 - [Kali365](#kali365) (1)
-- [Kaspersky](#kaspersky) (3)
+- [Kaspersky](#kaspersky) (4)
 - [Kaspersky detection bypass](#kaspersky-detection-bypass) (1)
 - [Kaspersky GERT](#kaspersky-gert) (1)
 - [Kaspersky GReAT](#kaspersky-great) (3)
@@ -1882,6 +1895,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LNK files](#lnk-files) (1)
 - [load balancer](#load-balancer) (1)
 - [loader](#loader) (7)
+- [loadlib2](#loadlib2) (1)
 - [LOADLOOP](#loadloop) (1)
 - [local exploit](#local-exploit) (1)
 - [local LLMs](#local-llms) (1)
@@ -2020,7 +2034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MicroLogix 1100](#micrologix-1100) (1)
 - [MicroLogix 1400](#micrologix-1400) (1)
 - [MicroPython](#micropython) (2)
-- [Microsoft](#microsoft) (11)
+- [Microsoft](#microsoft) (12)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (9)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
@@ -2100,6 +2114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MongoDB](#mongodb) (1)
 - [Monster ransomware](#monster-ransomware) (1)
 - [Motorola E13](#motorola-e13) (1)
+- [MoYu](#moyu) (1)
 - [Mozi](#mozi) (2)
 - [MpClient.dll](#mpclientdll) (1)
 - [mpengine](#mpengine) (1)
@@ -2294,11 +2309,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (283)
+- [operations](#operations) (285)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (319)
+- [ops](#ops) (321)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
@@ -2309,7 +2324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ORANGETAIL](#orangetail) (1)
 - [ORB network](#orb-network) (1)
 - [organization username](#organization-username) (1)
-- [OS command injection](#os-command-injection) (2)
+- [OS command injection](#os-command-injection) (3)
 - [OT](#ot) (4)
 - [OT switches](#ot-switches) (1)
 - [OTA update](#ota-update) (1)
@@ -2532,6 +2547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Proton Mail](#proton-mail) (1)
 - [provenance](#provenance) (1)
 - [proxy](#proxy) (11)
+- [proxy botnet](#proxy-botnet) (1)
 - [proxy network](#proxy-network) (2)
 - [ProxyChains](#proxychains) (1)
 - [proxyjacking](#proxyjacking) (1)
@@ -2651,7 +2667,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (5)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (23)
+- [remote code execution](#remote-code-execution) (24)
 - [remote debugging](#remote-debugging) (2)
 - [remote MCP](#remote-mcp) (1)
 - [remote monitoring and management](#remote-monitoring-and-management) (2)
@@ -2672,7 +2688,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [repository poisoning](#repository-poisoning) (3)
 - [research sector](#research-sector) (1)
 - [residential proxies](#residential-proxies) (1)
-- [residential proxy](#residential-proxy) (1)
+- [residential proxy](#residential-proxy) (2)
 - [residential proxy abuse](#residential-proxy-abuse) (1)
 - [responsible disclosure](#responsible-disclosure) (3)
 - [REST API](#rest-api) (1)
@@ -2939,6 +2955,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SMTP abuse](#smtp-abuse) (1)
 - [Snake](#snake) (1)
 - [Sneaky 2FA](#sneaky-2fa) (1)
+- [SNMP](#snmp) (1)
 - [Snowflake](#snowflake) (2)
 - [SNOWLIGHT](#snowlight) (1)
 - [SOAP API abuse](#soap-api-abuse) (1)
@@ -3098,6 +3115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [symbolic link](#symbolic-link) (1)
 - [symlink following](#symlink-following) (1)
 - [Synacktiv](#synacktiv) (1)
+- [Synacor](#synacor) (1)
 - [Synology](#synology) (1)
 - [synthetic commits](#synthetic-commits) (1)
 - [synthetic voice](#synthetic-voice) (1)
@@ -3261,6 +3279,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Turla collaboration](#turla-collaboration) (1)
 - [TuxBot](#tuxbot) (1)
 - [TuxBot v3 Evolution](#tuxbot-v3-evolution) (1)
+- [TWCore](#twcore) (1)
 - [Twilio](#twilio) (1)
 - [Twilio SendGrid](#twilio-sendgrid) (1)
 - [Twill Typhoon](#twill-typhoon) (2)
@@ -3295,7 +3314,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
 - [unattributed](#unattributed) (1)
-- [unauthenticated](#unauthenticated) (1)
+- [unauthenticated](#unauthenticated) (2)
 - [unauthenticated access](#unauthenticated-access) (4)
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
@@ -3446,7 +3465,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wasabi](#wasabi) (3)
 - [wastewater](#wastewater) (1)
 - [watchdog](#watchdog) (1)
-- [watchTowr](#watchtowr) (4)
+- [watchTowr](#watchtowr) (5)
 - [watchTowr Labs](#watchtowr-labs) (1)
 - [water sector](#water-sector) (1)
 - [watering hole](#watering-hole) (2)
@@ -3579,6 +3598,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Yx Technology](#yx-technology) (1)
 - [ZAPiXDESK](#zapixdesk) (1)
 - [Zbtlink](#zbtlink) (1)
+- [ZCS](#zcs) (1)
 - [Zendesk](#zendesk) (1)
 - [Zephyr RTOS](#zephyr-rtos) (1)
 - [Zero Trust](#zero-trust) (1)
@@ -3587,8 +3607,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [ZeroBEC](#zerobec) (1)
-- [Zimbra](#zimbra) (3)
-- [Zimbra Collaboration Suite](#zimbra-collaboration-suite) (1)
+- [Zimbra](#zimbra) (4)
+- [Zimbra Collaboration Suite](#zimbra-collaboration-suite) (2)
 - [Zimperium](#zimperium) (2)
 - [ZimReaper](#zimreaper) (1)
 - [zLabs](#zlabs) (2)
@@ -3783,6 +3803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
@@ -3822,6 +3843,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## active probing
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
@@ -3862,6 +3884,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 
 ## ad fraud
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
 ## Adaptix C2
@@ -4307,6 +4330,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RustDuck](../tools/rustduck.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
+## Android automotive
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
+
 ## Android Debug Bridge
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
@@ -4711,6 +4737,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AutoJack
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 
+## automotive
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
+
 ## autonomous agents
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -4766,6 +4795,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [ROADtools](../tools/roadtools.md)
+
+## Azure Active Directory
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## Azure CLI
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -4837,6 +4869,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BadBlocker
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+
+## BADBOX
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
 ## Badbox 2.0
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -5057,6 +5092,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BOD 26-04
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## body hash
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
@@ -5330,6 +5366,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## C2
 - [BINDCLOAK](../tools/bindcloak.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -5453,6 +5490,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Central Asia
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 - [SilkParasite](../actors/silkparasite.md)
+
+## CERT Polska
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## CERT-In
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
@@ -5706,6 +5746,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## CISA KEV
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
@@ -5741,6 +5782,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## Cisco
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -5845,6 +5887,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## click interception
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
+
+## clicker
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
 ## ClickFix
 - [ACR Stealer](../tools/acr-stealer.md)
@@ -7323,6 +7368,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-6875
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 
+## CVE-2026-69836
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
+
 ## CVE-2026-72529
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
 
@@ -7331,6 +7379,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-72898
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
+
+## CVE-2026-73570
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## CVE-2026-7473
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -7660,6 +7711,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## destructive actions
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
@@ -8000,6 +8052,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## DoFun
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
 ## DOGLEASH
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
@@ -8364,6 +8419,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [ROADtools](../tools/roadtools.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## Environment Management Hub
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -9739,6 +9795,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Head Mare
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
 
+## head unit
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
+
 ## headless browser
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
@@ -9915,6 +9974,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
+
+## HUMAN Satori
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
 ## Hunt.io
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
@@ -10218,6 +10280,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
+## infotainment
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
+
 ## InfoTeCS
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 
@@ -10428,6 +10493,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JARLEASH
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
+## JarService
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
+
 ## Java
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 
@@ -10627,6 +10695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Kaspersky
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
@@ -11122,6 +11191,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RustDuck](../tools/rustduck.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TaskWeaver](../tools/taskweaver.md)
+
+## loadlib2
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
 ## LOADLOOP
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
@@ -11734,6 +11806,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fox Tempest](../actors/fox-tempest.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## Microsoft .NET
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
@@ -12047,6 +12120,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Motorola E13
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
+
+## MoYu
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
 ## Mozi
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
@@ -12867,6 +12943,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
@@ -13076,6 +13153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## operator lockout
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
@@ -13168,6 +13246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
@@ -13406,6 +13485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## OPSEC failure
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
@@ -13441,6 +13521,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OS command injection
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## OT
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -14358,6 +14439,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [Webworm](../actors/webworm.md)
 
+## proxy botnet
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
+
 ## proxy network
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -14888,6 +14972,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## remote debugging
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
@@ -14957,6 +15042,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## residential proxy
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## residential proxy abuse
@@ -15939,6 +16025,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Sneaky 2FA
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 
+## SNMP
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
+
 ## Snowflake
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
@@ -16642,6 +16731,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Synacktiv
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 
+## Synacor
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
+
 ## Synology
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
@@ -17302,6 +17394,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TuxBot v3 Evolution
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
+## TWCore
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
+
 ## Twilio
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 
@@ -17455,6 +17550,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unauthenticated
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## unauthenticated access
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
@@ -18032,6 +18128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## watchTowr
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
@@ -18586,6 +18683,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Zbtlink
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 
+## ZCS
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
+
 ## Zendesk
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
@@ -18620,9 +18720,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## Zimbra Collaboration Suite
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## Zimperium
 - [RedWing](../tools/redwing.md)
