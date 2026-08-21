@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)

@@ -7,6 +7,8 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet": ops/dofun-android-head-unit-jarservice-moyu-badbox.md
+      - "Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw": ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md
       - Fake TradingView macOS stealer delivered by paid YouTube ad: ops/fake-tradingview-macos-stealer-malvertising.md
       - Russian OAuth / WhatsApp device-link account hijacking (GTIG): ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md
       - arrayref / proc-macro1 Rust crate supply-chain attack: ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md

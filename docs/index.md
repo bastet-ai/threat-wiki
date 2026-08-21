@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw](ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
+- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet](ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](ops/fake-tradingview-macos-stealer-malvertising.md)
@@ -15,8 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Trusted collaboration-channel identity abuse](patterns/collaboration-channel-identity-abuse.md)
 - [JFrog expands the Rust crate compromise: internment and append-only-vec join arrayref](ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md#jfrog-follow-up-two-more-crates-in-the-same-droundy-account)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat execute a remote payload at build time](ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
-- [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
-- [Stealing reasoning traces: encrypted-reasoning replay across sessions, users, and models (arXiv:2608.09867)](patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
