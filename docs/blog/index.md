@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking (GTIG)](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [Wiz stage-2 implant analysis and DPRK infrastructure overlap in the arrayref Rust supply-chain attack](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md#wiz-stage-2-implant-analysis-and-dprk-infrastructure-overlap)

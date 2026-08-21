@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](ops/fake-tradingview-macos-stealer-malvertising.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking (GTIG)](ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [Wiz stage-2 implant analysis and DPRK infrastructure overlap in the arrayref Rust supply-chain attack](ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md#wiz-stage-2-implant-analysis-and-dprk-infrastructure-overlap)
@@ -15,8 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat execute a remote payload at build time](ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 - [Stealing reasoning traces: encrypted-reasoning replay across sessions, users, and models (arXiv:2608.09867)](patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
-- [OpenAI pauses frontier RL training for two weeks amid expanded monitoring](ops/hugging-face-autonomous-agent-production-intrusion.md)
-- [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass leaves SYSTEM escalation open](ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

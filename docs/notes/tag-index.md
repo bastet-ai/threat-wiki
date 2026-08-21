@@ -39,6 +39,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [access token abuse](#access-token-abuse) (1)
 - [access token theft](#access-token-theft) (1)
 - [Accessibility Service](#accessibility-service) (1)
+- [account abuse](#account-abuse) (1)
 - [account hijacking](#account-hijacking) (1)
 - [account lockout](#account-lockout) (1)
 - [account takeover](#account-takeover) (5)
@@ -71,7 +72,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adversa AI](#adversa-ai) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (6)
 - [advertising technology](#advertising-technology) (1)
-- [adware](#adware) (5)
+- [adware](#adware) (6)
 - [adware history](#adware-history) (1)
 - [aerospace](#aerospace) (3)
 - [AES-128-CBC](#aes-128-cbc) (1)
@@ -86,6 +87,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Afghanistan](#afghanistan) (4)
 - [Africa](#africa) (4)
 - [agent frameworks](#agent-frameworks) (3)
+- [agent hooks](#agent-hooks) (1)
 - [agent logs](#agent-logs) (1)
 - [agent memory](#agent-memory) (1)
 - [agent monitoring](#agent-monitoring) (1)
@@ -114,7 +116,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI brand impersonation](#ai-brand-impersonation) (2)
 - [AI browsers](#ai-browsers) (2)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
-- [AI coding agents](#ai-coding-agents) (2)
+- [AI coding agents](#ai-coding-agents) (3)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
 - [AI developer tooling](#ai-developer-tooling) (2)
@@ -260,6 +262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [audio surveillance](#audio-surveillance) (1)
 - [AUDIOFIX](#audiofix) (2)
 - [audit logging](#audit-logging) (1)
+- [audit telemetry](#audit-telemetry) (1)
 - [AUR](#aur) (1)
 - [Aura](#aura) (1)
 - [authenticated RCE](#authenticated-rce) (1)
@@ -307,6 +310,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BadBlocker](#badblocker) (1)
 - [Badbox 2.0](#badbox-20) (1)
 - [BadPotato](#badpotato) (1)
+- [Baileys](#baileys) (1)
 - [Balbooa Forms](#balbooa-forms) (1)
 - [Balochistan Police](#balochistan-police) (1)
 - [Balonx](#balonx) (1)
@@ -537,7 +541,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1062](#cl-sta-1062) (3)
 - [CL-STA-1114](#cl-sta-1114) (4)
 - [Claude](#claude) (3)
-- [Claude Code](#claude-code) (7)
+- [Claude Code](#claude-code) (8)
 - [Claude for Chrome](#claude-for-chrome) (1)
 - [Claude Mythos 5](#claude-mythos-5) (1)
 - [Claude Opus 4.7](#claude-opus-47) (1)
@@ -738,7 +742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CSSOM](#cssom) (1)
 - [Curious Serpens](#curious-serpens) (1)
 - [CURP](#curp) (1)
-- [Cursor](#cursor) (5)
+- [Cursor](#cursor) (6)
 - [Curve25519](#curve25519) (2)
 - [Curve25519-XSalsa20-Poly1305](#curve25519-xsalsa20-poly1305) (1)
 - [custody APIs](#custody-apis) (1)
@@ -1132,6 +1136,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Egnyte](#egnyte) (1)
 - [Egypt](#egypt) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
+- [Elastic Agent](#elastic-agent) (1)
 - [Elastic Security Labs](#elastic-security-labs) (5)
 - [Elasticsearch](#elasticsearch) (1)
 - [electric power sector](#electric-power-sector) (2)
@@ -1153,6 +1158,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [EncryptInterceptor](#encryptinterceptor) (1)
 - [ENDLESSDOORS](#endlessdoors) (1)
 - [endpoint compromise](#endpoint-compromise) (1)
+- [endpoint detection](#endpoint-detection) (1)
 - [endpoint management](#endpoint-management) (2)
 - [endpoint management abuse](#endpoint-management-abuse) (1)
 - [endpoint response](#endpoint-response) (1)
@@ -1184,6 +1190,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESX](#esx) (1)
 - [ESXi](#esxi) (3)
+- [ES|QL](#esql) (1)
 - [Ethereum](#ethereum) (5)
 - [Ethereum Name Service](#ethereum-name-service) (2)
 - [EtherHiding](#etherhiding) (5)
@@ -1273,6 +1280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Feiying](#feiying) (1)
 - [FFmpeg](#ffmpeg) (1)
 - [FIDO2](#fido2) (2)
+- [field-level security](#field-level-security) (1)
 - [FIFA](#fifa) (1)
 - [file encryption](#file-encryption) (1)
 - [file exfiltration](#file-exfiltration) (1)
@@ -1290,6 +1298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fileless malware](#fileless-malware) (1)
 - [filemanager](#filemanager) (1)
 - [filename-injection](#filename-injection) (1)
+- [filestream](#filestream) (1)
 - [filesystem parser](#filesystem-parser) (1)
 - [finance](#finance) (2)
 - [financial fraud](#financial-fraud) (7)
@@ -1311,6 +1320,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FishMonger](#fishmonger) (1)
 - [FlatBuffers](#flatbuffers) (1)
 - [FlexPLM](#flexplm) (1)
+- [flight recorder](#flight-recorder) (1)
 - [FlockWiper](#flockwiper) (1)
 - [Flooding Dropper](#flooding-dropper) (1)
 - [flow execution](#flow-execution) (1)
@@ -1324,6 +1334,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FOFA](#fofa) (2)
 - [FofaMap](#fofamap) (1)
 - [folderOpen](#folderopen) (1)
+- [forced channel follow](#forced-channel-follow) (1)
 - [foreign affairs targeting](#foreign-affairs-targeting) (2)
 - [foreign policy targeting](#foreign-policy-targeting) (1)
 - [Forest Blizzard](#forest-blizzard) (1)
@@ -1734,6 +1745,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JSON-RPC](#json-rpc) (1)
 - [JSON:API](#jsonapi) (1)
 - [JSONKeeper](#jsonkeeper) (1)
+- [JSONL](#jsonl) (1)
 - [JSONPing](#jsonping) (1)
 - [JSP web shell](#jsp-web-shell) (1)
 - [JuicyPotato](#juicypotato) (2)
@@ -1842,6 +1854,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [liblzma](#liblzma) (1)
 - [libp2p](#libp2p) (1)
 - [libpeconv](#libpeconv) (1)
+- [libsignal-node](#libsignal-node) (1)
 - [libsodium](#libsodium) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [lifecycle-hooks](#lifecycle-hooks) (1)
@@ -1936,7 +1949,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious dataset](#malicious-dataset) (1)
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious package](#malicious-package) (1)
-- [malicious packages](#malicious-packages) (5)
+- [malicious packages](#malicious-packages) (6)
 - [malicious plugin](#malicious-plugin) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
@@ -1973,7 +1986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (1)
 - [McMx](#mcmx) (1)
-- [MCP](#mcp) (14)
+- [MCP](#mcp) (15)
 - [MCP credentials](#mcp-credentials) (1)
 - [mcp-grafana](#mcp-grafana) (1)
 - [media processing](#media-processing) (1)
@@ -2177,6 +2190,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nimbus Manticore](#nimbus-manticore) (2)
 - [NirSoft](#nirsoft) (1)
 - [no attribution](#no-attribution) (1)
+- [no credential theft](#no-credential-theft) (1)
 - [No-IP](#no-ip) (1)
 - [node-gyp](#node-gyp) (2)
 - [node-ipc](#node-ipc) (1)
@@ -2190,7 +2204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notarized malware](#notarized-malware) (2)
 - [notebookjs](#notebookjs) (1)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (60)
+- [npm](#npm) (61)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm supply-chain](#npm-supply-chain) (1)
 - [npm token theft](#npm-token-theft) (1)
@@ -2280,11 +2294,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (282)
+- [operations](#operations) (283)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (318)
+- [ops](#ops) (319)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
@@ -2317,6 +2331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [P2P C2](#p2p-c2) (1)
 - [P2P relay](#p2p-relay) (1)
 - [p2pwn](#p2pwn) (1)
+- [package fork](#package-fork) (1)
 - [package hijacking](#package-hijacking) (1)
 - [package masquerading](#package-masquerading) (1)
 - [package name reuse](#package-name-reuse) (1)
@@ -2336,6 +2351,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Page Builder CK](#page-builder-ck) (1)
 - [page cache](#page-cache) (2)
 - [page poisoning](#page-poisoning) (1)
+- [paired session](#paired-session) (1)
 - [Pakistan](#pakistan) (4)
 - [Pakistan-aligned](#pakistan-aligned) (1)
 - [Pakistan-linked](#pakistan-linked) (2)
@@ -2365,7 +2381,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (5)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (41)
+- [patterns](#patterns) (42)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
@@ -2804,6 +2820,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [segmented networks](#segmented-networks) (1)
 - [Sekoia](#sekoia) (1)
 - [self-delete](#self-delete) (1)
+- [self-DoS](#self-dos) (1)
 - [self-hosted AI services](#self-hosted-ai-services) (1)
 - [self-hosted media](#self-hosted-media) (1)
 - [self-hosted runner](#self-hosted-runner) (1)
@@ -2840,6 +2857,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session token theft](#session-token-theft) (1)
 - [setuid](#setuid) (1)
 - [setup.py](#setuppy) (1)
+- [shadow AI](#shadow-ai) (1)
 - [shadow copy deletion](#shadow-copy-deletion) (2)
 - [shadow MMU](#shadow-mmu) (1)
 - [SHADOW-AETHER-040](#shadow-aether-040) (1)
@@ -2926,6 +2944,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOAP API abuse](#soap-api-abuse) (1)
 - [SoC](#soc) (1)
 - [SocGholish](#socgholish) (1)
+- [social abuse](#social-abuse) (1)
 - [social engineering](#social-engineering) (17)
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (4)
@@ -3062,7 +3081,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (18)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (101)
+- [supply-chain](#supply-chain) (102)
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -3089,6 +3108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SystemBC](#systembc) (1)
 - [systemd](#systemd) (1)
 - [systemd-userdbd](#systemd-userdbd) (1)
+- [T1059](#t1059) (1)
 - [T1204.004](#t1204004) (1)
 - [T3](#t3) (1)
 - [T606](#t606) (1)
@@ -3197,6 +3217,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool output injection](#tool-output-injection) (1)
 - [tool poisoning](#tool-poisoning) (1)
 - [tool use](#tool-use) (1)
+- [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (5)
 - [tools](#tools) (49)
 - [Tor](#tor) (4)
@@ -3247,7 +3268,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [two-factor authentication](#two-factor-authentication) (1)
 - [Tycoon2FA](#tycoon2fa) (1)
 - [TypeScript](#typescript) (2)
-- [typosquat](#typosquat) (2)
+- [typosquat](#typosquat) (3)
 - [typosquatting](#typosquatting) (16)
 - [UAC](#uac) (1)
 - [UAC bypass](#uac-bypass) (1)
@@ -3470,7 +3491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webworm](#webworm) (1)
 - [WEEVILPROXY](#weevilproxy) (1)
 - [Werkbit](#werkbit) (1)
-- [WhatsApp](#whatsapp) (4)
+- [WhatsApp](#whatsapp) (5)
 - [WhatsApp phishing](#whatsapp-phishing) (1)
 - [WHM](#whm) (4)
 - [Wi-Fi credential theft](#wi-fi-credential-theft) (1)
@@ -3703,6 +3724,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Accessibility Service
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
+## account abuse
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
+
 ## account hijacking
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 
@@ -3890,6 +3914,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 
 ## adware
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
@@ -3950,6 +3975,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
+
+## agent hooks
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 
 ## agent logs
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
@@ -4080,6 +4108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI coding agents
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 
 ## AI credential theft
@@ -4614,6 +4643,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## audit logging
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 
+## audit telemetry
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
+
 ## AUR
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 
@@ -4811,6 +4843,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BadPotato
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
+## Baileys
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 
 ## Balbooa Forms
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
@@ -5784,6 +5819,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -6725,6 +6761,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## Cursor
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -8188,6 +8225,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## EKZ Infostealer
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 
+## Elastic Agent
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
+
 ## Elastic Security Labs
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
@@ -8264,6 +8304,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## endpoint compromise
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
+## endpoint detection
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 
 ## endpoint management
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
@@ -8436,6 +8479,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
+## ES|QL
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 
 ## Ethereum
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
@@ -8763,6 +8809,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
+## field-level security
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
+
 ## FIFA
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 
@@ -8815,6 +8864,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## filename-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+
+## filestream
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 
 ## filesystem parser
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -8901,6 +8953,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FlexPLM
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 
+## flight recorder
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
+
 ## FlockWiper
 - [GigaWiper](../tools/gigawiper.md)
 
@@ -8942,6 +8997,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## folderOpen
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
+
+## forced channel follow
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 
 ## foreign affairs targeting
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
@@ -10526,6 +10584,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JSONKeeper
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 
+## JSONL
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
+
 ## JSONPing
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -10919,6 +10980,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## libpeconv
 - [RemotePE](../tools/remotepe.md)
 
+## libsignal-node
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
+
 ## libsodium
 - [GenieLocker](../tools/genielocker.md)
 
@@ -11308,6 +11372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 
 ## malicious packages
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
@@ -11519,6 +11584,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
@@ -12287,6 +12353,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## no attribution
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
+## no credential theft
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
+
 ## No-IP
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
@@ -12356,6 +12425,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [CanisterWorm](../tools/canisterworm.md)
@@ -12754,6 +12824,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -13049,6 +13120,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -13443,6 +13515,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## p2pwn
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
 
+## package fork
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
+
 ## package hijacking
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 
@@ -13512,6 +13587,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## page poisoning
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
+
+## paired session
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 
 ## Pakistan
 - [FishMonger](../actors/fishmonger.md)
@@ -13631,6 +13709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
@@ -15452,6 +15531,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## self-delete
 - [TinyRCT](../tools/tinyrct.md)
 
+## self-DoS
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
+
 ## self-hosted AI services
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 
@@ -15571,6 +15653,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## setup.py
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
+
+## shadow AI
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 
 ## shadow copy deletion
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -15869,6 +15954,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SocGholish
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
+## social abuse
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 
 ## social engineering
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -16417,6 +16505,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
@@ -16583,6 +16672,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## systemd-userdbd
 - [MYRA RAT](../tools/myra-rat.md)
+
+## T1059
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 
 ## T1204.004
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
@@ -17001,6 +17093,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tool use
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 
+## tool-call logging
+- [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
+
 ## tooling
 - [CanisterWorm](../tools/canisterworm.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
@@ -17231,6 +17326,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 
 ## typosquat
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
@@ -18109,6 +18205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WhatsApp
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
