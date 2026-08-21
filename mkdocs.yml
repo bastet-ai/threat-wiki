@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "BTR Reforged: weaponizing Defender's BTR.sys remediation driver as a kernel primitive": ops/microsoft-defender-btr-sys-reforged-btr-cli.md
       - "DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet": ops/dofun-android-head-unit-jarservice-moyu-badbox.md
       - "Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw": ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md
       - Fake TradingView macOS stealer delivered by paid YouTube ad: ops/fake-tradingview-macos-stealer-malvertising.md
@@ -336,6 +337,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave: tools/redc2.md
       - vm2 NodeVM host state exposure and DNS hijack: tools/vm2-nodevm-host-dns-hijack.md
       - Kimwolf v7: tools/kimwolf-v7.md
       - Aeternum: tools/aeternum.md

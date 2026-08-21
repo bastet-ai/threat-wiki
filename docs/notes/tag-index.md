@@ -67,6 +67,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [administrator account creation](#administrator-account-creation) (2)
 - [Adobe ColdFusion](#adobe-coldfusion) (1)
 - [Adobe Commerce](#adobe-commerce) (1)
+- [ADS](#ads) (1)
 - [Adspect](#adspect) (1)
 - [Advanced IP Scanner](#advanced-ip-scanner) (1)
 - [Adversa AI](#adversa-ai) (1)
@@ -139,6 +140,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI workflow](#ai-workflow) (1)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
+- [AI-assisted C2](#ai-assisted-c2) (1)
 - [AI-assisted development](#ai-assisted-development) (3)
 - [AI-assisted intrusion](#ai-assisted-intrusion) (1)
 - [AI-assisted malware](#ai-assisted-malware) (3)
@@ -155,6 +157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Albania](#albania) (1)
 - [Alibaba](#alibaba) (1)
 - [Allen-Bradley](#allen-bradley) (1)
+- [Alternate Data Stream](#alternate-data-stream) (1)
 - [Amadey](#amadey) (1)
 - [Amatera Stealer](#amatera-stealer) (1)
 - [Amazon Q Developer](#amazon-q-developer) (1)
@@ -224,6 +227,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aquatic Panda](#aquatic-panda) (2)
 - [AquilaRAT](#aquilarat) (1)
 - [arbitrary code execution](#arbitrary-code-execution) (1)
+- [arbitrary file deletion](#arbitrary-file-deletion) (1)
 - [arbitrary file disclosure](#arbitrary-file-disclosure) (1)
 - [arbitrary file read](#arbitrary-file-read) (2)
 - [arbitrary file upload](#arbitrary-file-upload) (1)
@@ -376,6 +380,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Boatnet](#boatnet) (1)
 - [BOD 26-04](#bod-26-04) (2)
 - [body hash](#body-hash) (1)
+- [BOF](#bof) (1)
+- [Boot Bus Extender](#boot-bus-extender) (1)
+- [Boot Time Removal Tool](#boot-time-removal-tool) (1)
 - [botnet](#botnet) (13)
 - [botnet framework](#botnet-framework) (1)
 - [Braintree](#braintree) (1)
@@ -415,6 +422,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [brute-force credentials](#brute-force-credentials) (1)
 - [BSC](#bsc) (1)
 - [BTMOB](#btmob) (1)
+- [BTR Reforged](#btr-reforged) (1)
+- [BTR.sys](#btrsys) (1)
+- [BTR_CLI](#btr_cli) (1)
 - [bucket hijacking](#bucket-hijacking) (1)
 - [bucket squatting](#bucket-squatting) (1)
 - [Bugcrowd](#bugcrowd) (1)
@@ -434,12 +444,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BusySnake Stealer](#busysnake-stealer) (3)
 - [Bybit](#bybit) (1)
 - [BYOVD](#byovd) (3)
+- [BYOVD alternative](#byovd-alternative) (1)
 - [bypass2fa](#bypass2fa) (1)
 - [C#](#c) (1)
 - [C++](#c) (4)
 - [C++/CLI](#ccli) (1)
 - [C0XMO](#c0xmo) (1)
-- [C2](#c2) (14)
+- [C2](#c2) (15)
 - [C2 framework](#c2-framework) (2)
 - [C2 panel](#c2-panel) (1)
 - [C2 tasking](#c2-tasking) (1)
@@ -492,7 +503,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chatty Spider](#chatty-spider) (1)
 - [CHAVECLOAK](#chavecloak) (1)
 - [Check Point](#check-point) (2)
-- [Check Point Research](#check-point-research) (2)
+- [Check Point Research](#check-point-research) (3)
 - [Checkmarx](#checkmarx) (2)
 - [checkpointers](#checkpointers) (1)
 - [China](#china) (3)
@@ -703,7 +714,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (79)
+- [credential theft](#credential-theft) (80)
 - [credential-theft](#credential-theft) (53)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -1140,6 +1151,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [editor profile import](#editor-profile-import) (1)
 - [EDR evasion](#edr-evasion) (2)
 - [EDR killer](#edr-killer) (2)
+- [EDR/AV bypass](#edrav-bypass) (1)
+- [EDR/AV tampering](#edrav-tampering) (1)
 - [EDS5000](#eds5000) (1)
 - [education](#education) (3)
 - [Egnyte](#egnyte) (1)
@@ -1636,10 +1649,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Impacket](#impacket) (4)
 - [impersonation](#impersonation) (2)
 - [implant](#implant) (1)
-- [import-time execution](#import-time-execution) (5)
+- [import-time execution](#import-time-execution) (6)
 - [improper authentication](#improper-authentication) (1)
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
+- [in-memory ELF execution](#in-memory-elf-execution) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
 - [incident response](#incident-response) (37)
@@ -1741,6 +1755,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Jinja2](#jinja2) (1)
 - [JINX-0164](#jinx-0164) (2)
 - [Jira](#jira) (2)
+- [Jiří Vinopal](#jiri-vinopal) (1)
 - [joblib](#joblib) (1)
 - [Joomla](#joomla) (3)
 - [Joomla Content Editor](#joomla-content-editor) (1)
@@ -1783,7 +1798,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Keitaro](#keitaro) (1)
 - [Keksec](#keksec) (1)
 - [Kemp LoadMaster](#kemp-loadmaster) (1)
-- [kernel driver](#kernel-driver) (3)
+- [kernel driver](#kernel-driver) (4)
 - [kernel instrumentation](#kernel-instrumentation) (1)
 - [kernelCTF](#kernelctf) (2)
 - [KEV](#kev) (4)
@@ -1876,6 +1891,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LinkedIn](#linkedin) (2)
 - [Linksys](#linksys) (1)
 - [Linux](#linux) (28)
+- [Linux backdoor](#linux-backdoor) (1)
 - [Linux kernel](#linux-kernel) (5)
 - [Linux malware](#linux-malware) (3)
 - [Linux networking devices](#linux-networking-devices) (1)
@@ -1886,6 +1902,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [living-off-the-land](#living-off-the-land) (1)
 - [living-off-the-land binaries](#living-off-the-land-binaries) (1)
 - [LLM](#llm) (6)
+- [LLM command execution](#llm-command-execution) (1)
 - [LLM security](#llm-security) (1)
 - [LLM-assisted malware](#llm-assisted-malware) (3)
 - [LLM-driven intrusion](#llm-driven-intrusion) (1)
@@ -1968,7 +1985,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (10)
-- [malware](#malware) (59)
+- [malware](#malware) (60)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
@@ -1993,6 +2010,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marketplace abuse](#marketplace-abuse) (2)
 - [marketplace trust](#marketplace-trust) (1)
 - [MarkiRAT](#markirat) (1)
+- [MarlboroMan](#marlboroman) (1)
 - [mass repository cloning](#mass-repository-cloning) (1)
 - [mass scanning](#mass-scanning) (1)
 - [Maven Central](#maven-central) (1)
@@ -2041,7 +2059,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Authentication Broker](#microsoft-authentication-broker) (1)
 - [Microsoft Azure](#microsoft-azure) (1)
 - [Microsoft Copilot Personal](#microsoft-copilot-personal) (1)
-- [Microsoft Defender](#microsoft-defender) (2)
+- [Microsoft Defender](#microsoft-defender) (3)
 - [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
 - [Microsoft dev tunnels](#microsoft-dev-tunnels) (2)
 - [Microsoft Digital Crimes Unit](#microsoft-digital-crimes-unit) (1)
@@ -2118,6 +2136,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mozi](#mozi) (2)
 - [MpClient.dll](#mpclientdll) (1)
 - [mpengine](#mpengine) (1)
+- [MpEngine.dll](#mpenginedll) (1)
 - [MpExtMs.exe](#mpextmsexe) (1)
 - [MPK](#mpk) (1)
 - [MPR network provider](#mpr-network-provider) (1)
@@ -2206,6 +2225,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NirSoft](#nirsoft) (1)
 - [no attribution](#no-attribution) (1)
 - [no credential theft](#no-credential-theft) (1)
+- [no-install-hook delivery](#no-install-hook-delivery) (1)
 - [No-IP](#no-ip) (1)
 - [node-gyp](#node-gyp) (2)
 - [node-ipc](#node-ipc) (1)
@@ -2219,7 +2239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notarized malware](#notarized-malware) (2)
 - [notebookjs](#notebookjs) (1)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (61)
+- [npm](#npm) (62)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm supply-chain](#npm-supply-chain) (1)
 - [npm token theft](#npm-token-theft) (1)
@@ -2309,11 +2329,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (285)
+- [operations](#operations) (286)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (321)
+- [ops](#ops) (322)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
@@ -2617,6 +2637,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ray](#ray) (2)
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
+- [RC4 encryption](#rc4-encryption) (1)
 - [RCE](#rce) (6)
 - [Rclone](#rclone) (1)
 - [rclone](#rclone) (1)
@@ -2636,15 +2657,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [recovery flow](#recovery-flow) (1)
 - [recovery phrase](#recovery-phrase) (1)
 - [recruitment lures](#recruitment-lures) (1)
+- [Red Agent](#red-agent) (1)
 - [Red Dev 10](#red-dev-10) (2)
 - [Red Hat](#red-hat) (1)
+- [Red Offsec](#red-offsec) (1)
 - [Red Raindrop Team](#red-raindrop-team) (2)
 - [REDACT](#redact) (1)
 - [RedAlert](#redalert) (1)
+- [RedC2](#redc2) (1)
+- [RedC2 4.0](#redc2-40) (1)
 - [REDCap](#redcap) (1)
 - [Redis](#redis) (5)
 - [Redis backdoor](#redis-backdoor) (1)
 - [RediSearch](#redisearch) (1)
+- [RedShell](#redshell) (1)
 - [reduced cyber refusals](#reduced-cyber-refusals) (1)
 - [RedWing](#redwing) (2)
 - [REF6045](#ref6045) (2)
@@ -2655,6 +2681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [refresh tokens](#refresh-tokens) (1)
 - [RegAsm process hollowing](#regasm-process-hollowing) (1)
 - [registry controls](#registry-controls) (1)
+- [registry manipulation](#registry-manipulation) (1)
 - [registry metadata](#registry-metadata) (1)
 - [registry persistence](#registry-persistence) (6)
 - [registry storage](#registry-storage) (1)
@@ -2705,6 +2732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ReverseSocks](#reversesocks) (1)
 - [reviewdog](#reviewdog) (1)
 - [Rilide](#rilide) (1)
+- [Ring 0](#ring-0) (1)
 - [RingH23](#ringh23) (1)
 - [RMM](#rmm) (5)
 - [RMM abuse](#rmm-abuse) (10)
@@ -2970,7 +2998,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Socket.IO](#socketio) (2)
 - [SOCKS tunneling](#socks-tunneling) (1)
 - [SOCKS5](#socks5) (9)
-- [SOCKS5 proxy](#socks5-proxy) (1)
+- [SOCKS5 proxy](#socks5-proxy) (2)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
 - [SOCRadar](#socradar) (2)
 - [SoftEther VPN](#softether-vpn) (2)
@@ -3096,7 +3124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suo5](#suo5) (1)
 - [Supabase](#supabase) (1)
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
-- [supply chain](#supply-chain) (18)
+- [supply chain](#supply-chain) (19)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (102)
 - [supply-chain attack](#supply-chain-attack) (1)
@@ -3237,7 +3265,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (49)
+- [tools](#tools) (50)
 - [Tor](#tor) (4)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [TouchSocket](#touchsocket) (1)
@@ -3262,16 +3290,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [transport](#transport) (1)
 - [transportation](#transportation) (2)
 - [Trend Micro](#trend-micro) (3)
-- [TrendAI](#trendai) (1)
+- [TrendAI](#trendai) (2)
 - [Trezor](#trezor) (1)
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
 - [trojanized installers](#trojanized-installers) (3)
+- [trojanized npm](#trojanized-npm) (1)
 - [Tron](#tron) (4)
 - [TrueConf](#trueconf) (1)
 - [trusted extension risk](#trusted-extension-risk) (1)
 - [trusted publishing](#trusted-publishing) (3)
 - [trusted relationship abuse](#trusted-relationship-abuse) (2)
+- [trusted-component weaponization](#trusted-component-weaponization) (1)
 - [tunnel decapsulation](#tunnel-decapsulation) (1)
 - [tunnel services](#tunnel-services) (1)
 - [tunneling](#tunneling) (4)
@@ -3290,7 +3320,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [typosquat](#typosquat) (3)
 - [typosquatting](#typosquatting) (16)
 - [UAC](#uac) (1)
-- [UAC bypass](#uac-bypass) (1)
+- [UAC bypass](#uac-bypass) (2)
 - [UAC-0002](#uac-0002) (2)
 - [UAC-0010](#uac-0010) (3)
 - [UAC-0098](#uac-0098) (1)
@@ -3916,6 +3946,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Adobe Commerce
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
+## ADS
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
 ## Adspect
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
@@ -4218,6 +4251,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ai-agent
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 
+## AI-assisted C2
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
+
 ## AI-assisted development
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
@@ -4277,6 +4313,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Allen-Bradley
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
+
+## Alternate Data Stream
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 
 ## Amadey
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -4537,6 +4576,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## arbitrary code execution
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
+
+## arbitrary file deletion
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 
 ## arbitrary file disclosure
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
@@ -5097,6 +5139,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## body hash
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
+## BOF
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
+
+## Boot Bus Extender
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
+## Boot Time Removal Tool
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
 ## botnet
 - [Aeternum](../tools/aeternum.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
@@ -5279,6 +5330,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BTMOB
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 
+## BTR Reforged
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
+## BTR.sys
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
+## BTR_CLI
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
 ## bucket hijacking
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
@@ -5345,6 +5405,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## BYOVD alternative
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
 ## bypass2fa
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
@@ -5375,6 +5438,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [QuimaRAT](../tools/quimarat.md)
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
 - [WLDR agent](../tools/wldr-agent.md)
@@ -5550,6 +5614,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 
 ## Check Point Research
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 
@@ -6538,6 +6603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [QuimaRAT](../tools/quimarat.md)
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
@@ -8262,6 +8328,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## EDR killer
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## EDR/AV bypass
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
+## EDR/AV tampering
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 
 ## EDS5000
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
@@ -10123,6 +10195,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
@@ -10134,6 +10207,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## in-memory DLL loading
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## in-memory ELF execution
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 
 ## in-memory malware
 - [OctLurk](../tools/octlurk.md)
@@ -10599,6 +10675,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
+## Jiří Vinopal
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
 ## joblib
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
@@ -10738,6 +10817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## kernel driver
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 - [Fast16](../tools/fast16.md)
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
@@ -11104,6 +11184,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## Linux backdoor
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
+
 ## Linux kernel
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
@@ -11147,6 +11230,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
+
+## LLM command execution
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 
 ## LLM security
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -11510,6 +11596,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PamStealer](../tools/pamstealer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [QuimaRAT](../tools/quimarat.md)
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [RedWing](../tools/redwing.md)
 - [RemotePE](../tools/remotepe.md)
 - [RustDuck](../tools/rustduck.md)
@@ -11629,6 +11716,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MarkiRAT
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
+
+## MarlboroMan
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 
 ## mass repository cloning
 - [TeamPCP](../actors/teampcp.md)
@@ -11835,6 +11925,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
 
 ## Microsoft Defender
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 
@@ -12134,6 +12225,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mpengine
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 
+## MpEngine.dll
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
 ## MpExtMs.exe
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 
@@ -12432,6 +12526,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## no credential theft
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 
+## no-install-hook delivery
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
+
 ## No-IP
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
@@ -12543,6 +12640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -12907,6 +13005,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [CanisterWorm](../tools/canisterworm.md)
@@ -13207,6 +13306,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
@@ -14756,6 +14856,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RC4 C2
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 
+## RC4 encryption
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
 ## RCE
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -14825,12 +14928,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## recruitment lures
 - [Screening Serpens](../actors/screening-serpens.md)
 
+## Red Agent
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
+
 ## Red Dev 10
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
 
 ## Red Hat
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
+## Red Offsec
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 
 ## Red Raindrop Team
 - [MODBEACON](../tools/modbeacon.md)
@@ -14841,6 +14950,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RedAlert
 - [Toy Ghouls](../actors/toy-ghouls.md)
+
+## RedC2
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
+
+## RedC2 4.0
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 
 ## REDCap
 - [UNC6508](../actors/unc6508.md)
@@ -14857,6 +14972,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RediSearch
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
+
+## RedShell
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 
 ## reduced cyber refusals
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -14895,6 +15013,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## registry controls
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
+
+## registry manipulation
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 
 ## registry metadata
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
@@ -15098,6 +15219,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Rilide
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
+
+## Ring 0
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 
 ## RingH23
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -16105,6 +16229,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SOCKS5 proxy
 - [LabubaRAT](../tools/labubarat.md)
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 
 ## SOCKS5 tunneling
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -16569,6 +16694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
@@ -17225,6 +17351,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OWAReaper](../tools/owareaper.md)
 - [PamStealer](../tools/pamstealer.md)
 - [QuimaRAT](../tools/quimarat.md)
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [RedWing](../tools/redwing.md)
 - [RemotePE](../tools/remotepe.md)
 - [ROADtools](../tools/roadtools.md)
@@ -17330,6 +17457,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## TrendAI
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## Trezor
@@ -17345,6 +17473,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Starland RAT](../tools/starland-rat.md)
 - [UAT-11795](../actors/uat-11795.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
+
+## trojanized npm
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 
 ## Tron
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
@@ -17366,6 +17497,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## trusted relationship abuse
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
+
+## trusted-component weaponization
+- [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 
 ## tunnel decapsulation
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -17447,6 +17581,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## UAC bypass
+- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## UAC-0002
