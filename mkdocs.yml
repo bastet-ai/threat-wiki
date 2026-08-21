@@ -7,6 +7,8 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - Fake TradingView macOS stealer delivered by paid YouTube ad: ops/fake-tradingview-macos-stealer-malvertising.md
+      - Russian OAuth / WhatsApp device-link account hijacking (GTIG): ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md
       - arrayref / proc-macro1 Rust crate supply-chain attack: ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md
       - Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4: ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md
       - Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass: ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md

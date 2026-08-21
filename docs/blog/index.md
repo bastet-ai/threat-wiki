@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
+- [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking (GTIG)](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [Wiz stage-2 implant analysis and DPRK infrastructure overlap in the arrayref Rust supply-chain attack](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md#wiz-stage-2-implant-analysis-and-dprk-infrastructure-overlap)
 - [CISA adds both Head Mare TrueConf flaws to KEV (CVE-2026-72529 / CVE-2026-72530)](../ops/head-mare-trueconf-phantomcore-campaign.md)
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
