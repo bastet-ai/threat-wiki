@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [LLM-slop false CVEs: AI-generated SQLite advisory batch poisoning NVD / CISA](patterns/llm-slop-false-cves-sqlite-batch.md)
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw](ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet](ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [BTR Reforged: weaponizing Defender's BTR.sys remediation driver as a kernel primitive](ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
-- [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](tools/redc2.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

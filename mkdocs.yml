@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap": ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md
       - "Dream: near-autonomous multi-agent AI framework compromises Asian government entities": ops/dream-multi-agent-ai-framework-asian-government-compromise.md
       - "AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure": ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md
       - "Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0": ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md

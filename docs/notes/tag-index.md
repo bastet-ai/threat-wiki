@@ -140,6 +140,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI tools](#ai-tools) (1)
 - [AI trust boundary](#ai-trust-boundary) (1)
 - [AI vishing](#ai-vishing) (1)
+- [AI vulnerability consumption](#ai-vulnerability-consumption) (1)
 - [AI vulnerability discovery](#ai-vulnerability-discovery) (1)
 - [AI workflow](#ai-workflow) (1)
 - [ai-abuse](#ai-abuse) (1)
@@ -409,9 +410,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brazilian banking malware](#brazilian-banking-malware) (1)
 - [BreachForums](#breachforums) (1)
 - [Breeze Cache Cleaner](#breeze-cache-cleaner) (1)
+- [Brian Fox](#brian-fox) (1)
 - [BRICKSTORM](#brickstorm) (2)
 - [BridgeHead](#bridgehead) (2)
-- [Broadcom](#broadcom) (4)
+- [Broadcom](#broadcom) (5)
 - [browser assembly](#browser-assembly) (1)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
@@ -951,8 +953,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-55255](#cve-2026-55255) (1)
 - [CVE-2026-56290](#cve-2026-56290) (1)
 - [CVE-2026-56291](#cve-2026-56291) (1)
+- [CVE-2026-59285](#cve-2026-59285) (1)
 - [CVE-2026-59309](#cve-2026-59309) (1)
 - [CVE-2026-59310](#cve-2026-59310) (2)
+- [CVE-2026-59318](#cve-2026-59318) (1)
 - [CVE-2026-59726](#cve-2026-59726) (1)
 - [CVE-2026-60137](#cve-2026-60137) (1)
 - [CVE-2026-62144](#cve-2026-62144) (1)
@@ -1048,12 +1052,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
 - [delayed execution](#delayed-execution) (2)
-- [denial of service](#denial-of-service) (7)
+- [denial of service](#denial-of-service) (8)
 - [Deno](#deno) (2)
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (5)
 - [deployment_status](#deployment_status) (1)
-- [deserialization](#deserialization) (8)
+- [deserialization](#deserialization) (9)
 - [destructive actions](#destructive-actions) (1)
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
@@ -1555,7 +1559,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro](#grandoreiro) (2)
 - [granular access tokens](#granular-access-tokens) (1)
 - [Graph API](#graph-api) (1)
-- [GraphQL](#graphql) (1)
+- [GraphQL](#graphql) (2)
 - [GraphSpy](#graphspy) (1)
 - [Gravity SMTP](#gravity-smtp) (1)
 - [gray market](#gray-market) (1)
@@ -1698,6 +1702,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [import-time execution](#import-time-execution) (6)
 - [improper access control](#improper-access-control) (1)
 - [improper authentication](#improper-authentication) (1)
+- [improper authorization](#improper-authorization) (1)
 - [improper privilege management](#improper-privilege-management) (1)
 - [in-memory DLL loading](#in-memory-dll-loading) (1)
 - [in-memory ELF execution](#in-memory-elf-execution) (1)
@@ -1774,6 +1779,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ITRES Labs](#itres-labs) (1)
 - [Ivanti Sentry](#ivanti-sentry) (1)
 - [JackSkid](#jackskid) (1)
+- [Jackson](#jackson) (1)
 - [JADEPUFFER](#jadepuffer) (2)
 - [Jamf Threat Labs](#jamf-threat-labs) (2)
 - [Januscape](#januscape) (1)
@@ -2067,6 +2073,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marketplace trust](#marketplace-trust) (1)
 - [MarkiRAT](#markirat) (1)
 - [MarlboroMan](#marlboroman) (1)
+- [mass disclosure](#mass-disclosure) (1)
 - [mass repository cloning](#mass-repository-cloning) (1)
 - [mass scanning](#mass-scanning) (1)
 - [Maven Central](#maven-central) (1)
@@ -2396,7 +2403,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (328)
+- [ops](#ops) (329)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
@@ -2478,7 +2485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patching](#patching) (2)
 - [patchstack](#patchstack) (1)
 - [path hijacking](#path-hijacking) (1)
-- [path traversal](#path-traversal) (6)
+- [path traversal](#path-traversal) (7)
 - [Patriot Bait](#patriot-bait) (1)
 - [patterns](#patterns) (43)
 - [payload loader](#payload-loader) (1)
@@ -2621,7 +2628,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Software](#progress-software) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
 - [prompt infection](#prompt-infection) (1)
-- [prompt injection](#prompt-injection) (12)
+- [prompt injection](#prompt-injection) (13)
 - [prompt-injection](#prompt-injection) (4)
 - [prompt-injection guardrail bypass](#prompt-injection-guardrail-bypass) (1)
 - [PromptArmor](#promptarmor) (1)
@@ -2714,6 +2721,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RDP](#rdp) (3)
 - [RDP phishing](#rdp-phishing) (1)
 - [RDS](#rds) (1)
+- [Reactor Core](#reactor-core) (1)
+- [Reactor Netty](#reactor-netty) (1)
 - [readonly proxy](#readonly-proxy) (1)
 - [Reality](#reality) (1)
 - [Realme C33](#realme-c33) (1)
@@ -2763,7 +2772,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (5)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (24)
+- [remote code execution](#remote-code-execution) (25)
 - [remote debugging](#remote-debugging) (2)
 - [remote MCP](#remote-mcp) (1)
 - [remote monitoring and management](#remote-monitoring-and-management) (2)
@@ -3090,7 +3099,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solid PDF Creator](#solid-pdf-creator) (1)
 - [SolidPDFCreator.dll](#solidpdfcreatordll) (1)
 - [SolidPDFPcl2Bmp](#solidpdfpcl2bmp) (1)
-- [Sonatype](#sonatype) (2)
+- [Sonatype](#sonatype) (3)
+- [Sonatype Guide](#sonatype-guide) (1)
 - [sonatype-2026-005660](#sonatype-2026-005660) (1)
 - [sonatype-2026-005899](#sonatype-2026-005899) (1)
 - [sonatype-2026-005901](#sonatype-2026-005901) (1)
@@ -3128,7 +3138,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Spikey Scorpius](#spikey-scorpius) (1)
 - [Splunk](#splunk) (1)
 - [Spreadtrum](#spreadtrum) (1)
+- [Spring](#spring) (1)
+- [Spring AI](#spring-ai) (1)
+- [Spring AMQP](#spring-amqp) (1)
+- [Spring Batch](#spring-batch) (1)
 - [Spring Boot](#spring-boot) (1)
+- [Spring Cloud Config](#spring-cloud-config) (1)
+- [Spring Data REST](#spring-data-rest) (1)
+- [Spring Framework](#spring-framework) (1)
+- [Spring Integration](#spring-integration) (1)
+- [Spring Security](#spring-security) (1)
 - [SprySOCKS](#sprysocks) (2)
 - [Spyroid](#spyroid) (1)
 - [spyware](#spyware) (1)
@@ -3153,7 +3172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunnels](#ssh-tunnels) (1)
 - [SSL VPN](#ssl-vpn) (3)
 - [SSO](#sso) (1)
-- [SSRF](#ssrf) (7)
+- [SSRF](#ssrf) (8)
 - [STAC4749](#stac4749) (1)
 - [stack use-after-free](#stack-use-after-free) (1)
 - [staged malicious update](#staged-malicious-update) (1)
@@ -3342,6 +3361,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TONESHELL](#toneshell) (2)
 - [TookPS](#tookps) (1)
 - [tool](#tool) (4)
+- [tool calling](#tool-calling) (1)
 - [tool execution](#tool-execution) (1)
 - [tool output injection](#tool-output-injection) (1)
 - [tool poisoning](#tool-poisoning) (1)
@@ -3569,7 +3589,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vulnerability](#vulnerability) (23)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
-- [vulnerability management](#vulnerability-management) (1)
+- [vulnerability management](#vulnerability-management) (2)
 - [vulnerability research](#vulnerability-research) (4)
 - [vulnerability-research](#vulnerability-research) (1)
 - [vulnerable appliances](#vulnerable-appliances) (1)
@@ -4351,6 +4371,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI vishing
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
+
+## AI vulnerability consumption
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
 ## AI vulnerability discovery
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
@@ -5349,6 +5372,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Breeze Cache Cleaner
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
+## Brian Fox
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
 ## BRICKSTORM
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -5359,6 +5385,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Broadcom
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
@@ -7589,12 +7616,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-56291
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
+## CVE-2026-59285
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
 ## CVE-2026-59309
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## CVE-2026-59310
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
+## CVE-2026-59318
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
 ## CVE-2026-59726
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
@@ -7972,6 +8005,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 
 ## denial of service
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -7998,6 +8032,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## deserialization
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
@@ -9976,6 +10011,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 
 ## GraphQL
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 
 ## GraphSpy
@@ -10476,6 +10512,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## improper authentication
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 
+## improper authorization
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
 ## improper privilege management
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 
@@ -10832,6 +10871,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JackSkid
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+
+## Jackson
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
 ## JADEPUFFER
 - [ENCFORGE](../tools/encforge.md)
@@ -12028,6 +12070,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MarlboroMan
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
+
+## mass disclosure
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
 ## mass repository cloning
 - [TeamPCP](../actors/teampcp.md)
@@ -13645,6 +13690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
@@ -14214,6 +14260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 
 ## path traversal
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
@@ -14847,6 +14894,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -15257,6 +15305,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RDS
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
+## Reactor Core
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
+## Reactor Netty
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
 ## readonly proxy
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
@@ -15442,6 +15496,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 
 ## remote code execution
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
@@ -16678,8 +16733,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## Sonatype
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
+
+## Sonatype Guide
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
 ## sonatype-2026-005660
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
@@ -16823,8 +16882,35 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Spreadtrum
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
 
+## Spring
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
+## Spring AI
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
+## Spring AMQP
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
+## Spring Batch
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
 ## Spring Boot
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
+
+## Spring Cloud Config
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
+## Spring Data REST
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
+## Spring Framework
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
+## Spring Integration
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
+## Spring Security
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
 ## SprySOCKS
 - [FishMonger](../actors/fishmonger.md)
@@ -16917,6 +17003,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 
 ## SSRF
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -17725,6 +17812,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BridgeHead](../tools/bridgehead.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [NightLedger](../tools/nightledger.md)
+
+## tool calling
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
 ## tool execution
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
@@ -18653,6 +18743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
 ## vulnerability management
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## vulnerability research
