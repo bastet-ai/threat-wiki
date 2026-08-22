@@ -55,7 +55,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (6)
-- [actors](#actors) (11)
+- [actors](#actors) (12)
 - [ad blocker](#ad-blocker) (1)
 - [ad fraud](#ad-fraud) (2)
 - [Adaptix C2](#adaptix-c2) (1)
@@ -97,7 +97,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agent state](#agent-state) (1)
 - [agent-to-agent](#agent-to-agent) (1)
 - [AgentBaiting](#agentbaiting) (1)
-- [agentic AI](#agentic-ai) (4)
+- [agentic AI](#agentic-ai) (6)
 - [agentic botnets](#agentic-botnets) (1)
 - [agentic browser](#agentic-browser) (1)
 - [agentic browsers](#agentic-browsers) (1)
@@ -142,6 +142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ai-agent](#ai-agent) (1)
 - [AI-assisted C2](#ai-assisted-c2) (1)
 - [AI-assisted development](#ai-assisted-development) (3)
+- [AI-assisted exploit](#ai-assisted-exploit) (1)
 - [AI-assisted intrusion](#ai-assisted-intrusion) (1)
 - [AI-assisted malware](#ai-assisted-malware) (3)
 - [AI-assisted malware development](#ai-assisted-malware-development) (4)
@@ -182,6 +183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [anti-bot](#anti-bot) (1)
 - [anti-distillation](#anti-distillation) (1)
 - [anti-forensics](#anti-forensics) (2)
+- [anti-sandbox](#anti-sandbox) (1)
 - [Anubis ransomware](#anubis-ransomware) (1)
 - [ANY.RUN](#anyrun) (1)
 - [AnyDesk](#anydesk) (2)
@@ -189,6 +191,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aone](#aone) (1)
 - [Apache Tomcat](#apache-tomcat) (1)
 - [Apache Zeppelin](#apache-zeppelin) (1)
+- [APC EarlyBird](#apc-earlybird) (1)
 - [Apex One](#apex-one) (1)
 - [API abuse](#api-abuse) (1)
 - [API enumeration](#api-enumeration) (1)
@@ -250,6 +253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [arXiv](#arxiv) (1)
 - [AryStinger](#arystinger) (1)
 - [AS32167](#as32167) (1)
+- [ASHX](#ashx) (1)
 - [Asia targeting](#asia-targeting) (1)
 - [ASLR bypass](#aslr-bypass) (1)
 - [ASNs](#asns) (1)
@@ -305,7 +309,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure Storage](#azure-storage) (1)
 - [Babuk](#babuk) (1)
 - [Backblaze](#backblaze) (1)
-- [backdoor](#backdoor) (22)
+- [backdoor](#backdoor) (23)
 - [Backdoor.Mistic](#backdoormistic) (1)
 - [Backdoor.Turn](#backdoorturn) (1)
 - [Backstage](#backstage) (1)
@@ -317,6 +321,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BadBlocker](#badblocker) (1)
 - [BADBOX](#badbox) (1)
 - [Badbox 2.0](#badbox-20) (1)
+- [BadIIS](#badiis) (3)
 - [BadPotato](#badpotato) (1)
 - [Baileys](#baileys) (1)
 - [Balbooa Forms](#balbooa-forms) (1)
@@ -329,6 +334,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [banking fraud](#banking-fraud) (1)
 - [banking malware](#banking-malware) (4)
 - [banking trojan](#banking-trojan) (3)
+- [Baron Samedit](#baron-samedit) (1)
 - [Barracuda](#barracuda) (1)
 - [Base64](#base64) (1)
 - [BaseZipInstaller](#basezipinstaller) (1)
@@ -443,14 +449,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [business intelligence](#business-intelligence) (1)
 - [BusySnake Stealer](#busysnake-stealer) (3)
 - [Bybit](#bybit) (1)
-- [BYOVD](#byovd) (3)
+- [BYOVD](#byovd) (4)
 - [BYOVD alternative](#byovd-alternative) (1)
 - [bypass2fa](#bypass2fa) (1)
+- [C backdoor](#c-backdoor) (1)
 - [C#](#c) (1)
 - [C++](#c) (4)
 - [C++/CLI](#ccli) (1)
 - [C0XMO](#c0xmo) (1)
-- [C2](#c2) (15)
+- [C2](#c2) (16)
 - [C2 framework](#c2-framework) (2)
 - [C2 panel](#c2-panel) (1)
 - [C2 tasking](#c2-tasking) (1)
@@ -512,7 +519,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (2)
 - [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
-- [Chinese-speaking](#chinese-speaking) (6)
+- [Chinese-speaking](#chinese-speaking) (9)
 - [Chinese-speaking cybercrime](#chinese-speaking-cybercrime) (1)
 - [Chinese-speaking operator](#chinese-speaking-operator) (2)
 - [Chisel](#chisel) (3)
@@ -714,7 +721,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (80)
+- [credential theft](#credential-theft) (81)
 - [credential-theft](#credential-theft) (53)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -725,7 +732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cron](#cron) (2)
 - [cron persistence](#cron-persistence) (3)
 - [cross-origin requests](#cross-origin-requests) (1)
-- [cross-platform](#cross-platform) (2)
+- [cross-platform](#cross-platform) (3)
 - [cross-platform malware](#cross-platform-malware) (2)
 - [cross-project access](#cross-project-access) (1)
 - [cross-session](#cross-session) (1)
@@ -961,7 +968,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cyber evaluation](#cyber-evaluation) (1)
 - [cyber-espionage](#cyber-espionage) (6)
 - [CyberAv3ngers](#cyberav3ngers) (1)
-- [cybercrime](#cybercrime) (13)
+- [cybercrime](#cybercrime) (16)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [cyberespionage](#cyberespionage) (6)
 - [Cython](#cython) (1)
@@ -977,7 +984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data extortion](#data-extortion) (2)
 - [data leak site](#data-leak-site) (3)
 - [data scraping](#data-scraping) (1)
-- [data theft](#data-theft) (10)
+- [data theft](#data-theft) (11)
 - [data-exfiltration](#data-exfiltration) (1)
 - [database extortion](#database-extortion) (1)
 - [Datadog Security Labs](#datadog-security-labs) (1)
@@ -1062,6 +1069,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [diplomatic targeting](#diplomatic-targeting) (3)
 - [direct-to-IP](#direct-to-ip) (1)
 - [directory traversal](#directory-traversal) (1)
+- [Dirty Pipe](#dirty-pipe) (1)
 - [DirtyClone](#dirtyclone) (1)
 - [DirtyFrag](#dirtyfrag) (1)
 - [DISCLOSURE](#disclosure) (1)
@@ -1149,12 +1157,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge service](#edge-service) (2)
 - [edge services](#edge-services) (1)
 - [editor profile import](#editor-profile-import) (1)
+- [EDR bypass](#edr-bypass) (1)
 - [EDR evasion](#edr-evasion) (2)
 - [EDR killer](#edr-killer) (2)
 - [EDR/AV bypass](#edrav-bypass) (1)
 - [EDR/AV tampering](#edrav-tampering) (1)
 - [EDS5000](#eds5000) (1)
 - [education](#education) (3)
+- [EfsPotato](#efspotato) (1)
 - [Egnyte](#egnyte) (1)
 - [Egypt](#egypt) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
@@ -1327,7 +1337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [financial sector](#financial-sector) (7)
 - [financial services](#financial-services) (5)
 - [financial theft](#financial-theft) (3)
-- [financially motivated](#financially-motivated) (2)
+- [financially motivated](#financially-motivated) (3)
 - [FireAnt MetaKit](#fireant-metakit) (1)
 - [Firebase](#firebase) (1)
 - [Firefox](#firefox) (1)
@@ -1382,6 +1392,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fscan](#fscan) (1)
 - [FTA](#fta) (1)
 - [ftp.exe](#ftpexe) (1)
+- [ftrace](#ftrace) (1)
 - [Full Disk Access social engineering](#full-disk-access-social-engineering) (1)
 - [Funnull](#funnull) (1)
 - [futex PI](#futex-pi) (1)
@@ -1520,7 +1531,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](#greyvibe) (1)
 - [group](#group) (5)
 - [Group-IB](#group-ib) (1)
-- [groups](#groups) (17)
+- [groups](#groups) (18)
 - [gRPC](#grpc) (2)
 - [gRPC C2](#grpc-c2) (2)
 - [GRU](#gru) (2)
@@ -1638,7 +1649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IDEs](#ides) (2)
 - [IFEO persistence](#ifeo-persistence) (1)
 - [IIOP](#iiop) (1)
-- [IIS](#iis) (1)
+- [IIS](#iis) (4)
 - [IKE](#ike) (1)
 - [IKEv1](#ikev1) (1)
 - [Ill Bloom](#ill-bloom) (1)
@@ -1707,6 +1718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IP-in-IP](#ip-in-ip) (1)
 - [IPFS](#ipfs) (1)
 - [iPhone](#iphone) (1)
+- [IPMODIFY](#ipmodify) (1)
 - [IPsec](#ipsec) (1)
 - [IPv6](#ipv6) (2)
 - [ipynbdiff](#ipynbdiff) (1)
@@ -1800,6 +1812,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kemp LoadMaster](#kemp-loadmaster) (1)
 - [kernel driver](#kernel-driver) (4)
 - [kernel instrumentation](#kernel-instrumentation) (1)
+- [kernel R/W](#kernel-rw) (1)
 - [kernelCTF](#kernelctf) (2)
 - [KEV](#kev) (4)
 - [keychain](#keychain) (1)
@@ -1890,11 +1903,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lightning Web Runtime](#lightning-web-runtime) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linksys](#linksys) (1)
-- [Linux](#linux) (28)
+- [Linux](#linux) (29)
 - [Linux backdoor](#linux-backdoor) (1)
 - [Linux kernel](#linux-kernel) (5)
 - [Linux malware](#linux-malware) (3)
 - [Linux networking devices](#linux-networking-devices) (1)
+- [Linux rootkit](#linux-rootkit) (1)
 - [LiteLLM](#litellm) (3)
 - [LiteSpeed](#litespeed) (2)
 - [live chat](#live-chat) (1)
@@ -1916,7 +1930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LOADLOOP](#loadloop) (1)
 - [local exploit](#local-exploit) (1)
 - [local LLMs](#local-llms) (1)
-- [local privilege escalation](#local-privilege-escalation) (6)
+- [local privilege escalation](#local-privilege-escalation) (7)
 - [local-file-inclusion](#local-file-inclusion) (1)
 - [localhost](#localhost) (1)
 - [localhost.run](#localhostrun) (1)
@@ -1985,7 +1999,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (10)
-- [malware](#malware) (60)
+- [malware](#malware) (61)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
@@ -2041,6 +2055,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [meta-hacking](#meta-hacking) (1)
 - [Metabase](#metabase) (1)
 - [MetaMask](#metamask) (1)
+- [Metasploit](#metasploit) (1)
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexican banking fraud](#mexican-banking-fraud) (3)
 - [Mexico](#mexico) (3)
@@ -2171,7 +2186,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [N-able](#n-able) (2)
 - [N-central](#n-central) (2)
 - [n8n](#n8n) (2)
-- [Nacos](#nacos) (2)
+- [Nacos](#nacos) (3)
 - [NadMesh](#nadmesh) (1)
 - [named pipes](#named-pipes) (1)
 - [namespace recycling](#namespace-recycling) (1)
@@ -2249,7 +2264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npx confusion](#npx-confusion) (1)
 - [NSecKrnl.sys](#nseckrnlsys) (1)
 - [NTDS.dit](#ntdsdit) (2)
-- [NTFS ADS](#ntfs-ads) (2)
+- [NTFS ADS](#ntfs-ads) (3)
 - [NTLM](#ntlm) (2)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (4)
@@ -2333,7 +2348,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (322)
+- [ops](#ops) (323)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
@@ -2430,6 +2445,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [payroll lures](#payroll-lures) (1)
 - [Paysafe](#paysafe) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
+- [PEB hash](#peb-hash) (1)
 - [PebbleDash](#pebbledash) (1)
 - [pedit](#pedit) (1)
 - [pentesting](#pentesting) (1)
@@ -2507,6 +2523,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostCSS](#postcss) (1)
 - [PostgreSQL](#postgresql) (4)
 - [postinstall](#postinstall) (11)
+- [Potato](#potato) (1)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (26)
 - [PowerShell execution](#powershell-execution) (1)
@@ -2543,7 +2560,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [process discovery](#process-discovery) (1)
 - [process doppelgänging](#process-doppelganging) (1)
 - [process environment scraping](#process-environment-scraping) (1)
-- [process hollowing](#process-hollowing) (3)
+- [process hollowing](#process-hollowing) (4)
 - [process injection](#process-injection) (6)
 - [process termination](#process-termination) (2)
 - [product lifecycle management](#product-lifecycle-management) (1)
@@ -2752,7 +2769,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [root escalation](#root-escalation) (1)
 - [root execution](#root-execution) (2)
 - [root shell](#root-shell) (1)
-- [rootkit](#rootkit) (4)
+- [rootkit](#rootkit) (5)
 - [ROOTRUN](#rootrun) (1)
 - [Rootstock](#rootstock) (1)
 - [ROPC](#ropc) (1)
@@ -2878,6 +2895,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SentinelOne](#sentinelone) (1)
 - [Sentry](#sentry) (1)
 - [Sentry abuse](#sentry-abuse) (1)
+- [SEO fraud](#seo-fraud) (3)
 - [SEO poisoning](#seo-poisoning) (6)
 - [Seqrite Labs](#seqrite-labs) (1)
 - [serial-number relay](#serial-number-relay) (1)
@@ -3042,7 +3060,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [spear phishing](#spear-phishing) (11)
 - [spear-phishing](#spear-phishing) (2)
 - [spearphishing](#spearphishing) (1)
+- [Specter](#specter) (3)
 - [SPECTRALVIPER](#spectralviper) (1)
+- [SPECTRE](#spectre) (3)
 - [Spectre](#spectre) (1)
 - [Sphinx ransomware](#sphinx-ransomware) (1)
 - [SpiceRAT](#spicerat) (1)
@@ -3212,6 +3232,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telegram session theft](#telegram-session-theft) (1)
 - [telemetry](#telemetry) (1)
 - [TELEPUZ](#telepuz) (1)
+- [Telerik](#telerik) (1)
 - [TELESHIM](#teleshim) (4)
 - [Teletype](#teletype) (1)
 - [Telnet](#telnet) (1)
@@ -3242,6 +3263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ThrottleBlood](#throttleblood) (1)
 - [ThumbcacheService](#thumbcacheservice) (1)
 - [thumbnail generation](#thumbnail-generation) (1)
+- [timestomping](#timestomping) (1)
 - [timing attack](#timing-attack) (1)
 - [TinyGo](#tinygo) (1)
 - [TinyRCT](#tinyrct) (3)
@@ -3265,7 +3287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (50)
+- [tools](#tools) (51)
 - [Tor](#tor) (4)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [TouchSocket](#touchsocket) (1)
@@ -3327,6 +3349,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145](#uac-0145) (2)
 - [UAC-0194](#uac-0194) (3)
 - [UAC-0226](#uac-0226) (1)
+- [UAT-10147](#uat-10147) (3)
 - [UAT-11795](#uat-11795) (3)
 - [UAT-5918](#uat-5918) (1)
 - [UAT-7237](#uat-7237) (3)
@@ -3438,6 +3461,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vietnam](#vietnam) (2)
 - [Vietnam-aligned](#vietnam-aligned) (1)
 - [Views](#views) (1)
+- [ViewState](#viewstate) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
 - [ViPNet](#vipnet) (1)
 - [virtual machine escape](#virtual-machine-escape) (1)
@@ -3515,8 +3539,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web management interface](#web-management-interface) (1)
 - [web proxy](#web-proxy) (1)
 - [web RCE](#web-rce) (1)
-- [web server](#web-server) (1)
-- [web shell](#web-shell) (9)
+- [web server](#web-server) (3)
+- [web shell](#web-shell) (10)
 - [web shell hunting](#web-shell-hunting) (1)
 - [web shells](#web-shells) (3)
 - [web supply chain](#web-supply-chain) (2)
@@ -3610,6 +3634,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XMRig](#xmrig) (7)
 - [XOR](#xor) (3)
 - [XOR obfuscation](#xor-obfuscation) (1)
+- [xorshift32](#xorshift32) (1)
 - [Xray](#xray) (1)
 - [XSLT SSRF](#xslt-ssrf) (1)
 - [XSS](#xss) (3)
@@ -3623,6 +3648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [YesWeHack](#yeswehack) (1)
 - [YouTube](#youtube) (1)
 - [YouTube abuse](#youtube-abuse) (1)
+- [ysoserial](#ysoserial) (1)
 - [Yuechi Shared Technology](#yuechi-shared-technology) (1)
 - [yuze](#yuze) (2)
 - [Yx Technology](#yx-technology) (1)
@@ -3637,7 +3663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [ZeroBEC](#zerobec) (1)
-- [Zimbra](#zimbra) (4)
+- [Zimbra](#zimbra) (5)
 - [Zimbra Collaboration Suite](#zimbra-collaboration-suite) (2)
 - [Zimperium](#zimperium) (2)
 - [ZimReaper](#zimreaper) (1)
@@ -3907,6 +3933,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OP-512](../actors/op-512.md)
 - [TA4922](../actors/ta4922.md)
 - [ToddyCat](../actors/toddycat.md)
+- [UAT-10147](../actors/uat-10147.md)
 - [UAT-11795](../actors/uat-11795.md)
 - [Webworm](../actors/webworm.md)
 
@@ -4065,6 +4092,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+- [UAT-10147](../actors/uat-10147.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## agentic botnets
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
@@ -4259,6 +4288,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [SilkParasite](../actors/silkparasite.md)
 
+## AI-assisted exploit
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
+
 ## AI-assisted intrusion
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
@@ -4425,6 +4457,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
 
+## anti-sandbox
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+
 ## Anubis ransomware
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
@@ -4446,6 +4481,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Apache Zeppelin
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
+
+## APC EarlyBird
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## Apex One
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -4653,6 +4691,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AS32167
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+
+## ASHX
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## Asia targeting
 - [ToddyCat](../actors/toddycat.md)
@@ -4877,6 +4918,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Showboat](../tools/showboat.md)
 - [SilkLurk](../tools/silklurk.md)
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [STOCKSTAY](../tools/stockstay.md)
 - [TELESHIM](../tools/teleshim.md)
@@ -4918,6 +4960,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Badbox 2.0
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
+## BadIIS
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+- [UAT-10147](../actors/uat-10147.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
+
 ## BadPotato
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 
@@ -4958,6 +5005,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
+
+## Baron Samedit
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## Barracuda
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
@@ -5402,6 +5452,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BYOVD
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -5410,6 +5461,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## bypass2fa
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+
+## C backdoor
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## C#
 - [TinyRCT](../tools/tinyrct.md)
@@ -5441,6 +5495,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [WLDR agent](../tools/wldr-agent.md)
 
 ## C2 framework
@@ -5676,6 +5731,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+- [UAT-10147](../actors/uat-10147.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## Chinese-speaking cybercrime
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
@@ -6620,6 +6678,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 - [UAT-11795](../actors/uat-11795.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [Umbrij](../tools/umbrij.md)
@@ -6728,6 +6787,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cross-platform
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## cross-platform malware
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
@@ -7520,8 +7580,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [TA4922](../actors/ta4922.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+- [UAT-10147](../actors/uat-10147.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 - [UAT-11795](../actors/uat-11795.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 
@@ -7603,6 +7666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+- [UAT-10147](../actors/uat-10147.md)
 - [UNC3753](../actors/unc3753.md)
 
 ## data-exfiltration
@@ -7975,6 +8039,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## directory traversal
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
+## Dirty Pipe
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
+
 ## DirtyClone
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 
@@ -8321,6 +8388,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## editor profile import
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
+## EDR bypass
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+
 ## EDR evasion
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [RemotePE](../tools/remotepe.md)
@@ -8342,6 +8412,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
+
+## EfsPotato
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## Egnyte
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -9035,6 +9108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## financially motivated
 - [Toy Ghouls](../actors/toy-ghouls.md)
+- [UAT-10147](../actors/uat-10147.md)
 - [UAT-11795](../actors/uat-11795.md)
 
 ## FireAnt MetaKit
@@ -9218,6 +9292,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ftp.exe
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+
+## ftrace
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## Full Disk Access social engineering
 - [PamStealer](../tools/pamstealer.md)
@@ -9758,6 +9835,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA4922](../actors/ta4922.md)
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [Turla](../actors/turla.md)
+- [UAT-10147](../actors/uat-10147.md)
 - [UAT-11795](../actors/uat-11795.md)
 - [UNC3753](../actors/unc3753.md)
 - [UNC6508](../actors/unc6508.md)
@@ -10156,6 +10234,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## IIS
 - [OP-512](../actors/op-512.md)
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+- [UAT-10147](../actors/uat-10147.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## IKE
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
@@ -10482,6 +10563,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## iPhone
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
+
+## IPMODIFY
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## IPsec
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -10824,6 +10908,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## kernel instrumentation
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+
+## kernel R/W
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## kernelCTF
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
@@ -11179,6 +11266,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 - [Velvet Ant](../actors/velvet-ant.md)
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -11201,6 +11289,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Linux networking devices
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
+
+## Linux rootkit
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## LiteLLM
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -11297,6 +11388,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## local-file-inclusion
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -11603,6 +11695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SCMBANKER](../tools/scmbanker.md)
 - [Showboat](../tools/showboat.md)
 - [SilkLurk](../tools/silklurk.md)
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [Starland RAT](../tools/starland-rat.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -11827,6 +11920,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MetaMask
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+
+## Metasploit
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## MEV bot lure
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -12350,6 +12446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Nacos
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
 ## NadMesh
@@ -12684,6 +12781,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NTFS ADS
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## NTLM
@@ -13558,6 +13656,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
@@ -13959,6 +14058,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## pe_to_shellcode
 - [RemotePE](../tools/remotepe.md)
 
+## PEB hash
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+
 ## PebbleDash
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -14287,6 +14389,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
+## Potato
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+
 ## PowerCloud
 - [Cloud Atlas](../actors/cloud-atlas.md)
 
@@ -14440,6 +14545,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## process injection
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
@@ -15301,6 +15407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## ROOTRUN
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
@@ -15782,6 +15889,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Sentry abuse
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+
+## SEO fraud
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+- [UAT-10147](../actors/uat-10147.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## SEO poisoning
 - [ACR Stealer](../tools/acr-stealer.md)
@@ -16393,8 +16505,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## spearphishing
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
+## Specter
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+- [UAT-10147](../actors/uat-10147.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
+
 ## SPECTRALVIPER
 - [OceanLotus](../actors/oceanlotus.md)
+
+## SPECTRE
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+- [UAT-10147](../actors/uat-10147.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## Spectre
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
@@ -17119,6 +17241,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TELEPUZ
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 
+## Telerik
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
+
 ## TELESHIM
 - [BINDCLOAK](../tools/bindcloak.md)
 - [MIXEDKEY](../tools/mixedkey.md)
@@ -17227,6 +17352,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## thumbnail generation
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+
+## timestomping
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## timing attack
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
@@ -17359,6 +17487,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SCMBANKER](../tools/scmbanker.md)
 - [Showboat](../tools/showboat.md)
 - [SilkLurk](../tools/silklurk.md)
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [Starland RAT](../tools/starland-rat.md)
 - [STOCKSTAY](../tools/stockstay.md)
@@ -17607,6 +17736,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UAC-0226
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## UAT-10147
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+- [UAT-10147](../actors/uat-10147.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## UAT-11795
 - [Starland RAT](../tools/starland-rat.md)
@@ -18018,6 +18152,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Views
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
+## ViewState
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
+
 ## ViewState deserialization
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -18335,6 +18472,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web server
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+- [UAT-10147](../actors/uat-10147.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## web shell
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -18344,6 +18483,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 - [UNC6508](../actors/unc6508.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
@@ -18760,6 +18900,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## XOR obfuscation
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 
+## xorshift32
+- [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+
 ## Xray
 - [MODBEACON](../tools/modbeacon.md)
 
@@ -18801,6 +18944,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## YouTube abuse
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
+## ysoserial
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## Yuechi Shared Technology
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -18854,6 +19000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Zimbra
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
