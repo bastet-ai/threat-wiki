@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw](ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
-- [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet](ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

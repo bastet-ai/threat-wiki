@@ -641,7 +641,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CNCERT](#cncert) (1)
 - [Cobalt Strike](#cobalt-strike) (6)
 - [code execution](#code-execution) (3)
-- [code injection](#code-injection) (3)
+- [code injection](#code-injection) (4)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
 - [Codecov](#codecov) (1)
@@ -743,7 +743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (8)
-- [critical vulnerability](#critical-vulnerability) (3)
+- [critical vulnerability](#critical-vulnerability) (4)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
 - [cron](#cron) (2)
@@ -983,6 +983,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-72898](#cve-2026-72898) (1)
 - [CVE-2026-73570](#cve-2026-73570) (1)
 - [CVE-2026-7473](#cve-2026-7473) (1)
+- [CVE-2026-77413](#cve-2026-77413) (1)
+- [CVE-2026-77414](#cve-2026-77414) (1)
+- [CVE-2026-77415](#cve-2026-77415) (1)
 - [CVE-2026-8037](#cve-2026-8037) (1)
 - [CVE-2026-8451](#cve-2026-8451) (1)
 - [CVE-2026-8461](#cve-2026-8461) (1)
@@ -1464,12 +1467,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost Networks](#ghost-networks) (1)
 - [GHOSTBLADE](#ghostblade) (1)
 - [GhostLock](#ghostlock) (1)
+- [GHSA-2943-5xfg-gq5f](#ghsa-2943-5xfg-gq5f) (1)
+- [GHSA-66mm-25pp-rfff](#ghsa-66mm-25pp-rfff) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GHSA-6v3r-4p5c-mrp5](#ghsa-6v3r-4p5c-mrp5) (1)
 - [GHSA-6vxv-wg6j-5qwp](#ghsa-6vxv-wg6j-5qwp) (1)
 - [GHSA-6whr-xjjm-6pf8](#ghsa-6whr-xjjm-6pf8) (1)
 - [GHSA-78mw-f4q2-924q](#ghsa-78mw-f4q2-924q) (1)
 - [GHSA-864f-rcv7-6rh4](#ghsa-864f-rcv7-6rh4) (1)
+- [GHSA-8gq3-vp5j-2grp](#ghsa-8gq3-vp5j-2grp) (1)
 - [GHSA-c39w-43gm-34h5](#ghsa-c39w-43gm-34h5) (1)
 - [GHSA-c4hm-4h84-2cf3](#ghsa-c4hm-4h84-2cf3) (1)
 - [GHSA-m5w8-4gq2-6f8x](#ghsa-m5w8-4gq2-6f8x) (1)
@@ -1496,7 +1502,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub PAT abuse](#github-pat-abuse) (1)
 - [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub release assets](#github-release-assets) (1)
-- [GitHub Security Advisories](#github-security-advisories) (3)
+- [GitHub Security Advisories](#github-security-advisories) (4)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
 - [GitLab](#gitlab) (3)
@@ -1639,7 +1645,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hospitality targeting](#hospitality-targeting) (2)
 - [host DNS hijacking](#host-dns-hijacking) (1)
 - [Host Radar](#host-radar) (1)
-- [host RCE](#host-rce) (1)
+- [host RCE](#host-rce) (2)
 - [host surveillance](#host-surveillance) (1)
 - [hosting control plane](#hosting-control-plane) (1)
 - [hosting provider](#hosting-provider) (1)
@@ -1793,7 +1799,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JarService](#jarservice) (1)
 - [Java](#java) (1)
 - [Java malware](#java-malware) (1)
-- [JavaScript](#javascript) (20)
+- [JavaScript](#javascript) (21)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript execution](#javascript-execution) (1)
 - [JavaScript injection](#javascript-injection) (2)
@@ -1833,6 +1839,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JSON](#json) (1)
 - [JSON-RPC](#json-rpc) (1)
 - [JSON:API](#jsonapi) (1)
+- [jsonata](#jsonata) (1)
 - [JSONKeeper](#jsonkeeper) (1)
 - [JSONL](#jsonl) (1)
 - [JSONPing](#jsonping) (1)
@@ -2303,7 +2310,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-gyp](#node-gyp) (2)
 - [node-ipc](#node-ipc) (1)
 - [node-pty](#node-pty) (1)
-- [Node.js](#nodejs) (8)
+- [Node.js](#nodejs) (9)
 - [Node.js implant](#nodejs-implant) (1)
 - [Node.js malware](#nodejs-malware) (1)
 - [NodeEdgeRAT](#nodeedgerat) (1)
@@ -2312,7 +2319,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notarized malware](#notarized-malware) (2)
 - [notebookjs](#notebookjs) (1)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (63)
+- [npm](#npm) (64)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm supply-chain](#npm-supply-chain) (1)
 - [npm token theft](#npm-token-theft) (1)
@@ -2645,6 +2652,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [protestware](#protestware) (1)
 - [Protobuf](#protobuf) (1)
 - [Proton Mail](#proton-mail) (1)
+- [prototype pollution](#prototype-pollution) (1)
 - [provenance](#provenance) (1)
 - [proxy](#proxy) (11)
 - [proxy botnet](#proxy-botnet) (1)
@@ -2899,7 +2907,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SAML](#saml) (1)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
-- [sandbox escape](#sandbox-escape) (5)
+- [sandbox escape](#sandbox-escape) (6)
 - [sandbox evasion](#sandbox-evasion) (1)
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (2)
@@ -3374,7 +3382,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (52)
+- [tools](#tools) (53)
 - [Tor](#tor) (4)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [TouchSocket](#touchsocket) (1)
@@ -6409,6 +6417,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
 ## code sandbox scraping
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -6921,6 +6930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## critical vulnerability
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
 ## critical-infrastructure
@@ -7715,6 +7725,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-7473
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
+
+## CVE-2026-77413
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
+
+## CVE-2026-77414
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
+
+## CVE-2026-77415
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
 ## CVE-2026-8037
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
@@ -9630,6 +9649,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GhostLock
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
+## GHSA-2943-5xfg-gq5f
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
+
+## GHSA-66mm-25pp-rfff
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
+
 ## GHSA-6rmh-7xcm-cpxj
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
@@ -9647,6 +9672,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GHSA-864f-rcv7-6rh4
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
+
+## GHSA-8gq3-vp5j-2grp
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
 ## GHSA-c39w-43gm-34h5
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
@@ -9781,6 +9809,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub Security Advisories
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 
 ## GitHub tokens
@@ -10298,6 +10327,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## host RCE
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
 ## host surveillance
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
@@ -10932,6 +10962,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
@@ -11079,6 +11110,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JSON:API
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## jsonata
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
 ## JSONKeeper
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
@@ -12945,6 +12979,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [TaskWeaver](../tools/taskweaver.md)
@@ -13019,6 +13054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
@@ -14965,6 +15001,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Proton Mail
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
 
+## prototype pollution
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
+
 ## provenance
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 
@@ -16013,6 +16052,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
@@ -17890,6 +17930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GigaWiper](../tools/gigawiper.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
+- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 - [LabubaRAT](../tools/labubarat.md)
 - [LurkProxy](../tools/lurkproxy.md)
