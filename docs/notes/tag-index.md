@@ -111,7 +111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AGENTPSD](#agentpsd) (2)
 - [AgentWorm](#agentworm) (1)
 - [AI](#ai) (6)
-- [AI agent](#ai-agent) (1)
+- [AI agent](#ai-agent) (2)
 - [AI agents](#ai-agents) (23)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (6)
@@ -701,6 +701,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [control flow flattening](#control-flow-flattening) (3)
 - [control panel compromise](#control-panel-compromise) (1)
 - [control plane](#control-plane) (3)
+- [control-flow hijacking](#control-flow-hijacking) (1)
 - [conversation theft](#conversation-theft) (1)
 - [cookie theft](#cookie-theft) (4)
 - [CookiETagRAT](#cookietagrat) (1)
@@ -742,7 +743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (8)
-- [critical vulnerability](#critical-vulnerability) (2)
+- [critical vulnerability](#critical-vulnerability) (3)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
 - [cron](#cron) (2)
@@ -1223,6 +1224,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [encrypted reasoning](#encrypted-reasoning) (1)
 - [EncryptInterceptor](#encryptinterceptor) (1)
 - [ENDLESSDOORS](#endlessdoors) (1)
+- [Endor Labs](#endor-labs) (1)
 - [endpoint compromise](#endpoint-compromise) (1)
 - [endpoint detection](#endpoint-detection) (1)
 - [endpoint management](#endpoint-management) (2)
@@ -1467,6 +1469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-6vxv-wg6j-5qwp](#ghsa-6vxv-wg6j-5qwp) (1)
 - [GHSA-6whr-xjjm-6pf8](#ghsa-6whr-xjjm-6pf8) (1)
 - [GHSA-78mw-f4q2-924q](#ghsa-78mw-f4q2-924q) (1)
+- [GHSA-864f-rcv7-6rh4](#ghsa-864f-rcv7-6rh4) (1)
 - [GHSA-c39w-43gm-34h5](#ghsa-c39w-43gm-34h5) (1)
 - [GHSA-c4hm-4h84-2cf3](#ghsa-c4hm-4h84-2cf3) (1)
 - [GHSA-m5w8-4gq2-6f8x](#ghsa-m5w8-4gq2-6f8x) (1)
@@ -1636,6 +1639,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hospitality targeting](#hospitality-targeting) (2)
 - [host DNS hijacking](#host-dns-hijacking) (1)
 - [Host Radar](#host-radar) (1)
+- [host RCE](#host-rce) (1)
 - [host surveillance](#host-surveillance) (1)
 - [hosting control plane](#hosting-control-plane) (1)
 - [hosting provider](#hosting-provider) (1)
@@ -1772,6 +1776,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ischhfd83](#ischhfd83) (1)
 - [Island Security Research](#island-security-research) (2)
 - [ISO image](#iso-image) (2)
+- [isolated-vm](#isolated-vm) (1)
 - [Israel](#israel) (4)
 - [IT providers](#it-providers) (1)
 - [Italian foreign-policy targeting](#italian-foreign-policy-targeting) (1)
@@ -1788,7 +1793,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JarService](#jarservice) (1)
 - [Java](#java) (1)
 - [Java malware](#java-malware) (1)
-- [JavaScript](#javascript) (19)
+- [JavaScript](#javascript) (20)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript execution](#javascript-execution) (1)
 - [JavaScript injection](#javascript-injection) (2)
@@ -2298,7 +2303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-gyp](#node-gyp) (2)
 - [node-ipc](#node-ipc) (1)
 - [node-pty](#node-pty) (1)
-- [Node.js](#nodejs) (7)
+- [Node.js](#nodejs) (8)
 - [Node.js implant](#nodejs-implant) (1)
 - [Node.js malware](#nodejs-malware) (1)
 - [NodeEdgeRAT](#nodeedgerat) (1)
@@ -2307,7 +2312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notarized malware](#notarized-malware) (2)
 - [notebookjs](#notebookjs) (1)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (62)
+- [npm](#npm) (63)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm supply-chain](#npm-supply-chain) (1)
 - [npm token theft](#npm-token-theft) (1)
@@ -2894,7 +2899,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SAML](#saml) (1)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
-- [sandbox escape](#sandbox-escape) (4)
+- [sandbox escape](#sandbox-escape) (5)
 - [sandbox evasion](#sandbox-evasion) (1)
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (2)
@@ -3225,7 +3230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (20)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (103)
+- [supply-chain](#supply-chain) (104)
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -3352,6 +3357,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TLS interception](#tls-interception) (1)
 - [TmcLoader](#tmcloader) (1)
 - [TmcPayload](#tmcpayload) (1)
+- [TOCTOU](#toctou) (1)
 - [ToddyCat](#toddycat) (3)
 - [token forgery](#token-forgery) (2)
 - [token jacking](#token-jacking) (1)
@@ -3368,7 +3374,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (51)
+- [tools](#tools) (52)
 - [Tor](#tor) (4)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [TouchSocket](#touchsocket) (1)
@@ -3420,6 +3426,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TWINLOOT](#twinloot) (1)
 - [two-factor authentication](#two-factor-authentication) (1)
 - [Tycoon2FA](#tycoon2fa) (1)
+- [type confusion](#type-confusion) (1)
 - [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (3)
 - [typosquatting](#typosquatting) (16)
@@ -3513,7 +3520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Uzbekistan](#uzbekistan) (1)
 - [V2Ray](#v2ray) (1)
 - [V4bel](#v4bel) (1)
-- [V8](#v8) (2)
+- [V8](#v8) (3)
 - [V8 isolate](#v8-isolate) (1)
 - [valid accounts](#valid-accounts) (4)
 - [ValleyRAT](#valleyrat) (2)
@@ -4232,6 +4239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## AI agent
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## AI agents
@@ -6627,6 +6635,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
+## control-flow hijacking
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
+
 ## conversation theft
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
@@ -6909,6 +6920,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## critical vulnerability
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
 ## critical-infrastructure
@@ -8708,6 +8720,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ENDLESSDOORS
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 
+## Endor Labs
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
+
 ## endpoint compromise
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
@@ -9630,6 +9645,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-78mw-f4q2-924q
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 
+## GHSA-864f-rcv7-6rh4
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
+
 ## GHSA-c39w-43gm-34h5
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 
@@ -10278,6 +10296,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Host Radar
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
+## host RCE
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
+
 ## host surveillance
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
@@ -10848,6 +10869,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
+## isolated-vm
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
+
 ## Israel
 - [Cavern Manticore](../actors/cavern-manticore.md)
 - [Handala](../actors/handala.md)
@@ -10906,6 +10930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -12918,6 +12943,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Node.js
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -12987,6 +13013,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
@@ -15985,6 +16012,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## sandbox escape
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
@@ -17252,6 +17280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [JiaT75](../people/jiat75.md)
 - [JINX-0164](../actors/jinx-0164.md)
@@ -17768,6 +17797,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TmcPayload
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
+## TOCTOU
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
+
 ## ToddyCat
 - [ToddyCat](../actors/toddycat.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
@@ -17857,6 +17889,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GenieLocker](../tools/genielocker.md)
 - [GigaWiper](../tools/gigawiper.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 - [LabubaRAT](../tools/labubarat.md)
 - [LurkProxy](../tools/lurkproxy.md)
@@ -18070,6 +18103,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Tycoon2FA
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
+
+## type confusion
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 
 ## TypeScript
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
@@ -18439,6 +18475,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## V8
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
+- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 
 ## V8 isolate
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)

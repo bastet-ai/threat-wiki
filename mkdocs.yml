@@ -347,6 +347,7 @@ nav:
       - SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit: tools/spectre-cross-platform-backdoor-specter-rootkit.md
       - RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave: tools/redc2.md
       - vm2 NodeVM host state exposure and DNS hijack: tools/vm2-nodevm-host-dns-hijack.md
+      - isolated-vm ExternalCopy type-confusion sandbox escape: tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md
       - Kimwolf v7: tools/kimwolf-v7.md
       - Aeternum: tools/aeternum.md
       - DeadLock ransomware: tools/deadlock-ransomware.md
