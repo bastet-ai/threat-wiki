@@ -28,6 +28,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [`.bin`](#bin) (1)
 - [`<all_urls>`](#all_urls) (1)
 - [AA26-231A](#aa26-231a) (1)
+- [AAA virtual server](#aaa-virtual-server) (1)
 - [Ababil of Minab](#ababil-of-minab) (1)
 - [abuse response](#abuse-response) (1)
 - [academic research](#academic-research) (1)
@@ -111,7 +112,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AgentWorm](#agentworm) (1)
 - [AI](#ai) (6)
 - [AI agent](#ai-agent) (1)
-- [AI agents](#ai-agents) (22)
+- [AI agents](#ai-agents) (23)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (6)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
@@ -135,7 +136,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI security](#ai-security) (2)
 - [AI services](#ai-services) (1)
 - [AI supply chain](#ai-supply-chain) (1)
-- [AI tooling](#ai-tooling) (16)
+- [AI tooling](#ai-tooling) (17)
 - [AI tools](#ai-tools) (1)
 - [AI trust boundary](#ai-trust-boundary) (1)
 - [AI vishing](#ai-vishing) (1)
@@ -153,6 +154,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-assisted phishing](#ai-assisted-phishing) (1)
 - [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
 - [AI-augmented operations](#ai-augmented-operations) (3)
+- [AI-generated advisory](#ai-generated-advisory) (1)
 - [AI-generated exploit](#ai-generated-exploit) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AI-generated narrator](#ai-generated-narrator) (1)
@@ -281,7 +283,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aura](#aura) (1)
 - [authenticated RCE](#authenticated-rce) (1)
 - [authenticated remote code execution](#authenticated-remote-code-execution) (1)
-- [authentication bypass](#authentication-bypass) (20)
+- [authentication bypass](#authentication-bypass) (21)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -553,6 +555,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
 - [CISA](#cisa) (9)
+- [CISA ADP](#cisa-adp) (1)
 - [CISA KEV](#cisa-kev) (34)
 - [Cisco](#cisco) (5)
 - [Cisco IOS](#cisco-ios) (1)
@@ -563,7 +566,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified Communications Manager](#cisco-unified-communications-manager) (1)
 - [citizen portal compromise](#citizen-portal-compromise) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
-- [Citrix](#citrix) (2)
+- [Citrix](#citrix) (3)
 - [Citrix NetScaler](#citrix-netscaler) (2)
 - [CitrixBleed](#citrixbleed) (1)
 - [CitrixBleed 2](#citrixbleed-2) (1)
@@ -786,7 +789,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Curve25519](#curve25519) (2)
 - [Curve25519-XSalsa20-Poly1305](#curve25519-xsalsa20-poly1305) (1)
 - [custody APIs](#custody-apis) (1)
-- [CVE](#cve) (1)
+- [CVE](#cve) (2)
 - [CVE-2008-4128](#cve-2008-4128) (1)
 - [CVE-2013-3307](#cve-2013-3307) (1)
 - [CVE-2016-5681](#cve-2016-5681) (1)
@@ -850,6 +853,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-18556](#cve-2026-18556) (2)
 - [CVE-2026-18577](#cve-2026-18577) (1)
 - [CVE-2026-19478](#cve-2026-19478) (1)
+- [CVE-2026-19489](#cve-2026-19489) (1)
+- [CVE-2026-19490](#cve-2026-19490) (1)
 - [CVE-2026-19516](#cve-2026-19516) (1)
 - [CVE-2026-19650](#cve-2026-19650) (1)
 - [CVE-2026-20127](#cve-2026-20127) (1)
@@ -931,6 +936,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-50656](#cve-2026-50656) (1)
 - [CVE-2026-50751](#cve-2026-50751) (1)
 - [CVE-2026-50752](#cve-2026-50752) (1)
+- [CVE-2026-51296](#cve-2026-51296) (1)
+- [CVE-2026-51297](#cve-2026-51297) (1)
+- [CVE-2026-51300](#cve-2026-51300) (1)
+- [CVE-2026-51302](#cve-2026-51302) (1)
+- [CVE-2026-51303](#cve-2026-51303) (1)
+- [CVE-2026-51304](#cve-2026-51304) (1)
 - [CVE-2026-52810](#cve-2026-52810) (1)
 - [CVE-2026-52813](#cve-2026-52813) (1)
 - [CVE-2026-53359](#cve-2026-53359) (1)
@@ -1037,7 +1048,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
 - [delayed execution](#delayed-execution) (2)
-- [denial of service](#denial-of-service) (6)
+- [denial of service](#denial-of-service) (7)
 - [Deno](#deno) (2)
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (5)
@@ -1165,7 +1176,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [eBPF](#ebpf) (3)
 - [Eclipse](#eclipse) (1)
 - [Ed25519](#ed25519) (1)
-- [edge appliance](#edge-appliance) (13)
+- [edge appliance](#edge-appliance) (14)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (3)
@@ -1174,6 +1185,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Edge extension](#edge-extension) (1)
 - [edge service](#edge-service) (2)
 - [edge services](#edge-services) (1)
+- [edge-service denial of service](#edge-service-denial-of-service) (1)
 - [editor profile import](#editor-profile-import) (1)
 - [EDR bypass](#edr-bypass) (1)
 - [EDR evasion](#edr-evasion) (2)
@@ -1314,6 +1326,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FakeUpdates](#fakeupdates) (1)
 - [FALCON](#falcon) (1)
 - [FallSpy](#fallspy) (1)
+- [false positive](#false-positive) (1)
 - [FAMOUS CHOLLIMA](#famous-chollima) (2)
 - [Famous Chollima](#famous-chollima) (2)
 - [Fancy Bear](#fancy-bear) (1)
@@ -1787,7 +1800,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetStream](#jetstream) (1)
 - [JFrog](#jfrog) (3)
 - [JFrog Artifactory](#jfrog-artifactory) (1)
-- [JFrog Security Research](#jfrog-security-research) (3)
+- [JFrog Security Research](#jfrog-security-research) (4)
 - [Jinja2](#jinja2) (1)
 - [JINX-0164](#jinx-0164) (2)
 - [Jira](#jira) (2)
@@ -1800,6 +1813,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JoomShaper](#joomshaper) (1)
 - [Jordan](#jordan) (1)
 - [journalists](#journalists) (1)
+- [JPMorgan Chase](#jpmorgan-chase) (1)
 - [JSCEAL](#jsceal) (1)
 - [JSCoreRunner](#jscorerunner) (1)
 - [jscrambler](#jscrambler) (1)
@@ -1941,9 +1955,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [living off the land](#living-off-the-land) (1)
 - [living-off-the-land](#living-off-the-land) (1)
 - [living-off-the-land binaries](#living-off-the-land-binaries) (1)
-- [LLM](#llm) (7)
+- [LLM](#llm) (8)
 - [LLM command execution](#llm-command-execution) (1)
 - [LLM security](#llm-security) (1)
+- [LLM slop](#llm-slop) (1)
 - [LLM-assisted malware](#llm-assisted-malware) (3)
 - [LLM-driven intrusion](#llm-driven-intrusion) (1)
 - [LLMjacking](#llmjacking) (1)
@@ -1985,6 +2000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LS-DYNA](#ls-dyna) (1)
 - [LSASS](#lsass) (1)
 - [LSHIY](#lshiy) (1)
+- [LSN](#lsn) (1)
 - [LSSC](#lssc) (1)
 - [Lua](#lua) (1)
 - [LuaJIT](#luajit) (1)
@@ -2068,6 +2084,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [memory corruption](#memory-corruption) (2)
 - [memory disclosure](#memory-disclosure) (2)
 - [memory implant](#memory-implant) (1)
+- [memory overflow](#memory-overflow) (1)
 - [memory overread](#memory-overread) (1)
 - [memory poisoning](#memory-poisoning) (2)
 - [memory protection unit](#memory-protection-unit) (1)
@@ -2241,9 +2258,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetKeyboard](#netkeyboard) (1)
 - [Netlify abuse](#netlify-abuse) (1)
 - [NetNut](#netnut) (1)
-- [NetScaler](#netscaler) (2)
-- [NetScaler ADC](#netscaler-adc) (2)
-- [NetScaler Gateway](#netscaler-gateway) (2)
+- [NetScaler](#netscaler) (3)
+- [NetScaler ADC](#netscaler-adc) (3)
+- [NetScaler Gateway](#netscaler-gateway) (3)
 - [NetSetup.log](#netsetuplog) (1)
 - [network detection](#network-detection) (1)
 - [network infrastructure](#network-infrastructure) (2)
@@ -2301,6 +2318,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nuitka](#nuitka) (1)
 - [null-byte padding](#null-byte-padding) (1)
 - [NullReceiver](#nullreceiver) (1)
+- [NVD](#nvd) (1)
 - [NVGRE](#nvgre) (1)
 - [NVIDIA impersonation](#nvidia-impersonation) (1)
 - [O-UNC-066](#o-unc-066) (1)
@@ -2374,11 +2392,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (286)
+- [operations](#operations) (287)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (327)
+- [ops](#ops) (328)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
@@ -2457,12 +2475,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patch management](#patch-management) (2)
 - [patch-now](#patch-now) (1)
 - [PATCHCORD](#patchcord) (1)
-- [patching](#patching) (1)
+- [patching](#patching) (2)
 - [patchstack](#patchstack) (1)
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (6)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (42)
+- [patterns](#patterns) (43)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload-as-a-service](#payload-as-a-service) (1)
@@ -2741,7 +2759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [Remcos](#remcos) (2)
 - [Remcos RAT](#remcos-rat) (1)
-- [remote access](#remote-access) (6)
+- [remote access](#remote-access) (7)
 - [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (5)
 - [Remote Access VPN](#remote-access-vpn) (1)
@@ -2864,6 +2882,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Safari](#safari) (1)
 - [SafeDep](#safedep) (7)
 - [Salesforce](#salesforce) (4)
+- [SAML](#saml) (1)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
 - [sandbox escape](#sandbox-escape) (4)
@@ -3007,6 +3026,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SimpleHTTPServer exposure](#simplehttpserver-exposure) (1)
 - [simulation tampering](#simulation-tampering) (1)
 - [SIP](#sip) (1)
+- [SIP ALG](#sip-alg) (1)
 - [Site Member permissions](#site-member-permissions) (1)
 - [skb](#skb) (1)
 - [SkillCloak](#skillcloak) (1)
@@ -3113,7 +3133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Spyroid](#spyroid) (1)
 - [spyware](#spyware) (1)
 - [SQL injection](#sql-injection) (8)
-- [SQLite](#sqlite) (1)
+- [SQLite](#sqlite) (2)
 - [SQLite state](#sqlite-state) (1)
 - [SQLRCE0](#sqlrce0) (1)
 - [SquareShell](#squareshell) (1)
@@ -3131,7 +3151,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunnel](#ssh-tunnel) (1)
 - [SSH tunneling](#ssh-tunneling) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
-- [SSL VPN](#ssl-vpn) (2)
+- [SSL VPN](#ssl-vpn) (3)
 - [SSO](#sso) (1)
 - [SSRF](#ssrf) (7)
 - [STAC4749](#stac4749) (1)
@@ -3186,7 +3206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (20)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (102)
+- [supply-chain](#supply-chain) (103)
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -3355,6 +3375,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro](#trend-micro) (3)
 - [TrendAI](#trendai) (2)
 - [Trezor](#trezor) (1)
+- [triage](#triage) (1)
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
 - [trojanized installers](#trojanized-installers) (3)
@@ -3531,7 +3552,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Volt Typhoon](#volt-typhoon) (1)
 - [VoLTE](#volte) (1)
 - [volume serial number](#volume-serial-number) (1)
-- [VPN](#vpn) (7)
+- [VPN](#vpn) (8)
 - [VPN credentials](#vpn-credentials) (2)
 - [VPN gateway](#vpn-gateway) (1)
 - [VPN Go](#vpn-go) (1)
@@ -3545,8 +3566,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vSphere Foundation](#vsphere-foundation) (1)
 - [VU#213560](#vu213560) (1)
 - [VulnCheck](#vulncheck) (3)
-- [vulnerability](#vulnerability) (22)
+- [vulnerability](#vulnerability) (23)
+- [vulnerability database pollution](#vulnerability-database-pollution) (1)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
+- [vulnerability management](#vulnerability-management) (1)
 - [vulnerability research](#vulnerability-research) (4)
 - [vulnerability-research](#vulnerability-research) (1)
 - [vulnerable appliances](#vulnerable-appliances) (1)
@@ -3809,6 +3832,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AA26-231A
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
+
+## AAA virtual server
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 
 ## Ababil of Minab
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -4202,6 +4228,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
@@ -4304,6 +4331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
@@ -4374,6 +4402,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
+## AI-generated advisory
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## AI-generated exploit
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
@@ -4835,6 +4866,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
@@ -5949,6 +5981,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
+## CISA ADP
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
+
 ## CISA KEV
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -6018,6 +6053,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 
 ## Citrix
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
@@ -7048,6 +7084,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
 ## CVE
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
 ## CVE-2008-4128
@@ -7246,6 +7283,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-19478
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+
+## CVE-2026-19489
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
+
+## CVE-2026-19490
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 
 ## CVE-2026-19516
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
@@ -7500,6 +7543,24 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-50752
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+
+## CVE-2026-51296
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
+
+## CVE-2026-51297
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
+
+## CVE-2026-51300
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
+
+## CVE-2026-51302
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
+
+## CVE-2026-51303
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
+
+## CVE-2026-51304
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## CVE-2026-52810
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
@@ -7911,6 +7972,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 
 ## denial of service
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -8449,6 +8511,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
@@ -8489,6 +8552,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## edge services
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
+
+## edge-service denial of service
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 
 ## editor profile import
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
@@ -9061,6 +9127,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FallSpy
 - [GREYVIBE](../actors/greyvibe.md)
+
+## false positive
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## FAMOUS CHOLLIMA
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -10873,6 +10942,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JFrog Security Research
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
@@ -10915,6 +10985,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## journalists
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+
+## JPMorgan Chase
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 
 ## JSCEAL
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
@@ -11454,6 +11527,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
@@ -11463,6 +11537,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LLM security
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+
+## LLM slop
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## LLM-assisted malware
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
@@ -11616,6 +11693,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LSHIY
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+
+## LSN
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 
 ## LSSC
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -12015,6 +12095,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## memory implant
 - [WLDR agent](../tools/wldr-agent.md)
+
+## memory overflow
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 
 ## memory overread
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -12678,15 +12761,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## NetScaler
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## NetScaler ADC
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 
 ## NetScaler Gateway
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 
 ## NetSetup.log
@@ -12953,6 +13039,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NullReceiver
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
+
+## NVD
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## NVGRE
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -13271,6 +13360,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
@@ -13576,6 +13666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
@@ -14114,6 +14205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## patching
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## patchstack
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
@@ -14161,6 +14253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
@@ -15326,6 +15419,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAT-11795](../actors/uat-11795.md)
 
 ## remote access
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -15823,6 +15917,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
+## SAML
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 
 ## SAML IdP
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -16341,6 +16438,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SIP
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
 
+## SIP ALG
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
+
 ## Site Member permissions
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
@@ -16748,6 +16848,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SQLite
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## SQLite state
 - [LabubaRAT](../tools/labubarat.md)
@@ -16808,6 +16909,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Atlas](../actors/cloud-atlas.md)
 
 ## SSL VPN
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 
@@ -17074,6 +17176,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -17788,6 +17891,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Trezor
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
+## triage
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
+
 ## TrickBot
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -18455,6 +18561,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VPN
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [First VPN](../tools/first-vpn.md)
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
@@ -18519,6 +18626,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+- [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
@@ -18537,9 +18645,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
+## vulnerability database pollution
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
+
 ## vulnerability exploitation
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
+
+## vulnerability management
+- [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## vulnerability research
 - [ChocoPoC](../tools/chocopoc.md)

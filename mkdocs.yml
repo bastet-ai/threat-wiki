@@ -164,6 +164,7 @@ nav:
       - JADEPUFFER Langflow agentic ransomware: ops/jadepuffer-langflow-agentic-ransomware.md
       - Adobe ColdFusion APSB26-68 CVE bonanza: ops/adobe-coldfusion-apsb26-68-cve-bonanza.md
       - Citrix NetScaler CVE-2026-8451 memory overread: ops/citrix-netscaler-cve-2026-8451-memory-overread.md
+      - Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass: ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md
       - ChocoPoC fake PoC supply-chain campaign: ops/chocopoc-fake-poc-supply-chain-campaign.md
       - Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions: ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md
       - Argo CD repo-server unauthenticated RCE: ops/argo-cd-repo-server-unauthenticated-rce.md
@@ -467,6 +468,7 @@ nav:
       - Git hash chain malleability: patterns/git-hash-chain-malleability.md
       - Agentic workflow trust-boundary failures: patterns/agentic-workflow-trust-boundary-failures.md
       - Phantom squatting AI-hallucinated domains: patterns/phantom-squatting-ai-hallucinated-domains.md
+      - LLM-slop false CVEs (SQLite advisory batch): patterns/llm-slop-false-cves-sqlite-batch.md
       - MCP tool-description poisoning: patterns/mcp-tool-description-poisoning.md
       - GuardFall AI-agent shell-guard bypass: patterns/guardfall-ai-agent-shell-guard-bypass.md
       - Cloud bucket namespace hijacking: patterns/cloud-bucket-namespace-hijacking.md
