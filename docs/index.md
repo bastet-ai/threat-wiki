@@ -7,6 +7,8 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
+- [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw](ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
@@ -15,8 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](tools/redc2.md)
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
-- [Fake TradingView macOS stealer delivered by a paid YouTube ad](ops/fake-tradingview-macos-stealer-malvertising.md)
-- [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking (GTIG)](ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

@@ -7,6 +7,10 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "Dream: near-autonomous multi-agent AI framework compromises Asian government entities": ops/dream-multi-agent-ai-framework-asian-government-compromise.md
+      - "AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure": ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md
+      - "Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0": ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md
+      - "Adversa Cryptographic Context Injection: web pages steal Grok chat data": ops/adversa-cryptographic-context-injection-grok-chat-data-exfiltration.md
       - "UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions": ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md
       - "BTR Reforged: weaponizing Defender's BTR.sys remediation driver as a kernel primitive": ops/microsoft-defender-btr-sys-reforged-btr-cli.md
       - "DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet": ops/dofun-android-head-unit-jarservice-moyu-badbox.md
