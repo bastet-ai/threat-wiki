@@ -110,7 +110,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AgentWorm](#agentworm) (1)
-- [AI](#ai) (6)
+- [AI](#ai) (7)
 - [AI agent](#ai-agent) (2)
 - [AI agents](#ai-agents) (23)
 - [AI anti-analysis](#ai-anti-analysis) (1)
@@ -640,7 +640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CMS exploitation](#cms-exploitation) (1)
 - [CNCERT](#cncert) (1)
 - [Cobalt Strike](#cobalt-strike) (6)
-- [code execution](#code-execution) (3)
+- [code execution](#code-execution) (4)
 - [code injection](#code-injection) (4)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
@@ -743,7 +743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical infrastructure](#critical-infrastructure) (8)
-- [critical vulnerability](#critical-vulnerability) (4)
+- [critical vulnerability](#critical-vulnerability) (5)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
 - [cron](#cron) (2)
@@ -960,6 +960,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-59318](#cve-2026-59318) (1)
 - [CVE-2026-59726](#cve-2026-59726) (1)
 - [CVE-2026-60137](#cve-2026-60137) (1)
+- [CVE-2026-61539](#cve-2026-61539) (1)
 - [CVE-2026-62144](#cve-2026-62144) (1)
 - [CVE-2026-62145](#cve-2026-62145) (1)
 - [CVE-2026-63030](#cve-2026-63030) (1)
@@ -1275,6 +1276,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Europe targeting](#europe-targeting) (1)
 - [European Union](#european-union) (1)
 - [Europol](#europol) (2)
+- [eval injection](#eval-injection) (1)
 - [evaluation containment](#evaluation-containment) (1)
 - [evasion](#evasion) (1)
 - [event log clearing](#event-log-clearing) (2)
@@ -1482,6 +1484,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-qrpv-q767-xqq2](#ghsa-qrpv-q767-xqq2) (1)
 - [GHSA-rg76-677x-56q9](#ghsa-rg76-677x-56q9) (1)
 - [GHSA-vwf4-m7j8-wcjf](#ghsa-vwf4-m7j8-wcjf) (1)
+- [GHSA-x2rj-828p-hx9m](#ghsa-x2rj-828p-hx9m) (1)
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [Git](#git) (1)
@@ -1502,7 +1505,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub PAT abuse](#github-pat-abuse) (1)
 - [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub release assets](#github-release-assets) (1)
-- [GitHub Security Advisories](#github-security-advisories) (4)
+- [GitHub Security Advisories](#github-security-advisories) (5)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
 - [GitLab](#gitlab) (3)
@@ -1732,6 +1735,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [industrial control systems](#industrial-control-systems) (3)
 - [industrial espionage](#industrial-espionage) (1)
 - [industrial targeting](#industrial-targeting) (1)
+- [inference server](#inference-server) (1)
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (5)
@@ -1973,7 +1977,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [living off the land](#living-off-the-land) (1)
 - [living-off-the-land](#living-off-the-land) (1)
 - [living-off-the-land binaries](#living-off-the-land-binaries) (1)
-- [LLM](#llm) (8)
+- [LLM](#llm) (9)
 - [LLM command execution](#llm-command-execution) (1)
 - [LLM security](#llm-security) (1)
 - [LLM slop](#llm-slop) (1)
@@ -2640,7 +2644,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Software](#progress-software) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
 - [prompt infection](#prompt-infection) (1)
-- [prompt injection](#prompt-injection) (13)
+- [prompt injection](#prompt-injection) (14)
 - [prompt-injection](#prompt-injection) (4)
 - [prompt-injection guardrail bypass](#prompt-injection-guardrail-bypass) (1)
 - [PromptArmor](#promptarmor) (1)
@@ -2687,8 +2691,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pwn-request](#pwn-request) (1)
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
-- [PyPI](#pypi) (14)
-- [Python](#python) (15)
+- [PyPI](#pypi) (15)
+- [Python](#python) (16)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python implant](#python-implant) (1)
 - [Python malware](#python-malware) (2)
@@ -3382,7 +3386,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (53)
+- [tools](#tools) (54)
 - [Tor](#tor) (4)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [TouchSocket](#touchsocket) (1)
@@ -3732,6 +3736,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XenoRAT](#xenorat) (2)
 - [XFRM](#xfrm) (1)
 - [Xiaomi Redmi A5](#xiaomi-redmi-a5) (1)
+- [xinference](#xinference) (1)
 - [xlabs_v1](#xlabs_v1) (1)
 - [XMLDecoder](#xmldecoder) (1)
 - [XMRig](#xmrig) (7)
@@ -4244,6 +4249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## AI agent
@@ -6412,6 +6418,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
 ## code injection
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
@@ -6932,6 +6939,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
 ## critical-infrastructure
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
@@ -7656,6 +7664,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-60137
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
+
+## CVE-2026-61539
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
 ## CVE-2026-62144
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
@@ -8976,6 +8987,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
+## eval injection
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
+
 ## evaluation containment
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 
@@ -9694,6 +9708,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-vwf4-m7j8-wcjf
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 
+## GHSA-x2rj-828p-hx9m
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
+
 ## GHSA-xhcr-j4j9-3gh7
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
@@ -9811,6 +9828,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
 ## GitHub tokens
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
@@ -10676,6 +10694,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## industrial targeting
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
+
+## inference server
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
 ## INFINITERED
 - [UNC6508](../actors/unc6508.md)
@@ -11632,6 +11653,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
 ## LLM command execution
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
@@ -14964,6 +14986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
 ## prompt-injection
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -15147,6 +15170,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## Python
@@ -15164,6 +15188,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## Python extension modules
@@ -17964,6 +17989,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 - [WLDR agent](../tools/wldr-agent.md)
 - [XCSSET](../tools/xcsset.md)
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
 ## Tor
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -19369,6 +19395,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Xiaomi Redmi A5
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
+
+## xinference
+- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
 ## xlabs_v1
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)

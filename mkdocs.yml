@@ -349,6 +349,7 @@ nav:
       - vm2 NodeVM host state exposure and DNS hijack: tools/vm2-nodevm-host-dns-hijack.md
       - isolated-vm ExternalCopy type-confusion sandbox escape: tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md
       - JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415): tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md
+      - "Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing": tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md
       - Kimwolf v7: tools/kimwolf-v7.md
       - Aeternum: tools/aeternum.md
       - DeadLock ransomware: tools/deadlock-ransomware.md
