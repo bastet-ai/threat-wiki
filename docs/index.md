@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [RustSec publishes seven `malicious` advisories for the arrayref / proc-macro1 crates.io attack; Rust team confirms maintainer compromise](ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md#rustsec-advisories-published-and-the-rust-security-teams-official-account)
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [LLM-slop false CVEs: AI-generated SQLite advisory batch poisoning NVD / CISA](patterns/llm-slop-false-cves-sqlite-batch.md)
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
-- [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

@@ -51,7 +51,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (65)
+- [active exploitation](#active-exploitation) (66)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -175,6 +175,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AMOS](#amos) (3)
 - [AMSI bypass](#amsi-bypass) (5)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
+- [Ancillary Function Driver](#ancillary-function-driver) (1)
 - [Android](#android) (10)
 - [Android Accessibility Service](#android-accessibility-service) (2)
 - [Android ADB](#android-adb) (3)
@@ -261,6 +262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [arXiv](#arxiv) (1)
 - [AryStinger](#arystinger) (1)
 - [AS32167](#as32167) (1)
+- [ASA](#asa) (1)
 - [ASHX](#ashx) (1)
 - [Asia targeting](#asia-targeting) (1)
 - [ASLR bypass](#aslr-bypass) (1)
@@ -395,7 +397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BLUEBEAM](#bluebeam) (1)
 - [bluemonday](#bluemonday) (1)
 - [Boatnet](#boatnet) (1)
-- [BOD 26-04](#bod-26-04) (2)
+- [BOD 26-04](#bod-26-04) (3)
 - [body hash](#body-hash) (1)
 - [BOF](#bof) (1)
 - [Boot Bus Extender](#boot-bus-extender) (1)
@@ -560,10 +562,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD credential theft](#cicd-credential-theft) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (9)
+- [CISA](#cisa) (10)
 - [CISA ADP](#cisa-adp) (1)
-- [CISA KEV](#cisa-kev) (34)
-- [Cisco](#cisco) (5)
+- [CISA KEV](#cisa-kev) (35)
+- [Cisco](#cisco) (6)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
 - [Cisco Nexus](#cisco-nexus) (1)
@@ -871,6 +873,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-20253](#cve-2026-20253) (1)
 - [CVE-2026-20262](#cve-2026-20262) (1)
 - [CVE-2026-20316](#cve-2026-20316) (1)
+- [CVE-2026-20349](#cve-2026-20349) (1)
 - [CVE-2026-20896](#cve-2026-20896) (1)
 - [CVE-2026-21513](#cve-2026-21513) (1)
 - [CVE-2026-21858](#cve-2026-21858) (1)
@@ -982,10 +985,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-6688](#cve-2026-6688) (1)
 - [CVE-2026-67426](#cve-2026-67426) (1)
 - [CVE-2026-6875](#cve-2026-6875) (1)
+- [CVE-2026-68820](#cve-2026-68820) (1)
 - [CVE-2026-69836](#cve-2026-69836) (1)
 - [CVE-2026-72529](#cve-2026-72529) (1)
 - [CVE-2026-72530](#cve-2026-72530) (1)
-- [CVE-2026-72898](#cve-2026-72898) (1)
+- [CVE-2026-72898](#cve-2026-72898) (2)
 - [CVE-2026-73570](#cve-2026-73570) (1)
 - [CVE-2026-7473](#cve-2026-7473) (1)
 - [CVE-2026-77413](#cve-2026-77413) (1)
@@ -1061,7 +1065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
 - [delayed execution](#delayed-execution) (2)
-- [denial of service](#denial-of-service) (8)
+- [denial of service](#denial-of-service) (9)
 - [Deno](#deno) (2)
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (5)
@@ -1439,6 +1443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fscan](#fscan) (1)
 - [Fscan](#fscan) (1)
 - [FTA](#fta) (1)
+- [FTD](#ftd) (1)
 - [ftp.exe](#ftpexe) (1)
 - [ftrace](#ftrace) (1)
 - [Full Disk Access social engineering](#full-disk-access-social-engineering) (1)
@@ -1997,7 +2002,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LOADLOOP](#loadloop) (1)
 - [local exploit](#local-exploit) (1)
 - [local LLMs](#local-llms) (1)
-- [local privilege escalation](#local-privilege-escalation) (7)
+- [local privilege escalation](#local-privilege-escalation) (8)
 - [local-file-inclusion](#local-file-inclusion) (1)
 - [localhost](#localhost) (1)
 - [localhost.run](#localhostrun) (1)
@@ -2123,7 +2128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MeshCentral](#meshcentral) (2)
 - [Meta Ads](#meta-ads) (1)
 - [meta-hacking](#meta-hacking) (1)
-- [Metabase](#metabase) (1)
+- [Metabase](#metabase) (2)
 - [MetaMask](#metamask) (1)
 - [Metasploit](#metasploit) (1)
 - [MEV bot lure](#mev-bot-lure) (1)
@@ -2137,7 +2142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MicroLogix 1100](#micrologix-1100) (1)
 - [MicroLogix 1400](#micrologix-1400) (1)
 - [MicroPython](#micropython) (2)
-- [Microsoft](#microsoft) (12)
+- [Microsoft](#microsoft) (13)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (9)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
@@ -2419,11 +2424,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (287)
+- [operations](#operations) (288)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (330)
+- [ops](#ops) (331)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
@@ -2953,6 +2958,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secrets](#secrets) (6)
 - [secrets management](#secrets-management) (1)
 - [SectopRAT](#sectoprat) (1)
+- [Secure Firewall](#secure-firewall) (1)
 - [Secure Firewall Management Center](#secure-firewall-management-center) (1)
 - [Secure Preferences](#secure-preferences) (1)
 - [Secure Workload](#secure-workload) (1)
@@ -3172,7 +3178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SprySOCKS](#sprysocks) (2)
 - [Spyroid](#spyroid) (1)
 - [spyware](#spyware) (1)
-- [SQL injection](#sql-injection) (8)
+- [SQL injection](#sql-injection) (9)
 - [SQLite](#sqlite) (2)
 - [SQLite state](#sqlite-state) (1)
 - [SQLRCE0](#sqlrce0) (1)
@@ -3522,7 +3528,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [USB propagation](#usb-propagation) (1)
 - [USB weaponizer](#usb-weaponizer) (1)
 - [USB worm](#usb-worm) (2)
-- [use-after-free](#use-after-free) (2)
+- [use-after-free](#use-after-free) (3)
 - [user execution](#user-execution) (2)
 - [user namespaces](#user-namespaces) (2)
 - [user verification](#user-verification) (1)
@@ -3687,7 +3693,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
 - [Windmill](#windmill) (1)
-- [Windows](#windows) (49)
+- [Windows](#windows) (50)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Defender impairment](#windows-defender-impairment) (1)
@@ -3704,6 +3710,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Winos4.0](#winos40) (1)
 - [WinPython](#winpython) (1)
 - [WinRAR](#winrar) (4)
+- [WinSock](#winsock) (1)
 - [wiper](#wiper) (3)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
@@ -3772,7 +3779,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zephyr RTOS](#zephyr-rtos) (1)
 - [Zero Trust](#zero-trust) (1)
 - [zero-click](#zero-click) (1)
-- [zero-day](#zero-day) (7)
+- [zero-day](#zero-day) (8)
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [ZeroBEC](#zerobec) (1)
@@ -3960,6 +3967,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
@@ -4523,6 +4531,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AmsiScanBuffer
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
+## Ancillary Function Driver
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
+
 ## Android
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
@@ -4834,6 +4845,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AS32167
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+
+## ASA
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 
 ## ASHX
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
@@ -5336,6 +5350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
 ## BOD 26-04
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
@@ -6039,6 +6054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CISA
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
@@ -6056,6 +6072,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
@@ -6088,6 +6105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## Cisco
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
@@ -7394,6 +7412,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-20316
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 
+## CVE-2026-20349
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
+
 ## CVE-2026-20896
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 
@@ -7739,6 +7760,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-6875
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 
+## CVE-2026-68820
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
+
 ## CVE-2026-69836
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
@@ -7749,6 +7773,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
 
 ## CVE-2026-72898
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 
 ## CVE-2026-73570
@@ -8068,6 +8093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## denial of service
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -9574,6 +9600,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FTA
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+
+## FTD
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 
 ## ftp.exe
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
@@ -11739,6 +11768,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## local privilege escalation
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -12282,6 +12312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
 
 ## Metabase
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 
 ## MetaMask
@@ -12352,6 +12383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -13506,6 +13538,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
@@ -13812,6 +13845,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
@@ -16256,6 +16290,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SectopRAT
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
+## Secure Firewall
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
+
 ## Secure Firewall Management Center
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 
@@ -17045,6 +17082,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SQL injection
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -18524,6 +18562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## use-after-free
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
@@ -19178,6 +19217,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BridgeHead](../tools/bridgehead.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
@@ -19282,6 +19322,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## WinSock
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 
 ## wiper
 - [GigaWiper](../tools/gigawiper.md)
@@ -19536,6 +19579,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 
 ## zero-day
+- [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)

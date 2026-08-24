@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD": ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md
       - "StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)": ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md
       - "Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap": ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md
       - "Dream: near-autonomous multi-agent AI framework compromises Asian government entities": ops/dream-multi-agent-ai-framework-asian-government-compromise.md
