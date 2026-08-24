@@ -276,6 +276,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Atlas RAT](#atlas-rat) (1)
 - [Atlassian](#atlassian) (1)
 - [Atomic Stealer](#atomic-stealer) (2)
+- [attack-rate](#attack-rate) (1)
 - [audio surveillance](#audio-surveillance) (1)
 - [AUDIOFIX](#audiofix) (2)
 - [audit logging](#audit-logging) (1)
@@ -484,6 +485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [campaign](#campaign) (6)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
+- [CanisterWorm](#canisterworm) (1)
 - [CAP_NET_ADMIN](#cap_net_admin) (2)
 - [CAPTCHA OCR](#captcha-ocr) (1)
 - [captive portal](#captive-portal) (2)
@@ -502,6 +504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CDN](#cdn) (1)
 - [CDP](#cdp) (1)
 - [cellular modem](#cellular-modem) (1)
+- [census](#census) (1)
 - [Censys](#censys) (1)
 - [Censys ARC](#censys-arc) (1)
 - [Central Asia](#central-asia) (2)
@@ -515,7 +518,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CFIDE](#cfide) (1)
 - [ChaCha20](#chacha20) (1)
 - [chain-of-thought](#chain-of-thought) (1)
-- [ChainDrop](#chaindrop) (1)
+- [ChainDrop](#chaindrop) (2)
 - [ChainVeil](#chainveil) (1)
 - [Chaos ransomware](#chaos-ransomware) (1)
 - [Chaotic Eclipse](#chaotic-eclipse) (1)
@@ -554,6 +557,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI-CD](#ci-cd) (4)
 - [CI/CD](#cicd) (43)
 - [CI/CD abuse](#cicd-abuse) (1)
+- [CI/CD credential theft](#cicd-credential-theft) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
 - [CISA](#cisa) (9)
@@ -667,7 +671,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [commercial messaging applications](#commercial-messaging-applications) (1)
 - [commit farming](#commit-farming) (1)
 - [communications infrastructure](#communications-infrastructure) (1)
-- [Composer](#composer) (5)
+- [Composer](#composer) (6)
 - [compromised accounts](#compromised-accounts) (2)
 - [compromised credentials](#compromised-credentials) (1)
 - [compromised infrastructure](#compromised-infrastructure) (1)
@@ -723,7 +727,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cracked software](#cracked-software) (1)
 - [CrackMapExec](#crackmapexec) (1)
 - [CrashStealer](#crashstealer) (1)
-- [crates.io](#cratesio) (1)
+- [crates.io](#cratesio) (2)
 - [Crates.io](#cratesio) (1)
 - [credential attack](#credential-attack) (1)
 - [credential attacks](#credential-attacks) (3)
@@ -1493,7 +1497,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea](#gitea) (1)
 - [GitHub](#github) (23)
 - [GitHub abuse](#github-abuse) (3)
-- [GitHub Actions](#github-actions) (26)
+- [GitHub Actions](#github-actions) (27)
 - [GitHub Advisory Database](#github-advisory-database) (1)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
@@ -2129,7 +2133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA fatigue](#mfa-fatigue) (2)
 - [MFA-bypass](#mfa-bypass) (1)
 - [MFT](#mft) (1)
-- [Miasma](#miasma) (10)
+- [Miasma](#miasma) (11)
 - [MicroLogix 1100](#micrologix-1100) (1)
 - [MicroLogix 1400](#micrologix-1400) (1)
 - [MicroPython](#micropython) (2)
@@ -2167,7 +2171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mimikatz](#mimikatz) (6)
 - [mind virus](#mind-virus) (1)
 - [Minecraft DDoS](#minecraft-ddos) (1)
-- [Mini Shai-Hulud](#mini-shai-hulud) (5)
+- [Mini Shai-Hulud](#mini-shai-hulud) (6)
 - [MiniJunk](#minijunk) (1)
 - [MiniPlasma](#miniplasma) (1)
 - [MINIRAT](#minirat) (2)
@@ -2323,7 +2327,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notarized malware](#notarized-malware) (2)
 - [notebookjs](#notebookjs) (1)
 - [notification interception](#notification-interception) (1)
-- [npm](#npm) (64)
+- [npm](#npm) (65)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm supply-chain](#npm-supply-chain) (1)
 - [npm token theft](#npm-token-theft) (1)
@@ -2419,7 +2423,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (329)
+- [ops](#ops) (330)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (1)
@@ -2691,7 +2695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pwn-request](#pwn-request) (1)
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
-- [PyPI](#pypi) (15)
+- [PyPI](#pypi) (16)
 - [Python](#python) (16)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python implant](#python-implant) (1)
@@ -2867,7 +2871,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RTL819X](#rtl819x) (1)
 - [RTLO](#rtlo) (1)
 - [rtmutex](#rtmutex) (1)
-- [RubyGems](#rubygems) (4)
+- [RubyGems](#rubygems) (5)
 - [Ruckus routers](#ruckus-routers) (1)
 - [Ruflo](#ruflo) (1)
 - [RUGGEDCOM](#ruggedcom) (1)
@@ -3008,7 +3012,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [SHADOW-WATER-063](#shadow-water-063) (1)
 - [ShadowPad](#shadowpad) (4)
-- [Shai-Hulud](#shai-hulud) (11)
+- [Shai-Hulud](#shai-hulud) (12)
 - [SHARDLOADER](#shardloader) (2)
 - [share propagation](#share-propagation) (1)
 - [shared accounts](#shared-accounts) (1)
@@ -3209,7 +3213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Steam profile dead drop](#steam-profile-dead-drop) (2)
 - [steganography](#steganography) (3)
 - [StegoAd](#stegoad) (1)
-- [StepSecurity](#stepsecurity) (2)
+- [StepSecurity](#stepsecurity) (3)
 - [Still Audio](#still-audio) (1)
 - [Still Sync](#still-sync) (1)
 - [Still Toolkit](#still-toolkit) (1)
@@ -3240,7 +3244,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suo5](#suo5) (1)
 - [Supabase](#supabase) (1)
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
-- [supply chain](#supply-chain) (20)
+- [supply chain](#supply-chain) (21)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (104)
 - [supply-chain attack](#supply-chain-attack) (1)
@@ -3304,6 +3308,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TCP traffic diversion](#tcp-traffic-diversion) (1)
 - [tdata](#tdata) (1)
 - [TDS](#tds) (2)
+- [Team PCP](#team-pcp) (1)
 - [TeamCity](#teamcity) (1)
 - [TeamPCP](#teampcp) (10)
 - [TeamPCP-adjacent](#teampcp-adjacent) (1)
@@ -3715,7 +3720,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [working-directory hijacking](#working-directory-hijacking) (1)
 - [workspace trust](#workspace-trust) (2)
 - [World Cup](#world-cup) (1)
-- [worm](#worm) (16)
+- [worm](#worm) (17)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [WP-SHELLSTORM](#wp-shellstorm) (1)
 - [wp2shell](#wp2shell) (1)
@@ -4880,6 +4885,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 
+## attack-rate
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
+
 ## audio surveillance
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
 
@@ -5699,6 +5707,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CANFAIL
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## CanisterWorm
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
+
 ## CAP_NET_ADMIN
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
@@ -5758,6 +5769,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cellular modem
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
+## census
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
+
 ## Censys
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 
@@ -5800,6 +5814,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ChainDrop
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## ChainVeil
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
@@ -6011,6 +6026,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CI/CD abuse
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+
+## CI/CD credential theft
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## CircleCI
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -6529,6 +6547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## compromised accounts
 - [Ghostwriter](../actors/ghostwriter.md)
@@ -6726,6 +6745,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## crates.io
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## Crates.io
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -9781,6 +9801,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [TeamPCP](../actors/teampcp.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -12314,6 +12335,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## MicroLogix 1100
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
@@ -12484,6 +12506,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## MiniJunk
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -13103,6 +13126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [TeamPCP](../actors/teampcp.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
@@ -14007,6 +14031,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -15168,6 +15193,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
@@ -15886,6 +15912,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 
 ## Ruckus routers
@@ -16439,6 +16466,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## SHARDLOADER
 - [Mustang Panda](../actors/mustang-panda.md)
@@ -17176,6 +17204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## StepSecurity
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## Still Audio
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
@@ -17294,6 +17323,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 
 ## supply chain compromise
@@ -17613,6 +17643,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TDS
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+
+## Team PCP
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## TeamCity
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
@@ -19326,6 +19359,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
+- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [XCSSET](../tools/xcsset.md)
