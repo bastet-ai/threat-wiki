@@ -41,6 +41,19 @@ This was the single exploited zero-day in Microsoft's **August 2026 Patch Tuesda
 
 Operators should treat this as patch-now for internet-adjacent Windows fleets and any host where a lower-privilege foothold is plausible. Confirm the specific KB from Microsoft's update guide is applied, and where exploitation is suspected, preserve host and process telemetry before destructive cleanup. The BOD 26-04 outer bound is 2026-08-25, but an endpoint that is likely compromised is not a schedule.
 
+## Exploitation context confirmed: Lazarus "Operation Dream Job" (August 11)
+
+Check Point Research's "Shattering the Dream" analysis (published the same day, August 11, 2026) confirms **active in-the-wild exploitation of CVE-2026-68820 by Lazarus** inside the "Operation Dream Job" job-offer phishing campaign. This closes the open question of *who* is using the zero-day and upgrades the entry from "exploited, actor unknown (per CISA)" to "exploited by Lazarus in a targeted defense-sector campaign."
+
+Key technical context from Check Point (full chain on the dedicated page):
+
+- The flaw is used **mid-chain**, not as initial access: MISTPEN (in-memory downloader over Microsoft Graph / OneDrive) loads an LPE module that exploits CVE-2026-68820 in `afd.sys` to run a new version of Lazarus' **FudModule** kernel-mode rootkit with SYSTEM, disabling EDR visibility, before delivering the ForestTiger backdoor.
+- The FudModule sample targets **Windows 11 build 26100 (24H2)** minimum with explicit support for **26200 (25H2)**, and Check Point confirmed via testing on a fully patched system that it targets a distinct, previously undocumented AFD.sys use-after-free (separate from CVE-2025-60719 and the 2024 CVE-2024-38193 variant).
+- Campaign targets are **defense, aerospace, and aviation companies** (Europe and India emphasized) via fake recruiter job offers; two parallel infection chains (DLL sideloading with `libmupdf.dll`; trojanized "SecurityPDF" viewer) both converge on MISTPEN.
+- The actor also exploited **CVE-2025-49113** (Roundcube RCE) to deploy the new **RelayShell** PHP C2-relay web shell on compromised Roundcube and WordPress servers, and leveraged at least one compromised Western European organization as a spear-phishing relay.
+
+Defender impact: the KEV entry now has a confirmed targeted-actor exploitation chain. Treat unpatched Windows 11 24H2/25H2 hosts in defense-adjacent or recruiter-lure-exposed organizations as likely-compromised candidates, prioritize the Graph/OneDrive C2 hunt, and verify EDR sensor integrity on any host with suspected FudModule deployment.
+
 ## CVE-2026-72898 — Metabase unauthenticated SQL injection
 CISA describes CVE-2026-72898 as a SQL-injection vulnerability in Metabase that lets an unauthenticated remote attacker inject arbitrary SQL into the application database through the password-reset API, enabling administrator access and exposure of connected-database credentials. The wiki already tracks this in detail on the [Metabase unauthenticated SQL-injection zero-day page](metabase-unauthenticated-sql-injection-zero-day.md), which carries the fixed point-release matrix, the `/api/session/reset_password` blocking workaround, and downstream customer-data findings. This KEV addition upgrades it to confirmed known exploitation with an 2026-08-14 BOD 26-04 deadline.
 

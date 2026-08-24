@@ -225,6 +225,16 @@ Unit 42 marked the article updated at 16:06:20 UTC on August 9 and linked a publ
 
 This list expands package-name scoping beyond SafeDep's 444-name reconstruction but contains fewer version pairs than SafeDep's 2,234. Public reporting does not yet reconcile the methodology, collection time, or inclusion rules behind that difference. Responders should not subtract entries found in only one source. Store a local, timestamped copy of each vendor list and search the union; public lists can change while compromised artifacts remain in internal mirrors and caches.
 
+### Unit 42 SDLC-perspective follow-up (August 21)
+
+Unit 42's August 21, 2026 "Connecting the Dots" post reframes ChainDrop (and the Shai-Hulud lineage) as evidence that supply-chain attack focus has shifted from hunting bugs in finished software to **poisoning the digital factory that builds it** — CI/CD pipelines, developer endpoints, and registries. No new ChainDrop indicators are reported; the post's durable additions are scoping and defender heuristics:
+
+- **Three-step ChainDrop chain, restated for defenders:** (1) the hook — malicious `preinstall` scripts download the legitimate Bun runtime to silently launch the ~727 KB obfuscated payload; (2) the theft — a hidden Python script reads **live process memory** from GitHub Actions runners to steal temporary OIDC tokens and secrets (not just disk files), plus a local developer-credential sweep; (3) the payload — stolen npm/GitHub tokens republish infected packages with legitimate functionality intact, with long-term persistence via cross-linked hooks in VS Code and Claude Code and C2 managed through Ethereum transactions.
+- **Runner-memory scraping is the distinguishing primitive.** ChainDrop's value over disk-only scrapers is that build-runner OIDC tokens and CI secrets exist transiently in process memory; defenders who hunt only file-based credential theft miss this. Correlate `npm install`/`preinstall` ancestry with Python memory-access behavior on CI runners.
+- **SBOM-at-the-end-of-build is insufficient.** The post's core claim: an SBOM inventory created at the finish line does not catch malware that executed *during* the build. Map every place third-party packages touch (developer laptops, CI/CD, cloud) and treat build-time execution as the incident class, not build-time presence only.
+- **Developer endpoints lack the guardrails browsers have.** `npm install`, `pip install`, `cargo build`, IDE extensions, and setup scripts run with the user's full permissions and no sandbox; registry and marketplace targets (cf. the earlier GlassWorm developer-botnet activity) are prime because of that, not in spite of it.
+- **Named historical anchors:** XZ Utils CVE-2024-3094 (years-long contributor impersonation to hide backdoors in core software), the Axios supply-chain attack (account hijack to drop malware into popular libraries), the Shai-Hulud npm worm (setup-script credential theft), and the GlassWorm developer supply-chain botnet.
+
 ## Indicators and hunting pivots
 
 ### Files and execution
@@ -340,3 +350,4 @@ The npm and GitHub endpoints are legitimate. Alert on unusual process ancestry, 
 - Unit 42: [ChainDrop: Inside a Self-Propagating npm Worm](https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/)
 - Unit 42 GitHub: [List of packages affected by the ChainDrop worm](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information/blob/main/List-of-packages-affected-by-the-ChainDrop-worm.txt)
 - OX Security: [Shai-Hulud Outbreak Debrief: The Worm Evolves into MCP](https://www.ox.security/blog/shai-hulud-outbreak-debrief-the-worm-evolves-into-mcp/)
+- Unit 42: [Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain](https://unit42.paloaltonetworks.com/connecting-the-dots-securing-the-overlooked-corners-of-the-software-development-lifecycle-sdlc-supply-chain/) (August 21, 2026)

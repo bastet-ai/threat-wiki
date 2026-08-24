@@ -3,6 +3,9 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Benchmaxxing: when a benchmark becomes the target](../patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
+- [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
+- [workerd / Cloudflare Code Mode: sandbox escape and cross-tenant heap swipe](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [RustSec publishes seven `malicious` advisories for the arrayref / proc-macro1 crates.io attack; Rust team confirms maintainer compromise](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md#rustsec-advisories-published-and-the-rust-security-teams-official-account)

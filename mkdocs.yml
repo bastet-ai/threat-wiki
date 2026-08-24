@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "Shattering the Dream: Lazarus Operation Dream Job job-offer zero-day campaign": ops/lazarus-operation-dream-job-shattering-the-dream.md
       - "CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD": ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md
       - "StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)": ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md
       - "Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap": ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md
@@ -346,6 +347,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - "workerd / Cloudflare Code Mode: sandbox escape and cross-tenant heap swipe": tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md
       - SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit: tools/spectre-cross-platform-backdoor-specter-rootkit.md
       - RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave: tools/redc2.md
       - vm2 NodeVM host state exposure and DNS hijack: tools/vm2-nodevm-host-dns-hijack.md
@@ -450,6 +452,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - 'Benchmaxxing: when a benchmark becomes the target': patterns/benchmaxxing-benchmark-integrity-cyber-ai.md
       - 'Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call': patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md
       - Trusted collaboration-channel identity abuse: patterns/collaboration-channel-identity-abuse.md
       - 'Stealing reasoning traces: encrypted-reasoning replay (arXiv:2608.09867)': patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md
