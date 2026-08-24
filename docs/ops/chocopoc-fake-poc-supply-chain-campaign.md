@@ -86,6 +86,7 @@ Treat these as public reporting pivots, not a complete detection set.
 - [Joomla JCE CVE-2026-48907 exploitation](joomla-jce-cve-2026-48907-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](ivanti-sentry-cve-2026-10520-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [Oracle WebLogic Proxy Plug-in KEV addition (CVE-2026-21962)](oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 
 ## Sources
 - YesWeHack / Sekoia: [https://www.yeswehack.com/news/chocopocs-vulnerability-researchers-trojanised-exploits](https://www.yeswehack.com/news/chocopocs-vulnerability-researchers-trojanised-exploits)

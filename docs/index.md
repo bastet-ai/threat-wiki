@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [Benchmaxxing: when a benchmark becomes the target](patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](ops/lazarus-operation-dream-job-shattering-the-dream.md)
 - [workerd / Cloudflare Code Mode: sandbox escape and cross-tenant heap swipe](tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
-- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

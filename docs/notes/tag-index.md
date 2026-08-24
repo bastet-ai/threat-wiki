@@ -51,7 +51,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (66)
+- [active exploitation](#active-exploitation) (67)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -324,6 +324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure DevOps](#azure-devops) (1)
 - [Azure Storage](#azure-storage) (1)
 - [Babuk](#babuk) (1)
+- [back-end](#back-end) (1)
 - [Backblaze](#backblaze) (1)
 - [backdoor](#backdoor) (23)
 - [Backdoor.Mistic](#backdoormistic) (1)
@@ -403,7 +404,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BLUEBEAM](#bluebeam) (1)
 - [bluemonday](#bluemonday) (1)
 - [Boatnet](#boatnet) (1)
-- [BOD 26-04](#bod-26-04) (3)
+- [BOD 26-04](#bod-26-04) (4)
 - [body hash](#body-hash) (1)
 - [BOF](#bof) (1)
 - [Boot Bus Extender](#boot-bus-extender) (1)
@@ -568,9 +569,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD credential theft](#cicd-credential-theft) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (10)
+- [CISA](#cisa) (11)
 - [CISA ADP](#cisa-adp) (1)
-- [CISA KEV](#cisa-kev) (35)
+- [CISA KEV](#cisa-kev) (36)
 - [Cisco](#cisco) (6)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -886,6 +887,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-20896](#cve-2026-20896) (1)
 - [CVE-2026-21513](#cve-2026-21513) (1)
 - [CVE-2026-21858](#cve-2026-21858) (1)
+- [CVE-2026-21962](#cve-2026-21962) (1)
 - [CVE-2026-23111](#cve-2026-23111) (1)
 - [CVE-2026-24301](#cve-2026-24301) (1)
 - [CVE-2026-25895](#cve-2026-25895) (1)
@@ -1013,6 +1015,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVSS 10.0](#cvss-100) (1)
 - [CWE-22](#cwe-22) (1)
 - [CWE-259](#cwe-259) (1)
+- [CWE-284](#cwe-284) (1)
 - [CWE-306](#cwe-306) (1)
 - [CWE-352](#cwe-352) (2)
 - [CWE-502](#cwe-502) (1)
@@ -1318,6 +1321,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Experience Cloud](#experience-cloud) (1)
 - [exploit chain](#exploit-chain) (1)
 - [exploit kit](#exploit-kit) (1)
+- [exploit noise](#exploit-noise) (1)
 - [exploit-development](#exploit-development) (1)
 - [exploit-kit](#exploit-kit) (1)
 - [Exploit.in](#exploitin) (1)
@@ -1346,7 +1350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake login screen](#fake-login-screen) (1)
 - [fake Microsoft Store](#fake-microsoft-store) (1)
 - [fake plugin](#fake-plugin) (1)
-- [fake PoC](#fake-poc) (2)
+- [fake PoC](#fake-poc) (3)
 - [fake ransomware](#fake-ransomware) (1)
 - [fake recruiting](#fake-recruiting) (4)
 - [fake reputation](#fake-reputation) (1)
@@ -1739,7 +1743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [impersonation](#impersonation) (2)
 - [implant](#implant) (1)
 - [import-time execution](#import-time-execution) (6)
-- [improper access control](#improper-access-control) (1)
+- [improper access control](#improper-access-control) (2)
 - [improper authentication](#improper-authentication) (1)
 - [improper authorization](#improper-authorization) (1)
 - [improper privilege management](#improper-privilege-management) (1)
@@ -2315,6 +2319,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetScaler ADC](#netscaler-adc) (3)
 - [NetScaler Gateway](#netscaler-gateway) (3)
 - [NetSetup.log](#netsetuplog) (1)
+- [network access](#network-access) (1)
 - [network detection](#network-detection) (1)
 - [network infrastructure](#network-infrastructure) (2)
 - [network infrastructure exploitation](#network-infrastructure-exploitation) (1)
@@ -2447,18 +2452,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (289)
+- [operations](#operations) (290)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
-- [ops](#ops) (332)
+- [ops](#ops) (333)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
-- [Oracle](#oracle) (1)
+- [Oracle](#oracle) (2)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
+- [Oracle Fusion Middleware](#oracle-fusion-middleware) (1)
+- [Oracle HTTP Server](#oracle-http-server) (1)
 - [Oracle Payments](#oracle-payments) (1)
 - [Oracle PeopleSoft](#oracle-peoplesoft) (2)
-- [Oracle WebLogic Server](#oracle-weblogic-server) (1)
+- [Oracle WebLogic Server](#oracle-weblogic-server) (2)
 - [ORANGETAIL](#orangetail) (1)
 - [ORB network](#orb-network) (1)
 - [organization username](#organization-username) (1)
@@ -2693,7 +2700,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Proton Mail](#proton-mail) (1)
 - [prototype pollution](#prototype-pollution) (1)
 - [provenance](#provenance) (1)
-- [proxy](#proxy) (11)
+- [proxy](#proxy) (12)
 - [proxy botnet](#proxy-botnet) (1)
 - [proxy network](#proxy-network) (2)
 - [ProxyChains](#proxychains) (1)
@@ -3512,7 +3519,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
 - [unattributed](#unattributed) (2)
-- [unauthenticated](#unauthenticated) (2)
+- [unauthenticated](#unauthenticated) (3)
 - [unauthenticated access](#unauthenticated-access) (4)
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (1)
@@ -3702,6 +3709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebDAV](#webdav) (2)
 - [WebKit](#webkit) (1)
 - [WebLogic](#weblogic) (1)
+- [Weblogic Server Proxy Plug-in](#weblogic-server-proxy-plug-in) (1)
 - [webmail](#webmail) (4)
 - [WebRTC](#webrtc) (2)
 - [webshell](#webshell) (1)
@@ -4048,6 +4056,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
@@ -5110,6 +5119,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Babuk
 - [Toy Ghouls](../actors/toy-ghouls.md)
 
+## back-end
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
+
 ## Backblaze
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -5407,6 +5419,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BOD 26-04
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## body hash
@@ -6119,6 +6132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## CISA ADP
@@ -6153,6 +6167,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
@@ -7494,6 +7509,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-21858
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 
+## CVE-2026-21962
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
+
 ## CVE-2026-23111
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 
@@ -7888,6 +7906,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CWE-259
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
+
+## CWE-284
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 
 ## CWE-306
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
@@ -9187,6 +9208,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## exploit kit
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
+## exploit noise
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
+
 ## exploit-development
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -9303,6 +9327,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fake PoC
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 
 ## fake ransomware
 - [GigaWiper](../tools/gigawiper.md)
@@ -10724,6 +10749,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## improper access control
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 
 ## improper authentication
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
@@ -13072,6 +13098,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NetSetup.log
 - [NightLedger](../tools/nightledger.md)
 
+## network access
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
+
 ## network detection
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
@@ -13813,6 +13842,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
@@ -14140,6 +14170,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -14250,9 +14281,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Oracle
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 
 ## Oracle E-Business Suite
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
+
+## Oracle Fusion Middleware
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
+
+## Oracle HTTP Server
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 
 ## Oracle Payments
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
@@ -14263,6 +14301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Oracle WebLogic Server
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 
 ## ORANGETAIL
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
@@ -15229,6 +15268,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [LurkProxy](../tools/lurkproxy.md)
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [Showboat](../tools/showboat.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -18545,6 +18585,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unauthenticated
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## unauthenticated access
@@ -19272,6 +19313,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WebLogic
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
+## Weblogic Server Proxy Plug-in
+- [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 
 ## webmail
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
