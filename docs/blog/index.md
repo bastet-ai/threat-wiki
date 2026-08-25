@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004): repository write access installs an executable hook as the Gitea service account](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [PraisonAI August 25 advisory wave: 20 flaws (CVE-2026-55522 – 55541) in PraisonAI 4.6.58 / praisonaiagents 1.6.58](../ops/praisonai-cve-2026-44338-rapid-exploitation.md#august-25-2026-advisory-wave-cve-2026-55522-55541)
 - [NemoClaw: malicious webpage can poison local Ollama chat templates behind NVIDIA NemoClaw (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
 - [Unit 42 State of AI-Enabled Malware — August 2026: 405 samples, only 12 in production telemetry](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
