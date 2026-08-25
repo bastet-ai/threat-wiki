@@ -17,6 +17,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [158.220.87.79](#1582208779) (1)
 - [192.42.116.105](#19242116105) (1)
 - [192.42.116.58](#1924211658) (1)
+- [2FA bypass](#2fa-bypass) (1)
 - [2FA recovery codes](#2fa-recovery-codes) (1)
 - [3CX](#3cx) (1)
 - [404 TDS](#404-tds) (1)
@@ -61,6 +62,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actors](#actors) (12)
 - [ad blocker](#ad-blocker) (1)
 - [ad fraud](#ad-fraud) (2)
+- [adaptive identity management](#adaptive-identity-management) (1)
+- [adaptive identity phishing](#adaptive-identity-phishing) (1)
 - [Adaptix C2](#adaptix-c2) (1)
 - [ADB TCP/5555](#adb-tcp5555) (2)
 - [Adblock for YouTube](#adblock-for-youtube) (1)
@@ -139,7 +142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI Now Institute](#ai-now-institute) (1)
 - [AI pentesting](#ai-pentesting) (1)
 - [AI search poisoning](#ai-search-poisoning) (1)
-- [AI security](#ai-security) (2)
+- [AI security](#ai-security) (3)
 - [AI services](#ai-services) (1)
 - [AI supply chain](#ai-supply-chain) (1)
 - [AI tooling](#ai-tooling) (17)
@@ -148,6 +151,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI vishing](#ai-vishing) (1)
 - [AI vulnerability consumption](#ai-vulnerability-consumption) (1)
 - [AI vulnerability discovery](#ai-vulnerability-discovery) (1)
+- [AI website builder](#ai-website-builder) (1)
 - [AI workflow](#ai-workflow) (1)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
@@ -168,7 +172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aider](#aider) (1)
 - [Aikido](#aikido) (1)
 - [AISURU](#aisuru) (2)
-- [AiTM](#aitm) (3)
+- [AiTM](#aitm) (4)
 - [Albania](#albania) (1)
 - [Alibaba](#alibaba) (1)
 - [Allen-Bradley](#allen-bradley) (1)
@@ -200,7 +204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [anti-forensics](#anti-forensics) (2)
 - [anti-sandbox](#anti-sandbox) (1)
 - [Anubis ransomware](#anubis-ransomware) (1)
-- [ANY.RUN](#anyrun) (1)
+- [ANY.RUN](#anyrun) (2)
 - [AnyDesk](#anydesk) (2)
 - [AOL Mail](#aol-mail) (1)
 - [Aone](#aone) (1)
@@ -603,12 +607,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Opus 4.7](#claude-opus-47) (1)
 - [Clawdbot](#clawdbot) (1)
 - [ClawWorm](#clawworm) (1)
-- [ClearFake](#clearfake) (1)
+- [ClearFake](#clearfake) (2)
 - [Clever Cloud](#clever-cloud) (1)
 - [click interception](#click-interception) (1)
 - [clicker](#clicker) (1)
 - [ClickFake](#clickfake) (1)
-- [ClickFix](#clickfix) (21)
+- [ClickFix](#clickfix) (22)
 - [ClickOnce](#clickonce) (1)
 - [ClickUp](#clickup) (1)
 - [client installer poisoning](#client-installer-poisoning) (1)
@@ -651,7 +655,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare Tunnel](#cloudflare-tunnel) (5)
 - [Cloudflare tunnels](#cloudflare-tunnels) (2)
 - [Cloudflare Turnstile](#cloudflare-turnstile) (1)
-- [Cloudflare Workers](#cloudflare-workers) (8)
+- [Cloudflare Workers](#cloudflare-workers) (9)
 - [cloudflared](#cloudflared) (2)
 - [CloudLinux](#cloudlinux) (1)
 - [CloudSEK](#cloudsek) (1)
@@ -661,7 +665,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CNCERT](#cncert) (1)
 - [Cobalt Strike](#cobalt-strike) (6)
 - [code execution](#code-execution) (4)
-- [code injection](#code-injection) (4)
+- [code injection](#code-injection) (5)
 - [Code Mode](#code-mode) (1)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
@@ -1013,6 +1017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-72898](#cve-2026-72898) (2)
 - [CVE-2026-73570](#cve-2026-73570) (1)
 - [CVE-2026-7473](#cve-2026-7473) (1)
+- [CVE-2026-75149](#cve-2026-75149) (1)
 - [CVE-2026-77413](#cve-2026-77413) (1)
 - [CVE-2026-77414](#cve-2026-77414) (1)
 - [CVE-2026-77415](#cve-2026-77415) (1)
@@ -1070,8 +1075,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DDoS](#ddos) (8)
 - [DDoS botnet](#ddos-botnet) (1)
 - [DDoS-for-hire](#ddos-for-hire) (3)
+- [DDR](#ddr) (1)
 - [dead drop](#dead-drop) (1)
-- [dead drop resolver](#dead-drop-resolver) (4)
+- [dead drop resolver](#dead-drop-resolver) (5)
 - [dead-drop](#dead-drop) (1)
 - [dead-drop resolver](#dead-drop-resolver) (2)
 - [DeadLock](#deadlock) (1)
@@ -1146,6 +1152,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DirtyFrag](#dirtyfrag) (1)
 - [DISCLOSURE](#disclosure) (1)
 - [Discord](#discord) (2)
+- [Discord link abuse](#discord-link-abuse) (1)
+- [Discord masquerade](#discord-masquerade) (1)
 - [discovery](#discovery) (1)
 - [disk wiping](#disk-wiping) (1)
 - [distributed malware infrastructure](#distributed-malware-infrastructure) (1)
@@ -1211,6 +1219,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DyPrIs](#dypris) (1)
 - [Dysphoria](#dysphoria) (1)
 - [e-commerce](#e-commerce) (1)
+- [E4del](#e4del) (1)
 - [Eagle Werewolf](#eagle-werewolf) (3)
 - [Early Bird APC injection](#early-bird-apc-injection) (1)
 - [Earth Lusca](#earth-lusca) (2)
@@ -1246,7 +1255,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Elastic Security Labs](#elastic-security-labs) (5)
 - [Elasticsearch](#elasticsearch) (1)
 - [electric power sector](#electric-power-sector) (2)
-- [Electron](#electron) (2)
+- [Electron](#electron) (3)
 - [Elementor Pro](#elementor-pro) (1)
 - [email](#email) (1)
 - [email exfiltration](#email-exfiltration) (2)
@@ -1280,7 +1289,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [enterprise application](#enterprise-application) (2)
 - [enterprise application exploitation](#enterprise-application-exploitation) (1)
 - [enterprise applications](#enterprise-applications) (1)
+- [enterprise identity](#enterprise-identity) (1)
 - [enterprise proxy](#enterprise-proxy) (1)
+- [enterprise security](#enterprise-security) (1)
 - [Entra ID](#entra-id) (4)
 - [Environment Management Hub](#environment-management-hub) (1)
 - [environment variable theft](#environment-variable-theft) (2)
@@ -1362,6 +1373,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake login](#fake-login) (1)
 - [fake login screen](#fake-login-screen) (1)
 - [fake Microsoft Store](#fake-microsoft-store) (1)
+- [fake Minecraft client](#fake-minecraft-client) (1)
 - [fake plugin](#fake-plugin) (1)
 - [fake PoC](#fake-poc) (3)
 - [fake ransomware](#fake-ransomware) (1)
@@ -1477,6 +1489,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fscan](#fscan) (1)
 - [FTA](#fta) (1)
 - [FTD](#ftd) (1)
+- [FTP banner](#ftp-banner) (1)
 - [ftp.exe](#ftpexe) (2)
 - [ftrace](#ftrace) (1)
 - [FudModule](#fudmodule) (1)
@@ -1491,6 +1504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [gambling](#gambling) (1)
 - [gambling industry targeting](#gambling-industry-targeting) (1)
 - [game cheats](#game-cheats) (1)
+- [gaming malware](#gaming-malware) (1)
 - [GammaLoad](#gammaload) (1)
 - [GammaPhish](#gammaphish) (1)
 - [GammaSteel](#gammasteel) (1)
@@ -1513,6 +1527,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost Networks](#ghost-networks) (1)
 - [GHOSTBLADE](#ghostblade) (1)
 - [GhostLock](#ghostlock) (1)
+- [GHSA-2679-6mx9-h9xc](#ghsa-2679-6mx9-h9xc) (1)
 - [GHSA-2943-5xfg-gq5f](#ghsa-2943-5xfg-gq5f) (1)
 - [GHSA-66mm-25pp-rfff](#ghsa-66mm-25pp-rfff) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
@@ -1649,6 +1664,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [half-click exploit](#half-click-exploit) (1)
 - [hallucination](#hallucination) (1)
 - [HalluSquatting](#hallusquatting) (1)
+- [Halo's Gate](#halos-gate) (1)
 - [Handala](#handala) (1)
 - [HappyDoor](#happydoor) (1)
 - [HAR files](#har-files) (1)
@@ -1787,7 +1803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (5)
 - [information stealer](#information-stealer) (1)
-- [infostealer](#infostealer) (27)
+- [infostealer](#infostealer) (28)
 - [infotainment](#infotainment) (1)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
@@ -1847,9 +1863,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Jamf Threat Labs](#jamf-threat-labs) (2)
 - [Januscape](#januscape) (1)
 - [Japan](#japan) (1)
+- [JAR payload](#jar-payload) (1)
 - [JARLEASH](#jarleash) (1)
 - [JarService](#jarservice) (1)
-- [Java](#java) (1)
+- [Java](#java) (2)
 - [Java malware](#java-malware) (1)
 - [JavaScript](#javascript) (21)
 - [JavaScript bridge](#javascript-bridge) (1)
@@ -2048,6 +2065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [local exploit](#local-exploit) (1)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (8)
+- [local subprocess](#local-subprocess) (1)
 - [local-file-inclusion](#local-file-inclusion) (1)
 - [localhost](#localhost) (1)
 - [localhost.run](#localhostrun) (1)
@@ -2073,6 +2091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [loopback login](#loopback-login) (1)
 - [Loophole](#loophole) (1)
 - [loose boolean check](#loose-boolean-check) (1)
+- [Lovable](#lovable) (1)
 - [low-confidence attribution](#low-confidence-attribution) (4)
 - [LPE](#lpe) (1)
 - [LS-DYNA](#ls-dyna) (1)
@@ -2090,6 +2109,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LurkProxy](#lurkproxy) (2)
 - [Lyceum](#lyceum) (1)
 - [M-RED-TEAM](#m-red-team) (1)
+- [M365](#m365) (1)
 - [MaaS](#maas) (8)
 - [MAC address](#mac-address) (1)
 - [MacCMS](#maccms) (1)
@@ -2139,7 +2159,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Manifold Security](#manifold-security) (1)
 - [manufacturing](#manufacturing) (3)
 - [Mapbox](#mapbox) (2)
-- [marimo](#marimo) (2)
+- [marimo](#marimo) (3)
 - [Markdown image rendering](#markdown-image-rendering) (1)
 - [MARKETMAKER](#marketmaker) (1)
 - [marketplace abuse](#marketplace-abuse) (2)
@@ -2152,12 +2172,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Maven Central](#maven-central) (1)
 - [mawesome](#mawesome) (1)
 - [Mbed](#mbed) (1)
-- [McAfee Labs](#mcafee-labs) (1)
+- [McAfee Labs](#mcafee-labs) (2)
 - [McMx](#mcmx) (1)
-- [MCP](#mcp) (16)
+- [MCP](#mcp) (17)
 - [MCP credentials](#mcp-credentials) (1)
 - [mcp-grafana](#mcp-grafana) (1)
 - [media processing](#media-processing) (1)
+- [MediaFire](#mediafire) (1)
 - [medical research](#medical-research) (1)
 - [Mekotio](#mekotio) (1)
 - [memfd](#memfd) (1)
@@ -2192,12 +2213,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MicroPython](#micropython) (2)
 - [Microsoft](#microsoft) (13)
 - [Microsoft .NET](#microsoft-net) (1)
-- [Microsoft 365](#microsoft-365) (9)
+- [Microsoft 365](#microsoft-365) (10)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
 - [Microsoft Authentication Broker](#microsoft-authentication-broker) (1)
 - [Microsoft Azure](#microsoft-azure) (1)
 - [Microsoft Copilot Personal](#microsoft-copilot-personal) (1)
 - [Microsoft Defender](#microsoft-defender) (3)
+- [Microsoft Defender exclusion](#microsoft-defender-exclusion) (1)
 - [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
 - [Microsoft dev tunnels](#microsoft-dev-tunnels) (2)
 - [Microsoft Digital Crimes Unit](#microsoft-digital-crimes-unit) (1)
@@ -2224,6 +2246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Milo Wallet](#milo-wallet) (1)
 - [Mimikatz](#mimikatz) (6)
 - [mind virus](#mind-virus) (1)
+- [Minecraft](#minecraft) (1)
 - [Minecraft DDoS](#minecraft-ddos) (1)
 - [Mini Shai-Hulud](#mini-shai-hulud) (6)
 - [MiniJunk](#minijunk) (1)
@@ -2236,11 +2259,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniUpdate](#miniupdate) (1)
 - [MIPS embedded devices](#mips-embedded-devices) (1)
 - [Mirage Kitten](#mirage-kitten) (5)
+- [Mirage2FA](#mirage2fa) (1)
 - [Mirai](#mirai) (3)
 - [Mirai-derived botnet](#mirai-derived-botnet) (1)
 - [missing authentication](#missing-authentication) (1)
 - [Mistic](#mistic) (1)
 - [MISTPEN](#mistpen) (1)
+- [MITRE ATT&CK](#mitre-attck) (1)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [Mitre ATT&CK T1110](#mitre-attck-t1110) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
@@ -2258,7 +2283,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile malware](#mobile-malware) (3)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
 - [MODBEACON](#modbeacon) (2)
-- [Model Context Protocol](#model-context-protocol) (10)
+- [Model Context Protocol](#model-context-protocol) (11)
 - [model poisoning](#model-poisoning) (1)
 - [model registry webhooks](#model-registry-webhooks) (1)
 - [model weights](#model-weights) (1)
@@ -2292,6 +2317,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MSI](#msi) (1)
 - [MSP](#msp) (3)
 - [MSSQL](#mssql) (1)
+- [MSXML2.XMLHTTP](#msxml2xmlhttp) (1)
 - [mTLS](#mtls) (1)
 - [MU plugin](#mu-plugin) (1)
 - [Muck and Load](#muck-and-load) (1)
@@ -2384,8 +2410,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node:zlib](#nodezlib) (1)
 - [NodeEdgeRAT](#nodeedgerat) (1)
 - [NomadRAT](#nomadrat) (1)
+- [non-standard protocol abuse](#non-standard-protocol-abuse) (1)
 - [North Korea](#north-korea) (13)
 - [notarized malware](#notarized-malware) (2)
+- [notebook security](#notebook-security) (1)
 - [notebookjs](#notebookjs) (1)
 - [notification interception](#notification-interception) (1)
 - [npm](#npm) (66)
@@ -2484,12 +2512,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (294)
+- [operations](#operations) (297)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (337)
+- [ops](#ops) (340)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (2)
@@ -2600,6 +2628,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pentesting](#pentesting) (1)
 - [people](#people) (1)
 - [PeopleTools](#peopletools) (1)
+- [PEP 723](#pep-723) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
 - [persistence](#persistence) (33)
@@ -2607,7 +2636,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [persona operations](#persona-operations) (1)
 - [personal access tokens](#personal-access-tokens) (2)
 - [pfSense](#pfsense) (1)
-- [PhaaS](#phaas) (3)
+- [PhaaS](#phaas) (4)
 - [Phantom Gyp](#phantom-gyp) (3)
 - [PhantomClick](#phantomclick) (1)
 - [PhantomCore](#phantomcore) (1)
@@ -2617,7 +2646,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Philippines](#philippines) (1)
 - [phishing](#phishing) (27)
 - [phishing overlays](#phishing-overlays) (1)
-- [phishing-as-a-service](#phishing-as-a-service) (5)
+- [phishing-as-a-service](#phishing-as-a-service) (6)
 - [Phorpiex](#phorpiex) (1)
 - [PHP](#php) (2)
 - [PHP code execution](#php-code-execution) (1)
@@ -2633,6 +2662,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pig-butchering](#pig-butchering) (1)
 - [PII](#pii) (1)
 - [PII exposure](#pii-exposure) (1)
+- [PINHOLE](#pinhole) (1)
 - [PINK](#pink) (1)
 - [Pink](#pink) (1)
 - [Pipedream](#pipedream) (1)
@@ -2676,7 +2706,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postinstall](#postinstall) (11)
 - [Potato](#potato) (1)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (26)
+- [PowerShell](#powershell) (27)
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShower](#powershower) (1)
@@ -3067,7 +3097,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sentry](#sentry) (1)
 - [Sentry abuse](#sentry-abuse) (1)
 - [SEO fraud](#seo-fraud) (3)
-- [SEO poisoning](#seo-poisoning) (7)
+- [SEO poisoning](#seo-poisoning) (8)
 - [Seqrite](#seqrite) (1)
 - [Seqrite Labs](#seqrite-labs) (2)
 - [serial-number relay](#serial-number-relay) (1)
@@ -3084,7 +3114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ServiceNow AI Platform](#servicenow-ai-platform) (1)
 - [ServiceWorker](#serviceworker) (1)
 - [Session](#session) (1)
-- [session cookie theft](#session-cookie-theft) (3)
+- [session cookie theft](#session-cookie-theft) (4)
 - [session hijacking](#session-hijacking) (2)
 - [session secret exposure](#session-secret-exposure) (1)
 - [session theft](#session-theft) (2)
@@ -3128,6 +3158,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Siemens S7](#siemens-s7) (1)
 - [Signal](#signal) (3)
 - [Signal interception](#signal-interception) (1)
+- [signed binary abuse](#signed-binary-abuse) (1)
 - [signed malware](#signed-malware) (1)
 - [signed updates](#signed-updates) (1)
 - [signed-binary](#signed-binary) (1)
@@ -3194,7 +3225,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SOCKS5](#socks5) (9)
 - [SOCKS5 proxy](#socks5-proxy) (2)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
-- [SOCRadar](#socradar) (2)
+- [SOCRadar](#socradar) (3)
 - [SoftEther VPN](#softether-vpn) (2)
 - [SoftPerfect Network Scanner](#softperfect-network-scanner) (1)
 - [software impersonation](#software-impersonation) (1)
@@ -3280,7 +3311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunneling](#ssh-tunneling) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
 - [SSL VPN](#ssl-vpn) (3)
-- [SSO](#sso) (2)
+- [SSO](#sso) (3)
 - [SSRF](#ssrf) (8)
 - [STAC4749](#stac4749) (1)
 - [stack use-after-free](#stack-use-after-free) (1)
@@ -3364,6 +3395,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [systemd](#systemd) (1)
 - [systemd-userdbd](#systemd-userdbd) (1)
 - [T1059](#t1059) (1)
+- [T1102.001](#t1102001) (1)
 - [T1204.004](#t1204004) (1)
 - [T3](#t3) (1)
 - [T606](#t606) (1)
@@ -3480,7 +3512,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (56)
+- [tools](#tools) (57)
 - [Tor](#tor) (4)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [TouchSocket](#touchsocket) (1)
@@ -3705,7 +3737,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vSphere](#vsphere) (2)
 - [vSphere Foundation](#vsphere-foundation) (1)
 - [VU#213560](#vu213560) (1)
-- [VulnCheck](#vulncheck) (3)
+- [VulnCheck](#vulncheck) (4)
 - [vulnerability](#vulnerability) (24)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
@@ -3754,7 +3786,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
 - [WebAuthn](#webauthn) (1)
-- [WebDAV](#webdav) (3)
+- [WebDAV](#webdav) (4)
 - [WebKit](#webkit) (1)
 - [WebLogic](#weblogic) (1)
 - [Weblogic Server Proxy Plug-in](#weblogic-server-proxy-plug-in) (1)
@@ -3770,6 +3802,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebView](#webview) (1)
 - [WebView2 C2](#webview2-c2) (1)
 - [Webworm](#webworm) (1)
+- [Weedhack](#weedhack) (1)
 - [WEEVILPROXY](#weevilproxy) (1)
 - [Werkbit](#werkbit) (1)
 - [WhatsApp](#whatsapp) (5)
@@ -3860,7 +3893,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Yanbian](#yanbian) (1)
 - [Yasmarang](#yasmarang) (1)
 - [YesWeHack](#yeswehack) (1)
-- [YouTube](#youtube) (1)
+- [YouTube](#youtube) (2)
 - [YouTube abuse](#youtube-abuse) (1)
 - [ysoserial](#ysoserial) (1)
 - [Yuechi Shared Technology](#yuechi-shared-technology) (1)
@@ -3945,6 +3978,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## 192.42.116.58
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+
+## 2FA bypass
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 
 ## 2FA recovery codes
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
@@ -4172,6 +4208,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ad fraud
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
+## adaptive identity management
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
+
+## adaptive identity phishing
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 
 ## Adaptix C2
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
@@ -4488,6 +4530,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI security
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+- [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
 
 ## AI services
@@ -4529,6 +4572,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI vulnerability discovery
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
+
+## AI website builder
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
 ## AI workflow
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
@@ -4603,6 +4649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AiTM
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Albania
@@ -4737,6 +4784,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ANY.RUN
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 
 ## AnyDesk
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
@@ -6349,6 +6397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 
 ## ClearFake
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 
 ## Clever Cloud
@@ -6368,6 +6417,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GREYVIBE](../actors/greyvibe.md)
@@ -6559,6 +6609,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cloudflare Workers
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -6614,6 +6665,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
+- [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 
 ## Code Mode
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
@@ -7960,6 +8012,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-7473
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
+## CVE-2026-75149
+- [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
+
 ## CVE-2026-77413
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
@@ -8196,11 +8251,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
+## DDR
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
+
 ## dead drop
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 
 ## dead drop resolver
 - [ChocoPoC](../tools/chocopoc.md)
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -8539,6 +8598,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Webworm](../actors/webworm.md)
 
+## Discord link abuse
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
+
+## Discord masquerade
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
+
 ## discovery
 - [ROADtools](../tools/roadtools.md)
 
@@ -8794,6 +8859,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## e-commerce
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
+## E4del
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
+
 ## Eagle Werewolf
 - [Armored Likho](../actors/armored-likho.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
@@ -8936,6 +9004,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 
 ## Electron
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 
@@ -9053,8 +9122,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## enterprise applications
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
+## enterprise identity
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
+
 ## enterprise proxy
 - [BridgeHead](../tools/bridgehead.md)
+
+## enterprise security
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 
 ## Entra ID
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
@@ -9423,6 +9498,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## fake Microsoft Store
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
+
+## fake Minecraft client
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
 ## fake plugin
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -9826,6 +9904,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FTD
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 
+## FTP banner
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
+
 ## ftp.exe
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
@@ -9870,6 +9951,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## game cheats
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
+
+## gaming malware
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
 ## GammaLoad
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
@@ -9940,6 +10024,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GhostLock
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
+
+## GHSA-2679-6mx9-h9xc
+- [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 
 ## GHSA-2943-5xfg-gq5f
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
@@ -10483,6 +10570,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HalluSquatting
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
+
+## Halo's Gate
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 
 ## Handala
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
@@ -11031,6 +11121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
@@ -11259,6 +11350,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Japan
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## JAR payload
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
+
 ## JARLEASH
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
@@ -11267,6 +11361,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Java
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
 ## Java malware
 - [QuimaRAT](../tools/quimarat.md)
@@ -12042,6 +12137,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
+## local subprocess
+- [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
+
 ## local-file-inclusion
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
@@ -12121,6 +12219,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## loose boolean check
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
 
+## Lovable
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
+
 ## low-confidence attribution
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
@@ -12175,6 +12276,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## M-RED-TEAM
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
+
+## M365
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 
 ## MaaS
 - [ACR Stealer](../tools/acr-stealer.md)
@@ -12458,6 +12562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## marimo
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
+- [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 
 ## Markdown image rendering
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
@@ -12498,6 +12603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## McAfee Labs
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
 ## McMx
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
@@ -12512,6 +12618,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
+- [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
@@ -12528,6 +12635,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## media processing
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+
+## MediaFire
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
 ## medical research
 - [UNC6508](../actors/unc6508.md)
@@ -12680,6 +12790,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -12700,6 +12811,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
+
+## Microsoft Defender exclusion
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
 ## Microsoft Defender Security Research
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
@@ -12810,6 +12924,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mind virus
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 
+## Minecraft
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
+
 ## Minecraft DDoS
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
@@ -12858,6 +12975,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 - [NightLedger](../tools/nightledger.md)
 
+## Mirage2FA
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
+
 ## Mirai
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -12874,6 +12994,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MISTPEN
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
+
+## MITRE ATT&CK
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 
 ## MITRE ATT&CK T1005
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -12940,6 +13063,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
+- [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
@@ -13058,6 +13182,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MSSQL
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+
+## MSXML2.XMLHTTP
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 
 ## mTLS
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
@@ -13376,6 +13503,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NomadRAT
 - [SilkParasite](../actors/silkparasite.md)
 
+## non-standard protocol abuse
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
+
 ## North Korea
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -13394,6 +13524,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## notarized malware
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+
+## notebook security
+- [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 
 ## notebookjs
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
@@ -13886,6 +14019,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -13978,6 +14112,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -14088,6 +14223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
@@ -14206,6 +14342,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -14306,6 +14443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
@@ -14438,6 +14576,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
@@ -14876,6 +15015,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PeopleTools
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
+## PEP 723
+- [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
+
 ## PerfWatson2.exe
 - [TinyRCT](../tools/tinyrct.md)
 
@@ -14934,6 +15076,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 
 ## Phantom Gyp
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -14995,6 +15138,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 
 ## Phorpiex
@@ -15042,6 +15186,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PII exposure
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
+
+## PINHOLE
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 
 ## PINK
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -15209,6 +15356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Gamaredon](../actors/gamaredon.md)
@@ -16793,6 +16941,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
 ## Seqrite
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
@@ -16850,6 +16999,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 
 ## session hijacking
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -17008,6 +17158,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Signal interception
 - [Turla](../actors/turla.md)
+
+## signed binary abuse
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 
 ## signed malware
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
@@ -17255,6 +17408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## SOCRadar
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
@@ -17573,6 +17727,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SSO
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
+- [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 
 ## SSRF
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
@@ -17976,6 +18131,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## T1059
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
+
+## T1102.001
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 
 ## T1204.004
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
@@ -18448,6 +18606,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 - [LabubaRAT](../tools/labubarat.md)
 - [LurkProxy](../tools/lurkproxy.md)
+- [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 - [MIXEDKEY](../tools/mixedkey.md)
 - [MODBEACON](../tools/modbeacon.md)
 - [MYRA RAT](../tools/myra-rat.md)
@@ -19327,6 +19486,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VulnCheck
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
@@ -19543,6 +19703,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WebDAV
 - [ACR Stealer](../tools/acr-stealer.md)
+- [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 
@@ -19605,6 +19766,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Webworm
 - [Webworm](../actors/webworm.md)
+
+## Weedhack
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
 ## WEEVILPROXY
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
@@ -19999,6 +20163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## YouTube
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
+- [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
 ## YouTube abuse
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
