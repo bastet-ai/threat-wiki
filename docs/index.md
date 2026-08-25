@@ -7,16 +7,16 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
+- [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
+- [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
+- [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access](ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
+- [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [Benchmaxxing: when a benchmark becomes the target](patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](ops/lazarus-operation-dream-job-shattering-the-dream.md)
 - [workerd / Cloudflare Code Mode: sandbox escape and cross-tenant heap swipe](tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
-- [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
-- [RustSec publishes seven `malicious` advisories for the arrayref / proc-macro1 crates.io attack; Rust team confirms maintainer compromise](ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md#rustsec-advisories-published-and-the-rust-security-teams-official-account)
-- [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
-- [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
-- [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

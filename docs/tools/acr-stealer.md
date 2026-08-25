@@ -86,6 +86,7 @@ Microsoft reports both campaigns target:
 - If compromise is suspected, isolate before rotation, preserve endpoint telemetry, revoke browser/session tokens, rotate affected credentials, and review cloud/SaaS access from harvested sessions.
 
 ## Related pages
+- [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](scmbanker.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)

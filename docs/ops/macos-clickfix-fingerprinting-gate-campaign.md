@@ -137,6 +137,7 @@ Detection corollary: alert on chunked HTTP PUT exfiltration from `curl` with `up
 
 ## Related pages
 - [ClickFix CPaaS API-driven payload delivery](clickfix-cpaas-api-driven-payload-delivery.md)
+- [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](ox-clickfix-phishing-npm-mirror-payload-storage.md)
 - [TELEPUZ ClickFix / VIDAR campaign](telepuz-clickfix-vidar-campaign.md)
 - [CrashStealer macOS notarized-dropper campaign](crashstealer-macos-notarized-dropper.md)
 - [XCSSET v40 Xcode supply-chain campaign](xcsset-v40-xcode-supply-chain-campaign.md)
