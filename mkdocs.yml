@@ -292,6 +292,7 @@ nav:
       - PAN-OS GlobalProtect CVE-2026-0257 exploitation: ops/pan-os-globalprotect-cve-2026-0257-exploitation.md
       - Marimo CVE-2026-39987 LLM-agent post-exploitation: ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md
       - PraisonAI CVE-2026-44338 rapid exploitation: ops/praisonai-cve-2026-44338-rapid-exploitation.md
+      - JWR phishing framework (likely The Outsider variant): ops/jwr-phaas-phishing-framework-outsider-variant.md
       - NATS-as-C2 KeyHunter credential-harvesting operation: ops/nats-as-c2-keyhunter-credential-harvesting.md
       - StegaBin Pastebin-steganography npm campaign: ops/stegabin-pastebin-steganography-npm-campaign.md
       - UNC6671 / BlackFile multi-brand vishing extortion operation: ops/blackfile-unc6671-vishing-extortion.md
@@ -463,6 +464,8 @@ nav:
       - JiaT75: people/jiat75.md
   - Patterns:
       - 'Benchmaxxing: when a benchmark becomes the target': patterns/benchmaxxing-benchmark-integrity-cyber-ai.md
+      - 'State of AI-enabled malware, August 2026 (Unit 42)': patterns/unit42-state-of-ai-enabled-malware-august-2026.md
+      - 'NemoClaw local Ollama chat-template poisoning (Oasis Security)': patterns/nemoclaw-local-ollama-chat-template-poisoning.md
       - 'Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call': patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md
       - Trusted collaboration-channel identity abuse: patterns/collaboration-channel-identity-abuse.md
       - 'Stealing reasoning traces: encrypted-reasoning replay (arXiv:2608.09867)': patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md

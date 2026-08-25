@@ -3,6 +3,10 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [PraisonAI August 25 advisory wave: 20 flaws (CVE-2026-55522 – 55541) in PraisonAI 4.6.58 / praisonaiagents 1.6.58](../ops/praisonai-cve-2026-44338-rapid-exploitation.md#august-25-2026-advisory-wave-cve-2026-55522-55541)
+- [NemoClaw: malicious webpage can poison local Ollama chat templates behind NVIDIA NemoClaw (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
+- [Unit 42 State of AI-Enabled Malware — August 2026: 405 samples, only 12 in production telemetry](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
+- [JWR phishing framework: live AES-CTR WebSocket operator control, likely The Outsider variant](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
 - [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 - [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
