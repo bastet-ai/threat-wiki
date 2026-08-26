@@ -780,7 +780,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential-theft](#credential-theft) (54)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
-- [critical infrastructure](#critical-infrastructure) (8)
+- [critical infrastructure](#critical-infrastructure) (9)
 - [critical vulnerability](#critical-vulnerability) (6)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
@@ -808,7 +808,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto wallets](#crypto-wallets) (2)
 - [crypto-js](#crypto-js) (1)
 - [crypto-wallets](#crypto-wallets) (1)
-- [cryptocurrency](#cryptocurrency) (14)
+- [cryptocurrency](#cryptocurrency) (15)
 - [cryptocurrency mining](#cryptocurrency-mining) (1)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
 - [cryptocurrency theft](#cryptocurrency-theft) (13)
@@ -1059,6 +1059,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cybench](#cybench) (1)
 - [cyber AI](#cyber-ai) (1)
 - [cyber evaluation](#cyber-evaluation) (1)
+- [cyber sanctions](#cyber-sanctions) (1)
 - [cyber-espionage](#cyber-espionage) (6)
 - [CyberAv3ngers](#cyberav3ngers) (1)
 - [cybercrime](#cybercrime) (16)
@@ -1073,7 +1074,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DarkSword](#darksword) (1)
 - [data analytics](#data-analytics) (1)
 - [data contamination](#data-contamination) (1)
-- [data exfiltration](#data-exfiltration) (14)
+- [data exfiltration](#data-exfiltration) (15)
 - [data exposure](#data-exposure) (3)
 - [data extortion](#data-extortion) (2)
 - [data leak site](#data-leak-site) (3)
@@ -1109,7 +1110,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Defender Advanced Hunting](#defender-advanced-hunting) (1)
 - [Defender evasion](#defender-evasion) (2)
 - [Defender exclusion](#defender-exclusion) (1)
-- [defense](#defense) (5)
+- [defense](#defense) (6)
 - [defense evasion](#defense-evasion) (9)
 - [defense sector](#defense-sector) (1)
 - [defense targeting](#defense-targeting) (1)
@@ -1239,6 +1240,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DyPrIs](#dypris) (1)
 - [Dysphoria](#dysphoria) (1)
 - [e-commerce](#e-commerce) (1)
+- [E.O. 13224](#eo-13224) (1)
+- [E.O. 13382](#eo-13382) (1)
+- [E.O. 13694](#eo-13694) (1)
+- [E.O. 13902](#eo-13902) (1)
 - [E4del](#e4del) (1)
 - [Eagle Werewolf](#eagle-werewolf) (3)
 - [Early Bird APC injection](#early-bird-apc-injection) (1)
@@ -1248,6 +1253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Easy4IP](#easy4ip) (1)
 - [eBPF](#ebpf) (3)
 - [Eclipse](#eclipse) (1)
+- [Economic D-Day](#economic-d-day) (1)
 - [Ed25519](#ed25519) (1)
 - [edge appliance](#edge-appliance) (14)
 - [edge appliances](#edge-appliances) (2)
@@ -1301,6 +1307,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [endpoint-detection](#endpoint-detection) (1)
 - [endpoint-security](#endpoint-security) (2)
 - [EndpointDlp.dll](#endpointdlpdll) (1)
+- [energy](#energy) (1)
 - [energy sector](#energy-sector) (5)
 - [energy-sector](#energy-sector) (1)
 - [engineering](#engineering) (1)
@@ -1421,6 +1428,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FAT32](#fat32) (1)
 - [FatFs](#fatfs) (1)
 - [FBI](#fbi) (4)
+- [FBI indictment](#fbi-indictment) (1)
 - [fbot](#fbot) (1)
 - [FDMTP](#fdmtp) (2)
 - [Feiying](#feiying) (1)
@@ -1448,6 +1456,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [filesystem parser](#filesystem-parser) (1)
 - [finance](#finance) (2)
 - [financial fraud](#financial-fraud) (7)
+- [financial institutions](#financial-institutions) (1)
 - [financial sector](#financial-sector) (7)
 - [financial services](#financial-services) (5)
 - [financial theft](#financial-theft) (3)
@@ -1648,6 +1657,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoSerpent](#goserpent) (1)
 - [government](#government) (6)
 - [government impersonation](#government-impersonation) (1)
+- [government offices](#government-offices) (1)
 - [government targeting](#government-targeting) (20)
 - [government-impersonation](#government-impersonation) (1)
 - [GPT](#gpt) (1)
@@ -1704,7 +1714,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [head unit](#head-unit) (1)
 - [headless browser](#headless-browser) (3)
 - [HEADRUSH](#headrush) (1)
-- [healthcare](#healthcare) (3)
+- [healthcare](#healthcare) (4)
 - [heap buffer overflow](#heap-buffer-overflow) (1)
 - [heap pointer disclosure](#heap-pointer-disclosure) (1)
 - [HELIX](#helix) (1)
@@ -1867,7 +1877,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IPsec](#ipsec) (1)
 - [IPv6](#ipv6) (2)
 - [ipynbdiff](#ipynbdiff) (1)
-- [Iran](#iran) (8)
+- [Iran](#iran) (9)
 - [Iran-nexus](#iran-nexus) (3)
 - [IRGC](#irgc) (1)
 - [IronWorm](#ironworm) (1)
@@ -2138,6 +2148,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [M-RED-TEAM](#m-red-team) (1)
 - [M365](#m365) (1)
 - [MaaS](#maas) (8)
+- [Mabna Institute](#mabna-institute) (1)
 - [MAC address](#mac-address) (1)
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
@@ -2290,6 +2301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirage2FA](#mirage2fa) (1)
 - [Mirai](#mirai) (3)
 - [Mirai-derived botnet](#mirai-derived-botnet) (1)
+- [missile procurement](#missile-procurement) (1)
 - [missing authentication](#missing-authentication) (1)
 - [Mistic](#mistic) (1)
 - [MISTPEN](#mistpen) (1)
@@ -2310,6 +2322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile exploitation](#mobile-exploitation) (1)
 - [mobile malware](#mobile-malware) (3)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
+- [MODAFL](#modafl) (1)
 - [MODBEACON](#modbeacon) (2)
 - [Model Context Protocol](#model-context-protocol) (12)
 - [model poisoning](#model-poisoning) (1)
@@ -2322,7 +2335,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ModHeader](#modheader) (1)
 - [modular malware](#modular-malware) (3)
 - [module-proxy](#module-proxy) (1)
-- [MOIS](#mois) (6)
+- [MOIS](#mois) (7)
 - [Moltbook](#moltbook) (1)
 - [Moltbot](#moltbot) (1)
 - [Monero](#monero) (2)
@@ -2461,6 +2474,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NTDS.dit](#ntdsdit) (2)
 - [NTFS ADS](#ntfs-ads) (3)
 - [NTLM](#ntlm) (2)
+- [nuclear procurement](#nuclear-procurement) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (4)
 - [Nuitka](#nuitka) (1)
@@ -2489,7 +2503,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [obsolete software](#obsolete-software) (1)
 - [OctLurk](#octlurk) (2)
 - [Octopi365](#octopi365) (1)
-- [OFAC](#ofac) (1)
+- [OFAC](#ofac) (2)
 - [official store compromise](#official-store-compromise) (1)
 - [Offshore LC](#offshore-lc) (1)
 - [OIDC](#oidc) (8)
@@ -2539,6 +2553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation CameraSwarm](#operation-cameraswarm) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
 - [Operation Dream Job](#operation-dream-job) (1)
+- [Operation Economic Outcast](#operation-economic-outcast) (1)
 - [Operation Endgame](#operation-endgame) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
@@ -2546,12 +2561,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (299)
+- [operations](#operations) (300)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (342)
+- [ops](#ops) (343)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (2)
@@ -2981,6 +2996,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [REVERSE_PROXY_TRUSTED_PROXIES](#reverse_proxy_trusted_proxies) (1)
 - [ReverseSocks](#reversesocks) (1)
 - [reviewdog](#reviewdog) (1)
+- [Rewards for Justice](#rewards-for-justice) (1)
 - [RHBK](#rhbk) (1)
 - [Rilide](#rilide) (1)
 - [Ring 0](#ring-0) (1)
@@ -3067,6 +3083,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SAML](#saml) (2)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
+- [sanctions](#sanctions) (1)
 - [sandbox escape](#sandbox-escape) (7)
 - [sandbox evasion](#sandbox-evasion) (2)
 - [sandboxing](#sandboxing) (1)
@@ -3099,6 +3116,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [search result poisoning](#search-result-poisoning) (1)
 - [search-ms](#search-ms) (1)
 - [Seashell Blizzard](#seashell-blizzard) (2)
+- [secondary sanctions](#secondary-sanctions) (1)
 - [Secret Blizzard](#secret-blizzard) (3)
 - [secret exfiltration](#secret-exfiltration) (2)
 - [secret exposure](#secret-exposure) (1)
@@ -3162,6 +3180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [setup.py](#setuppy) (1)
 - [shadow AI](#shadow-ai) (1)
 - [shadow copy deletion](#shadow-copy-deletion) (2)
+- [shadow fleet](#shadow-fleet) (1)
 - [shadow MMU](#shadow-mmu) (1)
 - [SHADOW-AETHER-040](#shadow-aether-040) (1)
 - [SHADOW-AETHER-064](#shadow-aether-064) (1)
@@ -3585,6 +3604,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [triage](#triage) (1)
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
+- [TRM Labs](#trm-labs) (1)
 - [trojanized installers](#trojanized-installers) (3)
 - [trojanized npm](#trojanized-npm) (1)
 - [trojanized PDF viewer](#trojanized-pdf-viewer) (1)
@@ -3614,6 +3634,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (3)
 - [typosquatting](#typosquatting) (16)
+- [U.S. critical infrastructure](#us-critical-infrastructure) (1)
 - [UAC](#uac) (1)
 - [UAC bypass](#uac-bypass) (2)
 - [UAC-0002](#uac-0002) (2)
@@ -7268,6 +7289,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
@@ -7379,6 +7401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [RemotePE](../tools/remotepe.md)
@@ -8195,6 +8218,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cyber evaluation
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 
+## cyber sanctions
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
 ## cyber-espionage
 - [Armored Likho](../actors/armored-likho.md)
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
@@ -8277,6 +8303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## data exposure
@@ -8424,6 +8451,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Mirage Kitten](../actors/mirage-kitten.md)
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## defense evasion
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -8975,6 +9003,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## e-commerce
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 
+## E.O. 13224
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
+## E.O. 13382
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
+## E.O. 13694
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
+## E.O. 13902
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
 ## E4del
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 
@@ -9006,6 +9046,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Eclipse
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+
+## Economic D-Day
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## Ed25519
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
@@ -9208,6 +9251,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## EndpointDlp.dll
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+
+## energy
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## energy sector
 - [CL-STA-1062](../actors/cl-sta-1062.md)
@@ -9711,6 +9757,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
+## FBI indictment
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
 ## fbot
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 
@@ -9802,6 +9851,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+
+## financial institutions
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## financial sector
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
@@ -10533,6 +10585,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## government impersonation
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
+## government offices
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
 ## government targeting
 - [Armored Likho](../actors/armored-likho.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
@@ -10753,6 +10808,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## healthcare
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
@@ -11411,6 +11467,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Handala](../actors/handala.md)
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -12432,6 +12489,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 
+## Mabna Institute
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
 ## MAC address
 - [TELESHIM](../tools/teleshim.md)
 
@@ -13133,6 +13193,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Mirai-derived botnet
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
+## missile procurement
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
 ## missing authentication
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 
@@ -13199,6 +13262,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MobileIron Sentry
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 
+## MODAFL
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
 ## MODBEACON
 - [MODBEACON](../tools/modbeacon.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
@@ -13255,6 +13321,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cavern Manticore](../actors/cavern-manticore.md)
 - [Handala](../actors/handala.md)
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
 ## Moltbook
@@ -13804,6 +13871,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BridgeHead](../tools/bridgehead.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
+## nuclear procurement
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
 ## nuclear weapons
 - [Fast16](../tools/fast16.md)
 
@@ -13907,6 +13977,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OFAC
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## official store compromise
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
@@ -14081,6 +14152,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Operation Dream Job
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
+
+## Operation Economic Outcast
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## Operation Endgame
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
@@ -14306,6 +14380,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
@@ -14645,6 +14720,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
@@ -16529,6 +16605,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## reviewdog
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## Rewards for Justice
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
 ## RHBK
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
 
@@ -16874,6 +16953,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Samsung TizenRT
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
+## sanctions
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
 ## sandbox escape
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -17005,6 +17087,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Seashell Blizzard
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
+
+## secondary sanctions
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## Secret Blizzard
 - [STOCKSTAY](../tools/stockstay.md)
@@ -17224,6 +17309,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## shadow copy deletion
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
+
+## shadow fleet
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## shadow MMU
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
@@ -18954,6 +19042,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Trident Ursa
 - [Gamaredon](../actors/gamaredon.md)
 
+## TRM Labs
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
 ## trojanized installers
 - [Starland RAT](../tools/starland-rat.md)
 - [UAT-11795](../actors/uat-11795.md)
@@ -19073,6 +19164,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+
+## U.S. critical infrastructure
+- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## UAC
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
