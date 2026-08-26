@@ -3,6 +3,10 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
+- [Unpatched Kaltura mwEmbed: unauthenticated file read + RCE (CVE-2026-19912/19913, no patch, vendor unreachable)](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
+- [NovaCookies: Docusign-notification AitM PhaaS ($320/mo) stealing Microsoft 365 sessions; Sneaky2FA variant](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
+- [SLEEPWALKER: passive raw-packet backdoor side-loaded into ESET ERAAgent.exe with a 23-instruction bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes a QEMU/KVM VM three times, including against a from-source minimal QEMU/libslirp rebuild (Trail of Bits)](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 - [State divergence enables unauthorized access: Provenance marker module ACL check anyone can pass, 82 live mainnet markers affected (Trail of Bits)](../patterns/provenance-marker-state-divergence-access-control.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain — unauthenticated JWT-forgery-to-BDC-deserialization RCE, live in the wild, 8,500+ servers exposed (VulnCheck)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
