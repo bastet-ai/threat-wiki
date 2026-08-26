@@ -124,6 +124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI](#ai) (7)
 - [AI agent](#ai-agent) (2)
 - [AI agent security](#ai-agent-security) (1)
+- [AI agent tooling](#ai-agent-tooling) (1)
 - [AI agents](#ai-agents) (24)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (6)
@@ -543,6 +544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChaCha20](#chacha20) (1)
 - [chain-of-thought](#chain-of-thought) (1)
 - [ChainDrop](#chaindrop) (2)
+- [chainlit](#chainlit) (1)
 - [ChainVeil](#chainveil) (1)
 - [Chaos ransomware](#chaos-ransomware) (1)
 - [Chaotic Eclipse](#chaotic-eclipse) (1)
@@ -695,7 +697,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ComfyUI](#comfyui) (1)
 - [command and control](#command-and-control) (4)
 - [command execution](#command-execution) (9)
-- [command injection](#command-injection) (7)
+- [command injection](#command-injection) (8)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [commercial messaging applications](#commercial-messaging-applications) (1)
@@ -953,6 +955,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-43503](#cve-2026-43503) (1)
 - [CVE-2026-44338](#cve-2026-44338) (1)
 - [CVE-2026-44613](#cve-2026-44613) (1)
+- [CVE-2026-45018](#cve-2026-45018) (1)
+- [CVE-2026-45019](#cve-2026-45019) (1)
 - [CVE-2026-45247](#cve-2026-45247) (1)
 - [CVE-2026-45498](#cve-2026-45498) (1)
 - [CVE-2026-45659](#cve-2026-45659) (1)
@@ -1555,11 +1559,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-8gq3-vp5j-2grp](#ghsa-8gq3-vp5j-2grp) (1)
 - [GHSA-c39w-43gm-34h5](#ghsa-c39w-43gm-34h5) (1)
 - [GHSA-c4hm-4h84-2cf3](#ghsa-c4hm-4h84-2cf3) (1)
+- [GHSA-hvfh-5mj3-5f3j](#ghsa-hvfh-5mj3-5f3j) (1)
 - [GHSA-m5w8-4gq2-6f8x](#ghsa-m5w8-4gq2-6f8x) (1)
 - [GHSA-qrpv-q767-xqq2](#ghsa-qrpv-q767-xqq2) (1)
 - [GHSA-rcr6-4jqh-j84m](#ghsa-rcr6-4jqh-j84m) (1)
 - [GHSA-rg76-677x-56q9](#ghsa-rg76-677x-56q9) (1)
 - [GHSA-vwf4-m7j8-wcjf](#ghsa-vwf4-m7j8-wcjf) (1)
+- [GHSA-w3fx-mc44-mf6j](#ghsa-w3fx-mc44-mf6j) (1)
 - [GHSA-x2rj-828p-hx9m](#ghsa-x2rj-828p-hx9m) (1)
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
@@ -2195,8 +2201,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (2)
 - [McMx](#mcmx) (1)
-- [MCP](#mcp) (17)
+- [MCP](#mcp) (18)
 - [MCP credentials](#mcp-credentials) (1)
+- [MCP stdio command execution](#mcp-stdio-command-execution) (1)
 - [mcp-grafana](#mcp-grafana) (1)
 - [media processing](#media-processing) (1)
 - [MediaFire](#mediafire) (1)
@@ -2304,7 +2311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile malware](#mobile-malware) (3)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
 - [MODBEACON](#modbeacon) (2)
-- [Model Context Protocol](#model-context-protocol) (11)
+- [Model Context Protocol](#model-context-protocol) (12)
 - [model poisoning](#model-poisoning) (1)
 - [model registry webhooks](#model-registry-webhooks) (1)
 - [model weights](#model-weights) (1)
@@ -3345,7 +3352,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunnels](#ssh-tunnels) (1)
 - [SSL VPN](#ssl-vpn) (3)
 - [SSO](#sso) (3)
-- [SSRF](#ssrf) (8)
+- [SSRF](#ssrf) (9)
 - [STAC4749](#stac4749) (1)
 - [stack use-after-free](#stack-use-after-free) (1)
 - [staged malicious update](#staged-malicious-update) (1)
@@ -3548,7 +3555,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (57)
+- [tools](#tools) (58)
 - [Tor](#tor) (4)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [TouchSocket](#touchsocket) (1)
@@ -3633,7 +3640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
 - [unattributed](#unattributed) (2)
-- [unauthenticated](#unauthenticated) (5)
+- [unauthenticated](#unauthenticated) (6)
 - [unauthenticated access](#unauthenticated-access) (4)
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (2)
@@ -4474,6 +4481,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI agent security
 - [Benchmaxxing: when a benchmark becomes the target](../patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
+
+## AI agent tooling
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 
 ## AI agents
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -6078,6 +6088,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
+## chainlit
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
+
 ## ChainVeil
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
@@ -6816,6 +6829,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## command injection
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
@@ -7860,6 +7874,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-44613
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
+
+## CVE-2026-45018
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
+
+## CVE-2026-45019
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 
 ## CVE-2026-45247
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
@@ -10157,6 +10177,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-c4hm-4h84-2cf3
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
+## GHSA-hvfh-5mj3-5f3j
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
+
 ## GHSA-m5w8-4gq2-6f8x
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
@@ -10171,6 +10194,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GHSA-vwf4-m7j8-wcjf
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
+
+## GHSA-w3fx-mc44-mf6j
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 
 ## GHSA-x2rj-828p-hx9m
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
@@ -12729,6 +12755,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
@@ -12745,6 +12772,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MCP credentials
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+
+## MCP stdio command execution
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 
 ## mcp-grafana
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
@@ -13177,6 +13207,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -17903,6 +17934,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SSRF
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -18771,6 +18803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BridgeHead](../tools/bridgehead.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 - [Cavern](../tools/cavern.md)
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 - [CrownX](../tools/crownx.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -19154,6 +19187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 
 ## unauthenticated
+- [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)

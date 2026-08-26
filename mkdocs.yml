@@ -357,6 +357,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - "Chainlit MCP: unauthenticated RCE and SSRF via /mcp (CVE-2026-45018 / CVE-2026-45019)": tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md
       - "Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode": tools/marimo-cve-2026-75149-mcp-command-injection.md
       - "Keycloak CVE-2026-18963: unauthenticated password-reset account takeover": tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md
       - "workerd / Cloudflare Code Mode: sandbox escape and cross-tenant heap swipe": tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md
