@@ -822,7 +822,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (8)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (4)
 - [cryptographic context injection](#cryptographic-context-injection) (1)
-- [cryptojacking](#cryptojacking) (1)
+- [cryptojacking](#cryptojacking) (2)
 - [CryptoJS](#cryptojs) (1)
 - [cryptominer](#cryptominer) (3)
 - [cryptomining](#cryptomining) (1)
@@ -2301,6 +2301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mind virus](#mind-virus) (1)
 - [Minecraft](#minecraft) (1)
 - [Minecraft DDoS](#minecraft-ddos) (1)
+- [miner dropper](#miner-dropper) (1)
 - [Mini Shai-Hulud](#mini-shai-hulud) (6)
 - [MiniJunk](#minijunk) (1)
 - [miniOrange](#miniorange) (1)
@@ -7490,6 +7491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cryptojacking
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+- [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 
 ## CryptoJS
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
@@ -13199,6 +13201,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Minecraft DDoS
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
+
+## miner dropper
+- [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 
 ## Mini Shai-Hulud
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
