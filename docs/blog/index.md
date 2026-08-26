@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes a QEMU/KVM VM three times, including against a from-source minimal QEMU/libslirp rebuild (Trail of Bits)](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
+- [State divergence enables unauthorized access: Provenance marker module ACL check anyone can pass, 82 live mainnet markers affected (Trail of Bits)](../patterns/provenance-marker-state-divergence-access-control.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain — unauthenticated JWT-forgery-to-BDC-deserialization RCE, live in the wild, 8,500+ servers exposed (VulnCheck)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019, fixed 2.12.0)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)

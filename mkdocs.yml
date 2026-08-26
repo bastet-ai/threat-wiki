@@ -467,6 +467,8 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - 'VMs won''t contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times': patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md
+      - 'State divergence enables unauthorized access: Provenance marker module anyone-can-pass check': patterns/provenance-marker-state-divergence-access-control.md
       - 'Benchmaxxing: when a benchmark becomes the target': patterns/benchmaxxing-benchmark-integrity-cyber-ai.md
       - 'State of AI-enabled malware, August 2026 (Unit 42)': patterns/unit42-state-of-ai-enabled-malware-august-2026.md
       - 'NemoClaw local Ollama chat-template poisoning (Oasis Security)': patterns/nemoclaw-local-ollama-chat-template-poisoning.md
