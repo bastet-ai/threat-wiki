@@ -4,6 +4,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## All tags
 - [.NET](#net) (10)
+- [.NET deserialization](#net-deserialization) (1)
 - [.NET downloaders](#net-downloaders) (1)
 - [.NET malware](#net-malware) (7)
 - [.NET reflection](#net-reflection) (1)
@@ -53,8 +54,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Acronis TRU](#acronis-tru) (1)
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
+- [Activator.CreateInstance](#activatorcreateinstance) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (69)
+- [active exploitation](#active-exploitation) (70)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -370,7 +372,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bash Uploader](#bash-uploader) (1)
 - [batch loader](#batch-loader) (1)
 - [Bayesian scoring](#bayesian-scoring) (1)
+- [BCS](#bcs) (1)
+- [BCSAllowedTypeNames](#bcsallowedtypenames) (1)
 - [BCU key](#bcu-key) (1)
+- [BDC](#bdc) (1)
+- [BDCM](#bdcm) (1)
 - [Bearlyfy](#bearlyfy) (2)
 - [Beast ransomware](#beast-ransomware) (1)
 - [BeaverTail](#beavertail) (1)
@@ -483,6 +489,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Burkina Faso](#burkina-faso) (1)
 - [business email compromise](#business-email-compromise) (2)
 - [business intelligence](#business-intelligence) (1)
+- [BusinessDataCatalog](#businessdatacatalog) (1)
 - [BusySnake Stealer](#busysnake-stealer) (3)
 - [Bybit](#bybit) (1)
 - [BYOVD](#byovd) (4)
@@ -590,7 +597,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CIS](#cis) (2)
 - [CISA](#cisa) (12)
 - [CISA ADP](#cisa-adp) (1)
-- [CISA KEV](#cisa-kev) (37)
+- [CISA KEV](#cisa-kev) (38)
 - [Cisco](#cisco) (6)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -996,7 +1003,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-53359](#cve-2026-53359) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-54420](#cve-2026-54420) (1)
-- [CVE-2026-55040](#cve-2026-55040) (1)
+- [CVE-2026-55040](#cve-2026-55040) (2)
 - [CVE-2026-55255](#cve-2026-55255) (1)
 - [CVE-2026-56290](#cve-2026-56290) (1)
 - [CVE-2026-56291](#cve-2026-56291) (1)
@@ -1013,6 +1020,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-62145](#cve-2026-62145) (1)
 - [CVE-2026-63030](#cve-2026-63030) (1)
 - [CVE-2026-63077](#cve-2026-63077) (1)
+- [CVE-2026-63520](#cve-2026-63520) (1)
 - [CVE-2026-64849](#cve-2026-64849) (1)
 - [CVE-2026-65400](#cve-2026-65400) (1)
 - [CVE-2026-65640](#cve-2026-65640) (1)
@@ -1368,7 +1376,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exFAT](#exfat) (1)
 - [exfiltration](#exfiltration) (6)
 - [Experience Cloud](#experience-cloud) (1)
-- [exploit chain](#exploit-chain) (1)
+- [exploit chain](#exploit-chain) (2)
 - [exploit kit](#exploit-kit) (1)
 - [exploit noise](#exploit-noise) (1)
 - [exploit-development](#exploit-development) (1)
@@ -1498,6 +1506,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ForgCookie](#forgcookie) (1)
 - [Forgejo](#forgejo) (1)
 - [forgot password](#forgot-password) (1)
+- [FormDigestValue](#formdigestvalue) (1)
 - [Forms Authentication](#forms-authentication) (1)
 - [FortiClient EMS](#forticlient-ems) (1)
 - [FortiGate](#fortigate) (3)
@@ -1740,6 +1749,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HOLLOWGRAPH](#hollowgraph) (1)
 - [Honduras](#honduras) (2)
 - [HONESTCUE](#honestcue) (1)
+- [honeypot](#honeypot) (1)
 - [Hong Kong](#hong-kong) (1)
 - [Hong Kong infrastructure](#hong-kong-infrastructure) (1)
 - [hospitality](#hospitality) (1)
@@ -1845,6 +1855,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure](#infrastructure) (6)
 - [infrastructure churn](#infrastructure-churn) (1)
 - [infrastructure disruption](#infrastructure-disruption) (3)
+- [initial access](#initial-access) (1)
 - [initial access broker](#initial-access-broker) (2)
 - [initial-access](#initial-access) (3)
 - [Injective Labs](#injective-labs) (1)
@@ -1943,6 +1954,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Jscrambler](#jscrambler) (1)
 - [JScript](#jscript) (1)
 - [JSON](#json) (1)
+- [JSON Web Token](#json-web-token) (1)
 - [JSON-RPC](#json-rpc) (1)
 - [JSON:API](#jsonapi) (1)
 - [jsonata](#jsonata) (1)
@@ -1954,7 +1966,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Jupyter](#jupyter) (1)
 - [Jupyter Notebook](#jupyter-notebook) (1)
 - [JustWatch](#justwatch) (1)
-- [JWT](#jwt) (1)
+- [JWT](#jwt) (2)
 - [JWT alg none](#jwt-alg-none) (1)
 - [JXA downloader](#jxa-downloader) (1)
 - [K1MORPHER](#k1morpher) (2)
@@ -1969,6 +1981,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kazakhstan](#kazakhstan) (2)
 - [KAZUAR](#kazuar) (2)
 - [KAZUAR overlap](#kazuar-overlap) (1)
+- [KB5002893](#kb5002893) (1)
 - [KeePassXC](#keepassxc) (1)
 - [Keitaro](#keitaro) (1)
 - [Keksec](#keksec) (1)
@@ -2128,6 +2141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [loopback login](#loopback-login) (1)
 - [Loophole](#loophole) (1)
 - [loose boolean check](#loose-boolean-check) (1)
+- [LosFormatter](#losformatter) (1)
 - [Lovable](#lovable) (1)
 - [low-confidence attribution](#low-confidence-attribution) (4)
 - [LPE](#lpe) (1)
@@ -2250,7 +2264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MicroLogix 1100](#micrologix-1100) (1)
 - [MicroLogix 1400](#micrologix-1400) (1)
 - [MicroPython](#micropython) (2)
-- [Microsoft](#microsoft) (13)
+- [Microsoft](#microsoft) (14)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (10)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
@@ -2561,12 +2575,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (300)
+- [operations](#operations) (301)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (343)
+- [ops](#ops) (344)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (2)
@@ -2889,7 +2903,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
 - [rapid exploitation](#rapid-exploitation) (2)
-- [Rapid7](#rapid7) (1)
+- [Rapid7](#rapid7) (2)
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
 - [RAT](#rat) (32)
@@ -3196,8 +3210,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared secrets](#shared-secrets) (1)
 - [SharedWorker](#sharedworker) (1)
 - [ShareFile](#sharefile) (1)
-- [SharePoint](#sharepoint) (7)
-- [SharePoint Server](#sharepoint-server) (1)
+- [SharePoint](#sharepoint) (8)
+- [SharePoint Server](#sharepoint-server) (2)
 - [SharkLoader](#sharkloader) (1)
 - [Shattering the Dream](#shattering-the-dream) (1)
 - [SHEETCORD](#sheetcord) (1)
@@ -3559,7 +3573,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TmcPayload](#tmcpayload) (1)
 - [TOCTOU](#toctou) (1)
 - [ToddyCat](#toddycat) (3)
-- [token forgery](#token-forgery) (2)
+- [token forgery](#token-forgery) (3)
 - [token jacking](#token-jacking) (1)
 - [token replay](#token-replay) (3)
 - [token theft](#token-theft) (10)
@@ -3631,6 +3645,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [two-factor authentication](#two-factor-authentication) (1)
 - [Tycoon2FA](#tycoon2fa) (1)
 - [type confusion](#type-confusion) (1)
+- [TypeConfuseDelegate](#typeconfusedelegate) (1)
 - [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (3)
 - [typosquatting](#typosquatting) (16)
@@ -3666,7 +3681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (2)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
-- [unauthenticated RCE](#unauthenticated-rce) (8)
+- [unauthenticated RCE](#unauthenticated-rce) (9)
 - [unauthorized pentest framing](#unauthorized-pentest-framing) (1)
 - [UNC1069](#unc1069) (1)
 - [UNC1543](#unc1543) (1)
@@ -3801,7 +3816,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vSphere](#vsphere) (2)
 - [vSphere Foundation](#vsphere-foundation) (1)
 - [VU#213560](#vu213560) (1)
-- [VulnCheck](#vulncheck) (4)
+- [VulnCheck](#vulncheck) (5)
 - [vulnerability](#vulnerability) (24)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
@@ -3999,6 +4014,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](../tools/tinyrct.md)
 - [Umbrij](../tools/umbrij.md)
 
+## .NET deserialization
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+
 ## .NET downloaders
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 
@@ -4161,6 +4179,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ACTINIUM
 - [Gamaredon](../actors/gamaredon.md)
 
+## Activator.CreateInstance
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+
 ## Active Directory
 - [Cavern](../tools/cavern.md)
 
@@ -4183,6 +4204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
@@ -5446,8 +5468,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bayesian scoring
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 
+## BCS
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+
+## BCSAllowedTypeNames
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+
 ## BCU key
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
+
+## BDC
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+
+## BDCM
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 
 ## Bearlyfy
 - [Toy Ghouls](../actors/toy-ghouls.md)
@@ -5888,6 +5922,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## business intelligence
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
+
+## BusinessDataCatalog
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 
 ## BusySnake Stealer
 - [Armored Likho](../actors/armored-likho.md)
@@ -6370,6 +6407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
@@ -8026,6 +8064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-55040
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 
 ## CVE-2026-55255
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
@@ -8075,6 +8114,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-63077
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
+
+## CVE-2026-63520
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 
 ## CVE-2026-64849
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
@@ -9535,6 +9577,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
 
 ## exploit chain
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
 ## exploit kit
@@ -9997,6 +10040,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## forgot password
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
+
+## FormDigestValue
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 
 ## Forms Authentication
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
@@ -10891,6 +10937,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HONESTCUE
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## honeypot
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+
 ## Hong Kong
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
@@ -11339,6 +11388,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
+## initial access
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+
 ## initial access broker
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -11712,6 +11764,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JSON
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 
+## JSON Web Token
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+
 ## JSON-RPC
 - [Aeternum](../tools/aeternum.md)
 
@@ -11748,6 +11803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JWT
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 
 ## JWT alg none
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
@@ -11799,6 +11855,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## KAZUAR overlap
 - [STOCKSTAY](../tools/stockstay.md)
+
+## KB5002893
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 
 ## KeePassXC
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
@@ -12418,6 +12477,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## loose boolean check
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
 
+## LosFormatter
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+
 ## Lovable
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
@@ -12981,6 +13043,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
@@ -14265,6 +14328,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
@@ -14592,6 +14656,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
@@ -16165,6 +16230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
 ## Rapid7
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## RAR archives
@@ -17379,12 +17445,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## SharePoint Server
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 
 ## SharkLoader
@@ -18819,6 +18887,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Umbrij](../tools/umbrij.md)
 
 ## token forgery
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
@@ -19138,6 +19207,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## type confusion
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 
+## TypeConfuseDelegate
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+
 ## TypeScript
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -19309,6 +19381,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -19799,6 +19872,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VulnCheck
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)

@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)": ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md
       - "Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in 'Economic D-Day' sanctions": ops/operation-economic-outcast-mois-cyber-designations-august-2026.md
       - "Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse": ops/mirage2fa-m365-phishing-4500-companies-anyrun.md
       - "E4del and PINHOLE RATs use FTP banners as dead drop resolvers": ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md
