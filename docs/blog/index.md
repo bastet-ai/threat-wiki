@@ -3,6 +3,8 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets — LiteLLM, RAGFlow, and Kestra compromises](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI — Hades / Mini Shai-Hulud supply-chain advisory (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 - [QTFY: FBI/DoJ court-authorized seizure of QScan and QTRouter PRC infrastructure used to target U.S. critical infrastructure (NASA, Federal Reserve, DOE, Senate)](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [Reported Log4j RCE is a hardening gap, not a vulnerability — AI-agent-found FilteredObjectInputStream bypass (sonatype-2026-006746, Sonatype)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [CISA KEV August 26 additions: Citrix NetScaler DoS (CVE-2026-8452), Microsoft SQL Server RCE (CVE-2019-1068), and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)

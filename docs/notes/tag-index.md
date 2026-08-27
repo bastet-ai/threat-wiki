@@ -8,11 +8,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [.NET downloaders](#net-downloaders) (1)
 - [.NET malware](#net-malware) (7)
 - [.NET reflection](#net-reflection) (1)
-- [.pth](#pth) (1)
+- [.pth](#pth) (2)
 - [.vu TLD](#vu-tld) (1)
 - [/accessv2](#accessv2) (1)
 - [/api/session/reset_password](#apisessionreset_password) (1)
 - [/dev/kvm](#devkvm) (1)
+- [/proc/1/environ](#proc1environ) (1)
 - [0.14.3](#0143) (1)
 - [0x50594d](#0x50594d) (1)
 - [146.70.139.154](#14670139154) (1)
@@ -150,7 +151,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI developer tooling](#ai-developer-tooling) (2)
 - [AI framework](#ai-framework) (1)
 - [AI gateway](#ai-gateway) (1)
-- [AI infrastructure](#ai-infrastructure) (1)
+- [AI infrastructure](#ai-infrastructure) (2)
 - [AI memory poisoning](#ai-memory-poisoning) (1)
 - [AI model encryption](#ai-model-encryption) (1)
 - [AI model evaluation](#ai-model-evaluation) (2)
@@ -505,7 +506,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [building automation](#building-automation) (1)
 - [builtin wildcard](#builtin-wildcard) (1)
 - [bulletproof hosting](#bulletproof-hosting) (1)
-- [Bun](#bun) (4)
+- [Bun](#bun) (5)
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [Burkina Faso](#burkina-faso) (1)
 - [business email compromise](#business-email-compromise) (2)
@@ -772,7 +773,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [continuous visibility](#continuous-visibility) (1)
 - [control flow flattening](#control-flow-flattening) (3)
 - [control panel compromise](#control-panel-compromise) (1)
-- [control plane](#control-plane) (3)
+- [control plane](#control-plane) (4)
 - [control-flow hijacking](#control-flow-hijacking) (1)
 - [conversation theft](#conversation-theft) (1)
 - [cookie theft](#cookie-theft) (4)
@@ -813,8 +814,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (81)
-- [credential-theft](#credential-theft) (54)
+- [credential theft](#credential-theft) (82)
+- [credential-theft](#credential-theft) (55)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical framing](#critical-framing) (1)
@@ -856,7 +857,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptojacking](#cryptojacking) (2)
 - [CryptoJS](#cryptojs) (1)
 - [cryptominer](#cryptominer) (3)
-- [cryptomining](#cryptomining) (1)
+- [cryptomining](#cryptomining) (2)
 - [CSCwt95997](#cscwt95997) (1)
 - [CSI token theft](#csi-token-theft) (1)
 - [CSRF](#csrf) (3)
@@ -1244,7 +1245,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS dead drop](#dns-dead-drop) (2)
 - [DNS exfiltration](#dns-exfiltration) (4)
 - [DNS hijacking](#dns-hijacking) (1)
-- [DNS rebinding](#dns-rebinding) (3)
+- [DNS rebinding](#dns-rebinding) (4)
 - [DNS resolution](#dns-resolution) (1)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (3)
@@ -1253,7 +1254,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Docker Compose](#docker-compose) (1)
 - [Docker credentials](#docker-credentials) (1)
 - [Docker images](#docker-images) (1)
-- [Docker socket](#docker-socket) (2)
+- [Docker socket](#docker-socket) (3)
 - [document collection](#document-collection) (1)
 - [document exfiltration](#document-exfiltration) (1)
 - [document theft](#document-theft) (4)
@@ -1770,7 +1771,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hacked WordPress sites](#hacked-wordpress-sites) (1)
 - [HackIndex](#hackindex) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
-- [Hades](#hades) (2)
+- [Hades](#hades) (3)
 - [Hajime](#hajime) (1)
 - [half-click exploit](#half-click-exploit) (1)
 - [hallucination](#hallucination) (1)
@@ -2067,6 +2068,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [kernel R/W](#kernel-rw) (1)
 - [kernel rootkit](#kernel-rootkit) (1)
 - [kernelCTF](#kernelctf) (2)
+- [Kestra](#kestra) (1)
 - [KEV](#kev) (4)
 - [keychain](#keychain) (1)
 - [Keychain theft](#keychain-theft) (1)
@@ -2170,7 +2172,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux malware](#linux-malware) (3)
 - [Linux networking devices](#linux-networking-devices) (1)
 - [Linux rootkit](#linux-rootkit) (1)
-- [LiteLLM](#litellm) (3)
+- [LiteLLM](#litellm) (4)
 - [LiteSpeed](#litespeed) (2)
 - [live chat](#live-chat) (1)
 - [living off the land](#living-off-the-land) (1)
@@ -2178,6 +2180,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [living-off-the-land binaries](#living-off-the-land-binaries) (1)
 - [LLM](#llm) (9)
 - [LLM command execution](#llm-command-execution) (1)
+- [LLM gateway](#llm-gateway) (1)
 - [LLM security](#llm-security) (1)
 - [LLM slop](#llm-slop) (2)
 - [LLM-assisted malware](#llm-assisted-malware) (4)
@@ -2267,6 +2270,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MAIN world injection](#main-world-injection) (1)
 - [maintainer compromise](#maintainer-compromise) (5)
 - [maintainer persona](#maintainer-persona) (1)
+- [maintainer-account-compromise](#maintainer-account-compromise) (1)
 - [maintainer-compromise](#maintainer-compromise) (2)
 - [malformed signature](#malformed-signature) (1)
 - [malicious dataset](#malicious-dataset) (1)
@@ -2346,7 +2350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MFA fatigue](#mfa-fatigue) (2)
 - [MFA-bypass](#mfa-bypass) (1)
 - [MFT](#mft) (1)
-- [Miasma](#miasma) (11)
+- [Miasma](#miasma) (12)
 - [MicroLogix 1100](#micrologix-1100) (1)
 - [MicroLogix 1400](#micrologix-1400) (1)
 - [MicroPython](#micropython) (2)
@@ -2388,7 +2392,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Minecraft](#minecraft) (1)
 - [Minecraft DDoS](#minecraft-ddos) (1)
 - [miner dropper](#miner-dropper) (1)
-- [Mini Shai-Hulud](#mini-shai-hulud) (6)
+- [Mini Shai-Hulud](#mini-shai-hulud) (7)
 - [MiniJunk](#minijunk) (1)
 - [miniOrange](#miniorange) (1)
 - [MiniPlasma](#miniplasma) (1)
@@ -2408,7 +2412,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [missing authentication](#missing-authentication) (1)
 - [Mistic](#mistic) (1)
 - [MISTPEN](#mistpen) (1)
-- [MITRE ATT&CK](#mitre-attck) (1)
+- [MITRE ATT&CK](#mitre-attck) (2)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [Mitre ATT&CK T1110](#mitre-attck-t1110) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
@@ -2597,6 +2601,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NVIDIA](#nvidia) (1)
 - [NVIDIA impersonation](#nvidia-impersonation) (1)
 - [O-UNC-066](#o-unc-066) (1)
+- [OAST](#oast) (1)
 - [OAuth](#oauth) (6)
 - [OAuth 2.1](#oauth-21) (1)
 - [OAuth abuse](#oauth-abuse) (4)
@@ -2676,12 +2681,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (302)
+- [operations](#operations) (304)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (349)
+- [ops](#ops) (351)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (2)
@@ -2980,7 +2985,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PwPt-sHaRe](#pwpt-share) (1)
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
-- [PyPI](#pypi) (16)
+- [PyPI](#pypi) (17)
 - [Python](#python) (16)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python implant](#python-implant) (1)
@@ -3010,6 +3015,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RaaS](#raas) (2)
 - [RabbitMQ](#rabbitmq) (1)
 - [race condition](#race-condition) (1)
+- [RAGFlow](#ragflow) (1)
 - [RainbowEx](#rainbowex) (1)
 - [RakNet flood](#raknet-flood) (1)
 - [RAM disk](#ram-disk) (1)
@@ -3325,7 +3331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [SHADOW-WATER-063](#shadow-water-063) (1)
 - [ShadowPad](#shadowpad) (4)
-- [Shai-Hulud](#shai-hulud) (12)
+- [Shai-Hulud](#shai-hulud) (13)
 - [SHARDLOADER](#shardloader) (2)
 - [share propagation](#share-propagation) (1)
 - [shared accounts](#shared-accounts) (1)
@@ -3578,7 +3584,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (23)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (105)
+- [supply-chain](#supply-chain) (107)
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -3774,6 +3780,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [trusted relationship abuse](#trusted-relationship-abuse) (2)
 - [trusted-component weaponization](#trusted-component-weaponization) (1)
 - [trusted-domain abuse](#trusted-domain-abuse) (1)
+- [trusted-publishing](#trusted-publishing) (1)
 - [tunnel decapsulation](#tunnel-decapsulation) (1)
 - [tunnel services](#tunnel-services) (1)
 - [tunneling](#tunneling) (4)
@@ -4112,7 +4119,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xinference](#xinference) (1)
 - [xlabs_v1](#xlabs_v1) (1)
 - [XMLDecoder](#xmldecoder) (1)
-- [XMRig](#xmrig) (7)
+- [XMRig](#xmrig) (8)
 - [XOR](#xor) (3)
 - [XOR obfuscation](#xor-obfuscation) (1)
 - [xorshift32](#xorshift32) (1)
@@ -4190,6 +4197,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## .pth
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 
 ## .vu TLD
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
@@ -4202,6 +4210,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## /dev/kvm
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+
+## /proc/1/environ
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 
 ## 0.14.3
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
@@ -4798,6 +4809,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI infrastructure
 - [ENCFORGE](../tools/encforge.md)
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 
 ## AI memory poisoning
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
@@ -6139,6 +6151,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 
 ## Bun runtime abuse
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
@@ -7302,6 +7315,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## control plane
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 
 ## control-flow hijacking
@@ -7483,6 +7497,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
@@ -7577,6 +7592,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [TA4922](../actors/ta4922.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -7772,6 +7788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cryptomining
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 
 ## CSCwt95997
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
@@ -9199,6 +9216,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DNS rebinding
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [NemoClaw local Ollama chat-template poisoning (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
@@ -9233,6 +9251,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Docker socket
 - [ENCFORGE](../tools/encforge.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 
 ## document collection
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
@@ -11185,6 +11204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Hades
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 
 ## Hajime
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
@@ -12315,6 +12335,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
+## Kestra
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
+
 ## KEV
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -12723,6 +12746,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LiteLLM
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
 ## LiteSpeed
@@ -12754,6 +12778,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LLM command execution
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
+
+## LLM gateway
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 
 ## LLM security
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -13094,6 +13121,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## maintainer persona
 - [JiaT75](../people/jiat75.md)
+
+## maintainer-account-compromise
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 
 ## maintainer-compromise
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -13483,6 +13513,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 
 ## MicroLogix 1100
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
@@ -13673,6 +13704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 
 ## MiniJunk
 - [Screening Serpens](../actors/screening-serpens.md)
@@ -13742,6 +13774,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MITRE ATT&CK
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 
 ## MITRE ATT&CK T1005
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -14472,6 +14505,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## O-UNC-066
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 
+## OAST
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
+
 ## OAuth
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
@@ -14932,6 +14968,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -15030,6 +15067,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
@@ -15269,6 +15307,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -15387,6 +15426,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
@@ -16644,6 +16684,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
@@ -16756,6 +16797,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## race condition
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
+
+## RAGFlow
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 
 ## RainbowEx
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -18020,6 +18064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 
 ## SHARDLOADER
 - [Mustang Panda](../actors/mustang-panda.md)
@@ -19022,6 +19067,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -19053,6 +19099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
@@ -19833,6 +19880,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## trusted-domain abuse
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
+
+## trusted-publishing
+- [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
 
 ## tunnel decapsulation
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -21213,6 +21263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aeternum](../tools/aeternum.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
+- [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
