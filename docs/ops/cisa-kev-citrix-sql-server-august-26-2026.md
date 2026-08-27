@@ -82,6 +82,7 @@ CISA cites the upstream kernel commit (`93ce93587d36493f2f86921fa79921b3cba63fbb
 - CVE-2019-1068 is a **2019** flaw; the KEV addition is a 2026 exploitation determination. Its authenticated prerequisite (PR:L) means it is not an unauthenticated edge exposure, but a high-value follow-on after initial access.
 
 ## Related pages
+- [CISA KEV August 27, 2026 additions: ownCloud, Linux kernel IPv6 LPE, JFrog Artifactory](cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [UAT-10147 SPECTRE / BadIIS / agentic-AI web-server campaign](uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 - [UAT-10147](../actors/uat-10147.md)

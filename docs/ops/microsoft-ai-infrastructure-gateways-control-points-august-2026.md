@@ -182,6 +182,7 @@ Several payloads exhibited characteristics often associated with assisted or gen
 ## Related pages
 - [LiteLLM compromise](litellm-compromise.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](litellm-cve-2026-42271-mcp-stdio-command-injection.md)
+- [Wiz Threat Research: 90 days of honeypot telemetry on AI-infrastructure attacks](wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md) (complementing honeypot telemetry on the same LiteLLM MCP chain — CVE-2026-42271 + CVE-2026-48710 — plus observed blind prompt injection and AI-native post-exploitation; external researchers link the chain's active exploitation to the Qilin ransomware group)
 - [Trivy → TeamPCP → CanisterWorm timeline](trivy-lite-llm-compromise-timeline.md)
 - [TeamPCP](../actors/teampcp.md)
 
