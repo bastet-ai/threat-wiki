@@ -13,6 +13,13 @@ The report adds durable victimology, command behavior, load paths, mutexes, netw
 - UNC1549
 - Smoke Sandstorm
 - Nimbus Manticore
+- Tortoiseshell
+- Imperial Kitten
+- Unyielding Wasp
+- Charming Kitten
+- GalaxyGato
+- Screening Serpens
+- Subtle Snail
 - Iran-nexus
 - espionage
 - Middle East
@@ -65,6 +72,18 @@ The report adds durable victimology, command behavior, load paths, mutexes, netw
 ### ArcBridge network access
 - ArcBridge stores its C2, port, timing, SSL, and likely implant identifier in an embedded configuration block.
 - Its public command set includes `OPEN:` for a tunnel session and `DNS:` for name or address resolution.
+
+## Group-IB August 26, 2026: Tortoiseshell toolset expansion
+
+Group-IB published follow-on analysis (August 26, 2026) describing previously undocumented Tortoiseshell infrastructure and malware tied to this actor cluster. Group-IB assesses Nimbus Manticore as among the most active Iranian APT groups in 2026 and links it to **Tortoiseshell** (aka **Imperial Kitten**, **Unyielding Wasp**) within the **Charming Kitten** (aka **Eclipsed Wasp**) cluster; Tortoiseshell is known active since at least July 2018, mainly targeting defense, aerospace, IT service providers, and military organizations in the Middle East and the U.S.
+
+New artifacts:
+- **Reverse SSH tunneling utility** masquerading as the Windows Terminal Server SDK API; establishes an SSH connection to operator infrastructure at `172.86.98[.]113` on port 443.
+- **TWOSTROKE-like C++ backdoor** that mimics the Windows terminal server SDK DLL (`wtsapi32.dll`) and uses one of three hard-coded C2 servers over HTTPS. Commands: download/upload files, execute a binary or DLL, gather host information, list directories, delete files.
+- Extensive Tortoiseshell infrastructure spanning Europe and the Middle East, suggesting an expanded targeting profile beyond the Kaspersky-observed scope.
+- The group's own variant of the **Dream Job** recruitment-themed campaign is part of this actor's historical tradecraft.
+
+Treat Group-IB's cluster framing (Nimbus Manticore ↔ Tortoiseshell ↔ Charming Kitten) as source-reported linkage, not a multi-agency confirmed alias chain. Preserve the Kaspersky and Group-IB reports as distinct evidentiary bases.
 
 ## Victimology
 Kaspersky telemetry identified victims in:
@@ -119,7 +138,9 @@ This is observed scope, not a complete victim list.
 - [NightLedger](../tools/nightledger.md)
 - [BridgeHead](../tools/bridgehead.md)
 - [ArcBridge](../tools/arcbridge.md)
+- [QTFY / QScan / QTRouter PRC infrastructure seizure (Aug 26, 2026)](qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [Iran-linked threat landscape: access optionality and evidence quality](../notes/iran-linked-threat-landscape-july-2026.md)
 
 ## Sources
 - Kaspersky GReAT: [Mirage Kitten targets Middle East and Africa region with new malware](https://securelist.com/mirage-kitten-new-tools/120811/)
+- Group-IB, "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler" (via The Hacker News, August 26, 2026): [Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler](https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html)

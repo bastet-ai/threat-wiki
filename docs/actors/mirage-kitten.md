@@ -12,6 +12,10 @@ Keep the aliases as source-reported equivalences, not as proof that every activi
 - UNC1549
 - Smoke Sandstorm
 - Nimbus Manticore
+- Tortoiseshell
+- Charming Kitten
+- GalaxyGato
+- Subtle Snail
 - Iran-nexus
 - espionage
 - Middle East
@@ -38,6 +42,11 @@ Keep the aliases as source-reported equivalences, not as proof that every activi
 - **ArcBridge** is a separate WebSocket tunneler that supports operator-selected proxy sessions and DNS resolution.
 - Kaspersky connected the tools through code, behavioral, infrastructure, and tradecraft similarities with earlier Mirage Kitten implants, including TWOSTROKE, Retrograde / MiniFast / MiniUpdate, LIGHTRAIL, and POLLBLEND.
 
+### August 2026 toolset expansion (Group-IB)
+- Group-IB (August 26, 2026) linked the actor to **Tortoiseshell** (Imperial Kitten / Unyielding Wasp) within the **Charming Kitten** cluster and documented a **reverse SSH tunneling utility** (masquerading as the Windows Terminal Server SDK API, to `172.86.98[.]113:443`) and a **TWOSTROKE-like C++ backdoor** mimicking `wtsapi32.dll` with three hard-coded HTTPS C2 servers.
+- Aliases surfaced by Group-IB: GalaxyGato, Mirage Kitten, Screening Serpens, Smoke Sandstorm, Subtle Snail, UNC1549.
+- Treat the Tortoiseshell / Charming Kitten cluster framing as source-reported linkage, not a multi-agency confirmed alias chain.
+
 ### Victimology reported by Kaspersky
 - Egypt
 - Jordanian government and SMB environments
@@ -61,3 +70,4 @@ Keep the aliases as source-reported equivalences, not as proof that every activi
 
 ## Sources
 - Kaspersky GReAT: [Mirage Kitten targets Middle East and Africa region with new malware](https://securelist.com/mirage-kitten-new-tools/120811/)
+- Group-IB, "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler" (via The Hacker News, August 26, 2026): [Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler](https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html)

@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [QTFY: FBI/DoJ court-authorized seizure of QScan and QTRouter PRC infrastructure used to target U.S. critical infrastructure (NASA, Federal Reserve, DOE, Senate)](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [Reported Log4j RCE is a hardening gap, not a vulnerability — AI-agent-found FilteredObjectInputStream bypass (sonatype-2026-006746, Sonatype)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [CISA KEV August 26 additions: Citrix NetScaler DoS (CVE-2026-8452), Microsoft SQL Server RCE (CVE-2019-1068), and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)

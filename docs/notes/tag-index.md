@@ -37,6 +37,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab](#ababil-of-minab) (1)
 - [ABRT](#abrt) (1)
 - [abuse response](#abuse-response) (1)
+- [academia](#academia) (1)
 - [academic research](#academic-research) (1)
 - [academic sector](#academic-sector) (2)
 - [Accellion](#accellion) (1)
@@ -533,7 +534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [callback URL](#callback-url) (1)
 - [CallFlow](#callflow) (1)
 - [Cambodia](#cambodia) (1)
-- [campaign](#campaign) (6)
+- [campaign](#campaign) (7)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [CanisterWorm](#canisterworm) (1)
@@ -578,6 +579,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChainVeil](#chainveil) (1)
 - [Chaos ransomware](#chaos-ransomware) (1)
 - [Chaotic Eclipse](#chaotic-eclipse) (1)
+- [Charming Kitten](#charming-kitten) (2)
 - [chat-template poisoning](#chat-template-poisoning) (1)
 - [ChatGPT](#chatgpt) (1)
 - [chattr](#chattr) (1)
@@ -590,7 +592,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China](#china) (3)
 - [China nexus](#china-nexus) (1)
 - [China-linked](#china-linked) (8)
-- [China-nexus](#china-nexus) (17)
+- [China-nexus](#china-nexus) (18)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (2)
 - [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
@@ -640,6 +642,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-CRI-1147](#cl-cri-1147) (1)
 - [CL-STA-1062](#cl-sta-1062) (3)
 - [CL-STA-1114](#cl-sta-1114) (4)
+- [Clash proxy](#clash-proxy) (1)
 - [Claude](#claude) (3)
 - [Claude Code](#claude-code) (8)
 - [Claude for Chrome](#claude-for-chrome) (1)
@@ -815,7 +818,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical framing](#critical-framing) (1)
-- [critical infrastructure](#critical-infrastructure) (10)
+- [critical infrastructure](#critical-infrastructure) (11)
 - [critical vulnerability](#critical-vulnerability) (6)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
@@ -1138,7 +1141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCSync](#dcsync) (1)
 - [DD-WRT](#dd-wrt) (1)
 - [DDNS](#ddns) (1)
-- [DDoS](#ddos) (8)
+- [DDoS](#ddos) (9)
 - [DDoS botnet](#ddos-botnet) (1)
 - [DDoS-for-hire](#ddos-for-hire) (3)
 - [DDR](#ddr) (1)
@@ -1227,6 +1230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Discord masquerade](#discord-masquerade) (1)
 - [discovery](#discovery) (1)
 - [disk wiping](#disk-wiping) (1)
+- [disruption](#disruption) (1)
 - [distributed malware infrastructure](#distributed-malware-infrastructure) (1)
 - [distributed scanning](#distributed-scanning) (1)
 - [Djinn Stealer](#djinn-stealer) (3)
@@ -1258,6 +1262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DOE](#doe) (1)
 - [DoFun](#dofun) (1)
 - [DOGLEASH](#dogleash) (1)
+- [DOJ](#doj) (1)
 - [domain squatting](#domain-squatting) (1)
 - [domestic espionage](#domestic-espionage) (1)
 - [dormant accounts](#dormant-accounts) (2)
@@ -1488,7 +1493,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fat JAR](#fat-jar) (1)
 - [FAT32](#fat32) (1)
 - [FatFs](#fatfs) (1)
-- [FBI](#fbi) (4)
+- [FBI](#fbi) (5)
 - [FBI indictment](#fbi-indictment) (1)
 - [fbot](#fbot) (1)
 - [FDMTP](#fdmtp) (2)
@@ -1595,6 +1600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [gadget chain](#gadget-chain) (1)
 - [Gafgyt](#gafgyt) (1)
 - [GaiaOS WebUI](#gaiaos-webui) (1)
+- [GalaxyGato](#galaxygato) (2)
 - [Gamaredon](#gamaredon) (3)
 - [Gamaredon collaboration](#gamaredon-collaboration) (1)
 - [gambling](#gambling) (1)
@@ -1727,7 +1733,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [government impersonation](#government-impersonation) (1)
 - [government offices](#government-offices) (1)
 - [government services and facilities](#government-services-and-facilities) (1)
-- [government targeting](#government-targeting) (20)
+- [government targeting](#government-targeting) (21)
 - [government-impersonation](#government-impersonation) (1)
 - [GPT](#gpt) (1)
 - [GPT-5.6 Sol](#gpt-56-sol) (1)
@@ -1882,6 +1888,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ImageMagick](#imagemagick) (1)
 - [iMessage](#imessage) (1)
 - [Impacket](#impacket) (4)
+- [Imperial Kitten](#imperial-kitten) (1)
 - [impersonation](#impersonation) (2)
 - [implant](#implant) (1)
 - [import-time execution](#import-time-execution) (6)
@@ -1919,6 +1926,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure](#infrastructure) (6)
 - [infrastructure churn](#infrastructure-churn) (1)
 - [infrastructure disruption](#infrastructure-disruption) (3)
+- [infrastructure seizure](#infrastructure-seizure) (1)
 - [initial access](#initial-access) (1)
 - [initial access broker](#initial-access-broker) (2)
 - [initial-access](#initial-access) (3)
@@ -1943,7 +1951,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [invocation logging](#invocation-logging) (1)
 - [iOS](#ios) (2)
 - [IoT](#iot) (7)
-- [IoT botnet](#iot-botnet) (7)
+- [IoT botnet](#iot-botnet) (8)
 - [IP cameras](#ip-cameras) (2)
 - [IP-in-IP](#ip-in-ip) (1)
 - [IPFS](#ipfs) (1)
@@ -2228,7 +2236,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lua](#lua) (1)
 - [LuaJIT](#luajit) (1)
 - [Lumen](#lumen) (1)
-- [Lumen Black Lotus Labs](#lumen-black-lotus-labs) (1)
+- [Lumen Black Lotus Labs](#lumen-black-lotus-labs) (2)
 - [Lumma Stealer](#lumma-stealer) (1)
 - [Luna Moth](#luna-moth) (1)
 - [Luno](#luno) (1)
@@ -2387,6 +2395,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MINIRAT](#minirat) (2)
 - [MINIRECON](#minirecon) (2)
 - [Ministry of Finance](#ministry-of-finance) (2)
+- [Ministry of State Security](#ministry-of-state-security) (1)
 - [Ministry of Transport and Communications](#ministry-of-transport-and-communications) (1)
 - [MiniUpdate](#miniupdate) (1)
 - [mint](#mint) (1)
@@ -2489,6 +2498,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [namespace recycling](#namespace-recycling) (1)
 - [namespace squatting](#namespace-squatting) (2)
 - [NanChat](#nanchat) (1)
+- [Nanjing Xinjiuwei](#nanjing-xinjiuwei) (1)
 - [NAS targeting](#nas-targeting) (1)
 - [nation-state](#nation-state) (1)
 - [national identity records](#national-identity-records) (1)
@@ -2652,8 +2662,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenVPN](#openvpn) (3)
 - [OpenVPN-shaped UDP](#openvpn-shaped-udp) (1)
 - [OpenVSX](#openvsx) (1)
-- [OpenWrt](#openwrt) (1)
-- [operation](#operation) (3)
+- [OpenWrt](#openwrt) (2)
+- [operation](#operation) (4)
 - [Operation BlueDash](#operation-bluedash) (1)
 - [Operation CameraSwarm](#operation-cameraswarm) (1)
 - [Operation DangerousPassword](#operation-dangerouspassword) (1)
@@ -2671,7 +2681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (348)
+- [ops](#ops) (349)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [Oracle](#oracle) (2)
@@ -2835,6 +2845,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pixeldrain](#pixeldrain) (1)
 - [PixelSmash](#pixelsmash) (1)
 - [PKGBUILD](#pkgbuild) (1)
+- [PLA](#pla) (1)
 - [plaintext HTTP](#plaintext-http) (1)
 - [Plandex](#plandex) (1)
 - [PLC](#plc) (2)
@@ -2876,7 +2887,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PPtP](#pptp) (1)
 - [PRA](#pra) (1)
 - [PraisonAI](#praisonai) (1)
-- [PRC](#prc) (1)
+- [PRC](#prc) (2)
 - [PRC-aligned](#prc-aligned) (1)
 - [PRC-nexus](#prc-nexus) (1)
 - [pre-auth RCE](#pre-auth-rce) (1)
@@ -2935,6 +2946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [proxy](#proxy) (12)
 - [proxy botnet](#proxy-botnet) (1)
 - [proxy network](#proxy-network) (2)
+- [proxy obfuscation](#proxy-obfuscation) (1)
 - [ProxyChains](#proxychains) (1)
 - [proxyjacking](#proxyjacking) (1)
 - [proxyware](#proxyware) (1)
@@ -2982,6 +2994,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QNAP](#qnap) (1)
 - [QR code](#qr-code) (1)
 - [QR code interception](#qr-code-interception) (1)
+- [QScan](#qscan) (1)
+- [QTBotnet](#qtbotnet) (1)
+- [QTFY](#qtfy) (1)
+- [QTRouter](#qtrouter) (1)
 - [quantum computing](#quantum-computing) (1)
 - [Quasar](#quasar) (1)
 - [query injection](#query-injection) (1)
@@ -3225,7 +3241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [screen capture](#screen-capture) (4)
 - [Screen Sharing](#screen-sharing) (1)
 - [ScreenConnect](#screenconnect) (5)
-- [Screening Serpens](#screening-serpens) (1)
+- [Screening Serpens](#screening-serpens) (2)
 - [screenshot capture](#screenshot-capture) (2)
 - [screenshot theft](#screenshot-theft) (3)
 - [script injection](#script-injection) (1)
@@ -3553,6 +3569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subject claim](#subject-claim) (1)
 - [subscription fraud platform](#subscription-fraud-platform) (1)
 - [subscription PhaaS](#subscription-phaas) (1)
+- [Subtle Snail](#subtle-snail) (2)
 - [SuccessKey](#successkey) (1)
 - [summarization](#summarization) (1)
 - [SUMMIT](#summit) (3)
@@ -3714,6 +3731,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tooling](#tooling) (5)
 - [tools](#tools) (59)
 - [Tor](#tor) (4)
+- [Tortoiseshell](#tortoiseshell) (2)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [TouchSocket](#touchsocket) (1)
 - [Toy Ghouls](#toy-ghouls) (3)
@@ -3843,6 +3861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unrestricted file upload](#unrestricted-file-upload) (1)
 - [unsafe deserialization](#unsafe-deserialization) (2)
 - [unsigned installer](#unsigned-installer) (1)
+- [Unyielding Wasp](#unyielding-wasp) (1)
 - [UpdateFactory](#updatefactory) (1)
 - [UPnP](#upnp) (2)
 - [UPX](#upx) (1)
@@ -4256,6 +4275,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## abuse response
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
+## academia
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 
 ## academic research
 - [UNC6508](../actors/unc6508.md)
@@ -6232,6 +6254,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -6376,6 +6399,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Chaotic Eclipse
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 
+## Charming Kitten
+- [Mirage Kitten](../actors/mirage-kitten.md)
+- [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+
 ## chat-template poisoning
 - [NemoClaw local Ollama chat-template poisoning (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
 
@@ -6436,6 +6463,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [SilkParasite](../actors/silkparasite.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
@@ -6727,6 +6755,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+
+## Clash proxy
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 
 ## Claude
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -7568,6 +7599,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [Velvet Ant](../actors/velvet-ant.md)
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
@@ -8691,6 +8723,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [RustDuck](../tools/rustduck.md)
@@ -9082,6 +9115,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## disk wiping
 - [GigaWiper](../tools/gigawiper.md)
 
+## disruption
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
+
 ## distributed malware infrastructure
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 
@@ -9224,6 +9260,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DOGLEASH
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
+
+## DOJ
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 
 ## domain squatting
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
@@ -10122,6 +10161,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 
 ## FBI indictment
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
@@ -10486,6 +10526,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GaiaOS WebUI
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
+
+## GalaxyGato
+- [Mirage Kitten](../actors/mirage-kitten.md)
+- [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 
 ## Gamaredon
 - [Gamaredon](../actors/gamaredon.md)
@@ -10992,6 +11036,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 - [Mustang Panda](../actors/mustang-panda.md)
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [SilkParasite](../actors/silkparasite.md)
@@ -11536,6 +11581,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
+## Imperial Kitten
+- [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+
 ## impersonation
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
@@ -11747,6 +11795,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
+## infrastructure seizure
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
+
 ## initial access
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 
@@ -11841,6 +11892,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [RustDuck](../tools/rustduck.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
@@ -12916,6 +12968,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Lumen Black Lotus Labs
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 
 ## Lumma Stealer
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -13642,6 +13695,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 
+## Ministry of State Security
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
+
 ## Ministry of Transport and Communications
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
 
@@ -14002,6 +14058,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NanChat
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
+
+## Nanjing Xinjiuwei
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 
 ## NAS targeting
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -14651,10 +14710,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OpenWrt
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 
 ## operation
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 
 ## Operation BlueDash
@@ -15274,6 +15335,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
@@ -16030,6 +16092,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PKGBUILD
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 
+## PLA
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
+
 ## plaintext HTTP
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 
@@ -16214,6 +16279,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PRC
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 
 ## PRC-aligned
 - [Showboat](../tools/showboat.md)
@@ -16445,6 +16511,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
+## proxy obfuscation
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
+
 ## ProxyChains
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
@@ -16638,6 +16707,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## QR code interception
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+
+## QScan
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
+
+## QTBotnet
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
+
+## QTFY
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
+
+## QTRouter
+- [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 
 ## quantum computing
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
@@ -17636,6 +17717,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Screening Serpens
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
+- [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 
 ## screenshot capture
 - [LabubaRAT](../tools/labubarat.md)
@@ -18823,6 +18905,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## subscription PhaaS
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
 
+## Subtle Snail
+- [Mirage Kitten](../actors/mirage-kitten.md)
+- [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+
 ## SuccessKey
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
@@ -19599,6 +19685,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 
+## Tortoiseshell
+- [Mirage Kitten](../actors/mirage-kitten.md)
+- [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+
 ## Total Software Deployment
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
@@ -20101,6 +20191,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unsigned installer
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
+## Unyielding Wasp
+- [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 
 ## UpdateFactory
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)

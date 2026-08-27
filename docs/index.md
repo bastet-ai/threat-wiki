@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [QTFY: FBI/DoJ court-authorized seizure of QScan and QTRouter PRC infrastructure used to target U.S. critical infrastructure (NASA, Federal Reserve, DOE, Senate)](ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [Reported Log4j RCE is a hardening gap, not a vulnerability — AI-agent-found FilteredObjectInputStream bypass (sonatype-2026-006746, Sonatype)](patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [CISA KEV August 26 additions: Citrix NetScaler DoS (CVE-2026-8452), Microsoft SQL Server RCE (CVE-2019-1068), and four UAT-10147 exploitation CVEs](ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes a QEMU/KVM VM three times (Trail of Bits)](patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass ACL check (Trail of Bits)](patterns/provenance-marker-state-divergence-access-control.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain — unauthenticated JWT-forgery-to-BDC-deserialization RCE, live in the wild, 8,500+ servers exposed (VulnCheck)](ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
-- [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
