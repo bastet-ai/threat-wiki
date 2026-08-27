@@ -104,3 +104,4 @@ Also monitor outbound TCP `7000` and `7001` from router, cellular-CPE, and netwo
 
 ## Source
 - VulnCheck: [ENDLESSDOORS Is Phoning Home. Pick Up.](https://www.vulncheck.com/blog/zbt-endlessdoors) — August 5, 2026
+- Follow-up: VulnCheck published two further implants in the same ZBT / MoreQuick firmware lineage on August 27, 2026 — see [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware](speakingstone-darklantern-zbt-router-implants.md).

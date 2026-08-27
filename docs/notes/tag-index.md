@@ -484,6 +484,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser data theft](#browser-data-theft) (2)
 - [browser extension](#browser-extension) (9)
 - [browser extension loader](#browser-extension-loader) (1)
+- [browser extension malware](#browser-extension-malware) (1)
 - [browser fingerprint spoofing](#browser-fingerprint-spoofing) (1)
 - [browser fingerprinting](#browser-fingerprinting) (1)
 - [browser hijacking](#browser-hijacking) (4)
@@ -623,7 +624,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome](#chrome) (3)
 - [Chrome App-Bound Encryption](#chrome-app-bound-encryption) (1)
 - [Chrome DevTools Protocol](#chrome-devtools-protocol) (1)
-- [Chrome extension](#chrome-extension) (2)
+- [Chrome extension](#chrome-extension) (3)
 - [Chrome renderer sandbox](#chrome-renderer-sandbox) (1)
 - [Chrome Web Store](#chrome-web-store) (5)
 - [chrome_settings_overrides](#chrome_settings_overrides) (1)
@@ -674,7 +675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [click interception](#click-interception) (1)
 - [clicker](#clicker) (1)
 - [ClickFake](#clickfake) (1)
-- [ClickFix](#clickfix) (22)
+- [ClickFix](#clickfix) (23)
 - [ClickOnce](#clickonce) (1)
 - [ClickUp](#clickup) (1)
 - [client installer poisoning](#client-installer-poisoning) (1)
@@ -749,7 +750,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [collaboration-tool phishing](#collaboration-tool-phishing) (2)
 - [COM-hijacking](#com-hijacking) (1)
 - [ComfyUI](#comfyui) (1)
-- [command and control](#command-and-control) (4)
+- [command and control](#command-and-control) (6)
 - [command execution](#command-execution) (9)
 - [command injection](#command-injection) (9)
 - [command-execution](#command-execution) (1)
@@ -831,7 +832,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (84)
+- [credential theft](#credential-theft) (85)
 - [credential-theft](#credential-theft) (55)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -862,6 +863,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crucio](#crucio) (1)
 - [crypto](#crypto) (2)
 - [crypto clipper](#crypto-clipper) (2)
+- [crypto draining](#crypto-draining) (1)
 - [crypto wallets](#crypto-wallets) (2)
 - [crypto-js](#crypto-js) (1)
 - [crypto-wallets](#crypto-wallets) (1)
@@ -878,6 +880,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptomining](#cryptomining) (3)
 - [CSCwt95997](#cscwt95997) (1)
 - [CSI token theft](#csi-token-theft) (1)
+- [CSP stripping](#csp-stripping) (1)
 - [CSRF](#csrf) (3)
 - [CSRF token theft](#csrf-token-theft) (1)
 - [CSS](#css) (1)
@@ -1147,6 +1150,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dahua](#dahua) (1)
 - [dangling resources](#dangling-resources) (1)
 - [Dark Caracal](#dark-caracal) (1)
+- [DARKLANTERN](#darklantern) (1)
 - [DarkSword](#darksword) (1)
 - [data analytics](#data-analytics) (1)
 - [data contamination](#data-contamination) (1)
@@ -1270,6 +1274,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS callback](#dns-callback) (1)
 - [DNS dead drop](#dns-dead-drop) (2)
 - [DNS exfiltration](#dns-exfiltration) (4)
+- [DNS hijack](#dns-hijack) (1)
 - [DNS hijacking](#dns-hijacking) (1)
 - [DNS rebinding](#dns-rebinding) (4)
 - [DNS resolution](#dns-resolution) (1)
@@ -1293,6 +1298,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DOGLEASH](#dogleash) (1)
 - [DOJ](#doj) (1)
 - [domain squatting](#domain-squatting) (1)
+- [DomainTools](#domaintools) (1)
 - [domestic espionage](#domestic-espionage) (1)
 - [dormant accounts](#dormant-accounts) (2)
 - [DotNetNuke](#dotnetnuke) (1)
@@ -1315,6 +1321,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dropbox](#dropbox) (2)
 - [dropper](#dropper) (1)
 - [Drupal](#drupal) (1)
+- [dual-function malware](#dual-function-malware) (1)
 - [dual-use](#dual-use) (1)
 - [dual-use tooling](#dual-use-tooling) (1)
 - [duckdns](#duckdns) (1)
@@ -1348,7 +1355,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge device](#edge-device) (3)
 - [edge devices](#edge-devices) (5)
 - [edge exploitation](#edge-exploitation) (1)
-- [Edge extension](#edge-extension) (1)
+- [Edge extension](#edge-extension) (2)
 - [edge service](#edge-service) (2)
 - [edge services](#edge-services) (1)
 - [edge-service denial of service](#edge-service-denial-of-service) (1)
@@ -1377,14 +1384,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [email security](#email-security) (1)
 - [email theft](#email-theft) (4)
 - [embedded configuration](#embedded-configuration) (1)
-- [embedded Linux](#embedded-linux) (1)
+- [embedded Linux](#embedded-linux) (2)
 - [embedded systems](#embedded-systems) (1)
 - [Emerald Sleet](#emerald-sleet) (1)
 - [ENCFORGE](#encforge) (2)
 - [encrypted C2](#encrypted-c2) (4)
 - [encrypted reasoning](#encrypted-reasoning) (1)
 - [EncryptInterceptor](#encryptinterceptor) (1)
-- [ENDLESSDOORS](#endlessdoors) (1)
+- [ENDLESSDOORS](#endlessdoors) (2)
 - [Endor Labs](#endor-labs) (1)
 - [endpoint compromise](#endpoint-compromise) (1)
 - [endpoint detection](#endpoint-detection) (1)
@@ -1478,6 +1485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exposure window](#exposure-window) (1)
 - [extconf.rb](#extconfrb) (1)
 - [extension supply-chain](#extension-supply-chain) (2)
+- [extension takeover](#extension-takeover) (1)
 - [external federation](#external-federation) (1)
 - [extortion](#extortion) (10)
 - [F5](#f5) (1)
@@ -1503,7 +1511,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake ransomware](#fake-ransomware) (1)
 - [fake recruiting](#fake-recruiting) (4)
 - [fake reputation](#fake-reputation) (1)
-- [fake update](#fake-update) (3)
+- [fake update](#fake-update) (4)
 - [fake VPN](#fake-vpn) (1)
 - [FakeCaptcha](#fakecaptcha) (1)
 - [FakeGit](#fakegit) (1)
@@ -1571,7 +1579,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [firewall](#firewall) (1)
 - [firewall management](#firewall-management) (2)
 - [firmware](#firmware) (2)
-- [firmware backdoor](#firmware-backdoor) (1)
+- [firmware backdoor](#firmware-backdoor) (2)
+- [firmware supply chain](#firmware-supply-chain) (1)
 - [firmware update](#firmware-update) (1)
 - [FishMonger](#fishmonger) (1)
 - [FlatBuffers](#flatbuffers) (1)
@@ -1817,7 +1826,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hard-coded password](#hard-coded-password) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
 - [hardening gap](#hardening-gap) (1)
-- [hardware wallet](#hardware-wallet) (1)
+- [hardware wallet](#hardware-wallet) (2)
 - [HarmonyLib](#harmonylib) (1)
 - [HashiCorp Vault](#hashicorp-vault) (1)
 - [HavocKiller](#havockiller) (1)
@@ -1987,7 +1996,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [InvisibleFerret](#invisibleferret) (1)
 - [invocation logging](#invocation-logging) (1)
 - [iOS](#ios) (2)
-- [IoT](#iot) (7)
+- [IoT](#iot) (8)
 - [IoT botnet](#iot-botnet) (8)
 - [IP cameras](#ip-cameras) (2)
 - [IP-in-IP](#ip-in-ip) (1)
@@ -2489,6 +2498,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Monero mining](#monero-mining) (1)
 - [MongoDB](#mongodb) (1)
 - [Monster ransomware](#monster-ransomware) (1)
+- [MoreQuick](#morequick) (1)
 - [Motorola E13](#motorola-e13) (1)
 - [MoYu](#moyu) (1)
 - [Mozi](#mozi) (2)
@@ -2589,6 +2599,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nigeria-nexus](#nigeria-nexus) (1)
 - [Night Dragon](#night-dragon) (1)
 - [NightLedger](#nightledger) (2)
+- [Nim](#nim) (1)
 - [Nimbus Manticore](#nimbus-manticore) (2)
 - [NirSoft](#nirsoft) (1)
 - [no active exploitation](#no-active-exploitation) (1)
@@ -2723,12 +2734,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (307)
+- [operations](#operations) (309)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (354)
+- [ops](#ops) (356)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -2750,7 +2761,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OtterCookie](#ottercookie) (1)
 - [out-of-bounds read](#out-of-bounds-read) (1)
 - [out-of-bounds write](#out-of-bounds-write) (2)
-- [outbound C2](#outbound-c2) (1)
+- [outbound C2](#outbound-c2) (2)
 - [Outlook](#outlook) (2)
 - [Outlook Web Access](#outlook-web-access) (2)
 - [Outsider Enterprise](#outsider-enterprise) (1)
@@ -2935,6 +2946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShower](#powershower) (1)
+- [PPPoE credential theft](#pppoe-credential-theft) (1)
 - [PPtP](#pptp) (1)
 - [PRA](#pra) (1)
 - [PraisonAI](#praisonai) (1)
@@ -2947,6 +2959,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pre-signed URL](#pre-signed-url) (1)
 - [Prefetch](#prefetch) (1)
 - [preinstall](#preinstall) (3)
+- [PreppHint](#prepphint) (1)
 - [presigned URLs](#presigned-urls) (1)
 - [primary keys](#primary-keys) (1)
 - [Primary Refresh Token](#primary-refresh-token) (1)
@@ -3181,6 +3194,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [retail trading](#retail-trading) (1)
 - [reverse proxy](#reverse-proxy) (2)
 - [reverse SOCKS5](#reverse-socks5) (1)
+- [reverse SSH tunnel](#reverse-ssh-tunnel) (1)
 - [reverse SSH tunneling](#reverse-ssh-tunneling) (3)
 - [reverse tunneling](#reverse-tunneling) (1)
 - [reverse tunnels](#reverse-tunnels) (1)
@@ -3209,7 +3223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [root access](#root-access) (1)
 - [root escalation](#root-escalation) (1)
 - [root execution](#root-execution) (2)
-- [root shell](#root-shell) (1)
+- [root shell](#root-shell) (2)
 - [rootkit](#rootkit) (5)
 - [ROOTRUN](#rootrun) (1)
 - [Rootstock](#rootstock) (1)
@@ -3217,7 +3231,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rouki obfuscation](#rouki-obfuscation) (1)
 - [Roundcube](#roundcube) (2)
 - [router](#router) (1)
-- [router compromise](#router-compromise) (3)
+- [router compromise](#router-compromise) (4)
 - [router malware](#router-malware) (1)
 - [Rovo](#rovo) (2)
 - [RovoBlast](#rovoblast) (1)
@@ -3315,6 +3329,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secrets](#secrets) (6)
 - [secrets management](#secrets-management) (1)
 - [SectopRAT](#sectoprat) (1)
+- [Secure Annex](#secure-annex) (1)
 - [Secure Firewall](#secure-firewall) (1)
 - [Secure Firewall Management Center](#secure-firewall-management-center) (1)
 - [Secure Preferences](#secure-preferences) (1)
@@ -3324,6 +3339,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [security platform](#security-platform) (1)
 - [security-tool discovery](#security-tool-discovery) (1)
 - [SecurityPDF](#securitypdf) (1)
+- [seed phrase](#seed-phrase) (1)
 - [seed phrase theft](#seed-phrase-theft) (2)
 - [seed recovery](#seed-recovery) (1)
 - [SeedHunter](#seedhunter) (1)
@@ -3397,7 +3413,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHEETCORD](#sheetcord) (1)
 - [shell injection](#shell-injection) (1)
 - [shellcode](#shellcode) (1)
-- [Shenzhen Zhibotong Electronics](#shenzhen-zhibotong-electronics) (1)
+- [Shenzhen Zhibotong Electronics](#shenzhen-zhibotong-electronics) (2)
 - [ShieldBreak](#shieldbreak) (1)
 - [ShinyHunters](#shinyhunters) (2)
 - [ShinyHunters-adjacent](#shinyhunters-adjacent) (1)
@@ -3429,6 +3445,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SimpleHelp](#simplehelp) (4)
 - [SimpleHTTPServer exposure](#simplehttpserver-exposure) (1)
 - [simulation tampering](#simulation-tampering) (1)
+- [sinkhole](#sinkhole) (1)
 - [SIP](#sip) (1)
 - [SIP ALG](#sip-alg) (1)
 - [Site Member permissions](#site-member-permissions) (1)
@@ -3479,7 +3496,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [social abuse](#social-abuse) (1)
 - [social engineering](#social-engineering) (18)
 - [social-engineering](#social-engineering) (2)
-- [Socket](#socket) (4)
+- [Socket](#socket) (5)
 - [Socket Security](#socket-security) (3)
 - [Socket Security Research](#socket-security-research) (2)
 - [Socket.IO](#socketio) (2)
@@ -3529,6 +3546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SP Page Builder](#sp-page-builder) (1)
 - [spam](#spam) (1)
 - [Spark RAT](#spark-rat) (1)
+- [SPEAKINGSTONE](#speakingstone) (1)
 - [spear phishing](#spear-phishing) (12)
 - [spear-phishing](#spear-phishing) (2)
 - [spearphishing](#spearphishing) (1)
@@ -3642,7 +3660,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
-- [supply-chain risk](#supply-chain-risk) (1)
+- [supply-chain risk](#supply-chain-risk) (3)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
 - [surveillance](#surveillance) (1)
 - [suspected China-aligned](#suspected-china-aligned) (1)
@@ -3833,7 +3851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Troy](#troy) (1)
 - [TrueConf](#trueconf) (1)
 - [trust boundary](#trust-boundary) (1)
-- [trusted extension risk](#trusted-extension-risk) (1)
+- [trusted extension risk](#trusted-extension-risk) (2)
 - [trusted publishing](#trusted-publishing) (3)
 - [trusted relationship abuse](#trusted-relationship-abuse) (2)
 - [trusted-component weaponization](#trusted-component-weaponization) (1)
@@ -3875,7 +3893,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubiquiti](#ubiquiti) (1)
 - [Ubuntu](#ubuntu) (1)
 - [Udev persistence](#udev-persistence) (1)
-- [UDP C2](#udp-c2) (1)
+- [UDP C2](#udp-c2) (2)
 - [UDP/1900](#udp1900) (1)
 - [UI redressing](#ui-redressing) (1)
 - [UI-API](#ui-api) (1)
@@ -3890,7 +3908,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (2)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
-- [unauthenticated RCE](#unauthenticated-rce) (9)
+- [unauthenticated RCE](#unauthenticated-rce) (10)
 - [unauthorized pentest framing](#unauthorized-pentest-framing) (1)
 - [UNC1069](#unc1069) (1)
 - [UNC1543](#unc1543) (1)
@@ -4033,7 +4051,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vSphere Foundation](#vsphere-foundation) (1)
 - [vssvc.exe](#vssvcexe) (1)
 - [VU#213560](#vu213560) (1)
-- [VulnCheck](#vulncheck) (5)
+- [VulnCheck](#vulncheck) (6)
 - [vulnerability](#vulnerability) (25)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
 - [vulnerability disclosure](#vulnerability-disclosure) (2)
@@ -4045,12 +4063,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
 - [wallet address replacement](#wallet-address-replacement) (1)
-- [wallet drainer](#wallet-drainer) (1)
+- [wallet drainer](#wallet-drainer) (2)
 - [wallet infrastructure](#wallet-infrastructure) (1)
 - [wallet replacement](#wallet-replacement) (1)
 - [wallet theft](#wallet-theft) (8)
 - [wallet-drainer](#wallet-drainer) (1)
-- [wallet-theft](#wallet-theft) (3)
+- [wallet-theft](#wallet-theft) (4)
 - [WAPF](#wapf) (1)
 - [Wasabi](#wasabi) (3)
 - [wastewater](#wastewater) (1)
@@ -4097,7 +4115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [webshells](#webshells) (1)
 - [website-compromise](#website-compromise) (1)
 - [WebSocket](#websocket) (7)
-- [WebSocket C2](#websocket-c2) (7)
+- [WebSocket C2](#websocket-c2) (8)
 - [WebSocket session hijacking](#websocket-session-hijacking) (1)
 - [websocket-sharp](#websocket-sharp) (1)
 - [WebView](#webview) (1)
@@ -4108,6 +4126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Werkbit](#werkbit) (1)
 - [WhatsApp](#whatsapp) (5)
 - [WhatsApp phishing](#whatsapp-phishing) (1)
+- [white-label](#white-label) (1)
 - [WHM](#whm) (4)
 - [Wi-Fi credential theft](#wi-fi-credential-theft) (1)
 - [Widget Factory](#widget-factory) (1)
@@ -4190,6 +4209,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xray](#xray) (1)
 - [XSLT SSRF](#xslt-ssrf) (1)
 - [XSS](#xss) (3)
+- [XSS injection](#xss-injection) (1)
 - [XSS.is](#xssis) (1)
 - [XWorm](#xworm) (1)
 - [XXE](#xxe) (1)
@@ -4206,7 +4226,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [yuze](#yuze) (2)
 - [Yx Technology](#yx-technology) (1)
 - [ZAPiXDESK](#zapixdesk) (1)
-- [Zbtlink](#zbtlink) (1)
+- [ZBT](#zbt) (1)
+- [Zbtlink](#zbtlink) (2)
 - [ZCS](#zcs) (1)
 - [Zendesk](#zendesk) (1)
 - [Zephyr RTOS](#zephyr-rtos) (1)
@@ -6141,6 +6162,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser extension loader
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
+## browser extension malware
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
+
 ## browser fingerprint spoofing
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 
@@ -6665,6 +6689,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TELEPUZ](../tools/telepuz.md)
 
 ## Chrome extension
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
@@ -6952,6 +6977,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 
 ## ClickFix
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
@@ -7276,10 +7302,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 
 ## command and control
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## command execution
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
@@ -7590,6 +7618,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
 ## credential theft
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Aeternum](../tools/aeternum.md)
@@ -7844,6 +7873,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
+## crypto draining
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
+
 ## crypto wallets
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -7933,6 +7965,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CSI token theft
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
+## CSP stripping
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 
 ## CSRF
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
@@ -8805,6 +8840,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Dark Caracal
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 
+## DARKLANTERN
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+
 ## DarkSword
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
@@ -9377,6 +9415,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
+## DNS hijack
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+
 ## DNS hijacking
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 
@@ -9458,6 +9499,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## domain squatting
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 
+## DomainTools
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
+
 ## domestic espionage
 - [OceanLotus](../actors/oceanlotus.md)
 
@@ -9535,6 +9579,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Drupal
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## dual-function malware
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 
 ## dual-use
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
@@ -9661,6 +9708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 
 ## Edge extension
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 
 ## edge service
@@ -9766,6 +9814,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## embedded Linux
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## embedded systems
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -9791,6 +9840,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ENDLESSDOORS
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## Endor Labs
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
@@ -10190,6 +10240,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
+## extension takeover
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
+
 ## external federation
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
@@ -10287,6 +10340,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
 ## fake update
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -10529,6 +10583,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## firmware backdoor
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+
+## firmware supply chain
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## firmware update
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -11435,6 +11493,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## hardware wallet
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 
 ## HarmonyLib
@@ -12110,6 +12169,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## IoT botnet
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
@@ -14145,6 +14205,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Monster ransomware
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
+## MoreQuick
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+
 ## Motorola E13
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
 
@@ -14485,6 +14548,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NightLedger
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 - [NightLedger](../tools/nightledger.md)
+
+## Nim
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## Nimbus Manticore
 - [Mirage Kitten](../actors/mirage-kitten.md)
@@ -15036,6 +15102,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## operations
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -15291,6 +15358,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -15357,6 +15425,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
 
 ## ops
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -15648,6 +15717,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -15788,6 +15858,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## outbound C2
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## Outlook
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -16574,6 +16645,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PowerShower
 - [Cloud Atlas](../actors/cloud-atlas.md)
 
+## PPPoE credential theft
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+
 ## PPtP
 - [First VPN](../tools/first-vpn.md)
 
@@ -16613,6 +16687,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+
+## PreppHint
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 
 ## presigned URLs
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
@@ -17575,6 +17652,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## reverse SOCKS5
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 
+## reverse SSH tunnel
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+
 ## reverse SSH tunneling
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
@@ -17679,6 +17759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## root shell
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## rootkit
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
@@ -17709,6 +17790,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## router compromise
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## router malware
@@ -18113,6 +18195,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SectopRAT
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
+## Secure Annex
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
+
 ## Secure Firewall
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 
@@ -18139,6 +18224,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SecurityPDF
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
+
+## seed phrase
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 
 ## seed phrase theft
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
@@ -18410,6 +18498,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Shenzhen Zhibotong Electronics
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## ShieldBreak
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
@@ -18512,6 +18601,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## simulation tampering
 - [Fast16](../tools/fast16.md)
+
+## sinkhole
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## SIP
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
@@ -18694,6 +18786,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Socket
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
@@ -18886,6 +18979,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Spark RAT
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
+
+## SPEAKINGSTONE
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## spear phishing
 - [Armored Likho](../actors/armored-likho.md)
@@ -19423,7 +19519,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## supply-chain risk
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## supply-chain-adjacent
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
@@ -20182,6 +20280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## trusted extension risk
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 
 ## trusted publishing
@@ -20350,6 +20449,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## UDP C2
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 - [SprySOCKS](../tools/sprysocks.md)
 
 ## UDP/1900
@@ -20435,6 +20535,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## unauthorized pentest framing
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
@@ -20950,6 +21051,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
 ## vulnerability
@@ -21016,6 +21118,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## wallet drainer
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
 ## wallet infrastructure
@@ -21038,6 +21141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 
 ## wallet-theft
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -21225,6 +21329,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## WebSocket C2
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [Cavern](../tools/cavern.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
@@ -21266,6 +21371,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WhatsApp phishing
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+
+## white-label
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## WHM
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
@@ -21632,6 +21740,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
+## XSS injection
+- ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
+
 ## XSS.is
 - [First VPN](../tools/first-vpn.md)
 
@@ -21684,8 +21795,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ZAPiXDESK
 - [GREYVIBE](../actors/greyvibe.md)
 
+## ZBT
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+
 ## Zbtlink
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## ZCS
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
