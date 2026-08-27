@@ -57,6 +57,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [account-takeover](#account-takeover) (1)
 - [ACR Stealer](#acr-stealer) (2)
 - [AcridRain](#acridrain) (1)
+- [Acronis](#acronis) (1)
 - [Acronis TRU](#acronis-tru) (1)
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
@@ -107,6 +108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [affiliate hijacking](#affiliate-hijacking) (1)
 - [Afghan telecom](#afghan-telecom) (1)
 - [Afghanistan](#afghanistan) (4)
+- [AFP](#afp) (1)
 - [Africa](#africa) (4)
 - [agent containment](#agent-containment) (1)
 - [agent frameworks](#agent-frameworks) (3)
@@ -126,6 +128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agentic browsers](#agentic-browsers) (1)
 - [agentic evaluation](#agentic-evaluation) (1)
 - [agentic execution](#agentic-execution) (1)
+- [agentic IDE](#agentic-ide) (1)
 - [agentic malware](#agentic-malware) (1)
 - [agentic ransomware](#agentic-ransomware) (1)
 - [agentic threat actor](#agentic-threat-actor) (2)
@@ -148,9 +151,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI coding agents](#ai-coding-agents) (3)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
-- [AI developer tooling](#ai-developer-tooling) (2)
+- [AI developer tooling](#ai-developer-tooling) (3)
 - [AI framework](#ai-framework) (1)
 - [AI gateway](#ai-gateway) (1)
+- [AI IDE](#ai-ide) (1)
 - [AI infrastructure](#ai-infrastructure) (2)
 - [AI memory poisoning](#ai-memory-poisoning) (1)
 - [AI model encryption](#ai-model-encryption) (1)
@@ -201,11 +205,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Alternate Data Stream](#alternate-data-stream) (1)
 - [Amadey](#amadey) (1)
 - [Amatera Stealer](#amatera-stealer) (2)
+- [Amazon Kiro](#amazon-kiro) (1)
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [Amazon SES](#amazon-ses) (2)
 - [Amcache](#amcache) (1)
 - [AMOS](#amos) (3)
 - [AMSI bypass](#amsi-bypass) (5)
+- [AMSI patch](#amsi-patch) (1)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
 - [Ancillary Function Driver](#ancillary-function-driver) (1)
 - [Android](#android) (10)
@@ -224,7 +230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [anti-bot](#anti-bot) (1)
 - [anti-distillation](#anti-distillation) (1)
 - [anti-forensics](#anti-forensics) (2)
-- [anti-sandbox](#anti-sandbox) (1)
+- [anti-sandbox](#anti-sandbox) (2)
 - [Anubis ransomware](#anubis-ransomware) (1)
 - [ANY.RUN](#anyrun) (2)
 - [AnyDesk](#anydesk) (2)
@@ -254,6 +260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [application database](#application-database) (1)
 - [application delivery controller](#application-delivery-controller) (1)
 - [application token](#application-token) (1)
+- [AppRemover](#appremover) (1)
 - [APSB26-68](#apsb26-68) (1)
 - [APT](#apt) (9)
 - [APT simulation](#apt-simulation) (1)
@@ -280,7 +287,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [arbitrary JavaScript](#arbitrary-javascript) (1)
 - [ArcBridge](#arcbridge) (2)
 - [Arch Linux](#arch-linux) (1)
-- [Arctic Wolf](#arctic-wolf) (2)
+- [Arctic Wolf](#arctic-wolf) (3)
+- [ardrv.sys](#ardrvsys) (1)
 - [ArduPilot](#ardupilot) (1)
 - [Argo CD](#argo-cd) (1)
 - [ArgoCD](#argocd) (1)
@@ -291,6 +299,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ArmCorp](#armcorp) (1)
 - [Armored Likho](#armored-likho) (4)
 - [arrayref](#arrayref) (1)
+- [arrest](#arrest) (1)
 - [Artem Dinaburg](#artem-dinaburg) (1)
 - [Artifact Signing](#artifact-signing) (1)
 - [arXiv](#arxiv) (1)
@@ -320,6 +329,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [audit telemetry](#audit-telemetry) (1)
 - [AUR](#aur) (1)
 - [Aura](#aura) (1)
+- [Australia](#australia) (1)
 - [authenticated RCE](#authenticated-rce) (1)
 - [authenticated remote code execution](#authenticated-remote-code-execution) (1)
 - [authentication bypass](#authentication-bypass) (22)
@@ -380,6 +390,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Balonx Sistema](#balonx-sistema) (1)
 - [Banana RAT](#banana-rat) (1)
 - [bandcampro](#bandcampro) (1)
+- [Bandook](#bandook) (1)
 - [banking](#banking) (1)
 - [banking fraud](#banking-fraud) (1)
 - [banking malware](#banking-malware) (4)
@@ -468,7 +479,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
 - [browser credential theft](#browser-credential-theft) (24)
-- [browser data theft](#browser-data-theft) (1)
+- [browser data theft](#browser-data-theft) (2)
 - [browser extension](#browser-extension) (9)
 - [browser extension loader](#browser-extension-loader) (1)
 - [browser fingerprint spoofing](#browser-fingerprint-spoofing) (1)
@@ -514,7 +525,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BusinessDataCatalog](#businessdatacatalog) (1)
 - [BusySnake Stealer](#busysnake-stealer) (3)
 - [Bybit](#bybit) (1)
-- [BYOVD](#byovd) (4)
+- [BYOVD](#byovd) (5)
 - [BYOVD alternative](#byovd-alternative) (1)
 - [bypass2fa](#bypass2fa) (1)
 - [bytecode](#bytecode) (1)
@@ -523,7 +534,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C++](#c) (4)
 - [C++/CLI](#ccli) (1)
 - [C0XMO](#c0xmo) (1)
-- [C2](#c2) (16)
+- [C2](#c2) (17)
+- [C2 fallback](#c2-fallback) (1)
 - [C2 framework](#c2-framework) (2)
 - [C2 panel](#c2-panel) (1)
 - [C2 tasking](#c2-tasking) (1)
@@ -534,7 +546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [call forwarding](#call-forwarding) (2)
 - [callback URL](#callback-url) (1)
 - [CallFlow](#callflow) (1)
-- [Cambodia](#cambodia) (1)
+- [Cambodia](#cambodia) (2)
 - [campaign](#campaign) (7)
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
@@ -580,6 +592,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChainVeil](#chainveil) (1)
 - [Chaos ransomware](#chaos-ransomware) (1)
 - [Chaotic Eclipse](#chaotic-eclipse) (1)
+- [charging](#charging) (1)
 - [Charming Kitten](#charming-kitten) (2)
 - [chat-template poisoning](#chat-template-poisoning) (1)
 - [ChatGPT](#chatgpt) (1)
@@ -589,6 +602,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point](#check-point) (2)
 - [Check Point Research](#check-point-research) (5)
 - [Checkmarx](#checkmarx) (2)
+- [Checkmarx KICS](#checkmarx-kics) (1)
 - [checkpointers](#checkpointers) (1)
 - [China](#china) (3)
 - [China nexus](#china-nexus) (1)
@@ -616,7 +630,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [chunked exfiltration](#chunked-exfiltration) (1)
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (4)
-- [CI/CD](#cicd) (43)
+- [CI/CD](#cicd) (44)
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CI/CD credential theft](#cicd-credential-theft) (1)
 - [CircleCI](#circleci) (1)
@@ -814,7 +828,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (82)
+- [credential theft](#credential-theft) (84)
 - [credential-theft](#credential-theft) (55)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -825,6 +839,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CRM data theft](#crm-data-theft) (1)
 - [cron](#cron) (2)
 - [cron persistence](#cron-persistence) (3)
+- [cross-ecosystem](#cross-ecosystem) (1)
 - [cross-origin requests](#cross-origin-requests) (1)
 - [cross-platform](#cross-platform) (3)
 - [cross-platform malware](#cross-platform-malware) (2)
@@ -865,6 +880,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CSS](#css) (1)
 - [CSS sanitization](#css-sanitization) (1)
 - [CSSOM](#cssom) (1)
+- [ctfmon.exe](#ctfmonexe) (1)
 - [Curious Serpens](#curious-serpens) (1)
 - [CURP](#curp) (1)
 - [Cursor](#cursor) (6)
@@ -982,6 +998,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-34926](#cve-2026-34926) (1)
 - [CVE-2026-35273](#cve-2026-35273) (2)
 - [CVE-2026-35616](#cve-2026-35616) (1)
+- [CVE-2026-36425](#cve-2026-36425) (1)
 - [CVE-2026-39987](#cve-2026-39987) (2)
 - [CVE-2026-40138](#cve-2026-40138) (1)
 - [CVE-2026-40139](#cve-2026-40139) (1)
@@ -1121,10 +1138,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [D2IP](#d2ip) (1)
 - [Dahua](#dahua) (1)
 - [dangling resources](#dangling-resources) (1)
+- [Dark Caracal](#dark-caracal) (1)
 - [DarkSword](#darksword) (1)
 - [data analytics](#data-analytics) (1)
 - [data contamination](#data-contamination) (1)
-- [data exfiltration](#data-exfiltration) (15)
+- [data exfiltration](#data-exfiltration) (16)
 - [data exposure](#data-exposure) (3)
 - [data extortion](#data-extortion) (2)
 - [data leak site](#data-leak-site) (3)
@@ -1196,7 +1214,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer mode](#developer-mode) (1)
 - [developer platform](#developer-platform) (1)
 - [developer targeting](#developer-targeting) (12)
-- [developer tooling](#developer-tooling) (6)
+- [developer tooling](#developer-tooling) (7)
 - [developer workstations](#developer-workstations) (3)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
 - [developer-targeting](#developer-targeting) (22)
@@ -1236,7 +1254,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [distributed scanning](#distributed-scanning) (1)
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL search-order hijacking](#dll-search-order-hijacking) (2)
-- [DLL side-loading](#dll-side-loading) (7)
+- [DLL side-loading](#dll-side-loading) (8)
 - [DLL sideloading](#dll-sideloading) (26)
 - [DMTP](#dmtp) (1)
 - [DNS](#dns) (1)
@@ -1253,6 +1271,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Docker](#docker) (3)
 - [Docker Compose](#docker-compose) (1)
 - [Docker credentials](#docker-credentials) (1)
+- [Docker Hub](#docker-hub) (1)
 - [Docker images](#docker-images) (1)
 - [Docker socket](#docker-socket) (3)
 - [document collection](#document-collection) (1)
@@ -1401,10 +1420,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ESX](#esx) (1)
 - [ESXi](#esxi) (3)
 - [ES|QL](#esql) (1)
-- [Ethereum](#ethereum) (5)
+- [eth_getStorageAt](#eth_getstorageat) (1)
+- [Ethereum](#ethereum) (6)
 - [Ethereum Name Service](#ethereum-name-service) (2)
 - [EtherHiding](#etherhiding) (6)
 - [Ethiopia](#ethiopia) (1)
+- [ETW](#etw) (1)
 - [ETW bypass](#etw-bypass) (1)
 - [ETW patching](#etw-patching) (2)
 - [ETW tampering](#etw-tampering) (1)
@@ -1445,6 +1466,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exposed applications](#exposed-applications) (1)
 - [exposed attacker infrastructure](#exposed-attacker-infrastructure) (1)
 - [exposed debug page](#exposed-debug-page) (1)
+- [exposure window](#exposure-window) (1)
 - [extconf.rb](#extconfrb) (1)
 - [extension supply-chain](#extension-supply-chain) (2)
 - [external federation](#external-federation) (1)
@@ -1494,7 +1516,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fat JAR](#fat-jar) (1)
 - [FAT32](#fat32) (1)
 - [FatFs](#fatfs) (1)
-- [FBI](#fbi) (5)
+- [FBI](#fbi) (6)
 - [FBI indictment](#fbi-indictment) (1)
 - [fbot](#fbot) (1)
 - [FDMTP](#fdmtp) (2)
@@ -1659,7 +1681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea](#gitea) (2)
 - [GitHub](#github) (23)
 - [GitHub abuse](#github-abuse) (3)
-- [GitHub Actions](#github-actions) (27)
+- [GitHub Actions](#github-actions) (28)
 - [GitHub Advisory Database](#github-advisory-database) (1)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
@@ -1681,7 +1703,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [gleeze.com](#gleezecom) (1)
 - [GlobalProtect](#globalprotect) (1)
 - [Gmail](#gmail) (5)
-- [Go](#go) (7)
+- [Go](#go) (9)
 - [Go backdoor](#go-backdoor) (1)
 - [Go loader](#go-loader) (1)
 - [Go malware](#go-malware) (4)
@@ -1689,6 +1711,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Go net/http user agent](#go-nethttp-user-agent) (1)
 - [Go stealer](#go-stealer) (1)
 - [Go2Tunnel](#go2tunnel) (1)
+- [GoCaracal](#gocaracal) (1)
 - [GoDaddy federation](#godaddy-federation) (1)
 - [GodDamn ransomware](#goddamn-ransomware) (1)
 - [GodPotato](#godpotato) (1)
@@ -1769,6 +1792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gunra](#gunra) (1)
 - [hack-and-leak](#hack-and-leak) (2)
 - [hacked WordPress sites](#hacked-wordpress-sites) (1)
+- [HackerOne](#hackerone) (1)
 - [HackIndex](#hackindex) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
 - [Hades](#hades) (3)
@@ -1851,6 +1875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HUMAN Satori](#human-satori) (1)
 - [Hunt.io](#huntio) (5)
 - [Huntress](#huntress) (2)
+- [Huorong](#huorong) (1)
 - [Hyadina](#hyadina) (1)
 - [hybrid threat actor](#hybrid-threat-actor) (1)
 - [hydropower](#hydropower) (2)
@@ -1868,6 +1893,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ICS](#ics) (4)
 - [IDE extension](#ide-extension) (2)
 - [IDE plugins](#ide-plugins) (1)
+- [IDE trust boundary](#ide-trust-boundary) (1)
 - [ide.cfm](#idecfm) (1)
 - [identity](#identity) (5)
 - [identity attacks](#identity-attacks) (1)
@@ -1909,7 +1935,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [India](#india) (3)
 - [India-nexus](#india-nexus) (1)
 - [Indian government](#indian-government) (1)
-- [indirect prompt injection](#indirect-prompt-injection) (10)
+- [indirect prompt injection](#indirect-prompt-injection) (11)
 - [indirect syscalls](#indirect-syscalls) (1)
 - [Indonesia](#indonesia) (1)
 - [industrial control](#industrial-control) (1)
@@ -1932,7 +1958,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [initial access broker](#initial-access-broker) (2)
 - [initial-access](#initial-access) (3)
 - [Injective Labs](#injective-labs) (1)
-- [Inno Setup](#inno-setup) (1)
+- [Inno Setup](#inno-setup) (2)
 - [input capture](#input-capture) (1)
 - [insider threat](#insider-threat) (1)
 - [install-time execution](#install-time-execution) (7)
@@ -2031,7 +2057,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JScript](#jscript) (1)
 - [JSON](#json) (1)
 - [JSON Web Token](#json-web-token) (1)
-- [JSON-RPC](#json-rpc) (1)
+- [JSON-RPC](#json-rpc) (2)
 - [JSON:API](#jsonapi) (1)
 - [jsonata](#jsonata) (1)
 - [JSONKeeper](#jsonkeeper) (1)
@@ -2076,12 +2102,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Keycloak](#keycloak) (1)
 - [KeyHunter](#keyhunter) (1)
 - [keylogger](#keylogger) (5)
-- [keylogging](#keylogging) (3)
+- [keylogging](#keylogging) (4)
 - [keyval.org](#keyvalorg) (1)
 - [Kimi K2.5](#kimi-k25) (1)
 - [Kimsuky](#kimsuky) (1)
 - [Kimwolf](#kimwolf) (1)
 - [Kimwolf v7](#kimwolf-v7) (1)
+- [Kiro Powers](#kiro-powers) (1)
 - [KLCERT-26-057](#klcert-26-057) (1)
 - [KLCERT-26-058](#klcert-26-058) (1)
 - [Klue](#klue) (1)
@@ -2121,11 +2148,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LATAM](#latam) (1)
 - [lateral movement](#lateral-movement) (8)
 - [lateral-movement](#lateral-movement) (1)
-- [Latin America](#latin-america) (2)
+- [Latin America](#latin-america) (3)
 - [LaunchAgent](#launchagent) (5)
 - [launchctl](#launchctl) (1)
 - [LAUNDRY BEAR](#laundry-bear) (4)
-- [law enforcement](#law-enforcement) (2)
+- [law enforcement](#law-enforcement) (3)
 - [law enforcement targeting](#law-enforcement-targeting) (2)
 - [law-enforcement-disruption](#law-enforcement-disruption) (1)
 - [LayerX](#layerx) (1)
@@ -2172,7 +2199,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux malware](#linux-malware) (3)
 - [Linux networking devices](#linux-networking-devices) (1)
 - [Linux rootkit](#linux-rootkit) (1)
-- [LiteLLM](#litellm) (4)
+- [LiteLLM](#litellm) (5)
 - [LiteSpeed](#litespeed) (2)
 - [live chat](#live-chat) (1)
 - [living off the land](#living-off-the-land) (1)
@@ -2281,7 +2308,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (10)
-- [malware](#malware) (61)
+- [malware](#malware) (63)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
@@ -2316,7 +2343,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (2)
 - [McMx](#mcmx) (1)
-- [MCP](#mcp) (18)
+- [MCP](#mcp) (19)
+- [MCP configuration](#mcp-configuration) (1)
 - [MCP credentials](#mcp-credentials) (1)
 - [MCP stdio command execution](#mcp-stdio-command-execution) (1)
 - [mcp-grafana](#mcp-grafana) (1)
@@ -2389,6 +2417,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Milo Wallet](#milo-wallet) (1)
 - [Mimikatz](#mimikatz) (6)
 - [mind virus](#mind-virus) (1)
+- [Mindgard](#mindgard) (1)
 - [Minecraft](#minecraft) (1)
 - [Minecraft DDoS](#minecraft-ddos) (1)
 - [miner dropper](#miner-dropper) (1)
@@ -2574,7 +2603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notebookjs](#notebookjs) (1)
 - [notification interception](#notification-interception) (1)
 - [NovaCookies](#novacookies) (1)
-- [npm](#npm) (66)
+- [npm](#npm) (67)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -2666,7 +2695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [openssl_verify](#openssl_verify) (1)
 - [OpenVPN](#openvpn) (3)
 - [OpenVPN-shaped UDP](#openvpn-shaped-udp) (1)
-- [OpenVSX](#openvsx) (1)
+- [OpenVSX](#openvsx) (2)
 - [OpenWrt](#openwrt) (2)
 - [operation](#operation) (4)
 - [Operation BlueDash](#operation-bluedash) (1)
@@ -2681,14 +2710,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (304)
+- [operations](#operations) (305)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (351)
+- [ops](#ops) (352)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
+- [OPSWAT](#opswat) (1)
 - [Oracle](#oracle) (2)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
 - [Oracle Fusion Middleware](#oracle-fusion-middleware) (1)
@@ -2781,7 +2811,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (7)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (49)
+- [patterns](#patterns) (50)
 - [Paweł Płatek](#pawe-patek) (1)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
@@ -2807,7 +2837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PEP 723](#pep-723) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
-- [persistence](#persistence) (33)
+- [persistence](#persistence) (34)
 - [persistent root access](#persistent-root-access) (1)
 - [persona operations](#persona-operations) (1)
 - [personal access tokens](#personal-access-tokens) (2)
@@ -2820,7 +2850,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (1)
-- [phishing](#phishing) (29)
+- [phishing](#phishing) (31)
 - [phishing overlays](#phishing-overlays) (1)
 - [phishing-as-a-service](#phishing-as-a-service) (8)
 - [Phorpiex](#phorpiex) (1)
@@ -2859,6 +2889,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [plugin framework](#plugin-framework) (1)
 - [plugin RCE](#plugin-rce) (1)
 - [PlugX](#plugx) (4)
+- [PNG shellcode](#png-shellcode) (1)
 - [PoC available](#poc-available) (1)
 - [poisoned-branch](#poisoned-branch) (1)
 - [PoisonX](#poisonx) (1)
@@ -2884,6 +2915,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostgreSQL](#postgresql) (4)
 - [postinstall](#postinstall) (11)
 - [Potato](#potato) (1)
+- [POWER.md](#powermd) (1)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (27)
 - [PowerShell execution](#powershell-execution) (1)
@@ -2933,7 +2965,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Software](#progress-software) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
 - [prompt infection](#prompt-infection) (1)
-- [prompt injection](#prompt-injection) (16)
+- [prompt injection](#prompt-injection) (17)
 - [prompt-injection](#prompt-injection) (4)
 - [prompt-injection guardrail bypass](#prompt-injection-guardrail-bypass) (1)
 - [PromptArmor](#promptarmor) (1)
@@ -2976,6 +3008,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public-service C2](#public-service-c2) (1)
 - [publication bias](#publication-bias) (1)
 - [publish-time scanning](#publish-time-scanning) (1)
+- [publishing credentials](#publishing-credentials) (1)
 - [pull requests](#pull-requests) (2)
 - [PUP](#pup) (1)
 - [PureLogs Stealer](#purelogs-stealer) (1)
@@ -2985,7 +3018,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PwPt-sHaRe](#pwpt-share) (1)
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
-- [PyPI](#pypi) (17)
+- [PyPI](#pypi) (18)
 - [Python](#python) (16)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python implant](#python-implant) (1)
@@ -2995,6 +3028,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QEMU](#qemu) (1)
 - [Qianxin Threat Intelligence Center](#qianxin-threat-intelligence-center) (2)
 - [QiAnXin XLab](#qianxin-xlab) (4)
+- [Qihoo 360](#qihoo-360) (1)
 - [Qilin](#qilin) (3)
 - [QNAP](#qnap) (1)
 - [QR code](#qr-code) (1)
@@ -3029,7 +3063,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rapid7](#rapid7) (2)
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
-- [RAT](#rat) (32)
+- [RAT](#rat) (33)
 - [raw packet](#raw-packet) (1)
 - [Ray](#ray) (2)
 - [RC4](#rc4) (4)
@@ -3097,10 +3131,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Remcos RAT](#remcos-rat) (1)
 - [remote access](#remote-access) (7)
 - [remote access software](#remote-access-software) (2)
-- [remote access trojan](#remote-access-trojan) (5)
+- [remote access trojan](#remote-access-trojan) (7)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (26)
 - [remote debugging](#remote-debugging) (2)
+- [remote desktop](#remote-desktop) (1)
 - [remote MCP](#remote-mcp) (1)
 - [remote monitoring and management](#remote-monitoring-and-management) (2)
 - [remote script injection](#remote-script-injection) (1)
@@ -3237,7 +3272,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scanner evasion](#scanner-evasion) (1)
 - [ScarCruft](#scarcruft) (1)
 - [SCCM](#sccm) (1)
-- [scheduled task](#scheduled-task) (6)
+- [scheduled task](#scheduled-task) (7)
 - [scheduled task persistence](#scheduled-task-persistence) (6)
 - [scheduled tasks](#scheduled-tasks) (6)
 - [SCMBANKER](#scmbanker) (2)
@@ -3346,6 +3381,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Shattering the Dream](#shattering-the-dream) (1)
 - [SHEETCORD](#sheetcord) (1)
 - [shell injection](#shell-injection) (1)
+- [shellcode](#shellcode) (1)
 - [Shenzhen Zhibotong Electronics](#shenzhen-zhibotong-electronics) (1)
 - [ShieldBreak](#shieldbreak) (1)
 - [ShinyHunters](#shinyhunters) (2)
@@ -3362,6 +3398,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Signal](#signal) (3)
 - [Signal interception](#signal-interception) (1)
 - [signed binary abuse](#signed-binary-abuse) (1)
+- [signed executable](#signed-executable) (1)
 - [signed malware](#signed-malware) (1)
 - [signed updates](#signed-updates) (1)
 - [signed-binary](#signed-binary) (1)
@@ -3372,7 +3409,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SiliconFlow](#siliconflow) (1)
 - [SilkLurk](#silklurk) (2)
 - [SilkParasite](#silkparasite) (1)
-- [Silver Fox](#silver-fox) (2)
+- [Silver Fox](#silver-fox) (3)
 - [Silver Pass-ta-key](#silver-pass-ta-key) (1)
 - [SimpleHelp](#simplehelp) (4)
 - [SimpleHTTPServer exposure](#simplehttpserver-exposure) (1)
@@ -3393,7 +3430,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SLSA provenance](#slsa-provenance) (1)
 - [SMA1000](#sma1000) (2)
 - [smart building](#smart-building) (1)
-- [smart contract](#smart-contract) (1)
+- [smart contract](#smart-contract) (2)
 - [smart contracts](#smart-contracts) (2)
 - [smart TVs](#smart-tvs) (1)
 - [SMARTAXE](#smartaxe) (1)
@@ -3432,7 +3469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Socket Security Research](#socket-security-research) (2)
 - [Socket.IO](#socketio) (2)
 - [SOCKS tunneling](#socks-tunneling) (1)
-- [SOCKS5](#socks5) (9)
+- [SOCKS5](#socks5) (10)
 - [SOCKS5 proxy](#socks5-proxy) (2)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
 - [SOCRadar](#socradar) (3)
@@ -3476,6 +3513,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Southeast Asia](#southeast-asia) (7)
 - [SP Page Builder](#sp-page-builder) (1)
 - [spam](#spam) (1)
+- [Spark RAT](#spark-rat) (1)
 - [spear phishing](#spear-phishing) (12)
 - [spear-phishing](#spear-phishing) (2)
 - [spearphishing](#spearphishing) (1)
@@ -3547,6 +3585,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StealC](#stealc) (2)
 - [stealer](#stealer) (3)
 - [Steam profile dead drop](#steam-profile-dead-drop) (2)
+- [steering file](#steering-file) (1)
 - [steganography](#steganography) (3)
 - [StegoAd](#stegoad) (1)
 - [StepSecurity](#stepsecurity) (3)
@@ -3584,7 +3623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (23)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (107)
+- [supply-chain](#supply-chain) (108)
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -3593,7 +3632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [surveillance](#surveillance) (1)
 - [suspected China-aligned](#suspected-china-aligned) (1)
 - [suspected China-linked](#suspected-china-linked) (1)
-- [SVG](#svg) (2)
+- [SVG](#svg) (3)
 - [SWE-agent](#swe-agent) (1)
 - [SweetPotato](#sweetpotato) (1)
 - [SWUpdate](#swupdate) (1)
@@ -3650,7 +3689,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TDS](#tds) (2)
 - [Team PCP](#team-pcp) (1)
 - [TeamCity](#teamcity) (1)
-- [TeamPCP](#teampcp) (10)
+- [TeamPCP](#teampcp) (11)
 - [TeamPCP-adjacent](#teampcp-adjacent) (1)
 - [Teams access](#teams-access) (1)
 - [Teams TURN relay](#teams-turn-relay) (1)
@@ -3683,6 +3722,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [template injection](#template-injection) (1)
 - [tenant isolation](#tenant-isolation) (1)
 - [tenant-project](#tenant-project) (1)
+- [Tencent](#tencent) (1)
 - [TencShell](#tencshell) (1)
 - [Tenda](#tenda) (1)
 - [Tenet Security](#tenet-security) (1)
@@ -3710,6 +3750,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [thumbnail generation](#thumbnail-generation) (1)
 - [timestomping](#timestomping) (1)
 - [timing attack](#timing-attack) (1)
+- [timing check](#timing-check) (1)
 - [TinyGo](#tinygo) (1)
 - [TinyRCT](#tinyrct) (3)
 - [tj-actions](#tj-actions) (1)
@@ -3735,7 +3776,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (5)
-- [tools](#tools) (59)
+- [tools](#tools) (61)
 - [Tor](#tor) (4)
 - [Tortoiseshell](#tortoiseshell) (2)
 - [Total Software Deployment](#total-software-deployment) (1)
@@ -3767,6 +3808,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [triage](#triage) (2)
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
+- [Trivy](#trivy) (1)
 - [TRM Labs](#trm-labs) (1)
 - [trojanized installers](#trojanized-installers) (3)
 - [trojanized npm](#trojanized-npm) (1)
@@ -3899,7 +3941,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [V8 isolate](#v8-isolate) (1)
 - [V8 isolates](#v8-isolates) (1)
 - [valid accounts](#valid-accounts) (4)
-- [ValleyRAT](#valleyrat) (2)
+- [ValleyRAT](#valleyrat) (3)
 - [Varonis](#varonis) (1)
 - [Varonis Threat Labs](#varonis-threat-labs) (1)
 - [VBCloud](#vbcloud) (1)
@@ -3917,6 +3959,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VELVETSHELL](#velvetshell) (1)
 - [vendor compromise](#vendor-compromise) (1)
 - [vendor credentials](#vendor-credentials) (1)
+- [Venezuela](#venezuela) (1)
 - [VENOMOUS BEAR](#venomous-bear) (3)
 - [Vercel](#vercel) (1)
 - [Vertex AI](#vertex-ai) (1)
@@ -3972,11 +4015,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VSIX](#vsix) (1)
 - [vSphere](#vsphere) (2)
 - [vSphere Foundation](#vsphere-foundation) (1)
+- [vssvc.exe](#vssvcexe) (1)
 - [VU#213560](#vu213560) (1)
 - [VulnCheck](#vulncheck) (5)
 - [vulnerability](#vulnerability) (25)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
-- [vulnerability disclosure](#vulnerability-disclosure) (1)
+- [vulnerability disclosure](#vulnerability-disclosure) (2)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
 - [vulnerability management](#vulnerability-management) (2)
 - [vulnerability research](#vulnerability-research) (4)
@@ -3991,6 +4035,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet theft](#wallet-theft) (8)
 - [wallet-drainer](#wallet-drainer) (1)
 - [wallet-theft](#wallet-theft) (3)
+- [WAPF](#wapf) (1)
 - [Wasabi](#wasabi) (3)
 - [wastewater](#wastewater) (1)
 - [watch_queue](#watch_queue) (1)
@@ -4068,10 +4113,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows Run dialog](#windows-run-dialog) (1)
 - [Windows Script Host](#windows-script-host) (2)
 - [Windows servers](#windows-servers) (1)
+- [Windows service](#windows-service) (1)
 - [Windows service persistence](#windows-service-persistence) (1)
 - [Windows Terminal](#windows-terminal) (1)
 - [Winnti Group](#winnti-group) (2)
 - [WinOS](#winos) (1)
+- [Winos 4.0](#winos-40) (1)
 - [Winos4.0](#winos40) (1)
 - [WinPython](#winpython) (1)
 - [WinRAR](#winrar) (4)
@@ -4092,7 +4139,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [workflow backdoor](#workflow-backdoor) (1)
 - [workflow injection](#workflow-injection) (1)
 - [working-directory hijacking](#working-directory-hijacking) (1)
-- [workspace trust](#workspace-trust) (2)
+- [workspace trust](#workspace-trust) (3)
 - [World Cup](#world-cup) (1)
 - [worm](#worm) (17)
 - [WP Maps Pro](#wp-maps-pro) (1)
@@ -4132,7 +4179,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xz](#xz) (2)
 - [Yahoo Mail](#yahoo-mail) (1)
 - [Yanbian](#yanbian) (1)
-- [YARA](#yara) (1)
+- [YARA](#yara) (2)
 - [Yasmarang](#yasmarang) (1)
 - [YesWeHack](#yeswehack) (1)
 - [YouTube](#youtube) (2)
@@ -4352,6 +4399,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AcridRain
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
+
+## Acronis
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## Acronis TRU
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
@@ -4613,6 +4663,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](../actors/sidecopy.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
+## AFP
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
+
 ## Africa
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
@@ -4682,6 +4735,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## agentic execution
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
+
+## agentic IDE
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 
 ## agentic malware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -4798,6 +4854,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
 ## AI developer tooling
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 
@@ -4806,6 +4863,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI gateway
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
+
+## AI IDE
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 
 ## AI infrastructure
 - [ENCFORGE](../tools/encforge.md)
@@ -4991,6 +5051,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACR Stealer](../tools/acr-stealer.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 
+## Amazon Kiro
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
+
 ## Amazon Q Developer
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
@@ -5012,6 +5075,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 - [TELEPUZ](../tools/telepuz.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
+
+## AMSI patch
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## AmsiScanBuffer
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -5098,6 +5164,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrownX](../tools/crownx.md)
 
 ## anti-sandbox
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## Anubis ransomware
@@ -5190,6 +5257,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## application token
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
+
+## AppRemover
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## APSB26-68
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
@@ -5290,7 +5360,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Arctic Wolf
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
+
+## ardrv.sys
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## ArduPilot
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -5324,6 +5398,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## arrayref
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+
+## arrest
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## Artem Dinaburg
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
@@ -5417,6 +5494,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Aura
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
+
+## Australia
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## authenticated RCE
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
@@ -5661,6 +5741,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## bandcampro
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
+
+## Bandook
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 
 ## banking
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
@@ -6014,6 +6097,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browser data theft
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 
 ## browser extension
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
@@ -6179,6 +6263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BYOVD
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -6215,6 +6300,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
@@ -6227,6 +6313,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [WLDR agent](../tools/wldr-agent.md)
+
+## C2 fallback
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 
 ## C2 framework
 - [Cavern](../tools/cavern.md)
@@ -6262,6 +6351,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cambodia
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## campaign
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
@@ -6412,6 +6502,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Chaotic Eclipse
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 
+## charging
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
+
 ## Charming Kitten
 - [Mirage Kitten](../actors/mirage-kitten.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
@@ -6445,6 +6538,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Checkmarx
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
+
+## Checkmarx KICS
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## checkpointers
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -6617,6 +6713,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [TeamPCP](../actors/teampcp.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -7465,6 +7562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
@@ -7524,6 +7622,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
@@ -7643,6 +7742,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
+
+## cross-ecosystem
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## cross-origin requests
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
@@ -7812,6 +7914,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CSSOM
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
+
+## ctfmon.exe
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## Curious Serpens
 - [ROADtools](../tools/roadtools.md)
@@ -8184,6 +8289,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-35616
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
+
+## CVE-2026-36425
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## CVE-2026-39987
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
@@ -8642,6 +8750,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## dangling resources
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
+## Dark Caracal
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
+
 ## DarkSword
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
@@ -8655,6 +8766,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Adversa "Cryptographic Context Injection": web pages steal Grok chat data](../ops/adversa-cryptographic-context-injection-grok-chat-data-exfiltration.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
@@ -8986,6 +9098,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
 ## developer tooling
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Browser-based developer IDE OAuth token theft](../patterns/browser-based-developer-ide-oauth-token-theft.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
@@ -9155,6 +9268,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OceanLotus](../actors/oceanlotus.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [TELESHIM](../tools/teleshim.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
@@ -9244,6 +9358,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Docker credentials
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+
+## Docker Hub
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## Docker images
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
@@ -9834,9 +9951,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ES|QL
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 
+## eth_getStorageAt
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
+
 ## Ethereum
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
@@ -9855,6 +9976,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ethiopia
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+
+## ETW
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## ETW bypass
 - [TELEPUZ](../tools/telepuz.md)
@@ -10000,6 +10124,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## exposed debug page
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
+
+## exposure window
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## extconf.rb
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
@@ -10181,6 +10308,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## FBI indictment
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
@@ -10776,6 +10904,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [TeamPCP](../actors/teampcp.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
@@ -10861,10 +10990,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Go
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [SilkParasite](../actors/silkparasite.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## Go backdoor
@@ -10891,6 +11022,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Go2Tunnel
 - [Armored Likho](../actors/armored-likho.md)
+
+## GoCaracal
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 
 ## GoDaddy federation
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
@@ -11195,6 +11329,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hacked WordPress sites
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 
+## HackerOne
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
+
 ## HackIndex
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 
@@ -11468,6 +11605,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
+## Huorong
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
+
 ## Hyadina
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
@@ -11526,6 +11666,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## IDE plugins
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
+
+## IDE trust boundary
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 
 ## ide.cfm
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
@@ -11717,6 +11860,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
@@ -11835,6 +11979,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Inno Setup
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## input capture
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
@@ -12211,6 +12356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JSON-RPC
 - [Aeternum](../tools/aeternum.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 
 ## JSON:API
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -12372,6 +12518,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## keylogging
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 
 ## keyval.org
@@ -12388,6 +12535,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Kimwolf v7
 - [Kimwolf v7](../tools/kimwolf-v7.md)
+
+## Kiro Powers
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 
 ## KLCERT-26-057
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
@@ -12535,6 +12685,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## Latin America
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
@@ -12557,6 +12708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## law enforcement
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## law enforcement targeting
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
@@ -12747,6 +12899,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 
 ## LiteSpeed
@@ -13193,6 +13346,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GenieLocker](../tools/genielocker.md)
 - [GigaWiper](../tools/gigawiper.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Kimwolf v7](../tools/kimwolf-v7.md)
@@ -13215,6 +13369,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SCMBANKER](../tools/scmbanker.md)
 - [Showboat](../tools/showboat.md)
 - [SilkLurk](../tools/silklurk.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [Starland RAT](../tools/starland-rat.md)
@@ -13365,6 +13520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MCP
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
@@ -13381,6 +13537,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
+
+## MCP configuration
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 
 ## MCP credentials
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
@@ -13687,6 +13846,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## mind virus
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
+
+## Mindgard
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 
 ## Minecraft
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
@@ -14412,6 +14574,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [TeamPCP](../actors/teampcp.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
@@ -14743,6 +14906,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OpenVSX
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## OpenWrt
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
@@ -15058,6 +15222,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -15414,6 +15579,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -15468,6 +15634,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## opsec failure
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+
+## OPSWAT
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## Oracle
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
@@ -15808,6 +15977,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [Benchmaxxing: when a benchmark becomes the target](../patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
@@ -15951,6 +16121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADtools](../tools/roadtools.md)
 - [Showboat](../tools/showboat.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -16018,6 +16189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Ghostwriter](../actors/ghostwriter.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
@@ -16034,6 +16206,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [TA4922](../actors/ta4922.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
@@ -16166,6 +16339,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SilkLurk](../tools/silklurk.md)
 - [SilkParasite](../actors/silkparasite.md)
 
+## PNG shellcode
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
+
 ## PoC available
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
 
@@ -16264,6 +16440,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Potato
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+
+## POWER.md
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 
 ## PowerCloud
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -16473,6 +16652,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
@@ -16637,6 +16817,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## publish-time scanning
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 
+## publishing credentials
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
+
 ## pull requests
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
@@ -16682,6 +16865,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI (GHSA-93qj-5q5v-3c2h)](../ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md)
@@ -16734,6 +16918,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [RustDuck](../tools/rustduck.md)
+
+## Qihoo 360
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## Qilin
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -16888,6 +17075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [SilkParasite](../actors/silkparasite.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [Starland RAT](../tools/starland-rat.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -17149,9 +17337,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## remote access trojan
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [LabubaRAT](../tools/labubarat.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 
 ## Remote Access VPN
@@ -17188,6 +17378,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## remote debugging
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
+
+## remote desktop
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 
 ## remote MCP
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -17708,6 +17901,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## scheduled task
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TELESHIM](../tools/teleshim.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
@@ -18119,6 +18313,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## shell injection
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
+## shellcode
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
+
 ## Shenzhen Zhibotong Electronics
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 
@@ -18170,6 +18367,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## signed binary abuse
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 
+## signed executable
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
+
 ## signed malware
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
@@ -18204,6 +18404,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Silver Fox
 - [MODBEACON](../tools/modbeacon.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## Silver Pass-ta-key
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
@@ -18271,6 +18472,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 
 ## smart contract
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 
 ## smart contracts
@@ -18424,6 +18626,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SOCKS5
 - [BridgeHead](../tools/bridgehead.md)
 - [Cavern](../tools/cavern.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [LurkProxy](../tools/lurkproxy.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
@@ -18588,6 +18791,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## spam
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+
+## Spark RAT
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## spear phishing
 - [Armored Likho](../actors/armored-likho.md)
@@ -18857,6 +19063,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TELEPUZ](../tools/telepuz.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 
+## steering file
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
+
 ## steganography
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
@@ -19094,6 +19303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TeamPCP](../actors/teampcp.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -19138,6 +19348,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SVG
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 
 ## SWE-agent
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -19340,6 +19551,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
@@ -19469,6 +19681,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tenant-project
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 
+## Tencent
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
+
 ## TencShell
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
@@ -19564,6 +19779,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## timing attack
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
+
+## timing check
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## TinyGo
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -19684,6 +19902,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GenieLocker](../tools/genielocker.md)
 - [GigaWiper](../tools/gigawiper.md)
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
@@ -19709,6 +19928,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Showboat](../tools/showboat.md)
 - [SilkLurk](../tools/silklurk.md)
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [SprySOCKS](../tools/sprysocks.md)
 - [Starland RAT](../tools/starland-rat.md)
@@ -19833,6 +20053,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Trident Ursa
 - [Gamaredon](../actors/gamaredon.md)
+
+## Trivy
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## TRM Labs
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
@@ -20351,6 +20574,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ValleyRAT
 - [MODBEACON](../tools/modbeacon.md)
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [TA4922](../actors/ta4922.md)
 
 ## Varonis
@@ -20411,6 +20635,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## vendor credentials
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+
+## Venezuela
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 
 ## VENOMOUS BEAR
 - [STOCKSTAY](../tools/stockstay.md)
@@ -20617,6 +20844,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vSphere Foundation
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
+## vssvc.exe
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
+
 ## VU#213560
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
@@ -20659,6 +20889,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## vulnerability disclosure
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 
 ## vulnerability exploitation
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
@@ -20715,6 +20946,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+
+## WAPF
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## Wasabi
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
@@ -21065,6 +21299,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Windows servers
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
 
+## Windows service
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
+
 ## Windows service persistence
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 
@@ -21077,6 +21314,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WinOS
 - [MODBEACON](../tools/modbeacon.md)
+
+## Winos 4.0
+- [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
 ## Winos4.0
 - [TA4922](../actors/ta4922.md)
@@ -21157,6 +21397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## workspace trust
+- [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 
@@ -21311,6 +21552,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
 ## YARA
+- [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 
 ## Yasmarang

@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "TeamPCP: AFP/WAPF/FBI charge two Western Australian men over Trivy, KICS, and LiteLLM supply-chain attacks (first named-person charging)": ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md
       - "Microsoft: AI infrastructure gateways and control points as high-value intrusion targets (LiteLLM, RAGFlow, Kestra)": ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md
       - "Trojanized pantheon-agents 0.6.1 / 0.6.2 on PyPI — Hades / Mini Shai-Hulud supply-chain advisory (GHSA-93qj-5q5v-3c2h)": ops/pantheon-agents-pypi-trojanized-ghsa-93qj-5q5v-3c2h.md
       - "QTFY: FBI/DoJ seize QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure (NASA, Fed, DOE, Senate)": ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md
@@ -366,6 +367,8 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - "GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback (eth_getStorageAt)": tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md
+      - "Spark RAT: Cambodia-focused cluster, multi-stage Inno/DLL side-load chain, and the vulnerable OPSWAT ardrv.sys BYOVD driver": tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md
       - "SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language": tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md
       - "Chainlit MCP: unauthenticated RCE and SSRF via /mcp (CVE-2026-45018 / CVE-2026-45019)": tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md
       - "Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode": tools/marimo-cve-2026-75149-mcp-command-injection.md
@@ -475,6 +478,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - "Amazon Kiro 'Power Leak': Kiro Powers prompt-injection data exfiltration via agent-rewritten MCP config (fixed 0.8.140)": patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md
       - 'VMs won''t contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times': patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md
       - 'State divergence enables unauthorized access: Provenance marker module anyone-can-pass check': patterns/provenance-marker-state-divergence-access-control.md
       - 'Benchmaxxing: when a benchmark becomes the target': patterns/benchmaxxing-benchmark-integrity-cyber-ai.md

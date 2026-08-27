@@ -143,6 +143,7 @@ Track PCPJack as **TeamPCP-adjacent but not confirmed TeamPCP-controlled**: publ
 Public reporting commonly attributes activity to the **TeamPCP** persona itself rather than naming individual humans. I do **not** see a reliable public name for a specific person behind TeamPCP in the sources used here.
 
 ## Associated operations
+- [TeamPCP: AFP/WAPF/FBI charge two Western Australian men (Trivy, KICS, LiteLLM)](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
