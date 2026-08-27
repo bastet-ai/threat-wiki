@@ -60,6 +60,7 @@ Additional signals: none of these CVEs are listed on SQLite's official advisory 
 8. **Protect downstream automation.** Ensure automated patching, alerting, and SLA tooling has a provenance/verification gate so AI-generated false-critical records cannot trigger emergency changes or bury real ones.
 
 ## Related pages
+- [AI-agent-found Log4j FilteredObjectInputStream bypass framed as "critical RCE" (Sonatype-2026-006746, Aug 27 2026)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [ChocOpoc fake-PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)

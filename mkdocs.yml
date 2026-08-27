@@ -502,6 +502,7 @@ nav:
       - Agentic workflow trust-boundary failures: patterns/agentic-workflow-trust-boundary-failures.md
       - Phantom squatting AI-hallucinated domains: patterns/phantom-squatting-ai-hallucinated-domains.md
       - LLM-slop false CVEs (SQLite advisory batch): patterns/llm-slop-false-cves-sqlite-batch.md
+      - Reported Log4j RCE is a hardening gap, not a vulnerability — AI-agent-found FilteredObjectInputStream bypass (sonatype-2026-006746): patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md
       - MCP tool-description poisoning: patterns/mcp-tool-description-poisoning.md
       - GuardFall AI-agent shell-guard bypass: patterns/guardfall-ai-agent-shell-guard-bypass.md
       - Cloud bucket namespace hijacking: patterns/cloud-bucket-namespace-hijacking.md

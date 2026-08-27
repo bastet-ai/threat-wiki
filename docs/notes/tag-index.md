@@ -131,8 +131,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AGENTPSD](#agentpsd) (2)
 - [AgentWorm](#agentworm) (1)
 - [AI](#ai) (7)
-- [AI agent](#ai-agent) (2)
-- [AI agent security](#ai-agent-security) (2)
+- [AI agent](#ai-agent) (3)
+- [AI agent security](#ai-agent-security) (3)
 - [AI agent tooling](#ai-agent-tooling) (1)
 - [AI agents](#ai-agents) (24)
 - [AI anti-analysis](#ai-anti-analysis) (1)
@@ -182,6 +182,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-enabled malware](#ai-enabled-malware) (1)
 - [AI-generated advisory](#ai-generated-advisory) (1)
 - [AI-generated exploit](#ai-generated-exploit) (1)
+- [AI-generated finding](#ai-generated-finding) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AI-generated narrator](#ai-generated-narrator) (1)
 - [Aider](#aider) (1)
@@ -813,6 +814,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential-theft](#credential-theft) (54)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
+- [critical framing](#critical-framing) (1)
 - [critical infrastructure](#critical-infrastructure) (10)
 - [critical vulnerability](#critical-vulnerability) (6)
 - [critical-infrastructure](#critical-infrastructure) (2)
@@ -1169,7 +1171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (5)
 - [deployment_status](#deployment_status) (1)
-- [deserialization](#deserialization) (11)
+- [deserialization](#deserialization) (12)
 - [destructive actions](#destructive-actions) (1)
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
@@ -1473,7 +1475,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FakeUpdates](#fakeupdates) (1)
 - [FALCON](#falcon) (1)
 - [FallSpy](#fallspy) (1)
-- [false positive](#false-positive) (1)
+- [false positive](#false-positive) (2)
 - [false positives](#false-positives) (1)
 - [FAMOUS CHOLLIMA](#famous-chollima) (2)
 - [Famous Chollima](#famous-chollima) (2)
@@ -1513,6 +1515,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [filename-injection](#filename-injection) (1)
 - [filestream](#filestream) (1)
 - [filesystem parser](#filesystem-parser) (1)
+- [FilteredObjectInputStream](#filteredobjectinputstream) (1)
 - [finance](#finance) (2)
 - [financial](#financial) (1)
 - [financial fraud](#financial-fraud) (7)
@@ -1589,6 +1592,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull](#funnull) (1)
 - [futex PI](#futex-pi) (1)
 - [FUXA](#fuxa) (1)
+- [gadget chain](#gadget-chain) (1)
 - [Gafgyt](#gafgyt) (1)
 - [GaiaOS WebUI](#gaiaos-webui) (1)
 - [Gamaredon](#gamaredon) (3)
@@ -1771,6 +1775,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HAR files](#har-files) (1)
 - [hard-coded password](#hard-coded-password) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
+- [hardening gap](#hardening-gap) (1)
 - [hardware wallet](#hardware-wallet) (1)
 - [HarmonyLib](#harmonylib) (1)
 - [HashiCorp Vault](#hashicorp-vault) (1)
@@ -1973,8 +1978,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JAR payload](#jar-payload) (1)
 - [JARLEASH](#jarleash) (1)
 - [JarService](#jarservice) (1)
-- [Java](#java) (2)
+- [Java](#java) (3)
+- [Java deserialization](#java-deserialization) (1)
 - [Java malware](#java-malware) (1)
+- [java.rmi.MarshalledObject](#javarmimarshalledobject) (1)
 - [JavaScript](#javascript) (21)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript execution](#javascript-execution) (1)
@@ -2125,6 +2132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ledger](#ledger) (1)
 - [legacy botnet hijacking](#legacy-botnet-hijacking) (1)
 - [legacy infrastructure](#legacy-infrastructure) (1)
+- [legacy pattern](#legacy-pattern) (1)
 - [legacy software](#legacy-software) (1)
 - [legacy systems](#legacy-systems) (1)
 - [legal sector](#legal-sector) (1)
@@ -2163,7 +2171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM](#llm) (9)
 - [LLM command execution](#llm-command-execution) (1)
 - [LLM security](#llm-security) (1)
-- [LLM slop](#llm-slop) (1)
+- [LLM slop](#llm-slop) (2)
 - [LLM-assisted malware](#llm-assisted-malware) (4)
 - [LLM-driven intrusion](#llm-driven-intrusion) (1)
 - [LLMjacking](#llmjacking) (1)
@@ -2189,6 +2197,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LockScreen](#lockscreen) (1)
 - [log poisoning](#log-poisoning) (1)
 - [log sanitization](#log-sanitization) (1)
+- [Log4j](#log4j) (1)
+- [Log4j 2](#log4j-2) (1)
+- [Log4j 2.26.1](#log4j-2261) (1)
 - [logging](#logging) (1)
 - [logging impairment](#logging-impairment) (1)
 - [login item persistence](#login-item-persistence) (1)
@@ -2591,6 +2602,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OBF networks](#obf-networks) (1)
 - [obfuscation](#obfuscation) (1)
 - [obfuscator.io](#obfuscatorio) (1)
+- [ObjectInputStream](#objectinputstream) (1)
 - [Oblivion](#oblivion) (2)
 - [obsolete software](#obsolete-software) (1)
 - [OctLurk](#octlurk) (2)
@@ -2754,7 +2766,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (7)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (48)
+- [patterns](#patterns) (49)
 - [Paweł Płatek](#pawe-patek) (1)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
@@ -3001,13 +3013,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RC4 encryption](#rc4-encryption) (1)
-- [RCE](#rce) (9)
+- [RCE](#rce) (10)
 - [Rclone](#rclone) (1)
 - [rclone](#rclone) (1)
 - [RCS](#rcs) (1)
 - [RDP](#rdp) (3)
 - [RDP phishing](#rdp-phishing) (1)
 - [RDS](#rds) (1)
+- [reachability](#reachability) (1)
 - [Reactor Core](#reactor-core) (1)
 - [Reactor Netty](#reactor-netty) (1)
 - [readonly proxy](#readonly-proxy) (1)
@@ -3414,11 +3427,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solid PDF Creator](#solid-pdf-creator) (1)
 - [SolidPDFCreator.dll](#solidpdfcreatordll) (1)
 - [SolidPDFPcl2Bmp](#solidpdfpcl2bmp) (1)
-- [Sonatype](#sonatype) (3)
-- [Sonatype Guide](#sonatype-guide) (1)
+- [Sonatype](#sonatype) (4)
+- [Sonatype Guide](#sonatype-guide) (2)
 - [sonatype-2026-005660](#sonatype-2026-005660) (1)
 - [sonatype-2026-005899](#sonatype-2026-005899) (1)
 - [sonatype-2026-005901](#sonatype-2026-005901) (1)
+- [sonatype-2026-006746](#sonatype-2026-006746) (1)
 - [SonicWall](#sonicwall) (2)
 - [Sophos](#sophos) (1)
 - [SOUL.md](#soulmd) (1)
@@ -3547,7 +3561,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (23)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (104)
+- [supply-chain](#supply-chain) (105)
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -3726,7 +3740,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro](#trend-micro) (3)
 - [TrendAI](#trendai) (2)
 - [Trezor](#trezor) (1)
-- [triage](#triage) (1)
+- [triage](#triage) (2)
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
 - [TRM Labs](#trm-labs) (1)
@@ -3736,6 +3750,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tron](#tron) (4)
 - [Troy](#troy) (1)
 - [TrueConf](#trueconf) (1)
+- [trust boundary](#trust-boundary) (1)
 - [trusted extension risk](#trusted-extension-risk) (1)
 - [trusted publishing](#trusted-publishing) (3)
 - [trusted relationship abuse](#trusted-relationship-abuse) (2)
@@ -3935,6 +3950,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VulnCheck](#vulncheck) (5)
 - [vulnerability](#vulnerability) (25)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
+- [vulnerability disclosure](#vulnerability-disclosure) (1)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
 - [vulnerability management](#vulnerability-management) (2)
 - [vulnerability research](#vulnerability-research) (4)
@@ -4664,10 +4680,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
 ## AI agent
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## AI agent security
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Benchmaxxing: when a benchmark becomes the target](../patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 
@@ -4882,6 +4900,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI-generated exploit
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
+
+## AI-generated finding
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## AI-generated malware
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -7536,6 +7557,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## criminal infrastructure
 - [First VPN](../tools/first-vpn.md)
 
+## critical framing
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
+
 ## critical infrastructure
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
@@ -8811,6 +8835,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## deserialization
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
@@ -10051,6 +10076,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 
 ## false positive
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## false positives
@@ -10178,6 +10204,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## filesystem parser
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## FilteredObjectInputStream
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## finance
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
@@ -10448,6 +10477,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FUXA
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
+
+## gadget chain
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## Gafgyt
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
@@ -11138,6 +11170,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## hard-coded secrets
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## hardening gap
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## hardware wallet
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
@@ -11933,11 +11968,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
 ## Java
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
+## Java deserialization
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
+
 ## Java malware
 - [QuimaRAT](../tools/quimarat.md)
+
+## java.rmi.MarshalledObject
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## JavaScript
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
@@ -12500,6 +12542,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## legacy infrastructure
 - [OP-512](../actors/op-512.md)
 
+## legacy pattern
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
+
 ## legacy software
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 
@@ -12662,6 +12707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 
 ## LLM slop
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## LLM-assisted malware
@@ -12768,6 +12814,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## log sanitization
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
+
+## Log4j
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
+
+## Log4j 2
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
+
+## Log4j 2.26.1
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## logging
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
@@ -14415,6 +14470,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## obfuscator.io
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 
+## ObjectInputStream
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
+
 ## Oblivion
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
@@ -15639,6 +15697,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 
 ## patterns
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
@@ -16732,6 +16791,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 
 ## RCE
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [Kaltura mwEmbed unpatched: unauthenticated file read + RCE via mwEmbedLoader.php (CVE-2026-19912/19913)](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
@@ -16761,6 +16821,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RDS
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## reachability
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## Reactor Core
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
@@ -18298,11 +18361,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## Sonatype
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 
 ## Sonatype Guide
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
 ## sonatype-2026-005660
@@ -18313,6 +18378,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## sonatype-2026-005901
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
+
+## sonatype-2026-006746
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## SonicWall
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -18804,6 +18872,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OceanLotus](../actors/oceanlotus.md)
 
 ## supply-chain
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
@@ -19619,6 +19688,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
 ## triage
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## TrickBot
@@ -19652,6 +19722,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TrueConf
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
+
+## trust boundary
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## trusted extension risk
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
@@ -20440,6 +20513,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## vulnerability database pollution
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
+
+## vulnerability disclosure
+- ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## vulnerability exploitation
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
