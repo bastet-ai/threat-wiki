@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [CISA KEV August 26 additions: Citrix NetScaler DoS (CVE-2026-8452), Microsoft SQL Server RCE (CVE-2019-1068), and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
 - [Unpatched Kaltura mwEmbed: unauthenticated file read + RCE (CVE-2026-19912/19913, no patch, vendor unreachable)](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
 - [NovaCookies: Docusign-notification AitM PhaaS ($320/mo) stealing Microsoft 365 sessions; Sneaky2FA variant](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
