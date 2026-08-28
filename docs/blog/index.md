@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body and a Navy shipbuilder — Chinese-speaking actor exfiltrates 372 MB of nuclear records, strategic plans, and credential stores (Hunt.io via THN)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [APT28-linked HOOKEDGE backdoor: batch-script C2 over webhook.site targets Romanian, Spanish, and Turkish government/diplomatic targets (Recorded Future / BlueDelta)](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
 - [PaperCut NG/MF zero-day: active exploitation of an unauthenticated admin-trigger → unsafe class-loading chain (CVE-2026-81578 / CVE-2026-82078), emergency patch Release 2](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 - [ServiceNow AI Platform Aug 27 advisory: three CVSS 10.0 unauthenticated flaws (GraphQL code injection, config-image access control, SQLi) plus a sandbox escape (CVE-2026-18885/-18886/-74820/-6876)](../ops/servicenow-ai-platform-august-27-2026-three-cvss-10-unauthenticated-flaws.md)

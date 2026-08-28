@@ -63,7 +63,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACTINIUM](#actinium) (1)
 - [Activator.CreateInstance](#activatorcreateinstance) (1)
 - [Active Directory](#active-directory) (1)
-- [active exploitation](#active-exploitation) (73)
+- [active exploitation](#active-exploitation) (74)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -334,7 +334,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Australia](#australia) (1)
 - [authenticated RCE](#authenticated-rce) (1)
 - [authenticated remote code execution](#authenticated-remote-code-execution) (1)
-- [authentication bypass](#authentication-bypass) (25)
+- [authentication bypass](#authentication-bypass) (26)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -617,7 +617,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (2)
 - [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
-- [Chinese-speaking](#chinese-speaking) (9)
+- [Chinese-speaking](#chinese-speaking) (10)
 - [Chinese-speaking cybercrime](#chinese-speaking-cybercrime) (1)
 - [Chinese-speaking operator](#chinese-speaking-operator) (2)
 - [Chisel](#chisel) (3)
@@ -644,7 +644,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CIS](#cis) (2)
 - [CISA](#cisa) (15)
 - [CISA ADP](#cisa-adp) (1)
-- [CISA KEV](#cisa-kev) (40)
+- [CISA KEV](#cisa-kev) (41)
 - [Cisco](#cisco) (6)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -678,7 +678,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [click interception](#click-interception) (1)
 - [clicker](#clicker) (1)
 - [ClickFake](#clickfake) (1)
-- [ClickFix](#clickfix) (23)
+- [ClickFix](#clickfix) (24)
 - [ClickOnce](#clickonce) (1)
 - [ClickUp](#clickup) (1)
 - [client installer poisoning](#client-installer-poisoning) (1)
@@ -921,12 +921,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2023-25717](#cve-2023-25717) (1)
 - [CVE-2023-2868](#cve-2023-2868) (1)
 - [CVE-2023-4346](#cve-2023-4346) (1)
-- [CVE-2023-49105](#cve-2023-49105) (1)
+- [CVE-2023-49105](#cve-2023-49105) (2)
 - [CVE-2023-4966](#cve-2023-4966) (1)
 - [CVE-2024-1708](#cve-2024-1708) (1)
 - [CVE-2024-1709](#cve-2024-1709) (1)
 - [CVE-2024-20399](#cve-2024-20399) (1)
 - [CVE-2024-21182](#cve-2024-21182) (1)
+- [CVE-2024-28000](#cve-2024-28000) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
 - [CVE-2024-42009](#cve-2024-42009) (1)
 - [CVE-2025-11371](#cve-2025-11371) (1)
@@ -1142,6 +1143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-22](#cwe-22) (1)
 - [CWE-259](#cwe-259) (1)
 - [CWE-284](#cwe-284) (1)
+- [CWE-287](#cwe-287) (1)
 - [CWE-306](#cwe-306) (2)
 - [CWE-352](#cwe-352) (2)
 - [CWE-470](#cwe-470) (1)
@@ -1460,7 +1462,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [eth_getStorageAt](#eth_getstorageat) (1)
 - [Ethereum](#ethereum) (6)
 - [Ethereum Name Service](#ethereum-name-service) (2)
-- [EtherHiding](#etherhiding) (6)
+- [EtherHiding](#etherhiding) (7)
 - [Ethiopia](#ethiopia) (1)
 - [ETW](#etw) (1)
 - [ETW bypass](#etw-bypass) (1)
@@ -1489,7 +1491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exec_globals](#exec_globals) (1)
 - [execution guardrails](#execution-guardrails) (1)
 - [exFAT](#exfat) (1)
-- [exfiltration](#exfiltration) (6)
+- [exfiltration](#exfiltration) (7)
 - [Experience Cloud](#experience-cloud) (1)
 - [exploit chain](#exploit-chain) (2)
 - [exploit kit](#exploit-kit) (1)
@@ -1918,7 +1920,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (3)
 - [HUMAN Satori](#human-satori) (1)
-- [Hunt.io](#huntio) (5)
+- [Hunt.io](#huntio) (6)
 - [Huntress](#huntress) (3)
 - [Huorong](#huorong) (1)
 - [Hyadina](#hyadina) (1)
@@ -2247,6 +2249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux rootkit](#linux-rootkit) (1)
 - [LiteLLM](#litellm) (6)
 - [LiteSpeed](#litespeed) (2)
+- [LiteSpeed Cache](#litespeed-cache) (1)
 - [live chat](#live-chat) (1)
 - [living off the land](#living-off-the-land) (1)
 - [living-off-the-land](#living-off-the-land) (1)
@@ -2673,6 +2676,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NTFS ADS](#ntfs-ads) (3)
 - [NTLM](#ntlm) (2)
 - [nuclear procurement](#nuclear-procurement) (1)
+- [nuclear research](#nuclear-research) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (4)
 - [Nuitka](#nuitka) (1)
@@ -2766,12 +2770,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (312)
+- [operations](#operations) (313)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (360)
+- [ops](#ops) (361)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -2801,7 +2805,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [overlay attacks](#overlay-attacks) (2)
 - [OWA](#owa) (1)
 - [OWAReaper](#owareaper) (2)
-- [ownCloud](#owncloud) (1)
+- [ownCloud](#owncloud) (2)
 - [OX Security](#ox-security) (5)
 - [OxideHarvest](#oxideharvest) (1)
 - [OYSTERBLUES](#oysterblues) (1)
@@ -2911,7 +2915,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomGraph](#phantomgraph) (1)
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
-- [Philippines](#philippines) (1)
+- [Philippines](#philippines) (2)
 - [phishing](#phishing) (31)
 - [phishing overlays](#phishing-overlays) (1)
 - [phishing-as-a-service](#phishing-as-a-service) (8)
@@ -2993,7 +2997,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pre-auth RCE](#pre-auth-rce) (1)
 - [pre-authentication](#pre-authentication) (2)
 - [pre-authentication RCE](#pre-authentication-rce) (1)
-- [pre-signed URL](#pre-signed-url) (1)
+- [pre-signed URL](#pre-signed-url) (2)
 - [Prefetch](#prefetch) (1)
 - [preinstall](#preinstall) (3)
 - [PreppHint](#prepphint) (1)
@@ -4155,7 +4159,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
 - [WebAuthn](#webauthn) (1)
-- [WebDAV](#webdav) (5)
+- [WebDAV](#webdav) (6)
 - [webhook.site](#webhooksite) (1)
 - [WebHost Manager](#webhost-manager) (1)
 - [WebKit](#webkit) (1)
@@ -4220,7 +4224,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WMI](#wmi) (1)
 - [Woodgnat](#woodgnat) (1)
 - [WordlistLoader](#wordlistloader) (1)
-- [WordPress](#wordpress) (11)
+- [WordPress](#wordpress) (12)
 - [WordPress 7.0.4](#wordpress-704) (1)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
 - [workerd](#workerd) (1)
@@ -4254,6 +4258,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xiaomi Redmi A5](#xiaomi-redmi-a5) (1)
 - [xinference](#xinference) (1)
 - [xlabs_v1](#xlabs_v1) (1)
+- [XML-RPC brute force](#xml-rpc-brute-force) (1)
 - [XMLDecoder](#xmldecoder) (1)
 - [XMRig](#xmrig) (9)
 - [XOR](#xor) (3)
@@ -4566,6 +4571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -5623,6 +5629,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
@@ -6718,6 +6725,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 - [UAT-10147](../actors/uat-10147.md)
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
@@ -6910,6 +6918,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
@@ -7054,6 +7063,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
@@ -8159,6 +8169,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2023-49105
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 
 ## CVE-2023-4966
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -8174,6 +8185,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2024-21182
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
+
+## CVE-2024-28000
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 
 ## CVE-2024-3094
 - [JiaT75](../people/jiat75.md)
@@ -8846,6 +8860,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CWE-284
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
+
+## CWE-287
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 
 ## CWE-306
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
@@ -10200,6 +10217,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## EtherHiding
 - [ACR Stealer](../tools/acr-stealer.md)
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
@@ -10301,6 +10319,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 
 ## Experience Cloud
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
@@ -11861,6 +11880,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
 
@@ -13180,6 +13200,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LiteSpeed
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+
+## LiteSpeed Cache
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 
 ## live chat
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
@@ -14935,6 +14958,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## nuclear procurement
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
+## nuclear research
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
+
 ## nuclear weapons
 - [Fast16](../tools/fast16.md)
 
@@ -15486,6 +15512,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
@@ -15843,6 +15870,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -16059,6 +16087,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ownCloud
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 
 ## OX Security
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
@@ -16521,6 +16550,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Philippines
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 
 ## phishing
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -16866,6 +16896,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pre-signed URL
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 
 ## Prefetch
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
@@ -21528,6 +21559,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 
 ## webhook.site
@@ -21825,6 +21857,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
@@ -21952,6 +21985,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## xlabs_v1
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
+
+## XML-RPC brute force
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 
 ## XMLDecoder
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)

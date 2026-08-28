@@ -65,12 +65,13 @@ CISA's entry: an **improper limitation of a pathname to a restricted directory**
 5. **Re-check the catalog.** The August 26 batch added Citrix NetScaler / SQL Server / UAT-10147 CVEs (see the [August 26 page](cisa-kev-citrix-sql-server-august-26-2026.md)); CISA is now adding entries at a multi-per-day cadence, so the catalog is a standing watch item, not a one-time digest.
 
 ## Assessment limits
-- CISA's entries record **ransomware use as unknown** and identify **no actor, infrastructure, or payload** for all three.
+- CISA's entries record **ransomware use as unknown** and identify **no actor, infrastructure, or payload** for all three — though **August 28 Hunt.io reporting** now names the first concrete CVE-2023-49105 victims (Philippine nuclear research body and a Navy shipbuilder): see [ownCloud CVE-2023-49105 exploitation page](owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md).
 - CVE-2023-49105 is a **2023** disclosure (NVD published 2023-11-21) resurfacing as a 2026 exploitation determination; ownCloud's FAQ is the authoritative affected-version source (Server < 10.13.3).
 - For CVE-2026-53362, CISA's entry cites stable-tree commits but no vendor-affected-version matrix; distro advisories define the exact unpatched builds.
 - For CVE-2026-66384, the vendor severity is **Medium** with an **authenticated** prerequisite; the KEV listing establishes exploitation, but the KEV entry does not state the exploitation scope (which remote-repository conditions).
 
 ## Related pages
+- [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body and a Navy shipbuilder (Hunt.io, Aug 28, 2026)](owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 CVEs](cisa-kev-citrix-sql-server-august-26-2026.md)
 - [Gitea diffpatch Git-hook RCE in CISA KEV (CVE-2026-60004)](gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw](cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
