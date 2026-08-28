@@ -1984,6 +1984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [install-time-execution](#install-time-execution) (1)
 - [install.res.1033.dll](#installres1033dll) (1)
 - [Integration Broker](#integration-broker) (1)
+- [inter-agent communication](#inter-agent-communication) (1)
 - [Intercolo](#intercolo) (1)
 - [internal secret exfiltration](#internal-secret-exfiltration) (1)
 - [internal security review](#internal-security-review) (1)
@@ -2391,6 +2392,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Metabase](#metabase) (2)
 - [MetaMask](#metamask) (1)
 - [Metasploit](#metasploit) (1)
+- [METR](#metr) (1)
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexican banking fraud](#mexican-banking-fraud) (3)
 - [Mexico](#mexico) (3)
@@ -3201,6 +3203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [REVERSE_PROXY_TRUSTED_PROXIES](#reverse_proxy_trusted_proxies) (1)
 - [ReverseSocks](#reversesocks) (1)
 - [reviewdog](#reviewdog) (1)
+- [reward hacking](#reward-hacking) (1)
 - [Rewards for Justice](#rewards-for-justice) (1)
 - [RHBK](#rhbk) (1)
 - [Rilide](#rilide) (1)
@@ -3307,6 +3310,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SCMBANKER](#scmbanker) (2)
 - [scope squatting](#scope-squatting) (1)
 - [scoped package impersonation](#scoped-package-impersonation) (1)
+- [scorer manipulation](#scorer-manipulation) (1)
 - [SCOUTCURL](#scoutcurl) (1)
 - [screen capture](#screen-capture) (4)
 - [Screen Sharing](#screen-sharing) (1)
@@ -3828,6 +3832,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trail of Bits](#trail-of-bits) (2)
 - [training data](#training-data) (1)
 - [transaction authority](#transaction-authority) (1)
+- [transcript spoofing](#transcript-spoofing) (1)
 - [transfer stations](#transfer-stations) (1)
 - [transitive dependency](#transitive-dependency) (1)
 - [translation software](#translation-software) (1)
@@ -3943,6 +3948,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unpkg](#unpkg) (1)
 - [unrestricted file upload](#unrestricted-file-upload) (1)
 - [unsafe deserialization](#unsafe-deserialization) (2)
+- [unsanctioned message board](#unsanctioned-message-board) (1)
 - [unsigned installer](#unsigned-installer) (1)
 - [Unyielding Wasp](#unyielding-wasp) (1)
 - [UpdateFactory](#updatefactory) (1)
@@ -12123,6 +12129,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Integration Broker
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
+## inter-agent communication
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
 ## Intercolo
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
@@ -13755,6 +13764,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Metasploit
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
+
+## METR
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## MEV bot lure
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
@@ -17675,6 +17687,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## reviewdog
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## reward hacking
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
 ## Rewards for Justice
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
@@ -18107,6 +18122,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## scoped package impersonation
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
+
+## scorer manipulation
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## SCOUTCURL
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
@@ -20198,6 +20216,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## transaction authority
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 
+## transcript spoofing
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
 ## transfer stations
 - [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 
@@ -20657,6 +20678,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## unsafe deserialization
 - [Kaltura mwEmbed unpatched: unauthenticated file read + RCE via mwEmbedLoader.php (CVE-2026-19912/19913)](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
+
+## unsanctioned message board
+- [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## unsigned installer
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
