@@ -805,6 +805,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CORS bypass](#cors-bypass) (1)
 - [Cortex XDR](#cortex-xdr) (1)
 - [Coruna](#coruna) (2)
+- [cosign](#cosign) (1)
 - [Cosmos SDK](#cosmos-sdk) (1)
 - [CosmosEscape](#cosmosescape) (1)
 - [CoSnitch](#cosnitch) (1)
@@ -854,6 +855,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cross-tenant access](#cross-tenant-access) (1)
 - [cross-tenant isolation](#cross-tenant-isolation) (1)
 - [cross-tenant leakage](#cross-tenant-leakage) (1)
+- [Crossplane](#crossplane) (1)
+- [crossplane-runtime](#crossplane-runtime) (1)
 - [Crosswork](#crosswork) (1)
 - [Crosswork Data Gateway](#crosswork-data-gateway) (1)
 - [Crosswork Network Controller](#crosswork-network-controller) (1)
@@ -1069,6 +1072,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-53362](#cve-2026-53362) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
 - [CVE-2026-54420](#cve-2026-54420) (1)
+- [CVE-2026-54718](#cve-2026-54718) (1)
+- [CVE-2026-54720](#cve-2026-54720) (1)
+- [CVE-2026-54721](#cve-2026-54721) (1)
 - [CVE-2026-55040](#cve-2026-55040) (2)
 - [CVE-2026-55255](#cve-2026-55255) (1)
 - [CVE-2026-56290](#cve-2026-56290) (1)
@@ -1382,6 +1388,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [email gateway](#email-gateway) (1)
 - [email infrastructure abuse](#email-infrastructure-abuse) (1)
 - [email security](#email-security) (1)
+- [email subject](#email-subject) (1)
+- [email template](#email-template) (1)
 - [email theft](#email-theft) (4)
 - [embedded configuration](#embedded-configuration) (1)
 - [embedded Linux](#embedded-linux) (2)
@@ -1685,6 +1693,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-c4hm-4h84-2cf3](#ghsa-c4hm-4h84-2cf3) (1)
 - [GHSA-hvfh-5mj3-5f3j](#ghsa-hvfh-5mj3-5f3j) (1)
 - [GHSA-m5w8-4gq2-6f8x](#ghsa-m5w8-4gq2-6f8x) (1)
+- [GHSA-mf7q-r4rv-jv94](#ghsa-mf7q-r4rv-jv94) (1)
 - [GHSA-qrpv-q767-xqq2](#ghsa-qrpv-q767-xqq2) (1)
 - [GHSA-rcr6-4jqh-j84m](#ghsa-rcr6-4jqh-j84m) (1)
 - [GHSA-rg76-677x-56q9](#ghsa-rg76-677x-56q9) (1)
@@ -1712,7 +1721,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub PAT abuse](#github-pat-abuse) (1)
 - [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub release assets](#github-release-assets) (1)
-- [GitHub Security Advisories](#github-security-advisories) (5)
+- [GitHub Security Advisories](#github-security-advisories) (6)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
 - [GitLab](#gitlab) (3)
@@ -2369,6 +2378,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP gateway](#mcp-gateway) (1)
 - [MCP stdio command execution](#mcp-stdio-command-execution) (1)
 - [mcp-grafana](#mcp-grafana) (1)
+- [media embed](#media-embed) (1)
 - [media processing](#media-processing) (1)
 - [MediaFire](#mediafire) (1)
 - [medical research](#medical-research) (1)
@@ -2674,6 +2684,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ObjectInputStream](#objectinputstream) (1)
 - [Oblivion](#oblivion) (2)
 - [obsolete software](#obsolete-software) (1)
+- [OCI registry](#oci-registry) (1)
 - [OctLurk](#octlurk) (2)
 - [Octopi365](#octopi365) (1)
 - [OFAC](#ofac) (2)
@@ -2741,7 +2752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (356)
+- [ops](#ops) (357)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -3099,7 +3110,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RC4 encryption](#rc4-encryption) (1)
-- [RCE](#rce) (11)
+- [RCE](#rce) (12)
 - [Rclone](#rclone) (1)
 - [rclone](#rclone) (1)
 - [RCS](#rcs) (1)
@@ -3432,6 +3443,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Siemens S7](#siemens-s7) (1)
 - [Signal](#signal) (3)
 - [Signal interception](#signal-interception) (1)
+- [signature verification](#signature-verification) (1)
 - [signed binary abuse](#signed-binary-abuse) (1)
 - [signed executable](#signed-executable) (1)
 - [signed malware](#signed-malware) (1)
@@ -3446,6 +3458,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SilkParasite](#silkparasite) (1)
 - [Silver Fox](#silver-fox) (3)
 - [Silver Pass-ta-key](#silver-pass-ta-key) (1)
+- [Silverstripe](#silverstripe) (1)
 - [SimpleHelp](#simplehelp) (4)
 - [SimpleHTTPServer exposure](#simplehttpserver-exposure) (1)
 - [simulation tampering](#simulation-tampering) (1)
@@ -3658,7 +3671,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suo5](#suo5) (1)
 - [Supabase](#supabase) (1)
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
-- [supply chain](#supply-chain) (23)
+- [supply chain](#supply-chain) (24)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (108)
 - [supply-chain attack](#supply-chain-attack) (1)
@@ -3706,6 +3719,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TAG-179](#tag-179) (1)
 - [TAG-182](#tag-182) (1)
 - [TAG-22](#tag-22) (2)
+- [tag-based install](#tag-based-install) (1)
 - [Taiwan](#taiwan) (9)
 - [Tajikistan](#tajikistan) (1)
 - [Take Control](#take-control) (1)
@@ -3786,6 +3800,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ThrottleBlood](#throttleblood) (1)
 - [ThumbcacheService](#thumbcacheservice) (1)
 - [thumbnail generation](#thumbnail-generation) (1)
+- [time-of-check time-of-use](#time-of-check-time-of-use) (1)
 - [timestomping](#timestomping) (1)
 - [timing attack](#timing-attack) (1)
 - [timing check](#timing-check) (1)
@@ -3796,7 +3811,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TLS interception](#tls-interception) (1)
 - [TmcLoader](#tmcloader) (1)
 - [TmcPayload](#tmcpayload) (1)
-- [TOCTOU](#toctou) (1)
+- [TOCTOU](#toctou) (2)
 - [ToddyCat](#toddycat) (3)
 - [token forgery](#token-forgery) (3)
 - [token jacking](#token-jacking) (1)
@@ -4214,7 +4229,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xorshift32](#xorshift32) (1)
 - [Xray](#xray) (1)
 - [XSLT SSRF](#xslt-ssrf) (1)
-- [XSS](#xss) (3)
+- [XSS](#xss) (4)
 - [XSS injection](#xss-injection) (1)
 - [XSS.is](#xssis) (1)
 - [XWorm](#xworm) (1)
@@ -7526,6 +7541,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
+## cosign
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
 ## Cosmos SDK
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 
@@ -7848,6 +7866,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cross-tenant leakage
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
+
+## Crossplane
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
+## crossplane-runtime
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 
 ## Crosswork
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
@@ -8569,6 +8593,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-54420
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
+
+## CVE-2026-54718
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
+## CVE-2026-54720
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
+## CVE-2026-54721
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 
 ## CVE-2026-55040
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
@@ -9809,6 +9842,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## email security
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
 
+## email subject
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
+## email template
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
 ## email theft
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 - [ToddyCat](../actors/toddycat.md)
@@ -10932,6 +10971,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-m5w8-4gq2-6f8x
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
+## GHSA-mf7q-r4rv-jv94
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
 ## GHSA-qrpv-q767-xqq2
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
 
@@ -11071,6 +11113,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub Security Advisories
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
@@ -13690,6 +13733,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mcp-grafana
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
+## media embed
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
 ## media processing
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
@@ -14891,6 +14937,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## obsolete software
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 
+## OCI registry
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
 ## OctLurk
 - [OctLurk](../tools/octlurk.md)
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
@@ -15565,6 +15614,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -17287,6 +17337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 - [Kaltura mwEmbed unpatched: unauthenticated file read + RCE via mwEmbedLoader.php (CVE-2026-19912/19913)](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -18563,6 +18614,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Signal interception
 - [Turla](../actors/turla.md)
 
+## signature verification
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
 ## signed binary abuse
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 
@@ -18607,6 +18661,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Silver Pass-ta-key
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
+## Silverstripe
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 
 ## SimpleHelp
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -19398,6 +19455,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [MYRA RAT](../tools/myra-rat.md)
@@ -19676,6 +19734,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TAG-22
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
+
+## tag-based install
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 
 ## Taiwan
 - [CL-STA-1062](../actors/cl-sta-1062.md)
@@ -19985,6 +20046,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## thumbnail generation
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
+## time-of-check time-of-use
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
 ## timestomping
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
@@ -20018,6 +20082,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
 ## TOCTOU
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 
 ## ToddyCat
@@ -21760,6 +21825,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
 ## XSS
+- [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
