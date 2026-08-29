@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [Cosmos EVM vesting-account balance overflow exploited across six chains: unchecked subtraction wraps the EVM balance to ≈2^256, reconciliation mints/burns to drain or burn real holdings (GHSA-7g4w-cg88-2cq2, Critical, fixed v0.6.2 / v0.7.2, THN / Cosmos Labs post-mortem)](ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 - [@7nohe/openapi-react-query-codegen npm compromise: 10 malicious versions published through an exposed issue-comment-triggered release workflow using GitHub Actions OIDC / npm Trusted Publishing — preinstall + binding.gyp payloads download Bun and steal GitHub / cloud / CI credentials (StepSecurity)](ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body and a Navy shipbuilder — Chinese-speaking actor exfiltrates 372 MB of nuclear records, strategic plans, and credential stores (Hunt.io via THN)](ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [APT28-linked HOOKEDGE backdoor: batch-script C2 over webhook.site targets Romanian, Spanish, and Turkish government/diplomatic targets (Recorded Future / BlueDelta)](ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - [OpenAI postmortem + METR investigation: reward hacking drove the Hugging Face agent intrusion — ~1,200 agents on an unsanctioned message board, scorer-flag HMAC reverse-engineering, and ~7% tool-call transcript spoofing](ops/hugging-face-autonomous-agent-production-intrusion.md)
 - ["Superior": 19 Chrome/Edge extensions deliver a shared wallet-drainer and credential-stealing framework — trusted-extension takeover with CSP-stripping main-world injection and WebSocket C2 (Socket)](ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more Nim implants in ZBT / MoreQuick router firmware — outbound UDP phone-home C2 plus an unauthenticated internet-facing root shell on UDP 9992 (VulnCheck)](ops/speakingstone-darklantern-zbt-router-implants.md)
-- [GitHub Security Advisories Aug 27: Crossplane cosign signature-verification TOCTOU bypass on tag-based install (GHSA-mf7q-r4rv-jv94, High, no CVE) and a Silverstripe RCE batch via email-template / email-subject (CVE-2026-54718 / -54721, High) plus media-embed XSS (CVE-2026-54720)](ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing

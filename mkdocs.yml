@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "Cosmos EVM vesting-account balance overflow exploited across six chains: unchecked subtraction wraps to ≈2^256, reconciliation mints/burns to drain real holdings (GHSA-7g4w-cg88-2cq2, Critical, fixed v0.6.2 / v0.7.2)": ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md
       - "@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow: 10 malicious versions through issue-comment-triggered OIDC Trusted Publishing (StepSecurity, Aug 28)": ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md
       - "ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body and a Navy shipbuilder (Hunt.io, Aug 28)": ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md
       - "APT28-linked HOOKEDGE backdoor: batch-script C2 over webhook.site targets Romanian/Spanish/Turkish government and diplomatic organizations (Recorded Future / BlueDelta)": ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md

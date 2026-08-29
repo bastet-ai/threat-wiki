@@ -67,6 +67,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
+- [actively-exploited](#actively-exploited) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (6)
 - [actors](#actors) (12)
@@ -386,6 +387,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BadIIS](#badiis) (4)
 - [BadPotato](#badpotato) (1)
 - [Baileys](#baileys) (1)
+- [balance-overflow](#balance-overflow) (1)
 - [Balbooa Forms](#balbooa-forms) (1)
 - [Balochistan Police](#balochistan-police) (1)
 - [Balonx](#balonx) (1)
@@ -447,7 +449,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Blackpoint Cyber](#blackpoint-cyber) (6)
 - [Bleacher Report](#bleacher-report) (1)
 - [blind prompt injection](#blind-prompt-injection) (1)
-- [blockchain](#blockchain) (1)
+- [blockchain](#blockchain) (2)
 - [blockchain C2](#blockchain-c2) (9)
 - [blockchain dead drop](#blockchain-dead-drop) (6)
 - [blockchain RPC](#blockchain-rpc) (1)
@@ -809,6 +811,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cortex XDR](#cortex-xdr) (1)
 - [Coruna](#coruna) (2)
 - [cosign](#cosign) (1)
+- [Cosmos](#cosmos) (1)
+- [Cosmos EVM](#cosmos-evm) (1)
 - [Cosmos SDK](#cosmos-sdk) (1)
 - [CosmosEscape](#cosmosescape) (1)
 - [CoSnitch](#cosnitch) (1)
@@ -840,6 +844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential-theft](#credential-theft) (56)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
+- [critical](#critical) (1)
 - [critical framing](#critical-framing) (1)
 - [critical infrastructure](#critical-infrastructure) (11)
 - [critical vulnerability](#critical-vulnerability) (6)
@@ -1485,6 +1490,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Evil Corp](#evil-corp) (1)
 - [EvilAI](#evilai) (1)
 - [Evilginx](#evilginx) (1)
+- [EVM](#evm) (1)
 - [evolutionary optimization](#evolutionary-optimization) (1)
 - [EWS](#ews) (1)
 - [excessive agency](#excessive-agency) (1)
@@ -1702,6 +1708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-6vxv-wg6j-5qwp](#ghsa-6vxv-wg6j-5qwp) (1)
 - [GHSA-6whr-xjjm-6pf8](#ghsa-6whr-xjjm-6pf8) (1)
 - [GHSA-78mw-f4q2-924q](#ghsa-78mw-f4q2-924q) (1)
+- [GHSA-7g4w-cg88-2cq2](#ghsa-7g4w-cg88-2cq2) (1)
 - [GHSA-864f-rcv7-6rh4](#ghsa-864f-rcv7-6rh4) (1)
 - [GHSA-8gq3-vp5j-2grp](#ghsa-8gq3-vp5j-2grp) (1)
 - [GHSA-c39w-43gm-34h5](#ghsa-c39w-43gm-34h5) (1)
@@ -2011,6 +2018,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [install-time execution](#install-time-execution) (7)
 - [install-time-execution](#install-time-execution) (1)
 - [install.res.1033.dll](#installres1033dll) (1)
+- [integer-overflow](#integer-overflow) (1)
 - [Integration Broker](#integration-broker) (1)
 - [inter-agent communication](#inter-agent-communication) (1)
 - [Intercolo](#intercolo) (1)
@@ -2770,12 +2778,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (314)
+- [operations](#operations) (315)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (362)
+- [ops](#ops) (363)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -2976,6 +2984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [post-exploitation](#post-exploitation) (6)
 - [post-exploitation framework](#post-exploitation-framework) (1)
 - [post-index-change](#post-index-change) (1)
+- [post-mortem](#post-mortem) (1)
 - [postal-impersonation](#postal-impersonation) (1)
 - [PostCSS](#postcss) (1)
 - [PostgreSQL](#postgresql) (4)
@@ -3449,6 +3458,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared hosting](#shared-hosting) (4)
 - [shared memory](#shared-memory) (1)
 - [shared secrets](#shared-secrets) (1)
+- [shared-module](#shared-module) (1)
 - [SharedWorker](#sharedworker) (1)
 - [ShareFile](#sharefile) (1)
 - [SharePoint](#sharepoint) (8)
@@ -3481,6 +3491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [signed-binary](#signed-binary) (1)
 - [Silent Ransom Group](#silent-ransom-group) (1)
 - [Silent Swap](#silent-swap) (1)
+- [silent-patch](#silent-patch) (1)
 - [SilentCryptoMiner](#silentcryptominer) (1)
 - [SilentRunLoader](#silentrunloader) (1)
 - [SiliconFlow](#siliconflow) (1)
@@ -3649,6 +3660,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stack use-after-free](#stack-use-after-free) (1)
 - [staged malicious update](#staged-malicious-update) (1)
 - [staged publishing](#staged-publishing) (1)
+- [staking-precompile](#staking-precompile) (1)
 - [stale access](#stale-access) (1)
 - [stale credentials](#stale-credentials) (1)
 - [stale state](#stale-state) (1)
@@ -3704,7 +3716,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (24)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (109)
+- [supply-chain](#supply-chain) (110)
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -3979,6 +3991,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6692](#unc6692) (2)
 - [UNC6780](#unc6780) (1)
 - [UNC7005](#unc7005) (1)
+- [unchecked-subtraction](#unchecked-subtraction) (1)
 - [unclaimed names](#unclaimed-names) (1)
 - [Uni-App](#uni-app) (1)
 - [UniFi OS](#unifi-os) (1)
@@ -4052,6 +4065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VENOMOUS BEAR](#venomous-bear) (3)
 - [Vercel](#vercel) (1)
 - [Vertex AI](#vertex-ai) (1)
+- [vesting-account](#vesting-account) (1)
 - [VHD](#vhd) (1)
 - [victim-owned relay infrastructure](#victim-owned-relay-infrastructure) (1)
 - [Vidar](#vidar) (1)
@@ -4602,6 +4616,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## active-exploitation
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+
+## actively-exploited
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 
 ## ActiveX
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
@@ -5838,6 +5855,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Baileys
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 
+## balance-overflow
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
+
 ## Balbooa Forms
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
@@ -6042,6 +6062,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 
 ## blockchain
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 
 ## blockchain C2
@@ -7605,6 +7626,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cosign
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 
+## Cosmos
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
+
+## Cosmos EVM
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
+
 ## Cosmos SDK
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 
@@ -7853,6 +7880,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## criminal infrastructure
 - [First VPN](../tools/first-vpn.md)
+
+## critical
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 
 ## critical framing
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
@@ -10300,6 +10330,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Evilginx
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
+## EVM
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
+
 ## evolutionary optimization
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 
@@ -11060,6 +11093,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GHSA-78mw-f4q2-924q
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+
+## GHSA-7g4w-cg88-2cq2
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 
 ## GHSA-864f-rcv7-6rh4
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
@@ -12293,6 +12329,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## install.res.1033.dll
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
+
+## integer-overflow
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 
 ## Integration Broker
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -15377,6 +15416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
@@ -15716,6 +15756,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
@@ -16798,6 +16839,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## post-index-change
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
+
+## post-mortem
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 
 ## postal-impersonation
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
@@ -18711,6 +18755,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## shared secrets
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## shared-module
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
+
 ## SharedWorker
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
@@ -18818,6 +18865,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Silent Swap
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
+## silent-patch
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 
 ## SilentCryptoMiner
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -19451,6 +19501,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## staged publishing
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 
+## staking-precompile
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
+
 ## stale access
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 
@@ -19690,6 +19743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
@@ -20874,6 +20928,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UNC7005
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 
+## unchecked-subtraction
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
+
 ## unclaimed names
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 
@@ -21131,6 +21188,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Vertex AI
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+
+## vesting-account
+- [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 
 ## VHD
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)

@@ -3,6 +3,7 @@
 Short updates, summaries, and notable threat writeups.
 
 ## Recent posts
+- [Cosmos EVM vesting-account balance overflow exploited across six chains: unchecked subtraction wraps the EVM balance to ≈2^256 and reconciliation mints/burns to drain or burn real holdings — Critical GHSA-7g4w-cg88-2cq2, fixed in v0.6.2 / v0.7.2, silent-patch process failure documented in Cosmos Labs post-mortem (THN)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 - [@7nohe/openapi-react-query-codegen npm compromise: 10 malicious versions published through an exposed issue-comment-triggered release workflow using GitHub Actions OIDC / npm Trusted Publishing — preinstall + binding.gyp payloads download Bun and steal GitHub / cloud / CI credentials (StepSecurity)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body and a Navy shipbuilder — Chinese-speaking actor exfiltrates 372 MB of nuclear records, strategic plans, and credential stores (Hunt.io via THN)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [APT28-linked HOOKEDGE backdoor: batch-script C2 over webhook.site targets Romanian, Spanish, and Turkish government/diplomatic targets (Recorded Future / BlueDelta)](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
