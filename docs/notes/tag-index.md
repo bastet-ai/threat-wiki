@@ -62,7 +62,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Activator.CreateInstance](#activatorcreateinstance) (1)
-- [Active Directory](#active-directory) (1)
+- [Active Directory](#active-directory) (2)
 - [active exploitation](#active-exploitation) (74)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
@@ -422,6 +422,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Belarus](#belarus) (2)
 - [BELQI](#belqi) (1)
 - [benchmark integrity](#benchmark-integrity) (1)
+- [Berlin](#berlin) (1)
 - [Bexo Wallet](#bexo-wallet) (1)
 - [BeyondTrust](#beyondtrust) (1)
 - [bin entry](#bin-entry) (1)
@@ -644,7 +645,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD credential theft](#cicd-credential-theft) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (15)
+- [CISA](#cisa) (16)
 - [CISA ADP](#cisa-adp) (1)
 - [CISA KEV](#cisa-kev) (41)
 - [Cisco](#cisco) (6)
@@ -680,7 +681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [click interception](#click-interception) (1)
 - [clicker](#clicker) (1)
 - [ClickFake](#clickfake) (1)
-- [ClickFix](#clickfix) (24)
+- [ClickFix](#clickfix) (25)
 - [ClickOnce](#clickonce) (1)
 - [ClickUp](#clickup) (1)
 - [client installer poisoning](#client-installer-poisoning) (1)
@@ -846,7 +847,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical](#critical) (1)
 - [critical framing](#critical-framing) (1)
-- [critical infrastructure](#critical-infrastructure) (11)
+- [critical infrastructure](#critical-infrastructure) (12)
 - [critical vulnerability](#critical-vulnerability) (6)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
@@ -1178,7 +1179,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DarkSword](#darksword) (1)
 - [data analytics](#data-analytics) (1)
 - [data contamination](#data-contamination) (1)
-- [data exfiltration](#data-exfiltration) (16)
+- [data exfiltration](#data-exfiltration) (17)
 - [data exposure](#data-exposure) (3)
 - [data extortion](#data-extortion) (2)
 - [data leak site](#data-leak-site) (3)
@@ -1292,7 +1293,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL search-order hijacking](#dll-search-order-hijacking) (2)
 - [DLL side-loading](#dll-side-loading) (8)
-- [DLL sideloading](#dll-sideloading) (26)
+- [DLL sideloading](#dll-sideloading) (27)
 - [DMTP](#dmtp) (1)
 - [DNS](#dns) (1)
 - [DNS C2](#dns-c2) (3)
@@ -1516,7 +1517,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [extension supply-chain](#extension-supply-chain) (2)
 - [extension takeover](#extension-takeover) (1)
 - [external federation](#external-federation) (1)
-- [extortion](#extortion) (10)
+- [extortion](#extortion) (11)
 - [F5](#f5) (1)
 - [F5 BIG-IP](#f5-big-ip) (1)
 - [Factory-v3](#factory-v3) (1)
@@ -1562,7 +1563,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fat JAR](#fat-jar) (1)
 - [FAT32](#fat32) (1)
 - [FatFs](#fatfs) (1)
-- [FBI](#fbi) (6)
+- [FBI](#fbi) (7)
 - [FBI indictment](#fbi-indictment) (1)
 - [fbot](#fbot) (1)
 - [FDMTP](#fdmtp) (2)
@@ -1691,7 +1692,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gen Digital](#gen-digital) (1)
 - [GenieLocker](#genielocker) (3)
 - [GentleKiller](#gentlekiller) (1)
-- [Germany](#germany) (1)
+- [Germany](#germany) (2)
 - [GHETTOVIBE](#ghettovibe) (1)
 - [Ghost](#ghost) (2)
 - [ghost accounts](#ghost-accounts) (1)
@@ -1748,6 +1749,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub-hosted runners](#github-hosted-runners) (1)
 - [GitLab](#gitlab) (3)
 - [gitleaks](#gitleaks) (1)
+- [gitnow](#gitnow) (1)
 - [GitOps](#gitops) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
 - [gleeze.com](#gleezecom) (1)
@@ -1803,7 +1805,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Workspace](#google-workspace) (1)
 - [Goose](#goose) (1)
 - [GoSerpent](#goserpent) (1)
-- [government](#government) (7)
+- [government](#government) (8)
 - [government impersonation](#government-impersonation) (1)
 - [government offices](#government-offices) (1)
 - [government services and facilities](#government-services-and-facilities) (1)
@@ -2215,6 +2217,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lazarus](#lazarus) (7)
 - [LD_PRELOAD](#ld_preload) (2)
 - [LDAP](#ldap) (1)
+- [leak site](#leak-site) (1)
 - [leaked credentials](#leaked-credentials) (1)
 - [leaked exploit](#leaked-exploit) (1)
 - [leaked repository](#leaked-repository) (1)
@@ -2290,6 +2293,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LockBit](#lockbit) (2)
 - [LockBit 3.0](#lockbit-30) (1)
 - [LockScreen](#lockscreen) (1)
+- [LockScreenContentServer](#lockscreencontentserver) (1)
 - [log poisoning](#log-poisoning) (1)
 - [log sanitization](#log-sanitization) (1)
 - [Log4j](#log4j) (1)
@@ -2435,6 +2439,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexican banking fraud](#mexican-banking-fraud) (3)
 - [Mexico](#mexico) (3)
+- [MFA](#mfa) (1)
 - [MFA bypass](#mfa-bypass) (10)
 - [MFA fatigue](#mfa-fatigue) (2)
 - [MFA-bypass](#mfa-bypass) (1)
@@ -2450,7 +2455,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Authentication Broker](#microsoft-authentication-broker) (1)
 - [Microsoft Azure](#microsoft-azure) (1)
 - [Microsoft Copilot Personal](#microsoft-copilot-personal) (1)
-- [Microsoft Defender](#microsoft-defender) (3)
+- [Microsoft Defender](#microsoft-defender) (4)
 - [Microsoft Defender exclusion](#microsoft-defender-exclusion) (1)
 - [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
 - [Microsoft dev tunnels](#microsoft-dev-tunnels) (2)
@@ -2550,6 +2555,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MPK](#mpk) (1)
 - [MPR network provider](#mpr-network-provider) (1)
 - [Mr_Rot13](#mr_rot13) (1)
+- [MS-ISAC](#ms-isac) (1)
 - [Ms36-AcCeSs](#ms36-access) (1)
 - [msaRAT](#msarat) (1)
 - [MSBuild](#msbuild) (1)
@@ -2778,12 +2784,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (315)
+- [operations](#operations) (317)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (363)
+- [ops](#ops) (365)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -2911,7 +2917,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PEP 723](#pep-723) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
-- [persistence](#persistence) (34)
+- [persistence](#persistence) (35)
 - [persistent root access](#persistent-root-access) (1)
 - [persona operations](#persona-operations) (1)
 - [personal access tokens](#personal-access-tokens) (2)
@@ -2992,7 +2998,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Potato](#potato) (1)
 - [POWER.md](#powermd) (1)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (27)
+- [PowerShell](#powershell) (28)
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShower](#powershower) (1)
@@ -3080,7 +3086,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public exploit](#public-exploit) (3)
 - [public file-transfer exfiltration](#public-file-transfer-exfiltration) (1)
 - [public proof of concept](#public-proof-of-concept) (1)
-- [public sector](#public-sector) (2)
+- [public sector](#public-sector) (3)
 - [Public Security Bureau impersonation](#public-security-bureau-impersonation) (1)
 - [public service abuse](#public-service-abuse) (1)
 - [public-service C2](#public-service-c2) (1)
@@ -3103,6 +3109,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Python malware](#python-malware) (2)
 - [Python stealer](#python-stealer) (1)
 - [python-snap7](#python-snap7) (1)
+- [pythonw](#pythonw) (1)
 - [QEMU](#qemu) (1)
 - [Qianxin Threat Intelligence Center](#qianxin-threat-intelligence-center) (2)
 - [QiAnXin XLab](#qianxin-xlab) (4)
@@ -3133,7 +3140,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAM disk](#ram-disk) (1)
 - [random number generator](#random-number-generator) (1)
 - [Ransom-ISAC](#ransom-isac) (1)
-- [ransomware](#ransomware) (20)
+- [ransomware](#ransomware) (21)
 - [ransomware access](#ransomware-access) (1)
 - [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
@@ -3164,7 +3171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Reaper](#reaper) (1)
 - [reasoning replay](#reasoning-replay) (1)
 - [Reco](#reco) (1)
-- [reconnaissance](#reconnaissance) (4)
+- [reconnaissance](#reconnaissance) (5)
 - [recovery denial](#recovery-denial) (3)
 - [recovery disruption](#recovery-disruption) (2)
 - [recovery flow](#recovery-flow) (1)
@@ -3246,6 +3253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reverse SOCKS5](#reverse-socks5) (1)
 - [reverse SSH tunnel](#reverse-ssh-tunnel) (1)
 - [reverse SSH tunneling](#reverse-ssh-tunneling) (3)
+- [reverse tunnel](#reverse-tunnel) (1)
 - [reverse tunneling](#reverse-tunneling) (1)
 - [reverse tunnels](#reverse-tunnels) (1)
 - [REVERSE_PROXY_TRUSTED_PROXIES](#reverse_proxy_trusted_proxies) (1)
@@ -3254,6 +3262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reward hacking](#reward-hacking) (1)
 - [Rewards for Justice](#rewards-for-justice) (1)
 - [RHBK](#rhbk) (1)
+- [Rhysida](#rhysida) (1)
 - [Rilide](#rilide) (1)
 - [Ring 0](#ring-0) (1)
 - [RingH23](#ringh23) (1)
@@ -3679,7 +3688,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stealer](#stealer) (3)
 - [Steam profile dead drop](#steam-profile-dead-drop) (2)
 - [steering file](#steering-file) (1)
-- [steganography](#steganography) (3)
+- [steganography](#steganography) (4)
 - [StegoAd](#stegoad) (1)
 - [StepSecurity](#stepsecurity) (3)
 - [Still Audio](#still-audio) (1)
@@ -3820,6 +3829,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TencShell](#tencshell) (1)
 - [Tenda](#tenda) (1)
 - [Tenet Security](#tenet-security) (1)
+- [TerminalFix](#terminalfix) (1)
 - [Tesseract](#tesseract) (1)
 - [Tetrade](#tetrade) (1)
 - [TetrisPhantom](#tetrisphantom) (1)
@@ -4106,7 +4116,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Volt Typhoon](#volt-typhoon) (1)
 - [VoLTE](#volte) (1)
 - [volume serial number](#volume-serial-number) (1)
-- [VPN](#vpn) (8)
+- [VPN](#vpn) (9)
 - [VPN credentials](#vpn-credentials) (2)
 - [VPN gateway](#vpn-gateway) (1)
 - [VPN Go](#vpn-go) (1)
@@ -4186,7 +4196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [webshells](#webshells) (1)
 - [website-compromise](#website-compromise) (1)
 - [WebSocket](#websocket) (7)
-- [WebSocket C2](#websocket-c2) (8)
+- [WebSocket C2](#websocket-c2) (9)
 - [WebSocket session hijacking](#websocket-session-hijacking) (1)
 - [websocket-sharp](#websocket-sharp) (1)
 - [WebView](#webview) (1)
@@ -4312,6 +4322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [ZeroBEC](#zerobec) (1)
+- [Zerologon](#zerologon) (1)
 - [Zimbra](#zimbra) (5)
 - [Zimbra Collaboration Suite](#zimbra-collaboration-suite) (2)
 - [Zimperium](#zimperium) (2)
@@ -4529,6 +4540,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Active Directory
 - [Cavern](../tools/cavern.md)
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
 ## active exploitation
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
@@ -5967,6 +5979,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## benchmark integrity
 - [Benchmaxxing: when a benchmark becomes the target](../patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
 
+## Berlin
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
+
 ## Bexo Wallet
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
@@ -6892,6 +6907,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CISA
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
@@ -7098,6 +7114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 - [TELEPUZ](../tools/telepuz.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAT-11795](../actors/uat-11795.md)
@@ -7889,6 +7906,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## critical infrastructure
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
@@ -9023,6 +9041,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
@@ -9553,6 +9572,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SilkParasite](../actors/silkparasite.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 - [ToddyCat](../actors/toddycat.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
@@ -10432,6 +10452,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## extortion
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [CrownX](../tools/crownx.md)
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
@@ -10598,6 +10619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## FBI
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [First VPN](../tools/first-vpn.md)
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -11043,6 +11065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## Germany
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 
 ## GHETTOVIBE
@@ -11278,6 +11301,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## gitleaks
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 
+## gitnow
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
+
 ## GitOps
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 
@@ -11470,6 +11496,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## government
 - [APT28-linked HOOKEDGE backdoor targets European government and diplomatic organizations](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
@@ -13075,6 +13102,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LDAP
 - [Cavern](../tools/cavern.md)
 
+## leak site
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
+
 ## leaked credentials
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
@@ -13386,6 +13416,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LockScreen
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
+
+## LockScreenContentServer
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
 ## log poisoning
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -13997,6 +14030,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
+## MFA
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
+
 ## MFA bypass
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -14092,6 +14128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
 ## Microsoft Defender exclusion
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
@@ -14466,6 +14503,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Mr_Rot13
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## MS-ISAC
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 
 ## Ms36-AcCeSs
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
@@ -15378,6 +15418,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
@@ -15619,6 +15660,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -15711,6 +15753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -15988,6 +16031,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
@@ -16551,6 +16595,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
@@ -16900,6 +16945,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
@@ -17241,6 +17287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
 ## public sector
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -17348,6 +17395,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## python-snap7
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 
+## pythonw
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
+
 ## QEMU
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 
@@ -17449,6 +17499,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ransomware
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [CrownX](../tools/crownx.md)
@@ -17615,6 +17666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
 ## recovery denial
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -17936,6 +17988,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 
+## reverse tunnel
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
+
 ## reverse tunneling
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
@@ -17959,6 +18014,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RHBK
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
+
+## Rhysida
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 
 ## Rilide
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
@@ -19571,6 +19629,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
 ## StegoAd
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
@@ -20201,6 +20260,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Tenet Security
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
+## TerminalFix
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
 ## Tesseract
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
@@ -21334,6 +21396,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MIXEDKEY](../tools/mixedkey.md)
 
 ## VPN
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -21690,6 +21753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SprySOCKS](../tools/sprysocks.md)
 - [STOCKSTAY](../tools/stockstay.md)
 - [TELEPUZ](../tools/telepuz.md)
+- [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
 ## WebSocket session hijacking
@@ -22206,6 +22270,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ZeroBEC
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
+
+## Zerologon
+- [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 
 ## Zimbra
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)

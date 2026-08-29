@@ -7,6 +7,8 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "TerminalFix ClickFix variant: fake Cloudflare CAPTCHA lures victims to Windows Terminal/PowerShell, then DLL sideloading (LockScreenContentServer.exe + forged dui70.dll), steganographic PNG payload split, AD recon, and a Python reverse-tunnel implant to gitnow[.]dev (Microsoft, Aug 28)": ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md
+      - "Berlin state network: Rhysida extortion after the August compromise of the state administrative network (Aug 7-12 exfiltration, 5.79 TB leak-site claim, public refusal to pay; THN/Der Spiegel, Aug 28-29)": ops/berlin-state-network-rhysida-extortion-august-2026.md
       - "Cosmos EVM vesting-account balance overflow exploited across six chains: unchecked subtraction wraps to ≈2^256, reconciliation mints/burns to drain real holdings (GHSA-7g4w-cg88-2cq2, Critical, fixed v0.6.2 / v0.7.2)": ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md
       - "@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow: 10 malicious versions through issue-comment-triggered OIDC Trusted Publishing (StepSecurity, Aug 28)": ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md
       - "ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body and a Navy shipbuilder (Hunt.io, Aug 28)": ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md
