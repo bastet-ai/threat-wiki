@@ -7,6 +7,7 @@ title: threat.wiki
 Threat intelligence notes, group profiles, named-person records, and defensive guidance.
 
 ## Recent entries
+- [@7nohe/openapi-react-query-codegen npm compromise: 10 malicious versions published through an exposed issue-comment-triggered release workflow using GitHub Actions OIDC / npm Trusted Publishing — preinstall + binding.gyp payloads download Bun and steal GitHub / cloud / CI credentials (StepSecurity)](ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body and a Navy shipbuilder — Chinese-speaking actor exfiltrates 372 MB of nuclear records, strategic plans, and credential stores (Hunt.io via THN)](ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [APT28-linked HOOKEDGE backdoor: batch-script C2 over webhook.site targets Romanian, Spanish, and Turkish government/diplomatic targets (Recorded Future / BlueDelta)](ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
 - [PaperCut NG/MF zero-day: active exploitation of an unauthenticated admin-trigger → unsafe class-loading chain (CVE-2026-81578 / CVE-2026-82078), emergency patch Release 2](ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
@@ -16,7 +17,6 @@ Threat intelligence notes, group profiles, named-person records, and defensive g
 - ["Superior": 19 Chrome/Edge extensions deliver a shared wallet-drainer and credential-stealing framework — trusted-extension takeover with CSP-stripping main-world injection and WebSocket C2 (Socket)](ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more Nim implants in ZBT / MoreQuick router firmware — outbound UDP phone-home C2 plus an unauthenticated internet-facing root shell on UDP 9992 (VulnCheck)](ops/speakingstone-darklantern-zbt-router-implants.md)
 - [GitHub Security Advisories Aug 27: Crossplane cosign signature-verification TOCTOU bypass on tag-based install (GHSA-mf7q-r4rv-jv94, High, no CVE) and a Silverstripe RCE batch via email-template / email-subject (CVE-2026-54718 / -54721, High) plus media-embed XSS (CVE-2026-54720)](ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
-- [Wiz Threat Research: 90 days of honeypot telemetry on AI-infrastructure attacks — MCP RCE chains (LiteLLM CVE-2026-59822 + CVE-2026-42271 + CVE-2026-48710, Qilin-linked), blind prompt injection, and AI-native post-exploitation](ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 
 ## Sections
 - **Ops** — campaign timelines, compromise chains, and sequencing
