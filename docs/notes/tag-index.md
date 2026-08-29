@@ -202,6 +202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AjaxPro](#ajaxpro) (1)
 - [Albania](#albania) (1)
 - [alert fatigue](#alert-fatigue) (1)
+- [algorithm confusion](#algorithm-confusion) (1)
 - [Alibaba](#alibaba) (1)
 - [Allen-Bradley](#allen-bradley) (1)
 - [Alternate Data Stream](#alternate-data-stream) (1)
@@ -255,6 +256,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AppDomainManager](#appdomainmanager) (1)
 - [AppDomainManager injection](#appdomainmanager-injection) (2)
 - [Apple](#apple) (1)
+- [Apple Sign-In](#apple-sign-in) (1)
 - [AppleJeus](#applejeus) (1)
 - [AppleScript](#applescript) (1)
 - [AppleSeed](#appleseed) (1)
@@ -292,8 +294,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arctic Wolf](#arctic-wolf) (3)
 - [ardrv.sys](#ardrvsys) (1)
 - [ArduPilot](#ardupilot) (1)
-- [Argo CD](#argo-cd) (1)
+- [Argo CD](#argo-cd) (2)
 - [ArgoCD](#argocd) (1)
+- [argocd-mcp](#argocd-mcp) (1)
 - [Arista](#arista) (1)
 - [Arista EOS](#arista-eos) (1)
 - [ARL](#arl) (1)
@@ -335,7 +338,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Australia](#australia) (1)
 - [authenticated RCE](#authenticated-rce) (1)
 - [authenticated remote code execution](#authenticated-remote-code-execution) (1)
-- [authentication bypass](#authentication-bypass) (26)
+- [authentication bypass](#authentication-bypass) (27)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -358,6 +361,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AV killer](#av-killer) (1)
 - [Avalon](#avalon) (2)
 - [aviation](#aviation) (2)
+- [AVIF](#avif) (1)
 - [AWS](#aws) (7)
 - [AWS CloudTrail](#aws-cloudtrail) (1)
 - [AWS S3](#aws-s3) (2)
@@ -423,6 +427,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BELQI](#belqi) (1)
 - [benchmark integrity](#benchmark-integrity) (1)
 - [Berlin](#berlin) (1)
+- [better-auth](#better-auth) (1)
 - [Bexo Wallet](#bexo-wallet) (1)
 - [BeyondTrust](#beyondtrust) (1)
 - [bin entry](#bin-entry) (1)
@@ -465,6 +470,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BOD 26-04](#bod-26-04) (7)
 - [body hash](#body-hash) (1)
 - [BOF](#bof) (1)
+- [BookStack](#bookstack) (1)
 - [Boot Bus Extender](#boot-bus-extender) (1)
 - [Boot Time Removal Tool](#boot-time-removal-tool) (1)
 - [botnet](#botnet) (13)
@@ -968,6 +974,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-12569](#cve-2026-12569) (1)
 - [CVE-2026-12957](#cve-2026-12957) (1)
 - [CVE-2026-12958](#cve-2026-12958) (1)
+- [CVE-2026-14494](#cve-2026-14494) (1)
 - [CVE-2026-15409](#cve-2026-15409) (1)
 - [CVE-2026-15410](#cve-2026-15410) (1)
 - [CVE-2026-15583](#cve-2026-15583) (1)
@@ -1131,12 +1138,20 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-7473](#cve-2026-7473) (1)
 - [CVE-2026-74820](#cve-2026-74820) (1)
 - [CVE-2026-75149](#cve-2026-75149) (1)
+- [CVE-2026-75604](#cve-2026-75604) (1)
 - [CVE-2026-77413](#cve-2026-77413) (1)
 - [CVE-2026-77414](#cve-2026-77414) (1)
 - [CVE-2026-77415](#cve-2026-77415) (1)
+- [CVE-2026-80192](#cve-2026-80192) (1)
 - [CVE-2026-8037](#cve-2026-8037) (1)
 - [CVE-2026-81578](#cve-2026-81578) (1)
 - [CVE-2026-82078](#cve-2026-82078) (1)
+- [CVE-2026-82447](#cve-2026-82447) (1)
+- [CVE-2026-82448](#cve-2026-82448) (1)
+- [CVE-2026-82450](#cve-2026-82450) (1)
+- [CVE-2026-82452](#cve-2026-82452) (1)
+- [CVE-2026-82454](#cve-2026-82454) (1)
+- [CVE-2026-82456](#cve-2026-82456) (1)
 - [CVE-2026-8451](#cve-2026-8451) (1)
 - [CVE-2026-8452](#cve-2026-8452) (1)
 - [CVE-2026-8461](#cve-2026-8461) (1)
@@ -1145,6 +1160,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-9198](#cve-2026-9198) (1)
 - [CVE-2026-9539](#cve-2026-9539) (1)
 - [CVSS 10.0](#cvss-100) (2)
+- [CVSS 9.0](#cvss-90) (1)
 - [cvvform](#cvvform) (1)
 - [CWE-22](#cwe-22) (1)
 - [CWE-259](#cwe-259) (1)
@@ -1324,6 +1340,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DOGLEASH](#dogleash) (1)
 - [DOJ](#doj) (1)
 - [domain squatting](#domain-squatting) (1)
+- [domain verification](#domain-verification) (1)
 - [DomainTools](#domaintools) (1)
 - [domestic espionage](#domestic-espionage) (1)
 - [dormant accounts](#dormant-accounts) (2)
@@ -1703,6 +1720,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GhostLock](#ghostlock) (1)
 - [GHSA-2679-6mx9-h9xc](#ghsa-2679-6mx9-h9xc) (1)
 - [GHSA-2943-5xfg-gq5f](#ghsa-2943-5xfg-gq5f) (1)
+- [GHSA-2xp9-vwfh-vxw4](#ghsa-2xp9-vwfh-vxw4) (1)
 - [GHSA-66mm-25pp-rfff](#ghsa-66mm-25pp-rfff) (1)
 - [GHSA-6rmh-7xcm-cpxj](#ghsa-6rmh-7xcm-cpxj) (1)
 - [GHSA-6v3r-4p5c-mrp5](#ghsa-6v3r-4p5c-mrp5) (1)
@@ -1714,9 +1732,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-8gq3-vp5j-2grp](#ghsa-8gq3-vp5j-2grp) (1)
 - [GHSA-c39w-43gm-34h5](#ghsa-c39w-43gm-34h5) (1)
 - [GHSA-c4hm-4h84-2cf3](#ghsa-c4hm-4h84-2cf3) (1)
+- [GHSA-g89c-p67h-r497](#ghsa-g89c-p67h-r497) (1)
 - [GHSA-hvfh-5mj3-5f3j](#ghsa-hvfh-5mj3-5f3j) (1)
 - [GHSA-m5w8-4gq2-6f8x](#ghsa-m5w8-4gq2-6f8x) (1)
 - [GHSA-mf7q-r4rv-jv94](#ghsa-mf7q-r4rv-jv94) (1)
+- [GHSA-p293-qw3h-jr36](#ghsa-p293-qw3h-jr36) (1)
 - [GHSA-qrpv-q767-xqq2](#ghsa-qrpv-q767-xqq2) (1)
 - [GHSA-rcr6-4jqh-j84m](#ghsa-rcr6-4jqh-j84m) (1)
 - [GHSA-rg76-677x-56q9](#ghsa-rg76-677x-56q9) (1)
@@ -1744,7 +1764,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub PAT abuse](#github-pat-abuse) (1)
 - [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub release assets](#github-release-assets) (1)
-- [GitHub Security Advisories](#github-security-advisories) (6)
+- [GitHub Security Advisories](#github-security-advisories) (7)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
 - [GitLab](#gitlab) (3)
@@ -1859,6 +1879,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HAR files](#har-files) (1)
 - [hard-coded password](#hard-coded-password) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
+- [hardcoded key](#hardcoded-key) (1)
 - [hardening gap](#hardening-gap) (1)
 - [hardware wallet](#hardware-wallet) (2)
 - [HarmonyLib](#harmonylib) (1)
@@ -1872,8 +1893,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [headless Edge](#headless-edge) (1)
 - [HEADRUSH](#headrush) (1)
 - [healthcare](#healthcare) (4)
-- [heap buffer overflow](#heap-buffer-overflow) (1)
+- [heap buffer overflow](#heap-buffer-overflow) (2)
 - [heap pointer disclosure](#heap-pointer-disclosure) (1)
+- [HEIC](#heic) (1)
+- [HEIF](#heif) (1)
 - [HELIX](#helix) (1)
 - [HelloBackdoor](#hellobackdoor) (1)
 - [HelloCleaner](#hellocleaner) (1)
@@ -1915,6 +1938,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Howling Scorpius](#howling-scorpius) (1)
 - [HPC](#hpc) (1)
 - [HR lures](#hr-lures) (1)
+- [HS256](#hs256) (1)
 - [HTA](#hta) (5)
 - [HTML comments](#html-comments) (1)
 - [HTML email](#html-email) (2)
@@ -1966,6 +1990,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IKE](#ike) (1)
 - [IKEv1](#ikev1) (1)
 - [Ill Bloom](#ill-bloom) (1)
+- [image optimization](#image-optimization) (1)
 - [image proxy bypass](#image-proxy-bypass) (1)
 - [image recognition](#image-recognition) (1)
 - [ImageMagick](#imagemagick) (1)
@@ -2094,6 +2119,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JFrog](#jfrog) (4)
 - [JFrog Artifactory](#jfrog-artifactory) (1)
 - [JFrog Security Research](#jfrog-security-research) (4)
+- [Jinja](#jinja) (1)
 - [Jinja2](#jinja2) (1)
 - [JINX-0164](#jinx-0164) (2)
 - [Jira](#jira) (2)
@@ -2126,7 +2152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Jupyter](#jupyter) (1)
 - [Jupyter Notebook](#jupyter-notebook) (1)
 - [JustWatch](#justwatch) (1)
-- [JWT](#jwt) (2)
+- [JWT](#jwt) (3)
 - [JWT alg none](#jwt-alg-none) (1)
 - [JXA downloader](#jxa-downloader) (1)
 - [K1MORPHER](#k1morpher) (2)
@@ -2238,6 +2264,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LevelBlue](#levelblue) (1)
 - [Lexfo](#lexfo) (1)
 - [libcurl](#libcurl) (1)
+- [libheif](#libheif) (1)
 - [liblzma](#liblzma) (1)
 - [libmupdf.dll](#libmupdfdll) (1)
 - [libp2p](#libp2p) (1)
@@ -2405,7 +2432,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (2)
 - [McMx](#mcmx) (1)
-- [MCP](#mcp) (20)
+- [MCP](#mcp) (21)
 - [MCP configuration](#mcp-configuration) (1)
 - [MCP credentials](#mcp-credentials) (1)
 - [MCP gateway](#mcp-gateway) (1)
@@ -2544,6 +2571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Monero mining](#monero-mining) (1)
 - [MongoDB](#mongodb) (1)
 - [Monster ransomware](#monster-ransomware) (1)
+- [monthly security release](#monthly-security-release) (1)
 - [MoreQuick](#morequick) (1)
 - [Motorola E13](#motorola-e13) (1)
 - [MoYu](#moyu) (1)
@@ -2633,6 +2661,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [network isolation bypass](#network-isolation-bypass) (1)
 - [network policies](#network-policies) (1)
 - [network-share exfiltration](#network-share-exfiltration) (1)
+- [Next.js](#nextjs) (1)
 - [Nextcloud](#nextcloud) (1)
 - [Nextcloud Flow](#nextcloud-flow) (1)
 - [nf_tables](#nf_tables) (1)
@@ -2674,7 +2703,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notification interception](#notification-interception) (1)
 - [NovaCookies](#novacookies) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (68)
+- [npm](#npm) (69)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -2739,6 +2768,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oman](#oman) (1)
 - [Omnibox](#omnibox) (1)
 - [OmniStealer](#omnistealer) (1)
+- [Omnivore](#omnivore) (1)
 - [one-click](#one-click) (1)
 - [OneDrive](#onedrive) (3)
 - [OneDrive access](#onedrive-access) (1)
@@ -2789,7 +2819,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (365)
+- [ops](#ops) (367)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -2888,7 +2918,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patchstack](#patchstack) (1)
 - [Patchstack](#patchstack) (1)
 - [path hijacking](#path-hijacking) (1)
-- [path traversal](#path-traversal) (8)
+- [path traversal](#path-traversal) (9)
 - [Patriot Bait](#patriot-bait) (1)
 - [patterns](#patterns) (50)
 - [Paweł Płatek](#pawe-patek) (1)
@@ -3351,7 +3381,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
 - [sanctions](#sanctions) (1)
-- [sandbox escape](#sandbox-escape) (9)
+- [sandbox escape](#sandbox-escape) (10)
 - [sandbox evasion](#sandbox-evasion) (2)
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (2)
@@ -3473,12 +3503,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SharePoint](#sharepoint) (8)
 - [SharePoint Server](#sharepoint-server) (2)
 - [SharkLoader](#sharkloader) (1)
+- [sharp](#sharp) (1)
 - [Shattering the Dream](#shattering-the-dream) (1)
 - [SHEETCORD](#sheetcord) (1)
 - [shell injection](#shell-injection) (1)
 - [shellcode](#shellcode) (1)
 - [Shenzhen Zhibotong Electronics](#shenzhen-zhibotong-electronics) (2)
 - [ShieldBreak](#shieldbreak) (1)
+- [Shinobi](#shinobi) (1)
 - [ShinyHunters](#shinyhunters) (2)
 - [ShinyHunters-adjacent](#shinyhunters-adjacent) (1)
 - [Shodan](#shodan) (1)
@@ -3490,6 +3522,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sideloading](#sideloading) (1)
 - [Siemens](#siemens) (1)
 - [Siemens S7](#siemens-s7) (1)
+- [Sigma Forms Pro](#sigma-forms-pro) (1)
 - [Signal](#signal) (3)
 - [Signal interception](#signal-interception) (1)
 - [signature verification](#signature-verification) (1)
@@ -3520,6 +3553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SkillCloak](#skillcloak) (1)
 - [SkillDetonate](#skilldetonate) (1)
 - [Skrill](#skrill) (1)
+- [Skyvern](#skyvern) (1)
 - [Slack webhook](#slack-webhook) (1)
 - [sleep agent](#sleep-agent) (1)
 - [sleeper packages](#sleeper-packages) (1)
@@ -3662,7 +3696,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunneling](#ssh-tunneling) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
 - [SSL VPN](#ssl-vpn) (3)
-- [SSO](#sso) (3)
+- [SSO](#sso) (4)
 - [SSRF](#ssrf) (9)
 - [SSRF allow-list](#ssrf-allow-list) (1)
 - [STAC4749](#stac4749) (1)
@@ -3982,7 +4016,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (2)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
-- [unauthenticated RCE](#unauthenticated-rce) (10)
+- [unauthenticated RCE](#unauthenticated-rce) (12)
 - [unauthenticated-publish](#unauthenticated-publish) (1)
 - [unauthorized pentest framing](#unauthorized-pentest-framing) (1)
 - [UNC1069](#unc1069) (1)
@@ -4003,6 +4037,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC7005](#unc7005) (1)
 - [unchecked-subtraction](#unchecked-subtraction) (1)
 - [unclaimed names](#unclaimed-names) (1)
+- [unfiltered_upload](#unfiltered_upload) (1)
 - [Uni-App](#uni-app) (1)
 - [UniFi OS](#unifi-os) (1)
 - [Unified CM SME](#unified-cm-sme) (1)
@@ -4015,6 +4050,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNK_MassTraction](#unk_masstraction) (1)
 - [UNK_PitStop](#unk_pitstop) (1)
 - [unpatched](#unpatched) (1)
+- [unpatched transitive library](#unpatched-transitive-library) (1)
 - [unpatched vulnerability](#unpatched-vulnerability) (2)
 - [unpkg](#unpkg) (1)
 - [unrestricted file upload](#unrestricted-file-upload) (1)
@@ -4025,6 +4061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unyielding Wasp](#unyielding-wasp) (1)
 - [UpdateFactory](#updatefactory) (1)
 - [UPnP](#upnp) (2)
+- [upstream dependency](#upstream-dependency) (1)
 - [UPX](#upx) (1)
 - [uranium compression](#uranium-compression) (1)
 - [URL parameter](#url-parameter) (1)
@@ -4073,7 +4110,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vendor credentials](#vendor-credentials) (1)
 - [Venezuela](#venezuela) (1)
 - [VENOMOUS BEAR](#venomous-bear) (3)
-- [Vercel](#vercel) (1)
+- [Vercel](#vercel) (2)
 - [Vertex AI](#vertex-ai) (1)
 - [vesting-account](#vesting-account) (1)
 - [VHD](#vhd) (1)
@@ -4219,10 +4256,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
 - [Windmill](#windmill) (1)
-- [Windows](#windows) (50)
+- [Windows](#windows) (51)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Defender impairment](#windows-defender-impairment) (1)
+- [Windows filesystem](#windows-filesystem) (1)
 - [Windows Forms](#windows-forms) (1)
 - [Windows malware](#windows-malware) (12)
 - [Windows persistence](#windows-persistence) (1)
@@ -4249,7 +4287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WMI](#wmi) (1)
 - [Woodgnat](#woodgnat) (1)
 - [WordlistLoader](#wordlistloader) (1)
-- [WordPress](#wordpress) (12)
+- [WordPress](#wordpress) (13)
 - [WordPress 7.0.4](#wordpress-704) (1)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
 - [workerd](#workerd) (1)
@@ -4327,6 +4365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zimbra Collaboration Suite](#zimbra-collaboration-suite) (2)
 - [Zimperium](#zimperium) (2)
 - [ZimReaper](#zimreaper) (1)
+- [ZIP import](#zip-import) (1)
 - [zLabs](#zlabs) (2)
 - [zlib](#zlib) (1)
 - [Zoho Assist](#zoho-assist) (2)
@@ -5169,6 +5208,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## alert fatigue
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
 
+## algorithm confusion
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
 ## Alibaba
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
 
@@ -5371,6 +5413,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Apple
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 
+## Apple Sign-In
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
 ## AppleJeus
 - [RemotePE](../tools/remotepe.md)
 
@@ -5507,9 +5552,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Argo CD
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## ArgoCD
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+
+## argocd-mcp
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## Arista
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
@@ -5653,6 +5702,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
@@ -5741,6 +5791,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## aviation
 - [Mirage Kitten](../actors/mirage-kitten.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+
+## AVIF
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## AWS
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -5982,6 +6035,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Berlin
 - [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 
+## better-auth
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
 ## Bexo Wallet
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
@@ -6140,6 +6196,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BOF
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
+
+## BookStack
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## Boot Bus Extender
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
@@ -8353,6 +8412,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-12958
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 
+## CVE-2026-14494
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
 ## CVE-2026-15409
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
@@ -8860,6 +8922,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-75149
 - [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 
+## CVE-2026-75604
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
+
 ## CVE-2026-77413
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
@@ -8869,6 +8934,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-77415
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
+## CVE-2026-80192
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
 ## CVE-2026-8037
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
@@ -8877,6 +8945,24 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-82078
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
+
+## CVE-2026-82447
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
+## CVE-2026-82448
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
+## CVE-2026-82450
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
+## CVE-2026-82452
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
+## CVE-2026-82454
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
+## CVE-2026-82456
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## CVE-2026-8451
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -8902,6 +8988,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVSS 10.0
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [ServiceNow AI Platform August 27, 2026 advisory: three CVSS 10.0 unauthenticated flaws and a sandbox escape (CVE-2026-18885 / CVE-2026-18886 / CVE-2026-74820 / CVE-2026-6876)](../ops/servicenow-ai-platform-august-27-2026-three-cvss-10-unauthenticated-flaws.md)
+
+## CVSS 9.0
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## cvvform
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
@@ -9686,6 +9775,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## domain squatting
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
+
+## domain verification
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## DomainTools
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
@@ -11099,6 +11191,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-2943-5xfg-gq5f
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
+## GHSA-2xp9-vwfh-vxw4
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
+
 ## GHSA-66mm-25pp-rfff
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
@@ -11132,6 +11227,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-c4hm-4h84-2cf3
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
+## GHSA-g89c-p67h-r497
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
+
 ## GHSA-hvfh-5mj3-5f3j
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 
@@ -11140,6 +11238,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GHSA-mf7q-r4rv-jv94
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
+## GHSA-p293-qw3h-jr36
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## GHSA-qrpv-q767-xqq2
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
@@ -11282,6 +11383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
@@ -11714,6 +11816,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hard-coded secrets
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## hardcoded key
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
 ## hardening gap
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
@@ -11760,10 +11865,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
 ## heap buffer overflow
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 
 ## heap pointer disclosure
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
+
+## HEIC
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
+
+## HEIF
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## HELIX
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
@@ -11894,6 +12006,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HR lures
 - [TA4922](../actors/ta4922.md)
+
+## HS256
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## HTA
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
@@ -12079,6 +12194,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ill Bloom
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
+
+## image optimization
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## image proxy bypass
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
@@ -12651,6 +12769,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
+## Jinja
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
 ## Jinja2
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
@@ -12756,6 +12877,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JWT
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## JWT alg none
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
@@ -13167,6 +13289,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## libcurl
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
+
+## libheif
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## liblzma
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
@@ -13908,6 +14033,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -14470,6 +14596,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Monster ransomware
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
+## monthly security release
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
+
 ## MoreQuick
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
@@ -14776,6 +14905,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## network-share exfiltration
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
+## Next.js
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
+
 ## Nextcloud
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
@@ -14966,6 +15098,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [MYRA RAT](../tools/myra-rat.md)
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
@@ -15225,6 +15358,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OmniStealer
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
+
+## Omnivore
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## one-click
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
@@ -15845,6 +15981,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -15931,6 +16068,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
@@ -16428,6 +16566,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
@@ -18374,6 +18513,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## sandbox escape
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
@@ -18839,6 +18979,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SharkLoader
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 
+## sharp
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
+
 ## Shattering the Dream
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
 
@@ -18857,6 +19000,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ShieldBreak
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
+
+## Shinobi
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## ShinyHunters
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
@@ -18891,6 +19037,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Siemens S7
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
+
+## Sigma Forms Pro
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## Signal
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -18989,6 +19138,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Skrill
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+
+## Skyvern
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## Slack webhook
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
@@ -19530,6 +19682,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SSO
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
 - [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 
@@ -20925,7 +21078,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
@@ -20996,6 +21151,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## unclaimed names
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 
+## unfiltered_upload
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
 ## Uni-App
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
@@ -21043,6 +21201,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## unpatched
 - [Kaltura mwEmbed unpatched: unauthenticated file read + RCE via mwEmbedLoader.php (CVE-2026-19912/19913)](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
 
+## unpatched transitive library
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
+
 ## unpatched vulnerability
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
@@ -21075,6 +21236,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UPnP
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
+
+## upstream dependency
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## UPX
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
@@ -21246,6 +21410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
 ## Vercel
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 
 ## Vertex AI
@@ -21862,6 +22027,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [MIXEDKEY](../tools/mixedkey.md)
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [NightLedger](../tools/nightledger.md)
 - [OctLurk](../tools/octlurk.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
@@ -21891,6 +22057,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Windows Defender impairment
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
+## Windows filesystem
+- [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## Windows Forms
 - [STOCKSTAY](../tools/stockstay.md)
@@ -21994,6 +22163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## WordPress
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
@@ -22291,6 +22461,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ZimReaper
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
+
+## ZIP import
+- [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## zLabs
 - [RedWing](../tools/redwing.md)
