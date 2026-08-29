@@ -205,11 +205,13 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - Prefer short-lived scoped credentials, protected environments, least-privilege OIDC subjects, pinned action SHAs, and separate untrusted PR workflows from release workflows.
 
 ## Monitoring notes
+- **Trinitite rebrand (Aug 29, 2026):** OX Security identified the `@7nohe/openapi-react-query-codegen` install-time payload as a Shai-Hulud variant now self-identifying as **"Trinitite: Sponsored by Preview 2 Effects,"** with **rotated embedded public keys** that break the key-fingerprint correlation used to track Shai-Hulud variants; OX frames it as a post-arrest copycat wave timed within 24 hours of the TeamPCP charging. Hunt for the "Trinitite"/`trinitite` string markers in new Shai-Hulud-lineage payloads and expect future variants to rotate public keys the same way — see [@7nohe ops page](7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md).
 - High-priority sources for this campaign: StepSecurity, Wiz Research, Socket, Snyk, JFrog Security Research, Akamai Security Research, Unit 42, Microsoft Security Blog, CISA alerts, GitHub Security Advisories, npm advisories/security notices, and maintainer postmortems from affected projects.
 - Durable updates worth adding here: new affected package families, new propagation primitives, new persistence paths, new infrastructure/naming patterns, official advisories, or postmortems that explain the initial access path.
 - Avoid duplicating every package name from vendor appendices unless it changes the operational picture; link the vendor-maintained affected-package lists instead.
 
 ## Related pages
+- [@7nohe/openapi-react-query-codegen npm compromise — OX-identified "Trinitite" Shai-Hulud variant (post-arrest copycat wave)](7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [ChainDrop keyv / cacheable npm worm](chaindrop-keyv-cacheable-npm-worm.md)
 - [TeamPCP](../actors/teampcp.md)
 - [actions-cool GitHub Actions tag compromise](actions-cool-github-actions-tag-compromise.md)

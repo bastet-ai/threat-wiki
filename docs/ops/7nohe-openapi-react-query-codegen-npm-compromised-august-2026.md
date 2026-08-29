@@ -15,6 +15,14 @@
 - binding.gyp
 - preinstall
 - unauthenticated-publish
+- Shai-Hulud
+- Mini Shai-Hulud
+- Trinitite
+- OX Security
+- copycat
+- TeamPCP
+- open-source-malware
+- attribution
 
 ## Summary
 
@@ -23,6 +31,8 @@ On **August 28, 2026**, an external GitHub user (public account **`p00paboot`**)
 StepSecurity (August 28, 2026) reproduced the installation behavior on isolated GitHub-hosted runners under Harden-Runner and captured the runtime behavior: the payload downloads the **Bun** runtime from GitHub release infrastructure, then steals **GitHub authentication** (`gh auth token`, `git credential-manager github list --no-ui`), probes for SSH tooling and the **Google Cloud metadata hostname**, and shells out through a staged `updater.py`.
 
 This is a clean example of the **issue-comment-triggered release-workflow / OIDC trusted-publishing abuse** pattern: an unauthenticated actor gains arbitrary package publication rights by posting one comment, because the workflow confers publish rights to *any* PR participant.
+
+**Shai-Hulud lineage confirmed.** OX Security (August 29, 2026) identified the payload as a variant of the **Shai-Hulud** supply-chain malware family that now self-identifies as **"Trinitite: Sponsored by Preview 2 Effects"** — the same open-sourced codebase and signatures as the original Shai-Hulud / June Red Hat (Miasma) compromise, rebundled with new public encryption keys that make pinning to a specific operator harder. OX frames it as a **post-arrest copycat wave**: the first Trinitite-marker commit appeared ~12 hours before publication, and the compromise landed within 24 hours of the AFP/WAPF/FBI charging of the two men alleged to be behind TeamPCP. Treat it as a **Shai-Hulud-lineage / copycat assessment, not confirmed TeamPCP operator identity** — the new keys break the marker chain that previously tied variants together. See [OX Security: the payload is a "Trinitite" Shai-Hulud variant](#ox-security-the-payload-is-a-trinitite-shai-hulud-variant).
 
 ## Affected versions
 
@@ -108,6 +118,18 @@ StepSecurity's OSS AI Package Analyst independently scored `3.0.4` **critical / 
 - **Durable pattern:** release workflows that trigger on `issue_comment` (or PR events) and hold `id-token: write` for npm Trusted Publishing must verify the trigger author's repository role/membership before publishing. An exact-match comment body (`npm publish`) is not authentication.
 - **Detection shape:** unexpected Bun downloads from GitHub release infrastructure during `npm install`, `gh auth token` / `git credential-manager` execution from install hooks, and `binding.gyp` → `os.system()` decode chains are the high-value hunt pivots.
 
+## OX Security: the payload is a "Trinitite" Shai-Hulud variant
+OX Security (August 29, 2026) reverse-engineered the `@7nohe/openapi-react-query-codegen` install-time payload and identified it as a **variant of the Shai-Hulud supply-chain malware family** that now brands itself **"Trinitite: Sponsored by Preview 2 Effects"** (also observed as `trinitite`). This is the same open-sourced codebase, string table, and behavioral signatures as the original **Shai-Hulud** and the June **Red Hat (`@redhat-cloud-services` / Miasma)** compromise — the actor re-shelled the public tooling under a new label.
+
+Key OX findings that extend the StepSecurity capture:
+
+- **New self-identification.** The payload's internal strings and version markers read as "Trinitite: Sponsored by Preview 2 Effects" (and `trinitite`), distinct from the earlier "Shai-Hulud" / "Miasma" markers but built on the same open-sourced engine.
+- **New public keys.** The Trinitite builds ship a **different set of RSA public keys** than the original Shai-Hulud samples. OX notes this is deliberate: rotating the embedded public keys breaks the key-fingerprint that defenders and researchers previously used to correlate Shai-Hulud variants, so the new label + new keys make it harder to pin this wave to a single operator.
+- **Same behavioral core.** Install-time credential theft, cloud/Kubernetes/GitHub secret collection, and exfiltration consistent with the Shai-Hulud tradecraft already documented on the [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md) page and the [binding.gyp npm CI/CD worm](binding-gyp-npm-cicd-worm.md) page.
+- **Timing context.** OX observed the first Trinitite-marker commit roughly **12 hours before** the malicious `@7nohe` publication, and the compromise landed **within 24 hours of the AFP/WAPF/FBI charging** of the two men alleged to be behind TeamPCP (see [TeamPCP charging page](teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)).
+
+**Attribution posture.** OX explicitly frames Trinitite as a **copycat / post-arrest wave** — an actor reusing the now-public Shai-Hulud codebase after TeamPCP's tooling leaked — **not** confirmed TeamPCP operator identity. The rotating public keys mean the marker chain that once tied Shai-Hulud variants to each other is broken. For defenders, the operationally important fact is the **lineage** (Shai-Hulud family → Trinitite rebrand), not the operator. Keep TeamPCP-operator attribution caveated unless a first-party operator statement or official source is produced; track Trinitite as **Shai-Hulud-lineage / copycat** on the [TeamPCP](../actors/teampcp.md) and [Mini Shai-Hulud](mini-shai-hulud-npm-pypi-worm-campaign.md) pages until stronger attribution emerges.
+
 ## Related pages
 
 - [binding.gyp npm CI/CD worm (Miasma / Mini Shai-Hulud / Hades)](binding-gyp-npm-cicd-worm.md)
@@ -117,6 +139,7 @@ StepSecurity's OSS AI Package Analyst independently scored `3.0.4` **critical / 
 
 ## Sources
 
+- OX Security — "Shai-Hulud: Trinitite — Sponsored by Preview 2 Effects" (August 29, 2026), identifying the `@7nohe` install-time payload as a Shai-Hulud-lineage variant with new public keys (copycat / post-arrest framing, not confirmed TeamPCP operator): [https://www.ox.security/blog/shai-hulud-trinitite-sponsored-by-preview-2-effects](https://www.ox.security/blog/shai-hulud-trinitite-sponsored-by-preview-2-effects)
 - StepSecurity — "@7nohe/openapi-react-query-codegen Compromised Through an Exposed npm Publishing Workflow" (August 28, 2026): [https://www.stepsecurity.io/blog/7nohe-openapi-react-query-codegen-compromised-npm-publishing-workflow](https://www.stepsecurity.io/blog/7nohe-openapi-react-query-codegen-compromised-npm-publishing-workflow)
 - GitHub issue #217 (first report by Charlie Eriksen), PRs #215 / #216 (attacker-triggered workflow runs) — referenced by the StepSecurity post.
 - npm package page for version 3.0.4 (registry tarball hashes and `latest`-tag state at capture).

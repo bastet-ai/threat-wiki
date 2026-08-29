@@ -329,6 +329,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Atlassian](#atlassian) (1)
 - [Atomic Stealer](#atomic-stealer) (2)
 - [attack-rate](#attack-rate) (1)
+- [attribution](#attribution) (1)
 - [audio surveillance](#audio-surveillance) (1)
 - [AUDIOFIX](#audiofix) (2)
 - [audit logging](#audit-logging) (1)
@@ -813,6 +814,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Copilot](#copilot) (1)
 - [Copilot CLI](#copilot-cli) (1)
 - [Copy-on-Write](#copy-on-write) (1)
+- [copycat](#copycat) (1)
 - [Corepack](#corepack) (1)
 - [CornFlake](#cornflake) (1)
 - [CORS](#cors) (1)
@@ -2528,7 +2530,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Minecraft](#minecraft) (1)
 - [Minecraft DDoS](#minecraft-ddos) (1)
 - [miner dropper](#miner-dropper) (1)
-- [Mini Shai-Hulud](#mini-shai-hulud) (7)
+- [Mini Shai-Hulud](#mini-shai-hulud) (8)
 - [MiniJunk](#minijunk) (1)
 - [miniOrange](#miniorange) (1)
 - [MiniPlasma](#miniplasma) (1)
@@ -2796,6 +2798,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Open VSX](#open-vsx) (1)
 - [Open WebUI](#open-webui) (1)
 - [open-source](#open-source) (1)
+- [open-source-malware](#open-source-malware) (1)
 - [OpenAI](#openai) (3)
 - [OpenAI API keys](#openai-api-keys) (1)
 - [OpenAI Codex](#openai-codex) (1)
@@ -2864,7 +2867,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OWA](#owa) (1)
 - [OWAReaper](#owareaper) (2)
 - [ownCloud](#owncloud) (2)
-- [OX Security](#ox-security) (5)
+- [OX Security](#ox-security) (6)
 - [OxideHarvest](#oxideharvest) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
@@ -3506,7 +3509,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [SHADOW-WATER-063](#shadow-water-063) (1)
 - [ShadowPad](#shadowpad) (4)
-- [Shai-Hulud](#shai-hulud) (13)
+- [Shai-Hulud](#shai-hulud) (14)
 - [SHARDLOADER](#shardloader) (2)
 - [share propagation](#share-propagation) (1)
 - [shared accounts](#shared-accounts) (1)
@@ -3842,7 +3845,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TDS](#tds) (2)
 - [Team PCP](#team-pcp) (1)
 - [TeamCity](#teamcity) (1)
-- [TeamPCP](#teampcp) (11)
+- [TeamPCP](#teampcp) (12)
 - [TeamPCP-adjacent](#teampcp-adjacent) (1)
 - [Teams access](#teams-access) (1)
 - [Teams TURN relay](#teams-turn-relay) (1)
@@ -3966,6 +3969,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [triage](#triage) (2)
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
+- [Trinitite](#trinitite) (1)
 - [Trivy](#trivy) (1)
 - [TRM Labs](#trm-labs) (1)
 - [trojanized installers](#trojanized-installers) (3)
@@ -5684,6 +5688,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## attack-rate
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
+
+## attribution
+- [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 
 ## audio surveillance
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
@@ -7709,6 +7716,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Copy-on-Write
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
+## copycat
+- [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 
 ## Corepack
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
@@ -14450,6 +14460,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 
 ## Mini Shai-Hulud
+- [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
@@ -15473,6 +15484,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## open-source
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 
+## open-source-malware
+- [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
+
 ## OpenAI
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
@@ -16396,6 +16410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 
 ## OX Security
+- [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -18998,6 +19013,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SilkParasite](../actors/silkparasite.md)
 
 ## Shai-Hulud
+- [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -20346,6 +20362,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 
 ## TeamPCP
+- [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -20871,6 +20888,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Trident Ursa
 - [Gamaredon](../actors/gamaredon.md)
+
+## Trinitite
+- [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 
 ## Trivy
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)

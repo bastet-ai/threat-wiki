@@ -144,6 +144,7 @@ Public reporting commonly attributes activity to the **TeamPCP** persona itself 
 
 ## Associated operations
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men (Trivy, KICS, LiteLLM)](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
+- [@7nohe/openapi-react-query-codegen npm compromise — OX-identified "Trinitite" Shai-Hulud variant (copycat / post-arrest framing, not confirmed TeamPCP operator)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
