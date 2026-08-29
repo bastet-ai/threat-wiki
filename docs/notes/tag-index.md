@@ -287,7 +287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [arbitrary file disclosure](#arbitrary-file-disclosure) (1)
 - [arbitrary file read](#arbitrary-file-read) (3)
 - [arbitrary file upload](#arbitrary-file-upload) (1)
-- [arbitrary file write](#arbitrary-file-write) (4)
+- [arbitrary file write](#arbitrary-file-write) (5)
 - [arbitrary JavaScript](#arbitrary-javascript) (1)
 - [ArcBridge](#arcbridge) (2)
 - [Arch Linux](#arch-linux) (1)
@@ -338,7 +338,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Australia](#australia) (1)
 - [authenticated RCE](#authenticated-rce) (1)
 - [authenticated remote code execution](#authenticated-remote-code-execution) (1)
-- [authentication bypass](#authentication-bypass) (27)
+- [authentication bypass](#authentication-bypass) (28)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -359,6 +359,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [autonomous scanning](#autonomous-scanning) (1)
 - [autorun=1](#autorun1) (1)
 - [AV killer](#av-killer) (1)
+- [Avada](#avada) (1)
 - [Avalon](#avalon) (2)
 - [aviation](#aviation) (2)
 - [AVIF](#avif) (1)
@@ -466,6 +467,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BLUEBEAM](#bluebeam) (1)
 - [BlueDelta](#bluedelta) (1)
 - [bluemonday](#bluemonday) (1)
+- [Bluetooth LE](#bluetooth-le) (1)
 - [Boatnet](#boatnet) (1)
 - [BOD 26-04](#bod-26-04) (7)
 - [body hash](#body-hash) (1)
@@ -521,7 +523,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BTR_CLI](#btr_cli) (1)
 - [bucket hijacking](#bucket-hijacking) (1)
 - [bucket squatting](#bucket-squatting) (1)
-- [buffer overflow](#buffer-overflow) (1)
+- [buffer overflow](#buffer-overflow) (2)
 - [bug bounty](#bug-bounty) (1)
 - [Bugcrowd](#bugcrowd) (1)
 - [build pipeline](#build-pipeline) (1)
@@ -737,7 +739,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CloudLinux](#cloudlinux) (1)
 - [CloudSEK](#cloudsek) (1)
 - [cluster compromise](#cluster-compromise) (1)
-- [CMS](#cms) (7)
+- [CMS](#cms) (8)
 - [CMS exploitation](#cms-exploitation) (1)
 - [CNCERT](#cncert) (1)
 - [Cobalt Strike](#cobalt-strike) (6)
@@ -982,6 +984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-16232](#cve-2026-16232) (1)
 - [CVE-2026-16723](#cve-2026-16723) (1)
 - [CVE-2026-16812](#cve-2026-16812) (1)
+- [CVE-2026-18431](#cve-2026-18431) (1)
 - [CVE-2026-18556](#cve-2026-18556) (2)
 - [CVE-2026-18577](#cve-2026-18577) (1)
 - [CVE-2026-18885](#cve-2026-18885) (1)
@@ -991,6 +994,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-19489](#cve-2026-19489) (1)
 - [CVE-2026-19490](#cve-2026-19490) (1)
 - [CVE-2026-19516](#cve-2026-19516) (1)
+- [CVE-2026-19598](#cve-2026-19598) (1)
+- [CVE-2026-19632](#cve-2026-19632) (1)
 - [CVE-2026-19650](#cve-2026-19650) (1)
 - [CVE-2026-19912](#cve-2026-19912) (1)
 - [CVE-2026-19913](#cve-2026-19913) (1)
@@ -1139,6 +1144,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-74820](#cve-2026-74820) (1)
 - [CVE-2026-75149](#cve-2026-75149) (1)
 - [CVE-2026-75604](#cve-2026-75604) (1)
+- [CVE-2026-76581](#cve-2026-76581) (1)
+- [CVE-2026-76639](#cve-2026-76639) (1)
+- [CVE-2026-76640](#cve-2026-76640) (1)
 - [CVE-2026-77413](#cve-2026-77413) (1)
 - [CVE-2026-77414](#cve-2026-77414) (1)
 - [CVE-2026-77415](#cve-2026-77415) (1)
@@ -1146,6 +1154,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-8037](#cve-2026-8037) (1)
 - [CVE-2026-81578](#cve-2026-81578) (1)
 - [CVE-2026-82078](#cve-2026-82078) (1)
+- [CVE-2026-82222](#cve-2026-82222) (1)
 - [CVE-2026-82447](#cve-2026-82447) (1)
 - [CVE-2026-82448](#cve-2026-82448) (1)
 - [CVE-2026-82450](#cve-2026-82450) (1)
@@ -1217,6 +1226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DDoS botnet](#ddos-botnet) (1)
 - [DDoS-for-hire](#ddos-for-hire) (3)
 - [DDR](#ddr) (1)
+- [DDS](#dds) (1)
 - [dead drop](#dead-drop) (1)
 - [dead drop resolver](#dead-drop-resolver) (5)
 - [dead-drop](#dead-drop) (1)
@@ -1625,7 +1635,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Firepower Management Center](#firepower-management-center) (1)
 - [firewall](#firewall) (1)
 - [firewall management](#firewall-management) (2)
-- [firmware](#firmware) (2)
+- [firmware](#firmware) (3)
 - [firmware backdoor](#firmware-backdoor) (2)
 - [firmware supply chain](#firmware-supply-chain) (1)
 - [firmware update](#firmware-update) (1)
@@ -1684,8 +1694,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FudModule](#fudmodule) (1)
 - [Full Disk Access social engineering](#full-disk-access-social-engineering) (1)
 - [Funnull](#funnull) (1)
+- [Fusion Builder](#fusion-builder) (1)
 - [futex PI](#futex-pi) (1)
 - [FUXA](#fuxa) (1)
+- [G1 EDU](#g1-edu) (1)
 - [gadget chain](#gadget-chain) (1)
 - [Gafgyt](#gafgyt) (1)
 - [GaiaOS WebUI](#gaiaos-webui) (1)
@@ -1771,6 +1783,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [gitleaks](#gitleaks) (1)
 - [gitnow](#gitnow) (1)
 - [GitOps](#gitops) (1)
+- [GiveWP](#givewp) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
 - [gleeze.com](#gleezecom) (1)
 - [GlobalProtect](#globalprotect) (1)
@@ -1953,6 +1966,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HTTPSpy](#httpspy) (1)
 - [Hugging Face](#hugging-face) (3)
 - [HUMAN Satori](#human-satori) (1)
+- [humanoid robot](#humanoid-robot) (1)
 - [Hunt.io](#huntio) (6)
 - [Huntress](#huntress) (3)
 - [Huorong](#huorong) (1)
@@ -2060,7 +2074,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [InvisibleFerret](#invisibleferret) (1)
 - [invocation logging](#invocation-logging) (1)
 - [iOS](#ios) (2)
-- [IoT](#iot) (8)
+- [IoT](#iot) (9)
 - [IoT botnet](#iot-botnet) (8)
 - [IP cameras](#ip-cameras) (2)
 - [IP-in-IP](#ip-in-ip) (1)
@@ -2814,12 +2828,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (317)
+- [operations](#operations) (319)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (367)
+- [ops](#ops) (369)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -2918,7 +2932,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patchstack](#patchstack) (1)
 - [Patchstack](#patchstack) (1)
 - [path hijacking](#path-hijacking) (1)
-- [path traversal](#path-traversal) (9)
+- [path traversal](#path-traversal) (10)
 - [Patriot Bait](#patriot-bait) (1)
 - [patterns](#patterns) (50)
 - [Paweł Płatek](#pawe-patek) (1)
@@ -2967,7 +2981,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PHP](#php) (2)
 - [PHP code execution](#php-code-execution) (1)
 - [PHP code injection](#php-code-injection) (1)
-- [PHP object injection](#php-object-injection) (1)
+- [PHP object injection](#php-object-injection) (2)
 - [PHP upload](#php-upload) (1)
 - [PHP web shell](#php-web-shell) (1)
 - [physical systems](#physical-systems) (1)
@@ -3001,6 +3015,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PlugX](#plugx) (4)
 - [PNG shellcode](#png-shellcode) (1)
 - [PoC available](#poc-available) (1)
+- [Pods](#pods) (1)
 - [poisoned-branch](#poisoned-branch) (1)
 - [PoisonX](#poisonx) (1)
 - [police digital services](#police-digital-services) (1)
@@ -3058,7 +3073,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private packages](#private-packages) (1)
 - [private registry fallback](#private-registry-fallback) (1)
 - [private-key theft](#private-key-theft) (1)
-- [privilege escalation](#privilege-escalation) (14)
+- [privilege escalation](#privilege-escalation) (15)
 - [privileged proxy](#privileged-proxy) (1)
 - [Privileged Remote Access](#privileged-remote-access) (1)
 - [PRNG](#prng) (1)
@@ -3315,6 +3330,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [root code execution](#root-code-execution) (1)
 - [root escalation](#root-escalation) (1)
 - [root execution](#root-execution) (2)
+- [root RCE](#root-rce) (1)
 - [root shell](#root-shell) (2)
 - [rootkit](#rootkit) (5)
 - [ROOTRUN](#rootrun) (1)
@@ -3937,6 +3953,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [transcript spoofing](#transcript-spoofing) (1)
 - [transfer stations](#transfer-stations) (1)
 - [transitive dependency](#transitive-dependency) (1)
+- [TranslatePress](#translatepress) (1)
 - [translation software](#translation-software) (1)
 - [transnational repression](#transnational-repression) (1)
 - [transparent proxy](#transparent-proxy) (1)
@@ -4011,12 +4028,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
 - [unattributed](#unattributed) (2)
-- [unauthenticated](#unauthenticated) (8)
+- [unauthenticated](#unauthenticated) (9)
 - [unauthenticated access](#unauthenticated-access) (4)
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (2)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
-- [unauthenticated RCE](#unauthenticated-rce) (12)
+- [unauthenticated RCE](#unauthenticated-rce) (13)
 - [unauthenticated-publish](#unauthenticated-publish) (1)
 - [unauthorized pentest framing](#unauthorized-pentest-framing) (1)
 - [UNC1069](#unc1069) (1)
@@ -4039,6 +4056,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unclaimed names](#unclaimed-names) (1)
 - [unfiltered_upload](#unfiltered_upload) (1)
 - [Uni-App](#uni-app) (1)
+- [UniBLEed](#unibleed) (1)
 - [UniFi OS](#unifi-os) (1)
 - [Unified CM SME](#unified-cm-sme) (1)
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
@@ -4046,6 +4064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unisoc](#unisoc) (1)
 - [Unit 42](#unit-42) (10)
 - [United States](#united-states) (3)
+- [Unitree](#unitree) (1)
 - [university targeting](#university-targeting) (1)
 - [UNK_MassTraction](#unk_masstraction) (1)
 - [UNK_PitStop](#unk_pitstop) (1)
@@ -4202,7 +4221,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [weak passwords](#weak-passwords) (2)
 - [weak RNG](#weak-rng) (1)
 - [weapons shipments](#weapons-shipments) (1)
-- [web application](#web-application) (5)
+- [web application](#web-application) (6)
 - [web application compromise](#web-application-compromise) (1)
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
@@ -4228,7 +4247,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebLogic](#weblogic) (1)
 - [Weblogic Server Proxy Plug-in](#weblogic-server-proxy-plug-in) (1)
 - [webmail](#webmail) (4)
-- [WebRTC](#webrtc) (2)
+- [WebRTC](#webrtc) (3)
 - [webshell](#webshell) (1)
 - [webshells](#webshells) (1)
 - [website-compromise](#website-compromise) (1)
@@ -4287,7 +4306,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WMI](#wmi) (1)
 - [Woodgnat](#woodgnat) (1)
 - [WordlistLoader](#wordlistloader) (1)
-- [WordPress](#wordpress) (13)
+- [WordPress](#wordpress) (14)
 - [WordPress 7.0.4](#wordpress-704) (1)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
 - [workerd](#workerd) (1)
@@ -4302,6 +4321,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP Squared](#wp-squared) (1)
 - [WP-SHELLSTORM](#wp-shellstorm) (1)
 - [wp2shell](#wp2shell) (1)
+- [WPMU DEV Dashboard](#wpmu-dev-dashboard) (1)
 - [WScript](#wscript) (1)
 - [WSS](#wss) (1)
 - [X-Grafana-URL](#x-grafana-url) (1)
@@ -5528,6 +5548,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
 ## arbitrary JavaScript
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
@@ -5720,6 +5741,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
 ## authentication laundering
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -5783,6 +5805,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AV killer
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
+## Avada
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
 ## Avalon
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -6179,6 +6204,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## bluemonday
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 
+## Bluetooth LE
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
+
 ## Boatnet
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
@@ -6421,6 +6449,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## buffer overflow
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
 ## bug bounty
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
@@ -7386,6 +7415,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
@@ -8436,6 +8466,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-16812
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 
+## CVE-2026-18431
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
+
 ## CVE-2026-18556
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
@@ -8463,6 +8496,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-19516
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
+
+## CVE-2026-19598
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
+
+## CVE-2026-19632
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
 ## CVE-2026-19650
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
@@ -8925,6 +8964,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-75604
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
+## CVE-2026-76581
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
+
+## CVE-2026-76639
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
+
+## CVE-2026-76640
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
+
 ## CVE-2026-77413
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
@@ -8945,6 +8993,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-82078
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
+
+## CVE-2026-82222
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
 ## CVE-2026-82447
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
@@ -9230,6 +9281,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DDR
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
+
+## DDS
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
 ## dead drop
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
@@ -10879,6 +10933,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## firmware
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
 ## firmware backdoor
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
@@ -11075,11 +11130,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Funnull
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
+## Fusion Builder
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
+
 ## futex PI
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
 ## FUXA
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
+
+## G1 EDU
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
 ## gadget chain
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
@@ -11408,6 +11469,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitOps
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+
+## GiveWP
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
 ## Gleaming Pisces
 - [RemotePE](../tools/remotepe.md)
@@ -12061,6 +12125,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HUMAN Satori
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
+## humanoid robot
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
+
 ## Hunt.io
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
@@ -12531,6 +12598,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
 ## IoT botnet
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
@@ -15812,6 +15880,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -15827,6 +15896,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -16190,6 +16260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
@@ -16207,6 +16278,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
@@ -16568,6 +16640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
 ## Patriot Bait
@@ -16849,6 +16922,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PHP object injection
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
 ## PHP upload
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
@@ -16955,6 +17029,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PoC available
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
+
+## Pods
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
 ## poisoned-branch
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -17201,6 +17278,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## privileged proxy
@@ -18238,6 +18316,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## root execution
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
+
+## root RCE
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
 ## root shell
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
@@ -20745,6 +20826,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## transitive dependency
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 
+## TranslatePress
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
+
 ## translation software
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 
@@ -21053,6 +21137,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [ServiceNow AI Platform August 27, 2026 advisory: three CVSS 10.0 unauthenticated flaws and a sandbox escape (CVE-2026-18885 / CVE-2026-18886 / CVE-2026-74820 / CVE-2026-6876)](../ops/servicenow-ai-platform-august-27-2026-three-cvss-10-unauthenticated-flaws.md)
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## unauthenticated access
@@ -21084,6 +21169,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
 ## unauthenticated-publish
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
@@ -21157,6 +21243,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Uni-App
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
+## UniBLEed
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
+
 ## UniFi OS
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
@@ -21188,6 +21277,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [UNC3753](../actors/unc3753.md)
+
+## Unitree
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
 ## university targeting
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -21787,6 +21879,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
 ## web application compromise
@@ -21891,6 +21984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## WebRTC
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
+- [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
 ## webshell
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
@@ -22171,6 +22265,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
@@ -22234,6 +22329,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## wp2shell
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
+
+## WPMU DEV Dashboard
+- [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
 ## WScript
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
