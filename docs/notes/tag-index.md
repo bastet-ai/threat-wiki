@@ -471,7 +471,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bluemonday](#bluemonday) (1)
 - [Bluetooth LE](#bluetooth-le) (1)
 - [Boatnet](#boatnet) (1)
-- [BOD 26-04](#bod-26-04) (7)
+- [BOD 26-04](#bod-26-04) (8)
 - [body hash](#body-hash) (1)
 - [BOF](#bof) (1)
 - [BookStack](#bookstack) (1)
@@ -570,6 +570,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Canada](#canada) (1)
 - [CANFAIL](#canfail) (1)
 - [CanisterWorm](#canisterworm) (1)
+- [canonicalization](#canonicalization) (1)
 - [CAP_NET_ADMIN](#cap_net_admin) (2)
 - [CAPTCHA OCR](#captcha-ocr) (1)
 - [captive portal](#captive-portal) (2)
@@ -657,7 +658,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CIS](#cis) (2)
 - [CISA](#cisa) (16)
 - [CISA ADP](#cisa-adp) (1)
-- [CISA KEV](#cisa-kev) (41)
+- [CISA KEV](#cisa-kev) (42)
 - [Cisco](#cisco) (6)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -667,7 +668,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified Communications Manager](#cisco-unified-communications-manager) (1)
 - [citizen portal compromise](#citizen-portal-compromise) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
-- [Citrix](#citrix) (4)
+- [Citrix](#citrix) (5)
 - [Citrix NetScaler](#citrix-netscaler) (2)
 - [CitrixBleed](#citrixbleed) (1)
 - [CitrixBleed 2](#citrixbleed-2) (1)
@@ -1172,7 +1173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-82454](#cve-2026-82454) (1)
 - [CVE-2026-82456](#cve-2026-82456) (1)
 - [CVE-2026-8451](#cve-2026-8451) (1)
-- [CVE-2026-8452](#cve-2026-8452) (1)
+- [CVE-2026-8452](#cve-2026-8452) (2)
 - [CVE-2026-8461](#cve-2026-8461) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
@@ -1413,7 +1414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Eclipse](#eclipse) (1)
 - [Economic D-Day](#economic-d-day) (1)
 - [Ed25519](#ed25519) (1)
-- [edge appliance](#edge-appliance) (14)
+- [edge appliance](#edge-appliance) (15)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (3)
@@ -1918,6 +1919,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HEADRUSH](#headrush) (1)
 - [healthcare](#healthcare) (4)
 - [heap buffer overflow](#heap-buffer-overflow) (2)
+- [heap overflow](#heap-overflow) (1)
 - [heap pointer disclosure](#heap-pointer-disclosure) (1)
 - [HEIC](#heic) (1)
 - [HEIF](#heif) (1)
@@ -2675,9 +2677,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetKeyboard](#netkeyboard) (1)
 - [Netlify abuse](#netlify-abuse) (1)
 - [NetNut](#netnut) (1)
-- [NetScaler](#netscaler) (4)
-- [NetScaler ADC](#netscaler-adc) (4)
-- [NetScaler Gateway](#netscaler-gateway) (4)
+- [NetScaler](#netscaler) (5)
+- [NetScaler ADC](#netscaler-adc) (5)
+- [NetScaler Gateway](#netscaler-gateway) (5)
 - [NetSetup.log](#netsetuplog) (1)
 - [network access](#network-access) (1)
 - [network detection](#network-detection) (1)
@@ -2740,6 +2742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npx confusion](#npx-confusion) (1)
 - [NSA](#nsa) (1)
 - [NSecKrnl.sys](#nseckrnlsys) (1)
+- [nsppe](#nsppe) (1)
 - [NTDS.dit](#ntdsdit) (2)
 - [NTFS ADS](#ntfs-ads) (3)
 - [NTLM](#ntlm) (2)
@@ -2840,12 +2843,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (319)
+- [operations](#operations) (320)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (370)
+- [ops](#ops) (371)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -3014,6 +3017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pipelines](#pipelines) (1)
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
+- [pitboss](#pitboss) (1)
 - [Pix](#pix) (1)
 - [Pixeldrain](#pixeldrain) (1)
 - [PixelSmash](#pixelsmash) (1)
@@ -3069,7 +3073,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PRC-aligned](#prc-aligned) (1)
 - [PRC-nexus](#prc-nexus) (1)
 - [pre-auth RCE](#pre-auth-rce) (1)
-- [pre-authentication](#pre-authentication) (2)
+- [pre-authentication](#pre-authentication) (3)
 - [pre-authentication RCE](#pre-authentication-rce) (1)
 - [pre-signed URL](#pre-signed-url) (2)
 - [Prefetch](#prefetch) (1)
@@ -3277,7 +3281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (7)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (26)
+- [remote code execution](#remote-code-execution) (27)
 - [remote debugging](#remote-debugging) (2)
 - [remote desktop](#remote-desktop) (1)
 - [remote MCP](#remote-mcp) (1)
@@ -3407,7 +3411,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Safari](#safari) (1)
 - [SafeDep](#safedep) (7)
 - [Salesforce](#salesforce) (4)
-- [SAML](#saml) (2)
+- [SAML](#saml) (3)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
 - [sanctions](#sanctions) (1)
@@ -3562,6 +3566,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [signed malware](#signed-malware) (1)
 - [signed updates](#signed-updates) (1)
 - [signed-binary](#signed-binary) (1)
+- [SignedInfo](#signedinfo) (1)
 - [Silent Ransom Group](#silent-ransom-group) (1)
 - [Silent Swap](#silent-swap) (1)
 - [silent-patch](#silent-patch) (1)
@@ -4203,7 +4208,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vssvc.exe](#vssvcexe) (1)
 - [VU#213560](#vu213560) (1)
 - [VulnCheck](#vulncheck) (6)
-- [vulnerability](#vulnerability) (25)
+- [vulnerability](#vulnerability) (26)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
 - [vulnerability disclosure](#vulnerability-disclosure) (2)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
@@ -4225,7 +4230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wastewater](#wastewater) (1)
 - [watch_queue](#watch_queue) (1)
 - [watchdog](#watchdog) (1)
-- [watchTowr](#watchtowr) (6)
+- [watchTowr](#watchtowr) (7)
 - [watchTowr Labs](#watchtowr-labs) (1)
 - [water and wastewater](#water-and-wastewater) (1)
 - [water sector](#water-sector) (1)
@@ -4338,6 +4343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP-SHELLSTORM](#wp-shellstorm) (1)
 - [wp2shell](#wp2shell) (1)
 - [WPMU DEV Dashboard](#wpmu-dev-dashboard) (1)
+- [write-what-where](#write-what-where) (1)
 - [WScript](#wscript) (1)
 - [WSS](#wss) (1)
 - [X-Grafana-URL](#x-grafana-url) (1)
@@ -6239,6 +6245,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
@@ -6648,6 +6655,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CanisterWorm
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
+## canonicalization
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
+
 ## CAP_NET_ADMIN
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
@@ -7052,6 +7062,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
@@ -7118,6 +7129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## Citrix NetScaler
@@ -9068,6 +9080,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-8452
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 
 ## CVE-2026-8461
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -10064,6 +10077,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
@@ -11985,6 +11999,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## heap buffer overflow
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+
+## heap overflow
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 
 ## heap pointer disclosure
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
@@ -14989,6 +15006,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## NetScaler ADC
@@ -14996,12 +15014,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 
 ## NetScaler Gateway
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 
 ## NetSetup.log
 - [NightLedger](../tools/nightledger.md)
@@ -15284,6 +15304,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NSecKrnl.sys
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
+
+## nsppe
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 
 ## NTDS.dit
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -15708,6 +15731,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
@@ -16051,6 +16075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
@@ -17046,6 +17071,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Piriform
 - [CCleaner signed-update compromise](../ops/ccleaner-signed-update-compromise.md)
 
+## pitboss
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
+
 ## Pix
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 
@@ -17274,6 +17302,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pre-authentication
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## pre-authentication RCE
@@ -18136,6 +18165,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -18651,6 +18681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SAML
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
 
 ## SAML IdP
@@ -19221,6 +19252,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## signed-binary
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+
+## SignedInfo
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 
 ## Silent Ransom Group
 - [UNC3753](../actors/unc3753.md)
@@ -21807,6 +21841,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
@@ -21911,6 +21946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## watchTowr
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
@@ -22411,6 +22447,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WPMU DEV Dashboard
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
+
+## write-what-where
+- [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 
 ## WScript
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
