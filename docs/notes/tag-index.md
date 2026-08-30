@@ -20,7 +20,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [158.220.87.79](#1582208779) (1)
 - [192.42.116.105](#19242116105) (1)
 - [192.42.116.58](#1924211658) (1)
-- [2FA bypass](#2fa-bypass) (1)
+- [2FA bypass](#2fa-bypass) (2)
 - [2FA harvesting](#2fa-harvesting) (1)
 - [2FA recovery codes](#2fa-recovery-codes) (1)
 - [3CX](#3cx) (1)
@@ -53,7 +53,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [account abuse](#account-abuse) (1)
 - [account hijacking](#account-hijacking) (1)
 - [account lockout](#account-lockout) (1)
-- [account takeover](#account-takeover) (6)
+- [account takeover](#account-takeover) (7)
 - [account-takeover](#account-takeover) (1)
 - [ACR Stealer](#acr-stealer) (2)
 - [AcridRain](#acridrain) (1)
@@ -205,6 +205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [algorithm confusion](#algorithm-confusion) (1)
 - [Alibaba](#alibaba) (1)
 - [Allen-Bradley](#allen-bradley) (1)
+- [allowed_classes](#allowed_classes) (1)
 - [Alternate Data Stream](#alternate-data-stream) (1)
 - [Amadey](#amadey) (1)
 - [Amatera Stealer](#amatera-stealer) (2)
@@ -745,12 +746,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CNCERT](#cncert) (1)
 - [Cobalt Strike](#cobalt-strike) (6)
 - [code execution](#code-execution) (4)
+- [code generation](#code-generation) (1)
 - [code injection](#code-injection) (7)
 - [Code Mode](#code-mode) (1)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
 - [code signing abuse](#code-signing-abuse) (1)
 - [Codecov](#codecov) (1)
+- [codegen injection](#codegen-injection) (1)
 - [codemado](#codemado) (1)
 - [CodeQL](#codeql) (1)
 - [Codex](#codex) (2)
@@ -1102,7 +1105,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-54720](#cve-2026-54720) (1)
 - [CVE-2026-54721](#cve-2026-54721) (1)
 - [CVE-2026-55040](#cve-2026-55040) (2)
+- [CVE-2026-55207](#cve-2026-55207) (1)
+- [CVE-2026-55208](#cve-2026-55208) (1)
+- [CVE-2026-55212](#cve-2026-55212) (1)
+- [CVE-2026-55220](#cve-2026-55220) (1)
 - [CVE-2026-55255](#cve-2026-55255) (1)
+- [CVE-2026-55634](#cve-2026-55634) (1)
 - [CVE-2026-56290](#cve-2026-56290) (1)
 - [CVE-2026-56291](#cve-2026-56291) (1)
 - [CVE-2026-59285](#cve-2026-59285) (1)
@@ -1180,7 +1188,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-306](#cwe-306) (2)
 - [CWE-352](#cwe-352) (2)
 - [CWE-470](#cwe-470) (1)
-- [CWE-502](#cwe-502) (1)
+- [CWE-502](#cwe-502) (2)
 - [CWE-640](#cwe-640) (1)
 - [CWE-77](#cwe-77) (1)
 - [CWE-78](#cwe-78) (2)
@@ -1215,6 +1223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data-exfiltration](#data-exfiltration) (1)
 - [database extortion](#database-extortion) (1)
 - [Datadog Security Labs](#datadog-security-labs) (1)
+- [DataObject](#dataobject) (1)
 - [dataset dead drop](#dataset-dead-drop) (1)
 - [dataset processing](#dataset-processing) (1)
 - [DAYLIGHT](#daylight) (1)
@@ -1258,7 +1267,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (5)
 - [deployment_status](#deployment_status) (1)
-- [deserialization](#deserialization) (12)
+- [deserialization](#deserialization) (13)
 - [destructive actions](#destructive-actions) (1)
 - [destructive malware](#destructive-malware) (3)
 - [destructive operations](#destructive-operations) (3)
@@ -1778,7 +1787,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub PAT abuse](#github-pat-abuse) (1)
 - [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub release assets](#github-release-assets) (1)
-- [GitHub Security Advisories](#github-security-advisories) (7)
+- [GitHub Security Advisories](#github-security-advisories) (8)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
 - [GitLab](#gitlab) (3)
@@ -2836,7 +2845,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (369)
+- [ops](#ops) (370)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -2981,10 +2990,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [phishing overlays](#phishing-overlays) (1)
 - [phishing-as-a-service](#phishing-as-a-service) (8)
 - [Phorpiex](#phorpiex) (1)
-- [PHP](#php) (2)
+- [PHP](#php) (3)
 - [PHP code execution](#php-code-execution) (1)
 - [PHP code injection](#php-code-injection) (1)
-- [PHP object injection](#php-object-injection) (2)
+- [PHP object injection](#php-object-injection) (3)
 - [PHP upload](#php-upload) (1)
 - [PHP web shell](#php-web-shell) (1)
 - [physical systems](#physical-systems) (1)
@@ -2996,6 +3005,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PII](#pii) (1)
 - [PII exposure](#pii-exposure) (1)
 - [PII theft](#pii-theft) (1)
+- [Pimcore](#pimcore) (1)
+- [Pimcore Studio](#pimcore-studio) (1)
 - [PINHOLE](#pinhole) (1)
 - [PINK](#pink) (1)
 - [Pink](#pink) (1)
@@ -3076,7 +3087,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private packages](#private-packages) (1)
 - [private registry fallback](#private-registry-fallback) (1)
 - [private-key theft](#private-key-theft) (1)
-- [privilege escalation](#privilege-escalation) (15)
+- [privilege escalation](#privilege-escalation) (16)
 - [privileged proxy](#privileged-proxy) (1)
 - [Privileged Remote Access](#privileged-remote-access) (1)
 - [PRNG](#prng) (1)
@@ -3202,7 +3213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RC4 encryption](#rc4-encryption) (1)
-- [RCE](#rce) (12)
+- [RCE](#rce) (13)
 - [Rclone](#rclone) (1)
 - [rclone](#rclone) (1)
 - [RCS](#rcs) (1)
@@ -3479,6 +3490,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Seqrite](#seqrite) (1)
 - [Seqrite Labs](#seqrite-labs) (2)
 - [serial-number relay](#serial-number-relay) (1)
+- [Serialize::unserialize](#serializeunserialize) (1)
 - [Serv-U](#serv-u) (1)
 - [service accounts](#service-accounts) (2)
 - [service DLL persistence](#service-dll-persistence) (1)
@@ -3694,7 +3706,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SprySOCKS](#sprysocks) (2)
 - [Spyroid](#spyroid) (1)
 - [spyware](#spyware) (1)
-- [SQL injection](#sql-injection) (10)
+- [SQL injection](#sql-injection) (11)
 - [SQL Server](#sql-server) (1)
 - [SQLite](#sqlite) (2)
 - [SQLite state](#sqlite-state) (1)
@@ -4467,6 +4479,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## 2FA bypass
 - [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 
 ## 2FA harvesting
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
@@ -4573,6 +4586,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
@@ -5240,6 +5254,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Allen-Bradley
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
+
+## allowed_classes
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 
 ## Alternate Data Stream
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
@@ -7446,6 +7463,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
+## code generation
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
+
 ## code injection
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -7471,6 +7491,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Codecov
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+
+## codegen injection
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 
 ## codemado
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
@@ -8839,8 +8862,23 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 
+## CVE-2026-55207
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
+
+## CVE-2026-55208
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
+
+## CVE-2026-55212
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
+
+## CVE-2026-55220
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
+
 ## CVE-2026-55255
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
+
+## CVE-2026-55634
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 
 ## CVE-2026-56290
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
@@ -9081,6 +9119,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CWE-502
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 
 ## CWE-640
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
@@ -9242,6 +9281,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Datadog Security Labs
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
+
+## DataObject
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 
 ## dataset dead drop
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -9433,6 +9475,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kaltura mwEmbed unpatched: unauthenticated file read + RCE via mwEmbedLoader.php (CVE-2026-19912/19913)](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
@@ -11457,6 +11500,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
 ## GitHub tokens
@@ -16197,6 +16241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
@@ -16928,6 +16973,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PHP
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 
 ## PHP code execution
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
@@ -16937,6 +16983,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PHP object injection
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
 ## PHP upload
@@ -16971,6 +17018,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PII theft
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
+
+## Pimcore
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
+
+## Pimcore Studio
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 
 ## PINHOLE
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
@@ -17290,6 +17343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
@@ -17838,6 +17892,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
@@ -18907,6 +18962,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## serial-number relay
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
 
+## Serialize::unserialize
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
+
 ## Serv-U
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
@@ -19703,6 +19761,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
+- [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [ServiceNow AI Platform August 27, 2026 advisory: three CVSS 10.0 unauthenticated flaws and a sandbox escape (CVE-2026-18885 / CVE-2026-18886 / CVE-2026-74820 / CVE-2026-6876)](../ops/servicenow-ai-platform-august-27-2026-three-cvss-10-unauthenticated-flaws.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
