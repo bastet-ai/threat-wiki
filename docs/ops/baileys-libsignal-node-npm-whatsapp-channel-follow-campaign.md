@@ -47,6 +47,8 @@ SafeDep analysed all but one from source; `@diezyyasha/libsignal-node` was remov
 
 Other confirmed Baileys names in the set include `@kofoffc/baileys` (0.0.3 / 0.0.4), `ynastore-baileys` (1.0.21), `santana-baileys` (2.0.4), `diezyyasha-baileys` (8.6.57 / 9.1.1 / 9.1.2), and `alipclutch-baileys` (8.6.61 / 8.6.65 / 8.6.66 / 8.6.72 / 8.6.74). The confirmed `libsignal-node` impersonators include an import-time patcher variant. The full list is in SafeDep's `baileys-packages-list.csv` appendix (70 names / 343 versions plus 15 `libsignal-node` names / 38 versions).
 
+Separately from SafeDep's source-confirmed set, GitHub's OpenSSF malware ingestion flagged **`@fidzzhost/baileys`** as malware on **August 30, 2026** ([GHSA-vc2v-c8j2-qxg9](https://github.com/advisories/GHSA-vc2v-c8j2-qxg9), Critical, no CVE, no version range or patched version — the whole package). The prior versions `25.9.1` and `25.9.2` were replaced with npm's `0.0.1-security` holding package by 16:34Z, so no source was available for analysis and no behaviour, C2, operator, or newsletter JID is attributed. It is a **reported, not source-verified** name and is distinct from SafeDep's confirmed set, but it extends the observed-Baileys-name count and confirms the campaign's continued spread across new scopes.
+
 ## Indicators of compromise
 - **npm publishers:** `prototype1006`, `cikikomo`, `neykoor`, `mamzhandsome`, `lupy4u`, `diezyyasha` (SafeDep also obscures the linked maintainer e-mail addresses).
 - **Advertising URL injected into media:** `hxxps://fiora[.]nixel[.]my[.]id/` (`mamz-baileys`).
@@ -73,6 +75,7 @@ Other confirmed Baileys names in the set include `@kofoffc/baileys` (0.0.3 / 0.0
 - Confirmed victim scope and whether any forced-follow channel carries further payloads or monetisation.
 - Whether `levvleys.json` targets grow, and whether the remote-follow-list pattern spreads to other multi-device bot libraries.
 - Independent replication of the `@diezyyasha/libsignal-node` import-time patcher.
+- Source recovery / behavioural analysis of `@fidzzhost/baileys` (purged before analysis) and whether it matches any of the five confirmed mechanics.
 
 ## Related pages
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
