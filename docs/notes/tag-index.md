@@ -215,7 +215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon SES](#amazon-ses) (2)
 - [Amcache](#amcache) (1)
 - [AMOS](#amos) (3)
-- [AMSI bypass](#amsi-bypass) (5)
+- [AMSI bypass](#amsi-bypass) (6)
 - [AMSI patch](#amsi-patch) (1)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
 - [Ancillary Function Driver](#ancillary-function-driver) (1)
@@ -273,7 +273,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT-C-08](#apt-c-08) (1)
 - [APT27](#apt27) (1)
 - [APT28](#apt28) (2)
-- [APT29](#apt29) (2)
+- [APT29](#apt29) (3)
 - [APT32](#apt32) (1)
 - [APT36](#apt36) (3)
 - [APT37](#apt37) (1)
@@ -342,6 +342,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [authenticated RCE](#authenticated-rce) (1)
 - [authenticated remote code execution](#authenticated-remote-code-execution) (1)
 - [authentication bypass](#authentication-bypass) (28)
+- [authentication coercion](#authentication-coercion) (1)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
 - [authentication-coercion](#authentication-coercion) (1)
@@ -503,6 +504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser extension](#browser-extension) (9)
 - [browser extension loader](#browser-extension-loader) (1)
 - [browser extension malware](#browser-extension-malware) (1)
+- [browser extension sideloading](#browser-extension-sideloading) (1)
 - [browser fingerprint spoofing](#browser-fingerprint-spoofing) (1)
 - [browser fingerprinting](#browser-fingerprinting) (1)
 - [browser hijacking](#browser-hijacking) (4)
@@ -707,7 +709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [clipboard stealer](#clipboard-stealer) (1)
 - [clipboard theft](#clipboard-theft) (6)
 - [clipper](#clipper) (2)
-- [Cloaked Ursa](#cloaked-ursa) (1)
+- [Cloaked Ursa](#cloaked-ursa) (2)
 - [cloaking](#cloaking) (3)
 - [ClOd-ViEw](#clod-view) (1)
 - [cloud](#cloud) (7)
@@ -1937,6 +1939,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HelloProxy](#helloproxy) (1)
 - [HellsGate](#hellsgate) (1)
 - [Helm](#helm) (1)
+- [help desk impersonation](#help-desk-impersonation) (1)
 - [Hermes](#hermes) (1)
 - [Hermes Agent](#hermes-agent) (3)
 - [HexKiller](#hexkiller) (1)
@@ -2007,6 +2010,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IDE trust boundary](#ide-trust-boundary) (1)
 - [ide.cfm](#idecfm) (1)
 - [identity](#identity) (5)
+- [identity attack](#identity-attack) (1)
 - [identity attacks](#identity-attacks) (1)
 - [identity compromise](#identity-compromise) (1)
 - [identity infrastructure](#identity-infrastructure) (1)
@@ -2261,7 +2265,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Laravel](#laravel) (2)
 - [Laravel deserialization](#laravel-deserialization) (1)
 - [LATAM](#latam) (1)
-- [lateral movement](#lateral-movement) (8)
+- [lateral movement](#lateral-movement) (9)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (3)
 - [LaunchAgent](#launchagent) (5)
@@ -2528,7 +2532,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Office SharePoint](#microsoft-office-sharepoint) (1)
 - [Microsoft Security Blog](#microsoft-security-blog) (1)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
-- [Microsoft Teams](#microsoft-teams) (4)
+- [Microsoft Teams](#microsoft-teams) (5)
 - [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (5)
 - [Microsoft typosquat](#microsoft-typosquat) (1)
 - [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
@@ -2752,6 +2756,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NTDS.dit](#ntdsdit) (2)
 - [NTFS ADS](#ntfs-ads) (3)
 - [NTLM](#ntlm) (2)
+- [NTLM relay](#ntlm-relay) (1)
 - [nuclear procurement](#nuclear-procurement) (1)
 - [nuclear research](#nuclear-research) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
@@ -2850,12 +2855,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (320)
+- [operations](#operations) (321)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (371)
+- [ops](#ops) (372)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -2988,6 +2993,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [persistent root access](#persistent-root-access) (1)
 - [persona operations](#persona-operations) (1)
 - [personal access tokens](#personal-access-tokens) (2)
+- [PetitPotam](#petitpotam) (1)
 - [pfSense](#pfsense) (1)
 - [PhaaS](#phaas) (6)
 - [Phantom Gyp](#phantom-gyp) (3)
@@ -3072,6 +3078,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PowerShell](#powershell) (28)
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
+- [PowerShell RAT](#powershell-rat) (1)
 - [PowerShower](#powershower) (1)
 - [PPPoE credential theft](#pppoe-credential-theft) (1)
 - [PPtP](#pptp) (1)
@@ -3338,7 +3345,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rilide](#rilide) (1)
 - [Ring 0](#ring-0) (1)
 - [RingH23](#ringh23) (1)
-- [RMM](#rmm) (5)
+- [RMM](#rmm) (6)
 - [RMM abuse](#rmm-abuse) (10)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
@@ -3411,7 +3418,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [S3-compatible storage](#s3-compatible-storage) (2)
 - [s5cmd](#s5cmd) (1)
 - [S7comm](#s7comm) (1)
-- [SaaS](#saas) (7)
+- [SaaS](#saas) (8)
 - [SaaS abuse](#saas-abuse) (1)
 - [SaaS connectors](#saas-connectors) (1)
 - [SaaS data access](#saas-data-access) (1)
@@ -3640,7 +3647,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SoC](#soc) (1)
 - [SocGholish](#socgholish) (1)
 - [social abuse](#social-abuse) (1)
-- [social engineering](#social-engineering) (18)
+- [social engineering](#social-engineering) (19)
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (5)
 - [Socket Security](#socket-security) (3)
@@ -4092,7 +4099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [unintended internet access](#unintended-internet-access) (1)
 - [Unisoc](#unisoc) (1)
-- [Unit 42](#unit-42) (11)
+- [Unit 42](#unit-42) (12)
 - [United States](#united-states) (3)
 - [Unitree](#unitree) (1)
 - [university targeting](#university-targeting) (1)
@@ -4180,7 +4187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [virtualization](#virtualization) (2)
 - [virtualization targeting](#virtualization-targeting) (2)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
-- [vishing](#vishing) (7)
+- [vishing](#vishing) (8)
 - [Visual Studio](#visual-studio) (1)
 - [Visual Studio Code Remote SSH](#visual-studio-code-remote-ssh) (1)
 - [Vite](#vite) (1)
@@ -4198,6 +4205,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VNC](#vnc) (2)
 - [VNT](#vnt) (2)
 - [VOD](#vod) (1)
+- [voice phishing](#voice-phishing) (1)
 - [Void Blizzard](#void-blizzard) (4)
 - [Void Manticore](#void-manticore) (1)
 - [Volt Typhoon](#volt-typhoon) (1)
@@ -5310,6 +5318,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [TELEPUZ](../tools/telepuz.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
@@ -5531,6 +5540,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## APT29
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [ROADtools](../tools/roadtools.md)
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 
 ## APT32
 - [OceanLotus](../actors/oceanlotus.md)
@@ -5786,6 +5796,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
+
+## authentication coercion
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 
 ## authentication laundering
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
@@ -6411,6 +6424,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browser extension malware
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
+
+## browser extension sideloading
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 
 ## browser fingerprint spoofing
 - [Kimwolf v7](../tools/kimwolf-v7.md)
@@ -7306,6 +7322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cloaked Ursa
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 
 ## cloaking
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -12065,6 +12082,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Helm
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 
+## help desk impersonation
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
+
 ## Hermes
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 
@@ -12309,6 +12329,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
 - [ROADtools](../tools/roadtools.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
+## identity attack
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 
 ## identity attacks
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -13330,6 +13353,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [LurkProxy](../tools/lurkproxy.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## lateral-movement
@@ -14476,6 +14500,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
 ## Microsoft Threat Intelligence
@@ -15351,6 +15376,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BridgeHead](../tools/bridgehead.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 
+## NTLM relay
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
+
 ## nuclear procurement
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
@@ -15965,6 +15993,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
@@ -16339,6 +16368,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
@@ -16948,6 +16978,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 
+## PetitPotam
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
+
 ## pfSense
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
 
@@ -17308,6 +17341,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
+
+## PowerShell RAT
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 
 ## PowerShower
 - [Cloud Atlas](../actors/cloud-atlas.md)
@@ -18389,6 +18425,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [UNC3753](../actors/unc3753.md)
 
 ## RMM abuse
@@ -18681,6 +18718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 - [ServiceNow instance unauthenticated table-query exploitation](../ops/servicenow-instance-unauthenticated-table-query-exploitation.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
@@ -19519,6 +19557,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Screening Serpens](../actors/screening-serpens.md)
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 - [UNC3753](../actors/unc3753.md)
@@ -21421,6 +21460,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
@@ -21731,6 +21771,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
 - [ShinyHunters](../actors/shinyhunters.md)
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [UNC3753](../actors/unc3753.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
@@ -21790,6 +21831,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VOD
 - [Kaltura mwEmbed unpatched: unauthenticated file read + RCE via mwEmbedLoader.php (CVE-2026-19912/19913)](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
+
+## voice phishing
+- [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 
 ## Void Blizzard
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)

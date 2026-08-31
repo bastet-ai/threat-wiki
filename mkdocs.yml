@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "Spring Ring: Microsoft Teams vishing campaigns impersonating internal IT help desk that escalated to RMM install / obfuscated PowerShell RAT and a PetitPotam NTLM-relay domain takeover (Unit 42, Aug 31)": ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md
       - "Pimcore Studio five coordinated flaws: DataObject field-name RCE (CVE-2026-55634, 9.9) + Hotspotimage PHP object injection (CVE-2026-55220) + privesc / SQLi / account-takeover set (GHSA-9x44 / w23p / f97c / 79cw / h854, Aug 28)": ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md
       - "Five critical WordPress flaws: WPMU DEV Dashboard Hub-SSO auth bypass (CVE-2026-76581), Avada/Fusion Builder unauth file-write RCE (CVE-2026-18431), TranslatePress reset-URL exposure (CVE-2026-19632), Pods auth bypass (CVE-2026-19598), GiveWP object-injection RCE (CVE-2026-82222, 10.0)": ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md
       - "Unitree G1 EDU: two independent unauthenticated root-RCE chains — CVE-2026-76639 (DDS bridge 9991 + static AES key + chat_go path traversal) and CVE-2026-76640 (unpaired BLE → Wi-Fi-provisioning overflow to system() as root); no confirmed fixed firmware": ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md
