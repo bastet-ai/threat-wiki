@@ -2145,7 +2145,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetStream](#jetstream) (1)
 - [JFrog](#jfrog) (4)
 - [JFrog Artifactory](#jfrog-artifactory) (1)
-- [JFrog Security Research](#jfrog-security-research) (4)
+- [JFrog Security Research](#jfrog-security-research) (5)
 - [Jinja](#jinja) (1)
 - [Jinja2](#jinja2) (1)
 - [JINX-0164](#jinx-0164) (2)
@@ -12903,6 +12903,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
 ## JFrog Security Research
+- [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
