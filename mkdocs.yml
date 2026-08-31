@@ -503,6 +503,7 @@ nav:
       - 'State divergence enables unauthorized access: Provenance marker module anyone-can-pass check': patterns/provenance-marker-state-divergence-access-control.md
       - 'Benchmaxxing: when a benchmark becomes the target': patterns/benchmaxxing-benchmark-integrity-cyber-ai.md
       - 'State of AI-enabled malware, August 2026 (Unit 42)': patterns/unit42-state-of-ai-enabled-malware-august-2026.md
+      - 'Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window': patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md
       - 'NemoClaw local Ollama chat-template poisoning (Oasis Security)': patterns/nemoclaw-local-ollama-chat-template-poisoning.md
       - 'Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call': patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md
       - Trusted collaboration-channel identity abuse: patterns/collaboration-channel-identity-abuse.md

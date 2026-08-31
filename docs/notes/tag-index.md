@@ -132,6 +132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agentic execution](#agentic-execution) (1)
 - [agentic IDE](#agentic-ide) (1)
 - [agentic malware](#agentic-malware) (1)
+- [agentic pipeline](#agentic-pipeline) (1)
 - [agentic ransomware](#agentic-ransomware) (1)
 - [agentic threat actor](#agentic-threat-actor) (2)
 - [Agentjacking](#agentjacking) (1)
@@ -141,7 +142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI agent](#ai-agent) (3)
 - [AI agent security](#ai-agent-security) (3)
 - [AI agent tooling](#ai-agent-tooling) (1)
-- [AI agents](#ai-agents) (24)
+- [AI agents](#ai-agents) (25)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (6)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
@@ -359,6 +360,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [autonomous attacks](#autonomous-attacks) (1)
 - [autonomous exploitation](#autonomous-exploitation) (1)
 - [autonomous scanning](#autonomous-scanning) (1)
+- [autonomous vulnerability discovery](#autonomous-vulnerability-discovery) (1)
 - [autorun=1](#autorun1) (1)
 - [AV killer](#av-killer) (1)
 - [Avada](#avada) (1)
@@ -1179,6 +1181,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [CVE-2026-9198](#cve-2026-9198) (1)
 - [CVE-2026-9539](#cve-2026-9539) (1)
+- [CVSS](#cvss) (1)
 - [CVSS 10.0](#cvss-100) (2)
 - [CVSS 9.0](#cvss-90) (1)
 - [cvvform](#cvvform) (1)
@@ -1693,6 +1696,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Freedom365](#freedom365) (1)
 - [freeware impersonation](#freeware-impersonation) (1)
 - [Friendly Fire](#friendly-fire) (1)
+- [frontier AI](#frontier-ai) (1)
 - [FruitStone](#fruitstone) (1)
 - [FSB](#fsb) (4)
 - [FSB Center 16](#fsb-center-16) (2)
@@ -2627,6 +2631,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mullvad VPN](#mullvad-vpn) (1)
 - [multi-agent](#multi-agent) (1)
 - [Multi-Domain Security Management](#multi-domain-security-management) (1)
+- [multi-model ensemble](#multi-model-ensemble) (1)
 - [multi-organization PAT campaign](#multi-organization-pat-campaign) (1)
 - [multi-tenant cloud](#multi-tenant-cloud) (2)
 - [multi-tenant isolation](#multi-tenant-isolation) (2)
@@ -2728,6 +2733,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notebook security](#notebook-security) (1)
 - [notebookjs](#notebookjs) (1)
 - [notification interception](#notification-interception) (1)
+- [NOVA](#nova) (1)
 - [NovaCookies](#novacookies) (1)
 - [Now Platform](#now-platform) (1)
 - [npm](#npm) (69)
@@ -2810,6 +2816,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Open VSX](#open-vsx) (1)
 - [Open WebUI](#open-webui) (1)
 - [open-source](#open-source) (1)
+- [open-source supply chain](#open-source-supply-chain) (1)
 - [open-source-malware](#open-source-malware) (1)
 - [OpenAI](#openai) (3)
 - [OpenAI API keys](#openai-api-keys) (1)
@@ -2941,6 +2948,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patch bypass](#patch-bypass) (1)
 - [patch management](#patch-management) (3)
 - [Patch the Planet](#patch-the-planet) (1)
+- [patch window](#patch-window) (1)
 - [patch-now](#patch-now) (1)
 - [PATCHCORD](#patchcord) (1)
 - [patching](#patching) (2)
@@ -2949,7 +2957,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (10)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (50)
+- [patterns](#patterns) (51)
 - [Paweł Płatek](#pawe-patek) (1)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
@@ -3110,6 +3118,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Program Compatibility Assistant](#program-compatibility-assistant) (1)
 - [Progress Kemp LoadMaster](#progress-kemp-loadmaster) (1)
 - [Progress Software](#progress-software) (1)
+- [Project Lightwell](#project-lightwell) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
 - [prompt infection](#prompt-infection) (1)
 - [prompt injection](#prompt-injection) (17)
@@ -4083,7 +4092,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [unintended internet access](#unintended-internet-access) (1)
 - [Unisoc](#unisoc) (1)
-- [Unit 42](#unit-42) (10)
+- [Unit 42](#unit-42) (11)
 - [United States](#united-states) (3)
 - [Unitree](#unitree) (1)
 - [university targeting](#university-targeting) (1)
@@ -4167,6 +4176,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ViewState deserialization](#viewstate-deserialization) (1)
 - [ViPNet](#vipnet) (1)
 - [virtual machine escape](#virtual-machine-escape) (1)
+- [virtual patching](#virtual-patching) (1)
 - [virtualization](#virtualization) (2)
 - [virtualization targeting](#virtualization-targeting) (2)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
@@ -4212,7 +4222,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
 - [vulnerability disclosure](#vulnerability-disclosure) (2)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
-- [vulnerability management](#vulnerability-management) (2)
+- [vulnerability management](#vulnerability-management) (3)
 - [vulnerability research](#vulnerability-research) (4)
 - [vulnerability-research](#vulnerability-research) (1)
 - [vulnerable appliances](#vulnerable-appliances) (1)
@@ -4398,7 +4408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zero Trust](#zero-trust) (1)
 - [zero-balance](#zero-balance) (1)
 - [zero-click](#zero-click) (1)
-- [zero-day](#zero-day) (10)
+- [zero-day](#zero-day) (11)
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [ZeroBEC](#zerobec) (1)
@@ -4958,6 +4968,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## agentic malware
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## agentic pipeline
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
+
 ## agentic ransomware
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
@@ -5021,6 +5034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
 ## AI anti-analysis
@@ -5829,6 +5843,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## autonomous scanning
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
+
+## autonomous vulnerability discovery
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 
 ## autorun=1
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
@@ -9097,6 +9114,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-9539
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 
+## CVSS
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
+
 ## CVSS 10.0
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [ServiceNow AI Platform August 27, 2026 advisory: three CVSS 10.0 unauthenticated flaws and a sandbox escape (CVE-2026-18885 / CVE-2026-18886 / CVE-2026-74820 / CVE-2026-6876)](../ops/servicenow-ai-platform-august-27-2026-three-cvss-10-unauthenticated-flaws.md)
@@ -11152,6 +11172,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Friendly Fire
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
+## frontier AI
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 
 ## FruitStone
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
@@ -14834,6 +14857,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Multi-Domain Security Management
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 
+## multi-model ensemble
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
+
 ## multi-organization PAT campaign
 - [TeamPCP](../actors/teampcp.md)
 
@@ -15194,6 +15220,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## notification interception
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
+## NOVA
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
+
 ## NovaCookies
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
 
@@ -15551,6 +15580,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## open-source
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
+
+## open-source supply chain
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 
 ## open-source-malware
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
@@ -16698,6 +16730,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Patch the Planet
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 
+## patch window
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
+
 ## patch-now
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 
@@ -16780,6 +16815,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
@@ -17442,6 +17478,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Progress Software
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
+
+## Project Lightwell
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 
 ## Project Proposal.exe
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
@@ -21385,6 +21424,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## United States
@@ -21671,6 +21711,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## virtual machine escape
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
+## virtual patching
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
+
 ## virtualization
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
@@ -21876,6 +21919,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vulnerability management
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 
 ## vulnerability research
 - [ChocoPoC](../tools/chocopoc.md)
@@ -22646,6 +22690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+- [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 
