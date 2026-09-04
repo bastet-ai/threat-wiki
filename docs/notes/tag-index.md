@@ -14,6 +14,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [/api/session/reset_password](#apisessionreset_password) (1)
 - [/dev/kvm](#devkvm) (1)
 - [/proc/1/environ](#proc1environ) (1)
+- [0-day](#0-day) (1)
 - [0.14.3](#0143) (1)
 - [0x50594d](#0x50594d) (1)
 - [146.70.139.154](#14670139154) (1)
@@ -63,13 +64,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACTINIUM](#actinium) (1)
 - [Activator.CreateInstance](#activatorcreateinstance) (1)
 - [Active Directory](#active-directory) (2)
-- [active exploitation](#active-exploitation) (75)
+- [active exploitation](#active-exploitation) (77)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
 - [ActiveCampaign](#activecampaign) (1)
 - [actively-exploited](#actively-exploited) (1)
 - [ActiveX](#activex) (1)
+- [activism](#activism) (1)
 - [actor](#actor) (6)
 - [actors](#actors) (12)
 - [ad blocker](#ad-blocker) (1)
@@ -93,6 +95,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adspect](#adspect) (1)
 - [Advanced IP Scanner](#advanced-ip-scanner) (1)
 - [advanced persistent threat](#advanced-persistent-threat) (1)
+- [Advanced Protection](#advanced-protection) (1)
 - [Adversa](#adversa) (1)
 - [Adversa AI](#adversa-ai) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (7)
@@ -196,7 +199,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AI-generated narrator](#ai-generated-narrator) (1)
 - [Aider](#aider) (1)
-- [Aikido](#aikido) (1)
+- [Aikido](#aikido) (2)
 - [AISURU](#aisuru) (2)
 - [AiTM](#aitm) (4)
 - [AitM](#aitm) (1)
@@ -220,7 +223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AMSI patch](#amsi-patch) (1)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
 - [Ancillary Function Driver](#ancillary-function-driver) (1)
-- [Android](#android) (10)
+- [Android](#android) (11)
 - [Android Accessibility Service](#android-accessibility-service) (2)
 - [Android ADB](#android-adb) (3)
 - [Android automotive](#android-automotive) (1)
@@ -260,6 +263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AppDomainManager injection](#appdomainmanager-injection) (2)
 - [Apple](#apple) (1)
 - [Apple Sign-In](#apple-sign-in) (1)
+- [Apple threat notification](#apple-threat-notification) (1)
 - [AppleJeus](#applejeus) (1)
 - [AppleScript](#applescript) (1)
 - [AppleSeed](#appleseed) (1)
@@ -289,8 +293,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [arbitrary file deletion](#arbitrary-file-deletion) (1)
 - [arbitrary file disclosure](#arbitrary-file-disclosure) (1)
 - [arbitrary file read](#arbitrary-file-read) (3)
-- [arbitrary file upload](#arbitrary-file-upload) (1)
-- [arbitrary file write](#arbitrary-file-write) (5)
+- [arbitrary file upload](#arbitrary-file-upload) (2)
+- [arbitrary file write](#arbitrary-file-write) (6)
 - [arbitrary JavaScript](#arbitrary-javascript) (1)
 - [ArcBridge](#arcbridge) (2)
 - [Arch Linux](#arch-linux) (1)
@@ -474,6 +478,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BLUEBEAM](#bluebeam) (1)
 - [BlueDelta](#bluedelta) (1)
 - [bluemonday](#bluemonday) (1)
+- [Blueprints](#blueprints) (1)
 - [Bluetooth LE](#bluetooth-le) (1)
 - [Boatnet](#boatnet) (1)
 - [BOD 26-04](#bod-26-04) (10)
@@ -515,7 +520,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser security](#browser-security) (3)
 - [browser session abuse](#browser-session-abuse) (2)
 - [browser session risk](#browser-session-risk) (3)
-- [browser zero-day](#browser-zero-day) (1)
+- [browser zero-day](#browser-zero-day) (2)
 - [browser-based attack](#browser-based-attack) (1)
 - [browser-credential-theft](#browser-credential-theft) (1)
 - [browser-extensions](#browser-extensions) (2)
@@ -596,6 +601,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CDN abuse](#cdn-abuse) (1)
 - [cdn.jsdelivr.net](#cdnjsdelivrnet) (1)
 - [CDP](#cdp) (1)
+- [Cellebrite](#cellebrite) (1)
 - [cellular modem](#cellular-modem) (1)
 - [census](#census) (1)
 - [Censys](#censys) (1)
@@ -617,7 +623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [chainlit](#chainlit) (1)
 - [ChainVeil](#chainveil) (1)
 - [Chaos ransomware](#chaos-ransomware) (1)
-- [Chaotic Eclipse](#chaotic-eclipse) (1)
+- [Chaotic Eclipse](#chaotic-eclipse) (2)
 - [charging](#charging) (1)
 - [Charming Kitten](#charming-kitten) (2)
 - [chat-template poisoning](#chat-template-poisoning) (1)
@@ -652,7 +658,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome Web Store](#chrome-web-store) (5)
 - [chrome_settings_overrides](#chrome_settings_overrides) (1)
 - [ChromElevator](#chromelevator) (1)
-- [Chromium](#chromium) (5)
+- [Chromium](#chromium) (6)
 - [Chromium extension](#chromium-extension) (1)
 - [chunked exfiltration](#chunked-exfiltration) (1)
 - [CI secrets](#ci-secrets) (1)
@@ -672,6 +678,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Talos](#cisco-talos) (2)
 - [Cisco Unified CM](#cisco-unified-cm) (1)
 - [Cisco Unified Communications Manager](#cisco-unified-communications-manager) (1)
+- [Citizen Lab](#citizen-lab) (1)
 - [citizen portal compromise](#citizen-portal-compromise) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
 - [Citrix](#citrix) (5)
@@ -702,7 +709,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickOnce](#clickonce) (1)
 - [ClickUp](#clickup) (1)
 - [client installer poisoning](#client-installer-poisoning) (1)
-- [client-side exploitation](#client-side-exploitation) (1)
+- [client-side exploitation](#client-side-exploitation) (2)
 - [Cline](#cline) (1)
 - [clipboard hijacker](#clipboard-hijacker) (1)
 - [clipboard hijacking](#clipboard-hijacking) (1)
@@ -805,6 +812,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [construction](#construction) (2)
 - [consumer devices](#consumer-devices) (1)
 - [consumer IoT](#consumer-iot) (1)
+- [consumer software](#consumer-software) (1)
 - [Contagious Interview](#contagious-interview) (5)
 - [container](#container) (1)
 - [container escape](#container-escape) (5)
@@ -891,6 +899,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crosswork Network Controller](#crosswork-network-controller) (1)
 - [Crosswork Planning](#crosswork-planning) (1)
 - [CrowdStrike](#crowdstrike) (1)
+- [CrowdStrike Falcon](#crowdstrike-falcon) (1)
 - [CrownX](#crownx) (2)
 - [Crucio](#crucio) (1)
 - [crypto](#crypto) (2)
@@ -926,6 +935,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Curve25519-XSalsa20-Poly1305](#curve25519-xsalsa20-poly1305) (1)
 - [custody APIs](#custody-apis) (1)
 - [custom instruction set](#custom-instruction-set) (1)
+- [custom map](#custom-map) (1)
 - [CVE](#cve) (2)
 - [CVE-2008-4128](#cve-2008-4128) (1)
 - [CVE-2013-3307](#cve-2013-3307) (1)
@@ -989,6 +999,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-12957](#cve-2026-12957) (1)
 - [CVE-2026-12958](#cve-2026-12958) (1)
 - [CVE-2026-14494](#cve-2026-14494) (1)
+- [CVE-2026-14894](#cve-2026-14894) (1)
 - [CVE-2026-15409](#cve-2026-15409) (1)
 - [CVE-2026-15410](#cve-2026-15410) (1)
 - [CVE-2026-15583](#cve-2026-15583) (1)
@@ -1032,7 +1043,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-28318](#cve-2026-28318) (1)
 - [CVE-2026-29059](#cve-2026-29059) (1)
 - [CVE-2026-3055](#cve-2026-3055) (1)
-- [CVE-2026-32475](#cve-2026-32475) (1)
+- [CVE-2026-32475](#cve-2026-32475) (2)
 - [CVE-2026-3300](#cve-2026-3300) (1)
 - [CVE-2026-33017](#cve-2026-33017) (3)
 - [CVE-2026-33691](#cve-2026-33691) (1)
@@ -1094,7 +1105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-48939](#cve-2026-48939) (1)
 - [CVE-2026-49869](#cve-2026-49869) (1)
 - [CVE-2026-50522](#cve-2026-50522) (1)
-- [CVE-2026-50656](#cve-2026-50656) (1)
+- [CVE-2026-50656](#cve-2026-50656) (2)
 - [CVE-2026-50751](#cve-2026-50751) (1)
 - [CVE-2026-50752](#cve-2026-50752) (1)
 - [CVE-2026-51296](#cve-2026-51296) (1)
@@ -1153,6 +1164,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-6875](#cve-2026-6875) (1)
 - [CVE-2026-6876](#cve-2026-6876) (1)
 - [CVE-2026-68820](#cve-2026-68820) (2)
+- [CVE-2026-69414](#cve-2026-69414) (1)
 - [CVE-2026-69836](#cve-2026-69836) (1)
 - [CVE-2026-72529](#cve-2026-72529) (1)
 - [CVE-2026-72530](#cve-2026-72530) (1)
@@ -1185,6 +1197,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-8451](#cve-2026-8451) (1)
 - [CVE-2026-8452](#cve-2026-8452) (2)
 - [CVE-2026-8461](#cve-2026-8461) (1)
+- [CVE-2026-85046](#cve-2026-85046) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [CVE-2026-9198](#cve-2026-9198) (1)
@@ -1215,7 +1228,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CyberAv3ngers](#cyberav3ngers) (1)
 - [cybercrime](#cybercrime) (17)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
-- [cyberespionage](#cyberespionage) (6)
+- [cyberespionage](#cyberespionage) (7)
 - [Cython](#cython) (1)
 - [Czech Republic](#czech-republic) (1)
 - [D-Link](#d-link) (1)
@@ -1273,7 +1286,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense targeting](#defense-targeting) (1)
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (4)
-- [delayed execution](#delayed-execution) (2)
+- [delayed execution](#delayed-execution) (3)
 - [denial of service](#denial-of-service) (10)
 - [Deno](#deno) (2)
 - [Denys Pakizh](#denys-pakizh) (1)
@@ -1437,6 +1450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge services](#edge-services) (1)
 - [edge-service denial of service](#edge-service-denial-of-service) (1)
 - [editor profile import](#editor-profile-import) (1)
+- [EDR](#edr) (1)
 - [EDR bypass](#edr-bypass) (1)
 - [EDR evasion](#edr-evasion) (3)
 - [EDR killer](#edr-killer) (2)
@@ -1451,9 +1465,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Elastic Agent](#elastic-agent) (1)
 - [Elastic Security Labs](#elastic-security-labs) (5)
 - [Elasticsearch](#elasticsearch) (1)
+- [elections](#elections) (1)
 - [electric power sector](#electric-power-sector) (2)
 - [Electron](#electron) (3)
-- [Elementor Pro](#elementor-pro) (1)
+- [Elementor Pro](#elementor-pro) (2)
 - [email](#email) (1)
 - [email exfiltration](#email-exfiltration) (2)
 - [email gateway](#email-gateway) (1)
@@ -1479,7 +1494,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [endpoint detection](#endpoint-detection) (1)
 - [endpoint management](#endpoint-management) (2)
 - [endpoint management abuse](#endpoint-management-abuse) (1)
-- [endpoint response](#endpoint-response) (1)
+- [endpoint response](#endpoint-response) (2)
+- [endpoint security](#endpoint-security) (1)
 - [endpoint-detection](#endpoint-detection) (1)
 - [endpoint-security](#endpoint-security) (2)
 - [EndpointDlp.dll](#endpointdlpdll) (1)
@@ -1602,6 +1618,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [faketivism](#faketivism) (1)
 - [FakeUpdates](#fakeupdates) (1)
 - [FALCON](#falcon) (1)
+- [Falcon Sensor](#falcon-sensor) (1)
 - [FallSpy](#fallspy) (1)
 - [false positive](#false-positive) (2)
 - [false positives](#false-positives) (1)
@@ -1735,6 +1752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [gambling](#gambling) (1)
 - [gambling industry targeting](#gambling-industry-targeting) (1)
 - [game cheats](#game-cheats) (1)
+- [game exploitation](#game-exploitation) (1)
 - [gaming malware](#gaming-malware) (1)
 - [GammaLoad](#gammaload) (1)
 - [GammaPhish](#gammaphish) (1)
@@ -1845,7 +1863,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Analytics telemetry](#google-analytics-telemetry) (1)
 - [Google API](#google-api) (3)
 - [Google Calendar](#google-calendar) (1)
-- [Google Chrome](#google-chrome) (2)
+- [Google Chrome](#google-chrome) (3)
 - [Google Cloud](#google-cloud) (2)
 - [Google Cloud Authenticator](#google-cloud-authenticator) (1)
 - [Google Cloud Logging](#google-cloud-logging) (1)
@@ -1920,6 +1938,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HAR files](#har-files) (1)
 - [hard-coded password](#hard-coded-password) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
+- [HardBreacher](#hardbreacher) (1)
 - [hardcoded key](#hardcoded-key) (1)
 - [hardening gap](#hardening-gap) (1)
 - [hardware wallet](#hardware-wallet) (2)
@@ -1983,7 +2002,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HPC](#hpc) (1)
 - [HR lures](#hr-lures) (1)
 - [HS256](#hs256) (1)
-- [HTA](#hta) (5)
+- [HTA](#hta) (6)
 - [HTML comments](#html-comments) (1)
 - [HTML email](#html-email) (2)
 - [HTML sanitization](#html-sanitization) (1)
@@ -2040,7 +2059,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [image proxy bypass](#image-proxy-bypass) (1)
 - [image recognition](#image-recognition) (1)
 - [ImageMagick](#imagemagick) (1)
-- [iMessage](#imessage) (1)
+- [iMessage](#imessage) (2)
 - [Impacket](#impacket) (4)
 - [Imperial Kitten](#imperial-kitten) (1)
 - [impersonation](#impersonation) (2)
@@ -2070,6 +2089,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [industrial espionage](#industrial-espionage) (1)
 - [industrial targeting](#industrial-targeting) (1)
 - [inference server](#inference-server) (1)
+- [INFINITE NIGHTMARE](#infinite-nightmare) (1)
 - [INFINITERED](#infinitered) (1)
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (5)
@@ -2105,7 +2125,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [invisible prompt injection](#invisible-prompt-injection) (1)
 - [InvisibleFerret](#invisibleferret) (1)
 - [invocation logging](#invocation-logging) (1)
-- [iOS](#ios) (2)
+- [iOS](#ios) (3)
 - [IoT](#iot) (9)
 - [IoT botnet](#iot-botnet) (8)
 - [IP cameras](#ip-cameras) (2)
@@ -2178,6 +2198,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Joomlack](#joomlack) (1)
 - [JoomShaper](#joomshaper) (1)
 - [Jordan](#jordan) (1)
+- [journalism](#journalism) (1)
 - [journalists](#journalists) (1)
 - [JPMorgan Chase](#jpmorgan-chase) (1)
 - [JSCEAL](#jsceal) (1)
@@ -2355,7 +2376,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [loader](#loader) (7)
 - [loadlib2](#loadlib2) (1)
 - [LOADLOOP](#loadloop) (1)
-- [local exploit](#local-exploit) (1)
+- [local exploit](#local-exploit) (2)
 - [local inference](#local-inference) (1)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (10)
@@ -2366,6 +2387,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [localStorage](#localstorage) (2)
 - [LockBit](#lockbit) (2)
 - [LockBit 3.0](#lockbit-30) (1)
+- [Lockdown Mode](#lockdown-mode) (1)
 - [LockScreen](#lockscreen) (1)
 - [LockScreenContentServer](#lockscreencontentserver) (1)
 - [log poisoning](#log-poisoning) (1)
@@ -2485,6 +2507,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP gateway](#mcp-gateway) (1)
 - [MCP stdio command execution](#mcp-stdio-command-execution) (1)
 - [mcp-grafana](#mcp-grafana) (1)
+- [MECCHA CHAMELEON](#meccha-chameleon) (1)
 - [media embed](#media-embed) (1)
 - [media processing](#media-processing) (1)
 - [MediaFire](#mediafire) (1)
@@ -2597,6 +2620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile devices](#mobile-devices) (1)
 - [mobile exploitation](#mobile-exploitation) (1)
 - [mobile malware](#mobile-malware) (3)
+- [mobile spyware](#mobile-spyware) (1)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
 - [MODAFL](#modafl) (1)
 - [MODBEACON](#modbeacon) (2)
@@ -2635,8 +2659,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [msaRAT](#msarat) (1)
 - [MSBuild](#msbuild) (1)
 - [msgpack](#msgpack) (1)
-- [mshta](#mshta) (5)
+- [mshta](#mshta) (6)
 - [MSI](#msi) (1)
+- [MSNightmare](#msnightmare) (1)
 - [MSP](#msp) (3)
 - [MSSQL](#mssql) (1)
 - [MSXML2.XMLHTTP](#msxml2xmlhttp) (1)
@@ -2723,6 +2748,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nigeria-nexus](#nigeria-nexus) (1)
 - [Night Dragon](#night-dragon) (1)
 - [NightLedger](#nightledger) (2)
+- [Nightmare-Eclipse](#nightmare-eclipse) (1)
 - [Nim](#nim) (1)
 - [Nimbus Manticore](#nimbus-manticore) (2)
 - [NirSoft](#nirsoft) (1)
@@ -2751,6 +2777,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [notification interception](#notification-interception) (1)
 - [NOVA](#nova) (1)
 - [NovaCookies](#novacookies) (1)
+- [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
 - [npm](#npm) (69)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
@@ -2764,6 +2791,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npx confusion](#npx-confusion) (1)
 - [NSA](#nsa) (1)
 - [NSecKrnl.sys](#nseckrnlsys) (1)
+- [NSO Group](#nso-group) (1)
 - [nsppe](#nsppe) (1)
 - [NTDS.dit](#ntdsdit) (2)
 - [NTFS ADS](#ntfs-ads) (3)
@@ -2774,6 +2802,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nuclear weapons](#nuclear-weapons) (1)
 - [NuGet](#nuget) (4)
 - [Nuitka](#nuitka) (1)
+- [null byte truncation](#null-byte-truncation) (1)
 - [null-byte padding](#null-byte-padding) (1)
 - [NullReceiver](#nullreceiver) (1)
 - [NullSessionPipes](#nullsessionpipes) (1)
@@ -2806,6 +2835,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OctLurk](#octlurk) (2)
 - [Octopi365](#octopi365) (1)
 - [OFAC](#ofac) (2)
+- [Office macros](#office-macros) (1)
 - [official store compromise](#official-store-compromise) (1)
 - [Offshore LC](#offshore-lc) (1)
 - [OIDC](#oidc) (9)
@@ -2868,12 +2898,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (322)
+- [operations](#operations) (327)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (373)
+- [ops](#ops) (378)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -2963,8 +2993,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [passwordless authentication](#passwordless-authentication) (1)
 - [Pastebin](#pastebin) (2)
 - [PAT theft](#pat-theft) (1)
-- [patch bypass](#patch-bypass) (1)
-- [patch management](#patch-management) (3)
+- [patch bypass](#patch-bypass) (2)
+- [patch management](#patch-management) (5)
 - [Patch the Planet](#patch-the-planet) (1)
 - [patch window](#patch-window) (1)
 - [patch-now](#patch-now) (1)
@@ -2973,7 +3003,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patchstack](#patchstack) (1)
 - [Patchstack](#patchstack) (1)
 - [path hijacking](#path-hijacking) (1)
-- [path traversal](#path-traversal) (10)
+- [path traversal](#path-traversal) (11)
 - [Patriot Bait](#patriot-bait) (1)
 - [patterns](#patterns) (52)
 - [Paweł Płatek](#pawe-patek) (1)
@@ -2991,10 +3021,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [payroll lures](#payroll-lures) (1)
 - [Paysafe](#paysafe) (1)
 - [pc-app.exe](#pc-appexe) (1)
+- [PCM](#pcm) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [PEB hash](#peb-hash) (1)
 - [PebbleDash](#pebbledash) (1)
 - [pedit](#pedit) (1)
+- [Pegasus](#pegasus) (1)
 - [pentesting](#pentesting) (1)
 - [people](#people) (1)
 - [people and process](#people-and-process) (1)
@@ -3026,7 +3058,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PHP code injection](#php-code-injection) (1)
 - [PHP object injection](#php-object-injection) (3)
 - [PHP upload](#php-upload) (1)
-- [PHP web shell](#php-web-shell) (1)
+- [PHP web shell](#php-web-shell) (2)
 - [physical systems](#physical-systems) (1)
 - [physics](#physics) (1)
 - [PicassoLoader](#picassoloader) (1)
@@ -3065,6 +3097,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [poisoned-branch](#poisoned-branch) (1)
 - [PoisonX](#poisonx) (1)
 - [police digital services](#police-digital-services) (1)
+- [policy-setting abuse](#policy-setting-abuse) (1)
 - [PolinRider](#polinrider) (3)
 - [Poly1305](#poly1305) (1)
 - [polyfill](#polyfill) (1)
@@ -3120,7 +3153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private packages](#private-packages) (1)
 - [private registry fallback](#private-registry-fallback) (1)
 - [private-key theft](#private-key-theft) (1)
-- [privilege escalation](#privilege-escalation) (16)
+- [privilege escalation](#privilege-escalation) (17)
 - [privileged proxy](#privileged-proxy) (1)
 - [Privileged Remote Access](#privileged-remote-access) (1)
 - [PRNG](#prng) (1)
@@ -3311,7 +3344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (7)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (27)
+- [remote code execution](#remote-code-execution) (29)
 - [remote debugging](#remote-debugging) (2)
 - [remote desktop](#remote-desktop) (1)
 - [remote MCP](#remote-mcp) (1)
@@ -3365,8 +3398,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
+- [Robbe Van Roey](#robbe-van-roey) (1)
 - [Rockwell Automation](#rockwell-automation) (1)
-- [RoguePlanet](#rogueplanet) (1)
+- [RoguePlanet](#rogueplanet) (2)
 - [Rokarolla](#rokarolla) (2)
 - [RokRAT](#rokrat) (1)
 - [rolling deploy](#rolling-deploy) (1)
@@ -3497,6 +3531,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Security Management Server](#security-management-server) (1)
 - [security operations](#security-operations) (1)
 - [security platform](#security-platform) (1)
+- [security tool abuse](#security-tool-abuse) (1)
 - [security-tool discovery](#security-tool-discovery) (1)
 - [SecurityPDF](#securitypdf) (1)
 - [seed phrase](#seed-phrase) (1)
@@ -3526,6 +3561,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SEO poisoning](#seo-poisoning) (8)
 - [Seqrite](#seqrite) (1)
 - [Seqrite Labs](#seqrite-labs) (2)
+- [Serbia](#serbia) (1)
 - [serial-number relay](#serial-number-relay) (1)
 - [Serialize::unserialize](#serializeunserialize) (1)
 - [Serv-U](#serv-u) (1)
@@ -3560,6 +3596,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ShadowPad](#shadowpad) (4)
 - [Shai-Hulud](#shai-hulud) (14)
 - [SHARDLOADER](#shardloader) (2)
+- [SHARE Foundation](#share-foundation) (1)
 - [share propagation](#share-propagation) (1)
 - [shared accounts](#shared-accounts) (1)
 - [shared hosting](#shared-hosting) (4)
@@ -3577,7 +3614,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shell injection](#shell-injection) (1)
 - [shellcode](#shellcode) (1)
 - [Shenzhen Zhibotong Electronics](#shenzhen-zhibotong-electronics) (2)
-- [ShieldBreak](#shieldbreak) (1)
+- [ShieldBreak](#shieldbreak) (2)
 - [Shinobi](#shinobi) (1)
 - [ShinyHunters](#shinyhunters) (2)
 - [ShinyHunters-adjacent](#shinyhunters-adjacent) (1)
@@ -3780,7 +3817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Starland RAT](#starland-rat) (3)
 - [Starlette](#starlette) (1)
 - [Startup folder](#startup-folder) (1)
-- [Startup folder persistence](#startup-folder-persistence) (1)
+- [Startup folder persistence](#startup-folder-persistence) (2)
 - [state desynchronization](#state-desynchronization) (1)
 - [state divergence](#state-divergence) (1)
 - [state-linked](#state-linked) (2)
@@ -3792,6 +3829,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StealC](#stealc) (2)
 - [stealer](#stealer) (3)
 - [Steam profile dead drop](#steam-profile-dead-drop) (2)
+- [Steam Workshop](#steam-workshop) (1)
 - [steering file](#steering-file) (1)
 - [steganography](#steganography) (4)
 - [StegoAd](#stegoad) (1)
@@ -3827,6 +3865,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUMMIT](#summit) (3)
 - [Suo5](#suo5) (1)
 - [Supabase](#supabase) (1)
+- [Super Forms](#super-forms) (1)
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [supply chain](#supply-chain) (24)
 - [supply chain compromise](#supply-chain-compromise) (1)
@@ -3837,6 +3876,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply-chain risk](#supply-chain-risk) (3)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
 - [surveillance](#surveillance) (1)
+- [surveillance abuse](#surveillance-abuse) (1)
 - [suspected China-aligned](#suspected-china-aligned) (1)
 - [suspected China-linked](#suspected-china-linked) (1)
 - [SVG](#svg) (3)
@@ -3886,6 +3926,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [takedown](#takedown) (3)
 - [TamperedChef](#tamperedchef) (1)
 - [Tanzania](#tanzania) (1)
+- [targeted attack](#targeted-attack) (1)
 - [targeted malware](#targeted-malware) (1)
 - [targeted operations](#targeted-operations) (2)
 - [TartarusGate](#tartarusgate) (1)
@@ -3955,6 +3996,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [third-party risk](#third-party-risk) (1)
 - [thought virus](#thought-virus) (1)
 - [threat hunting](#threat-hunting) (1)
+- [threat intelligence](#threat-intelligence) (1)
 - [threat landscape](#threat-landscape) (2)
 - [threat measurement](#threat-measurement) (1)
 - [threat research](#threat-research) (1)
@@ -4056,7 +4098,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TWINLOOT](#twinloot) (1)
 - [two-factor authentication](#two-factor-authentication) (1)
 - [Tycoon2FA](#tycoon2fa) (1)
-- [type confusion](#type-confusion) (1)
+- [type confusion](#type-confusion) (2)
 - [TypeConfuseDelegate](#typeconfusedelegate) (1)
 - [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (3)
@@ -4089,7 +4131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
 - [unattributed](#unattributed) (2)
-- [unauthenticated](#unauthenticated) (9)
+- [unauthenticated](#unauthenticated) (10)
 - [unauthenticated access](#unauthenticated-access) (4)
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (2)
@@ -4134,6 +4176,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unpatched transitive library](#unpatched-transitive-library) (1)
 - [unpatched vulnerability](#unpatched-vulnerability) (2)
 - [unpkg](#unpkg) (1)
+- [Unreal Engine](#unreal-engine) (1)
 - [unrestricted file upload](#unrestricted-file-upload) (1)
 - [unsafe deserialization](#unsafe-deserialization) (2)
 - [unsafe reflection](#unsafe-reflection) (1)
@@ -4167,7 +4210,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Uzbekistan](#uzbekistan) (1)
 - [V2Ray](#v2ray) (1)
 - [V4bel](#v4bel) (1)
-- [V8](#v8) (4)
+- [V8](#v8) (5)
 - [V8 isolate](#v8-isolate) (1)
 - [V8 isolates](#v8-isolates) (1)
 - [valid accounts](#valid-accounts) (4)
@@ -4279,6 +4322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [water sector](#water-sector) (1)
 - [watering hole](#watering-hole) (2)
 - [watering-hole](#watering-hole) (2)
+- [WAV](#wav) (1)
 - [weak authentication](#weak-authentication) (1)
 - [weak credentials](#weak-credentials) (1)
 - [weak entropy](#weak-entropy) (2)
@@ -4339,7 +4383,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
 - [Windmill](#windmill) (1)
-- [Windows](#windows) (51)
+- [Windows](#windows) (52)
+- [Windows 11 25H2](#windows-11-25h2) (1)
 - [Windows Defender](#windows-defender) (1)
 - [Windows Defender exclusions](#windows-defender-exclusions) (1)
 - [Windows Defender impairment](#windows-defender-impairment) (1)
@@ -4349,6 +4394,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows persistence](#windows-persistence) (1)
 - [Windows Run dialog](#windows-run-dialog) (1)
 - [Windows Script Host](#windows-script-host) (2)
+- [Windows Server 2025](#windows-server-2025) (1)
 - [Windows servers](#windows-servers) (1)
 - [Windows service](#windows-service) (1)
 - [Windows service persistence](#windows-service-persistence) (1)
@@ -4370,7 +4416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WMI](#wmi) (1)
 - [Woodgnat](#woodgnat) (1)
 - [WordlistLoader](#wordlistloader) (1)
-- [WordPress](#wordpress) (14)
+- [WordPress](#wordpress) (15)
 - [WordPress 7.0.4](#wordpress-704) (1)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
 - [workerd](#workerd) (1)
@@ -4442,8 +4488,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zephyr RTOS](#zephyr-rtos) (1)
 - [Zero Trust](#zero-trust) (1)
 - [zero-balance](#zero-balance) (1)
-- [zero-click](#zero-click) (1)
-- [zero-day](#zero-day) (11)
+- [zero-click](#zero-click) (2)
+- [zero-day](#zero-day) (12)
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [zero-width](#zero-width) (1)
@@ -4510,6 +4556,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## /proc/1/environ
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
+
+## 0-day
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 
 ## 0.14.3
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
@@ -4677,6 +4726,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
@@ -4744,6 +4794,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
@@ -4767,6 +4818,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ActiveX
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
+
+## activism
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## actor
 - [Mirage Kitten](../actors/mirage-kitten.md)
@@ -4855,6 +4909,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## advanced persistent threat
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
+
+## Advanced Protection
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## Adversa
 - [Adversa "Cryptographic Context Injection": web pages steal Grok chat data](../ops/adversa-cryptographic-context-injection-grok-chat-data-exfiltration.md)
@@ -5280,6 +5337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Aikido
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 
 ## AISURU
 - [Kimwolf v7](../tools/kimwolf-v7.md)
@@ -5371,6 +5429,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
@@ -5518,6 +5577,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Apple Sign-In
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
+## Apple threat notification
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
+
 ## AppleJeus
 - [RemotePE](../tools/remotepe.md)
 
@@ -5625,11 +5687,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## arbitrary file upload
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 
 ## arbitrary file write
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
@@ -6301,6 +6365,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## bluemonday
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 
+## Blueprints
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
+
 ## Bluetooth LE
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
@@ -6501,6 +6568,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browser zero-day
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 
 ## browser-based attack
 - [NemoClaw local Ollama chat-template poisoning (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
@@ -6792,6 +6860,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CDP
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 
+## Cellebrite
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
+
 ## cellular modem
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
@@ -6859,6 +6930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 
 ## Chaotic Eclipse
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 
 ## charging
@@ -7019,6 +7091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Chromium
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [ToddyCat](../actors/toddycat.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
@@ -7194,6 +7267,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cisco Unified Communications Manager
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 
+## Citizen Lab
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
+
 ## citizen portal compromise
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 
@@ -7330,6 +7406,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## client-side exploitation
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 
 ## Cline
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -7755,6 +7832,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## consumer IoT
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+
+## consumer software
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 
 ## Contagious Interview
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
@@ -8210,6 +8290,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CrowdStrike
 - [Benchmaxxing: when a benchmark becomes the target](../patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
 
+## CrowdStrike Falcon
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
+
 ## CrownX
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
@@ -8367,6 +8450,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## custom instruction set
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
+
+## custom map
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 
 ## CVE
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
@@ -8567,6 +8653,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-14494
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
+## CVE-2026-14894
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
+
 ## CVE-2026-15409
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
@@ -8699,6 +8788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-32475
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 
 ## CVE-2026-3300
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
@@ -8897,6 +8987,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 
 ## CVE-2026-50656
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 
 ## CVE-2026-50751
@@ -9078,6 +9169,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
 
+## CVE-2026-69414
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
+
 ## CVE-2026-69836
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
@@ -9175,6 +9269,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-8461
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+
+## CVE-2026-85046
+- [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 
 ## CVE-2026-8732
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
@@ -9298,6 +9395,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [OWAReaper](../tools/owareaper.md)
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 
@@ -9541,6 +9639,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## delayed execution
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 
 ## denial of service
@@ -10222,6 +10321,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## editor profile import
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
+## EDR
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
+
 ## EDR bypass
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
@@ -10273,6 +10375,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Elasticsearch
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
+## elections
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
+
 ## electric power sector
 - [Armored Likho](../actors/armored-likho.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
@@ -10284,6 +10389,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Elementor Pro
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 
 ## email
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
@@ -10373,6 +10479,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## endpoint response
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
+
+## endpoint security
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 
 ## endpoint-detection
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
@@ -10887,6 +10997,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FALCON
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
+## Falcon Sensor
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
+
 ## FallSpy
 - [GREYVIBE](../actors/greyvibe.md)
 
@@ -11348,6 +11461,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## game cheats
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
+## game exploitation
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
+
 ## gaming malware
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
@@ -11772,6 +11888,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Google Chrome
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 
 ## Google Cloud
@@ -12057,6 +12174,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hard-coded secrets
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
+## HardBreacher
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
+
 ## hardcoded key
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
@@ -12263,6 +12383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HTA
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
@@ -12465,6 +12586,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## iMessage
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## Impacket
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
@@ -12619,6 +12741,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## inference server
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
+
+## INFINITE NIGHTMARE
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 
 ## INFINITERED
 - [UNC6508](../actors/unc6508.md)
@@ -12777,6 +12902,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## iOS
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## IoT
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -13070,6 +13196,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Jordan
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+
+## journalism
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## journalists
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -13760,6 +13889,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## local exploit
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 
 ## local inference
@@ -13803,6 +13933,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LockBit 3.0
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+
+## Lockdown Mode
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## LockScreen
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
@@ -14328,6 +14461,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mcp-grafana
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
+## MECCHA CHAMELEON
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
+
 ## media embed
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 
@@ -14781,6 +14917,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [RedWing](../tools/redwing.md)
 
+## mobile spyware
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
+
 ## MobileIron Sentry
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 
@@ -14921,12 +15060,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mshta
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 
 ## MSI
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
+## MSNightmare
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 
 ## MSP
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
@@ -15225,6 +15368,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 - [NightLedger](../tools/nightledger.md)
 
+## Nightmare-Eclipse
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
+
 ## Nim
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
@@ -15331,6 +15477,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NovaCookies
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
+
+## NoviSpy
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## Now Platform
 - [ServiceNow AI Platform August 27, 2026 advisory: three CVSS 10.0 unauthenticated flaws and a sandbox escape (CVE-2026-18885 / CVE-2026-18886 / CVE-2026-74820 / CVE-2026-6876)](../ops/servicenow-ai-platform-august-27-2026-three-cvss-10-unauthenticated-flaws.md)
@@ -15441,6 +15590,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NSecKrnl.sys
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
+## NSO Group
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
+
 ## nsppe
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 
@@ -15477,6 +15629,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Nuitka
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
+
+## null byte truncation
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 
 ## null-byte padding
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -15588,6 +15743,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OFAC
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
+## Office macros
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 
 ## official store compromise
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
@@ -15862,6 +16020,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
@@ -15910,6 +16069,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
@@ -15989,6 +16149,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -16042,6 +16203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -16126,6 +16288,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -16206,6 +16369,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
@@ -16261,6 +16425,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
@@ -16347,6 +16512,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
@@ -16412,6 +16578,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
@@ -16512,6 +16679,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
@@ -16836,12 +17004,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 
 ## patch bypass
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 
 ## patch management
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 
 ## Patch the Planet
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
@@ -16874,6 +17045,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
@@ -16985,6 +17157,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## pc-app.exe
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 
+## PCM
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
+
 ## pe_to_shellcode
 - [RemotePE](../tools/remotepe.md)
 
@@ -16996,6 +17171,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pedit
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
+## Pegasus
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## pentesting
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
@@ -17175,6 +17353,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
 ## PHP web shell
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
 ## physical systems
@@ -17297,6 +17476,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## police digital services
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
+
+## policy-setting abuse
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 
 ## PolinRider
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
@@ -17529,6 +17711,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
@@ -18344,6 +18527,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
@@ -18353,6 +18537,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
@@ -18543,10 +18728,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## roadtx
 - [ROADtools](../tools/roadtools.md)
 
+## Robbe Van Roey
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
+
 ## Rockwell Automation
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## RoguePlanet
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 
 ## Rokarolla
@@ -19068,6 +19257,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## security platform
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
+## security tool abuse
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
+
 ## security-tool discovery
 - [LabubaRAT](../tools/labubarat.md)
 
@@ -19167,6 +19359,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Seqrite Labs
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
+
+## Serbia
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## serial-number relay
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
@@ -19299,6 +19494,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda](../actors/mustang-panda.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
+## SHARE Foundation
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
+
 ## share propagation
 - [Fast16](../tools/fast16.md)
 
@@ -19363,6 +19561,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## ShieldBreak
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 
 ## Shinobi
@@ -20112,6 +20311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## Startup folder persistence
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 
 ## state desynchronization
@@ -20153,6 +20353,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Steam profile dead drop
 - [TELEPUZ](../tools/telepuz.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
+
+## Steam Workshop
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 
 ## steering file
 - [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
@@ -20271,6 +20474,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Supabase
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+
+## Super Forms
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 
 ## SUPERADMIN_SECRET
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
@@ -20435,6 +20641,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## surveillance
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
+
+## surveillance abuse
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## suspected China-aligned
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -20605,6 +20814,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Tanzania
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+
+## targeted attack
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## targeted malware
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
@@ -20870,6 +21082,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## threat hunting
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+
+## threat intelligence
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## threat landscape
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
@@ -21294,6 +21509,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 
 ## type confusion
+- [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 
 ## TypeConfuseDelegate
@@ -21455,6 +21671,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [ServiceNow AI Platform August 27, 2026 advisory: three CVSS 10.0 unauthenticated flaws and a sandbox escape (CVE-2026-18885 / CVE-2026-18886 / CVE-2026-74820 / CVE-2026-6876)](../ops/servicenow-ai-platform-august-27-2026-three-cvss-10-unauthenticated-flaws.md)
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## unauthenticated access
@@ -21625,6 +21842,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## unpkg
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
 
+## Unreal Engine
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
+
 ## unrestricted file upload
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 
@@ -21735,6 +21955,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## V8
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
+- [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
@@ -22186,6 +22407,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
 
+## WAV
+- [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
+
 ## weak authentication
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 
@@ -22439,6 +22663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [FDMTP](../tools/fdmtp.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
@@ -22474,6 +22699,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](../tools/tinyrct.md)
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
+
+## Windows 11 25H2
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 
 ## Windows Defender
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -22513,6 +22741,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Windows Script Host
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+
+## Windows Server 2025
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 
 ## Windows servers
 - [Progress ShareFile Storage Zone Controller security threat](../ops/progress-sharefile-storage-zone-controller-security-threat.md)
@@ -22598,6 +22829,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
+- [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
@@ -22858,9 +23090,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## zero-click
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
+- [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## zero-day
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
+- [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
