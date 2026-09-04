@@ -63,10 +63,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACTINIUM](#actinium) (1)
 - [Activator.CreateInstance](#activatorcreateinstance) (1)
 - [Active Directory](#active-directory) (2)
-- [active exploitation](#active-exploitation) (74)
+- [active exploitation](#active-exploitation) (75)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
+- [ActiveCampaign](#activecampaign) (1)
 - [actively-exploited](#actively-exploited) (1)
 - [ActiveX](#activex) (1)
 - [actor](#actor) (6)
@@ -309,11 +310,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [arrest](#arrest) (1)
 - [Artem Dinaburg](#artem-dinaburg) (1)
 - [Artifact Signing](#artifact-signing) (1)
-- [Artifactory](#artifactory) (1)
+- [Artifactory](#artifactory) (2)
 - [arXiv](#arxiv) (1)
 - [AryStinger](#arystinger) (1)
 - [AS32167](#as32167) (1)
 - [ASA](#asa) (1)
+- [ASCII smuggling](#ascii-smuggling) (1)
 - [ASHX](#ashx) (1)
 - [Asia targeting](#asia-targeting) (1)
 - [ASLR bypass](#aslr-bypass) (1)
@@ -341,7 +343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Australia](#australia) (1)
 - [authenticated RCE](#authenticated-rce) (1)
 - [authenticated remote code execution](#authenticated-remote-code-execution) (1)
-- [authentication bypass](#authentication-bypass) (28)
+- [authentication bypass](#authentication-bypass) (29)
 - [authentication coercion](#authentication-coercion) (1)
 - [authentication laundering](#authentication-laundering) (1)
 - [authentication stack](#authentication-stack) (2)
@@ -474,7 +476,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bluemonday](#bluemonday) (1)
 - [Bluetooth LE](#bluetooth-le) (1)
 - [Boatnet](#boatnet) (1)
-- [BOD 26-04](#bod-26-04) (9)
+- [BOD 26-04](#bod-26-04) (10)
 - [body hash](#body-hash) (1)
 - [BOF](#bof) (1)
 - [BookStack](#bookstack) (1)
@@ -660,9 +662,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD credential theft](#cicd-credential-theft) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (16)
+- [CISA](#cisa) (17)
 - [CISA ADP](#cisa-adp) (1)
-- [CISA KEV](#cisa-kev) (43)
+- [CISA KEV](#cisa-kev) (44)
 - [Cisco](#cisco) (6)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -775,7 +777,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ComfyUI](#comfyui) (1)
 - [command and control](#command-and-control) (6)
 - [command execution](#command-execution) (9)
-- [command injection](#command-injection) (9)
+- [command injection](#command-injection) (10)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [commercial messaging applications](#commercial-messaging-applications) (1)
@@ -1086,10 +1088,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-48315](#cve-2026-48315) (1)
 - [CVE-2026-48316](#cve-2026-48316) (1)
 - [CVE-2026-48558](#cve-2026-48558) (3)
-- [CVE-2026-48710](#cve-2026-48710) (1)
+- [CVE-2026-48710](#cve-2026-48710) (2)
 - [CVE-2026-48907](#cve-2026-48907) (2)
 - [CVE-2026-48908](#cve-2026-48908) (1)
 - [CVE-2026-48939](#cve-2026-48939) (1)
+- [CVE-2026-49869](#cve-2026-49869) (1)
 - [CVE-2026-50522](#cve-2026-50522) (1)
 - [CVE-2026-50656](#cve-2026-50656) (1)
 - [CVE-2026-50751](#cve-2026-50751) (1)
@@ -1123,7 +1126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-59310](#cve-2026-59310) (2)
 - [CVE-2026-59318](#cve-2026-59318) (1)
 - [CVE-2026-59726](#cve-2026-59726) (1)
-- [CVE-2026-59822](#cve-2026-59822) (1)
+- [CVE-2026-59822](#cve-2026-59822) (2)
 - [CVE-2026-60004](#cve-2026-60004) (1)
 - [CVE-2026-60137](#cve-2026-60137) (1)
 - [CVE-2026-61539](#cve-2026-61539) (1)
@@ -1170,12 +1173,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-81578](#cve-2026-81578) (1)
 - [CVE-2026-82078](#cve-2026-82078) (1)
 - [CVE-2026-82222](#cve-2026-82222) (1)
+- [CVE-2026-82329](#cve-2026-82329) (1)
 - [CVE-2026-82447](#cve-2026-82447) (1)
 - [CVE-2026-82448](#cve-2026-82448) (1)
 - [CVE-2026-82450](#cve-2026-82450) (1)
 - [CVE-2026-82452](#cve-2026-82452) (1)
 - [CVE-2026-82454](#cve-2026-82454) (1)
 - [CVE-2026-82456](#cve-2026-82456) (1)
+- [CVE-2026-83548](#cve-2026-83548) (1)
+- [CVE-2026-83549](#cve-2026-83549) (1)
 - [CVE-2026-8451](#cve-2026-8451) (1)
 - [CVE-2026-8452](#cve-2026-8452) (2)
 - [CVE-2026-8461](#cve-2026-8461) (1)
@@ -1183,6 +1189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [CVE-2026-9198](#cve-2026-9198) (1)
 - [CVE-2026-9539](#cve-2026-9539) (1)
+- [CVE-2026-9586](#cve-2026-9586) (1)
 - [CVSS](#cvss) (1)
 - [CVSS 10.0](#cvss-100) (2)
 - [CVSS 9.0](#cvss-90) (1)
@@ -1451,10 +1458,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [email exfiltration](#email-exfiltration) (2)
 - [email gateway](#email-gateway) (1)
 - [email infrastructure abuse](#email-infrastructure-abuse) (1)
+- [email normalization](#email-normalization) (1)
 - [email security](#email-security) (1)
 - [email subject](#email-subject) (1)
 - [email template](#email-template) (1)
 - [email theft](#email-theft) (4)
+- [EmailEvents](#emailevents) (1)
 - [embedded configuration](#embedded-configuration) (1)
 - [embedded Linux](#embedded-linux) (2)
 - [embedded systems](#embedded-systems) (1)
@@ -1636,6 +1645,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [filesystem parser](#filesystem-parser) (1)
 - [FilteredObjectInputStream](#filteredobjectinputstream) (1)
 - [finance](#finance) (2)
+- [finance phishing](#finance-phishing) (1)
 - [financial](#financial) (1)
 - [financial fraud](#financial-fraud) (7)
 - [financial institutions](#financial-institutions) (1)
@@ -1951,6 +1961,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HMI](#hmi) (1)
 - [holiday calendar lure](#holiday-calendar-lure) (1)
 - [HOLLOWGRAPH](#hollowgraph) (1)
+- [homoglyph](#homoglyph) (1)
 - [Honduras](#honduras) (2)
 - [HONESTCUE](#honestcue) (1)
 - [honeypot](#honeypot) (2)
@@ -2151,7 +2162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains](#jetbrains) (3)
 - [JetBrains Marketplace](#jetbrains-marketplace) (1)
 - [JetStream](#jetstream) (1)
-- [JFrog](#jfrog) (4)
+- [JFrog](#jfrog) (5)
 - [JFrog Artifactory](#jfrog-artifactory) (1)
 - [JFrog Security Research](#jfrog-security-research) (5)
 - [Jinja](#jinja) (1)
@@ -2213,7 +2224,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [kernel R/W](#kernel-rw) (1)
 - [kernel rootkit](#kernel-rootkit) (1)
 - [kernelCTF](#kernelctf) (2)
-- [Kestra](#kestra) (1)
+- [Kestra](#kestra) (2)
 - [KEV](#kev) (4)
 - [keychain](#keychain) (1)
 - [Keychain theft](#keychain-theft) (1)
@@ -2223,6 +2234,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keylogger](#keylogger) (5)
 - [keylogging](#keylogging) (4)
 - [keyval.org](#keyvalorg) (1)
+- [keyword splitting](#keyword-splitting) (1)
 - [Kimi K2.5](#kimi-k25) (1)
 - [Kimsuky](#kimsuky) (1)
 - [Kimwolf](#kimwolf) (1)
@@ -2320,7 +2332,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux malware](#linux-malware) (3)
 - [Linux networking devices](#linux-networking-devices) (1)
 - [Linux rootkit](#linux-rootkit) (1)
-- [LiteLLM](#litellm) (6)
+- [LiteLLM](#litellm) (7)
 - [LiteSpeed](#litespeed) (2)
 - [LiteSpeed Cache](#litespeed-cache) (1)
 - [live chat](#live-chat) (1)
@@ -2467,7 +2479,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (2)
 - [McMx](#mcmx) (1)
-- [MCP](#mcp) (21)
+- [MCP](#mcp) (22)
 - [MCP configuration](#mcp-configuration) (1)
 - [MCP credentials](#mcp-credentials) (1)
 - [MCP gateway](#mcp-gateway) (1)
@@ -2517,7 +2529,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Authentication Broker](#microsoft-authentication-broker) (1)
 - [Microsoft Azure](#microsoft-azure) (1)
 - [Microsoft Copilot Personal](#microsoft-copilot-personal) (1)
-- [Microsoft Defender](#microsoft-defender) (4)
+- [Microsoft Defender](#microsoft-defender) (5)
 - [Microsoft Defender exclusion](#microsoft-defender-exclusion) (1)
 - [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
 - [Microsoft dev tunnels](#microsoft-dev-tunnels) (2)
@@ -2569,7 +2581,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [missing authentication](#missing-authentication) (1)
 - [Mistic](#mistic) (1)
 - [MISTPEN](#mistpen) (1)
-- [MITRE ATT&CK](#mitre-attck) (2)
+- [MITRE ATT&CK](#mitre-attck) (3)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [Mitre ATT&CK T1110](#mitre-attck-t1110) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
@@ -2790,6 +2802,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oblivion](#oblivion) (2)
 - [obsolete software](#obsolete-software) (1)
 - [OCI registry](#oci-registry) (1)
+- [OCR content analysis](#ocr-content-analysis) (1)
 - [OctLurk](#octlurk) (2)
 - [Octopi365](#octopi365) (1)
 - [OFAC](#ofac) (2)
@@ -2855,12 +2868,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (321)
+- [operations](#operations) (322)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (372)
+- [ops](#ops) (373)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -2962,7 +2975,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (10)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (51)
+- [patterns](#patterns) (52)
 - [Paweł Płatek](#pawe-patek) (1)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
@@ -3004,6 +3017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (2)
 - [phishing](#phishing) (31)
+- [phishing evasion](#phishing-evasion) (1)
 - [phishing overlays](#phishing-overlays) (1)
 - [phishing-as-a-service](#phishing-as-a-service) (8)
 - [Phorpiex](#phorpiex) (1)
@@ -3128,7 +3142,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Project Lightwell](#project-lightwell) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
 - [prompt infection](#prompt-infection) (1)
-- [prompt injection](#prompt-injection) (17)
+- [prompt injection](#prompt-injection) (18)
 - [prompt-injection](#prompt-injection) (4)
 - [prompt-injection guardrail bypass](#prompt-injection-guardrail-bypass) (1)
 - [PromptArmor](#promptarmor) (1)
@@ -3317,6 +3331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [repository compromise](#repository-compromise) (1)
 - [repository exfiltration](#repository-exfiltration) (1)
 - [repository poisoning](#repository-poisoning) (3)
+- [request smuggling](#request-smuggling) (1)
 - [research sector](#research-sector) (1)
 - [reset-credentials](#reset-credentials) (1)
 - [residential proxies](#residential-proxies) (1)
@@ -3435,8 +3450,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sandbox evasion](#sandbox-evasion) (2)
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (2)
+- [Sangoma](#sangoma) (1)
 - [Sapphire Sleet](#sapphire-sleet) (1)
 - [saroula01](#saroula01) (1)
+- [SBA phishing](#sba-phishing) (1)
 - [SCADA](#scada) (1)
 - [scam infrastructure](#scam-infrastructure) (1)
 - [scambling](#scambling) (1)
@@ -3613,7 +3630,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sliver](#sliver) (2)
 - [SLSA](#slsa) (1)
 - [SLSA provenance](#slsa-provenance) (1)
-- [SMA1000](#sma1000) (2)
+- [SMA1000](#sma1000) (3)
 - [smart building](#smart-building) (1)
 - [smart contract](#smart-contract) (2)
 - [smart contracts](#smart-contracts) (2)
@@ -3642,6 +3659,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SNMP](#snmp) (1)
 - [Snowflake](#snowflake) (2)
 - [SNOWLIGHT](#snowlight) (1)
+- [SNWLID-2026-0016](#snwlid-2026-0016) (1)
 - [SOAP API abuse](#soap-api-abuse) (1)
 - [SOC](#soc) (1)
 - [SoC](#soc) (1)
@@ -3677,7 +3695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sonatype-2026-005899](#sonatype-2026-005899) (1)
 - [sonatype-2026-005901](#sonatype-2026-005901) (1)
 - [sonatype-2026-006746](#sonatype-2026-006746) (1)
-- [SonicWall](#sonicwall) (2)
+- [SonicWall](#sonicwall) (3)
 - [Sophos](#sophos) (1)
 - [SOUL.md](#soulmd) (1)
 - [source code](#source-code) (1)
@@ -3727,7 +3745,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SprySOCKS](#sprysocks) (2)
 - [Spyroid](#spyroid) (1)
 - [spyware](#spyware) (1)
-- [SQL injection](#sql-injection) (11)
+- [SQL injection](#sql-injection) (12)
 - [SQL Server](#sql-server) (1)
 - [SQLite](#sqlite) (2)
 - [SQLite state](#sqlite-state) (1)
@@ -3749,7 +3767,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunnels](#ssh-tunnels) (1)
 - [SSL VPN](#ssl-vpn) (3)
 - [SSO](#sso) (4)
-- [SSRF](#ssrf) (9)
+- [SSRF](#ssrf) (10)
 - [SSRF allow-list](#ssrf-allow-list) (1)
 - [STAC4749](#stac4749) (1)
 - [stack use-after-free](#stack-use-after-free) (1)
@@ -3760,6 +3778,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stale credentials](#stale-credentials) (1)
 - [stale state](#stale-state) (1)
 - [Starland RAT](#starland-rat) (3)
+- [Starlette](#starlette) (1)
 - [Startup folder](#startup-folder) (1)
 - [Startup folder persistence](#startup-folder-persistence) (1)
 - [state desynchronization](#state-desynchronization) (1)
@@ -3823,6 +3842,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SVG](#svg) (3)
 - [SWE-agent](#swe-agent) (1)
 - [SweetPotato](#sweetpotato) (1)
+- [Switchvox](#switchvox) (1)
 - [SWUpdate](#swupdate) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (2)
 - [symbolic link](#symbolic-link) (1)
@@ -3843,6 +3863,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [T1059](#t1059) (1)
 - [T1102.001](#t1102001) (1)
 - [T1204.004](#t1204004) (1)
+- [T1566](#t1566) (1)
 - [T3](#t3) (1)
 - [T606](#t606) (1)
 - [T612](#t612) (1)
@@ -3851,6 +3872,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA488](#ta488) (5)
 - [TA569](#ta569) (1)
 - [Tactical RMM](#tactical-rmm) (2)
+- [tag characters](#tag-characters) (1)
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (4)
 - [TAG-124](#tag-124) (1)
@@ -3886,6 +3908,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TEASOUP](#teasoup) (1)
 - [Tebi](#tebi) (1)
 - [technician session](#technician-session) (1)
+- [technique crossover](#technique-crossover) (1)
 - [technology sector](#technology-sector) (2)
 - [telecom](#telecom) (2)
 - [telecom-impersonation](#telecom-impersonation) (1)
@@ -4038,6 +4061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (3)
 - [typosquatting](#typosquatting) (16)
+- [U+E0000](#ue0000) (1)
 - [U.S. critical infrastructure](#us-critical-infrastructure) (1)
 - [UAC](#uac) (1)
 - [UAC bypass](#uac-bypass) (2)
@@ -4094,6 +4118,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unfiltered_upload](#unfiltered_upload) (1)
 - [Uni-App](#uni-app) (1)
 - [UniBLEed](#unibleed) (1)
+- [Unicode](#unicode) (1)
 - [UniFi OS](#unifi-os) (1)
 - [Unified CM SME](#unified-cm-sme) (1)
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
@@ -4351,6 +4376,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [workerd](#workerd) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
 - [workflow injection](#workflow-injection) (1)
+- [workflow orchestration](#workflow-orchestration) (1)
 - [workflow-abuse](#workflow-abuse) (1)
 - [working-directory hijacking](#working-directory-hijacking) (1)
 - [workspace trust](#workspace-trust) (3)
@@ -4388,6 +4414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XOR](#xor) (3)
 - [XOR obfuscation](#xor-obfuscation) (1)
 - [xorshift32](#xorshift32) (1)
+- [XPIA](#xpia) (1)
 - [Xray](#xray) (1)
 - [XSLT SSRF](#xslt-ssrf) (1)
 - [XSS](#xss) (4)
@@ -4419,6 +4446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [zero-day](#zero-day) (11)
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
+- [zero-width](#zero-width) (1)
 - [ZeroBEC](#zerobec) (1)
 - [Zerologon](#zerologon) (1)
 - [Zimbra](#zimbra) (5)
@@ -4654,6 +4682,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -4729,6 +4758,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## active-exploitation
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+
+## ActiveCampaign
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## actively-exploited
 - [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
@@ -5667,6 +5699,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Artifactory
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 
 ## arXiv
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
@@ -5679,6 +5712,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ASA
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
+
+## ASCII smuggling
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## ASHX
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
@@ -5772,6 +5808,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
@@ -6275,6 +6312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
@@ -7070,6 +7108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -7092,6 +7131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
@@ -7609,6 +7649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## command injection
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
@@ -8836,6 +8877,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TaskWeaver](../tools/taskweaver.md)
 
 ## CVE-2026-48710
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 
 ## CVE-2026-48907
@@ -8847,6 +8889,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-48939
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
+
+## CVE-2026-49869
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 
 ## CVE-2026-50522
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
@@ -8951,6 +8996,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
 ## CVE-2026-59822
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 
 ## CVE-2026-60004
@@ -9093,6 +9139,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-82222
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
+## CVE-2026-82329
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
+
 ## CVE-2026-82447
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
@@ -9110,6 +9159,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-82456
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
+## CVE-2026-83548
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
+
+## CVE-2026-83549
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 
 ## CVE-2026-8451
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -9132,6 +9187,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-9539
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
+
+## CVE-2026-9586
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 
 ## CVSS
 - [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
@@ -10240,6 +10298,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## email infrastructure abuse
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 
+## email normalization
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
+
 ## email security
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
 
@@ -10254,6 +10315,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat](../actors/toddycat.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
+
+## EmailEvents
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## embedded configuration
 - [ArcBridge](../tools/arcbridge.md)
@@ -10966,6 +11030,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## finance
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+
+## finance phishing
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## financial
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
@@ -12123,6 +12190,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HOLLOWGRAPH
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 
+## homoglyph
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
+
 ## Honduras
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
@@ -12943,6 +13013,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JFrog
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
@@ -13156,6 +13227,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
 ## Kestra
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 
 ## KEV
@@ -13197,6 +13269,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## keyval.org
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
+
+## keyword splitting
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## Kimi K2.5
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
@@ -13580,6 +13655,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
 ## LiteLLM
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
@@ -14220,6 +14296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
@@ -14440,6 +14517,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
 
 ## Microsoft Defender
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
@@ -14648,6 +14726,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
 
 ## MITRE ATT&CK
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 
@@ -15496,6 +15575,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OCI registry
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 
+## OCR content analysis
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
+
 ## OctLurk
 - [OctLurk](../tools/octlurk.md)
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
@@ -15786,6 +15868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -16130,6 +16213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -16810,6 +16894,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [Benchmaxxing: when a benchmark becomes the target](../patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
@@ -17050,6 +17135,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [TA4922](../actors/ta4922.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
+
+## phishing evasion
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## phishing overlays
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
@@ -17534,6 +17622,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
@@ -18331,6 +18420,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 
+## request smuggling
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
+
 ## research sector
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 
@@ -18796,11 +18888,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
+## Sangoma
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
+
 ## Sapphire Sleet
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 
 ## saroula01
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+
+## SBA phishing
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## SCADA
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
@@ -19434,6 +19532,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 
 ## SMA1000
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
@@ -19530,6 +19629,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SNOWLIGHT
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
+## SNWLID-2026-0016
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 
 ## SOAP API abuse
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
@@ -19684,6 +19786,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 
 ## SonicWall
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
@@ -19871,6 +19974,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SQL injection
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
@@ -19960,6 +20064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SSRF
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -19999,6 +20104,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAT-11795](../actors/uat-11795.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [WLDR agent](../tools/wldr-agent.md)
+
+## Starlette
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 
 ## Startup folder
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -20345,6 +20453,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SweetPotato
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 
+## Switchvox
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
+
 ## SWUpdate
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
@@ -20407,6 +20518,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## T1204.004
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
+## T1566
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
+
 ## T3
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 
@@ -20435,6 +20549,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Tactical RMM
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
+
+## tag characters
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## tag rewrite
 - [Laravel-Lang Composer tag-rewrite compromise](../ops/laravel-lang-composer-tag-rewrite-compromise.md)
@@ -20569,6 +20686,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## technician session
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
+
+## technique crossover
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## technology sector
 - [Toy Ghouls](../actors/toy-ghouls.md)
@@ -21206,6 +21326,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
+## U+E0000
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
+
 ## U.S. critical infrastructure
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
@@ -21439,6 +21562,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UniBLEed
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
+
+## Unicode
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## UniFi OS
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
@@ -22491,6 +22617,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## workflow injection
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
+## workflow orchestration
+- [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
+
 ## workflow-abuse
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 
@@ -22635,6 +22764,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## xorshift32
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
+## XPIA
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
+
 ## Xray
 - [MODBEACON](../tools/modbeacon.md)
 
@@ -22745,6 +22877,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## zero-reputation infrastructure
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
+
+## zero-width
+- [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## ZeroBEC
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)

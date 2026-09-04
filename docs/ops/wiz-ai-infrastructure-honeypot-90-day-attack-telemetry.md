@@ -71,7 +71,7 @@ Post-exploitation was adapted to where AI infrastructure actually keeps secrets:
 
 ## Defender priorities
 1. **Treat "unauthenticated on the internet" as "compromised"** for the AI stack — Marimo, Flowise, Langflow, Ollama, ChromaDB, Milvus, and others ship without authentication; require auth by default.
-2. **Patch LiteLLM ≥ 1.84.0** (CVE-2026-59822 auth bypass) and **≥ 1.83.7** (CVE-2026-42271 command injection); hunt for the MCP test-endpoint chain and the `Bearer x` / `Bearer 1` probing pattern.
+2. **Patch LiteLLM ≥ 1.84.0** (CVE-2026-59822 auth bypass) and **≥ 1.83.7** (CVE-2026-42271 command injection), and **Starlette ≥ 1.0.1** (CVE-2026-48710 host-header bypass); hunt for the MCP test-endpoint chain and the `Bearer x` / `Bearer 1` probing pattern.
 3. **Monitor at the runtime layer:** process-ancestry detection (an AI server spawning a shell), unexpected `/tmp/.dbus-cache/` creation, XMRig at AI-tooling paths, and `start_new_session` detached miners.
 4. **Scope credentials aggressively:** model-provider keys, proxy master keys, and cloud IAM behind an AI proxy are a Tier-0 secret store; restrict lateral reach and egress.
 5. **Patch faster than CVE assignment for open-source AI infra:** Wiz says attackers often weaponize new vulnerabilities as soon as fixes appear in code, ahead of CVE assignment.
@@ -81,6 +81,8 @@ Post-exploitation was adapted to where AI infrastructure actually keeps secrets:
 - The **Qilin linkage** to the CVE-2026-42271 + CVE-2026-48710 chain comes from **external researchers**, is third-party attribution, and is not confirmed by Wiz.
 - The blind-prompt-injection payload is a **reconstruction** consistent with observed process trees and public playbooks, not a captured payload.
 - Wiz's product references (AI-APP, Secret Scanning, ASM, Red Agent, Runtime Sensor) are vendor capability claims, not detection results.
+
+- **CISA KEV listing update (September 2, 2026):** both **CVE-2026-59822** (LiteLLM MCP auth bypass, BOD 26-04 due 2026-09-16) and **CVE-2026-48710** (Starlette host-header bypass, due 2026-09-16) were **added to the KEV catalog**, formalizing the in-the-wild status of the two MCP/RCE-chain components documented above (see the [CISA KEV September 2, 2026 page](cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)).
 
 ## Related pages
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](litellm-cve-2026-42271-mcp-stdio-command-injection.md)

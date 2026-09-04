@@ -7,6 +7,7 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "CISA KEV September 2, 2026 additions: seven exploited flaws — JFrog Artifactory unauth admin access (CVE-2026-82329, 9.8), Kestra OSS suffix-match auth bypass to root RCE (CVE-2026-49869, 10.0), SonicWall SMA1000 pre-auth SSRF + post-auth cmd-inj (CVE-2026-83548/-83549), LiteLLM MCP gateway auth bypass (CVE-2026-59822), Starlette host-header smuggling (CVE-2026-48710), and Sangoma Switchvox unauth SQLi→RCE (CVE-2026-9586, 9.3)": ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md
       - "Spring Ring: Microsoft Teams vishing campaigns impersonating internal IT help desk that escalated to RMM install / obfuscated PowerShell RAT and a PetitPotam NTLM-relay domain takeover (Unit 42, Aug 31)": ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md
       - "Pimcore Studio five coordinated flaws: DataObject field-name RCE (CVE-2026-55634, 9.9) + Hotspotimage PHP object injection (CVE-2026-55220) + privesc / SQLi / account-takeover set (GHSA-9x44 / w23p / f97c / 79cw / h854, Aug 28)": ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md
       - "Five critical WordPress flaws: WPMU DEV Dashboard Hub-SSO auth bypass (CVE-2026-76581), Avada/Fusion Builder unauth file-write RCE (CVE-2026-18431), TranslatePress reset-URL exposure (CVE-2026-19632), Pods auth bypass (CVE-2026-19598), GiveWP object-injection RCE (CVE-2026-82222, 10.0)": ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md
@@ -499,6 +500,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - "ASCII smuggling crosses over from AI prompt injection to phishing evasion: Unicode tag-block characters (U+E0000–U+E007F) used to split high-signal words and defeat keyword/NLP email filters; ~150 finance-themed ActiveCampaign domains, 21K→1.3M signature hits Feb 9, 2026 (Microsoft Security Research, Sep 3)": patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md
       - "Amazon Kiro 'Power Leak': Kiro Powers prompt-injection data exfiltration via agent-rewritten MCP config (fixed 0.8.140)": patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md
       - 'VMs won''t contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times': patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md
       - 'State divergence enables unauthorized access: Provenance marker module anyone-can-pass check': patterns/provenance-marker-state-divergence-access-control.md
