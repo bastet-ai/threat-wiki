@@ -128,7 +128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agent state](#agent-state) (1)
 - [agent-to-agent](#agent-to-agent) (1)
 - [AgentBaiting](#agentbaiting) (1)
-- [agentic AI](#agentic-ai) (8)
+- [agentic AI](#agentic-ai) (10)
 - [agentic botnets](#agentic-botnets) (1)
 - [agentic browser](#agentic-browser) (1)
 - [agentic browsers](#agentic-browsers) (1)
@@ -163,6 +163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI gateway](#ai-gateway) (1)
 - [AI IDE](#ai-ide) (1)
 - [AI infrastructure](#ai-infrastructure) (3)
+- [AI infrastructure hijacking](#ai-infrastructure-hijacking) (1)
 - [AI memory poisoning](#ai-memory-poisoning) (1)
 - [AI model encryption](#ai-model-encryption) (1)
 - [AI model evaluation](#ai-model-evaluation) (2)
@@ -191,7 +192,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-assisted malware development](#ai-assisted-malware-development) (4)
 - [AI-assisted phishing](#ai-assisted-phishing) (1)
 - [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
-- [AI-augmented operations](#ai-augmented-operations) (3)
+- [AI-augmented operations](#ai-augmented-operations) (4)
 - [AI-enabled malware](#ai-enabled-malware) (1)
 - [AI-generated advisory](#ai-generated-advisory) (1)
 - [AI-generated exploit](#ai-generated-exploit) (1)
@@ -363,7 +364,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [automotive](#automotive) (1)
 - [autonomous agents](#autonomous-agents) (3)
 - [autonomous AI](#autonomous-ai) (1)
-- [autonomous attack](#autonomous-attack) (1)
+- [autonomous attack](#autonomous-attack) (2)
 - [autonomous attacks](#autonomous-attacks) (1)
 - [autonomous exploitation](#autonomous-exploitation) (1)
 - [autonomous scanning](#autonomous-scanning) (1)
@@ -432,7 +433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Beast ransomware](#beast-ransomware) (1)
 - [BeaverTail](#beavertail) (1)
 - [Bedrock](#bedrock) (1)
-- [behavioral detection](#behavioral-detection) (1)
+- [behavioral detection](#behavioral-detection) (2)
 - [behavioral integrity verification](#behavioral-integrity-verification) (1)
 - [Behinder](#behinder) (1)
 - [Belarus](#belarus) (2)
@@ -495,7 +496,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [branch-name-injection](#branch-name-injection) (1)
 - [brand impersonation](#brand-impersonation) (4)
 - [brand-impersonation](#brand-impersonation) (2)
-- [Brazil](#brazil) (5)
+- [Brazil](#brazil) (6)
 - [Brazilian banking malware](#brazilian-banking-malware) (1)
 - [BreachForums](#breachforums) (1)
 - [Breeze Cache Cleaner](#breeze-cache-cleaner) (1)
@@ -666,6 +667,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD](#cicd) (45)
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CI/CD credential theft](#cicd-credential-theft) (1)
+- [CI/CD pipeline abuse](#cicd-pipeline-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
 - [CISA](#cisa) (17)
@@ -688,7 +690,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [City Forum](#city-forum) (1)
 - [CKEditor file manager](#ckeditor-file-manager) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
+- [CL-CRI-1131](#cl-cri-1131) (1)
 - [CL-CRI-1147](#cl-cri-1147) (1)
+- [CL-CRI-1163](#cl-cri-1163) (1)
 - [CL-STA-1062](#cl-sta-1062) (3)
 - [CL-STA-1114](#cl-sta-1114) (4)
 - [Clash proxy](#clash-proxy) (1)
@@ -736,6 +740,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud identity](#cloud-identity) (2)
 - [cloud identity abuse](#cloud-identity-abuse) (1)
 - [cloud infrastructure](#cloud-infrastructure) (1)
+- [cloud keys exfiltration](#cloud-keys-exfiltration) (1)
 - [cloud logging](#cloud-logging) (1)
 - [cloud metadata](#cloud-metadata) (1)
 - [cloud metadata service](#cloud-metadata-service) (1)
@@ -787,6 +792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [command injection](#command-injection) (10)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
+- [commercial LLM abuse](#commercial-llm-abuse) (1)
 - [commercial messaging applications](#commercial-messaging-applications) (1)
 - [commit farming](#commit-farming) (1)
 - [communications infrastructure](#communications-infrastructure) (1)
@@ -1240,7 +1246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DarkSword](#darksword) (1)
 - [data analytics](#data-analytics) (1)
 - [data contamination](#data-contamination) (1)
-- [data exfiltration](#data-exfiltration) (17)
+- [data exfiltration](#data-exfiltration) (18)
 - [data exposure](#data-exposure) (3)
 - [data extortion](#data-extortion) (2)
 - [data leak site](#data-leak-site) (3)
@@ -1438,6 +1444,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [eBPF](#ebpf) (3)
 - [Eclipse](#eclipse) (1)
 - [Economic D-Day](#economic-d-day) (1)
+- [Ecuador](#ecuador) (1)
 - [Ed25519](#ed25519) (1)
 - [edge appliance](#edge-appliance) (15)
 - [edge appliances](#edge-appliances) (2)
@@ -1581,6 +1588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exposed applications](#exposed-applications) (1)
 - [exposed attacker infrastructure](#exposed-attacker-infrastructure) (1)
 - [exposed debug page](#exposed-debug-page) (1)
+- [exposed staging](#exposed-staging) (1)
 - [exposure window](#exposure-window) (1)
 - [extconf.rb](#extconfrb) (1)
 - [extension supply-chain](#extension-supply-chain) (2)
@@ -1666,7 +1674,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [financial](#financial) (1)
 - [financial fraud](#financial-fraud) (7)
 - [financial institutions](#financial-institutions) (1)
-- [financial sector](#financial-sector) (7)
+- [financial sector](#financial-sector) (8)
 - [financial services](#financial-services) (5)
 - [financial theft](#financial-theft) (3)
 - [financially motivated](#financially-motivated) (3)
@@ -1725,7 +1733,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Freedom365](#freedom365) (1)
 - [freeware impersonation](#freeware-impersonation) (1)
 - [Friendly Fire](#friendly-fire) (1)
-- [frontier AI](#frontier-ai) (1)
+- [frontier AI](#frontier-ai) (2)
 - [FruitStone](#fruitstone) (1)
 - [FSB](#fsb) (4)
 - [FSB Center 16](#fsb-center-16) (2)
@@ -2101,7 +2109,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure churn](#infrastructure-churn) (1)
 - [infrastructure disruption](#infrastructure-disruption) (3)
 - [infrastructure seizure](#infrastructure-seizure) (1)
-- [initial access](#initial-access) (1)
+- [initial access](#initial-access) (2)
 - [initial access broker](#initial-access-broker) (2)
 - [initial-access](#initial-access) (3)
 - [Injective Labs](#injective-labs) (1)
@@ -2175,6 +2183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript masquerading](#javascript-masquerading) (1)
 - [JavaScript tampering](#javascript-tampering) (1)
 - [JavaScriptCore](#javascriptcore) (1)
+- [JBoss](#jboss) (1)
 - [JCE](#jce) (1)
 - [JDY](#jdy) (1)
 - [Jellyfin](#jellyfin) (1)
@@ -2191,6 +2200,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Jira](#jira) (2)
 - [Jiří Vinopal](#jiri-vinopal) (1)
 - [job-offer phishing](#job-offer-phishing) (1)
+- [job-themed phishing](#job-themed-phishing) (1)
 - [joblib](#joblib) (1)
 - [Joomla](#joomla) (3)
 - [Joomla Content Editor](#joomla-content-editor) (1)
@@ -2300,7 +2310,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LATAM](#latam) (1)
 - [lateral movement](#lateral-movement) (9)
 - [lateral-movement](#lateral-movement) (1)
-- [Latin America](#latin-america) (3)
+- [Latin America](#latin-america) (4)
 - [LaunchAgent](#launchagent) (5)
 - [launchctl](#launchctl) (1)
 - [LAUNDRY BEAR](#laundry-bear) (4)
@@ -2360,7 +2370,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [living off the land](#living-off-the-land) (1)
 - [living-off-the-land](#living-off-the-land) (1)
 - [living-off-the-land binaries](#living-off-the-land-binaries) (1)
-- [LLM](#llm) (9)
+- [LLM](#llm) (10)
 - [LLM command execution](#llm-command-execution) (1)
 - [LLM gateway](#llm-gateway) (1)
 - [LLM security](#llm-security) (1)
@@ -2438,6 +2448,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Maccy impersonation](#maccy-impersonation) (1)
 - [Machine Account Quota](#machine-account-quota) (1)
 - [machine-learning](#machine-learning) (1)
+- [machine-speed attack chain](#machine-speed-attack-chain) (1)
 - [macOS](#macos) (20)
 - [macOS malware](#macos-malware) (2)
 - [macro](#macro) (1)
@@ -2535,7 +2546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [METR](#metr) (1)
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexican banking fraud](#mexican-banking-fraud) (3)
-- [Mexico](#mexico) (3)
+- [Mexico](#mexico) (4)
 - [MFA](#mfa) (1)
 - [MFA bypass](#mfa-bypass) (10)
 - [MFA fatigue](#mfa-fatigue) (2)
@@ -2604,7 +2615,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [missing authentication](#missing-authentication) (1)
 - [Mistic](#mistic) (1)
 - [MISTPEN](#mistpen) (1)
-- [MITRE ATT&CK](#mitre-attck) (3)
+- [MITRE ATLAS](#mitre-atlas) (1)
+- [MITRE ATT&CK](#mitre-attck) (4)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [Mitre ATT&CK T1110](#mitre-attck-t1110) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
@@ -2674,6 +2686,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Multi-Domain Security Management](#multi-domain-security-management) (1)
 - [multi-model ensemble](#multi-model-ensemble) (1)
 - [multi-organization PAT campaign](#multi-organization-pat-campaign) (1)
+- [multi-SAN certificate](#multi-san-certificate) (1)
 - [multi-tenant cloud](#multi-tenant-cloud) (2)
 - [multi-tenant isolation](#multi-tenant-isolation) (2)
 - [multiplex queries](#multiplex-queries) (1)
@@ -2735,6 +2748,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [network policies](#network-policies) (1)
 - [network-share exfiltration](#network-share-exfiltration) (1)
 - [Next.js](#nextjs) (1)
+- [NextChat](#nextchat) (1)
 - [Nextcloud](#nextcloud) (1)
 - [Nextcloud Flow](#nextcloud-flow) (1)
 - [nf_tables](#nf_tables) (1)
@@ -2892,20 +2906,22 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Dream Job](#operation-dream-job) (1)
 - [Operation Economic Outcast](#operation-economic-outcast) (1)
 - [Operation Endgame](#operation-endgame) (1)
+- [Operation Escaneo](#operation-escaneo) (1)
 - [Operation Highland](#operation-highland) (2)
 - [operational relay box](#operational-relay-box) (1)
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (327)
+- [operations](#operations) (329)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (378)
+- [ops](#ops) (380)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
+- [OpSec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
 - [Oracle](#oracle) (2)
 - [Oracle E-Business Suite](#oracle-e-business-suite) (1)
@@ -2977,6 +2993,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PaperCut](#papercut) (1)
 - [PaperCut MF](#papercut-mf) (1)
 - [PaperCut NG](#papercut-ng) (1)
+- [parallel agent orchestration](#parallel-agent-orchestration) (1)
 - [parallel-intrusion](#parallel-intrusion) (1)
 - [parameter-to-prompt](#parameter-to-prompt) (1)
 - [parked domain](#parked-domain) (1)
@@ -3192,6 +3209,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Provenance](#provenance) (1)
 - [proxy](#proxy) (12)
 - [proxy botnet](#proxy-botnet) (1)
+- [proxy infrastructure](#proxy-infrastructure) (1)
 - [proxy network](#proxy-network) (2)
 - [proxy obfuscation](#proxy-obfuscation) (1)
 - [ProxyChains](#proxychains) (1)
@@ -3265,6 +3283,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RakNet flood](#raknet-flood) (1)
 - [RAM disk](#ram-disk) (1)
 - [random number generator](#random-number-generator) (1)
+- [ransom](#ransom) (1)
 - [Ransom-ISAC](#ransom-isac) (1)
 - [ransomware](#ransomware) (21)
 - [ransomware access](#ransomware-access) (1)
@@ -3521,7 +3540,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secret exfiltration](#secret-exfiltration) (2)
 - [secret exposure](#secret-exposure) (1)
 - [secrets](#secrets) (6)
+- [secrets harvesting](#secrets-harvesting) (1)
 - [secrets management](#secrets-management) (1)
+- [secrets manager compromise](#secrets-manager-compromise) (1)
 - [SectopRAT](#sectoprat) (1)
 - [Secure Annex](#secure-annex) (1)
 - [Secure Firewall](#secure-firewall) (1)
@@ -3589,6 +3610,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shadow copy deletion](#shadow-copy-deletion) (2)
 - [shadow fleet](#shadow-fleet) (1)
 - [shadow MMU](#shadow-mmu) (1)
+- [SHADOW-AETHER](#shadow-aether) (1)
 - [SHADOW-AETHER-040](#shadow-aether-040) (1)
 - [SHADOW-AETHER-064](#shadow-aether-064) (1)
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
@@ -3709,9 +3731,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Socket Security Research](#socket-security-research) (2)
 - [Socket.IO](#socketio) (2)
 - [SOCKS tunneling](#socks-tunneling) (1)
-- [SOCKS5](#socks5) (10)
+- [SOCKS5](#socks5) (11)
 - [SOCKS5 proxy](#socks5-proxy) (2)
 - [SOCKS5 tunneling](#socks5-tunneling) (1)
+- [SockTz](#socktz) (1)
 - [SOCRadar](#socradar) (3)
 - [SoftEther VPN](#softether-vpn) (2)
 - [SoftPerfect Network Scanner](#softperfect-network-scanner) (1)
@@ -3852,6 +3875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [STRD](#strd) (3)
 - [streaming boxes](#streaming-boxes) (1)
 - [Stripe OLT](#stripe-olt) (1)
+- [structured Markdown](#structured-markdown) (1)
 - [StubMaker](#stubmaker) (1)
 - [student targeting](#student-targeting) (1)
 - [STUN](#stun) (1)
@@ -3901,9 +3925,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [systemd](#systemd) (1)
 - [systemd-userdbd](#systemd-userdbd) (1)
 - [T1059](#t1059) (1)
+- [T1078](#t1078) (1)
 - [T1102.001](#t1102001) (1)
+- [T1190](#t1190) (1)
 - [T1204.004](#t1204004) (1)
+- [T1552](#t1552) (1)
+- [T1555](#t1555) (1)
 - [T1566](#t1566) (1)
+- [T1578](#t1578) (1)
 - [T3](#t3) (1)
 - [T606](#t606) (1)
 - [T612](#t612) (1)
@@ -4061,6 +4090,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Transparent Tribe](#transparent-tribe) (3)
 - [transport](#transport) (1)
 - [transportation](#transportation) (2)
+- [transportation sector](#transportation-sector) (1)
 - [Trend Micro](#trend-micro) (3)
 - [TrendAI](#trendai) (2)
 - [Trezor](#trezor) (1)
@@ -4166,7 +4196,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [unintended internet access](#unintended-internet-access) (1)
 - [Unisoc](#unisoc) (1)
-- [Unit 42](#unit-42) (12)
+- [Unit 42](#unit-42) (14)
 - [United States](#united-states) (3)
 - [Unitree](#unitree) (1)
 - [university targeting](#university-targeting) (1)
@@ -5042,6 +5072,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [UAT-10147](../actors/uat-10147.md)
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
 
 ## agentic botnets
@@ -5199,6 +5231,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 
+## AI infrastructure hijacking
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
+
 ## AI memory poisoning
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
@@ -5313,6 +5348,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## AI-enabled malware
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
@@ -5948,6 +5984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## autonomous attack
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## autonomous attacks
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
@@ -6201,6 +6238,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## behavioral detection
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## behavioral integrity verification
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
@@ -6447,6 +6485,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## Brazilian banking malware
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
@@ -7165,6 +7204,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CI/CD credential theft
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
+## CI/CD pipeline abuse
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
+
 ## CircleCI
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 
@@ -7302,8 +7344,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CL-CRI-1089
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 
+## CL-CRI-1131
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+
 ## CL-CRI-1147
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
+
+## CL-CRI-1163
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## CL-STA-1062
 - [CL-STA-1062](../actors/cl-sta-1062.md)
@@ -7513,6 +7561,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloud infrastructure
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
+
+## cloud keys exfiltration
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## cloud logging
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -7741,6 +7792,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## command-injection
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
+
+## commercial LLM abuse
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## commercial messaging applications
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -9450,6 +9504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## data exposure
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
@@ -10262,6 +10317,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Economic D-Day
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
+## Ecuador
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+
 ## Ed25519
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
@@ -10860,6 +10918,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## exposed debug page
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 
+## exposed staging
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+
 ## exposure window
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
@@ -11170,6 +11231,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## financial services
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -11374,6 +11436,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## frontier AI
 - [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## FruitStone
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
@@ -12818,6 +12881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## initial access
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## initial access broker
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -13114,6 +13178,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JavaScriptCore
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
+## JBoss
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+
 ## JCE
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
 
@@ -13173,6 +13240,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## job-offer phishing
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
+
+## job-themed phishing
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## joblib
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
@@ -13569,6 +13639,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## LaunchAgent
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -13820,6 +13891,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
 ## LLM command execution
@@ -14101,6 +14173,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## machine-learning
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
+
+## machine-speed attack chain
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## macOS
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -14557,6 +14632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## MFA
 - [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
@@ -14861,10 +14937,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MISTPEN
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
 
+## MITRE ATLAS
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
+
 ## MITRE ATT&CK
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## MITRE ATT&CK T1005
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
@@ -15112,6 +15192,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## multi-organization PAT campaign
 - [TeamPCP](../actors/teampcp.md)
 
+## multi-SAN certificate
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+
 ## multi-tenant cloud
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
@@ -15326,6 +15409,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Next.js
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
+
+## NextChat
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## Nextcloud
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
@@ -15948,6 +16034,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Operation Endgame
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 
+## Operation Escaneo
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+
 ## Operation Highland
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Velvet Ant](../actors/velvet-ant.md)
@@ -16271,6 +16360,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
@@ -16660,6 +16751,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -16694,6 +16787,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## opsec failure
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+
+## OpSec failure
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## OPSWAT
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
@@ -16948,6 +17044,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PaperCut NG
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
+
+## parallel agent orchestration
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## parallel-intrusion
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -17880,6 +17979,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## proxy botnet
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
+## proxy infrastructure
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+
 ## proxy network
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -18157,6 +18259,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## random number generator
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
+
+## ransom
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## Ransom-ISAC
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
@@ -19227,8 +19332,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
+## secrets harvesting
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
+
 ## secrets management
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+
+## secrets manager compromise
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## SectopRAT
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
@@ -19455,6 +19566,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## shadow MMU
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+
+## SHADOW-AETHER
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## SHADOW-AETHER-040
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -19906,6 +20020,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 - [Showboat](../tools/showboat.md)
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## SOCKS5 proxy
 - [LabubaRAT](../tools/labubarat.md)
@@ -19913,6 +20028,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SOCKS5 tunneling
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
+
+## SockTz
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## SOCRadar
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
@@ -20433,6 +20551,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Stripe OLT
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 
+## structured Markdown
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
+
 ## StubMaker
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 
@@ -20721,14 +20842,29 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## T1059
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 
+## T1078
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
+
 ## T1102.001
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
+
+## T1190
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## T1204.004
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
+## T1552
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
+
+## T1555
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
+
 ## T1566
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
+
+## T1578
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## T3
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
@@ -21376,6 +21512,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 
+## transportation sector
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+
 ## Trend Micro
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -21810,6 +21949,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
+- [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+- [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## United States
