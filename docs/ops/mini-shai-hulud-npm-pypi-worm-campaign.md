@@ -146,6 +146,7 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - AWS, Azure, GCP, Kubernetes, Docker, Vault, Terraform, SSH, Git, shell history, `.npmrc`, cloud config, and generic API secrets.
 - Kubernetes API enumeration where service-account permissions allow it.
 - Browser/password-store collection reported in later variants.
+- **Credential-location expansion (GitGuardian, Aug–Sep 2026):** a recent Mini Shai-Hulud wave (the keyv incident, hitting `keyv` and 800+ npm packages) broadened the worm's file-system secret collector from **189** to **469** hardcoded locations. GitGuardian's per-OS breakdown of the collector: Linux 89→290, Windows 12→50, macOS 88→129. The added paths are concentrated in developer environments, CI/CD tooling, cloud configuration, crypto-wallet locations, and **AI tool/agent configuration** (coding-agent settings, CLI caches, IDE secrets). The durable defender read: the worm no longer breaks trust relationships — it harvests the credentials that already make them work (publishing tokens, cloud keys, CI runner identities), so the highest-value exposure is any standing, long-lived package-publishing credential on a reachable host.
 
 ### Exfiltration and propagation
 - Encrypted exfiltration via attacker-controlled infrastructure.
@@ -209,6 +210,7 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - High-priority sources for this campaign: StepSecurity, Wiz Research, Socket, Snyk, JFrog Security Research, Akamai Security Research, Unit 42, Microsoft Security Blog, CISA alerts, GitHub Security Advisories, npm advisories/security notices, and maintainer postmortems from affected projects.
 - Durable updates worth adding here: new affected package families, new propagation primitives, new persistence paths, new infrastructure/naming patterns, official advisories, or postmortems that explain the initial access path.
 - Avoid duplicating every package name from vendor appendices unless it changes the operational picture; link the vendor-maintained affected-package lists instead.
+- <a id="2026-09-03-gitguardian-469-location-collector"></a>**Credential-collector breadth (GitGuardian / THN, Sep 3, 2026):** the current Mini Shai-Hulud keyv wave's file-system collector now targets **469** hardcoded secret locations versus **189** in the open-source baseline — Linux 89→290, Windows 12→50, macOS 88→129 — with the added paths concentrated in developer, CI/CD, cloud, crypto-wallet, and AI-agent/IDE configuration. Durable defender takeaway: the worm has shifted from breaking trust relationships to harvesting the credentials that already work, so standing long-lived package-publishing and cloud credentials on reachable developer/CI hosts are the top remediation priority (prefer short-lived OIDC trusted-publishing). Watch for the next Trinitite/keyv variant to keep widening the location list and to add new AI-tool config paths.
 
 ## Related pages
 - [@7nohe/openapi-react-query-codegen npm compromise — OX-identified "Trinitite" Shai-Hulud variant (post-arrest copycat wave)](7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
@@ -285,4 +287,6 @@ This is the canonical operation page for the broad Mini Shai-Hulud npm/PyPI camp
 - CrowdStrike 2026 Threat Hunting Report summary: [https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/](https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/)
 - Socket SANDWORM_MODE reporting: [https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning](https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning)
 - CISA: [https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem](https://www.cisa.gov/news-events/alerts/2025/09/23/widespread-supply-chain-compromise-impacting-npm-ecosystem)
+- GitGuardian keyv / Mini Shai-Hulud 469-location collector analysis: [https://blog.gitguardian.com/keyv-mini-shai-hulud/](https://blog.gitguardian.com/keyv-mini-shai-hulud/)
+- The Hacker News "Shai-Hulud's Reach Just Grew to 469 Credential Locations" (Sep 3, 2026): [https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html](https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html)
 - CISA KEV: [https://www.cisa.gov/known-exploited-vulnerabilities-catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
