@@ -92,7 +92,11 @@ Additional indicators from this update:
 ## Attribution notes
 JFrog mapped the distribution infrastructure to linked public personas, but the reporting used here does not attribute the campaign to a named threat group. Track it as a malicious npm package operation unless stronger public sourcing ties it to a broader cluster.
 
+## September 1, 2026: second delivery chain in the same cluster
+SafeDep's September 1, 2026 analysis of the **`ulid-xyz`** chain (MAL-2026-6672: `ioredis-xyz` → `redis-type-xyz` → `ulid-xyz`, transitive-delivery RAT) found the **same `MicrosoftSystem64` implant name, the same cross-platform persistence design, the same C2 port 8010, the same Hetzner hosting, and a direct `whisdev` operator overlap** with this cluster — the earlier SafeDep analysis of this campaign's 81 MB Node SEA binary (kmsec.uk / OX Security attribution: FAMOUS CHOLLIMA / Contagious Interview, DPRK-linked) is now corroborated across two independent delivery chains. See the [ulid-xyz transitive delivery chain page](ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md).
+
 ## Related pages
+- [ulid-xyz transitive delivery chain (MicrosoftSystem64 cluster, Sep 1, 2026)](ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](trapdoor-crypto-stealer-cross-ecosystem.md)
 - [GitHub / Packagist postinstall hook campaign](github-packagist-postinstall-hook-campaign.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](bufferzonecorp-ruby-go-ci-poisoning.md)

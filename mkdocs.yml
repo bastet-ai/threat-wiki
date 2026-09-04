@@ -7,6 +7,11 @@ nav:
   - Home: index.md
   - Blog: blog/index.md
   - Ops:
+      - "ulid-xyz transitive delivery chain (SafeDep MAL-2026-6672, Sep 1): a cross-platform MicrosoftSystem64 RAT three npm dependencies deep (ioredis-xyz -> redis-type-xyz -> ulid-xyz), armed 19 minutes after the entry package shipped and seeded in 28 purpose-built AI/fintech/trading GitHub repos; first-stage beacon over WebSocket to Hetzner C2 on port 8010, deploy_binary second-stage mechanism, same implant name / persistence design / port / hosting / whisdev operator overlap as the js-logger-pack cluster (FAMOUS CHOLLIMA / Contagious Interview, DPRK-linked) - the durable tell is the persistence name, not the package (SafeDep, Sep 1)": ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md
+      - "RMM phishing campaign spanning 46 countries: US is the top target (45% of 601 connected cases), lures include CRA/SSA tax forms, UPS/shipping and invoices; 425 kit URLs across 240 hosts (94% single-day-lived) on Vercel/GitHub Pages/Netlify with S3/Cloudflare R2/DigitalOcean Spaces/Dropbox/GoFile payload staging - the durable tell is the shared font1.woff2 asset and secure.html -> project/*.zip structure, not the disposable domain (ANY.RUN via THN, Sep 4)": ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md
+      - "GPT-6 'Astra' launch (Sep 3 follow-up on the Hugging Face autonomous-agent production-intrusion page): ExploitBench 100% (vs 78.5% GPT-5.6 Sol), FrontierMath Tier 4 98%, ARC-AGI-3 99.9%; released version limited to secure code review and patching and refuses PoC-exploit prompts; OpenAI Daybreak to roll out less restrictive safeguards in coming weeks - capability and refusal are decoupled, vendor-controlled, and reversible (THN / OpenAI, Sep 3)": ops/hugging-face-autonomous-agent-production-intrusion.md
+      - "BraZetsu: Group-IB's high-confidence attribution to Exilware of a Python-based Windows IAB master toolkit fueling the 'Infected Marketplace' (Banco de Infects / infect[.]online) access-as-a-service platform (~$5.80 initial deposit) for Iberian/LATAM targets; CNAB/CNABHunter payment-fraud overlap and heavy generative-AI triage; first seen Feb 2, 2026 (Group-IB, Sep 3)": tools/brazetsu.md
+      - "Cisco Nexus 9000 CVE-2026-20212 (9.8): unauthenticated remote root RCE on 10 Silicon One-based switches via a service bound to an unrestricted IP exposing TCP 43210/43211 in the default L3 VRF; 45 NX-OS releases 10.3(1)-10.6(3s) affected, no fixed-release table (Software Checker only); iACL block + Live Protect stopgaps; same window ships an IOS XR hardening release with 7 umbrella CVEs (two 9.8) and no workaround (THN / Cisco, Sep 2-3)": ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md
       - "Unit 42: two LLM-orchestrated LATAM intrusion campaigns with exposed AI backends - CL-CRI-1131 (Mexico transportation/gov/water utilities, LLM trial-and-error SAM/NTDS dumps, exposed NextChat LLM UI on 178.128.87.160) and CL-CRI-1163 (Brazil financial, SockTz v1-v9, open staging dir with LLM-tell scripts) - the LLM is now first-class attack infrastructure (Unit 42, Sep 3)": ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md
       - "Unit 42: machine-speed agentic intrusion - frontier-AI agents execute 50+ MITRE ATT&CK techniques in under 10 hours in a ransom attack, repurposing the victim's own AI endpoints as post-compromise C2; the agentic orchestration fingerprint is the detection (Unit 42, Sep 2 / updated Sep 3)": ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md
       - "Chrome V8 CVE-2026-85046 actively-exploited type-confusion zero-day: Google's Sep 4 2026 stable update (152.0.7977.82/.83) patches 12 flaws including one under in-the-wild exploitation (arbitrary JS-heap read/write via crafted HTML; CVSS 8.8; 6th exploited Chrome 0-day of 2026 after CVE-2026-2441/3909/3910/5281/11645)": ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md
@@ -396,6 +401,7 @@ nav:
       - LiteLLM compromise: ops/litellm-compromise.md
       - Trivy → TeamPCP → CanisterWorm timeline: ops/trivy-lite-llm-compromise-timeline.md
   - Tools:
+      - "BraZetsu: Exilware's Python-based Windows IAB master toolkit fueling the 'Infected Marketplace' access-as-a-service platform; CNAB/CNABHunter payment-fraud overlap and generative-AI triage (Group-IB, Sep 3)": tools/brazetsu.md
       - "GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback (eth_getStorageAt)": tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md
       - "Spark RAT: Cambodia-focused cluster, multi-stage Inno/DLL side-load chain, and the vulnerable OPSWAT ardrv.sys BYOVD driver": tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md
       - "SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language": tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md
@@ -462,6 +468,7 @@ nav:
       - CanisterWorm: tools/canisterworm.md
   - Groups:
       - UAT-10147: actors/uat-10147.md
+      - Exilware: actors/exilware.md
       - SilkParasite: actors/silkparasite.md
       - TheHatman: actors/thehatman.md
       - JINX-0163 / FulcrumSec: actors/jinx-0163.md
@@ -507,6 +514,7 @@ nav:
       - Overview: people/index.md
       - JiaT75: people/jiat75.md
   - Patterns:
+      - "Attackers turn the trusted Node.js runtime (node.exe) into a malware-delivery channel across multiple campaigns - signed-runtime abuse as a C2 fallback with registry-Run persistence (Symantec, Sep 4)": patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md
       - "ASCII smuggling crosses over from AI prompt injection to phishing evasion: Unicode tag-block characters (U+E0000–U+E007F) used to split high-signal words and defeat keyword/NLP email filters; ~150 finance-themed ActiveCampaign domains, 21K→1.3M signature hits Feb 9, 2026 (Microsoft Security Research, Sep 3)": patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md
       - "Amazon Kiro 'Power Leak': Kiro Powers prompt-injection data exfiltration via agent-rewritten MCP config (fixed 0.8.140)": patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md
       - 'VMs won''t contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times': patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md
