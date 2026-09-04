@@ -144,6 +144,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agentjacking](#agentjacking) (1)
 - [AGENTPSD](#agentpsd) (2)
 - [AgentWorm](#agentworm) (1)
+- [agetty](#agetty) (1)
 - [AI](#ai) (7)
 - [AI agent](#ai-agent) (3)
 - [AI agent security](#ai-agent-security) (3)
@@ -286,7 +287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](#apt29) (3)
 - [APT32](#apt32) (1)
 - [APT36](#apt36) (3)
-- [APT37](#apt37) (1)
+- [APT37](#apt37) (2)
 - [APT42](#apt42) (1)
 - [APT43](#apt43) (1)
 - [APT44](#apt44) (2)
@@ -339,6 +340,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASUS router](#asus-router) (1)
 - [AsyncAPI](#asyncapi) (1)
 - [AsyncRAT](#asyncrat) (3)
+- [atd](#atd) (1)
 - [Atlas RAT](#atlas-rat) (1)
 - [Atlassian](#atlassian) (1)
 - [Atomic Stealer](#atomic-stealer) (2)
@@ -367,6 +369,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AutoHotKey](#autohotkey) (1)
 - [AutoJack](#autojack) (1)
 - [automotive](#automotive) (1)
+- [automotive sector](#automotive-sector) (1)
 - [autonomous agents](#autonomous-agents) (3)
 - [autonomous AI](#autonomous-ai) (1)
 - [autonomous attack](#autonomous-attack) (2)
@@ -394,7 +397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Babuk](#babuk) (1)
 - [back-end](#back-end) (1)
 - [Backblaze](#backblaze) (1)
-- [backdoor](#backdoor) (24)
+- [backdoor](#backdoor) (25)
 - [Backdoor.Mistic](#backdoormistic) (1)
 - [Backdoor.Turn](#backdoorturn) (1)
 - [Backstage](#backstage) (1)
@@ -527,6 +530,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser memory](#browser-memory) (1)
 - [browser security](#browser-security) (3)
 - [browser session abuse](#browser-session-abuse) (2)
+- [browser session hijacking](#browser-session-hijacking) (1)
 - [browser session risk](#browser-session-risk) (3)
 - [browser zero-day](#browser-zero-day) (2)
 - [browser-based attack](#browser-based-attack) (1)
@@ -883,7 +887,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential dumping](#credential-dumping) (1)
 - [credential exfiltration](#credential-exfiltration) (1)
 - [credential exposure](#credential-exposure) (5)
-- [credential harvesting](#credential-harvesting) (6)
+- [credential harvesting](#credential-harvesting) (7)
 - [credential interception](#credential-interception) (1)
 - [credential leakage](#credential-leakage) (1)
 - [credential rotation](#credential-rotation) (1)
@@ -903,6 +907,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CRM data theft](#crm-data-theft) (1)
 - [cron](#cron) (2)
 - [cron persistence](#cron-persistence) (3)
+- [crond](#crond) (1)
 - [cross-ecosystem](#cross-ecosystem) (1)
 - [cross-origin requests](#cross-origin-requests) (1)
 - [cross-platform](#cross-platform) (4)
@@ -951,6 +956,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CSSOM](#cssom) (1)
 - [ctfmon.exe](#ctfmonexe) (1)
 - [Curious Serpens](#curious-serpens) (1)
+- [CurlRAT](#curlrat) (1)
 - [CURP](#curp) (1)
 - [Cursor](#cursor) (6)
 - [Curve25519](#curve25519) (2)
@@ -1172,6 +1178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-63030](#cve-2026-63030) (1)
 - [CVE-2026-63077](#cve-2026-63077) (1)
 - [CVE-2026-63520](#cve-2026-63520) (1)
+- [CVE-2026-6471](#cve-2026-6471) (1)
 - [CVE-2026-64849](#cve-2026-64849) (1)
 - [CVE-2026-65400](#cve-2026-65400) (1)
 - [CVE-2026-65640](#cve-2026-65640) (1)
@@ -1254,6 +1261,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cybercrime](#cybercrime) (18)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [cyberespionage](#cyberespionage) (7)
+- [Cyera](#cyera) (1)
 - [Cython](#cython) (1)
 - [Czech Republic](#czech-republic) (1)
 - [D-Link](#d-link) (1)
@@ -1264,6 +1272,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DARKLANTERN](#darklantern) (1)
 - [DarkSword](#darksword) (1)
 - [data analytics](#data-analytics) (1)
+- [data breach](#data-breach) (1)
 - [data center](#data-center) (1)
 - [data contamination](#data-contamination) (1)
 - [data exfiltration](#data-exfiltration) (18)
@@ -1273,6 +1282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data scraping](#data-scraping) (1)
 - [data theft](#data-theft) (11)
 - [data-exfiltration](#data-exfiltration) (1)
+- [database](#database) (1)
 - [database extortion](#database-extortion) (1)
 - [Datadog Security Labs](#datadog-security-labs) (1)
 - [DataObject](#dataobject) (1)
@@ -1385,6 +1395,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DLL search-order hijacking](#dll-search-order-hijacking) (2)
 - [DLL side-loading](#dll-side-loading) (8)
 - [DLL sideloading](#dll-sideloading) (28)
+- [dlopen](#dlopen) (1)
 - [DMTP](#dmtp) (1)
 - [DNS](#dns) (1)
 - [DNS C2](#dns-c2) (3)
@@ -1430,6 +1441,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dpapi.dll](#dpapidll) (1)
 - [DPAPILoader](#dpapiloader) (1)
 - [DPRK](#dprk) (8)
+- [DPRK APT](#dprk-apt) (1)
 - [DragonForce](#dragonforce) (1)
 - [drive serial number](#drive-serial-number) (1)
 - [driver loading](#driver-loading) (1)
@@ -1693,6 +1705,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [filename-injection](#filename-injection) (1)
 - [filestream](#filestream) (1)
 - [filesystem parser](#filesystem-parser) (1)
+- [filter API](#filter-api) (1)
 - [FilteredObjectInputStream](#filteredobjectinputstream) (1)
 - [finance](#finance) (2)
 - [finance phishing](#finance-phishing) (1)
@@ -1973,6 +1986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Halo's Gate](#halos-gate) (1)
 - [Handala](#handala) (1)
 - [HappyDoor](#happydoor) (1)
+- [HAProxy](#haproxy) (1)
 - [HAR files](#har-files) (1)
 - [hard-coded password](#hard-coded-password) (1)
 - [hard-coded secrets](#hard-coded-secrets) (1)
@@ -2395,7 +2409,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lightning Web Runtime](#lightning-web-runtime) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linksys](#linksys) (1)
-- [Linux](#linux) (29)
+- [Linux](#linux) (30)
 - [Linux backdoor](#linux-backdoor) (1)
 - [Linux kernel](#linux-kernel) (7)
 - [Linux malware](#linux-malware) (3)
@@ -2424,6 +2438,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [load balancer](#load-balancer) (1)
 - [loader](#loader) (7)
 - [loadlib2](#loadlib2) (1)
+- [LoadLibrary](#loadlibrary) (1)
 - [LOADLOOP](#loadloop) (1)
 - [local exploit](#local-exploit) (2)
 - [local inference](#local-inference) (1)
@@ -2446,12 +2461,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Log4j 2.26.1](#log4j-2261) (1)
 - [logging](#logging) (1)
 - [logging impairment](#logging-impairment) (1)
+- [logical decoding](#logical-decoding) (1)
 - [login item persistence](#login-item-persistence) (1)
 - [LOLBAS](#lolbas) (1)
 - [LOLBins](#lolbins) (3)
 - [long-horizon autonomy](#long-horizon-autonomy) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
+- [long-term surveillance](#long-term-surveillance) (1)
 - [LONGLEASH](#longleash) (1)
 - [LONGSTREAM](#longstream) (1)
 - [LOOKVALJS](#lookvaljs) (1)
@@ -2560,6 +2577,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MECCHA CHAMELEON](#meccha-chameleon) (1)
 - [media embed](#media-embed) (1)
 - [media processing](#media-processing) (1)
+- [media sector](#media-sector) (1)
 - [MediaFire](#mediafire) (1)
 - [medical research](#medical-research) (1)
 - [Mekotio](#mekotio) (1)
@@ -2657,7 +2675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mistic](#mistic) (2)
 - [MISTPEN](#mistpen) (1)
 - [MITRE ATLAS](#mitre-atlas) (1)
-- [MITRE ATT&CK](#mitre-attck) (4)
+- [MITRE ATT&CK](#mitre-attck) (5)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [Mitre ATT&CK T1110](#mitre-attck-t1110) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
@@ -2797,6 +2815,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nextcloud Flow](#nextcloud-flow) (1)
 - [Nexus 9000](#nexus-9000) (1)
 - [nf_tables](#nf_tables) (1)
+- [NFS](#nfs) (1)
 - [nftables](#nftables) (1)
 - [NGINX](#nginx) (1)
 - [Nginx](#nginx) (2)
@@ -2966,7 +2985,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (383)
+- [ops](#ops) (385)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3066,7 +3085,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patch window](#patch-window) (1)
 - [patch-now](#patch-now) (1)
 - [PATCHCORD](#patchcord) (1)
-- [patching](#patching) (3)
+- [patching](#patching) (4)
 - [patchstack](#patchstack) (1)
 - [Patchstack](#patchstack) (1)
 - [path hijacking](#path-hijacking) (1)
@@ -3107,6 +3126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [personal access tokens](#personal-access-tokens) (2)
 - [PetitPotam](#petitpotam) (1)
 - [pfSense](#pfsense) (1)
+- [pg_hba.conf](#pg_hbaconf) (1)
 - [PhaaS](#phaas) (6)
 - [Phantom Gyp](#phantom-gyp) (3)
 - [PhantomClick](#phantomclick) (1)
@@ -3167,6 +3187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [police digital services](#police-digital-services) (1)
 - [policy-setting abuse](#policy-setting-abuse) (1)
 - [PolinRider](#polinrider) (3)
+- [polkitd](#polkitd) (1)
 - [Poly1305](#poly1305) (1)
 - [polyfill](#polyfill) (1)
 - [Polygon](#polygon) (4)
@@ -3186,7 +3207,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [post-mortem](#post-mortem) (1)
 - [postal-impersonation](#postal-impersonation) (1)
 - [PostCSS](#postcss) (1)
-- [PostgreSQL](#postgresql) (4)
+- [PostgreSQL](#postgresql) (5)
 - [postinstall](#postinstall) (12)
 - [Potato](#potato) (1)
 - [POWER.md](#powermd) (1)
@@ -3343,7 +3364,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
 - [rapid exploitation](#rapid-exploitation) (2)
-- [Rapid7](#rapid7) (2)
+- [Rapid7](#rapid7) (3)
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
 - [RAT](#rat) (33)
@@ -3434,6 +3455,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [removable media](#removable-media) (1)
 - [Rentry](#rentry) (1)
 - [replication](#replication) (1)
+- [REPLICATION attribute](#replication-attribute) (1)
 - [repo-server](#repo-server) (1)
 - [repository compromise](#repository-compromise) (1)
 - [repository exfiltration](#repository-exfiltration) (1)
@@ -3682,6 +3704,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared memory](#shared-memory) (1)
 - [shared secrets](#shared-secrets) (1)
 - [shared-module](#shared-module) (1)
+- [shared_preload_libraries](#shared_preload_libraries) (1)
 - [SharedWorker](#sharedworker) (1)
 - [ShareFile](#sharefile) (1)
 - [SharePoint](#sharepoint) (8)
@@ -3759,7 +3782,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SmartConsole](#smartconsole) (1)
 - [SmartLoader](#smartloader) (1)
 - [SmartScreen](#smartscreen) (1)
-- [SMB](#smb) (1)
+- [SMB](#smb) (2)
 - [SMB brute force](#smb-brute-force) (1)
 - [SMB egress](#smb-egress) (1)
 - [SMB/USB worm](#smbusb-worm) (1)
@@ -3834,7 +3857,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SourTrade](#sourtrade) (1)
 - [South Africa](#south-africa) (1)
 - [South Asia](#south-asia) (2)
-- [South Korea](#south-korea) (2)
+- [South Korea](#south-korea) (3)
 - [Southeast Asia](#southeast-asia) (7)
 - [SP Page Builder](#sp-page-builder) (1)
 - [Spain](#spain) (1)
@@ -3881,12 +3904,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH brute force](#ssh-brute-force) (2)
 - [SSH key exposure](#ssh-key-exposure) (1)
 - [SSH key persistence](#ssh-key-persistence) (1)
+- [SSH keylogger](#ssh-keylogger) (1)
 - [SSH keys](#ssh-keys) (4)
 - [SSH lateral movement](#ssh-lateral-movement) (1)
 - [SSH persistence](#ssh-persistence) (1)
 - [SSH tunnel](#ssh-tunnel) (1)
 - [SSH tunneling](#ssh-tunneling) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
+- [sshd](#sshd) (1)
 - [SSL VPN](#ssl-vpn) (3)
 - [SSO](#sso) (4)
 - [SSRF](#ssrf) (10)
@@ -3954,6 +3979,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Supabase](#supabase) (1)
 - [Super Forms](#super-forms) (1)
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
+- [superuser escalation](#superuser-escalation) (1)
 - [supply chain](#supply-chain) (24)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (111)
@@ -4047,6 +4073,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [technician session](#technician-session) (1)
 - [technique crossover](#technique-crossover) (1)
 - [technology sector](#technology-sector) (2)
+- [ted backdoor](#ted-backdoor) (1)
 - [telecom](#telecom) (2)
 - [telecom-impersonation](#telecom-impersonation) (1)
 - [telecommunications](#telecommunications) (4)
@@ -4167,6 +4194,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trinitite](#trinitite) (1)
 - [Trivy](#trivy) (1)
 - [TRM Labs](#trm-labs) (1)
+- [trojanized daemons](#trojanized-daemons) (1)
 - [trojanized installers](#trojanized-installers) (3)
 - [trojanized npm](#trojanized-npm) (1)
 - [trojanized PDF viewer](#trojanized-pdf-viewer) (1)
@@ -4256,6 +4284,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unchecked-subtraction](#unchecked-subtraction) (1)
 - [unclaimed names](#unclaimed-names) (1)
 - [unfiltered_upload](#unfiltered_upload) (1)
+- [unguarded plugin load](#unguarded-plugin-load) (1)
 - [Uni-App](#uni-app) (1)
 - [UniBLEed](#unibleed) (1)
 - [Unicode](#unicode) (1)
@@ -5196,6 +5225,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AgentWorm
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 
+## agetty
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
+
 ## AI
 - [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -5767,6 +5799,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](../actors/sidecopy.md)
 
 ## APT37
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 
 ## APT42
@@ -5948,6 +5981,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
+## atd
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
+
 ## Atlas RAT
 - [TA4922](../actors/ta4922.md)
 
@@ -6063,6 +6099,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## automotive
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
+## automotive sector
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
+
 ## autonomous agents
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -6173,6 +6212,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [Showboat](../tools/showboat.md)
@@ -6699,6 +6739,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser session abuse
 - [ToddyCat](../actors/toddycat.md)
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
+
+## browser session hijacking
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 
 ## browser session risk
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
@@ -8196,6 +8239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## credential harvesting
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
@@ -8420,6 +8464,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 
+## crond
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
+
 ## cross-ecosystem
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
@@ -8614,6 +8661,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Curious Serpens
 - [ROADtools](../tools/roadtools.md)
+
+## CurlRAT
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 
 ## CURP
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
@@ -9314,6 +9364,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-63520
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 
+## CVE-2026-6471
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
+
 ## CVE-2026-64849
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 
@@ -9597,6 +9650,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 
+## Cyera
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
+
 ## Cython
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 
@@ -9626,6 +9682,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## data analytics
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
+
+## data breach
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 
 ## data center
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
@@ -9685,6 +9744,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## data-exfiltration
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+
+## database
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 
 ## database extortion
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
@@ -10194,6 +10256,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Umbrij](../tools/umbrij.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
+## dlopen
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
+
 ## DMTP
 - [FDMTP](../tools/fdmtp.md)
 
@@ -10358,6 +10423,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)](../ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
+
+## DPRK APT
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 
 ## DragonForce
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
@@ -11367,6 +11435,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## filesystem parser
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
+
+## filter API
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 
 ## FilteredObjectInputStream
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
@@ -12418,6 +12489,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HappyDoor
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
+
+## HAProxy
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 
 ## HAR files
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
@@ -14024,6 +14098,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
 ## Linux
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [ENCFORGE](../tools/encforge.md)
@@ -14183,6 +14258,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## loadlib2
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
+## LoadLibrary
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
+
 ## LOADLOOP
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
@@ -14262,6 +14340,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## logging impairment
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
+## logical decoding
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
+
 ## login item persistence
 - [PamStealer](../tools/pamstealer.md)
 
@@ -14281,6 +14362,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## long-term access
 - [RemotePE](../tools/remotepe.md)
+
+## long-term surveillance
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 
 ## LONGLEASH
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
@@ -14773,6 +14857,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## media processing
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
+## media sector
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
+
 ## MediaFire
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
@@ -15176,6 +15263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## MITRE ATT&CK
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
@@ -15670,6 +15758,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## nf_tables
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
+
+## NFS
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 
 ## nftables
 - [Linux nftables CVE-2026-23111 public LPE exploits](../ops/linux-nftables-cve-2026-23111-public-lpe-exploits.md)
@@ -16662,6 +16753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ops
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
@@ -16938,6 +17030,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
@@ -17399,6 +17492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 
 ## patchstack
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
@@ -17620,6 +17714,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pfSense
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
+## pg_hba.conf
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 
 ## PhaaS
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
@@ -17861,6 +17958,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
+## polkitd
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
+
 ## Poly1305
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
@@ -17931,6 +18031,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
 ## postinstall
@@ -18588,6 +18689,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
 ## Rapid7
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
@@ -18988,6 +19090,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## replication
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
+
+## REPLICATION attribute
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 
 ## repo-server
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
@@ -19935,6 +20040,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## shared-module
 - [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 
+## shared_preload_libraries
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
+
 ## SharedWorker
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 
@@ -20192,6 +20300,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SMB
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 
 ## SMB brute force
 - [Cavern](../tools/cavern.md)
@@ -20484,6 +20593,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SideCopy](../actors/sidecopy.md)
 
 ## South Korea
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -20665,6 +20775,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SSH key persistence
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
+## SSH keylogger
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
+
 ## SSH keys
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -20685,6 +20798,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SSH tunnels
 - [Cloud Atlas](../actors/cloud-atlas.md)
+
+## sshd
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 
 ## SSL VPN
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
@@ -20923,6 +21039,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SUPERADMIN_SECRET
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
+
+## superuser escalation
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 
 ## supply chain
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
@@ -21376,6 +21495,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## technology sector
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
+
+## ted backdoor
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 
 ## telecom
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
@@ -21883,6 +22005,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TRM Labs
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
+## trojanized daemons
+- ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
+
 ## trojanized installers
 - [Starland RAT](../tools/starland-rat.md)
 - [UAT-11795](../actors/uat-11795.md)
@@ -22254,6 +22379,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unfiltered_upload
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
+
+## unguarded plugin load
+- [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 
 ## Uni-App
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
