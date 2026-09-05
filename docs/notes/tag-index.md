@@ -47,6 +47,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [access broker](#access-broker) (2)
 - [access brokers](#access-brokers) (2)
 - [access control](#access-control) (1)
+- [access control bypass](#access-control-bypass) (1)
 - [access keys](#access-keys) (1)
 - [access optionality](#access-optionality) (1)
 - [access token abuse](#access-token-abuse) (1)
@@ -93,6 +94,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [administrator account creation](#administrator-account-creation) (2)
 - [Adobe ColdFusion](#adobe-coldfusion) (1)
 - [Adobe Commerce](#adobe-commerce) (1)
+- [ADP vs vendor CVSS divergence](#adp-vs-vendor-cvss-divergence) (1)
 - [ADS](#ads) (1)
 - [Adspect](#adspect) (1)
 - [Advanced IP Scanner](#advanced-ip-scanner) (1)
@@ -302,6 +304,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [arbitrary file upload](#arbitrary-file-upload) (2)
 - [arbitrary file write](#arbitrary-file-write) (6)
 - [arbitrary JavaScript](#arbitrary-javascript) (1)
+- [arbitrary SQL execution](#arbitrary-sql-execution) (1)
 - [ArcBridge](#arcbridge) (2)
 - [Arch Linux](#arch-linux) (1)
 - [Arctic Wolf](#arctic-wolf) (3)
@@ -684,7 +687,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
 - [CISA](#cisa) (17)
-- [CISA ADP](#cisa-adp) (1)
+- [CISA ADP](#cisa-adp) (2)
 - [CISA KEV](#cisa-kev) (44)
 - [Cisco](#cisco) (7)
 - [Cisco IOS](#cisco-ios) (1)
@@ -1117,6 +1120,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-46331](#cve-2026-46331) (1)
 - [CVE-2026-46817](#cve-2026-46817) (1)
 - [CVE-2026-47876](#cve-2026-47876) (1)
+- [CVE-2026-47884](#cve-2026-47884) (1)
+- [CVE-2026-47890](#cve-2026-47890) (1)
+- [CVE-2026-47891](#cve-2026-47891) (1)
+- [CVE-2026-47892](#cve-2026-47892) (1)
 - [CVE-2026-48172](#cve-2026-48172) (1)
 - [CVE-2026-48276](#cve-2026-48276) (1)
 - [CVE-2026-48277](#cve-2026-48277) (1)
@@ -1163,9 +1170,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-55634](#cve-2026-55634) (1)
 - [CVE-2026-56290](#cve-2026-56290) (1)
 - [CVE-2026-56291](#cve-2026-56291) (1)
+- [CVE-2026-59283](#cve-2026-59283) (1)
 - [CVE-2026-59285](#cve-2026-59285) (1)
 - [CVE-2026-59309](#cve-2026-59309) (1)
 - [CVE-2026-59310](#cve-2026-59310) (2)
+- [CVE-2026-59313](#cve-2026-59313) (1)
 - [CVE-2026-59318](#cve-2026-59318) (1)
 - [CVE-2026-59726](#cve-2026-59726) (1)
 - [CVE-2026-59822](#cve-2026-59822) (2)
@@ -1872,7 +1881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub PAT abuse](#github-pat-abuse) (1)
 - [GitHub payload delivery](#github-payload-delivery) (1)
 - [GitHub release assets](#github-release-assets) (1)
-- [GitHub Security Advisories](#github-security-advisories) (8)
+- [GitHub Security Advisories](#github-security-advisories) (9)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
 - [GitLab](#gitlab) (3)
@@ -2327,6 +2336,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KLCERT-26-058](#klcert-26-058) (1)
 - [Klue](#klue) (1)
 - [knaithe](#knaithe) (2)
+- [knowledge base](#knowledge-base) (1)
 - [KnowledgeDeliver](#knowledgedeliver) (1)
 - [known exploited vulnerability](#known-exploited-vulnerability) (1)
 - [KNUCKLEBALL](#knuckleball) (1)
@@ -2447,6 +2457,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [local subprocess](#local-subprocess) (1)
 - [local-file-inclusion](#local-file-inclusion) (1)
 - [localhost](#localhost) (2)
+- [localhost trust bypass](#localhost-trust-bypass) (1)
 - [localhost.run](#localhostrun) (1)
 - [localStorage](#localstorage) (2)
 - [LockBit](#lockbit) (2)
@@ -2886,6 +2897,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NullReceiver](#nullreceiver) (1)
 - [NullSessionPipes](#nullsessionpipes) (1)
 - [NVD](#nvd) (1)
+- [NVD scoring](#nvd-scoring) (1)
 - [NVGRE](#nvgre) (1)
 - [NVIDIA](#nvidia) (1)
 - [NVIDIA impersonation](#nvidia-impersonation) (1)
@@ -2980,12 +2992,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (329)
+- [operations](#operations) (330)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (385)
+- [ops](#ops) (386)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3080,7 +3092,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pastebin C2](#pastebin-c2) (1)
 - [PAT theft](#pat-theft) (1)
 - [patch bypass](#patch-bypass) (2)
-- [patch management](#patch-management) (5)
+- [patch management](#patch-management) (6)
 - [Patch the Planet](#patch-the-planet) (1)
 - [patch window](#patch-window) (1)
 - [patch-now](#patch-now) (1)
@@ -3089,7 +3101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patchstack](#patchstack) (1)
 - [Patchstack](#patchstack) (1)
 - [path hijacking](#path-hijacking) (1)
-- [path traversal](#path-traversal) (11)
+- [path traversal](#path-traversal) (12)
 - [Patriot Bait](#patriot-bait) (1)
 - [patterns](#patterns) (53)
 - [Paweł Płatek](#pawe-patek) (1)
@@ -3309,6 +3321,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public service abuse](#public-service-abuse) (1)
 - [public-service C2](#public-service-c2) (1)
 - [publication bias](#publication-bias) (1)
+- [publish mode](#publish-mode) (1)
 - [publish-time scanning](#publish-time-scanning) (1)
 - [publishing credentials](#publishing-credentials) (1)
 - [pull requests](#pull-requests) (2)
@@ -3612,6 +3625,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [search result poisoning](#search-result-poisoning) (1)
 - [search-ms](#search-ms) (1)
 - [Seashell Blizzard](#seashell-blizzard) (2)
+- [second-order injection](#second-order-injection) (1)
 - [secondary sanctions](#secondary-sanctions) (1)
 - [Secret Blizzard](#secret-blizzard) (3)
 - [secret exfiltration](#secret-exfiltration) (2)
@@ -3643,6 +3657,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [self-delete](#self-delete) (1)
 - [self-DoS](#self-dos) (1)
 - [self-hosted AI services](#self-hosted-ai-services) (1)
+- [self-hosted applications](#self-hosted-applications) (1)
 - [self-hosted Git](#self-hosted-git) (1)
 - [self-hosted media](#self-hosted-media) (1)
 - [self-hosted runner](#self-hosted-runner) (1)
@@ -3761,6 +3776,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SIP](#sip) (1)
 - [SIP ALG](#sip-alg) (1)
 - [Site Member permissions](#site-member-permissions) (1)
+- [SiYuan](#siyuan) (1)
 - [skb](#skb) (1)
 - [SkillCloak](#skillcloak) (1)
 - [SkillDetonate](#skilldetonate) (1)
@@ -3890,7 +3906,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SprySOCKS](#sprysocks) (2)
 - [Spyroid](#spyroid) (1)
 - [spyware](#spyware) (1)
-- [SQL injection](#sql-injection) (12)
+- [SQL injection](#sql-injection) (13)
 - [SQL Server](#sql-server) (1)
 - [SQLite](#sqlite) (2)
 - [SQLite state](#sqlite-state) (1)
@@ -4262,7 +4278,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (2)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
-- [unauthenticated RCE](#unauthenticated-rce) (14)
+- [unauthenticated RCE](#unauthenticated-rce) (15)
 - [unauthenticated-publish](#unauthenticated-publish) (1)
 - [unauthorized pentest framing](#unauthorized-pentest-framing) (1)
 - [UNC1069](#unc1069) (1)
@@ -4792,6 +4808,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## access control
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 
+## access control bypass
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
+
 ## access keys
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
@@ -5035,6 +5054,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Adobe Commerce
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+
+## ADP vs vendor CVSS divergence
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
 ## ADS
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
@@ -5854,6 +5876,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## arbitrary JavaScript
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
+
+## arbitrary SQL execution
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 
 ## ArcBridge
 - [ArcBridge](../tools/arcbridge.md)
@@ -7383,6 +7408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## CISA ADP
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## CISA KEV
@@ -9172,6 +9198,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-47876
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
+## CVE-2026-47884
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
+## CVE-2026-47890
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
+## CVE-2026-47891
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
+## CVE-2026-47892
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
 ## CVE-2026-48172
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 
@@ -9317,6 +9355,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-56291
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
+## CVE-2026-59283
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
 ## CVE-2026-59285
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
@@ -9326,6 +9367,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-59310
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
+
+## CVE-2026-59313
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
 ## CVE-2026-59318
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
@@ -12058,6 +12102,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 - [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 
 ## GitHub tokens
@@ -13795,6 +13840,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 
+## knowledge base
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
+
 ## KnowledgeDeliver
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -14295,6 +14343,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## localhost
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [NemoClaw local Ollama chat-template poisoning (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
+
+## localhost trust bypass
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 
 ## localhost.run
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
@@ -16076,6 +16127,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NVD
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
+## NVD scoring
+- [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
+
 ## NVGRE
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
@@ -16675,6 +16729,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
@@ -17061,6 +17116,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
@@ -17474,6 +17530,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 - [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 
 ## Patch the Planet
@@ -17512,6 +17569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
@@ -18454,6 +18512,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## publication bias
 - [Benchmaxxing: when a benchmark becomes the target](../patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
+
+## publish mode
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 
 ## publish-time scanning
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
@@ -19711,6 +19772,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
+## second-order injection
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
+
 ## secondary sanctions
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
@@ -19814,6 +19878,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## self-hosted AI services
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
+
+## self-hosted applications
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 
 ## self-hosted Git
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
@@ -20229,6 +20296,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Site Member permissions
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
+
+## SiYuan
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 
 ## skb
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -20728,6 +20798,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [ServiceNow AI Platform August 27, 2026 advisory: three CVSS 10.0 unauthenticated flaws and a sandbox escape (CVE-2026-18885 / CVE-2026-18886 / CVE-2026-74820 / CVE-2026-6876)](../ops/servicenow-ai-platform-august-27-2026-three-cvss-10-unauthenticated-flaws.md)
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
@@ -22308,6 +22379,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+- [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
