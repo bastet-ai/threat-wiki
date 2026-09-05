@@ -70,6 +70,7 @@ On **August 31, 2026**, Unit 42 published "**Spring Ring: An Inside Look at Voic
 
 ## Related pages
 
+- [Impersonating IT support: Teams external-collaboration intrusion — MSI + portable Node.js + JavaScript implant, WinRM pivoting to DCs/CA (Microsoft, Sep 2, 2026)](microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [Microsoft Teams external-chat phishing pattern](../patterns/microsoft-teams-external-chat-phishing.md)
 - [Collaboration-channel identity-abuse pattern](../patterns/collaboration-channel-identity-abuse.md)
 - [APT29 / Cozy Bear / Midnight Blizzard profile (Cloaked Ursa Teams campaigns)](../actors/apt29-cozy-bear-midnight-blizzard.md)

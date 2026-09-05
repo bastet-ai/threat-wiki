@@ -49,6 +49,7 @@ See [MODBEACON](../tools/modbeacon.md#indicators) for malware and infrastructure
 
 ## Related pages
 - [MODBEACON](../tools/modbeacon.md)
+- [Counterfeit installers to system compromise: Silver Fox / Yinhu deceptive software-download campaign (Microsoft, Sep 1, 2026)](microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Operation GriefLure Southeast Asia LNK dropper](operation-grieflure-southeast-asia-lnk-dropper.md)
 

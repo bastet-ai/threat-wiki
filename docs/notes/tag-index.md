@@ -65,7 +65,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Activator.CreateInstance](#activatorcreateinstance) (1)
-- [Active Directory](#active-directory) (2)
+- [Active Directory](#active-directory) (3)
 - [active exploitation](#active-exploitation) (77)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
@@ -216,6 +216,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [alert fatigue](#alert-fatigue) (1)
 - [algorithm confusion](#algorithm-confusion) (1)
 - [Alibaba](#alibaba) (1)
+- [Alibaba OSS](#alibaba-oss) (1)
 - [Allen-Bradley](#allen-bradley) (1)
 - [allowed_classes](#allowed_classes) (1)
 - [Alternate Data Stream](#alternate-data-stream) (1)
@@ -871,7 +872,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cosmos SDK](#cosmos-sdk) (1)
 - [CosmosEscape](#cosmosescape) (1)
 - [CoSnitch](#cosnitch) (1)
-- [counterfeit software](#counterfeit-software) (1)
+- [counterfeit software](#counterfeit-software) (2)
 - [COW](#cow) (1)
 - [COWARDDUCK](#cowardduck) (1)
 - [CPaaS](#cpaas) (1)
@@ -1327,6 +1328,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Defender exclusion](#defender-exclusion) (1)
 - [defense](#defense) (6)
 - [defense evasion](#defense-evasion) (10)
+- [defense impairment](#defense-impairment) (1)
 - [defense sector](#defense-sector) (1)
 - [defense targeting](#defense-targeting) (1)
 - [defense-evasion](#defense-evasion) (1)
@@ -1559,6 +1561,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [enterprise application exploitation](#enterprise-application-exploitation) (1)
 - [enterprise applications](#enterprise-applications) (1)
 - [enterprise identity](#enterprise-identity) (1)
+- [enterprise intrusion](#enterprise-intrusion) (1)
 - [enterprise proxy](#enterprise-proxy) (1)
 - [enterprise security](#enterprise-security) (1)
 - [Entra ID](#entra-id) (5)
@@ -1586,6 +1589,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ES|QL](#esql) (1)
 - [eth_getStorageAt](#eth_getstorageat) (1)
 - [Ethereum](#ethereum) (6)
+- [Ethereum C2](#ethereum-c2) (1)
 - [Ethereum Name Service](#ethereum-name-service) (2)
 - [EtherHiding](#etherhiding) (8)
 - [Ethiopia](#ethiopia) (1)
@@ -1653,7 +1657,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake documents](#fake-documents) (1)
 - [fake gambling](#fake-gambling) (1)
 - [fake graduation invite](#fake-graduation-invite) (1)
-- [fake installers](#fake-installers) (1)
+- [fake installers](#fake-installers) (2)
 - [fake lock screen](#fake-lock-screen) (1)
 - [fake login](#fake-login) (1)
 - [fake login screen](#fake-login-screen) (1)
@@ -1827,7 +1831,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GentleKiller](#gentlekiller) (1)
 - [Germany](#germany) (2)
 - [GHETTOVIBE](#ghettovibe) (1)
-- [Ghost](#ghost) (2)
+- [Ghost](#ghost) (3)
 - [ghost accounts](#ghost-accounts) (1)
 - [Ghost Calls](#ghost-calls) (1)
 - [Ghost CMS](#ghost-cms) (1)
@@ -2237,6 +2241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript](#javascript) (21)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript execution](#javascript-execution) (1)
+- [JavaScript implant](#javascript-implant) (1)
 - [JavaScript injection](#javascript-injection) (2)
 - [JavaScript loader](#javascript-loader) (1)
 - [JavaScript malware](#javascript-malware) (5)
@@ -2370,7 +2375,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Laravel](#laravel) (2)
 - [Laravel deserialization](#laravel-deserialization) (1)
 - [LATAM](#latam) (3)
-- [lateral movement](#lateral-movement) (9)
+- [lateral movement](#lateral-movement) (10)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (4)
 - [LaunchAgent](#launchagent) (5)
@@ -2633,6 +2638,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Copilot Personal](#microsoft-copilot-personal) (1)
 - [Microsoft Defender](#microsoft-defender) (5)
 - [Microsoft Defender exclusion](#microsoft-defender-exclusion) (1)
+- [Microsoft Defender Experts](#microsoft-defender-experts) (1)
 - [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
 - [Microsoft dev tunnels](#microsoft-dev-tunnels) (2)
 - [Microsoft Digital Crimes Unit](#microsoft-digital-crimes-unit) (1)
@@ -2646,8 +2652,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Identity Platform](#microsoft-identity-platform) (1)
 - [Microsoft Office SharePoint](#microsoft-office-sharepoint) (1)
 - [Microsoft Security Blog](#microsoft-security-blog) (1)
+- [Microsoft Security Research](#microsoft-security-research) (2)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
-- [Microsoft Teams](#microsoft-teams) (5)
+- [Microsoft Teams](#microsoft-teams) (6)
 - [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (5)
 - [Microsoft typosquat](#microsoft-typosquat) (1)
 - [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
@@ -2742,7 +2749,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MSBuild](#msbuild) (1)
 - [msgpack](#msgpack) (1)
 - [mshta](#mshta) (6)
-- [MSI](#msi) (1)
+- [MSI](#msi) (2)
+- [msiexec](#msiexec) (1)
 - [MSNightmare](#msnightmare) (1)
 - [MSP](#msp) (3)
 - [MSSQL](#mssql) (1)
@@ -2853,7 +2861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-pty](#node-pty) (1)
 - [Node-RED](#node-red) (1)
 - [node.exe](#nodeexe) (1)
-- [Node.js](#nodejs) (10)
+- [Node.js](#nodejs) (11)
 - [Node.js implant](#nodejs-implant) (1)
 - [Node.js malware](#nodejs-malware) (1)
 - [node:zlib](#nodezlib) (1)
@@ -2997,7 +3005,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (386)
+- [ops](#ops) (388)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3224,7 +3232,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Potato](#potato) (1)
 - [POWER.md](#powermd) (1)
 - [PowerCloud](#powercloud) (1)
-- [PowerShell](#powershell) (28)
+- [PowerShell](#powershell) (29)
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShell RAT](#powershell-rat) (1)
@@ -3359,6 +3367,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA](#quest-kace-sma) (1)
 - [QUIC](#quic) (1)
 - [QUICAgent](#quicagent) (1)
+- [Quick Assist](#quick-assist) (1)
 - [QuickFox](#quickfox) (1)
 - [QUICSILVER](#quicsilver) (1)
 - [QuimaRAT](#quimarat) (1)
@@ -3447,7 +3456,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [release tampering](#release-tampering) (1)
 - [Remcos](#remcos) (2)
 - [Remcos RAT](#remcos-rat) (1)
-- [remote access](#remote-access) (7)
+- [remote access](#remote-access) (8)
 - [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (8)
 - [Remote Access VPN](#remote-access-vpn) (1)
@@ -3502,7 +3511,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rilide](#rilide) (1)
 - [Ring 0](#ring-0) (1)
 - [RingH23](#ringh23) (1)
-- [RMM](#rmm) (7)
+- [RMM](#rmm) (8)
 - [RMM abuse](#rmm-abuse) (11)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
@@ -3603,7 +3612,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scanner evasion](#scanner-evasion) (1)
 - [ScarCruft](#scarcruft) (1)
 - [SCCM](#sccm) (1)
-- [scheduled task](#scheduled-task) (8)
+- [scheduled task](#scheduled-task) (9)
 - [scheduled task persistence](#scheduled-task-persistence) (6)
 - [scheduled tasks](#scheduled-tasks) (6)
 - [SCMBANKER](#scmbanker) (2)
@@ -3611,7 +3620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scoped package impersonation](#scoped-package-impersonation) (1)
 - [scorer manipulation](#scorer-manipulation) (1)
 - [SCOUTCURL](#scoutcurl) (1)
-- [screen capture](#screen-capture) (4)
+- [screen capture](#screen-capture) (5)
 - [Screen Sharing](#screen-sharing) (1)
 - [ScreenConnect](#screenconnect) (5)
 - [Screening Serpens](#screening-serpens) (2)
@@ -3672,7 +3681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sentry](#sentry) (1)
 - [Sentry abuse](#sentry-abuse) (1)
 - [SEO fraud](#seo-fraud) (3)
-- [SEO poisoning](#seo-poisoning) (8)
+- [SEO poisoning](#seo-poisoning) (9)
 - [Seqrite](#seqrite) (1)
 - [Seqrite Labs](#seqrite-labs) (2)
 - [Serbia](#serbia) (1)
@@ -3701,6 +3710,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [setuid](#setuid) (1)
 - [setup.py](#setuppy) (1)
 - [shadow AI](#shadow-ai) (1)
+- [shadow copy](#shadow-copy) (1)
 - [shadow copy deletion](#shadow-copy-deletion) (2)
 - [shadow fleet](#shadow-fleet) (1)
 - [shadow MMU](#shadow-mmu) (1)
@@ -3766,7 +3776,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SiliconFlow](#siliconflow) (1)
 - [SilkLurk](#silklurk) (2)
 - [SilkParasite](#silkparasite) (1)
-- [Silver Fox](#silver-fox) (3)
+- [Silver Fox](#silver-fox) (4)
 - [Silver Pass-ta-key](#silver-pass-ta-key) (1)
 - [Silverstripe](#silverstripe) (1)
 - [SimpleHelp](#simplehelp) (4)
@@ -3824,7 +3834,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SoC](#soc) (1)
 - [SocGholish](#socgholish) (1)
 - [social abuse](#social-abuse) (1)
-- [social engineering](#social-engineering) (20)
+- [social engineering](#social-engineering) (22)
 - [Social Security Administration](#social-security-administration) (1)
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (5)
@@ -4349,7 +4359,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [USN Journal](#usn-journal) (1)
 - [UTA0355](#uta0355) (1)
 - [UTA0533](#uta0533) (1)
-- [UTG-Q-1000](#utg-q-1000) (2)
+- [UTG-Q-1000](#utg-q-1000) (3)
 - [uTLS](#utls) (1)
 - [Uzbekistan](#uzbekistan) (1)
 - [V2Ray](#v2ray) (1)
@@ -4400,7 +4410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [virtualization](#virtualization) (2)
 - [virtualization targeting](#virtualization-targeting) (2)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
-- [vishing](#vishing) (8)
+- [vishing](#vishing) (9)
 - [Visual Studio](#visual-studio) (1)
 - [Visual Studio Code Remote SSH](#visual-studio-code-remote-ssh) (1)
 - [Vite](#vite) (1)
@@ -4535,6 +4545,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows Defender impairment](#windows-defender-impairment) (1)
 - [Windows filesystem](#windows-filesystem) (1)
 - [Windows Forms](#windows-forms) (1)
+- [Windows Installer](#windows-installer) (2)
 - [Windows malware](#windows-malware) (12)
 - [Windows persistence](#windows-persistence) (1)
 - [Windows Run dialog](#windows-run-dialog) (1)
@@ -4544,12 +4555,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows service](#windows-service) (1)
 - [Windows service persistence](#windows-service-persistence) (1)
 - [Windows Terminal](#windows-terminal) (1)
+- [Windows Update](#windows-update) (1)
 - [Winnti Group](#winnti-group) (2)
 - [WinOS](#winos) (1)
 - [Winos 4.0](#winos-40) (1)
 - [Winos4.0](#winos40) (1)
 - [WinPython](#winpython) (1)
 - [WinRAR](#winrar) (4)
+- [WinRM](#winrm) (1)
 - [WinSock](#winsock) (1)
 - [wiper](#wiper) (3)
 - [wiper-adjacent](#wiper-adjacent) (1)
@@ -4619,6 +4632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [YARA](#yara) (2)
 - [Yasmarang](#yasmarang) (1)
 - [YesWeHack](#yeswehack) (1)
+- [Yinhu](#yinhu) (1)
 - [YouTube](#youtube) (2)
 - [YouTube abuse](#youtube-abuse) (1)
 - [ysoserial](#ysoserial) (1)
@@ -4871,6 +4885,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Active Directory
 - [Cavern](../tools/cavern.md)
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
 ## active exploitation
@@ -5541,6 +5556,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Alibaba
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
+
+## Alibaba OSS
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 
 ## Allen-Bradley
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
@@ -8197,6 +8215,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
 
 ## counterfeit software
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
 
 ## COW
@@ -9931,6 +9950,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XCSSET](../tools/xcsset.md)
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 
+## defense impairment
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
+
 ## defense sector
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
 
@@ -10858,6 +10880,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## enterprise identity
 - [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 
+## enterprise intrusion
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
+
 ## enterprise proxy
 - [BridgeHead](../tools/bridgehead.md)
 
@@ -11019,6 +11044,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
+
+## Ethereum C2
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 
 ## Ethereum Name Service
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
@@ -11275,6 +11303,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
 
 ## fake installers
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
 
 ## fake lock screen
@@ -11876,6 +11905,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
 ## Ghost
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [MODBEACON](../tools/modbeacon.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
 
@@ -13492,6 +13522,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JavaScript execution
 - [LabubaRAT](../tools/labubarat.md)
 
+## JavaScript implant
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
+
 ## JavaScript injection
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -13972,6 +14005,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [LurkProxy](../tools/lurkproxy.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
@@ -15104,6 +15138,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Defender exclusion
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
+## Microsoft Defender Experts
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
+
 ## Microsoft Defender Security Research
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
@@ -15154,10 +15191,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Security Blog
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
+## Microsoft Security Research
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
+
 ## Microsoft SQL Server
 - [OceanLotus](../actors/oceanlotus.md)
 
 ## Microsoft Teams
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
@@ -15522,7 +15564,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 
 ## MSI
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
+## msiexec
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 
 ## MSNightmare
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
@@ -15899,6 +15945,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
@@ -16902,6 +16949,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
@@ -16964,6 +17012,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
@@ -18128,6 +18177,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
@@ -18673,6 +18723,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## QUICAgent
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
 
+## Quick Assist
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
+
 ## QuickFox
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 
@@ -19046,6 +19099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
@@ -19266,6 +19320,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RMM
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
@@ -19677,6 +19732,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## scheduled task
 - [APT28-linked HOOKEDGE backdoor targets European government and diplomatic organizations](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -19720,6 +19776,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## screen capture
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [TinyRCT](../tools/tinyrct.md)
 
@@ -19930,6 +19987,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACR Stealer](../tools/acr-stealer.md)
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
@@ -20031,6 +20089,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## shadow AI
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
+
+## shadow copy
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 
 ## shadow copy deletion
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
@@ -20263,6 +20324,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SilkParasite](../actors/silkparasite.md)
 
 ## Silver Fox
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [MODBEACON](../tools/modbeacon.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
@@ -20459,8 +20521,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
@@ -22625,6 +22689,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
 ## UTG-Q-1000
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [MODBEACON](../tools/modbeacon.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
 
@@ -22806,6 +22871,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
 ## vishing
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
@@ -23411,6 +23477,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Windows Forms
 - [STOCKSTAY](../tools/stockstay.md)
 
+## Windows Installer
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
+
 ## Windows malware
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [CrownX](../tools/crownx.md)
@@ -23450,6 +23520,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Windows Terminal
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 
+## Windows Update
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
+
 ## Winnti Group
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
@@ -23471,6 +23544,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## WinRM
+- [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 
 ## WinSock
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
@@ -23735,6 +23811,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## YesWeHack
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
+
+## Yinhu
+- [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 
 ## YouTube
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
