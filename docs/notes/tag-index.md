@@ -107,6 +107,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [adware](#adware) (6)
 - [adware history](#adware-history) (1)
 - [aerospace](#aerospace) (3)
+- [AES encrypted payload](#aes-encrypted-payload) (1)
 - [AES-128-CBC](#aes-128-cbc) (1)
 - [AES-256-CTR](#aes-256-ctr) (1)
 - [AES-256-GCM](#aes-256-gcm) (2)
@@ -834,8 +835,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConfuserEx](#confuserex) (2)
 - [conhost](#conhost) (2)
 - [connected apps](#connected-apps) (2)
-- [ConnectWise](#connectwise) (1)
-- [ConnectWise ScreenConnect](#connectwise-screenconnect) (1)
+- [ConnectWise](#connectwise) (2)
+- [ConnectWise advisory](#connectwise-advisory) (1)
+- [ConnectWise ScreenConnect](#connectwise-screenconnect) (2)
 - [construction](#construction) (2)
 - [consumer devices](#consumer-devices) (1)
 - [consumer IoT](#consumer-iot) (1)
@@ -940,6 +942,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto-js](#crypto-js) (1)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (15)
+- [cryptocurrency miner](#cryptocurrency-miner) (1)
 - [cryptocurrency mining](#cryptocurrency-mining) (1)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
 - [cryptocurrency theft](#cryptocurrency-theft) (13)
@@ -2084,7 +2087,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HUMAN Satori](#human-satori) (1)
 - [humanoid robot](#humanoid-robot) (1)
 - [Hunt.io](#huntio) (6)
-- [Huntress](#huntress) (3)
+- [Huntress](#huntress) (4)
 - [Huorong](#huorong) (1)
 - [Hyadina](#hyadina) (1)
 - [hybrid threat actor](#hybrid-threat-actor) (1)
@@ -3000,12 +3003,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (330)
+- [operations](#operations) (331)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (388)
+- [ops](#ops) (389)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3140,7 +3143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PEP 723](#pep-723) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
-- [persistence](#persistence) (36)
+- [persistence](#persistence) (37)
 - [persistent root access](#persistent-root-access) (1)
 - [persona operations](#persona-operations) (1)
 - [personal access tokens](#personal-access-tokens) (2)
@@ -3233,6 +3236,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [POWER.md](#powermd) (1)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (29)
+- [PowerShell AMSI bypass](#powershell-amsi-bypass) (1)
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
 - [PowerShell RAT](#powershell-rat) (1)
@@ -3458,13 +3462,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Remcos RAT](#remcos-rat) (1)
 - [remote access](#remote-access) (8)
 - [remote access software](#remote-access-software) (2)
-- [remote access trojan](#remote-access-trojan) (8)
+- [remote access trojan](#remote-access-trojan) (9)
 - [Remote Access VPN](#remote-access-vpn) (1)
 - [remote code execution](#remote-code-execution) (29)
 - [remote debugging](#remote-debugging) (2)
 - [remote desktop](#remote-desktop) (1)
 - [remote MCP](#remote-mcp) (1)
-- [remote monitoring and management](#remote-monitoring-and-management) (3)
+- [remote monitoring and management](#remote-monitoring-and-management) (4)
 - [remote script injection](#remote-script-injection) (1)
 - [remote shell](#remote-shell) (1)
 - [Remote Support](#remote-support) (1)
@@ -3512,7 +3516,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ring 0](#ring-0) (1)
 - [RingH23](#ringh23) (1)
 - [RMM](#rmm) (8)
-- [RMM abuse](#rmm-abuse) (11)
+- [RMM abuse](#rmm-abuse) (12)
 - [ROADrecon](#roadrecon) (1)
 - [ROADtools](#roadtools) (1)
 - [roadtx](#roadtx) (1)
@@ -3622,7 +3626,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SCOUTCURL](#scoutcurl) (1)
 - [screen capture](#screen-capture) (5)
 - [Screen Sharing](#screen-sharing) (1)
-- [ScreenConnect](#screenconnect) (5)
+- [ScreenConnect](#screenconnect) (6)
 - [Screening Serpens](#screening-serpens) (2)
 - [screenshot capture](#screenshot-capture) (2)
 - [screenshot theft](#screenshot-theft) (3)
@@ -3834,7 +3838,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SoC](#soc) (1)
 - [SocGholish](#socgholish) (1)
 - [social abuse](#social-abuse) (1)
-- [social engineering](#social-engineering) (22)
+- [social engineering](#social-engineering) (23)
 - [Social Security Administration](#social-security-administration) (1)
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (5)
@@ -4096,6 +4100,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamViewer](#teamviewer) (1)
 - [TEASOUP](#teasoup) (1)
 - [Tebi](#tebi) (1)
+- [tech support scam](#tech-support-scam) (1)
 - [technician session](#technician-session) (1)
 - [technique crossover](#technique-crossover) (1)
 - [technology sector](#technology-sector) (2)
@@ -4258,7 +4263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [U+E0000](#ue0000) (1)
 - [U.S. critical infrastructure](#us-critical-infrastructure) (1)
 - [UAC](#uac) (1)
-- [UAC bypass](#uac-bypass) (2)
+- [UAC bypass](#uac-bypass) (3)
 - [UAC-0002](#uac-0002) (2)
 - [UAC-0010](#uac-0010) (3)
 - [UAC-0098](#uac-0098) (1)
@@ -4280,6 +4285,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ukraine](#ukraine) (15)
 - [Ukraine targeting](#ukraine-targeting) (3)
 - [Ulej](#ulej) (3)
+- [UltraViewer](#ultraviewer) (1)
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
 - [unattributed](#unattributed) (2)
@@ -4377,6 +4383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBS loader](#vbs-loader) (1)
 - [VBS spreader](#vbs-spreader) (1)
 - [VBScript](#vbscript) (7)
+- [VBScript loader](#vbscript-loader) (1)
 - [vCenter](#vcenter) (2)
 - [vector databases](#vector-databases) (1)
 - [VEIL#DROP](#veildrop) (1)
@@ -4410,7 +4417,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [virtualization](#virtualization) (2)
 - [virtualization targeting](#virtualization-targeting) (2)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
-- [vishing](#vishing) (9)
+- [vishing](#vishing) (10)
 - [Visual Studio](#visual-studio) (1)
 - [Visual Studio Code Remote SSH](#visual-studio-code-remote-ssh) (1)
 - [Vite](#vite) (1)
@@ -4541,7 +4548,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows](#windows) (53)
 - [Windows 11 25H2](#windows-11-25h2) (1)
 - [Windows Defender](#windows-defender) (1)
-- [Windows Defender exclusions](#windows-defender-exclusions) (1)
+- [Windows Defender exclusions](#windows-defender-exclusions) (2)
 - [Windows Defender impairment](#windows-defender-impairment) (1)
 - [Windows filesystem](#windows-filesystem) (1)
 - [Windows Forms](#windows-forms) (1)
@@ -4562,6 +4569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Winos4.0](#winos40) (1)
 - [WinPython](#winpython) (1)
 - [WinRAR](#winrar) (4)
+- [WinRing0](#winring0) (1)
 - [WinRM](#winrm) (1)
 - [WinSock](#winsock) (1)
 - [wiper](#wiper) (3)
@@ -4586,6 +4594,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [workspace trust](#workspace-trust) (3)
 - [World Cup](#world-cup) (1)
 - [worm](#worm) (17)
+- [worm-like propagation](#worm-like-propagation) (1)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [WP Squared](#wp-squared) (1)
 - [WP-SHELLSTORM](#wp-shellstorm) (1)
@@ -5121,6 +5130,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirage Kitten](../actors/mirage-kitten.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
+
+## AES encrypted payload
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 
 ## AES-128-CBC
 - [TinyRCT](../tools/tinyrct.md)
@@ -8083,8 +8095,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ConnectWise
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
+
+## ConnectWise advisory
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 
 ## ConnectWise ScreenConnect
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## construction
@@ -8617,6 +8634,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
+
+## cryptocurrency miner
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 
 ## cryptocurrency mining
 - [Aeternum](../tools/aeternum.md)
@@ -12853,6 +12873,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 
 ## Huorong
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
@@ -16758,6 +16779,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
@@ -17146,6 +17168,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -17790,6 +17813,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [QuimaRAT](../tools/quimarat.md)
 - [ROADtools](../tools/roadtools.md)
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [Showboat](../tools/showboat.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
@@ -18194,6 +18218,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [WLDR agent](../tools/wldr-agent.md)
+
+## PowerShell AMSI bypass
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 
 ## PowerShell execution
 - [LabubaRAT](../tools/labubarat.md)
@@ -19114,6 +19141,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [LabubaRAT](../tools/labubarat.md)
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)](../ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
@@ -19165,6 +19193,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## remote monitoring and management
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## remote script injection
@@ -19336,6 +19365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [TaskWeaver](../tools/taskweaver.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
@@ -19788,6 +19818,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [ConnectWise ScreenConnect exploitation wave](../ops/connectwise-screenconnect-exploitation-wave.md)
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## Screening Serpens
@@ -20531,6 +20562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Screening Serpens](../actors/screening-serpens.md)
 - [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
@@ -21621,6 +21653,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Tebi
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 
+## tech support scam
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
+
 ## technician session
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 
@@ -22293,6 +22328,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UAC bypass
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## UAC-0002
@@ -22389,6 +22425,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+
+## UltraViewer
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 
 ## UltraVNC
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -22759,6 +22798,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
+## VBScript loader
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
+
 ## vCenter
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
@@ -22875,6 +22917,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [SCMBANKER](../tools/scmbanker.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 - [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
@@ -23466,6 +23509,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## Windows Defender exclusions
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
 ## Windows Defender impairment
@@ -23544,6 +23588,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## WinRing0
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 
 ## WinRM
 - [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
@@ -23653,6 +23700,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [XCSSET](../tools/xcsset.md)
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
+
+## worm-like propagation
+- [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 
 ## WP Maps Pro
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
