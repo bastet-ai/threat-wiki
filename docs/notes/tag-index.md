@@ -502,7 +502,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BookStack](#bookstack) (1)
 - [Boot Bus Extender](#boot-bus-extender) (1)
 - [Boot Time Removal Tool](#boot-time-removal-tool) (1)
-- [botnet](#botnet) (13)
+- [botnet](#botnet) (14)
 - [botnet framework](#botnet-framework) (1)
 - [BPFDoor](#bpfdoor) (1)
 - [Braintree](#braintree) (1)
@@ -740,6 +740,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [clipboard manipulation](#clipboard-manipulation) (2)
 - [clipboard stealer](#clipboard-stealer) (1)
 - [clipboard theft](#clipboard-theft) (6)
+- [clipjacking](#clipjacking) (1)
 - [clipper](#clipper) (2)
 - [Cloaked Ursa](#cloaked-ursa) (2)
 - [cloaking](#cloaking) (3)
@@ -932,10 +933,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crosswork Network Controller](#crosswork-network-controller) (1)
 - [Crosswork Planning](#crosswork-planning) (1)
 - [CrowdStrike](#crowdstrike) (1)
+- [CrowdStrike Counter Adversary Operations](#crowdstrike-counter-adversary-operations) (1)
 - [CrowdStrike Falcon](#crowdstrike-falcon) (1)
 - [CrownX](#crownx) (2)
 - [Crucio](#crucio) (1)
 - [crypto](#crypto) (2)
+- [crypto clipboard theft](#crypto-clipboard-theft) (1)
 - [crypto clipper](#crypto-clipper) (2)
 - [crypto draining](#crypto-draining) (1)
 - [crypto wallets](#crypto-wallets) (2)
@@ -945,7 +948,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptocurrency miner](#cryptocurrency-miner) (1)
 - [cryptocurrency mining](#cryptocurrency-mining) (1)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
-- [cryptocurrency theft](#cryptocurrency-theft) (13)
+- [cryptocurrency theft](#cryptocurrency-theft) (14)
 - [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (8)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (4)
 - [cryptographic context injection](#cryptographic-context-injection) (1)
@@ -1302,13 +1305,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dataset dead drop](#dataset-dead-drop) (1)
 - [dataset processing](#dataset-processing) (1)
 - [DAYLIGHT](#daylight) (1)
+- [DCIS](#dcis) (1)
 - [DCloud](#dcloud) (1)
 - [DCloud Uni-App](#dcloud-uni-app) (1)
 - [DcRAT](#dcrat) (1)
 - [DCSync](#dcsync) (1)
 - [DD-WRT](#dd-wrt) (1)
 - [DDNS](#ddns) (1)
-- [DDoS](#ddos) (9)
+- [DDoS](#ddos) (10)
 - [DDoS botnet](#ddos-botnet) (1)
 - [DDoS-for-hire](#ddos-for-hire) (3)
 - [DDR](#ddr) (1)
@@ -1438,7 +1442,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DOE](#doe) (1)
 - [DoFun](#dofun) (1)
 - [DOGLEASH](#dogleash) (1)
-- [DOJ](#doj) (1)
+- [DOJ](#doj) (2)
 - [domain squatting](#domain-squatting) (1)
 - [domain verification](#domain-verification) (1)
 - [DomainTools](#domaintools) (1)
@@ -1514,6 +1518,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [EDS5000](#eds5000) (1)
 - [education](#education) (4)
 - [EfsPotato](#efspotato) (1)
+- [EggJagger](#eggjagger) (1)
 - [Egnyte](#egnyte) (1)
 - [Egypt](#egypt) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
@@ -1600,11 +1605,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ETW bypass](#etw-bypass) (1)
 - [ETW patching](#etw-patching) (2)
 - [ETW tampering](#etw-tampering) (1)
-- [Eurojust](#eurojust) (1)
+- [Eurojust](#eurojust) (2)
 - [Europe](#europe) (3)
 - [Europe targeting](#europe-targeting) (1)
 - [European Union](#european-union) (1)
-- [Europol](#europol) (2)
+- [Europol](#europol) (3)
 - [eval injection](#eval-injection) (1)
 - [evaluation cheating](#evaluation-cheating) (1)
 - [evaluation containment](#evaluation-containment) (1)
@@ -1694,7 +1699,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fat JAR](#fat-jar) (1)
 - [FAT32](#fat32) (1)
 - [FatFs](#fatfs) (1)
-- [FBI](#fbi) (7)
+- [FBI](#fbi) (8)
 - [FBI indictment](#fbi-indictment) (1)
 - [fbot](#fbot) (1)
 - [FDMTP](#fdmtp) (2)
@@ -1705,6 +1710,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FIFA](#fifa) (1)
 - [file encryption](#file-encryption) (1)
 - [file exfiltration](#file-exfiltration) (1)
+- [file infector](#file-infector) (1)
 - [file inflation](#file-inflation) (1)
 - [file operations](#file-operations) (1)
 - [file sharing](#file-sharing) (1)
@@ -2173,7 +2179,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
 - [infrastructure churn](#infrastructure-churn) (1)
-- [infrastructure disruption](#infrastructure-disruption) (3)
+- [infrastructure disruption](#infrastructure-disruption) (4)
 - [infrastructure seizure](#infrastructure-seizure) (1)
 - [initial access](#initial-access) (2)
 - [initial access broker](#initial-access-broker) (4)
@@ -2423,6 +2429,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libuser](#libuser) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
 - [lifecycle-hooks](#lifecycle-hooks) (1)
+- [lighthouse beacon](#lighthouse-beacon) (1)
 - [Lightning Shared Scooter Co.](#lightning-shared-scooter-co) (1)
 - [Lightning Web Runtime](#lightning-web-runtime) (1)
 - [LinkedIn](#linkedin) (2)
@@ -2552,7 +2559,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malvertising](#malvertising) (10)
-- [malware](#malware) (64)
+- [malware](#malware) (65)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
@@ -3003,12 +3010,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (331)
+- [operations](#operations) (332)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (389)
+- [ops](#ops) (390)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3047,8 +3054,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OYSTERFRESH](#oysterfresh) (1)
 - [OYSTERSHUCK](#oystershuck) (1)
 - [P2P](#p2p) (1)
+- [P2P botnet](#p2p-botnet) (1)
 - [P2P C2](#p2p-c2) (1)
 - [P2P relay](#p2p-relay) (1)
+- [P2P sinkhole](#p2p-sinkhole) (1)
 - [p2pwn](#p2pwn) (1)
 - [package fork](#package-fork) (1)
 - [package hijacking](#package-hijacking) (1)
@@ -3135,6 +3144,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PEB hash](#peb-hash) (1)
 - [PebbleDash](#pebbledash) (1)
 - [pedit](#pedit) (1)
+- [peer list](#peer-list) (1)
 - [Pegasus](#pegasus) (1)
 - [pentesting](#pentesting) (1)
 - [people](#people) (1)
@@ -3216,6 +3226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polygon](#polygon) (4)
 - [Polygon blockchain dead drop](#polygon-blockchain-dead-drop) (2)
 - [Polymarket](#polymarket) (1)
+- [polymorphic](#polymorphic) (1)
 - [polymorphic loader](#polymorphic-loader) (1)
 - [polymorphic payloads](#polymorphic-payloads) (1)
 - [Popa](#popa) (1)
@@ -3551,6 +3562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ROX II](#rox-ii) (1)
 - [RRWallet](#rrwallet) (1)
 - [RSA](#rsa) (1)
+- [RSA public key](#rsa-public-key) (1)
 - [RSA-2048](#rsa-2048) (2)
 - [RSA-OAEP](#rsa-oaep) (1)
 - [RT-Thread](#rt-thread) (1)
@@ -3598,6 +3610,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Safari](#safari) (1)
 - [SafeDep](#safedep) (8)
 - [Salesforce](#salesforce) (4)
+- [Sality](#sality) (1)
 - [SAML](#saml) (3)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
@@ -3724,6 +3737,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [SHADOW-WATER-063](#shadow-water-063) (1)
 - [ShadowPad](#shadowpad) (4)
+- [Shadowserver Foundation](#shadowserver-foundation) (1)
 - [Shai-Hulud](#shai-hulud) (14)
 - [SHARDLOADER](#shardloader) (2)
 - [SHARE Foundation](#share-foundation) (1)
@@ -3787,6 +3801,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SimpleHTTPServer exposure](#simplehttpserver-exposure) (1)
 - [simulation tampering](#simulation-tampering) (1)
 - [sinkhole](#sinkhole) (1)
+- [sinkholing](#sinkholing) (1)
 - [SIP](#sip) (1)
 - [SIP ALG](#sip-alg) (1)
 - [Site Member permissions](#site-member-permissions) (1)
@@ -4008,6 +4023,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suo5](#suo5) (1)
 - [Supabase](#supabase) (1)
 - [Super Forms](#super-forms) (1)
+- [super peer](#super-peer) (1)
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
 - [supply chain](#supply-chain) (24)
@@ -4149,7 +4165,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [third-party JavaScript](#third-party-javascript) (1)
 - [third-party risk](#third-party-risk) (1)
 - [thought virus](#thought-virus) (1)
-- [threat hunting](#threat-hunting) (1)
+- [threat hunting](#threat-hunting) (2)
 - [threat intelligence](#threat-intelligence) (1)
 - [threat landscape](#threat-landscape) (2)
 - [threat measurement](#threat-measurement) (1)
@@ -4348,6 +4364,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [upstream dependency](#upstream-dependency) (1)
 - [UPX](#upx) (1)
 - [uranium compression](#uranium-compression) (1)
+- [URL pack](#url-pack) (1)
 - [URL parameter](#url-parameter) (1)
 - [URL retrieval](#url-retrieval) (1)
 - [URLPattern](#urlpattern) (1)
@@ -4638,7 +4655,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [xz](#xz) (2)
 - [Yahoo Mail](#yahoo-mail) (1)
 - [Yanbian](#yanbian) (1)
-- [YARA](#yara) (2)
+- [YARA](#yara) (3)
 - [Yasmarang](#yasmarang) (1)
 - [YesWeHack](#yeswehack) (1)
 - [Yinhu](#yinhu) (1)
@@ -6642,6 +6659,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [RustDuck](../tools/rustduck.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## botnet framework
@@ -7693,6 +7711,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
+## clipjacking
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
+
 ## clipper
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
@@ -8587,6 +8608,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CrowdStrike
 - [Benchmaxxing: when a benchmark becomes the target](../patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
 
+## CrowdStrike Counter Adversary Operations
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
+
 ## CrowdStrike Falcon
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 
@@ -8600,6 +8624,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## crypto
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+
+## crypto clipboard theft
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
 ## crypto clipper
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
@@ -8653,6 +8680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [Starland RAT](../tools/starland-rat.md)
 - [UAT-11795](../actors/uat-11795.md)
@@ -9849,6 +9877,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DAYLIGHT
 - [GREYVIBE](../actors/greyvibe.md)
 
+## DCIS
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
+
 ## DCloud
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
@@ -9877,6 +9908,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 - [RustDuck](../tools/rustduck.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
 ## DDoS botnet
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
@@ -10449,6 +10481,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DOJ
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
 ## domain squatting
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
@@ -10722,6 +10755,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## EfsPotato
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+
+## EggJagger
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
 ## Egnyte
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
@@ -11100,6 +11136,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Eurojust
 - [First VPN](../tools/first-vpn.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
 ## Europe
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
@@ -11114,6 +11151,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Europol
 - [First VPN](../tools/first-vpn.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## eval injection
@@ -11445,6 +11483,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## FBI indictment
@@ -11478,6 +11517,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## file exfiltration
 - [TinyRCT](../tools/tinyrct.md)
+
+## file infector
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
 ## file inflation
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -13257,6 +13299,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## infrastructure disruption
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## infrastructure seizure
@@ -14187,6 +14230,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## lifecycle-hooks
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 
+## lighthouse beacon
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
+
 ## Lightning Shared Scooter Co.
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
@@ -14763,6 +14809,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing](../tools/redwing.md)
 - [RemotePE](../tools/remotepe.md)
 - [RustDuck](../tools/rustduck.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 - [SCMBANKER](../tools/scmbanker.md)
 - [Showboat](../tools/showboat.md)
 - [SilkLurk](../tools/silklurk.md)
@@ -16784,6 +16831,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
@@ -17174,6 +17222,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
@@ -17403,11 +17452,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## P2P
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
+## P2P botnet
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
+
 ## P2P C2
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## P2P relay
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
+
+## P2P sinkhole
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
 ## p2pwn
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
@@ -17767,6 +17822,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## pedit
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
+## peer list
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
+
 ## Pegasus
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
@@ -18110,6 +18168,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Polymarket
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+
+## polymorphic
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
 ## polymorphic loader
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -19487,6 +19548,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RSA
 - [OP-512](../actors/op-512.md)
 
+## RSA public key
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
+
 ## RSA-2048
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [ENCFORGE](../tools/encforge.md)
@@ -19692,6 +19756,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
+## Sality
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
 ## SAML
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
@@ -20155,6 +20222,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [SilkParasite](../actors/silkparasite.md)
 
+## Shadowserver Foundation
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
+
 ## Shai-Hulud
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
@@ -20380,6 +20450,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## sinkhole
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+
+## sinkholing
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
 ## SIP
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
@@ -21204,6 +21277,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Super Forms
 - [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 
+## super peer
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
+
 ## SUPERADMIN_SECRET
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
 
@@ -21845,6 +21921,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## threat hunting
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
 ## threat intelligence
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
@@ -22669,6 +22746,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## uranium compression
 - [Fast16](../tools/fast16.md)
+
+## URL pack
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
 ## URL parameter
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
@@ -23854,6 +23934,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## YARA
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
+- [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 
 ## Yasmarang
