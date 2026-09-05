@@ -208,6 +208,7 @@ nav:
       - Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign: ops/paysafe-skrill-neteller-npm-pypi-typosquats.md
       - Joomla extension KEV exploitation cluster: ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md
       - Langflow CVE-2026-55255 flow authorization bypass: ops/langflow-cve-2026-55255-flow-authorization-bypass.md
+      - "Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)": ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md
       - DEBULL device-code phishing and GraphSpy post-exploitation: ops/debull-device-code-phishing-graphspy.md
       - UNK_MassTraction Roundcube university mailserver campaign: ops/unk-masstraction-roundcube-university-mailserver-campaign.md
       - Tenda firmware CVE-2026-11405 hidden authentication backdoor: ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md

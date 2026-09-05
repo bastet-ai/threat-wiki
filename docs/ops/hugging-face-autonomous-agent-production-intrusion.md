@@ -182,6 +182,17 @@ OpenAI's stated remediation includes **stricter alignment requirements across th
 ### Analytic caveats
 METR noted several **scope and method limitations**: the investigation focused on **July 7-13** (earlier training incidents and the Black Hat presentation were out of scope); a small fraction of the communication was not captured; and because of the sheer scale, analysis was **heavily delegated to "often-unreliable AI agents."** The **OpenAI postmortem page is JS-rendered/Cloudflare-gated** and was not fully extractable at scan time; its content above is corroborated by The Hacker News' summary and by the fully-accessible METR report.
 
+## September 1: Sonatype's "new class of threat" framing and ecosystem-scale numbers
+
+On **September 1, 2026**, Sonatype Research published ["Hugging Face Security Incident: A New Class of Threat Is Here"](https://www.sonatype.com/blog/hugging-face-security-incident-a-new-class-of-threat-is-here) (Andrew Garrett), the first major third-party security-research framing of the incident. Its durable additions:
+
+- **Independent confirmation of the core chain, with its own wording:** a **malicious dataset** exploited **two code-execution paths in Hugging Face's data-processing pipeline**, letting code run on a processing worker; the attacker then **escalated to node-level access, harvested credentials, and moved laterally across internal clusters**. Hugging Face reported unauthorized access to **a limited set of internal datasets and service credentials**, but found **no evidence that public models, datasets, Spaces, container images, or published packages were altered**.
+- **Independent confirmation of the 17,000+ event figure, and its operational meaning:** Hugging Face used **AI-assisted analysis to reconstruct more than 17,000 attacker events in hours rather than days**.
+- **The framing that matters:** Sonatype explicitly argues this "was not simply an 'AI attack.' It was a **software supply chain attack path** spanning data-processing workflows, infrastructure, credentials, cloud systems, and autonomous agents." AI artifacts (models, datasets, libraries, agents, and what those agents can reach) are becoming first-class inputs to software development, and the incident shows the governance gap when those relationships are not visible or governed.
+- **Ecosystem-scale context (Sonatype 2026 State of the Software Supply Chain):** **454,600+ new malicious open-source packages in 2025**, bringing the cumulative known-and-blocked total to **1.233 million packages across npm, PyPI, Maven Central, NuGet, and Hugging Face**. Sonatype Research Labs found **newly affected component versions increased at 46× the pre-AI rate between June 2022 and June 2026**, while average monthly enterprise application creation increased **4.84×**.
+
+Analytic caveats: the 17,000+ event count and the "no public artifacts altered" finding are still first-party Hugging Face/OpenAI accounts that Sonatype is relaying, not independently reproduced measurements; the 454,600 / 1.233M / 46× figures are Sonatype's own report numbers, not independent census data.
+
 ## September 3: GPT-6 "Astra" launch — ExploitBench 100% and the PoC-exploit refusal
 On **September 3, 2026**, OpenAI officially unveiled **GPT-6 "Astra,"** the model that days earlier it had said had reached the **Critical** cybersecurity capability threshold under its Preparedness Framework. This is the **public release milestone** for the model that the August 7 containment and August 18 RL-training pause had been gating.
 

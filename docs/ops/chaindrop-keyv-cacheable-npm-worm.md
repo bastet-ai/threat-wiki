@@ -203,7 +203,18 @@ Unit 42 recovered a narrowly gated propagation branch for `opensearch-project/op
 
 Its sample also narrows persistence claims. The VS Code task calls `.claude/setup.mjs` and reaches the dropped `.claude/math_init.js`; the reciprocal Claude Code hook calls `.vscode/setup.mjs`, but that loader looks for a missing `.vscode/math_init.js`, so only the VS Code path was functional in that build. The macOS LaunchAgent and Linux user-service installer was embedded but had no call site in the analyzed main path. Other reports observed or described token-monitor persistence, so responders should still hunt all artifacts while distinguishing latent code from execution evidence on each host.
 
-### OX MCP Registry and residual-repository follow-up
+### OX Shai-Hulud Outbreak Debrief follow-up (August 9)
+
+OX's August 9, 2026 "Shai-Hulud Outbreak Debrief: The Worm Evolves into MCP" (5 days post-infection) frames the wave as one of the most widespread supply-chain attacks of 2026: **over 440 unique npm packages compromised, reaching downstream projects with an estimated 2+ billion combined monthly downloads**. Its residual findings at that snapshot:
+
+- **5 GitHub repositories still distributing infected Claude Code / VS Code settings files**, one of which is the source repository for a **public MCP server listed in a public MCP marketplace** — the registry-to-repository delivery path detailed below.
+- **3,800+ public GitHub repositories containing exfiltrated credential dumps** (matching the `results-<ID>.json` structural pattern seen across prior Shai-Hulud variants) still publicly accessible and searchable — a cross-variant combined count.
+- **Active propagation:** compromised maintainer accounts continued to automatically spawn new infected repositories bearing the signature string "Shai-Hulud: Here We Go Again."
+- **Delayed-response issue:** `@ornikar/intl-config` and `@ornikar/react-native-svg-transformer` stayed live for **3 full days** and were removed ~72 hours after initial infection.
+
+Treat these as a point-in-time OX snapshot layered on the Unit 42 / SafeDep inventories above; the 440-package figure and 2-billion-download estimate are OX's measurements and do not reconcile exactly with Unit 42's 483-package list or SafeDep's 444-name reconstruction.
+
+#### OX MCP Registry and residual-repository follow-up
 
 OX Security's August 9 response review found a **V.A.P.E** MCP server entry whose linked PyPI package was clean but whose source repository, `jUXTAPOSITION1/V.A.P.E`, contained the ChainDrop `.claude/settings.json` and `.vscode/tasks.json` hooks. The Claude `SessionStart` hook called `node .vscode/setup.mjs`; the VS Code `folderOpen` task called `node .claude/setup.mjs`. Their SHA-256 values match the JFrog-published hook indicators already listed below. This is a registry-to-repository delivery path, not evidence that the clean PyPI artifact itself was compromised.
 

@@ -21,6 +21,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [158.220.87.79](#1582208779) (1)
 - [192.42.116.105](#19242116105) (1)
 - [192.42.116.58](#1924211658) (1)
+- [1H 2026 State of Exploitation](#1h-2026-state-of-exploitation) (1)
 - [2FA bypass](#2fa-bypass) (2)
 - [2FA harvesting](#2fa-harvesting) (1)
 - [2FA recovery codes](#2fa-recovery-codes) (1)
@@ -154,7 +155,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI agent tooling](#ai-agent-tooling) (1)
 - [AI agents](#ai-agents) (25)
 - [AI anti-analysis](#ai-anti-analysis) (1)
-- [AI application infrastructure](#ai-application-infrastructure) (6)
+- [AI application infrastructure](#ai-application-infrastructure) (7)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
 - [AI assistants](#ai-assistants) (4)
 - [AI benchmarks](#ai-benchmarks) (1)
@@ -355,6 +356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AUDIOFIX](#audiofix) (2)
 - [audit logging](#audit-logging) (1)
 - [audit telemetry](#audit-telemetry) (1)
+- [auditd disabling](#auditd-disabling) (1)
 - [AUR](#aur) (1)
 - [Aura](#aura) (1)
 - [Australia](#australia) (1)
@@ -598,6 +600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cambodia](#cambodia) (2)
 - [campaign](#campaign) (7)
 - [Canada](#canada) (1)
+- [canary](#canary) (1)
 - [CANFAIL](#canfail) (1)
 - [CanisterWorm](#canisterworm) (1)
 - [canonicalization](#canonicalization) (1)
@@ -665,7 +668,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chinese-speaking](#chinese-speaking) (10)
 - [Chinese-speaking cybercrime](#chinese-speaking-cybercrime) (1)
 - [Chinese-speaking operator](#chinese-speaking-operator) (2)
-- [Chisel](#chisel) (3)
+- [Chisel](#chisel) (4)
 - [ChocoPoC](#chocopoc) (1)
 - [ChocoShell](#chocoshell) (1)
 - [ChromaDB](#chromadb) (1)
@@ -901,7 +904,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (85)
+- [credential theft](#credential-theft) (86)
 - [credential-theft](#credential-theft) (56)
 - [credit card theft](#credit-card-theft) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
@@ -955,7 +958,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptojacking](#cryptojacking) (2)
 - [CryptoJS](#cryptojs) (1)
 - [cryptominer](#cryptominer) (3)
-- [cryptomining](#cryptomining) (3)
+- [cryptomining](#cryptomining) (4)
 - [CSCwt95997](#cscwt95997) (1)
 - [CSI token theft](#csi-token-theft) (1)
 - [CSP stripping](#csp-stripping) (1)
@@ -1003,15 +1006,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2024-21182](#cve-2024-21182) (1)
 - [CVE-2024-28000](#cve-2024-28000) (1)
 - [CVE-2024-3094](#cve-2024-3094) (2)
+- [CVE-2024-37014](#cve-2024-37014) (1)
 - [CVE-2024-42009](#cve-2024-42009) (1)
 - [CVE-2025-11371](#cve-2025-11371) (1)
 - [CVE-2025-11837](#cve-2025-11837) (1)
 - [CVE-2025-24054](#cve-2025-24054) (1)
 - [CVE-2025-2492](#cve-2025-2492) (1)
-- [CVE-2025-3248](#cve-2025-3248) (2)
+- [CVE-2025-3248](#cve-2025-3248) (3)
 - [CVE-2025-32975](#cve-2025-32975) (1)
 - [CVE-2025-33053](#cve-2025-33053) (1)
-- [CVE-2025-34291](#cve-2025-34291) (1)
+- [CVE-2025-34291](#cve-2025-34291) (2)
 - [CVE-2025-40947](#cve-2025-40947) (1)
 - [CVE-2025-40948](#cve-2025-40948) (1)
 - [CVE-2025-40949](#cve-2025-40949) (1)
@@ -1028,7 +1032,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-8088](#cve-2025-8088) (4)
 - [CVE-2026-0257](#cve-2026-0257) (1)
 - [CVE-2026-0300](#cve-2026-0300) (1)
-- [CVE-2026-0770](#cve-2026-0770) (1)
+- [CVE-2026-0769](#cve-2026-0769) (1)
+- [CVE-2026-0770](#cve-2026-0770) (2)
 - [CVE-2026-10520](#cve-2026-10520) (1)
 - [CVE-2026-10523](#cve-2026-10523) (1)
 - [CVE-2026-11405](#cve-2026-11405) (1)
@@ -1072,6 +1077,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-20316](#cve-2026-20316) (1)
 - [CVE-2026-20349](#cve-2026-20349) (1)
 - [CVE-2026-20896](#cve-2026-20896) (1)
+- [CVE-2026-21445](#cve-2026-21445) (1)
 - [CVE-2026-21513](#cve-2026-21513) (1)
 - [CVE-2026-21858](#cve-2026-21858) (1)
 - [CVE-2026-21962](#cve-2026-21962) (1)
@@ -1086,7 +1092,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-3055](#cve-2026-3055) (1)
 - [CVE-2026-32475](#cve-2026-32475) (2)
 - [CVE-2026-3300](#cve-2026-3300) (1)
-- [CVE-2026-33017](#cve-2026-33017) (3)
+- [CVE-2026-33017](#cve-2026-33017) (4)
+- [CVE-2026-33497](#cve-2026-33497) (1)
 - [CVE-2026-33691](#cve-2026-33691) (1)
 - [CVE-2026-33824](#cve-2026-33824) (2)
 - [CVE-2026-34486](#cve-2026-34486) (2)
@@ -1149,6 +1156,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-48908](#cve-2026-48908) (1)
 - [CVE-2026-48939](#cve-2026-48939) (1)
 - [CVE-2026-49869](#cve-2026-49869) (1)
+- [CVE-2026-5027](#cve-2026-5027) (1)
 - [CVE-2026-50522](#cve-2026-50522) (1)
 - [CVE-2026-50656](#cve-2026-50656) (2)
 - [CVE-2026-50751](#cve-2026-50751) (1)
@@ -1173,7 +1181,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-55208](#cve-2026-55208) (1)
 - [CVE-2026-55212](#cve-2026-55212) (1)
 - [CVE-2026-55220](#cve-2026-55220) (1)
-- [CVE-2026-55255](#cve-2026-55255) (1)
+- [CVE-2026-55255](#cve-2026-55255) (2)
+- [CVE-2026-55450](#cve-2026-55450) (1)
 - [CVE-2026-55634](#cve-2026-55634) (1)
 - [CVE-2026-56290](#cve-2026-56290) (1)
 - [CVE-2026-56291](#cve-2026-56291) (1)
@@ -1248,7 +1257,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-85046](#cve-2026-85046) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
-- [CVE-2026-9198](#cve-2026-9198) (1)
+- [CVE-2026-9198](#cve-2026-9198) (2)
 - [CVE-2026-9539](#cve-2026-9539) (1)
 - [CVE-2026-9586](#cve-2026-9586) (1)
 - [CVSS](#cvss) (1)
@@ -1640,6 +1649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exploit.in](#exploitin) (1)
 - [exploitation](#exploitation) (15)
 - [exploitation attempts](#exploitation-attempts) (1)
+- [exploitation telemetry](#exploitation-telemetry) (1)
 - [ExploitBench](#exploitbench) (1)
 - [ExploitGym](#exploitgym) (1)
 - [exposed applications](#exposed-applications) (1)
@@ -1734,6 +1744,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [financial](#financial) (1)
 - [financial fraud](#financial-fraud) (8)
 - [financial institutions](#financial-institutions) (1)
+- [financial motivation](#financial-motivation) (1)
 - [financial sector](#financial-sector) (8)
 - [financial services](#financial-services) (5)
 - [financial theft](#financial-theft) (3)
@@ -2197,7 +2208,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Intercolo](#intercolo) (1)
 - [internal secret exfiltration](#internal-secret-exfiltration) (1)
 - [internal security review](#internal-security-review) (1)
-- [internet exposure](#internet-exposure) (1)
+- [internet exposure](#internet-exposure) (2)
 - [internet-facing admin surface](#internet-facing-admin-surface) (1)
 - [internet-facing appliance](#internet-facing-appliance) (2)
 - [internet-facing applications](#internet-facing-applications) (1)
@@ -2219,6 +2230,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ipynbdiff](#ipynbdiff) (1)
 - [Iran](#iran) (9)
 - [Iran-nexus](#iran-nexus) (3)
+- [IRC C2](#irc-c2) (1)
 - [IRGC](#irgc) (1)
 - [IronWorm](#ironworm) (1)
 - [Irregular](#irregular) (1)
@@ -2375,7 +2387,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LabubaRAT](#labubarat) (1)
 - [Labubu](#labubu) (2)
 - [LangChain](#langchain) (3)
-- [Langflow](#langflow) (11)
+- [Langflow](#langflow) (12)
 - [LangFlow](#langflow) (1)
 - [LangGraph](#langgraph) (1)
 - [Language Servers for AWS](#language-servers-for-aws) (1)
@@ -3015,7 +3027,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (390)
+- [ops](#ops) (391)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3141,6 +3153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pc-app.exe](#pc-appexe) (1)
 - [PCM](#pcm) (1)
 - [pe_to_shellcode](#pe_to_shellcode) (1)
+- [pearl-miner](#pearl-miner) (1)
 - [PEB hash](#peb-hash) (1)
 - [PebbleDash](#pebbledash) (1)
 - [pedit](#pedit) (1)
@@ -3214,6 +3227,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PNG shellcode](#png-shellcode) (1)
 - [PoC available](#poc-available) (1)
 - [PoC exploit refusal](#poc-exploit-refusal) (1)
+- [PocSuite3](#pocsuite3) (1)
 - [Pods](#pods) (1)
 - [poisoned-branch](#poisoned-branch) (1)
 - [PoisonX](#poisonx) (1)
@@ -3475,7 +3489,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (9)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (29)
+- [remote code execution](#remote-code-execution) (30)
 - [remote debugging](#remote-debugging) (2)
 - [remote desktop](#remote-desktop) (1)
 - [remote MCP](#remote-mcp) (1)
@@ -3798,6 +3812,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Silver Pass-ta-key](#silver-pass-ta-key) (1)
 - [Silverstripe](#silverstripe) (1)
 - [SimpleHelp](#simplehelp) (4)
+- [SimpleHelp RAT](#simplehelp-rat) (1)
 - [SimpleHTTPServer exposure](#simplehttpserver-exposure) (1)
 - [simulation tampering](#simulation-tampering) (1)
 - [sinkhole](#sinkhole) (1)
@@ -3953,6 +3968,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH keys](#ssh-keys) (4)
 - [SSH lateral movement](#ssh-lateral-movement) (1)
 - [SSH persistence](#ssh-persistence) (1)
+- [SSH pivot](#ssh-pivot) (1)
 - [SSH tunnel](#ssh-tunnel) (1)
 - [SSH tunneling](#ssh-tunneling) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
@@ -4472,7 +4488,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vSphere Foundation](#vsphere-foundation) (1)
 - [vssvc.exe](#vssvcexe) (1)
 - [VU#213560](#vu213560) (1)
-- [VulnCheck](#vulncheck) (6)
+- [VulnCheck](#vulncheck) (7)
 - [vulnerability](#vulnerability) (26)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
 - [vulnerability disclosure](#vulnerability-disclosure) (2)
@@ -4763,6 +4779,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## 192.42.116.58
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+
+## 1H 2026 State of Exploitation
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## 2FA bypass
 - [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
@@ -5350,6 +5369,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
@@ -6084,6 +6104,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## audit telemetry
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
+
+## auditd disabling
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## AUR
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
@@ -7050,6 +7073,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Canada
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## canary
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
+
 ## CANFAIL
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
@@ -7305,6 +7331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 
 ## Chisel
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -8385,6 +8412,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
@@ -8719,6 +8747,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 
 ## cryptomining
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
@@ -8875,6 +8904,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JiaT75](../people/jiat75.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 
+## CVE-2024-37014
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
+
 ## CVE-2024-42009
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
@@ -8893,6 +8925,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2025-3248
 - [ENCFORGE](../tools/encforge.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## CVE-2025-32975
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
@@ -8901,6 +8934,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
 ## CVE-2025-34291
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 
 ## CVE-2025-40947
@@ -8957,7 +8991,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-0300
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 
+## CVE-2026-0769
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
+
 ## CVE-2026-0770
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
 
 ## CVE-2026-10520
@@ -9090,6 +9128,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-20896
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 
+## CVE-2026-21445
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
+
 ## CVE-2026-21513
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
@@ -9135,8 +9176,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-33017
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
+## CVE-2026-33497
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## CVE-2026-33691
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
@@ -9335,6 +9380,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-49869
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 
+## CVE-2026-5027
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
+
 ## CVE-2026-50522
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 
@@ -9411,7 +9459,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 
 ## CVE-2026-55255
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
+
+## CVE-2026-55450
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## CVE-2026-55634
 - [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
@@ -9642,6 +9694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-9198
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## CVE-2026-9539
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
@@ -11267,6 +11320,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## exploitation attempts
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
+## exploitation telemetry
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
+
 ## ExploitBench
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
@@ -11599,6 +11655,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## financial institutions
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
+## financial motivation
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## financial sector
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
@@ -13368,6 +13427,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## internet exposure
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## internet-facing admin surface
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
@@ -13462,6 +13522,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirage Kitten](../actors/mirage-kitten.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
+
+## IRC C2
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## IRGC
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
@@ -14028,6 +14091,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ENCFORGE](../tools/encforge.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
@@ -17106,6 +17170,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
@@ -17813,6 +17878,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## pe_to_shellcode
 - [RemotePE](../tools/remotepe.md)
 
+## pearl-miner
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
+
 ## PEB hash
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
@@ -18126,6 +18194,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PoC exploit refusal
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
+## PocSuite3
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## Pods
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
@@ -19226,6 +19297,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
 - [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [Microsoft SharePoint CVE-2026-45659 RCE exploitation](../ops/microsoft-sharepoint-cve-2026-45659-rce-exploitation.md)
@@ -20442,6 +20514,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [TaskWeaver](../tools/taskweaver.md)
 
+## SimpleHelp RAT
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
+
 ## SimpleHTTPServer exposure
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
@@ -21029,6 +21104,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SSH persistence
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+
+## SSH pivot
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## SSH tunnel
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
@@ -23145,6 +23223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VulnCheck
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
+- [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
