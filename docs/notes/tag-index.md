@@ -67,7 +67,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACTINIUM](#actinium) (1)
 - [Activator.CreateInstance](#activatorcreateinstance) (1)
 - [Active Directory](#active-directory) (3)
-- [active exploitation](#active-exploitation) (77)
+- [active exploitation](#active-exploitation) (78)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -94,7 +94,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [admin takeover](#admin-takeover) (1)
 - [administrator account creation](#administrator-account-creation) (2)
 - [Adobe ColdFusion](#adobe-coldfusion) (1)
-- [Adobe Commerce](#adobe-commerce) (1)
+- [Adobe Commerce](#adobe-commerce) (2)
 - [ADP vs vendor CVSS divergence](#adp-vs-vendor-cvss-divergence) (1)
 - [ADS](#ads) (1)
 - [Adspect](#adspect) (1)
@@ -208,7 +208,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AI-generated narrator](#ai-generated-narrator) (1)
 - [Aider](#aider) (1)
-- [Aikido](#aikido) (2)
+- [Aikido](#aikido) (3)
 - [AISURU](#aisuru) (2)
 - [AiTM](#aitm) (4)
 - [AitM](#aitm) (1)
@@ -1490,7 +1490,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dynu](#dynu) (1)
 - [DyPrIs](#dypris) (1)
 - [Dysphoria](#dysphoria) (1)
-- [e-commerce](#e-commerce) (1)
+- [e-commerce](#e-commerce) (2)
 - [E.O. 13224](#eo-13224) (1)
 - [E.O. 13382](#eo-13382) (1)
 - [E.O. 13694](#eo-13694) (1)
@@ -1982,7 +1982,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro](#grandoreiro) (2)
 - [granular access tokens](#granular-access-tokens) (1)
 - [Graph API](#graph-api) (1)
-- [GraphQL](#graphql) (2)
+- [GraphQL](#graphql) (3)
 - [GraphQL Composite Data API](#graphql-composite-data-api) (1)
 - [GraphSpy](#graphspy) (1)
 - [Gravity SMTP](#gravity-smtp) (1)
@@ -2549,7 +2549,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macro-enabled Word](#macro-enabled-word) (1)
 - [MacSync](#macsync) (1)
 - [MaDoO Blaster](#madoo-blaster) (1)
-- [Magento](#magento) (1)
+- [Magecart](#magecart) (1)
+- [Magento](#magento) (2)
+- [Magento Open Source](#magento-open-source) (1)
 - [magic packet](#magic-packet) (1)
 - [MagicYUV](#magicyuv) (1)
 - [mail server compromise](#mail-server-compromise) (1)
@@ -2917,6 +2919,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NTFS ADS](#ntfs-ads) (3)
 - [NTLM](#ntlm) (2)
 - [NTLM relay](#ntlm-relay) (1)
+- [NTP C2 disguise](#ntp-c2-disguise) (1)
 - [nuclear procurement](#nuclear-procurement) (1)
 - [nuclear research](#nuclear-research) (1)
 - [nuclear weapons](#nuclear-weapons) (1)
@@ -3022,12 +3025,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (332)
+- [operations](#operations) (333)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (391)
+- [ops](#ops) (392)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3424,7 +3427,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RC4 encryption](#rc4-encryption) (1)
-- [RCE](#rce) (13)
+- [RCE](#rce) (14)
 - [Rclone](#rclone) (1)
 - [rclone](#rclone) (1)
 - [RCS](#rcs) (1)
@@ -3489,7 +3492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (9)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (30)
+- [remote code execution](#remote-code-execution) (31)
 - [remote debugging](#remote-debugging) (2)
 - [remote desktop](#remote-desktop) (1)
 - [remote MCP](#remote-mcp) (1)
@@ -3609,6 +3612,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian-speaking ecosystem](#russian-speaking-ecosystem) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Rust](#rust) (9)
+- [Rust backdoor](#rust-backdoor) (1)
 - [Rust loader](#rust-loader) (1)
 - [Rust malware](#rust-malware) (7)
 - [S3 Browser](#s3-browser) (1)
@@ -3634,6 +3638,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (2)
 - [Sangoma](#sangoma) (1)
+- [Sansec](#sansec) (1)
 - [Sapphire Sleet](#sapphire-sleet) (1)
 - [saroula01](#saroula01) (1)
 - [SBA phishing](#sba-phishing) (1)
@@ -4158,7 +4163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnet brute force](#telnet-brute-force) (3)
 - [Telnyx](#telnyx) (1)
 - [Temp Zagros](#temp-zagros) (1)
-- [template injection](#template-injection) (1)
+- [template injection](#template-injection) (2)
 - [tenant isolation](#tenant-isolation) (1)
 - [tenant-project](#tenant-project) (1)
 - [Tencent](#tencent) (1)
@@ -4321,7 +4326,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
 - [unattributed](#unattributed) (2)
-- [unauthenticated](#unauthenticated) (10)
+- [unauthenticated](#unauthenticated) (11)
 - [unauthenticated access](#unauthenticated-access) (4)
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (2)
@@ -4524,7 +4529,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [weak passwords](#weak-passwords) (2)
 - [weak RNG](#weak-rng) (1)
 - [weapons shipments](#weapons-shipments) (1)
-- [web application](#web-application) (6)
+- [web application](#web-application) (7)
 - [web application compromise](#web-application-compromise) (1)
 - [web hosting](#web-hosting) (2)
 - [web IDE](#web-ide) (1)
@@ -4690,7 +4695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zero Trust](#zero-trust) (1)
 - [zero-balance](#zero-balance) (1)
 - [zero-click](#zero-click) (2)
-- [zero-day](#zero-day) (12)
+- [zero-day](#zero-day) (13)
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [zero-width](#zero-width) (1)
@@ -5003,6 +5008,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
@@ -5114,6 +5120,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Adobe Commerce
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
 ## ADP vs vendor CVSS divergence
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
@@ -5574,6 +5581,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Aikido
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 - [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
 ## AISURU
 - [Kimwolf v7](../tools/kimwolf-v7.md)
@@ -10666,6 +10674,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## e-commerce
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
 ## E.O. 13224
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
@@ -12546,6 +12555,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GraphQL
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
 ## GraphQL Composite Data API
 - [ServiceNow AI Platform August 27, 2026 advisory: three CVSS 10.0 unauthenticated flaws and a sandbox escape (CVE-2026-18885 / CVE-2026-18886 / CVE-2026-74820 / CVE-2026-6876)](../ops/servicenow-ai-platform-august-27-2026-three-cvss-10-unauthenticated-flaws.md)
@@ -14741,8 +14751,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MaDoO Blaster
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
+## Magecart
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
+
 ## Magento
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
+
+## Magento Open Source
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
 ## magic packet
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
@@ -16273,6 +16290,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NTLM relay
 - [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 
+## NTP C2 disguise
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
+
 ## nuclear procurement
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
@@ -16924,6 +16944,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
@@ -17319,6 +17340,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -19039,6 +19061,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 
@@ -19308,6 +19331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [ServiceNow AI Platform CVE-2026-6875 exploitation](../ops/servicenow-ai-platform-cve-2026-6875-exploitation.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 - [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
@@ -19758,6 +19782,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
+## Rust backdoor
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
+
 ## Rust loader
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 
@@ -19871,6 +19898,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Sangoma
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
+
+## Sansec
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
 ## Sapphire Sleet
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
@@ -21916,6 +21946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## template injection
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
 ## tenant isolation
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
@@ -22604,6 +22635,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [ServiceNow AI Platform August 27, 2026 advisory: three CVSS 10.0 unauthenticated flaws and a sandbox escape (CVE-2026-18885 / CVE-2026-18886 / CVE-2026-74820 / CVE-2026-6876)](../ops/servicenow-ai-platform-august-27-2026-three-cvss-10-unauthenticated-flaws.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 - [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
@@ -23394,6 +23426,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 
@@ -24084,6 +24117,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
+- [StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 - [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
