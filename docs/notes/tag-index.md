@@ -79,7 +79,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actors](#actors) (13)
 - [ad blocker](#ad-blocker) (1)
 - [AD CS](#ad-cs) (1)
-- [ad fraud](#ad-fraud) (2)
+- [ad fraud](#ad-fraud) (3)
 - [adaptive identity management](#adaptive-identity-management) (1)
 - [adaptive identity phishing](#adaptive-identity-phishing) (1)
 - [Adaptix C2](#adaptix-c2) (1)
@@ -698,7 +698,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CIS](#cis) (2)
 - [CISA](#cisa) (17)
 - [CISA ADP](#cisa-adp) (2)
-- [CISA KEV](#cisa-kev) (44)
+- [CISA KEV](#cisa-kev) (45)
 - [Cisco](#cisco) (7)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -827,7 +827,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [commercial messaging applications](#commercial-messaging-applications) (1)
 - [commit farming](#commit-farming) (1)
 - [communications infrastructure](#communications-infrastructure) (1)
-- [Composer](#composer) (6)
+- [Composer](#composer) (7)
 - [compromised accounts](#compromised-accounts) (2)
 - [compromised credentials](#compromised-credentials) (1)
 - [compromised infrastructure](#compromised-infrastructure) (1)
@@ -949,6 +949,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto clipboard theft](#crypto-clipboard-theft) (1)
 - [crypto clipper](#crypto-clipper) (2)
 - [crypto draining](#crypto-draining) (1)
+- [crypto wallet theft](#crypto-wallet-theft) (1)
 - [crypto wallets](#crypto-wallets) (2)
 - [crypto-js](#crypto-js) (1)
 - [crypto-wallets](#crypto-wallets) (1)
@@ -1262,6 +1263,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-8452](#cve-2026-8452) (2)
 - [CVE-2026-8461](#cve-2026-8461) (1)
 - [CVE-2026-85046](#cve-2026-85046) (1)
+- [CVE-2026-86206](#cve-2026-86206) (1)
+- [CVE-2026-86207](#cve-2026-86207) (1)
+- [CVE-2026-86218](#cve-2026-86218) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [CVE-2026-9198](#cve-2026-9198) (2)
@@ -1830,7 +1834,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ftrace](#ftrace) (1)
 - [FudModule](#fudmodule) (1)
 - [Full Disk Access social engineering](#full-disk-access-social-engineering) (1)
-- [Funnull](#funnull) (1)
+- [Funnull](#funnull) (2)
 - [Fusion Builder](#fusion-builder) (1)
 - [futex PI](#futex-pi) (1)
 - [FUXA](#fuxa) (1)
@@ -1843,6 +1847,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon collaboration](#gamaredon-collaboration) (1)
 - [gambling](#gambling) (1)
 - [gambling industry targeting](#gambling-industry-targeting) (1)
+- [gambling redirect](#gambling-redirect) (1)
 - [game cheats](#game-cheats) (1)
 - [game exploitation](#game-exploitation) (1)
 - [gaming malware](#gaming-malware) (1)
@@ -2232,6 +2237,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [InvisibleFerret](#invisibleferret) (1)
 - [invocation logging](#invocation-logging) (1)
 - [iOS](#ios) (3)
+- [iOS exploit chain](#ios-exploit-chain) (1)
 - [IOS XR](#ios-xr) (1)
 - [IoT](#iot) (9)
 - [IoT botnet](#iot-botnet) (8)
@@ -2278,7 +2284,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript execution](#javascript-execution) (1)
 - [JavaScript implant](#javascript-implant) (1)
-- [JavaScript injection](#javascript-injection) (2)
+- [JavaScript injection](#javascript-injection) (3)
 - [JavaScript loader](#javascript-loader) (1)
 - [JavaScript malware](#javascript-malware) (5)
 - [JavaScript masquerading](#javascript-masquerading) (1)
@@ -2373,6 +2379,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimwolf](#kimwolf) (1)
 - [Kimwolf v7](#kimwolf-v7) (1)
 - [Kiro Powers](#kiro-powers) (1)
+- [KKPhim](#kkphim) (1)
 - [KLCERT-26-057](#klcert-26-057) (1)
 - [KLCERT-26-058](#klcert-26-058) (1)
 - [Klue](#klue) (1)
@@ -2588,6 +2595,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious plugin](#malicious-plugin) (1)
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
+- [malicious theme](#malicious-theme) (1)
 - [malvertising](#malvertising) (10)
 - [malware](#malware) (65)
 - [malware analysis](#malware-analysis) (2)
@@ -2825,6 +2833,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mythos](#mythos) (1)
 - [N-able](#n-able) (2)
 - [N-central](#n-central) (2)
+- [n-day](#n-day) (1)
 - [n8n](#n8n) (2)
 - [Nacos](#nacos) (3)
 - [NadMesh](#nadmesh) (1)
@@ -3044,12 +3053,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (333)
+- [operations](#operations) (334)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
+- [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (394)
+- [ops](#ops) (395)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3109,7 +3119,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package-manager-hardening](#package-manager-hardening) (1)
 - [package-splitting](#package-splitting) (1)
 - [package-takeover](#package-takeover) (1)
-- [Packagist](#packagist) (5)
+- [Packagist](#packagist) (6)
 - [packet injection](#packet-injection) (1)
 - [PAExec](#paexec) (1)
 - [Page Builder CK](#page-builder-ck) (1)
@@ -3300,7 +3310,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PRC-nexus](#prc-nexus) (1)
 - [pre-auth RCE](#pre-auth-rce) (1)
 - [pre-authentication](#pre-authentication) (3)
-- [pre-authentication RCE](#pre-authentication-rce) (1)
+- [pre-authentication RCE](#pre-authentication-rce) (2)
 - [pre-signed URL](#pre-signed-url) (2)
 - [Prefetch](#prefetch) (1)
 - [preinstall](#preinstall) (4)
@@ -3718,7 +3728,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [security-tool discovery](#security-tool-discovery) (1)
 - [SecurityPDF](#securitypdf) (1)
 - [seed phrase](#seed-phrase) (1)
-- [seed phrase theft](#seed-phrase-theft) (2)
+- [seed phrase theft](#seed-phrase-theft) (3)
 - [seed recovery](#seed-recovery) (1)
 - [SeedHunter](#seedhunter) (1)
 - [Seedworm](#seedworm) (3)
@@ -3901,7 +3911,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [social engineering](#social-engineering) (23)
 - [Social Security Administration](#social-security-administration) (1)
 - [social-engineering](#social-engineering) (2)
-- [Socket](#socket) (5)
+- [Socket](#socket) (6)
 - [Socket Security](#socket-security) (3)
 - [Socket Security Research](#socket-security-research) (2)
 - [Socket.IO](#socketio) (2)
@@ -3979,7 +3989,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Spring Security](#spring-security) (1)
 - [SprySOCKS](#sprysocks) (2)
 - [Spyroid](#spyroid) (1)
-- [spyware](#spyware) (1)
+- [spyware](#spyware) (2)
 - [SQL injection](#sql-injection) (13)
 - [SQL Server](#sql-server) (1)
 - [SQLite](#sqlite) (2)
@@ -4072,7 +4082,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [super peer](#super-peer) (1)
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
-- [supply chain](#supply-chain) (24)
+- [supply chain](#supply-chain) (25)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (111)
 - [supply-chain attack](#supply-chain-attack) (1)
@@ -4472,6 +4482,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [video platform](#video-platform) (1)
 - [Vietnam](#vietnam) (2)
 - [Vietnam-aligned](#vietnam-aligned) (1)
+- [Vietnamese CMS](#vietnamese-cms) (1)
 - [Views](#views) (1)
 - [ViewState](#viewstate) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
@@ -4572,14 +4583,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web shell](#web-shell) (11)
 - [web shell hunting](#web-shell-hunting) (1)
 - [web shells](#web-shells) (3)
-- [web supply chain](#web-supply-chain) (2)
+- [web supply chain](#web-supply-chain) (3)
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
 - [WebAuthn](#webauthn) (1)
 - [WebDAV](#webdav) (6)
 - [webhook.site](#webhooksite) (1)
 - [WebHost Manager](#webhost-manager) (1)
-- [WebKit](#webkit) (1)
+- [WebKit](#webkit) (2)
 - [WebLogic](#weblogic) (1)
 - [Weblogic Server Proxy Plug-in](#weblogic-server-proxy-plug-in) (1)
 - [webmail](#webmail) (4)
@@ -4724,7 +4735,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zero Trust](#zero-trust) (1)
 - [zero-balance](#zero-balance) (1)
 - [zero-click](#zero-click) (2)
-- [zero-day](#zero-day) (13)
+- [zero-day](#zero-day) (15)
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [zero-width](#zero-width) (1)
@@ -4931,7 +4942,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## account takeover
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
 - [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -5021,7 +5032,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
@@ -5100,6 +5111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
 
 ## ad fraud
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
@@ -6181,7 +6193,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
@@ -7549,6 +7561,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 
 ## CISA KEV
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
@@ -7938,7 +7951,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## Cloudflare tunnels
@@ -7961,7 +7974,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloudflared
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## CloudLinux
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
@@ -8139,6 +8152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 
 ## Composer
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
@@ -8730,6 +8744,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## crypto draining
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 
+## crypto wallet theft
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
+
 ## crypto wallets
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -9121,10 +9138,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-18556
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## CVE-2026-18577
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## CVE-2026-18885
 - [ServiceNow AI Platform August 27, 2026 advisory: three CVSS 10.0 unauthenticated flaws and a sandbox escape (CVE-2026-18885 / CVE-2026-18886 / CVE-2026-74820 / CVE-2026-6876)](../ops/servicenow-ai-platform-august-27-2026-three-cvss-10-unauthenticated-flaws.md)
@@ -9758,6 +9775,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-85046
 - [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
+
+## CVE-2026-86206
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+
+## CVE-2026-86207
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+
+## CVE-2026-86218
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## CVE-2026-8732
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
@@ -10646,7 +10672,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
 ## downstream blast radius
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## DPAPI
 - [ACR Stealer](../tools/acr-stealer.md)
@@ -11008,7 +11034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 
 ## endpoint management
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## endpoint management abuse
@@ -12014,6 +12040,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PamStealer](../tools/pamstealer.md)
 
 ## Funnull
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## Fusion Builder
@@ -12054,6 +12081,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## gambling industry targeting
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
+
+## gambling redirect
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 
 ## game cheats
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
@@ -13078,7 +13108,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Huntress
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 - [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 
@@ -13314,7 +13344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -13333,7 +13363,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## incomplete patch
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## IndexedDB
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
@@ -13562,6 +13592,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
+## iOS exploit chain
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
+
 ## IOS XR
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
 
@@ -13762,6 +13795,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 
 ## JavaScript injection
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -14096,6 +14130,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Kiro Powers
 - [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
+
+## KKPhim
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 
 ## KLCERT-26-057
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
@@ -14945,6 +14982,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malicious signed driver
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
+## malicious theme
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
+
 ## malvertising
 - [ACR Stealer](../tools/acr-stealer.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -15072,7 +15112,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 
 ## managed service provider
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 
 ## ManageEngine Endpoint Central
@@ -15082,7 +15122,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## Manifest V3
@@ -15943,11 +15983,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## N-able
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## N-central
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+
+## n-day
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 
 ## n8n
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
@@ -16796,6 +16839,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## operations
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -16990,7 +17034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
@@ -17134,6 +17178,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OpFauxSign
 - [Fox Tempest](../actors/fox-tempest.md)
 
+## OphimCMS
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
+
 ## opportunistic exploitation
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 
@@ -17144,6 +17191,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -17368,7 +17416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
@@ -17745,6 +17793,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## Packagist
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
@@ -18568,6 +18617,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pre-authentication RCE
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## pre-signed URL
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
@@ -19502,7 +19552,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 
 ## remote monitoring and management
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
 - [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
@@ -19661,7 +19711,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
 - [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
@@ -20265,6 +20315,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 
 ## seed phrase theft
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
@@ -20920,6 +20971,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Socket
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
@@ -21219,6 +21271,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
 
 ## spyware
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
 ## SQL injection
@@ -21555,6 +21608,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 
 ## supply chain
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
@@ -21894,7 +21948,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 
 ## Take Control
-- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 
 ## takedown
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -23247,6 +23301,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Vietnam-aligned
 - [OceanLotus](../actors/oceanlotus.md)
 
+## Vietnamese CMS
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
+
 ## Views
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
@@ -23668,6 +23725,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 
 ## web supply chain
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
@@ -23695,6 +23753,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
 
 ## WebKit
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 
 ## WebLogic
@@ -24297,12 +24356,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## zero-day
+- [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+- [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
