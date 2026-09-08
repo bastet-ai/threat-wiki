@@ -1,4 +1,4 @@
-# StyleSmuggler: Magento / Adobe Commerce unauthenticated RCE zero-day under active attack (Sansec, Sep 5, 2026)
+# StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack — Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)
 
 ## Tags
 - ops
@@ -20,24 +20,28 @@
 - active exploitation
 - Sansec
 - Aikido
+- CVE-2026-75650
+- APSB26-146
+- patch
+- credential rotation
 
 ## Summary
 
-On **September 5, 2026**, Sansec published **StyleSmuggler**, an unpatched **unauthenticated remote-code-execution zero-day** in **every current version of Magento Open Source and Adobe Commerce** (including 2.4.9, the latest release). Attacks began **September 4, 2026, 22:40 UTC** — a day before public disclosure. As of Aikido's September 7 follow-up, **Adobe had not published an advisory, CVE, or patch**, and Adobe Enterprise Support confirmed on September 7 that they were working on a patch with no ETA. The next scheduled Adobe security release is **September 8, 2026**, but coverage of this flaw is not confirmed.
+On **September 5, 2026**, Sansec published **StyleSmuggler**, an **unauthenticated remote-code-execution zero-day** in **every current version of Magento Open Source and Adobe Commerce** (including 2.4.9, the latest release). Attacks began **September 4, 2026, 22:40 UTC** — a day before public disclosure. **On September 7, 2026 at 20:20 UTC, Adobe published emergency advisory [APSB26-146](https://helpx.adobe.com/security/products/magento/apsb26-146.html)** (priority 1, its highest) assigning the flaw **CVE-2026-75650**, scored **CVSS 10.0** (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H), and shipped the fix as an **emergency composer hotfix, `VULN-39341`, not a full release**. Every version from **2.4.4 through 2.4.9** (Adobe Commerce, Magento Open Source) and **Adobe Commerce B2B 1.3.3–1.5.3** is affected; older versions in those branches are also affected but the hotfix is unverified on them. Because the backdoor sits on disk and may have been weaponized, **patching does not clean a compromised store — rotation and compromise-hunting are mandatory alongside the hotfix** (details in [Adobe patch / rotation checklist](#adobe-patch-apsb26-146-and-rotation-checklist)).
 
 The exploit is **two-stage**, both stages abusing Magento functionality that already exists:
 
 1. **Stage 1 — inject:** An unauthenticated attacker sends a **GraphQL request** whose `styles` property carries an injected PHP payload. The payload does **not** execute immediately. It is written into a file that Magento generates itself (for example a **checkout failure report**).
 2. **Stage 2 — execute:** The poisoned file is later rendered when Magento processes a **"Payment Transaction Failed Reminder" email**. The email does not need to be delivered — the code runs **server-side during template rendering**. The attack completes even if the message never reaches an inbox.
 
-**Every version is vulnerable**: Sansec reproduced the full unauthenticated chain on clean installs of **2.4.7, 2.4.8, and 2.4.9**. One confirmed victim was running **2.4.6-p15** with the July and August 2026 security patches fully applied and `security:patch-status` clean — patch status did not save it. Moving sessions to Redis or the database does **not** stop the attack (an operator was observed failing once against session storage, then succeeding eight seconds later by routing the payload through a file uploaded via Magento custom options).
+**All in-range versions are vulnerable**: Adobe's advisory places the affected range at **2.4.4–2.4.9** (plus B2B 1.3.3–1.5.3). Sansec reproduced the full unauthenticated chain on clean installs of **2.4.7, 2.4.8, and 2.4.9**. One confirmed victim was running **2.4.6-p15** with the July and August 2026 security patches fully applied and `security:patch-status` clean — patch status did not save it. Moving sessions to Redis or the database does **not** stop the attack (an operator was observed failing once against session storage, then succeeding eight seconds later by routing the payload through a file uploaded via Magento custom options).
 
 Confirmed intrusions have installed a **persistent Rust-based backdoor** disguised as a kernel thread. It survives a reboot and sits dormant for hours to days before activating. From there, the exposure is everything unauthenticated RCE on an e-commerce platform implies: **customer PII, payment transaction details, admin credentials, database contents, and a route to Magecart-style skimmer injections** against shoppers.
 
 ## Why this matters
 
-- **Mass attack surface.** Magento and Adobe Commerce power a very large fraction of the world's e-commerce sites. An unauthenticated RCE with no known fixed version is a mass-compromise vector, not a single-site incident.
-- **No vendor patch yet.** As of September 7, 2026 there is no CVE, no advisory, and no patch from Adobe. The interim mitigation is **disabling GraphQL** (which takes headless / PWA storefronts offline), or the Aikido Libraries drop-in patch for specific branches.
+- **Mass attack surface.** Magento and Adobe Commerce power a very large fraction of the world's e-commerce sites. An unauthenticated RCE with CVSS 10.0 is a mass-compromise vector, not a single-site incident.
+- **Now patched, but the patch is a hotfix and the compromise window already passed.** Adobe shipped the fix as **`VULN-39341`** (emergency composer hotfix under [APSB26-146](https://helpx.adobe.com/security/products/magento/apsb26-146.html), Sep 7 20:20 UTC) covering **2.4.4–2.4.9** (Adobe Commerce + Magento Open Source) and **B2B 1.3.3–1.5.3** — no full release. Until the hotfix is applied, the interim mitigations remain **disabling GraphQL** (which takes headless / PWA storefronts offline) or the Aikido Libraries drop-in patch. **Patching closes the front door but does not remove a live backdoor** — Sansec observed operators rotating payloads several times a day, so assume any store exploited since Sep 4 is compromised until proven otherwise.
 - **Two-stage delayed execution.** The inject-to-file and execute-at-email-rendering split means the compromise window is not the attack time but the **next failed-payment email render** — defenders hunting only at the moment of the GraphQL request will miss the RCE.
 - **Rust backdoor disguised as kernel infrastructure.** The implant uses rotating process names (`[kworker/u:8:0]`, `fc-cache`, `chronyd`) to blend into legitimate system daemons, and C2 traffic is **NTP-shaped UDP on port 123** — a port and protocol that most egress filters pass unremarked.
 - **Second, distinct actor.** Sansec identified a **separate actor** on the same victim stores on September 7, using a 485-byte PHP dropper that writes a web shell into the Magento product-image cache directory. The two actors share only their victims, not their tooling.
@@ -53,11 +57,13 @@ Confirmed intrusions have installed a **persistent Rust-based backdoor** disguis
 
 ### Affected versions
 
-- **Magento Open Source**: 2.4.7, 2.4.8, 2.4.9 (confirmed vulnerable on clean installs)
-- **Adobe Commerce**: all current versions (confirmed vulnerable)
-- **Magento Cloud**: metapackage affected
-- **2.4.6-p15** with July + August 2026 patches: confirmed vulnerable (one victim)
-- No version is confirmed safe as of September 7, 2026
+Per Adobe APSB26-146 (Sep 7, 2026), the hotfix `VULN-39341` was tested against the **2026-aug** releases of:
+
+- **Adobe Commerce**: 2.4.4 → 2.4.9
+- **Magento Open Source**: 2.4.4 → 2.4.9
+- **Adobe Commerce B2B**: 1.3.3 → 1.5.3
+
+Older versions within those branches are affected too, but the patch is **unverified** on them. Sansec independently reproduced the full unauthenticated chain on clean installs of **2.4.7, 2.4.8, and 2.4.9**; one confirmed victim ran **2.4.6-p15** with the July + August 2026 patches applied and `security:patch-status` clean — patch status did not save it. A Shield-blocked probe against a **2.4.7-p10** store on Sep 7 confirmed the current patch level is no defense.
 
 ### Confirmed intrusions: Rust backdoor
 
@@ -175,27 +181,40 @@ find pub/media -name '*.php'
 
 ## What merchants should do
 
-1. **Check exposure**: if running Magento Open Source or Adobe Commerce, assume vulnerable. No fixed version exists as of September 7, 2026.
-2. **Interim mitigation**: disable GraphQL if you cannot patch immediately (takes headless / PWA storefronts offline).
-3. **Apply Aikido Libraries patch** if you are an Aikido customer (drop-in, no version upgrade).
-4. **Do not wait for Adobe's September 8 release** — it is not confirmed to cover StyleSmuggler.
-5. **Hunt for compromise**: run the hunt commands above; check for the Rust implant process names, cron entries, NTP C2 traffic on port 123, and PHP files under `pub/media/`.
-6. **Rotate Magento credentials** if any evidence of compromise is found, since the backdoor has been observed sitting dormant before activating.
-7. **Monitor for unexpected "Payment Transaction Failed Reminder" email bursts** — they may indicate the execution stage of an in-progress exploit.
-8. **If you use Sansec Shield**: rules went live September 5; attacks before that date may have gotten through — run eComscan 1.9.7 to terminate `[kworker/u:8:0]` processes.
+1. **Apply the Adobe hotfix now**: download `VULN-39341-composer-patches.zip` from `repo.magento.com` and apply it as a composer patch. Confirm: `vendor/bin/magento-patches -n status | grep "39341\|Status"`.
+2. **Rotate credentials per Adobe's checklist** — starting with the **encryption key**, then every credential that key protected: admin passwords, REST/SOAP/GraphQL integration tokens, OAuth client secrets, payment gateway API credentials, database credentials, SSH and deploy keys, and third-party extension API keys. **Rotate at the source, not only inside Magento** — rotating the encryption key alone does not invalidate anything an attacker already read.
+3. **Scan for compromise before assuming you are in the clear**: stores were being exploited for **three days before the hotfix existed** (attacks began Sep 4 22:40 UTC; hotfix published Sep 7 20:20 UTC). Run the hunt commands above plus eComscan (Sansec Shield blocks every observed StyleSmuggler variant, but the patch should still be installed — the attack surface behind the bug is large).
+4. **Interim mitigation if you cannot patch immediately**: disable GraphQL (takes headless / PWA storefronts offline) or apply the Aikido Libraries drop-in patch.
+5. **Hunt for the backdoor**: check for the Rust implant process names (`[kworker/u:8:0]`, `fc-cache`, `chronyd`), direct cron-spool entries, NTP-shaped UDP/123 C2 to `185.157.160.251`, and PHP files under `pub/media/`.
+6. **Monitor for unexpected "Payment Transaction Failed Reminder" email bursts** — they may indicate the execution stage of an in-progress exploit.
+7. **If you use Sansec Shield**: rules went live September 5; attacks before that date may have gotten through.
 
-## Adobe status (as of Sep 7, 2026)
+## Adobe patch (APSB26-146) and rotation checklist
 
-- No CVE assigned
-- No advisory published
-- No patch released
-- Most recent Commerce security bulletin: August 11, 2026
-- Next scheduled security release: **September 8, 2026** (coverage of StyleSmuggler not confirmed)
-- Adobe Enterprise Support confirmed on September 7 that they are working on a patch; no ETA
+Published **September 7, 2026, 20:20 UTC** — priority 1 (Adobe's highest rating).
+
+- **Advisory**: [APSB26-146](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
+- **CVE**: **CVE-2026-75650** — "Adobe Commerce is affected by an Improper Neutralization of Special Elements Used in a Template Engine vulnerability that could result in arbitrary code execution" (NVD, published 2026-09-07T21:17Z)
+- **CVSS**: **10.0** — `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H` (scope Changed — e-commerce scope impact: customer PII, payment data, admin credentials)
+- **Fix form**: emergency **composer hotfix** `VULN-39341` (`VULN-39341-composer-patches.zip` from `repo.magento.com`), applied as a composer patch — **not** a full Commerce release; the scheduled Sep 8 release is moot for this flaw
+- **Verified against** (2026-aug releases): Adobe Commerce 2.4.4–2.4.9, Magento Open Source 2.4.4–2.4.9, Adobe Commerce B2B 1.3.3–1.5.3; older in-branch versions unverified
+- **Credential rotation checklist** (Adobe): encryption key → admin passwords → REST/SOAP/GraphQL integration tokens → OAuth client secrets → payment gateway API credentials → database credentials → SSH/deploy keys → third-party extension API keys; rotate each **at the source**
+
+Sansec's position (Sep 7, 20:45 UTC): install the Adobe patch **and** deploy Sansec Shield; the operators changed payloads several times a day since September 4, and the backdoor is not recognized by any security vendor other than Sansec.
+
+## Adobe status timeline
+
+- **Sep 4, 22:40 UTC**: attacks begin (no public knowledge)
+- **Sep 5**: Sansec publishes StyleSmuggler; no CVE, no advisory, no patch
+- **Sep 7, (earlier)**: Aikido follow-up with drop-in Libraries patches; Adobe still silent
+- **Sep 7, 20:20 UTC**: **Adobe publishes APSB26-146 / CVE-2026-75650 (CVSS 10.0) with hotfix VULN-39341**
+- Most recent prior Commerce security bulletin: August 11, 2026
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md) — same-day Aikido disclosure of the 111-day Shai-Hulud payload resurfacing, and e-commerce exploitation as a common post-exploitation objective across supply-chain waves
 
 ## Sources
-- Sansec "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack" (Sep 5, 2026, updated Sep 7 13:29 UTC): [https://sansec.io/research/stylesmuggler](https://sansec.io/research/stylesmuggler)
+- Sansec "StyleSmuggler: Magento and Adobe Commerce 0-day RCE (CVE-2026-75650) under active attack" (Sep 5, 2026, last updated Sep 7 20:45 UTC, including the Adobe patch section): [https://sansec.io/research/stylesmuggler](https://sansec.io/research/stylesmuggler)
+- Adobe Security Bulletin APSB26-146 (Sep 7, 2026, 20:20 UTC): [https://helpx.adobe.com/security/products/magento/apsb26-146.html](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
+- NVD CVE-2026-75650 (published 2026-09-07T21:17Z; CVSS 3.1 10.0, S:C)
 - Aikido "StyleSmuggler fix: patch the Magento and Adobe Commerce RCE" (Sep 7, 2026): [https://www.aikido.dev/blog/stylesmuggler-fix](https://www.aikido.dev/blog/stylesmuggler-fix)
