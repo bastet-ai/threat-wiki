@@ -21,7 +21,7 @@
 ## Execution and propagation
 A malicious Xcode run-script phase executes when a developer builds a poisoned project. The staged chain fingerprints the host, retrieves a loader and AppleScript wrapper, starts the `boot` orchestrator, removes temporary files, and streams encrypted modules into memory.
 
-Propagation modules infect local Xcode projects, Git pre-commit paths, and Xcode projects contained in ZIP archives. XCSSET can therefore turn a developer endpoint into a repository and downstream-build compromise point.
+Propagation modules infect local Xcode projects, Git pre-commit paths, and Xcode projects contained in ZIP archives. XCSSET can therefore turn a developer endpoint into a repository and downstream-build compromise point. On September 8, 2026 the worm was found shipped inside a pub.dev package (`universal_file_viewer` 0.1.5) when an infected maintainer published from a compromised machine — see [XCSSET in a pub.dev Flutter package: `universal_file_viewer`](../ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md).
 
 ## V40 module set
 Unit 42 mapped 17 modules, including:
@@ -52,6 +52,7 @@ The v40 `chrome_remote` helper enables Chrome DevTools Protocol, attaches to the
 
 ## Related pages
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
+- [XCSSET in a pub.dev Flutter package: `universal_file_viewer`](../ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 
 ## Sources

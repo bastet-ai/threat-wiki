@@ -99,6 +99,7 @@ Unit 42 published a larger domain set. The operators registered roughly 40 domai
 
 ## Related pages
 - [XCSSET](../tools/xcsset.md)
+- [XCSSET in a pub.dev Flutter package: `universal_file_viewer` (Aikido, Sep 8, 2026)](xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
 - [Operation FlutterBridge macOS malvertising](operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [CrashStealer macOS notarized-dropper campaign](crashstealer-macos-notarized-dropper.md)

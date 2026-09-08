@@ -126,6 +126,8 @@ nav:
       - CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign: ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md
       - Water-sector PLC configuration-tampering campaign: ops/water-sector-plc-configuration-tampering-july-2026.md
       - XCSSET v40 Xcode supply-chain campaign: ops/xcsset-v40-xcode-supply-chain-campaign.md
+      - "XCSSET in a pub.dev Flutter package: universal_file_viewer (Aikido, Sep 8, 2026)": ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md
+      - "CISA KEV September 8, 2026 additions: four exploited flaws - Adobe/Magento StyleSmuggler unauth RCE (CVE-2026-75650, 10.0, due 2026-09-11), N-able N-central pre-auth RCE zero-day (CVE-2026-86218, 10.0, Hotfix 4 build 2026.3.1.14, due 2026-09-11), Windows Update Stack link-following LPE to SYSTEM (CVE-2026-81963, 7.8) and Windows ALPC heap-overflow LPE (CVE-2026-85880, 7.8), both due 2026-09-22; all BOD 26-04, Forensics Triage on both pre-auth RCEs": ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md
       - Anthropic cyber-evaluation real-world intrusions: ops/anthropic-cyber-evaluation-real-world-intrusions.md
       - CosmosEscape Azure Cosmos DB cross-tenant takeover: ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md
       - knaithe Hermes / DeepSeek autonomous exploitation campaign: ops/knaithe-hermes-deepseek-autonomous-exploitation.md

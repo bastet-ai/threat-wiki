@@ -208,7 +208,20 @@ Sansec's position (Sep 7, 20:45 UTC): install the Adobe patch **and** deploy San
 - **Sep 5**: Sansec publishes StyleSmuggler; no CVE, no advisory, no patch
 - **Sep 7, (earlier)**: Aikido follow-up with drop-in Libraries patches; Adobe still silent
 - **Sep 7, 20:20 UTC**: **Adobe publishes APSB26-146 / CVE-2026-75650 (CVSS 10.0) with hotfix VULN-39341**
+- **Sep 8**: **CISA adds CVE-2026-75650 to the KEV catalog** (see below)
 - Most recent prior Commerce security bulletin: August 11, 2026
+
+## CISA KEV update (2026-09-08)
+
+On **September 8, 2026**, CISA added **CVE-2026-75650** to the Known Exploited Vulnerabilities catalog, converting the StyleSmuggler 0-day into a federal emergency remediation item:
+
+- **Entry**: "Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability" (CWE-1336)
+- **BOD 26-04 due date**: **2026-09-11** (the tightest deadline in the Sep 8 batch, alongside N-able N-central CVE-2026-86218)
+- **Forensics Triage**: **Yes** — covered federal systems must preserve and triage evidence before remediation
+- **Ransomware use**: recorded as unknown; no actor or payload named on the catalog entry
+- **Notes link**: [APSB26-146](https://helpx.adobe.com/security/products/magento/apsb26-146.html) plus BOD 26-04 and Forensics Triage Requirements
+
+The KEV listing does not change the operational guidance above: apply the `VULN-39341` hotfix, rotate the encryption key plus every credential it protected **at the source**, and hunt for the Rust backdoor / second-actor web shell — stores exploited before Sep 7 20:20 UTC should be treated as compromised until proven otherwise. Full batch context: [CISA KEV September 8, 2026 additions](cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md).
 
 ## Related pages
 - [Mini Shai-Hulud npm/PyPI worm campaign](mini-shai-hulud-npm-pypi-worm-campaign.md) — same-day Aikido disclosure of the 111-day Shai-Hulud payload resurfacing, and e-commerce exploitation as a common post-exploitation objective across supply-chain waves

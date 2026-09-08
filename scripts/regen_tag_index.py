@@ -55,7 +55,7 @@ def main():
     pages = []
     for path in iter_pages():
         text = open(path, encoding="utf-8").read()
-        m = re.search(r"^## Tags\s*$(.*?)(?=^## )", text, re.M | re.S)
+        m = re.search(r"^## Tags\s*$(.*?)(?=\n## |\Z)", text, re.M | re.S)
         if not m:
             continue
         tags = [l[2:].strip() for l in m.group(1).splitlines() if l.startswith("- ") and l[2:].strip()]
