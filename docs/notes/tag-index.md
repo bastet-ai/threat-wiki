@@ -347,6 +347,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [ASPX web shells](#aspx-web-shells) (2)
 - [assume-breach](#assume-breach) (1)
+- [AssumeRoot](#assumeroot) (1)
 - [Astra](#astra) (1)
 - [Astro](#astro) (1)
 - [ASUS AiCloud routers](#asus-aicloud-routers) (1)
@@ -397,7 +398,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Avalon](#avalon) (2)
 - [aviation](#aviation) (3)
 - [AVIF](#avif) (1)
-- [AWS](#aws) (7)
+- [AWS](#aws) (8)
 - [AWS CloudTrail](#aws-cloudtrail) (1)
 - [AWS S3](#aws-s3) (2)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
@@ -556,6 +557,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser-security](#browser-security) (1)
 - [browser-session risk](#browser-session-risk) (1)
 - [browsing history](#browsing-history) (1)
+- [brute force](#brute-force) (1)
 - [brute-force credentials](#brute-force-credentials) (1)
 - [BSC](#bsc) (1)
 - [BTMOB](#btmob) (1)
@@ -760,7 +762,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloaked Ursa](#cloaked-ursa) (2)
 - [cloaking](#cloaking) (3)
 - [ClOd-ViEw](#clod-view) (1)
-- [cloud](#cloud) (7)
+- [cloud](#cloud) (8)
 - [cloud C2](#cloud-c2) (2)
 - [cloud compromise](#cloud-compromise) (1)
 - [cloud credential hunting](#cloud-credential-hunting) (1)
@@ -795,6 +797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloudflared](#cloudflared) (2)
 - [CloudLinux](#cloudlinux) (1)
 - [CloudSEK](#cloudsek) (1)
+- [CloudTrail](#cloudtrail) (1)
 - [cluster compromise](#cluster-compromise) (1)
 - [CMS](#cms) (8)
 - [CMS exploitation](#cms-exploitation) (1)
@@ -854,6 +857,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ConnectWise](#connectwise) (2)
 - [ConnectWise advisory](#connectwise-advisory) (1)
 - [ConnectWise ScreenConnect](#connectwise-screenconnect) (2)
+- [console login](#console-login) (1)
+- [ConsoleLogin](#consolelogin) (1)
 - [construction](#construction) (2)
 - [consumer devices](#consumer-devices) (1)
 - [consumer IoT](#consumer-iot) (1)
@@ -903,7 +908,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrashStealer](#crashstealer) (1)
 - [crates.io](#cratesio) (2)
 - [Crates.io](#cratesio) (1)
-- [credential attack](#credential-attack) (1)
+- [credential attack](#credential-attack) (2)
 - [credential attacks](#credential-attacks) (3)
 - [credential cracking](#credential-cracking) (1)
 - [credential dumping](#credential-dumping) (1)
@@ -1333,6 +1338,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [data-exfiltration](#data-exfiltration) (1)
 - [database](#database) (1)
 - [database extortion](#database-extortion) (1)
+- [Datadog](#datadog) (1)
 - [Datadog Security Labs](#datadog-security-labs) (1)
 - [DataObject](#dataobject) (1)
 - [dataset dead drop](#dataset-dead-drop) (1)
@@ -1387,7 +1393,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [destructive operations](#destructive-operations) (3)
 - [detached execution](#detached-execution) (1)
 - [detached process](#detached-process) (1)
-- [detection](#detection) (1)
+- [detection](#detection) (2)
 - [detection engineering](#detection-engineering) (2)
 - [detection failure](#detection-failure) (1)
 - [DEV#POPPER](#devpopper) (1)
@@ -2165,7 +2171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IDE plugins](#ide-plugins) (1)
 - [IDE trust boundary](#ide-trust-boundary) (1)
 - [ide.cfm](#idecfm) (1)
-- [identity](#identity) (5)
+- [identity](#identity) (6)
 - [identity attack](#identity-attack) (1)
 - [identity attacks](#identity-attacks) (1)
 - [identity compromise](#identity-compromise) (1)
@@ -2689,7 +2695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexican banking fraud](#mexican-banking-fraud) (3)
 - [Mexico](#mexico) (4)
-- [MFA](#mfa) (1)
+- [MFA](#mfa) (2)
 - [MFA bypass](#mfa-bypass) (10)
 - [MFA fatigue](#mfa-fatigue) (2)
 - [MFA-bypass](#mfa-bypass) (1)
@@ -3074,13 +3080,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (336)
+- [operations](#operations) (337)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (397)
+- [ops](#ops) (398)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3171,7 +3177,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [password manager theft](#password-manager-theft) (1)
 - [password reset](#password-reset) (1)
 - [password spray](#password-spray) (1)
-- [password spraying](#password-spraying) (4)
+- [password spraying](#password-spraying) (5)
 - [password-protected archive](#password-protected-archive) (2)
 - [passwordless authentication](#passwordless-authentication) (1)
 - [Pastebin](#pastebin) (2)
@@ -3574,7 +3580,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [research sector](#research-sector) (1)
 - [reset-credentials](#reset-credentials) (1)
 - [residential proxies](#residential-proxies) (1)
-- [residential proxy](#residential-proxy) (2)
+- [residential proxy](#residential-proxy) (3)
 - [residential proxy abuse](#residential-proxy-abuse) (1)
 - [responsible disclosure](#responsible-disclosure) (3)
 - [REST API](#rest-api) (1)
@@ -3616,11 +3622,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Roo-Code](#roo-code) (1)
 - [root](#root) (2)
 - [root access](#root-access) (1)
+- [root account](#root-account) (1)
 - [root code execution](#root-code-execution) (2)
 - [root escalation](#root-escalation) (1)
 - [root execution](#root-execution) (2)
 - [root RCE](#root-rce) (1)
 - [root shell](#root-shell) (2)
+- [root user](#root-user) (1)
 - [rootkit](#rootkit) (5)
 - [ROOTRUN](#rootrun) (1)
 - [Rootstock](#rootstock) (1)
@@ -3785,6 +3793,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Serv-U](#serv-u) (1)
 - [service accounts](#service-accounts) (2)
 - [service binding](#service-binding) (1)
+- [service control policies](#service-control-policies) (1)
 - [service DLL persistence](#service-dll-persistence) (1)
 - [service impairment](#service-impairment) (1)
 - [service persistence](#service-persistence) (2)
@@ -4249,7 +4258,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [threat intelligence](#threat-intelligence) (1)
 - [threat landscape](#threat-landscape) (2)
 - [threat measurement](#threat-measurement) (1)
-- [threat research](#threat-research) (1)
+- [threat research](#threat-research) (2)
 - [threat telemetry](#threat-telemetry) (1)
 - [ThrottleBlood](#throttleblood) (1)
 - [ThumbcacheService](#thumbcacheservice) (1)
@@ -6155,6 +6164,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## assume-breach
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
 
+## AssumeRoot
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
+
 ## Astra
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
@@ -6347,6 +6359,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AWS
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
@@ -6986,6 +6999,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browsing history
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
+
+## brute force
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 
 ## brute-force credentials
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
@@ -7889,6 +7905,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cloud
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [ROADtools](../tools/roadtools.md)
@@ -8036,6 +8053,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CloudSEK
 - [TeamPCP](../actors/teampcp.md)
+
+## CloudTrail
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 
 ## cluster compromise
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
@@ -8284,6 +8304,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
+## console login
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
+
+## ConsoleLogin
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
+
 ## construction
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
@@ -8457,6 +8483,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## credential attack
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
 
 ## credential attacks
@@ -10091,6 +10118,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## database extortion
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
+## Datadog
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
+
 ## Datadog Security Labs
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 
@@ -10324,6 +10354,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 
 ## detection
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 
 ## detection engineering
@@ -13284,6 +13315,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## identity
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
 - [ROADtools](../tools/roadtools.md)
@@ -15442,6 +15474,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## MFA
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 - [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 
 ## MFA bypass
@@ -16981,6 +17014,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
@@ -17338,6 +17372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
@@ -18015,6 +18050,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
 ## password spraying
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -19750,6 +19786,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 
 ## residential proxy
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 
@@ -19904,6 +19941,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## root access
 - [UTA0533 SonicWall SMA1000 zero-day compromise](../ops/uta0533-sonicwall-sma1000-zero-day-compromise.md)
 
+## root account
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
+
 ## root code execution
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
@@ -19921,6 +19961,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## root shell
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+
+## root user
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 
 ## rootkit
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
@@ -20560,6 +20603,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## service binding
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
+
+## service control policies
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 
 ## service DLL persistence
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
@@ -22393,6 +22439,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 
 ## threat research
+- [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 
 ## threat telemetry
