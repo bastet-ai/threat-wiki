@@ -425,6 +425,7 @@ nav:
       - "Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode": tools/marimo-cve-2026-75149-mcp-command-injection.md
       - "Keycloak CVE-2026-18963: unauthenticated password-reset account takeover": tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md
       - "workerd / Cloudflare Code Mode: sandbox escape and cross-tenant heap swipe": tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md
+      - "DeepSeek Harness CVE-2026-82533: sandboxed AI agent disables its own sandbox with one shell command (Host-header auth on loopback, no peer check; unauthenticated remote control + conversation exfil if port reachable)": tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md
       - SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit: tools/spectre-cross-platform-backdoor-specter-rootkit.md
       - RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave: tools/redc2.md
       - vm2 NodeVM host state exposure and DNS hijack: tools/vm2-nodevm-host-dns-hijack.md

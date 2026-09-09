@@ -17,6 +17,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0-day](#0-day) (1)
 - [0.14.3](#0143) (1)
 - [0x50594d](#0x50594d) (1)
+- [127.0.0.1](#127001) (1)
 - [146.70.139.154](#14670139154) (1)
 - [158.220.87.79](#1582208779) (1)
 - [192.42.116.105](#19242116105) (1)
@@ -125,6 +126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Africa](#africa) (5)
 - [agent containment](#agent-containment) (1)
 - [agent frameworks](#agent-frameworks) (3)
+- [agent harness](#agent-harness) (1)
 - [agent hooks](#agent-hooks) (1)
 - [agent logs](#agent-logs) (1)
 - [agent memory](#agent-memory) (1)
@@ -151,7 +153,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AgentWorm](#agentworm) (1)
 - [agetty](#agetty) (1)
 - [AI](#ai) (7)
-- [AI agent](#ai-agent) (3)
+- [AI agent](#ai-agent) (4)
 - [AI agent security](#ai-agent-security) (3)
 - [AI agent tooling](#ai-agent-tooling) (1)
 - [AI agents](#ai-agents) (25)
@@ -163,6 +165,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI brand impersonation](#ai-brand-impersonation) (2)
 - [AI browsers](#ai-browsers) (2)
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
+- [AI coding agent](#ai-coding-agent) (1)
 - [AI coding agents](#ai-coding-agents) (3)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
@@ -285,6 +288,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [application delivery controller](#application-delivery-controller) (1)
 - [application token](#application-token) (1)
 - [AppRemover](#appremover) (1)
+- [approval prompts](#approval-prompts) (1)
 - [APSB26-146](#apsb26-146) (2)
 - [APSB26-68](#apsb26-68) (1)
 - [APT](#apt) (9)
@@ -558,6 +562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BTR Reforged](#btr-reforged) (1)
 - [BTR.sys](#btrsys) (1)
 - [BTR_CLI](#btr_cli) (1)
+- [bubblewrap](#bubblewrap) (1)
 - [bucket hijacking](#bucket-hijacking) (1)
 - [bucket squatting](#bucket-squatting) (1)
 - [buffer overflow](#buffer-overflow) (2)
@@ -919,7 +924,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Critical cyber capability](#critical-cyber-capability) (1)
 - [critical framing](#critical-framing) (1)
 - [critical infrastructure](#critical-infrastructure) (12)
-- [critical vulnerability](#critical-vulnerability) (6)
+- [critical vulnerability](#critical-vulnerability) (7)
 - [critical-infrastructure](#critical-infrastructure) (2)
 - [CRM data theft](#crm-data-theft) (1)
 - [cron](#cron) (2)
@@ -1260,6 +1265,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-82452](#cve-2026-82452) (1)
 - [CVE-2026-82454](#cve-2026-82454) (1)
 - [CVE-2026-82456](#cve-2026-82456) (1)
+- [CVE-2026-82533](#cve-2026-82533) (1)
 - [CVE-2026-83548](#cve-2026-83548) (1)
 - [CVE-2026-83549](#cve-2026-83549) (1)
 - [CVE-2026-8451](#cve-2026-8451) (1)
@@ -1290,6 +1296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-640](#cwe-640) (1)
 - [CWE-77](#cwe-77) (1)
 - [CWE-78](#cwe-78) (2)
+- [CWE-807](#cwe-807) (1)
 - [CWE-829](#cwe-829) (1)
 - [CWE-94](#cwe-94) (1)
 - [Cybench](#cybench) (1)
@@ -1307,6 +1314,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [D-Link](#d-link) (1)
 - [D2IP](#d2ip) (1)
 - [Dahua](#dahua) (1)
+- [danger-full-access](#danger-full-access) (1)
 - [dangling resources](#dangling-resources) (1)
 - [Dark Caracal](#dark-caracal) (1)
 - [DARKLANTERN](#darklantern) (1)
@@ -1355,6 +1363,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Deed](#deed) (1)
 - [DeepAudit](#deepaudit) (1)
 - [DeepSeek](#deepseek) (5)
+- [DeepSeek Harness](#deepseek-harness) (1)
 - [Defender Advanced Hunting](#defender-advanced-hunting) (1)
 - [Defender evasion](#defender-evasion) (2)
 - [Defender exclusion](#defender-exclusion) (1)
@@ -1494,6 +1503,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dropbox](#dropbox) (3)
 - [dropper](#dropper) (1)
 - [Drupal](#drupal) (1)
+- [dsh](#dsh) (1)
 - [dual-function malware](#dual-function-malware) (1)
 - [dual-use](#dual-use) (1)
 - [dual-use tooling](#dual-use-tooling) (1)
@@ -2100,6 +2110,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hospitality](#hospitality) (1)
 - [hospitality targeting](#hospitality-targeting) (2)
 - [host DNS hijacking](#host-dns-hijacking) (1)
+- [Host header](#host-header) (1)
 - [Host Radar](#host-radar) (1)
 - [host RCE](#host-rce) (2)
 - [host surveillance](#host-surveillance) (1)
@@ -2267,6 +2278,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ISO image](#iso-image) (2)
 - [isolated-vm](#isolated-vm) (1)
 - [Israel](#israel) (4)
+- [isTrustedApiRequest](#istrustedapirequest) (1)
 - [IT providers](#it-providers) (1)
 - [Italian foreign-policy targeting](#italian-foreign-policy-targeting) (1)
 - [Italy targeting](#italy-targeting) (1)
@@ -2414,6 +2426,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LabubaPanel](#labubapanel) (1)
 - [LabubaRAT](#labubarat) (1)
 - [Labubu](#labubu) (2)
+- [Landlock](#landlock) (1)
 - [LangChain](#langchain) (3)
 - [Langflow](#langflow) (12)
 - [LangFlow](#langflow) (1)
@@ -2505,13 +2518,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [loadlib2](#loadlib2) (1)
 - [LoadLibrary](#loadlibrary) (1)
 - [LOADLOOP](#loadloop) (1)
+- [local API](#local-api) (1)
 - [local exploit](#local-exploit) (2)
 - [local inference](#local-inference) (1)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (11)
 - [local subprocess](#local-subprocess) (1)
 - [local-file-inclusion](#local-file-inclusion) (1)
-- [localhost](#localhost) (2)
+- [localhost](#localhost) (3)
 - [localhost trust bypass](#localhost-trust-bypass) (1)
 - [localhost.run](#localhostrun) (1)
 - [localStorage](#localstorage) (2)
@@ -2539,7 +2553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LONGSTREAM](#longstream) (1)
 - [LOOKVALJS](#lookvaljs) (1)
 - [LOOKVALPS](#lookvalps) (1)
-- [loopback](#loopback) (2)
+- [loopback](#loopback) (3)
 - [loopback login](#loopback-login) (1)
 - [Loophole](#loophole) (1)
 - [loose boolean check](#loose-boolean-check) (1)
@@ -2881,6 +2895,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [network infrastructure](#network-infrastructure) (2)
 - [network infrastructure exploitation](#network-infrastructure-exploitation) (1)
 - [network isolation bypass](#network-isolation-bypass) (1)
+- [network namespace](#network-namespace) (1)
 - [network policies](#network-policies) (1)
 - [network switch](#network-switch) (1)
 - [network-share exfiltration](#network-share-exfiltration) (1)
@@ -3099,7 +3114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OWA](#owa) (1)
 - [OWAReaper](#owareaper) (2)
 - [ownCloud](#owncloud) (2)
-- [OX Security](#ox-security) (6)
+- [OX Security](#ox-security) (7)
 - [OxideHarvest](#oxideharvest) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
@@ -3356,7 +3371,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Project Lightwell](#project-lightwell) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
 - [prompt infection](#prompt-infection) (1)
-- [prompt injection](#prompt-injection) (18)
+- [prompt injection](#prompt-injection) (19)
 - [prompt-injection](#prompt-injection) (4)
 - [prompt-injection guardrail bypass](#prompt-injection-guardrail-bypass) (1)
 - [PromptArmor](#promptarmor) (1)
@@ -3466,7 +3481,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RC4 encryption](#rc4-encryption) (1)
-- [RCE](#rce) (15)
+- [RCE](#rce) (16)
 - [Rclone](#rclone) (1)
 - [rclone](#rclone) (1)
 - [RCS](#rcs) (1)
@@ -3675,7 +3690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
 - [sanctions](#sanctions) (1)
-- [sandbox escape](#sandbox-escape) (10)
+- [sandbox escape](#sandbox-escape) (11)
 - [sandbox evasion](#sandbox-evasion) (2)
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (2)
@@ -3712,6 +3727,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [search result poisoning](#search-result-poisoning) (1)
 - [search-ms](#search-ms) (1)
 - [Seashell Blizzard](#seashell-blizzard) (2)
+- [Seatbelt](#seatbelt) (1)
 - [second-order injection](#second-order-injection) (1)
 - [secondary sanctions](#secondary-sanctions) (1)
 - [Secret Blizzard](#secret-blizzard) (3)
@@ -3743,6 +3759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sekoia](#sekoia) (1)
 - [self-delete](#self-delete) (1)
 - [self-DoS](#self-dos) (1)
+- [self-elevation](#self-elevation) (1)
 - [self-hosted AI services](#self-hosted-ai-services) (1)
 - [self-hosted applications](#self-hosted-applications) (1)
 - [self-hosted Git](#self-hosted-git) (1)
@@ -4266,7 +4283,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (64)
+- [tools](#tools) (65)
 - [Tor](#tor) (4)
 - [Tortoiseshell](#tortoiseshell) (2)
 - [Total Software Deployment](#total-software-deployment) (1)
@@ -4369,7 +4386,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
 - [unattributed](#unattributed) (2)
-- [unauthenticated](#unauthenticated) (11)
+- [unauthenticated](#unauthenticated) (12)
 - [unauthenticated access](#unauthenticated-access) (4)
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (2)
@@ -4540,8 +4557,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vssvc.exe](#vssvcexe) (1)
 - [VU#213560](#vu213560) (1)
 - [VULN-39341](#vuln-39341) (1)
-- [VulnCheck](#vulncheck) (7)
-- [vulnerability](#vulnerability) (26)
+- [VulnCheck](#vulncheck) (8)
+- [vulnerability](#vulnerability) (27)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
 - [vulnerability disclosure](#vulnerability-disclosure) (2)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
@@ -4821,6 +4838,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## 0x50594d
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
+
+## 127.0.0.1
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 
 ## 146.70.139.154
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
@@ -5290,6 +5310,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 
+## agent harness
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+
 ## agent hooks
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 
@@ -5388,6 +5411,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI agent
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
@@ -5461,6 +5485,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI chatbot abuse
 - [AI chatbot and SEO poisoning GPU-cryptojacking campaign](../ops/ai-chatbot-seo-poisoning-gpu-cryptojacking.md)
+
+## AI coding agent
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 
 ## AI coding agents
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
@@ -5914,6 +5941,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AppRemover
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
+
+## approval prompts
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 
 ## APSB26-146
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
@@ -6974,6 +7004,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BTR_CLI
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
+## bubblewrap
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 
 ## bucket hijacking
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
@@ -8653,6 +8686,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
 ## critical vulnerability
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
@@ -9784,6 +9818,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-82456
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
+## CVE-2026-82533
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+
 ## CVE-2026-83548
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 
@@ -9882,6 +9919,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
+## CWE-807
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+
 ## CWE-829
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
 
@@ -9961,6 +10001,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Dahua
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
+
+## danger-full-access
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 
 ## dangling resources
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
@@ -10157,6 +10200,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+
+## DeepSeek Harness
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 
 ## Defender Advanced Hunting
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
@@ -10761,6 +10807,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Drupal
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## dsh
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 
 ## dual-function malware
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
@@ -13039,6 +13088,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## host DNS hijacking
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
+## Host header
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+
 ## Host Radar
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 
@@ -13736,6 +13788,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
+## isTrustedApiRequest
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+
 ## IT providers
 - [Cavern Manticore](../actors/cavern-manticore.md)
 
@@ -14268,6 +14323,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 
+## Landlock
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+
 ## LangChain
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
@@ -14667,6 +14725,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LOADLOOP
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
+## local API
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+
 ## local exploit
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
@@ -14698,6 +14759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## localhost
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [NemoClaw local Ollama chat-template poisoning (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
 
 ## localhost trust bypass
@@ -14787,6 +14849,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## loopback
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [NemoClaw local Ollama chat-template poisoning (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
 
 ## loopback login
@@ -16183,6 +16246,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## network isolation bypass
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
+
+## network namespace
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 
 ## network policies
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
@@ -17753,6 +17819,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OX Security
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
@@ -18828,6 +18895,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
@@ -19304,6 +19372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 - [Kaltura mwEmbed unpatched: unauthenticated file read + RCE via mwEmbedLoader.php (CVE-2026-19912/19913)](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
@@ -20139,6 +20208,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## sandbox escape
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
@@ -20293,6 +20363,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
+## Seatbelt
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+
 ## second-order injection
 - [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
 
@@ -20397,6 +20470,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## self-DoS
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
+
+## self-elevation
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 
 ## self-hosted AI services
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -22459,6 +22535,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 - [CrownX](../tools/crownx.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [ENCFORGE](../tools/encforge.md)
 - [Fast16](../tools/fast16.md)
@@ -22913,6 +22990,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unauthenticated
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [Kaltura mwEmbed unpatched: unauthenticated file read + RCE via mwEmbedLoader.php (CVE-2026-19912/19913)](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
@@ -23552,6 +23630,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 
 ## VulnCheck
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
@@ -23569,6 +23648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
+- [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
