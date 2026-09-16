@@ -3,6 +3,7 @@
 Generated from page-level `## Tags` sections. Each tag below links to the pages that currently use it.
 
 ## All tags
+- [--use-compress-program](#-use-compress-program) (1)
 - [.NET](#net) (10)
 - [.NET deserialization](#net-deserialization) (1)
 - [.NET downloaders](#net-downloaders) (1)
@@ -161,7 +162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI](#ai) (7)
 - [AI agent](#ai-agent) (4)
 - [AI agent security](#ai-agent-security) (3)
-- [AI agent tooling](#ai-agent-tooling) (1)
+- [AI agent tooling](#ai-agent-tooling) (2)
 - [AI agents](#ai-agents) (26)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (7)
@@ -177,7 +178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI data exfiltration](#ai-data-exfiltration) (1)
 - [AI developer tooling](#ai-developer-tooling) (3)
 - [AI framework](#ai-framework) (1)
-- [AI gateway](#ai-gateway) (2)
+- [AI gateway](#ai-gateway) (3)
 - [AI IDE](#ai-ide) (1)
 - [AI infrastructure](#ai-infrastructure) (3)
 - [AI infrastructure hijacking](#ai-infrastructure-hijacking) (1)
@@ -334,6 +335,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Argo CD](#argo-cd) (2)
 - [ArgoCD](#argocd) (1)
 - [argocd-mcp](#argocd-mcp) (1)
+- [argument injection](#argument-injection) (1)
 - [Arista](#arista) (1)
 - [Arista EOS](#arista-eos) (1)
 - [ARKTunnel](#arktunnel) (1)
@@ -490,6 +492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [better-auth](#better-auth) (1)
 - [Bexo Wallet](#bexo-wallet) (1)
 - [BeyondTrust](#beyondtrust) (1)
+- [Bifrost](#bifrost) (1)
 - [bin entry](#bin-entry) (1)
 - [Binance Smart Chain](#binance-smart-chain) (1)
 - [binary execution](#binary-execution) (1)
@@ -872,7 +875,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ComfyUI](#comfyui) (1)
 - [command and control](#command-and-control) (6)
 - [command execution](#command-execution) (9)
-- [command injection](#command-injection) (11)
+- [command injection](#command-injection) (12)
+- [command string concatenation](#command-string-concatenation) (1)
 - [command-execution](#command-execution) (1)
 - [command-injection](#command-injection) (1)
 - [commercial LLM abuse](#commercial-llm-abuse) (1)
@@ -1349,13 +1353,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-87491](#cve-2026-87491) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
+- [CVE-2026-90894](#cve-2026-90894) (1)
+- [CVE-2026-90898](#cve-2026-90898) (1)
 - [CVE-2026-9198](#cve-2026-9198) (2)
 - [CVE-2026-9539](#cve-2026-9539) (1)
 - [CVE-2026-9586](#cve-2026-9586) (1)
 - [CVSS](#cvss) (1)
 - [CVSS 10.0](#cvss-100) (2)
 - [CVSS 9.0](#cvss-90) (1)
-- [CVSS 9.8](#cvss-98) (1)
+- [CVSS 9.8](#cvss-98) (2)
 - [cvvform](#cvvform) (1)
 - [CWE-22](#cwe-22) (2)
 - [CWE-259](#cwe-259) (1)
@@ -2448,7 +2454,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetStream](#jetstream) (1)
 - [JFrog](#jfrog) (7)
 - [JFrog Artifactory](#jfrog-artifactory) (1)
-- [JFrog Security Research](#jfrog-security-research) (6)
+- [JFrog Security Research](#jfrog-security-research) (8)
+- [JFSA-2026-001686326](#jfsa-2026-001686326) (1)
 - [Jinja](#jinja) (1)
 - [Jinja2](#jinja2) (1)
 - [JINX-0164](#jinx-0164) (2)
@@ -2643,7 +2650,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [living-off-the-land binaries](#living-off-the-land-binaries) (1)
 - [LLM](#llm) (10)
 - [LLM command execution](#llm-command-execution) (1)
-- [LLM gateway](#llm-gateway) (2)
+- [LLM gateway](#llm-gateway) (3)
 - [LLM security](#llm-security) (1)
 - [LLM slop](#llm-slop) (2)
 - [LLM-assisted malware](#llm-assisted-malware) (4)
@@ -2662,7 +2669,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [local exploit](#local-exploit) (2)
 - [local inference](#local-inference) (1)
 - [local LLMs](#local-llms) (1)
-- [local privilege escalation](#local-privilege-escalation) (11)
+- [local privilege escalation](#local-privilege-escalation) (12)
 - [local proxy](#local-proxy) (1)
 - [local subprocess](#local-subprocess) (1)
 - [local-file-inclusion](#local-file-inclusion) (1)
@@ -2730,7 +2737,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [machine-bound config](#machine-bound-config) (1)
 - [machine-learning](#machine-learning) (1)
 - [machine-speed attack chain](#machine-speed-attack-chain) (1)
-- [macOS](#macos) (24)
+- [macOS](#macos) (25)
 - [macOS malware](#macos-malware) (3)
 - [macro](#macro) (1)
 - [macro-enabled Word](#macro-enabled-word) (1)
@@ -2798,10 +2805,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Matrix](#matrix) (1)
 - [Maven Central](#maven-central) (1)
 - [mawesome](#mawesome) (1)
+- [maximhq](#maximhq) (1)
 - [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (2)
 - [McMx](#mcmx) (1)
-- [MCP](#mcp) (23)
+- [MCP](#mcp) (24)
 - [MCP configuration](#mcp-configuration) (1)
 - [MCP credentials](#mcp-credentials) (1)
 - [MCP gateway](#mcp-gateway) (1)
@@ -2936,7 +2944,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MobileIron Sentry](#mobileiron-sentry) (1)
 - [MODAFL](#modafl) (1)
 - [MODBEACON](#modbeacon) (2)
-- [Model Context Protocol](#model-context-protocol) (14)
+- [Model Context Protocol](#model-context-protocol) (15)
 - [model poisoning](#model-poisoning) (1)
 - [model registry webhooks](#model-registry-webhooks) (1)
 - [model weights](#model-weights) (1)
@@ -3333,7 +3341,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PaperCut NG](#papercut-ng) (1)
 - [parallel agent orchestration](#parallel-agent-orchestration) (1)
 - [parallel-intrusion](#parallel-intrusion) (1)
+- [Parallels Desktop](#parallels-desktop) (1)
 - [parameter-to-prompt](#parameter-to-prompt) (1)
+- [ParaShells](#parashells) (1)
 - [parked domain](#parked-domain) (1)
 - [partial encryption](#partial-encryption) (1)
 - [Pass-ta-key](#pass-ta-key) (1)
@@ -3534,6 +3544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [privilege escalation](#privilege-escalation) (18)
 - [privileged proxy](#privileged-proxy) (1)
 - [Privileged Remote Access](#privileged-remote-access) (1)
+- [prl_disp_service](#prl_disp_service) (1)
 - [PRNG](#prng) (1)
 - [proc-macro1](#proc-macro1) (1)
 - [proc-macro2](#proc-macro2) (1)
@@ -3627,6 +3638,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Qihoo 360](#qihoo-360) (1)
 - [Qilin](#qilin) (5)
 - [QNAP](#qnap) (1)
+- [QProcess::splitCommand](#qprocesssplitcommand) (1)
 - [QR code](#qr-code) (1)
 - [QR code interception](#qr-code-interception) (1)
 - [QScan](#qscan) (1)
@@ -3815,7 +3827,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [root escalation](#root-escalation) (1)
 - [root execution](#root-execution) (2)
 - [root RCE](#root-rce) (1)
-- [root shell](#root-shell) (2)
+- [root shell](#root-shell) (3)
 - [root user](#root-user) (1)
 - [rootkit](#rootkit) (5)
 - [ROOTRUN](#rootrun) (1)
@@ -4278,7 +4290,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [static AWS keys](#static-aws-keys) (1)
 - [static credentials](#static-credentials) (1)
 - [Static Kitten](#static-kitten) (1)
-- [stdio](#stdio) (3)
+- [stdio](#stdio) (4)
 - [StealC](#stealc) (2)
 - [stealer](#stealer) (3)
 - [Steam profile dead drop](#steam-profile-dead-drop) (2)
@@ -4396,6 +4408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef](#tamperedchef) (1)
 - [tampermonkey](#tampermonkey) (1)
 - [Tanzania](#tanzania) (1)
+- [tar](#tar) (1)
 - [targeted attack](#targeted-attack) (1)
 - [targeted malware](#targeted-malware) (1)
 - [targeted operations](#targeted-operations) (3)
@@ -4514,7 +4527,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (66)
+- [tools](#tools) (68)
 - [Tor](#tor) (4)
 - [Tortoiseshell](#tortoiseshell) (2)
 - [Total Software Deployment](#total-software-deployment) (1)
@@ -4626,7 +4639,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (2)
 - [unauthenticated HTTP exploitation](#unauthenticated-http-exploitation) (1)
-- [unauthenticated RCE](#unauthenticated-rce) (15)
+- [unauthenticated RCE](#unauthenticated-rce) (16)
 - [unauthenticated-publish](#unauthenticated-publish) (1)
 - [unauthorized pentest framing](#unauthorized-pentest-framing) (1)
 - [UNC1069](#unc1069) (1)
@@ -4750,7 +4763,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ViPNet](#vipnet) (1)
 - [virtual machine escape](#virtual-machine-escape) (1)
 - [virtual patching](#virtual-patching) (1)
-- [virtualization](#virtualization) (2)
+- [virtualization](#virtualization) (3)
 - [virtualization targeting](#virtualization-targeting) (2)
 - [VirusTotal impersonation](#virustotal-impersonation) (1)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
@@ -4942,6 +4955,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [workload identity](#workload-identity) (1)
 - [workspace trust](#workspace-trust) (3)
 - [World Cup](#world-cup) (1)
+- [world-writable socket](#world-writable-socket) (1)
 - [worm](#worm) (18)
 - [worm-like propagation](#worm-like-propagation) (1)
 - [WP Maps Pro](#wp-maps-pro) (1)
@@ -5033,6 +5047,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ZoomEye](#zoomeye) (1)
 - [Zscaler ThreatLabz](#zscaler-threatlabz) (1)
 - [Zsh script](#zsh-script) (1)
+
+## --use-compress-program
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 
 ## .NET
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
@@ -5699,6 +5716,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 
 ## AI agent tooling
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 
 ## AI agents
@@ -5788,6 +5806,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 
 ## AI gateway
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Wiz "Off Guard": Breaking LiteLLM from authentication bypass to cloud compromise (CVE-2026-59822 / CVE-2026-59821)](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)
 
@@ -6378,6 +6397,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## argocd-mcp
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
+## argument injection
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
+
 ## Arista
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 
@@ -6954,6 +6976,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BeyondTrust
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
+
+## Bifrost
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 
 ## bin entry
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
@@ -8619,6 +8644,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## command injection
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
@@ -8630,6 +8656,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
+
+## command string concatenation
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 
 ## command-execution
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -10391,6 +10420,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-9082
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
+## CVE-2026-90894
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
+
+## CVE-2026-90898
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
+
 ## CVE-2026-9198
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
@@ -10412,6 +10447,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## CVSS 9.8
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## cvvform
@@ -14698,11 +14734,16 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JFrog Security Research
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
+
+## JFSA-2026-001686326
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 
 ## Jinja
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
@@ -15446,6 +15487,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 
 ## LLM gateway
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [Wiz "Off Guard": Breaking LiteLLM from authentication bypass to cloud compromise (CVE-2026-59822 / CVE-2026-59821)](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)
 
@@ -15537,6 +15579,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## local proxy
@@ -15780,6 +15823,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [PamStealer](../tools/pamstealer.md)
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 - [PollCat](../tools/pollcat.md)
 - [QuimaRAT](../tools/quimarat.md)
 - [XCSSET](../tools/xcsset.md)
@@ -16105,6 +16149,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mawesome
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 
+## maximhq
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
+
 ## Mbed
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
@@ -16121,6 +16168,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
@@ -16691,6 +16739,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
@@ -18926,8 +18975,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## parallel-intrusion
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
+## Parallels Desktop
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
+
 ## parameter-to-prompt
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
+
+## ParaShells
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 
 ## parked domain
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
@@ -19797,6 +19852,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Privileged Remote Access
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 
+## prl_disp_service
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
+
 ## PRNG
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 
@@ -20177,6 +20235,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## QNAP
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
+## QProcess::splitCommand
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 
 ## QR code
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
@@ -20948,6 +21009,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## root shell
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
 ## root user
@@ -22706,6 +22768,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## stdio
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 
@@ -23240,6 +23303,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Tanzania
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 
+## tar
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
+
 ## targeted attack
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
@@ -23696,6 +23762,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aeternum](../tools/aeternum.md)
 - [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [ArcBridge](../tools/arcbridge.md)
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [BINDCLOAK](../tools/bindcloak.md)
 - [BraZetsu: Python-based Windows IAB master toolkit fueling the "Infected Marketplace" (Group-IB, Sep 3, 2026)](../tools/brazetsu.md)
 - [BridgeHead](../tools/bridgehead.md)
@@ -23730,6 +23797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OctLurk](../tools/octlurk.md)
 - [OWAReaper](../tools/owareaper.md)
 - [PamStealer](../tools/pamstealer.md)
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 - [PollCat](../tools/pollcat.md)
 - [QuimaRAT](../tools/quimarat.md)
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
@@ -24205,6 +24273,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## unauthenticated RCE
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
+- [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
@@ -24657,6 +24726,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## virtualization
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 
 ## virtualization targeting
 - [GenieLocker](../tools/genielocker.md)
@@ -25489,6 +25559,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## World Cup
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
+
+## world-writable socket
+- [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 
 ## worm
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)

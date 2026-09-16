@@ -438,6 +438,8 @@ nav:
       - "GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback (eth_getStorageAt)": tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md
       - "Spark RAT: Cambodia-focused cluster, multi-stage Inno/DLL side-load chain, and the vulnerable OPSWAT ardrv.sys BYOVD driver": tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md
       - "SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language": tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md
+      - "Bifrost CVE-2026-90898: unauthenticated RCE - the AI gateway spawns your stdio MCP client the moment it is registered (auth defaults off, launch precedes handshake, fix not backported past v2.0.0/1.6.x)": tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md
+      - "ParaShells / Parallels Desktop CVE-2026-90894: local unprivileged process to root via appliance-extract argument injection (tar --use-compress-program as root); 26.x unfixed": tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md
       - "Chainlit MCP: unauthenticated RCE and SSRF via /mcp (CVE-2026-45018 / CVE-2026-45019)": tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md
       - "Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode": tools/marimo-cve-2026-75149-mcp-command-injection.md
       - "Keycloak CVE-2026-18963: unauthenticated password-reset account takeover": tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md

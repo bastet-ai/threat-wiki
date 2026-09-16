@@ -49,6 +49,7 @@ OX frames this as an architectural vulnerability in Anthropic-maintained MCP SDK
 
 ## Related pages
 - [MCP tool-description poisoning](mcp-tool-description-poisoning.md)
+- [Bifrost CVE-2026-90898: unauthenticated RCE via MCP stdio client registration (JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [AI-augmented adversary operations](ai-augmented-adversary-operations.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
