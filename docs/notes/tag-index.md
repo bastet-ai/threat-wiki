@@ -70,7 +70,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACTINIUM](#actinium) (1)
 - [Activator.CreateInstance](#activatorcreateinstance) (1)
 - [Active Directory](#active-directory) (3)
-- [active exploitation](#active-exploitation) (83)
+- [active exploitation](#active-exploitation) (84)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -160,7 +160,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI agent](#ai-agent) (4)
 - [AI agent security](#ai-agent-security) (3)
 - [AI agent tooling](#ai-agent-tooling) (1)
-- [AI agents](#ai-agents) (25)
+- [AI agents](#ai-agents) (26)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (7)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
@@ -269,7 +269,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Apache Zeppelin](#apache-zeppelin) (1)
 - [APC EarlyBird](#apc-earlybird) (1)
 - [Apex One](#apex-one) (1)
-- [API abuse](#api-abuse) (1)
+- [API abuse](#api-abuse) (2)
 - [API enumeration](#api-enumeration) (1)
 - [API exposure](#api-exposure) (1)
 - [API key exposure](#api-key-exposure) (1)
@@ -277,6 +277,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [API keys](#api-keys) (2)
 - [API-driven payloads](#api-driven-payloads) (1)
 - [apintergrationpost](#apintergrationpost) (1)
+- [App-Bound encryption](#app-bound-encryption) (1)
 - [app-bound encryption](#app-bound-encryption) (1)
 - [App-Bound Encryption bypass](#app-bound-encryption-bypass) (1)
 - [AppDomainManager](#appdomainmanager) (1)
@@ -517,7 +518,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Blueprints](#blueprints) (1)
 - [Bluetooth LE](#bluetooth-le) (1)
 - [Boatnet](#boatnet) (1)
-- [BOD 26-04](#bod-26-04) (14)
+- [BOD 26-04](#bod-26-04) (15)
 - [body hash](#body-hash) (1)
 - [BOF](#bof) (1)
 - [BookStack](#bookstack) (1)
@@ -533,7 +534,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [brand-impersonation](#brand-impersonation) (2)
 - [BraZetsu](#brazetsu) (2)
 - [Brazil](#brazil) (7)
-- [Brazilian banking malware](#brazilian-banking-malware) (1)
+- [Brazilian banking malware](#brazilian-banking-malware) (2)
 - [BreachForums](#breachforums) (1)
 - [Breeze Cache Cleaner](#breeze-cache-cleaner) (1)
 - [Brian Fox](#brian-fox) (1)
@@ -645,6 +646,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CCTV](#cctv) (1)
 - [CDN](#cdn) (1)
 - [CDN abuse](#cdn-abuse) (1)
+- [CDN cache leak](#cdn-cache-leak) (1)
 - [cdn.jsdelivr.net](#cdnjsdelivrnet) (1)
 - [CDP](#cdp) (1)
 - [Cellebrite](#cellebrite) (1)
@@ -703,12 +705,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome App-Bound Encryption](#chrome-app-bound-encryption) (1)
 - [Chrome DevTools Protocol](#chrome-devtools-protocol) (1)
 - [Chrome extension](#chrome-extension) (3)
+- [Chrome extension abuse](#chrome-extension-abuse) (1)
 - [Chrome renderer sandbox](#chrome-renderer-sandbox) (1)
 - [Chrome Web Store](#chrome-web-store) (5)
 - [chrome_settings_overrides](#chrome_settings_overrides) (1)
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (7)
 - [Chromium extension](#chromium-extension) (1)
+- [Chromium integrity](#chromium-integrity) (1)
 - [chunked exfiltration](#chunked-exfiltration) (1)
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (4)
@@ -718,13 +722,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD pipeline abuse](#cicd-pipeline-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (20)
+- [CISA](#cisa) (21)
 - [CISA ADP](#cisa-adp) (2)
-- [CISA KEV](#cisa-kev) (50)
-- [Cisco](#cisco) (9)
+- [CISA KEV](#cisa-kev) (51)
+- [Cisco](#cisco) (10)
+- [Cisco AsyncOS](#cisco-asyncos) (1)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
 - [Cisco Nexus](#cisco-nexus) (1)
+- [Cisco Secure Email Gateway](#cisco-secure-email-gateway) (1)
 - [Cisco Secure FMC](#cisco-secure-fmc) (1)
 - [Cisco Talos](#cisco-talos) (2)
 - [Cisco Unified CM](#cisco-unified-cm) (1)
@@ -900,6 +906,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CookiETagRAT](#cookietagrat) (1)
 - [Copilot](#copilot) (1)
 - [Copilot CLI](#copilot-cli) (1)
+- [COPY TO PROGRAM](#copy-to-program) (1)
 - [Copy-on-Write](#copy-on-write) (1)
 - [copycat](#copycat) (1)
 - [Corepack](#corepack) (1)
@@ -927,6 +934,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrashStealer](#crashstealer) (1)
 - [crates.io](#cratesio) (2)
 - [Crates.io](#cratesio) (1)
+- [creamp1eonlyfans[.]net](#creamp1eonlyfansnet) (1)
 - [credential attack](#credential-attack) (2)
 - [credential attacks](#credential-attacks) (3)
 - [credential cracking](#credential-cracking) (1)
@@ -1278,6 +1286,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-75149](#cve-2026-75149) (1)
 - [CVE-2026-75604](#cve-2026-75604) (1)
 - [CVE-2026-75650](#cve-2026-75650) (2)
+- [CVE-2026-76461](#cve-2026-76461) (1)
 - [CVE-2026-76581](#cve-2026-76581) (1)
 - [CVE-2026-76639](#cve-2026-76639) (1)
 - [CVE-2026-76640](#cve-2026-76640) (1)
@@ -1322,6 +1331,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVSS](#cvss) (1)
 - [CVSS 10.0](#cvss-100) (2)
 - [CVSS 9.0](#cvss-90) (1)
+- [CVSS 9.8](#cvss-98) (1)
 - [cvvform](#cvvform) (1)
 - [CWE-22](#cwe-22) (2)
 - [CWE-259](#cwe-259) (1)
@@ -1341,6 +1351,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-862](#cwe-862) (1)
 - [CWE-863](#cwe-863) (2)
 - [CWE-88](#cwe-88) (1)
+- [CWE-89](#cwe-89) (1)
 - [CWE-94](#cwe-94) (1)
 - [Cybench](#cybench) (1)
 - [cyber AI](#cyber-ai) (1)
@@ -1398,7 +1409,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dead drop](#dead-drop) (1)
 - [dead drop resolver](#dead-drop-resolver) (5)
 - [dead-drop](#dead-drop) (1)
-- [dead-drop resolver](#dead-drop-resolver) (2)
+- [dead-drop resolver](#dead-drop-resolver) (3)
 - [DeadLock](#deadlock) (1)
 - [Debian](#debian) (1)
 - [debugger evasion](#debugger-evasion) (1)
@@ -1521,6 +1532,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [document exfiltration](#document-exfiltration) (1)
 - [document theft](#document-theft) (4)
 - [document-share lure](#document-share-lure) (1)
+- [documentation workers](#documentation-workers) (1)
 - [Docusign](#docusign) (1)
 - [DOE](#doe) (1)
 - [DoFun](#dofun) (1)
@@ -1590,6 +1602,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge devices](#edge-devices) (5)
 - [edge exploitation](#edge-exploitation) (1)
 - [Edge extension](#edge-extension) (2)
+- [Edge extension abuse](#edge-extension-abuse) (1)
 - [edge service](#edge-service) (2)
 - [edge services](#edge-services) (1)
 - [edge-service denial of service](#edge-service-denial-of-service) (1)
@@ -1608,7 +1621,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Egypt](#egypt) (2)
 - [EKZ Infostealer](#ekz-infostealer) (1)
 - [Elastic Agent](#elastic-agent) (1)
-- [Elastic Security Labs](#elastic-security-labs) (5)
+- [Elastic Security Labs](#elastic-security-labs) (6)
 - [Elasticsearch](#elasticsearch) (1)
 - [elections](#elections) (1)
 - [electric power sector](#electric-power-sector) (2)
@@ -1621,7 +1634,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [email gateway](#email-gateway) (1)
 - [email infrastructure abuse](#email-infrastructure-abuse) (1)
 - [email normalization](#email-normalization) (1)
-- [email security](#email-security) (1)
+- [email security](#email-security) (2)
 - [email subject](#email-subject) (1)
 - [email template](#email-template) (1)
 - [email theft](#email-theft) (4)
@@ -1686,6 +1699,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ethereum](#ethereum) (6)
 - [Ethereum C2](#ethereum-c2) (1)
 - [Ethereum Name Service](#ethereum-name-service) (2)
+- [Ethereum smart contract C2](#ethereum-smart-contract-c2) (1)
 - [EtherHiding](#etherhiding) (8)
 - [Ethiopia](#ethiopia) (2)
 - [ETW](#etw) (1)
@@ -1744,6 +1758,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [extension takeover](#extension-takeover) (1)
 - [external federation](#external-federation) (1)
 - [extortion](#extortion) (13)
+- [f2fe-s1](#f2fe-s1) (1)
 - [F5](#f5) (1)
 - [F5 BIG-IP](#f5-big-ip) (1)
 - [Factory-v3](#factory-v3) (1)
@@ -1871,6 +1886,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fordmotbvmorcompany.vu](#fordmotbvmorcompanyvu) (1)
 - [foreign affairs targeting](#foreign-affairs-targeting) (2)
 - [foreign policy targeting](#foreign-policy-targeting) (1)
+- [Forensics Triage](#forensics-triage) (1)
 - [Forest Blizzard](#forest-blizzard) (2)
 - [ForestTiger](#foresttiger) (1)
 - [Forg365](#forg365) (1)
@@ -1934,6 +1950,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GCP](#gcp) (1)
 - [GCS](#gcs) (1)
 - [Gemini CLI](#gemini-cli) (1)
+- [GemStuffer](#gemstuffer) (1)
 - [Gen Digital](#gen-digital) (1)
 - [generative AI](#generative-ai) (3)
 - [GenieLocker](#genielocker) (3)
@@ -2159,6 +2176,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [high explosives](#high-explosives) (1)
 - [higher education](#higher-education) (2)
 - [HiveMQ](#hivemq) (1)
+- [HMAC forging](#hmac-forging) (1)
 - [HMI](#hmi) (1)
 - [holiday calendar lure](#holiday-calendar-lure) (1)
 - [HOLLOWGRAPH](#hollowgraph) (1)
@@ -2274,7 +2292,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [India-nexus](#india-nexus) (1)
 - [Indian government](#indian-government) (1)
 - [indirect prompt injection](#indirect-prompt-injection) (11)
-- [indirect syscalls](#indirect-syscalls) (1)
+- [indirect syscalls](#indirect-syscalls) (2)
 - [Indonesia](#indonesia) (1)
 - [industrial control](#industrial-control) (1)
 - [industrial control systems](#industrial-control-systems) (3)
@@ -2389,7 +2407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetStream](#jetstream) (1)
 - [JFrog](#jfrog) (7)
 - [JFrog Artifactory](#jfrog-artifactory) (1)
-- [JFrog Security Research](#jfrog-security-research) (5)
+- [JFrog Security Research](#jfrog-security-research) (6)
 - [Jinja](#jinja) (1)
 - [Jinja2](#jinja2) (1)
 - [JINX-0164](#jinx-0164) (2)
@@ -2463,6 +2481,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keylogging](#keylogging) (4)
 - [keyval.org](#keyvalorg) (1)
 - [keyword splitting](#keyword-splitting) (1)
+- [kill switch](#kill-switch) (1)
 - [Kimi K2.5](#kimi-k25) (1)
 - [Kimsuky](#kimsuky) (1)
 - [Kimwolf](#kimwolf) (1)
@@ -2483,8 +2502,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnYuan](#knyuan) (2)
 - [KongTuke](#kongtuke) (1)
 - [KORKERDS](#korkerds) (1)
+- [Kr3mlin4rt1st](#kr3mlin4rt1st) (1)
 - [Kratos](#kratos) (1)
 - [krbtgt](#krbtgt) (1)
+- [KREMLIN](#kremlin) (1)
 - [Kubernetes](#kubernetes) (7)
 - [KV-botnet](#kv-botnet) (1)
 - [KVM](#kvm) (2)
@@ -2530,6 +2551,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LEASHTEST](#leashtest) (1)
 - [least privilege](#least-privilege) (4)
 - [Ledger](#ledger) (1)
+- [legacy API key](#legacy-api-key) (1)
 - [legacy botnet hijacking](#legacy-botnet-hijacking) (1)
 - [legacy infrastructure](#legacy-infrastructure) (1)
 - [legacy pattern](#legacy-pattern) (1)
@@ -2674,6 +2696,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MagicYUV](#magicyuv) (1)
 - [mail server compromise](#mail-server-compromise) (1)
 - [mail-argenta](#mail-argenta) (1)
+- [mail_logs](#mail_logs) (1)
 - [mailbox compromise](#mailbox-compromise) (1)
 - [mailbox permission abuse](#mailbox-permission-abuse) (2)
 - [mailbox theft](#mailbox-theft) (3)
@@ -2684,6 +2707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (2)
 - [Makeself license.tmp](#makeself-licensetmp) (1)
 - [malformed signature](#malformed-signature) (1)
+- [malicious browser extension](#malicious-browser-extension) (1)
 - [malicious dataset](#malicious-dataset) (1)
 - [malicious GPO](#malicious-gpo) (1)
 - [malicious package](#malicious-package) (1)
@@ -2759,6 +2783,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Meta Ads](#meta-ads) (1)
 - [meta-hacking](#meta-hacking) (1)
 - [Metabase](#metabase) (2)
+- [metadata injection](#metadata-injection) (1)
 - [MetaMask](#metamask) (1)
 - [Metasploit](#metasploit) (1)
 - [METR](#metr) (1)
@@ -2841,7 +2866,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mistic](#mistic) (2)
 - [MISTPEN](#mistpen) (1)
 - [MITRE ATLAS](#mitre-atlas) (1)
-- [MITRE ATT&CK](#mitre-attck) (6)
+- [MITRE ATT&CK](#mitre-attck) (7)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [Mitre ATT&CK T1110](#mitre-attck-t1110) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
@@ -2975,6 +3000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetScaler Gateway](#netscaler-gateway) (6)
 - [NetSetup.log](#netsetuplog) (1)
 - [network access](#network-access) (1)
+- [network canary](#network-canary) (1)
 - [network detection](#network-detection) (1)
 - [network infrastructure](#network-infrastructure) (2)
 - [network infrastructure exploitation](#network-infrastructure-exploitation) (1)
@@ -3000,6 +3026,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NIC impersonation](#nic-impersonation) (1)
 - [Nigeria-nexus](#nigeria-nexus) (1)
 - [Night Dragon](#night-dragon) (1)
+- [Nightingale Collective](#nightingale-collective) (1)
 - [NightLedger](#nightledger) (2)
 - [Nightmare-Eclipse](#nightmare-eclipse) (1)
 - [Nim](#nim) (1)
@@ -3020,6 +3047,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node.exe](#nodeexe) (1)
 - [Node.js](#nodejs) (15)
 - [Node.js implant](#nodejs-implant) (1)
+- [Node.js loader](#nodejs-loader) (1)
 - [Node.js malware](#nodejs-malware) (1)
 - [node:zlib](#nodezlib) (1)
 - [NodeEdgeRAT](#nodeedgerat) (1)
@@ -3129,6 +3157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [open-source tool](#open-source-tool) (1)
 - [open-source-malware](#open-source-malware) (1)
 - [OpenAI](#openai) (3)
+- [OpenAI agents](#openai-agents) (1)
 - [OpenAI API keys](#openai-api-keys) (1)
 - [OpenAI Codex](#openai-codex) (1)
 - [OpenAI Daybreak](#openai-daybreak) (1)
@@ -3162,13 +3191,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (347)
+- [operations](#operations) (350)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (408)
+- [ops](#ops) (411)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3184,6 +3213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ORB network](#orb-network) (1)
 - [organization username](#organization-username) (1)
 - [OS command injection](#os-command-injection) (3)
+- [OSCrypt](#oscrypt) (1)
 - [OT](#ot) (6)
 - [OT switches](#ot-switches) (1)
 - [OTA update](#ota-update) (1)
@@ -3516,6 +3546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [publish-time scanning](#publish-time-scanning) (1)
 - [publishing credentials](#publishing-credentials) (1)
 - [pull requests](#pull-requests) (2)
+- [PULSAR RAT](#pulsar-rat) (1)
 - [PUP](#pup) (1)
 - [PureLogs Stealer](#purelogs-stealer) (1)
 - [PureRAT](#purerat) (1)
@@ -3623,6 +3654,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reduced cyber refusals](#reduced-cyber-refusals) (1)
 - [RedWing](#redwing) (2)
 - [REF6045](#ref6045) (2)
+- [REF9334](#ref9334) (1)
 - [REF9403](#ref9403) (1)
 - [reflective .NET loading](#reflective-net-loading) (1)
 - [reflective loading](#reflective-loading) (7)
@@ -3639,13 +3671,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RelayShell](#relayshell) (1)
 - [release automation](#release-automation) (1)
 - [release tampering](#release-tampering) (1)
+- [REMCOS](#remcos) (1)
 - [Remcos](#remcos) (2)
 - [Remcos RAT](#remcos-rat) (1)
 - [remote access](#remote-access) (8)
 - [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (9)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (31)
+- [remote code execution](#remote-code-execution) (32)
 - [remote debugging](#remote-debugging) (2)
 - [remote desktop](#remote-desktop) (1)
 - [remote MCP](#remote-mcp) (1)
@@ -3712,7 +3745,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Romania](#romania) (1)
 - [RomulusLoader](#romulusloader) (1)
 - [Roo-Code](#roo-code) (1)
-- [root](#root) (2)
+- [root](#root) (3)
 - [root access](#root-access) (2)
 - [root account](#root-account) (1)
 - [root code execution](#root-code-execution) (2)
@@ -3743,7 +3776,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RTL819X](#rtl819x) (1)
 - [RTLO](#rtlo) (1)
 - [rtmutex](#rtmutex) (1)
-- [RubyGems](#rubygems) (5)
+- [RubyDoc](#rubydoc) (1)
+- [RubyGems](#rubygems) (6)
+- [rubygems.org](#rubygemsorg) (1)
+- [RubyHack](#rubyhack) (1)
 - [Ruckus routers](#ruckus-routers) (1)
 - [Ruflo](#ruflo) (1)
 - [RUGGEDCOM](#ruggedcom) (1)
@@ -3792,7 +3828,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Samsung TizenRT](#samsung-tizenrt) (1)
 - [sanctions](#sanctions) (1)
 - [sandbox escape](#sandbox-escape) (11)
-- [sandbox evasion](#sandbox-evasion) (2)
+- [sandbox evasion](#sandbox-evasion) (3)
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (3)
 - [Sangoma](#sangoma) (1)
@@ -3840,9 +3876,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secrets manager compromise](#secrets-manager-compromise) (1)
 - [SectopRAT](#sectoprat) (1)
 - [Secure Annex](#secure-annex) (1)
+- [Secure Email Appliance](#secure-email-appliance) (1)
 - [Secure Firewall](#secure-firewall) (1)
 - [Secure Firewall Management Center](#secure-firewall-management-center) (2)
-- [Secure Preferences](#secure-preferences) (1)
+- [Secure Preferences](#secure-preferences) (2)
 - [Secure Workload](#secure-workload) (1)
 - [secure.html](#securehtml) (1)
 - [Security Cloud Control](#security-cloud-control) (1)
@@ -3906,7 +3943,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session hijacking](#session-hijacking) (2)
 - [session secret exposure](#session-secret-exposure) (1)
 - [session theft](#session-theft) (3)
-- [session token theft](#session-token-theft) (1)
+- [session token theft](#session-token-theft) (2)
 - [setuid](#setuid) (1)
 - [setup.py](#setuppy) (1)
 - [shadow AI](#shadow-ai) (1)
@@ -4002,6 +4039,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sleeper packages](#sleeper-packages) (1)
 - [SLEEPWALKER](#sleepwalker) (1)
 - [Sliver](#sliver) (2)
+- [slnleaker5](#slnleaker5) (1)
 - [SLSA](#slsa) (1)
 - [SLSA provenance](#slsa-provenance) (1)
 - [SMA1000](#sma1000) (3)
@@ -4042,7 +4080,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [social engineering](#social-engineering) (26)
 - [Social Security Administration](#social-security-administration) (1)
 - [social-engineering](#social-engineering) (2)
-- [Socket](#socket) (6)
+- [Socket](#socket) (7)
 - [Socket Security](#socket-security) (3)
 - [Socket Security Research](#socket-security-research) (2)
 - [Socket.IO](#socketio) (2)
@@ -4090,6 +4128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [South Asia](#south-asia) (2)
 - [South Korea](#south-korea) (3)
 - [Southeast Asia](#southeast-asia) (7)
+- [southpxdatapp6pi](#southpxdatapp6pi) (1)
 - [SP Page Builder](#sp-page-builder) (1)
 - [Spain](#spain) (1)
 - [spam](#spam) (1)
@@ -4124,7 +4163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SprySOCKS](#sprysocks) (2)
 - [Spyroid](#spyroid) (1)
 - [spyware](#spyware) (2)
-- [SQL injection](#sql-injection) (13)
+- [SQL injection](#sql-injection) (14)
 - [SQL Server](#sql-server) (1)
 - [SQLite](#sqlite) (2)
 - [SQLite state](#sqlite-state) (1)
@@ -4149,8 +4188,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sshd](#sshd) (1)
 - [SSL VPN](#ssl-vpn) (3)
 - [SSO](#sso) (4)
-- [SSRF](#ssrf) (11)
+- [SSRF](#ssrf) (12)
 - [SSRF allow-list](#ssrf-allow-list) (1)
+- [SSTI](#ssti) (1)
 - [sstp](#sstp) (1)
 - [STAC4749](#stac4749) (1)
 - [stack use-after-free](#stack-use-after-free) (1)
@@ -4219,7 +4259,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [super peer](#super-peer) (1)
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
-- [supply chain](#supply-chain) (26)
+- [supply chain](#supply-chain) (27)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (112)
 - [supply-chain attack](#supply-chain-attack) (1)
@@ -4507,7 +4547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
 - [unattributed](#unattributed) (2)
-- [unauthenticated](#unauthenticated) (12)
+- [unauthenticated](#unauthenticated) (13)
 - [unauthenticated access](#unauthenticated-access) (4)
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (2)
@@ -4736,6 +4776,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebAuthn](#webauthn) (1)
 - [WebDAV](#webdav) (6)
 - [webhook.site](#webhooksite) (1)
+- [webhooks](#webhooks) (1)
 - [WebHost Manager](#webhost-manager) (1)
 - [WebKit](#webkit) (2)
 - [WebLogic](#weblogic) (1)
@@ -4860,7 +4901,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XPIA](#xpia) (1)
 - [Xray](#xray) (1)
 - [XSLT SSRF](#xslt-ssrf) (1)
-- [XSS](#xss) (4)
+- [XSS](#xss) (5)
 - [XSS injection](#xss-injection) (1)
 - [XSS.is](#xssis) (1)
 - [XWorm](#xworm) (1)
@@ -4869,6 +4910,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Yahoo Mail](#yahoo-mail) (1)
 - [Yanbian](#yanbian) (1)
 - [YARA](#yara) (3)
+- [YARD](#yard) (1)
+- [yardopts](#yardopts) (1)
+- [yardxabc889](#yardxabc889) (1)
 - [Yasmarang](#yasmarang) (1)
 - [YesWeHack](#yeswehack) (1)
 - [Yinhu](#yinhu) (1)
@@ -5159,6 +5203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -5576,6 +5621,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
@@ -6017,6 +6063,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 
 ## API abuse
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
 
 ## API enumeration
@@ -6040,6 +6087,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## apintergrationpost
 - [MYRA RAT](../tools/myra-rat.md)
+
+## App-Bound encryption
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 
 ## app-bound encryption
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
@@ -6936,6 +6986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
@@ -7014,6 +7065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Brazilian banking malware
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 
 ## BreachForums
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -7450,6 +7502,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CDN abuse
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 
+## CDN cache leak
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+
 ## cdn.jsdelivr.net
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 
@@ -7679,6 +7734,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 
+## Chrome extension abuse
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+
 ## Chrome renderer sandbox
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 
@@ -7706,6 +7764,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Chromium extension
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
+## Chromium integrity
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 
 ## chunked exfiltration
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
@@ -7795,6 +7856,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -7826,6 +7888,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
@@ -7867,9 +7930,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
+
+## Cisco AsyncOS
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## Cisco IOS
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
@@ -7879,6 +7946,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cisco Nexus
 - [Velvet Ant](../actors/velvet-ant.md)
+
+## Cisco Secure Email Gateway
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## Cisco Secure FMC
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
@@ -8602,6 +8672,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Copilot CLI
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 
+## COPY TO PROGRAM
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+
 ## Copy-on-Write
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
@@ -8689,6 +8762,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Crates.io
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
+
+## creamp1eonlyfans[.]net
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 
 ## credential attack
 - [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
@@ -10026,6 +10102,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack — Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
+## CVE-2026-76461
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+
 ## CVE-2026-76581
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
@@ -10163,6 +10242,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVSS 9.0
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
+## CVSS 9.8
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+
 ## cvvform
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
 
@@ -10229,6 +10311,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CWE-88
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
+
+## CWE-89
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## CWE-94
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
@@ -10481,6 +10566,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## dead-drop resolver
 - [Aeternum](../tools/aeternum.md)
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 
 ## DeadLock
@@ -11028,6 +11114,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## document-share lure
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
 
+## documentation workers
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+
 ## Docusign
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
 
@@ -11278,6 +11367,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 
+## Edge extension abuse
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+
 ## edge service
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
@@ -11342,6 +11434,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Elastic Security Labs
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
 - [TELEPUZ](../tools/telepuz.md)
@@ -11389,6 +11482,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## email security
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
 
 ## email subject
@@ -11684,6 +11778,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 
+## Ethereum smart contract C2
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+
 ## EtherHiding
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
@@ -11907,6 +12004,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 - [UNC3753](../actors/unc3753.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
+## f2fe-s1
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 
 ## F5
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
@@ -12357,6 +12457,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## foreign policy targeting
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
+## Forensics Triage
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+
 ## Forest Blizzard
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [APT28-linked HOOKEDGE backdoor targets European government and diplomatic organizations](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
@@ -12569,6 +12672,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Gemini CLI
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
+
+## GemStuffer
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 
 ## Gen Digital
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
@@ -13421,6 +13527,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HiveMQ
 - [Toy Ghouls "Angry Birds" custom backdoor (HiveMQ / Element)](../ops/toy-ghouls-angry-birds-hivemq-element-backdoor-september-2026.md)
 
+## HMAC forging
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+
 ## HMI
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
 
@@ -13876,6 +13985,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
 
 ## indirect syscalls
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [TELEPUZ](../tools/telepuz.md)
 
 ## Indonesia
@@ -14358,6 +14468,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JFrog Security Research
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
@@ -14618,6 +14729,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## keyword splitting
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
+## kill switch
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+
 ## Kimi K2.5
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 
@@ -14680,11 +14794,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## KORKERDS
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
 
+## Kr3mlin4rt1st
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+
 ## Kratos
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 
 ## krbtgt
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
+
+## KREMLIN
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 
 ## Kubernetes
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -14879,6 +14999,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Ledger
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
+
+## legacy API key
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 
 ## legacy botnet hijacking
 - [Turla](../actors/turla.md)
@@ -15451,6 +15574,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mail-argenta
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
+## mail_logs
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+
 ## mailbox compromise
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 
@@ -15488,6 +15614,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malformed signature
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
+
+## malicious browser extension
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 
 ## malicious dataset
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -15847,6 +15976,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Metabase
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
+
+## metadata injection
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 
 ## MetaMask
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
@@ -16218,6 +16350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
 - [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
@@ -16701,6 +16834,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## network access
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 
+## network canary
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+
 ## network detection
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
@@ -16777,6 +16913,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Night Dragon
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+
+## Nightingale Collective
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 
 ## NightLedger
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
@@ -16855,6 +16994,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Node.js implant
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
+
+## Node.js loader
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 
 ## Node.js malware
 - [SimpleHelp CVE-2026-48558 authentication-bypass exploitation](../ops/simplehelp-cve-2026-48558-authentication-bypass-exploitation.md)
@@ -17313,6 +17455,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
 
+## OpenAI agents
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+
 ## OpenAI API keys
 - [TeamPCP](../actors/teampcp.md)
 
@@ -17495,6 +17640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -17548,6 +17694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
@@ -17590,6 +17737,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
@@ -17871,6 +18019,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -17931,6 +18080,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
@@ -17980,6 +18130,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
@@ -18249,6 +18400,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
+
+## OSCrypt
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 
 ## OT
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
@@ -19608,6 +19762,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 
+## PULSAR RAT
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+
 ## PUP
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 
@@ -20075,6 +20232,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
 
+## REF9334
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+
 ## REF9403
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 
@@ -20134,6 +20294,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## release tampering
 - [Trivy compromise](../ops/trivy-compromise.md)
 
+## REMCOS
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+
 ## Remcos
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
@@ -20174,6 +20337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
@@ -20440,6 +20604,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## root
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
@@ -20547,12 +20712,22 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## rtmutex
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
+## RubyDoc
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+
 ## RubyGems
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
+
+## rubygems.org
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+
+## RubyHack
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 
 ## Ruckus routers
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
@@ -20773,6 +20948,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
 
 ## sandbox evasion
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 
@@ -20962,6 +21138,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Secure Annex
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 
+## Secure Email Appliance
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+
 ## Secure Firewall
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 
@@ -20970,6 +21149,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 
 ## Secure Preferences
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## Secure Workload
@@ -21191,6 +21371,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
 
 ## session token theft
+- [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## setuid
@@ -21521,6 +21702,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 
+## slnleaker5
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+
 ## SLSA
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
@@ -21684,6 +21868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Socket
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
@@ -21876,6 +22061,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Showboat](../tools/showboat.md)
 
+## southpxdatapp6pi
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+
 ## SP Page Builder
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
@@ -22002,6 +22190,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -22104,6 +22293,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
@@ -22113,6 +22303,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SSRF allow-list
 - [Kaltura mwEmbed unpatched: unauthenticated file read + RCE via mwEmbedLoader.php (CVE-2026-19912/19913)](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
+
+## SSTI
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 
 ## sstp
 - [September 2026 Patch Tuesday: two exploited zero-days, 113 critical, and a post-patch Defender "ShieldCrash" PoC](../ops/crowdstrike-september-2026-patch-tuesday-two-exploited-zero-days-shieldcrash.md)
@@ -22350,6 +22543,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
@@ -23619,6 +23813,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unauthenticated
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
@@ -24528,6 +24723,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## webhook.site
 - [APT28-linked HOOKEDGE backdoor targets European government and diplomatic organizations](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
 
+## webhooks
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+
 ## WebHost Manager
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
 
@@ -25064,6 +25262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
 ## XSS
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
@@ -25095,6 +25294,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
+
+## YARD
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+
+## yardopts
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+
+## yardxabc889
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 
 ## Yasmarang
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
