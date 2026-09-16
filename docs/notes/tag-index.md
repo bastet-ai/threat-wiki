@@ -61,6 +61,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [account takeover](#account-takeover) (7)
 - [account-takeover](#account-takeover) (1)
 - [accounts payable](#accounts-payable) (1)
+- [accountsd masquerade](#accountsd-masquerade) (1)
 - [ACH](#ach) (1)
 - [ACR Stealer](#acr-stealer) (2)
 - [AcridRain](#acridrain) (1)
@@ -69,7 +70,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [act_pedit](#act_pedit) (1)
 - [ACTINIUM](#actinium) (1)
 - [Activator.CreateInstance](#activatorcreateinstance) (1)
-- [Active Directory](#active-directory) (3)
+- [active development](#active-development) (1)
+- [Active Directory](#active-directory) (4)
 - [active exploitation](#active-exploitation) (84)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
@@ -238,9 +240,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon S3](#amazon-s3) (1)
 - [Amazon SES](#amazon-ses) (2)
 - [Amcache](#amcache) (1)
-- [AMOS](#amos) (4)
-- [AMSI bypass](#amsi-bypass) (6)
+- [AMOS](#amos) (5)
+- [AMSI bypass](#amsi-bypass) (7)
 - [AMSI patch](#amsi-patch) (1)
+- [amsi.dll patching](#amsidll-patching) (1)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
 - [Ancillary Function Driver](#ancillary-function-driver) (1)
 - [Android](#android) (11)
@@ -283,6 +286,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AppDomainManager](#appdomainmanager) (1)
 - [AppDomainManager injection](#appdomainmanager-injection) (2)
 - [Apple](#apple) (1)
+- [Apple masquerade](#apple-masquerade) (1)
+- [Apple Notes](#apple-notes) (1)
 - [Apple Sign-In](#apple-sign-in) (1)
 - [Apple threat notification](#apple-threat-notification) (1)
 - [AppleJeus](#applejeus) (1)
@@ -299,6 +304,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT](#apt) (9)
 - [APT simulation](#apt-simulation) (1)
 - [APT-C-08](#apt-c-08) (1)
+- [APT-Q-95](#apt-q-95) (1)
 - [APT27](#apt27) (1)
 - [APT28](#apt28) (2)
 - [APT29](#apt29) (3)
@@ -351,6 +357,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASLR bypass](#aslr-bypass) (1)
 - [ASNs](#asns) (1)
 - [ASP.NET](#aspnet) (2)
+- [ASP.NET machine keys](#aspnet-machine-keys) (1)
 - [ASP.NET machineKey](#aspnet-machinekey) (1)
 - [ASPX web shells](#aspx-web-shells) (2)
 - [assume-breach](#assume-breach) (1)
@@ -363,9 +370,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AsyncOS](#asyncos) (1)
 - [AsyncRAT](#asyncrat) (3)
 - [atd](#atd) (1)
+- [atexec](#atexec) (1)
 - [Atlas RAT](#atlas-rat) (1)
 - [Atlassian](#atlassian) (1)
-- [Atomic Stealer](#atomic-stealer) (3)
+- [Atomic macOS Stealer](#atomic-macos-stealer) (1)
+- [Atomic Stealer](#atomic-stealer) (4)
 - [attack-rate](#attack-rate) (1)
 - [attestation](#attestation) (1)
 - [attribution](#attribution) (1)
@@ -518,6 +527,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BLOODALCHEMY](#bloodalchemy) (1)
 - [BLUEBEAM](#bluebeam) (1)
 - [BlueDelta](#bluedelta) (1)
+- [BlueKeep](#bluekeep) (1)
 - [bluemonday](#bluemonday) (1)
 - [Blueprints](#blueprints) (1)
 - [Bluetooth LE](#bluetooth-le) (1)
@@ -548,7 +558,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser assembly](#browser-assembly) (1)
 - [browser automation](#browser-automation) (1)
 - [browser cookie theft](#browser-cookie-theft) (1)
-- [browser credential theft](#browser-credential-theft) (24)
+- [browser credential theft](#browser-credential-theft) (25)
 - [browser data theft](#browser-data-theft) (2)
 - [browser extension](#browser-extension) (9)
 - [browser extension abuse](#browser-extension-abuse) (1)
@@ -771,7 +781,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [click interception](#click-interception) (1)
 - [clicker](#clicker) (1)
 - [ClickFake](#clickfake) (1)
-- [ClickFix](#clickfix) (27)
+- [ClickFix](#clickfix) (28)
 - [clickfix](#clickfix) (1)
 - [ClickFix social engineering](#clickfix-social-engineering) (1)
 - [ClickOnce](#clickonce) (2)
@@ -783,6 +793,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [clipboard hijacking](#clipboard-hijacking) (2)
 - [clipboard injection](#clipboard-injection) (1)
 - [clipboard manipulation](#clipboard-manipulation) (2)
+- [clipboard paste](#clipboard-paste) (1)
 - [clipboard stealer](#clipboard-stealer) (1)
 - [clipboard theft](#clipboard-theft) (6)
 - [clipjacking](#clipjacking) (1)
@@ -822,6 +833,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare Tunnel](#cloudflare-tunnel) (5)
 - [Cloudflare tunnels](#cloudflare-tunnels) (2)
 - [Cloudflare Turnstile](#cloudflare-turnstile) (1)
+- [Cloudflare WARP](#cloudflare-warp) (1)
 - [Cloudflare Workers](#cloudflare-workers) (9)
 - [cloudflared](#cloudflared) (2)
 - [CloudLinux](#cloudlinux) (1)
@@ -871,6 +883,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised accounts](#compromised-accounts) (2)
 - [compromised credentials](#compromised-credentials) (1)
 - [compromised infrastructure](#compromised-infrastructure) (1)
+- [compromised VPN credentials](#compromised-vpn-credentials) (1)
 - [compromised websites](#compromised-websites) (2)
 - [compromised WordPress](#compromised-wordpress) (2)
 - [computer name](#computer-name) (1)
@@ -936,6 +949,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CPUID](#cpuid) (1)
 - [CRA](#cra) (1)
 - [cracked software](#cracked-software) (1)
+- [cracked software lure](#cracked-software-lure) (1)
 - [CrackMapExec](#crackmapexec) (1)
 - [CrashFix](#crashfix) (1)
 - [CrashStealer](#crashstealer) (1)
@@ -996,7 +1010,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto clipboard theft](#crypto-clipboard-theft) (1)
 - [crypto clipper](#crypto-clipper) (2)
 - [crypto draining](#crypto-draining) (1)
-- [crypto wallet theft](#crypto-wallet-theft) (2)
+- [crypto wallet theft](#crypto-wallet-theft) (3)
 - [crypto wallets](#crypto-wallets) (2)
 - [crypto-js](#crypto-js) (1)
 - [crypto-wallets](#crypto-wallets) (1)
@@ -1038,7 +1052,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2015-3246](#cve-2015-3246) (1)
 - [CVE-2015-5287](#cve-2015-5287) (1)
 - [CVE-2016-5681](#cve-2016-5681) (1)
+- [CVE-2019-0708](#cve-2019-0708) (1)
 - [CVE-2019-1068](#cve-2019-1068) (1)
+- [CVE-2020-0688](#cve-2020-0688) (1)
 - [CVE-2020-17103](#cve-2020-17103) (1)
 - [CVE-2020-22653](#cve-2020-22653) (1)
 - [CVE-2020-22658](#cve-2020-22658) (1)
@@ -1406,7 +1422,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud](#dcloud) (1)
 - [DCloud Uni-App](#dcloud-uni-app) (1)
 - [DcRAT](#dcrat) (1)
-- [DCSync](#dcsync) (1)
+- [DCSync](#dcsync) (2)
 - [DD-WRT](#dd-wrt) (1)
 - [DDNS](#ddns) (1)
 - [DDoS](#ddos) (10)
@@ -1485,6 +1501,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [device-code phishing](#device-code-phishing) (6)
 - [DevOps](#devops) (1)
 - [DevTools](#devtools) (1)
+- [devtunnels.ms](#devtunnelsms) (1)
 - [DEWMODE](#dewmode) (1)
 - [DGA](#dga) (1)
 - [DIAMONDBACK](#diamondback) (2)
@@ -1731,6 +1748,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [evaluation containment](#evaluation-containment) (1)
 - [evasion](#evasion) (1)
 - [event log clearing](#event-log-clearing) (2)
+- [event log unhooking](#event-log-unhooking) (1)
 - [eventpoll](#eventpoll) (1)
 - [Everest Forms Pro](#everest-forms-pro) (1)
 - [EveryoneIncludesAnonymous](#everyoneincludesanonymous) (1)
@@ -1916,6 +1934,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiSandbox](#fortisandbox) (1)
 - [FortiSASE](#fortisase) (1)
 - [FortiSwitchManager](#fortiswitchmanager) (1)
+- [Forwardable tickets](#forwardable-tickets) (1)
 - [Fox Tempest](#fox-tempest) (2)
 - [fraud](#fraud) (2)
 - [FREAKYPOLL](#freakypoll) (1)
@@ -1960,6 +1979,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Garble](#garble) (2)
 - [Gardener](#gardener) (1)
 - [GateKeeper](#gatekeeper) (1)
+- [Gatekeeper](#gatekeeper) (1)
 - [Gatekeeper bypass](#gatekeeper-bypass) (1)
 - [GCP](#gcp) (1)
 - [GCS](#gcs) (1)
@@ -1977,7 +1997,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS](#ghost-cms) (1)
 - [Ghost Networks](#ghost-networks) (1)
 - [GHOSTBLADE](#ghostblade) (1)
+- [GhostContainer](#ghostcontainer) (1)
 - [GhostLock](#ghostlock) (1)
+- [GhostWebShell](#ghostwebshell) (1)
 - [GHSA-2679-6mx9-h9xc](#ghsa-2679-6mx9-h9xc) (1)
 - [GHSA-2943-5xfg-gq5f](#ghsa-2943-5xfg-gq5f) (1)
 - [GHSA-2xp9-vwfh-vxw4](#ghsa-2xp9-vwfh-vxw4) (1)
@@ -2029,6 +2051,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub release assets](#github-release-assets) (1)
 - [GitHub Security Advisories](#github-security-advisories) (9)
 - [GitHub tokens](#github-tokens) (2)
+- [GitHub tool hosting](#github-tool-hosting) (1)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
 - [GitLab](#gitlab) (4)
 - [gitleaks](#gitleaks) (1)
@@ -2185,6 +2208,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hermes](#hermes) (1)
 - [Hermes Agent](#hermes-agent) (3)
 - [Hetzner](#hetzner) (1)
+- [Hetzner C2](#hetzner-c2) (1)
 - [HexKiller](#hexkiller) (1)
 - [hidden backdoor](#hidden-backdoor) (1)
 - [hidden instructions](#hidden-instructions) (1)
@@ -2285,7 +2309,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [image recognition](#image-recognition) (1)
 - [ImageMagick](#imagemagick) (1)
 - [iMessage](#imessage) (2)
-- [Impacket](#impacket) (4)
+- [Impacket](#impacket) (5)
 - [Imperial Kitten](#imperial-kitten) (1)
 - [impersonation](#impersonation) (3)
 - [implant](#implant) (1)
@@ -2322,7 +2346,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (5)
 - [information stealer](#information-stealer) (1)
-- [infostealer](#infostealer) (29)
+- [infostealer](#infostealer) (30)
 - [infotainment](#infotainment) (1)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
@@ -2470,7 +2494,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kaltura](#kaltura) (1)
 - [Kaspersky](#kaspersky) (4)
 - [Kaspersky detection bypass](#kaspersky-detection-bypass) (1)
-- [Kaspersky GERT](#kaspersky-gert) (1)
+- [Kaspersky GERT](#kaspersky-gert) (2)
 - [Kaspersky GReAT](#kaspersky-great) (3)
 - [Kaspersky Securelist](#kaspersky-securelist) (2)
 - [Kazakhstan](#kazakhstan) (2)
@@ -2483,6 +2507,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Keksec](#keksec) (1)
 - [Kemp LoadMaster](#kemp-loadmaster) (1)
 - [kerberos](#kerberos) (1)
+- [Kerberos](#kerberos) (1)
 - [kernel driver](#kernel-driver) (4)
 - [kernel instrumentation](#kernel-instrumentation) (1)
 - [kernel R/W](#kernel-rw) (1)
@@ -2699,13 +2724,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MAC address](#mac-address) (1)
 - [MacCMS](#maccms) (1)
 - [Maccy impersonation](#maccy-impersonation) (1)
+- [Mach-O](#mach-o) (1)
 - [Machine Account Quota](#machine-account-quota) (1)
 - [machine identity](#machine-identity) (1)
 - [machine-bound config](#machine-bound-config) (1)
 - [machine-learning](#machine-learning) (1)
 - [machine-speed attack chain](#machine-speed-attack-chain) (1)
 - [macOS](#macos) (24)
-- [macOS malware](#macos-malware) (2)
+- [macOS malware](#macos-malware) (3)
 - [macro](#macro) (1)
 - [macro-enabled Word](#macro-enabled-word) (1)
 - [MacSync](#macsync) (2)
@@ -2728,6 +2754,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-compromise](#maintainer-compromise) (2)
 - [Makeself license.tmp](#makeself-licensetmp) (1)
 - [malformed signature](#malformed-signature) (1)
+- [malicious ads](#malicious-ads) (1)
 - [malicious browser extension](#malicious-browser-extension) (1)
 - [malicious dataset](#malicious-dataset) (1)
 - [malicious GPO](#malicious-gpo) (1)
@@ -2780,6 +2807,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MCP gateway](#mcp-gateway) (1)
 - [MCP stdio command execution](#mcp-stdio-command-execution) (1)
 - [mcp-grafana](#mcp-grafana) (1)
+- [mdworker masquerade](#mdworker-masquerade) (1)
 - [MECCHA CHAMELEON](#meccha-chameleon) (1)
 - [media embed](#media-embed) (1)
 - [media processing](#media-processing) (1)
@@ -2833,13 +2861,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender exclusion](#microsoft-defender-exclusion) (1)
 - [Microsoft Defender Experts](#microsoft-defender-experts) (1)
 - [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
-- [Microsoft dev tunnels](#microsoft-dev-tunnels) (2)
+- [Microsoft dev tunnels](#microsoft-dev-tunnels) (3)
 - [Microsoft Digital Crimes Unit](#microsoft-digital-crimes-unit) (1)
 - [Microsoft Edge](#microsoft-edge) (2)
 - [Microsoft Edge Add-ons](#microsoft-edge-add-ons) (2)
 - [Microsoft Edge Extensions Security Team](#microsoft-edge-extensions-security-team) (1)
 - [Microsoft Edge masquerade](#microsoft-edge-masquerade) (1)
 - [Microsoft Entra ID](#microsoft-entra-id) (5)
+- [Microsoft Exchange](#microsoft-exchange) (1)
 - [Microsoft Exchange Server](#microsoft-exchange-server) (2)
 - [Microsoft Graph](#microsoft-graph) (5)
 - [Microsoft Identity Platform](#microsoft-identity-platform) (1)
@@ -2887,7 +2916,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mistic](#mistic) (2)
 - [MISTPEN](#mistpen) (1)
 - [MITRE ATLAS](#mitre-atlas) (1)
-- [MITRE ATT&CK](#mitre-attck) (9)
+- [MITRE ATT&CK](#mitre-attck) (10)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [Mitre ATT&CK T1110](#mitre-attck-t1110) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
@@ -3006,7 +3035,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Negotiate](#negotiate) (1)
 - [negotiation](#negotiation) (1)
 - [NemoClaw](#nemoclaw) (1)
-- [Neo-reGeorg](#neo-regeorg) (1)
+- [Neo-reGeorg](#neo-regeorg) (2)
 - [neocloud](#neocloud) (1)
 - [nested virtualization](#nested-virtualization) (1)
 - [Netcat reverse shell](#netcat-reverse-shell) (1)
@@ -3049,6 +3078,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NIC impersonation](#nic-impersonation) (1)
 - [Nigeria-nexus](#nigeria-nexus) (1)
 - [Night Dragon](#night-dragon) (1)
+- [NightEagle](#nighteagle) (1)
 - [Nightingale Collective](#nightingale-collective) (1)
 - [NightLedger](#nightledger) (2)
 - [Nightmare-Eclipse](#nightmare-eclipse) (1)
@@ -3214,13 +3244,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (352)
+- [operations](#operations) (353)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (413)
+- [ops](#ops) (414)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3452,6 +3482,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [polymorphic payloads](#polymorphic-payloads) (1)
 - [Popa](#popa) (1)
 - [portmap](#portmap) (1)
+- [portproxy](#portproxy) (1)
 - [PortSwigger Research](#portswigger-research) (1)
 - [Portugal](#portugal) (1)
 - [Portuguese-speaking](#portuguese-speaking) (1)
@@ -3642,6 +3673,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RCS](#rcs) (1)
 - [RDP](#rdp) (3)
 - [RDP phishing](#rdp-phishing) (1)
+- [RDP tunneling](#rdp-tunneling) (1)
+- [rdp2tcp](#rdp2tcp) (1)
 - [RDS](#rds) (1)
 - [reachability](#reachability) (1)
 - [React](#react) (1)
@@ -4227,6 +4260,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sstp](#sstp) (1)
 - [STAC4749](#stac4749) (1)
 - [stack use-after-free](#stack-use-after-free) (1)
+- [staged C2 URLs](#staged-c2-urls) (1)
 - [staged malicious update](#staged-malicious-update) (1)
 - [staged publishing](#staged-publishing) (1)
 - [staking-precompile](#staking-precompile) (1)
@@ -4373,6 +4407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tax forms](#tax-forms) (1)
 - [tax-season phishing](#tax-season-phishing) (1)
 - [tc](#tc) (1)
+- [TCC permissions](#tcc-permissions) (1)
 - [TCP 43210](#tcp-43210) (1)
 - [TCP 43211](#tcp-43211) (1)
 - [TCP traffic diversion](#tcp-traffic-diversion) (1)
@@ -4400,6 +4435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [telegram](#telegram) (1)
 - [Telegram bot](#telegram-bot) (2)
 - [Telegram C2](#telegram-c2) (6)
+- [Telegram data](#telegram-data) (1)
 - [Telegram dead drop](#telegram-dead-drop) (2)
 - [Telegram exfiltration](#telegram-exfiltration) (1)
 - [Telegram notification](#telegram-notification) (1)
@@ -4421,6 +4457,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TencShell](#tencshell) (1)
 - [Tenda](#tenda) (1)
 - [Tenet Security](#tenet-security) (1)
+- [Terminal permissions](#terminal-permissions) (1)
 - [TerminalFix](#terminalfix) (1)
 - [Tesseract](#tesseract) (1)
 - [Tetrade](#tetrade) (1)
@@ -4469,7 +4506,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token-theft](#token-theft) (1)
 - [TONESHELL](#toneshell) (2)
 - [TookPS](#tookps) (1)
-- [tool](#tool) (6)
+- [tool](#tool) (7)
 - [tool calling](#tool-calling) (1)
 - [tool execution](#tool-execution) (1)
 - [tool output injection](#tool-output-injection) (1)
@@ -4477,7 +4514,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (65)
+- [tools](#tools) (66)
 - [Tor](#tor) (4)
 - [Tortoiseshell](#tortoiseshell) (2)
 - [Total Software Deployment](#total-software-deployment) (1)
@@ -4620,9 +4657,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [unintended internet access](#unintended-internet-access) (1)
 - [Unisoc](#unisoc) (1)
-- [Unit 42](#unit-42) (17)
+- [Unit 42](#unit-42) (18)
 - [United States](#united-states) (4)
 - [Unitree](#unitree) (1)
+- [universal binary](#universal-binary) (1)
 - [university targeting](#university-targeting) (1)
 - [UNK_MassTraction](#unk_masstraction) (1)
 - [UNK_PitStop](#unk_pitstop) (1)
@@ -4706,6 +4744,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vietnam-aligned](#vietnam-aligned) (1)
 - [Vietnamese CMS](#vietnamese-cms) (1)
 - [Views](#views) (1)
+- [VIEWSTATE](#viewstate) (1)
 - [ViewState](#viewstate) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
 - [ViPNet](#vipnet) (1)
@@ -4916,6 +4955,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WSS](#wss) (1)
 - [X DM lure](#x-dm-lure) (1)
 - [X-Grafana-URL](#x-grafana-url) (1)
+- [x-owa-urlpostdata](#x-owa-urlpostdata) (1)
 - [X-Secret](#x-secret) (1)
 - [X-WEBAUTH-USER](#x-webauth-user) (1)
 - [X25519](#x25519) (1)
@@ -4960,7 +5000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Yinhu](#yinhu) (1)
 - [YouTube](#youtube) (3)
 - [YouTube abuse](#youtube-abuse) (1)
-- [ysoserial](#ysoserial) (1)
+- [ysoserial](#ysoserial) (2)
 - [Yuechi Shared Technology](#yuechi-shared-technology) (1)
 - [yuze](#yuze) (2)
 - [Yx Technology](#yx-technology) (1)
@@ -4992,6 +5032,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zoom](#zoom) (1)
 - [ZoomEye](#zoomeye) (1)
 - [Zscaler ThreatLabz](#zscaler-threatlabz) (1)
+- [Zsh script](#zsh-script) (1)
 
 ## .NET
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
@@ -5195,6 +5236,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## accounts payable
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
 
+## accountsd masquerade
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+
 ## ACH
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
 
@@ -5220,9 +5264,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Activator.CreateInstance
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 
+## active development
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+
 ## Active Directory
 - [Cavern](../tools/cavern.md)
 - [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
 ## active exploitation
@@ -5971,6 +6019,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AMOS
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
@@ -5978,6 +6027,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AMSI bypass
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 - [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [TELEPUZ](../tools/telepuz.md)
@@ -5985,6 +6035,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AMSI patch
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
+
+## amsi.dll patching
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## AmsiScanBuffer
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
@@ -6151,6 +6204,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Apple
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 
+## Apple masquerade
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+
+## Apple Notes
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+
 ## Apple Sign-In
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
@@ -6207,6 +6266,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## APT-C-08
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
+
+## APT-Q-95
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## APT27
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -6392,6 +6454,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 - [OP-512](../actors/op-512.md)
 
+## ASP.NET machine keys
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+
 ## ASP.NET machineKey
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 
@@ -6431,14 +6496,21 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## atd
 - ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 
+## atexec
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+
 ## Atlas RAT
 - [TA4922](../actors/ta4922.md)
 
 ## Atlassian
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
 
+## Atomic macOS Stealer
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+
 ## Atomic Stealer
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
@@ -7022,6 +7094,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BlueDelta
 - [APT28-linked HOOKEDGE backdoor targets European government and diplomatic organizations](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
 
+## BlueKeep
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+
 ## bluemonday
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 
@@ -7160,6 +7235,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser credential theft
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [ACR Stealer](../tools/acr-stealer.md)
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
@@ -8140,6 +8216,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ClickFix
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [ACR Stealer](../tools/acr-stealer.md)
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
@@ -8204,6 +8281,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## clipboard manipulation
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
+
+## clipboard paste
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 
 ## clipboard stealer
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
@@ -8368,6 +8448,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cloudflare Turnstile
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
+
+## Cloudflare WARP
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## Cloudflare Workers
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
@@ -8584,6 +8667,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## compromised infrastructure
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
+
+## compromised VPN credentials
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## compromised websites
 - [UAC-0145](../actors/uac-0145.md)
@@ -8815,6 +8901,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cracked software
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
+
+## cracked software lure
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 
 ## CrackMapExec
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -9187,6 +9276,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## crypto wallet theft
 - [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## crypto wallets
@@ -9366,8 +9456,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2016-5681
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
 
+## CVE-2019-0708
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+
 ## CVE-2019-1068
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
+
+## CVE-2020-0688
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## CVE-2020-17103
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
@@ -10591,6 +10687,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DCSync
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## DD-WRT
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
@@ -10962,6 +11059,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DevTools
 - [Umbrij](../tools/umbrij.md)
+
+## devtunnels.ms
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## DEWMODE
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
@@ -11940,6 +12040,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [GigaWiper](../tools/gigawiper.md)
 
+## event log unhooking
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+
 ## eventpoll
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 
@@ -12608,6 +12711,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FortiSwitchManager
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
 
+## Forwardable tickets
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+
 ## Fox Tempest
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Fox Tempest](../actors/fox-tempest.md)
@@ -12754,6 +12860,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GateKeeper
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
 
+## Gatekeeper
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+
 ## Gatekeeper bypass
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 
@@ -12812,8 +12921,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHOSTBLADE
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
+## GhostContainer
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+
 ## GhostLock
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
+
+## GhostWebShell
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## GHSA-2679-6mx9-h9xc
 - [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
@@ -13033,6 +13148,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub tokens
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+
+## GitHub tool hosting
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## GitHub-hosted runners
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
@@ -13605,6 +13723,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Hetzner
 - [ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)](../ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
 
+## Hetzner C2
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+
 ## HexKiller
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
@@ -13954,6 +14075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Impacket
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -14141,6 +14263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## infostealer
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [ACR Stealer](../tools/acr-stealer.md)
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [Armored Likho](../actors/armored-likho.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
@@ -14731,6 +14854,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Kaspersky GERT
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## Kaspersky GReAT
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
@@ -14772,6 +14896,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## kerberos
 - [September 2026 Patch Tuesday: two exploited zero-days, 113 critical, and a post-patch Defender "ShieldCrash" PoC](../ops/crowdstrike-september-2026-patch-tuesday-two-exploited-zero-days-shieldcrash.md)
+
+## Kerberos
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## kernel driver
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
@@ -15615,6 +15742,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Maccy impersonation
 - [PamStealer](../tools/pamstealer.md)
 
+## Mach-O
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+
 ## Machine Account Quota
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
 
@@ -15658,6 +15788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## macOS malware
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
 ## macro
@@ -15736,6 +15867,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## malformed signature
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
+
+## malicious ads
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 
 ## malicious browser extension
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
@@ -16021,6 +16155,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mcp-grafana
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
+## mdworker masquerade
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+
 ## MECCHA CHAMELEON
 - [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 
@@ -16251,6 +16388,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft dev tunnels
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## Microsoft Digital Crimes Unit
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -16275,6 +16413,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
+
+## Microsoft Exchange
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## Microsoft Exchange Server
 - [OWAReaper](../tools/owareaper.md)
@@ -16478,6 +16619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 - [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
 ## MITRE ATT&CK T1005
@@ -16900,6 +17042,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NemoClaw local Ollama chat-template poisoning (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
 
 ## Neo-reGeorg
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## neocloud
@@ -17045,6 +17188,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Night Dragon
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+
+## NightEagle
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## Nightingale Collective
 - [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
@@ -17918,6 +18064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -18320,6 +18467,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
@@ -19415,6 +19563,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## portmap
 - [Showboat](../tools/showboat.md)
 
+## portproxy
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+
 ## PortSwigger Research
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
 
@@ -20247,6 +20398,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RDP phishing
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
+
+## RDP tunneling
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+
+## rdp2tcp
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## RDS
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
@@ -22489,6 +22646,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## stack use-after-free
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
+## staged C2 URLs
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+
 ## staged malicious update
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
@@ -23117,6 +23277,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tc
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 
+## TCC permissions
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+
 ## TCP 43210
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
 
@@ -23234,6 +23397,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
+## Telegram data
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+
 ## Telegram dead drop
 - [TELEPUZ](../tools/telepuz.md)
 - [TELEPUZ ClickFix / VIDAR campaign](../ops/telepuz-clickfix-vidar-campaign.md)
@@ -23304,6 +23470,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Tenet Security
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
+
+## Terminal permissions
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 
 ## TerminalFix
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
@@ -23488,6 +23657,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
 ## tool
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [ArcBridge](../tools/arcbridge.md)
 - [BridgeHead](../tools/bridgehead.md)
 - [ChocoPoC](../tools/chocopoc.md)
@@ -23524,6 +23694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tools
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Aeternum](../tools/aeternum.md)
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [ArcBridge](../tools/arcbridge.md)
 - [BINDCLOAK](../tools/bindcloak.md)
 - [BraZetsu: Python-based Windows IAB master toolkit fueling the "Infected Marketplace" (Group-IB, Sep 3, 2026)](../tools/brazetsu.md)
@@ -24148,6 +24319,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
 
 ## Unit 42
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -24174,6 +24346,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Unitree
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
+
+## universal binary
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 
 ## university targeting
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -24460,6 +24635,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Views
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
+
+## VIEWSTATE
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## ViewState
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
@@ -25369,6 +25547,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## X-Grafana-URL
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
 
+## x-owa-urlpostdata
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+
 ## X-Secret
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 
@@ -25527,6 +25708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
 ## ysoserial
+- [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
 ## Yuechi Shared Technology
@@ -25649,3 +25831,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Zscaler ThreatLabz
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
+
+## Zsh script
+- [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
