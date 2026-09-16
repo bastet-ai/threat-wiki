@@ -360,6 +360,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASUS AiCloud routers](#asus-aicloud-routers) (1)
 - [ASUS router](#asus-router) (1)
 - [AsyncAPI](#asyncapi) (1)
+- [AsyncOS](#asyncos) (1)
 - [AsyncRAT](#asyncrat) (3)
 - [atd](#atd) (1)
 - [Atlas RAT](#atlas-rat) (1)
@@ -726,11 +727,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA ADP](#cisa-adp) (2)
 - [CISA KEV](#cisa-kev) (51)
 - [Cisco](#cisco) (10)
-- [Cisco AsyncOS](#cisco-asyncos) (1)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
 - [Cisco Nexus](#cisco-nexus) (1)
-- [Cisco Secure Email Gateway](#cisco-secure-email-gateway) (1)
 - [Cisco Secure FMC](#cisco-secure-fmc) (1)
 - [Cisco Talos](#cisco-talos) (2)
 - [Cisco Unified CM](#cisco-unified-cm) (1)
@@ -1634,7 +1633,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [email gateway](#email-gateway) (1)
 - [email infrastructure abuse](#email-infrastructure-abuse) (1)
 - [email normalization](#email-normalization) (1)
-- [email security](#email-security) (2)
+- [email security](#email-security) (1)
+- [email security appliance](#email-security-appliance) (1)
 - [email subject](#email-subject) (1)
 - [email template](#email-template) (1)
 - [email theft](#email-theft) (4)
@@ -1886,7 +1886,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fordmotbvmorcompany.vu](#fordmotbvmorcompanyvu) (1)
 - [foreign affairs targeting](#foreign-affairs-targeting) (2)
 - [foreign policy targeting](#foreign-policy-targeting) (1)
-- [Forensics Triage](#forensics-triage) (1)
 - [Forest Blizzard](#forest-blizzard) (2)
 - [ForestTiger](#foresttiger) (1)
 - [Forg365](#forg365) (1)
@@ -3678,7 +3677,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (9)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (32)
+- [remote code execution](#remote-code-execution) (31)
 - [remote debugging](#remote-debugging) (2)
 - [remote desktop](#remote-desktop) (1)
 - [remote MCP](#remote-mcp) (1)
@@ -3876,7 +3875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secrets manager compromise](#secrets-manager-compromise) (1)
 - [SectopRAT](#sectoprat) (1)
 - [Secure Annex](#secure-annex) (1)
-- [Secure Email Appliance](#secure-email-appliance) (1)
+- [Secure Email Gateway](#secure-email-gateway) (1)
 - [Secure Firewall](#secure-firewall) (1)
 - [Secure Firewall Management Center](#secure-firewall-management-center) (2)
 - [Secure Preferences](#secure-preferences) (2)
@@ -5203,7 +5202,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -6376,6 +6375,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AsyncAPI
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 
+## AsyncOS
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+
 ## AsyncRAT
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
@@ -6986,7 +6988,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
@@ -7856,7 +7858,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -7888,7 +7890,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
@@ -7930,13 +7932,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
-
-## Cisco AsyncOS
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## Cisco IOS
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
@@ -7946,9 +7945,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cisco Nexus
 - [Velvet Ant](../actors/velvet-ant.md)
-
-## Cisco Secure Email Gateway
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## Cisco Secure FMC
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
@@ -8673,7 +8669,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 
 ## COPY TO PROGRAM
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## Copy-on-Write
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
@@ -10103,7 +10099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack — Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
 ## CVE-2026-76461
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## CVE-2026-76581
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
@@ -10243,7 +10239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## CVSS 9.8
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## cvvform
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
@@ -10313,7 +10309,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 
 ## CWE-89
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## CWE-94
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
@@ -11482,8 +11478,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
 ## email security
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
+
+## email security appliance
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## email subject
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
@@ -12456,9 +12454,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## foreign policy targeting
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
-
-## Forensics Triage
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## Forest Blizzard
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
@@ -15575,7 +15570,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
 ## mail_logs
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## mailbox compromise
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
@@ -17640,7 +17635,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -18019,7 +18014,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
@@ -20337,7 +20332,6 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
@@ -20604,7 +20598,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## root
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
@@ -21138,8 +21132,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Secure Annex
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 
-## Secure Email Appliance
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+## Secure Email Gateway
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 
 ## Secure Firewall
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
@@ -22190,7 +22184,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -23813,7 +23807,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unauthenticated
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
-- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection to root RCE, KEV-listed with a Sep 17 deadline — and Cisco already contacted cloud customers who were hit](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+- [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
