@@ -117,6 +117,8 @@ Use non-destructive checks. Confirm authentication and authorization with a beni
 
 ## Related pages
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
+- [@zereight/mcp-gitlab CVE-2026-61560: unauthenticated SSE transport + arbitrary file read exfiltrates the GitLab PAT (Sep 16, 2026)](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
+- [Bifrost CVE-2026-90898: unauthenticated MCP stdio client-registration RCE](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [MCP stdio command-execution boundary](mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](mcp-tool-description-poisoning.md)
 - [Sentry MCP Agentjacking](sentry-mcp-agentjacking.md)
