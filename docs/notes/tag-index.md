@@ -238,7 +238,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon S3](#amazon-s3) (1)
 - [Amazon SES](#amazon-ses) (2)
 - [Amcache](#amcache) (1)
-- [AMOS](#amos) (3)
+- [AMOS](#amos) (4)
 - [AMSI bypass](#amsi-bypass) (6)
 - [AMSI patch](#amsi-patch) (1)
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
@@ -277,7 +277,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [API keys](#api-keys) (2)
 - [API-driven payloads](#api-driven-payloads) (1)
 - [apintergrationpost](#apintergrationpost) (1)
-- [App-Bound encryption](#app-bound-encryption) (1)
+- [App-Bound encryption](#app-bound-encryption) (2)
 - [app-bound encryption](#app-bound-encryption) (1)
 - [App-Bound Encryption bypass](#app-bound-encryption-bypass) (1)
 - [AppDomainManager](#appdomainmanager) (1)
@@ -365,7 +365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [atd](#atd) (1)
 - [Atlas RAT](#atlas-rat) (1)
 - [Atlassian](#atlassian) (1)
-- [Atomic Stealer](#atomic-stealer) (2)
+- [Atomic Stealer](#atomic-stealer) (3)
 - [attack-rate](#attack-rate) (1)
 - [attestation](#attestation) (1)
 - [attribution](#attribution) (1)
@@ -452,6 +452,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [banking trojan](#banking-trojan) (4)
 - [Baron Samedit](#baron-samedit) (1)
 - [Barracuda](#barracuda) (1)
+- [Base58Check](#base58check) (1)
 - [Base64](#base64) (1)
 - [BaseZipInstaller](#basezipinstaller) (1)
 - [Bash Uploader](#bash-uploader) (1)
@@ -468,6 +469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Beast ransomware](#beast-ransomware) (1)
 - [BeaverTail](#beavertail) (1)
 - [BEC](#bec) (1)
+- [Bech32](#bech32) (1)
 - [Bedrock](#bedrock) (1)
 - [behavioral detection](#behavioral-detection) (2)
 - [behavioral integrity verification](#behavioral-integrity-verification) (1)
@@ -510,6 +512,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [blockchain dead drop](#blockchain-dead-drop) (6)
 - [blockchain RPC](#blockchain-rpc) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
+- [blocklist futility](#blocklist-futility) (1)
 - [Blogger abuse](#blogger-abuse) (1)
 - [blogspot staging](#blogspot-staging) (1)
 - [BLOODALCHEMY](#bloodalchemy) (1)
@@ -548,6 +551,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser credential theft](#browser-credential-theft) (24)
 - [browser data theft](#browser-data-theft) (2)
 - [browser extension](#browser-extension) (9)
+- [browser extension abuse](#browser-extension-abuse) (1)
 - [browser extension loader](#browser-extension-loader) (1)
 - [browser extension malware](#browser-extension-malware) (1)
 - [browser extension sideloading](#browser-extension-sideloading) (1)
@@ -585,6 +589,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bugcrowd](#bugcrowd) (1)
 - [build pipeline](#build-pipeline) (1)
 - [build server](#build-server) (1)
+- [build-time code execution](#build-time-code-execution) (1)
 - [build-time compromise](#build-time-compromise) (3)
 - [build-time execution](#build-time-execution) (1)
 - [build.rs](#buildrs) (1)
@@ -660,6 +665,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CERT-In](#cert-in) (1)
 - [CERT/CC](#certcc) (2)
 - [Certbot](#certbot) (1)
+- [certificate forgery](#certificate-forgery) (1)
 - [certificate pinning](#certificate-pinning) (1)
 - [certificate template](#certificate-template) (1)
 - [certificate theft](#certificate-theft) (1)
@@ -742,6 +748,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed](#citrixbleed) (1)
 - [CitrixBleed 2](#citrixbleed-2) (1)
 - [City Forum](#city-forum) (1)
+- [CJK variable names](#cjk-variable-names) (1)
 - [CKEditor file manager](#ckeditor-file-manager) (1)
 - [CL-CRI-1089](#cl-cri-1089) (1)
 - [CL-CRI-1131](#cl-cri-1131) (1)
@@ -764,15 +771,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [click interception](#click-interception) (1)
 - [clicker](#clicker) (1)
 - [ClickFake](#clickfake) (1)
-- [ClickFix](#clickfix) (26)
+- [ClickFix](#clickfix) (27)
 - [clickfix](#clickfix) (1)
 - [ClickFix social engineering](#clickfix-social-engineering) (1)
-- [ClickOnce](#clickonce) (1)
+- [ClickOnce](#clickonce) (2)
 - [ClickUp](#clickup) (1)
 - [client installer poisoning](#client-installer-poisoning) (1)
 - [client-side exploitation](#client-side-exploitation) (3)
 - [Cline](#cline) (1)
-- [clipboard hijacker](#clipboard-hijacker) (1)
+- [clipboard hijacker](#clipboard-hijacker) (2)
 - [clipboard hijacking](#clipboard-hijacking) (2)
 - [clipboard injection](#clipboard-injection) (1)
 - [clipboard manipulation](#clipboard-manipulation) (2)
@@ -834,6 +841,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
 - [code signing abuse](#code-signing-abuse) (1)
+- [code-signing certificate theft](#code-signing-certificate-theft) (1)
 - [Codecov](#codecov) (1)
 - [codegen injection](#codegen-injection) (1)
 - [codemado](#codemado) (1)
@@ -988,11 +996,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto clipboard theft](#crypto-clipboard-theft) (1)
 - [crypto clipper](#crypto-clipper) (2)
 - [crypto draining](#crypto-draining) (1)
-- [crypto wallet theft](#crypto-wallet-theft) (1)
+- [crypto wallet theft](#crypto-wallet-theft) (2)
 - [crypto wallets](#crypto-wallets) (2)
 - [crypto-js](#crypto-js) (1)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (15)
+- [cryptocurrency address replacement](#cryptocurrency-address-replacement) (1)
 - [cryptocurrency miner](#cryptocurrency-miner) (1)
 - [cryptocurrency mining](#cryptocurrency-mining) (1)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
@@ -1416,6 +1425,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DEBULL](#debull) (1)
 - [declarativeNetRequest](#declarativenetrequest) (1)
 - [Deed](#deed) (1)
+- [Deep-Live-Cam](#deep-live-cam) (1)
 - [DeepAudit](#deepaudit) (1)
 - [DeepSeek](#deepseek) (5)
 - [DeepSeek Harness](#deepseek-harness) (1)
@@ -1423,6 +1433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Defender Advanced Hunting](#defender-advanced-hunting) (1)
 - [Defender evasion](#defender-evasion) (2)
 - [Defender exclusion](#defender-exclusion) (1)
+- [defender heuristics](#defender-heuristics) (1)
 - [defense](#defense) (6)
 - [defense evasion](#defense-evasion) (10)
 - [defense impairment](#defense-impairment) (1)
@@ -1435,7 +1446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Deno](#deno) (2)
 - [Denys Pakizh](#denys-pakizh) (1)
 - [Dependabot](#dependabot) (1)
-- [dependency confusion](#dependency-confusion) (5)
+- [dependency confusion](#dependency-confusion) (6)
 - [deployment_status](#deployment_status) (1)
 - [deposit address replacement](#deposit-address-replacement) (1)
 - [deserialization](#deserialization) (13)
@@ -1447,6 +1458,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [detection](#detection) (4)
 - [detection engineering](#detection-engineering) (2)
 - [detection failure](#detection-failure) (1)
+- [detection-by-structure](#detection-by-structure) (1)
 - [DEV#POPPER](#devpopper) (1)
 - [DEV-0206](#dev-0206) (1)
 - [developer credential theft](#developer-credential-theft) (2)
@@ -1493,6 +1505,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DirtyFrag](#dirtyfrag) (1)
 - [DISCLOSURE](#disclosure) (1)
 - [Discord](#discord) (2)
+- [Discord certificate](#discord-certificate) (1)
 - [Discord link abuse](#discord-link-abuse) (1)
 - [Discord masquerade](#discord-masquerade) (1)
 - [discovery](#discovery) (1)
@@ -1526,7 +1539,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Docker Hub](#docker-hub) (1)
 - [Docker images](#docker-images) (1)
 - [Docker socket](#docker-socket) (3)
-- [Docro Hijacker](#docro-hijacker) (1)
+- [Docro Hijacker](#docro-hijacker) (2)
 - [document collection](#document-collection) (1)
 - [document exfiltration](#document-exfiltration) (1)
 - [document theft](#document-theft) (4)
@@ -1607,6 +1620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [edge-service denial of service](#edge-service-denial-of-service) (1)
 - [editor profile import](#editor-profile-import) (1)
 - [EDR](#edr) (1)
+- [EDR blind spot](#edr-blind-spot) (1)
 - [EDR bypass](#edr-bypass) (1)
 - [EDR evasion](#edr-evasion) (3)
 - [EDR killer](#edr-killer) (2)
@@ -1618,9 +1632,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [EggJagger](#eggjagger) (1)
 - [Egnyte](#egnyte) (1)
 - [Egypt](#egypt) (2)
+- [EIP-55](#eip-55) (1)
 - [EKZ Infostealer](#ekz-infostealer) (1)
 - [Elastic Agent](#elastic-agent) (1)
-- [Elastic Security Labs](#elastic-security-labs) (6)
+- [Elastic Security Labs](#elastic-security-labs) (7)
 - [Elasticsearch](#elasticsearch) (1)
 - [elections](#elections) (1)
 - [electric power sector](#electric-power-sector) (2)
@@ -1998,6 +2013,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea](#gitea) (2)
 - [GitHub](#github) (23)
 - [GitHub abuse](#github-abuse) (3)
+- [GitHub account compromise](#github-account-compromise) (1)
 - [GitHub Actions](#github-actions) (29)
 - [GitHub Advisory Database](#github-advisory-database) (1)
 - [GitHub API](#github-api) (1)
@@ -2051,6 +2067,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Ads](#google-ads) (2)
 - [Google Analytics telemetry](#google-analytics-telemetry) (1)
 - [Google API](#google-api) (3)
+- [Google Apps Script](#google-apps-script) (1)
 - [Google Calendar](#google-calendar) (1)
 - [Google Chrome](#google-chrome) (3)
 - [Google Cloud](#google-cloud) (2)
@@ -2058,7 +2075,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Cloud Logging](#google-cloud-logging) (1)
 - [Google Cloud Storage](#google-cloud-storage) (1)
 - [Google credential theft](#google-credential-theft) (1)
-- [Google Docs](#google-docs) (1)
+- [Google Docs](#google-docs) (2)
 - [Google Drive](#google-drive) (1)
 - [Google Notes](#google-notes) (1)
 - [Google OAuth](#google-oauth) (1)
@@ -2175,7 +2192,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [high explosives](#high-explosives) (1)
 - [higher education](#higher-education) (2)
 - [HiveMQ](#hivemq) (1)
-- [HMAC forging](#hmac-forging) (1)
+- [HMAC forging](#hmac-forging) (2)
 - [HMI](#hmi) (1)
 - [holiday calendar lure](#holiday-calendar-lure) (1)
 - [HOLLOWGRAPH](#hollowgraph) (1)
@@ -2220,7 +2237,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HUMAN Satori](#human-satori) (1)
 - [humanoid robot](#humanoid-robot) (1)
 - [Hunt.io](#huntio) (6)
-- [Huntress](#huntress) (4)
+- [Huntress](#huntress) (6)
 - [Huorong](#huorong) (1)
 - [Hyadina](#hyadina) (1)
 - [hybrid threat actor](#hybrid-threat-actor) (1)
@@ -2305,7 +2322,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (5)
 - [information stealer](#information-stealer) (1)
-- [infostealer](#infostealer) (28)
+- [infostealer](#infostealer) (29)
 - [infotainment](#infotainment) (1)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
@@ -2325,6 +2342,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [install.res.1033.dll](#installres1033dll) (1)
 - [integer-overflow](#integer-overflow) (1)
 - [Integration Broker](#integration-broker) (1)
+- [integrity forgery](#integrity-forgery) (1)
 - [inter-agent communication](#inter-agent-communication) (1)
 - [Intercolo](#intercolo) (1)
 - [internal secret exfiltration](#internal-secret-exfiltration) (1)
@@ -2459,6 +2477,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KAZUAR](#kazuar) (2)
 - [KAZUAR overlap](#kazuar-overlap) (1)
 - [KB5002893](#kb5002893) (1)
+- [Keccak-256](#keccak-256) (1)
 - [KeePassXC](#keepassxc) (1)
 - [Keitaro](#keitaro) (1)
 - [Keksec](#keksec) (1)
@@ -2504,7 +2523,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kr3mlin4rt1st](#kr3mlin4rt1st) (1)
 - [Kratos](#kratos) (1)
 - [krbtgt](#krbtgt) (1)
-- [KREMLIN](#kremlin) (1)
+- [KREMLIN](#kremlin) (2)
 - [Kubernetes](#kubernetes) (7)
 - [KV-botnet](#kv-botnet) (1)
 - [KVM](#kvm) (2)
@@ -2531,7 +2550,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lateral movement](#lateral-movement) (11)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (4)
-- [LaunchAgent](#launchagent) (5)
+- [LaunchAgent](#launchagent) (6)
 - [launchctl](#launchctl) (1)
 - [LAUNDRY BEAR](#laundry-bear) (4)
 - [law enforcement](#law-enforcement) (3)
@@ -2550,6 +2569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LEASHTEST](#leashtest) (1)
 - [least privilege](#least-privilege) (4)
 - [Ledger](#ledger) (1)
+- [Ledger wallet implant](#ledger-wallet-implant) (1)
 - [legacy API key](#legacy-api-key) (1)
 - [legacy botnet hijacking](#legacy-botnet-hijacking) (1)
 - [legacy infrastructure](#legacy-infrastructure) (1)
@@ -2560,6 +2580,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LegionRelay](#legionrelay) (1)
 - [legitimate browser traffic](#legitimate-browser-traffic) (1)
 - [legitimate service abuse](#legitimate-service-abuse) (1)
+- [Lenovo certificate](#lenovo-certificate) (1)
 - [Leo Platform](#leo-platform) (1)
 - [Level RMM](#level-rmm) (1)
 - [LevelBlue](#levelblue) (1)
@@ -2617,6 +2638,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [local inference](#local-inference) (1)
 - [local LLMs](#local-llms) (1)
 - [local privilege escalation](#local-privilege-escalation) (11)
+- [local proxy](#local-proxy) (1)
 - [local subprocess](#local-subprocess) (1)
 - [local-file-inclusion](#local-file-inclusion) (1)
 - [localhost](#localhost) (3)
@@ -2686,7 +2708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS malware](#macos-malware) (2)
 - [macro](#macro) (1)
 - [macro-enabled Word](#macro-enabled-word) (1)
-- [MacSync](#macsync) (1)
+- [MacSync](#macsync) (2)
 - [MaDoO Blaster](#madoo-blaster) (1)
 - [Magecart](#magecart) (1)
 - [Magento](#magento) (3)
@@ -2783,7 +2805,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [meta-hacking](#meta-hacking) (1)
 - [Metabase](#metabase) (2)
 - [metadata injection](#metadata-injection) (1)
-- [MetaMask](#metamask) (1)
+- [MetaMask](#metamask) (2)
 - [Metasploit](#metasploit) (1)
 - [METR](#metr) (1)
 - [MEV bot lure](#mev-bot-lure) (1)
@@ -2865,7 +2887,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mistic](#mistic) (2)
 - [MISTPEN](#mistpen) (1)
 - [MITRE ATLAS](#mitre-atlas) (1)
-- [MITRE ATT&CK](#mitre-attck) (7)
+- [MITRE ATT&CK](#mitre-attck) (9)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
 - [Mitre ATT&CK T1110](#mitre-attck-t1110) (1)
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
@@ -2921,6 +2943,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ms36-AcCeSs](#ms36-access) (1)
 - [msaRAT](#msarat) (1)
 - [MSBuild](#msbuild) (1)
+- [MsBuild hollowing](#msbuild-hollowing) (2)
 - [msgpack](#msgpack) (1)
 - [mshta](#mshta) (6)
 - [MSI](#msi) (2)
@@ -2998,6 +3021,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetScaler ADC](#netscaler-adc) (6)
 - [NetScaler Gateway](#netscaler-gateway) (6)
 - [NetSetup.log](#netsetuplog) (1)
+- [NetSupport Manager](#netsupport-manager) (1)
 - [network access](#network-access) (1)
 - [network canary](#network-canary) (1)
 - [network detection](#network-detection) (1)
@@ -3190,13 +3214,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (350)
+- [operations](#operations) (352)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (411)
+- [ops](#ops) (413)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3311,7 +3335,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (13)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (54)
+- [patterns](#patterns) (55)
 - [Paweł Płatek](#pawe-patek) (1)
 - [pay-per-install](#pay-per-install) (1)
 - [payload loader](#payload-loader) (1)
@@ -3341,9 +3365,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [people and process](#people-and-process) (1)
 - [PeopleTools](#peopletools) (1)
 - [PEP 723](#pep-723) (1)
+- [per-host regeneration](#per-host-regeneration) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
-- [persistence](#persistence) (38)
+- [persistence](#persistence) (39)
 - [persistent admin account](#persistent-admin-account) (1)
 - [persistent root access](#persistent-root-access) (1)
 - [persona operations](#persona-operations) (1)
@@ -3386,6 +3411,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PINHOLE](#pinhole) (1)
 - [PINK](#pink) (1)
 - [Pink](#pink) (1)
+- [pip source dependency](#pip-source-dependency) (1)
 - [Pipedream](#pipedream) (1)
 - [pipelines](#pipelines) (1)
 - [piracy](#piracy) (1)
@@ -3555,11 +3581,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
 - [PyPI](#pypi) (18)
+- [pypls/requests](#pyplsrequests) (1)
 - [Python](#python) (17)
 - [Python extension modules](#python-extension-modules) (1)
 - [Python implant](#python-implant) (1)
 - [Python malware](#python-malware) (2)
 - [Python stealer](#python-stealer) (1)
+- [Python supply chain](#python-supply-chain) (1)
 - [python-snap7](#python-snap7) (1)
 - [pythonw](#pythonw) (1)
 - [QEMU](#qemu) (1)
@@ -3653,7 +3681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reduced cyber refusals](#reduced-cyber-refusals) (1)
 - [RedWing](#redwing) (2)
 - [REF6045](#ref6045) (2)
-- [REF9334](#ref9334) (1)
+- [REF9334](#ref9334) (2)
 - [REF9403](#ref9403) (1)
 - [reflective .NET loading](#reflective-net-loading) (1)
 - [reflective loading](#reflective-loading) (7)
@@ -3736,6 +3764,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [roadtx](#roadtx) (1)
 - [Robbe Van Roey](#robbe-van-roey) (1)
 - [Rockwell Automation](#rockwell-automation) (1)
+- [rogue certificate authority](#rogue-certificate-authority) (2)
+- [rogue RMM](#rogue-rmm) (1)
 - [RoguePlanet](#rogueplanet) (2)
 - [Rokarolla](#rokarolla) (2)
 - [RokRAT](#rokrat) (1)
@@ -3747,6 +3777,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [root](#root) (3)
 - [root access](#root-access) (2)
 - [root account](#root-account) (1)
+- [root certificate store](#root-certificate-store) (1)
 - [root code execution](#root-code-execution) (2)
 - [root escalation](#root-escalation) (1)
 - [root execution](#root-execution) (2)
@@ -3782,7 +3813,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ruckus routers](#ruckus-routers) (1)
 - [Ruflo](#ruflo) (1)
 - [RUGGEDCOM](#ruggedcom) (1)
-- [Run key](#run-key) (1)
+- [Run key](#run-key) (2)
 - [Run key persistence](#run-key-persistence) (1)
 - [rundll32](#rundll32) (3)
 - [Runner.Worker](#runnerworker) (1)
@@ -3801,8 +3832,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian Intelligence Services](#russian-intelligence-services) (1)
 - [Russian intelligence services](#russian-intelligence-services) (1)
 - [Russian state-supported](#russian-state-supported) (4)
+- [Russian-language indicator](#russian-language-indicator) (1)
 - [Russian-speaking ecosystem](#russian-speaking-ecosystem) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
+- [Russian-speaking indicator](#russian-speaking-indicator) (1)
 - [Rust](#rust) (9)
 - [Rust backdoor](#rust-backdoor) (2)
 - [Rust loader](#rust-loader) (1)
@@ -3819,7 +3852,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SaaS exposure](#saas-exposure) (2)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
-- [SafeDep](#safedep) (8)
+- [SafeDep](#safedep) (9)
 - [Salesforce](#salesforce) (4)
 - [Sality](#sality) (1)
 - [SAML](#saml) (3)
@@ -3878,7 +3911,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Secure Email Gateway](#secure-email-gateway) (1)
 - [Secure Firewall](#secure-firewall) (1)
 - [Secure Firewall Management Center](#secure-firewall-management-center) (2)
-- [Secure Preferences](#secure-preferences) (2)
+- [Secure Preferences](#secure-preferences) (3)
 - [Secure Workload](#secure-workload) (1)
 - [secure.html](#securehtml) (1)
 - [Security Cloud Control](#security-cloud-control) (1)
@@ -3945,6 +3978,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session token theft](#session-token-theft) (2)
 - [setuid](#setuid) (1)
 - [setup.py](#setuppy) (1)
+- [setup.py execution](#setuppy-execution) (1)
 - [shadow AI](#shadow-ai) (1)
 - [shadow copy](#shadow-copy) (1)
 - [shadow copy deletion](#shadow-copy-deletion) (2)
@@ -4076,7 +4110,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SoC](#soc) (1)
 - [SocGholish](#socgholish) (1)
 - [social abuse](#social-abuse) (1)
-- [social engineering](#social-engineering) (26)
+- [social engineering](#social-engineering) (27)
 - [Social Security Administration](#social-security-administration) (1)
 - [social-engineering](#social-engineering) (2)
 - [Socket](#socket) (7)
@@ -4259,6 +4293,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
 - [supply chain](#supply-chain) (27)
+- [supply chain attack](#supply-chain-attack) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (112)
 - [supply-chain attack](#supply-chain-attack) (1)
@@ -4323,6 +4358,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tajikistan](#tajikistan) (1)
 - [Take Control](#take-control) (1)
 - [takedown](#takedown) (3)
+- [tamper detection](#tamper-detection) (1)
 - [TamperedChef](#tamperedchef) (1)
 - [tampermonkey](#tampermonkey) (1)
 - [Tanzania](#tanzania) (1)
@@ -4363,11 +4399,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telegram](#telegram) (14)
 - [telegram](#telegram) (1)
 - [Telegram bot](#telegram-bot) (2)
-- [Telegram C2](#telegram-c2) (5)
+- [Telegram C2](#telegram-c2) (6)
 - [Telegram dead drop](#telegram-dead-drop) (2)
 - [Telegram exfiltration](#telegram-exfiltration) (1)
 - [Telegram notification](#telegram-notification) (1)
 - [Telegram session theft](#telegram-session-theft) (1)
+- [Telegraph dead drop](#telegraph-dead-drop) (1)
 - [telemetry](#telemetry) (1)
 - [TELEPUZ](#telepuz) (1)
 - [Telerik](#telerik) (1)
@@ -4418,7 +4455,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](#tinyrct) (3)
 - [tj-actions](#tj-actions) (1)
 - [TLS certificates](#tls-certificates) (1)
-- [TLS interception](#tls-interception) (1)
+- [TLS interception](#tls-interception) (3)
 - [TmcLoader](#tmcloader) (1)
 - [TmcPayload](#tmcpayload) (1)
 - [TOCTOU](#toctou) (2)
@@ -4487,6 +4524,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Troy](#troy) (1)
 - [TrueConf](#trueconf) (1)
 - [trust boundary](#trust-boundary) (2)
+- [trust primitives](#trust-primitives) (1)
 - [trusted extension risk](#trusted-extension-risk) (2)
 - [trusted publishing](#trusted-publishing) (3)
 - [trusted relationship abuse](#trusted-relationship-abuse) (2)
@@ -4513,7 +4551,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TypeConfuseDelegate](#typeconfusedelegate) (1)
 - [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (4)
-- [typosquatting](#typosquatting) (16)
+- [typosquatting](#typosquatting) (17)
 - [U+E0000](#ue0000) (1)
 - [U.S. critical infrastructure](#us-critical-infrastructure) (1)
 - [UAC](#uac) (1)
@@ -4582,7 +4620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [unintended internet access](#unintended-internet-access) (1)
 - [Unisoc](#unisoc) (1)
-- [Unit 42](#unit-42) (16)
+- [Unit 42](#unit-42) (17)
 - [United States](#united-states) (4)
 - [Unitree](#unitree) (1)
 - [university targeting](#university-targeting) (1)
@@ -4675,6 +4713,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [virtual patching](#virtual-patching) (1)
 - [virtualization](#virtualization) (2)
 - [virtualization targeting](#virtualization-targeting) (2)
+- [VirusTotal impersonation](#virustotal-impersonation) (1)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
 - [vishing](#vishing) (10)
 - [Visual Studio](#visual-studio) (1)
@@ -4729,6 +4768,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VXLAN](#vxlan) (1)
 - [w3wp.exe](#w3wpexe) (1)
 - [wallet address replacement](#wallet-address-replacement) (1)
+- [wallet address swapping](#wallet-address-swapping) (1)
 - [wallet drainer](#wallet-drainer) (2)
 - [wallet infrastructure](#wallet-infrastructure) (1)
 - [wallet replacement](#wallet-replacement) (1)
@@ -4764,6 +4804,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web player](#web-player) (1)
 - [web proxy](#web-proxy) (1)
 - [web RCE](#web-rce) (1)
+- [web reconnaissance](#web-reconnaissance) (1)
 - [web server](#web-server) (3)
 - [web shell](#web-shell) (12)
 - [web shell hunting](#web-shell-hunting) (1)
@@ -4798,6 +4839,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WhatsApp](#whatsapp) (5)
 - [WhatsApp phishing](#whatsapp-phishing) (1)
 - [white-label](#white-label) (1)
+- [whitespace hiding](#whitespace-hiding) (1)
 - [WHM](#whm) (5)
 - [Wi-Fi credential theft](#wi-fi-credential-theft) (1)
 - [Widget Factory](#widget-factory) (1)
@@ -4872,6 +4914,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WScript](#wscript) (1)
 - [WSL](#wsl) (2)
 - [WSS](#wss) (1)
+- [X DM lure](#x-dm-lure) (1)
 - [X-Grafana-URL](#x-grafana-url) (1)
 - [X-Secret](#x-secret) (1)
 - [X-WEBAUTH-USER](#x-webauth-user) (1)
@@ -5929,6 +5972,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AMOS
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 
 ## AMSI bypass
@@ -6089,6 +6133,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## App-Bound encryption
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
 ## app-bound encryption
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
@@ -6395,6 +6440,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Atomic Stealer
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## attack-rate
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
@@ -6746,6 +6792,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Barracuda
 - [Barracuda ESG zero-day backdoor campaign](../ops/barracuda-esg-zero-day-backdoor-campaign.md)
 
+## Base58Check
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+
 ## Base64
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 
@@ -6795,6 +6844,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BEC
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
+
+## Bech32
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 
 ## Bedrock
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -6951,6 +7003,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## blockchain-dead-drop
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
+
+## blocklist futility
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
 ## Blogger abuse
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -7143,6 +7198,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
+## browser extension abuse
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
+
 ## browser extension loader
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
@@ -7267,6 +7325,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## build server
 - [JetBrains TeamCity CVE-2026-63077 active exploitation](../ops/jetbrains-teamcity-cve-2026-63077-exploitation.md)
+
+## build-time code execution
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 
 ## build-time compromise
 - [XCSSET hides inside a pub.dev Flutter package: `universal_file_viewer` (Aikido, Sep 8, 2026)](../ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md)
@@ -7544,6 +7605,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Certbot
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+
+## certificate forgery
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## certificate pinning
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
@@ -7989,6 +8053,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## City Forum
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
 
+## CJK variable names
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+
 ## CKEditor file manager
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
@@ -8083,6 +8150,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GREYVIBE](../actors/greyvibe.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
@@ -8106,6 +8174,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ClickOnce
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## ClickUp
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
@@ -8122,6 +8191,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
 ## clipboard hijacker
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
 ## clipboard hijacking
@@ -8390,6 +8460,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## code signing abuse
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
+
+## code-signing certificate theft
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## Codecov
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
@@ -9114,6 +9187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## crypto wallet theft
 - [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## crypto wallets
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -9141,6 +9215,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
+
+## cryptocurrency address replacement
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 
 ## cryptocurrency miner
 - [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
@@ -10586,6 +10663,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Deed
 - [SilkParasite](../actors/silkparasite.md)
 
+## Deep-Live-Cam
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+
 ## DeepAudit
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
@@ -10611,6 +10691,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Defender exclusion
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
+
+## defender heuristics
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
 ## defense
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
@@ -10680,6 +10763,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## dependency confusion
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
@@ -10736,6 +10820,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## detection failure
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
+
+## detection-by-structure
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
 ## DEV#POPPER
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
@@ -10941,6 +11028,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [Webworm](../actors/webworm.md)
 
+## Discord certificate
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
+
 ## Discord link abuse
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
@@ -11093,6 +11183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 
 ## Docro Hijacker
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 - [Unit 42: CL-CRI-1171 "Untracked Nightmares" — a pay-per-install marketplace behind commodity-looking loader infections](../ops/unit42-clcri-1171-offerloader-ppi-marketplace-september-2026.md)
 
 ## document collection
@@ -11382,6 +11473,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## EDR
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 
+## EDR blind spot
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
+
 ## EDR bypass
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
@@ -11422,6 +11516,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 - [Mirage Kitten NodeRabbit / PollCat coding-challenge campaign](../ops/mirage-kitten-noderabbit-pollcat-coding-challenge-september-2026.md)
 
+## EIP-55
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+
 ## EKZ Infostealer
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 
@@ -11431,6 +11528,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Elastic Security Labs
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
 - [TELEPUZ](../tools/telepuz.md)
@@ -12848,6 +12946,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
+## GitHub account compromise
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+
 ## GitHub Actions
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [actions-cool GitHub Actions tag compromise](../ops/actions-cool-github-actions-tag-compromise.md)
@@ -13073,6 +13174,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
 
+## Google Apps Script
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
+
 ## Google Calendar
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 
@@ -13099,6 +13203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Google Docs
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## Google Drive
 - [GREYVIBE](../actors/greyvibe.md)
@@ -13524,6 +13629,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## HMAC forging
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
 ## HMI
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
@@ -13678,8 +13784,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Huntress
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 - [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 
 ## Huorong
@@ -14048,6 +14156,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [PamStealer](../tools/pamstealer.md)
@@ -14138,6 +14247,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Integration Broker
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+
+## integrity forgery
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
 ## inter-agent communication
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -14643,6 +14755,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## KB5002893
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 
+## Keccak-256
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+
 ## KeePassXC
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 
@@ -14800,6 +14915,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## KREMLIN
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
 ## Kubernetes
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
@@ -14922,6 +15038,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 
@@ -14995,6 +15112,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ledger
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
+## Ledger wallet implant
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
+
 ## legacy API key
 - [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 
@@ -15024,6 +15144,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## legitimate service abuse
 - [ClickFix moves into the browser: cryptocurrency theft with Google-hosted C2](../ops/talos-clickfix-browser-crypto-theft-google-visualization-api-c2-september-2026.md)
+
+## Lenovo certificate
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## Leo Platform
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
@@ -15289,6 +15412,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 
+## local proxy
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
+
 ## local subprocess
 - [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 
@@ -15542,6 +15668,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MacSync
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## MaDoO Blaster
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
@@ -15977,6 +16104,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MetaMask
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## Metasploit
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
@@ -16344,8 +16472,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MITRE ATT&CK
 - ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
 - [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
@@ -16547,6 +16677,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MSBuild
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+
+## MsBuild hollowing
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
 ## msgpack
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
@@ -16825,6 +16959,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NetSetup.log
 - [NightLedger](../tools/nightledger.md)
+
+## NetSupport Manager
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## network access
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
@@ -17662,6 +17799,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -17754,6 +17892,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -18044,6 +18183,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -18148,6 +18288,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
@@ -18804,6 +18945,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
@@ -18907,6 +19049,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PEP 723
 - [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 
+## per-host regeneration
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
+
 ## PerfWatson2.exe
 - [TinyRCT](../tools/tinyrct.md)
 
@@ -18921,6 +19066,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
@@ -19130,6 +19276,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Pink
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
+
+## pip source dependency
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 
 ## Pipedream
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
@@ -19808,6 +19957,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
+## pypls/requests
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+
 ## Python
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Aeternum](../tools/aeternum.md)
@@ -19839,6 +19991,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Python stealer
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
+
+## Python supply chain
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 
 ## python-snap7
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
@@ -20229,6 +20384,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## REF9334
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
 ## REF9403
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
@@ -20571,6 +20727,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Rockwell Automation
 - [Water-sector PLC configuration-tampering campaign](../ops/water-sector-plc-configuration-tampering-july-2026.md)
 
+## rogue certificate authority
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
+
+## rogue RMM
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
+
 ## RoguePlanet
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
@@ -20608,6 +20771,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## root account
 - [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
+
+## root certificate store
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
 ## root code execution
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
@@ -20733,6 +20899,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
 ## Run key
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
 ## Run key persistence
@@ -20816,11 +20983,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
+## Russian-language indicator
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+
 ## Russian-speaking ecosystem
 - [UAT-11795](../actors/uat-11795.md)
 
 ## Russian-speaking forums
 - [First VPN](../tools/first-vpn.md)
+
+## Russian-speaking indicator
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## Rust
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
@@ -20899,6 +21072,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
@@ -21144,6 +21318,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Secure Preferences
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
 ## Secure Workload
@@ -21373,6 +21548,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## setup.py
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
+
+## setup.py execution
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 
 ## shadow AI
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
@@ -21836,6 +22014,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
@@ -22558,6 +22737,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 - [Wiz "Artifactory Under Attack": in-the-wild exploitation chains in JFrog Artifactory (CVE-2026-42016 / CVE-2026-42018 / CVE-2026-82329)](../ops/wiz-artifactory-in-the-wild-cve-2026-42016-42018-82329-september-2026.md)
 
+## supply chain attack
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+
 ## supply chain compromise
 - [OceanLotus](../actors/oceanlotus.md)
 
@@ -22886,6 +23068,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
+## tamper detection
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
+
 ## TamperedChef
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 
@@ -23043,6 +23228,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Telegram C2
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [TELESHIM](../tools/teleshim.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
@@ -23060,6 +23246,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Telegram session theft
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
+
+## Telegraph dead drop
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 
 ## telemetry
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
@@ -23239,6 +23428,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TLS interception
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
 ## TmcLoader
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
@@ -23559,6 +23750,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Unit 42: post-exploitation workload-identity spoofing in SPIFFE/SPIRE — cgroup-selector manipulation and the Spooffe tool](../patterns/unit42-spiffe-spire-cgroup-workload-identity-spoofing-spooffe-september-2026.md)
 
+## trust primitives
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
+
 ## trusted extension risk
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
@@ -23657,6 +23851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## typosquatting
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
@@ -23957,6 +24152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
@@ -24288,6 +24484,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GenieLocker](../tools/genielocker.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 
+## VirusTotal impersonation
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
+
 ## VirusTotal sentiment abuse
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 
@@ -24527,6 +24726,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## wallet address replacement
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
+## wallet address swapping
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+
 ## wallet drainer
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -24661,6 +24863,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web RCE
 - [RustDuck](../tools/rustduck.md)
+
+## web reconnaissance
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## web server
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
@@ -24812,6 +25017,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## white-label
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+
+## whitespace hiding
+- [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 
 ## WHM
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
@@ -25154,6 +25362,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WSS
 - [BridgeHead](../tools/bridgehead.md)
+
+## X DM lure
+- [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
 ## X-Grafana-URL
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
