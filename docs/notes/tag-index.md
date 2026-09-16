@@ -160,7 +160,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AGENTPSD](#agentpsd) (2)
 - [AgentWorm](#agentworm) (1)
 - [agetty](#agetty) (1)
-- [AI](#ai) (7)
+- [AI](#ai) (8)
 - [AI agent](#ai-agent) (4)
 - [AI agent security](#ai-agent-security) (3)
 - [AI agent tooling](#ai-agent-tooling) (3)
@@ -175,6 +175,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI coding agent](#ai-coding-agent) (1)
 - [AI coding agents](#ai-coding-agents) (3)
+- [AI coding assistant](#ai-coding-assistant) (1)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
 - [AI developer tooling](#ai-developer-tooling) (3)
@@ -2064,7 +2065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub CLI](#github-cli) (1)
 - [GitHub dead drop](#github-dead-drop) (3)
 - [GitHub issue spam](#github-issue-spam) (1)
-- [GitHub OAuth](#github-oauth) (1)
+- [GitHub OAuth](#github-oauth) (2)
 - [GitHub Pages](#github-pages) (1)
 - [GitHub Pages abuse](#github-pages-abuse) (2)
 - [GitHub PAT abuse](#github-pat-abuse) (1)
@@ -2347,7 +2348,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory ELF execution](#in-memory-elf-execution) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [incident response](#incident-response) (38)
+- [incident response](#incident-response) (39)
 - [incident-response](#incident-response) (2)
 - [incomplete patch](#incomplete-patch) (1)
 - [incorrect default permissions](#incorrect-default-permissions) (1)
@@ -2370,7 +2371,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (5)
 - [information stealer](#information-stealer) (1)
-- [infostealer](#infostealer) (30)
+- [infostealer](#infostealer) (31)
 - [infotainment](#infotainment) (1)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
@@ -2808,6 +2809,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [managed service provider](#managed-service-provider) (2)
 - [ManageEngine Endpoint Central](#manageengine-endpoint-central) (1)
 - [management plane](#management-plane) (5)
+- [Mandiant](#mandiant) (1)
 - [Manifest V3](#manifest-v3) (1)
 - [Manifold Security](#manifold-security) (1)
 - [manufacturing](#manufacturing) (4)
@@ -3049,6 +3051,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NadMesh](#nadmesh) (1)
 - [named pipes](#named-pipes) (1)
 - [Named Pipes](#named-pipes) (1)
+- [namespace poisoning](#namespace-poisoning) (1)
 - [namespace recycling](#namespace-recycling) (1)
 - [namespace squatting](#namespace-squatting) (2)
 - [NanChat](#nanchat) (1)
@@ -3284,7 +3287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (416)
+- [ops](#ops) (417)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3651,7 +3654,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PwPt-sHaRe](#pwpt-share) (1)
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
-- [PyPI](#pypi) (18)
+- [PyPI](#pypi) (19)
 - [pypls/requests](#pyplsrequests) (1)
 - [Python](#python) (17)
 - [Python extension modules](#python-extension-modules) (1)
@@ -3801,6 +3804,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [repository compromise](#repository-compromise) (1)
 - [repository exfiltration](#repository-exfiltration) (1)
 - [repository poisoning](#repository-poisoning) (3)
+- [repository secrets](#repository-secrets) (1)
 - [request smuggling](#request-smuggling) (1)
 - [research sector](#research-sector) (1)
 - [reset-credentials](#reset-credentials) (1)
@@ -3924,6 +3928,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SaaS connectors](#saas-connectors) (1)
 - [SaaS data access](#saas-data-access) (1)
 - [SaaS exposure](#saas-exposure) (2)
+- [SaaS provider](#saas-provider) (1)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
 - [SafeDep](#safedep) (9)
@@ -4046,7 +4051,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ServiceWorker](#serviceworker) (1)
 - [Session](#session) (1)
 - [session cookie theft](#session-cookie-theft) (4)
-- [session hijacking](#session-hijacking) (2)
+- [session hijacking](#session-hijacking) (3)
 - [session secret exposure](#session-secret-exposure) (1)
 - [session theft](#session-theft) (3)
 - [session token theft](#session-token-theft) (2)
@@ -4065,7 +4070,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-WATER-063](#shadow-water-063) (1)
 - [ShadowPad](#shadowpad) (4)
 - [Shadowserver Foundation](#shadowserver-foundation) (1)
-- [Shai-Hulud](#shai-hulud) (14)
+- [Shai-Hulud](#shai-hulud) (15)
 - [SHARDLOADER](#shardloader) (2)
 - [SHARE Foundation](#share-foundation) (1)
 - [share propagation](#share-propagation) (1)
@@ -4221,6 +4226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sophos](#sophos) (1)
 - [SOUL.md](#soulmd) (1)
 - [source code](#source-code) (1)
+- [source code theft](#source-code-theft) (1)
 - [source control](#source-control) (3)
 - [source repository compromise](#source-repository-compromise) (1)
 - [source-code compromise](#source-code-compromise) (1)
@@ -4373,7 +4379,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (112)
+- [supply-chain](#supply-chain) (113)
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -4548,7 +4554,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token replay](#token-replay) (3)
 - [token revocation](#token-revocation) (1)
 - [token scope validation](#token-scope-validation) (1)
-- [token theft](#token-theft) (10)
+- [token theft](#token-theft) (11)
 - [token-theft](#token-theft) (1)
 - [TONESHELL](#toneshell) (2)
 - [TookPS](#tookps) (1)
@@ -4609,6 +4615,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [trust boundary](#trust-boundary) (2)
 - [trust primitives](#trust-primitives) (1)
 - [trusted extension risk](#trusted-extension-risk) (2)
+- [trusted interpreter](#trusted-interpreter) (1)
 - [trusted publishing](#trusted-publishing) (3)
 - [trusted relationship abuse](#trusted-relationship-abuse) (2)
 - [trusted runtime](#trusted-runtime) (1)
@@ -4989,7 +4996,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [workspace trust](#workspace-trust) (3)
 - [World Cup](#world-cup) (1)
 - [world-writable socket](#world-writable-socket) (1)
-- [worm](#worm) (18)
+- [worm](#worm) (19)
 - [worm-like propagation](#worm-like-propagation) (1)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [WP Squared](#wp-squared) (1)
@@ -5739,6 +5746,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [GREYVIBE](../actors/greyvibe.md)
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
@@ -5831,6 +5839,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
+
+## AI coding assistant
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 
 ## AI credential theft
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -13251,6 +13262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitHub OAuth
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 
 ## GitHub Pages
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
@@ -14299,6 +14311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
@@ -14426,6 +14439,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [PamStealer](../tools/pamstealer.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
@@ -16206,6 +16220,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
+## Mandiant
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
+
 ## Manifest V3
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
@@ -17157,6 +17174,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Named Pipes
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
+
+## namespace poisoning
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 
 ## namespace recycling
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
@@ -18625,6 +18645,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
@@ -20306,6 +20327,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [LiteLLM compromise](../ops/litellm-compromise.md)
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
@@ -20959,6 +20981,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude Code GitHub Action prompt-injection boundary](../patterns/claude-code-github-action-prompt-injection.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 
+## repository secrets
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
+
 ## request smuggling
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 
@@ -21432,6 +21457,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adblock for YouTube BadBlocker remote-script injection risk](../ops/adblock-for-youtube-badblocker-remote-script-injection.md)
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
 
+## SaaS provider
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
+
 ## sabotage
 - [Fast16](../tools/fast16.md)
 - [Handala](../actors/handala.md)
@@ -21901,6 +21929,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## session hijacking
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 
 ## session secret exposure
@@ -21973,6 +22002,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
@@ -22547,6 +22577,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## source code
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
+
+## source code theft
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 
 ## source control
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
@@ -23193,6 +23226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM compromise](../ops/litellm-compromise.md)
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [MCP tool-description poisoning](../patterns/mcp-tool-description-poisoning.md)
@@ -23873,6 +23907,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [ROADtools](../tools/roadtools.md)
@@ -24164,6 +24199,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## trusted extension risk
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
+
+## trusted interpreter
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 
 ## trusted publishing
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
@@ -25745,6 +25783,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Leo Platform npm Miasma-style compromise](../ops/leo-platform-npm-miasma-compromise.md)
+- [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
