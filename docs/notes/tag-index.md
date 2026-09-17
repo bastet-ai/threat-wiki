@@ -244,6 +244,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon SES](#amazon-ses) (2)
 - [Amcache](#amcache) (1)
 - [AMOS](#amos) (5)
+- [amplification](#amplification) (1)
 - [AMSI bypass](#amsi-bypass) (7)
 - [AMSI patch](#amsi-patch) (1)
 - [amsi.dll patching](#amsidll-patching) (1)
@@ -559,6 +560,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brazilian banking malware](#brazilian-banking-malware) (2)
 - [BreachForums](#breachforums) (1)
 - [Breeze Cache Cleaner](#breeze-cache-cleaner) (1)
+- [Brevo](#brevo) (1)
 - [Brian Fox](#brian-fox) (1)
 - [BRICKSTORM](#brickstorm) (2)
 - [BridgeHead](#bridgehead) (2)
@@ -703,6 +705,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chaotic Eclipse](#chaotic-eclipse) (2)
 - [charging](#charging) (1)
 - [Charming Kitten](#charming-kitten) (2)
+- [chat widget](#chat-widget) (1)
 - [chat-template poisoning](#chat-template-poisoning) (1)
 - [ChatGPT](#chatgpt) (1)
 - [chattr](#chattr) (1)
@@ -792,7 +795,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [click interception](#click-interception) (1)
 - [clicker](#clicker) (1)
 - [ClickFake](#clickfake) (1)
-- [ClickFix](#clickfix) (28)
+- [ClickFix](#clickfix) (29)
 - [clickfix](#clickfix) (1)
 - [ClickFix social engineering](#clickfix-social-engineering) (1)
 - [ClickOnce](#clickonce) (2)
@@ -800,6 +803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [client installer poisoning](#client-installer-poisoning) (1)
 - [client-side exploitation](#client-side-exploitation) (3)
 - [Cline](#cline) (1)
+- [clipboard command](#clipboard-command) (1)
 - [clipboard hijacker](#clipboard-hijacker) (2)
 - [clipboard hijacking](#clipboard-hijacking) (2)
 - [clipboard injection](#clipboard-injection) (1)
@@ -839,6 +843,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud transcoding](#cloud-transcoding) (1)
 - [cloud-native](#cloud-native) (1)
 - [Cloudflare](#cloudflare) (5)
+- [Cloudflare account compromise](#cloudflare-account-compromise) (1)
 - [Cloudflare gate](#cloudflare-gate) (1)
 - [Cloudflare R2](#cloudflare-r2) (1)
 - [Cloudflare Tunnel](#cloudflare-tunnel) (5)
@@ -1045,6 +1050,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptomining](#cryptomining) (4)
 - [CSCwt95997](#cscwt95997) (1)
 - [CSI token theft](#csi-token-theft) (1)
+- [CSP monitoring](#csp-monitoring) (1)
 - [CSP stripping](#csp-stripping) (1)
 - [CSRF](#csrf) (3)
 - [CSRF token theft](#csrf-token-theft) (1)
@@ -1062,6 +1068,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [custom C2](#custom-c2) (1)
 - [custom instruction set](#custom-instruction-set) (1)
 - [custom map](#custom-map) (1)
+- [customer messaging](#customer-messaging) (1)
 - [CVE](#cve) (2)
 - [CVE-2008-4128](#cve-2008-4128) (1)
 - [CVE-2013-3307](#cve-2013-3307) (1)
@@ -1577,6 +1584,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS hijack](#dns-hijack) (1)
 - [DNS hijacking](#dns-hijacking) (1)
 - [DNS rebinding](#dns-rebinding) (4)
+- [DNS records](#dns-records) (1)
 - [DNS resolution](#dns-resolution) (1)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (3)
@@ -1640,7 +1648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dynu](#dynu) (1)
 - [DyPrIs](#dypris) (1)
 - [Dysphoria](#dysphoria) (1)
-- [e-commerce](#e-commerce) (2)
+- [e-commerce](#e-commerce) (3)
 - [E.O. 13224](#eo-13224) (1)
 - [E.O. 13382](#eo-13382) (1)
 - [E.O. 13694](#eo-13694) (1)
@@ -2373,7 +2381,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
 - [in-memory-execution](#in-memory-execution) (1)
-- [incident response](#incident-response) (39)
+- [incident response](#incident-response) (40)
 - [incident-response](#incident-response) (2)
 - [incomplete patch](#incomplete-patch) (1)
 - [incorrect default permissions](#incorrect-default-permissions) (1)
@@ -2826,6 +2834,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
+- [malware injection](#malware-injection) (1)
 - [malware scanning](#malware-scanning) (1)
 - [Malware-as-a-Service](#malware-as-a-service) (1)
 - [malware-as-a-service](#malware-as-a-service) (5)
@@ -2845,6 +2854,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marimo](#marimo) (3)
 - [Markdown image rendering](#markdown-image-rendering) (1)
 - [marker](#marker) (1)
+- [marketing automation](#marketing-automation) (1)
 - [MARKETMAKER](#marketmaker) (1)
 - [marketplace abuse](#marketplace-abuse) (2)
 - [marketplace trust](#marketplace-trust) (1)
@@ -3319,7 +3329,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (417)
+- [ops](#ops) (418)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3981,7 +3991,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (3)
 - [Sangoma](#sangoma) (1)
-- [Sansec](#sansec) (1)
+- [Sansec](#sansec) (2)
 - [Sapphire Sleet](#sapphire-sleet) (1)
 - [saroula01](#saroula01) (1)
 - [SBA phishing](#sba-phishing) (1)
@@ -4059,6 +4069,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [self-propagating payload](#self-propagating-payload) (1)
 - [self-propagation](#self-propagation) (1)
 - [semantic-release](#semantic-release) (1)
+- [Sendinblue](#sendinblue) (1)
 - [sendit.sh](#senditsh) (1)
 - [sensitive information exposure](#sensitive-information-exposure) (1)
 - [Sentinel](#sentinel) (1)
@@ -4422,7 +4433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain attack](#supply-chain-attack) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (114)
-- [supply-chain attack](#supply-chain-attack) (1)
+- [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
 - [supply-chain risk](#supply-chain-risk) (3)
@@ -4566,7 +4577,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ThemeREX Addons](#themerex-addons) (1)
 - [third-party email](#third-party-email) (1)
 - [third-party integrations](#third-party-integrations) (1)
-- [third-party JavaScript](#third-party-javascript) (1)
+- [third-party JavaScript](#third-party-javascript) (2)
 - [third-party risk](#third-party-risk) (1)
 - [thought virus](#thought-virus) (1)
 - [threat hunting](#threat-hunting) (2)
@@ -4948,7 +4959,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web shell hunting](#web-shell-hunting) (1)
 - [web shells](#web-shells) (3)
 - [web skimmer](#web-skimmer) (1)
-- [web supply chain](#web-supply-chain) (3)
+- [web supply chain](#web-supply-chain) (4)
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
 - [WebAuthn](#webauthn) (1)
@@ -5033,6 +5044,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WordPress](#wordpress) (15)
 - [WordPress 7.0.4](#wordpress-704) (1)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
+- [WordPress plugin backdoor](#wordpress-plugin-backdoor) (1)
 - [workerd](#workerd) (1)
 - [workflow backdoor](#workflow-backdoor) (1)
 - [workflow injection](#workflow-injection) (1)
@@ -6141,6 +6153,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
+
+## amplification
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 
 ## AMSI bypass
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
@@ -7344,6 +7359,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Breeze Cache Cleaner
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
+## Brevo
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
+
 ## Brian Fox
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
@@ -7885,6 +7903,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirage Kitten](../actors/mirage-kitten.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 
+## chat widget
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
+
 ## chat-template poisoning
 - [NemoClaw local Ollama chat-template poisoning (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
 
@@ -8373,6 +8394,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
@@ -8420,6 +8442,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cline
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
+## clipboard command
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 
 ## clipboard hijacker
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
@@ -8582,6 +8607,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
+
+## Cloudflare account compromise
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 
 ## Cloudflare gate
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
@@ -9552,6 +9580,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CSI token theft
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
+## CSP monitoring
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
+
 ## CSP stripping
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 
@@ -9610,6 +9641,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## custom map
 - [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
+
+## customer messaging
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 
 ## CVE
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
@@ -11468,6 +11502,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NemoClaw local Ollama chat-template poisoning (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 
+## DNS records
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
+
 ## DNS resolution
 - [ArcBridge](../tools/arcbridge.md)
 
@@ -11683,6 +11720,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 
 ## e-commerce
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
 - [StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack — Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
@@ -14417,6 +14455,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
@@ -16318,6 +16357,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
+## malware injection
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
+
 ## malware scanning
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 
@@ -16390,6 +16432,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## marker
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
+
+## marketing automation
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 
 ## MARKETMAKER
 - [STOCKSTAY](../tools/stockstay.md)
@@ -18631,6 +18676,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 - [BufferZoneCorp RubyGems / Go module CI poisoning](../ops/bufferzonecorp-ruby-go-ci-poisoning.md)
@@ -21706,6 +21752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 
 ## Sansec
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 - [StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack — Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
 ## Sapphire Sleet
@@ -21989,6 +22036,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## semantic-release
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
+
+## Sendinblue
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 
 ## sendit.sh
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -23469,6 +23519,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## supply-chain attack
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 
 ## supply-chain attribution
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
@@ -23988,6 +24039,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## third-party JavaScript
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 
 ## third-party risk
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
@@ -25563,6 +25615,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## web supply chain
 - [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 
 ## web-shells
@@ -25949,6 +26002,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WordPress credential theft
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
+
+## WordPress plugin backdoor
+- [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 
 ## workerd
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
