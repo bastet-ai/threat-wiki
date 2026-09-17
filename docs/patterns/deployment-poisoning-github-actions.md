@@ -52,6 +52,20 @@ The durable lesson is not that one GitHub Actions trigger is uniquely unsafe. Th
 - The automatic hold does not currently cover private or internal repositories, and GitHub Enterprise Server does not receive it. It should be treated as an additional platform tripwire rather than a substitute for branch protection, workflow code ownership, token minimization, egress control, or audit review.
 - These platform changes do not make deployment metadata safe by default: `deployment_status` consumers should still validate the producer, event type, environment name, and URL before any secret-bearing step.
 
+## Cache poisoning gets a least-privilege control: `cache-mode` GA
+On **September 10, 2026**, GitHub made **`cache-mode`** generally available on github.com for all plans (Socket covered it in a Sep 16 post). It applies least-privilege access to the Actions cache at the **workflow or job level**, aimed directly at the cache-poisoning technique that has repeatedly armed supply-chain attacks against npm/PyPI publishers:
+
+- Modes: `read` (restore only), `write` (restore + save), `write-only` (save only), `none`.
+- **New secure default by trigger trust:** low-trust events such as `pull_request_target` default to **read-only** cache access; trusted events such as `push` default to `write`.
+- **Job-level settings override workflow-level**, and the mode is **enforced by the cache service and carries through reusable workflows** — a called workflow cannot receive more cache access than its caller granted.
+- **Explicit declarations override the safe default:** declaring `write`/`write-only` on a low-trust event re-enables the poisoning risk, so Actions now emits a **warning annotation** when the declared mode grants write access. Workflows that never set `cache-mode` keep the existing defaults.
+
+Defender actions:
+- Audit workflows triggered by `pull_request_target`, `workflow_run`, or any fork-reachable event for explicit `cache-mode: write` / `write-only` — that declaration is the risky line, and the warning annotation should be treated as a finding, not noise.
+- Grep for cache saves in untrusted-trigger jobs (`actions/cache@v*` `save-always`/post steps, tool caches that write on PR events); prefer removing the step over downgrading the mode.
+- Treat a cache hit whose key was created by an untrusted run as attacker-controlled input to your build: build-tool caches (npm, pip, cargo, Maven) restore content that later executes at build or test time.
+- Cache poisoning remains reachable outside the Actions cache service (artifact uploads, dependency proxy, self-hosted runner state); `cache-mode` closes one store, not the class.
+
 ## Defender heuristics
 - Inventory workflows using `on: deployment_status`.
 - Inventory workflows using `pull_request_target` or `workflow_run` and confirm they are not checking out unreviewed fork code with privileged tokens or secrets.
@@ -81,4 +95,6 @@ The durable lesson is not that one GitHub Actions trigger is uniquely unsafe. Th
 - GitHub Changelog, workflow execution protections: [https://github.blog/changelog/2026-06-18-control-who-and-what-triggers-github-actions-workflows](https://github.blog/changelog/2026-06-18-control-who-and-what-triggers-github-actions-workflows)
 - GitHub Changelog, automatic approval holds for potentially malicious workflows: [https://github.blog/changelog/2026-07-28-github-actions-holds-unproven-workflows-for-approval](https://github.blog/changelog/2026-07-28-github-actions-holds-unproven-workflows-for-approval)
 - Novee Security, Cordyceps: [https://novee.security/blog/cordyceps/](https://novee.security/blog/cordyceps/)
+- GitHub Changelog, `cache-mode` GA: [https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode](https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode)
+- Socket, "GitHub Actions Adds cache-mode to Limit Cache Poisoning Risk" (Sep 16, 2026): [https://socket.dev/blog/github-actions-adds-cache-mode-to-limit-cache-poisoning-risk](https://socket.dev/blog/github-actions-adds-cache-mode-to-limit-cache-poisoning-risk)
 - The Hacker News, Cordyceps CI/CD flaws: [https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html](https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html)

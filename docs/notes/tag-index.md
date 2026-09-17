@@ -527,6 +527,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [blockchain C2](#blockchain-c2) (9)
 - [blockchain dead drop](#blockchain-dead-drop) (6)
 - [blockchain RPC](#blockchain-rpc) (1)
+- [blockchain-c2](#blockchain-c2) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
 - [blocklist futility](#blocklist-futility) (1)
 - [Blogger abuse](#blogger-abuse) (1)
@@ -872,6 +873,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codex CLI](#codex-cli) (1)
 - [coding agents](#coding-agents) (1)
 - [coding challenge](#coding-challenge) (2)
+- [coff-loading](#coff-loading) (1)
 - [Coinbase](#coinbase) (1)
 - [Coinkite](#coinkite) (1)
 - [COLDCARD](#coldcard) (1)
@@ -985,6 +987,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential theft](#credential-theft) (88)
 - [credential-theft](#credential-theft) (56)
 - [credit card theft](#credit-card-theft) (1)
+- [crimeware](#crimeware) (1)
 - [criminal infrastructure](#criminal-infrastructure) (1)
 - [critical](#critical) (1)
 - [Critical cyber capability](#critical-cyber-capability) (1)
@@ -1465,6 +1468,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [debugger evasion](#debugger-evasion) (1)
 - [debugging detection](#debugging-detection) (1)
 - [DEBULL](#debull) (1)
+- [decentralized-c2](#decentralized-c2) (1)
 - [declarativeNetRequest](#declarativenetrequest) (1)
 - [Deed](#deed) (1)
 - [Deep-Live-Cam](#deep-live-cam) (1)
@@ -1558,6 +1562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [disruption](#disruption) (1)
 - [distributed malware infrastructure](#distributed-malware-infrastructure) (1)
 - [distributed scanning](#distributed-scanning) (1)
+- [distribution-compromise](#distribution-compromise) (1)
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL search-order hijacking](#dll-search-order-hijacking) (2)
 - [DLL side-loading](#dll-side-loading) (8)
@@ -1767,6 +1772,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ETW bypass](#etw-bypass) (1)
 - [ETW patching](#etw-patching) (2)
 - [ETW tampering](#etw-tampering) (1)
+- [etwthread](#etwthread) (1)
 - [Eurojust](#eurojust) (2)
 - [Europe](#europe) (3)
 - [Europe targeting](#europe-targeting) (1)
@@ -1892,6 +1898,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [File Transmission](#file-transmission) (1)
 - [file upload](#file-upload) (1)
 - [file upload path traversal](#file-upload-path-traversal) (1)
+- [file-manager-backdoor](#file-manager-backdoor) (1)
 - [file-system filter](#file-system-filter) (1)
 - [FileFiend](#filefiend) (1)
 - [FILEIO](#fileio) (1)
@@ -2175,6 +2182,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gravity SMTP](#gravity-smtp) (1)
 - [gray market](#gray-market) (1)
 - [GRE](#gre) (1)
+- [great](#great) (1)
 - [Gremlin API](#gremlin-api) (1)
 - [GREYVIBE](#greyvibe) (1)
 - [Grok](#grok) (1)
@@ -2364,6 +2372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory ELF execution](#in-memory-elf-execution) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
+- [in-memory-execution](#in-memory-execution) (1)
 - [incident response](#incident-response) (39)
 - [incident-response](#incident-response) (2)
 - [incomplete patch](#incomplete-patch) (1)
@@ -2537,6 +2546,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kali365](#kali365) (1)
 - [Kaltura](#kaltura) (1)
 - [Kaspersky](#kaspersky) (4)
+- [kaspersky](#kaspersky) (1)
 - [Kaspersky detection bypass](#kaspersky-detection-bypass) (1)
 - [Kaspersky GERT](#kaspersky-gert) (2)
 - [Kaspersky GReAT](#kaspersky-great) (3)
@@ -2812,7 +2822,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
 - [malvertising](#malvertising) (10)
-- [malware](#malware) (66)
+- [malware](#malware) (67)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
@@ -2997,6 +3007,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [modem firmware](#modem-firmware) (1)
 - [ModHeader](#modheader) (1)
 - [modular malware](#modular-malware) (3)
+- [modular-malware](#modular-malware) (1)
 - [module-proxy](#module-proxy) (1)
 - [MOIS](#mois) (7)
 - [Moltbook](#moltbook) (1)
@@ -3446,6 +3457,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pe_to_shellcode](#pe_to_shellcode) (1)
 - [pearl-miner](#pearl-miner) (1)
 - [PEB hash](#peb-hash) (1)
+- [peb-walking](#peb-walking) (1)
 - [PebbleDash](#pebbledash) (1)
 - [pedit](#pedit) (1)
 - [peer list](#peer-list) (1)
@@ -3629,6 +3641,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Proofpoint](#proofpoint) (2)
 - [protestware](#protestware) (1)
 - [Protobuf](#protobuf) (1)
+- [protobuf](#protobuf) (1)
 - [Proton Mail](#proton-mail) (1)
 - [prototype pollution](#prototype-pollution) (1)
 - [provenance](#provenance) (1)
@@ -3898,6 +3911,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rovo](#rovo) (2)
 - [RovoBlast](#rovoblast) (1)
 - [ROX II](#rox-ii) (1)
+- [rpc-rendezvous](#rpc-rendezvous) (1)
 - [RRWallet](#rrwallet) (1)
 - [RSA](#rsa) (1)
 - [RSA public key](#rsa-public-key) (1)
@@ -3963,6 +3977,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [sanctions](#sanctions) (1)
 - [sandbox escape](#sandbox-escape) (11)
 - [sandbox evasion](#sandbox-evasion) (3)
+- [sandbox-evasion](#sandbox-evasion) (1)
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (3)
 - [Sangoma](#sangoma) (1)
@@ -4112,7 +4127,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Shattering the Dream](#shattering-the-dream) (1)
 - [SHEETCORD](#sheetcord) (1)
 - [shell injection](#shell-injection) (1)
-- [shellcode](#shellcode) (1)
+- [shellcode](#shellcode) (2)
 - [Shenzhen Zhibotong Electronics](#shenzhen-zhibotong-electronics) (2)
 - [ShieldBreak](#shieldbreak) (2)
 - [shieldcrash](#shieldcrash) (1)
@@ -4232,9 +4247,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [software impersonation](#software-impersonation) (1)
 - [software supply chain](#software-supply-chain) (2)
 - [software-deployment](#software-deployment) (1)
+- [software-supply-chain](#software-supply-chain) (1)
 - [SOHO router](#soho-router) (1)
 - [SOHO routers](#soho-routers) (1)
 - [Solana](#solana) (3)
+- [solana](#solana) (1)
 - [Solana Name Service](#solana-name-service) (1)
 - [SolarWinds](#solarwinds) (1)
 - [Solid PDF Creator](#solid-pdf-creator) (1)
@@ -4570,6 +4587,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tj-actions](#tj-actions) (1)
 - [TLS certificates](#tls-certificates) (1)
 - [TLS interception](#tls-interception) (3)
+- [tls-pinning](#tls-pinning) (1)
 - [TmcLoader](#tmcloader) (1)
 - [TmcPayload](#tmcpayload) (1)
 - [TOCTOU](#toctou) (2)
@@ -4591,8 +4609,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (72)
+- [tools](#tools) (73)
 - [Tor](#tor) (4)
+- [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
 - [Total Software Deployment](#total-software-deployment) (1)
 - [TouchSocket](#touchsocket) (1)
@@ -4629,6 +4648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trinitite](#trinitite) (1)
 - [Trivy](#trivy) (1)
 - [TRM Labs](#trm-labs) (1)
+- [trojan-framework](#trojan-framework) (1)
 - [trojanized coding challenge](#trojanized-coding-challenge) (2)
 - [trojanized daemons](#trojanized-daemons) (1)
 - [trojanized installers](#trojanized-installers) (3)
@@ -4677,6 +4697,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145](#uac-0145) (2)
 - [UAC-0194](#uac-0194) (3)
 - [UAC-0226](#uac-0226) (1)
+- [uac-bypass](#uac-bypass) (1)
 - [UAT-10147](#uat-10147) (4)
 - [UAT-11795](#uat-11795) (3)
 - [UAT-11823](#uat-11823) (1)
@@ -4969,6 +4990,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WinDirStat](#windirstat) (1)
 - [Windmill](#windmill) (1)
 - [Windows](#windows) (57)
+- [windows](#windows) (1)
 - [Windows 11 25H2](#windows-11-25h2) (1)
 - [windows alpc](#windows-alpc) (1)
 - [Windows Defender](#windows-defender) (1)
@@ -7185,6 +7207,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## blockchain RPC
 - [PamStealer](../tools/pamstealer.md)
 
+## blockchain-c2
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+
 ## blockchain-dead-drop
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 
@@ -8703,6 +8728,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Mirage Kitten](../actors/mirage-kitten.md)
 
+## coff-loading
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+
 ## Coinbase
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
@@ -9270,6 +9298,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## credit card theft
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
+
+## crimeware
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## criminal infrastructure
 - [First VPN](../tools/first-vpn.md)
@@ -10939,6 +10970,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DEBULL
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 
+## decentralized-c2
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+
 ## declarativeNetRequest
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
@@ -11342,6 +11376,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## distributed scanning
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
+
+## distribution-compromise
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## Djinn Stealer
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -12198,6 +12235,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ETW tampering
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 
+## etwthread
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+
 ## Eurojust
 - [First VPN](../tools/first-vpn.md)
 - [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
@@ -12643,6 +12683,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## file upload path traversal
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
+
+## file-manager-backdoor
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## file-system filter
 - [Fast16](../tools/fast16.md)
@@ -13693,6 +13736,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GRE
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 
+## great
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+
 ## Gremlin API
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 
@@ -14362,6 +14408,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## in-memory plugins
 - [MODBEACON](../tools/modbeacon.md)
+
+## in-memory-execution
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## incident response
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
@@ -15097,6 +15146,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
+## kaspersky
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## Kaspersky detection bypass
 - [SilkParasite](../actors/silkparasite.md)
@@ -16211,6 +16263,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
 - [MIXEDKEY](../tools/mixedkey.md)
 - [MODBEACON](../tools/modbeacon.md)
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [OctLurk](../tools/octlurk.md)
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
@@ -17012,6 +17065,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OctLurk](../tools/octlurk.md)
 - [SilkLurk](../tools/silklurk.md)
 - [TELEPUZ](../tools/telepuz.md)
+
+## modular-malware
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## module-proxy
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -19487,6 +19543,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PEB hash
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
+## peb-walking
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+
 ## PebbleDash
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -20252,6 +20311,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Protobuf
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
+
+## protobuf
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## Proton Mail
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
@@ -21347,6 +21409,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ROX II
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 
+## rpc-rendezvous
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+
 ## RRWallet
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
@@ -21625,6 +21690,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+
+## sandbox-evasion
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## sandboxing
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -22186,6 +22254,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## shellcode
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## Shenzhen Zhibotong Electronics
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
@@ -22626,6 +22695,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## software-deployment
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 
+## software-supply-chain
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+
 ## SOHO router
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
@@ -22636,6 +22708,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
+
+## solana
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## Solana Name Service
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
@@ -23981,6 +24056,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
+## tls-pinning
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+
 ## TmcLoader
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
@@ -24110,6 +24188,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 - [MIXEDKEY](../tools/mixedkey.md)
 - [MODBEACON](../tools/modbeacon.md)
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [NightLedger](../tools/nightledger.md)
 - [NodeRabbit](../tools/noderabbit.md)
@@ -24152,6 +24231,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [Kimwolf v7](../tools/kimwolf-v7.md)
+
+## torrent-compromise
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## Tortoiseshell
 - [Mirage Kitten](../actors/mirage-kitten.md)
@@ -24274,6 +24356,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TRM Labs
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
+## trojan-framework
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## trojanized coding challenge
 - [NodeRabbit](../tools/noderabbit.md)
@@ -24468,6 +24553,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UAC-0226
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
+
+## uac-bypass
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## UAT-10147
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
@@ -25693,6 +25781,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](../tools/tinyrct.md)
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
+
+## windows
+- [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## Windows 11 25H2
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
