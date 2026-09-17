@@ -496,6 +496,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bexo Wallet](#bexo-wallet) (1)
 - [BeyondTrust](#beyondtrust) (1)
 - [Bifrost](#bifrost) (1)
+- [big-game-hunting](#big-game-hunting) (1)
 - [bin entry](#bin-entry) (1)
 - [Binance Smart Chain](#binance-smart-chain) (1)
 - [binary execution](#binary-execution) (1)
@@ -602,6 +603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bucket squatting](#bucket-squatting) (1)
 - [buffer overflow](#buffer-overflow) (2)
 - [bug bounty](#bug-bounty) (1)
+- [bug-bounty](#bug-bounty) (1)
 - [Bugcrowd](#bugcrowd) (1)
 - [build pipeline](#build-pipeline) (1)
 - [build server](#build-server) (1)
@@ -739,6 +741,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [chunked exfiltration](#chunked-exfiltration) (1)
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (4)
+- [CI-CD-credentials](#ci-cd-credentials) (1)
 - [CI/CD](#cicd) (45)
 - [CI/CD abuse](#cicd-abuse) (1)
 - [CI/CD credential theft](#cicd-credential-theft) (1)
@@ -949,6 +952,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cosmos SDK](#cosmos-sdk) (1)
 - [CosmosEscape](#cosmosescape) (1)
 - [CoSnitch](#cosnitch) (1)
+- [counter-adversary-operations](#counter-adversary-operations) (1)
 - [counterfeit software](#counterfeit-software) (2)
 - [COW](#cow) (1)
 - [COWARDDUCK](#cowardduck) (1)
@@ -1008,7 +1012,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Crosswork Data Gateway](#crosswork-data-gateway) (1)
 - [Crosswork Network Controller](#crosswork-network-controller) (1)
 - [Crosswork Planning](#crosswork-planning) (1)
-- [crowdstrike](#crowdstrike) (1)
+- [crowdstrike](#crowdstrike) (2)
 - [CrowdStrike](#crowdstrike) (1)
 - [CrowdStrike Counter Adversary Operations](#crowdstrike-counter-adversary-operations) (1)
 - [CrowdStrike Falcon](#crowdstrike-falcon) (1)
@@ -1482,6 +1486,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Denys Pakizh](#denys-pakizh) (1)
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (6)
+- [dependency-confusion](#dependency-confusion) (1)
 - [deployment_status](#deployment_status) (1)
 - [deposit address replacement](#deposit-address-replacement) (1)
 - [deserialization](#deserialization) (13)
@@ -1642,6 +1647,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [eBPF](#ebpf) (3)
 - [Eclipse](#eclipse) (1)
 - [Economic D-Day](#economic-d-day) (1)
+- [eCrime](#ecrime) (1)
 - [Ecuador](#ecuador) (1)
 - [Ed25519](#ed25519) (1)
 - [edge appliance](#edge-appliance) (15)
@@ -1811,6 +1817,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [extension takeover](#extension-takeover) (1)
 - [external federation](#external-federation) (1)
 - [extortion](#extortion) (13)
+- [extortion-adjacent](#extortion-adjacent) (1)
 - [f2fe-s1](#f2fe-s1) (1)
 - [F5](#f5) (1)
 - [F5 BIG-IP](#f5-big-ip) (1)
@@ -2371,7 +2378,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (5)
 - [information stealer](#information-stealer) (1)
-- [infostealer](#infostealer) (31)
+- [infostealer](#infostealer) (32)
 - [infotainment](#infotainment) (1)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
@@ -2387,7 +2394,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [insider threat](#insider-threat) (1)
 - [Insomnia RAT](#insomnia-rat) (1)
 - [install-time execution](#install-time-execution) (7)
-- [install-time-execution](#install-time-execution) (1)
+- [install-time-execution](#install-time-execution) (2)
 - [install.res.1033.dll](#installres1033dll) (1)
 - [integer-overflow](#integer-overflow) (1)
 - [Integration Broker](#integration-broker) (1)
@@ -2452,7 +2459,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Java deserialization](#java-deserialization) (1)
 - [Java malware](#java-malware) (1)
 - [java.rmi.MarshalledObject](#javarmimarshalledobject) (1)
-- [JavaScript](#javascript) (24)
+- [JavaScript](#javascript) (25)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript execution](#javascript-execution) (1)
 - [JavaScript implant](#javascript-implant) (1)
@@ -2492,6 +2499,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Jordan](#jordan) (1)
 - [journalism](#journalism) (1)
 - [journalists](#journalists) (1)
+- [jpd](#jpd) (1)
 - [JPMorgan Chase](#jpmorgan-chase) (1)
 - [JSCEAL](#jsceal) (1)
 - [JSCoreRunner](#jscorerunner) (1)
@@ -2648,7 +2656,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [libsodium](#libsodium) (1)
 - [libuser](#libuser) (1)
 - [lifecycle hooks](#lifecycle-hooks) (1)
-- [lifecycle-hooks](#lifecycle-hooks) (1)
+- [lifecycle-hooks](#lifecycle-hooks) (2)
 - [lighthouse beacon](#lighthouse-beacon) (1)
 - [Lightning Shared Scooter Co.](#lightning-shared-scooter-co) (1)
 - [Lightning Web Runtime](#lightning-web-runtime) (1)
@@ -2676,6 +2684,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM slop](#llm-slop) (2)
 - [LLM-assisted malware](#llm-assisted-malware) (4)
 - [LLM-driven intrusion](#llm-driven-intrusion) (1)
+- [LLM-generated-malware](#llm-generated-malware) (1)
 - [LLMjacking](#llmjacking) (2)
 - [LMS](#lms) (1)
 - [LNK](#lnk) (11)
@@ -2794,7 +2803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
 - [malvertising](#malvertising) (10)
-- [malware](#malware) (65)
+- [malware](#malware) (66)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
@@ -3153,13 +3162,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (71)
+- [npm](#npm) (72)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
 - [npm token theft](#npm-token-theft) (1)
 - [npm tokens](#npm-tokens) (1)
 - [npm v12](#npm-v12) (1)
+- [npm-v12](#npm-v12) (1)
 - [npmmirror](#npmmirror) (1)
 - [npx](#npx) (1)
 - [npx confusion](#npx-confusion) (1)
@@ -3559,7 +3569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pre-authentication RCE](#pre-authentication-rce) (3)
 - [pre-signed URL](#pre-signed-url) (2)
 - [Prefetch](#prefetch) (1)
-- [preinstall](#preinstall) (4)
+- [preinstall](#preinstall) (5)
 - [PreppHint](#prepphint) (1)
 - [presigned URLs](#presigned-urls) (1)
 - [primary keys](#primary-keys) (1)
@@ -3715,6 +3725,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rclone](#rclone) (1)
 - [rclone](#rclone) (1)
 - [RCS](#rcs) (1)
+- [RDD](#rdd) (1)
 - [RDP](#rdp) (3)
 - [RDP phishing](#rdp-phishing) (1)
 - [RDP tunneling](#rdp-tunneling) (1)
@@ -3793,6 +3804,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote support](#remote-support) (2)
 - [Remote Utilities](#remote-utilities) (2)
 - [remote-access](#remote-access) (2)
+- [remote-dynamic-dependency](#remote-dynamic-dependency) (1)
 - [Remotely](#remotely) (1)
 - [RemotePE](#remotepe) (1)
 - [RemotePELoader](#remotepeloader) (1)
@@ -4379,7 +4391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (113)
+- [supply-chain](#supply-chain) (114)
 - [supply-chain attack](#supply-chain-attack) (1)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -4566,7 +4578,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (70)
+- [tools](#tools) (71)
 - [Tor](#tor) (4)
 - [Tortoiseshell](#tortoiseshell) (2)
 - [Total Software Deployment](#total-software-deployment) (1)
@@ -4641,7 +4653,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TypeConfuseDelegate](#typeconfusedelegate) (1)
 - [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (4)
-- [typosquatting](#typosquatting) (17)
+- [typosquatting](#typosquatting) (18)
 - [U+E0000](#ue0000) (1)
 - [U.S. critical infrastructure](#us-critical-infrastructure) (1)
 - [UAC](#uac) (1)
@@ -7038,6 +7050,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bifrost
 - [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 
+## big-game-hunting
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
+
 ## bin entry
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 
@@ -7477,6 +7492,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## bug bounty
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
+
+## bug-bounty
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## Bugcrowd
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
@@ -8008,6 +8026,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+
+## CI-CD-credentials
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## CI/CD
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
@@ -8971,6 +8992,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CoSnitch
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
 
+## counter-adversary-operations
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
+
 ## counterfeit software
 - [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
@@ -9342,6 +9366,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
 
 ## crowdstrike
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [September 2026 Patch Tuesday: two exploited zero-days, 113 critical, and a post-patch Defender "ShieldCrash" PoC](../ops/crowdstrike-september-2026-patch-tuesday-two-exploited-zero-days-shieldcrash.md)
 
 ## CrowdStrike
@@ -11001,6 +11026,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [oob.moika.tech dependency-confusion environment stealer](../ops/oob-moika-dependency-confusion-env-stealer.md)
 
+## dependency-confusion
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
+
 ## deployment_status
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
@@ -11643,6 +11671,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Economic D-Day
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
+## eCrime
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## Ecuador
 - [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
@@ -12342,6 +12373,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 - [UNC3753](../actors/unc3753.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
+
+## extortion-adjacent
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## f2fe-s1
 - [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
@@ -14442,6 +14476,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [PamStealer](../tools/pamstealer.md)
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -14520,6 +14555,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## install-time-execution
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## install.res.1033.dll
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
@@ -14771,6 +14807,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [PollCat](../tools/pollcat.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
@@ -14922,6 +14959,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## journalists
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
+
+## jpd
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## JPMorgan Chase
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
@@ -15489,6 +15529,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## lifecycle-hooks
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## lighthouse beacon
 - [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
@@ -15635,6 +15676,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## LLM-driven intrusion
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+
+## LLM-generated-malware
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## LLMjacking
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -16129,6 +16173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [OWAReaper](../tools/owareaper.md)
 - [PamStealer](../tools/pamstealer.md)
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [QuimaRAT](../tools/quimarat.md)
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
@@ -17594,6 +17639,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
@@ -17632,6 +17678,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## npm v12
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+
+## npm-v12
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## npmmirror
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
@@ -19955,6 +20004,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 
 ## PreppHint
@@ -20626,6 +20676,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RCS
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 
+## RDD
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
+
 ## RDP
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [GREYVIBE](../actors/greyvibe.md)
@@ -20945,6 +20998,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## remote-access
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [TA4922](../actors/ta4922.md)
+
+## remote-dynamic-dependency
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## Remotely
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -23245,6 +23301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
@@ -24002,6 +24059,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OWAReaper](../tools/owareaper.md)
 - [PamStealer](../tools/pamstealer.md)
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [PollCat](../tools/pollcat.md)
 - [QuimaRAT](../tools/quimarat.md)
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
@@ -24306,6 +24364,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
