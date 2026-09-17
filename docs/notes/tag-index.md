@@ -337,7 +337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Argo CD](#argo-cd) (2)
 - [ArgoCD](#argocd) (1)
 - [argocd-mcp](#argocd-mcp) (1)
-- [argument injection](#argument-injection) (1)
+- [argument injection](#argument-injection) (2)
 - [Arista](#arista) (1)
 - [Arista EOS](#arista-eos) (1)
 - [ARKTunnel](#arktunnel) (1)
@@ -858,7 +858,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cobalt Strike](#cobalt-strike) (7)
 - [code execution](#code-execution) (4)
 - [code generation](#code-generation) (1)
-- [code injection](#code-injection) (7)
+- [code injection](#code-injection) (8)
 - [Code Mode](#code-mode) (1)
 - [code sandbox scraping](#code-sandbox-scraping) (1)
 - [code signing](#code-signing) (3)
@@ -940,6 +940,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COPY TO PROGRAM](#copy-to-program) (1)
 - [Copy-on-Write](#copy-on-write) (1)
 - [copycat](#copycat) (1)
+- [core.hooksPath](#corehookspath) (1)
 - [Corepack](#corepack) (1)
 - [CornFlake](#cornflake) (1)
 - [CORS](#cors) (1)
@@ -1322,6 +1323,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-7473](#cve-2026-7473) (1)
 - [CVE-2026-74820](#cve-2026-74820) (1)
 - [CVE-2026-75149](#cve-2026-75149) (1)
+- [CVE-2026-75595](#cve-2026-75595) (1)
 - [CVE-2026-75604](#cve-2026-75604) (1)
 - [CVE-2026-75650](#cve-2026-75650) (2)
 - [CVE-2026-76460](#cve-2026-76460) (1)
@@ -1332,6 +1334,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-77413](#cve-2026-77413) (1)
 - [CVE-2026-77414](#cve-2026-77414) (1)
 - [CVE-2026-77415](#cve-2026-77415) (1)
+- [CVE-2026-78676](#cve-2026-78676) (1)
 - [CVE-2026-80192](#cve-2026-80192) (1)
 - [CVE-2026-8037](#cve-2026-8037) (1)
 - [CVE-2026-81578](#cve-2026-81578) (1)
@@ -1823,6 +1826,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [F5 BIG-IP](#f5-big-ip) (1)
 - [Factory-v3](#factory-v3) (1)
 - [fail-closed](#fail-closed) (1)
+- [fail-open](#fail-open) (1)
 - [fake app store](#fake-app-store) (1)
 - [fake CAPTCHA](#fake-captcha) (8)
 - [fake certificate](#fake-certificate) (1)
@@ -1964,6 +1968,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiSwitchManager](#fortiswitchmanager) (1)
 - [Forwardable tickets](#forwardable-tickets) (1)
 - [Fox Tempest](#fox-tempest) (2)
+- [fragmented ClientHello](#fragmented-clienthello) (1)
 - [fraud](#fraud) (2)
 - [FREAKYPOLL](#freakypoll) (1)
 - [FreeBSD](#freebsd) (2)
@@ -2029,6 +2034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GhostLock](#ghostlock) (1)
 - [GhostWebShell](#ghostwebshell) (1)
 - [GHSA-2679-6mx9-h9xc](#ghsa-2679-6mx9-h9xc) (1)
+- [GHSA-284h-m62q-gf8w](#ghsa-284h-m62q-gf8w) (1)
 - [GHSA-2943-5xfg-gq5f](#ghsa-2943-5xfg-gq5f) (1)
 - [GHSA-2xp9-vwfh-vxw4](#ghsa-2xp9-vwfh-vxw4) (1)
 - [GHSA-66mm-25pp-rfff](#ghsa-66mm-25pp-rfff) (1)
@@ -2041,6 +2047,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-864f-rcv7-6rh4](#ghsa-864f-rcv7-6rh4) (1)
 - [GHSA-8gq3-vp5j-2grp](#ghsa-8gq3-vp5j-2grp) (1)
 - [GHSA-c39w-43gm-34h5](#ghsa-c39w-43gm-34h5) (1)
+- [GHSA-c4c3-7fpv-j4q5](#ghsa-c4c3-7fpv-j4q5) (1)
 - [GHSA-c4hm-4h84-2cf3](#ghsa-c4hm-4h84-2cf3) (1)
 - [GHSA-cv3r-c5h8-f4g5](#ghsa-cv3r-c5h8-f4g5) (1)
 - [GHSA-g89c-p67h-r497](#ghsa-g89c-p67h-r497) (1)
@@ -2057,6 +2064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GHSA-xhcr-j4j9-3gh7](#ghsa-xhcr-j4j9-3gh7) (1)
 - [GIFTEDCROOK](#giftedcrook) (1)
 - [Git](#git) (1)
+- [git config injection](#git-config-injection) (1)
 - [Git hook](#git-hook) (2)
 - [Git hook persistence](#git-hook-persistence) (1)
 - [Git hosting](#git-hosting) (1)
@@ -2086,6 +2094,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [gitleaks](#gitleaks) (1)
 - [gitnow](#gitnow) (1)
 - [GitOps](#gitops) (1)
+- [GitPython](#gitpython) (1)
 - [GiveWP](#givewp) (1)
 - [Gleaming Pisces](#gleaming-pisces) (1)
 - [gleeze.com](#gleezecom) (1)
@@ -2646,7 +2655,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LevelBlue](#levelblue) (1)
 - [Lexfo](#lexfo) (1)
 - [libcurl](#libcurl) (1)
-- [libheif](#libheif) (1)
+- [libheif](#libheif) (2)
 - [liblzma](#liblzma) (1)
 - [libmupdf.dll](#libmupdfdll) (1)
 - [libp2p](#libp2p) (1)
@@ -3025,6 +3034,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MSSQL](#mssql) (1)
 - [MSXML2.XMLHTTP](#msxml2xmlhttp) (1)
 - [mTLS](#mtls) (1)
+- [mTLS bypass](#mtls-bypass) (1)
 - [MU plugin](#mu-plugin) (1)
 - [Muck and Load](#muck-and-load) (1)
 - [MuddyWater](#muddywater) (4)
@@ -3095,6 +3105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NetScaler Gateway](#netscaler-gateway) (6)
 - [NetSetup.log](#netsetuplog) (1)
 - [NetSupport Manager](#netsupport-manager) (1)
+- [Netty](#netty) (1)
 - [network access](#network-access) (1)
 - [network access control](#network-access-control) (1)
 - [network canary](#network-canary) (1)
@@ -3108,7 +3119,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [network switch](#network-switch) (1)
 - [network-share exfiltration](#network-share-exfiltration) (1)
 - [NexShield](#nexshield) (1)
-- [Next.js](#nextjs) (1)
+- [Next.js](#nextjs) (2)
 - [NextChat](#nextchat) (1)
 - [Nextcloud](#nextcloud) (1)
 - [Nextcloud Flow](#nextcloud-flow) (1)
@@ -3332,7 +3343,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OWA](#owa) (1)
 - [OWAReaper](#owareaper) (2)
 - [ownCloud](#owncloud) (2)
-- [OX Security](#ox-security) (7)
+- [OX Security](#ox-security) (8)
 - [OxideHarvest](#oxideharvest) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
@@ -4193,6 +4204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [snap7](#snap7) (1)
 - [Sneaky 2FA](#sneaky-2fa) (2)
 - [Sneaky2FA](#sneaky2fa) (1)
+- [SNI routing bypass](#sni-routing-bypass) (1)
 - [SNMP](#snmp) (1)
 - [Snowflake](#snowflake) (2)
 - [SNOWLIGHT](#snowlight) (1)
@@ -4314,6 +4326,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunnels](#ssh-tunnels) (1)
 - [sshd](#sshd) (1)
 - [SSL VPN](#ssl-vpn) (3)
+- [SslClientHelloHandler](#sslclienthellohandler) (1)
 - [SSO](#sso) (4)
 - [SSRF](#ssrf) (12)
 - [SSRF allow-list](#ssrf-allow-list) (1)
@@ -4578,7 +4591,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (71)
+- [tools](#tools) (72)
 - [Tor](#tor) (4)
 - [Tortoiseshell](#tortoiseshell) (2)
 - [Total Software Deployment](#total-software-deployment) (1)
@@ -4624,7 +4637,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tron](#tron) (4)
 - [Troy](#troy) (1)
 - [TrueConf](#trueconf) (1)
-- [trust boundary](#trust-boundary) (2)
+- [trust boundary](#trust-boundary) (3)
 - [trust primitives](#trust-primitives) (1)
 - [trusted extension risk](#trusted-extension-risk) (2)
 - [trusted interpreter](#trusted-interpreter) (1)
@@ -6464,6 +6477,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
 ## argument injection
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 
 ## Arista
@@ -8639,6 +8653,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## code injection
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
@@ -8954,6 +8969,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## copycat
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
+
+## core.hooksPath
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 
 ## Corepack
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
@@ -10395,6 +10413,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-75149
 - [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 
+## CVE-2026-75595
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
+
 ## CVE-2026-75604
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
@@ -10425,6 +10446,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-77415
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
+
+## CVE-2026-78676
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 
 ## CVE-2026-80192
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
@@ -12392,6 +12416,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fail-closed
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 
+## fail-open
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
+
 ## fake app store
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
@@ -12894,6 +12921,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Fox Tempest](../actors/fox-tempest.md)
 
+## fragmented ClientHello
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
+
 ## fraud
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
@@ -13109,6 +13139,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GHSA-2679-6mx9-h9xc
 - [Marimo CVE-2026-75149: attacker-supplied MCP command runs before cells execute in edit mode](../tools/marimo-cve-2026-75149-mcp-command-injection.md)
 
+## GHSA-284h-m62q-gf8w
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
+
 ## GHSA-2943-5xfg-gq5f
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
@@ -13144,6 +13177,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GHSA-c39w-43gm-34h5
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
+
+## GHSA-c4c3-7fpv-j4q5
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 
 ## GHSA-c4hm-4h84-2cf3
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
@@ -13192,6 +13228,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Git
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
+
+## git config injection
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 
 ## Git hook
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
@@ -13350,6 +13389,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitOps
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
+
+## GitPython
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 
 ## GiveWP
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
@@ -15498,6 +15540,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 
 ## libheif
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## liblzma
@@ -17099,6 +17142,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mTLS
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
 
+## mTLS bypass
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
+
 ## MU plugin
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 
@@ -17349,6 +17395,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NetSupport Manager
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 
+## Netty
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
+
 ## network access
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 
@@ -17390,6 +17439,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
 
 ## Next.js
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## NextChat
@@ -19018,6 +19068,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
@@ -22437,6 +22488,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Sneaky2FA
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
 
+## SNI routing bypass
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
+
 ## SNMP
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
@@ -22922,6 +22976,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
+
+## SslClientHelloHandler
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 
 ## SSO
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
@@ -24039,6 +24096,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FDMTP](../tools/fdmtp.md)
 - [First VPN](../tools/first-vpn.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 - [GenieLocker](../tools/genielocker.md)
 - [GigaWiper](../tools/gigawiper.md)
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
@@ -24249,6 +24307,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## trust boundary
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
+- [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 - [Unit 42: post-exploitation workload-identity spoofing in SPIFFE/SPIRE — cgroup-selector manipulation and the Spooffe tool](../patterns/unit42-spiffe-spire-cgroup-workload-identity-spoofing-spooffe-september-2026.md)
 
 ## trust primitives
