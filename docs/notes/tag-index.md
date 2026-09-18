@@ -132,7 +132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [affiliate tracking](#affiliate-tracking) (1)
 - [Afghan telecom](#afghan-telecom) (1)
 - [Afghanistan](#afghanistan) (5)
-- [AFP](#afp) (1)
+- [AFP](#afp) (2)
 - [Africa](#africa) (5)
 - [agent containment](#agent-containment) (1)
 - [agent frameworks](#agent-frameworks) (3)
@@ -207,6 +207,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI vulnerability discovery](#ai-vulnerability-discovery) (1)
 - [AI website builder](#ai-website-builder) (1)
 - [AI workflow](#ai-workflow) (1)
+- [AI zero-day](#ai-zero-day) (1)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
 - [AI-assisted](#ai-assisted) (1)
@@ -668,7 +669,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Canada](#canada) (1)
 - [canary](#canary) (1)
 - [CANFAIL](#canfail) (1)
-- [CanisterWorm](#canisterworm) (1)
+- [CanisterWorm](#canisterworm) (2)
 - [canonicalization](#canonicalization) (1)
 - [CAP_NET_ADMIN](#cap_net_admin) (2)
 - [CAPTCHA OCR](#captcha-ocr) (1)
@@ -1005,7 +1006,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (89)
+- [credential theft](#credential-theft) (90)
 - [credential-theft](#credential-theft) (56)
 - [credit card theft](#credit-card-theft) (1)
 - [crimeware](#crimeware) (1)
@@ -1435,6 +1436,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-94](#cwe-94) (1)
 - [Cybench](#cybench) (1)
 - [cyber AI](#cyber-ai) (1)
+- [Cyber Disruption Unit](#cyber-disruption-unit) (1)
 - [cyber evaluation](#cyber-evaluation) (1)
 - [cyber sanctions](#cyber-sanctions) (1)
 - [cyber-espionage](#cyber-espionage) (6)
@@ -1859,7 +1861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [extension supply-chain](#extension-supply-chain) (2)
 - [extension takeover](#extension-takeover) (1)
 - [external federation](#external-federation) (1)
-- [extortion](#extortion) (13)
+- [extortion](#extortion) (14)
 - [extortion-adjacent](#extortion-adjacent) (1)
 - [f2fe-s1](#f2fe-s1) (1)
 - [F5](#f5) (1)
@@ -1911,7 +1913,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fat JAR](#fat-jar) (1)
 - [FAT32](#fat32) (1)
 - [FatFs](#fatfs) (1)
-- [FBI](#fbi) (8)
+- [FBI](#fbi) (9)
 - [FBI indictment](#fbi-indictment) (1)
 - [fbot](#fbot) (1)
 - [FDMTP](#fdmtp) (2)
@@ -2166,7 +2168,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Golden Pass-ta-key](#golden-pass-ta-key) (1)
 - [gomod](#gomod) (1)
 - [Goodhart's law](#goodharts-law) (1)
-- [Google](#google) (3)
+- [Google](#google) (4)
 - [Google account](#google-account) (1)
 - [Google Ads](#google-ads) (2)
 - [Google Analytics telemetry](#google-analytics-telemetry) (1)
@@ -2232,7 +2234,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [gs-netcat](#gs-netcat) (1)
 - [GS-Netcat](#gs-netcat) (1)
 - [Gshell](#gshell) (1)
-- [GTG](#gtg) (1)
+- [GTG](#gtg) (2)
 - [GTIG](#gtig) (2)
 - [GUE](#gue) (1)
 - [guest access abuse](#guest-access-abuse) (1)
@@ -2429,6 +2431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infect[.]online](#infectonline) (2)
 - [Infected Marketplace](#infected-marketplace) (2)
 - [inference server](#inference-server) (1)
+- [infiltration](#infiltration) (1)
 - [INFINITE NIGHTMARE](#infinite-nightmare) (1)
 - [INFINITERED](#infinitered) (1)
 - [influence operations](#influence-operations) (1)
@@ -2653,6 +2656,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [L2TP/IPSec](#l2tpipsec) (1)
 - [LA Metro](#la-metro) (1)
 - [Laboo.boo](#labooboo) (3)
+- [LABScon](#labscon) (1)
 - [LabubaPanel](#labubapanel) (1)
 - [LabubaRAT](#labubarat) (1)
 - [Labubu](#labubu) (2)
@@ -2673,7 +2677,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LaunchAgent](#launchagent) (6)
 - [launchctl](#launchctl) (1)
 - [LAUNDRY BEAR](#laundry-bear) (4)
-- [law enforcement](#law-enforcement) (3)
+- [law enforcement](#law-enforcement) (4)
 - [law enforcement targeting](#law-enforcement-targeting) (2)
 - [law-enforcement-disruption](#law-enforcement-disruption) (1)
 - [LayerX](#layerx) (1)
@@ -2881,7 +2885,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [managed service provider](#managed-service-provider) (2)
 - [ManageEngine Endpoint Central](#manageengine-endpoint-central) (1)
 - [management plane](#management-plane) (5)
-- [Mandiant](#mandiant) (1)
+- [Mandiant](#mandiant) (2)
 - [Manifest V3](#manifest-v3) (1)
 - [Manifold Security](#manifold-security) (1)
 - [manufacturing](#manufacturing) (4)
@@ -3361,14 +3365,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (356)
+- [operations](#operations) (357)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (420)
+- [ops](#ops) (421)
 - [OPSEC failure](#opsec-failure) (1)
+- [Opsec failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
 - [OPSWAT](#opswat) (1)
@@ -4190,7 +4195,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ShieldBreak](#shieldbreak) (2)
 - [shieldcrash](#shieldcrash) (1)
 - [Shinobi](#shinobi) (1)
-- [ShinyHunters](#shinyhunters) (4)
+- [ShinyHunters](#shinyhunters) (5)
 - [ShinyHunters-adjacent](#shinyhunters-adjacent) (1)
 - [shipping lures](#shipping-lures) (1)
 - [Shodan](#shodan) (1)
@@ -4479,7 +4484,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (115)
+- [supply-chain](#supply-chain) (116)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -4567,7 +4572,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TDS](#tds) (2)
 - [Team PCP](#team-pcp) (1)
 - [TeamCity](#teamcity) (1)
-- [TeamPCP](#teampcp) (12)
+- [TeamPCP](#teampcp) (13)
 - [TeamPCP-adjacent](#teampcp-adjacent) (1)
 - [Teams access](#teams-access) (1)
 - [Teams TURN relay](#teams-turn-relay) (1)
@@ -4805,6 +4810,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC7005](#unc7005) (1)
 - [unchecked-subtraction](#unchecked-subtraction) (1)
 - [unclaimed names](#unclaimed-names) (1)
+- [undercover](#undercover) (1)
 - [unfiltered_upload](#unfiltered_upload) (1)
 - [unguarded plugin load](#unguarded-plugin-load) (1)
 - [Uni-App](#uni-app) (1)
@@ -5752,6 +5758,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## AFP
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## Africa
@@ -6076,6 +6083,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI workflow
 - [Langflow CVE-2026-55255 flow authorization bypass](../ops/langflow-cve-2026-55255-flow-authorization-bypass.md)
+
+## AI zero-day
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 
 ## ai-abuse
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
@@ -7845,6 +7855,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## CanisterWorm
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## canonicalization
@@ -9329,6 +9340,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
@@ -10876,6 +10888,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cyber AI
 - [Benchmaxxing: when a benchmark becomes the target](../patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
+
+## Cyber Disruption Unit
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 
 ## cyber evaluation
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
@@ -12622,6 +12637,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Accellion FTA exploitation campaign](../ops/accellion-fta-exploitation-campaign.md)
 - [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [CrownX](../tools/crownx.md)
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
@@ -12811,6 +12827,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 - [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [First VPN](../tools/first-vpn.md)
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
@@ -13742,6 +13759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Google
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
 
@@ -14008,6 +14026,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GTG
 - [Anthropic Threat Intelligence report (September 2026): GTG case studies — autonomous malware-rebuild loops, ShinyHunters AI uplift, a Changsha exploit foundry, and prompt-injection of AI evaluation sandboxes](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 
 ## GTIG
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
@@ -14734,6 +14753,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## inference server
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
+
+## infiltration
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 
 ## INFINITE NIGHTMARE
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
@@ -15601,6 +15623,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Toy Ghouls "Angry Birds" custom backdoor (HiveMQ / Element)](../ops/toy-ghouls-angry-birds-hivemq-element-backdoor-september-2026.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 
+## LABScon
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
+
 ## LabubaPanel
 - [LabubaRAT](../tools/labubarat.md)
 
@@ -15701,6 +15726,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## law enforcement
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
@@ -16595,6 +16621,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## Mandiant
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 
 ## Manifest V3
@@ -18596,6 +18623,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
@@ -18991,6 +19019,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [Google Pixel cellular-modem privilege escalation CVE-2026-58704: KEV-listed with Google's own "limited, targeted exploitation" note (Sep 16, 2026)](../ops/google-pixel-cellular-modem-cve-2026-58704-kev-targeted-exploitation-september-2026.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
@@ -19254,6 +19283,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OPSEC failure
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
+
+## Opsec failure
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 
 ## opsec failure
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
@@ -22564,6 +22596,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ShinyHunters
 - [Anthropic Threat Intelligence report (September 2026): GTG case studies — autonomous malware-rebuild loops, ShinyHunters AI uplift, a Changsha exploit foundry, and prompt-injection of AI evaluation sandboxes](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [ShinyHunters](../actors/shinyhunters.md)
@@ -23688,6 +23721,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -24059,6 +24093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [Nx Console VS Code extension compromise](../ops/nx-console-vscode-extension-compromise.md)
@@ -25071,6 +25106,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unclaimed names
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
+
+## undercover
+- [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 
 ## unfiltered_upload
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)

@@ -6,6 +6,9 @@ TeamPCP is a financially motivated threat actor best known for software-supply-c
 ## Page role
 This actor page should stay focused on TeamPCP identity, motivation, tradecraft, and associated operations. Keep detailed timelines and wave-specific indicators on the operation pages, especially [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md), [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md), and [Trivy → TeamPCP → CanisterWorm timeline](../ops/trivy-lite-llm-compromise-timeline.md).
 
+## September 18, 2026: Google's undercover analyst and the inside account of the takedown
+At LABScon, Google Threat Intelligence Group researcher **Austin Larsen** disclosed that a **Mandiant undercover analyst had been inside TeamPCP's ~12-member core chat (which the group named CanisterWorm) from almost day one**, with visibility into the stolen-credential vault and extortion planning. New durable disclosures: **ShinyHunters was a revenue-share partner (~April 2026) that went rogue**, extorting with TeamPCP's own stolen credentials before being exiled — triggering the group's server move and inner-circle purge; an insider **built a working 2FA-bypass zero-day with an AI tool** (Google tested it; the vendor patched); TeamPCP monetized the 500k+-credential haul for only **tens of thousands of dollars**; and the arrest trail was **person-level Opsec** (BreachForums handle → sheepstealing@gmail.com → ruben@thomsonfamily.net.au → the relocated credential server backed up to a Google Drive on that same account). Full detail: [Google GTG undercover-infiltration page](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md).
+
 ## Tags
 - supply-chain
 - CI/CD

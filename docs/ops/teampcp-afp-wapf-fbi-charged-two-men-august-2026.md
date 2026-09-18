@@ -79,6 +79,7 @@ The syndicate "worked by stealing publishing credentials from trusted open-sourc
 - [StepSecurity state of open source supply chain attacks 2026](stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## Sources
+- WIRED (Sept 18, 2026) reporting Austin Larsen's LABScon talk reveals the **Google identification trail behind these arrests**: BreachForums leak tied CanisterWorm's most-active handle to sheepstealing@gmail.com → a 2019 PayPal refund dispute pointed to ruben@thomsonfamily.net.au (Thomson) → TeamPCP's relocated credential server was backed up to a Google Drive on that same account → Google's tip to the FBI — see [Google GTG undercover-infiltration page](google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - The Hacker News: [Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks](https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html) — August 27, 2026 (summarizing the AFP / WAPF / FBI joint release)
 - Australian Federal Police media release (joint with WAPF / FBI) — August 27, 2026
 - FBI Cyber Division joint media release (Assistant Director Brett E. Leatherman) — August 27, 2026
