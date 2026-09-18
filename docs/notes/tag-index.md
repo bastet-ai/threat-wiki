@@ -75,7 +75,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Activator.CreateInstance](#activatorcreateinstance) (1)
 - [active development](#active-development) (1)
 - [Active Directory](#active-directory) (4)
-- [active exploitation](#active-exploitation) (85)
+- [active exploitation](#active-exploitation) (86)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (1)
@@ -126,6 +126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AES-GCM](#aes-gcm) (3)
 - [AES-GCM C2](#aes-gcm-c2) (1)
 - [Aeternum](#aeternum) (1)
+- [AF_ALG](#af_alg) (1)
 - [AFD.sys](#afdsys) (1)
 - [affiliate hijacking](#affiliate-hijacking) (1)
 - [affiliate tracking](#affiliate-tracking) (1)
@@ -553,7 +554,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Blueprints](#blueprints) (1)
 - [Bluetooth LE](#bluetooth-le) (1)
 - [Boatnet](#boatnet) (1)
-- [BOD 26-04](#bod-26-04) (17)
+- [BOD 26-04](#bod-26-04) (18)
 - [body hash](#body-hash) (1)
 - [BOF](#bof) (1)
 - [BookStack](#bookstack) (1)
@@ -575,6 +576,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Brevo](#brevo) (1)
 - [Brian Fox](#brian-fox) (1)
 - [BRICKSTORM](#brickstorm) (2)
+- [bridge](#bridge) (1)
 - [BridgeHead](#bridgehead) (2)
 - [Broadcom](#broadcom) (5)
 - [browser assembly](#browser-assembly) (1)
@@ -765,9 +767,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI/CD pipeline abuse](#cicd-pipeline-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
-- [CISA](#cisa) (22)
+- [CISA](#cisa) (23)
 - [CISA ADP](#cisa-adp) (2)
-- [CISA KEV](#cisa-kev) (53)
+- [CISA KEV](#cisa-kev) (54)
 - [Cisco](#cisco) (11)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -942,6 +944,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [container](#container) (1)
 - [container escape](#container-escape) (5)
 - [container escape pre-check](#container-escape-pre-check) (1)
+- [container hosts](#container-hosts) (1)
 - [container security](#container-security) (1)
 - [content compliance rules](#content-compliance-rules) (1)
 - [contentPolicy](#contentpolicy) (1)
@@ -1040,7 +1043,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrowdStrike Falcon](#crowdstrike-falcon) (1)
 - [CrownX](#crownx) (2)
 - [Crucio](#crucio) (1)
-- [crypto](#crypto) (2)
+- [crypto](#crypto) (3)
 - [crypto clipboard theft](#crypto-clipboard-theft) (1)
 - [crypto clipper](#crypto-clipper) (2)
 - [crypto draining](#crypto-draining) (1)
@@ -1124,6 +1127,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2025-32975](#cve-2025-32975) (1)
 - [CVE-2025-33053](#cve-2025-33053) (1)
 - [CVE-2025-34291](#cve-2025-34291) (2)
+- [CVE-2025-39964](#cve-2025-39964) (1)
 - [CVE-2025-40947](#cve-2025-40947) (1)
 - [CVE-2025-40948](#cve-2025-40948) (1)
 - [CVE-2025-40949](#cve-2025-40949) (1)
@@ -1280,6 +1284,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-51304](#cve-2026-51304) (1)
 - [CVE-2026-52810](#cve-2026-52810) (1)
 - [CVE-2026-52813](#cve-2026-52813) (1)
+- [CVE-2026-53266](#cve-2026-53266) (1)
 - [CVE-2026-53359](#cve-2026-53359) (2)
 - [CVE-2026-53362](#cve-2026-53362) (1)
 - [CVE-2026-5426](#cve-2026-5426) (1)
@@ -1412,6 +1417,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-288](#cwe-288) (2)
 - [CWE-306](#cwe-306) (3)
 - [CWE-352](#cwe-352) (2)
+- [CWE-362](#cwe-362) (1)
 - [CWE-470](#cwe-470) (1)
 - [CWE-502](#cwe-502) (2)
 - [CWE-640](#cwe-640) (1)
@@ -1419,6 +1425,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-693](#cwe-693) (1)
 - [CWE-77](#cwe-77) (1)
 - [CWE-78](#cwe-78) (2)
+- [CWE-787](#cwe-787) (1)
 - [CWE-807](#cwe-807) (1)
 - [CWE-829](#cwe-829) (1)
 - [CWE-862](#cwe-862) (1)
@@ -1677,6 +1684,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [East Asia-linked](#east-asia-linked) (1)
 - [Easy4IP](#easy4ip) (1)
 - [eBPF](#ebpf) (3)
+- [ebtables](#ebtables) (1)
 - [Eclipse](#eclipse) (1)
 - [Economic D-Day](#economic-d-day) (1)
 - [eCrime](#ecrime) (1)
@@ -2714,9 +2722,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lightning Web Runtime](#lightning-web-runtime) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linksys](#linksys) (1)
-- [Linux](#linux) (33)
+- [Linux](#linux) (34)
 - [Linux backdoor](#linux-backdoor) (1)
-- [Linux kernel](#linux-kernel) (7)
+- [Linux kernel](#linux-kernel) (8)
 - [Linux malware](#linux-malware) (3)
 - [Linux networking devices](#linux-networking-devices) (1)
 - [Linux rootkit](#linux-rootkit) (1)
@@ -2751,7 +2759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [local exploit](#local-exploit) (2)
 - [local inference](#local-inference) (1)
 - [local LLMs](#local-llms) (1)
-- [local privilege escalation](#local-privilege-escalation) (12)
+- [local privilege escalation](#local-privilege-escalation) (13)
 - [local proxy](#local-proxy) (1)
 - [local subprocess](#local-subprocess) (1)
 - [local-file-inclusion](#local-file-inclusion) (1)
@@ -3144,6 +3152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [nested virtualization](#nested-virtualization) (1)
 - [Netcat reverse shell](#netcat-reverse-shell) (1)
 - [Neteller](#neteller) (1)
+- [netfilter](#netfilter) (1)
 - [Netherlands](#netherlands) (2)
 - [NetKeyboard](#netkeyboard) (1)
 - [Netlify](#netlify) (1)
@@ -3352,13 +3361,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (355)
+- [operations](#operations) (356)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (419)
+- [ops](#ops) (420)
 - [OPSEC failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
 - [OpSec failure](#opsec-failure) (1)
@@ -3383,7 +3392,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OtterCookie](#ottercookie) (1)
 - [Ousaban](#ousaban) (2)
 - [out-of-bounds read](#out-of-bounds-read) (1)
-- [out-of-bounds write](#out-of-bounds-write) (3)
+- [out-of-bounds write](#out-of-bounds-write) (4)
 - [outbound C2](#outbound-c2) (2)
 - [Outlook](#outlook) (2)
 - [Outlook Web Access](#outlook-web-access) (2)
@@ -4161,7 +4170,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHARE Foundation](#share-foundation) (1)
 - [share propagation](#share-propagation) (1)
 - [shared accounts](#shared-accounts) (1)
-- [shared hosting](#shared-hosting) (5)
+- [shared hosting](#shared-hosting) (6)
 - [shared memory](#shared-memory) (1)
 - [shared responsibility](#shared-responsibility) (1)
 - [shared secrets](#shared-secrets) (1)
@@ -5454,6 +5463,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
@@ -5718,6 +5728,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Aeternum
 - [Aeternum](../tools/aeternum.md)
+
+## AF_ALG
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 
 ## AFD.sys
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
@@ -7356,6 +7369,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
@@ -7456,6 +7470,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BRICKSTORM
 - [VerdantBamboo](../actors/verdantbamboo.md)
 - [VerdantBamboo appliance BRICKSTORM operation](../ops/verdantbamboo-appliance-brickstorm-operation.md)
+
+## bridge
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 
 ## BridgeHead
 - [BridgeHead](../tools/bridgehead.md)
@@ -8257,6 +8274,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
@@ -8287,6 +8305,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
@@ -9061,6 +9080,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## container escape pre-check
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
+## container hosts
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
+
 ## container security
 - [Unit 42: post-exploitation workload-identity spoofing in SPIFFE/SPIRE — cgroup-selector manipulation and the Spooffe tool](../patterns/unit42-spiffe-spire-cgroup-workload-identity-spoofing-spooffe-september-2026.md)
 
@@ -9562,6 +9584,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GigaWiper](../tools/gigawiper.md)
 
 ## crypto
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
@@ -9875,6 +9898,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2025-34291
 - [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2025-34291 exploitation](../ops/langflow-cve-2025-34291-exploitation.md)
+
+## CVE-2025-39964
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 
 ## CVE-2025-40947
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
@@ -10371,6 +10397,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-52813
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 
+## CVE-2026-53266
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
+
 ## CVE-2026-53359
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
@@ -10791,6 +10820,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 
+## CWE-362
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
+
 ## CWE-470
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 
@@ -10813,6 +10845,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CWE-78
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
+
+## CWE-787
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 
 ## CWE-807
 - [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
@@ -11875,6 +11910,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
+
+## ebtables
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 
 ## Eclipse
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -15827,6 +15865,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Linux
 - ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [ENCFORGE](../tools/encforge.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
@@ -15865,6 +15904,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Linux kernel
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux DirtyClone CVE-2026-43503 local privilege escalation](../ops/linux-dirtyclone-cve-2026-43503-lpe.md)
@@ -16023,6 +16063,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
@@ -17606,6 +17647,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Neteller
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 
+## netfilter
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
+
 ## Netherlands
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
@@ -18477,6 +18521,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
@@ -18860,6 +18905,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
@@ -19291,6 +19337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## out-of-bounds write
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
@@ -22441,6 +22488,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## shared hosting
 - [CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
+- [CISA KEV September 18, 2026: two Linux kernel local privilege escalations — AF_ALG concurrent-write race and ebtables SNAT out-of-bounds write into splice-shared file pages — both on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
