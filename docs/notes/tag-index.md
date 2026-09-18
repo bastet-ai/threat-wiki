@@ -15,6 +15,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [/api/session/reset_password](#apisessionreset_password) (1)
 - [/dev/kvm](#devkvm) (1)
 - [/proc/1/environ](#proc1environ) (1)
+- [/proc/1/mem](#proc1mem) (1)
 - [0-day](#0-day) (1)
 - [0.14.3](#0143) (1)
 - [0x50594d](#0x50594d) (1)
@@ -145,7 +146,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agent state](#agent-state) (1)
 - [agent-to-agent](#agent-to-agent) (1)
 - [AgentBaiting](#agentbaiting) (1)
-- [agentic AI](#agentic-ai) (10)
+- [AgentCore Harness](#agentcore-harness) (1)
+- [AgentCore Identity](#agentcore-identity) (1)
+- [agentic AI](#agentic-ai) (11)
 - [agentic botnets](#agentic-botnets) (1)
 - [agentic browser](#agentic-browser) (1)
 - [agentic browsers](#agentic-browsers) (1)
@@ -165,7 +168,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI agent](#ai-agent) (4)
 - [AI agent security](#ai-agent-security) (3)
 - [AI agent tooling](#ai-agent-tooling) (3)
-- [AI agents](#ai-agents) (26)
+- [AI agents](#ai-agents) (28)
 - [AI anti-analysis](#ai-anti-analysis) (1)
 - [AI application infrastructure](#ai-application-infrastructure) (7)
 - [AI assistant credentials](#ai-assistant-credentials) (2)
@@ -176,7 +179,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI chatbot abuse](#ai-chatbot-abuse) (1)
 - [AI coding agent](#ai-coding-agent) (1)
 - [AI coding agents](#ai-coding-agents) (3)
-- [AI coding assistant](#ai-coding-assistant) (1)
+- [AI coding assistant](#ai-coding-assistant) (2)
 - [AI credential theft](#ai-credential-theft) (1)
 - [AI data exfiltration](#ai-data-exfiltration) (1)
 - [AI developer tooling](#ai-developer-tooling) (3)
@@ -224,6 +227,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-generated narrator](#ai-generated-narrator) (1)
 - [Aider](#aider) (1)
 - [Aikido](#aikido) (3)
+- [AIR](#air) (1)
 - [AISURU](#aisuru) (2)
 - [AiTM](#aitm) (5)
 - [AitM](#aitm) (1)
@@ -405,6 +409,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [authorization](#authorization) (1)
 - [authorization bypass](#authorization-bypass) (1)
 - [auto-execution](#auto-execution) (1)
+- [auto-update](#auto-update) (1)
 - [AUTODYN](#autodyn) (1)
 - [AutoGen Studio](#autogen-studio) (1)
 - [AutoHotKey](#autohotkey) (1)
@@ -425,7 +430,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Avalon](#avalon) (2)
 - [aviation](#aviation) (3)
 - [AVIF](#avif) (1)
-- [AWS](#aws) (8)
+- [AWS](#aws) (9)
 - [AWS CloudTrail](#aws-cloudtrail) (1)
 - [AWS S3](#aws-s3) (2)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
@@ -492,6 +497,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BEC](#bec) (1)
 - [Bech32](#bech32) (1)
 - [Bedrock](#bedrock) (1)
+- [Bedrock AgentCore](#bedrock-agentcore) (1)
 - [behavioral detection](#behavioral-detection) (2)
 - [behavioral integrity verification](#behavioral-integrity-verification) (1)
 - [Behinder](#behinder) (1)
@@ -790,7 +796,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114](#cl-sta-1114) (4)
 - [Clash proxy](#clash-proxy) (1)
 - [Claude](#claude) (4)
-- [Claude Code](#claude-code) (8)
+- [Claude Code](#claude-code) (9)
 - [Claude for Chrome](#claude-for-chrome) (1)
 - [Claude Mythos 5](#claude-mythos-5) (1)
 - [Claude Opus 4.7](#claude-opus-47) (1)
@@ -881,7 +887,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codegen injection](#codegen-injection) (1)
 - [codemado](#codemado) (1)
 - [CodeQL](#codeql) (1)
-- [Codex](#codex) (2)
+- [Codex](#codex) (3)
 - [Codex CLI](#codex-cli) (1)
 - [coding agents](#coding-agents) (1)
 - [coding challenge](#coding-challenge) (2)
@@ -996,7 +1002,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (88)
+- [credential theft](#credential-theft) (89)
 - [credential-theft](#credential-theft) (56)
 - [credit card theft](#credit-card-theft) (1)
 - [crimeware](#crimeware) (1)
@@ -1819,7 +1825,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [execution guardrails](#execution-guardrails) (1)
 - [executive impersonation](#executive-impersonation) (1)
 - [exFAT](#exfat) (1)
-- [exfiltration](#exfiltration) (7)
+- [exfiltration](#exfiltration) (8)
 - [Exilware](#exilware) (2)
 - [Experience Cloud](#experience-cloud) (1)
 - [exploit chain](#exploit-chain) (2)
@@ -2043,7 +2049,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gatekeeper bypass](#gatekeeper-bypass) (1)
 - [GCP](#gcp) (1)
 - [GCS](#gcs) (1)
-- [Gemini CLI](#gemini-cli) (1)
+- [Gemini CLI](#gemini-cli) (2)
 - [GemStuffer](#gemstuffer) (1)
 - [Gen Digital](#gen-digital) (1)
 - [generative AI](#generative-ai) (3)
@@ -2095,6 +2101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Git hook](#git-hook) (2)
 - [Git hook persistence](#git-hook-persistence) (1)
 - [Git hosting](#git-hosting) (1)
+- [git ref ambiguity](#git-ref-ambiguity) (1)
 - [git.exe](#gitexe) (1)
 - [Gitea](#gitea) (2)
 - [GitHub](#github) (23)
@@ -2105,6 +2112,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
 - [GitHub CLI](#github-cli) (1)
+- [GitHub Copilot](#github-copilot) (1)
 - [GitHub dead drop](#github-dead-drop) (3)
 - [GitHub issue spam](#github-issue-spam) (1)
 - [GitHub OAuth](#github-oauth) (2)
@@ -2258,6 +2266,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [heap buffer overflow](#heap-buffer-overflow) (2)
 - [heap overflow](#heap-overflow) (1)
 - [heap pointer disclosure](#heap-pointer-disclosure) (1)
+- [heap scraping](#heap-scraping) (1)
 - [heap-based buffer overflow](#heap-based-buffer-overflow) (1)
 - [HEIC](#heic) (1)
 - [HEIF](#heif) (1)
@@ -2402,7 +2411,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [India](#india) (3)
 - [India-nexus](#india-nexus) (1)
 - [Indian government](#indian-government) (1)
-- [indirect prompt injection](#indirect-prompt-injection) (11)
+- [indirect prompt injection](#indirect-prompt-injection) (12)
 - [indirect syscalls](#indirect-syscalls) (2)
 - [Indonesia](#indonesia) (1)
 - [industrial control](#industrial-control) (1)
@@ -2561,6 +2570,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JustWatch](#justwatch) (1)
 - [JWT](#jwt) (4)
 - [JWT alg none](#jwt-alg-none) (1)
+- [JWT replay](#jwt-replay) (1)
 - [JXA downloader](#jxa-downloader) (1)
 - [K1MORPHER](#k1morpher) (2)
 - [Kairos](#kairos) (1)
@@ -2857,6 +2867,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malware-signing-as-a-service](#malware-signing-as-a-service) (1)
 - [MALXMR](#malxmr) (1)
 - [man-in-the-middle](#man-in-the-middle) (1)
+- [managed agent runtime](#managed-agent-runtime) (1)
 - [managed database](#managed-database) (1)
 - [managed file transfer](#managed-file-transfer) (2)
 - [managed service provider](#managed-service-provider) (2)
@@ -2872,7 +2883,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [marker](#marker) (1)
 - [marketing automation](#marketing-automation) (1)
 - [MARKETMAKER](#marketmaker) (1)
-- [marketplace abuse](#marketplace-abuse) (2)
+- [marketplace abuse](#marketplace-abuse) (3)
 - [marketplace trust](#marketplace-trust) (1)
 - [MarkiRAT](#markirat) (1)
 - [MarlboroMan](#marlboroman) (1)
@@ -2886,7 +2897,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mbed](#mbed) (1)
 - [McAfee Labs](#mcafee-labs) (2)
 - [McMx](#mcmx) (1)
-- [MCP](#mcp) (25)
+- [MCP](#mcp) (26)
 - [MCP configuration](#mcp-configuration) (1)
 - [MCP credentials](#mcp-credentials) (1)
 - [MCP gateway](#mcp-gateway) (1)
@@ -3464,7 +3475,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (14)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (55)
+- [patterns](#patterns) (57)
 - [Paweł Płatek](#pawe-patek) (1)
 - [pay-per-install](#pay-per-install) (1)
 - [payload loader](#payload-loader) (1)
@@ -3560,7 +3571,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Plesk](#plesk) (1)
 - [plugin architecture](#plugin-architecture) (3)
 - [plugin framework](#plugin-framework) (1)
+- [plugin pinning](#plugin-pinning) (1)
 - [plugin RCE](#plugin-rce) (1)
+- [plugin4shell](#plugin4shell) (1)
 - [PlugX](#plugx) (4)
 - [PNG shellcode](#png-shellcode) (1)
 - [PoC available](#poc-available) (1)
@@ -3648,6 +3661,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [process injection](#process-injection) (6)
 - [process lineage](#process-lineage) (1)
 - [process termination](#process-termination) (2)
+- [procfs](#procfs) (1)
 - [procurement](#procurement) (1)
 - [product lifecycle management](#product-lifecycle-management) (1)
 - [professional services](#professional-services) (1)
@@ -3658,7 +3672,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Project Lightwell](#project-lightwell) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
 - [prompt infection](#prompt-infection) (1)
-- [prompt injection](#prompt-injection) (20)
+- [prompt injection](#prompt-injection) (21)
+- [prompt injection adjacent](#prompt-injection-adjacent) (1)
 - [prompt-injection](#prompt-injection) (4)
 - [prompt-injection guardrail bypass](#prompt-injection-guardrail-bypass) (1)
 - [PromptArmor](#promptarmor) (1)
@@ -3774,7 +3789,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RC4](#rc4) (4)
 - [RC4 C2](#rc4-c2) (1)
 - [RC4 encryption](#rc4-encryption) (1)
-- [RCE](#rce) (17)
+- [RCE](#rce) (18)
 - [Rclone](#rclone) (1)
 - [rclone](#rclone) (1)
 - [RCS](#rcs) (1)
@@ -3925,7 +3940,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [root escalation](#root-escalation) (1)
 - [root execution](#root-execution) (2)
 - [root RCE](#root-rce) (1)
-- [root shell](#root-shell) (3)
+- [root shell](#root-shell) (4)
 - [root user](#root-user) (1)
 - [rootkit](#rootkit) (5)
 - [ROOTRUN](#rootrun) (1)
@@ -4128,6 +4143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [setuid](#setuid) (1)
 - [setup.py](#setuppy) (1)
 - [setup.py execution](#setuppy-execution) (1)
+- [SHA pinning](#sha-pinning) (1)
 - [shadow AI](#shadow-ai) (1)
 - [shadow copy](#shadow-copy) (1)
 - [shadow copy deletion](#shadow-copy-deletion) (2)
@@ -4147,6 +4163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shared accounts](#shared-accounts) (1)
 - [shared hosting](#shared-hosting) (5)
 - [shared memory](#shared-memory) (1)
+- [shared responsibility](#shared-responsibility) (1)
 - [shared secrets](#shared-secrets) (1)
 - [shared-module](#shared-module) (1)
 - [shared_preload_libraries](#shared_preload_libraries) (1)
@@ -4453,7 +4470,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (114)
+- [supply-chain](#supply-chain) (115)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -4789,7 +4806,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [unintended internet access](#unintended-internet-access) (1)
 - [Unisoc](#unisoc) (1)
-- [Unit 42](#unit-42) (18)
+- [Unit 42](#unit-42) (19)
 - [United States](#united-states) (4)
 - [Unitree](#unitree) (1)
 - [universal binary](#universal-binary) (1)
@@ -5150,7 +5167,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [zereight](#zereight) (1)
 - [Zero Trust](#zero-trust) (1)
 - [zero-balance](#zero-balance) (1)
-- [zero-click](#zero-click) (2)
+- [zero-click](#zero-click) (3)
 - [zero-day](#zero-day) (16)
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
@@ -5224,6 +5241,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## /proc/1/environ
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
+
+## /proc/1/mem
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 
 ## 0-day
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
@@ -5770,7 +5790,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AgentBaiting
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 
+## AgentCore Harness
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
+
+## AgentCore Identity
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
+
 ## agentic AI
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
@@ -5856,6 +5883,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 
 ## AI agents
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
@@ -5877,6 +5905,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
 - [NemoClaw local Ollama chat-template poisoning (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 - [PraisonAI CVE-2026-44338 rapid exploitation](../ops/praisonai-cve-2026-44338-rapid-exploitation.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -5929,6 +5958,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI coding assistant
 - [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 
 ## AI credential theft
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
@@ -6109,6 +6139,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 - [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack — Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
+
+## AIR
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 
 ## AISURU
 - [Kimwolf v7](../tools/kimwolf-v7.md)
@@ -6793,6 +6826,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## auto-execution
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
+## auto-update
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
+
 ## AUTODYN
 - [Fast16](../tools/fast16.md)
 
@@ -6861,6 +6897,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AWS
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
@@ -7113,6 +7150,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bedrock
 - [NATS-as-C2 KeyHunter credential-harvesting operation](../ops/nats-as-c2-keyhunter-credential-harvesting.md)
+
+## Bedrock AgentCore
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 
 ## behavioral detection
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
@@ -8405,6 +8445,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
@@ -8799,6 +8840,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Codex
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## Codex CLI
@@ -9237,6 +9279,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [@zereight/mcp-gitlab CVE-2026-61560: unauthenticated SSE transport plus arbitrary file read exfiltrates the GitLab PAT (CVSS 9.8, Sep 16, 2026)](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 - [Aeternum](../tools/aeternum.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
@@ -12436,6 +12479,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## exfiltration
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
@@ -13236,6 +13280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Gemini CLI
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 
 ## GemStuffer
 - [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
@@ -13398,6 +13443,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Git hosting
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 
+## git ref ambiguity
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
+
 ## git.exe
 - [Cursor Windows workspace-path binary hijack](../patterns/cursor-windows-workspace-path-binary-hijack.md)
 
@@ -13480,6 +13528,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GitHub CLI
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
+
+## GitHub Copilot
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 
 ## GitHub dead drop
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
@@ -14055,6 +14106,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## heap pointer disclosure
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
+## heap scraping
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
+
 ## heap-based buffer overflow
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
 
@@ -14598,6 +14652,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
 ## indirect prompt injection
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 - [Adversa "Cryptographic Context Injection": web pages steal Grok chat data](../ops/adversa-cryptographic-context-injection-grok-chat-data-exfiltration.md)
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
@@ -15242,6 +15297,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JWT alg none
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
+
+## JWT replay
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 
 ## JXA downloader
 - [PamStealer](../tools/pamstealer.md)
@@ -16471,6 +16529,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## man-in-the-middle
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 
+## managed agent runtime
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
+
 ## managed database
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 
@@ -16531,6 +16592,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## marketplace abuse
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 
 ## marketplace trust
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
@@ -16575,6 +16637,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MCP
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [@zereight/mcp-gitlab CVE-2026-61560: unauthenticated SSE transport plus arbitrary file read exfiltrates the GitLab PAT (CVSS 9.8, Sep 16, 2026)](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -19569,6 +19632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## patterns
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
@@ -19612,6 +19676,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 - [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
@@ -20006,8 +20071,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## plugin framework
 - [FDMTP](../tools/fdmtp.md)
 
+## plugin pinning
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
+
 ## plugin RCE
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
+
+## plugin4shell
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 
 ## PlugX
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
@@ -20371,6 +20442,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [GenieLocker](../tools/genielocker.md)
 
+## procfs
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
+
 ## procurement
 - [Benchmaxxing: when a benchmark becomes the target](../patterns/benchmaxxing-benchmark-integrity-cyber-ai.md)
 
@@ -20402,6 +20476,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 
 ## prompt injection
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 - [Adversa "Cryptographic Context Injection": web pages steal Grok chat data](../ops/adversa-cryptographic-context-injection-grok-chat-data-exfiltration.md)
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [Agent skill marketplace poisoning](../patterns/agent-skill-marketplace-poisoning.md)
@@ -20422,6 +20497,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
+
+## prompt injection adjacent
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 
 ## prompt-injection
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -20921,6 +20999,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
 - [MCP stdio command-execution boundary](../patterns/mcp-stdio-command-execution.md)
 - [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack — Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
@@ -21502,6 +21581,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
 ## root shell
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
@@ -22286,6 +22366,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## setup.py execution
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 
+## SHA pinning
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
+
 ## shadow AI
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
 
@@ -22365,6 +22448,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## shared memory
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
+
+## shared responsibility
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 
 ## shared secrets
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
@@ -23593,6 +23679,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
@@ -24968,6 +25055,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
 
 ## Unit 42
+- [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 - [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
@@ -26420,6 +26508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## zero-click
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
+- [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 
 ## zero-day
 - [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)

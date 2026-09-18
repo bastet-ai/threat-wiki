@@ -79,6 +79,17 @@ Observed follow-on payload capabilities include command execution, `socket.io-cl
 - Prefer release cooldowns, maintainer MFA/passkey enforcement, registry token scoping, and protected publishing workflows for high-blast-radius packages.
 - Do not assume that absence of a malicious release in one registry means the repository is clean; Socket reported cases where repository compromise did not produce corresponding npm or PyPI publishes.
 
+## September 17, 2026 Socket follow-up: compromised GitHub account, 700k-download Packagist package, new PHP execution technique
+
+Socket (Karlo Zanki, **Sep 17, 2026**) reported PolinRider reaching **`visanduma/nova-two-factor`**, a Packagist package with **700,000+ cumulative downloads** — malicious code present in the unstable `dev-main` version only (**no stable malicious release identified**), limiting exposure to consumers of development branches. Key new detail:
+
+- **Compromise vector**: the Visanduma GitHub organization has been compromised **since mid-June 2026**; malicious changes were introduced through the **`LaHiRu` developer account**. That account shows **hundreds of contributions to private repositories** after compromise — public data gives only a partial view of the intrusion's true repository reach.
+- **Durable pattern confirmation**: package-registry compromise is a *consequence* of the broader Git-based intrusion, not the objective. Go modules and Packagist resolve code directly from Git repositories, so planted source code spreads into another ecosystem **without stealing any registry publishing credentials**. Operators maintain access and wait for routine release activity to carry the payload forward.
+- **New PHP execution technique**: earlier infections planted JavaScript in config files (ecosystem-boundary crossing); a new variant inserts heavily obfuscated JavaScript **directly into `index.php`, executed via PHP's `shell_exec`** — a PHP entry point launching the JavaScript infection chain. The operators adapt execution methods per project rather than following one fixed path.
+- **Dead-drop staging**: initial code resolves C2 via **EtherHiding and, more recently, NullReceiver** dead-drops before downloading later-stage infostealers (consistent with the Sonatype NullReceiver reporting on this page's sibling campaigns).
+- **Impact caveat Socket states**: GitHub code search misses private repos touched by compromised accounts, infected-then-cleaned repos, and developer systems where payloads already executed — cleaning a repository does not clean workstations or CI. Public reports from affected developers describe difficulty removing later-stage components. Apparent primary objective remains **cryptocurrency theft**.
+- IOCs: `visanduma/nova-two-factor` (`dev-main`), `LaHiRu` account, Visanduma org. Live tracker: `https://socket.dev/supply-chain-attacks/polinrider`.
+
 ## Related pages
 - [Joyfill npm blockchain-RAT compromise](joyfill-npm-blockchain-rat-compromise.md)
 - [Astro config blockchain C2 PR injection](astro-config-blockchain-c2-pr-injection.md)

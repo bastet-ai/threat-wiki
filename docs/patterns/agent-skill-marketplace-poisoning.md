@@ -94,6 +94,10 @@ The important mechanics were:
 
 This is a different failure mode from hidden bytecode or prompt-padding scanner bypasses: even a perfectly scanned package can become unsafe if its execution path depends on mutable web content outside the reviewed artifact.
 
+### Plugin4Shell: the pin itself fails (2026-09-17)
+
+AIR's September 17, 2026 Plugin4Shell disclosure moves the failure from "scanners miss malicious skills" to "the pinning guarantee that exists to contain marketplace abuse silently dissolves." All four major coding agents check out the pinned plugin commit but never verify the checkout landed there; a branch named like the pinned SHA (git prefers refs over object ids) or a default branch named `FETCH_HEAD` (Gemini CLI) makes `git checkout` deliver attacker code while the pin still looks honored, and background plugin auto-update makes the swap zero-click. Claude Code 2.1.179 and Codex 0.146.0 are patched; Copilot has no fix and Gemini CLI is deprecated-unpatched. Full mechanics, vendor timeline, and detection guidance: [Plugin4Shell pattern page](plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md). Reviewer implication for this page: a pinned, reviewed, scanner-clean plugin is no longer a durable allow decision either — pin verification must check the *resolved* commit, and intake review should ask which git host the marketplace backend uses (GitHub rejects 40-hex branch names; Bitbucket and self-hosted git do not).
+
 ### SkillCloak scanner evasion and SkillDetonate runtime auditing (2026-07-02)
 
 HKUST researchers Zimo Ji, Congying Xu, Zongjie Li, Yudong Gao, Xin Wei, Shuai Wang, and Shing-Chi Cheung published **Cloak and Detonate: Scanner Evasion and Dynamic Detection of Agent Skill Malware** on arXiv on July 2, 2026. The Hacker News surfaced the paper publicly on July 6, 2026 under the SkillCloak name.
