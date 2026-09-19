@@ -77,6 +77,10 @@ A vulnerability in Next.js applications that use **both the Pages Router and the
 - CVE-2026-75604 (Windows) has a CVSS 3.1 9.0 vector; its attack mechanism is undisclosed.
 - No in-the-wild exploitation of either August vulnerability was reported as of August 27, 2026 (THN reached out to Vercel; no response by publication).
 
+### September 19, 2026 follow-up: the AVIF advisory now has a CVE
+
+**GHSA-g89c-p67h-r497 was assigned CVE-2026-84383** (NVD publication 2026-09-18 16:17 UTC — the same day the Hacktron "HEIF Heist" story ran, and in a same-minute batch with CVE-2026-84384 / -84446 / -84447 / -84450, all libheif, all backfilling previously un-CVE'd GHSAs). The "Critical with no CVE" framing on this page is historical: at August publication there was no CVE, one shipped roughly three weeks later, only after the exploitation-adjacent story made the gap visible. Newest libheif advisories (Sep 1/6 security-release set + GHSA-q492-cfcm-895h, Sep 18, OpenJPEG pre-decode gate) still carry no CVE. See the [Hacktron HEIF Heist page's September 19 follow-up](hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md#september-19-follow-up-the-un-cved-advisory-behind-nextjs-finally-got-a-cve-on-heif-heist-day).
+
 ## Related pages
 - [Sep 18, 2026 follow-up: Hacktron "HEIF Heist" — libheif bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access (fix shipped upstream unflagged, no CVE)](hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [GitHub Security Advisories August 29, 2026 (RCE/auth-bypass/sandbox batch)](github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)

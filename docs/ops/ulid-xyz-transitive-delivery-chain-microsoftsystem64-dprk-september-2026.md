@@ -82,6 +82,7 @@ The likely second stage delivered through `deploy_binary` is the credential stea
 SafeDep does not itself name the actor; the link to FAMOUS CHOLLIMA / Contagious Interview (DPRK-linked) is carried from kmsec.uk and OX Security's attribution of the earlier `MicrosoftSystem64` binary analysis, reinforced here by the direct `whisdev` operator overlap. Track this as a **durable MicrosoftSystem64 cluster expansion** — second delivery chain, second operator persona overlap — rather than a new, unrelated campaign.
 
 ## Related pages
+- [mathmain / mathsbase / math-universe encrypted-loader trio — the same payload-in-dependency staging design with the trigger half still missing (SafeDep, Sep 18)](mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 - [js-logger-pack Hugging Face exfiltration campaign (MicrosoftSystem64 cluster)](js-logger-pack-hugging-face-exfiltration.md)
 - [StegaBin Pastebin steganography npm campaign (Contagious Interview)](stegabin-pastebin-steganography-npm-campaign.md)
 - [FAMOUS CHOLLIMA Packagist dev-branch loader](famous-chollima-packagist-dev-branch-loader.md)

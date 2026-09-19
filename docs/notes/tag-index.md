@@ -121,7 +121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AES encrypted payload](#aes-encrypted-payload) (1)
 - [AES-128-CBC](#aes-128-cbc) (1)
 - [AES-256-CTR](#aes-256-ctr) (1)
-- [AES-256-GCM](#aes-256-gcm) (2)
+- [AES-256-GCM](#aes-256-gcm) (3)
 - [AES-CTR](#aes-ctr) (1)
 - [AES-GCM](#aes-gcm) (3)
 - [AES-GCM C2](#aes-gcm-c2) (1)
@@ -1641,6 +1641,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DomainTools](#domaintools) (1)
 - [domestic espionage](#domestic-espionage) (1)
 - [dormant accounts](#dormant-accounts) (2)
+- [dormant payload](#dormant-payload) (1)
 - [DotNetNuke](#dotnetnuke) (1)
 - [DotnetTool](#dotnettool) (1)
 - [double extortion](#double-extortion) (3)
@@ -1750,6 +1751,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [emergency patch](#emergency-patch) (1)
 - [ENCFORGE](#encforge) (2)
 - [encrypted C2](#encrypted-c2) (4)
+- [encrypted loader](#encrypted-loader) (1)
 - [encrypted reasoning](#encrypted-reasoning) (1)
 - [EncryptInterceptor](#encryptinterceptor) (1)
 - [ENDLESSDOORS](#endlessdoors) (2)
@@ -2913,6 +2915,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mass disclosure](#mass-disclosure) (1)
 - [mass repository cloning](#mass-repository-cloning) (1)
 - [mass scanning](#mass-scanning) (1)
+- [mathjs](#mathjs) (1)
 - [Matrix](#matrix) (1)
 - [Maven Central](#maven-central) (1)
 - [mawesome](#mawesome) (1)
@@ -3250,7 +3253,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (72)
+- [npm](#npm) (73)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3385,7 +3388,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (422)
+- [ops](#ops) (423)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
@@ -4041,7 +4044,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SaaS provider](#saas-provider) (1)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
-- [SafeDep](#safedep) (9)
+- [SafeDep](#safedep) (10)
 - [Salesforce](#salesforce) (4)
 - [Sality](#sality) (1)
 - [SAML](#saml) (3)
@@ -4080,6 +4083,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [screenshot theft](#screenshot-theft) (3)
 - [script injection](#script-injection) (1)
 - [script-injection](#script-injection) (1)
+- [scrypt](#scrypt) (1)
 - [SD-WAN](#sd-wan) (2)
 - [search hijacking](#search-hijacking) (1)
 - [search poisoning](#search-poisoning) (1)
@@ -4431,6 +4435,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stack use-after-free](#stack-use-after-free) (1)
 - [staged C2 URLs](#staged-c2-urls) (1)
 - [staged malicious update](#staged-malicious-update) (1)
+- [staged payload](#staged-payload) (1)
 - [staged publishing](#staged-publishing) (1)
 - [staking-precompile](#staking-precompile) (1)
 - [stale access](#stale-access) (1)
@@ -4496,13 +4501,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
 - [supply chain](#supply-chain) (27)
-- [supply chain attack](#supply-chain-attack) (1)
+- [supply chain attack](#supply-chain-attack) (2)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (117)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
 - [supply-chain risk](#supply-chain-risk) (3)
+- [supply-chain staging](#supply-chain-staging) (1)
 - [supply-chain-adjacent](#supply-chain-adjacent) (1)
 - [surveillance](#surveillance) (1)
 - [surveillance abuse](#surveillance-abuse) (1)
@@ -4723,10 +4729,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [triage](#triage) (2)
 - [TrickBot](#trickbot) (1)
 - [Trident Ursa](#trident-ursa) (1)
+- [trigger separation](#trigger-separation) (1)
 - [Trinitite](#trinitite) (1)
 - [Trivy](#trivy) (1)
 - [TRM Labs](#trm-labs) (1)
 - [trojan-framework](#trojan-framework) (1)
+- [trojanised clone](#trojanised-clone) (1)
 - [trojanized coding challenge](#trojanized-coding-challenge) (2)
 - [trojanized daemons](#trojanized-daemons) (1)
 - [trojanized installers](#trojanized-installers) (3)
@@ -4764,7 +4772,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [type confusion](#type-confusion) (2)
 - [TypeConfuseDelegate](#typeconfusedelegate) (1)
 - [TypeScript](#typescript) (2)
-- [typosquat](#typosquat) (4)
+- [typosquat](#typosquat) (5)
 - [typosquatting](#typosquatting) (18)
 - [U+E0000](#ue0000) (1)
 - [U.S. critical infrastructure](#us-critical-infrastructure) (1)
@@ -4825,6 +4833,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC7005](#unc7005) (1)
 - [unchecked-subtraction](#unchecked-subtraction) (1)
 - [unclaimed names](#unclaimed-names) (1)
+- [undecrypted payload](#undecrypted-payload) (1)
 - [undercover](#undercover) (1)
 - [unfiltered_upload](#unfiltered_upload) (1)
 - [unguarded plugin load](#unguarded-plugin-load) (1)
@@ -5737,6 +5746,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AES-256-GCM
 - [Djinn Stealer](../tools/djinn-stealer.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 
 ## AES-CTR
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
@@ -11792,6 +11802,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 
+## dormant payload
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
+
 ## DotNetNuke
 - [Oman government Iranian-nexus webshell C2](../ops/oman-government-iranian-nexus-webshell-c2.md)
 
@@ -12187,6 +12200,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TaskWeaver](../tools/taskweaver.md)
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 - [WLDR agent](../tools/wldr-agent.md)
+
+## encrypted loader
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 
 ## encrypted reasoning
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
@@ -16738,6 +16754,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mass scanning
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 
+## mathjs
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
+
 ## Matrix
 - [Toy Ghouls "Angry Birds" custom backdoor (HiveMQ / Element)](../ops/toy-ghouls-angry-birds-hivemq-element-backdoor-september-2026.md)
 
@@ -18074,6 +18093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [Malware-Slop Claude user-data npm infostealer](../ops/malware-slop-claude-user-data-npm-infostealer.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 - [MYRA RAT](../tools/myra-rat.md)
@@ -19155,6 +19175,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
 - [Mastra `easy-day-js` npm scope compromise](../ops/mastra-easy-day-js-npm-scope-compromise.md)
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 - [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [Megalodon GitHub Actions workflow backdooring](../ops/megalodon-github-actions-workflow-backdooring.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
@@ -22027,6 +22048,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
@@ -22198,6 +22220,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## script-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+
+## scrypt
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 
 ## SD-WAN
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
@@ -23497,6 +23522,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## staged malicious update
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
+## staged payload
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
+
 ## staged publishing
 - [npm publish-time malware scanning and dual-use declarations](../patterns/npm-publish-time-malware-scanning.md)
 
@@ -23745,6 +23773,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## supply chain attack
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 
 ## supply chain compromise
 - [OceanLotus](../actors/oceanlotus.md)
@@ -23882,6 +23911,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+
+## supply-chain staging
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 
 ## supply-chain-adjacent
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
@@ -24755,6 +24787,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Trident Ursa
 - [Gamaredon](../actors/gamaredon.md)
 
+## trigger separation
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
+
 ## Trinitite
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 
@@ -24766,6 +24801,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## trojan-framework
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+
+## trojanised clone
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 
 ## trojanized coding challenge
 - [NodeRabbit](../tools/noderabbit.md)
@@ -24902,6 +24940,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## typosquat
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)](../ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
@@ -25182,6 +25221,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unclaimed names
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
+
+## undecrypted payload
+- [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 
 ## undercover
 - [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
