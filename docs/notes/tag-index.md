@@ -83,7 +83,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [actively-exploited](#actively-exploited) (1)
 - [ActiveX](#activex) (1)
 - [activism](#activism) (1)
-- [actor](#actor) (6)
+- [actor](#actor) (7)
 - [actors](#actors) (13)
 - [ad blocker](#ad-blocker) (1)
 - [AD CS](#ad-cs) (1)
@@ -146,6 +146,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [agent polling protocol](#agent-polling-protocol) (1)
 - [agent skills](#agent-skills) (2)
 - [agent state](#agent-state) (1)
+- [agent-sandbox](#agent-sandbox) (1)
 - [agent-to-agent](#agent-to-agent) (1)
 - [AgentBaiting](#agentbaiting) (1)
 - [AgentCore Harness](#agentcore-harness) (1)
@@ -222,6 +223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-assisted phishing](#ai-assisted-phishing) (1)
 - [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
 - [AI-augmented operations](#ai-augmented-operations) (4)
+- [AI-coding-agent](#ai-coding-agent) (1)
 - [AI-enabled malware](#ai-enabled-malware) (2)
 - [AI-enhanced malware](#ai-enhanced-malware) (1)
 - [AI-generated advisory](#ai-generated-advisory) (1)
@@ -229,6 +231,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-generated finding](#ai-generated-finding) (1)
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AI-generated narrator](#ai-generated-narrator) (1)
+- [AI-platform-security](#ai-platform-security) (1)
 - [Aider](#aider) (1)
 - [Aikido](#aikido) (3)
 - [AIR](#air) (1)
@@ -448,10 +451,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Azure DevOps](#azure-devops) (1)
 - [Azure Storage](#azure-storage) (1)
 - [Azure Websites C2](#azure-websites-c2) (2)
+- [Azure-AI-Foundry](#azure-ai-foundry) (1)
+- [Azure-Cosmos-DB](#azure-cosmos-db) (1)
+- [Azure-PostgreSQL](#azure-postgresql) (1)
 - [Babuk](#babuk) (1)
 - [back-end](#back-end) (1)
 - [Backblaze](#backblaze) (1)
-- [backdoor](#backdoor) (28)
+- [backdoor](#backdoor) (29)
 - [Backdoor.Mistic](#backdoormistic) (1)
 - [Backdoor.Turn](#backdoorturn) (1)
 - [Backstage](#backstage) (1)
@@ -652,7 +658,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bytecode](#bytecode) (1)
 - [C backdoor](#c-backdoor) (1)
 - [C#](#c) (1)
-- [C++](#c) (4)
+- [C++](#c) (5)
 - [C++/CLI](#ccli) (1)
 - [C0XMO](#c0xmo) (1)
 - [C2](#c2) (17)
@@ -741,7 +747,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China](#china) (3)
 - [China nexus](#china-nexus) (1)
 - [China-linked](#china-linked) (8)
-- [China-nexus](#china-nexus) (19)
+- [China-nexus](#china-nexus) (20)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (2)
 - [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
@@ -869,6 +875,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud storage](#cloud-storage) (1)
 - [cloud storage exfiltration](#cloud-storage-exfiltration) (1)
 - [cloud transcoding](#cloud-transcoding) (1)
+- [cloud-managed](#cloud-managed) (1)
 - [cloud-native](#cloud-native) (1)
 - [Cloudflare](#cloudflare) (5)
 - [Cloudflare account compromise](#cloudflare-account-compromise) (1)
@@ -906,6 +913,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Codex CLI](#codex-cli) (1)
 - [coding agents](#coding-agents) (1)
 - [coding challenge](#coding-challenge) (2)
+- [COFF-loader](#coff-loader) (1)
 - [coff-loading](#coff-loading) (1)
 - [Coinbase](#coinbase) (1)
 - [Coinkite](#coinkite) (1)
@@ -920,7 +928,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [command injection](#command-injection) (12)
 - [command string concatenation](#command-string-concatenation) (1)
 - [command-execution](#command-execution) (1)
-- [command-injection](#command-injection) (1)
+- [command-injection](#command-injection) (2)
 - [commercial LLM abuse](#commercial-llm-abuse) (1)
 - [commercial messaging applications](#commercial-messaging-applications) (1)
 - [commit farming](#commit-farming) (1)
@@ -1338,6 +1346,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-61979](#cve-2026-61979) (1)
 - [CVE-2026-62144](#cve-2026-62144) (1)
 - [CVE-2026-62145](#cve-2026-62145) (1)
+- [CVE-2026-62721](#cve-2026-62721) (1)
 - [CVE-2026-63030](#cve-2026-63030) (1)
 - [CVE-2026-63077](#cve-2026-63077) (1)
 - [CVE-2026-63520](#cve-2026-63520) (1)
@@ -1378,10 +1387,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-76581](#cve-2026-76581) (1)
 - [CVE-2026-76639](#cve-2026-76639) (1)
 - [CVE-2026-76640](#cve-2026-76640) (1)
+- [CVE-2026-77179](#cve-2026-77179) (1)
 - [CVE-2026-77413](#cve-2026-77413) (1)
 - [CVE-2026-77414](#cve-2026-77414) (1)
 - [CVE-2026-77415](#cve-2026-77415) (1)
 - [CVE-2026-78676](#cve-2026-78676) (1)
+- [CVE-2026-79994](#cve-2026-79994) (1)
 - [CVE-2026-80192](#cve-2026-80192) (1)
 - [CVE-2026-8037](#cve-2026-8037) (1)
 - [CVE-2026-81578](#cve-2026-81578) (1)
@@ -1405,8 +1416,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-84869](#cve-2026-84869) (2)
 - [CVE-2026-85046](#cve-2026-85046) (1)
 - [CVE-2026-85706](#cve-2026-85706) (1)
+- [CVE-2026-85878](#cve-2026-85878) (1)
 - [CVE-2026-85880](#cve-2026-85880) (1)
 - [cve-2026-85880](#cve-2026-85880) (1)
+- [CVE-2026-85885](#cve-2026-85885) (1)
+- [CVE-2026-85889](#cve-2026-85889) (1)
+- [CVE-2026-85921](#cve-2026-85921) (1)
 - [CVE-2026-86060](#cve-2026-86060) (1)
 - [CVE-2026-86206](#cve-2026-86206) (1)
 - [CVE-2026-86207](#cve-2026-86207) (1)
@@ -1414,6 +1429,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-86242](#cve-2026-86242) (1)
 - [CVE-2026-8732](#cve-2026-8732) (1)
 - [CVE-2026-87491](#cve-2026-87491) (1)
+- [CVE-2026-87701](#cve-2026-87701) (1)
 - [CVE-2026-87886](#cve-2026-87886) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [CVE-2026-90894](#cve-2026-90894) (1)
@@ -1426,6 +1442,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVSS 10.0](#cvss-100) (2)
 - [CVSS 9.0](#cvss-90) (1)
 - [CVSS 9.8](#cvss-98) (4)
+- [CVSS-10](#cvss-10) (1)
 - [cvvform](#cvvform) (1)
 - [CWE-22](#cwe-22) (2)
 - [CWE-259](#cwe-259) (1)
@@ -1616,6 +1633,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DLL search-order hijacking](#dll-search-order-hijacking) (2)
 - [DLL side-loading](#dll-side-loading) (8)
 - [DLL sideloading](#dll-sideloading) (28)
+- [DLL-sideloading](#dll-sideloading) (1)
 - [dlopen](#dlopen) (1)
 - [DMTP](#dmtp) (1)
 - [DNS](#dns) (1)
@@ -1631,7 +1649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (3)
 - [DNS-over-HTTPS](#dns-over-https) (1)
-- [Docker](#docker) (3)
+- [Docker](#docker) (4)
 - [Docker cache](#docker-cache) (1)
 - [Docker Compose](#docker-compose) (1)
 - [Docker credentials](#docker-credentials) (1)
@@ -1639,6 +1657,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Docker Hub](#docker-hub) (1)
 - [Docker images](#docker-images) (1)
 - [Docker socket](#docker-socket) (3)
+- [Docker-Sandboxes](#docker-sandboxes) (1)
 - [Docro Hijacker](#docro-hijacker) (2)
 - [document collection](#document-collection) (1)
 - [document exfiltration](#document-exfiltration) (1)
@@ -1703,6 +1722,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Eagle Werewolf](#eagle-werewolf) (3)
 - [Early Bird APC injection](#early-bird-apc-injection) (1)
 - [Earth Lusca](#earth-lusca) (2)
+- [Earth-Estries](#earth-estries) (1)
 - [East Asia](#east-asia) (1)
 - [East Asia-linked](#east-asia-linked) (1)
 - [Easy4IP](#easy4ip) (1)
@@ -1810,9 +1830,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Escalate with Certify](#escalate-with-certify) (1)
 - [escrow](#escrow) (1)
 - [eSentire TRU](#esentire-tru) (1)
-- [ESET](#eset) (1)
+- [ESET](#eset) (2)
 - [ESG](#esg) (1)
-- [espionage](#espionage) (64)
+- [espionage](#espionage) (65)
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESX](#esx) (1)
 - [ESXi](#esxi) (3)
@@ -1926,6 +1946,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [false positives](#false-positives) (1)
 - [FAMOUS CHOLLIMA](#famous-chollima) (3)
 - [Famous Chollima](#famous-chollima) (2)
+- [FamousSparrow](#famoussparrow) (1)
 - [Fancy Bear](#fancy-bear) (2)
 - [Fast16](#fast16) (1)
 - [FastAPI](#fastapi) (1)
@@ -2350,6 +2371,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Host Radar](#host-radar) (1)
 - [host RCE](#host-rce) (2)
 - [host surveillance](#host-surveillance) (1)
+- [host-file-access](#host-file-access) (1)
 - [hosting control plane](#hosting-control-plane) (1)
 - [hosting provider](#hosting-provider) (1)
 - [hosting providers](#hosting-providers) (1)
@@ -2706,6 +2728,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lateral movement](#lateral-movement) (11)
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (4)
+- [Latin-America](#latin-america) (1)
 - [LaunchAgent](#launchagent) (6)
 - [launchctl](#launchctl) (1)
 - [LAUNDRY BEAR](#laundry-bear) (4)
@@ -2854,6 +2877,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lyceum](#lyceum) (1)
 - [M-RED-TEAM](#m-red-team) (1)
 - [M365](#m365) (1)
+- [M365-Copilot](#m365-copilot) (1)
 - [MaaS](#maas) (8)
 - [Mabna Institute](#mabna-institute) (1)
 - [MAC address](#mac-address) (1)
@@ -2865,7 +2889,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [machine-bound config](#machine-bound-config) (1)
 - [machine-learning](#machine-learning) (1)
 - [machine-speed attack chain](#machine-speed-attack-chain) (1)
-- [macOS](#macos) (25)
+- [macOS](#macos) (26)
 - [macOS malware](#macos-malware) (3)
 - [macro](#macro) (1)
 - [macro-enabled Word](#macro-enabled-word) (1)
@@ -2941,6 +2965,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mawesome](#mawesome) (1)
 - [maximhq](#maximhq) (1)
 - [Mbed](#mbed) (1)
+- [Mbed-TLS](#mbed-tls) (1)
 - [McAfee Labs](#mcafee-labs) (2)
 - [McMx](#mcmx) (1)
 - [MCP](#mcp) (26)
@@ -2992,7 +3017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MicroLogix 1100](#micrologix-1100) (1)
 - [MicroLogix 1400](#micrologix-1400) (1)
 - [MicroPython](#micropython) (2)
-- [Microsoft](#microsoft) (18)
+- [Microsoft](#microsoft) (19)
 - [microsoft](#microsoft) (1)
 - [Microsoft .NET](#microsoft-net) (1)
 - [Microsoft 365](#microsoft-365) (11)
@@ -3023,6 +3048,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (5)
 - [Microsoft typosquat](#microsoft-typosquat) (1)
 - [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
+- [Microsoft-Foundry](#microsoft-foundry) (1)
 - [Microsoft-signed binary abuse](#microsoft-signed-binary-abuse) (1)
 - [MicrosoftSystem64](#microsoftsystem64) (1)
 - [Middle East](#middle-east) (9)
@@ -3038,6 +3064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Minecraft](#minecraft) (1)
 - [Minecraft DDoS](#minecraft-ddos) (1)
 - [miner dropper](#miner-dropper) (1)
+- [MinHook](#minhook) (1)
 - [Mini Shai-Hulud](#mini-shai-hulud) (8)
 - [MiniJunk](#minijunk) (1)
 - [MiniMax](#minimax) (1)
@@ -3057,6 +3084,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirai-derived botnet](#mirai-derived-botnet) (1)
 - [missile procurement](#missile-procurement) (1)
 - [missing authentication](#missing-authentication) (1)
+- [missing-authentication](#missing-authentication) (1)
 - [Mistic](#mistic) (2)
 - [MISTPEN](#mistpen) (1)
 - [MITRE ATLAS](#mitre-atlas) (1)
@@ -3173,7 +3201,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NanChat](#nanchat) (1)
 - [Nanjing Xinjiuwei](#nanjing-xinjiuwei) (1)
 - [NAS targeting](#nas-targeting) (1)
-- [nation-state](#nation-state) (1)
+- [nation-state](#nation-state) (2)
 - [national identity records](#national-identity-records) (1)
 - [native addon](#native-addon) (1)
 - [native extension](#native-extension) (3)
@@ -3411,7 +3439,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (426)
+- [ops](#ops) (429)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
@@ -3437,6 +3465,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OTP lure](#otp-lure) (1)
 - [OtterCookie](#ottercookie) (2)
 - [Ousaban](#ousaban) (2)
+- [out-of-band-patch](#out-of-band-patch) (1)
 - [out-of-bounds read](#out-of-bounds-read) (1)
 - [out-of-bounds write](#out-of-bounds-write) (4)
 - [outbound C2](#outbound-c2) (2)
@@ -3708,6 +3737,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private-key theft](#private-key-theft) (1)
 - [private-repository-c2](#private-repository-c2) (1)
 - [privilege escalation](#privilege-escalation) (20)
+- [privilege-escalation](#privilege-escalation) (1)
 - [privileged proxy](#privileged-proxy) (1)
 - [Privileged Remote Access](#privileged-remote-access) (1)
 - [prl_disp_service](#prl_disp_service) (1)
@@ -4082,12 +4112,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SafeDep](#safedep) (10)
 - [Salesforce](#salesforce) (4)
 - [Sality](#sality) (1)
+- [Salt-Typhoon](#salt-typhoon) (1)
 - [SAML](#saml) (3)
 - [SAML IdP](#saml-idp) (1)
 - [Samsung TizenRT](#samsung-tizenrt) (1)
 - [sanctions](#sanctions) (1)
 - [sandbox escape](#sandbox-escape) (11)
 - [sandbox evasion](#sandbox-evasion) (3)
+- [sandbox-escape](#sandbox-escape) (1)
 - [sandbox-evasion](#sandbox-evasion) (1)
 - [sandboxing](#sandboxing) (1)
 - [Sandworm](#sandworm) (3)
@@ -4143,6 +4175,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Secure Firewall Management Center](#secure-firewall-management-center) (2)
 - [Secure Preferences](#secure-preferences) (3)
 - [Secure Workload](#secure-workload) (1)
+- [Secure-Kernel-Mode](#secure-kernel-mode) (1)
 - [secure.html](#securehtml) (1)
 - [Security Cloud Control](#security-cloud-control) (1)
 - [Security Management Server](#security-management-server) (2)
@@ -4278,6 +4311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Silent Swap](#silent-swap) (1)
 - [silent-patch](#silent-patch) (1)
 - [SilentCryptoMiner](#silentcryptominer) (1)
+- [SilentMoonwalk](#silentmoonwalk) (1)
 - [SilentRunLoader](#silentrunloader) (1)
 - [Silicon One](#silicon-one) (1)
 - [SiliconFlow](#siliconflow) (1)
@@ -4406,6 +4440,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Spain](#spain) (1)
 - [spam](#spam) (1)
 - [Spark RAT](#spark-rat) (1)
+- [SparrowDoor](#sparrowdoor) (1)
+- [SparroWocky](#sparrowocky) (1)
 - [SPEAKINGSTONE](#speakingstone) (1)
 - [spear phishing](#spear-phishing) (12)
 - [spear-phishing](#spear-phishing) (2)
@@ -4561,6 +4597,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Symantec](#symantec) (1)
 - [Symantec Threat Hunter Team](#symantec-threat-hunter-team) (2)
 - [symbolic link](#symbolic-link) (1)
+- [symlink](#symlink) (1)
 - [symlink following](#symlink-following) (1)
 - [Synacktiv](#synacktiv) (1)
 - [Synacor](#synacor) (1)
@@ -4712,7 +4749,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tls-pinning](#tls-pinning) (1)
 - [TmcLoader](#tmcloader) (1)
 - [TmcPayload](#tmcpayload) (1)
-- [TOCTOU](#toctou) (2)
+- [TOCTOU](#toctou) (3)
 - [ToddyCat](#toddycat) (3)
 - [token forgery](#token-forgery) (3)
 - [token jacking](#token-jacking) (1)
@@ -4845,6 +4882,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UltraViewer](#ultraviewer) (1)
 - [UltraVNC](#ultravnc) (1)
 - [Umbrij](#umbrij) (3)
+- [UMPS](#umps) (1)
 - [unattributed](#unattributed) (2)
 - [unauthenticated](#unauthenticated) (13)
 - [unauthenticated access](#unauthenticated-access) (5)
@@ -4889,6 +4927,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unitree](#unitree) (1)
 - [universal binary](#universal-binary) (1)
 - [university targeting](#university-targeting) (1)
+- [Unix-socket](#unix-socket) (1)
 - [UNK_MassTraction](#unk_masstraction) (1)
 - [UNK_PitStop](#unk_pitstop) (1)
 - [unpatched](#unpatched) (1)
@@ -4978,6 +5017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ViewState](#viewstate) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
 - [ViPNet](#vipnet) (1)
+- [virtio-fs](#virtio-fs) (1)
 - [virtual machine escape](#virtual-machine-escape) (1)
 - [virtual patching](#virtual-patching) (1)
 - [virtualization](#virtualization) (3)
@@ -5023,10 +5063,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vSphere](#vsphere) (2)
 - [vSphere Foundation](#vsphere-foundation) (1)
 - [vssvc.exe](#vssvcexe) (1)
+- [VTL1](#vtl1) (1)
 - [VU#213560](#vu213560) (1)
 - [VULN-39341](#vuln-39341) (1)
 - [VulnCheck](#vulncheck) (8)
-- [vulnerability](#vulnerability) (30)
+- [vulnerability](#vulnerability) (32)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
 - [vulnerability disclosure](#vulnerability-disclosure) (2)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
@@ -5121,7 +5162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
 - [Windmill](#windmill) (1)
-- [Windows](#windows) (57)
+- [Windows](#windows) (58)
 - [windows](#windows) (1)
 - [Windows 11 25H2](#windows-11-25h2) (1)
 - [windows alpc](#windows-alpc) (1)
@@ -5640,6 +5681,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## actor
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 - [Mirage Kitten](../actors/mirage-kitten.md)
 - [Mustang Panda](../actors/mustang-panda.md)
 - [ShinyHunters](../actors/shinyhunters.md)
@@ -5880,6 +5922,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## agent state
 - [LangGraph checkpointer and namespace trust boundaries](../patterns/langgraph-checkpointer-injection-rce.md)
+
+## agent-sandbox
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
 
 ## agent-to-agent
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
@@ -6213,6 +6258,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
+## AI-coding-agent
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
+
 ## AI-enabled malware
 - [Anthropic Threat Intelligence report (September 2026): GTG case studies — autonomous malware-rebuild loops, ShinyHunters AI uplift, a Changsha exploit foundry, and prompt-injection of AI evaluation sandboxes](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
@@ -6234,6 +6282,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI-generated narrator
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
+
+## AI-platform-security
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 
 ## Aider
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -7054,6 +7105,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NodeRabbit](../tools/noderabbit.md)
 - [PollCat](../tools/pollcat.md)
 
+## Azure-AI-Foundry
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
+## Azure-Cosmos-DB
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
+## Azure-PostgreSQL
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
 ## Babuk
 - [Toy Ghouls](../actors/toy-ghouls.md)
 
@@ -7066,6 +7126,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## backdoor
 - [BINDCLOAK](../tools/bindcloak.md)
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 - [FDMTP](../tools/fdmtp.md)
 - [GigaWiper](../tools/gigawiper.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -7853,6 +7914,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## C++
 - [Aeternum](../tools/aeternum.md)
 - [BINDCLOAK](../tools/bindcloak.md)
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 - [SilkParasite](../actors/silkparasite.md)
 - [TELESHIM](../tools/teleshim.md)
 
@@ -8179,6 +8241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## China-nexus
 - [Anthropic Threat Intelligence report (September 2026): GTG case studies — autonomous malware-rebuild loops, ShinyHunters AI uplift, a Changsha exploit foundry, and prompt-injection of AI evaluation sandboxes](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 - [FDMTP](../tools/fdmtp.md)
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
@@ -8838,6 +8901,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cloud transcoding
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 
+## cloud-managed
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
 ## cloud-native
 - [Unit 42: post-exploitation workload-identity spoofing in SPIFFE/SPIRE — cgroup-selector manipulation and the Spooffe tool](../patterns/unit42-spiffe-spire-cgroup-workload-identity-spoofing-spooffe-september-2026.md)
 
@@ -8998,6 +9064,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Mirage Kitten](../actors/mirage-kitten.md)
 
+## COFF-loader
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
+
 ## coff-loading
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
@@ -9067,6 +9136,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 
 ## command-injection
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
 ## commercial LLM abuse
@@ -10653,6 +10723,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-62145
 - [CISA KEV: Check Point SmartConsole and Microsoft SharePoint July 22, 2026 additions](../ops/cisa-kev-check-point-smartconsole-sharepoint-july-22-2026.md)
 
+## CVE-2026-62721
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
 ## CVE-2026-63030
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 
@@ -10776,6 +10849,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-76640
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
+## CVE-2026-77179
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
+
 ## CVE-2026-77413
 - [JSONata arbitrary-code-execution trio (CVE-2026-77413 / -77414 / -77415)](../tools/jsonata-cve-2026-77413-77414-77415-arbitrary-code-execution.md)
 
@@ -10787,6 +10863,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-78676
 - [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
+
+## CVE-2026-79994
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
 
 ## CVE-2026-80192
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
@@ -10859,11 +10938,23 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-85706
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 
+## CVE-2026-85878
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
 ## CVE-2026-85880
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 
 ## cve-2026-85880
 - [September 2026 Patch Tuesday: two exploited zero-days, 113 critical, and a post-patch Defender "ShieldCrash" PoC](../ops/crowdstrike-september-2026-patch-tuesday-two-exploited-zero-days-shieldcrash.md)
+
+## CVE-2026-85885
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
+## CVE-2026-85889
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
+## CVE-2026-85921
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 
 ## CVE-2026-86060
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
@@ -10886,6 +10977,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-87491
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
+
+## CVE-2026-87701
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 
 ## CVE-2026-87886
 - [CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
@@ -10927,6 +11021,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
 - [Check Point Security Management Server CVE-2026-91843: unauthenticated stack overflow in the login process gives remote root (CVSS 9.8, Sep 16, 2026)](../tools/check-point-security-management-server-cve-2026-91843-login-stack-overflow-root-rce-september-2026.md)
 - [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+
+## CVSS-10
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 
 ## cvvform
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
@@ -11755,6 +11852,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Umbrij](../tools/umbrij.md)
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
+## DLL-sideloading
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
+
 ## dlopen
 - [PostGREShell: PostgreSQL 12-year-old logical-decoding flaw turns a REPLICATION account into server code execution — CVE-2026-6471](../ops/postgreshell-postgresql-logical-decoding-replication-rce-cve-2026-6471-september-2026.md)
 
@@ -11814,6 +11914,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Docker
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
@@ -11839,6 +11940,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ENCFORGE](../tools/encforge.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
+
+## Docker-Sandboxes
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
 
 ## Docro Hijacker
 - [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
@@ -12056,6 +12160,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Earth Lusca
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
+
+## Earth-Estries
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 
 ## East Asia
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
@@ -12453,6 +12560,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
 ## ESET
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 
 ## ESG
@@ -12470,6 +12578,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dragonfly](../actors/dragonfly-energetic-bear-crouching-yeti.md)
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 - [FishMonger](../actors/fishmonger.md)
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
@@ -12942,6 +13051,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Famous Chollima
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
+
+## FamousSparrow
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 
 ## Fancy Bear
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
@@ -14479,6 +14591,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## host surveillance
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
+## host-file-access
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
+
 ## hosting control plane
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
@@ -15894,6 +16009,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 - [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
+## Latin-America
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
+
 ## LaunchAgent
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
@@ -16475,6 +16593,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## M365
 - [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
 
+## M365-Copilot
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
 ## MaaS
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
@@ -16522,6 +16643,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
@@ -16890,6 +17012,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Mbed
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
+## Mbed-TLS
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
+
 ## McAfee Labs
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
@@ -17110,6 +17235,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [AI-agent memory poisoning](../patterns/ai-agent-memory-poisoning.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 17–18 additions: Microsoft IKE, Ray, VMware vCenter, SharePoint, and macOS](../ops/cisa-kev-microsoft-ray-vmware-macos-august-17-2026.md)
@@ -17256,6 +17382,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft Windows Hardware Compatibility Publisher
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
+## Microsoft-Foundry
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
 ## Microsoft-signed binary abuse
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
 
@@ -17316,6 +17445,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## miner dropper
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
+
+## MinHook
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 
 ## Mini Shai-Hulud
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
@@ -17392,6 +17524,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## missing authentication
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
+
+## missing-authentication
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 
 ## Mistic
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
@@ -17813,6 +17948,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 
 ## nation-state
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 - [ROADtools](../tools/roadtools.md)
 
 ## national identity records
@@ -19116,6 +19252,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
@@ -19192,6 +19329,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
@@ -19210,6 +19348,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
@@ -19590,6 +19729,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ousaban
 - [BraZetsu: Python-based Windows IAB master toolkit fueling the "Infected Marketplace" (Group-IB, Sep 3, 2026)](../tools/brazetsu.md)
 - [Exilware: Brazilian IAB operation behind BraZetsu and the "Infected Marketplace"](../actors/exilware.md)
+
+## out-of-band-patch
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 
 ## out-of-bounds read
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
@@ -20714,6 +20856,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wiz "Artifactory Under Attack": in-the-wild exploitation chains in JFrog Artifactory (CVE-2026-42016 / CVE-2026-42018 / CVE-2026-82329)](../ops/wiz-artifactory-in-the-wild-cve-2026-42016-42018-82329-september-2026.md)
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+
+## privilege-escalation
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 
 ## privileged proxy
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
@@ -22232,6 +22377,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Sality
 - [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
+## Salt-Typhoon
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
+
 ## SAML
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
@@ -22263,6 +22411,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+
+## sandbox-escape
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
 
 ## sandbox-evasion
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
@@ -22477,6 +22628,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Secure Workload
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
+
+## Secure-Kernel-Mode
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 
 ## secure.html
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
@@ -22955,6 +23109,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SilentCryptoMiner
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
+
+## SilentMoonwalk
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 
 ## SilentRunLoader
 - [TA4922](../actors/ta4922.md)
@@ -23441,6 +23598,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Spark RAT
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
+
+## SparrowDoor
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
+
+## SparroWocky
+- [FamousSparrow swaps SparrowDoor for SparroWocky — modular C++ backdoor with embedded open-source tradecraft (Mbed TLS / MinHook / COFF loader / SilentMoonwalk), 90% Latin America targeting (ESET, Sep 2026)](../ops/famoussparrow-sparrowocky-backdoor-latin-america-eset-september-2026.md)
 
 ## SPEAKINGSTONE
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
@@ -24139,6 +24302,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## symbolic link
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 
+## symlink
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
+
 ## symlink following
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
@@ -24684,6 +24850,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
 ## TOCTOU
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
 
@@ -25282,6 +25449,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Umbrij](../tools/umbrij.md)
 
+## UMPS
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
 ## unattributed
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
@@ -25477,6 +25647,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## university targeting
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
+## Unix-socket
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
 
 ## UNK_MassTraction
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -25782,6 +25955,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ViPNet
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 
+## virtio-fs
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
+
 ## virtual machine escape
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
@@ -25956,6 +26132,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vssvc.exe
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
+## VTL1
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
 ## VU#213560
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 
@@ -25976,12 +26155,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 - [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+- [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
@@ -26384,6 +26565,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aeternum](../tools/aeternum.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [ArcBridge](../tools/arcbridge.md)
+- [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [BINDCLOAK](../tools/bindcloak.md)
 - [BraZetsu: Python-based Windows IAB master toolkit fueling the "Infected Marketplace" (Group-IB, Sep 3, 2026)](../tools/brazetsu.md)
