@@ -78,6 +78,7 @@ A vulnerability in Next.js applications that use **both the Pages Router and the
 - No in-the-wild exploitation of either August vulnerability was reported as of August 27, 2026 (THN reached out to Vercel; no response by publication).
 
 ## Related pages
+- [Sep 18, 2026 follow-up: Hacktron "HEIF Heist" — libheif bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access (fix shipped upstream unflagged, no CVE)](hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [GitHub Security Advisories August 29, 2026 (RCE/auth-bypass/sandbox batch)](github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 - [CISA KEV August 27, 2026 additions (ownCloud / Linux kernel / JFrog Artifactory)](cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 

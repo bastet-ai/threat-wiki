@@ -60,7 +60,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [account abuse](#account-abuse) (1)
 - [account hijacking](#account-hijacking) (1)
 - [account lockout](#account-lockout) (1)
-- [account takeover](#account-takeover) (8)
+- [account takeover](#account-takeover) (9)
 - [account-takeover](#account-takeover) (1)
 - [accounts payable](#accounts-payable) (1)
 - [accountsd masquerade](#accountsd-masquerade) (1)
@@ -214,6 +214,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-assisted C2](#ai-assisted-c2) (1)
 - [AI-assisted development](#ai-assisted-development) (3)
 - [AI-assisted exploit](#ai-assisted-exploit) (1)
+- [AI-assisted exploit development](#ai-assisted-exploit-development) (1)
 - [AI-assisted intrusion](#ai-assisted-intrusion) (1)
 - [AI-assisted malware](#ai-assisted-malware) (3)
 - [AI-assisted malware development](#ai-assisted-malware-development) (4)
@@ -431,7 +432,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Avada](#avada) (1)
 - [Avalon](#avalon) (2)
 - [aviation](#aviation) (3)
-- [AVIF](#avif) (1)
+- [AVIF](#avif) (2)
 - [AWS](#aws) (9)
 - [AWS CloudTrail](#aws-cloudtrail) (1)
 - [AWS S3](#aws-s3) (2)
@@ -620,7 +621,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bucket hijacking](#bucket-hijacking) (1)
 - [bucket squatting](#bucket-squatting) (1)
 - [buffer overflow](#buffer-overflow) (2)
-- [bug bounty](#bug-bounty) (1)
+- [bug bounty](#bug-bounty) (2)
 - [bug-bounty](#bug-bounty) (1)
 - [Bugcrowd](#bugcrowd) (1)
 - [build pipeline](#build-pipeline) (1)
@@ -723,7 +724,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Charming Kitten](#charming-kitten) (2)
 - [chat widget](#chat-widget) (1)
 - [chat-template poisoning](#chat-template-poisoning) (1)
-- [ChatGPT](#chatgpt) (1)
+- [ChatGPT](#chatgpt) (2)
 - [chattr](#chattr) (1)
 - [Chatty Spider](#chatty-spider) (1)
 - [CHAVECLOAK](#chavecloak) (1)
@@ -803,6 +804,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Claude for Chrome](#claude-for-chrome) (1)
 - [Claude Mythos 5](#claude-mythos-5) (1)
 - [Claude Opus 4.7](#claude-opus-47) (1)
+- [Claude Opus 5](#claude-opus-5) (1)
 - [Clawdbot](#clawdbot) (1)
 - [ClawWorm](#clawworm) (1)
 - [ClearFake](#clearfake) (2)
@@ -890,7 +892,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [codegen injection](#codegen-injection) (1)
 - [codemado](#codemado) (1)
 - [CodeQL](#codeql) (1)
-- [Codex](#codex) (3)
+- [Codex](#codex) (4)
 - [Codex CLI](#codex-cli) (1)
 - [coding agents](#coding-agents) (1)
 - [coding challenge](#coding-challenge) (2)
@@ -1586,6 +1588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Discord certificate](#discord-certificate) (1)
 - [Discord link abuse](#discord-link-abuse) (1)
 - [Discord masquerade](#discord-masquerade) (1)
+- [Discourse](#discourse) (1)
 - [discovery](#discovery) (1)
 - [disk wiping](#disk-wiping) (1)
 - [disposable infrastructure](#disposable-infrastructure) (1)
@@ -2020,6 +2023,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [freeware impersonation](#freeware-impersonation) (1)
 - [Friendly Fire](#friendly-fire) (1)
 - [frontier AI](#frontier-ai) (2)
+- [frontier models](#frontier-models) (1)
 - [FruitStone](#fruitstone) (1)
 - [FSB](#fsb) (4)
 - [FSB Center 16](#fsb-center-16) (2)
@@ -2127,6 +2131,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub dead drop](#github-dead-drop) (3)
 - [GitHub issue spam](#github-issue-spam) (1)
 - [GitHub OAuth](#github-oauth) (2)
+- [GitHub organization](#github-organization) (1)
 - [GitHub Pages](#github-pages) (1)
 - [GitHub Pages abuse](#github-pages-abuse) (2)
 - [GitHub PAT abuse](#github-pat-abuse) (1)
@@ -2247,6 +2252,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerOne](#hackerone) (1)
 - [HackIndex](#hackindex) (1)
 - [hacktivist persona](#hacktivist-persona) (1)
+- [Hacktron AI](#hacktron-ai) (1)
 - [Hades](#hades) (3)
 - [Hajime](#hajime) (1)
 - [half-click exploit](#half-click-exploit) (1)
@@ -2275,12 +2281,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HEADRUSH](#headrush) (1)
 - [healthcare](#healthcare) (4)
 - [heap buffer overflow](#heap-buffer-overflow) (2)
+- [heap disclosure](#heap-disclosure) (1)
 - [heap overflow](#heap-overflow) (1)
 - [heap pointer disclosure](#heap-pointer-disclosure) (1)
 - [heap scraping](#heap-scraping) (1)
 - [heap-based buffer overflow](#heap-based-buffer-overflow) (1)
-- [HEIC](#heic) (1)
-- [HEIF](#heif) (1)
+- [HEIC](#heic) (2)
+- [HEIF](#heif) (2)
 - [HELIX](#helix) (1)
 - [Helix](#helix) (1)
 - [HelloBackdoor](#hellobackdoor) (1)
@@ -2394,9 +2401,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IKEv1](#ikev1) (1)
 - [Ill Bloom](#ill-bloom) (1)
 - [image optimization](#image-optimization) (1)
+- [image parsing](#image-parsing) (1)
 - [image proxy bypass](#image-proxy-bypass) (1)
 - [image recognition](#image-recognition) (1)
-- [ImageMagick](#imagemagick) (1)
+- [ImageMagick](#imagemagick) (2)
 - [iMessage](#imessage) (2)
 - [Impacket](#impacket) (5)
 - [Imperial Kitten](#imperial-kitten) (1)
@@ -2712,7 +2720,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LevelBlue](#levelblue) (1)
 - [Lexfo](#lexfo) (1)
 - [libcurl](#libcurl) (1)
-- [libheif](#libheif) (2)
+- [libde265](#libde265) (1)
+- [libheif](#libheif) (3)
 - [liblzma](#liblzma) (1)
 - [libmupdf.dll](#libmupdfdll) (1)
 - [libp2p](#libp2p) (1)
@@ -2927,7 +2936,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [medical research](#medical-research) (1)
 - [Mekotio](#mekotio) (1)
 - [memfd](#memfd) (1)
-- [memory corruption](#memory-corruption) (3)
+- [memory corruption](#memory-corruption) (4)
 - [memory disclosure](#memory-disclosure) (2)
 - [memory implant](#memory-implant) (1)
 - [memory overflow](#memory-overflow) (1)
@@ -3068,6 +3077,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Monero mining](#monero-mining) (1)
 - [money laundering](#money-laundering) (1)
 - [MongoDB](#mongodb) (1)
+- [monorepo](#monorepo) (1)
 - [Monster ransomware](#monster-ransomware) (1)
 - [monthly security release](#monthly-security-release) (1)
 - [Moonshot](#moonshot) (1)
@@ -3212,6 +3222,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [no attribution](#no-attribution) (1)
 - [no C2](#no-c2) (1)
 - [no credential theft](#no-credential-theft) (1)
+- [no CVE](#no-cve) (1)
 - [no vendor response](#no-vendor-response) (1)
 - [no-install-hook delivery](#no-install-hook-delivery) (1)
 - [No-IP](#no-ip) (1)
@@ -3333,7 +3344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [open-source supply chain](#open-source-supply-chain) (1)
 - [open-source tool](#open-source-tool) (1)
 - [open-source-malware](#open-source-malware) (1)
-- [OpenAI](#openai) (3)
+- [OpenAI](#openai) (4)
 - [OpenAI agents](#openai-agents) (1)
 - [OpenAI API keys](#openai-api-keys) (1)
 - [OpenAI Codex](#openai-codex) (1)
@@ -3374,7 +3385,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (421)
+- [ops](#ops) (422)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
@@ -3878,7 +3889,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (9)
 - [Remote Access VPN](#remote-access-vpn) (1)
-- [remote code execution](#remote-code-execution) (32)
+- [remote code execution](#remote-code-execution) (33)
 - [remote debugging](#remote-debugging) (2)
 - [remote desktop](#remote-desktop) (1)
 - [remote MCP](#remote-mcp) (1)
@@ -4487,7 +4498,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (1)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (116)
+- [supply-chain](#supply-chain) (117)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -4834,6 +4845,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNK_PitStop](#unk_pitstop) (1)
 - [unpatched](#unpatched) (1)
 - [unpatched transitive library](#unpatched-transitive-library) (1)
+- [unpatched upstream fix](#unpatched-upstream-fix) (1)
 - [unpatched vulnerability](#unpatched-vulnerability) (2)
 - [unpkg](#unpkg) (1)
 - [Unreal Engine](#unreal-engine) (1)
@@ -5404,6 +5416,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## account takeover
 - [@zereight/mcp-gitlab CVE-2026-61560: unauthenticated SSE transport plus arbitrary file read exfiltrates the GitLab PAT (CVSS 9.8, Sep 16, 2026)](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
@@ -6110,6 +6123,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI-assisted exploit
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
+
+## AI-assisted exploit development
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 
 ## AI-assisted intrusion
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
@@ -6920,6 +6936,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirage Kitten NodeRabbit / PollCat coding-challenge campaign](../ops/mirage-kitten-noderabbit-pollcat-coding-challenge-september-2026.md)
 
 ## AVIF
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## AWS
@@ -7667,6 +7684,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
 ## bug bounty
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 
 ## bug-bounty
@@ -8035,6 +8053,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ChatGPT
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 
 ## chattr
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
@@ -8492,6 +8511,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Claude Opus 4.7
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 
+## Claude Opus 5
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
+
 ## Clawdbot
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 
@@ -8874,6 +8896,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Codex
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
@@ -11551,6 +11574,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Discord masquerade
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 
+## Discourse
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
+
 ## discovery
 - [ROADtools](../tools/roadtools.md)
 
@@ -13210,6 +13236,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 - [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 
+## frontier models
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
+
 ## FruitStone
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 
@@ -13605,6 +13634,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub OAuth
 - [CircleCI 2023 customer secret exposure incident](../ops/circleci-2023-customer-secret-exposure-incident.md)
 - [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
+
+## GitHub organization
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 
 ## GitHub Pages
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
@@ -14071,6 +14103,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hacktivist persona
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
 
+## Hacktron AI
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
+
 ## Hades
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
@@ -14164,6 +14199,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 
+## heap disclosure
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
+
 ## heap overflow
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
 
@@ -14177,9 +14215,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
 
 ## HEIC
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## HEIF
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## HELIX
@@ -14570,6 +14610,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## image optimization
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
+## image parsing
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
+
 ## image proxy bypass
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
 
@@ -14578,6 +14621,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ImageMagick
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 
 ## iMessage
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
@@ -15847,8 +15891,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## libcurl
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 
+## libde265
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
+
 ## libheif
 - [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 
 ## liblzma
@@ -16788,6 +16836,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## memory corruption
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
 
 ## memory disclosure
@@ -17379,6 +17428,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MongoDB
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 
+## monorepo
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
+
 ## Monster ransomware
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 
@@ -17867,6 +17919,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## no credential theft
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
+
+## no CVE
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 
 ## no vendor response
 - [Kaltura mwEmbed unpatched: unauthenticated file read + RCE via mwEmbedLoader.php (CVE-2026-19912/19913)](../ops/kaltura-mwembed-cve-2026-19912-cve-2026-19913-unpatched-rce-file-read.md)
@@ -18377,6 +18432,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 
 ## OpenAI
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
@@ -19039,6 +19095,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
@@ -21374,6 +21431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Joomla JCE CVE-2026-48907 exploitation](../ops/joomla-jce-cve-2026-48907-exploitation.md)
@@ -23738,6 +23796,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [IronWorm npm Rust infostealer campaign](../ops/ironworm-npm-rust-infostealer.md)
@@ -25204,6 +25263,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unpatched transitive library
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
+
+## unpatched upstream fix
+- [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 
 ## unpatched vulnerability
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
