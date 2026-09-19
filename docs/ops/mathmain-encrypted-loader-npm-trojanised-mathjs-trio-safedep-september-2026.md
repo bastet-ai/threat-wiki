@@ -41,7 +41,7 @@ SafeDep published a malicious-package analysis on **September 18, 2026** ("Why D
 | Sep 17, 06:53 | `mathmain@1.0.2` published **with** matching files |
 | Sep 17 | SafeDep source review + 17,000+ password attempts; no plaintext recovered |
 
-Version-flip-flopping matters operationally: **npm currently serves `mathmain@1.0.0` (clean) as `latest`; the loader lives in `1.0.1`** — checking only the default release would miss it. `mathsbase` alternates clean/malicious by version too (registry check, Sep 19: `mathmain` latest = 1.0.0, `mathsbase` latest = 1.0.2, `math-universe` latest = 1.0.2).
+Version-flip-flopping matters operationally: **npm currently serves `mathmain@1.0.0` (clean) as `latest`; the loader lives in `1.0.1`** — checking only the default release would miss it. `mathsbase` alternates clean/malicious by version too (registry check, Sep 19 morning: `mathmain` latest = 1.0.0, `mathsbase` latest = 1.0.2, `math-universe` latest = 1.0.2). **Superseded by the evening Sep 19 check below — the surviving `mathmain` `1.0.0` is now the loaded build.**
 
 ## The public-source gap
 
@@ -57,6 +57,17 @@ Working theory: the packages are **payload storage for a later attack** — a se
 - **The encrypted-blob-in-dependency shape is now a documented staging pattern** with two SafeDep cases in seven weeks: `ulid-xyz` (armed, trigger found) and this trio (armed, trigger not yet seen). Treat "package contains megabytes of base64 with no reader in the visible code" as its own query.
 - **Version-checking hygiene:** clean `latest` + dirty non-default versions defeats trivial scanning; audit **lockfiles**, not "the latest version," and diff installed trees against public repo contents where both exist.
 - **Registry/coordination asks:** these three packages remain **live on npm as of Sep 19** (versions listed above; no GHSA published for any of them as of this scan). Report/takedown pressure and a consumer-side lockfile sweep are the actionable moves until the password or plaintext surfaces.
+
+## September 19 (evening) registry re-verification: the "clean latest" has FLIPPED — `mathmain` latest is now the loaded build
+
+Live registry check (this wiki, Sep 19 ~13:45 UTC) materially changes the flip-flop story:
+
+- **`mathmain` was unpublished and RECREATED.** The package name's `created` timestamp is now **2026-09-17T06:53:06Z** — the same minute as the Sep 17 republish in the timeline above — and the ONLY surviving version is **`1.0.0`, marked `latest`, and it CONTAINS the loader**: `lib/cjs/utils/event.js` with the campaign hash `ab66c98e…` (scryptSync present), the obfuscated `lusolve.js` carrying the `removeSolveValidation` call, and the 1,572,616-byte `bignumber/type.js` blob. The earlier note on this page ("npm currently serves the CLEAN `mathmain@1.0.0` as latest") reflected the ORIGINAL Aug-26 `1.0.0`; after the delete-and-recreate, **any fresh `npm i mathmain` today pulls the loaded build**. The clean/dirty flip-flop has resolved in the hostile direction: **latest = loaded**.
+- **All three `math-universe` versions (1.0.0/1.0.1/1.0.2) carry the loader** (event.js with scryptSync in each; the 1.57 MB blob present in `1.0.2`).
+- `mathsbase`: `1.0.1` carries the loader (tarball SHA-256 `03e13cdedd9c33e6…` — **matches SafeDep's indicator exactly**; live-verified). `1.0.0` and `1.0.2` lack `event.js`/the scryptSync loader, though `1.0.2` ships a differently-hashed `graph.js` (`dcebfdf7…`, 7,315 B) in the same slot.
+- **Registry tarball hashes independently verified against SafeDep's published set** for `mathsbase@1.0.1`, `math-universe@1.0.1` (`bfe772e7…`), and `math-universe@1.0.2` (`4eb1d59d…`) — the on-wiki indicator set is confirmed live, not just reported.
+- **Still no GHSA and no takedown for any of the three** (GHSA API sweep of npm advisories published since Sep 18, Sep 19 ~13:50 UTC). The delete-and-recreate at Sep 17 06:53 UTC reset the version history — **prior-version scanning tools that cached the Aug/Sep version list now hold phantom versions while the loaded build sits under a familiar-looking `1.0.0`**.
+- Defender translation update: the "audit lockfiles, not latest" guidance STILL applies, but as of this check **`latest` itself is dirty for `mathmain`** — both checks are now mandatory. The unpublish-and-republish-with-the-same-loaded-code pattern is worth logging as a takedown-evasion behavior for the ongoing watch.
 
 ## Caveats
 

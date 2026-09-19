@@ -78,7 +78,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [active exploitation](#active-exploitation) (86)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
-- [active-exploitation](#active-exploitation) (1)
+- [active-exploitation](#active-exploitation) (2)
 - [ActiveCampaign](#activecampaign) (1)
 - [actively-exploited](#actively-exploited) (1)
 - [ActiveX](#activex) (1)
@@ -132,6 +132,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [affiliate tracking](#affiliate-tracking) (1)
 - [Afghan telecom](#afghan-telecom) (1)
 - [Afghanistan](#afghanistan) (5)
+- [afghanistan](#afghanistan) (1)
 - [AFP](#afp) (2)
 - [Africa](#africa) (5)
 - [agent containment](#agent-containment) (1)
@@ -324,6 +325,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT29](#apt29) (3)
 - [APT32](#apt32) (1)
 - [APT36](#apt36) (3)
+- [apt36](#apt36) (1)
 - [APT37](#apt37) (2)
 - [APT42](#apt42) (1)
 - [APT43](#apt43) (1)
@@ -484,7 +486,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Base64](#base64) (1)
 - [baseband](#baseband) (1)
 - [BaseZipInstaller](#basezipinstaller) (1)
+- [bash](#bash) (1)
 - [Bash Uploader](#bash-uploader) (1)
+- [bashnatch](#bashnatch) (1)
 - [batch loader](#batch-loader) (1)
 - [batch script](#batch-script) (1)
 - [Bayesian scoring](#bayesian-scoring) (1)
@@ -496,7 +500,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [beacon](#beacon) (1)
 - [Bearlyfy](#bearlyfy) (3)
 - [Beast ransomware](#beast-ransomware) (1)
-- [BeaverTail](#beavertail) (1)
+- [BeaverTail](#beavertail) (2)
 - [BEC](#bec) (1)
 - [Bech32](#bech32) (1)
 - [Bedrock](#bedrock) (1)
@@ -667,6 +671,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CallFlow](#callflow) (1)
 - [Cambodia](#cambodia) (2)
 - [campaign](#campaign) (9)
+- [campaign-IDs](#campaign-ids) (1)
 - [Canada](#canada) (1)
 - [canary](#canary) (1)
 - [CANFAIL](#canfail) (1)
@@ -754,6 +759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chrome extension abuse](#chrome-extension-abuse) (1)
 - [Chrome renderer sandbox](#chrome-renderer-sandbox) (1)
 - [Chrome Web Store](#chrome-web-store) (5)
+- [Chrome-extension-storage](#chrome-extension-storage) (1)
 - [chrome_settings_overrides](#chrome_settings_overrides) (1)
 - [ChromElevator](#chromelevator) (1)
 - [Chromium](#chromium) (7)
@@ -762,6 +768,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [chunked exfiltration](#chunked-exfiltration) (1)
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (4)
+- [CI-CD-adjacent](#ci-cd-adjacent) (1)
 - [CI-CD-credentials](#ci-cd-credentials) (1)
 - [CI/CD](#cicd) (45)
 - [CI/CD abuse](#cicd-abuse) (1)
@@ -811,6 +818,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cleartext credentials](#cleartext-credentials) (1)
 - [Clever Cloud](#clever-cloud) (1)
 - [click interception](#click-interception) (1)
+- [click2shell](#click2shell) (1)
 - [clicker](#clicker) (1)
 - [ClickFake](#clickfake) (1)
 - [ClickFix](#clickfix) (30)
@@ -819,8 +827,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickOnce](#clickonce) (2)
 - [ClickUp](#clickup) (1)
 - [client installer poisoning](#client-installer-poisoning) (1)
+- [client-side](#client-side) (1)
 - [client-side exploitation](#client-side-exploitation) (3)
 - [Cline](#cline) (1)
+- [clipboard](#clipboard) (1)
 - [clipboard command](#clipboard-command) (1)
 - [clipboard hijacker](#clipboard-hijacker) (2)
 - [clipboard hijacking](#clipboard-hijacking) (2)
@@ -926,11 +936,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [computer vision](#computer-vision) (1)
 - [Conditional Access](#conditional-access) (1)
 - [conditional access](#conditional-access) (1)
+- [Conductor](#conductor) (1)
 - [configuration exposure](#configuration-exposure) (1)
 - [configuration tampering](#configuration-tampering) (1)
 - [configuration theft](#configuration-theft) (2)
 - [Confluence](#confluence) (1)
 - [confused deputy](#confused-deputy) (4)
+- [confused-deputy](#confused-deputy) (1)
 - [ConfuserEx](#confuserex) (2)
 - [conhost](#conhost) (2)
 - [connected apps](#connected-apps) (2)
@@ -944,6 +956,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [consumer IoT](#consumer-iot) (1)
 - [consumer software](#consumer-software) (1)
 - [Contagious Interview](#contagious-interview) (6)
+- [Contagious-Interview](#contagious-interview) (1)
 - [container](#container) (1)
 - [container escape](#container-escape) (5)
 - [container escape pre-check](#container-escape-pre-check) (1)
@@ -1072,6 +1085,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CSP monitoring](#csp-monitoring) (1)
 - [CSP stripping](#csp-stripping) (1)
 - [CSRF](#csrf) (3)
+- [csrf](#csrf) (1)
 - [CSRF token theft](#csrf-token-theft) (1)
 - [CSS](#css) (1)
 - [CSS sanitization](#css-sanitization) (1)
@@ -1306,6 +1320,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-55634](#cve-2026-55634) (1)
 - [CVE-2026-56290](#cve-2026-56290) (1)
 - [CVE-2026-56291](#cve-2026-56291) (1)
+- [CVE-2026-58138](#cve-2026-58138) (1)
 - [CVE-2026-58704](#cve-2026-58704) (1)
 - [CVE-2026-59283](#cve-2026-59283) (1)
 - [CVE-2026-59285](#cve-2026-59285) (1)
@@ -1442,7 +1457,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cyber Disruption Unit](#cyber-disruption-unit) (1)
 - [cyber evaluation](#cyber-evaluation) (1)
 - [cyber sanctions](#cyber-sanctions) (1)
-- [cyber-espionage](#cyber-espionage) (6)
+- [cyber-espionage](#cyber-espionage) (7)
 - [CyberAv3ngers](#cyberav3ngers) (1)
 - [cybercrime](#cybercrime) (20)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
@@ -1493,7 +1508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DDS](#dds) (1)
 - [dead drop](#dead-drop) (1)
 - [dead drop resolver](#dead-drop-resolver) (5)
-- [dead-drop](#dead-drop) (1)
+- [dead-drop](#dead-drop) (2)
 - [dead-drop resolver](#dead-drop-resolver) (3)
 - [DeadLock](#deadlock) (1)
 - [Debian](#debian) (1)
@@ -1635,6 +1650,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DoFun](#dofun) (1)
 - [DOGLEASH](#dogleash) (1)
 - [DOJ](#doj) (2)
+- [DOM-selection-injection](#dom-selection-injection) (1)
 - [domain impersonation](#domain-impersonation) (1)
 - [domain squatting](#domain-squatting) (1)
 - [domain verification](#domain-verification) (1)
@@ -1653,7 +1669,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DPAPI](#dpapi) (3)
 - [dpapi.dll](#dpapidll) (1)
 - [DPAPILoader](#dpapiloader) (1)
-- [DPRK](#dprk) (8)
+- [DPRK](#dprk) (9)
 - [DPRK APT](#dprk-apt) (1)
 - [DragonForce](#dragonforce) (1)
 - [drive serial number](#drive-serial-number) (1)
@@ -1941,6 +1957,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [file upload](#file-upload) (1)
 - [file upload path traversal](#file-upload-path-traversal) (1)
 - [file-manager-backdoor](#file-manager-backdoor) (1)
+- [file-stealer](#file-stealer) (1)
 - [file-system filter](#file-system-filter) (1)
 - [FileFiend](#filefiend) (1)
 - [FILEIO](#fileio) (1)
@@ -2010,7 +2027,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Forms Authentication](#forms-authentication) (1)
 - [FortiClient EMS](#forticlient-ems) (1)
 - [FortiGate](#fortigate) (3)
-- [Fortinet](#fortinet) (5)
+- [Fortinet](#fortinet) (6)
 - [FortiOS](#fortios) (4)
 - [FortiSandbox](#fortisandbox) (1)
 - [FortiSASE](#fortisase) (1)
@@ -2142,6 +2159,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Security Advisories](#github-security-advisories) (9)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub tool hosting](#github-tool-hosting) (1)
+- [github-c2](#github-c2) (1)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
 - [GitLab](#gitlab) (5)
 - [gitleaks](#gitleaks) (1)
@@ -2217,6 +2235,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GPT-5.6 Sol](#gpt-56-sol) (1)
 - [GPT-5.6-Cyber](#gpt-56-cyber) (1)
 - [GPT-6](#gpt-6) (1)
+- [GraalVM](#graalvm) (1)
 - [Gradio](#gradio) (1)
 - [Grafana MCP Server](#grafana-mcp-server) (1)
 - [Grandoreiro](#grandoreiro) (2)
@@ -2423,13 +2442,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory ELF execution](#in-memory-elf-execution) (1)
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
-- [in-memory-execution](#in-memory-execution) (1)
+- [in-memory-execution](#in-memory-execution) (2)
 - [incident response](#incident-response) (40)
 - [incident-response](#incident-response) (2)
 - [incomplete patch](#incomplete-patch) (1)
 - [incorrect default permissions](#incorrect-default-permissions) (1)
 - [IndexedDB](#indexeddb) (3)
 - [India](#india) (3)
+- [india](#india) (1)
 - [India-nexus](#india-nexus) (1)
 - [Indian government](#indian-government) (1)
 - [indirect prompt injection](#indirect-prompt-injection) (12)
@@ -2449,7 +2469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Infoblox Threat Intel](#infoblox-threat-intel) (1)
 - [information disclosure](#information-disclosure) (5)
 - [information stealer](#information-stealer) (1)
-- [infostealer](#infostealer) (32)
+- [infostealer](#infostealer) (33)
 - [infotainment](#infotainment) (1)
 - [InfoTeCS](#infotecs) (1)
 - [infrastructure](#infrastructure) (6)
@@ -2526,11 +2546,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JAR payload](#jar-payload) (1)
 - [JARLEASH](#jarleash) (1)
 - [JarService](#jarservice) (1)
-- [Java](#java) (3)
+- [Java](#java) (4)
 - [Java deserialization](#java-deserialization) (1)
 - [Java malware](#java-malware) (1)
 - [java.rmi.MarshalledObject](#javarmimarshalledobject) (1)
-- [JavaScript](#javascript) (25)
+- [JavaScript](#javascript) (26)
 - [JavaScript bridge](#javascript-bridge) (1)
 - [JavaScript execution](#javascript-execution) (1)
 - [JavaScript implant](#javascript-implant) (1)
@@ -2629,7 +2649,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Keycloak](#keycloak) (1)
 - [KeyHunter](#keyhunter) (1)
 - [keylogger](#keylogger) (5)
-- [keylogging](#keylogging) (4)
+- [keylogging](#keylogging) (5)
 - [keyval.org](#keyvalorg) (1)
 - [keyword splitting](#keyword-splitting) (1)
 - [kill switch](#kill-switch) (1)
@@ -2880,7 +2900,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
 - [malvertising](#malvertising) (10)
-- [malware](#malware) (67)
+- [malware](#malware) (68)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
@@ -3197,6 +3217,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [network security appliances](#network-security-appliances) (1)
 - [network switch](#network-switch) (1)
 - [network-share exfiltration](#network-share-exfiltration) (1)
+- [news-impersonation](#news-impersonation) (1)
 - [NexShield](#nexshield) (1)
 - [Next.js](#nextjs) (2)
 - [NextChat](#nextchat) (1)
@@ -3253,7 +3274,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (73)
+- [npm](#npm) (74)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3262,6 +3283,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npm v12](#npm-v12) (1)
 - [npm-v12](#npm-v12) (1)
 - [npmmirror](#npmmirror) (1)
+- [Npoint](#npoint) (1)
 - [npx](#npx) (1)
 - [npx confusion](#npx-confusion) (1)
 - [NSA](#nsa) (1)
@@ -3359,7 +3381,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenSearch](#opensearch) (1)
 - [OpenShell](#openshell) (1)
 - [OpenShield](#openshield) (1)
-- [OpenSourceMalware](#opensourcemalware) (1)
+- [OpenSourceMalware](#opensourcemalware) (2)
 - [OpenSSF](#openssf) (1)
 - [OpenSSH](#openssh) (2)
 - [openssl_verify](#openssl_verify) (1)
@@ -3377,6 +3399,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Endgame](#operation-endgame) (1)
 - [Operation Escaneo](#operation-escaneo) (1)
 - [Operation Highland](#operation-highland) (2)
+- [operation-rapidrust](#operation-rapidrust) (1)
 - [operational relay box](#operational-relay-box) (1)
 - [Operational Relay Box](#operational-relay-box) (1)
 - [operational resilience](#operational-resilience) (1)
@@ -3388,7 +3411,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (423)
+- [ops](#ops) (426)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
@@ -3404,6 +3427,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ORANGETAIL](#orangetail) (1)
 - [ORB network](#orb-network) (1)
 - [organization username](#organization-username) (1)
+- [Orkes](#orkes) (1)
 - [OS command injection](#os-command-injection) (3)
 - [OSCrypt](#oscrypt) (1)
 - [OT](#ot) (6)
@@ -3411,11 +3435,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OTA update](#ota-update) (1)
 - [OTP interception](#otp-interception) (1)
 - [OTP lure](#otp-lure) (1)
-- [OtterCookie](#ottercookie) (1)
+- [OtterCookie](#ottercookie) (2)
 - [Ousaban](#ousaban) (2)
 - [out-of-bounds read](#out-of-bounds-read) (1)
 - [out-of-bounds write](#out-of-bounds-write) (4)
 - [outbound C2](#outbound-c2) (2)
+- [outbreak-alert](#outbreak-alert) (1)
 - [Outlook](#outlook) (2)
 - [Outlook Web Access](#outlook-web-access) (2)
 - [Outsider Enterprise](#outsider-enterprise) (1)
@@ -3459,6 +3484,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [page poisoning](#page-poisoning) (1)
 - [paired session](#paired-session) (1)
 - [Pakistan](#pakistan) (4)
+- [pakistan](#pakistan) (1)
 - [Pakistan-aligned](#pakistan-aligned) (1)
 - [Pakistan-linked](#pakistan-linked) (2)
 - [Palo Alto Networks](#palo-alto-networks) (2)
@@ -3645,6 +3671,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [POWER.md](#powermd) (1)
 - [PowerCloud](#powercloud) (1)
 - [PowerShell](#powershell) (29)
+- [powershell](#powershell) (1)
 - [PowerShell AMSI bypass](#powershell-amsi-bypass) (1)
 - [PowerShell execution](#powershell-execution) (1)
 - [PowerShell malware](#powershell-malware) (3)
@@ -3660,6 +3687,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PRC-nexus](#prc-nexus) (1)
 - [pre-auth](#pre-auth) (1)
 - [pre-auth RCE](#pre-auth-rce) (1)
+- [pre-auth-rce](#pre-auth-rce) (1)
 - [pre-authentication](#pre-authentication) (3)
 - [pre-authentication RCE](#pre-authentication-rce) (3)
 - [pre-signed URL](#pre-signed-url) (2)
@@ -3678,6 +3706,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private packages](#private-packages) (1)
 - [private registry fallback](#private-registry-fallback) (1)
 - [private-key theft](#private-key-theft) (1)
+- [private-repository-c2](#private-repository-c2) (1)
 - [privilege escalation](#privilege-escalation) (20)
 - [privileged proxy](#privileged-proxy) (1)
 - [Privileged Remote Access](#privileged-remote-access) (1)
@@ -3733,6 +3762,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pseudorandom number generator](#pseudorandom-number-generator) (1)
 - [PsExec](#psexec) (4)
 - [PSIGW](#psigw) (1)
+- [psnatch](#psnatch) (1)
 - [psychological operations](#psychological-operations) (1)
 - [PTC](#ptc) (1)
 - [PteroBox](#pterobox) (2)
@@ -3758,6 +3788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PureLogs Stealer](#purelogs-stealer) (1)
 - [PureRAT](#purerat) (1)
 - [pushd](#pushd) (1)
+- [pwn-ai](#pwn-ai) (1)
 - [pwn-request](#pwn-request) (1)
 - [PwPt-sHaRe](#pwpt-share) (1)
 - [PyArmor](#pyarmor) (4)
@@ -3821,6 +3852,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RC4 C2](#rc4-c2) (1)
 - [RC4 encryption](#rc4-encryption) (1)
 - [RCE](#rce) (18)
+- [rce-chain](#rce-chain) (1)
 - [Rclone](#rclone) (1)
 - [rclone](#rclone) (1)
 - [RCS](#rcs) (1)
@@ -4028,9 +4060,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Russian-speaking indicator](#russian-speaking-indicator) (1)
 - [Rust](#rust) (9)
+- [rust](#rust) (1)
 - [Rust backdoor](#rust-backdoor) (2)
 - [Rust loader](#rust-loader) (1)
 - [Rust malware](#rust-malware) (7)
+- [rustymove](#rustymove) (1)
+- [rustyshade](#rustyshade) (1)
 - [S3 Browser](#s3-browser) (1)
 - [S3 lure hosting](#s3-lure-hosting) (1)
 - [S3-compatible storage](#s3-compatible-storage) (2)
@@ -4083,6 +4118,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [screenshot theft](#screenshot-theft) (3)
 - [script injection](#script-injection) (1)
 - [script-injection](#script-injection) (1)
+- [script-sandboxing](#script-sandboxing) (1)
 - [scrypt](#scrypt) (1)
 - [SD-WAN](#sd-wan) (2)
 - [search hijacking](#search-hijacking) (1)
@@ -4172,6 +4208,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session secret exposure](#session-secret-exposure) (1)
 - [session theft](#session-theft) (3)
 - [session token theft](#session-token-theft) (2)
+- [session-privilege-abuse](#session-privilege-abuse) (1)
 - [setuid](#setuid) (1)
 - [setup.py](#setuppy) (1)
 - [setup.py execution](#setuppy-execution) (1)
@@ -4503,7 +4540,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (2)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (117)
+- [supply-chain](#supply-chain) (118)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -4646,6 +4683,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The Hacker News](#the-hacker-news) (12)
 - [The Outsider](#the-outsider) (1)
 - [The Quarry](#the-quarry) (1)
+- [theme-install](#theme-install) (1)
 - [ThemeREX Addons](#themerex-addons) (1)
 - [third-party email](#third-party-email) (1)
 - [third-party integrations](#third-party-integrations) (1)
@@ -4693,7 +4731,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (73)
+- [tools](#tools) (74)
 - [Tor](#tor) (4)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -4720,6 +4758,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [transnational repression](#transnational-repression) (1)
 - [transparent proxy](#transparent-proxy) (1)
 - [Transparent Tribe](#transparent-tribe) (3)
+- [transparent-tribe](#transparent-tribe) (1)
 - [transport](#transport) (1)
 - [transportation](#transportation) (2)
 - [transportation sector](#transportation-sector) (1)
@@ -4773,7 +4812,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TypeConfuseDelegate](#typeconfusedelegate) (1)
 - [TypeScript](#typescript) (2)
 - [typosquat](#typosquat) (5)
-- [typosquatting](#typosquatting) (18)
+- [typosquatting](#typosquatting) (19)
 - [U+E0000](#ue0000) (1)
 - [U.S. critical infrastructure](#us-critical-infrastructure) (1)
 - [UAC](#uac) (1)
@@ -4862,6 +4901,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unsafe deserialization](#unsafe-deserialization) (2)
 - [unsafe reflection](#unsafe-reflection) (1)
 - [unsanctioned message board](#unsanctioned-message-board) (1)
+- [unsandboxed-evaluator](#unsandboxed-evaluator) (1)
 - [unsigned installer](#unsigned-installer) (1)
 - [Unyielding Wasp](#unyielding-wasp) (1)
 - [UpdateFactory](#updatefactory) (1)
@@ -4878,6 +4918,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [USB propagation](#usb-propagation) (1)
 - [USB weaponizer](#usb-weaponizer) (1)
 - [USB worm](#usb-worm) (2)
+- [usb-propagation](#usb-propagation) (1)
 - [use-after-free](#use-after-free) (4)
 - [user execution](#user-execution) (2)
 - [user namespaces](#user-namespaces) (2)
@@ -4985,7 +5026,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VU#213560](#vu213560) (1)
 - [VULN-39341](#vuln-39341) (1)
 - [VulnCheck](#vulncheck) (8)
-- [vulnerability](#vulnerability) (28)
+- [vulnerability](#vulnerability) (30)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
 - [vulnerability disclosure](#vulnerability-disclosure) (2)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
@@ -5002,6 +5043,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet replacement](#wallet-replacement) (1)
 - [wallet theft](#wallet-theft) (8)
 - [wallet-drainer](#wallet-drainer) (1)
+- [wallet-extension](#wallet-extension) (1)
 - [wallet-theft](#wallet-theft) (4)
 - [WAPF](#wapf) (1)
 - [Wasabi](#wasabi) (3)
@@ -5121,6 +5163,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Woodgnat](#woodgnat) (1)
 - [WordlistLoader](#wordlistloader) (1)
 - [WordPress](#wordpress) (15)
+- [wordpress](#wordpress) (1)
 - [WordPress 7.0.4](#wordpress-704) (1)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
 - [WordPress plugin backdoor](#wordpress-plugin-backdoor) (1)
@@ -5130,6 +5173,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [workflow injection](#workflow-injection) (1)
 - [workflow orchestration](#workflow-orchestration) (1)
 - [workflow-abuse](#workflow-abuse) (1)
+- [workflow-automation](#workflow-automation) (1)
+- [workflow-engine](#workflow-engine) (1)
 - [working-directory hijacking](#working-directory-hijacking) (1)
 - [workload identity](#workload-identity) (1)
 - [workspace trust](#workspace-trust) (3)
@@ -5227,6 +5272,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ZOHOMURK](#zohomurk) (2)
 - [Zoom](#zoom) (1)
 - [ZoomEye](#zoomeye) (1)
+- [zscaler](#zscaler) (1)
 - [Zscaler ThreatLabz](#zscaler-threatlabz) (1)
 - [Zsh script](#zsh-script) (1)
 
@@ -5579,6 +5625,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## active-exploitation
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 
 ## ActiveCampaign
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
@@ -5783,6 +5830,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+
+## afghanistan
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
 ## AFP
 - [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
@@ -6549,6 +6599,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
 - [SideCopy](../actors/sidecopy.md)
 
+## apt36
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
+
 ## APT37
 - ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -7155,8 +7208,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BaseZipInstaller
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
+## bash
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
+
 ## Bash Uploader
 - [Codecov Bash Uploader compromise](../ops/codecov-bash-uploader-compromise.md)
+
+## bashnatch
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
 ## batch loader
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
@@ -7195,6 +7254,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BeaverTail
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## BEC
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
@@ -7877,6 +7937,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
 
+## campaign-IDs
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
+
 ## Canada
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
 
@@ -8208,6 +8271,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 
+## Chrome-extension-storage
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
+
 ## chrome_settings_overrides
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 
@@ -8240,6 +8306,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 - [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md)
+
+## CI-CD-adjacent
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 
 ## CI-CD-credentials
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
@@ -8543,6 +8612,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## click interception
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
 
+## click2shell
+- [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
+
 ## clicker
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 
@@ -8597,6 +8669,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## client installer poisoning
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
 
+## client-side
+- [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
+
 ## client-side exploitation
 - [Chrome V8 CVE-2026-11645 exploitation](../ops/chrome-v8-cve-2026-11645-exploitation.md)
 - [Chrome V8 CVE-2026-85046 type-confusion exploitation](../ops/chrome-v8-cve-2026-85046-type-confusion-exploitation-september-2026.md)
@@ -8604,6 +8679,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Cline
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
+## clipboard
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## clipboard command
 - [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
@@ -9045,6 +9123,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## conditional access
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
 
+## Conductor
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
+
 ## configuration exposure
 - [NGINX CVE-2026-42533 two-pass capture-clobbering RCE risk](../ops/nginx-cve-2026-42533-capture-clobbering-rce.md)
 
@@ -9063,6 +9144,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
+
+## confused-deputy
+- [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
 
 ## ConfuserEx
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
@@ -9114,6 +9198,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)](../ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
+
+## Contagious-Interview
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## container
 - [Linux Kernel CVE-2022-0492 cgroup release_agent exploitation](../ops/linux-kernel-cve-2022-0492-cgroup-release-agent-exploitation.md)
@@ -9761,6 +9848,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
+
+## csrf
+- [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
 
 ## CSRF token theft
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
@@ -10506,6 +10596,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-56291
 - [Joomla extension KEV exploitation cluster](../ops/joomla-page-builder-cve-2026-48908-56290-exploitation.md)
 
+## CVE-2026-58138
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
+
 ## CVE-2026-58704
 - [Google Pixel cellular-modem privilege escalation CVE-2026-58704: KEV-listed with Google's own "limited, targeted exploitation" note (Sep 16, 2026)](../ops/google-pixel-cellular-modem-cve-2026-58704-kev-targeted-exploitation-september-2026.md)
 
@@ -10945,6 +11038,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OctLurk](../tools/octlurk.md)
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 - [SilkLurk](../tools/silklurk.md)
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
 ## CyberAv3ngers
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
@@ -11173,6 +11267,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## dead-drop
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## dead-drop resolver
 - [Aeternum](../tools/aeternum.md)
@@ -11783,6 +11878,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
 
+## DOM-selection-injection
+- [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
+
 ## domain impersonation
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
 
@@ -11851,6 +11949,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)](../ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## DPRK APT
 - ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
@@ -12948,6 +13047,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## file-manager-backdoor
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
+## file-stealer
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
+
 ## file-system filter
 - [Fast16](../tools/fast16.md)
 
@@ -13202,6 +13304,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiClient EMS CVE-2026-35616 EKZ Infostealer campaign](../ops/forticlient-ems-cve-2026-35616-ekz-infostealer.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 
 ## FortiOS
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
@@ -13688,6 +13791,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub tool hosting
 - [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
+## github-c2
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
+
 ## GitHub-hosted runners
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 
@@ -13974,6 +14080,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GPT-6
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
+## GraalVM
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 
 ## Gradio
 - [NadMesh AI-service and cloud-credential botnet](../ops/nadmesh-ai-service-cloud-credential-botnet.md)
@@ -14706,6 +14815,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## in-memory-execution
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## incident response
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
@@ -14768,6 +14878,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mustang Panda](../actors/mustang-panda.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
+
+## india
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
 ## India-nexus
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
@@ -14876,6 +14989,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
@@ -15174,6 +15288,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Java
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 
 ## Java deserialization
@@ -15210,6 +15325,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TaskWeaver](../tools/taskweaver.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## JavaScript bridge
@@ -15566,6 +15682,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## keyval.org
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
@@ -16621,6 +16738,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](../tools/tinyrct.md)
 - [Umbrij](../tools/umbrij.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 - [WLDR agent](../tools/wldr-agent.md)
 - [XCSSET](../tools/xcsset.md)
 
@@ -17850,6 +17968,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## network-share exfiltration
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
+## news-impersonation
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
+
 ## NexShield
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
 
@@ -18126,6 +18247,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)](../ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## npm lifecycle hook
@@ -18153,6 +18275,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## npmmirror
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
+
+## Npoint
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## npx
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -18495,6 +18620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OpenSourceMalware
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## OpenSSF
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
@@ -18556,6 +18682,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Operation Highland
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
 - [Velvet Ant](../actors/velvet-ant.md)
+
+## operation-rapidrust
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
 ## operational relay box
 - [AryStinger legacy-router recon proxy network](../ops/arystinger-legacy-router-recon-proxy-network.md)
@@ -19237,6 +19366,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 - [Oracle WebLogic CVE-2024-21182 exploitation](../ops/oracle-weblogic-cve-2024-21182-exploitation.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
 - [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
@@ -19320,6 +19450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Toy Ghouls "Angry Birds" custom backdoor (HiveMQ / Element)](../ops/toy-ghouls-angry-birds-hivemq-element-backdoor-september-2026.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
@@ -19360,6 +19491,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
+- [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 - [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
@@ -19420,6 +19552,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## organization username
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 
+## Orkes
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
+
 ## OS command injection
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
 - [CISA KEV: Microsoft SharePoint / ADFS, FortiSandbox, and SonicWall SMA1000 July 2026 additions](../ops/cisa-kev-microsoft-sharepoint-adfs-sonicwall-sma1000-july-2026.md)
@@ -19450,6 +19585,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OtterCookie
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## Ousaban
 - [BraZetsu: Python-based Windows IAB master toolkit fueling the "Infected Marketplace" (Group-IB, Sep 3, 2026)](../tools/brazetsu.md)
@@ -19467,6 +19603,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## outbound C2
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
+
+## outbreak-alert
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 
 ## Outlook
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
@@ -19625,6 +19764,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [SprySOCKS](../tools/sprysocks.md)
+
+## pakistan
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
 ## Pakistan-aligned
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
@@ -20430,6 +20572,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
 - [WLDR agent](../tools/wldr-agent.md)
 
+## powershell
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
+
 ## PowerShell AMSI bypass
 - [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
 
@@ -20477,6 +20622,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pre-auth RCE
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
+
+## pre-auth-rce
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 
 ## pre-authentication
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -20541,6 +20689,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## private-key theft
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+
+## private-repository-c2
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
 ## privilege escalation
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
@@ -20774,6 +20925,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## PSIGW
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
 
+## psnatch
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
+
 ## psychological operations
 - [Handala](../actors/handala.md)
 
@@ -20858,6 +21012,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pushd
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
+
+## pwn-ai
+- [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
 
 ## pwn-request
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -21176,6 +21333,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
 - [Wiz "Off Guard": Breaking LiteLLM from authentication bypass to cloud compromise (CVE-2026-59822 / CVE-2026-59821)](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
+
+## rce-chain
+- [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
 
 ## Rclone
 - [Seedworm / MuddyWater](../actors/seedworm-muddywater.md)
@@ -21977,6 +22137,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
+## rust
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
+
 ## Rust backdoor
 - [StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack — Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 - [Wiz "Artifactory Under Attack": in-the-wild exploitation chains in JFrog Artifactory (CVE-2026-42016 / CVE-2026-42018 / CVE-2026-82329)](../ops/wiz-artifactory-in-the-wild-cve-2026-42016-42018-82329-september-2026.md)
@@ -21992,6 +22155,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LabubaRAT](../tools/labubarat.md)
 - [MODBEACON](../tools/modbeacon.md)
 - [PamStealer](../tools/pamstealer.md)
+
+## rustymove
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
+
+## rustyshade
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
 ## S3 Browser
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
@@ -22220,6 +22389,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## script-injection
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
+
+## script-sandboxing
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 
 ## scrypt
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
@@ -22532,6 +22704,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## session token theft
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
+
+## session-privilege-abuse
+- [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
 
 ## setuid
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
@@ -23890,6 +24065,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [XCSSET](../tools/xcsset.md)
 - [XCSSET hides inside a pub.dev Flutter package: `universal_file_viewer` (Aikido, Sep 8, 2026)](../ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md)
@@ -24412,6 +24588,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## The Quarry
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 
+## theme-install
+- [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
+
 ## ThemeREX Addons
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
@@ -24660,6 +24839,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 - [Umbrij](../tools/umbrij.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 - [WLDR agent](../tools/wldr-agent.md)
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
 - [XCSSET](../tools/xcsset.md)
@@ -24754,6 +24934,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
 - [SideCopy](../actors/sidecopy.md)
+
+## transparent-tribe
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
 ## transport
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
@@ -24963,6 +25146,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 
 ## U+E0000
@@ -25332,6 +25516,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## unsanctioned message board
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
+## unsandboxed-evaluator
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
+
 ## unsigned installer
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 
@@ -25381,6 +25568,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## USB worm
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
+
+## usb-propagation
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
 ## use-after-free
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
@@ -25806,11 +25996,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Mirasvit Cache Warmer CVE-2026-45247 exploitation](../ops/mirasvit-cache-warmer-cve-2026-45247-exploitation.md)
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 - [Quest KACE SMA CVE-2025-32975 exploitation](../ops/quest-kace-sma-cve-2025-32975-exploitation.md)
 - [Tenda firmware CVE-2026-11405 hidden authentication backdoor](../ops/tenda-firmware-cve-2026-11405-hidden-authentication-backdoor.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Wiz "Off Guard": Breaking LiteLLM from authentication bypass to cloud compromise (CVE-2026-59822 / CVE-2026-59821)](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)
+- [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
 
 ## vulnerability database pollution
 - [LLM-slop false CVEs: AI-generated vulnerability advisories poisoning NVD / CISA](../patterns/llm-slop-false-cves-sqlite-batch.md)
@@ -25874,6 +26066,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## wallet-drainer
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+
+## wallet-extension
+- [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## wallet-theft
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
@@ -26405,6 +26600,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
+## wordpress
+- [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
+
 ## WordPress 7.0.4
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 
@@ -26431,6 +26629,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## workflow-abuse
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
+
+## workflow-automation
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
+
+## workflow-engine
+- [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 
 ## working-directory hijacking
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
@@ -26798,6 +27002,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ZoomEye
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
+
+## zscaler
+- [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
 ## Zscaler ThreatLabz
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
