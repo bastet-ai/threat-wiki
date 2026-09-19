@@ -1479,6 +1479,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cybercrime](#cybercrime) (20)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [cyberespionage](#cyberespionage) (7)
+- [CyberScoop](#cyberscoop) (1)
 - [Cyclops Blink](#cyclops-blink) (1)
 - [Cyera](#cyera) (1)
 - [Cython](#cython) (1)
@@ -3402,6 +3403,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenAI API keys](#openai-api-keys) (1)
 - [OpenAI Codex](#openai-codex) (1)
 - [OpenAI Daybreak](#openai-daybreak) (1)
+- [openaixyz65947@gmail.com](#openaixyz65947gmailcom) (1)
 - [OpenClaw](#openclaw) (4)
 - [opencode](#opencode) (1)
 - [OpenConnect](#openconnect) (1)
@@ -3857,6 +3859,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QUICSILVER](#quicsilver) (1)
 - [QuimaRAT](#quimarat) (1)
 - [Qwen](#qwen) (1)
+- [r.jini.ai](#rjiniai) (1)
 - [RaaS](#raas) (2)
 - [RabbitMQ](#rabbitmq) (1)
 - [race condition](#race-condition) (1)
@@ -4109,7 +4112,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SaaS provider](#saas-provider) (1)
 - [sabotage](#sabotage) (2)
 - [Safari](#safari) (1)
-- [SafeDep](#safedep) (10)
+- [SafeDep](#safedep) (11)
 - [Salesforce](#salesforce) (4)
 - [Sality](#sality) (1)
 - [Salt-Typhoon](#salt-typhoon) (1)
@@ -11174,6 +11177,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
+
+## CyberScoop
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 
 ## Cyclops Blink
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
@@ -18730,6 +18736,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OpenAI Daybreak
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
+## openaixyz65947@gmail.com
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+
 ## OpenClaw
 - [Agent localhost control-plane RCE](../patterns/agent-localhost-control-plane-rce.md)
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
@@ -21322,6 +21331,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Qwen
 - [Anthropic Threat Intelligence report (September 2026): GTG case studies — autonomous malware-rebuild loops, ShinyHunters AI uplift, a Changsha exploit foundry, and prompt-injection of AI evaluation sandboxes](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
 
+## r.jini.ai
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
+
 ## RaaS
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -22362,6 +22374,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@withgoogle/stitch-sdk scope squat](../ops/withgoogle-stitch-sdk-scope-squat.md)
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
+- [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 - [MYRA RAT](../tools/myra-rat.md)
 - [nodemon-sudo / tslint-conf runtime npm backdoor](../ops/nodemon-sudo-tslint-conf-runtime-npm-backdoor.md)
