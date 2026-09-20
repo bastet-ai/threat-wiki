@@ -113,7 +113,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Advanced Protection](#advanced-protection) (1)
 - [Adversa](#adversa) (1)
 - [Adversa AI](#adversa-ai) (1)
-- [adversary-in-the-middle](#adversary-in-the-middle) (8)
+- [adversary-in-the-middle](#adversary-in-the-middle) (9)
 - [advertising technology](#advertising-technology) (1)
 - [adware](#adware) (6)
 - [adware history](#adware-history) (1)
@@ -236,7 +236,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Aikido](#aikido) (3)
 - [AIR](#air) (1)
 - [AISURU](#aisuru) (2)
-- [AiTM](#aitm) (5)
+- [AiTM](#aitm) (6)
 - [AitM](#aitm) (1)
 - [Ajax.NET Professional](#ajaxnet-professional) (1)
 - [AjaxPro](#ajaxpro) (1)
@@ -277,7 +277,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android TV](#android-tv) (1)
 - [Anthropic](#anthropic) (5)
 - [anthropickit](#anthropickit) (1)
-- [anti-analysis](#anti-analysis) (9)
+- [anti-analysis](#anti-analysis) (10)
 - [anti-bot](#anti-bot) (1)
 - [anti-distillation](#anti-distillation) (1)
 - [anti-forensics](#anti-forensics) (2)
@@ -462,6 +462,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [backdoor](#backdoor) (29)
 - [Backdoor.Mistic](#backdoormistic) (1)
 - [Backdoor.Turn](#backdoorturn) (1)
+- [backend database reuse](#backend-database-reuse) (1)
 - [Backstage](#backstage) (1)
 - [backup disruption](#backup-disruption) (3)
 - [backup poisoning](#backup-poisoning) (1)
@@ -541,6 +542,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitcoin](#bitcoin) (4)
 - [bitcoin bech32](#bitcoin-bech32) (1)
 - [Bitcoin Libre](#bitcoin-libre) (1)
+- [BitM](#bitm) (1)
 - [BitMiner](#bitminer) (1)
 - [bitsadmin](#bitsadmin) (1)
 - [Bitter](#bitter) (1)
@@ -550,6 +552,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlackFile](#blackfile) (2)
 - [Blackpoint Cyber](#blackpoint-cyber) (6)
 - [Bleacher Report](#bleacher-report) (1)
+- [BlgCloud](#blgcloud) (1)
 - [blind prompt injection](#blind-prompt-injection) (1)
 - [blockchain](#blockchain) (2)
 - [blockchain C2](#blockchain-c2) (9)
@@ -564,6 +567,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BLUEBEAM](#bluebeam) (1)
 - [BlueDelta](#bluedelta) (1)
 - [BlueKeep](#bluekeep) (1)
+- [BlueKit](#bluekit) (1)
 - [bluemonday](#bluemonday) (1)
 - [Blueprints](#blueprints) (1)
 - [Bluetooth LE](#bluetooth-le) (1)
@@ -607,7 +611,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser extension malware](#browser-extension-malware) (1)
 - [browser extension sideloading](#browser-extension-sideloading) (1)
 - [browser fingerprint spoofing](#browser-fingerprint-spoofing) (1)
-- [browser fingerprinting](#browser-fingerprinting) (1)
+- [browser fingerprinting](#browser-fingerprinting) (2)
 - [browser hijacker](#browser-hijacker) (1)
 - [browser hijacking](#browser-hijacking) (4)
 - [browser malware](#browser-malware) (1)
@@ -621,6 +625,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser-based c2](#browser-based-c2) (1)
 - [browser-credential-theft](#browser-credential-theft) (1)
 - [browser-extensions](#browser-extensions) (2)
+- [Browser-in-the-middle](#browser-in-the-middle) (1)
 - [browser-resident malware](#browser-resident-malware) (3)
 - [browser-security](#browser-security) (1)
 - [browser-session risk](#browser-session-risk) (1)
@@ -776,6 +781,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Chromium](#chromium) (7)
 - [Chromium extension](#chromium-extension) (1)
 - [Chromium integrity](#chromium-integrity) (1)
+- [Chucky](#chucky) (1)
 - [chunked exfiltration](#chunked-exfiltration) (1)
 - [CI secrets](#ci-secrets) (1)
 - [CI-CD](#ci-cd) (4)
@@ -993,6 +999,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COPY TO PROGRAM](#copy-to-program) (1)
 - [Copy-on-Write](#copy-on-write) (1)
 - [copycat](#copycat) (1)
+- [copycat forums](#copycat-forums) (1)
 - [core.hooksPath](#corehookspath) (1)
 - [Corepack](#corepack) (1)
 - [CornFlake](#cornflake) (1)
@@ -1595,7 +1602,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer-targeting](#developer-targeting) (22)
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (5)
-- [device code phishing](#device-code-phishing) (1)
+- [device code phishing](#device-code-phishing) (2)
 - [device identity](#device-identity) (1)
 - [device linking](#device-linking) (1)
 - [device lockout](#device-lockout) (1)
@@ -1684,6 +1691,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [domain verification](#domain-verification) (1)
 - [DomainTools](#domaintools) (1)
 - [domestic espionage](#domestic-espionage) (1)
+- [Doraemon](#doraemon) (1)
 - [dormant accounts](#dormant-accounts) (2)
 - [dormant payload](#dormant-payload) (1)
 - [DotNetNuke](#dotnetnuke) (1)
@@ -2441,7 +2449,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [identity compromise](#identity-compromise) (2)
 - [identity infrastructure](#identity-infrastructure) (1)
 - [identity phishing](#identity-phishing) (1)
-- [identity security](#identity-security) (1)
+- [identity security](#identity-security) (2)
 - [Identity Services Engine](#identity-services-engine) (1)
 - [identity spoofing](#identity-spoofing) (1)
 - [identity theft](#identity-theft) (1)
@@ -2524,6 +2532,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Integration Broker](#integration-broker) (1)
 - [integrity forgery](#integrity-forgery) (1)
 - [inter-agent communication](#inter-agent-communication) (1)
+- [interaction replay](#interaction-replay) (1)
 - [Intercolo](#intercolo) (1)
 - [internal secret exfiltration](#internal-secret-exfiltration) (1)
 - [internal security review](#internal-security-review) (1)
@@ -2752,6 +2761,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LD_PRELOAD](#ld_preload) (2)
 - [LDAP](#ldap) (1)
 - [leak site](#leak-site) (1)
+- [LeakBase](#leakbase) (1)
+- [LeakBase revival](#leakbase-revival) (1)
 - [leaked credentials](#leaked-credentials) (1)
 - [leaked exploit](#leaked-exploit) (1)
 - [leaked repository](#leaked-repository) (1)
@@ -3022,7 +3033,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mexican banking fraud](#mexican-banking-fraud) (3)
 - [Mexico](#mexico) (4)
 - [MFA](#mfa) (3)
-- [MFA bypass](#mfa-bypass) (10)
+- [MFA bypass](#mfa-bypass) (11)
 - [MFA fatigue](#mfa-fatigue) (2)
 - [MFA persistence](#mfa-persistence) (1)
 - [MFA-bypass](#mfa-bypass) (1)
@@ -3456,7 +3467,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (431)
+- [ops](#ops) (432)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
@@ -3621,7 +3632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PetitPotam](#petitpotam) (1)
 - [pfSense](#pfsense) (1)
 - [pg_hba.conf](#pg_hbaconf) (1)
-- [PhaaS](#phaas) (6)
+- [PhaaS](#phaas) (7)
 - [Phantom Gyp](#phantom-gyp) (3)
 - [PhantomClick](#phantomclick) (1)
 - [PhantomCore](#phantomcore) (1)
@@ -3629,11 +3640,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (2)
-- [phishing](#phishing) (32)
+- [phishing](#phishing) (33)
 - [phishing evasion](#phishing-evasion) (1)
 - [phishing infrastructure](#phishing-infrastructure) (1)
 - [phishing overlays](#phishing-overlays) (1)
-- [phishing-as-a-service](#phishing-as-a-service) (8)
+- [phishing-as-a-service](#phishing-as-a-service) (9)
 - [phishing-resistant MFA](#phishing-resistant-mfa) (1)
 - [Phorpiex](#phorpiex) (1)
 - [PHP](#php) (3)
@@ -3839,6 +3850,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pushd](#pushd) (1)
 - [pwn-ai](#pwn-ai) (1)
 - [pwn-request](#pwn-request) (1)
+- [PwnForums](#pwnforums) (1)
 - [PwPt-sHaRe](#pwpt-share) (1)
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
@@ -3883,6 +3895,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAGFlow](#ragflow) (1)
 - [RainbowEx](#rainbowex) (1)
 - [RakNet flood](#raknet-flood) (1)
+- [RAM CPU checks](#ram-cpu-checks) (1)
 - [RAM disk](#ram-disk) (1)
 - [random number generator](#random-number-generator) (1)
 - [ransom](#ransom) (1)
@@ -3975,6 +3988,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote access software](#remote-access-software) (2)
 - [remote access trojan](#remote-access-trojan) (9)
 - [Remote Access VPN](#remote-access-vpn) (1)
+- [remote browser](#remote-browser) (1)
 - [remote code execution](#remote-code-execution) (33)
 - [remote debugging](#remote-debugging) (2)
 - [remote desktop](#remote-desktop) (1)
@@ -4108,6 +4122,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian state media](#russian-state-media) (1)
 - [Russian state-supported](#russian-state-supported) (4)
 - [Russian-language indicator](#russian-language-indicator) (1)
+- [Russian-speaking](#russian-speaking) (1)
 - [Russian-speaking ecosystem](#russian-speaking-ecosystem) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Russian-speaking indicator](#russian-speaking-indicator) (1)
@@ -4125,6 +4140,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [S7comm](#s7comm) (1)
 - [SaaS](#saas) (8)
 - [SaaS abuse](#saas-abuse) (1)
+- [SaaS breaches](#saas-breaches) (1)
 - [SaaS connectors](#saas-connectors) (1)
 - [SaaS data access](#saas-data-access) (1)
 - [SaaS exposure](#saas-exposure) (2)
@@ -4261,6 +4277,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Session](#session) (1)
 - [session cookie theft](#session-cookie-theft) (4)
 - [session hijacking](#session-hijacking) (3)
+- [session persistence](#session-persistence) (1)
 - [session secret exposure](#session-secret-exposure) (1)
 - [session theft](#session-theft) (3)
 - [session token theft](#session-token-theft) (2)
@@ -4493,6 +4510,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Spring Integration](#spring-integration) (1)
 - [Spring Security](#spring-security) (1)
 - [SprySOCKS](#sprysocks) (2)
+- [SpyCloud](#spycloud) (1)
 - [Spyroid](#spyroid) (1)
 - [spyware](#spyware) (2)
 - [SQL injection](#sql-injection) (14)
@@ -4797,6 +4815,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
 - [Total Software Deployment](#total-software-deployment) (1)
+- [TOTP enrollment](#totp-enrollment) (1)
 - [TouchSocket](#touchsocket) (1)
 - [Toy Ghouls](#toy-ghouls) (4)
 - [TPM](#tpm) (1)
@@ -5159,6 +5178,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Weblogic Server Proxy Plug-in](#weblogic-server-proxy-plug-in) (1)
 - [webmail](#webmail) (4)
 - [WebRTC](#webrtc) (3)
+- [WebRTC STUN enumeration](#webrtc-stun-enumeration) (1)
 - [webshell](#webshell) (1)
 - [webshells](#webshells) (1)
 - [website-compromise](#website-compromise) (1)
@@ -5822,6 +5842,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## adversary-in-the-middle
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
@@ -6329,6 +6350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## AiTM
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
@@ -6494,6 +6516,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## anti-analysis
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
@@ -7193,6 +7216,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Backdoor.Turn
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 
+## backend database reuse
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
+
 ## Backstage
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 
@@ -7456,6 +7482,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bitcoin Libre
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 
+## BitM
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
+
 ## BitMiner
 - [Operation Muck and Load GitHub lure network](../ops/operation-muck-and-load-github-lure-network.md)
 
@@ -7488,6 +7517,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bleacher Report
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
+
+## BlgCloud
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## blind prompt injection
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
@@ -7544,6 +7576,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BlueKeep
 - [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+
+## BlueKit
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## bluemonday
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
@@ -7757,6 +7792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 
 ## browser fingerprinting
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 
 ## browser hijacker
@@ -7808,6 +7844,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser-extensions
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+
+## Browser-in-the-middle
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## browser-resident malware
 - [OWAReaper](../tools/owareaper.md)
@@ -8400,6 +8439,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Chromium integrity
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
+
+## Chucky
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## chunked exfiltration
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
@@ -9396,6 +9438,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## copycat
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
+
+## copycat forums
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## core.hooksPath
 - [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
@@ -11722,6 +11767,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 
 ## device code phishing
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
 
 ## device identity
@@ -12056,6 +12102,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## domestic espionage
 - [OceanLotus](../actors/oceanlotus.md)
+
+## Doraemon
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## dormant accounts
 - [GitHub API enumeration and access-token abuse](../patterns/github-api-enumeration-token-abuse.md)
@@ -14870,6 +14919,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 
 ## identity security
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
 
 ## Identity Services Engine
@@ -15259,6 +15309,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## inter-agent communication
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
+## interaction replay
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## Intercolo
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
@@ -16132,6 +16185,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## leak site
 - [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
+
+## LeakBase
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
+
+## LeakBase revival
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## leaked credentials
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -17262,6 +17321,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [0ktapus phishing campaign](../ops/0ktapus-phishing-campaign.md)
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
@@ -19350,6 +19410,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [binding.gyp npm CI/CD worm](../ops/binding-gyp-npm-cicd-worm.md)
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 - [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
@@ -20402,6 +20463,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PhaaS
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -20435,6 +20497,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## phishing
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
@@ -20476,6 +20539,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
 ## phishing-as-a-service
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
@@ -21260,6 +21324,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## pwn-request
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
 
+## PwnForums
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
+
 ## PwPt-sHaRe
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
 
@@ -21439,6 +21506,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RakNet flood
 - [xlabs_v1 DDoS-for-hire IoT botnet](../ops/xlabs-v1-ddos-for-hire-iot-botnet.md)
+
+## RAM CPU checks
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## RAM disk
 - [Ollama P2P cryptominer RAT campaign](../ops/ollama-p2p-cryptominer-rat.md)
@@ -21845,6 +21915,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Remote Access VPN
 - [Check Point VPN CVE-2026-50751 exploitation](../ops/check-point-vpn-cve-2026-50751-exploitation.md)
+
+## remote browser
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## remote code execution
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
@@ -22368,6 +22441,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Russian-language indicator
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 
+## Russian-speaking
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
+
 ## Russian-speaking ecosystem
 - [UAT-11795](../actors/uat-11795.md)
 
@@ -22441,6 +22517,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SaaS abuse
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
+
+## SaaS breaches
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## SaaS connectors
 - [Atlassian Rovo prompt-to-data exfiltration](../patterns/atlassian-rovo-prompt-to-data-exfiltration.md)
@@ -22956,6 +23035,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 - [Okta support-system compromise](../ops/cloudflare-okta-token-theft-incident.md)
+
+## session persistence
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## session secret exposure
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
@@ -23817,6 +23899,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## SprySOCKS
 - [FishMonger](../actors/fishmonger.md)
 - [SprySOCKS](../tools/sprysocks.md)
+
+## SpyCloud
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## Spyroid
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
@@ -25142,6 +25227,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Total Software Deployment
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
+## TOTP enrollment
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## TouchSocket
 - [FDMTP](../tools/fdmtp.md)
@@ -26567,6 +26655,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
+
+## WebRTC STUN enumeration
+- [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
 ## webshell
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
