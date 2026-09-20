@@ -57,6 +57,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [access token abuse](#access-token-abuse) (1)
 - [access token theft](#access-token-theft) (1)
 - [Accessibility Service](#accessibility-service) (1)
+- [accessibility-abuse](#accessibility-abuse) (1)
 - [account abuse](#account-abuse) (1)
 - [account hijacking](#account-hijacking) (1)
 - [account lockout](#account-lockout) (1)
@@ -93,6 +94,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [adaptive identity phishing](#adaptive-identity-phishing) (1)
 - [Adaptix C2](#adaptix-c2) (1)
 - [AdaptixC2](#adaptixc2) (1)
+- [ADB](#adb) (1)
 - [ADB TCP/5555](#adb-tcp5555) (2)
 - [Adblock for YouTube](#adblock-for-youtube) (1)
 - [add/add collision](#addadd-collision) (1)
@@ -224,6 +226,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
 - [AI-augmented operations](#ai-augmented-operations) (5)
 - [AI-coding-agent](#ai-coding-agent) (1)
+- [AI-driven-malware](#ai-driven-malware) (1)
 - [AI-enabled malware](#ai-enabled-malware) (2)
 - [AI-enhanced malware](#ai-enhanced-malware) (1)
 - [AI-generated advisory](#ai-generated-advisory) (1)
@@ -266,6 +269,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AmsiScanBuffer](#amsiscanbuffer) (1)
 - [Ancillary Function Driver](#ancillary-function-driver) (1)
 - [Android](#android) (12)
+- [android](#android) (1)
 - [Android Accessibility Service](#android-accessibility-service) (2)
 - [Android ADB](#android-adb) (3)
 - [Android automotive](#android-automotive) (1)
@@ -275,7 +279,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android RAT](#android-rat) (2)
 - [Android spyware](#android-spyware) (3)
 - [Android TV](#android-tv) (1)
-- [Anthropic](#anthropic) (5)
+- [Anthropic](#anthropic) (6)
 - [anthropickit](#anthropickit) (1)
 - [anti-analysis](#anti-analysis) (10)
 - [anti-bot](#anti-bot) (1)
@@ -757,7 +761,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [China](#china) (3)
 - [China nexus](#china-nexus) (1)
 - [China-linked](#china-linked) (8)
-- [China-nexus](#china-nexus) (20)
+- [China-nexus](#china-nexus) (21)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
 - [Chinese-language cybercrime](#chinese-language-cybercrime) (2)
 - [Chinese-language fraud ecosystem](#chinese-language-fraud-ecosystem) (1)
@@ -1409,6 +1413,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-80192](#cve-2026-80192) (1)
 - [CVE-2026-8037](#cve-2026-8037) (1)
 - [CVE-2026-81578](#cve-2026-81578) (1)
+- [CVE-2026-81642](#cve-2026-81642) (1)
 - [CVE-2026-81963](#cve-2026-81963) (1)
 - [cve-2026-81963](#cve-2026-81963) (1)
 - [CVE-2026-82078](#cve-2026-82078) (1)
@@ -1421,6 +1426,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-82454](#cve-2026-82454) (1)
 - [CVE-2026-82456](#cve-2026-82456) (1)
 - [CVE-2026-82533](#cve-2026-82533) (1)
+- [CVE-2026-82717](#cve-2026-82717) (1)
 - [CVE-2026-83548](#cve-2026-83548) (1)
 - [CVE-2026-83549](#cve-2026-83549) (1)
 - [CVE-2026-8451](#cve-2026-8451) (1)
@@ -1456,6 +1462,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVSS 9.0](#cvss-90) (1)
 - [CVSS 9.8](#cvss-98) (4)
 - [CVSS-10](#cvss-10) (1)
+- [CVSS-9.1](#cvss-91) (1)
 - [cvvform](#cvvform) (1)
 - [CWE-22](#cwe-22) (2)
 - [CWE-259](#cwe-259) (1)
@@ -1650,7 +1657,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DLL-sideloading](#dll-sideloading) (1)
 - [dlopen](#dlopen) (1)
 - [DMTP](#dmtp) (1)
-- [DNS](#dns) (1)
+- [DNS](#dns) (2)
 - [DNS C2](#dns-c2) (3)
 - [DNS callback](#dns-callback) (1)
 - [DNS dead drop](#dns-dead-drop) (2)
@@ -1665,6 +1672,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS-exfiltration](#dns-exfiltration) (1)
 - [DNS-over-HTTPS](#dns-over-https) (1)
 - [DNS-tunneling](#dns-tunneling) (1)
+- [DNSKEY](#dnskey) (1)
+- [DNSSEC](#dnssec) (1)
 - [Docker](#docker) (4)
 - [Docker cache](#docker-cache) (1)
 - [Docker Compose](#docker-compose) (1)
@@ -2081,6 +2090,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Friendly Fire](#friendly-fire) (1)
 - [frontier AI](#frontier-ai) (2)
 - [frontier models](#frontier-models) (1)
+- [FRP](#frp) (1)
 - [FruitStone](#fruitstone) (1)
 - [FSB](#fsb) (4)
 - [FSB Center 16](#fsb-center-16) (2)
@@ -2125,6 +2135,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GemStuffer](#gemstuffer) (1)
 - [Gen Digital](#gen-digital) (1)
 - [generative AI](#generative-ai) (3)
+- [generative-AI](#generative-ai) (1)
 - [GenieLocker](#genielocker) (3)
 - [GentleKiller](#gentlekiller) (1)
 - [Germany](#germany) (2)
@@ -2346,6 +2357,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [heap pointer disclosure](#heap-pointer-disclosure) (1)
 - [heap scraping](#heap-scraping) (1)
 - [heap-based buffer overflow](#heap-based-buffer-overflow) (1)
+- [heap-overflow](#heap-overflow) (1)
 - [HEIC](#heic) (2)
 - [HEIF](#heif) (2)
 - [HELIX](#helix) (1)
@@ -2516,6 +2528,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure churn](#infrastructure-churn) (1)
 - [infrastructure disruption](#infrastructure-disruption) (4)
 - [infrastructure seizure](#infrastructure-seizure) (1)
+- [infrastructure-software](#infrastructure-software) (1)
 - [initial access](#initial-access) (2)
 - [initial access broker](#initial-access-broker) (4)
 - [initial-access](#initial-access) (3)
@@ -2690,7 +2703,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keychain theft](#keychain-theft) (4)
 - [Keycloak](#keycloak) (1)
 - [KeyHunter](#keyhunter) (1)
-- [keylogger](#keylogger) (5)
+- [keylogger](#keylogger) (6)
 - [keylogging](#keylogging) (5)
 - [keyval.org](#keyvalorg) (1)
 - [keyword splitting](#keyword-splitting) (1)
@@ -2948,7 +2961,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
 - [malicious-package](#malicious-package) (1)
-- [malvertising](#malvertising) (10)
+- [malvertising](#malvertising) (11)
 - [malware](#malware) (68)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
@@ -3132,6 +3145,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mobile malware](#mobile-malware) (3)
 - [mobile spyware](#mobile-spyware) (1)
 - [mobile zero-day](#mobile-zero-day) (1)
+- [mobile-malware](#mobile-malware) (1)
 - [MobileIron Sentry](#mobileiron-sentry) (1)
 - [MODAFL](#modafl) (1)
 - [MODBEACON](#modbeacon) (2)
@@ -3232,6 +3246,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [national identity records](#national-identity-records) (1)
 - [native addon](#native-addon) (1)
 - [native extension](#native-extension) (3)
+- [native-daemon](#native-daemon) (1)
 - [NativeAOT](#nativeaot) (3)
 - [NATO](#nato) (3)
 - [NATS](#nats) (1)
@@ -3297,6 +3312,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Nim](#nim) (1)
 - [Nimbus Manticore](#nimbus-manticore) (3)
 - [NirSoft](#nirsoft) (1)
+- [NLnet-Labs](#nlnet-labs) (1)
 - [no active exploitation](#no-active-exploitation) (1)
 - [no attribution](#no-attribution) (1)
 - [no C2](#no-c2) (1)
@@ -3503,6 +3519,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Outsider Enterprise](#outsider-enterprise) (1)
 - [overfitting](#overfitting) (1)
 - [overlay attacks](#overlay-attacks) (2)
+- [overlay-attacks](#overlay-attacks) (1)
 - [OWA](#owa) (1)
 - [OWAReaper](#owareaper) (2)
 - [ownCloud](#owncloud) (2)
@@ -3722,6 +3739,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [post-exploitation framework](#post-exploitation-framework) (1)
 - [post-index-change](#post-index-change) (1)
 - [post-mortem](#post-mortem) (1)
+- [post-uninstall-persistence](#post-uninstall-persistence) (1)
 - [postal-impersonation](#postal-impersonation) (1)
 - [PostCSS](#postcss) (1)
 - [PostgreSQL](#postgresql) (5)
@@ -3909,6 +3927,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
 - [RAT](#rat) (36)
+- [RatHat](#rathat) (1)
 - [raw packet](#raw-packet) (1)
 - [Ray](#ray) (2)
 - [RC4](#rc4) (4)
@@ -3944,6 +3963,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [recovery phrase](#recovery-phrase) (1)
 - [recruiter impersonation](#recruiter-impersonation) (1)
 - [recruitment lures](#recruitment-lures) (1)
+- [recursive-resolver](#recursive-resolver) (1)
 - [Red Agent](#red-agent) (1)
 - [Red Dev 10](#red-dev-10) (2)
 - [Red Hat](#red-hat) (2)
@@ -4000,6 +4020,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote support](#remote-support) (2)
 - [Remote Utilities](#remote-utilities) (2)
 - [remote-access](#remote-access) (2)
+- [remote-code-execution](#remote-code-execution) (1)
 - [remote-dynamic-dependency](#remote-dynamic-dependency) (1)
 - [Remotely](#remotely) (1)
 - [RemotePE](#remotepe) (1)
@@ -4019,6 +4040,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [residential proxies](#residential-proxies) (1)
 - [residential proxy](#residential-proxy) (3)
 - [residential proxy abuse](#residential-proxy-abuse) (1)
+- [resolver](#resolver) (1)
 - [responsible disclosure](#responsible-disclosure) (3)
 - [REST API](#rest-api) (1)
 - [REST C2](#rest-c2) (1)
@@ -4032,6 +4054,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reverse tunnel](#reverse-tunnel) (1)
 - [reverse tunneling](#reverse-tunneling) (1)
 - [reverse tunnels](#reverse-tunnels) (1)
+- [reverse-proxy](#reverse-proxy) (1)
 - [reverse-SSH tunnel](#reverse-ssh-tunnel) (1)
 - [REVERSE_PROXY_TRUSTED_PROXIES](#reverse_proxy_trusted_proxies) (1)
 - [ReverseSocks](#reversesocks) (1)
@@ -4398,7 +4421,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SMB brute force](#smb-brute-force) (1)
 - [SMB egress](#smb-egress) (1)
 - [SMB/USB worm](#smbusb-worm) (1)
-- [smishing](#smishing) (5)
+- [smishing](#smishing) (6)
 - [SMM](#smm) (1)
 - [Smoke Sandstorm](#smoke-sandstorm) (3)
 - [SMS interception](#sms-interception) (2)
@@ -4512,7 +4535,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SprySOCKS](#sprysocks) (2)
 - [SpyCloud](#spycloud) (1)
 - [Spyroid](#spyroid) (1)
-- [spyware](#spyware) (2)
+- [spyware](#spyware) (3)
 - [SQL injection](#sql-injection) (14)
 - [SQL Server](#sql-server) (1)
 - [SQLite](#sqlite) (2)
@@ -4810,7 +4833,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (74)
+- [tools](#tools) (76)
 - [Tor](#tor) (4)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -4935,6 +4958,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unauthenticated RCE](#unauthenticated-rce) (17)
 - [unauthenticated-publish](#unauthenticated-publish) (1)
 - [unauthorized pentest framing](#unauthorized-pentest-framing) (1)
+- [Unbound](#unbound) (1)
 - [UNC1069](#unc1069) (1)
 - [UNC1543](#unc1543) (1)
 - [UNC1549](#unc1549) (8)
@@ -5241,6 +5265,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wiper](#wiper) (3)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
+- [wireless-debugging](#wireless-debugging) (1)
 - [Wiz](#wiz) (2)
 - [Wiz Research](#wiz-research) (2)
 - [WLDR agent](#wldr-agent) (2)
@@ -5349,7 +5374,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zhipu](#zhipu) (1)
 - [Zimbra](#zimbra) (5)
 - [Zimbra Collaboration Suite](#zimbra-collaboration-suite) (2)
-- [Zimperium](#zimperium) (2)
+- [Zimperium](#zimperium) (3)
 - [ZimReaper](#zimreaper) (1)
 - [ZIP import](#zip-import) (1)
 - [zLabs](#zlabs) (2)
@@ -5546,6 +5571,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Accessibility Service
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+
+## accessibility-abuse
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 
 ## account abuse
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
@@ -5775,6 +5803,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AdaptixC2
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
+
+## ADB
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 
 ## ADB TCP/5555
 - [Kimwolf v7](../tools/kimwolf-v7.md)
@@ -6309,6 +6340,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AI-coding-agent
 - [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
 
+## AI-driven-malware
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
+
 ## AI-enabled malware
 - [Anthropic Threat Intelligence report (September 2026): GTG case studies — autonomous malware-rebuild loops, ShinyHunters AI uplift, a Changsha exploit foundry, and prompt-injection of AI evaluation sandboxes](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
@@ -6468,6 +6502,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
+## android
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
+
 ## Android Accessibility Service
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
@@ -6510,6 +6547,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 - [Anthropic Threat Intelligence report (September 2026): GTG case studies — autonomous malware-rebuild loops, ShinyHunters AI uplift, a Changsha exploit foundry, and prompt-injection of AI evaluation sandboxes](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
 ## anthropickit
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
@@ -8334,6 +8372,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 - [SilkParasite](../actors/silkparasite.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
@@ -10968,6 +11007,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-81578
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 
+## CVE-2026-81642
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
+
 ## CVE-2026-81963
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
 
@@ -11003,6 +11045,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-82533
 - [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
+
+## CVE-2026-82717
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
 ## CVE-2026-83548
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
@@ -11116,6 +11161,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVSS-10
 - [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
+## CVSS-9.1
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
 ## cvvform
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
@@ -11960,6 +12008,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DNS
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
 ## DNS C2
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
@@ -12014,6 +12063,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DNS-tunneling
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+
+## DNSKEY
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
+
+## DNSSEC
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
 ## Docker
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
@@ -13577,6 +13632,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## frontier models
 - [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 
+## FRP
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
+
 ## FruitStone
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 
@@ -13721,6 +13779,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BraZetsu: Python-based Windows IAB master toolkit fueling the "Infected Marketplace" (Group-IB, Sep 3, 2026)](../tools/brazetsu.md)
 - [Exilware: Brazilian IAB operation behind BraZetsu and the "Infected Marketplace"](../actors/exilware.md)
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
+
+## generative-AI
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 
 ## GenieLocker
 - [GenieLocker](../tools/genielocker.md)
@@ -14562,6 +14623,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## heap-based buffer overflow
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
 
+## heap-overflow
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
+
 ## HEIC
 - [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
@@ -15247,6 +15311,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## infrastructure seizure
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 
+## infrastructure-software
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
+
 ## initial access
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
@@ -15908,6 +15975,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [js-logger-pack Hugging Face exfiltration campaign](../ops/js-logger-pack-hugging-face-exfiltration.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 - [TELEPUZ](../tools/telepuz.md)
 
 ## keylogging
@@ -16923,6 +16991,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](../ops/operation-flutterbridge-fluttershell-macos-malvertising.md)
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 - [SourTrade browser-assembled malware malvertising](../ops/sourtrade-browser-assembled-malware-malvertising.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -17747,6 +17816,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## mobile zero-day
 - [Google Pixel cellular-modem privilege escalation CVE-2026-58704: KEV-listed with Google's own "limited, targeted exploitation" note (Sep 16, 2026)](../ops/google-pixel-cellular-modem-cve-2026-58704-kev-targeted-exploitation-september-2026.md)
 
+## mobile-malware
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
+
 ## MobileIron Sentry
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 
@@ -18104,6 +18176,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [GitLab Oj notebook-diff authenticated RCE chain](../ops/gitlab-oj-notebook-diff-authenticated-rce.md)
 
+## native-daemon
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
+
 ## NativeAOT
 - [Cavern](../tools/cavern.md)
 - [Cavern Manticore](../actors/cavern-manticore.md)
@@ -18325,6 +18400,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## NirSoft
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
+
+## NLnet-Labs
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
 ## no active exploitation
 - [Cisco Crosswork and Secure Workload: nine flaws patched, five scoring CVSS 10.0](../ops/cisco-crosswork-secure-workload-nine-flaws-five-cvss-10-august-21-2026.md)
@@ -19917,6 +19995,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 
+## overlay-attacks
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
+
 ## OWA
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 
@@ -20807,6 +20888,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## post-mortem
 - [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
 
+## post-uninstall-persistence
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
+
 ## postal-impersonation
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 
@@ -21609,6 +21693,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 - [Unit 42: CL-CRI-1171 "Untracked Nightmares" — a pay-per-install marketplace behind commodity-looking loader infections](../ops/unit42-clcri-1171-offerloader-ppi-marketplace-september-2026.md)
 
+## RatHat
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
+
 ## raw packet
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 
@@ -21744,6 +21831,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## recruitment lures
 - [Screening Serpens](../actors/screening-serpens.md)
+
+## recursive-resolver
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
 ## Red Agent
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
@@ -21992,6 +22082,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [TA4922](../actors/ta4922.md)
 
+## remote-code-execution
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
+
 ## remote-dynamic-dependency
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
@@ -22053,6 +22146,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## residential proxy abuse
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 
+## resolver
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
+
 ## responsible disclosure
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
@@ -22097,6 +22193,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## reverse tunnels
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
+
+## reverse-proxy
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 
 ## reverse-SSH tunnel
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
@@ -23464,6 +23563,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
 - [Outsider Enterprise smishing PhaaS](../ops/outsider-enterprise-smishing-phaas.md)
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 
 ## SMM
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
@@ -23909,6 +24009,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## spyware
 - [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 
 ## SQL injection
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
@@ -25184,6 +25285,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [PollCat](../tools/pollcat.md)
 - [QuimaRAT](../tools/quimarat.md)
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [RedWing](../tools/redwing.md)
 - [RemotePE](../tools/remotepe.md)
@@ -25205,6 +25307,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyRCT](../tools/tinyrct.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 - [Umbrij](../tools/umbrij.md)
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 - [WLDR agent](../tools/wldr-agent.md)
@@ -25716,6 +25819,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unauthorized pentest framing
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
+
+## Unbound
+- [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
 ## UNC1069
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
@@ -26951,6 +27057,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 - [GREYVIBE](../actors/greyvibe.md)
 
+## wireless-debugging
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
+
 ## Wiz
 - [Wiz "Off Guard": Breaking LiteLLM from authentication bypass to cloud compromise (CVE-2026-59822 / CVE-2026-59821)](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
@@ -27364,6 +27473,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## Zimperium
+- [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 - [RedWing](../tools/redwing.md)
 - [RedWing mobile MaaS Android bank-fraud operation](../ops/redwing-mobile-maas-android-bank-fraud.md)
 

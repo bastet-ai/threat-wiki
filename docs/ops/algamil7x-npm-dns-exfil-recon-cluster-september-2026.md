@@ -96,6 +96,14 @@ A **new** malware-class advisory landed the morning of **Sep 20** — GHSA-26h7-
 
 **IOCs added:** `@pwaplatform/module-sso-integration` versions `99.0.0`, `99.0.1` (live at check); `sobaka-kusaka[.]ru` (`:8000/oob/`, `:8898/c/`); `ii473egh1b4kbaw03rf7pkzik9q0er8fx[.]oastify.com`; headers `User-Agent: npm-canary/1.1`, `X-Bug-Bounty: vd_danilov`; npm account `vd_danilov`.
 
+## September 20 (third sweep) follow-up: Amazon Inspector's own writeups land in OSV, independently confirming the "canary shape" read — both packages still live
+
+Live registry re-checks this sweep (~19:30 UTC): **`@pwaplatform/module-sso-integration` STILL LIVE** (latest 99.0.1, `modified` unchanged at 11:05:20Z, ~8.5h post-advisory, no npm takedown, no T-Bank or npm public confirmation/denial surfaced via search), and **`@insiderintelligence/googleadmanager` STILL LIVE** (latest 9.9.10, `modified` unchanged at 2026-09-18T17:00:08Z, ~98h post-advisory). npm search for `scope:pwaplatform` returns **zero** other packages under the scope at check — the canary is the scope's only content; the `vd_danilov` npm profile returns 403 to anonymous fetch.
+
+**New durable fact:** the OSV record `MAL-2026-16299` was **merged and expanded at 17:37–17:39 UTC Sep 20** — the two per-version Amazon Inspector analyses (`MAL-0000-amazon-inspector-3cecca23c77c98d7` for 99.0.0 and `-4f674867f67f5a84` for 99.0.1, both published 17:25 UTC) were ingested into `ossf/malicious-packages` and folded into the main record, which now carries **Amazon Inspector's full behavioral description alongside OpenSSF Package Analysis's heuristic flag**. This matters for triage provenance: the record is no longer one ML-heuristic verdict ("communicates with a malicious domain + executes malicious-behavior commands") but **two independent analyses with matching mechanics**, and Inspector's own text states the `@pwaplatform` scope + implausibly-high `99.0.x` version + OOB collaborator channel are *"consistent with a dependency-confusion attack against an internal scope"* while explicitly noting the README's authorization claim. That is the same read this page published: **the artifact supports both the canary story and the attack-recon story; only the publisher's word distinguishes them.** Inspector's 99.0.1 writeup also confirms the collection set matches this wiki's direct tarball analysis exactly (hostname/whoami/id/uname/`/etc/passwd` ≤4096 bytes/cwd/INIT_CWD/git remote+branch/package.json metadata + top-level deps/npm config/CI env vars), including the third hardcoded destination `http://ii473egh1b4kbaw03rf7pkzik9q0er8fx.oastify.com/<token>`.
+
+GHSA disposition at check: severity **critical**, vulnerable ranges pinned `= 99.0.0` and `= 99.0.1`, **no patched version** (a malware-class advisory's "fix" is unpublish, which npm has not done at check time). Watch items unchanged: takedown, T-Bank/npm response, reuse of `vd_danilov` / `sobaka-kusaka.ru` / `npm-canary/1.1`.
+
 ## Monitoring
 
 - Takedown of the surviving `@insiderintelligence/googleadmanager` (re-check registry state each sweep).
@@ -111,6 +119,7 @@ A **new** malware-class advisory landed the morning of **Sep 20** — GHSA-26h7-
 - OSV mirrors: `MAL-2026-16292` (`@shared-web/utils`), `MAL-2026-16290` (`@insiderintelligence/googleadmanager`).
 - npm registry live re-checks (this wiki, Sep 19–20, 2026): four names return `Not found`; `@insiderintelligence/googleadmanager` resolves with `dist-tags.latest = 9.9.10`, created `2026-09-18T14:11Z`, 2 versions.
 - Sep 20 canary item: [GHSA-26h7-cmv3-wgv6](https://github.com/advisories/GHSA-26h7-cmv3-wgv6) / OSV `MAL-2026-16299` (OpenSSF Package Analysis) for `@pwaplatform/module-sso-integration`; both tarballs (99.0.0, 99.0.1) pulled and analyzed directly from the npm registry by this wiki on Sep 20, 2026; `sobaka-kusaka.ru` and the hardcoded `oastify.com` subdomain resolution verified by this wiki; the T-Bank bug-bounty authorization claim is the publisher's own README statement and is unverified from public data.
+- Sep 20 (third sweep): OSV `MAL-2026-16299` merged state read directly from the `ossf/malicious-packages` repository (commits `61aa5005` / `4abb1831`, 17:37–17:39 UTC) including the folded-in Amazon Inspector per-version analyses `MAL-0000-amazon-inspector-3cecca23c77c98d7` and `MAL-0000-amazon-inspector-4f674867f67f5a84`; GHSA severity/range state from the advisories API; registry liveness + `scope:pwaplatform` search from registry.npmjs.org (this wiki, Sep 20 ~19:30 UTC).
 
 ## Related pages
 
