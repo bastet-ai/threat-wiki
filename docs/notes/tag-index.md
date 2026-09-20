@@ -222,7 +222,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-assisted malware development](#ai-assisted-malware-development) (4)
 - [AI-assisted phishing](#ai-assisted-phishing) (1)
 - [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
-- [AI-augmented operations](#ai-augmented-operations) (4)
+- [AI-augmented operations](#ai-augmented-operations) (5)
 - [AI-coding-agent](#ai-coding-agent) (1)
 - [AI-enabled malware](#ai-enabled-malware) (2)
 - [AI-enhanced malware](#ai-enhanced-malware) (1)
@@ -567,10 +567,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bluemonday](#bluemonday) (1)
 - [Blueprints](#blueprints) (1)
 - [Bluetooth LE](#bluetooth-le) (1)
+- [BOATBEAM](#boatbeam) (1)
 - [Boatnet](#boatnet) (1)
 - [BOD 26-04](#bod-26-04) (18)
 - [body hash](#body-hash) (1)
 - [BOF](#bof) (1)
+- [Boleto](#boleto) (1)
 - [BookStack](#bookstack) (1)
 - [Boot Bus Extender](#boot-bus-extender) (1)
 - [Boot Time Removal Tool](#boot-time-removal-tool) (1)
@@ -583,10 +585,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [brand impersonation](#brand-impersonation) (4)
 - [brand-impersonation](#brand-impersonation) (2)
 - [BraZetsu](#brazetsu) (2)
-- [Brazil](#brazil) (7)
+- [Brazil](#brazil) (8)
 - [Brazilian banking malware](#brazilian-banking-malware) (2)
 - [BreachForums](#breachforums) (1)
 - [Breeze Cache Cleaner](#breeze-cache-cleaner) (1)
+- [BREEZE COMET](#breeze-comet) (1)
 - [Brevo](#brevo) (1)
 - [Brian Fox](#brian-fox) (1)
 - [BRICKSTORM](#brickstorm) (2)
@@ -780,7 +783,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CI-CD-credentials](#ci-cd-credentials) (1)
 - [CI/CD](#cicd) (45)
 - [CI/CD abuse](#cicd-abuse) (1)
-- [CI/CD credential theft](#cicd-credential-theft) (1)
+- [CI/CD credential theft](#cicd-credential-theft) (2)
 - [CI/CD pipeline abuse](#cicd-pipeline-abuse) (1)
 - [CircleCI](#circleci) (1)
 - [CIS](#cis) (2)
@@ -899,6 +902,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CNABHunter](#cnabhunter) (2)
 - [CNCERT](#cncert) (1)
 - [Cobalt Strike](#cobalt-strike) (7)
+- [COBALTSPIN](#cobaltspin) (1)
 - [code execution](#code-execution) (4)
 - [code generation](#code-generation) (1)
 - [code injection](#code-injection) (8)
@@ -1478,7 +1482,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cyber sanctions](#cyber-sanctions) (1)
 - [cyber-espionage](#cyber-espionage) (7)
 - [CyberAv3ngers](#cyberav3ngers) (1)
-- [cybercrime](#cybercrime) (20)
+- [cybercrime](#cybercrime) (21)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [cyberespionage](#cyberespionage) (7)
 - [CyberScoop](#cyberscoop) (1)
@@ -2001,7 +2005,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [financial fraud](#financial-fraud) (9)
 - [financial institutions](#financial-institutions) (1)
 - [financial motivation](#financial-motivation) (1)
-- [financial sector](#financial-sector) (8)
+- [financial sector](#financial-sector) (9)
 - [financial services](#financial-services) (5)
 - [financial theft](#financial-theft) (3)
 - [financially motivated](#financially-motivated) (4)
@@ -2289,7 +2293,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GS-Netcat](#gs-netcat) (1)
 - [Gshell](#gshell) (1)
 - [GTG](#gtg) (2)
-- [GTIG](#gtig) (2)
+- [GTIG](#gtig) (3)
 - [GUE](#gue) (1)
 - [guest access abuse](#guest-access-abuse) (1)
 - [guest-to-host escape](#guest-to-host-escape) (2)
@@ -2681,6 +2685,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keylogging](#keylogging) (5)
 - [keyval.org](#keyvalorg) (1)
 - [keyword splitting](#keyword-splitting) (1)
+- [KICKPLATE](#kickplate) (1)
 - [kill switch](#kill-switch) (1)
 - [Kimi](#kimi) (1)
 - [Kimi K2.5](#kimi-k25) (1)
@@ -2734,7 +2739,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LATAM](#latam) (3)
 - [lateral movement](#lateral-movement) (11)
 - [lateral-movement](#lateral-movement) (1)
-- [Latin America](#latin-america) (4)
+- [Latin America](#latin-america) (5)
 - [Latin-America](#latin-america) (1)
 - [LaunchAgent](#launchagent) (6)
 - [launchctl](#launchctl) (1)
@@ -2787,6 +2792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lighthouse beacon](#lighthouse-beacon) (1)
 - [Lightning Shared Scooter Co.](#lightning-shared-scooter-co) (1)
 - [Lightning Web Runtime](#lightning-web-runtime) (1)
+- [LIGHTPAINT](#lightpaint) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linksys](#linksys) (1)
 - [Linux](#linux) (34)
@@ -2950,7 +2956,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [managed service provider](#managed-service-provider) (2)
 - [ManageEngine Endpoint Central](#manageengine-endpoint-central) (1)
 - [management plane](#management-plane) (5)
-- [Mandiant](#mandiant) (2)
+- [Mandiant](#mandiant) (3)
 - [Manifest V3](#manifest-v3) (1)
 - [Manifold Security](#manifold-security) (1)
 - [manufacturing](#manufacturing) (4)
@@ -3063,6 +3069,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (4)
 - [MikroTik](#mikrotik) (1)
+- [MILDFROST](#mildfrost) (1)
 - [military logistics](#military-logistics) (1)
 - [military research](#military-research) (1)
 - [Milo Wallet](#milo-wallet) (1)
@@ -3168,6 +3175,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MSXML2.XMLHTTP](#msxml2xmlhttp) (1)
 - [mTLS](#mtls) (1)
 - [mTLS bypass](#mtls-bypass) (1)
+- [mTLS credential theft](#mtls-credential-theft) (1)
 - [MU plugin](#mu-plugin) (1)
 - [Muck and Load](#muck-and-load) (1)
 - [MuddyWater](#muddywater) (4)
@@ -3448,7 +3456,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (430)
+- [ops](#ops) (431)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
@@ -3580,6 +3588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [payment fraud](#payment-fraud) (1)
 - [payment SDK](#payment-sdk) (1)
 - [payment skimmer](#payment-skimmer) (1)
+- [payment systems](#payment-systems) (1)
 - [payment workflow exposure](#payment-workflow-exposure) (1)
 - [payment-card theft](#payment-card-theft) (2)
 - [payment-card-theft](#payment-card-theft) (3)
@@ -3653,7 +3662,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [piracy](#piracy) (1)
 - [Piriform](#piriform) (1)
 - [pitboss](#pitboss) (1)
-- [Pix](#pix) (1)
+- [Pix](#pix) (2)
 - [Pixel Update Bulletin](#pixel-update-bulletin) (1)
 - [Pixeldrain](#pixeldrain) (1)
 - [PixelSmash](#pixelsmash) (1)
@@ -3670,6 +3679,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [plugin RCE](#plugin-rce) (1)
 - [plugin4shell](#plugin4shell) (1)
 - [PlugX](#plugx) (4)
+- [Plump Spider](#plump-spider) (1)
 - [PNG shellcode](#png-shellcode) (1)
 - [PoC available](#poc-available) (1)
 - [PoC exploit refusal](#poc-exploit-refusal) (1)
@@ -3908,6 +3918,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Reactor Netty](#reactor-netty) (1)
 - [readonly proxy](#readonly-proxy) (1)
 - [real-time operator control](#real-time-operator-control) (1)
+- [REALBREEZE](#realbreeze) (1)
 - [Reality](#reality) (1)
 - [Realme C33](#realme-c33) (1)
 - [Reaper](#reaper) (1)
@@ -4026,6 +4037,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Robbe Van Roey](#robbe-van-roey) (1)
 - [Rockwell Automation](#rockwell-automation) (1)
 - [rogue certificate authority](#rogue-certificate-authority) (2)
+- [rogue hardware](#rogue-hardware) (1)
 - [rogue RMM](#rogue-rmm) (1)
 - [RoguePlanet](#rogueplanet) (2)
 - [Rokarolla](#rokarolla) (2)
@@ -4264,7 +4276,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [shadow MMU](#shadow-mmu) (1)
 - [SHADOW-AETHER](#shadow-aether) (1)
 - [SHADOW-AETHER-040](#shadow-aether-040) (1)
-- [SHADOW-AETHER-064](#shadow-aether-064) (1)
+- [SHADOW-AETHER-064](#shadow-aether-064) (2)
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [SHADOW-WATER-063](#shadow-water-063) (1)
 - [ShadowPad](#shadowpad) (4)
@@ -4563,6 +4575,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-3075](#storm-3075) (1)
 - [Storm-3121](#storm-3121) (1)
 - [Stowaway](#stowaway) (1)
+- [STR](#str) (1)
 - [STRD](#strd) (3)
 - [streaming boxes](#streaming-boxes) (1)
 - [Stripe OLT](#stripe-olt) (1)
@@ -4910,6 +4923,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC3753](#unc3753) (1)
 - [UNC4221](#unc4221) (1)
 - [UNC4736](#unc4736) (1)
+- [UNC5669](#unc5669) (1)
 - [UNC5792](#unc5792) (1)
 - [UNC5976](#unc5976) (1)
 - [UNC6240](#unc6240) (2)
@@ -5277,6 +5291,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XSS](#xss) (5)
 - [XSS injection](#xss-injection) (1)
 - [XSS.is](#xssis) (1)
+- [XWORM](#xworm) (1)
 - [XWorm](#xworm) (1)
 - [XXE](#xxe) (1)
 - [xz](#xz) (2)
@@ -6264,6 +6279,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
 ## AI-augmented operations
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -7538,6 +7554,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Bluetooth LE
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 
+## BOATBEAM
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
+
 ## Boatnet
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
@@ -7566,6 +7585,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BOF
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
+
+## Boleto
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 
 ## BookStack
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
@@ -7625,6 +7647,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armored Likho](../actors/armored-likho.md)
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 - [Exilware: Brazilian IAB operation behind BraZetsu and the "Infected Marketplace"](../actors/exilware.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -7639,6 +7662,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Breeze Cache Cleaner
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
+
+## BREEZE COMET
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 
 ## Brevo
 - [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
@@ -8444,6 +8470,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions cPanel CVE-2026-41940 exploitation campaign](../ops/github-actions-cpanel-cve-2026-41940-exploitation-campaign.md)
 
 ## CI/CD credential theft
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## CI/CD pipeline abuse
@@ -9016,6 +9043,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
+
+## COBALTSPIN
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 
 ## code execution
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
@@ -11159,6 +11189,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cybercrime
 - [Anthropic Threat Intelligence report (September 2026): GTG case studies — autonomous malware-rebuild loops, ShinyHunters AI uplift, a Changsha exploit foundry, and prompt-injection of AI evaluation sandboxes](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Exilware: Brazilian IAB operation behind BraZetsu and the "Infected Marketplace"](../actors/exilware.md)
 - [First VPN](../tools/first-vpn.md)
@@ -13251,6 +13282,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 
 ## financial sector
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
@@ -14334,6 +14366,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 
 ## GTIG
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 - [NetNut / Popa residential proxy network disruption](../ops/netnut-popa-residential-proxy-network-disruption.md)
 - [UNC6508](../actors/unc6508.md)
 
@@ -15837,6 +15870,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## keyword splitting
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
+## KICKPLATE
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
+
 ## kill switch
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 
@@ -16036,6 +16072,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## Latin America
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
@@ -16221,6 +16258,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Lightning Web Runtime
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
+
+## LIGHTPAINT
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 
 ## LinkedIn
 - [JINX-0164](../actors/jinx-0164.md)
@@ -16970,6 +17010,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## Mandiant
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 - [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
 - [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 
@@ -17449,6 +17490,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MikroTik
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 
+## MILDFROST
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
+
 ## military logistics
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 
@@ -17841,6 +17885,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## mTLS bypass
 - [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
+
+## mTLS credential theft
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 
 ## MU plugin
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
@@ -19305,6 +19352,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bitwarden / Checkmarx Shai-Hulud Third Coming campaign](../ops/bitwarden-checkmarx-shai-hulud-third-coming.md)
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 - [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
@@ -20211,6 +20259,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## payment skimmer
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 
+## payment systems
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
+
 ## payment workflow exposure
 - [Oracle E-Business Suite CVE-2026-46817 exploitation](../ops/oracle-e-business-suite-cve-2026-46817-exploitation.md)
 
@@ -20525,6 +20576,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Pix
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 
 ## Pixel Update Bulletin
 - [Google Pixel cellular-modem privilege escalation CVE-2026-58704: KEV-listed with Google's own "limited, targeted exploitation" note (Sep 16, 2026)](../ops/google-pixel-cellular-modem-cve-2026-58704-kev-targeted-exploitation-september-2026.md)
@@ -20580,6 +20632,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [SilkLurk](../tools/silklurk.md)
 - [SilkParasite](../actors/silkparasite.md)
+
+## Plump Spider
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 
 ## PNG shellcode
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
@@ -21573,6 +21628,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## real-time operator control
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
 
+## REALBREEZE
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
+
 ## Reality
 - [First VPN](../tools/first-vpn.md)
 
@@ -22043,6 +22101,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## rogue certificate authority
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
+
+## rogue hardware
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 
 ## rogue RMM
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
@@ -22946,6 +23007,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## SHADOW-AETHER-064
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 - [SHADOW-AETHER AI-augmented Latin America intrusions](../ops/shadow-aether-ai-augmented-latam-intrusions.md)
 
 ## SHADOW-EARTH-066
@@ -24060,6 +24122,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Stowaway
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
+
+## STR
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 
 ## STRD
 - [ToddyCat](../actors/toddycat.md)
@@ -25592,6 +25657,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## UNC4736
 - [RemotePE](../tools/remotepe.md)
 
+## UNC5669
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
+
 ## UNC5792
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 
@@ -27059,6 +27127,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## XSS.is
 - [First VPN](../tools/first-vpn.md)
+
+## XWORM
+- [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
 
 ## XWorm
 - [Aeternum](../tools/aeternum.md)

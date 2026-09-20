@@ -54,6 +54,31 @@ OSV mirrors exist for the cluster (e.g. `MAL-2026-16292` for `@shared-web/utils`
 - **Package-content statics:** packages shipping numbered `lib/<hexish>.js` files that `String.fromCharCode`-assemble module names and require via `module.constructor._load`; `dns.resolve4` in a dependency whose stated purpose has nothing to do with DNS.
 - **Lifecycle posture:** treat an `install` script in a scoped package that merely "assembles strings" as this class until proven otherwise; npm ≥ 12's install-script approval denies the install-script path but not the `require`-time path seen in `@shared-web/assets`.
 
+## September 20 sweep follow-up: survivor still live, and a neighboring same-day dependency-confusion recon wave (verified by this wiki)
+
+**Re-check (Sep 20, ~05:25 UTC, this wiki):** `@insiderintelligence/googleadmanager` is **STILL on npm** — `latest 9.9.10`, manifest modified timestamp unchanged (`2026-09-18T17:00Z`). ~36 hours after the advisory, one beacon survives while its four siblings are gone.
+
+The same Sep 18–19 Amazon-Inspector/OpenSSF advisory burst that produced the algamil7x cluster also carried a **separate, neighboring set of dependency-confusion / name-squat payloads** — same intake window, different authors and mechanisms. All verified via the GitHub Advisories API and npm registry this sweep; **none carry a CVE**:
+
+| Package | Advisory (published UTC) | Payload shape | Registry state (Sep 20) |
+|---|---|---|---|
+| `x509-escaping` (npm) | GHSA-fq85-7xqm-cgj9, Sep 18 21:31 | `preinstall` collects hostname/username/home/DNS servers/cwd + reads `/etc/passwd` and `/etc/hosts`, POSTs the bundle to a hardcoded **Burp Collaborator subdomain** (`*.oob…oastify.com`) — recon, no library code shipped | name remains, all versions gone (no `latest`) |
+| `chai-as-indexed` (npm) | GHSA-727r-6hg5-947x, Sep 18 21:31 | on `require`, POSTs the **full `process.env`** to a base64-concealed endpoint (`ipcheck-hashed[.]vercel[.]app/api/auth/…`) and pipes the **response body into `new Function('require', …)`** = remote server executes arbitrary code in the importing process on every load, with real `require` | name remains, all versions gone |
+| `internallib_v949` (npm) | GHSA-4qw5-jqr6-c4fj / GHSA-f863-m366-9cfm, Sep 18 21:53 | `index.js` runs `child_process.exec` of a `curl https://reverse-shell.sh/…` pipe-to-shell against endpoint `10.0.16.19:443`; self-referential dependency on its own name = internal-name squat for internal-build interception | now `0.0.1-security` reservation (taken down) |
+| `tailwindcss-forms-ui` (npm) | GHSA-fc5q-m33g-rp9c, Sep 18 21:31 | typosquat of `@tailwindcss/forms` (payload detail in OSV) | name remains, all versions gone |
+| `py-venv-doctor` (PyPI) | GHSA-94w6-hr49-qjm7, Sep 19 00:32 | "healthcheck report" + opt-out telemetry that **exfiltrates the full environment-variable set**; OpenSSF campaign `2026-09-py-venv-doctor` | gone from PyPI (Sep 20 check) |
+| `keroeltop` (npm) | GHSA-gg5m-rqpp-c9xf, Sep 19 03:32 | OpenSSF package-analysis flag (malicious-domain communication) | — |
+| `urc` (PyPI) | GHSA-3c7m-3qhf-wqrr, Sep 19 06:32 | install-time host-info exfil; OpenSSF categories it `PROBABLY_PENTEST` (low-harm possibility) | — |
+
+**Durable reads from the wave:**
+
+1. **Legitimate-platform C2 hosting keeps winning.** `chai-as-indexed`'s C2 is a `vercel.app` function and `x509-escaping`'s is a **Burp Collaborator (`oastify.com`)** subdomain — a commercial pentest tool's own OOB channel as attacker exfil. Both destinations live on infrastructure no sane egress policy blocks. Hunt by *behavior* (env-dump POST at require time, resolver/proxy queries for `*.oastify.com` from build hosts) rather than destination reputation.
+2. **The `new Function(require, serverResponse)` pattern is the require-time twin of WeaselBiscuit's Npoint fetch** — remote server supplies code executed with real module privileges on every import. Two independent npm payloads using it in one week says the pattern has left DPRK tooling and entered commodity malware templates.
+3. **The `reverse-shell.sh → 10.0.16.19:443` payload in `internallib_v949` targets a private IP** — either a test build caught by the pipeline or an actor with a staging script left misconfigured; either way a reminder that some registry malware is low-skill noise around the same intake window, and triage should read the payload, not just the advisory class.
+4. **Same intake window ≠ same campaign.** Five+ packages on Sep 18–19 advisories share a date and source, not an author: algamil7x is one code family; these neighbors are unrelated one-offs. Date-collapsing in threat feeds over-reports clusters — compare obfuscation lineage and destination before merging.
+
+Hunt delta from this section: flag build hosts querying `*.oastify.com`; alert on any dependency POSTing `process.env` or reading `/etc/passwd` at install/require; treat `vercel.app` API endpoints as C2-capable in package-audit context.
+
 ## Monitoring
 
 - Takedown of the surviving `@insiderintelligence/googleadmanager` (re-check registry state each sweep).

@@ -64,6 +64,7 @@ The durable defender value is not the vendor label alone: these cases show agent
 - Limit blast radius with fundamentals Trend highlighted: timely patching, segmentation around application servers, least-privilege service accounts, private-key hygiene, MFA / device posture on remote admin paths, and high-fidelity monitoring of internal activity.
 
 ## Related pages
+- [BREEZE COMET (GTIG, Sep 1 2026 write-up captured Sep 20)](breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md) — GTIG explicitly says its BREEZE COMET / UNC5669 activity overlaps with SHADOW-AETHER-064 and Plump Spider reporting, adding the full backdoor taxonomy (COBALTSPIN/LIGHTPAINT/MILDFROST/KICKPLATE/BOATBEAM/REALBREEZE) and the rogue-hardware + municipal-website staging tradecraft against Brazilian payment rails (Pix/STR/Boleto)
 - [Unit 42 CL-CRI-1131/CL-CRI-1163 LLM-orchestrated LATAM campaigns (Sep 3, 2026)](unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md) — Unit 42's corroborating Sep 3 reporting: the same SockTz / `167.148.195[.]53` JBoss infrastructure and LLM-tell iterative filenames, plus an internet-exposed NextChat backend in CL-CRI-1131
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 - [Microsoft Teams external-chat phishing](../patterns/microsoft-teams-external-chat-phishing.md)
