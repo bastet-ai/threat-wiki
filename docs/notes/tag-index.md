@@ -640,6 +640,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser-resident malware](#browser-resident-malware) (3)
 - [browser-security](#browser-security) (1)
 - [browser-session risk](#browser-session-risk) (1)
+- [browser-side-execution](#browser-side-execution) (1)
 - [browsing history](#browsing-history) (1)
 - [brute force](#brute-force) (1)
 - [brute-force credentials](#brute-force-credentials) (1)
@@ -1120,6 +1121,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CSI token theft](#csi-token-theft) (1)
 - [CSP monitoring](#csp-monitoring) (1)
 - [CSP stripping](#csp-stripping) (1)
+- [CSP-bypass](#csp-bypass) (1)
 - [CSRF](#csrf) (3)
 - [csrf](#csrf) (1)
 - [CSRF token theft](#csrf-token-theft) (1)
@@ -2677,6 +2679,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [jscrambler](#jscrambler) (1)
 - [Jscrambler](#jscrambler) (1)
 - [JScript](#jscript) (1)
+- [jsDelivr](#jsdelivr) (1)
 - [JSON](#json) (1)
 - [JSON Web Token](#json-web-token) (1)
 - [JSON-RPC](#json-rpc) (2)
@@ -2977,6 +2980,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [maintainer-account-compromise](#maintainer-account-compromise) (1)
 - [maintainer-compromise](#maintainer-compromise) (2)
 - [Makeself license.tmp](#makeself-licensetmp) (1)
+- [MAL-2026-16347](#mal-2026-16347) (1)
 - [malformed signature](#malformed-signature) (1)
 - [malicious ads](#malicious-ads) (1)
 - [malicious browser extension](#malicious-browser-extension) (1)
@@ -3415,6 +3419,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NX-OS](#nx-os) (1)
 - [O-UNC-066](#o-unc-066) (1)
 - [OAST](#oast) (1)
+- [oastify](#oastify) (1)
 - [OAuth](#oauth) (6)
 - [OAuth 2.1](#oauth-21) (1)
 - [OAuth abuse](#oauth-abuse) (4)
@@ -3844,6 +3849,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Progress Software](#progress-software) (1)
 - [Project Lightwell](#project-lightwell) (1)
 - [Project Proposal.exe](#project-proposalexe) (1)
+- [Project-Discovery-collaborator](#project-discovery-collaborator) (1)
 - [prompt infection](#prompt-infection) (1)
 - [prompt injection](#prompt-injection) (21)
 - [prompt injection adjacent](#prompt-injection-adjacent) (1)
@@ -3890,6 +3896,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [public sector](#public-sector) (3)
 - [Public Security Bureau impersonation](#public-security-bureau-impersonation) (1)
 - [public service abuse](#public-service-abuse) (1)
+- [public-CDN-delivery](#public-cdn-delivery) (1)
 - [public-service C2](#public-service-c2) (1)
 - [publication bias](#publication-bias) (1)
 - [publish mode](#publish-mode) (1)
@@ -3946,6 +3953,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RaaS](#raas) (2)
 - [RabbitMQ](#rabbitmq) (1)
 - [race condition](#race-condition) (1)
+- [radio-player-theme](#radio-player-theme) (1)
 - [RAGFlow](#ragflow) (1)
 - [RainbowEx](#rainbowex) (1)
 - [RakNet flood](#raknet-flood) (1)
@@ -5383,6 +5391,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XSLT SSRF](#xslt-ssrf) (1)
 - [XSS](#xss) (5)
 - [XSS injection](#xss-injection) (1)
+- [XSS-canary](#xss-canary) (1)
 - [XSS.is](#xssis) (1)
 - [XWORM](#xworm) (1)
 - [XWorm](#xworm) (1)
@@ -7971,6 +7980,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser-session risk
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 
+## browser-side-execution
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
+
 ## browsing history
 - [ModHeader browser-extension surveillance capability](../ops/modheader-browser-extension-surveillance.md)
 
@@ -10136,6 +10148,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CSP stripping
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
+
+## CSP-bypass
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## CSRF
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
@@ -15938,6 +15953,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## JScript
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
 
+## jsDelivr
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
+
 ## JSON
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
 
@@ -17100,6 +17118,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Makeself license.tmp
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
+
+## MAL-2026-16347
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## malformed signature
 - [miniOrange SAML 2.0 SSO plugin: unauthenticated flaws grant WordPress admin access (active exploitation)](../ops/miniorange-saml-unauthenticated-wordpress-admin-takeover.md)
@@ -18906,6 +18927,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OAST
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
+
+## oastify
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## OAuth
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -21378,6 +21402,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Project Proposal.exe
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 
+## Project-Discovery-collaborator
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
+
 ## prompt infection
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 
@@ -21563,6 +21590,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## public service abuse
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
+## public-CDN-delivery
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## public-service C2
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -21780,6 +21810,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## race condition
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
+
+## radio-player-theme
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## RAGFlow
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
@@ -27577,6 +27610,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## XSS injection
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
+
+## XSS-canary
+- [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 
 ## XSS.is
 - [First VPN](../tools/first-vpn.md)

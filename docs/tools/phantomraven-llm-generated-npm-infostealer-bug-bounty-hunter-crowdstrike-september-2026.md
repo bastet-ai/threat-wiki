@@ -28,6 +28,15 @@ The delivery mechanism is exactly the vector npm v12's June 2026 install-script 
 - npm-v12
 - install-time-execution
 - JavaScript
+- radio-player-theme
+- MAL-2026-16347
+- jsDelivr
+- public-CDN-delivery
+- CSP-bypass
+- oastify
+- Project-Discovery-collaborator
+- XSS-canary
+- browser-side-execution
 - eCrime
 - big-game-hunting
 
@@ -79,6 +88,18 @@ The delivery mechanism is exactly the vector npm v12's June 2026 install-script 
 - **June 2026:** npm v12 GA ships install-script blocking by default, degrading the campaign's automatic-execution path.
 - **September 15, 2026:** CrowdStrike Counter Adversary Operations publishes the PhantomRaven analysis (Axios exclusive Sep 15; broad pickup Sep 16). Both malicious package names now carry only `0.0.1-security` GitHub security-lab reservation versions — packages removed from npm.
 
+## September 21 follow-up: the same inversion in npm's browser-facing mirror — `radio-player-theme` (OSV `MAL-2026-16347`), a self-labeled bug-bounty XSS "proof" that is a live cookie-exfil payload served from jsDelivr
+
+On September 21, 2026 the OpenSSF Package Analysis program (finder handle `smiling-hyena`) published OSV `MAL-2026-16347` for npm **`radio-player-theme`** — a package whose entire content is `package.json`, a `style.css` declared as `main`, and **`payload.js`**, whose own header comment labels it *"YWH Bug Bounty PoC: cdn.jsdelivr.net script-src bypass on player-radio.infomaniak.com"* and whose `description` reads *"YWH bug bounty CSS injection live-C2 proof — stage 4 XSS escalation"*. The payload reads `location.origin` and `document.cookie`, extracts the **`MANAGER-XSRF-TOKEN`** cookie value, beacons origin + collected state to hardcoded Project Discovery collaborator domain **`bfuntjuvcnxl49hcbpklk3ube2ks8h.oastify.com`** via `Image.src`, issues a second authenticated request to `manager.infomaniak.com`, stores proof on `window.__radioXssProof`, and paints a red "XSS CONFIRMED" banner. Regardless of the research framing, the file **delivers working cookie/origin collection to any site that loads it**, and the package has no other function.
+
+**Verified by this wiki (Sep 21 ~13:30 UTC):** tarball pulled directly — SHA-256 `ddbb93aa9416c1c89cf15dc7627f4a816a1c31929238ed8608264546ba0df186` and `payload.js` SHA-256 `37f83798b08b0c645ceacab72c1693340ab187a1411a0bd9d3164d1313798901`, both matching the OSV record; **`dist-tags.latest = 6.0.0` — installable** — and `https://cdn.jsdelivr.net/npm/radio-player-theme@6.0.0/payload.js` **serves the identical payload live right now** (hash-verified through the CDN). Publisher account `aiesec.margarine115` with a disposable-style email domain (`slmails.com`); all six versions (1.0.0 → 6.0.0) published Sep 11–16, 2026; **zero deprecation flags on any version; no GitHub Advisories mirror at check** (`affects=pkg:npm/radio-player-theme` returns empty; newest malware-class GHSA overall is still the Sep 18 17:59 batch). The `ossf/malicious-packages` "report: add radio-player-theme" PR merged 08:44 UTC Sep 21 (PR #1539) with the OSV record published 21:26 UTC Sep 19. The "YWH" tag matches public bug-bounty research tooling distributed by Hyve5 (which also appears in today's GHSA feed for unrelated Leantime CVEs); no vendor or target has confirmed the authorization claim, so it stays unverified metadata per this wiki's standing rule.
+
+**Why it lands on this page:** CrowdStrike's PhantomRaven is malware disguised as a researcher; this is the mirror-image artifact — a claimed researcher's PoC **that is the malware**, needing no disguise. Same ecosystem, same inversion of the disclosure economy, same self-labeled-research trust gamble the algamil7x page's `@pwaplatform` section documents. The material difference is the delivery boundary: **no install hooks — nothing runs at `npm install`. The detonation surface is the public CDN.** Any site whose CSP trusts `cdn.jsdelivr.net` and points a script tag at this path runs the exfil in its own origin, with its own cookies. For this class, **npm 12's install-script blocking and every host-side EDR control are beside the point** — execution happens in a visitor's browser through shared-CDN trust (the same trust WordlistLoader/SynkLoader abused on their jsDelivr paths, on-wiki).
+
+**Hunt / takedown notes:** CSP-violation reports referencing `cdn.jsdelivr.net/npm/<pkg>` paths; browser-origin `Image.src` beacons to `*.oastify.com`; theme/CSS-named npm packages whose `main` is CSS but that ship `.js` files. Takedown surface here is FOUR parties, not one: the registry, the CDN, the collaborator-domain owner (Project Discovery can sinkhole their own canary subdomain), and the site owner whose CSP is the actual enabler.
+
+**Monitor:** the GitHub Advisory mirror's appearance; npm's disposition (zero deprecation flags at check); jsDelivr cache removal; any confirmation/denial from the named vendor or target (the T-Bank/pwaplatform disclosure silence is the base rate); whether "PoC-via-public-CDN" becomes a delivery pattern other actors adopt — one CSS-themed package with a `payload.js` is how this looked before the advisory, and it still installs and still serves. (A passive header check of the claimed target `player-radio.infomaniak.com` did not return usable CSP headers from this vantage; the site's CSP posture is unverified.)
+
 ## Monitor
 - Whether the operator submits further "findings" to bounty platforms and whether any program detects or expels them.
 - Adoption of the manufactured-compromise-for-bounties model by other low-skill actors (the model is copyable from the public writeup itself).
@@ -89,4 +110,5 @@ The delivery mechanism is exactly the vector npm v12's June 2026 install-script 
 ## Sources
 - CrowdStrike Blog — "PhantomRaven: An LLM-Generated Information Stealer Developed for Bug Bounty Hunting" (September 15, 2026): <https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/>
 - Axios — "Exclusive: AI-written malware helped a hacker cash in on bug bounty programs" (September 15, 2026)
+- Sep 21 follow-up item: OSV `MAL-2026-16347` (`radio-player-theme`, OpenSSF Package Analysis, finder `smiling-hyena`; `ossf/malicious-packages` PR #1539 merged 2026-09-21 08:44 UTC) + npm registry + jsDelivr CDN + GitHub Advisories API checks by this wiki, Sep 21, 2026
 - Related wiki pages: [npm install explicit-trust controls](../patterns/npm-install-explicit-trust-controls.md), [CrowdStrike source entry](../notes/source-index.md)
