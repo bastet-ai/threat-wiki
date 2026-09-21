@@ -56,6 +56,18 @@ The durable defender point: the repositories looked like functional ecommerce / 
 - Monitor for browser credential-store access (`Login Data`, `Web Data`) and wallet-extension LevelDB reads from project-launched Node processes.
 - If a coding-test project was run, isolate the endpoint before rotating credentials; then revoke browser sessions, source-control tokens, package-registry tokens, cloud/API keys, wallet secrets, and AI-tool credentials that were reachable from the host.
 
+## <a id="september-21-joint-advisory"></a>September 21 follow-up: the joint multi-agency advisory puts numbers on the campaign — 30,000+ devices, 100+ countries, 7,000+ wallets, $10.71M — and formally fuses WaterPlum IT-worker ops with Contagious Interview
+
+The Hacker News (Sep 21, 2026) covered a **joint advisory from Japan, the U.S., Australia, and Germany** (canonical advisory URL not retrievable at capture — THN's article links only its secondary sources; backfill from CISA's joint-advisory index next sweep) quantifying the campaign this page documents fragments of: **at least 30,000 compromised devices in 100+ countries, funds or credentials siphoned from 7,000+ cryptocurrency wallets, at least $10.71M plundered**. Targets: web designers, engineers, crypto/blockchain/Web3 specialists. The alias pile is now official in one artifact: **CL-STA-0240, DeceptiveDevelopment, DEV#POPPER, Famous Chollima, Gwisin Gang, PurpleBravo, Tenacious Pungsan, UNC5342, Void Dokkaebi, WaterPlum** — the on-wiki Famous Chollima / REF9403 / BeaverTail-OtterCookie-WeaselBiscuit coverage all names this one operation.
+
+Durable additions from the advisory read:
+
+- **Formal organizational fusion:** WaterPlum and some North Korean IT workers (**PurpleDelta / Wagemole**) are assessed to operate **under the 313 General Bureau of the Munitions Industry Department**, and the two clusters are "deeply intertwined" — same IPs accessing laptop farms AND applying for jobs at Japanese crypto exchanges. This corroborates (from the state side) the credential-pipeline linkage Unit 42's token-jacking work (on-wiki) hypothesized between IT-worker operations and supply-chain malware.
+- **Laptop-farm facilitation is now a named, dismantled artifact:** a Japan-operated facilitator laptop farm was identified and dismantled; enablers in Japan, the U.S., and elsewhere run farms for remote device management; stolen victim ID images feed IT-worker impersonation (identity laundering is an output of the malware, not just a step).
+- **Proxy-hiring moves to Discord (Silent Push, last week):** a "Mouse Review" server recruiting U.S./EU/LATAM citizens as interview faces for **$3,000–5,000**, with the operator explicitly offering to remote-view the proxy's screen and complete live coding challenges — the human layer that beats geo/KYC controls. AI-generated ad text on record ("You handle communications and interviews. I handle all technical work behind the scenes.").
+- Kudelski Security (July 2026, on the internal infra): primary targets U.S. + Japan; **Astrill VPN and Mullvad** exit nodes for geo-look.
+- Defender translation: the campaign's success metric is a *developer running the take-home project* — every heuristic on this page still holds; new hunt add: interview-lane comms from Discord-recruited proxies means the first touch can be a legitimate-looking colleague/hiring-manager in your own pipeline. Screen external "code test" execution as untrusted code with zero credential reach.
+
 ## Related pages
 - [UNK_DeadDrop developer repository phishing](unk-deaddrop-developer-repository-phishing.md)
 - [Developer-tool config auto-execution](../patterns/developer-tool-config-auto-execution.md)

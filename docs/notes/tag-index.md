@@ -124,7 +124,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AES encrypted payload](#aes-encrypted-payload) (1)
 - [AES-128-CBC](#aes-128-cbc) (1)
 - [AES-256-CTR](#aes-256-ctr) (1)
-- [AES-256-GCM](#aes-256-gcm) (3)
+- [AES-256-GCM](#aes-256-gcm) (4)
 - [AES-CTR](#aes-ctr) (1)
 - [AES-GCM](#aes-gcm) (3)
 - [AES-GCM C2](#aes-gcm-c2) (1)
@@ -256,6 +256,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Alternate Data Stream](#alternate-data-stream) (1)
 - [Amadey](#amadey) (1)
 - [Amatera Stealer](#amatera-stealer) (2)
+- [amazon inspector](#amazon-inspector) (1)
 - [Amazon Kiro](#amazon-kiro) (1)
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [Amazon S3](#amazon-s3) (1)
@@ -991,6 +992,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [consumer IoT](#consumer-iot) (1)
 - [consumer software](#consumer-software) (1)
 - [Contagious Interview](#contagious-interview) (7)
+- [Contagious Interview adjacent](#contagious-interview-adjacent) (1)
 - [Contagious-Interview](#contagious-interview) (1)
 - [container](#container) (1)
 - [container escape](#container-escape) (5)
@@ -1031,6 +1033,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CoSnitch](#cosnitch) (1)
 - [counter-adversary-operations](#counter-adversary-operations) (1)
 - [counterfeit software](#counterfeit-software) (2)
+- [cover story packages](#cover-story-packages) (1)
 - [COW](#cow) (1)
 - [COWARDDUCK](#cowardduck) (1)
 - [CPaaS](#cpaas) (1)
@@ -1586,7 +1589,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense sector](#defense-sector) (1)
 - [defense targeting](#defense-targeting) (1)
 - [defense-evasion](#defense-evasion) (1)
-- [DeFi](#defi) (4)
+- [DeFi](#defi) (5)
 - [delayed execution](#delayed-execution) (3)
 - [denial of service](#denial-of-service) (10)
 - [Deno](#deno) (2)
@@ -1594,6 +1597,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (6)
 - [dependency-confusion](#dependency-confusion) (3)
+- [dependency-confusion shaped](#dependency-confusion-shaped) (1)
 - [deployment_status](#deployment_status) (1)
 - [deposit address replacement](#deposit-address-replacement) (1)
 - [deserialization](#deserialization) (13)
@@ -1725,6 +1729,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [double extortion](#double-extortion) (3)
 - [double free](#double-free) (1)
 - [downgrade risk](#downgrade-risk) (1)
+- [download inflation](#download-inflation) (1)
 - [downloader](#downloader) (1)
 - [downstream blast radius](#downstream-blast-radius) (1)
 - [doxing platform](#doxing-platform) (1)
@@ -1830,7 +1835,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [emergency patch](#emergency-patch) (1)
 - [ENCFORGE](#encforge) (2)
 - [encrypted C2](#encrypted-c2) (4)
-- [encrypted loader](#encrypted-loader) (1)
+- [encrypted loader](#encrypted-loader) (2)
 - [encrypted reasoning](#encrypted-reasoning) (1)
 - [EncryptInterceptor](#encryptinterceptor) (1)
 - [encryptionless](#encryptionless) (1)
@@ -1884,7 +1889,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [eth_getStorageAt](#eth_getstorageat) (1)
 - [Ethereum](#ethereum) (6)
 - [Ethereum C2](#ethereum-c2) (1)
+- [Ethereum developers](#ethereum-developers) (1)
 - [Ethereum Name Service](#ethereum-name-service) (2)
+- [Ethereum Sepolia](#ethereum-sepolia) (1)
 - [Ethereum smart contract C2](#ethereum-smart-contract-c2) (1)
 - [EtherHiding](#etherhiding) (9)
 - [Ethiopia](#ethiopia) (2)
@@ -1974,6 +1981,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake Minecraft client](#fake-minecraft-client) (1)
 - [fake plugin](#fake-plugin) (1)
 - [fake PoC](#fake-poc) (3)
+- [fake popularity](#fake-popularity) (1)
 - [fake ransomware](#fake-ransomware) (1)
 - [fake recruiting](#fake-recruiting) (4)
 - [fake reputation](#fake-reputation) (1)
@@ -2215,6 +2223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub abuse](#github-abuse) (3)
 - [GitHub account compromise](#github-account-compromise) (1)
 - [GitHub Actions](#github-actions) (29)
+- [GitHub Actions abuse](#github-actions-abuse) (1)
 - [GitHub Advisory Database](#github-advisory-database) (1)
 - [GitHub API](#github-api) (1)
 - [GitHub App](#github-app) (1)
@@ -2366,6 +2375,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HardBreacher](#hardbreacher) (1)
 - [hardcoded key](#hardcoded-key) (1)
 - [hardening gap](#hardening-gap) (1)
+- [Hardhat ecosystem](#hardhat-ecosystem) (1)
 - [hardware wallet](#hardware-wallet) (2)
 - [HarmonyLib](#harmonylib) (1)
 - [HashiCorp Vault](#hashicorp-vault) (1)
@@ -2657,7 +2667,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JetBrains](#jetbrains) (3)
 - [JetBrains Marketplace](#jetbrains-marketplace) (1)
 - [JetStream](#jetstream) (1)
-- [JFrog](#jfrog) (7)
+- [JFrog](#jfrog) (8)
 - [JFrog Artifactory](#jfrog-artifactory) (1)
 - [JFrog Security Research](#jfrog-security-research) (8)
 - [JFSA-2026-001686326](#jfsa-2026-001686326) (1)
@@ -3035,7 +3045,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [mass disclosure](#mass-disclosure) (1)
 - [mass repository cloning](#mass-repository-cloning) (1)
 - [mass scanning](#mass-scanning) (1)
-- [mathjs](#mathjs) (1)
+- [mathjs](#mathjs) (2)
 - [Matrix](#matrix) (1)
 - [Maven Central](#maven-central) (1)
 - [mawesome](#mawesome) (1)
@@ -3327,6 +3337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [network security appliances](#network-security-appliances) (1)
 - [network switch](#network-switch) (1)
 - [network-share exfiltration](#network-share-exfiltration) (1)
+- [new Function](#new-function) (1)
 - [news-impersonation](#news-impersonation) (1)
 - [NexShield](#nexshield) (1)
 - [Next.js](#nextjs) (2)
@@ -3386,7 +3397,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (77)
+- [npm](#npm) (79)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3440,7 +3451,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OAuth tokens](#oauth-tokens) (3)
 - [OBF networks](#obf-networks) (1)
 - [obfuscation](#obfuscation) (3)
-- [obfuscator.io](#obfuscatorio) (1)
+- [obfuscator.io](#obfuscatorio) (2)
 - [ObjectInputStream](#objectinputstream) (1)
 - [Oblivion](#oblivion) (2)
 - [obsolete software](#obsolete-software) (1)
@@ -3526,7 +3537,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (436)
+- [ops](#ops) (437)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3547,7 +3558,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Orkes](#orkes) (1)
 - [OS command injection](#os-command-injection) (3)
 - [OSCrypt](#oscrypt) (1)
-- [OSV](#osv) (2)
+- [OSV](#osv) (3)
 - [OT](#ot) (6)
 - [OT switches](#ot-switches) (1)
 - [OTA update](#ota-update) (1)
@@ -3652,7 +3663,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (14)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (57)
+- [patterns](#patterns) (58)
 - [Paweł Płatek](#pawe-patek) (1)
 - [pay-per-install](#pay-per-install) (1)
 - [PAYLOAD](#payload) (1)
@@ -3731,6 +3742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PINHOLE](#pinhole) (1)
 - [PINK](#pink) (1)
 - [Pink](#pink) (1)
+- [pino cover](#pino-cover) (1)
 - [pip source dependency](#pip-source-dependency) (1)
 - [Pipedream](#pipedream) (1)
 - [pipelines](#pipelines) (1)
@@ -3846,6 +3858,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [process injection](#process-injection) (6)
 - [process lineage](#process-lineage) (1)
 - [process termination](#process-termination) (2)
+- [process.env theft](#processenv-theft) (1)
 - [procfs](#procfs) (1)
 - [procurement](#procurement) (1)
 - [product lifecycle management](#product-lifecycle-management) (1)
@@ -3945,6 +3958,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QTBotnet](#qtbotnet) (1)
 - [QTFY](#qtfy) (1)
 - [QTRouter](#qtrouter) (1)
+- [quantitative finance](#quantitative-finance) (1)
 - [quantum computing](#quantum-computing) (1)
 - [Quasar](#quasar) (1)
 - [query injection](#query-injection) (1)
@@ -4267,7 +4281,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [script injection](#script-injection) (1)
 - [script-injection](#script-injection) (1)
 - [script-sandboxing](#script-sandboxing) (1)
-- [scrypt](#scrypt) (1)
+- [scrypt](#scrypt) (2)
 - [SD-WAN](#sd-wan) (2)
 - [search hijacking](#search-hijacking) (1)
 - [search poisoning](#search-poisoning) (1)
@@ -4338,6 +4352,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [serial-number relay](#serial-number-relay) (1)
 - [Serialize::unserialize](#serializeunserialize) (1)
 - [Serv-U](#serv-u) (1)
+- [server-side code execution](#server-side-code-execution) (1)
+- [serverless C2](#serverless-c2) (1)
 - [service accounts](#service-accounts) (2)
 - [service binding](#service-binding) (1)
 - [service control policies](#service-control-policies) (1)
@@ -4455,6 +4471,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SkillDetonate](#skilldetonate) (1)
 - [Skrill](#skrill) (1)
 - [Skyvern](#skyvern) (1)
+- [Slack C2](#slack-c2) (1)
 - [Slack webhook](#slack-webhook) (1)
 - [sleep agent](#sleep-agent) (1)
 - [sleeper packages](#sleeper-packages) (1)
@@ -4467,6 +4484,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SMA1000](#sma1000) (3)
 - [smart building](#smart-building) (1)
 - [smart contract](#smart-contract) (3)
+- [smart contract C2](#smart-contract-c2) (1)
 - [smart contracts](#smart-contracts) (2)
 - [smart TVs](#smart-tvs) (1)
 - [SMARTAXE](#smartaxe) (1)
@@ -4696,7 +4714,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SUPERADMIN_SECRET](#superadmin_secret) (1)
 - [superuser escalation](#superuser-escalation) (1)
 - [supply chain](#supply-chain) (27)
-- [supply chain attack](#supply-chain-attack) (2)
+- [supply chain attack](#supply-chain-attack) (4)
 - [supply chain compromise](#supply-chain-compromise) (1)
 - [supply-chain](#supply-chain) (122)
 - [supply-chain attack](#supply-chain-attack) (2)
@@ -4770,7 +4788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tampermonkey](#tampermonkey) (1)
 - [Tanzania](#tanzania) (1)
 - [tar](#tar) (1)
-- [targeted attack](#targeted-attack) (1)
+- [targeted attack](#targeted-attack) (2)
 - [targeted exploitation](#targeted-exploitation) (1)
 - [targeted malware](#targeted-malware) (1)
 - [targeted operations](#targeted-operations) (3)
@@ -4937,7 +4955,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy](#trivy) (1)
 - [TRM Labs](#trm-labs) (1)
 - [trojan-framework](#trojan-framework) (1)
-- [trojanised clone](#trojanised-clone) (1)
+- [trojanised clone](#trojanised-clone) (2)
 - [trojanized coding challenge](#trojanized-coding-challenge) (2)
 - [trojanized daemons](#trojanized-daemons) (1)
 - [trojanized installers](#trojanized-installers) (3)
@@ -5132,6 +5150,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Venezuela](#venezuela) (1)
 - [VENOMOUS BEAR](#venomous-bear) (3)
 - [Vercel](#vercel) (3)
+- [vercel.app](#vercelapp) (1)
 - [Vertex AI](#vertex-ai) (1)
 - [vesting-account](#vesting-account) (1)
 - [VHD](#vhd) (1)
@@ -5982,6 +6001,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AES-256-GCM
 - [Djinn Stealer](../tools/djinn-stealer.md)
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 
@@ -6507,6 +6527,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Amatera Stealer
 - [ACR Stealer](../tools/acr-stealer.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
+
+## amazon inspector
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
 ## Amazon Kiro
 - [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
@@ -9506,6 +9529,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)](../ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
 
+## Contagious Interview adjacent
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
+
 ## Contagious-Interview
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
@@ -9639,6 +9665,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## counterfeit software
 - [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
+
+## cover story packages
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
 ## COW
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
@@ -11730,6 +11759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickOnce COM hijacking abuse](../patterns/clickonce-com-hijacking-abuse.md)
 
 ## DeFi
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [JINX-0164](../actors/jinx-0164.md)
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
 - [RemotePE](../tools/remotepe.md)
@@ -11774,6 +11804,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+
+## dependency-confusion shaped
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
 ## deployment_status
 - [GitHub Actions deployment poisoning](../patterns/deployment-poisoning-github-actions.md)
@@ -12321,6 +12354,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## downgrade risk
 - [UNC6508](../actors/unc6508.md)
 
+## download inflation
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
+
 ## downloader
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
 
@@ -12706,6 +12742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WLDR agent](../tools/wldr-agent.md)
 
 ## encrypted loader
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 
 ## encrypted reasoning
@@ -12963,9 +13000,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Ethereum C2
 - [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 
+## Ethereum developers
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
+
 ## Ethereum Name Service
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [Kimwolf v7](../tools/kimwolf-v7.md)
+
+## Ethereum Sepolia
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 
 ## Ethereum smart contract C2
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
@@ -13298,6 +13341,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
+
+## fake popularity
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 
 ## fake ransomware
 - [GigaWiper](../tools/gigawiper.md)
@@ -14170,6 +14216,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
 
+## GitHub Actions abuse
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
+
 ## GitHub Advisory Database
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
 
@@ -14733,6 +14782,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## hardening gap
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
+
+## Hardhat ecosystem
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
 ## hardware wallet
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
@@ -15888,6 +15940,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
@@ -17416,6 +17469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
 
 ## mathjs
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 
 ## Matrix
@@ -18547,6 +18601,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## network-share exfiltration
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 
+## new Function
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
+
 ## news-impersonation
 - [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
@@ -18780,6 +18837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [codexui-android OpenAI token stealer](../ops/codexui-android-openai-token-stealer.md)
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [forge-jsxy](../tools/forge-jsxy.md)
@@ -18830,6 +18888,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP](../actors/teampcp.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -19024,6 +19083,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## obfuscator.io
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
 ## ObjectInputStream
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
@@ -19805,6 +19865,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
@@ -20181,6 +20242,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
 
 ## OSV
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 
@@ -20621,6 +20683,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 - [Stealing reasoning traces from proprietary LLM APIs: cross-session encrypted-reasoning replay](../patterns/llm-encrypted-reasoning-trace-replay-arxiv-2608-09867.md)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 - [Unit 42 NOVA: frontier-AI autonomous zero-day discovery collapses the patch window](../patterns/unit42-nova-frontier-ai-autonomous-vulnerability-discovery-august-2026.md)
 - [Unit 42: post-exploitation workload-identity spoofing in SPIFFE/SPIRE — cgroup-selector manipulation and the Spooffe tool](../patterns/unit42-spiffe-spire-cgroup-workload-identity-spoofing-spooffe-september-2026.md)
@@ -20958,6 +21021,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Pink
 - [O-UNC-066 Entra passkey vishing](../ops/o-unc-066-entra-passkey-vishing.md)
+
+## pino cover
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
 ## pip source dependency
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
@@ -21411,6 +21477,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [GenieLocker](../tools/genielocker.md)
 
+## process.env theft
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
+
 ## procfs
 - [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 
@@ -21803,6 +21872,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## QTRouter
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
+
+## quantitative finance
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 
 ## quantum computing
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
@@ -23121,6 +23193,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
 
 ## scrypt
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 
 ## SD-WAN
@@ -23362,6 +23435,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Serv-U
 - [SolarWinds Serv-U CVE-2026-28318 exploitation](../ops/solarwinds-serv-u-cve-2026-28318-exploitation.md)
+
+## server-side code execution
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
+
+## serverless C2
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
 ## service accounts
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
@@ -23778,6 +23857,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Skyvern
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
 
+## Slack C2
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
+
 ## Slack webhook
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
 
@@ -23818,6 +23900,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
+
+## smart contract C2
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 
 ## smart contracts
 - [Aeternum](../tools/aeternum.md)
@@ -24711,7 +24796,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## supply chain attack
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
 ## supply chain compromise
 - [OceanLotus](../actors/oceanlotus.md)
@@ -25080,6 +25167,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 
 ## targeted attack
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 
 ## targeted exploitation
@@ -25777,6 +25865,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## trojanised clone
+- [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 
 ## trojanized coding challenge
@@ -26540,6 +26629,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+
+## vercel.app
+- [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
 ## Vertex AI
 - [Vertex AI staging-bucket squatting](../patterns/vertex-ai-staging-bucket-squatting.md)
