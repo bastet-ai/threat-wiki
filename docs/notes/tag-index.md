@@ -115,6 +115,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Advanced Protection](#advanced-protection) (1)
 - [Adversa](#adversa) (1)
 - [Adversa AI](#adversa-ai) (1)
+- [Adversary Pursuit Group](#adversary-pursuit-group) (1)
 - [adversary-in-the-middle](#adversary-in-the-middle) (9)
 - [advertising technology](#advertising-technology) (1)
 - [adware](#adware) (6)
@@ -261,6 +262,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon SES](#amazon-ses) (2)
 - [Amazon-Inspector](#amazon-inspector) (3)
 - [Amcache](#amcache) (1)
+- [AML.T0043](#amlt0043) (1)
 - [AMOS](#amos) (5)
 - [amplification](#amplification) (1)
 - [AMSI bypass](#amsi-bypass) (7)
@@ -295,6 +297,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Apache Zeppelin](#apache-zeppelin) (1)
 - [APC EarlyBird](#apc-earlybird) (1)
 - [Apex One](#apex-one) (1)
+- [APG](#apg) (1)
 - [API abuse](#api-abuse) (2)
 - [API enumeration](#api-enumeration) (1)
 - [API exposure](#api-exposure) (1)
@@ -556,12 +559,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BKA](#bka) (1)
 - [Black Hat USA 2026](#black-hat-usa-2026) (1)
 - [BlackFile](#blackfile) (2)
+- [Blackpoint](#blackpoint) (1)
 - [Blackpoint Cyber](#blackpoint-cyber) (6)
 - [Bleacher Report](#bleacher-report) (1)
 - [BlgCloud](#blgcloud) (1)
 - [blind prompt injection](#blind-prompt-injection) (1)
 - [blockchain](#blockchain) (2)
-- [blockchain C2](#blockchain-c2) (9)
+- [blockchain C2](#blockchain-c2) (10)
 - [blockchain dead drop](#blockchain-dead-drop) (6)
 - [blockchain RPC](#blockchain-rpc) (1)
 - [blockchain-c2](#blockchain-c2) (1)
@@ -613,6 +617,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser data theft](#browser-data-theft) (2)
 - [browser extension](#browser-extension) (9)
 - [browser extension abuse](#browser-extension-abuse) (1)
+- [browser extension enumeration](#browser-extension-enumeration) (1)
 - [browser extension loader](#browser-extension-loader) (1)
 - [browser extension malware](#browser-extension-malware) (1)
 - [browser extension sideloading](#browser-extension-sideloading) (1)
@@ -845,7 +850,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [click2shell](#click2shell) (1)
 - [clicker](#clicker) (1)
 - [ClickFake](#clickfake) (1)
-- [ClickFix](#clickfix) (30)
+- [ClickFix](#clickfix) (31)
 - [clickfix](#clickfix) (1)
 - [ClickFix social engineering](#clickfix-social-engineering) (1)
 - [ClickOnce](#clickonce) (2)
@@ -953,6 +958,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [commercial messaging applications](#commercial-messaging-applications) (1)
 - [commit farming](#commit-farming) (1)
 - [communications infrastructure](#communications-infrastructure) (1)
+- [ComponentTask33](#componenttask33) (1)
 - [Composer](#composer) (7)
 - [compromised accounts](#compromised-accounts) (2)
 - [compromised credentials](#compromised-credentials) (1)
@@ -1005,6 +1011,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Copilot](#copilot) (1)
 - [Copilot CLI](#copilot-cli) (1)
 - [COPY TO PROGRAM](#copy-to-program) (1)
+- [copy-and-paste lures](#copy-and-paste-lures) (1)
 - [Copy-on-Write](#copy-on-write) (1)
 - [copycat](#copycat) (1)
 - [copycat forums](#copycat-forums) (1)
@@ -1102,7 +1109,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cryptocurrency mining](#cryptocurrency-mining) (1)
 - [cryptocurrency scam](#cryptocurrency-scam) (1)
 - [cryptocurrency theft](#cryptocurrency-theft) (15)
-- [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (8)
+- [cryptocurrency wallet theft](#cryptocurrency-wallet-theft) (9)
 - [cryptocurrency wallets](#cryptocurrency-wallets) (4)
 - [cryptographic context injection](#cryptographic-context-injection) (1)
 - [cryptojacking](#cryptojacking) (2)
@@ -1500,7 +1507,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cyber sanctions](#cyber-sanctions) (1)
 - [cyber-espionage](#cyber-espionage) (7)
 - [CyberAv3ngers](#cyberav3ngers) (1)
-- [cybercrime](#cybercrime) (21)
+- [cybercrime](#cybercrime) (22)
 - [cybercrime ecosystem](#cybercrime-ecosystem) (2)
 - [cyberespionage](#cyberespionage) (7)
 - [CyberScoop](#cyberscoop) (1)
@@ -1551,12 +1558,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dead drop](#dead-drop) (1)
 - [dead drop resolver](#dead-drop-resolver) (5)
 - [dead-drop](#dead-drop) (3)
+- [dead-drop resolution](#dead-drop-resolution) (1)
 - [dead-drop resolver](#dead-drop-resolver) (3)
 - [DeadLock](#deadlock) (1)
 - [Debian](#debian) (1)
 - [debugger evasion](#debugger-evasion) (1)
 - [debugging detection](#debugging-detection) (1)
 - [DEBULL](#debull) (1)
+- [decentralized C2](#decentralized-c2) (1)
 - [decentralized-c2](#decentralized-c2) (1)
 - [declarativeNetRequest](#declarativenetrequest) (1)
 - [Deed](#deed) (1)
@@ -1872,7 +1881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ethereum C2](#ethereum-c2) (1)
 - [Ethereum Name Service](#ethereum-name-service) (2)
 - [Ethereum smart contract C2](#ethereum-smart-contract-c2) (1)
-- [EtherHiding](#etherhiding) (8)
+- [EtherHiding](#etherhiding) (9)
 - [Ethiopia](#ethiopia) (2)
 - [ETW](#etw) (1)
 - [ETW bypass](#etw-bypass) (1)
@@ -1951,6 +1960,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake documents](#fake-documents) (1)
 - [fake gambling](#fake-gambling) (1)
 - [fake graduation invite](#fake-graduation-invite) (1)
+- [fake installer](#fake-installer) (1)
 - [fake installers](#fake-installers) (2)
 - [fake lock screen](#fake-lock-screen) (1)
 - [fake login](#fake-login) (1)
@@ -2388,6 +2398,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HexKiller](#hexkiller) (1)
 - [hidden backdoor](#hidden-backdoor) (1)
 - [hidden instructions](#hidden-instructions) (1)
+- [hidden PowerShell](#hidden-powershell) (1)
 - [hidden service](#hidden-service) (1)
 - [high explosives](#high-explosives) (1)
 - [higher education](#higher-education) (2)
@@ -2414,6 +2425,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hosting control plane](#hosting-control-plane) (1)
 - [hosting provider](#hosting-provider) (1)
 - [hosting providers](#hosting-providers) (1)
+- [HostShared](#hostshared) (1)
 - [Hostwinds](#hostwinds) (1)
 - [hotel targeting](#hotel-targeting) (1)
 - [Hotfix 4](#hotfix-4) (1)
@@ -2624,7 +2636,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JavaScript injection](#javascript-injection) (3)
 - [javascript injection](#javascript-injection) (1)
 - [JavaScript loader](#javascript-loader) (1)
-- [JavaScript malware](#javascript-malware) (5)
+- [JavaScript malware](#javascript-malware) (6)
 - [JavaScript masquerading](#javascript-masquerading) (1)
 - [JavaScript runtime](#javascript-runtime) (1)
 - [JavaScript tampering](#javascript-tampering) (1)
@@ -3099,6 +3111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Security Research](#microsoft-security-research) (4)
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (6)
+- [Microsoft Teams masquerade](#microsoft-teams-masquerade) (1)
 - [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (5)
 - [Microsoft typosquat](#microsoft-typosquat) (1)
 - [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
@@ -3208,8 +3221,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MsBuild hollowing](#msbuild-hollowing) (2)
 - [msgpack](#msgpack) (1)
 - [mshta](#mshta) (6)
-- [MSI](#msi) (2)
-- [msiexec](#msiexec) (1)
+- [MSI](#msi) (3)
+- [msiexec](#msiexec) (2)
 - [msnightmare](#msnightmare) (1)
 - [MSNightmare](#msnightmare) (1)
 - [MSP](#msp) (3)
@@ -3344,7 +3357,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [node-pty](#node-pty) (1)
 - [Node-RED](#node-red) (1)
 - [node.exe](#nodeexe) (1)
-- [Node.js](#nodejs) (15)
+- [Node.js](#nodejs) (16)
 - [Node.js implant](#nodejs-implant) (1)
 - [Node.js loader](#nodejs-loader) (1)
 - [Node.js malware](#nodejs-malware) (1)
@@ -3518,6 +3531,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic Server](#oracle-weblogic-server) (2)
 - [ORANGETAIL](#orangetail) (1)
 - [ORB network](#orb-network) (1)
+- [OrchidViolet66](#orchidviolet66) (1)
 - [organization username](#organization-username) (1)
 - [Orkes](#orkes) (1)
 - [OS command injection](#os-command-injection) (3)
@@ -3743,7 +3757,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PollCat](#pollcat) (3)
 - [Poly1305](#poly1305) (1)
 - [polyfill](#polyfill) (1)
-- [Polygon](#polygon) (4)
+- [Polygon](#polygon) (5)
 - [Polygon blockchain dead drop](#polygon-blockchain-dead-drop) (2)
 - [Polymarket](#polymarket) (1)
 - [polymorphic](#polymorphic) (1)
@@ -3948,7 +3962,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Rapid7](#rapid7) (3)
 - [RAR archives](#rar-archives) (1)
 - [RAR staging](#rar-staging) (2)
-- [RAT](#rat) (36)
+- [RAT](#rat) (37)
 - [RatHat](#rathat) (1)
 - [raw packet](#raw-packet) (1)
 - [Ray](#ray) (2)
@@ -4018,6 +4032,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [registry metadata](#registry-metadata) (1)
 - [registry persistence](#registry-persistence) (6)
 - [registry Run key](#registry-run-key) (1)
+- [Registry Run key](#registry-run-key) (1)
 - [registry storage](#registry-storage) (1)
 - [registry-controls](#registry-controls) (1)
 - [RelayShell](#relayshell) (1)
@@ -4042,7 +4057,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [remote support](#remote-support) (2)
 - [Remote Utilities](#remote-utilities) (2)
 - [remote-access](#remote-access) (2)
-- [remote-access-trojan](#remote-access-trojan) (1)
+- [remote-access-trojan](#remote-access-trojan) (2)
 - [remote-code-execution](#remote-code-execution) (1)
 - [remote-dynamic-dependency](#remote-dynamic-dependency) (1)
 - [Remotely](#remotely) (1)
@@ -4220,7 +4235,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ScarCruft](#scarcruft) (1)
 - [SCCM](#sccm) (1)
 - [scheduled task](#scheduled-task) (9)
-- [scheduled task persistence](#scheduled-task-persistence) (6)
+- [scheduled task persistence](#scheduled-task-persistence) (7)
 - [scheduled tasks](#scheduled-tasks) (6)
 - [SCMBANKER](#scmbanker) (2)
 - [scope squatting](#scope-squatting) (1)
@@ -4290,6 +4305,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [self-managed](#self-managed) (1)
 - [self-propagating payload](#self-propagating-payload) (1)
 - [self-propagation](#self-propagation) (1)
+- [self-updating malware](#self-updating-malware) (1)
 - [semantic-release](#semantic-release) (1)
 - [Sendinblue](#sendinblue) (1)
 - [sendit.sh](#senditsh) (1)
@@ -4435,7 +4451,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SLSA provenance](#slsa-provenance) (1)
 - [SMA1000](#sma1000) (3)
 - [smart building](#smart-building) (1)
-- [smart contract](#smart-contract) (2)
+- [smart contract](#smart-contract) (3)
 - [smart contracts](#smart-contracts) (2)
 - [smart TVs](#smart-tvs) (1)
 - [SMARTAXE](#smartaxe) (1)
@@ -4546,6 +4562,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SPIRE](#spire) (1)
 - [Splunk](#splunk) (1)
 - [Spooffe](#spooffe) (1)
+- [Spotify masquerade](#spotify-masquerade) (1)
 - [Spreadtrum](#spreadtrum) (1)
 - [Spring](#spring) (1)
 - [Spring AI](#spring-ai) (1)
@@ -4731,6 +4748,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tajikistan](#tajikistan) (1)
 - [Take Control](#take-control) (1)
 - [takedown](#takedown) (3)
+- [takedown resistance](#takedown-resistance) (1)
 - [tamper detection](#tamper-detection) (1)
 - [TamperedChef](#tamperedchef) (1)
 - [tampermonkey](#tampermonkey) (1)
@@ -4851,7 +4869,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token-theft](#token-theft) (1)
 - [TONESHELL](#toneshell) (2)
 - [TookPS](#tookps) (1)
-- [tool](#tool) (7)
+- [tool](#tool) (8)
 - [tool calling](#tool-calling) (1)
 - [tool execution](#tool-execution) (1)
 - [tool output injection](#tool-output-injection) (1)
@@ -4859,7 +4877,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (76)
+- [tools](#tools) (77)
 - [Tor](#tor) (4)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5039,6 +5057,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unsandboxed-evaluator](#unsandboxed-evaluator) (1)
 - [unsigned installer](#unsigned-installer) (1)
 - [Unyielding Wasp](#unyielding-wasp) (1)
+- [UpdateDigital](#updatedigital) (1)
 - [UpdateFactory](#updatefactory) (1)
 - [UPnP](#upnp) (2)
 - [UPS](#ups) (1)
@@ -5082,6 +5101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBS loader](#vbs-loader) (1)
 - [VBS spreader](#vbs-spreader) (1)
 - [VBScript](#vbscript) (7)
+- [VBScript launcher](#vbscript-launcher) (1)
 - [VBScript loader](#vbscript-loader) (1)
 - [vCenter](#vcenter) (2)
 - [vector databases](#vector-databases) (1)
@@ -5235,7 +5255,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [webshells](#webshells) (1)
 - [website-compromise](#website-compromise) (1)
 - [WebSocket](#websocket) (9)
-- [WebSocket C2](#websocket-c2) (10)
+- [WebSocket C2](#websocket-c2) (11)
 - [WebSocket session hijacking](#websocket-session-hijacking) (1)
 - [websocket-sharp](#websocket-sharp) (1)
 - [WebView](#webview) (1)
@@ -5269,7 +5289,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windows filesystem](#windows-filesystem) (1)
 - [Windows Forms](#windows-forms) (1)
 - [Windows Installer](#windows-installer) (2)
-- [Windows malware](#windows-malware) (12)
+- [Windows malware](#windows-malware) (13)
 - [Windows persistence](#windows-persistence) (1)
 - [Windows Run dialog](#windows-run-dialog) (1)
 - [Windows Script Host](#windows-script-host) (2)
@@ -5411,6 +5431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zoho WorkDrive](#zoho-workdrive) (2)
 - [ZOHOMURK](#zohomurk) (2)
 - [Zoom](#zoom) (1)
+- [Zoom masquerade](#zoom-masquerade) (1)
 - [ZoomEye](#zoomeye) (1)
 - [zscaler](#zscaler) (1)
 - [Zscaler ThreatLabz](#zscaler-threatlabz) (1)
@@ -5898,6 +5919,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Adversa AI
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
+
+## Adversary Pursuit Group
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
 ## adversary-in-the-middle
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
@@ -6487,6 +6511,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Amcache
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
 
+## AML.T0043
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
+
 ## AMOS
 - [@copilot-mcp/apex macOS infostealer campaign](../ops/copilot-mcp-apex-macos-infostealer.md)
 - [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
@@ -6637,6 +6664,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Apex One
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
+
+## APG
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
 ## API abuse
 - [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
@@ -7582,6 +7612,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
+## Blackpoint
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
+
 ## Blackpoint Cyber
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
@@ -7606,6 +7639,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## blockchain C2
 - [Aeternum](../tools/aeternum.md)
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
@@ -7853,6 +7887,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## browser extension abuse
 - [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
+
+## browser extension enumeration
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
 ## browser extension loader
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
@@ -8860,6 +8897,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 - [Brevo supply-chain attack: poisoned tracker/chat-widget JavaScript hits 100k+ customer sites with silent WordPress-plugin installs and a ClickFix overlay (Sansec Forensics, Sep 16, 2026)](../ops/brevo-third-party-widget-supply-chain-wordpress-plugin-clickfix-sansec-september-2026.md)
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
@@ -9324,6 +9362,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## communications infrastructure
 - [Cisco Unified CM CVE-2026-20230 file-write exploitation](../ops/cisco-unified-cm-cve-2026-20230-file-write-exploitation.md)
 
+## ComponentTask33
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
+
 ## Composer
 - [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
@@ -9517,6 +9558,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## COPY TO PROGRAM
 - [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
+
+## copy-and-paste lures
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
 ## Copy-on-Write
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
@@ -10046,6 +10090,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cryptocurrency wallet theft
 - [Aeternum](../tools/aeternum.md)
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
@@ -11330,6 +11375,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## cybercrime
 - [Anthropic Threat Intelligence report (September 2026): GTG case studies — autonomous malware-rebuild loops, ShinyHunters AI uplift, a Changsha exploit foundry, and prompt-injection of AI evaluation sandboxes](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
 - [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Exilware: Brazilian IAB operation behind BraZetsu and the "Infected Marketplace"](../actors/exilware.md)
 - [First VPN](../tools/first-vpn.md)
@@ -11558,6 +11604,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
+## dead-drop resolution
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
+
 ## dead-drop resolver
 - [Aeternum](../tools/aeternum.md)
 - [KREMLIN (REF9334): Brazilian banking malware forges Chrome's own integrity checks to sideload extensions, resolves C2 from Ethereum smart contracts — 15 months, seven campaigns, 1,515 systems caged via a registered kill-switch domain (Elastic Security Labs, Sep 14, 2026)](../ops/kremlin-ref9334-chrome-integrity-forgery-ethereum-c2-brazilian-banking-malware-elastic-september-2026.md)
@@ -11577,6 +11626,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DEBULL
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+
+## decentralized C2
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
 ## decentralized-c2
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
@@ -12887,6 +12939,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [UAC-0145](../actors/uac-0145.md)
@@ -13179,6 +13232,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## fake graduation invite
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
+
+## fake installer
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
 ## fake installers
 - [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
@@ -14763,6 +14819,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## hidden instructions
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
 
+## hidden PowerShell
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
+
 ## hidden service
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 
@@ -14847,6 +14906,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## hosting providers
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
+
+## HostShared
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
 ## Hostwinds
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
@@ -15730,6 +15792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
 ## JavaScript malware
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
 - [Ghostwriter](../actors/ghostwriter.md)
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
@@ -17673,6 +17736,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 
+## Microsoft Teams masquerade
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
+
 ## Microsoft Threat Intelligence
 - [ACR Stealer](../tools/acr-stealer.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
@@ -18091,10 +18157,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
 
 ## MSI
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## msiexec
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 
 ## msnightmare
@@ -18551,6 +18619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Node.js
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
@@ -20034,6 +20103,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ORB network
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
+## OrchidViolet66
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
+
 ## organization username
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
 
@@ -20952,6 +21024,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Polygon
 - [Aeternum](../tools/aeternum.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
 - [Starland RAT](../tools/starland-rat.md)
@@ -21783,6 +21856,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RAT
 - [Armored Likho](../actors/armored-likho.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
@@ -22080,6 +22154,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## registry Run key
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
 
+## Registry Run key
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
+
 ## registry storage
 - [FDMTP](../tools/fdmtp.md)
 
@@ -22210,6 +22287,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TA4922](../actors/ta4922.md)
 
 ## remote-access-trojan
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 
 ## remote-code-execution
@@ -22894,6 +22972,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [Banana RAT / SHADOW-WATER-063 Brazilian banking fraud](../ops/banana-rat-shadow-water-063-brazilian-banking-fraud.md)
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [ScreenConnect freeware / AsyncRAT SEO campaign](../ops/screenconnect-freeware-asyncrat-seo-campaign.md)
@@ -23144,6 +23223,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## self-propagation
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## self-updating malware
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
 ## semantic-release
 - [codfish semantic-release-action tag compromise](../ops/codfish-semantic-release-action-tag-compromise.md)
@@ -23660,6 +23742,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 
 ## smart contract
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 
@@ -24102,6 +24185,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Spooffe
 - [Unit 42: post-exploitation workload-identity spoofing in SPIFFE/SPIRE — cgroup-selector manipulation and the Spooffe tool](../patterns/unit42-spiffe-spire-cgroup-workload-identity-spoofing-spooffe-september-2026.md)
+
+## Spotify masquerade
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
 ## Spreadtrum
 - [Unisoc VoLTE video-call exploit chain: modem RCE to full Android kernel access](../ops/unisoc-volte-video-call-modem-to-android-kernel-exploit-chain.md)
@@ -24898,6 +24984,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [First VPN](../tools/first-vpn.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 
+## takedown resistance
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
+
 ## tamper detection
 - [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
@@ -25353,6 +25442,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [ArcBridge](../tools/arcbridge.md)
 - [BridgeHead](../tools/bridgehead.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [ChocoPoC](../tools/chocopoc.md)
 - [NightLedger](../tools/nightledger.md)
 - [NodeRabbit](../tools/noderabbit.md)
@@ -25397,6 +25487,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BusySnake Stealer](../tools/busysnake-stealer.md)
 - [Cavern](../tools/cavern.md)
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [Check Point Security Management Server CVE-2026-91843: unauthenticated stack overflow in the login process gives remote root (CVSS 9.8, Sep 16, 2026)](../tools/check-point-security-management-server-cve-2026-91843-login-stack-overflow-root-rce-september-2026.md)
 - [CrownX](../tools/crownx.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
@@ -26165,6 +26256,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Unyielding Wasp
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 
+## UpdateDigital
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
+
 ## UpdateFactory
 - [Vidar / XMRig Factory-v3 malvertising campaign](../ops/vidar-xmrig-factory-v3-malvertising-campaign.md)
 
@@ -26318,6 +26412,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
+
+## VBScript launcher
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
 ## VBScript loader
 - [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
@@ -26942,6 +27039,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## WebSocket C2
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 - [Cavern](../tools/cavern.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [GREYVIBE](../actors/greyvibe.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
 - [SprySOCKS](../tools/sprysocks.md)
@@ -27121,6 +27219,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Windows malware
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 - [CrownX](../tools/crownx.md)
 - [Fake-reputation crypto clipboard hijacker](../ops/fake-reputation-crypto-clipboard-hijacker.md)
 - [MODBEACON](../tools/modbeacon.md)
@@ -27658,6 +27757,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Zoom
 - [Operation BlueDash multi-RMM workplace phishing](../ops/operation-bluedash-multi-rmm-workplace-phishing.md)
+
+## Zoom masquerade
+- [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
 ## ZoomEye
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
