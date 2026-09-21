@@ -121,7 +121,11 @@ The likely goal is to confuse an LLM-assisted triage harness about what is trust
 ## Attribution notes
 SentinelOne assesses with high confidence that Gaslight belongs to a DPRK-aligned macOS activity cluster based on the BONZAI / AIRPIPE family associations and related North Korean macOS tradecraft. Keep that as vendor-assessed cluster attribution unless additional public reporting names a specific DPRK group.
 
+## September 2026 follow-up: Gaslight = FLATROOF, the KelpDAO/LayerZero implant, resurfacing on a no-crypto-ties victim
+SentinelOne Labs' September 18, 2026 report on the **TraderTraitor (aka UNC4899 / PUKCHONG / Jade Sleet)** campaign states the alias join directly: the backdoor it analyzes as macOS.Gaslight **is FLATROOF**, the LayerZero/Mandiant name for the implant used in the April 2026 KelpDAO $292M LayerZero-bridge theft — deployed there (and at a newly disclosed second victim, an **Indian IT-services provider with no crypto ties**) alongside the more sophisticated **ROOFDECK** implant (Nostr-profile-resolved C2, signature-verified commands). Full campaign detail — weaponized `.terraform.lock.hcl` interview lures, the Cursor-workspace-open detonation, the day-after-disclosure rebuild that deleted the old binaries, and the mkcert `ub`/QEMU certificate pivot — is on the [TraderTraitor FLATROOF/ROOFDECK page](tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md). Practical consequence for this page: hunt the Gaslight IoCs above **under the additional names `SystemUpdate` (`~/Library/com.apple.iTunesCloud/`), `iSync` (`~/Library/com.apple.internal.ck/`), and `loginwindow` (`~/Library/com.apple.appleaccountd/`)**.
+
 ## Related pages
+- [TraderTraitor / Jade Sleet FLATROOF + ROOFDECK campaign (SentinelOne, Sep 18, 2026)](tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [AI scanner anti-analysis](../patterns/ai-scanner-anti-analysis.md)
 - [Operation FlutterBridge FlutterShell macOS malvertising](operation-flutterbridge-fluttershell-macos-malvertising.md)
 - [Fake-reputation crypto clipboard hijacker](fake-reputation-crypto-clipboard-hijacker.md)

@@ -364,6 +364,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS](#arista-eos) (1)
 - [ARKTunnel](#arktunnel) (1)
 - [ARL](#arl) (1)
+- [ARM64](#arm64) (1)
 - [Armageddon](#armageddon) (1)
 - [ArmCorp](#armcorp) (1)
 - [Armored Likho](#armored-likho) (4)
@@ -464,7 +465,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Babuk](#babuk) (1)
 - [back-end](#back-end) (1)
 - [Backblaze](#backblaze) (1)
-- [backdoor](#backdoor) (29)
+- [backdoor](#backdoor) (30)
 - [Backdoor.Mistic](#backdoormistic) (1)
 - [Backdoor.Turn](#backdoorturn) (1)
 - [backend database reuse](#backend-database-reuse) (1)
@@ -666,7 +667,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [business intelligence](#business-intelligence) (1)
 - [BusinessDataCatalog](#businessdatacatalog) (1)
 - [BusySnake Stealer](#busysnake-stealer) (3)
-- [Bybit](#bybit) (1)
+- [Bybit](#bybit) (2)
 - [BYOVD](#byovd) (5)
 - [BYOVD alternative](#byovd-alternative) (1)
 - [bypass2fa](#bypass2fa) (1)
@@ -676,7 +677,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [C++](#c) (5)
 - [C++/CLI](#ccli) (1)
 - [C0XMO](#c0xmo) (1)
-- [C2](#c2) (17)
+- [C2](#c2) (18)
 - [C2 fallback](#c2-fallback) (1)
 - [C2 framework](#c2-framework) (2)
 - [C2 panel](#c2-panel) (1)
@@ -732,6 +733,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [certificate pinning](#certificate-pinning) (1)
 - [certificate template](#certificate-template) (1)
 - [certificate theft](#certificate-theft) (1)
+- [certificate-pivot](#certificate-pivot) (1)
 - [Certighost](#certighost) (1)
 - [certutil](#certutil) (1)
 - [CFIDE](#cfide) (1)
@@ -981,7 +983,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [consumer devices](#consumer-devices) (1)
 - [consumer IoT](#consumer-iot) (1)
 - [consumer software](#consumer-software) (1)
-- [Contagious Interview](#contagious-interview) (6)
+- [Contagious Interview](#contagious-interview) (7)
 - [Contagious-Interview](#contagious-interview) (1)
 - [container](#container) (1)
 - [container escape](#container-escape) (5)
@@ -1086,7 +1088,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrowdStrike Falcon](#crowdstrike-falcon) (1)
 - [CrownX](#crownx) (2)
 - [Crucio](#crucio) (1)
-- [crypto](#crypto) (3)
+- [crypto](#crypto) (4)
 - [crypto clipboard theft](#crypto-clipboard-theft) (1)
 - [crypto clipper](#crypto-clipper) (2)
 - [crypto draining](#crypto-draining) (1)
@@ -1548,7 +1550,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DDS](#dds) (1)
 - [dead drop](#dead-drop) (1)
 - [dead drop resolver](#dead-drop-resolver) (5)
-- [dead-drop](#dead-drop) (2)
+- [dead-drop](#dead-drop) (3)
 - [dead-drop resolver](#dead-drop-resolver) (3)
 - [DeadLock](#deadlock) (1)
 - [Debian](#debian) (1)
@@ -1608,7 +1610,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [developer tooling](#developer-tooling) (7)
 - [developer workstations](#developer-workstations) (3)
 - [developer-machine-fleet](#developer-machine-fleet) (1)
-- [developer-targeting](#developer-targeting) (22)
+- [developer-targeting](#developer-targeting) (23)
 - [developer-tools](#developer-tools) (1)
 - [developer-workstations](#developer-workstations) (5)
 - [device code phishing](#device-code-phishing) (2)
@@ -1617,7 +1619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [device lockout](#device-lockout) (1)
 - [device registration](#device-registration) (1)
 - [device-code phishing](#device-code-phishing) (6)
-- [DevOps](#devops) (1)
+- [DevOps](#devops) (2)
 - [DevTools](#devtools) (1)
 - [devtunnels.ms](#devtunnelsms) (1)
 - [DEWMODE](#dewmode) (1)
@@ -1716,7 +1718,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DPAPI](#dpapi) (3)
 - [dpapi.dll](#dpapidll) (1)
 - [DPAPILoader](#dpapiloader) (1)
-- [DPRK](#dprk) (9)
+- [DPRK](#dprk) (10)
 - [DPRK APT](#dprk-apt) (1)
 - [DragonForce](#dragonforce) (1)
 - [drive serial number](#drive-serial-number) (1)
@@ -1962,6 +1964,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake reputation](#fake-reputation) (1)
 - [fake update](#fake-update) (4)
 - [fake VPN](#fake-vpn) (1)
+- [fake-job-interview](#fake-job-interview) (1)
 - [FakeCaptcha](#fakecaptcha) (1)
 - [FakeGit](#fakegit) (1)
 - [Fakeset](#fakeset) (1)
@@ -2045,6 +2048,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [firmware update](#firmware-update) (1)
 - [FishMonger](#fishmonger) (1)
 - [FlatBuffers](#flatbuffers) (1)
+- [FLATROOF](#flatroof) (1)
 - [FlexPLM](#flexplm) (1)
 - [flight recorder](#flight-recorder) (1)
 - [FlockWiper](#flockwiper) (1)
@@ -2128,9 +2132,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GammaWorm](#gammaworm) (1)
 - [Garble](#garble) (2)
 - [Gardener](#gardener) (1)
+- [Gaslight](#gaslight) (1)
 - [GateKeeper](#gatekeeper) (1)
 - [Gatekeeper](#gatekeeper) (1)
 - [Gatekeeper bypass](#gatekeeper-bypass) (1)
+- [Gatekeeper-bypass](#gatekeeper-bypass) (1)
 - [GCP](#gcp) (1)
 - [GCS](#gcs) (1)
 - [Gemini CLI](#gemini-cli) (2)
@@ -2532,6 +2538,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure churn](#infrastructure-churn) (1)
 - [infrastructure disruption](#infrastructure-disruption) (4)
 - [infrastructure seizure](#infrastructure-seizure) (1)
+- [infrastructure-as-code](#infrastructure-as-code) (1)
 - [infrastructure-software](#infrastructure-software) (1)
 - [initial access](#initial-access) (2)
 - [initial access broker](#initial-access-broker) (4)
@@ -2597,6 +2604,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ivanti Sentry](#ivanti-sentry) (1)
 - [JackSkid](#jackskid) (1)
 - [Jackson](#jackson) (1)
+- [Jade Sleet](#jade-sleet) (1)
 - [JADEPUFFER](#jadepuffer) (2)
 - [Jamf Threat Labs](#jamf-threat-labs) (2)
 - [Januscape](#januscape) (2)
@@ -2638,6 +2646,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](#jinx-0164) (2)
 - [Jira](#jira) (2)
 - [Jiří Vinopal](#jiri-vinopal) (1)
+- [job-lure](#job-lure) (1)
 - [job-offer phishing](#job-offer-phishing) (1)
 - [job-themed phishing](#job-themed-phishing) (1)
 - [joblib](#joblib) (1)
@@ -2692,6 +2701,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KeePassXC](#keepassxc) (1)
 - [Keitaro](#keitaro) (1)
 - [Keksec](#keksec) (1)
+- [KelpDAO](#kelpdao) (1)
 - [Kemp LoadMaster](#kemp-loadmaster) (1)
 - [kerberos](#kerberos) (1)
 - [Kerberos](#kerberos) (1)
@@ -2705,6 +2715,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [keychain](#keychain) (1)
 - [Keychain theft](#keychain-theft) (1)
 - [keychain theft](#keychain-theft) (4)
+- [keychain-theft](#keychain-theft) (1)
 - [Keycloak](#keycloak) (1)
 - [KeyHunter](#keyhunter) (1)
 - [keylogger](#keylogger) (6)
@@ -2767,14 +2778,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [lateral-movement](#lateral-movement) (1)
 - [Latin America](#latin-america) (5)
 - [Latin-America](#latin-america) (1)
-- [LaunchAgent](#launchagent) (6)
+- [LaunchAgent](#launchagent) (7)
 - [launchctl](#launchctl) (1)
 - [LAUNDRY BEAR](#laundry-bear) (4)
 - [law enforcement](#law-enforcement) (4)
 - [law enforcement targeting](#law-enforcement-targeting) (2)
 - [law-enforcement-disruption](#law-enforcement-disruption) (1)
 - [LayerX](#layerx) (1)
-- [Lazarus](#lazarus) (7)
+- [LayerZero](#layerzero) (1)
+- [Lazarus](#lazarus) (8)
 - [LD_PRELOAD](#ld_preload) (2)
 - [LDAP](#ldap) (1)
 - [leak site](#leak-site) (1)
@@ -2930,7 +2942,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [machine-bound config](#machine-bound-config) (1)
 - [machine-learning](#machine-learning) (1)
 - [machine-speed attack chain](#machine-speed-attack-chain) (1)
-- [macOS](#macos) (26)
+- [macOS](#macos) (27)
 - [macOS malware](#macos-malware) (3)
 - [macro](#macro) (1)
 - [macro-enabled Word](#macro-enabled-word) (1)
@@ -2966,7 +2978,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious theme](#malicious-theme) (1)
 - [malicious-package](#malicious-package) (3)
 - [malvertising](#malvertising) (11)
-- [malware](#malware) (68)
+- [malware](#malware) (69)
 - [malware analysis](#malware-analysis) (2)
 - [malware delivery](#malware-delivery) (7)
 - [malware framework](#malware-framework) (3)
@@ -3137,6 +3149,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MITRE ATT&CK T1562](#mitre-attck-t1562) (1)
 - [mixed boolean arithmetic](#mixed-boolean-arithmetic) (3)
 - [MIXEDKEY](#mixedkey) (3)
+- [mkcert](#mkcert) (1)
 - [MLflow](#mlflow) (1)
 - [MLTBackdoor](#mltbackdoor) (2)
 - [mnemonic theft](#mnemonic-theft) (1)
@@ -3340,7 +3353,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NodeRabbit](#noderabbit) (3)
 - [NomadRAT](#nomadrat) (1)
 - [non-standard protocol abuse](#non-standard-protocol-abuse) (1)
-- [North Korea](#north-korea) (13)
+- [North Korea](#north-korea) (14)
+- [Nostr](#nostr) (1)
 - [notarized malware](#notarized-malware) (2)
 - [notebook security](#notebook-security) (1)
 - [notebookjs](#notebookjs) (1)
@@ -3488,7 +3502,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (434)
+- [ops](#ops) (435)
+- [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
 - [opsec failure](#opsec-failure) (1)
@@ -3647,7 +3662,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [per-host regeneration](#per-host-regeneration) (1)
 - [PerfWatson2.exe](#perfwatson2exe) (1)
 - [Perplexity AI](#perplexity-ai) (1)
-- [persistence](#persistence) (39)
+- [persistence](#persistence) (40)
 - [persistent admin account](#persistent-admin-account) (1)
 - [persistent root access](#persistent-root-access) (1)
 - [persona operations](#persona-operations) (1)
@@ -3866,6 +3881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [publish mode](#publish-mode) (1)
 - [publish-time scanning](#publish-time-scanning) (1)
 - [publishing credentials](#publishing-credentials) (1)
+- [PUKCHONG](#pukchong) (1)
 - [pull requests](#pull-requests) (2)
 - [PULSAR RAT](#pulsar-rat) (1)
 - [PUP](#pup) (1)
@@ -4091,6 +4107,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Romania](#romania) (1)
 - [RomulusLoader](#romulusloader) (1)
 - [Roo-Code](#roo-code) (1)
+- [ROOFDECK](#roofdeck) (1)
 - [root](#root) (3)
 - [root access](#root-access) (2)
 - [root account](#root-account) (1)
@@ -4156,7 +4173,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian-speaking ecosystem](#russian-speaking-ecosystem) (1)
 - [Russian-speaking forums](#russian-speaking-forums) (1)
 - [Russian-speaking indicator](#russian-speaking-indicator) (1)
-- [Rust](#rust) (9)
+- [Rust](#rust) (10)
 - [rust](#rust) (1)
 - [Rust backdoor](#rust-backdoor) (2)
 - [Rust loader](#rust-loader) (1)
@@ -4413,6 +4430,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SLEEPWALKER](#sleepwalker) (1)
 - [Sliver](#sliver) (2)
 - [slnleaker5](#slnleaker5) (1)
+- [Slow Pisces](#slow-pisces) (1)
 - [SLSA](#slsa) (1)
 - [SLSA provenance](#slsa-provenance) (1)
 - [SMA1000](#sma1000) (3)
@@ -4453,7 +4471,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [social abuse](#social-abuse) (1)
 - [social engineering](#social-engineering) (27)
 - [Social Security Administration](#social-security-administration) (1)
-- [social-engineering](#social-engineering) (2)
+- [social-engineering](#social-engineering) (3)
 - [Socket](#socket) (7)
 - [Socket Security](#socket-security) (3)
 - [Socket Security Research](#socket-security-research) (2)
@@ -4648,7 +4666,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (2)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (121)
+- [supply-chain](#supply-chain) (122)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -4782,6 +4800,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tenet Security](#tenet-security) (1)
 - [Terminal permissions](#terminal-permissions) (1)
 - [TerminalFix](#terminalfix) (1)
+- [Terraform](#terraform) (1)
 - [Tesseract](#tesseract) (1)
 - [Tetrade](#tetrade) (1)
 - [TetrisPhantom](#tetrisphantom) (1)
@@ -4849,6 +4868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TouchSocket](#touchsocket) (1)
 - [Toy Ghouls](#toy-ghouls) (4)
 - [TPM](#tpm) (1)
+- [TraderTraitor](#tradertraitor) (1)
 - [Trading Technologies](#trading-technologies) (1)
 - [TradingView](#tradingview) (2)
 - [traffic broker](#traffic-broker) (1)
@@ -4973,6 +4993,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UNC3753](#unc3753) (1)
 - [UNC4221](#unc4221) (1)
 - [UNC4736](#unc4736) (1)
+- [UNC4899](#unc4899) (1)
 - [UNC5669](#unc5669) (1)
 - [UNC5792](#unc5792) (1)
 - [UNC5976](#unc5976) (1)
@@ -6861,6 +6882,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ARL
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
+## ARM64
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
+
 ## Armageddon
 - [Gamaredon](../actors/gamaredon.md)
 
@@ -7259,6 +7283,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [TinyRCT](../tools/tinyrct.md)
 - [Toy Ghouls "Angry Birds" custom backdoor (HiveMQ / Element)](../ops/toy-ghouls-angry-birds-hivemq-element-backdoor-september-2026.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## Backdoor.Mistic
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -8020,6 +8045,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Bybit
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## BYOVD
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
@@ -8073,6 +8099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [Showboat](../tools/showboat.md)
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [WLDR agent](../tools/wldr-agent.md)
 
 ## C2 fallback
@@ -8260,6 +8287,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## certificate theft
 - [Sicoob.Sdk NuGet banking certificate stealer](../ops/sicoob-sdk-nuget-banking-certificate-stealer.md)
+
+## certificate-pivot
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## Certighost
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
@@ -9410,6 +9440,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)](../ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
 
 ## Contagious-Interview
@@ -9938,6 +9969,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## crypto
 - [CISA KEV September 18, 2026: three Linux kernel vulnerabilities — remotely triggerable kTLS zero-length-record mishandling (CVSS 9.8 AV:N) plus two local privilege escalations (AF_ALG concurrent-write race, ebtables SNAT out-of-bounds write into splice-shared file pages) — ALL THREE carrying CISA SSVC "active exploitation," all on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 
 ## crypto clipboard theft
@@ -11522,6 +11554,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gamaredon GammaPhish / GammaWorm / GammaSteel chain](../ops/gamaredon-gammaphish-gammaworm-gammasteel-chain.md)
 
 ## dead-drop
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
@@ -11818,6 +11851,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
@@ -11857,6 +11891,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DevOps
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## DevTools
 - [Umbrij](../tools/umbrij.md)
@@ -12231,6 +12266,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 - [PolinRider cross-ecosystem supply-chain campaign](../ops/polinrider-cross-ecosystem-supply-chain.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [ulid-xyz transitive delivery chain: a MicrosoftSystem64 RAT three npm dependencies deep (SafeDep, Sep 1, 2026)](../ops/ulid-xyz-transitive-delivery-chain-microsoftsystem64-dprk-september-2026.md)
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
@@ -13192,6 +13228,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fake VPN
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
 
+## fake-job-interview
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
+
 ## FakeCaptcha
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 
@@ -13489,6 +13528,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## FlatBuffers
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
 
+## FLATROOF
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
+
 ## FlexPLM
 - [PTC Windchill / FlexPLM CVE-2026-12569 exploitation](../ops/ptc-windchill-flexplm-cve-2026-12569-exploitation.md)
 
@@ -13769,6 +13811,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Gardener
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
+## Gaslight
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
+
 ## GateKeeper
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
 
@@ -13777,6 +13822,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Gatekeeper bypass
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
+
+## Gatekeeper-bypass
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## GCP
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
@@ -15336,6 +15384,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## infrastructure seizure
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 
+## infrastructure-as-code
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
+
 ## infrastructure-software
 - [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
@@ -15585,6 +15636,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Jackson
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 
+## Jade Sleet
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
+
 ## JADEPUFFER
 - [ENCFORGE](../tools/encforge.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
@@ -15761,6 +15815,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Jiří Vinopal
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
+
+## job-lure
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## job-offer phishing
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
@@ -15941,6 +15998,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Keksec
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
+## KelpDAO
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
+
 ## Kemp LoadMaster
 - [Progress Kemp LoadMaster CVE-2026-8037 pre-auth RCE](../ops/progress-kemp-loadmaster-cve-2026-8037-preauth-rce.md)
 
@@ -15990,6 +16050,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+
+## keychain-theft
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## Keycloak
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
@@ -16236,6 +16299,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [macOS.Gaslight Rust backdoor](../ops/macos-gaslight-rust-backdoor.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## launchctl
 - [JINX-0164 crypto developer infrastructure campaign](../ops/jinx-0164-crypto-developer-infrastructure-campaign.md)
@@ -16262,6 +16326,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LayerX
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
+## LayerZero
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
+
 ## Lazarus
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 - [Lazarus-linked Rollup polyfill npm malware](../ops/lazarus-rollup-polyfill-npm-malware.md)
@@ -16270,6 +16337,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## LD_PRELOAD
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -16886,6 +16954,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 - [PollCat](../tools/pollcat.md)
 - [QuimaRAT](../tools/quimarat.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [XCSSET](../tools/xcsset.md)
 - [XCSSET hides inside a pub.dev Flutter package: `universal_file_viewer` (Aikido, Sep 8, 2026)](../ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md)
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
@@ -17090,6 +17159,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TELESHIM](../tools/teleshim.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [TinyRCT](../tools/tinyrct.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [Umbrij](../tools/umbrij.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
@@ -17805,6 +17875,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BINDCLOAK](../tools/bindcloak.md)
 - [MIXEDKEY](../tools/mixedkey.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
+
+## mkcert
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## MLflow
 - [MLflow CVE-2026-64849 SSRF: cloud-credential and secret exfiltration via model-registry webhooks](../ops/mlflow-cve-2026-64849-ssrf-cloud-credential-theft.md)
@@ -18531,8 +18604,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RemotePE](../tools/remotepe.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 - [Void Dokkaebi](../actors/void-dokkaebi.md)
+
+## Nostr
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## notarized malware
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
@@ -19854,6 +19931,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat Umbrij Gmail OAuth operation](../ops/toddycat-umbrij-gmail-oauth.md)
 - [Toy Ghouls "Angry Birds" custom backdoor (HiveMQ / Element)](../ops/toy-ghouls-angry-birds-hivemq-element-backdoor-september-2026.md)
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
@@ -19907,6 +19985,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
+
+## OPSEC
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## OPSEC failure
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
@@ -20552,6 +20633,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
 - [TeamPCP](../actors/teampcp.md)
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
@@ -21423,6 +21505,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## publishing credentials
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
+
+## PUKCHONG
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## pull requests
 - [Astro config blockchain C2 PR injection](../ops/astro-config-blockchain-c2-pr-injection.md)
@@ -22351,6 +22436,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Roo-Code
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
+## ROOFDECK
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
+
 ## root
 - [Cisco Secure Email Gateway CVE-2026-76461: unauthenticated SQL injection in email parsing to root — KEV-listed with a Sep 17 deadline, and Cisco already contacted cloud customers it saw under attack](../ops/cisco-secure-email-gateway-cve-2026-76461-sql-injection-root-kev-september-2026.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
@@ -22605,6 +22693,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [RustDuck](../tools/rustduck.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
@@ -23553,6 +23642,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## slnleaker5
 - [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
 
+## Slow Pisces
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
+
 ## SLSA
 - [Mini Shai-Hulud npm/PyPI worm campaign](../ops/mini-shai-hulud-npm-pypi-worm-campaign.md)
 
@@ -23717,6 +23809,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## social-engineering
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [UNC6671 / BlackFile multi-brand vishing extortion operation](../ops/blackfile-unc6671-vishing-extortion.md)
 
 ## Socket
@@ -24568,6 +24661,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
 - [Trivy compromise](../ops/trivy-compromise.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
@@ -25061,6 +25155,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TerminalFix
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
+## Terraform
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
+
 ## Tesseract
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 
@@ -25395,6 +25492,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## TPM
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
+## TraderTraitor
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## Trading Technologies
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
@@ -25901,6 +26001,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## UNC4736
 - [RemotePE](../tools/remotepe.md)
+
+## UNC4899
+- [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## UNC5669
 - [BREEZE COMET (GTIG): direct intrusions against Brazil's core payment systems — Rust/Nim/Go backdoor suite, rogue-hardware retail footholds, compromised municipal websites on three continents, and LLM-generated tradecraft](../ops/breeze-comet-gtig-brazilian-financial-switch-intrusions-rust-nim-go-backdoor-suite-september-2026.md)
