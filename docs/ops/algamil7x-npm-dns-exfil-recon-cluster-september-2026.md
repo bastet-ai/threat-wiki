@@ -104,9 +104,17 @@ Live registry re-checks this sweep (~19:30 UTC): **`@pwaplatform/module-sso-inte
 
 GHSA disposition at check: severity **critical**, vulnerable ranges pinned `= 99.0.0` and `= 99.0.1`, **no patched version** (a malware-class advisory's "fix" is unpublish, which npm has not done at check time). Watch items unchanged: takedown, T-Bank/npm response, reuse of `vd_danilov` / `sobaka-kusaka.ru` / `npm-canary/1.1`.
 
+## September 21 sweep follow-up: a SIXTH member joins via install-hook, found in the same Amazon Inspector OSV batch — and both survivor packages are STILL live 72–120 h post-advisory
+
+**Live registry re-checks this sweep (Sep 21 ~05:25 UTC, this wiki):** `@insiderintelligence/googleadmanager` **STILL LIVE** (latest 9.9.10, `modified` timestamp byte-identical to five prior sweeps, ~156 h post-advisory). `@pwaplatform/module-sso-integration` **STILL LIVE** (latest 99.0.1, `modified` unchanged 2026-09-20T11:05:20Z, ~41 h post-advisory; neither version deprecated; no T-Bank/npm public response surfaced). Two consecutive days of advised-and-serving.
+
+**New cluster member — `@baanx/solana-lib` (`MAL-2026-16300`, Amazon Inspector, OSV batch 2026-09-21 ~03:30 UTC):** the same `lib/core.js` DNS-label beacon family in a new guise — a plausible fintech scope (**Baanx is a real Thai fintech blockchain-infrastructure company** — corporate-scope squat, same trust-targeting pattern as `@tink`) shipping as a "Solana library." `package.json` declares `scripts.install = node index.js`; `index.js` requires `./lib/core.js` (wrapped in a swallow-all try/catch); `core.js` builds `<bxsol>.<user>.<host>.<cwd>.<ts>.oob.algamil7x.xyz` and issues `dns.resolve4()`, with the destination and module names reconstructed from `String.fromCharCode` byte arrays and `module.constructor._load` in `lib/e5f0a2.js` / `lib/f6a1b3.js` — **the exact obfuscation lineage of the original five.** **Verified by this wiki from the live tarball** (9.9.10, shasum `b87b5380d6227dfaf0bd7ef43fb1840f1b4bddaf`): the package was **STILL ON npm** at check, `dist-tags.latest = 9.9.10`, created Sep 18 18:23 UTC — i.e., created the same day as the original five burst, advised three days later, and still served. Prefix `bxsol` presumably = "Baanx Solana." This is the cluster's **sixth confirmed member** and its second live survivor, confirming the domain is still in active production by one operator, ~3 days after the first five advisories.
+
+**Cluster-count note for the OSV era:** with `@baanx/solana-lib` the count is six; watch for more `oob.algamil7x.xyz` members entering via the Inspector pipeline faster than the taker-downs clear them — the Sep 21 batch is producing npm malware advisories at a rate the registry's own removal process is not matching (three of this week's advised names — `googleadmanager`, `module-sso-integration`, `solana-lib` — all resolvable today).
+
 ## Monitoring
 
-- Takedown of the surviving `@insiderintelligence/googleadmanager` (re-check registry state each sweep).
+- Takedown of the surviving `@insiderintelligence/googleadmanager` (live through Sep 21 check, ~156 h) **and of new sixth member `@baanx/solana-lib`** (live at Sep 21 check; GHSA not yet visible for it — OSV-sourced only at capture).
 - Takedown / disposition of `@pwaplatform/module-sso-integration` (live at Sep 20 check despite an open malware-class GHSA), whether T-Bank or npm confirms or denies the bug-bounty claim, and whether the `vd_danilov` / `sobaka-kusaka.ru` / `npm-canary` infrastructure shows up in other packages.
 - Domain rotation away from `algamil7x.xyz` (new `oob.*` domains using the same label grammar).
 - Whether a **second wave / payload** appears aimed at orgs that beaconed (this cluster's reconnaissance shape invites a follow-on targeted drop).

