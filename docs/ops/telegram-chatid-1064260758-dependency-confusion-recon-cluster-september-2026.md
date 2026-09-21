@@ -58,6 +58,14 @@ The same Sep 21 Inspector batch also carried distinct, lower-grade sets, recorde
 
 **Registry-metadata correction from this sweep's own checks:** the fleet's `modified` stamps are creation-window stamps (Sep 20 00:29–09:27Z), so elapsed-time framings cited in earlier sweeps were counted against advisory dates, not registry activity — the timestamps themselves are the durable record (see the npmjs.it.com page's time-block method note).
 
+## <a id="september-21-sixth-sweep-fifth-same-day-recheck-all-nine-still-live-c2-answers-https-401-unauthorized\"></a>September 21 sixth sweep: fifth same-day re-check — all nine STILL live; the `npmjs.it.com` C2 now answers HTTPS root with 401 `unauthorized`
+
+**Fifth live re-check (Sep 21 ~15:45 UTC, this wiki):** every one of the nine names remains installable with **byte-identical `modified` timestamps** across all five of today's checks — `@dbbhk/ui-components@99.0.0` (modified 09-20T09:27:11Z), `siriusbeyond@1.0.0` (09-20T01:10:55Z), `@siriusbeyond/auth|ui|utils@99.0.0` (09-20T08:59Z), `commerce-materials@1.0.0`, `byted-commerce-materials@1.0.0`, `starbucks-sdk@1.0.0`. Companions unchanged for the fifth pass: `@insiderintelligence/googleadmanager` (9.9.10, modified 2026-09-18T17:00:08Z, ~182 h), `@pwaplatform/module-sso-integration` (99.0.1, modified 2026-09-20T11:05:20Z, ~68 h), `@baanx/solana-lib` (9.9.10, unchanged, still the only member with **no GHSA mirror** — OSV-only), `chai-as-viem@1.1.3` still installable, `homestack-cheer@1.1.9` still live.
+
+**C2 endpoint detail worth recording:** `npmjs.it.com` has hardened its surface since this morning — HTTP root now 301-redirects to HTTPS (nginx/1.24.0 Ubuntu banner on the plain-HTTP hop), and the **HTTPS root returns `401 unauthorized`** (previously the root probe returned 400 `invalid agent_id`). The agent-registration endpoint `POST /api/register` still answers **400 `invalid agent_id`** — i.e., the task agent is up, and the operator (or the hosting stack) has since added auth at the web root. `sobaka-kusaka.ru` (89.223.127.154) and `oob.algamil7x.xyz` (38.242.146.132) still resolve; `dc-callback` parent still NXDOMAIN; `ungpkg[.]top` now resolves to Cloudflare but HTTP does not answer (origin still down, records warm).
+
+**KEV state at this sweep:** catalog still 2026.09.18 / 1,716 entries (JSON-verified) — still no fourth row, no actor attribution for the three kernel rows post-BOD.
+
 ## Why it matters (durable reads)
 
 1. **Env-var-NAME disclosure is a targeting map, not a leak.** The base fleet never reads values — but "this host has `AWS_SECRET_ACCESS_KEY` + `NPM_TOKEN` + a `.env` in cwd" is everything an operator needs to pick which beaconed host deserves a real payload. Treat name-disclosure recon clusters as pre-stage, exactly as DNS-label beaconing.

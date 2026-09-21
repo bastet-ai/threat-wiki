@@ -75,7 +75,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACTINIUM](#actinium) (1)
 - [Activator.CreateInstance](#activatorcreateinstance) (1)
 - [active development](#active-development) (1)
-- [Active Directory](#active-directory) (4)
+- [Active Directory](#active-directory) (5)
 - [active exploitation](#active-exploitation) (86)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
@@ -286,7 +286,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [anti-analysis](#anti-analysis) (10)
 - [anti-bot](#anti-bot) (1)
 - [anti-distillation](#anti-distillation) (1)
-- [anti-forensics](#anti-forensics) (2)
+- [anti-forensics](#anti-forensics) (3)
 - [anti-sandbox](#anti-sandbox) (2)
 - [Anubis ransomware](#anubis-ransomware) (1)
 - [ANY.RUN](#anyrun) (3)
@@ -1606,6 +1606,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [detection engineering](#detection-engineering) (2)
 - [detection failure](#detection-failure) (1)
 - [detection-by-structure](#detection-by-structure) (1)
+- [detection-engineering](#detection-engineering) (1)
 - [DEV#POPPER](#devpopper) (1)
 - [DEV-0206](#dev-0206) (1)
 - [developer credential theft](#developer-credential-theft) (2)
@@ -1710,6 +1711,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DOGLEASH](#dogleash) (1)
 - [DOJ](#doj) (2)
 - [DOM-selection-injection](#dom-selection-injection) (1)
+- [domain controller](#domain-controller) (1)
 - [domain impersonation](#domain-impersonation) (1)
 - [domain squatting](#domain-squatting) (1)
 - [domain verification](#domain-verification) (1)
@@ -1831,6 +1833,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [encrypted loader](#encrypted-loader) (1)
 - [encrypted reasoning](#encrypted-reasoning) (1)
 - [EncryptInterceptor](#encryptinterceptor) (1)
+- [encryptionless](#encryptionless) (1)
 - [ENDLESSDOORS](#endlessdoors) (2)
 - [Endor Labs](#endor-labs) (1)
 - [endpoint compromise](#endpoint-compromise) (1)
@@ -1876,7 +1879,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [espionage](#espionage) (65)
 - [Espressif ESP-IDF](#espressif-esp-idf) (1)
 - [ESX](#esx) (1)
-- [ESXi](#esxi) (3)
+- [ESXi](#esxi) (4)
 - [ES|QL](#esql) (1)
 - [eth_getStorageAt](#eth_getstorageat) (1)
 - [Ethereum](#ethereum) (6)
@@ -1944,7 +1947,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [extension supply-chain](#extension-supply-chain) (2)
 - [extension takeover](#extension-takeover) (1)
 - [external federation](#external-federation) (1)
-- [extortion](#extortion) (14)
+- [extortion](#extortion) (15)
 - [extortion-adjacent](#extortion-adjacent) (1)
 - [f2fe-s1](#f2fe-s1) (1)
 - [F5](#f5) (1)
@@ -2091,7 +2094,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FormDigestValue](#formdigestvalue) (1)
 - [Forms Authentication](#forms-authentication) (1)
 - [FortiClient EMS](#forticlient-ems) (1)
-- [FortiGate](#fortigate) (3)
+- [FortiGate](#fortigate) (4)
 - [Fortinet](#fortinet) (6)
 - [FortiOS](#fortios) (4)
 - [FortiSandbox](#fortisandbox) (1)
@@ -2159,6 +2162,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GenieLocker](#genielocker) (3)
 - [GentleKiller](#gentlekiller) (1)
 - [Germany](#germany) (2)
+- [GERT](#gert) (1)
 - [GHETTOVIBE](#ghettovibe) (1)
 - [Ghost](#ghost) (3)
 - [ghost accounts](#ghost-accounts) (1)
@@ -2301,6 +2305,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [government services and facilities](#government-services-and-facilities) (1)
 - [government targeting](#government-targeting) (21)
 - [government-impersonation](#government-impersonation) (1)
+- [GPO](#gpo) (1)
 - [GPT](#gpt) (1)
 - [GPT-5.6 Sol](#gpt-56-sol) (1)
 - [GPT-5.6-Cyber](#gpt-56-cyber) (1)
@@ -2324,6 +2329,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grok](#grok) (1)
 - [Groovy plugin](#groovy-plugin) (1)
 - [group](#group) (5)
+- [Group Policy](#group-policy) (1)
 - [Group-IB](#group-ib) (3)
 - [groups](#groups) (18)
 - [gRPC](#grpc) (2)
@@ -2520,7 +2526,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory plugins](#in-memory-plugins) (1)
 - [in-memory-execution](#in-memory-execution) (2)
 - [incident response](#incident-response) (40)
-- [incident-response](#incident-response) (2)
+- [incident-response](#incident-response) (3)
 - [incomplete patch](#incomplete-patch) (1)
 - [incorrect default permissions](#incorrect-default-permissions) (1)
 - [IndexedDB](#indexeddb) (3)
@@ -2702,7 +2708,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kaitori](#kaitori) (1)
 - [Kali365](#kali365) (1)
 - [Kaltura](#kaltura) (1)
-- [Kaspersky](#kaspersky) (4)
+- [Kaspersky](#kaspersky) (5)
 - [kaspersky](#kaspersky) (1)
 - [Kaspersky detection bypass](#kaspersky-detection-bypass) (1)
 - [Kaspersky GERT](#kaspersky-gert) (2)
@@ -2863,7 +2869,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Live Protect](#live-protect) (1)
 - [LivePatch](#livepatch) (1)
 - [living off the land](#living-off-the-land) (2)
-- [living-off-the-land](#living-off-the-land) (1)
+- [living-off-the-land](#living-off-the-land) (2)
 - [living-off-the-land binaries](#living-off-the-land-binaries) (1)
 - [LLM](#llm) (10)
 - [LLM command execution](#llm-command-execution) (1)
@@ -3122,7 +3128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft-Foundry](#microsoft-foundry) (1)
 - [Microsoft-signed binary abuse](#microsoft-signed-binary-abuse) (1)
 - [MicrosoftSystem64](#microsoftsystem64) (1)
-- [Middle East](#middle-east) (9)
+- [Middle East](#middle-east) (10)
 - [middleware](#middleware) (1)
 - [Midnight Blizzard](#midnight-blizzard) (4)
 - [MikroTik](#mikrotik) (1)
@@ -3520,7 +3526,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (435)
+- [ops](#ops) (436)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3649,6 +3655,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [patterns](#patterns) (57)
 - [Paweł Płatek](#pawe-patek) (1)
 - [pay-per-install](#pay-per-install) (1)
+- [PAYLOAD](#payload) (1)
 - [payload loader](#payload-loader) (1)
 - [payload staging](#payload-staging) (1)
 - [payload storage](#payload-storage) (1)
@@ -3962,7 +3969,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [random number generator](#random-number-generator) (1)
 - [ransom](#ransom) (1)
 - [Ransom-ISAC](#ransom-isac) (1)
-- [ransomware](#ransomware) (22)
+- [ransomware](#ransomware) (23)
 - [ransomware access](#ransomware-access) (1)
 - [ransomware enablement](#ransomware-enablement) (1)
 - [ransomware-access](#ransomware-access) (1)
@@ -4610,7 +4617,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SSH tunneling](#ssh-tunneling) (1)
 - [SSH tunnels](#ssh-tunnels) (1)
 - [sshd](#sshd) (1)
-- [SSL VPN](#ssl-vpn) (3)
+- [SSL VPN](#ssl-vpn) (4)
 - [SslClientHelloHandler](#sslclienthellohandler) (1)
 - [SSO](#sso) (4)
 - [SSRF](#ssrf) (12)
@@ -4727,6 +4734,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SystemBC](#systembc) (1)
 - [systemd](#systemd) (1)
 - [systemd-userdbd](#systemd-userdbd) (1)
+- [SYSVOL](#sysvol) (1)
 - [T1059](#t1059) (1)
 - [T1078](#t1078) (1)
 - [T1102.001](#t1102001) (1)
@@ -5698,6 +5706,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cavern](../tools/cavern.md)
 - [Impersonating IT support: Teams remote-session intrusion via MSI → portable Node.js → JavaScript implant → WinRM lateral movement (Microsoft, Sep 2, 2026)](../ops/microsoft-teams-it-support-impersonation-msi-nodejs-implant-winrm-september-2026.md)
 - [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
 ## active exploitation
@@ -6639,6 +6648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## anti-forensics
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 
 ## anti-sandbox
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
@@ -11821,6 +11831,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## detection-by-structure
 - [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
+## detection-engineering
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
+
 ## DEV#POPPER
 - [Joyfill npm blockchain-RAT compromise](../ops/joyfill-npm-blockchain-rat-compromise.md)
 
@@ -12263,6 +12276,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DOM-selection-injection
 - [WordPress "Click2Shell": one link opened by a logged-in admin force-installs an attacker-chosen wp.org theme with no clicks — session-privilege CSRF through the software's own install button, chainable to RCE via a second theme flaw (pwn.ai, patched in 7.1.1, Sep 17, 2026)](../ops/wordpress-click2shell-forced-theme-install-dom-selection-csrf-chainable-rce-pwnai-september-2026.md)
 
+## domain controller
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
+
 ## domain impersonation
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
 
@@ -12698,6 +12714,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## EncryptInterceptor
 - [CISA KEV August 4 additions: N-central, Tomcat, and Langflow](../ops/cisa-kev-n-central-tomcat-langflow-august-4-2026.md)
 
+## encryptionless
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
+
 ## ENDLESSDOORS
 - [ENDLESSDOORS implant in Zbtlink router firmware](../ops/endlessdoors-zbtlink-router-firmware-implant.md)
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
@@ -12922,6 +12941,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
 
 ## ESXi
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [VMware VMSA-2026-0006 vCenter and ESX critical flaws](../ops/vmware-vmsa-2026-0006-vcenter-esx-critical-flaws.md)
@@ -13183,6 +13203,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Klue Salesforce OAuth token abuse](../ops/klue-salesforce-oauth-token-abuse.md)
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 - [ShinyHunters](../actors/shinyhunters.md)
 - [Toy Ghouls](../actors/toy-ghouls.md)
 - [Toy Ghouls "Angry Birds" custom backdoor (HiveMQ / Element)](../ops/toy-ghouls-angry-birds-hivemq-element-backdoor-september-2026.md)
@@ -13703,6 +13724,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 
 ## Fortinet
 - [CISA KEV September 9, 2026 additions: four exploited flaws — Citrix NetScaler auth bypass, Fortinet heap overflow, Cisco FMC auth bypass, and an in-the-wild Chrome V8 out-of-bounds write](../ops/cisa-kev-citrix-fortinet-cisco-chromium-september-9-2026.md)
@@ -13932,6 +13954,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Germany
 - [Berlin state network compromise: Rhysida extortion after August exfiltration of the state administrative network (Aug 28–29, 2026)](../ops/berlin-state-network-rhysida-extortion-august-2026.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
+
+## GERT
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 
 ## GHETTOVIBE
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
@@ -14490,6 +14515,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## government-impersonation
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 
+## GPO
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
+
 ## GPT
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
@@ -14565,6 +14593,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ShinyHunters](../actors/shinyhunters.md)
 - [UAC-0145](../actors/uac-0145.md)
 - [Velvet Ant](../actors/velvet-ant.md)
+
+## Group Policy
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 
 ## Group-IB
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
@@ -15302,6 +15333,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## incident-response
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
 
 ## incomplete patch
@@ -16032,6 +16064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
 - [DoFun Android head-unit malware: MoYu/BADBOX ad-fraud and proxy botnet via TWCore updaters](../ops/dofun-android-head-unit-jarservice-moyu-badbox.md)
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
 
 ## kaspersky
@@ -16665,6 +16698,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## living-off-the-land
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 
 ## living-off-the-land binaries
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -17790,6 +17824,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Mirage Kitten](../actors/mirage-kitten.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
 - [Mirage Kitten NodeRabbit / PollCat coding-challenge campaign](../ops/mirage-kitten-noderabbit-pollcat-coding-challenge-september-2026.md)
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 - [Showboat](../tools/showboat.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
@@ -19946,6 +19981,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 - [PATCHCORD / SHEETCORD: APT36 backdoor campaign against Afghan telecom and South Asian critical infrastructure](../ops/patchcord-sheetcord-apt36-afghan-telecom-south-asia.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
@@ -20597,6 +20633,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## pay-per-install
 - [Unit 42: CL-CRI-1171 "Untracked Nightmares" — a pay-per-install marketplace behind commodity-looking loader infections](../ops/unit42-clcri-1171-offerloader-ppi-marketplace-september-2026.md)
+
+## PAYLOAD
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 
 ## payload loader
 - [TaskWeaver](../tools/taskweaver.md)
@@ -21855,6 +21894,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [Kairos data-extortion government payment](../ops/kairos-data-extortion-government-payment.md)
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -24368,6 +24408,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 
 ## SslClientHelloHandler
 - [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
@@ -24910,6 +24951,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## systemd-userdbd
 - [MYRA RAT](../tools/myra-rat.md)
+
+## SYSVOL
+- [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
 
 ## T1059
 - [Coding-agent hooks as audit telemetry: logging every AI coding-agent tool call](../patterns/coding-agent-hook-audit-elastic-cursor-tool-calls.md)
