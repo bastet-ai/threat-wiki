@@ -13,7 +13,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [.vu TLD](#vu-tld) (1)
 - [/accessv2](#accessv2) (1)
 - [/api/session/reset_password](#apisessionreset_password) (1)
-- [/dev/kvm](#devkvm) (1)
+- [/dev/kvm](#devkvm) (2)
 - [/proc/1/environ](#proc1environ) (1)
 - [/proc/1/mem](#proc1mem) (1)
 - [0-day](#0-day) (1)
@@ -40,6 +40,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AA26-231A](#aa26-231a) (1)
 - [AA26-237A](#aa26-237a) (1)
 - [AAA virtual server](#aaa-virtual-server) (2)
+- [aarch64](#aarch64) (1)
 - [Ababil of Minab](#ababil-of-minab) (1)
 - [ABRT](#abrt) (1)
 - [abuse response](#abuse-response) (1)
@@ -369,7 +370,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Arista EOS](#arista-eos) (1)
 - [ARKTunnel](#arktunnel) (1)
 - [ARL](#arl) (1)
-- [ARM64](#arm64) (1)
+- [ARM64](#arm64) (2)
 - [Armageddon](#armageddon) (1)
 - [ArmCorp](#armcorp) (1)
 - [Armored Likho](#armored-likho) (4)
@@ -1473,6 +1474,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-87491](#cve-2026-87491) (1)
 - [CVE-2026-87701](#cve-2026-87701) (1)
 - [CVE-2026-87886](#cve-2026-87886) (1)
+- [CVE-2026-89775](#cve-2026-89775) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [CVE-2026-90894](#cve-2026-90894) (1)
 - [CVE-2026-90898](#cve-2026-90898) (1)
@@ -2024,6 +2026,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FBI indictment](#fbi-indictment) (1)
 - [fbot](#fbot) (1)
 - [FDMTP](#fdmtp) (2)
+- [FEAT_NV2](#feat_nv2) (1)
 - [Feiying](#feiying) (1)
 - [Feral Wolf](#feral-wolf) (1)
 - [fetch api hooking](#fetch-api-hooking) (1)
@@ -2362,7 +2365,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GTIG](#gtig) (3)
 - [GUE](#gue) (1)
 - [guest access abuse](#guest-access-abuse) (1)
-- [guest-to-host escape](#guest-to-host-escape) (2)
+- [guest-to-host escape](#guest-to-host-escape) (3)
 - [Guildma](#guildma) (1)
 - [Gunra](#gunra) (1)
 - [hack-and-leak](#hack-and-leak) (2)
@@ -2486,8 +2489,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [hydropower](#hydropower) (2)
 - [Hydropower Cooperation Project Proposal.zip](#hydropower-cooperation-project-proposalzip) (1)
 - [hyper-v](#hyper-v) (1)
-- [hypervisor escape](#hypervisor-escape) (2)
-- [Hyunwoo Kim](#hyunwoo-kim) (1)
+- [hypervisor escape](#hypervisor-escape) (3)
+- [Hyunwoo Kim](#hyunwoo-kim) (2)
 - [I-SOON](#i-soon) (2)
 - [IAB](#iab) (2)
 - [iACL](#iacl) (1)
@@ -2795,8 +2798,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [kTLS](#ktls) (1)
 - [Kubernetes](#kubernetes) (7)
 - [KV-botnet](#kv-botnet) (1)
-- [KVM](#kvm) (2)
-- [KVM escape](#kvm-escape) (1)
+- [KVM](#kvm) (3)
+- [KVM escape](#kvm-escape) (2)
 - [kvmCTF](#kvmctf) (1)
 - [Kyrgyzstan](#kyrgyzstan) (1)
 - [L2TP/IPSec](#l2tpipsec) (1)
@@ -2879,9 +2882,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LIGHTPAINT](#lightpaint) (1)
 - [LinkedIn](#linkedin) (2)
 - [Linksys](#linksys) (1)
-- [Linux](#linux) (34)
+- [Linux](#linux) (35)
 - [Linux backdoor](#linux-backdoor) (1)
-- [Linux kernel](#linux-kernel) (8)
+- [Linux kernel](#linux-kernel) (9)
 - [Linux malware](#linux-malware) (3)
 - [Linux networking devices](#linux-networking-devices) (1)
 - [Linux rootkit](#linux-rootkit) (1)
@@ -2916,7 +2919,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [local exploit](#local-exploit) (2)
 - [local inference](#local-inference) (1)
 - [local LLMs](#local-llms) (1)
-- [local privilege escalation](#local-privilege-escalation) (13)
+- [local privilege escalation](#local-privilege-escalation) (14)
 - [local proxy](#local-proxy) (1)
 - [local subprocess](#local-subprocess) (1)
 - [local-file-inclusion](#local-file-inclusion) (1)
@@ -3277,7 +3280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [multi-model ensemble](#multi-model-ensemble) (1)
 - [multi-organization PAT campaign](#multi-organization-pat-campaign) (1)
 - [multi-SAN certificate](#multi-san-certificate) (1)
-- [multi-tenant cloud](#multi-tenant-cloud) (2)
+- [multi-tenant cloud](#multi-tenant-cloud) (3)
 - [multi-tenant isolation](#multi-tenant-isolation) (2)
 - [multiplex queries](#multiplex-queries) (1)
 - [Multiply-With-Carry](#multiply-with-carry) (1)
@@ -3325,7 +3328,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NemoClaw](#nemoclaw) (1)
 - [Neo-reGeorg](#neo-regeorg) (2)
 - [neocloud](#neocloud) (1)
-- [nested virtualization](#nested-virtualization) (1)
+- [nested virtualization](#nested-virtualization) (2)
 - [net/tls](#nettls) (1)
 - [Netcat reverse shell](#netcat-reverse-shell) (1)
 - [Neteller](#neteller) (1)
@@ -3548,13 +3551,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (357)
+- [operations](#operations) (358)
 - [operator lockout](#operator-lockout) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (437)
+- [ops](#ops) (438)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -4053,6 +4056,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Red Agent](#red-agent) (1)
 - [Red Dev 10](#red-dev-10) (2)
 - [Red Hat](#red-hat) (2)
+- [Red Hat Enterprise Linux](#red-hat-enterprise-linux) (1)
 - [Red Menshen](#red-menshen) (1)
 - [Red Offsec](#red-offsec) (1)
 - [Red Raindrop Team](#red-raindrop-team) (2)
@@ -4911,6 +4915,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TinyGo](#tinygo) (1)
 - [TinyRCT](#tinyrct) (3)
 - [tj-actions](#tj-actions) (1)
+- [TLB invalidation](#tlb-invalidation) (1)
 - [TLS](#tls) (1)
 - [TLS certificates](#tls-certificates) (1)
 - [TLS interception](#tls-interception) (3)
@@ -5133,7 +5138,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [USB weaponizer](#usb-weaponizer) (1)
 - [USB worm](#usb-worm) (2)
 - [usb-propagation](#usb-propagation) (1)
-- [use-after-free](#use-after-free) (4)
+- [use-after-free](#use-after-free) (5)
 - [user execution](#user-execution) (2)
 - [user namespaces](#user-namespaces) (2)
 - [user verification](#user-verification) (1)
@@ -5147,7 +5152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uTLS](#utls) (1)
 - [Uzbekistan](#uzbekistan) (1)
 - [V2Ray](#v2ray) (1)
-- [V4bel](#v4bel) (1)
+- [V4bel](#v4bel) (2)
 - [V8](#v8) (6)
 - [V8 isolate](#v8-isolate) (1)
 - [V8 isolates](#v8-isolates) (1)
@@ -5199,7 +5204,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [virtio-fs](#virtio-fs) (1)
 - [virtual machine escape](#virtual-machine-escape) (1)
 - [virtual patching](#virtual-patching) (1)
-- [virtualization](#virtualization) (3)
+- [virtualization](#virtualization) (4)
 - [virtualization targeting](#virtualization-targeting) (2)
 - [VirusTotal impersonation](#virustotal-impersonation) (1)
 - [VirusTotal sentiment abuse](#virustotal-sentiment-abuse) (1)
@@ -5247,7 +5252,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VU#213560](#vu213560) (1)
 - [VULN-39341](#vuln-39341) (1)
 - [VulnCheck](#vulncheck) (8)
-- [vulnerability](#vulnerability) (32)
+- [vulnerability](#vulnerability) (33)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
 - [vulnerability disclosure](#vulnerability-disclosure) (2)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
@@ -5551,6 +5556,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 
 ## /dev/kvm
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
 ## /proc/1/environ
@@ -5632,6 +5638,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AAA virtual server
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
+
+## aarch64
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 
 ## Ababil of Minab
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -6991,6 +7000,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
 ## ARM64
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## Armageddon
@@ -11325,6 +11335,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CVE-2026-87886
 - [CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
 
+## CVE-2026-89775
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
+
 ## CVE-2026-9082
 - [Drupal Core CVE-2026-9082 exploitation](../ops/drupal-core-cve-2026-9082-exploitation.md)
 
@@ -13531,6 +13544,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FDMTP](../tools/fdmtp.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 
+## FEAT_NV2
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
+
 ## Feiying
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
 
@@ -14781,6 +14797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
 
 ## guest-to-host escape
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 
@@ -15196,10 +15213,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [September 2026 Patch Tuesday: two exploited zero-days, 113 critical, and a post-patch Defender "ShieldCrash" PoC](../ops/crowdstrike-september-2026-patch-tuesday-two-exploited-zero-days-shieldcrash.md)
 
 ## hypervisor escape
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 
 ## Hyunwoo Kim
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
 ## I-SOON
@@ -16425,10 +16444,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JDY SOHO / IoT reconnaissance botnet](../ops/jdy-soho-iot-recon-botnet.md)
 
 ## KVM
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [VMs won't contain cyber-capable agents: GPT-5.6-Cyber escapes QEMU/KVM three times](../patterns/vms-wont-contain-cyber-capable-agents-trail-of-bits.md)
 
 ## KVM escape
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
 ## kvmCTF
@@ -16740,6 +16761,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Linux
 - ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [CISA KEV September 18, 2026: three Linux kernel vulnerabilities — remotely triggerable kTLS zero-length-record mishandling (CVSS 9.8 AV:N) plus two local privilege escalations (AF_ALG concurrent-write race, ebtables SNAT out-of-bounds write into splice-shared file pages) — ALL THREE carrying CISA SSVC "active exploitation," all on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -16778,6 +16800,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 
 ## Linux kernel
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
 - [CISA KEV September 18, 2026: three Linux kernel vulnerabilities — remotely triggerable kTLS zero-length-record mishandling (CVSS 9.8 AV:N) plus two local privilege escalations (AF_ALG concurrent-write race, ebtables SNAT out-of-bounds write into splice-shared file pages) — ALL THREE carrying CISA SSVC "active exploitation," all on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
@@ -16937,6 +16960,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
 
 ## local privilege escalation
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV August 26, 2026 additions: Citrix NetScaler DoS, Microsoft SQL Server RCE, and four UAT-10147 exploitation CVEs](../ops/cisa-kev-citrix-sql-server-august-26-2026.md)
 - [CISA KEV August 27, 2026 additions: ownCloud WebDAV pre-signed URL bypass, Linux kernel IPv6 LPE, and JFrog Artifactory Docker-cache path escape](../ops/cisa-kev-owncloud-linux-artifactory-august-27-2026.md)
@@ -18424,6 +18448,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 
 ## multi-tenant cloud
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
@@ -18590,6 +18615,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 
 ## nested virtualization
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
 ## net/tls
@@ -19482,6 +19508,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -19860,6 +19887,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Arista EOS CVE-2026-7473 tunnel decapsulation exploitation](../ops/arista-eos-cve-2026-7473-tunnel-decap-exploitation.md)
 - [Arista VeloCloud Orchestrator CVE-2026-16812 exploitation](../ops/arista-velocloud-orchestrator-cve-2026-16812-exploitation.md)
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Armored Likho BusySnake campaign](../ops/armored-likho-busysnake-campaign.md)
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
@@ -22296,6 +22324,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Red Hat
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
 - [Linux pedit COW CVE-2026-46331 local privilege escalation](../ops/linux-pedit-cow-cve-2026-46331-lpe.md)
+
+## Red Hat Enterprise Linux
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 
 ## Red Menshen
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
@@ -25650,6 +25681,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tj-actions
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
+## TLB invalidation
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
+
 ## TLS
 - [CISA KEV September 18, 2026: three Linux kernel vulnerabilities — remotely triggerable kTLS zero-length-record mishandling (CVSS 9.8 AV:N) plus two local privilege escalations (AF_ALG concurrent-write race, ebtables SNAT out-of-bounds write into splice-shared file pages) — ALL THREE carrying CISA SSVC "active exploitation," all on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
 
@@ -26598,6 +26632,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
 ## use-after-free
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [Linux Bad Epoll CVE-2026-46242 local privilege escalation](../ops/linux-bad-epoll-cve-2026-46242-lpe.md)
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
@@ -26647,6 +26682,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MODBEACON](../tools/modbeacon.md)
 
 ## V4bel
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 
 ## V8
@@ -26830,6 +26866,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## virtualization
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Januscape KVM CVE-2026-53359 guest-to-host escape](../ops/januscape-kvm-cve-2026-53359-guest-to-host-escape.md)
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 
@@ -27022,6 +27059,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Android Framework CVE-2025-48595 exploitation](../ops/android-framework-cve-2025-48595-exploitation.md)
+- [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
 - [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
 - [BeyondTrust RS / PRA CVE-2026-40138 and CVE-2026-40139 authentication bypass](../ops/beyondtrust-rs-pra-cve-2026-40138-40139-auth-bypass.md)
 - [Cisco IOS CVE-2008-4128 CSRF KEV exploitation](../ops/cisco-ios-cve-2008-4128-csrf-kev.md)
