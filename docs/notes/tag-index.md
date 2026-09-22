@@ -309,7 +309,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [apintergrationpost](#apintergrationpost) (1)
 - [APK secret scanning](#apk-secret-scanning) (1)
 - [App-Bound encryption](#app-bound-encryption) (2)
-- [app-bound encryption](#app-bound-encryption) (1)
+- [app-bound encryption](#app-bound-encryption) (2)
 - [App-Bound Encryption bypass](#app-bound-encryption-bypass) (1)
 - [AppDomainManager](#appdomainmanager) (1)
 - [AppDomainManager injection](#appdomainmanager-injection) (2)
@@ -407,7 +407,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Atomic macOS Stealer](#atomic-macos-stealer) (1)
 - [Atomic Stealer](#atomic-stealer) (4)
 - [attack-rate](#attack-rate) (1)
-- [attestation](#attestation) (1)
+- [attestation](#attestation) (2)
 - [attribution](#attribution) (1)
 - [audio surveillance](#audio-surveillance) (1)
 - [AUDIOFIX](#audiofix) (2)
@@ -591,13 +591,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BookStack](#bookstack) (1)
 - [Boot Bus Extender](#boot-bus-extender) (1)
 - [Boot Time Removal Tool](#boot-time-removal-tool) (1)
+- [BoryptGrab](#boryptgrab) (1)
 - [botnet](#botnet) (14)
 - [botnet framework](#botnet-framework) (1)
 - [BPFDoor](#bpfdoor) (1)
 - [Braintree](#braintree) (1)
 - [branch-compromise](#branch-compromise) (1)
 - [branch-name-injection](#branch-name-injection) (1)
-- [brand impersonation](#brand-impersonation) (4)
+- [brand impersonation](#brand-impersonation) (5)
 - [brand-impersonation](#brand-impersonation) (2)
 - [BraZetsu](#brazetsu) (2)
 - [Brazil](#brazil) (8)
@@ -610,6 +611,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BRICKSTORM](#brickstorm) (2)
 - [bridge](#bridge) (1)
 - [BridgeHead](#bridgehead) (2)
+- [bring your own vulnerable driver](#bring-your-own-vulnerable-driver) (1)
 - [Broadcom](#broadcom) (5)
 - [browser assembly](#browser-assembly) (1)
 - [browser automation](#browser-automation) (1)
@@ -626,6 +628,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser fingerprinting](#browser-fingerprinting) (2)
 - [browser hijacker](#browser-hijacker) (1)
 - [browser hijacking](#browser-hijacking) (4)
+- [browser injection](#browser-injection) (1)
 - [browser malware](#browser-malware) (1)
 - [browser memory](#browser-memory) (1)
 - [browser security](#browser-security) (3)
@@ -675,7 +678,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BusinessDataCatalog](#businessdatacatalog) (1)
 - [BusySnake Stealer](#busysnake-stealer) (3)
 - [Bybit](#bybit) (2)
-- [BYOVD](#byovd) (5)
+- [BYOVD](#byovd) (6)
 - [BYOVD alternative](#byovd-alternative) (1)
 - [bypass2fa](#bypass2fa) (1)
 - [bytecode](#bytecode) (1)
@@ -1061,7 +1064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [credential spraying](#credential-spraying) (1)
 - [credential stealer](#credential-stealer) (1)
 - [credential stuffing](#credential-stuffing) (2)
-- [credential theft](#credential-theft) (90)
+- [credential theft](#credential-theft) (91)
 - [credential-theft](#credential-theft) (56)
 - [credit card theft](#credit-card-theft) (1)
 - [crimeware](#crimeware) (1)
@@ -1098,6 +1101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CrowdStrike Counter Adversary Operations](#crowdstrike-counter-adversary-operations) (1)
 - [CrowdStrike Falcon](#crowdstrike-falcon) (1)
 - [CrownX](#crownx) (2)
+- [Cruciferra](#cruciferra) (1)
 - [Crucio](#crucio) (1)
 - [crypto](#crypto) (4)
 - [crypto clipboard theft](#crypto-clipboard-theft) (1)
@@ -1591,6 +1595,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [defense-evasion](#defense-evasion) (1)
 - [DeFi](#defi) (5)
 - [delayed execution](#delayed-execution) (3)
+- [Delphos Labs](#delphos-labs) (1)
 - [denial of service](#denial-of-service) (10)
 - [Deno](#deno) (2)
 - [Denys Pakizh](#denys-pakizh) (1)
@@ -1672,7 +1677,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [distribution-compromise](#distribution-compromise) (1)
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL search-order hijacking](#dll-search-order-hijacking) (2)
-- [DLL side-loading](#dll-side-loading) (8)
+- [DLL side-loading](#dll-side-loading) (9)
 - [DLL sideloading](#dll-sideloading) (28)
 - [DLL-sideloading](#dll-sideloading) (1)
 - [dlopen](#dlopen) (1)
@@ -1798,6 +1803,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [EDR bypass](#edr-bypass) (1)
 - [EDR evasion](#edr-evasion) (3)
 - [EDR killer](#edr-killer) (2)
+- [EDR-killing](#edr-killing) (1)
 - [EDR/AV bypass](#edrav-bypass) (1)
 - [EDR/AV tampering](#edrav-tampering) (1)
 - [EDS5000](#eds5000) (1)
@@ -1971,8 +1977,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake dating lures](#fake-dating-lures) (1)
 - [fake documents](#fake-documents) (1)
 - [fake gambling](#fake-gambling) (1)
+- [fake GitHub organization](#fake-github-organization) (1)
 - [fake graduation invite](#fake-graduation-invite) (1)
-- [fake installer](#fake-installer) (1)
+- [fake installer](#fake-installer) (2)
 - [fake installers](#fake-installers) (2)
 - [fake lock screen](#fake-lock-screen) (1)
 - [fake login](#fake-login) (1)
@@ -2736,7 +2743,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kemp LoadMaster](#kemp-loadmaster) (1)
 - [kerberos](#kerberos) (1)
 - [Kerberos](#kerberos) (1)
-- [kernel driver](#kernel-driver) (4)
+- [kernel driver](#kernel-driver) (5)
 - [kernel instrumentation](#kernel-instrumentation) (1)
 - [kernel R/W](#kernel-rw) (1)
 - [kernel rootkit](#kernel-rootkit) (1)
@@ -2804,6 +2811,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LapDogs](#lapdogs) (1)
 - [Laravel](#laravel) (2)
 - [Laravel deserialization](#laravel-deserialization) (1)
+- [LastPass](#lastpass) (1)
 - [LATAM](#latam) (3)
 - [lateral movement](#lateral-movement) (11)
 - [lateral-movement](#lateral-movement) (1)
@@ -2928,6 +2936,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [login item persistence](#login-item-persistence) (1)
 - [LOLBAS](#lolbas) (1)
 - [LOLBins](#lolbins) (3)
+- [LOLDrivers](#loldrivers) (1)
 - [long-horizon autonomy](#long-horizon-autonomy) (1)
 - [long-lived tokens](#long-lived-tokens) (1)
 - [long-term access](#long-term-access) (1)
@@ -3110,6 +3119,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
 - [Microsoft Authentication Broker](#microsoft-authentication-broker) (1)
 - [Microsoft Azure](#microsoft-azure) (1)
+- [Microsoft blocklist](#microsoft-blocklist) (1)
 - [Microsoft Copilot Personal](#microsoft-copilot-personal) (1)
 - [Microsoft Defender](#microsoft-defender) (6)
 - [Microsoft Defender exclusion](#microsoft-defender-exclusion) (1)
@@ -3609,6 +3619,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package_info.pl](#package_infopl) (1)
 - [Packagist](#packagist) (6)
 - [packet injection](#packet-injection) (1)
+- [padding archive](#padding-archive) (1)
 - [PAExec](#paexec) (1)
 - [Page Builder CK](#page-builder-ck) (1)
 - [page cache](#page-cache) (2)
@@ -3640,6 +3651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [passkey](#passkey) (1)
 - [passkeys](#passkeys) (2)
 - [password manager theft](#password-manager-theft) (1)
+- [password managers targeted](#password-managers-targeted) (1)
 - [password reset](#password-reset) (1)
 - [password spray](#password-spray) (1)
 - [password spraying](#password-spraying) (5)
@@ -3856,6 +3868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [process environment scraping](#process-environment-scraping) (1)
 - [process hollowing](#process-hollowing) (4)
 - [process injection](#process-injection) (6)
+- [process killer](#process-killer) (1)
 - [process lineage](#process-lineage) (1)
 - [process termination](#process-termination) (2)
 - [process.env theft](#processenv-theft) (1)
@@ -4287,6 +4300,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [search poisoning](#search-poisoning) (1)
 - [search result poisoning](#search-result-poisoning) (1)
 - [search-ms](#search-ms) (1)
+- [search-ranking lure](#search-ranking-lure) (1)
 - [Seashell Blizzard](#seashell-blizzard) (2)
 - [Seatbelt](#seatbelt) (1)
 - [second-order injection](#second-order-injection) (1)
@@ -4666,7 +4680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Static Kitten](#static-kitten) (1)
 - [stdio](#stdio) (4)
 - [StealC](#stealc) (2)
-- [stealer](#stealer) (3)
+- [stealer](#stealer) (4)
 - [Steam profile dead drop](#steam-profile-dead-drop) (2)
 - [Steam Workshop](#steam-workshop) (1)
 - [steering file](#steering-file) (1)
@@ -4903,7 +4917,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [token-theft](#token-theft) (1)
 - [TONESHELL](#toneshell) (2)
 - [TookPS](#tookps) (1)
-- [tool](#tool) (8)
+- [tool](#tool) (9)
 - [tool calling](#tool-calling) (1)
 - [tool execution](#tool-execution) (1)
 - [tool output injection](#tool-output-injection) (1)
@@ -4911,7 +4925,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (77)
+- [tools](#tools) (78)
 - [Tor](#tor) (4)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5208,6 +5222,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VS Code extension](#vs-code-extension) (1)
 - [VS Code extension persistence](#vs-code-extension-persistence) (1)
 - [VS Code tunnels](#vs-code-tunnels) (1)
+- [vsdbg](#vsdbg) (1)
 - [Vshell](#vshell) (1)
 - [VShell](#vshell) (1)
 - [VSIX](#vsix) (1)
@@ -5301,6 +5316,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Werkbit](#werkbit) (1)
 - [WhatsApp](#whatsapp) (5)
 - [WhatsApp phishing](#whatsapp-phishing) (1)
+- [WHCP](#whcp) (1)
 - [white-label](#white-label) (1)
 - [whitespace hiding](#whitespace-hiding) (1)
 - [WHM](#whm) (6)
@@ -5314,7 +5330,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Windchill PDMLink](#windchill-pdmlink) (1)
 - [WinDirStat](#windirstat) (1)
 - [Windmill](#windmill) (1)
-- [Windows](#windows) (58)
+- [Windows](#windows) (59)
 - [windows](#windows) (1)
 - [Windows 11 25H2](#windows-11-25h2) (1)
 - [windows alpc](#windows-alpc) (1)
@@ -6745,6 +6761,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 
 ## app-bound encryption
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 
 ## App-Bound Encryption bypass
@@ -7085,6 +7102,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
 ## attestation
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 - [Unit 42: post-exploitation workload-identity spoofing in SPIFFE/SPIRE — cgroup-selector manipulation and the Spooffe tool](../patterns/unit42-spiffe-spire-cgroup-workload-identity-spoofing-spooffe-september-2026.md)
 
 ## attribution
@@ -7784,6 +7802,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Boot Time Removal Tool
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 
+## BoryptGrab
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
+
 ## botnet
 - [Aeternum](../tools/aeternum.md)
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
@@ -7816,6 +7837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 
 ## brand impersonation
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
@@ -7868,6 +7890,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## BridgeHead
 - [BridgeHead](../tools/bridgehead.md)
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+
+## bring your own vulnerable driver
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 
 ## Broadcom
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -7957,6 +7982,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Perplexity AI-spoofing Chromium extension search hijacker](../ops/perplexity-ai-chromium-extension-search-hijacker.md)
 - [XCSSET](../tools/xcsset.md)
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
+
+## browser injection
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 
 ## browser malware
 - [Lucide Proxy npm browser DDoS botnet](../ops/lucide-proxy-npm-browser-ddos-botnet.md)
@@ -8130,6 +8158,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
 ## BYOVD
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
@@ -9784,6 +9813,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI token-jacking transfer-station abuse](../ops/ai-token-jacking-transfer-station-abuse.md)
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 - [Alibaba developer-targeted distributed npm RAT campaign](../ops/alibaba-developer-targeted-distributed-npm-rat.md)
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 - [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
 - [Anthropic cyber-evaluation real-world intrusions](../ops/anthropic-cyber-evaluation-real-world-intrusions.md)
@@ -10057,6 +10087,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CrownX
 - [Avalon / CrownX malware framework](../ops/avalon-crownx-malware-framework.md)
 - [CrownX](../tools/crownx.md)
+
+## Cruciferra
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 
 ## Crucio
 - [GigaWiper](../tools/gigawiper.md)
@@ -11770,6 +11803,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [Newtonsoftt.Json.Net NuGet betting-rigging trojan](../ops/newtonsoftt-json-net-nuget-betting-rigging-trojan.md)
 
+## Delphos Labs
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
+
 ## denial of service
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
@@ -12123,6 +12159,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NightLedger](../tools/nightledger.md)
 
 ## DLL side-loading
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 - [MIXEDKEY](../tools/mixedkey.md)
 - [OceanLotus](../actors/oceanlotus.md)
 - [Pirated media SilentCryptoMiner RAT campaign](../ops/pirated-media-silentcryptominer-rat-campaign.md)
@@ -12606,6 +12643,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## EDR killer
 - [GodDamn ransomware PoisonX BYOVD activity](../ops/goddamn-ransomware-poisonx-byovd.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
+
+## EDR-killing
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 
 ## EDR/AV bypass
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
@@ -13309,10 +13349,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fake gambling
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
+## fake GitHub organization
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
+
 ## fake graduation invite
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
 
 ## fake installer
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 - [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
 
 ## fake installers
@@ -16178,6 +16222,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## kernel driver
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 - [Fast16](../tools/fast16.md)
 - [FishMonger](../actors/fishmonger.md)
@@ -16427,6 +16472,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Laravel deserialization
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
+
+## LastPass
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 
 ## LATAM
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
@@ -16948,6 +16996,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ClickFix CPaaS API-driven payload delivery](../ops/clickfix-cpaas-api-driven-payload-delivery.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
+
+## LOLDrivers
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 
 ## long-horizon autonomy
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -17755,6 +17806,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Microsoft Azure
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
+
+## Microsoft blocklist
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 
 ## Microsoft Copilot Personal
 - [CoSnitch: Microsoft Copilot Personal one-click data exfiltration (CVE-2026-24301)](../ops/cosnitch-copilot-personal-cve-2026-24301-one-click-exfil.md)
@@ -20432,6 +20486,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## packet injection
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 
+## padding archive
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
+
 ## PAExec
 - [Toy Ghouls GenieLocker ransomware activity](../ops/toy-ghouls-genielocker-ransomware.md)
 
@@ -20532,6 +20589,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## password manager theft
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
+
+## password managers targeted
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 
 ## password reset
 - [Keycloak CVE-2026-18963: unauthenticated password-reset account takeover](../tools/keycloak-cve-2026-18963-unauthenticated-account-takeover.md)
@@ -21469,6 +21529,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation DragonReturn India tax-season DcRAT campaign](../ops/operation-dragonreturn-india-tax-dcrat.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
 - [Starland RAT](../tools/starland-rat.md)
+
+## process killer
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 
 ## process lineage
 - [Attackers turn the trusted Node.js runtime into a malware-delivery channel: `node.exe`-anchored implant chains across multiple campaigns (Symantec, Sep 4, 2026)](../patterns/nodejs-runtime-malware-delivery-symantec-september-2026.md)
@@ -23212,6 +23275,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## search-ms
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 
+## search-ranking lure
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
+
 ## Seashell Blizzard
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
@@ -24608,6 +24674,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## stealer
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
 - [Ghost CMS CVE-2026-26980 ClickFix poisoning](../ops/ghost-cms-cve-2026-26980-clickfix-poisoning.md)
 - [TELEPUZ](../tools/telepuz.md)
@@ -25604,6 +25671,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
 ## tool
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 - [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [ArcBridge](../tools/arcbridge.md)
 - [BridgeHead](../tools/bridgehead.md)
@@ -25643,6 +25711,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@zereight/mcp-gitlab CVE-2026-61560: unauthenticated SSE transport plus arbitrary file read exfiltrates the GitLab PAT (CVSS 9.8, Sep 16, 2026)](../tools/zereight-mcp-gitlab-cve-2026-61560-unauthenticated-sse-pat-exfiltration-september-2026.md)
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Aeternum](../tools/aeternum.md)
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 - [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
 - [ArcBridge](../tools/arcbridge.md)
 - [Bifrost CVE-2026-90898: unauthenticated RCE because a stdio MCP client registration starts the command immediately (CVSS 9.8, JFrog, Sep 14, 2026)](../tools/bifrost-cve-2026-90898-mcp-stdio-unauthenticated-rce.md)
@@ -26846,6 +26915,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VS Code tunnels
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
+## vsdbg
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
+
 ## Vshell
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 
@@ -27252,6 +27324,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## WhatsApp phishing
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
+## WHCP
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
+
 ## white-label
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 
@@ -27300,6 +27375,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Windows
 - [3CX desktop app compromise](../ops/3cx-desktop-app-compromise.md)
 - [Aeternum](../tools/aeternum.md)
+- [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
 - [APT28 LNK SmartScreen bypass and CVE-2026-32202 coercion chain](../ops/apt28-lnk-smartscreen-cve-2026-21510-cve-2026-32202.md)
 - [ArcBridge](../tools/arcbridge.md)
 - [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)

@@ -65,6 +65,30 @@ The fake scopes imitate the legitimate `@vitejs/*` namespace and, in the case of
 - If execution is plausible, isolate affected developer and CI systems, preserve package and process evidence, then rotate npm, source-control, SSH, cloud, API, wallet, and CI credentials available to the process. Rebuild from known-clean dependencies and invalidate caches.
 - Treat the shared blockchain and loader signatures as campaign-family detections: package names and first-tier wallets are disposable, while the backend has supported multiple delivery clusters.
 
+## September 22 follow-up (this wiki): npm security-holder-ed the ENTIRE seven-package fleet — five names holder-created two months after their own advisories
+
+**State change recorded by direct registry checks (~01:25–01:40 UTC, Sep 22, 2026):** all seven ViteVenom names now serve `latest = 0.0.1-security`, publisher `npm@npmjs.com`, `repository: npm/security-holder` — the same registry-neutralization signature this wiki documented for the mathmain trio on the evening of Sep 21. **Five of the seven holders were created 2026-09-21 23:12–23:16 UTC**, and their OSV records re-advised the SAME hour with fresh GHSA mirrors:
+
+| Package | Original OSV (Jun–Jul) | New GHSA mirror (Sep 21 UTC) | Holder created (UTC) |
+| --- | --- | --- | --- |
+| `@vite-ts/vite-ui` | `MAL-2026-10527` (Jul 14) | `GHSA-jm6h-xxm2-2mr3` 23:12:45 | 23:12:05 |
+| `@vite-mcp/vite-type` | `MAL-2026-10525` (Jul 14) | `GHSA-mqf9-3wx8-45cj` 23:13:22 | 23:12:58 |
+| `@vite-pro/vite-ui` | `MAL-2026-10526` (Jul 14) | `GHSA-phpx-wpr2-26pv` 23:14:42 | 23:14:20 |
+| `@vite-tab/tabui` | **`MAL-2026-16371` (NEW, 23:16:23)** | `GHSA-q5h9-3mvh-45cf` 23:16:23 | 23:15:50 |
+| `@vite-tab/tab` | `MAL-2026-6988` (Jul 8) | `GHSA-74pv-97c8-9hfp` 23:16:23 | 23:16:40 |
+| `@vitets/vite-ts` | `MAL-2026-10528` (Jul 14) | `GHSA-733v-wc48-f65r` 23:17:00 | 23:16:38 |
+| `@uw010010/vite-tree` | `MAL-2026-10470` (holder since Aug 13) | — | 2026-08-13 |
+| `@vite-ln/build-ts` | holder since Jul 8 | — | 2026-07-08 |
+
+**Two durable facts from the time blocks (method on-wiki — the npm `time` document survives removal):**
+
+1. **A campaign's advisory backlog can sit un-neutralized for ~2.5 months and then close in four minutes.** `@vite-mcp/vite-type` was OSV-advised **July 14** and holder-created **September 21** — a 69-day gap during which Checkmarx's own removal claim (packages "removed on July 3") was only half-true: versions purged, name left resquattable. The Sep 21 23:12–23:16 UTC burst (six holder creations + six fresh GHSA publishes inside five minutes, interleaved) is a batch registry sweep, not case-by-case triage. Registry hygiene arrives as wavefronts; the `time` block is the audit trail of when a name stopped being a squat target.
+2. **`@vite-tab/tabui` is a NAME THIS WIKI'S CHECKS NEVER SAW BEFORE** — `tabui` is not in Checkmarx's seven-package list, the OSV record (`MAL-2026-16371`, published 23:16:23 UTC) is brand-new, and the name had zero prior versions. Either the campaign published an eighth package after Checkmarx's July report (a `time` block that would prove it is now gone with the versions — the deletion erased its own exposure record), or npm/GitHub acted on a fresh unreported sighting. Either way: **the ViteVenom namespace is still a live operator interest as of Sep 21 night, two months after Checkmarx called it closed.** Monitor for further `@vite-*`-shaped first-publications.
+
+**Publisher detail:** the two surviving pre-holder versions of `@vite-tab/tab` (`3.15.10` Jun 30, `5.7.0` Jul 7 — the second a post-Checkmarx-report republish the July writeup never listed) were published by `shupengwei13@gmail.com` — first on-wiki publisher email for this campaign; useful account-level pivot for sibling-name searches.
+
+**Defender read:** holder-ification is namespace protection, not detection — nothing in this sweep would have caught a ViteVenom package shipping today. The durable checks remain the July ones (import-time execution in `bin/`, blockchain-RPC hostnames in dependency-less "tools", the `global.i='*5-*'` marker). What changed is only that these seven specific names can no longer be re-armed.
+
 ## Related pages
 - [PolinRider cross-ecosystem supply-chain campaign](polinrider-cross-ecosystem-supply-chain.md)
 - [Astro config blockchain C2 PR injection](astro-config-blockchain-c2-pr-injection.md)
