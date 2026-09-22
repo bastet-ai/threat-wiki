@@ -51,7 +51,7 @@ Track this as a defender pattern rather than a single operation. The same instal
 ## Attacker adaptations to expect
 - Compromise of packages that are already approved in an organization's `allowScripts` / `approve-scripts` configuration.
 - Migration from install-time execution to import-time execution, where code runs when a package is imported by application or build tooling.
-- Runtime invocation payloads hidden behind normal-looking API calls or build steps.
+- Runtime invocation payloads hidden behind normal-looking API calls or build steps. **Confirmed in the wild Sep 22, 2026: Checkmarx's `indexed-btree` teardown (via The Hacker News) documents a campaign that abandons lifecycle scripts entirely after npm 12 — the loader hides inside `BTree.prototype.set()`, fires at runtime, and then deletes its own artifacts and strips its own trigger from the package code. Recorded in full on the [Equation of Compromise page](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md#september-22-checkmarx-runtime-loader-overlap) (the same btree-name family sits in JFrog's download-farm target list; stated realized profit €230,933 / 109 ETH).**
 - More abuse of trusted package maintainers, release automation, and transitive dependencies that inherit approval decisions.
 - Social engineering or documentation changes that ask developers to run installs with broad `--allow-*` flags.
 
