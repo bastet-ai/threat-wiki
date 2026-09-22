@@ -2553,6 +2553,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [IndexedDB](#indexeddb) (3)
 - [India](#india) (3)
 - [india](#india) (1)
+- [India academia](#india-academia) (1)
 - [India-nexus](#india-nexus) (1)
 - [Indian government](#indian-government) (1)
 - [indirect prompt injection](#indirect-prompt-injection) (12)
@@ -3255,6 +3256,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MsBuild hollowing](#msbuild-hollowing) (2)
 - [msgpack](#msgpack) (1)
 - [mshta](#mshta) (6)
+- [mshta chain](#mshta-chain) (1)
 - [MSI](#msi) (3)
 - [msiexec](#msiexec) (2)
 - [msnightmare](#msnightmare) (1)
@@ -4143,6 +4145,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reverse-proxy](#reverse-proxy) (1)
 - [reverse-SSH tunnel](#reverse-ssh-tunnel) (1)
 - [REVERSE_PROXY_TRUSTED_PROXIES](#reverse_proxy_trusted_proxies) (1)
+- [ReverseRAT](#reverserat) (1)
 - [ReverseSocks](#reversesocks) (1)
 - [reviewdog](#reviewdog) (1)
 - [reward hacking](#reward-hacking) (1)
@@ -4795,6 +4798,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tag rewrite](#tag-rewrite) (1)
 - [tag tampering](#tag-tampering) (4)
 - [TAG-124](#tag-124) (1)
+- [TAG-140](#tag-140) (1)
 - [TAG-179](#tag-179) (1)
 - [TAG-182](#tag-182) (1)
 - [TAG-22](#tag-22) (2)
@@ -4965,6 +4969,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [transport](#transport) (1)
 - [transportation](#transportation) (2)
 - [transportation sector](#transportation-sector) (1)
+- [Trellix](#trellix) (1)
 - [Trend Micro](#trend-micro) (3)
 - [TrendAI](#trendai) (2)
 - [Trezor](#trezor) (1)
@@ -15475,6 +15480,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## india
 - [Transparent Tribe "Operation RapidRust": RUSTYSHADE Rust backdoor with private-GitHub-repository C2, RUSTYMOVE USB propagation, and PSNATCH/BASHNATCH file stealers against Indian/Afghan government and defense (Zscaler ThreatLabz, Sep 2026)](../ops/transparent-tribe-operation-rapidrust-rustyshade-private-github-c2-usb-propagation-zscaler-september-2026.md)
 
+## India academia
+- [SideCopy](../actors/sidecopy.md)
+
 ## India-nexus
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 
@@ -18343,6 +18351,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [SideCopy](../actors/sidecopy.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
+
+## mshta chain
+- [SideCopy](../actors/sidecopy.md)
 
 ## MSI
 - [ChainScript: a ClickFix-delivered Node.js RAT that resolves its WebSocket C2 from a Polygon smart contract (Blackpoint APG, Sep 21, 2026)](../tools/chainscript-rat-polygon-websocket-c2-blackpoint-september-2026.md)
@@ -22650,6 +22661,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## REVERSE_PROXY_TRUSTED_PROXIES
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 
+## ReverseRAT
+- [SideCopy](../actors/sidecopy.md)
+
 ## ReverseSocks
 - [Cloud Atlas](../actors/cloud-atlas.md)
 
@@ -25215,6 +25229,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TAG-124
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
 
+## TAG-140
+- [SideCopy](../actors/sidecopy.md)
+
 ## TAG-179
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 
@@ -25931,6 +25948,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## transportation sector
 - [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
+
+## Trellix
+- [SideCopy](../actors/sidecopy.md)
 
 ## Trend Micro
 - [Langflow CVE-2026-33017 cryptominer SSH worm](../ops/langflow-cve-2026-33017-cryptominer-ssh-worm.md)
