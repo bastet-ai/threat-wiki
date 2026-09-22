@@ -79,7 +79,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [active exploitation](#active-exploitation) (86)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
-- [active-exploitation](#active-exploitation) (2)
+- [active-exploitation](#active-exploitation) (3)
 - [ActiveCampaign](#activecampaign) (1)
 - [actively-exploited](#actively-exploited) (1)
 - [ActiveX](#activex) (1)
@@ -358,6 +358,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ArcBridge](#arcbridge) (2)
 - [Arch Linux](#arch-linux) (1)
 - [Arctic Wolf](#arctic-wolf) (3)
+- [arctic-wolf](#arctic-wolf) (1)
 - [ardrv.sys](#ardrvsys) (1)
 - [ArduPilot](#ardupilot) (1)
 - [Argo CD](#argo-cd) (2)
@@ -478,6 +479,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [backup poisoning](#backup-poisoning) (1)
 - [backup recovery keys](#backup-recovery-keys) (1)
 - [backup targeting](#backup-targeting) (1)
+- [backup-agent](#backup-agent) (1)
 - [backups](#backups) (1)
 - [Bad Epoll](#bad-epoll) (1)
 - [BadBlocker](#badblocker) (1)
@@ -1267,6 +1269,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-29059](#cve-2026-29059) (1)
 - [CVE-2026-3055](#cve-2026-3055) (1)
 - [CVE-2026-32475](#cve-2026-32475) (2)
+- [CVE-2026-32996](#cve-2026-32996) (1)
 - [CVE-2026-3300](#cve-2026-3300) (1)
 - [CVE-2026-33017](#cve-2026-33017) (4)
 - [CVE-2026-33497](#cve-2026-33497) (1)
@@ -1854,7 +1857,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [endpoint response](#endpoint-response) (2)
 - [endpoint security](#endpoint-security) (1)
 - [endpoint-detection](#endpoint-detection) (1)
-- [endpoint-security](#endpoint-security) (2)
+- [endpoint-security](#endpoint-security) (3)
 - [EndpointDlp.dll](#endpointdlpdll) (1)
 - [energy](#energy) (1)
 - [energy sector](#energy-sector) (5)
@@ -2349,6 +2352,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Group-IB](#group-ib) (3)
 - [groups](#groups) (18)
 - [gRPC](#grpc) (2)
+- [grpc](#grpc) (1)
 - [gRPC C2](#grpc-c2) (2)
 - [GRU](#gru) (2)
 - [gs-netcat](#gs-netcat) (1)
@@ -3296,6 +3300,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NadMesh](#nadmesh) (1)
 - [named pipes](#named-pipes) (1)
 - [Named Pipes](#named-pipes) (1)
+- [named-pipe](#named-pipe) (1)
 - [namespace poisoning](#namespace-poisoning) (1)
 - [namespace recycling](#namespace-recycling) (1)
 - [namespace squatting](#namespace-squatting) (2)
@@ -3856,7 +3861,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [private-key theft](#private-key-theft) (1)
 - [private-repository-c2](#private-repository-c2) (1)
 - [privilege escalation](#privilege-escalation) (20)
-- [privilege-escalation](#privilege-escalation) (1)
+- [privilege-escalation](#privilege-escalation) (2)
 - [privileged proxy](#privileged-proxy) (1)
 - [Privileged Remote Access](#privileged-remote-access) (1)
 - [prl_disp_service](#prl_disp_service) (1)
@@ -3930,6 +3935,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Public Security Bureau impersonation](#public-security-bureau-impersonation) (1)
 - [public service abuse](#public-service-abuse) (1)
 - [public-CDN-delivery](#public-cdn-delivery) (1)
+- [public-poc](#public-poc) (1)
 - [public-service C2](#public-service-c2) (1)
 - [publication bias](#publication-bias) (1)
 - [publish mode](#publish-mode) (1)
@@ -4312,6 +4318,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [secrets harvesting](#secrets-harvesting) (1)
 - [secrets management](#secrets-management) (1)
 - [secrets manager compromise](#secrets-manager-compromise) (1)
+- [secrets-in-logs](#secrets-in-logs) (1)
 - [SectopRAT](#sectoprat) (1)
 - [Secure Annex](#secure-annex) (1)
 - [Secure Email Gateway](#secure-email-gateway) (1)
@@ -4761,7 +4768,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [synthetic voice](#synthetic-voice) (1)
 - [Syria](#syria) (1)
 - [Sysdig](#sysdig) (2)
-- [SYSTEM](#system) (1)
+- [SYSTEM](#system) (2)
 - [system prompt](#system-prompt) (1)
 - [SystemBC](#systembc) (1)
 - [systemd](#systemd) (1)
@@ -4925,7 +4932,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (78)
+- [tools](#tools) (79)
 - [Tor](#tor) (4)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5153,6 +5160,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VBScript loader](#vbscript-loader) (1)
 - [vCenter](#vcenter) (2)
 - [vector databases](#vector-databases) (1)
+- [veeam](#veeam) (1)
+- [veeam-agent-for-windows](#veeam-agent-for-windows) (1)
 - [VEIL#DROP](#veildrop) (1)
 - [Velociraptor](#velociraptor) (1)
 - [VeloCloud](#velocloud) (1)
@@ -5389,6 +5398,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [workload identity](#workload-identity) (1)
 - [workspace trust](#workspace-trust) (3)
 - [World Cup](#world-cup) (1)
+- [world-readable-log](#world-readable-log) (1)
 - [world-writable socket](#world-writable-socket) (1)
 - [worm](#worm) (19)
 - [worm-like propagation](#worm-like-propagation) (1)
@@ -5843,6 +5853,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## active-exploitation
 - [DAEMON Tools Lite supply-chain compromise](../ops/daemon-tools-lite-supply-chain-compromise.md)
 - [Orkes Conductor pre-auth RCE (CVE-2026-58138) under active exploitation — unsandboxed GraalVM script tasks as the workflow-engine perimeter (Fortinet outbreak alert, Sep 2026)](../ops/orkes-conductor-cve-2026-58138-preauth-rce-active-exploitation-fortinet-september-2026.md)
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
 
 ## ActiveCampaign
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
@@ -6939,6 +6950,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 
+## arctic-wolf
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
+
 ## ardrv.sys
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 
@@ -7400,6 +7414,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## backup targeting
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)
+
+## backup-agent
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
 
 ## backups
 - [Ababil of Minab MOIS-linked recovery-destruction campaign](../ops/ababil-of-minab-mois-recovery-destruction.md)
@@ -10664,6 +10681,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Elementor Pro CVE-2026-32475 unauthenticated RCE and WordPress 7.0.4 CVE-2026-65640](../ops/elementor-pro-cve-2026-32475-unauthenticated-rce-wordpress-704.md)
 - [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 
+## CVE-2026-32996
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
+
 ## CVE-2026-3300
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 
@@ -12827,6 +12847,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## endpoint-security
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
 
 ## EndpointDlp.dll
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -14718,6 +14739,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## gRPC
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
 - [Armored Likho Still Toolkit: Telegram session theft and audio eavesdropping in Russia](../ops/armored-likho-still-toolkit-russia-campaign.md)
+
+## grpc
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
 
 ## gRPC C2
 - [MODBEACON](../tools/modbeacon.md)
@@ -18476,6 +18500,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Named Pipes
 - [SLEEPWALKER: passive raw-packet backdoor with its own bytecode command language](../tools/sleepwalker-passive-backdoor-magic-packet-bytecode.md)
 
+## named-pipe
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
+
 ## namespace poisoning
 - [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
 
@@ -21488,6 +21515,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## privilege-escalation
 - [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
 
 ## privileged proxy
 - [Internet-exposed unauthenticated MCP servers](../patterns/internet-exposed-unauthenticated-mcp-servers.md)
@@ -21764,6 +21792,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## public-CDN-delivery
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
+
+## public-poc
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
 
 ## public-service C2
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -23319,6 +23350,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## secrets manager compromise
 - [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
+
+## secrets-in-logs
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
 
 ## SectopRAT
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
@@ -25093,6 +25127,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SYSTEM
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
 
 ## system prompt
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
@@ -25780,6 +25815,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 - [Umbrij](../tools/umbrij.md)
 - [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
 - [vm2 NodeVM host state exposure and DNS hijack (GHSA-m5w8-4gq2-6f8x)](../tools/vm2-nodevm-host-dns-hijack.md)
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 - [WLDR agent](../tools/wldr-agent.md)
@@ -26660,6 +26696,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## vector databases
 - [ENCFORGE](../tools/encforge.md)
+
+## veeam
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
+
+## veeam-agent-for-windows
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
 
 ## VEIL#DROP
 - [VEIL#DROP Blogger-hosted PureLogs stealer chain](../ops/veildrop-blogger-purelogs-stealer.md)
@@ -27648,6 +27690,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## World Cup
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
+
+## world-readable-log
+- [Veeam Agent for Microsoft Windows CVE-2026-32996: the backup service caches an elevated principal against a client-chosen session UID — and then writes that UID to a world-readable log (LPE → SYSTEM, public PoC Sep 14, active exploitation reported Sep 22)](../tools/veeam-agent-windows-cve-2026-32996-session-uid-log-leak-system-lpe-active-exploitation-arcticwolf-september-2026.md)
 
 ## world-writable socket
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
