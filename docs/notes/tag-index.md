@@ -677,6 +677,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bun runtime abuse](#bun-runtime-abuse) (1)
 - [bundled npm package](#bundled-npm-package) (1)
 - [Burkina Faso](#burkina-faso) (1)
+- [Burp Collaborator](#burp-collaborator) (1)
 - [business email compromise](#business-email-compromise) (3)
 - [business intelligence](#business-intelligence) (1)
 - [BusinessDataCatalog](#businessdatacatalog) (1)
@@ -3424,7 +3425,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (80)
+- [npm](#npm) (81)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3435,7 +3436,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [npmjs.it.com](#npmjsitcom) (1)
 - [npmmirror](#npmmirror) (1)
 - [Npoint](#npoint) (1)
-- [npx](#npx) (1)
+- [npx](#npx) (2)
 - [npx confusion](#npx-confusion) (1)
 - [NSA](#nsa) (1)
 - [NSecKrnl.sys](#nseckrnlsys) (1)
@@ -3463,7 +3464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NX-OS](#nx-os) (1)
 - [O-UNC-066](#o-unc-066) (1)
 - [OAST](#oast) (1)
-- [oastify](#oastify) (1)
+- [oastify](#oastify) (2)
 - [OAuth](#oauth) (6)
 - [OAuth 2.1](#oauth-21) (1)
 - [OAuth abuse](#oauth-abuse) (4)
@@ -3536,6 +3537,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenShield](#openshield) (1)
 - [OpenSourceMalware](#opensourcemalware) (2)
 - [OpenSSF](#openssf) (1)
+- [OpenSSF Package Analysis](#openssf-package-analysis) (1)
 - [OpenSSH](#openssh) (2)
 - [openssl_verify](#openssl_verify) (1)
 - [OpenVPN](#openvpn) (3)
@@ -3622,6 +3624,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [package hijacking](#package-hijacking) (1)
 - [package masquerading](#package-masquerading) (1)
 - [package name reuse](#package-name-reuse) (1)
+- [package name squatting](#package-name-squatting) (1)
 - [package registry](#package-registry) (9)
 - [package registry abuse](#package-registry-abuse) (1)
 - [package registry credentials](#package-registry-credentials) (1)
@@ -3692,7 +3695,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [path hijacking](#path-hijacking) (1)
 - [path traversal](#path-traversal) (14)
 - [Patriot Bait](#patriot-bait) (1)
-- [patterns](#patterns) (58)
+- [patterns](#patterns) (59)
 - [Paweł Płatek](#pawe-patek) (1)
 - [pay-per-install](#pay-per-install) (1)
 - [PAYLOAD](#payload) (1)
@@ -4347,6 +4350,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Security Management Server](#security-management-server) (2)
 - [security operations](#security-operations) (1)
 - [security platform](#security-platform) (1)
+- [security research placeholders](#security-research-placeholders) (1)
 - [security tool abuse](#security-tool-abuse) (1)
 - [security-tool discovery](#security-tool-discovery) (1)
 - [SecurityPDF](#securitypdf) (1)
@@ -4752,7 +4756,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (4)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (123)
+- [supply-chain](#supply-chain) (124)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5056,7 +5060,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAT-5918](#uat-5918) (1)
 - [UAT-7237](#uat-7237) (3)
 - [UAT-7810](#uat-7810) (1)
-- [Ubiquiti](#ubiquiti) (1)
+- [Ubiquiti](#ubiquiti) (2)
 - [Ubuntu](#ubuntu) (1)
 - [Udev persistence](#udev-persistence) (1)
 - [UDP C2](#udp-c2) (2)
@@ -5107,6 +5111,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Uni-App](#uni-app) (1)
 - [UniBLEed](#unibleed) (1)
 - [Unicode](#unicode) (1)
+- [UniFi](#unifi) (1)
 - [UniFi OS](#unifi-os) (1)
 - [Unified CM SME](#unified-cm-sme) (1)
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
@@ -5132,6 +5137,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [unsanctioned message board](#unsanctioned-message-board) (1)
 - [unsandboxed-evaluator](#unsandboxed-evaluator) (1)
 - [unsigned installer](#unsigned-installer) (1)
+- [untrusted metadata](#untrusted-metadata) (1)
 - [Unyielding Wasp](#unyielding-wasp) (1)
 - [UpdateDigital](#updatedigital) (1)
 - [UpdateFactory](#updatefactory) (1)
@@ -5191,6 +5197,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VELVETSHELL](#velvetshell) (1)
 - [vendor compromise](#vendor-compromise) (1)
 - [vendor credentials](#vendor-credentials) (1)
+- [vendor instructions](#vendor-instructions) (1)
 - [Venezuela](#venezuela) (1)
 - [VENOMOUS BEAR](#venomous-bear) (3)
 - [Vercel](#vercel) (3)
@@ -8184,6 +8191,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Burkina Faso
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
+
+## Burp Collaborator
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 
 ## business email compromise
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
@@ -19033,6 +19043,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 - [RedC2 4.0 (RedShell Linux beacon) and the trojanized-npm delivery wave](../tools/redc2.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
@@ -19086,6 +19097,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## npx
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 
 ## npx confusion
@@ -19178,6 +19190,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## oastify
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 
 ## OAuth
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -19439,6 +19452,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OpenSSF
 - [Dependabot cross-ecosystem malware advisory alerts](../patterns/dependabot-cross-ecosystem-malware-alerts.md)
+
+## OpenSSF Package Analysis
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 
 ## OpenSSH
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
@@ -20534,6 +20550,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## package name reuse
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 
+## package name squatting
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
+
 ## package registry
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
 - [Flooding Dropper npm campaign](../ops/flooding-dropper-npm-campaign.md)
@@ -20841,6 +20860,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pattern: forging the operating system's own trust primitives — when attackers regenerate integrity checks instead of bypassing them (synthesis from Sep 2026 reporting)](../patterns/forged-platform-trust-primitives-integrity-regeneration-september-2026.md)
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
 - [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 - [Sentry MCP Agentjacking](../patterns/sentry-mcp-agentjacking.md)
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
@@ -23482,6 +23502,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## security platform
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 
+## security research placeholders
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
+
 ## security tool abuse
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 
@@ -25081,6 +25104,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
@@ -26315,6 +26339,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UAT-7810 LONGLEASH ORB network expansion](../ops/uat-7810-longleash-orb-network.md)
 
 ## Ubiquiti
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
 ## Ubuntu
@@ -26532,6 +26557,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Unicode
 - [ASCII smuggling crosses over from AI prompt injection to phishing evasion](../patterns/ascii-smuggling-phishing-evasion-microsoft-september-2026.md)
 
+## UniFi
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
+
 ## UniFi OS
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 
@@ -26629,6 +26657,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## unsigned installer
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
+
+## untrusted metadata
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 
 ## Unyielding Wasp
 - [Mirage Kitten NightLedger, BridgeHead, and ArcBridge campaign](../ops/mirage-kitten-nightledger-bridgehead-arcbridge.md)
@@ -26835,6 +26866,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## vendor credentials
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+
+## vendor instructions
+- [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 
 ## Venezuela
 - [GoCaracal: Dark Caracal's Go malware framework with an Ethereum smart-contract C2 fallback](../tools/gocaracal-dark-caracal-ethereum-smart-contract-c2-fallback.md)
