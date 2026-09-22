@@ -238,7 +238,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-generated narrator](#ai-generated-narrator) (1)
 - [AI-platform-security](#ai-platform-security) (1)
 - [Aider](#aider) (1)
-- [Aikido](#aikido) (3)
+- [Aikido](#aikido) (4)
 - [AIR](#air) (1)
 - [AISURU](#aisuru) (2)
 - [AiTM](#aitm) (6)
@@ -356,6 +356,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [arbitrary file write](#arbitrary-file-write) (6)
 - [arbitrary JavaScript](#arbitrary-javascript) (1)
 - [arbitrary SQL execution](#arbitrary-sql-execution) (1)
+- [Arbitrum Sepolia](#arbitrum-sepolia) (1)
 - [ArcBridge](#arcbridge) (2)
 - [Arch Linux](#arch-linux) (1)
 - [Arctic Wolf](#arctic-wolf) (3)
@@ -570,7 +571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [blind prompt injection](#blind-prompt-injection) (1)
 - [blockchain](#blockchain) (2)
 - [blockchain C2](#blockchain-c2) (10)
-- [blockchain dead drop](#blockchain-dead-drop) (6)
+- [blockchain dead drop](#blockchain-dead-drop) (7)
 - [blockchain RPC](#blockchain-rpc) (1)
 - [blockchain-c2](#blockchain-c2) (1)
 - [blockchain-dead-drop](#blockchain-dead-drop) (1)
@@ -1082,7 +1083,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cron](#cron) (2)
 - [cron persistence](#cron-persistence) (3)
 - [crond](#crond) (1)
-- [cross-ecosystem](#cross-ecosystem) (1)
+- [cross-ecosystem](#cross-ecosystem) (2)
 - [cross-origin requests](#cross-origin-requests) (1)
 - [cross-platform](#cross-platform) (7)
 - [cross-platform malware](#cross-platform-malware) (2)
@@ -1646,6 +1647,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [device registration](#device-registration) (1)
 - [device-code phishing](#device-code-phishing) (6)
 - [DevOps](#devops) (2)
+- [DevOps targeting](#devops-targeting) (1)
 - [DevTools](#devtools) (1)
 - [devtunnels.ms](#devtunnelsms) (1)
 - [DEWMODE](#dewmode) (1)
@@ -1786,6 +1788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Easy4IP](#easy4ip) (1)
 - [eBPF](#ebpf) (3)
 - [ebtables](#ebtables) (1)
+- [ECDH](#ecdh) (1)
 - [Eclipse](#eclipse) (1)
 - [Economic D-Day](#economic-d-day) (1)
 - [eCrime](#ecrime) (1)
@@ -1981,6 +1984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [fake crypto exchange](#fake-crypto-exchange) (1)
 - [fake dating lures](#fake-dating-lures) (1)
 - [fake documents](#fake-documents) (1)
+- [fake ecosystem](#fake-ecosystem) (1)
 - [fake gambling](#fake-gambling) (1)
 - [fake GitHub organization](#fake-github-organization) (1)
 - [fake graduation invite](#fake-graduation-invite) (1)
@@ -2110,6 +2114,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ForestTiger](#foresttiger) (1)
 - [Forg365](#forg365) (1)
 - [ForgCookie](#forgcookie) (1)
+- [forged commits](#forged-commits) (1)
 - [Forgejo](#forgejo) (1)
 - [forgot password](#forgot-password) (1)
 - [FormDigestValue](#formdigestvalue) (1)
@@ -2268,6 +2273,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GlobalProtect](#globalprotect) (1)
 - [Gmail](#gmail) (5)
 - [Go](#go) (9)
+- [go](#go) (1)
 - [Go backdoor](#go-backdoor) (1)
 - [Go loader](#go-loader) (1)
 - [Go malware](#go-malware) (4)
@@ -2339,6 +2345,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Grandoreiro](#grandoreiro) (2)
 - [granular access tokens](#granular-access-tokens) (1)
 - [Graph API](#graph-api) (1)
+- [Graphalgo](#graphalgo) (1)
 - [GraphQL](#graphql) (3)
 - [GraphQL Composite Data API](#graphql-composite-data-api) (1)
 - [GraphSpy](#graphspy) (1)
@@ -3417,7 +3424,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (79)
+- [npm](#npm) (80)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3557,7 +3564,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (438)
+- [ops](#ops) (439)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -4151,6 +4158,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [REVERSE_PROXY_TRUSTED_PROXIES](#reverse_proxy_trusted_proxies) (1)
 - [ReverseRAT](#reverserat) (1)
 - [ReverseSocks](#reversesocks) (1)
+- [ReversingLabs](#reversinglabs) (1)
 - [reviewdog](#reviewdog) (1)
 - [reward hacking](#reward-hacking) (1)
 - [Rewards for Justice](#rewards-for-justice) (1)
@@ -4499,7 +4507,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SkillDetonate](#skilldetonate) (1)
 - [Skrill](#skrill) (1)
 - [Skyvern](#skyvern) (1)
-- [Slack C2](#slack-c2) (1)
+- [Slack C2](#slack-c2) (2)
 - [Slack webhook](#slack-webhook) (1)
 - [sleep agent](#sleep-agent) (1)
 - [sleeper packages](#sleeper-packages) (1)
@@ -4744,7 +4752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (4)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (122)
+- [supply-chain](#supply-chain) (123)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -4817,6 +4825,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tampermonkey](#tampermonkey) (1)
 - [Tanzania](#tanzania) (1)
 - [tar](#tar) (1)
+- [targeted](#targeted) (1)
 - [targeted attack](#targeted-attack) (2)
 - [targeted exploitation](#targeted-exploitation) (1)
 - [targeted malware](#targeted-malware) (1)
@@ -4881,7 +4890,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Tenet Security](#tenet-security) (1)
 - [Terminal permissions](#terminal-permissions) (1)
 - [TerminalFix](#terminalfix) (1)
+- [terraform](#terraform) (1)
 - [Terraform](#terraform) (1)
+- [terraform providers](#terraform-providers) (1)
 - [Tesseract](#tesseract) (1)
 - [Tetrade](#tetrade) (1)
 - [TetrisPhantom](#tetrisphantom) (1)
@@ -5024,7 +5035,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [type confusion](#type-confusion) (2)
 - [TypeConfuseDelegate](#typeconfusedelegate) (1)
 - [TypeScript](#typescript) (2)
-- [typosquat](#typosquat) (7)
+- [typosquat](#typosquat) (8)
 - [typosquatting](#typosquatting) (19)
 - [U+E0000](#ue0000) (1)
 - [U.S. critical infrastructure](#us-critical-infrastructure) (1)
@@ -6504,6 +6515,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Aikido
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 - [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack — Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 
@@ -6951,6 +6963,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## arbitrary SQL execution
 - [SiYuan kernel publish-mode security batch: unauthenticated SQL execution and publish-boundary breakdowns (GHSA-69083/69084/72811 criticals, 2026-09-03)](../ops/siyuan-kernel-publish-mode-unauthenticated-sql-execution-batch-september-3-2026.md)
+
+## Arbitrum Sepolia
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 
 ## ArcBridge
 - [ArcBridge](../tools/arcbridge.md)
@@ -7744,6 +7759,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
 - [FakeGit AgentBaiting and SmartLoader campaign](../ops/fakegit-agentbaiting-smartloader-campaign.md)
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 - [NullReceiver DPRK-linked npm blockchain-loader wave](../ops/nullreceiver-dprk-npm-blockchain-loader.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
@@ -10046,6 +10062,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - ["ted backdoor": DPRK-linked Linux espionage toolkit — HAProxy 2.8.12 trojan plus CurlRAT and SSH keylogger targeting South Korean media and automotive sectors](../ops/ted-backdoor-haproxy-linux-espionage-dprk-curlrat-ssh-keylogger-september-2026.md)
 
 ## cross-ecosystem
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## cross-origin requests
@@ -12080,6 +12097,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Gitea Docker CVE-2026-20896 probing](../ops/gitea-docker-cve-2026-20896-probing.md)
 - [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
+## DevOps targeting
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
+
 ## DevTools
 - [Umbrij](../tools/umbrij.md)
 
@@ -12589,6 +12609,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ebtables
 - [CISA KEV September 18, 2026: three Linux kernel vulnerabilities — remotely triggerable kTLS zero-length-record mishandling (CVSS 9.8 AV:N) plus two local privilege escalations (AF_ALG concurrent-write race, ebtables SNAT out-of-bounds write into splice-shared file pages) — ALL THREE carrying CISA SSVC "active exploitation," all on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
+
+## ECDH
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 
 ## Eclipse
 - [Amazon Q CVE-2026-12957 MCP auto-execution](../ops/amazon-q-cve-2026-12957-mcp-auto-execution.md)
@@ -13385,6 +13408,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## fake documents
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
 
+## fake ecosystem
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
+
 ## fake gambling
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
@@ -13836,6 +13862,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ForgCookie
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
+
+## forged commits
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 
 ## Forgejo
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
@@ -14427,6 +14456,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## go
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
+
 ## Go backdoor
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
 
@@ -14686,6 +14718,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Graph API
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
+
+## Graphalgo
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 
 ## GraphQL
 - [Broadcom/Spring August 2026 security advisory: 91 CVEs and the AI vulnerability-consumption gap](../ops/spring-91-cve-batch-ai-vulnerability-consumption-problem.md)
@@ -18961,6 +18996,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [forge-jsxy](../tools/forge-jsxy.md)
 - [GitHub / Packagist postinstall hook campaign](../ops/github-packagist-postinstall-hook-campaign.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 - [html-to-gutenberg / fetch-page-assets VS Code blockchain stealer](../ops/html-to-gutenberg-fetch-page-assets-vscode-blockchain-stealer.md)
 - [Immobiliare Labs Backstage plugins npm compromise](../ops/immobiliarelabs-backstage-plugins-npm-compromise.md)
 - [Injective SDK npm wallet stealer](../ops/injective-sdk-npm-wallet-stealer.md)
@@ -20028,6 +20064,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Pixel cellular-modem privilege escalation CVE-2026-58704: KEV-listed with Google's own "limited, targeted exploitation" note (Sep 16, 2026)](../ops/google-pixel-cellular-modem-cve-2026-58704-kev-targeted-exploitation-september-2026.md)
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
 - [Grandoreiro and BTMOB Latin America / Europe malware campaigns](../ops/grandoreiro-btmob-latam-europe-malware-campaigns.md)
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 - [Gravity SMTP CVE-2026-4020 exploitation](../ops/gravity-smtp-cve-2026-4020-exploitation.md)
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
@@ -22698,6 +22735,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ReverseSocks
 - [Cloud Atlas](../actors/cloud-atlas.md)
 
+## ReversingLabs
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
+
 ## reviewdog
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
@@ -24004,6 +24044,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Slack C2
 - [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 
 ## Slack webhook
 - [Trusted collaboration-channel identity abuse](../patterns/collaboration-channel-identity-abuse.md)
@@ -24994,6 +25035,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Actions OIDC subject-claim collisions](../patterns/github-actions-oidc-subject-claim-collisions.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
 - [Google GTG: an undercover Mandiant analyst inside TeamPCP's inner circle — LABScon teardown of the infiltration, the ShinyHunters betrayal, and the Opsec trail to the arrests](../ops/google-gtg-undercover-analyst-teampcp-infiltration-labscon-september-2026.md)
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 - [HackerBot Claw GitHub Actions exploitation campaign](../ops/hackerbot-claw-github-actions-exploitation-campaign.md)
 - [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
@@ -25316,6 +25358,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## tar
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 
+## targeted
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
+
 ## targeted attack
 - [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [Pegasus zero-click iMessage exploit confirmed on a Serbian student-movement member; 14+ targets since 2026, new Android spyware variant installed during police detention (THN / Citizen Lab / SHARE, Sep 3, 2026)](../ops/pegasus-imessage-zero-click-serbia-student-movement-citizen-lab-share-september-2026.md)
@@ -25559,8 +25604,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## TerminalFix
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
+## terraform
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
+
 ## Terraform
 - [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
+
+## terraform providers
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 
 ## Tesseract
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
@@ -26162,6 +26213,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## typosquat
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
+- [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
