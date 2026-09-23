@@ -216,6 +216,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI zero-day](#ai-zero-day) (1)
 - [ai-abuse](#ai-abuse) (1)
 - [ai-agent](#ai-agent) (1)
+- [ai-agent-supply-chain](#ai-agent-supply-chain) (1)
 - [AI-assisted](#ai-assisted) (1)
 - [AI-assisted C2](#ai-assisted-c2) (1)
 - [AI-assisted development](#ai-assisted-development) (3)
@@ -240,6 +241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-platform-security](#ai-platform-security) (1)
 - [Aider](#aider) (1)
 - [Aikido](#aikido) (4)
+- [aikido](#aikido) (1)
 - [AIR](#air) (1)
 - [AISURU](#aisuru) (2)
 - [AiTM](#aitm) (6)
@@ -1091,7 +1093,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cron](#cron) (2)
 - [cron persistence](#cron-persistence) (3)
 - [crond](#crond) (1)
-- [cross-ecosystem](#cross-ecosystem) (2)
+- [cross-ecosystem](#cross-ecosystem) (3)
 - [cross-origin requests](#cross-origin-requests) (1)
 - [cross-platform](#cross-platform) (7)
 - [cross-platform malware](#cross-platform-malware) (2)
@@ -2269,6 +2271,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GitHub Security Advisories](#github-security-advisories) (9)
 - [GitHub tokens](#github-tokens) (2)
 - [GitHub tool hosting](#github-tool-hosting) (1)
+- [github-actions](#github-actions) (1)
 - [GitHub-Advisories](#github-advisories) (1)
 - [github-c2](#github-c2) (1)
 - [GitHub-hosted runners](#github-hosted-runners) (1)
@@ -2283,7 +2286,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GlobalProtect](#globalprotect) (1)
 - [Gmail](#gmail) (5)
 - [Go](#go) (9)
-- [go](#go) (1)
+- [go](#go) (2)
 - [Go backdoor](#go-backdoor) (1)
 - [Go loader](#go-loader) (1)
 - [Go malware](#go-malware) (4)
@@ -2914,6 +2917,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed Cache](#litespeed-cache) (1)
 - [live chat](#live-chat) (1)
 - [Live Protect](#live-protect) (1)
+- [live-packages](#live-packages) (1)
 - [LivePatch](#livepatch) (1)
 - [living off the land](#living-off-the-land) (2)
 - [living-off-the-land](#living-off-the-land) (2)
@@ -3117,6 +3121,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [memory protection unit](#memory-protection-unit) (1)
 - [memory-only malware](#memory-only-malware) (1)
 - [MEMORY.md](#memorymd) (1)
+- [memos](#memos) (1)
+- [memtensor](#memtensor) (1)
 - [merchant credential theft](#merchant-credential-theft) (1)
 - [mesh VPN](#mesh-vpn) (1)
 - [MeshAgent](#meshagent) (1)
@@ -3440,7 +3446,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (82)
+- [npm](#npm) (83)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3544,6 +3550,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenAI Daybreak](#openai-daybreak) (1)
 - [openaixyz65947@gmail.com](#openaixyz65947gmailcom) (1)
 - [OpenClaw](#openclaw) (4)
+- [openclaw](#openclaw) (1)
 - [opencode](#opencode) (1)
 - [OpenConnect](#openconnect) (1)
 - [OpenHands](#openhands) (1)
@@ -3581,7 +3588,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (440)
+- [ops](#ops) (441)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3987,6 +3994,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PyArmor](#pyarmor) (4)
 - [PyInstaller](#pyinstaller) (2)
 - [PyPI](#pypi) (19)
+- [pypi](#pypi) (1)
 - [pypls/requests](#pyplsrequests) (1)
 - [Python](#python) (17)
 - [Python extension modules](#python-extension-modules) (1)
@@ -4321,6 +4329,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [scheduled task](#scheduled-task) (9)
 - [scheduled task persistence](#scheduled-task-persistence) (7)
 - [scheduled tasks](#scheduled-tasks) (6)
+- [sckit](#sckit) (1)
 - [SCMBANKER](#scmbanker) (2)
 - [scope squatting](#scope-squatting) (1)
 - [scope-squat](#scope-squat) (3)
@@ -4350,6 +4359,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Secret Blizzard](#secret-blizzard) (3)
 - [secret exfiltration](#secret-exfiltration) (2)
 - [secret exposure](#secret-exposure) (1)
+- [secret-stealing](#secret-stealing) (1)
 - [secrets](#secrets) (6)
 - [secrets harvesting](#secrets-harvesting) (1)
 - [secrets management](#secrets-management) (1)
@@ -4391,7 +4401,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [self-hosted runner](#self-hosted-runner) (1)
 - [self-managed](#self-managed) (1)
 - [self-propagating payload](#self-propagating-payload) (1)
-- [self-propagation](#self-propagation) (1)
+- [self-propagation](#self-propagation) (2)
 - [self-updating malware](#self-updating-malware) (1)
 - [semantic-release](#semantic-release) (1)
 - [Sendinblue](#sendinblue) (1)
@@ -4531,6 +4541,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SkillCloak](#skillcloak) (1)
 - [SkillDetonate](#skilldetonate) (1)
 - [Skrill](#skrill) (1)
+- [skyleen.fr](#skyleenfr) (1)
 - [Skyvern](#skyvern) (1)
 - [Slack C2](#slack-c2) (2)
 - [Slack webhook](#slack-webhook) (1)
@@ -4778,7 +4789,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (4)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (125)
+- [supply-chain](#supply-chain) (126)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5451,7 +5462,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [World Cup](#world-cup) (1)
 - [world-readable-log](#world-readable-log) (1)
 - [world-writable socket](#world-writable-socket) (1)
-- [worm](#worm) (19)
+- [worm](#worm) (20)
 - [worm-like propagation](#worm-like-propagation) (1)
 - [WP Maps Pro](#wp-maps-pro) (1)
 - [WP Squared](#wp-squared) (1)
@@ -5529,6 +5540,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [zero-click](#zero-click) (3)
 - [zero-day](#zero-day) (16)
 - [zero-day exploitation](#zero-day-exploitation) (1)
+- [zero-ghsa](#zero-ghsa) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
 - [zero-width](#zero-width) (1)
 - [ZeroBEC](#zerobec) (1)
@@ -6466,6 +6478,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ai-agent
 - [HackerBot Claw](../actors/hackerbot-claw.md)
 
+## ai-agent-supply-chain
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
+
 ## AI-assisted
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
 
@@ -6553,6 +6568,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 - [MECCHA CHAMELEON: second delayed RCE via custom map — arbitrary file write, HTA-in-WAV payload, Startup persistence (Aikido, Sep 3, 2026)](../ops/meccha-chameleon-delayed-rce-custom-map-arbitrary-file-write-aikido-september-2026.md)
 - [StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack — Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
+
+## aikido
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 
 ## AIR
 - [Plugin4Shell: zero-click RCE in Claude Code, Codex, GitHub Copilot, and Gemini CLI via a plugin SHA-pinning bypass — the pinned-commit checkout never verifies where it landed (AIR, Sep 17, 2026)](../patterns/plugin4shell-agent-plugin-sha-pinning-bypass-air-september-2026.md)
@@ -10126,6 +10144,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## cross-ecosystem
 - [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## cross-origin requests
@@ -14472,6 +14491,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## GitHub tool hosting
 - [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
+## github-actions
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
+
 ## GitHub-Advisories
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 
@@ -14532,6 +14554,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## go
 - [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 
 ## Go backdoor
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
@@ -16968,6 +16991,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Live Protect
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
 
+## live-packages
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
+
 ## LivePatch
 - [Check Point Security Management Server CVE-2026-91843: unauthenticated stack overflow in the login process gives remote root (CVSS 9.8, Sep 16, 2026)](../tools/check-point-security-management-server-cve-2026-91843-login-stack-overflow-root-rce-september-2026.md)
 
@@ -17831,6 +17857,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MEMORY.md
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
+
+## memos
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
+
+## memtensor
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 
 ## merchant credential theft
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
@@ -19137,6 +19169,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 - [TeamPCP](../actors/teampcp.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
@@ -19516,6 +19549,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 - [NemoClaw local Ollama chat-template poisoning (Oasis Security)](../patterns/nemoclaw-local-ollama-chat-template-poisoning.md)
+
+## openclaw
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 
 ## opencode
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -20367,6 +20403,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
 - [StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack — Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 - [Suspected Chinese operators use Claude Code and DeepSeek in government intrusions](../ops/chinese-operators-claude-deepseek-government-intrusion.md)
 - [TA488 OWAReaper and CVE-2026-42897 exploitation](../ops/ta488-owareaper-owa-cve-2026-42897.md)
 - [TamperedChef-style productivity malware clusters](../ops/tamperedchef-productivity-malware-clusters.md)
@@ -22072,6 +22109,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Xinference CVE-2026-61539: RCE via unsafe eval() in Llama3 tool-call parsing](../tools/xinference-cve-2026-61539-llama3-tool-call-eval-rce.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 
+## pypi
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
+
 ## pypls/requests
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
 
@@ -23432,6 +23472,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
+## sckit
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
+
 ## SCMBANKER
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [SCMBANKER](../tools/scmbanker.md)
@@ -23541,6 +23584,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## secret exposure
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
+
+## secret-stealing
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 
 ## secrets
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
@@ -23679,6 +23725,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
 
 ## self-propagation
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
 
 ## self-updating malware
@@ -24173,6 +24220,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Skrill
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+
+## skyleen.fr
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 
 ## Skyvern
 - [GitHub Security Advisories August 29, 2026: argocd-mcp auth bypass, Sigma Forms Pro RCE, Omnivore Apple-Sign-In bypass, and a 6-item batch](../ops/github-advisories-argocd-mcp-sigma-forms-omnivore-skyvern-bookstack-august-29-2026.md)
@@ -25230,6 +25280,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [simonecorsi/mawesome GitHub Action compromise](../ops/simonecorsi-mawesome-github-action-compromise.md)
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 - [TeamPCP](../actors/teampcp.md)
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
@@ -27981,6 +28032,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PCPJack cloud SMTP relay network](../ops/pcpjack-cloud-smtp-relay-network.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 - [TeamPCP](../actors/teampcp.md)
 - [Trivy → TeamPCP → CanisterWorm: compromise timeline](../ops/trivy-lite-llm-compromise-timeline.md)
 - [XCSSET](../tools/xcsset.md)
@@ -28263,6 +28315,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## zero-day exploitation
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
+
+## zero-ghsa
+- [supplychain.local: a novel cross-ecosystem Go worm published into MemTensor's MemOS agent-memory ecosystem (npm `@memtensor/memos-cloud-openclaw-plugin` + PyPI `MemoryOS`), carrying a secret-stealing regex, direct registry re-publishing, and a GitHub Actions push-trigger self-propagation template — both packages LIVE as `latest` with ZERO OSV and ZERO GHSA at this wiki's check (Sep 23, 2026)](../ops/supplychain-local-memtensor-npm-pypi-go-worm-aikido-september-2026.md)
 
 ## zero-reputation infrastructure
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
