@@ -224,11 +224,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-assisted intrusion](#ai-assisted-intrusion) (1)
 - [AI-assisted malware](#ai-assisted-malware) (3)
 - [AI-assisted malware development](#ai-assisted-malware-development) (4)
-- [AI-assisted phishing](#ai-assisted-phishing) (1)
+- [AI-assisted phishing](#ai-assisted-phishing) (2)
 - [AI-assisted vulnerability discovery](#ai-assisted-vulnerability-discovery) (1)
 - [AI-augmented operations](#ai-augmented-operations) (5)
 - [AI-coding-agent](#ai-coding-agent) (1)
 - [AI-driven-malware](#ai-driven-malware) (1)
+- [AI-enabled cybercrime](#ai-enabled-cybercrime) (1)
 - [AI-enabled malware](#ai-enabled-malware) (2)
 - [AI-enhanced malware](#ai-enhanced-malware) (1)
 - [AI-generated advisory](#ai-generated-advisory) (1)
@@ -456,6 +457,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AVIF](#avif) (2)
 - [AWS](#aws) (9)
 - [AWS CloudTrail](#aws-cloudtrail) (1)
+- [AWS Lambda](#aws-lambda) (1)
 - [AWS S3](#aws-s3) (2)
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
 - [AWS-metadata](#aws-metadata) (1)
@@ -527,7 +529,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bearlyfy](#bearlyfy) (3)
 - [Beast ransomware](#beast-ransomware) (1)
 - [BeaverTail](#beavertail) (2)
-- [BEC](#bec) (1)
+- [BEC](#bec) (2)
 - [Bech32](#bech32) (1)
 - [Bedrock](#bedrock) (1)
 - [Bedrock AgentCore](#bedrock-agentcore) (1)
@@ -585,7 +587,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BLUEBEAM](#bluebeam) (1)
 - [BlueDelta](#bluedelta) (1)
 - [BlueKeep](#bluekeep) (1)
-- [BlueKit](#bluekit) (1)
+- [BlueKit](#bluekit) (2)
 - [bluemonday](#bluemonday) (1)
 - [Blueprints](#blueprints) (1)
 - [Bluetooth LE](#bluetooth-le) (1)
@@ -682,7 +684,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bundled npm package](#bundled-npm-package) (1)
 - [Burkina Faso](#burkina-faso) (1)
 - [Burp Collaborator](#burp-collaborator) (1)
-- [business email compromise](#business-email-compromise) (3)
+- [business email compromise](#business-email-compromise) (4)
 - [business intelligence](#business-intelligence) (1)
 - [BusinessDataCatalog](#businessdatacatalog) (1)
 - [BusySnake Stealer](#busysnake-stealer) (3)
@@ -914,7 +916,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cloud transcoding](#cloud-transcoding) (1)
 - [cloud-managed](#cloud-managed) (1)
 - [cloud-native](#cloud-native) (1)
-- [Cloudflare](#cloudflare) (5)
+- [Cloudflare](#cloudflare) (6)
 - [Cloudflare account compromise](#cloudflare-account-compromise) (1)
 - [Cloudflare gate](#cloudflare-gate) (1)
 - [Cloudflare R2](#cloudflare-r2) (1)
@@ -922,7 +924,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloudflare tunnels](#cloudflare-tunnels) (2)
 - [Cloudflare Turnstile](#cloudflare-turnstile) (1)
 - [Cloudflare WARP](#cloudflare-warp) (1)
-- [Cloudflare Workers](#cloudflare-workers) (9)
+- [Cloudflare Workers](#cloudflare-workers) (10)
 - [cloudflared](#cloudflared) (2)
 - [CloudLinux](#cloudlinux) (1)
 - [CloudSEK](#cloudsek) (1)
@@ -953,7 +955,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [coding challenge](#coding-challenge) (2)
 - [COFF-loader](#coff-loader) (1)
 - [coff-loading](#coff-loading) (1)
-- [Coinbase](#coinbase) (1)
+- [Coinbase](#coinbase) (2)
 - [Coinkite](#coinkite) (1)
 - [COLDCARD](#coldcard) (1)
 - [ColdFusion](#coldfusion) (1)
@@ -982,7 +984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised WordPress](#compromised-wordpress) (2)
 - [computer name](#computer-name) (1)
 - [computer vision](#computer-vision) (1)
-- [Conditional Access](#conditional-access) (1)
+- [Conditional Access](#conditional-access) (2)
 - [conditional access](#conditional-access) (1)
 - [Conductor](#conductor) (1)
 - [configuration exposure](#configuration-exposure) (1)
@@ -1045,6 +1047,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CoSnitch](#cosnitch) (1)
 - [counter-adversary-operations](#counter-adversary-operations) (1)
 - [counterfeit software](#counterfeit-software) (2)
+- [court order](#court-order) (1)
 - [cover story packages](#cover-story-packages) (1)
 - [COW](#cow) (1)
 - [COWARDDUCK](#cowardduck) (1)
@@ -1568,6 +1571,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DCloud Uni-App](#dcloud-uni-app) (1)
 - [DcRAT](#dcrat) (1)
 - [DCSync](#dcsync) (2)
+- [DCU](#dcu) (1)
 - [DD-WRT](#dd-wrt) (1)
 - [DDNS](#ddns) (1)
 - [DDoS](#ddos) (10)
@@ -1649,8 +1653,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [device identity](#device-identity) (1)
 - [device linking](#device-linking) (1)
 - [device lockout](#device-lockout) (1)
-- [device registration](#device-registration) (1)
-- [device-code phishing](#device-code-phishing) (6)
+- [device registration](#device-registration) (2)
+- [device-code phishing](#device-code-phishing) (7)
 - [DevOps](#devops) (2)
 - [DevOps targeting](#devops-targeting) (1)
 - [DevTools](#devtools) (1)
@@ -1682,7 +1686,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [discovery](#discovery) (1)
 - [disk wiping](#disk-wiping) (1)
 - [disposable infrastructure](#disposable-infrastructure) (1)
-- [disruption](#disruption) (1)
+- [disruption](#disruption) (2)
 - [distillation](#distillation) (1)
 - [distributed malware infrastructure](#distributed-malware-infrastructure) (1)
 - [distributed scanning](#distributed-scanning) (1)
@@ -1882,7 +1886,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [enterprise intrusion](#enterprise-intrusion) (1)
 - [enterprise proxy](#enterprise-proxy) (1)
 - [enterprise security](#enterprise-security) (1)
-- [Entra ID](#entra-id) (5)
+- [Entra ID](#entra-id) (6)
 - [Environment Management Hub](#environment-management-hub) (1)
 - [environment variable theft](#environment-variable-theft) (2)
 - [environment variables](#environment-variables) (1)
@@ -1939,6 +1943,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Evil-WinRM](#evil-winrm) (1)
 - [EvilAI](#evilai) (1)
 - [Evilginx](#evilginx) (1)
+- [EvilTokens](#eviltokens) (1)
 - [EVM](#evm) (1)
 - [evolutionary optimization](#evolutionary-optimization) (1)
 - [EWS](#ews) (1)
@@ -2117,7 +2122,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [foreign policy targeting](#foreign-policy-targeting) (1)
 - [Forest Blizzard](#forest-blizzard) (2)
 - [ForestTiger](#foresttiger) (1)
-- [Forg365](#forg365) (1)
+- [Forg365](#forg365) (2)
 - [ForgCookie](#forgcookie) (1)
 - [forged commits](#forged-commits) (1)
 - [Forgejo](#forgejo) (1)
@@ -2413,6 +2418,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [headless browser](#headless-browser) (3)
 - [headless Edge](#headless-edge) (1)
 - [HEADRUSH](#headrush) (1)
+- [Health-ISAC](#health-isac) (1)
 - [healthcare](#healthcare) (4)
 - [heap buffer overflow](#heap-buffer-overflow) (2)
 - [heap disclosure](#heap-disclosure) (1)
@@ -2495,7 +2501,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HUMAN Satori](#human-satori) (1)
 - [humanoid robot](#humanoid-robot) (1)
 - [Hunt.io](#huntio) (6)
-- [Huntress](#huntress) (6)
+- [Huntress](#huntress) (7)
 - [Huorong](#huorong) (1)
 - [Hyadina](#hyadina) (1)
 - [hybrid threat actor](#hybrid-threat-actor) (1)
@@ -2562,6 +2568,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [in-memory malware](#in-memory-malware) (3)
 - [in-memory plugins](#in-memory-plugins) (1)
 - [in-memory-execution](#in-memory-execution) (2)
+- [inbox analysis](#inbox-analysis) (1)
+- [inbox rules](#inbox-rules) (1)
 - [incident response](#incident-response) (40)
 - [incident-response](#incident-response) (3)
 - [incomplete patch](#incomplete-patch) (1)
@@ -2744,7 +2752,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [K1MORPHER](#k1morpher) (2)
 - [Kairos](#kairos) (1)
 - [Kaitori](#kaitori) (1)
-- [Kali365](#kali365) (1)
+- [Kali365](#kali365) (2)
 - [Kaltura](#kaltura) (1)
 - [Kaspersky](#kaspersky) (5)
 - [kaspersky](#kaspersky) (1)
@@ -3120,6 +3128,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MetaMask](#metamask) (2)
 - [Metasploit](#metasploit) (1)
 - [METR](#metr) (1)
+- [Metropolitan Police Service](#metropolitan-police-service) (1)
 - [MEV bot lure](#mev-bot-lure) (1)
 - [Mexican banking fraud](#mexican-banking-fraud) (3)
 - [Mexico](#mexico) (4)
@@ -3136,7 +3145,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft](#microsoft) (19)
 - [microsoft](#microsoft) (1)
 - [Microsoft .NET](#microsoft-net) (1)
-- [Microsoft 365](#microsoft-365) (11)
+- [Microsoft 365](#microsoft-365) (12)
 - [Microsoft 365 Copilot](#microsoft-365-copilot) (1)
 - [Microsoft Authentication Broker](#microsoft-authentication-broker) (1)
 - [Microsoft Azure](#microsoft-azure) (1)
@@ -3147,7 +3156,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender Experts](#microsoft-defender-experts) (1)
 - [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
 - [Microsoft dev tunnels](#microsoft-dev-tunnels) (3)
-- [Microsoft Digital Crimes Unit](#microsoft-digital-crimes-unit) (1)
+- [Microsoft Digital Crimes Unit](#microsoft-digital-crimes-unit) (2)
 - [Microsoft Edge](#microsoft-edge) (2)
 - [Microsoft Edge Add-ons](#microsoft-edge-add-ons) (2)
 - [Microsoft Edge Extensions Security Team](#microsoft-edge-extensions-security-team) (1)
@@ -3475,7 +3484,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OAuth 2.1](#oauth-21) (1)
 - [OAuth abuse](#oauth-abuse) (4)
 - [OAuth client credentials](#oauth-client-credentials) (1)
-- [OAuth device authorization grant](#oauth-device-authorization-grant) (2)
+- [OAuth device authorization grant](#oauth-device-authorization-grant) (3)
 - [OAuth error redirect](#oauth-error-redirect) (1)
 - [OAuth phishing](#oauth-phishing) (1)
 - [OAuth redirect](#oauth-redirect) (1)
@@ -3528,7 +3537,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [open-source supply chain](#open-source-supply-chain) (1)
 - [open-source tool](#open-source-tool) (1)
 - [open-source-malware](#open-source-malware) (1)
-- [OpenAI](#openai) (4)
+- [OpenAI](#openai) (5)
 - [OpenAI agents](#openai-agents) (1)
 - [OpenAI API keys](#openai-api-keys) (1)
 - [OpenAI Codex](#openai-codex) (1)
@@ -3572,7 +3581,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (439)
+- [ops](#ops) (440)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3746,7 +3755,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PetitPotam](#petitpotam) (1)
 - [pfSense](#pfsense) (1)
 - [pg_hba.conf](#pg_hbaconf) (1)
-- [PhaaS](#phaas) (7)
+- [PhaaS](#phaas) (8)
 - [Phantom Gyp](#phantom-gyp) (3)
 - [PhantomClick](#phantomclick) (1)
 - [PhantomCore](#phantomcore) (1)
@@ -3754,11 +3763,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (2)
-- [phishing](#phishing) (34)
+- [phishing](#phishing) (35)
 - [phishing evasion](#phishing-evasion) (1)
 - [phishing infrastructure](#phishing-infrastructure) (1)
 - [phishing overlays](#phishing-overlays) (1)
-- [phishing-as-a-service](#phishing-as-a-service) (9)
+- [phishing-as-a-service](#phishing-as-a-service) (10)
 - [phishing-resistant MFA](#phishing-resistant-mfa) (1)
 - [Phorpiex](#phorpiex) (1)
 - [PHP](#php) (3)
@@ -3936,6 +3945,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ProxyChains](#proxychains) (1)
 - [proxyjacking](#proxyjacking) (1)
 - [proxyware](#proxyware) (1)
+- [PRT](#prt) (1)
 - [prt-scan](#prt-scan) (1)
 - [PSEMHUB](#psemhub) (1)
 - [pseudorandom number generator](#pseudorandom-number-generator) (1)
@@ -4017,6 +4027,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [race condition](#race-condition) (1)
 - [radio-player-theme](#radio-player-theme) (1)
 - [RAGFlow](#ragflow) (1)
+- [Railway](#railway) (1)
 - [RainbowEx](#rainbowex) (1)
 - [RakNet flood](#raknet-flood) (1)
 - [RAM CPU checks](#ram-cpu-checks) (1)
@@ -4400,6 +4411,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Serialize::unserialize](#serializeunserialize) (1)
 - [Serv-U](#serv-u) (1)
 - [server-side code execution](#server-side-code-execution) (1)
+- [serverless abuse](#serverless-abuse) (1)
 - [serverless C2](#serverless-c2) (1)
 - [service accounts](#service-accounts) (2)
 - [service binding](#service-binding) (1)
@@ -4419,6 +4431,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [session cookie theft](#session-cookie-theft) (4)
 - [session hijacking](#session-hijacking) (3)
 - [session persistence](#session-persistence) (1)
+- [session revocation](#session-revocation) (1)
 - [session secret exposure](#session-secret-exposure) (1)
 - [session theft](#session-theft) (3)
 - [session token theft](#session-token-theft) (2)
@@ -4438,6 +4451,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SHADOW-EARTH-066](#shadow-earth-066) (1)
 - [SHADOW-WATER-063](#shadow-water-063) (1)
 - [ShadowPad](#shadowpad) (4)
+- [Shadowserver](#shadowserver) (1)
 - [Shadowserver Foundation](#shadowserver-foundation) (1)
 - [Shai-Hulud](#shai-hulud) (15)
 - [SHARDLOADER](#shardloader) (2)
@@ -4655,7 +4669,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Spring Integration](#spring-integration) (1)
 - [Spring Security](#spring-security) (1)
 - [SprySOCKS](#sprysocks) (2)
-- [SpyCloud](#spycloud) (1)
+- [SpyCloud](#spycloud) (2)
 - [Spyroid](#spyroid) (1)
 - [spyware](#spyware) (3)
 - [SQL injection](#sql-injection) (14)
@@ -4734,6 +4748,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2603](#storm-2603) (1)
 - [Storm-2697](#storm-2697) (1)
 - [Storm-2945](#storm-2945) (2)
+- [Storm-2992](#storm-2992) (1)
 - [Storm-3032](#storm-3032) (1)
 - [Storm-3075](#storm-3075) (1)
 - [Storm-3121](#storm-3121) (1)
@@ -4948,10 +4963,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ToddyCat](#toddycat) (3)
 - [token forgery](#token-forgery) (3)
 - [token jacking](#token-jacking) (1)
-- [token replay](#token-replay) (3)
+- [token replay](#token-replay) (4)
 - [token revocation](#token-revocation) (1)
 - [token scope validation](#token-scope-validation) (1)
-- [token theft](#token-theft) (11)
+- [token theft](#token-theft) (12)
 - [token-theft](#token-theft) (1)
 - [TONESHELL](#toneshell) (2)
 - [TookPS](#tookps) (1)
@@ -5006,7 +5021,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [trigger separation](#trigger-separation) (1)
 - [Trinitite](#trinitite) (1)
 - [Trivy](#trivy) (1)
-- [TRM Labs](#trm-labs) (1)
+- [TRM Labs](#trm-labs) (2)
 - [trojan-framework](#trojan-framework) (1)
 - [trojanised clone](#trojanised-clone) (2)
 - [trojanized coding challenge](#trojanized-coding-challenge) (2)
@@ -5207,11 +5222,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vendor instructions](#vendor-instructions) (1)
 - [Venezuela](#venezuela) (1)
 - [VENOMOUS BEAR](#venomous-bear) (3)
-- [Vercel](#vercel) (3)
+- [Vercel](#vercel) (4)
 - [vercel.app](#vercelapp) (1)
 - [Vertex AI](#vertex-ai) (1)
 - [vesting-account](#vesting-account) (1)
 - [VHD](#vhd) (1)
+- [vibe coded](#vibe-coded) (1)
 - [victim-owned relay infrastructure](#victim-owned-relay-infrastructure) (1)
 - [Vidar](#vidar) (1)
 - [VIDAR](#vidar) (2)
@@ -6482,6 +6498,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
 
 ## AI-assisted phishing
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 
 ## AI-assisted vulnerability discovery
@@ -6499,6 +6516,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI-driven-malware
 - [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
+
+## AI-enabled cybercrime
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
 ## AI-enabled malware
 - [Anthropic Threat Intelligence report (September 2026): GTG case studies — autonomous malware-rebuild loops, ShinyHunters AI uplift, a Changsha exploit foundry, and prompt-injection of AI evaluation sandboxes](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
@@ -7349,6 +7369,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## AWS CloudTrail
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 
+## AWS Lambda
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
+
 ## AWS S3
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
 - [UNC6692 SNOW malware social-engineering campaign](../ops/unc6692-snow-malware-social-engineering.md)
@@ -7613,6 +7636,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
 
 ## BEC
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
 
 ## Bech32
@@ -7820,6 +7844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## BlueKit
 - [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
 ## bluemonday
 - [Gogs CVE-2026-52813 path-traversal RCE (and CVE-2026-52810 push bypass, GHSA-6vxv-wg6j-5qwp XSS)](../ops/gogs-cve-2026-52813-path-traversal-rce.md)
@@ -8216,6 +8241,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 
 ## business email compromise
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
@@ -9265,6 +9291,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unit 42: post-exploitation workload-identity spoofing in SPIFFE/SPIRE — cgroup-selector manipulation and the Spooffe tool](../patterns/unit42-spiffe-spire-cgroup-workload-identity-spoofing-spooffe-september-2026.md)
 
 ## Cloudflare
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [GHOST STADIUM FIFA World Cup ticket phishing](../ops/ghost-stadium-fifa-world-cup-ticket-phishing.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
@@ -9300,6 +9327,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cloudflare Workers
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Gamaredon](../actors/gamaredon.md)
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
 - [Marimo CVE-2026-39987 LLM-agent post-exploitation](../ops/marimo-cve-2026-39987-llm-agent-post-exploitation.md)
@@ -9431,6 +9459,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 
 ## Coinbase
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
 
 ## Coinkite
@@ -9555,6 +9584,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Conditional Access
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
 ## conditional access
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
@@ -9772,6 +9802,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## counterfeit software
 - [Counterfeit installers to system compromise: deceptive software-download campaign assessed as Silver Fox / Yinhu (Microsoft, Sep 1, 2026)](../ops/microsoft-counterfeit-installers-silver-fox-yinhu-fake-download-campaign-september-2026.md)
 - [Operation Phnom Penh MODBEACON activity](../ops/modbeacon-operation-phnom-penh.md)
+
+## court order
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
 ## cover story packages
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
@@ -11729,6 +11762,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
 - [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
+## DCU
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
+
 ## DD-WRT
 - [C0XMO Gafgyt DD-WRT botnet](../ops/c0xmo-gafgyt-dd-wrt-botnet.md)
 
@@ -12113,12 +12149,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [KNX Protocol CVE-2023-4346 KEV exploitation](../ops/knx-protocol-cve-2023-4346-kev-exploitation.md)
 
 ## device registration
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [ROADtools](../tools/roadtools.md)
 
 ## device-code phishing
 - [APT29](../actors/apt29-cozy-bear-midnight-blizzard.md)
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
@@ -12223,6 +12261,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
 
 ## disruption
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [QTFY: FBI/DoJ seizure of QScan and QTRouter PRC infrastructure targeting U.S. critical infrastructure](../ops/qtfy-qscan-qtrouter-china-infrastructure-seizure-august-2026.md)
 
 ## distillation
@@ -12970,6 +13009,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Entra ID
 - [CISA AA26-237A "A Tale of Two SOCs": red team fully compromises two critical-infrastructure orgs; one detects nothing](../ops/cisa-aa26-237a-tale-of-two-socs-red-team-critical-infrastructure.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [ROADtools](../tools/roadtools.md)
@@ -13241,6 +13281,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Evilginx
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+
+## EvilTokens
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
 ## EVM
 - [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
@@ -13888,6 +13931,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
 
 ## Forg365
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 
 ## ForgCookie
@@ -14977,6 +15021,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## HEADRUSH
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 
+## Health-ISAC
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
+
 ## healthcare
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
@@ -15255,6 +15302,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Huntress
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
 - [N-able N-central CVE-2026-18556 / CVE-2026-18577 exploitation (through CVE-2026-86206 / -86207 / -86218)](../ops/n-able-n-central-cve-2026-18556-18577-exploitation.md)
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
@@ -15500,6 +15548,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## in-memory-execution
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
+
+## inbox analysis
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
+
+## inbox rules
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
 ## incident response
 - [Adform Trackpoint JavaScript supply-chain crypto clipper](../ops/adform-trackpoint-javascript-supply-chain-crypto-clipper.md)
@@ -16271,6 +16325,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TuxBot v3 Evolution IoT botnet framework](../ops/tuxbot-v3-evolution-iot-botnet.md)
 
 ## Kali365
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 
 ## Kaltura
@@ -17813,6 +17868,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## METR
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 
+## Metropolitan Police Service
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
+
 ## MEV bot lure
 - [Solana FakeFix npm / PyPI developer stealer](../ops/solana-fakefix-npm-pypi-developer-stealer.md)
 
@@ -17912,6 +17970,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Microsoft 365
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
@@ -17960,6 +18019,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## Microsoft Digital Crimes Unit
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 
 ## Microsoft Edge
@@ -19241,6 +19301,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OAuth device authorization grant
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 
 ## OAuth error redirect
@@ -19429,6 +19490,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 
 ## OpenAI
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
 - [JetBrains AI plugin API-key theft](../ops/jetbrains-ai-plugin-api-key-theft.md)
@@ -20067,6 +20129,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Equation of Compromise: JFrog unifies the on-wiki mathmain/mathsbase/math-universe loader trio into a six-month targeted npm campaign — the scrypt password was RECOVERED (a 3×3 symmetric Pascal matrix fed through the victim's own LU factor), tasking runs over Ethereum Sepolia contracts AND a dual-channel Slack agent that ships payloads as message chunks, and a GitHub Actions worker farm manufactured up to 40.7 MILLION fake downloads per package (JFrog, Sep 21, 2026)](../ops/equation-of-compromise-npm-mathjs-clone-campaign-sepolia-contracts-slack-c2-github-actions-download-farm-jfrog-september-2026.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
@@ -21080,6 +21143,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
 - [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
 - [Kali365 device-code phishing expansion](../ops/kali365-device-code-phishing-expansion.md)
 - [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
@@ -21117,6 +21181,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cloud Atlas](../actors/cloud-atlas.md)
 - [Dutch Police / NCSC 17-million-device botnet disruption](../ops/dutch-police-ncsc-17-million-device-botnet.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
@@ -21158,6 +21223,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 - [Chinese-language PhaaS wallet-tokenization ecosystem](../ops/chinese-language-phaas-wallet-tokenization.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [JWR phishing framework (likely The Outsider variant)](../ops/jwr-phaas-phishing-framework-outsider-variant.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
@@ -21845,6 +21911,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## proxyware
 - [Fake Corepack site infostealer and proxyware campaign](../ops/fake-corepack-site-infostealer-proxyware.md)
 
+## PRT
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
+
 ## prt-scan
 - [AsyncAPI generator / specs Miasma compromise](../ops/asyncapi-generator-next-branch-miasma-compromise.md)
 
@@ -22148,6 +22217,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RAGFlow
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
+
+## Railway
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
 ## RainbowEx
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
@@ -23678,6 +23750,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## server-side code execution
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
+## serverless abuse
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
+
 ## serverless C2
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 
@@ -23747,6 +23822,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## session persistence
 - [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
 
+## session revocation
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
+
 ## session secret exposure
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 
@@ -23811,6 +23889,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FishMonger](../actors/fishmonger.md)
 - [Pakistani law enforcement espionage convergence](../ops/pakistani-law-enforcement-espionage-convergence.md)
 - [SilkParasite](../actors/silkparasite.md)
+
+## Shadowserver
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
 ## Shadowserver Foundation
 - [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
@@ -24626,6 +24707,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SpyCloud
 - [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
 ## Spyroid
 - [Balonx Sistema: Mexican banking PhaaS with live sessions, Android RAT, and AI vishing](../ops/balonx-sistema-mexican-banking-phaas.md)
@@ -24922,6 +25004,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Storm-2945
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
+
+## Storm-2992
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
 ## Storm-3032
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
@@ -25831,6 +25916,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## token replay
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [ROADtools](../tools/roadtools.md)
 
@@ -25844,6 +25930,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACR Stealer](../tools/acr-stealer.md)
 - [CaptiveCrunch Midnight Blizzard hospitality captive-portal campaign](../ops/captivecrunch-midnight-blizzard-hospitality-captive-portal-campaign.md)
 - [Evilginx and device-code phishing open-directory cluster](../ops/evilginx-device-code-phishing-open-directory.md)
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Fake TradingView macOS stealer delivered by a paid YouTube ad](../ops/fake-tradingview-macos-stealer-malvertising.md)
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Mandiant IR case study: attacker hijacks an ACTIVE AI coding-assistant session and spreads Shai-Hulud across ~100 internal repositories at a SaaS provider (Mandiant AI Risk and Resilience Report 2026, Sep 16, 2026)](../ops/mandiant-ai-coding-assistant-session-hijack-shai-hulud-saas-september-2026.md)
@@ -26125,6 +26212,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 
 ## TRM Labs
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
 
 ## trojan-framework
@@ -26911,6 +26999,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Turla STOCKSTAY backdoor operations](../ops/turla-stockstay-backdoor-operations.md)
 
 ## Vercel
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 - [Next.js August 2026 security release: two unauthenticated RCEs (libheif/AVIF heap overflow + Windows path traversal)](../ops/nextjs-august-2026-security-release-avif-libheif-and-windows-rce.md)
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
@@ -26926,6 +27015,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## VHD
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
+
+## vibe coded
+- [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
 ## victim-owned relay infrastructure
 - [Dysphoria IoT botnet](../ops/dysphoria-iot-botnet.md)
