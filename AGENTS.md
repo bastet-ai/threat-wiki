@@ -45,6 +45,7 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - Keep `auto-trailing-slash`, `404-page`, the canonical `site_url`, existing page paths, search, manually maintained feed, and tag-index hook. Do not publish root `TODO.md` or `drafts/`.
 - GitHub Actions validates only and retains build artifacts. Workers Builds is not connected yet; README documents manual deployment and the future GitHub app connection. Never overlap automatic and manual deploys.
 - Preserve the existing GitHub Pages deployment for rollback. Domain changes must target only `threat.wiki`, leaving unrelated DNS records untouched.
+- The September 2026 migration attached `threat.wiki` in Wrangler after the workers.dev preview passed: 703 files uploaded, 653 directory pages retained, 12,836 search entries. The domain changeset added only this hostname and had no conflicting records. Browser/runtime and public HTTPS checks are required after later deployments too.
 - Worker logs and traces do not capture asset-only traffic; use Cloudflare HTTP analytics for those requests.
 
 ## MkDocs lessons learned

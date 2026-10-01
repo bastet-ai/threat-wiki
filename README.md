@@ -94,5 +94,8 @@ npm run deploy
 GitHub Actions validates and saves the site artifact only; it does not publish to
 GitHub Pages. The previous Pages deployment remains available for rollback.
 Preview: [threat-wiki.bcrt43.workers.dev](https://threat-wiki.bcrt43.workers.dev/).
-Attach only the exact `threat.wiki` custom domain after verifying the preview and
-the domain changeset; preserve unrelated MX/TXT/DNS records.
+Production: [threat.wiki](https://threat.wiki/), attached as an exact custom domain
+in `wrangler.jsonc`. The September 2026 cutover changeset added only this hostname
+with no conflicting DNS records. Preserve unrelated MX/TXT/DNS records in future
+changes. To roll back, first detach this exact custom domain and restore its
+previous GitHub Pages DNS configuration; do not delete the zone or Pages deployment.
