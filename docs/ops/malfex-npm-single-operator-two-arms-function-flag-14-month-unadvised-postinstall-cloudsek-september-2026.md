@@ -52,3 +52,30 @@ CloudSEK (Sep 30, 2026) names **MALFEX**: an npm supply-chain operation running 
 - CloudSEK (Vikas Kundu et al.), "MALFEX — A malicious npm postinstall no advisory has caught for fourteen months," Sep 30, 2026 — full text captured by this wiki Oct 1 (exec summary + what's-new sections verbatim; full PDF at cdn.cloudsek.com) — https://www.cloudsek.com/blog/malfex-malicious-npm-postinstall-supply-chain-campaign
 - Related: CloudSEK "TOPHIT Part 1" (Sep 29) — a SEPARATE one-operator npm typosquat flood (`@prime0`, 85 scoped packages in 3 min 13 s on Sep 15, generic 30-second shell-polling agent to `69.48.229.140:8080`, name-generator: delete one of the first three chars of a top-29 library; scope since removed from npm — 404 at this wiki's check; C2 port dead at this wiki's check) co-hosted with the VHX Harvester vast.ai GPU-cryptojacking panel — shared infrastructure, not shared victims.
 - This wiki: npm registry liveness + download counts + OSV name-queries on `function-flag` / `cdn-img-fetch` / `function-color` / `tlxbnhd` / `@prime0/fhalk`, egress probe on `69.48.229.140:8080`, Oct 1 ~11:30 UTC.
+
+## <a id="october-1-iteration-followup"></a>October 1 same-day follow-up: the named dependency ITERATED THROUGH ITS OWN EXPOSURE — two versions published after the report, one advisory that misses the live range
+
+This wiki's thirty-sixth sweep (~15:05–15:25 UTC Oct 1) caught **`cdn-img-fetch` actively evolving across the campaign's own exposure window** (npm `time` block pulled by this wiki; CloudSEK published Sep 30):
+
+| Version | Published (UTC) | Import-time behavior (this wiki unpacked every tarball) |
+|---|---|---|
+| 1.0.0 | Sep 26 02:18 | IIFE fetch `raw.githubusercontent.com/cavecrew/proj/main/banner.png` → hidden dotfile `os.tmpdir()/._cif_data` (the MAL-2026-17320 shape) |
+| 1.0.1 | Sep 26 03:03 | same shape |
+| 1.0.2 | Sep 28 04:52 | fetch URL renamed `banner.png` → cache `package/.cache/banner.jpg` (still the `.png` URL) |
+| **1.0.3** | **Sep 30 03:43** | **fetch URL switches to `banner.jpg`** — points at a DIFFERENT staged file |
+| **1.0.4** | **Sep 30 23:07 (same day CloudSEK published)** | **import-time fetch REMOVED** — pure `fetchAndCache` utility; `getCachePath()` returns `null` |
+
+All five versions carry **no install hooks** — the drop is `require()`-time, so `allowScripts`-style controls never see it. `banner.png` (8,231,030 B) and `banner.jpg` (6,204,416 B) both still serve 200 from the still-live `cavecrew/proj` repo, which was **re-pushed at 2026-09-30T00:18:28Z** — the staged next-stage blobs are being actively maintained, and neither starts with JPEG magic bytes (first bytes of `banner.jpg`: `d9 c3 43 69 …`) = encrypted stage material, not an image.
+
+**Advisory state at check:**
+- **`MAL-2026-17320`** (Amazon Inspector, published Sep 30 04:38 UTC) now exists for `cdn-img-fetch` — but it covers **1.0.0–1.0.1 ONLY**, describes the superseded `._cif_data` shape, and was last modified Sep 28. **The live install-target range 1.0.2–1.0.4 is ADVISORY-FREE.** One MALFEX name now has a record; `function-flag` and `function-color` remain at zero.
+- Zero GHSA (package-name GHSA queries return the generic recent-advisories list = no malware record for any MALFEX name).
+- npm has taken no action on any of the three live names; `104.234.65.75:700` (Arm B bundle host) **still OPEN** at this check.
+- `function-flag` unchanged (1.7.3, modified Aug 2025, 533 dl/wk, still zero OSV). `function-color` **2 dl/wk** (was 2 — wrapper) still zero OSV. `friendly-tools`/`friendly-greeting-tools` (the Sep 30 kam193 Snowflake pair) still 404 on PyPI.
+- Publisher field unchanged (`devtools-community`) = no account rotation yet.
+
+**Durable reads (this wiki):**
+1. **Public naming did not pause the operator.** Both new versions landed on/around the report day: 1.0.3 on Sep 30 03:43 UTC and 1.0.4 at Sep 30 23:07 UTC, the same day CloudSEK's write-up went out — and the payload host repo was re-pushed Sep 30 00:18 UTC. Expect the live names to keep churning regardless of press coverage — takedown, not advisories, is the only stop.
+2. **1.0.4's fetch removal is ambiguous and must be tracked, not trusted.** Either (a) pre-takedown cleanup (the PhantomSub `ishumdz-bail` precedent on this wiki: malware removed after exposure ≠ cleared package, re-insertion is one publish away) or (b) a deliberate dormancy switch — the utility now `require()`s clean, which lowers detection salience while the `cavecrew` infra stays live and re-pushed. Both readings say: never treat a clean-latest on this rail as clearance.
+3. **The advisory lag is a version lag, not just a package lag.** MAL-2026-17320 was written against 1.0.0/1.0.1; the versions actual installs resolve (643 dl/wk flowing to `latest` = 1.0.4) sit outside its range. Advisory-keyed blocking with version ranges passes 1.0.2–1.0.4 silently. The registry `time` block — not the advisory — is the truth surface for a package under active iteration.
+4. **Hunt update:** monitor the `cavecrew/proj` repo's push events and the sizes of `banner.png`/`banner.jpg` as the campaign's heartbeat; ANY new `cdn-img-fetch` publish, ANY re-add of a fetch line to `index.js`, or ANY size change on the two banner files = the operator is still operational after public naming.
