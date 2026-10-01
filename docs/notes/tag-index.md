@@ -4,6 +4,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## All tags
 - [--use-compress-program](#-use-compress-program) (1)
+- [.deb webshell](#deb-webshell) (1)
 - [.NET](#net) (10)
 - [.NET deserialization](#net-deserialization) (1)
 - [.NET downloaders](#net-downloaders) (1)
@@ -32,6 +33,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [404 TDS](#404-tds) (1)
 - [43.228.157.68](#4322815768) (1)
 - [4sync](#4sync) (1)
+- [7-Zip](#7-zip) (1)
 - [@gl_introduced](#gl_introduced) (1)
 - [@marketfront](#marketfront) (1)
 - [@tqm-mfe](#tqm-mfe) (1)
@@ -346,7 +348,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [APT36](#apt36) (3)
 - [apt36](#apt36) (1)
 - [APT37](#apt37) (2)
-- [APT42](#apt42) (1)
+- [APT42](#apt42) (2)
 - [APT43](#apt43) (1)
 - [APT44](#apt44) (2)
 - [APT45](#apt45) (1)
@@ -464,12 +466,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AWS Secrets Manager](#aws-secrets-manager) (1)
 - [AWS-metadata](#aws-metadata) (1)
 - [axios](#axios) (1)
+- [AzCopy exfiltration](#azcopy-exfiltration) (1)
 - [Azure](#azure) (4)
 - [Azure Active Directory](#azure-active-directory) (1)
 - [Azure AD token theft](#azure-ad-token-theft) (1)
 - [Azure CLI](#azure-cli) (1)
 - [Azure Cosmos DB](#azure-cosmos-db) (1)
 - [Azure DevOps](#azure-devops) (1)
+- [Azure service principal compromise](#azure-service-principal-compromise) (1)
 - [Azure Storage](#azure-storage) (1)
 - [Azure Websites C2](#azure-websites-c2) (2)
 - [Azure-AI-Foundry](#azure-ai-foundry) (1)
@@ -496,6 +500,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [BadIIS](#badiis) (4)
 - [BadPotato](#badpotato) (1)
 - [Baileys](#baileys) (1)
+- [BAITSWITCH](#baitswitch) (1)
 - [balance-overflow](#balance-overflow) (1)
 - [Balbooa Forms](#balbooa-forms) (1)
 - [Balochistan Police](#balochistan-police) (1)
@@ -786,6 +791,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [checkpointers](#checkpointers) (1)
 - [China](#china) (3)
 - [China nexus](#china-nexus) (1)
+- [China-aligned](#china-aligned) (1)
 - [China-linked](#china-linked) (8)
 - [China-nexus](#china-nexus) (21)
 - [China-speaking ecosystem](#china-speaking-ecosystem) (1)
@@ -825,7 +831,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CIS](#cis) (2)
 - [CISA](#cisa) (23)
 - [CISA ADP](#cisa-adp) (2)
-- [CISA KEV](#cisa-kev) (54)
+- [CISA KEV](#cisa-kev) (55)
 - [Cisco](#cisco) (11)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -838,7 +844,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citizen Lab](#citizen-lab) (1)
 - [citizen portal compromise](#citizen-portal-compromise) (1)
 - [Citrine Sleet](#citrine-sleet) (1)
-- [Citrix](#citrix) (6)
+- [Citrix](#citrix) (7)
 - [Citrix NetScaler](#citrix-netscaler) (2)
 - [CitrixBleed](#citrixbleed) (1)
 - [CitrixBleed 2](#citrixbleed-2) (1)
@@ -960,6 +966,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Coinbase](#coinbase) (2)
 - [Coinkite](#coinkite) (1)
 - [COLDCARD](#coldcard) (1)
+- [COLDCOPY](#coldcopy) (1)
 - [ColdFusion](#coldfusion) (1)
 - [collaboration platforms](#collaboration-platforms) (2)
 - [collaboration-tool phishing](#collaboration-tool-phishing) (2)
@@ -967,7 +974,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ComfyUI](#comfyui) (1)
 - [command and control](#command-and-control) (6)
 - [command execution](#command-execution) (9)
-- [command injection](#command-injection) (12)
+- [command injection](#command-injection) (14)
 - [command string concatenation](#command-string-concatenation) (1)
 - [command-and-control](#command-and-control) (1)
 - [command-execution](#command-execution) (1)
@@ -982,7 +989,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [compromised credentials](#compromised-credentials) (1)
 - [compromised infrastructure](#compromised-infrastructure) (1)
 - [compromised VPN credentials](#compromised-vpn-credentials) (1)
-- [compromised websites](#compromised-websites) (2)
+- [compromised websites](#compromised-websites) (3)
 - [compromised WordPress](#compromised-wordpress) (2)
 - [computer name](#computer-name) (1)
 - [computer vision](#computer-vision) (1)
@@ -1021,9 +1028,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Continue](#continue) (1)
 - [continuous visibility](#continuous-visibility) (1)
 - [control flow flattening](#control-flow-flattening) (3)
+- [Control Panel applet](#control-panel-applet) (1)
 - [control panel compromise](#control-panel-compromise) (1)
 - [control plane](#control-plane) (4)
 - [control-flow hijacking](#control-flow-hijacking) (1)
+- [control.exe](#controlexe) (1)
 - [conversation theft](#conversation-theft) (1)
 - [cookie theft](#cookie-theft) (4)
 - [CookiETagRAT](#cookietagrat) (1)
@@ -1040,8 +1049,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CORS](#cors) (1)
 - [CORS bypass](#cors-bypass) (1)
 - [Cortex XDR](#cortex-xdr) (1)
+- [Cortex Xpanse](#cortex-xpanse) (1)
 - [Coruna](#coruna) (2)
 - [cosign](#cosign) (1)
+- [CosmicPulse](#cosmicpulse) (1)
 - [Cosmos](#cosmos) (1)
 - [Cosmos EVM](#cosmos-evm) (1)
 - [Cosmos SDK](#cosmos-sdk) (1)
@@ -1055,6 +1066,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [COWARDDUCK](#cowardduck) (1)
 - [CPaaS](#cpaas) (1)
 - [cPanel](#cpanel) (6)
+- [CPanel](#cpanel) (1)
 - [CPUID](#cpuid) (1)
 - [CRA](#cra) (1)
 - [cracked software](#cracked-software) (1)
@@ -1146,10 +1158,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CSRF](#csrf) (3)
 - [csrf](#csrf) (1)
 - [CSRF token theft](#csrf-token-theft) (1)
+- [CsrfToken](#csrftoken) (1)
 - [CSS](#css) (1)
 - [CSS sanitization](#css-sanitization) (1)
 - [CSSOM](#cssom) (1)
 - [ctfmon.exe](#ctfmonexe) (1)
+- [ctxs.receiver](#ctxsreceiver) (1)
 - [Curious Serpens](#curious-serpens) (1)
 - [CurlRAT](#curlrat) (1)
 - [CURP](#curp) (1)
@@ -1157,6 +1171,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Curve25519](#curve25519) (2)
 - [Curve25519-XSalsa20-Poly1305](#curve25519-xsalsa20-poly1305) (1)
 - [custody APIs](#custody-apis) (1)
+- [custom archive format](#custom-archive-format) (1)
 - [custom C2](#custom-c2) (1)
 - [custom instruction set](#custom-instruction-set) (1)
 - [custom map](#custom-map) (1)
@@ -1427,7 +1442,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-72529](#cve-2026-72529) (1)
 - [CVE-2026-72530](#cve-2026-72530) (1)
 - [CVE-2026-72898](#cve-2026-72898) (2)
-- [CVE-2026-73570](#cve-2026-73570) (1)
+- [CVE-2026-73570](#cve-2026-73570) (2)
 - [CVE-2026-7473](#cve-2026-7473) (1)
 - [CVE-2026-74820](#cve-2026-74820) (1)
 - [CVE-2026-75149](#cve-2026-75149) (1)
@@ -1485,6 +1500,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-87491](#cve-2026-87491) (1)
 - [CVE-2026-87701](#cve-2026-87701) (1)
 - [CVE-2026-87886](#cve-2026-87886) (1)
+- [CVE-2026-88771](#cve-2026-88771) (1)
+- [CVE-2026-88772](#cve-2026-88772) (1)
 - [CVE-2026-89775](#cve-2026-89775) (1)
 - [CVE-2026-9082](#cve-2026-9082) (1)
 - [CVE-2026-90894](#cve-2026-90894) (1)
@@ -1542,12 +1559,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Czech Republic](#czech-republic) (1)
 - [D-Link](#d-link) (1)
 - [D2IP](#d2ip) (1)
+- [DAEMON Tools](#daemon-tools) (1)
 - [Dahua](#dahua) (1)
 - [danger-full-access](#danger-full-access) (1)
 - [dangling resources](#dangling-resources) (1)
 - [Dark Caracal](#dark-caracal) (1)
 - [DARKLANTERN](#darklantern) (1)
-- [DarkSword](#darksword) (1)
+- [DarkSword](#darksword) (2)
 - [Dart](#dart) (1)
 - [data analytics](#data-analytics) (1)
 - [data breach](#data-breach) (1)
@@ -1568,6 +1586,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dataset dead drop](#dataset-dead-drop) (1)
 - [dataset processing](#dataset-processing) (1)
 - [DAYLIGHT](#daylight) (1)
+- [dbghelp.dll](#dbghelpdll) (1)
 - [DCIS](#dcis) (1)
 - [DCloud](#dcloud) (1)
 - [DCloud Uni-App](#dcloud-uni-app) (1)
@@ -1687,6 +1706,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Discourse](#discourse) (1)
 - [discovery](#discovery) (1)
 - [disk wiping](#disk-wiping) (1)
+- [Disk2vhd](#disk2vhd) (1)
 - [disposable infrastructure](#disposable-infrastructure) (1)
 - [disruption](#disruption) (2)
 - [distillation](#distillation) (1)
@@ -1696,7 +1716,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL search-order hijacking](#dll-search-order-hijacking) (2)
 - [DLL side-loading](#dll-side-loading) (9)
-- [DLL sideloading](#dll-sideloading) (28)
+- [DLL sideloading](#dll-sideloading) (29)
 - [DLL-sideloading](#dll-sideloading) (1)
 - [dlopen](#dlopen) (1)
 - [DMTP](#dmtp) (1)
@@ -1715,6 +1735,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS-exfiltration](#dns-exfiltration) (1)
 - [DNS-over-HTTPS](#dns-over-https) (1)
 - [DNS-tunneling](#dns-tunneling) (2)
+- [dnsapi.dll](#dnsapidll) (1)
 - [DNSKEY](#dnskey) (1)
 - [DNSSEC](#dnssec) (1)
 - [Docker](#docker) (4)
@@ -1772,6 +1793,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [dropper](#dropper) (1)
 - [Drupal](#drupal) (1)
 - [dsh](#dsh) (1)
+- [DTLS](#dtls) (1)
 - [dual-function malware](#dual-function-malware) (1)
 - [dual-use](#dual-use) (1)
 - [dual-use tooling](#dual-use-tooling) (1)
@@ -1805,7 +1827,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [eCrime](#ecrime) (1)
 - [Ecuador](#ecuador) (1)
 - [Ed25519](#ed25519) (1)
-- [edge appliance](#edge-appliance) (15)
+- [edge appliance](#edge-appliance) (16)
 - [edge appliances](#edge-appliances) (2)
 - [edge application server](#edge-application-server) (1)
 - [edge device](#edge-device) (3)
@@ -1859,6 +1881,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Emerald Sleet](#emerald-sleet) (1)
 - [emergency patch](#emergency-patch) (1)
 - [ENCFORGE](#encforge) (2)
+- [encryptbase64.ps1](#encryptbase64ps1) (1)
 - [encrypted C2](#encrypted-c2) (4)
 - [encrypted loader](#encrypted-loader) (2)
 - [encrypted reasoning](#encrypted-reasoning) (1)
@@ -2153,6 +2176,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [FruitStone](#fruitstone) (1)
 - [FSB](#fsb) (4)
 - [FSB Center 16](#fsb-center-16) (2)
+- [FSB Centre 18](#fsb-centre-18) (1)
 - [fscan](#fscan) (1)
 - [Fscan](#fscan) (1)
 - [FTA](#fta) (1)
@@ -2201,6 +2225,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [GentleKiller](#gentlekiller) (1)
 - [Germany](#germany) (2)
 - [GERT](#gert) (1)
+- [GetUserName anomaly](#getusername-anomaly) (1)
 - [GHETTOVIBE](#ghettovibe) (1)
 - [Ghost](#ghost) (3)
 - [ghost accounts](#ghost-accounts) (1)
@@ -2496,6 +2521,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HTTP 400 handshake](#http-400-handshake) (1)
 - [HTTP C2](#http-c2) (1)
 - [HTTP/2](#http2) (2)
+- [httpd.conf patching](#httpdconf-patching) (1)
 - [HttpMalice](#httpmalice) (1)
 - [HTTPS C2](#https-c2) (2)
 - [HTTPS exfiltration](#https-exfiltration) (1)
@@ -2554,7 +2580,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [image recognition](#image-recognition) (1)
 - [ImageMagick](#imagemagick) (2)
 - [iMessage](#imessage) (2)
-- [Impacket](#impacket) (5)
+- [Impacket](#impacket) (6)
 - [Imperial Kitten](#imperial-kitten) (1)
 - [impersonation](#impersonation) (3)
 - [implant](#implant) (1)
@@ -2609,7 +2635,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [infrastructure seizure](#infrastructure-seizure) (1)
 - [infrastructure-as-code](#infrastructure-as-code) (1)
 - [infrastructure-software](#infrastructure-software) (1)
-- [initial access](#initial-access) (2)
+- [initial access](#initial-access) (4)
 - [initial access broker](#initial-access-broker) (4)
 - [initial-access](#initial-access) (3)
 - [Injective Labs](#injective-labs) (1)
@@ -2715,6 +2741,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JINX-0164](#jinx-0164) (2)
 - [Jira](#jira) (2)
 - [Jiří Vinopal](#jiri-vinopal) (1)
+- [jli.dll](#jlidll) (1)
 - [job-lure](#job-lure) (1)
 - [job-offer phishing](#job-offer-phishing) (1)
 - [job-themed phishing](#job-themed-phishing) (1)
@@ -2743,7 +2770,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [JSONKeeper](#jsonkeeper) (1)
 - [JSONL](#jsonl) (1)
 - [JSONPing](#jsonping) (1)
-- [JSP web shell](#jsp-web-shell) (1)
+- [JSP web shell](#jsp-web-shell) (2)
 - [JuicyPotato](#juicypotato) (2)
 - [Jupyter](#jupyter) (1)
 - [Jupyter Notebook](#jupyter-notebook) (1)
@@ -2888,6 +2915,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LevelBlue](#levelblue) (1)
 - [Lexfo](#lexfo) (1)
 - [libcurl](#libcurl) (1)
+- [libcurl.dll](#libcurldll) (1)
 - [libde265](#libde265) (1)
 - [libheif](#libheif) (3)
 - [liblzma](#liblzma) (1)
@@ -2912,6 +2940,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Linux malware](#linux-malware) (3)
 - [Linux networking devices](#linux-networking-devices) (1)
 - [Linux rootkit](#linux-rootkit) (1)
+- [ListKeys credential collection](#listkeys-credential-collection) (1)
 - [LiteLLM](#litellm) (9)
 - [LiteSpeed](#litespeed) (2)
 - [LiteSpeed Cache](#litespeed-cache) (1)
@@ -2932,7 +2961,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LLM-generated-malware](#llm-generated-malware) (1)
 - [LLMjacking](#llmjacking) (2)
 - [LMS](#lms) (1)
-- [LNK](#lnk) (11)
+- [LNK](#lnk) (12)
 - [LNK files](#lnk-files) (1)
 - [LNK Startup persistence](#lnk-startup-persistence) (1)
 - [load balancer](#load-balancer) (1)
@@ -2957,7 +2986,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Lockdown Mode](#lockdown-mode) (1)
 - [LockScreen](#lockscreen) (1)
 - [LockScreenContentServer](#lockscreencontentserver) (1)
-- [log poisoning](#log-poisoning) (1)
+- [log poisoning](#log-poisoning) (2)
 - [log sanitization](#log-sanitization) (1)
 - [Log Server](#log-server) (1)
 - [Log4j](#log4j) (1)
@@ -3026,6 +3055,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Magento Open Source](#magento-open-source) (1)
 - [magic packet](#magic-packet) (1)
 - [MagicYUV](#magicyuv) (1)
+- [mail server](#mail-server) (1)
 - [mail server compromise](#mail-server-compromise) (1)
 - [mail-argenta](#mail-argenta) (1)
 - [mail_logs](#mail_logs) (1)
@@ -3157,7 +3187,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Azure](#microsoft-azure) (1)
 - [Microsoft blocklist](#microsoft-blocklist) (1)
 - [Microsoft Copilot Personal](#microsoft-copilot-personal) (1)
-- [Microsoft Defender](#microsoft-defender) (6)
+- [Microsoft Defender](#microsoft-defender) (8)
 - [Microsoft Defender exclusion](#microsoft-defender-exclusion) (1)
 - [Microsoft Defender Experts](#microsoft-defender-experts) (1)
 - [Microsoft Defender Security Research](#microsoft-defender-security-research) (1)
@@ -3178,7 +3208,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft SQL Server](#microsoft-sql-server) (1)
 - [Microsoft Teams](#microsoft-teams) (6)
 - [Microsoft Teams masquerade](#microsoft-teams-masquerade) (1)
-- [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (5)
+- [Microsoft Threat Intelligence](#microsoft-threat-intelligence) (7)
 - [Microsoft typosquat](#microsoft-typosquat) (1)
 - [Microsoft Windows Hardware Compatibility Publisher](#microsoft-windows-hardware-compatibility-publisher) (1)
 - [Microsoft-Foundry](#microsoft-foundry) (1)
@@ -3295,6 +3325,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MSNightmare](#msnightmare) (1)
 - [MSP](#msp) (3)
 - [MSSQL](#mssql) (1)
+- [msvcrt140.dll](#msvcrt140dll) (1)
 - [MSXML2.XMLHTTP](#msxml2xmlhttp) (1)
 - [mTLS](#mtls) (1)
 - [mTLS bypass](#mtls-bypass) (1)
@@ -3352,6 +3383,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NCSC-NL](#ncsc-nl) (1)
 - [Nebo](#nebo) (1)
 - [Nebula Security](#nebula-security) (1)
+- [NeedyMantis](#needymantis) (1)
 - [Negotiate](#negotiate) (1)
 - [negotiation](#negotiation) (1)
 - [NemoClaw](#nemoclaw) (1)
@@ -3368,9 +3400,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Netlify abuse](#netlify-abuse) (1)
 - [netlogon](#netlogon) (1)
 - [NetNut](#netnut) (1)
-- [NetScaler](#netscaler) (6)
+- [NetScaler](#netscaler) (7)
 - [NetScaler ADC](#netscaler-adc) (6)
-- [NetScaler Gateway](#netscaler-gateway) (6)
+- [NetScaler Gateway](#netscaler-gateway) (7)
 - [NetSetup.log](#netsetuplog) (1)
 - [NetSupport Manager](#netsupport-manager) (1)
 - [Netty](#netty) (1)
@@ -3400,6 +3432,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NGINX](#nginx) (1)
 - [Nginx](#nginx) (2)
 - [Nginx module](#nginx-module) (1)
+- [NGOs](#ngos) (1)
 - [ngrok](#ngrok) (1)
 - [Ngrok C2](#ngrok-c2) (1)
 - [NIC impersonation](#nic-impersonation) (1)
@@ -3436,6 +3469,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NodeRabbit](#noderabbit) (3)
 - [NomadRAT](#nomadrat) (1)
 - [non-standard protocol abuse](#non-standard-protocol-abuse) (1)
+- [NOROBOT](#norobot) (1)
 - [North Korea](#north-korea) (14)
 - [Nostr](#nostr) (1)
 - [notarized malware](#notarized-malware) (2)
@@ -3459,7 +3493,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Npoint](#npoint) (1)
 - [npx](#npx) (2)
 - [npx confusion](#npx-confusion) (1)
+- [ns_monuploadd_err.pl](#ns_monuploadd_errpl) (1)
+- [ns_suidcmd](#ns_suidcmd) (1)
 - [NSA](#nsa) (1)
+- [NSC_TASS](#nsc_tass) (1)
 - [NSecKrnl.sys](#nseckrnlsys) (1)
 - [NSO Group](#nso-group) (1)
 - [nsppe](#nsppe) (1)
@@ -3482,9 +3519,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NVGRE](#nvgre) (1)
 - [NVIDIA](#nvidia) (1)
 - [NVIDIA impersonation](#nvidia-impersonation) (1)
+- [nvml.dll](#nvmldll) (1)
 - [NX-OS](#nx-os) (1)
 - [O-UNC-066](#o-unc-066) (1)
 - [OAST](#oast) (1)
+- [oast.fun](#oastfun) (1)
 - [oastify](#oastify) (2)
 - [OAuth](#oauth) (6)
 - [OAuth 2.1](#oauth-21) (1)
@@ -3499,6 +3538,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OAuth token theft](#oauth-token-theft) (2)
 - [OAuth tokens](#oauth-tokens) (3)
 - [OBF networks](#obf-networks) (1)
+- [obfuscated stack strings](#obfuscated-stack-strings) (1)
 - [obfuscation](#obfuscation) (3)
 - [obfuscator.io](#obfuscatorio) (2)
 - [ObjectInputStream](#objectinputstream) (1)
@@ -3588,7 +3628,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (441)
+- [ops](#ops) (444)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3675,6 +3715,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Palo Alto Networks](#palo-alto-networks) (2)
 - [PAM](#pam) (2)
 - [PAM credential validation](#pam-credential-validation) (1)
+- [pam_exec](#pam_exec) (1)
 - [PamStealer](#pamstealer) (1)
 - [PAN-OS](#pan-os) (1)
 - [Pandora RC](#pandora-rc) (1)
@@ -3770,7 +3811,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
 - [Philippines](#philippines) (2)
-- [phishing](#phishing) (35)
+- [phishing](#phishing) (36)
 - [phishing evasion](#phishing-evasion) (1)
 - [phishing infrastructure](#phishing-infrastructure) (1)
 - [phishing overlays](#phishing-overlays) (1)
@@ -3827,6 +3868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PoC exploit refusal](#poc-exploit-refusal) (1)
 - [PocSuite3](#pocsuite3) (1)
 - [Pods](#pods) (1)
+- [Poedit](#poedit) (1)
 - [poisoned-branch](#poisoned-branch) (1)
 - [PoisonX](#poisonx) (1)
 - [police digital services](#police-digital-services) (1)
@@ -3849,6 +3891,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Portugal](#portugal) (1)
 - [Portuguese-speaking](#portuguese-speaking) (1)
 - [post-authentication RCE](#post-authentication-rce) (1)
+- [post-compromise](#post-compromise) (1)
 - [post-exploitation](#post-exploitation) (7)
 - [post-exploitation framework](#post-exploitation-framework) (1)
 - [post-index-change](#post-index-change) (1)
@@ -3915,6 +3958,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [process lineage](#process-lineage) (1)
 - [process termination](#process-termination) (2)
 - [process.env theft](#processenv-theft) (1)
+- [ProcessDebugFlags](#processdebugflags) (1)
 - [procfs](#procfs) (1)
 - [procurement](#procurement) (1)
 - [product lifecycle management](#product-lifecycle-management) (1)
@@ -4055,7 +4099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RatHat](#rathat) (1)
 - [raw packet](#raw-packet) (1)
 - [Ray](#ray) (2)
-- [RC4](#rc4) (4)
+- [RC4](#rc4) (5)
 - [RC4 C2](#rc4-c2) (1)
 - [RC4 encryption](#rc4-encryption) (1)
 - [RCE](#rce) (18)
@@ -4103,6 +4147,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RedC2](#redc2) (1)
 - [RedC2 4.0](#redc2-40) (1)
 - [REDCap](#redcap) (1)
+- [RedFlick](#redflick) (1)
 - [Redis](#redis) (5)
 - [Redis backdoor](#redis-backdoor) (1)
 - [RediSearch](#redisearch) (1)
@@ -4169,6 +4214,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [residential proxy](#residential-proxy) (3)
 - [residential proxy abuse](#residential-proxy-abuse) (1)
 - [resolver](#resolver) (1)
+- [resource destruction](#resource-destruction) (1)
 - [responsible disclosure](#responsible-disclosure) (3)
 - [REST API](#rest-api) (1)
 - [REST C2](#rest-c2) (1)
@@ -4244,6 +4290,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [RSA public key](#rsa-public-key) (1)
 - [RSA-2048](#rsa-2048) (2)
 - [RSA-OAEP](#rsa-oaep) (1)
+- [rsync lateral movement](#rsync-lateral-movement) (1)
 - [RT-Thread](#rt-thread) (1)
 - [RTL819X](#rtl819x) (1)
 - [RTLO](#rtlo) (1)
@@ -4264,7 +4311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [runtime mutation](#runtime-mutation) (1)
 - [runtime patching](#runtime-patching) (1)
 - [runZero](#runzero) (1)
-- [Russia](#russia) (16)
+- [Russia](#russia) (17)
 - [Russia targeting](#russia-targeting) (3)
 - [Russia-affiliated](#russia-affiliated) (2)
 - [Russia-linked](#russia-linked) (3)
@@ -4328,7 +4375,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SCCM](#sccm) (1)
 - [scheduled task](#scheduled-task) (9)
 - [scheduled task persistence](#scheduled-task-persistence) (7)
-- [scheduled tasks](#scheduled-tasks) (6)
+- [scheduled tasks](#scheduled-tasks) (7)
 - [sckit](#sckit) (1)
 - [SCMBANKER](#scmbanker) (2)
 - [scope squatting](#scope-squatting) (1)
@@ -4581,7 +4628,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Sneaky 2FA](#sneaky-2fa) (2)
 - [Sneaky2FA](#sneaky2fa) (1)
 - [SNI routing bypass](#sni-routing-bypass) (1)
-- [SNMP](#snmp) (1)
+- [SNMP](#snmp) (2)
+- [snmptrap](#snmptrap) (1)
 - [Snowflake](#snowflake) (2)
 - [SNOWLIGHT](#snowlight) (1)
 - [SNWLID-2026-0016](#snwlid-2026-0016) (1)
@@ -4725,6 +4773,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [stale access](#stale-access) (1)
 - [stale credentials](#stale-credentials) (1)
 - [stale state](#stale-state) (1)
+- [Star Blizzard](#star-blizzard) (1)
 - [Starland RAT](#starland-rat) (3)
 - [Starlette](#starlette) (1)
 - [Startup folder](#startup-folder) (1)
@@ -4743,7 +4792,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Steam Workshop](#steam-workshop) (1)
 - [steering file](#steering-file) (1)
 - [steganographic PNG](#steganographic-png) (1)
-- [steganography](#steganography) (5)
+- [steganography](#steganography) (6)
 - [StegoAd](#stegoad) (1)
 - [StepSecurity](#stepsecurity) (3)
 - [Still Audio](#still-audio) (1)
@@ -4761,8 +4810,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Storm-2945](#storm-2945) (2)
 - [Storm-2992](#storm-2992) (1)
 - [Storm-3032](#storm-3032) (1)
+- [Storm-3069](#storm-3069) (1)
 - [Storm-3075](#storm-3075) (1)
 - [Storm-3121](#storm-3121) (1)
+- [Storm-3168](#storm-3168) (1)
 - [Stowaway](#stowaway) (1)
 - [STR](#str) (1)
 - [STRD](#strd) (3)
@@ -4778,6 +4829,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [subscription PhaaS](#subscription-phaas) (1)
 - [Subtle Snail](#subtle-snail) (2)
 - [SuccessKey](#successkey) (1)
+- [sudoers](#sudoers) (1)
+- [SUID /bin/sh](#suid-binsh) (1)
 - [summarization](#summarization) (1)
 - [SUMMIT](#summit) (3)
 - [Suo5](#suo5) (1)
@@ -4803,6 +4856,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SVG](#svg) (3)
 - [SVID](#svid) (1)
 - [swapzone](#swapzone) (1)
+- [swatchdog](#swatchdog) (1)
 - [SWE-agent](#swe-agent) (1)
 - [SweetPotato](#sweetpotato) (1)
 - [Switchvox](#switchvox) (1)
@@ -4897,6 +4951,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ted backdoor](#ted-backdoor) (1)
 - [telecom](#telecom) (2)
 - [telecom-impersonation](#telecom-impersonation) (1)
+- [telecommunication targeting](#telecommunication-targeting) (1)
 - [telecommunications](#telecommunications) (4)
 - [Telegra.ph](#telegraph) (1)
 - [Telegram](#telegram) (15)
@@ -4942,11 +4997,13 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The Quarry](#the-quarry) (1)
 - [theme-install](#theme-install) (1)
 - [ThemeREX Addons](#themerex-addons) (1)
+- [think tanks](#think-tanks) (1)
 - [third-party email](#third-party-email) (1)
 - [third-party integrations](#third-party-integrations) (1)
 - [third-party JavaScript](#third-party-javascript) (2)
 - [third-party risk](#third-party-risk) (1)
 - [thought virus](#thought-virus) (1)
+- [ThreadHideFromDebugger](#threadhidefromdebugger) (1)
 - [threat hunting](#threat-hunting) (2)
 - [threat intelligence](#threat-intelligence) (1)
 - [threat landscape](#threat-landscape) (2)
@@ -4957,7 +5014,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ThumbcacheService](#thumbcacheservice) (1)
 - [thumbnail generation](#thumbnail-generation) (1)
 - [time-of-check time-of-use](#time-of-check-time-of-use) (1)
-- [timestomping](#timestomping) (1)
+- [timestomping](#timestomping) (2)
 - [timing attack](#timing-attack) (1)
 - [timing check](#timing-check) (1)
 - [TinyGo](#tinygo) (1)
@@ -4989,7 +5046,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tool use](#tool-use) (1)
 - [tool-call logging](#tool-call-logging) (1)
 - [tooling](#tooling) (6)
-- [tools](#tools) (79)
+- [tools](#tools) (80)
 - [Tor](#tor) (4)
 - [torrent-compromise](#torrent-compromise) (1)
 - [Tortoiseshell](#tortoiseshell) (2)
@@ -5100,7 +5157,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [UDP/1900](#udp1900) (1)
 - [UI redressing](#ui-redressing) (1)
 - [UI-API](#ui-api) (1)
-- [Ukraine](#ukraine) (16)
+- [Ukraine](#ukraine) (17)
 - [Ukraine targeting](#ukraine-targeting) (3)
 - [Ulej](#ulej) (3)
 - [UltraViewer](#ultraviewer) (1)
@@ -5108,7 +5165,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Umbrij](#umbrij) (3)
 - [UMPS](#umps) (1)
 - [unattributed](#unattributed) (2)
-- [unauthenticated](#unauthenticated) (13)
+- [unauthenticated](#unauthenticated) (14)
 - [unauthenticated access](#unauthenticated-access) (5)
 - [unauthenticated admin access](#unauthenticated-admin-access) (1)
 - [unauthenticated API](#unauthenticated-api) (2)
@@ -5150,7 +5207,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [uninitialized heap memory](#uninitialized-heap-memory) (1)
 - [unintended internet access](#unintended-internet-access) (1)
 - [Unisoc](#unisoc) (1)
-- [Unit 42](#unit-42) (19)
+- [Unit 42](#unit-42) (20)
 - [United States](#united-states) (4)
 - [Unitree](#unitree) (1)
 - [universal binary](#universal-binary) (1)
@@ -5192,6 +5249,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [user execution](#user-execution) (2)
 - [user namespaces](#user-namespaces) (2)
 - [user verification](#user-verification) (1)
+- [User-Agent injection](#user-agent-injection) (1)
 - [UserAssist](#userassist) (1)
 - [username environmental keying](#username-environmental-keying) (1)
 - [UserPath](#userpath) (1)
@@ -5238,6 +5296,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Vertex AI](#vertex-ai) (1)
 - [vesting-account](#vesting-account) (1)
 - [VHD](#vhd) (1)
+- [VHDX](#vhdx) (1)
 - [vibe coded](#vibe-coded) (1)
 - [victim-owned relay infrastructure](#victim-owned-relay-infrastructure) (1)
 - [Vidar](#vidar) (1)
@@ -5252,6 +5311,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VIEWSTATE](#viewstate) (1)
 - [ViewState](#viewstate) (1)
 - [ViewState deserialization](#viewstate-deserialization) (1)
+- [vim64.dll](#vim64dll) (1)
 - [ViPNet](#vipnet) (1)
 - [virtio-fs](#virtio-fs) (1)
 - [virtual machine escape](#virtual-machine-escape) (1)
@@ -5354,7 +5414,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web RCE](#web-rce) (1)
 - [web reconnaissance](#web-reconnaissance) (1)
 - [web server](#web-server) (3)
-- [web shell](#web-shell) (12)
+- [web shell](#web-shell) (13)
 - [web shell hunting](#web-shell-hunting) (1)
 - [web shells](#web-shells) (3)
 - [web skimmer](#web-skimmer) (1)
@@ -5362,7 +5422,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [web-shells](#web-shells) (1)
 - [WebAssembly](#webassembly) (1)
 - [WebAuthn](#webauthn) (1)
-- [WebDAV](#webdav) (6)
+- [WebDAV](#webdav) (7)
 - [webhook.site](#webhooksite) (1)
 - [webhooks](#webhooks) (1)
 - [WebHost Manager](#webhost-manager) (1)
@@ -5432,6 +5492,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WinRing0](#winring0) (1)
 - [WinRM](#winrm) (2)
 - [WinSock](#winsock) (1)
+- [WinSparkle.dll](#winsparkledll) (1)
 - [wiper](#wiper) (3)
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
@@ -5443,7 +5504,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WMI](#wmi) (1)
 - [Woodgnat](#woodgnat) (1)
 - [WordlistLoader](#wordlistloader) (1)
-- [WordPress](#wordpress) (15)
+- [WordPress](#wordpress) (16)
 - [wordpress](#wordpress) (1)
 - [WordPress 7.0.4](#wordpress-704) (1)
 - [WordPress credential theft](#wordpress-credential-theft) (1)
@@ -5470,6 +5531,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wp2shell](#wp2shell) (1)
 - [WPMU DEV Dashboard](#wpmu-dev-dashboard) (1)
 - [write-what-where](#write-what-where) (1)
+- [ws2_32.dll](#ws2_32dll) (1)
 - [WScript](#wscript) (1)
 - [wsh](#wsh) (1)
 - [WSL](#wsl) (2)
@@ -5520,6 +5582,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [yardopts](#yardopts) (1)
 - [yardxabc889](#yardxabc889) (1)
 - [Yasmarang](#yasmarang) (1)
+- [YESROBOT](#yesrobot) (1)
 - [YesWeHack](#yeswehack) (1)
 - [Yinhu](#yinhu) (1)
 - [YouTube](#youtube) (3)
@@ -5538,7 +5601,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Zero Trust](#zero-trust) (1)
 - [zero-balance](#zero-balance) (1)
 - [zero-click](#zero-click) (3)
-- [zero-day](#zero-day) (16)
+- [zero-day](#zero-day) (17)
 - [zero-day exploitation](#zero-day-exploitation) (1)
 - [zero-ghsa](#zero-ghsa) (1)
 - [zero-reputation infrastructure](#zero-reputation-infrastructure) (1)
@@ -5546,13 +5609,23 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ZeroBEC](#zerobec) (1)
 - [Zerologon](#zerologon) (1)
 - [Zhipu](#zhipu) (1)
-- [Zimbra](#zimbra) (5)
-- [Zimbra Collaboration Suite](#zimbra-collaboration-suite) (2)
+- [Zimbra](#zimbra) (6)
+- [Zimbra Collaboration Suite](#zimbra-collaboration-suite) (3)
+- [zimbra-exfil](#zimbra-exfil) (1)
+- [zimbra_identity](#zimbra_identity) (1)
+- [zimbraAuthTokenKey](#zimbraauthtokenkey) (1)
+- [zimbraPreAuthKey](#zimbrapreauthkey) (1)
+- [zimclient2](#zimclient2) (1)
+- [zimdown2](#zimdown2) (1)
+- [zimlog.service](#zimlogservice) (1)
 - [Zimperium](#zimperium) (3)
 - [ZimReaper](#zimreaper) (1)
 - [ZIP import](#zip-import) (1)
 - [zLabs](#zlabs) (2)
 - [zlib](#zlib) (1)
+- [zmlocalconfig](#zmlocalconfig) (1)
+- [zmmailboxdmgr](#zmmailboxdmgr) (1)
+- [zmstat-fd](#zmstat-fd) (1)
 - [Zoho Assist](#zoho-assist) (2)
 - [Zoho WorkDrive](#zoho-workdrive) (2)
 - [ZOHOMURK](#zohomurk) (2)
@@ -5565,6 +5638,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## --use-compress-program
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
+
+## .deb webshell
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 
 ## .NET
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
@@ -5667,6 +5743,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## 4sync
 - [GREYVIBE](../actors/greyvibe.md)
+
+## 7-Zip
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
 ## @gl_introduced
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
@@ -6968,6 +7047,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## APT42
 - [Iran-linked threat landscape: access optionality and evidence quality](iran-linked-threat-landscape-july-2026.md)
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 
 ## APT43
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
@@ -7403,6 +7483,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## axios
 - [Operation DangerousPassword axios npm compromise](../ops/operation-dangerouspassword-axios-npm-compromise.md)
 
+## AzCopy exfiltration
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
+
 ## Azure
 - [Fox Tempest](../actors/fox-tempest.md)
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
@@ -7423,6 +7506,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Azure DevOps
 - [Azure DevOps MCP pull-request prompt injection](../patterns/azure-devops-mcp-pr-prompt-injection.md)
+
+## Azure service principal compromise
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## Azure Storage
 - [Cloud bucket namespace hijacking](../patterns/cloud-bucket-namespace-hijacking.md)
@@ -7536,6 +7622,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Baileys
 - [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
+
+## BAITSWITCH
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 
 ## balance-overflow
 - [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
@@ -8624,6 +8713,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## China nexus
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
 
+## China-aligned
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
 ## China-linked
 - [CL-STA-1062](../actors/cl-sta-1062.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
@@ -8892,6 +8984,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Cisco Secure FMC CVE-2026-20316 static-credential exploitation](../ops/cisco-fmc-cve-2026-20316-static-credential-exploitation.md)
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Gitea diffpatch Git-hook RCE added to CISA KEV (CVE-2026-60004)](../ops/gitea-cve-2026-60004-diffpatch-git-hook-rce-kev-august-25-2026.md)
@@ -8977,6 +9070,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## Citrix NetScaler
@@ -9486,6 +9580,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## COLDCARD
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 
+## COLDCOPY
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
+
 ## ColdFusion
 - [Adobe ColdFusion APSB26-68 CVE bonanza](../ops/adobe-coldfusion-apsb26-68-cve-bonanza.md)
 
@@ -9528,6 +9625,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
 - [Cisco Catalyst SD-WAN Manager CVE-2026-20245 / CVE-2026-20262 exploitation](../ops/cisco-catalyst-sd-wan-manager-cve-2026-20245-exploitation.md)
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 - [Lantronix EDS5000 CVE-2025-67038 exploitation](../ops/lantronix-eds5000-cve-2025-67038-exploitation.md)
 - [LiteLLM CVE-2026-42271 MCP stdio command injection](../ops/litellm-cve-2026-42271-mcp-stdio-command-injection.md)
@@ -9535,6 +9633,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Siemens ROX II zero-day exploit chain](../ops/siemens-rox-ii-zero-day-chain.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [Wiz Threat Research: inside 90 days of attacks on AI infrastructure](../ops/wiz-ai-infrastructure-honeypot-90-day-attack-telemetry.md)
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
 ## command string concatenation
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
@@ -9587,6 +9686,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 
 ## compromised websites
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 
@@ -9729,6 +9829,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TELESHIM](../tools/teleshim.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
+## Control Panel applet
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
+
 ## control panel compromise
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
 
@@ -9740,6 +9843,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## control-flow hijacking
 - [isolated-vm ExternalCopy type-confusion sandbox escape (GHSA-864f-rcv7-6rh4)](../tools/isolated-vm-external-copy-type-confusion-sandbox-escape.md)
+
+## control.exe
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 
 ## conversation theft
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
@@ -9792,12 +9898,18 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Cortex XDR
 - [State of AI-enabled malware, August 2026 (Unit 42)](../patterns/unit42-state-of-ai-enabled-malware-august-2026.md)
 
+## Cortex Xpanse
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
+
 ## Coruna
 - [art-template Coruna-style iOS watering-hole compromise](../ops/art-template-coruna-ios-watering-hole.md)
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
 
 ## cosign
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
+
+## CosmicPulse
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 
 ## Cosmos
 - [Cosmos EVM vesting-account balance overflow exploited across six chains (GHSA-7g4w-cg88-2cq2, Aug 20–25, 2026)](../ops/cosmos-evm-vesting-balance-overflow-exploited-august-2026.md)
@@ -9843,6 +9955,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LiteSpeed cPanel CVE-2026-48172 exploitation](../ops/litespeed-cpanel-cve-2026-48172-exploitation.md)
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 - [Mr_Rot13 cPanel CVE-2026-41940 backdoor campaign](../ops/mr-rot13-cpanel-cve-2026-41940-backdoor-campaign.md)
+
+## CPanel
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 
 ## CPUID
 - [TELESHIM](../tools/teleshim.md)
@@ -10366,6 +10481,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## CSRF token theft
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 
+## CsrfToken
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
+
 ## CSS
 - [Webmail CSS trust-boundary attacks](../patterns/webmail-css-trust-boundary-attacks.md)
 
@@ -10377,6 +10495,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ctfmon.exe
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
+
+## ctxs.receiver
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 
 ## Curious Serpens
 - [ROADtools](../tools/roadtools.md)
@@ -10404,6 +10525,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## custody APIs
 - [Crypto supply-chain path to transaction authority](../patterns/crypto-supply-chain-transaction-authority.md)
+
+## custom archive format
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
 ## custom C2
 - [Toy Ghouls "Angry Birds" custom backdoor (HiveMQ / Element)](../ops/toy-ghouls-angry-birds-hivemq-element-backdoor-september-2026.md)
@@ -11257,6 +11381,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
 
 ## CVE-2026-73570
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## CVE-2026-7473
@@ -11433,6 +11558,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CVE-2026-87886
 - [CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
+
+## CVE-2026-88771
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
+
+## CVE-2026-88772
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 
 ## CVE-2026-89775
 - [ARM64 KVM nested-virtualization TLB-invalidation miss CVE-2026-89775 guest-to-host escape](../ops/arm64-kvm-nested-virt-tlb-cve-2026-89775-guest-to-host-escape-september-2026.md)
@@ -11654,6 +11785,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## D2IP
 - [Direct-to-IP malware communications](../patterns/direct-to-ip-malware-communications.md)
 
+## DAEMON Tools
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
 ## Dahua
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
 
@@ -11671,6 +11805,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DarkSword
 - [DarkSword / GHOSTBLADE iOS exploit infrastructure](../ops/darksword-ghostblade-ios-exploit-infrastructure.md)
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 
 ## Dart
 - [XCSSET hides inside a pub.dev Flutter package: `universal_file_viewer` (Aikido, Sep 8, 2026)](../ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md)
@@ -11764,6 +11899,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DAYLIGHT
 - [GREYVIBE](../actors/greyvibe.md)
+
+## dbghelp.dll
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
 ## DCIS
 - [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
@@ -12276,6 +12414,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## disk wiping
 - [GigaWiper](../tools/gigawiper.md)
 
+## Disk2vhd
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
 ## disposable infrastructure
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
 
@@ -12326,6 +12467,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
 - [Mustang Panda](../actors/mustang-panda.md)
 - [Mustang Panda ZOHOMURK / MINIRECON India campaigns](../ops/mustang-panda-zohomurk-minirecon-india-campaigns.md)
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 - [Operation Dragon Weave Azure Blob C2 campaign](../ops/operation-dragon-weave-azure-blob-c2.md)
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
@@ -12412,6 +12554,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## DNS-tunneling
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+
+## dnsapi.dll
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
 ## DNSKEY
 - [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
@@ -12610,6 +12755,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## dsh
 - [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 
+## DTLS
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
+
 ## dual-function malware
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
 
@@ -12725,6 +12873,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [FortiOS CVE-2025-68686 symlink-persistence bypass](../ops/fortios-cve-2025-68686-symlink-persistence-bypass.md)
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
@@ -12923,6 +13072,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ENCFORGE
 - [ENCFORGE](../tools/encforge.md)
 - [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+
+## encryptbase64.ps1
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
 ## encrypted C2
 - [LurkProxy](../tools/lurkproxy.md)
@@ -14056,6 +14208,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [STOCKSTAY](../tools/stockstay.md)
 - [Turla](../actors/turla.md)
 
+## FSB Centre 18
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
+
 ## fscan
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
 
@@ -14211,6 +14366,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## GERT
 - [PAYLOAD ransomware delivered domain-wide impact entirely through Active Directory: a Kaspersky GERT incident where the "ransomware" was two malicious GPOs linked at the domain root — ransom wallpaper, logon banner, firewall-off, and local-admin disablement across every endpoint with NO encryptor, NO resident binary, and NO endpoint persistence (September 21, 2026)](../ops/payload-ransomware-gpo-domain-root-attack-middle-east-manufacturing-kaspersky-september-2026.md)
+
+## GetUserName anomaly
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 
 ## GHETTOVIBE
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
@@ -15291,6 +15449,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Kimwolf v7](../tools/kimwolf-v7.md)
 - [MODBEACON](../tools/modbeacon.md)
 
+## httpd.conf patching
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
+
 ## HttpMalice
 - [Kimsuky / Emerald Sleet / TA427](../actors/kimsuky-emerald-sleet-ta427.md)
 
@@ -15506,6 +15667,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Impacket
 - [Gunra ransomware-as-a-service activity](../ops/gunra-ransomware-raas.md)
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 - [NightEagle (APT-Q-95) expands to Russian companies: GhostContainer on Exchange via VIEWSTATE injection, C2 hidden in `x-owa-urlpostdata` headers, Microsoft dev tunnels + rdp2tcp as the covert RDP channel, BlueKeep and DCSync for domain takeover (Kaspersky GERT, Sep 16, 2026)](../ops/nighteagle-ghostcontainer-exchange-dev-tunnel-rdp2tcp-dcsync-russia-kaspersky-september-2026.md)
 - [OctLurk and SilkLurk Central Asia espionage campaign](../ops/octlurk-silklurk-central-asia-espionage.md)
 - [PAN-OS GlobalProtect CVE-2026-0257 exploitation](../ops/pan-os-globalprotect-cve-2026-0257-exploitation.md)
@@ -15792,8 +15954,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
 ## initial access
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 - [Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE chain (VulnCheck, Aug 24)](../ops/microsoft-sharepoint-cve-2026-55040-cve-2026-63520-rce-chain-vulncheck.md)
 - [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
 ## initial access broker
 - [Backdoor.Mistic / KongTuke ModeloRAT activity](../ops/mistic-backdoor-kongtuke-modelorat.md)
@@ -16219,6 +16383,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Jiří Vinopal
 - [BTR Reforged: weaponizing Microsoft Defender's BTR.sys remediation driver as a kernel primitive](../ops/microsoft-defender-btr-sys-reforged-btr-cli.md)
 
+## jli.dll
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
 ## job-lure
 - [TraderTraitor / Jade Sleet: the KelpDAO–LayerZero macOS backdoors (FLATROOF = our on-wiki macOS.Gaslight, + ROOFDECK with Nostr-resolved C2 and signed commands) resurface on an Indian IT-services victim with no crypto ties — weaponized `.terraform.lock.hcl` lures, a dormant-until-Cursor-opened foothold, and a day-after-disclosure stealth rebuild (SentinelOne Labs, Sep 18, 2026)](../ops/tradertraitor-jade-sleet-flatroof-roofdeck-macos-terraform-lockfile-lures-india-it-provider-sentinelone-september-2026.md)
 
@@ -16308,6 +16475,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## JSP web shell
 - [Oracle PeopleSoft CVE-2026-35273 ShinyHunters exploitation](../ops/oracle-peoplesoft-cve-2026-35273-shinyhunters.md)
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
 ## JuicyPotato
 - [CL-STA-1062](../actors/cl-sta-1062.md)
@@ -16847,6 +17015,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## libcurl
 - [CrashStealer macOS notarized-dropper campaign](../ops/crashstealer-macos-notarized-dropper.md)
 
+## libcurl.dll
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
 ## libde265
 - [Hacktron "HEIF Heist": libheif image-parser bug in OpenAI's Discourse forum chained to employee ChatGPT/Codex account takeover and internal-repo access — exploit built within hours of Claude Opus 5's release ($6,500 bounty, Sep 18, 2026)](../ops/hacktron-heif-heist-openai-discourse-breach-opus5-september-2026.md)
 
@@ -16967,6 +17138,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Linux rootkit
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
 
+## ListKeys credential collection
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+
 ## LiteLLM
 - [Anthropic Threat Intelligence report (September 2026): GTG case studies — autonomous malware-rebuild loops, ShinyHunters AI uplift, a Changsha exploit foundry, and prompt-injection of AI evaluation sandboxes](../ops/anthropic-threat-intelligence-report-september-2026-ai-augmented-operations.md)
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
@@ -17065,6 +17239,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
 - [Photo ZIP hospitality Node.js implant campaign](../ops/photo-zip-hospitality-nodejs-implant.md)
 - [SideCopy](../actors/sidecopy.md)
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
 
 ## LNK files
@@ -17165,6 +17340,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
 ## log poisoning
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 - [Cloud logging control-plane tampering](../patterns/cloud-logging-control-plane-tampering.md)
 
 ## log sanitization
@@ -17417,6 +17593,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MagicYUV
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+
+## mail server
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
 ## mail server compromise
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
@@ -18034,6 +18213,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Defender CVE-2026-41091 / CVE-2026-45498 exploitation](../ops/microsoft-defender-cve-2026-41091-cve-2026-45498-exploitation.md)
 - [Microsoft Defender CVE-2026-50656 RoguePlanet / ShieldBreak patch bypass](../ops/microsoft-defender-cve-2026-50656-rogueplanet-shieldbreak.md)
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 
 ## Microsoft Defender exclusion
@@ -18122,8 +18303,10 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACR Stealer](../tools/acr-stealer.md)
 - [DeadLock ransomware](../tools/deadlock-ransomware.md)
 - [GigaWiper](../tools/gigawiper.md)
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
 ## Microsoft typosquat
 - [OX Security: ClickFix phishing pages hidden in 24 npm packages, using registry mirrors as payload storage](../ops/ox-clickfix-phishing-npm-mirror-payload-storage.md)
@@ -18565,6 +18748,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## MSSQL
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
 
+## msvcrt140.dll
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
 ## MSXML2.XMLHTTP
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 
@@ -18761,6 +18947,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Nebula Security
 - [Linux GhostLock CVE-2026-43499 container escape](../ops/linux-ghostlock-cve-2026-43499-container-escape.md)
 
+## NeedyMantis
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
 ## Negotiate
 - [BridgeHead](../tools/bridgehead.md)
 
@@ -18818,6 +19007,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 
 ## NetScaler ADC
@@ -18835,6 +19025,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 
 ## NetSetup.log
 - [NightLedger](../tools/nightledger.md)
@@ -18925,6 +19116,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Nginx module
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
+
+## NGOs
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 
 ## ngrok
 - [Coding-agent-parented tunnels and persistence](../patterns/coding-agent-parented-tunnels-and-persistence.md)
@@ -19054,6 +19248,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## non-standard protocol abuse
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
+
+## NOROBOT
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 
 ## North Korea
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
@@ -19223,8 +19420,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## npx confusion
 - [npm bin-entry dependency confusion: Google-scoped bin name harvesting](../patterns/npm-bin-entry-dependency-confusion.md)
 
+## ns_monuploadd_err.pl
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
+
+## ns_suidcmd
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
+
 ## NSA
 - [AA26-231A: AI-generated exploit scripts target Siemens S7 PLCs in U.S. critical infrastructure](../ops/aa26-231a-siemens-s7-ai-generated-exploit-scripts-us-critical-infrastructure.md)
+
+## NSC_TASS
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 
 ## NSecKrnl.sys
 - [Storm-2603 parallel SharePoint ransomware intrusion](../ops/storm-2603-parallel-sharepoint-ransomware-intrusion.md)
@@ -19299,6 +19505,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## NVIDIA impersonation
 - [LabubaRAT](../tools/labubarat.md)
 
+## nvml.dll
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
 ## NX-OS
 - [Cisco Nexus 9000 CVE-2026-20212: unauthenticated root RCE on 10 Silicon One-based switches — plus a 7-CVE IOS XR hardening release](../ops/cisco-nexus-9000-cve-2026-20212-unauth-root-rce-september-2026.md)
 
@@ -19307,6 +19516,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OAST
 - [Microsoft: AI infrastructure gateways and control points as high-value intrusion targets](../ops/microsoft-ai-infrastructure-gateways-control-points-august-2026.md)
+
+## oast.fun
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
 ## oastify
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
@@ -19363,6 +19575,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OBF networks
 - [UNC6508](../actors/unc6508.md)
+
+## obfuscated stack strings
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
 ## obfuscation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -20129,6 +20344,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Citrix NetScaler CVE-2026-19489 / CVE-2026-19490 Gateway/AAA auth bypass and LSN/SIP-ALG DoS](../ops/citrix-netscaler-cve-2026-19489-19490-gateway-aaa-auth-bypass.md)
 - [Citrix NetScaler CVE-2026-8451 memory overread](../ops/citrix-netscaler-cve-2026-8451-memory-overread.md)
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
 - [City Forum: single-IP Salesforce and ServiceNow guest-access scraping](../ops/city-forum-salesforce-servicenow-guest-access-scraping.md)
 - [CL-STA-1062 Southeast Asia government and energy intrusions](../ops/cl-sta-1062-southeast-asia-tinyrct.md)
@@ -20393,6 +20609,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
 - [Splunk Enterprise CVE-2026-20253 pre-auth file write / RCE](../ops/splunk-enterprise-cve-2026-20253-preauth-file-write-rce.md)
 - [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [StegaBin Pastebin-steganography npm campaign](../ops/stegabin-pastebin-steganography-npm-campaign.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
@@ -20474,6 +20691,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## OPSEC
@@ -20783,6 +21001,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PAM credential validation
 - [PamStealer](../tools/pamstealer.md)
+
+## pam_exec
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
 ## PamStealer
 - [PamStealer](../tools/pamstealer.md)
@@ -21244,6 +21465,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Spark RAT: Cambodia-focused cluster uses a multi-stage Inno/DLL side-load chain and the vulnerable OPSWAT ardrv.sys driver](../tools/spark-rat-cambodia-ardrv-sys-byovd-multi-stage.md)
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [TA4922](../actors/ta4922.md)
 - [UNK_DeadDrop developer repository phishing](../ops/unk-deaddrop-developer-repository-phishing.md)
 
@@ -21437,6 +21659,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Pods
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 
+## Poedit
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
 ## poisoned-branch
 - [Famous Chollima Packagist dev-branch loader](../ops/famous-chollima-packagist-dev-branch-loader.md)
 
@@ -21511,6 +21736,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## post-authentication RCE
 - [UNK_MassTraction Roundcube university mailserver campaign](../ops/unk-masstraction-roundcube-university-mailserver-campaign.md)
+
+## post-compromise
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
 ## post-exploitation
 - [AI-augmented adversary operations](../patterns/ai-augmented-adversary-operations.md)
@@ -21800,6 +22028,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## process.env theft
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
+
+## ProcessDebugFlags
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
 ## procfs
 - [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
@@ -22383,6 +22614,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## RC4
 - [@marketfront / @tqm-mfe dependency-confusion stealer](../ops/marketfront-tqm-mfe-dependency-confusion-stealer.md)
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 - [OP-512](../actors/op-512.md)
 - [StealC / Amadey infrastructure disruption](../ops/stealc-amadey-infrastructure-disruption.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
@@ -22559,6 +22791,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## REDCap
 - [UNC6508](../actors/unc6508.md)
+
+## RedFlick
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 
 ## Redis
 - [Argo CD repo-server unauthenticated RCE](../ops/argo-cd-repo-server-unauthenticated-rce.md)
@@ -22838,6 +23073,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## resolver
 - [Unbound DNSSEC validator: CVE-2026-81642 DNSKEY compression-pointer digest overflow (Critical 9.1) — every Unbound ≤ 1.26.0 remotely reachable from any malicious zone; fixed 1.26.1 (NLnet Labs, Sep 16, 2026)](../tools/unbound-dnssec-dnskey-compression-pointer-heap-overflow-cve-2026-81642-nlnetlabs-september-2026.md)
 
+## resource destruction
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
+
 ## responsible disclosure
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
 - [CosmosEscape Azure Cosmos DB cross-tenant takeover](../ops/cosmosescape-azure-cosmos-db-cross-tenant-takeover.md)
@@ -23109,6 +23347,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## RSA-OAEP
 - [HOLLOWGRAPH](../tools/hollowgraph.md)
 
+## rsync lateral movement
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
+
 ## RT-Thread
 - [FatFs CVE-2026-6682 to CVE-2026-6688 embedded-filesystem bug cluster](../ops/fatfs-cve-2026-6682-6688-embedded-filesystem-bugs.md)
 
@@ -23192,6 +23433,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation CameraSwarm: 14,500+ Dahua cameras compromised via auth bypass and P2P relay](../ops/cameraswarm-dahua-camera-compromise-cve-2021-33044.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
@@ -23468,6 +23710,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ACR Stealer](../tools/acr-stealer.md)
 - [GigaWiper](../tools/gigawiper.md)
 - [Operation XENOFISCAL SideCopy XenoRAT campaign](../ops/operation-xenofiscal-sidecopy-xenorat.md)
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [Stock exchange executive mailbox espionage](../ops/stock-exchange-executive-mailbox-espionage.md)
 - [StrikeShark SharkLoader / Cobalt Strike campaign](../ops/strikeshark-sharkloader-cobalt-strike.md)
 - [The Gentlemen ransomware](../tools/the-gentlemen-ransomware.md)
@@ -24360,7 +24603,11 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 
 ## SNMP
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
+
+## snmptrap
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
 ## Snowflake
 - [JINX-0163 / FulcrumSec](../actors/jinx-0163.md)
@@ -24932,6 +25179,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## stale state
 - [State divergence enables unauthorized access: Provenance marker module anyone-can-pass check](../patterns/provenance-marker-state-divergence-access-control.md)
 
+## Star Blizzard
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
+
 ## Starland RAT
 - [UAT-11795](../actors/uat-11795.md)
 - [UAT-11795 Starland / WLDR campaign](../ops/uat-11795-starland-wldr-campaign.md)
@@ -25001,6 +25251,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## steganography
 - [ACR Stealer](../tools/acr-stealer.md)
 - [Contagious Interview SVG-steganography OtterCookie campaign](../ops/contagious-interview-svg-steganography-ottercookie.md)
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [StegoAd Edge extension steganography campaign](../ops/stegoad-edge-extension-steganography-campaign.md)
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 - [Unit 42: CL-CRI-1171 "Untracked Nightmares" — a pay-per-install marketplace behind commodity-looking loader infections](../ops/unit42-clcri-1171-offerloader-ppi-marketplace-september-2026.md)
@@ -25061,11 +25312,17 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Storm-3032
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
 
+## Storm-3069
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
 ## Storm-3075
 - [AI-brand impersonation phishing and malvertising](../patterns/ai-brand-impersonation-phishing-malvertising.md)
 
 ## Storm-3121
 - [Microsoft: passkey-themed social engineering leads to identity and cloud compromise — Storm-3121 / Storm-3032 ecosystem](../ops/microsoft-passkey-social-engineering-identity-cloud-compromise-september-9-2026.md)
+
+## Storm-3168
+- [JADEPUFFER Langflow agentic ransomware](../ops/jadepuffer-langflow-agentic-ransomware.md)
 
 ## Stowaway
 - [GoSerpent Southeast Asia espionage campaign](../ops/goserpent-southeast-asia-espionage-campaign.md)
@@ -25114,6 +25371,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## SuccessKey
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
+
+## sudoers
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
+
+## SUID /bin/sh
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 
 ## summarization
 - [Adversa "Cryptographic Context Injection": web pages steal Grok chat data](../ops/adversa-cryptographic-context-injection-grok-chat-data-exfiltration.md)
@@ -25350,6 +25613,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## swapzone
 - [ClickFix moves into the browser: cryptocurrency theft with Google-hosted C2](../ops/talos-clickfix-browser-crypto-theft-google-visualization-api-c2-september-2026.md)
+
+## swatchdog
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
 ## SWE-agent
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -25675,6 +25941,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## telecom-impersonation
 - [Hunt.io global smishing infrastructure campaign](../ops/huntio-global-smishing-government-postal-telecom.md)
 
+## telecommunication targeting
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
 ## telecommunications
 - [Malicious infrastructure provider concentration](../patterns/malicious-infrastructure-provider-concentration.md)
 - [Mirage Kitten](../actors/mirage-kitten.md)
@@ -25855,6 +26124,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## ThemeREX Addons
 - [WP-SHELLSTORM webshell access brokerage](../ops/wp-shellstorm-webshell-access-brokerage.md)
 
+## think tanks
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
+
 ## third-party email
 - [Microsoft: AI-assisted executive impersonation and invoice fraud — million-email ACH scam (Sep 10, 2026)](../ops/microsoft-ai-assisted-executive-impersonation-invoice-fraud-ach-campaign-september-2026.md)
 
@@ -25870,6 +26142,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## thought virus
 - [AI "mind viruses": agent-to-agent spread via persistent prompt files](../patterns/ai-mind-viruses-agent-to-agent-propagation.md)
+
+## ThreadHideFromDebugger
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
 ## threat hunting
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
@@ -25906,6 +26181,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## timestomping
 - [SPECTRE (cross-platform C backdoor) and the Specter Linux rootkit](../tools/spectre-cross-platform-backdoor-specter-rootkit.md)
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
 ## timing attack
 - [Cloudflare Workers remote Spectre attack leaks co-tenant JWT](../ops/cloudflare-workers-spectre-co-located-jwt-leak.md)
@@ -26079,6 +26355,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MODBEACON](../tools/modbeacon.md)
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
 - [MYRA RAT](../tools/myra-rat.md)
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 - [NightLedger](../tools/nightledger.md)
 - [NodeRabbit](../tools/noderabbit.md)
 - [OctLurk](../tools/octlurk.md)
@@ -26546,6 +26823,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Russian state IP-camera military-logistics espionage](../ops/russian-state-ip-camera-military-logistics-espionage.md)
 - [Showboat](../tools/showboat.md)
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [UAC-0145](../actors/uac-0145.md)
 - [UAC-0145 ClickFix, SMARTAXE, and COWARDDUCK campaign](../ops/uac-0145-clickfix-smartaxe-cowardduck.md)
 - [UAC-0226 / SHADOW-EARTH-066](../actors/uac-0226-shadow-earth-066.md)
@@ -26591,6 +26869,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [StyleSmuggler (CVE-2026-75650): Magento / Adobe Commerce unauthenticated RCE zero-day under active attack — Adobe emergency hotfix VULN-39341 (APSB26-146) (Sansec, Sep 5; Adobe, Sep 7, 2026)](../ops/stylesmuggler-magento-adobe-commerce-unauth-rce-zero-day-sansec-september-2026.md)
 - [Unitree G1 EDU: two independent root-RCE chains (CVE-2026-76639, CVE-2026-76640), one starting over Bluetooth](../ops/unitree-g1-edu-two-root-rce-chains-cve-2026-76639-76640.md)
 - [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## unauthenticated access
@@ -26749,6 +27028,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Unit 42
 - [A vault with a heap-view: AWS AgentCore Harness's default-on root shell tool reads AgentCore Identity vault credentials as plaintext from PID 1 memory after indirect prompt injection (Unit 42, Sep 18, 2026)](../patterns/unit42-aws-agentcore-harness-shell-identity-vault-heap-exfiltration-september-2026.md)
 - [AMOS (Atomic macOS Stealer): the indicators always rotate — Unit 42's early-August 2026 lab snapshot pins the durable pattern (fake "macOS toolkit" quick-setup page → clipboard-paste Zsh → `/tmp/helper` → masquerade dirs `.com.apple.accountsd` / `.com.apple.metadata.mds` → Terminal-app TCC permission prompts → staged `stage=` C2 URLs)](../tools/amos-atomic-macos-stealer-evolving-indicators-unit42-september-2026.md)
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 - [CL-STA-1114 / Void Blizzard](../actors/cl-sta-1114-void-blizzard.md)
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [FortiBleed Fortinet credential exposure](../ops/fortibleed-fortinet-credential-exposure.md)
@@ -26902,6 +27182,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## user verification
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
+## User-Agent injection
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 
 ## UserAssist
 - [Brazilian education LockBit, DragonForce, and insider incidents](../ops/brazil-education-lockbit-dragonforce-insider-incidents.md)
@@ -27067,6 +27350,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## VHD
 - [Operation QUICSILVER: VHD-delivered Go backdoor targets Myanmar diplomats](../ops/operation-quicsilver-vhd-delivered-go-backdoor-myanmar.md)
 
+## VHDX
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
+
 ## vibe coded
 - [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
 
@@ -27112,6 +27398,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ViewState deserialization
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
+
+## vim64.dll
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
 ## ViPNet
 - [HelloNet ViPNet update-system campaign](../ops/hellonet-vipnet-update-system-campaign.md)
@@ -27539,6 +27828,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## web shell
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 - [Everest Forms Pro CVE-2026-3300 exploitation](../ops/everest-forms-pro-cve-2026-3300-exploitation.md)
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
@@ -27583,6 +27873,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [E4del and PINHOLE RATs use FTP banners as dead drop resolvers](../ops/e4del-pinhole-ftp-banner-dead-drop-resolver-rats.md)
 - [Exposed WebDAV malware delivery lab and CURP campaign](../ops/exposed-webdav-malware-delivery-lab-curp-campaign.md)
 - [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 
 ## webhook.site
@@ -27905,6 +28196,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## WinSock
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 
+## WinSparkle.dll
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
+
 ## wiper
 - [GigaWiper](../tools/gigawiper.md)
 - [Handala](../actors/handala.md)
@@ -27954,6 +28248,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Operation Endgame SocGholish disruption](../ops/operation-endgame-socgholish-disruption.md)
 - [ownCloud CVE-2023-49105 exploited against a Philippine nuclear research body (Hunt.io)](../ops/owncloud-cve-2023-49105-philippine-nuclear-exploitation-hunt-io-august-2026.md)
 - [Patriot Bait AI-assisted C2 botnet](../ops/patriot-bait-ai-assisted-c2-botnet.md)
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [StopAndProtect: ~2,000 hacked WordPress sites powering distributed malware, data theft, and ransomware](../ops/stopandprotect-hacked-wordpress-malware-infrastructure.md)
 - [WordPress batch: WPMU DEV Dashboard, Avada, TranslatePress, Pods, GiveWP — five critical unauthenticated flaws](../ops/wordpress-wpmu-dev-avada-translatepress-pods-givewp-critical-batch-august-29-2026.md)
 - [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
@@ -28059,6 +28354,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## write-what-where
 - [Citrix NetScaler CVE-2026-8452(?): watchTowr's pre-auth RCE chain via SAML canonicalization heap overflow](../ops/citrix-netscaler-cve-2026-8452-preauth-rce-watchtowr.md)
+
+## ws2_32.dll
+- [NeedyMantis: a modular post-compromise malware family built from loaders, a custom encrypted archive format, a custom executable format, and DLL-sideloaded disguise packages — found while pivoting off the DAEMON Tools compromise (Microsoft, Sep 28, 2026)](../tools/needymantis-modular-post-compromise-framework-dll-sideload-disguise-archive-microsoft-september-2026.md)
 
 ## WScript
 - [Crypto Clipper Tor / USB worm](../ops/crypto-clipper-tor-usb-worm.md)
@@ -28234,6 +28532,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Yasmarang
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 
+## YESROBOT
+- [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
+
 ## YesWeHack
 - [ChocoPoC fake PoC supply-chain campaign](../ops/chocopoc-fake-poc-supply-chain-campaign.md)
 
@@ -28299,6 +28600,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [13 malicious Packagist themes deliver iOS spyware and crypto-wallet seed theft (Socket / FUNNULL)](../ops/packagist-themes-ios-spyware-crypto-wallet-seed-theft-socket-funnull.md)
 - [CISA KEV August 11 additions: Windows WinSock zero-day, Metabase, and Cisco ASA/FTD](../ops/cisa-kev-winssock-zero-day-metabase-cisco-august-11-2026.md)
 - [CISA KEV September 8, 2026 additions: four exploited flaws — Adobe/Magento StyleSmuggler RCE, N-able N-central pre-auth RCE, and two Windows local privilege escalations](../ops/cisa-kev-stylesmuggler-nable-windows-lpe-september-8-2026.md)
+- [Citrix NetScaler zero days CVE-2026-88771 and CVE-2026-88772 exploited in the wild: two web-shell chains, a three-stage log-poisoning command injection, 50,277 exposed instances, and a KEV due date that is the day of the brief (Unit 42, Sep 30, 2026)](../ops/citrix-netscaler-cve-2026-88771-88772-zero-day-web-shells-unit42-september-2026.md)
 - [FalconFlank: Chaotic Eclipse releases 0-day privilege-escalation PoC in CrowdStrike Falcon Sensor — abuses "Office malicious macros remediation" (THN, Sep 3, 2026)](../ops/falconflank-crowdstrike-falcon-privilege-escalation-chaotic-eclipse-september-2026.md)
 - [KnowledgeDeliver CVE-2026-5426 ViewState exploitation](../ops/knowledgedeliver-cve-2026-5426-viewstate-exploitation.md)
 - [Metabase unauthenticated SQL-injection zero-day](../ops/metabase-unauthenticated-sql-injection-zero-day.md)
@@ -28339,11 +28641,34 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
 - [Ulej / Flowerbed](../tools/ulej-flowerbed.md)
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## Zimbra Collaboration Suite
 - [CL-STA-1114 Zimbra webmail espionage](../ops/cl-sta-1114-zimbra-webmail-espionage.md)
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
+
+## zimbra-exfil
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
+
+## zimbra_identity
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
+
+## zimbraAuthTokenKey
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
+
+## zimbraPreAuthKey
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
+
+## zimclient2
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
+
+## zimdown2
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
+
+## zimlog.service
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
 ## Zimperium
 - [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
@@ -28362,6 +28687,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## zlib
 - [OctLurk](../tools/octlurk.md)
+
+## zmlocalconfig
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
+
+## zmmailboxdmgr
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
+
+## zmstat-fd
+- [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 
 ## Zoho Assist
 - [Anubis ransomware CitrixBleed 2 / RMM / cloudflared intrusions](../ops/anubis-ransomware-citrixbleed2-rmm-cloudflared.md)

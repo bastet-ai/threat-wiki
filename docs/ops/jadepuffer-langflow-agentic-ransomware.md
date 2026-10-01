@@ -25,6 +25,11 @@ This is durable defender signal even if the specific victim path is narrow: expo
 - Docker socket
 - AI model encryption
 - Sysdig
+- Storm-3168
+- Azure service principal compromise
+- resource destruction
+- ListKeys credential collection
+- Microsoft Threat Intelligence
 
 ## Why this matters
 - Sysdig describes a complete extortion operation delivered through an AI agent rather than a conventional operator-at-keyboard toolkit.
@@ -50,6 +55,22 @@ The defender implication is narrower than “AI makes existing controls obsolete
 - The final script copied `lockd` through `/proc/<pid>/root`, used `nsenter` to execute it on the host, performed a `--try-run`, launched `--lock`, and counted `.locked` files to verify execution.
 - The extortion contact matched the earlier operation. Sysdig disclosed one observed session and no victim count, so broader deployment remains unconfirmed.
 - See the dedicated [ENCFORGE](../tools/encforge.md) page for hashes, file targeting, cryptography, and detection pivots.
+
+## <a id="september-30-storm-3168"></a>September 30 follow-up: Microsoft details the Azure side as Storm-3168 — compromised service principals, a 7-minute destructive sequence, and the credential that was edited out of a public GitHub issue but stayed live in its edit history
+
+Microsoft Threat Intelligence (Sep 25 blog, captured by this wiki via the RSS `content:encoded` field) publishes the **first detailed Azure view of the JADEPUFFER-associated activity, tracked as Storm-3168**, expanding Sysdig's agentic-ransomware narrative with cloud-native destruction mechanics:
+
+- **Two compromised service principals in one tenant, division of labor**: one ran 15.5 hours of reconnaissance (300+ read operations across VMs/subscriptions/resource groups); the second enumerated two subscriptions **in five seconds**, then 16 hours later harvested App Service configuration stores (credential hunting), and **70 seconds after its final inventory operation began a 7-minute destructive sequence** — 150+ destructive/credential-collection operations in 35 minutes, 100+ storage-account deletion attempts (most succeeded), plus a Key Vault, Function App, and App Service plan deletion.
+- **Resource locks and deletion protection BLOCKED several storage deletions** — independent safeguards still worked against a broad-permission compromised identity (the durable positive finding).
+- **Azure SQL deletions all failed on an unsupported API version** — even agent-driven destruction inherits API correctness failures; parallel SQL+storage targeting shows intent to broaden across data services.
+- **Recovery-targeting**: attempted deletion of Azure Site Recovery locks and Backup protection locks; storage accounts with terraform/backup-themed names targeted — ransomware-aligned destruction intent (no ransom note or confirmed exfil observed).
+- **Credential collection**: ~30 min after destruction, the same principal requested storage inventory and made **30+ successful ListKeys** calls, including Site Recovery-related accounts = the destruction+theft double-move.
+- **Automation forensics**: five tokens issued for the destruction SP — four for deletion, one for inventory/ListKeys; **two deletion tokens active simultaneously in the same 70-second window** (token-stream overlap = scripted execution evidence).
+- **Likely initial access, on-wiki durable lesson**: the SP's client ID, secret, and tenant ID had been posted **in plaintext in a public GitHub issue** by an employee; the issue was edited to remove the secret — **but the secret remained retrievable via the issue's public edit history**. Microsoft could not confirm that specific secret was the used vector, but the rule is theirs verbatim: *removing or redacting an exposed secret does not invalidate it; treat any publicly exposed credential as compromised and rotate.*
+- Also observed: Storm-3168-linked infrastructure probing **multiple customers' App Services** since early 2026 on WordPress-admin, PHP-CGI, **LangFlow `/api/v1/validate/code`**, and web-shell-shaped paths (targets did not overlap the impacted tenant; no App-Service→ARM credential path found) = broad app-layer probing beside the identity-side kill chain.
+- Detections/roles: operations followed the identity's own RBAC (group-granted Storage Account Contributor drove the destruction) — **least privilege for workload identities is the whole mitigation**, plus protecting recovery resources and Defender for Cloud coverage.
+
+**Watch**: whether Storm-3168/JADEPUFFER resurfaces with a working exfil or ransom-note path (both failed so far), whether the agentic-division-of-labor pattern (recon SP vs destruction SP, parallel tokens) spreads, and Microsoft's Project Perception/MDASH defender-AI response maturing.
 
 ## Reported chain
 
@@ -93,3 +114,4 @@ The defender implication is narrower than “AI makes existing controls obsolete
 - Sysdig Threat Research Team: [JADEPUFFER evolves: ransomware built to destroy AI models](https://www.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models)
 - Trend Micro Research: [The Signs Were There: What the First Autonomous Ransomware Case Confirms](https://www.trendmicro.com/en_us/research/26/g/autonomous-ransomware.html)
 - The Hacker News: [https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html](https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html)
+- Microsoft Threat Intelligence: [Storm-3168: Agentic-driven cloud attacks using compromised service principals](https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/) (Sep 25, 2026; full text captured by this wiki via RSS `content:encoded`)
