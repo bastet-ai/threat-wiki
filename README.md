@@ -57,5 +57,42 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for contributor workflow, sourcing rule
 
 ## Local verification
 
-Verified command:
-- `uvx --from mkdocs-material mkdocs build --strict`
+```bash
+npm ci
+npm run build
+npm run deploy:check
+npm run test:hosting
+npm run dev
+```
+
+`npm run build` creates an isolated `.venv`, installs the hash-locked Python
+renderer, checks the bounded homepage recents, runs the Python unit tests, and
+builds MkDocs strictly into `site/`. Local Workers hosting uses port 8787.
+
+## Cloudflare publishing
+
+The `threat-wiki` Worker serves `site/` through Workers Static Assets. Directory
+URLs, group paths under `actors/`, search, the manually maintained feed, template
+overrides, and the custom 404 are preserved. Internal `TODO.md`, `drafts/`, source,
+and build files are not published. This static site needs no runtime secrets or
+database. Wrangler enables Worker logs/traces, but asset-only requests bypass
+Worker execution; use Cloudflare HTTP analytics for site traffic.
+
+Workers Builds is not connected yet. After installing the Cloudflare GitHub app,
+connect `bastet-ai/threat-wiki` with production branch `main`, root directory `/`,
+build command `npm run build`, and deploy command `npm run deploy`. The checked-in
+`.node-version` and `.python-version` select the runtime versions. Do not overlap
+automatic deployments with manual ones once connected.
+
+Until then, publish manually from an up-to-date `main` checkout after running the
+validation commands above:
+
+```bash
+npm run deploy
+```
+
+GitHub Actions validates and saves the site artifact only; it does not publish to
+GitHub Pages. The previous Pages deployment remains available for rollback.
+Preview: [threat-wiki.bcrt43.workers.dev](https://threat-wiki.bcrt43.workers.dev/).
+Attach only the exact `threat.wiki` custom domain after verifying the preview and
+the domain changeset; preserve unrelated MX/TXT/DNS records.

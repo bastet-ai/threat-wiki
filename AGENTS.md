@@ -38,15 +38,24 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 - **Notes**: taxonomy, page usage, and editorial guidance
 - **Blog**: short updates or summaries that can feed the landing page
 
-## MkDocs / GitHub Pages lessons learned
+## Cloudflare publishing
+
+- The `threat-wiki` Worker publishes only the generated `site/` directory. Use `npm ci`, `npm run build`, `npm run deploy:check`, and `npm run test:hosting` before `npm run deploy`.
+- `requirements.lock` pins the complete Python renderer with hashes; Wrangler and Playwright are pinned in the npm lockfile. The build preserves the recents check and runs Python unit tests before strict MkDocs generation.
+- Keep `auto-trailing-slash`, `404-page`, the canonical `site_url`, existing page paths, search, manually maintained feed, and tag-index hook. Do not publish root `TODO.md` or `drafts/`.
+- GitHub Actions validates only and retains build artifacts. Workers Builds is not connected yet; README documents manual deployment and the future GitHub app connection. Never overlap automatic and manual deploys.
+- Preserve the existing GitHub Pages deployment for rollback. Domain changes must target only `threat.wiki`, leaving unrelated DNS records untouched.
+- Worker logs and traces do not capture asset-only traffic; use Cloudflare HTTP analytics for those requests.
+
+## MkDocs lessons learned
 - Use `theme.custom_dir` for template overrides; do not add a non-MkDocs `overrides:` key to `mkdocs.yml`.
-- Keep the Pages workflow strict-friendly; any config warning can fail the deploy.
+- Keep the build workflow strict-friendly; any config warning can fail the deploy.
 - Include an RSS feed (`docs/feed.xml`) if you want a simple subscription surface.
 - `docs/blog/index.md` is a hand-curated discovery surface and can link directly to notable group, ops, or tool pages without requiring a separate `docs/blog/*.md` post.
 - `docs/feed.xml` is manually maintained; linking a new page from `docs/blog/index.md` does not update the feed automatically.
 - `hooks/tag_index.py` rewrites page `## Tags` lists into clickable links at build time and regenerates `docs/notes/tag-index.md`; commit the regenerated page when tags change.
-- Keep the landing page updated with a “Recent entries” section capped at 10 links. When adding a new item, prepend it, then run `python3 scripts/normalize_recent_entries.py` before building or committing. The MkDocs hook also caps rendered output, and Pages runs `--check`; do not bypass either guard.
-- If Pages 404s, check the Actions workflow status first; a failed build can look like a site or cert problem.
+- Keep the landing page updated with a “Recent entries” section capped at 10 links. When adding a new item, prepend it, then run `python3 scripts/normalize_recent_entries.py` before building or committing. The MkDocs hook also caps rendered output, and the build runs `--check`; do not bypass either guard.
+- If the site 404s, check deployment and validation status first; a failed build can look like a site or cert problem.
 - As of 2026-03-26, `uvx --from mkdocs-material mkdocs build --strict` emits a `uvx` warning that `mkdocs` comes from the `mkdocs` dependency, but the command still exits `0` and completes the build.
 - As of 2026-03-26, `uvx --from mkdocs-material mkdocs build --strict` reports `docs/blog/2026-03-26-teampcp.md` as outside nav, but this is currently info-only and does not fail the local build.
 

@@ -4,3 +4,9 @@ test-results/
 playwright-report/
 __pycache__/
 *.pyc
+.venv/
+.wrangler/
+.cache/
+.env
+.env.*
+.dev.vars*

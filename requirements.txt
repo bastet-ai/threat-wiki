@@ -1,0 +1,3 @@
+# Direct build dependencies; requirements.lock pins the complete environment.
+mkdocs==1.6.1
+mkdocs-material==9.7.7

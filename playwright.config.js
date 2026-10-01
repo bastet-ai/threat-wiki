@@ -9,9 +9,9 @@ module.exports = defineConfig({
     browserName: 'chromium'
   },
   webServer: {
-    command: 'uvx --from mkdocs-material mkdocs build --strict && python3 -m http.server 4174 -d site',
+    command: 'npm run build && npm run dev -- --port 4174',
     url: 'http://127.0.0.1:4174',
     reuseExistingServer: !process.env.CI,
-    timeout: 180_000
+    timeout: 240_000
   }
 });
