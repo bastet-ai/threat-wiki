@@ -65,6 +65,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [account hijacking](#account-hijacking) (1)
 - [account lockout](#account-lockout) (1)
 - [account takeover](#account-takeover) (9)
+- [account-selling funnel](#account-selling-funnel) (1)
 - [account-takeover](#account-takeover) (1)
 - [accounts payable](#accounts-payable) (1)
 - [accountsd masquerade](#accountsd-masquerade) (1)
@@ -774,6 +775,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChainDrop](#chaindrop) (2)
 - [chainlit](#chainlit) (1)
 - [ChainVeil](#chainveil) (1)
+- [channel follow query_id 7871414976211147](#channel-follow-query_id-7871414976211147) (1)
 - [Chaos ransomware](#chaos-ransomware) (1)
 - [Chaotic Eclipse](#chaotic-eclipse) (2)
 - [charging](#charging) (1)
@@ -3672,7 +3674,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OWA](#owa) (1)
 - [OWAReaper](#owareaper) (2)
 - [ownCloud](#owncloud) (2)
-- [OX Security](#ox-security) (8)
+- [OX Security](#ox-security) (9)
 - [OxideHarvest](#oxideharvest) (1)
 - [OYSTERBLUES](#oysterblues) (1)
 - [OYSTERFRESH](#oysterfresh) (1)
@@ -3810,6 +3812,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PhantomGraph](#phantomgraph) (1)
 - [PhantomMail](#phantommail) (1)
 - [PhantomRelay](#phantomrelay) (1)
+- [PhantomSub](#phantomsub) (1)
 - [Philippines](#philippines) (2)
 - [phishing](#phishing) (36)
 - [phishing evasion](#phishing-evasion) (1)
@@ -5447,6 +5450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Werkbit](#werkbit) (1)
 - [WhatsApp](#whatsapp) (5)
 - [WhatsApp phishing](#whatsapp-phishing) (1)
+- [WhatsApp spam monetisation](#whatsapp-spam-monetisation) (1)
 - [WHCP](#whcp) (1)
 - [white-label](#white-label) (1)
 - [whitespace hiding](#whitespace-hiding) (1)
@@ -5852,6 +5856,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Pimcore Studio: five coordinated flaws (Aug 28, 2026) — DataObject field-name RCE (CVE-2026-55634, 9.9), Hotspotimage PHP object injection (CVE-2026-55220), and a three-item privilege-escalation / SQLi / account-takeover set](../ops/pimcore-studio-dataobject-rce-php-object-injection-cve-2026-55634-batch-august-28-2026.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
 - [Synced passkey theft after endpoint compromise](../patterns/synced-passkey-endpoint-compromise.md)
+
+## account-selling funnel
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 
 ## account-takeover
 - [node-ipc 2026 npm maintainer-account compromise](../ops/node-ipc-2026-npm-maintainer-compromise.md)
@@ -8649,6 +8656,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ChainVeil
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
+
+## channel follow query_id 7871414976211147
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 
 ## Chaos ransomware
 - [TWINLOOT: modular Python implant running M365 C2 inside trusted Microsoft services](../ops/twinloot-m365-dead-drop-teams-turn-python-implant.md)
@@ -20849,6 +20859,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OX Security
 - [@7nohe/openapi-react-query-codegen npm compromise via exposed publishing workflow (Aug 28, 2026)](../ops/7nohe-openapi-react-query-codegen-npm-compromised-august-2026.md)
 - [Apache Zeppelin CVE-2026-44613 CSRF into unauthorized notebook actions](../ops/apache-zeppelin-cve-2026-44613-csrf.md)
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 - [DeepSeek Harness CVE-2026-82533: a sandboxed AI agent disables its own sandbox with one shell command](../tools/deepseek-harness-cve-2026-82533-agent-sandbox-escape.md)
 - [Four critical CVEs in one 24-hour window, one shared failure: OX Security's root-cause analysis of Netty CVE-2026-75595 (fragmented ClientHello → mTLS bypass) and GitPython CVE-2026-78676 (dormant config value → live `core.hooksPath` → RCE), alongside the two Next.js RCEs (Sep 14, 2026)](../tools/four-critical-trust-failure-cves-netty-sni-fallback-gitpython-hookspath-ox-september-2026.md)
 - [GitLab GraphQL CVE-2026-19478 / CVE-2026-19650 critical patch](../ops/gitlab-graphql-cve-2026-19478-19650-critical-patch.md)
@@ -21426,6 +21437,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## PhantomRelay
 - [GREYVIBE](../actors/greyvibe.md)
+
+## PhantomSub
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 
 ## Philippines
 - [Operation GriefLure Southeast Asia LNK dropper](../ops/operation-grieflure-southeast-asia-lnk-dropper.md)
@@ -27975,6 +27989,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## WhatsApp phishing
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
+
+## WhatsApp spam monetisation
+- [Baileys / libsignal-node npm campaign: silent WhatsApp channel-follow abuse](../ops/baileys-libsignal-node-npm-whatsapp-channel-follow-campaign.md)
 
 ## WHCP
 - [Alinubx.sys / Rapuncel: fake LastPass Authenticator installer, Microsoft-signed BYOVD driver that kills 145 security processes (LastPass + Delphos Labs, Sep 17/21, 2026)](../tools/alinubx-sys-rapuncel-fake-lastpass-byovd-stealer-lastpass-delphos-september-2026.md)
