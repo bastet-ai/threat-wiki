@@ -584,6 +584,46 @@ Survivor and cluster-state pass (twenty-third):
 
 **Feeds:** StepSecurity newest still the Sep 30 sckit teardown. Socket feed 403 (CF challenge, fourth straight check). No Shai-Hulud / Mini Shai-Hulud / TeamPCP follow-up in any checked stream.
 
+## <a id="october-2-forty-fourth-sweep"></a>October 2 forty-fourth sweep (~07:15–08:00 UTC): OSV stream moves +17 — FIFTEEN new PhantomSub Baileys names advised in one batch, ALL live and installable, carrying ~1,700 dl/wk among them, some living on npm since mid-August; Graphalgo's two Go modules FINALLY get OSV records; and this wiki's GHSA `affects=` lookup method is proven BROKEN — the "zero GHSA mirrors" claims must be re-derived from OSV `aliases` (which hold up)
+
+**OSV stream moved: HIGH-WATER NOW `MAL-2026-17454`, resume 17455** (17455–17465 not-found). Seventeen new records since the forty-third sweep in two batches: `17438`–`17452` (published 2026-10-01T23:05:37Z, modified ~05:30Z Oct 2) and `17453`–`17454` (published Oct 2 00:00Z, modified ~07:01Z Oct 2).
+
+**MECHANIC CORRECTION (affects every past sweep's "GHSA-blind" claims): the GitHub advisory API `?affects=` package filter silently returns EMPTY for these names.** Control test this sweep: `affects=npm/homestack-cheer` → `[]`, yet `GHSA-x567-p88w-3697` demonstrably lists `homestack-cheer` in its own `vulnerabilities[].package.name` (verified by direct GHSA GET); `affects=npm/@fidzzhost/baileys` → `[]` vs known `GHSA-vc2v-c8j2-qxg9`. `search/advisories` endpoint is 404 on this installation outright. **The reliable programmatic join is OSV `POST /v1/query` → read `aliases`:** homestack-cheer correctly returns `MAL-2026-16333 [GHSA-x567-p88w-3697]`. Good news: the forty-third sweep's headline claim survives re-derivation — OSV query for `figma-to-apl`, `okra-cloud-cdk`, and `@bluewin/utils` all return their MAL record with `aliases: []`, so the ten-name fleet + `@bluewin/utils` genuinely have ZERO GHSA mirrors. But every earlier negative claim made via `affects=` is unproven, not proven-absent; this wiki's method going forward is OSV-aliases-first, direct-GHSA-GET to confirm any positive. `ghsa_grammes`-style keyword search on the bare `advisories` listing remains a valid positive-detection path but cannot prove absence.
+
+**HEADLINE — `MAL-2026-17438`–`17452` = fifteen-name PhantomSub batch, and the registry state is the scandal: ALL fifteen still live and installable at check.** OSV text (identical family boilerplate, cites the OX Security PhantomSub post as source): fork of Baileys, three unconditional follow routines — hardcoded char-code-rebuilt JID `120363342327876451@newsletter` fired in the `CB:success` login handler, runtime fetch of `raw.githubusercontent.com/Denzy-Lawrence/anu/refs/heads/main/anu.json` (this wiki: **still serving, exactly that one JID**), plus a `new Function(atob(...))` follow+MUTE routine 30 s after connection open, and a second `connection.update` handler fetching `Denvy-Lawrence/anu` (404 at this wiki's check = dead rail, revivable any time); `lib/index.js` evals a base64 "Baileys Custom By Denzy ZeroDay" banner on import. OSV's own static review scopes harm as follower-inflation, no credential exfil, no install-time payload, no persistence — consistent with the page's standing framing. Registry forensics (this wiki, ~07:30Z):
+
+| Name | npm state | created | dl/wk |
+| --- | --- | --- | --- |
+| `ichigo-baileys` | LIVE latest 1.0.5 | Sep 24 | **394** |
+| `xcvrenzcompany` | LIVE latest 2.0.0 | Sep 29 | **311** |
+| `prastzy` | LIVE 1.0.0 | Sep 28 23:18Z | 225 |
+| `prastzyy` | LIVE 1.0.0 | Sep 28 23:12Z | 153 |
+| `@zanta/baileys` | LIVE 1.0.1 | Sep 17 | 150 |
+| `luoxy-baileys` | LIVE 7.1.3 | Sep 13 | 92 |
+| `wailib` | LIVE 1.0.0 | **Aug 23** | 60 |
+| `mikuhostt-baileys` | LIVE 1.0.2 | Sep 18 | 59 |
+| `@erlanzz/baileys` | LIVE 1.0.0 | Sep 19 | 46 |
+| `@fazzcodestudio/wa-web` | LIVE 0.3.1 | Sep 10 | 42 |
+| `rubbydev-crash-baileys` | LIVE 1.0.0 | Sep 19 | 34 |
+| `danz-bails` | LIVE 1.1.0 | **Aug 16** | 9 |
+| `@celestial-community/baileys` | LIVE 1.0.0 | Oct 1 12:50Z | (API error) |
+| `@smart-dev-wa/baileys` | LIVE 1.0.0 | Sep 3 | 7 |
+| `@developmentyora/baileyss` | LIVE 1.0.0 | **Aug 21** | 8 |
+
+Σ ≈ 1,590 dl/wk measurable (14 names; the newest's counter hadn't populated). Three durable reads: **(1) The advisory-arrival → npm-takedown gap for PhantomSub remains ZERO days wide and ZERO days closed** — fifteen names advised Oct 1 23:05Z were ALL still installable ~6.5 h later, extending this wiki's `ishumdz-bail` named-but-installing observation from six names to twenty-one. **(2) OSV lag now measured at family scale: `danz-bails` first published Aug 16, advised Oct 1 = ~46 days; `@developmentyora/baileyys` Aug 21 → ~41 days; `wailib` Aug 23 → ~39 days.** The Oct 1 23:05:37Z batch timestamp (fifteen identical seconds) is an ingestion sweep, not detection — someone batch-fed OX's 101-name list into OSV, and these fifteen are the still-unnamed remainder of it. Expect more PhantomSub MAL records as the backfill walks the list. **(3) Publisher-cluster pivot:** `xzv-expzc` owns BOTH `prastzy` and `xcvrenzcompany` (published 36 h apart in name-pair grammar `prastzy`/`prastzyy` split across two accounts, `prastzyy` = npm name `prastzyy`) — the twin-account, twin-name pattern the ten-name algamil7x fleet and `ishumdz-bail` both showed; `denzy`/`denvy` GitHub persona pair joins the `Denzy-Lawrence`/`Denvy-Lawrence` naming cluster already in OX's report. Hunt strings unchanged and still valid: `query_id 7871414976211147`, `w:mex` + `newsletter` follow in any Baileys fork, `anu.json`, `desc: "Lifetime"` in channel lists. **Monitor: npm action on the fifteen (all live), `anu.json` list growth (recheck each sweep), `Denvy-Lawrence/anu` re-activation, remaining PhantomSub backfill arrivals, publisher-name reuse of `xzv-expzc`.**
+
+**`MAL-2026-17453`/`17454` = Graphalgo's Go modules finally advised:** `gocommunity.io/orderedbtree` and `gogets.dev/btreex` — the two vanity-ecosystem modules from Aikido's Sep 22 Terraform/Go spread report (already on-wiki) — got OSV records published Oct 2 00:00Z with `introduced:0` (all versions) and Aikido as source reference. Durable: **the first MAL- records in OSV for the Go ecosystem**, closing one leg of the ~10-day detection→advisory gap. Enforcement bonus this sweep: **both malicious Terraform providers are now REMOVED from the Terraform Registry** (`kreuzwenker/docker` and `gocommunity-io/dockerd` both → 404 at this wiki's ~07:30Z check, both 200 on Sep 22). Details on the [Graphalgo page](graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md).
+
+**Heartbeat checks (this wiki, ~07:15–08:00 UTC):**
+- **Ten-name fleet re-registration: QUIET.** All ten names return 200 with `time` block + empty `versions` + no maintainers = delete-only stubs, none re-claimed (`ai-workshop-radio-app`/`-radio-lambda` 404 at the ten-name list check were this wiki's transcription of the OSV package names — `MAL-2026-17428/17429` actually list `ai-workshop-radio-app`/`ai-workshop-radio-lambda` without the `maa15` infix; both verified: those two names serve deletion stubs too. Correction absorbed, count stands at ten advised names.)
+- **Collector `s85r5k14qk...amazonaws.com/prod/hook`: still LIVE and armed.** Bare POST now 400 (schema validation), `POST` with JSON body → **200** — endpoint accepts and processes structured payloads. GET 404. Armed, not defunct.
+- `@bluewin/utils`: still bare 404, no re-registration; oastify subdomain still resolves live to Burp `PublicInteractionNLB` (3.248.33.252 / 54.77.139.23).
+- `online-header`: QUIET — same deletion stub (created Oct 1 14:48Z, modified 16:47Z, no versions), ~14.5 h post-erasure.
+- DirtyBlanket nine names: ALL still unclaimed deletion stubs (every `time` block byte-identical to Sep 29 13:38 batch).
+- MALFEX #1 QUIET (`cdn-img-fetch` 1.0.4 unchanged), MALFEX #2 QUIET (`cavecrew/proj` pushed_at Sep 30 00:18Z via GitHub API — first API-based confirmation of the heartbeat), `function-flag`/`function-color` untouched since 2025-08-04, still zero OSV.
+
+**State checks:** KEV UNCHANGED `2026.10.01` / 1,731 — Veeam CVE-2026-32996 lag day 12 (third sweep running); FortiMail CVE-2026-104286 DUE Oct 4 (< 48 h), fixes still UPCOMING. No Shai-Hulud / Mini Shai-Hulud / TeamPCP follow-up: JFrog newest post still the Aug 30 Trinitite piece, Unit 42 feed newest still the Sep 30 NetScaler update, StepSecurity newest still sckit teardown, MS Security Blog feed titles unparseable via curl (mechanic unchanged — use RSS `content:encoded`). Snyk feed returned channel title with no items (parser or feed shape change — recheck). Socket 403 fifth straight.
+
 ## Related pages
 
 - [DirtyBlanket npm→AUR→SSH Wayback-fed worm](dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md) — thirty-fourth-sweep headline, Sep 29 campaign, this wiki's takedown/state forensics Oct 1
