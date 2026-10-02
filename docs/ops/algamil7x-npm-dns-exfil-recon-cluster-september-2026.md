@@ -624,6 +624,24 @@ Survivor and cluster-state pass (twenty-third):
 
 **State checks:** KEV UNCHANGED `2026.10.01` / 1,731 — Veeam CVE-2026-32996 lag day 12 (third sweep running); FortiMail CVE-2026-104286 DUE Oct 4 (< 48 h), fixes still UPCOMING. No Shai-Hulud / Mini Shai-Hulud / TeamPCP follow-up: JFrog newest post still the Aug 30 Trinitite piece, Unit 42 feed newest still the Sep 30 NetScaler update, StepSecurity newest still sckit teardown, MS Security Blog feed titles unparseable via curl (mechanic unchanged — use RSS `content:encoded`). Snyk feed returned channel title with no items (parser or feed shape change — recheck). Socket 403 fifth straight.
 
+## <a id="october-2-forty-fifth-sweep"></a>October 2 forty-fifth sweep (~09:25–09:50 UTC): OSV stream quiet at 17455; Graphalgo's `gocommunity[.]io` fake ecosystem has lost its A record while `gogets[.]dev` stays live — asymmetric takedown; all heartbeats otherwise quiet
+
+**OSV stream: NO movement — 17455+ 404, HIGH-WATER holds `MAL-2026-17454`, resume 17455.**
+
+**HEADLINE (watch-item resolution): `gocommunity[.]io` no longer resolves to attacker hosting.** DoH verification (Google + Cloudflare agree): NOERROR/no-Answer for the apex A record while the Cloudflare SOA still serves (`serial 2416140274`) = zone alive, record removed or re-pointed to nothing. Its sibling `gogets[.]dev` remains fully operational: A record `38.110.228.92`, serving its "GOGETS.DEV — Go Modules, Packages & Import Paths" landing page. The two fake vanity Go ecosystems from the Graphalgo Terraform/Go spread are now in asymmetric enforcement state — one dark at DNS, one live — the first structural degradation of the actor's fake-registry infrastructure beyond the Terraform provider removals. `proxy.golang.org` still serves every version of both `btreex` and `orderedbtree` (200 on both `/@v/list`). **MECHANIC captured:** the Terraform Registry HTML docs path returns HTTP 200 SPA-shell for ANY slug — provider existence checks must use `/v1/providers/<ns>/<name>/versions`, never the docs URL (this sweep's naive docs-URL probe briefly misread the still-holding 404s as reversions; API 404s confirmed the removals HOLD). Full detail on the [Graphalgo page forty-fifth-sweep section](graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md#october-2-forty-fifth-sweep).
+
+**Heartbeat checks (~09:25–09:50 UTC):**
+- Fifteen-name PhantomSub batch: still live at check (5-name sample `ichigo-baileys`/`xcvrenzcompany`/`prastzy`/`wailib`/`danz-bails` all 200) — ~10.5 h post-advisory, zero takedown, takedown gap remains open.
+- `anu.json`: still serving exactly `[120363342327876451@newsletter]`, no list growth. `Denvy-Lawrence/anu`: still 404 (dead rail).
+- Collector `s85r5k14qk...amazonaws.com/prod/hook`: still armed — GET 404, JSON POST 200.
+- Ten-name fleet: all deletion stubs, none re-registered (`dist-tags: null`, `versions: []`). `@bluewin/utils`: still bare 404. `online-header`: still stub, ~16.7 h post-erasure.
+- DirtyBlanket spot (`exptrdd`, `xeprews`): unclaimed stubs. `kartykgithub-ph-g`: 404, cadence still paused.
+- MALFEX #1 QUIET (`cdn-img-fetch` unchanged at 1.0.4, modified Sep 30 23:07Z), #2 QUIET (`cavecrew/proj` HEAD still `e3ed2986`, Sep 30 00:18:25Z). `function-flag`/`function-color` untouched, still zero OSV.
+- Supplychain.local: `*.skyleen.fr` wildcard still null-routed to 127.0.0.1 (DoH re-confirmed; SOA serial = Sep 23 08:42Z, unchanged since sinkhole), HTTP/HTTPS to the front now connection-fails outright — channel fully dark. `MemoryOS` clean 2.0.33 holds.
+- `com.apple.unityplugin.storekit` live; `future-scripts` 0.0.3 live (Oct-10 `boom()` clock running).
+
+**State checks:** KEV UNCHANGED `2026.10.01` / 1,731 (JSON-verified) — Veeam CVE-2026-32996 lag day 13, kernel trio still absent; FortiMail CVE-2026-104286 DUE Oct 4 (<48 h). `fortiguard.com/psirt/FG-IR-26-175` now returns HTTP 500 (DNS resolves again — the prior sweeps' DNS-down failure mode cleared into a server-error failure mode, fixed versions still unbackfilled). Feeds ALL below bar: StepSecurity newest = Sep 30 sckit post (captured), Wiz newest = Sep 30 Helm-chart security post + Sep 29 Blue Agent data-exfil piece (marketing-adjacent, no new IoCs), MS Security Blog newest = Oct 1 "Preparing governments for interconnected cyber risk" (report-PR), Snyk newest = Oct 1 agentic-AppSec product posts, JFrog newest = Trinitite, Akamai feed still unparseable. Socket 403 sixth straight. No Shai-Hulud / Mini Shai-Hulud / TeamPCP follow-up.
+
 ## Related pages
 
 - [DirtyBlanket npm→AUR→SSH Wayback-fed worm](dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md) — thirty-fourth-sweep headline, Sep 29 campaign, this wiki's takedown/state forensics Oct 1
