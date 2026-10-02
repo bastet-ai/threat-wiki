@@ -269,7 +269,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [Amazon S3](#amazon-s3) (1)
 - [Amazon SES](#amazon-ses) (2)
-- [Amazon-Inspector](#amazon-inspector) (3)
+- [Amazon-Inspector](#amazon-inspector) (4)
 - [amazon-inspector](#amazon-inspector) (1)
 - [Amcache](#amcache) (1)
 - [AML.T0043](#amlt0043) (1)
@@ -1647,7 +1647,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Denys Pakizh](#denys-pakizh) (1)
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (6)
-- [dependency-confusion](#dependency-confusion) (3)
+- [dependency-confusion](#dependency-confusion) (4)
 - [dependency-confusion shaped](#dependency-confusion-shaped) (1)
 - [deployment_status](#deployment_status) (1)
 - [deposit address replacement](#deposit-address-replacement) (1)
@@ -2377,6 +2377,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Google Threat Intelligence Group](#google-threat-intelligence-group) (3)
 - [google visualization api](#google-visualization-api) (1)
 - [Google Workspace](#google-workspace) (1)
+- [Google-Cloud-Storage](#google-cloud-storage) (1)
 - [Goose](#goose) (1)
 - [GoSerpent](#goserpent) (1)
 - [government](#government) (9)
@@ -2658,7 +2659,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [input capture](#input-capture) (1)
 - [insider threat](#insider-threat) (1)
 - [Insomnia RAT](#insomnia-rat) (1)
-- [install-script](#install-script) (3)
+- [install-script](#install-script) (4)
 - [install-time execution](#install-time-execution) (7)
 - [install-time-execution](#install-time-execution) (2)
 - [install.res.1033.dll](#installres1033dll) (1)
@@ -2667,6 +2668,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [integrity forgery](#integrity-forgery) (1)
 - [inter-agent communication](#inter-agent-communication) (1)
 - [interaction replay](#interaction-replay) (1)
+- [interactsh](#interactsh) (1)
 - [Intercolo](#intercolo) (1)
 - [internal secret exfiltration](#internal-secret-exfiltration) (1)
 - [internal security review](#internal-security-review) (1)
@@ -3036,6 +3038,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [LSHIY](#lshiy) (1)
 - [LSN](#lsn) (1)
 - [LSSC](#lssc) (1)
+- [ltidi-bucket](#ltidi-bucket) (1)
+- [ltidisafe](#ltidisafe) (1)
 - [Lua](#lua) (1)
 - [LuaJIT](#luajit) (1)
 - [Lumen](#lumen) (1)
@@ -3095,7 +3099,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (5)
+- [malicious-package](#malicious-package) (6)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
 - [malware analysis](#malware-analysis) (2)
@@ -3496,7 +3500,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (85)
+- [npm](#npm) (86)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3540,7 +3544,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [O-UNC-066](#o-unc-066) (1)
 - [OAST](#oast) (1)
 - [oast.fun](#oastfun) (1)
-- [oastify](#oastify) (2)
+- [oastify](#oastify) (3)
 - [OAuth](#oauth) (6)
 - [OAuth 2.1](#oauth-21) (1)
 - [OAuth abuse](#oauth-abuse) (4)
@@ -3565,6 +3569,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OctLurk](#octlurk) (2)
 - [Octopi365](#octopi365) (1)
 - [OFAC](#ofac) (2)
+- [off-registry-dependency](#off-registry-dependency) (1)
 - [OfferLoader](#offerloader) (1)
 - [Office macros](#office-macros) (1)
 - [office preview pane](#office-preview-pane) (1)
@@ -3616,6 +3621,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OpenSourceMalware](#opensourcemalware) (2)
 - [OpenSSF](#openssf) (1)
 - [OpenSSF Package Analysis](#openssf-package-analysis) (1)
+- [OpenSSF-Package-Analysis](#openssf-package-analysis) (1)
 - [OpenSSH](#openssh) (2)
 - [openssl_verify](#openssl_verify) (1)
 - [OpenVPN](#openvpn) (3)
@@ -3645,7 +3651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (447)
+- [ops](#ops) (448)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3946,7 +3952,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [pre-authentication RCE](#pre-authentication-rce) (3)
 - [pre-signed URL](#pre-signed-url) (2)
 - [Prefetch](#prefetch) (1)
-- [preinstall](#preinstall) (5)
+- [preinstall](#preinstall) (6)
 - [PreppHint](#prepphint) (1)
 - [presigned URLs](#presigned-urls) (1)
 - [primary keys](#primary-keys) (1)
@@ -4146,7 +4152,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Reaper](#reaper) (1)
 - [reasoning replay](#reasoning-replay) (1)
 - [Reco](#reco) (1)
-- [reconnaissance](#reconnaissance) (7)
+- [reconnaissance](#reconnaissance) (8)
 - [recovery denial](#recovery-denial) (3)
 - [recovery disruption](#recovery-disruption) (2)
 - [recovery flow](#recovery-flow) (1)
@@ -4868,7 +4874,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (4)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (128)
+- [supply-chain](#supply-chain) (129)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -4944,6 +4950,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [tampermonkey](#tampermonkey) (1)
 - [Tanzania](#tanzania) (1)
 - [tar](#tar) (1)
+- [tarball-url](#tarball-url) (1)
 - [targeted](#targeted) (1)
 - [targeted attack](#targeted-attack) (2)
 - [targeted exploitation](#targeted-exploitation) (1)
@@ -5480,6 +5487,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WHCP](#whcp) (1)
 - [white-label](#white-label) (1)
 - [whitespace hiding](#whitespace-hiding) (1)
+- [whltd1](#whltd1) (1)
 - [WHM](#whm) (6)
 - [Wi-Fi credential theft](#wi-fi-credential-theft) (1)
 - [Widget Factory](#widget-factory) (1)
@@ -6770,6 +6778,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Amazon-Inspector
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 
@@ -12186,6 +12195,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## dependency-confusion
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 
@@ -14967,6 +14977,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## Google Workspace
 - [AI browser-extension confused deputy](../patterns/ai-browser-extension-confused-deputy.md)
 
+## Google-Cloud-Storage
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
+
 ## Goose
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
 
@@ -16074,6 +16087,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## install-script
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 
@@ -16107,6 +16121,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## interaction replay
 - [BlueKit (SpyCloud, Sep 15, 2026): the first Browser-in-the-Middle PhaaS — the legitimate login page runs in an attacker-hosted remote browser and only the pixels stream to the victim; in **38% of observed compromises the kit auto-enrolled its own TOTP authenticator on the victim account**, so password rotation + session revoke alone leaves the attacker in](../ops/bluekit-browser-in-the-middle-phaas-totp-enrollment-persistence-spycloud-september-2026.md)
+
+## interactsh
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 
 ## Intercolo
 - [Gamaredon 2025 tunnels, workers, dead drops, and cloud exfiltration](../ops/gamaredon-2025-tunnels-workers-dead-drops.md)
@@ -17539,6 +17556,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## LSSC
 - [DCloud Uni-App scam infrastructure ecosystem](../ops/dcloud-uni-app-scam-infrastructure.md)
 
+## ltidi-bucket
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
+
+## ltidisafe
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
+
 ## Lua
 - [Fast16](../tools/fast16.md)
 
@@ -17774,6 +17797,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DirtyBlanket: nine npm Express/React clones publish a self-spreading Linux worm whose loader is served through the Wayback Machine — CHAOS RAT behind Tor, `chattr +i` fake systemd font persistence, SSH-key lateral movement, and automated AUR `PKGBUILD.install` + npm-token republish poisoning](../ops/dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md)
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity — and the advisory pipeline's gap made visible: `function-flag` sat as a malicious postinstall with NO advisory for fourteen months, and `cdn-img-fetch` stayed installable after npm seized its parent](../ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 
@@ -19465,6 +19489,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 - [TrapDoor crypto-stealer cross-ecosystem campaign](../ops/trapdoor-crypto-stealer-cross-ecosystem.md)
@@ -19617,6 +19642,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## oastify
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 
 ## OAuth
 - [Azure CLI LSHIY password-spray campaign](../ops/azure-cli-lshiy-password-spray.md)
@@ -19708,6 +19734,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## OFAC
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
 - [Operation Economic Outcast: MOIS-directed critical-infrastructure cyber group designated in "Economic D-Day" sanctions](../ops/operation-economic-outcast-mois-cyber-designations-august-2026.md)
+
+## off-registry-dependency
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 
 ## OfferLoader
 - [Unit 42: CL-CRI-1171 "Untracked Nightmares" — a pay-per-install marketplace behind commodity-looking loader infections](../ops/unit42-clcri-1171-offerloader-ppi-marketplace-september-2026.md)
@@ -19889,6 +19918,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## OpenSSF Package Analysis
 - [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
+
+## OpenSSF-Package-Analysis
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 
 ## OpenSSH
 - [Operation Highland Velvet Ant authentication-stack backdoors](../ops/operation-highland-velvet-ant-authentication-stack-backdoors.md)
@@ -20732,6 +20764,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 - [Thailand healthcare RAR / Python stealer campaign](../ops/thailand-healthcare-rar-python-stealer.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -22016,6 +22049,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [jscrambler npm preinstall stealer](../ops/jscrambler-npm-preinstall-stealer.md)
 - [PhantomRaven: an LLM-generated npm information stealer built by a bug bounty hunter to farm "compromises" for payouts (CrowdStrike Counter Adversary Operations, Sep 15, 2026)](../tools/phantomraven-llm-generated-npm-infostealer-bug-bounty-hunter-crowdstrike-september-2026.md)
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 
 ## PreppHint
 - ["Superior": 19 Chrome/Edge extensions delivering a wallet drainer and credential-stealing framework (Socket)](../ops/superior-19-chrome-edge-extensions-wallet-drainer.md)
@@ -22834,6 +22868,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Open VSX evil-twin extension campaign](../ops/open-vsx-evil-twin-extension-campaign.md)
 - [TerminalFix: ClickFix variant deploys a reverse-tunnel implant through a multi-stage chain (Aug 28, 2026)](../ops/terminalfix-clickfix-reverse-tunnel-multistage-microsoft-august-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 
 ## recovery denial
@@ -25680,6 +25715,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
 - [Telnyx PyPI TeamPCP compromise](../ops/telnyx-pypi-teampcp-compromise.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
 - [tj-actions and reviewdog compromise](../ops/tj-actions-reviewdog-compromise.md)
@@ -25953,6 +25989,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## tar
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
+
+## tarball-url
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 
 ## targeted
 - [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
@@ -28131,6 +28170,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## whitespace hiding
 - [Deep-Live-Cam (96.6k-star face-swap app) supply-chain compromise: `requests` dependency rewritten to a typosquatted source repo whose `setup.py` hides an `exec(compile(...))` loader behind 434 spaces, delivering a cross-platform cryptocurrency clipboard hijacker via a Telegraph page (SafeDep, Sep 9, 2026)](../ops/deep-live-cam-python-dependency-supply-chain-clipboard-hijacker-safedep-september-2026.md)
+
+## whltd1
+- [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 
 ## WHM
 - [CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
