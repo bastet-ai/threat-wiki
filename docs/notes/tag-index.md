@@ -80,7 +80,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Activator.CreateInstance](#activatorcreateinstance) (1)
 - [active development](#active-development) (1)
 - [Active Directory](#active-directory) (5)
-- [active exploitation](#active-exploitation) (86)
+- [active exploitation](#active-exploitation) (87)
 - [active probing](#active-probing) (1)
 - [active threat](#active-threat) (3)
 - [active-exploitation](#active-exploitation) (3)
@@ -158,7 +158,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AgentBaiting](#agentbaiting) (1)
 - [AgentCore Harness](#agentcore-harness) (1)
 - [AgentCore Identity](#agentcore-identity) (1)
-- [agentic AI](#agentic-ai) (11)
+- [agentic AI](#agentic-ai) (12)
 - [agentic botnets](#agentic-botnets) (1)
 - [agentic browser](#agentic-browser) (1)
 - [agentic browsers](#agentic-browsers) (1)
@@ -242,6 +242,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [AI-generated malware](#ai-generated-malware) (1)
 - [AI-generated narrator](#ai-generated-narrator) (1)
 - [AI-platform-security](#ai-platform-security) (1)
+- [AI-powered attack](#ai-powered-attack) (1)
 - [Aider](#aider) (1)
 - [Aikido](#aikido) (4)
 - [aikido](#aikido) (1)
@@ -449,7 +450,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [automotive sector](#automotive-sector) (1)
 - [autonomous agents](#autonomous-agents) (3)
 - [autonomous AI](#autonomous-ai) (1)
-- [autonomous attack](#autonomous-attack) (2)
+- [autonomous attack](#autonomous-attack) (3)
 - [autonomous attacks](#autonomous-attacks) (1)
 - [autonomous evasion](#autonomous-evasion) (1)
 - [autonomous exploitation](#autonomous-exploitation) (1)
@@ -602,7 +603,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Bluetooth LE](#bluetooth-le) (1)
 - [BOATBEAM](#boatbeam) (1)
 - [Boatnet](#boatnet) (1)
-- [BOD 26-04](#bod-26-04) (18)
+- [BOD 26-04](#bod-26-04) (19)
 - [body hash](#body-hash) (1)
 - [BOF](#bof) (1)
 - [Boleto](#boleto) (1)
@@ -774,6 +775,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [chain-of-thought](#chain-of-thought) (1)
 - [chain-of-thought extraction](#chain-of-thought-extraction) (1)
 - [ChainDrop](#chaindrop) (2)
+- [chained exploitation](#chained-exploitation) (1)
 - [chainlit](#chainlit) (1)
 - [ChainVeil](#chainveil) (1)
 - [channel follow query_id 7871414976211147](#channel-follow-query_id-7871414976211147) (1)
@@ -835,7 +837,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CIS](#cis) (2)
 - [CISA](#cisa) (23)
 - [CISA ADP](#cisa-adp) (2)
-- [CISA KEV](#cisa-kev) (55)
+- [CISA KEV](#cisa-kev) (56)
 - [Cisco](#cisco) (11)
 - [Cisco IOS](#cisco-ios) (1)
 - [Cisco IOS 12.4](#cisco-ios-124) (1)
@@ -1243,6 +1245,8 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CVE-2026-0300](#cve-2026-0300) (1)
 - [CVE-2026-0769](#cve-2026-0769) (1)
 - [CVE-2026-0770](#cve-2026-0770) (2)
+- [CVE-2026-102489](#cve-2026-102489) (1)
+- [CVE-2026-102490](#cve-2026-102490) (1)
 - [CVE-2026-10520](#cve-2026-10520) (1)
 - [CVE-2026-10523](#cve-2026-10523) (1)
 - [CVE-2026-11405](#cve-2026-11405) (1)
@@ -1524,7 +1528,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [cvvform](#cvvform) (1)
 - [CWE-22](#cwe-22) (2)
 - [CWE-259](#cwe-259) (1)
-- [CWE-269](#cwe-269) (1)
+- [CWE-269](#cwe-269) (2)
 - [CWE-276](#cwe-276) (1)
 - [CWE-284](#cwe-284) (1)
 - [CWE-287](#cwe-287) (3)
@@ -1532,6 +1536,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [CWE-306](#cwe-306) (3)
 - [CWE-352](#cwe-352) (2)
 - [CWE-362](#cwe-362) (1)
+- [CWE-384](#cwe-384) (1)
 - [CWE-470](#cwe-470) (1)
 - [CWE-502](#cwe-502) (2)
 - [CWE-640](#cwe-640) (1)
@@ -1719,6 +1724,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [distributed malware infrastructure](#distributed-malware-infrastructure) (1)
 - [distributed scanning](#distributed-scanning) (1)
 - [distribution-compromise](#distribution-compromise) (1)
+- [DIVD](#divd) (1)
+- [DIVD-2026-00014](#divd-2026-00014) (1)
+- [DIVD-2026-00015](#divd-2026-00015) (1)
 - [Djinn Stealer](#djinn-stealer) (3)
 - [DLL search-order hijacking](#dll-search-order-hijacking) (2)
 - [DLL side-loading](#dll-side-loading) (9)
@@ -2475,6 +2483,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [HellsGate](#hellsgate) (1)
 - [Helm](#helm) (1)
 - [help desk impersonation](#help-desk-impersonation) (1)
+- [helpdesk](#helpdesk) (1)
 - [Hermes](#hermes) (1)
 - [Hermes Agent](#hermes-agent) (3)
 - [Hetzner](#hetzner) (1)
@@ -2979,7 +2988,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [local exploit](#local-exploit) (2)
 - [local inference](#local-inference) (1)
 - [local LLMs](#local-llms) (1)
-- [local privilege escalation](#local-privilege-escalation) (14)
+- [local privilege escalation](#local-privilege-escalation) (15)
 - [local proxy](#local-proxy) (1)
 - [local subprocess](#local-subprocess) (1)
 - [local-file-inclusion](#local-file-inclusion) (1)
@@ -3160,6 +3169,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [memos](#memos) (1)
 - [memtensor](#memtensor) (1)
 - [merchant credential theft](#merchant-credential-theft) (1)
+- [Merlon Security](#merlon-security) (1)
 - [mesh VPN](#mesh-vpn) (1)
 - [MeshAgent](#meshagent) (1)
 - [MeshCentral](#meshcentral) (2)
@@ -3628,14 +3638,14 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [operational resilience](#operational-resilience) (1)
 - [operational security](#operational-security) (1)
 - [operational technology](#operational-technology) (2)
-- [operations](#operations) (358)
+- [operations](#operations) (359)
 - [operator lockout](#operator-lockout) (1)
 - [operator-continuity](#operator-continuity) (1)
 - [OpFauxSign](#opfauxsign) (1)
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (446)
+- [ops](#ops) (447)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -4485,6 +4495,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [service accounts](#service-accounts) (2)
 - [service binding](#service-binding) (1)
 - [service control policies](#service-control-policies) (1)
+- [service desk](#service-desk) (1)
 - [service DLL persistence](#service-dll-persistence) (1)
 - [service impairment](#service-impairment) (1)
 - [service persistence](#service-persistence) (2)
@@ -4498,6 +4509,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ServiceWorker](#serviceworker) (1)
 - [Session](#session) (1)
 - [session cookie theft](#session-cookie-theft) (4)
+- [session fixation](#session-fixation) (1)
 - [session hijacking](#session-hijacking) (3)
 - [session persistence](#session-persistence) (1)
 - [session revocation](#session-revocation) (1)
@@ -5382,7 +5394,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [VulnCheck](#vulncheck) (8)
 - [vulnerability](#vulnerability) (33)
 - [vulnerability database pollution](#vulnerability-database-pollution) (1)
-- [vulnerability disclosure](#vulnerability-disclosure) (2)
+- [vulnerability disclosure](#vulnerability-disclosure) (3)
 - [vulnerability exploitation](#vulnerability-exploitation) (2)
 - [vulnerability management](#vulnerability-management) (3)
 - [vulnerability research](#vulnerability-research) (4)
@@ -5609,6 +5621,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Yuechi Shared Technology](#yuechi-shared-technology) (1)
 - [yuze](#yuze) (2)
 - [Yx Technology](#yx-technology) (1)
+- [Zammad](#zammad) (1)
 - [ZAPiXDESK](#zapixdesk) (1)
 - [ZBT](#zbt) (1)
 - [Zbtlink](#zbtlink) (2)
@@ -6008,6 +6021,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WordPress Super Forms / Elementor Pro unauthenticated file-upload RCE](../ops/wordpress-super-forms-elementor-pro-unauth-file-upload-rce-september-2026.md)
 - [WordPress wp2shell CVE-2026-63030 / CVE-2026-60137 exploitation](../ops/wordpress-wp2shell-cve-2026-63030-60137-exploitation.md)
 - [WP Maps Pro CVE-2026-8732 exploitation](../ops/wp-maps-pro-cve-2026-8732-exploitation.md)
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## active probing
@@ -6313,6 +6327,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Unit 42: CL-CRI-1131 / CL-CRI-1163 — LLM-orchestrated Latin America intrusion campaigns with exposed AI backends (Sep 3, 2026)](../ops/unit42-clcri-1131-1163-llm-orchestrated-latam-campaigns-september-2026.md)
 - [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
 - [workerd / Cloudflare Code Mode: five memory-corruption bugs enable sandbox escape and cross-tenant "heap swipe"](../tools/workerd-code-mode-sandbox-escape-cross-tenant-heap-swipe.md)
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 
 ## agentic botnets
 - [Phantom squatting: AI-hallucinated domains](../patterns/phantom-squatting-ai-hallucinated-domains.md)
@@ -6659,6 +6674,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## AI-platform-security
 - [Azure AI Foundry CVSS 10.0 missing-auth privilege escalation (CVE-2026-85889) leads a September 2026 Microsoft cloud-side batch — Copilot command injection 9.9, PostgreSQL authz 9.9, Cosmos DB 9.6](../ops/azure-ai-foundry-cve-2026-85889-cvss10-missing-auth-privilege-escalation-september-2026.md)
+
+## AI-powered attack
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 
 ## Aider
 - [GuardFall AI-agent shell-guard bypass](../patterns/guardfall-ai-agent-shell-guard-bypass.md)
@@ -7441,6 +7459,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## autonomous attack
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 - [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 
 ## autonomous attacks
 - [knaithe Hermes/DeepSeek autonomous exploitation campaign](../ops/knaithe-hermes-deepseek-autonomous-exploitation.md)
@@ -8012,6 +8031,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Oracle WebLogic Proxy Plug-in improper access control in CISA KEV (CVE-2026-21962)](../ops/oracle-weblogic-proxy-plug-in-cve-2026-21962-kev-august-24-2026.md)
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
 - [Wiz "Artifactory Under Attack": in-the-wild exploitation chains in JFrog Artifactory (CVE-2026-42016 / CVE-2026-42018 / CVE-2026-82329)](../ops/wiz-artifactory-in-the-wild-cve-2026-42016-42018-82329-september-2026.md)
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## body hash
@@ -8670,6 +8690,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ChainDrop keyv / cacheable npm worm](../ops/chaindrop-keyv-cacheable-npm-worm.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 
+## chained exploitation
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
+
 ## chainlit
 - [Chainlit MCP: unauthenticated RCE and SSRF via /mcp when MCP is enabled (CVE-2026-45018 / CVE-2026-45019)](../tools/chainlit-mcp-cve-2026-45018-45019-mcp-rce-ssrf.md)
 
@@ -9047,6 +9070,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Trend Micro Apex One CVE-2026-34926 exploitation](../ops/trend-micro-apex-one-cve-2026-34926-exploitation.md)
 - [Ubiquiti UniFi OS CVE-2026-34908 / CVE-2026-34909 / CVE-2026-34910 exploitation](../ops/ubiquiti-unifi-os-cve-2026-34908-34909-34910-exploitation.md)
 - [Wiz "Off Guard": Breaking LiteLLM from authentication bypass to cloud compromise (CVE-2026-59822 / CVE-2026-59821)](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## Cisco
@@ -10776,6 +10800,12 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Langflow CVE exploitation canary timeline: two attackers, two playbooks on the same AI-stack target (VulnCheck, Aug 2026)](../ops/langflow-cve-canary-timeline-vulncheck-pwning-ai-stack-august-2026.md)
 - [Langflow CVE-2026-0770 exploitation](../ops/langflow-cve-2026-0770-exploitation.md)
 
+## CVE-2026-102489
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
+
+## CVE-2026-102490
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
+
 ## CVE-2026-10520
 - [Ivanti Sentry CVE-2026-10520 exploitation](../ops/ivanti-sentry-cve-2026-10520-exploitation.md)
 
@@ -11660,6 +11690,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CWE-269
 - [CISA KEV September 10–11, 2026 additions: six exploited flaws — ConnectWise ScreenConnect client file-execution, two JFrog Artifactory auth flaws, GitLab unauth file read, and two MikroTik RouterOS flaws](../ops/cisa-kev-screenconnect-artifactory-gitlab-mikrotik-september-10-11-2026.md)
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 
 ## CWE-276
 - [CISA KEV September 16, 2026 (second and third additions): Cisco ISE CVSS 10.0 unauthenticated management-interface bypass with Cisco confirming active exploitation, and Acronis Backup cPanel/Plesk local privilege escalation under limited targeted exploitation](../ops/cisa-kev-cisco-ise-acronis-backup-september-16-2026.md)
@@ -11687,6 +11718,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## CWE-362
 - [CISA KEV September 18, 2026: three Linux kernel vulnerabilities — remotely triggerable kTLS zero-length-record mishandling (CVSS 9.8 AV:N) plus two local privilege escalations (AF_ALG concurrent-write race, ebtables SNAT out-of-bounds write into splice-shared file pages) — ALL THREE carrying CISA SSVC "active exploitation," all on a compressed 3-day BOD 26-04 deadline (due 2026-09-21)](../ops/cisa-kev-linux-kernel-af-alg-ebtables-september-18-2026.md)
+
+## CWE-384
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 
 ## CWE-470
 - [PaperCut NG/MF zero-day: active exploitation of unauthenticated admin-trigger chain (CVE-2026-81578 / CVE-2026-82078)](../ops/papercut-ng-mf-zero-day-active-exploitation-cve-2026-81578-cve-2026-82078.md)
@@ -12474,6 +12508,15 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## distribution-compromise
 - [MovieReaper: a modular Windows trojan framework distributed through a compromised torrent-file repository, with Solana-blockchain C2 rendezvous (Kaspersky GReAT, Sep 17, 2026)](../tools/moviereaper-torrent-framework-solana-c2-kaspersky-september-2026.md)
+
+## DIVD
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
+
+## DIVD-2026-00014
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
+
+## DIVD-2026-00015
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 
 ## Djinn Stealer
 - [Djinn Stealer](../tools/djinn-stealer.md)
@@ -15316,6 +15359,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## help desk impersonation
 - [Spring Ring: Microsoft Teams vishing campaigns that escalated to an NTLM-relay domain takeover (Unit 42, Aug 31, 2026)](../ops/spring-ring-teams-vishing-rmm-petitpotam-campaigns-unit42-august-2026.md)
 
+## helpdesk
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
+
 ## Hermes
 - [Dream: near-autonomous multi-agent AI framework compromises Asian government entities](../ops/dream-multi-agent-ai-framework-asian-government-compromise.md)
 
@@ -17338,6 +17384,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [MiniPlasma Windows Cloud Filter LPE exploitation](../ops/miniplasma-windows-cloud-filter-lpe-exploitation.md)
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
 - [UAT-10147: SPECTRE, BadIIS, and agentic-AI-augmented web-server intrusions](../ops/uat-10147-spectre-badiis-ai-augmented-web-server-campaign.md)
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 
 ## local proxy
 - [Malicious Google Doc sidebar (Apps Script) funnels victims to AMOS on macOS and a three-stolen-cert Windows chain that installs a rogue Google Trust Services CA, NetSupport Manager, and a Ledger wallet implant (Huntress, Sep 15, 2026)](../ops/google-docs-apps-script-sidebar-clickfix-rogue-ca-ledger-implant-huntress-september-2026.md)
@@ -18087,6 +18134,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## merchant credential theft
 - [Braintree.Net NuGet payment skimmer](../ops/braintree-net-nuget-payment-skimmer.md)
+
+## Merlon Security
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 
 ## mesh VPN
 - [Hugging Face autonomous-agent production intrusion](../ops/hugging-face-autonomous-agent-production-intrusion.md)
@@ -20275,6 +20325,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
 ## operator lockout
@@ -20740,6 +20791,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [XCSSET v40 Xcode supply-chain campaign](../ops/xcsset-v40-xcode-supply-chain-campaign.md)
 - [Xinference PyPI compromise](../ops/xinference-pypi-compromise.md)
 - [XZ Utils backdoor](../ops/xz-utils-backdoor.md)
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 - [Zimbra Collaboration Suite CVE-2026-73570: unauthenticated OS command injection in the SNMP notification path, tracked end-to-end by Microsoft — pre-disclosure exploitation window, a sudo/PAM symlink privilege escalation, zimlog.service timestomped persistence, cluster-wide SSH-identity lateral movement, and a `zimbra-exfil` implant that harvests the pre-auth and session-signing keys](../ops/zimbra-cve-2026-73570-unauth-command-injection-pam-privesc-cluster-worm-microsoft-september-2026.md)
 - [Zimbra SNMP command injection in CISA KEV; Microsoft patches Entra ID deserialization flaw (August 21, 2026)](../ops/cisa-kev-microsoft-entra-zimbra-august-21-2026.md)
 
@@ -24122,6 +24174,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## service control policies
 - [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 
+## service desk
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
+
 ## service DLL persistence
 - [Head Mare: TrueConf server exploitation delivers PhantomCore and PhantomGraph](../ops/head-mare-trueconf-phantomcore-campaign.md)
 
@@ -24169,6 +24224,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Forg365 Microsoft 365 PhaaS](../ops/forg365-microsoft-365-phaas.md)
 - [Kratos Microsoft 365 PhaaS and infrastructure disruption](../ops/kratos-microsoft-365-phaas-disruption.md)
 - [Mirage2FA PhaaS: 4,500 US and EU companies hit via Microsoft 365 login-flow abuse](../ops/mirage2fa-m365-phishing-4500-companies-anyrun.md)
+
+## session fixation
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 
 ## session hijacking
 - [CitrixBleed session-hijack wave](../ops/citrixbleed-session-hijack-wave.md)
@@ -27728,6 +27786,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## vulnerability disclosure
 - ["Reported Log4j RCE" is a hardening gap, not a vulnerability: AI-agent-found FilteredObjectInputStream bypass (Sonatype-2026-006746)](../patterns/log4j-filteredobjectinputstream-ai-agent-bypass-sonatype-2026-006746.md)
 - [Amazon Kiro "Power Leak": Kiro Powers prompt-injection data exfiltration](../patterns/amazon-kiro-powers-prompt-injection-data-exfiltration.md)
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 
 ## vulnerability exploitation
 - [Fastjson CVE-2026-16723 active exploitation](../ops/fastjson-cve-2026-16723-active-exploitation.md)
@@ -28652,6 +28711,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Yx Technology
 - [Flying Eagle and Night Dragon Android RAT ecosystem](../ops/flying-eagle-night-dragon-android-rat-ecosystem.md)
+
+## Zammad
+- [Zammad zero-day chain CVE-2026-102489 + CVE-2026-102490: the first KEV entries from an agentic-AI-powered network breach — DIVD (the Dutch CVD non-profit) breached Sep 21 by an AI agent that chained session-fixation→RCE→root LPE "in seconds," self-justified its actions in attacker script comments, and exfiltrated volunteer data before segmentation stopped it; CISA KEV'd both CVEs Oct 2, due Oct 5, while the vendor publicly disputes receiving details for the LPE](../ops/zammad-cve-2026-102489-102490-zero-day-chain-divd-ai-agent-breach-kev-october-2026.md)
 
 ## ZAPiXDESK
 - [GREYVIBE](../actors/greyvibe.md)
