@@ -115,6 +115,14 @@ curl -L https://web.archive.org/web/https://gitflic.ru/project/hellscripter/inst
 
 **Durable read:** one takedown closed the Codeberg rail; the actor rebuilt within five days on a Russian-hosted forge (gitflic.ru) and kept the self-snapshot-to-Wayback design intact — the archive front now protects a rail that no longer even needs it (gitflic raw paths answer 200 directly, verified). Rail migration + binary rebuild inside one week = this is an operated campaign, not abandoned test material. AUR team + npm + gitflic abuse contacts + Internet Archive (fresh snapshots of the gitflic files, if any) are the report targets; the `web.archive.org`-in-lifecycle-script and `gitflic.ru/project/hellscripter` hunt strings both still work unchanged.
 
+### October 5 second-sweep re-check (~05:25 UTC, seventy-eighth sweep)
+
+Re-pulled all three gitflic stage files: **byte-identical to the ~00:00Z captures** — `node.js` still `b4fdaf46…`, `linux.sh` still `7efad57c…`, `systemd-fontd` still 7,581,959 B `4ab643f4…`, all HTTP 200. Five-plus hours post-advisory and the entire staging rail is untouched: no file swap, no takedown, no self-deletion. The Wayback wrapper URL also still 200s.
+
+Registry disposition update on the ten squats: nine are bare-404 at this check, but **`@anguar/core` and `@anuglar/core` survive as npm time-block shells** (created → per-version `22.2.1` timestamp → `unpublished` block, zero surviving versions, no security-holder) = delete-only, **re-registerable**, exposure windows preserved in the registry record. No holder blocks appeared on any of the ten since the first check. The Oct-10 kill-clock logic pattern noted on the abbishal/tostpro cluster (see the seventy-eighth sweep section on the [algamil7x stream page](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-5-seventy-eighth-sweep)) is the same operator-habit class as this campaign's future-dated staging.
+
+**Monitor stays open on:** gitflic file swaps (hash any change), IA snapshots of the gitflic paths, `4ab643f4…` ELF sightings, and re-registration of the two surviving-shell Angular squats.
+
 ## Sources
 
 - SafeDep (Kunal Singh), "DirtyBlanket: Fake Express Packages on npm Spread a Linux Worm," Sep 29, 2026 — full text captured by this wiki Oct 1 (37-row IoC table incl. shasums, onion, file paths) — https://safedep.io/dirtyblanket-express-impersonation-npm/
