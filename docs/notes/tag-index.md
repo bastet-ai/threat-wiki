@@ -269,7 +269,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [Amazon S3](#amazon-s3) (1)
 - [Amazon SES](#amazon-ses) (2)
-- [Amazon-Inspector](#amazon-inspector) (4)
+- [Amazon-Inspector](#amazon-inspector) (5)
 - [amazon-inspector](#amazon-inspector) (1)
 - [Amcache](#amcache) (1)
 - [AML.T0043](#amlt0043) (1)
@@ -694,6 +694,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [bundled npm package](#bundled-npm-package) (1)
 - [Burkina Faso](#burkina-faso) (1)
 - [Burp Collaborator](#burp-collaborator) (1)
+- [Burp-Collaborator](#burp-collaborator) (1)
 - [business email compromise](#business-email-compromise) (4)
 - [business intelligence](#business-intelligence) (1)
 - [BusinessDataCatalog](#businessdatacatalog) (1)
@@ -1647,7 +1648,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Denys Pakizh](#denys-pakizh) (1)
 - [Dependabot](#dependabot) (1)
 - [dependency confusion](#dependency-confusion) (6)
-- [dependency-confusion](#dependency-confusion) (4)
+- [dependency-confusion](#dependency-confusion) (5)
 - [dependency-confusion shaped](#dependency-confusion-shaped) (1)
 - [deployment_status](#deployment_status) (1)
 - [deposit address replacement](#deposit-address-replacement) (1)
@@ -1746,7 +1747,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DNS resolution](#dns-resolution) (1)
 - [DNS threat intelligence](#dns-threat-intelligence) (1)
 - [DNS tunneling](#dns-tunneling) (3)
-- [DNS-exfiltration](#dns-exfiltration) (1)
+- [DNS-exfiltration](#dns-exfiltration) (2)
 - [DNS-over-HTTPS](#dns-over-https) (1)
 - [DNS-tunneling](#dns-tunneling) (2)
 - [dnsapi.dll](#dnsapidll) (1)
@@ -2516,6 +2517,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [host RCE](#host-rce) (2)
 - [host surveillance](#host-surveillance) (1)
 - [host-file-access](#host-file-access) (1)
+- [host-reconnaissance](#host-reconnaissance) (1)
 - [hosting control plane](#hosting-control-plane) (1)
 - [hosting provider](#hosting-provider) (1)
 - [hosting providers](#hosting-providers) (1)
@@ -3099,7 +3101,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (6)
+- [malicious-package](#malicious-package) (7)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
 - [malware analysis](#malware-analysis) (2)
@@ -3500,7 +3502,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [NovaCookies](#novacookies) (1)
 - [NoviSpy](#novispy) (1)
 - [Now Platform](#now-platform) (1)
-- [npm](#npm) (86)
+- [npm](#npm) (87)
 - [npm lifecycle hook](#npm-lifecycle-hook) (3)
 - [npm mirrors](#npm-mirrors) (1)
 - [npm supply-chain](#npm-supply-chain) (1)
@@ -3651,7 +3653,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (448)
+- [ops](#ops) (449)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3673,7 +3675,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OS command injection](#os-command-injection) (3)
 - [OSCrypt](#oscrypt) (1)
 - [Ossprey](#ossprey) (1)
-- [OSV](#osv) (3)
+- [OSV](#osv) (4)
 - [osv](#osv) (1)
 - [OT](#ot) (6)
 - [OT switches](#ot-switches) (1)
@@ -3752,6 +3754,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Parallels Desktop](#parallels-desktop) (1)
 - [parameter-to-prompt](#parameter-to-prompt) (1)
 - [ParaShells](#parashells) (1)
+- [parastorage](#parastorage) (1)
 - [parked domain](#parked-domain) (1)
 - [partial encryption](#partial-encryption) (1)
 - [Pass-ta-key](#pass-ta-key) (1)
@@ -4235,6 +4238,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [repository poisoning](#repository-poisoning) (3)
 - [repository secrets](#repository-secrets) (1)
 - [request smuggling](#request-smuggling) (1)
+- [require-time-beacon](#require-time-beacon) (1)
 - [research sector](#research-sector) (1)
 - [reset-credentials](#reset-credentials) (1)
 - [residential proxies](#residential-proxies) (1)
@@ -4874,7 +4878,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (4)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (129)
+- [supply-chain](#supply-chain) (130)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5048,6 +5052,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ThrottleBlood](#throttleblood) (1)
 - [ThumbcacheService](#thumbcacheservice) (1)
 - [thumbnail generation](#thumbnail-generation) (1)
+- [Thunderbolt](#thunderbolt) (1)
 - [time-of-check time-of-use](#time-of-check-time-of-use) (1)
 - [timestomping](#timestomping) (2)
 - [timing attack](#timing-attack) (1)
@@ -5459,6 +5464,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [WebAssembly](#webassembly) (1)
 - [WebAuthn](#webauthn) (1)
 - [WebDAV](#webdav) (7)
+- [webhook-site](#webhook-site) (1)
 - [webhook.site](#webhooksite) (1)
 - [webhooks](#webhooks) (1)
 - [WebHost Manager](#webhost-manager) (1)
@@ -5535,6 +5541,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wiper-adjacent](#wiper-adjacent) (1)
 - [WireGuard](#wireguard) (2)
 - [wireless-debugging](#wireless-debugging) (1)
+- [Wix](#wix) (1)
 - [Wiz](#wiz) (2)
 - [Wiz Research](#wiz-research) (2)
 - [WLDR agent](#wldr-agent) (2)
@@ -6781,6 +6788,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## amazon-inspector
 - [GSUT `@gsutevil/hta-stage` HTA/WSH MSI loader + `hta-ui` Banco do Brasil landing templates (npm, OSV MAL-2026-16419, Sep 22-23, 2026)](../tools/gsut-hta-stage-loader-banco-do-brasil-landing-templates-npm-september-2026.md)
@@ -8401,6 +8409,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## Burp Collaborator
 - [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
+
+## Burp-Collaborator
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## business email compromise
 - [EvilTokens device-code PhaaS and the Microsoft DCU disruption (Sep 22, 2026)](../ops/eviltokens-device-code-phaas-storm-2992-dcu-disruption-september-2026.md)
@@ -12198,6 +12209,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## dependency-confusion shaped
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
@@ -12639,6 +12651,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## DNS-exfiltration
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## DNS-over-HTTPS
 - [NuGet game-cheat DotnetTool pepesoft campaign](../ops/nuget-game-cheat-dotnettool-pepesoft-campaign.md)
@@ -15477,6 +15490,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## host-file-access
 - [Docker Sandboxes macOS guest-to-host escape (CVE-2026-77179) — virtio-fs symlink re-resolution breaks the one boundary an AI-agent sandbox exists to provide](../ops/docker-sandboxes-cve-2026-77179-virtiofs-symlink-macos-escape-september-2026.md)
 
+## host-reconnaissance
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
+
 ## hosting control plane
 - [LiteSpeed cPanel Plugin CVE-2026-54420 exploitation](../ops/litespeed-cpanel-plugin-cve-2026-54420-exploitation.md)
 
@@ -17800,6 +17816,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## malvertising
 - [ACR Stealer](../tools/acr-stealer.md)
@@ -19498,6 +19515,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [ViteVenom / ChainVeil npm campaign](../ops/vitevenom-chainveil-npm-campaign.md)
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 
 ## npm lifecycle hook
@@ -20808,6 +20826,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Weedhack: fake Minecraft clients and SEO poisoning deliver JAR infostealer](../ops/weedhack-fake-minecraft-clients-seo-poisoning-jar-infostealer.md)
 - [WhatsApp VBScript ManageEngine RMM campaign](../ops/whatsapp-vbscript-manageengine-rmm-campaign.md)
 - [Windmill CVE-2026-29059 active exploitation](../ops/windmill-cve-2026-29059-active-exploitation.md)
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 - [Wiz "Artifactory Under Attack": in-the-wild exploitation chains in JFrog Artifactory (CVE-2026-42016 / CVE-2026-42018 / CVE-2026-82329)](../ops/wiz-artifactory-in-the-wild-cve-2026-42016-42018-82329-september-2026.md)
 - [Wiz "Off Guard": Breaking LiteLLM from authentication bypass to cloud compromise (CVE-2026-59822 / CVE-2026-59821)](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)
 - [Wiz Red Agent discovers Snowflake GitHub Actions script injection](../ops/wiz-red-agent-snowflake-jira-cicd-script-injection.md)
@@ -20900,6 +20919,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## osv
 - [GSUT `@gsutevil/hta-stage` HTA/WSH MSI loader + `hta-ui` Banco do Brasil landing templates (npm, OSV MAL-2026-16419, Sep 22-23, 2026)](../tools/gsut-hta-stage-loader-banco-do-brasil-landing-templates-npm-september-2026.md)
@@ -21178,6 +21198,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## ParaShells
 - [ParaShells — Parallels Desktop for Mac local privilege escalation: a quote in an appliance folder name becomes `tar --use-compress-program` running as root (CVE-2026-90894, CVSS 7.8, JFrog, Sep 14, 2026)](../tools/parashells-parallels-desktop-appliance-extract-argument-injection-root-cve-2026-90894.md)
+
+## parastorage
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## parked domain
 - [cPanel/WHM CVE-2026-65643: parked/addon-domain file write yields root code execution on shared hosting](../ops/cpanel-whm-cve-2026-65643-parked-addon-domain-root-rce.md)
@@ -23201,6 +23224,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## request smuggling
 - [CISA KEV September 2, 2026 additions: seven exploited flaws across Artifactory, Kestra, SonicWall SMA1000, LiteLLM, Starlette, and Switchvox](../ops/cisa-kev-artifactory-kestra-sonicwall-litellm-starlette-switchvox-september-2-2026.md)
+
+## require-time-beacon
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## research sector
 - [MrMustard PyPI credential-stealer compromise](../ops/mrmustard-pypi-credential-stealer-compromise.md)
@@ -25731,6 +25757,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [vpmdhaj OpenSearch npm cloud-secret stealer](../ops/vpmdhaj-opensearch-npm-cloud-secret-stealer.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 - [wshu.net npm credential-stealer campaign](../ops/wshu-net-npm-credential-stealer-campaign.md)
 - [XCSSET](../tools/xcsset.md)
 - [XCSSET hides inside a pub.dev Flutter package: `universal_file_viewer` (Aikido, Sep 8, 2026)](../ops/xcsset-pub-dev-flutter-universal-file-viewer-aikido-september-2026.md)
@@ -26352,6 +26379,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## thumbnail generation
 - [FFmpeg PixelSmash CVE-2026-8461 media-file RCE](../ops/ffmpeg-pixelsmash-cve-2026-8461-media-file-rce.md)
+
+## Thunderbolt
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## time-of-check time-of-use
 - [GitHub Security Advisories August 27, 2026: Crossplane cosign signature-verification bypass and Silverstripe RCE batch](../ops/github-advisories-crossplane-cosign-silverstripe-august-27-2026.md)
@@ -28059,6 +28089,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Star Blizzard's 2026 overhaul — "RedFlick": mass phishing from accounts created on compromised CMS websites, a one-click VHDX/LNK chain, a three-task scheduled-task persistence set with WebDAV execution, and the CosmicPulse Python backdoor (Microsoft, Sep 29, 2026)](../ops/star-blizzard-redflick-scheduled-task-delivery-cosmicpulse-webdav-microsoft-september-2026.md)
 - [WordlistLoader / SynkLoader: new ClearFake loaders delivering Amatera (ACR) Stealer](../ops/wordlistloader-synkloader-amatera-clearfake-campaigns.md)
 
+## webhook-site
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
+
 ## webhook.site
 - [APT28-linked HOOKEDGE backdoor targets European government and diplomatic organizations](../ops/apt28-hookedge-backdoor-european-gov-diplomatic-august-2026.md)
 
@@ -28403,6 +28436,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## wireless-debugging
 - [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
+
+## Wix
+- [Wix Thunderbolt dependency-confusion recon fleet — 27 npm names, one `thunderboltRegistry.js`, require-time host beacon to three collectors (Oct 4 wave)](../ops/wix-thunderbolt-dependency-confusion-recon-fleet-npm-october-2026.md)
 
 ## Wiz
 - [Wiz "Off Guard": Breaking LiteLLM from authentication bypass to cloud compromise (CVE-2026-59822 / CVE-2026-59821)](../ops/wiz-litellm-off-guard-mcp-bypass-rce-cloud-compromise-september-2026.md)

