@@ -57,6 +57,14 @@ The standing monitor item — *"a 200 on any new loader version = next campaign 
 
 **Durable read:** the campaign's version counter (2.3.x May → 3.7.9 Oct 2 → 3.8.1/3.8.2 Oct 5) is a public sequence number on a public bucket — anyone with the URL pattern can date the campaign's activity without touching a registry. Two new host names in ONE batch (vs the one-at-a-time shape of May–Oct) may signal the wave the loader bumps were staging for; watch for a burst of host-name advisories pointing at 3.8.x in coming sweeps.
 
+## <a id="october-5-383-tripwire"></a>October 5 second tripwire (eighty-third sweep, ~17:2xZ): `ltidisafe-3.8.3.tgz` lands on the bucket — fresh collector token, first-ever extra URL label, and NO host names riding it yet
+
+The standing pulse-watch item resolved a second time inside ~12 h: **`ltidisafe-3.8.3.tgz` now serves 200** (1,946 B, SHA-256 `5df747691a225a3c37fb5d19b687041156393a361df70ba9e0f2a548544bb8b1`); next-counter probes `3.8.4`/`3.9.0` still 403. `3.8.1` re-hashed identical to the 78th's capture (`b77cfb6e…`).
+
+**Pulled and read by this wiki:** same `preinstall: node test.js > /dev/null 2>&1` + `ltidisafefidelitypvd3` description + byte-identical hex-username/hostname/homedir beacon logic — but the collector line is new in TWO ways: token swapped to **`1y0htpm0sry8ekmrysgnxmevhmngb6zv`** (fresh per-wave, per design) AND the URL carries a first-seen extra label: `http://<hex>.pinecone-experience.<token>.oastify.com` — the pattern was always `<hex>.<host-package-name>.<token>.oastify.com` (the second label echoed the host name); **3.8.3's second label is a hardcoded decoy (`pinecone-experience`) regardless of host** = the loader no longer self-labels with its host, blunting the "resolver hit whose second label matches a package name" hunt this page has been publishing since day one. Both synthetic probes (`base` and hex-first-label) answered **200 ARMED**.
+
+**No new host-name advisories ride 3.8.3 at check** (the 16:13–16:15Z OSV batch was Wix wave-3 + one-offs, zero ltidisafe hosts) — the loader counter moved AHEAD of its host wave, inverting the 3.8.1/3.8.2 pattern where hosts arrived with the loader. Expect the host names riding 3.8.3 in the next amazon-inspector batch: hunt any package whose single dependency is the 3.8.3 tarball URL, and rotate the resolver-log hunt string to `1y0htpm0sry8ekmrysgnxmevhmngb6zv` (and keep watching for any second-label hits on it — the label is now decoy-shaped, so the TOKEN is the hunt key, not the label). Host counters keep climbing meanwhile: `risk-detection` 423/wk, `unified-platform` 414/wk (npm downloads API, this wiki Oct 5 ~17:3xZ — both names still live with non-empty versions, still zero GHSA).
+
 ## IoCs
 
 - Dependency URL pattern: `https://ltidi.storage.googleapis.com/depenconf/ltidisafe-<version>.tgz` (serving 2.3.1…3.7.9 + **3.8.1/3.8.2 as of Oct 5**; 3.8.0 still 403)
