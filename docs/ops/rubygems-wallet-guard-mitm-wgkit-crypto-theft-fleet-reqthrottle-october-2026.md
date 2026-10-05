@@ -179,6 +179,16 @@ The eighty-second sweep's monitor item "OSV catch-up on the 44 erased names" **r
 
 **Monitor unchanged except:** OSV retroactive-record item CLOSED; remaining live risks are exactly the page's standing set — C2 migration, name reappearance (owner-recovery/squat), first inbound to the five wallets or seven chain-neighborhood addresses.
 
+## <a id="october-5-stage-death"></a>October 5 fourth follow-up (~19:20–20:10 UTC, eighty-fourth sweep): STAGE SERVER DIED — `:8092` connection-refused for the first time since capture; the rest of the kit still fully armed; the pull-on-sight capture may now be the only public copy of `wgkit.tar.gz`
+
+`45.138.12.177:8092` refused connection at this wiki's ~19:50Z re-check (and again on retry with verbose curl — TCP-level refusal, not a timeout) = the stage listener is DOWN, the first component of this C2 to die. It had answered byte-identical (`70,578 B`, sha256 `33276fedf0632be39b4e8a646c520bfa081bb7e67dce52042da46bbbda16d440`) at every single check from the eightieth sweep through the eighty-third.
+
+- **The rest of the kit is unchanged and ARMED at the same check:** `:8080/w` 200, `:8080/wi/grab` 200, `:8089` OPEN, `:8090` OPEN. So the kill-chain now splits: the two reverse-shell families (13 wave-1/2 gems) still land on live listeners; the 23 wgkit-downloader gems that XOR-decode the URL, sleep 20–40 min, then `curl + bash wg_install.sh` against `:8092` now FAIL at fetch time on any fresh infection. Hosts already staged before ~19:50Z are unaffected (the kit is on-disk + rogue CA + proxy-persisted).
+- **Interpretation, kept narrow:** single-listener removal on a bare-IP VPS is either operator-side teardown (staging rotation) or hoster/abuse action on the stage path — the exfil + shell ports answering means the box itself is not down. No attribution of the death is possible from outside. If `:8092` returns on this or another host/IP, every not-yet-dormant downloader re-arms.
+- **Artifact custody:** with the listener dead, this wiki's capture (full tarball read + component-level analysis on this page) is plausibly the only public copy of the Wallet Guard kit — same custody position as the `NaorYaa/Test` reverse-shell pair for the Wix wave-3 stage. The `33276fed…` hash + `wgkit`/`usv\x9a` grammar remain the hunt keys.
+
+**Monitor update:** `:8092` return OR migration to a new host on the same grammar promoted to the top of the watch list; exfil/shell-port death still pending; wallets still cold (not re-probed this sweep, inbound alert standing).
+
 ## Related pages
 
 - [algamil7x npm DNS-exfil recon cluster](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md) — this wiki's OSV high-water sweep that surfaced the first four advisories of this fleet
