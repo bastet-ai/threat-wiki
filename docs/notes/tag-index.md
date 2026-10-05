@@ -269,7 +269,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Amazon Q Developer](#amazon-q-developer) (1)
 - [Amazon S3](#amazon-s3) (1)
 - [Amazon SES](#amazon-ses) (2)
-- [Amazon-Inspector](#amazon-inspector) (5)
+- [Amazon-Inspector](#amazon-inspector) (6)
 - [amazon-inspector](#amazon-inspector) (1)
 - [Amcache](#amcache) (1)
 - [AML.T0043](#amlt0043) (1)
@@ -294,7 +294,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Android TV](#android-tv) (1)
 - [Anthropic](#anthropic) (6)
 - [anthropickit](#anthropickit) (1)
-- [anti-analysis](#anti-analysis) (10)
+- [anti-analysis](#anti-analysis) (11)
 - [anti-bot](#anti-bot) (1)
 - [anti-distillation](#anti-distillation) (1)
 - [anti-forensics](#anti-forensics) (3)
@@ -659,6 +659,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [browser-based attack](#browser-based-attack) (1)
 - [browser-based c2](#browser-based-c2) (1)
 - [browser-credential-theft](#browser-credential-theft) (1)
+- [browser-extension](#browser-extension) (1)
 - [browser-extensions](#browser-extensions) (2)
 - [Browser-in-the-middle](#browser-in-the-middle) (1)
 - [browser-resident malware](#browser-resident-malware) (3)
@@ -899,6 +900,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [clipboard paste](#clipboard-paste) (1)
 - [clipboard stealer](#clipboard-stealer) (1)
 - [clipboard theft](#clipboard-theft) (6)
+- [clipboard-hijack](#clipboard-hijack) (1)
 - [clipjacking](#clipjacking) (1)
 - [clipper](#clipper) (2)
 - [Cloaked Ursa](#cloaked-ursa) (2)
@@ -1144,6 +1146,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [crypto wallet theft](#crypto-wallet-theft) (3)
 - [crypto wallets](#crypto-wallets) (2)
 - [crypto-js](#crypto-js) (1)
+- [crypto-theft](#crypto-theft) (1)
 - [crypto-wallets](#crypto-wallets) (1)
 - [cryptocurrency](#cryptocurrency) (15)
 - [cryptocurrency address replacement](#cryptocurrency-address-replacement) (1)
@@ -2014,6 +2017,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [exposed staging](#exposed-staging) (1)
 - [exposure management](#exposure-management) (1)
 - [exposure window](#exposure-window) (1)
+- [extconf-backdoor](#extconf-backdoor) (1)
 - [extconf.rb](#extconfrb) (1)
 - [extension supply-chain](#extension-supply-chain) (2)
 - [extension takeover](#extension-takeover) (1)
@@ -3101,7 +3105,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [malicious releases](#malicious-releases) (2)
 - [malicious signed driver](#malicious-signed-driver) (1)
 - [malicious theme](#malicious-theme) (1)
-- [malicious-package](#malicious-package) (7)
+- [malicious-package](#malicious-package) (8)
 - [malvertising](#malvertising) (11)
 - [malware](#malware) (69)
 - [malware analysis](#malware-analysis) (2)
@@ -3273,6 +3277,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [missing-authentication](#missing-authentication) (1)
 - [Mistic](#mistic) (2)
 - [MISTPEN](#mistpen) (1)
+- [MITM-proxy](#mitm-proxy) (1)
 - [MITRE ATLAS](#mitre-atlas) (1)
 - [MITRE ATT&CK](#mitre-attck) (10)
 - [MITRE ATT&CK T1005](#mitre-attck-t1005) (1)
@@ -3653,7 +3658,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OphimCMS](#ophimcms) (1)
 - [opportunistic exploitation](#opportunistic-exploitation) (1)
 - [opportunistic scanning](#opportunistic-scanning) (1)
-- [ops](#ops) (449)
+- [ops](#ops) (450)
 - [OPSEC](#opsec) (1)
 - [OPSEC failure](#opsec-failure) (1)
 - [Opsec failure](#opsec-failure) (1)
@@ -3675,7 +3680,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [OS command injection](#os-command-injection) (3)
 - [OSCrypt](#oscrypt) (1)
 - [Ossprey](#ossprey) (1)
-- [OSV](#osv) (4)
+- [OSV](#osv) (5)
 - [osv](#osv) (1)
 - [OT](#ot) (6)
 - [OT switches](#ot-switches) (1)
@@ -4260,6 +4265,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [reverse tunneling](#reverse-tunneling) (1)
 - [reverse tunnels](#reverse-tunnels) (1)
 - [reverse-proxy](#reverse-proxy) (1)
+- [reverse-shell](#reverse-shell) (1)
 - [reverse-SSH tunnel](#reverse-ssh-tunnel) (1)
 - [REVERSE_PROXY_TRUSTED_PROXIES](#reverse_proxy_trusted_proxies) (1)
 - [ReverseRAT](#reverserat) (1)
@@ -4302,6 +4308,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [root RCE](#root-rce) (1)
 - [root shell](#root-shell) (4)
 - [root user](#root-user) (1)
+- [root-CA](#root-ca) (1)
 - [rootkit](#rootkit) (5)
 - [ROOTRUN](#rootrun) (1)
 - [Rootstock](#rootstock) (1)
@@ -4328,6 +4335,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [rtmutex](#rtmutex) (1)
 - [RubyDoc](#rubydoc) (1)
 - [RubyGems](#rubygems) (6)
+- [rubygems](#rubygems) (1)
 - [rubygems.org](#rubygemsorg) (1)
 - [RubyHack](#rubyhack) (1)
 - [Ruckus routers](#ruckus-routers) (1)
@@ -4463,6 +4471,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [seed phrase](#seed-phrase) (1)
 - [seed phrase theft](#seed-phrase-theft) (3)
 - [seed recovery](#seed-recovery) (1)
+- [seed-phrase-theft](#seed-phrase-theft) (1)
 - [SeedHunter](#seedhunter) (1)
 - [Seedworm](#seedworm) (3)
 - [segmented networks](#segmented-networks) (1)
@@ -4611,6 +4620,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SimpleHTTPServer exposure](#simplehttpserver-exposure) (1)
 - [simpleswap](#simpleswap) (1)
 - [simulation tampering](#simulation-tampering) (1)
+- [single-operator](#single-operator) (1)
 - [sinkhole](#sinkhole) (1)
 - [sinkholing](#sinkholing) (1)
 - [SIP](#sip) (1)
@@ -4878,7 +4888,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [supply chain](#supply-chain) (27)
 - [supply chain attack](#supply-chain-attack) (4)
 - [supply chain compromise](#supply-chain-compromise) (1)
-- [supply-chain](#supply-chain) (130)
+- [supply-chain](#supply-chain) (131)
 - [supply-chain attack](#supply-chain-attack) (2)
 - [supply-chain attribution](#supply-chain-attribution) (1)
 - [supply-chain integrity](#supply-chain-integrity) (1)
@@ -5169,7 +5179,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [type confusion](#type-confusion) (2)
 - [TypeConfuseDelegate](#typeconfusedelegate) (1)
 - [TypeScript](#typescript) (2)
-- [typosquat](#typosquat) (9)
+- [typosquat](#typosquat) (10)
 - [typosquatting](#typosquatting) (19)
 - [U+E0000](#ue0000) (1)
 - [U.S. critical infrastructure](#us-critical-infrastructure) (1)
@@ -5420,7 +5430,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [wallet infrastructure](#wallet-infrastructure) (1)
 - [wallet replacement](#wallet-replacement) (1)
 - [wallet theft](#wallet-theft) (8)
-- [wallet-drainer](#wallet-drainer) (1)
+- [wallet-drainer](#wallet-drainer) (2)
 - [wallet-extension](#wallet-extension) (1)
 - [wallet-theft](#wallet-theft) (4)
 - [WAPF](#wapf) (1)
@@ -6784,6 +6794,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Microsoft Q2 2026 email and Teams phishing landscape](../ops/microsoft-q2-2026-email-teams-phishing-landscape.md)
 
 ## Amazon-Inspector
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
@@ -6906,6 +6917,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [macOS ClickFix fingerprinting-gate campaign](../ops/macos-clickfix-fingerprinting-gate-campaign.md)
 - [NovaCookies: Docusign-notification-driven AitM PhaaS stealing Microsoft 365 sessions (Sneaky2FA variant)](../ops/novacookies-docusign-aitm-phaas-m365-session-theft.md)
 - [Paysafe / Skrill / Neteller npm and PyPI typosquat stealer campaign](../ops/paysafe-skrill-neteller-npm-pypi-typosquats.md)
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [TELESHIM](../tools/teleshim.md)
 - [TELESHIM Middle East government espionage campaign](../ops/teleshim-middle-east-government-espionage.md)
 
@@ -8293,6 +8305,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## browser-credential-theft
 - [postcss-minify-selector-parser npm RAT](../ops/postcss-minify-selector-parser-npm-rat.md)
 
+## browser-extension
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
+
 ## browser-extensions
 - [Chrome live-wallpaper extension ad-fraud network](../ops/chrome-live-wallpaper-extension-ad-fraud.md)
 - [Glassworm developer supply-chain botnet](../ops/glassworm-developer-supply-chain-botnet.md)
@@ -9348,6 +9363,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [PamStealer](../tools/pamstealer.md)
 - [Silent Swap Google Notes crypto clipper](../ops/silent-swap-google-notes-crypto-clipper.md)
 - [VPN Go browser-extension clipboard stealer](../ops/vpn-go-browser-extension-clipboard-stealer.md)
+
+## clipboard-hijack
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 
 ## clipjacking
 - [Sality P2P botnet disrupted: CrowdStrike P2P sinkholing operation with DOJ/FBI ends a 23-year file-infecting botnet (Aug 31, 2026)](../ops/sality-p2p-botnet-disruption-crowdstrike-august-31-2026.md)
@@ -10447,6 +10465,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## crypto-js
 - [Ill Bloom CryptoJS wallet-drain campaign](../ops/ill-bloom-cryptojs-wallet-drains.md)
+
+## crypto-theft
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 
 ## crypto-wallets
 - [faster-axios / turbo-axios Epsilon Stealer npm campaign](../ops/faster-axios-turbo-axios-epsilon-stealer.md)
@@ -13674,6 +13695,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## exposure window
 - [TeamPCP: AFP/WAPF/FBI charge two Western Australian men over the Trivy, KICS, and LiteLLM supply-chain attacks](../ops/teampcp-afp-wapf-fbi-charged-two-men-august-2026.md)
+
+## extconf-backdoor
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 
 ## extconf.rb
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
@@ -17812,6 +17836,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## malicious-package
 - [DirtyBlanket: nine npm Express/React clones publish a self-spreading Linux worm whose loader is served through the Wayback Machine — CHAOS RAT behind Tor, `chattr +i` fake systemd font persistence, SSH-key lateral movement, and automated AUR `PKGBUILD.install` + npm-token republish poisoning](../ops/dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md)
 - [MALFEX: one Portuguese-language npm operator, twelve packages, two delivery arms, three years of continuity — and the advisory pipeline's gap made visible: `function-flag` sat as a malicious postinstall with NO advisory for fourteen months, and `cdn-img-fetch` stayed installable after npm seized its parent](../ops/malfex-npm-single-operator-two-arms-function-flag-14-month-unadvised-postinstall-cloudsek-september-2026.md)
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `ltidisafe` fleet: 69 npm advisories since May, one mutable Google-Cloud-Storage tarball dependency, per-name interactsh beacons — and a live October 2 addition from the same publisher while two already-advised names are STILL installable (this wiki forensics, Oct 2, 2026)](../ops/ltidisafe-gcs-loader-npm-dependency-confusion-fleet-whltd1-oastify-october-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
@@ -18603,6 +18628,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## MISTPEN
 - [Shattering the Dream: Lazarus "Operation Dream Job" job-offer zero-day campaign](../ops/lazarus-operation-dream-job-shattering-the-dream.md)
+
+## MITM-proxy
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 
 ## MITRE ATLAS
 - [Unit 42: machine-speed agentic intrusion — 50+ ATT&CK techniques executed in under 10 hours (Sep 2, 2026)](../ops/unit42-ai-assisted-cyber-attack-machine-speed-agentic-intrusion-september-2026.md)
@@ -20730,6 +20758,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [REF6045 / SCMBANKER Mexican banking fraud](../ops/ref6045-scmbanker-mexican-banking-fraud.md)
 - [RMM phishing campaign spanning 46 countries: rapidly-rotated Vercel infrastructure and the stable delivery-chain fingerprint (ANY.RUN, Sep 4, 2026)](../ops/rmm-phishing-campaign-46-countries-verbatim-disposable-infra-anyrun-september-2026.md)
 - [Rogue ScreenConnect installations: worm-like VBS propagation across unrelated hosts (Huntress)](../ops/screenconnect-rogue-install-worm-like-vbs-propagation-huntress-september-2026.md)
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [Ruflo CVE-2026-59726 unauthenticated MCP bridge RCE](../ops/ruflo-cve-2026-59726-unauthenticated-mcp-rce.md)
 - [Russian auth-focused espionage: Google OAuth and WhatsApp device-link hijacking](../ops/russian-oauth-whatsapp-device-link-account-hijacking-gtig.md)
 - [Russian intelligence commercial-messaging backup-key phishing](../ops/russian-intelligence-signal-backup-key-phishing.md)
@@ -20916,6 +20945,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [DirtyBlanket: nine npm Express/React clones publish a self-spreading Linux worm whose loader is served through the Wayback Machine — CHAOS RAT behind Tor, `chattr +i` fake systemd font persistence, SSH-key lateral movement, and automated AUR `PKGBUILD.install` + npm-token republish poisoning](../ops/dirtyblanket-npm-express-clone-linux-worm-wayback-codeberg-aur-chaos-tor-safedep-september-2026.md)
 
 ## OSV
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [The `ipcheck-hashed[.]vercel.app` require-time server-code cluster goes PUBLIC-CLOUD-permanent: `hardhat-base` (4th member, same server, new endpoint) and `hardhat-devkit` (5th, a 4 MB obfuscator.io dropper behind a pino cover story) cross the pattern-promotion bar this wiki set on Sep 21 — and this wiki verified the C2 endpoint is STILL ANSWERING 200 on a POST with no credentials, on free Vercel infrastructure anyone can provision](../tools/ipcheck-hashed-vercel-app-require-time-server-code-cluster-september-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
 - [The Telegram `chat_id 1064260758` cluster: ~10 dependency-confusion-shaped npm packages all beacon installer identity + credential-shaped env-var NAMES to one Telegram chat — most README-self-labeled "security research PoCs," one with a DNS-tunnel fallback to `dc-callback.example.com` (Amazon Inspector via OSV, Sep 21, 2026)](../ops/telegram-chatid-1064260758-dependency-confusion-recon-cluster-september-2026.md)
@@ -23299,6 +23329,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## reverse-proxy
 - [RatHat: Android spyware self-pairs to ADB for post-uninstall shell persistence, drives itself with a live generative-AI loop over the Accessibility tree (Zimperium zLabs, Sep 18, 2026)](../tools/rathat-android-adb-self-pairing-genai-driven-spyware-zimperium-september-2026.md)
 
+## reverse-shell
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
+
 ## reverse-SSH tunnel
 - [Cisco Secure FMC in-the-wild exploitation: three actor clusters on CVE-2026-20079 / CVE-2026-20316](../ops/talos-fmc-ongoing-exploitation-cve-2026-20079-cve-2026-20316-actor-clusters-september-2026.md)
 
@@ -23455,6 +23488,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## root user
 - [AWS root user password-spraying campaign across 150+ organizations — two fixed user agents, residential-proxy tunneling, no confirmed success (Datadog Security Labs, Aug 31, 2026)](../ops/aws-root-user-password-spray-campaign-datadog-august-2026.md)
 
+## root-CA
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
+
 ## rootkit
 - [Atomic Arch AUR package hijack](../ops/atomic-arch-aur-package-hijack.md)
 - [Funnull RingH23 and MacCMS supply-chain attacks](../ops/funnull-ringh23-maccms-supply-chain.md)
@@ -23547,6 +23583,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [SleeperGem RubyGems maintainer-account compromise](../ops/sleepergem-rubygems-maintainer-account-compromise.md)
 - [StepSecurity annual census: 56 open source supply chain attacks (Aug 2025–Aug 2026)](../ops/stepsecurity-state-of-open-source-supply-chain-attacks-2026.md)
 - [StubMaker: 16 typosquatted RubyGems packages deliver Windows stealer](../ops/stubmaker-rubygems-typosquat-windows-stealer.md)
+
+## rubygems
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 
 ## rubygems.org
 - [GemStuffer expands to 3,022 RubyGems packages: JFrog ties the May–July spam waves to suspected OpenAI agents using RubyDoc workers as a fetch-and-return channel, attempting legacy API-key theft before RubyGems patched the CDN key-leak (Sep 15, 2026)](../ops/gemstuffer-rubygems-openai-agents-rubydoc-abuse-3022-packages-jfrog-september-2026.md)
@@ -24093,6 +24132,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 ## seed recovery
 - [COLDCARD predictable-RNG Bitcoin theft risk](../ops/coldcard-predictable-rng-bitcoin-theft.md)
 
+## seed-phrase-theft
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
+
 ## SeedHunter
 - [OkoBot cryptocurrency-wallet malware framework](../ops/okobot-cryptocurrency-wallet-framework.md)
 
@@ -24615,6 +24657,9 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## simulation tampering
 - [Fast16](../tools/fast16.md)
+
+## single-operator
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 
 ## sinkhole
 - [SPEAKINGSTONE and DARKLANTERN: two more implants in ZBT / MoreQuick router firmware (VulnCheck supply-chain trace)](../ops/speakingstone-darklantern-zbt-router-implants.md)
@@ -25729,6 +25774,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [procwire / routecraft npm Windows dropper](../ops/procwire-routecraft-npm-windows-dropper.md)
 - [Product-instructed commands over unclaimed package names: `npx ubiquiti-agents-link-mcp@latest`](../patterns/product-instructed-npx-command-unclaimed-package-name-squat-september-2026.md)
 - [QuickFox FDMTP software supply-chain compromise](../ops/quickfox-fdmtp-supply-chain-compromise.md)
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [SANDWORM_MODE AI-toolchain npm worm](../ops/sandworm-mode-ai-toolchain-worm.md)
 - [ScarCruft Yanbian game-platform supply-chain attack](../ops/scarcruft-yanbian-game-platform-supply-chain.md)
 - [shopsprint/decimal Go typosquat DNS backdoor](../ops/shopsprint-decimal-go-typosquat-dns-backdoor.md)
@@ -26897,6 +26943,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 - [Graphalgo crosses ecosystems: Aikido finds the npm malware family rebuilt in Go, shipped through the FIRST malware-distributed Terraform providers, two fake Go "vanity ecosystems," and a public key that joins it to this wiki's on-wiki npm campaign inventory (Sep 22, 2026)](../ops/graphalgo-go-terraform-cross-ecosystem-spread-aikido-september-2026.md)
 - [mathmain / mathsbase / math-universe: trojanised mathjs clones hide a scrypt+AES-GCM encrypted-payload loader keyed on solver input — the payload itself is still unread (SafeDep, Sep 18, 2026)](../ops/mathmain-encrypted-loader-npm-trojanised-mathjs-trio-safedep-september-2026.md)
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 - [Rust supply-chain attack: arrayref 0.3.10 and the proc-macro1 typosquat](../ops/arrayref-proc-macro1-rust-crate-supply-chain-attack.md)
 - [The `algamil7x` npm cluster: five corporate-squat scoped packages beacon installer identity over DNS labels to one attacker domain (Amazon Inspector via GitHub Advisories, Sep 18, 2026)](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md)
 - [The `npmjs.it.com` agent pair: two Element Plus-themed npm packages that masquerade as Gradle instrumentation to drop a full remote-access agent — with sentinel-file targeting of fintech/trading monorepos — on install AND on import (Amazon Inspector via OSV, Sep 21, 2026)](../ops/npmjs-it-com-gradle-masquerade-full-rce-agent-pair-september-2026.md)
@@ -27912,6 +27959,7 @@ Generated from page-level `## Tags` sections. Each tag below links to the pages 
 
 ## wallet-drainer
 - [Polymarket npm wallet-drainer packages](../ops/polymarket-npm-wallet-drainer.md)
+- [RubyGems "Wallet Guard" fleet — 48-gem single-account campaign: extconf.rb reverse shells + a LIVE-served MITM proxy/withdrawal-swap/seed-stealer kit (`wgkit.tar.gz`) from one bare-IP C2 (Oct 5 wave)](../ops/rubygems-wallet-guard-mitm-wgkit-crypto-theft-fleet-reqthrottle-october-2026.md)
 
 ## wallet-extension
 - [WeaselBiscuit: a stripped-down npm JavaScript stealer built from DPRK BeaverTail/OtterCookie parts, targeting Chrome extension storage (OpenSourceMalware, Sep 17, 2026)](../tools/weaselbiscuit-npm-stealer-beavertail-ottercookie-dprk-opensourcemalware-september-2026.md)
