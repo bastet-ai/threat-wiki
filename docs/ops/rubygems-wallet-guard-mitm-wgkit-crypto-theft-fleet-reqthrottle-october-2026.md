@@ -200,6 +200,19 @@ The advisory-blindness story this fleet anchored is finished, and finished in th
 
 **Monitor update:** `:8092` return/migration unchanged at top; NEW discriminator — fresh-name GHSA mirror latency (live-mirror resumed vs burst-only); whether `reqthrottle-3474`/`reqthrottle_mini`/`eth-wallet-tools` ever draw any record; RubyGems GHSA records now count as a first-class query surface for this fleet.
 
+## <a id="october-6-ninetieth-erasure"></a>October 6 second follow-up (~09:25–10:10 UTC, ninetieth sweep): ERASURE DEEPENED PAST THE DEATH-LADDER FLOOR — the three ADVISORY-BLIND ANCHOR names are now bare-404 at every layer, HTML tombstone included, while still carrying ZERO OSV + ZERO GHSA
+
+The eighty-second's ladder mechanic said the HTML page `/gems/<name>` keeps serving 200 even after API erasure + index rebuild + CDN 403 complete — soft preservation as the registry's last layer. This sweep that layer broke, and it broke selectively:
+
+- **Bare-404 at EVERY layer (HTML 404 + API 404 + compact index "This gem could not be found" + tarball 403):** `reqthrottle_3474` (the account-name CAMPAIGN ANCHOR), `reqthrottle_mini`, `eth-wallet-tools`.
+- **Soft-200 HTML preserved over empty-version index (`---` rows):** sampled shells `wallet-crypto-utils`, `bitciin` (HTML 200, API 404, compact index `---`, tarball 403); `rate-limit-mini` + `quota-bucket` carry the same empty-`---` index rows (HTML layer not sampled on those two).
+- **The advisory gap survived the deeper erasure:** `affects=` (GHSA) and OSV name queries on all three anchors re-run this sweep — still ZERO records each. Whatever drove the deeper deletion did not consult the advisory map, and the advisory map never covered these names anyway.
+- **C2 end-state re-verified:** `:8092` connection-refused SEVENTH straight check; `:8080 /w` 200 ARMED; `:8089`/`:8090` OPEN. Wallets not re-probed (explorer gates standing); monetization still zero-confirmed.
+
+**Durable close on the advisory-blindness arc:** the fleet's public shape is now final — 48 gems published in 64 minutes, 42 posthumous OSV records, a same-second GHSA mirror, a registry death laddered end-to-end inside hours… and the one name that IS the campaign (its account, its reference `extconf.rb`) exists in no machine-readable advisory ever published and is now erased from the registry past its own tombstone page. A defender who followed every official feed to the letter never learned the anchor name existed. Grammar-level hunting (`req_throttle_mini` leftover path, `usv\x9a` XOR key, `wgkit`/`Wallet Guard` strings, the `45.138.12.177` set) remains the only complete map of this campaign — this page is that map.
+
+**Monitor update:** the bare-vs-soft-200 split is a new observable — watch whether the soft-200 shells lose their HTML pages too (erasure sweeping fleet-wide) or keep them (deletion targeted at report-triage names); everything else unchanged.
+
 ## Related pages
 
 - [algamil7x npm DNS-exfil recon cluster](algamil7x-npm-dns-exfil-recon-cluster-september-2026.md) — this wiki's OSV high-water sweep that surfaced the first four advisories of this fleet
