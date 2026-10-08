@@ -63,6 +63,8 @@ The pattern is the require-time twin of WeaselBiscuit's Npoint dead-drop fetch (
 - `hardhat-base`'s OSV text is Amazon Inspector's analysis; this wiki verified registry state (both members unpublished with machine-readable `unpublished` blocks), the OSV records themselves, and endpoint liveness (HTTP 200), but did not re-analyze the tarballs — hashes/tarball SHAs are in the OSV records (`IN-MAL-2026-020257/8/9`).
 - The endpoint answering 200 does not prove it still returns malicious code — an empty/auth-gated 200 is indistinguishable from outside; it does prove the operator's deployment **survived a week after the cluster's first advisories**.
 
+## <a id="october-8-family-completes"></a>October 8: THE FAMILY'S BACKLOG ADVISES AT ONCE — `MAL-2026-17658`–`17662` = `hardhat-bits` / `hardhat-deep` / `hardhat-option` / `hardhat-pack` / `hardhat-promised` — members added since the page's September five all get IDs in one 04:00:05Z mint-wave, incl. `hardhat-promised`, the name this wiki tracked LIVE-ZERO-ADVISORY for ~24 h before npm purged it unadvised Oct 7 14:19:39Z = the nobody-takes-it-down branch closes retroactively (registry now purge-shell with surviving `unpublished` blocks, `created` Oct 7 08:53–14:36Z across the four new names = the rebuild rail published five names in ~6 h the same day the enforcement lane was sweeping); the `ipcheck-hashed` endpoint watch is unaffected — collector liveness hunts stay the durable channel
+
 ## Sources
 
 - OSV direct-ID records (this wiki, API-verified Sep 21 ~17:00 UTC): `MAL-2026-16348` (`hardhat-base` 2.2.0/2.2.2, Amazon Inspector, published 16:41:31Z, evidence-file SHAs + tarball hashes in-record), `MAL-2026-16349` (`hardhat-devkit` 2.3.6, published 16:41:23Z).

@@ -52,7 +52,7 @@ The `preinstall` hook runs `setup.mjs`, which self-skips on CI (developer machin
 
 ## Monitoring
 
-Whether the OSV mirror (`MAL-2026-17650`+) lands for `tensorlake` (pending at the one-hundred-and-ninth's final read); whether `main` is finally cleaned or force-pushed; which packages the worm republished under stolen npm tokens (StepSecurity's Threat Center list is the rolling feed); whether the hostage-wiper actually fires in the wild; whether the Shai-Hulud branding draws copycats or a second named wave; PyPI-side `tensorlake` status (clean at check).
+Whether the OSV mirror (`MAL-2026-17650`) lands for `tensorlake` — **LANDED Oct 8 04:45:04Z** (one-hundred-and-tenth sweep: `GHSA-rqxj-g25x-4v9v` published 02:54:39Z; registry `latest` back to `0.5.143`, malicious `0.5.144` purged 02:54:27Z = 12 s before its own GHSA, delete-then-advise on a legitimate brand; both advisories + OSV live = consumers warned, registry rail severed). Remaining watches: whether `main` is finally cleaned or force-pushed (payload files live at write per StepSecurity); which packages the worm republished under stolen npm tokens (StepSecurity's Threat Center list is the rolling feed); whether the hostage-wiper actually fires in the wild; whether the Shai-Hulud branding draws copycats or a second named wave; PyPI-side `tensorlake` status (clean at check).
 
 ## Related pages
 
