@@ -41,6 +41,7 @@ The header comment is unusually candid (quoted verbatim in spirit): "this file i
 - `POST /api/cli/init` with `{"hostname":"probe","os":"linux"}` (harmless probe, no victim data): **both** baked servers answered `200 {"ok":true,"apiKey":"ptm_…"}` — open, unauthenticated device registration is LIVE on both rails, keys prefixed `ptm_`. The panel is not a parked domain; it is issuing enrollments now.
 - Primary host root answers `000` (no plain response) while `/api/cli/init` works — the panel serves only its API routes. Fallback host root answers `307`.
 - PyPI registry: both versions live, no quarantine marker (contrast `ig-gox`, quarantined within ~6.5 h of its PR). `py2ops` has now been live-and-unadvised ≈6 h at this write.
+- **Hundred-twenty-ninth sweep follow-check (Oct 9 ~23:1x UTC, ≈7 h live):** STILL `latest = 2.2.1`, both releases un-yanked, no quarantine marker; **ZERO OSV (OSV name query empty) + ZERO GHSA (GitHub `ecosystem=pip&affects=py2ops` = 0 records)**. Approaching/past the ig-gox OSV-arrival mark (+9 h); PyPI-action comparison stays the clock that matters.
 
 ## Durable reads
 
