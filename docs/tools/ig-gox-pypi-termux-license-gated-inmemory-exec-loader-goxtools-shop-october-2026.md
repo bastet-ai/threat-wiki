@@ -101,6 +101,12 @@ This wiki asserts the **mechanics class** (import-time remote-exec spine under a
 - **PyPI QUARANTINED** ≈6.5 h after curated PR #1610: simple index carries `pypi:project-status quarantined` with an EMPTY file listing, JSON API 404s. Registry death at ~09:5xZ.
 - **C2 FOURTH LIVE OBSERVATION:** `goxtools.shop/api/admin/licenses.php` → `401 ADMIN_AUTH_REQUIRED` JSON, server clock `2026-10-09T11:27:55+00:00` = the server has outlived the package by ~6.5 h. The fleet of devices that installed 1.0.0 before quarantine still phones home.
 
+## October 9 later same day: the GHSA mirror arrives ≈3 h behind the OSV; the C2 is still up ≈16 h after quarantine (this wiki, one-hundred-and-twenty-fifth sweep, ~13:2x–13:4x UTC)
+
+- **`GHSA-rhpj-mr3r-r4gg` published 2026-10-09T12:31:16Z** (`= 1.0.0`, pip, no CVSS) ≈3 h 10 m after the kam193-sourced OSV `MAL-2026-17712` — in the SAME one-second batch as the `sharpnes` GHSA. The hundred-twenty-fourth's open question ("do kam193 records EVER mirror to GitHub?") resolves YES with a measured ≈3 h retro-lag: the ghsa-malware importer picks up the individual-analyst lane on its own batch cadence. `17712` still `aliases: None` ≈1 h post-GHSA — the join-lag rule continues.
+- **C2 FIFTH LIVE OBSERVATION:** `goxtools.shop/api/admin/licenses.php` → `401 ADMIN_AUTH_REQUIRED`, server clock `2026-10-09T13:26:16+00:00` = **≈16 h after the PyPI quarantine**, still answering, auth-gated as ever. Quarantine holds (JSON 404, simple index empty-file). The pre-quarantine device fleet's phone-home path is fully operator-controlled.
+- **GHSA scope check:** `= 1.0.0` is scope-complete (single published version) — no version-lag blind spot on this name; the remaining gap is purely time (00:29Z upload → 09:21Z OSV → 12:31Z GHSA = ≈12 h exposure with zero public record on either lane).
+
 ## Related pages
 
 - [algamil7x npm DNS-exfil recon cluster](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-9-one-hundred-and-twenty-first-sweep) — the hundred-twenty-first sweep that captured this unpack
