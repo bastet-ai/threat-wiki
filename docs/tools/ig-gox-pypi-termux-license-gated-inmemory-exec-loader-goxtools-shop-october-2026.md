@@ -107,6 +107,14 @@ This wiki asserts the **mechanics class** (import-time remote-exec spine under a
 - **C2 FIFTH LIVE OBSERVATION:** `goxtools.shop/api/admin/licenses.php` → `401 ADMIN_AUTH_REQUIRED`, server clock `2026-10-09T13:26:16+00:00` = **≈16 h after the PyPI quarantine**, still answering, auth-gated as ever. Quarantine holds (JSON 404, simple index empty-file). The pre-quarantine device fleet's phone-home path is fully operator-controlled.
 - **GHSA scope check:** `= 1.0.0` is scope-complete (single published version) — no version-lag blind spot on this name; the remaining gap is purely time (00:29Z upload → 09:21Z OSV → 12:31Z GHSA = ≈12 h exposure with zero public record on either lane).
 
+## <a id="october-9-sixth-observation"></a>October 9 hundred-twenty-sixth sweep: C2 SIXTH LIVE OBSERVATION ≈22 h POST-QUARANTINE
+
+- `goxtools.shop/api/admin/licenses.php` → `401 ADMIN_AUTH_REQUIRED`, server clock `2026-10-09T17:31:55+00:00` = **SIXTH consecutive live observation, ≈22 h after the PyPI quarantine** — registry dead a full day, server alive; the JSON error shape and fresh clock unchanged. PyPI quarantine holds (project 404). GHSA `GHSA-rhpj` mirror unchanged (`= 1.0.0`, scope-complete). Ledger: [hundred-twenty-sixth section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-9-one-hundred-and-twenty-sixth-sweep).
+
+## <a id="october-9-seventh-observation"></a>October 9 hundred-twenty-seventh sweep: C2 SEVENTH LIVE OBSERVATION — ≈24 h POST-QUARANTINE MARK PASSED
+
+- `goxtools.shop/api/admin/licenses.php` → `401 ADMIN_AUTH_REQUIRED`, server clock `2026-10-09T19:27:27+00:00` = **SEVENTH consecutive live observation, a FULL DAY after the PyPI quarantine** — same JSON error shape, same auth gate, fresh clock. The registry has been dead 24 h; the operator's phone-home rail for the pre-quarantine device fleet has answered at every single check. PyPI quarantine holds (project 404). Ledger: [hundred-twenty-seventh section](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-9-one-hundred-and-twenty-seventh-sweep).
+
 ## Related pages
 
 - [algamil7x npm DNS-exfil recon cluster](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-9-one-hundred-and-twenty-first-sweep) — the hundred-twenty-first sweep that captured this unpack

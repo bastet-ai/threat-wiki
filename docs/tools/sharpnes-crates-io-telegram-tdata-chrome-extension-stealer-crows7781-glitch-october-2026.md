@@ -46,7 +46,7 @@ Call surface: everything runs ONLY when the exported `pub async fn shortname()` 
 
 ## Monitor
 
-- Yank/ deletion action on 0.1.0–0.1.5; whether 0.1.6+ keeps publishing advised.
+- Yank/ deletion action on 0.1.0–0.1.5; whether 0.1.6+ keeps publishing advised. **State at the hundred-twenty-seventh sweep (~19:3xZ, ≈6 h post-dual-advisory): ZERO yanks, `max_version` still `0.1.5`, downloads 15→52 since the 125th — every Rust install path advised-and-serving for six hours and counting.**
 - Re-registration under new crate names by `crows7781-glitch` / the `shortneer` repo grammar (`learn` description, mash identifiers, chat `-1003869029825`).
 - Whether the second bot token's XOR form stays concealed in any future OSV re-issues.
 - First sighting of `shortname()` call sites in downstream Rust projects (the actual victim path).
