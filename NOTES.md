@@ -13,4 +13,7 @@
 
 Local validation for the navigation repair: `npm run build`, `npm run deploy:check`, and `npm run test:hosting` passed. The hosting check covers pages, directory URLs, search, feed, assets, and 404 handling.
 
-Verification pending: a push-triggered Cloudflare build for the documentation commit, its deployed commit/build identifier, and public HTTPS checks after that deployment. Connection settings alone do not prove the complete deployment path.
+### First Git-triggered deployment verified
+
+- Pushing commit [`2eea99b5947e1ed6574b1279e5ec2bef7c6feb9a`](https://github.com/bastet-ai/threat-wiki/commit/2eea99b5947e1ed6574b1279e5ec2bef7c6feb9a) triggered Cloudflare build `0207f721-6871-416d-bdbe-0aa7ae914b5d`, which succeeded and published Worker version `9a7f56de-77ad-43b2-b5a7-94285a3627a6`. GitHub validation for that commit also succeeded. Exact commit identity comes from Cloudflare build/version evidence, not from the HTTP checks alone.
+- All nine public HTTPS checks passed against `https://threat.wiki/` at 20:13 UTC: homepage, `/actors/teampcp/`, both canonical URLs, a 307 trailing-slash redirect, linked CSS, a valid search index with 13,310 entries including the article, a valid RSS feed, and a real 404 for a missing page. Certificate verification remained enabled.
