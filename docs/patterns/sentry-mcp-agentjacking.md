@@ -24,7 +24,7 @@ In Tenet's controlled validation, a crafted Sentry event included fake remediati
 - Tenet Security
 
 ## Attack shape
-- The attacker finds a target Sentry DSN from public frontend JavaScript, code search, CDN content, or internet indexing. Sentry documents DSNs as safe to expose because they are used for event ingestion rather than account access.
+- The attacker finds a target Sentry DSN from public frontend JavaScript, code search, CDN content, or internet indexing. Sentry documents DSNs as [safe to expose](https://docs.sentry.io/concepts/key-terms/dsn-explainer/) because they are used for event ingestion rather than account access.
 - The attacker posts a crafted error event to Sentry's ingest endpoint. Tenet notes that the attacker can control fields such as the error message, tags, context keys, breadcrumbs, user data, stack traces, and fingerprint.
 - The event uses markdown and Sentry-looking structure to create a fake remediation section, such as a diagnostic command presented as a resolution step.
 - A developer asks an AI coding agent to investigate or fix unresolved Sentry issues. Through MCP, the agent receives the injected event as external tool output.
@@ -40,6 +40,10 @@ In Tenet's controlled validation, a crafted Sentry event included fake remediati
 - Review Sentry projects for unusual synthetic events that include markdown headings, code blocks, command lines, package names, or instructions to avoid source-code investigation.
 - Keep developer-machine credentials narrow and short-lived. Assume an agent that can run shell commands can read environment variables, cloud config files, git credentials, package-manager tokens, and local repository data unless sandboxed.
 - During response, preserve the Sentry event payload, MCP transcript, agent plan/tool-call logs, shell history, package-manager cache, and endpoint network telemetry before deleting suspicious events or packages.
+
+## Follow-up (as of Oct 9, 2026)
+- **Vendor response:** Sentry acknowledged the disclosure on 2026-06-03, declined a root-cause fix (Tenet reports Sentry called the class "technically not defensible"), and shipped a content filter keyed to the specific payload string — a string-match filter is bypassable, which is exactly why the runtime heuristics above matter more than the vendor patch.
+- **Class generalization:** the research was extended at DEF CON 34 (Aug 9, 2026) as "GhostJacking," broadening the same ingest→MCP→agent injection path beyond Sentry to Cloudflare and Datadog (2,700+ exposed Datadog client tokens reported) — [Tenet: GhostJacking](https://tenetsecurity.ai/blog/ghostjacking-attacks-agentic-kill-chain). Tenet also open-sourced hardening configs for Cursor/Claude Code: [agent-jackstop](https://github.com/tenet-security/agent-jackstop).
 
 ## Why this matters
 Agentjacking is a reusable prompt/tool-output injection pattern, not a one-off Sentry issue. Any external system that accepts attacker-controlled text and later feeds that text to an agent with file, shell, package-manager, browser, or network tools can become an execution path. The durable lesson is to bind agent privileges to data provenance: public or third-party records can help with triage, but they should not be able to create executable instructions without a separate trusted policy decision.

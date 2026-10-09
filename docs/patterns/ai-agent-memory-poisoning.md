@@ -12,7 +12,7 @@ Treat agent memory as both sensitive data and behavior-shaping control state. It
 - memory poisoning
 - prompt injection
 - indirect prompt injection
-- delayed execution
+- delayed tool invocation
 - tool use
 - data exfiltration
 - provenance
@@ -29,7 +29,7 @@ Treat agent memory as both sensitive data and behavior-shaping control state. It
 - Later, during an unrelated task, the agent retrieves the poisoned memory and treats it as trusted context.
 - The retrieved memory steers reasoning or tool calls: forwarding schedule updates, changing recipients, selecting attacker-controlled infrastructure, suppressing warnings, altering code-review criteria, or weakening future decisions.
 
-Microsoft's example scenario is delayed tool execution: a user opens a shared document whose hidden instructions ask an assistant to exfiltrate schedule updates. Days later, the dormant instruction influences memory and causes later schedule updates to flow to the attacker.
+Microsoft's example scenario is what the post names **delayed tool invocation**: a user opens a shared document whose hidden instructions ask an assistant to exfiltrate schedule updates. Days later, the dormant instruction influences memory and causes later schedule updates to flow to the attacker.
 
 ## Why it matters
 - **Temporal gap:** the malicious effect can happen long after ingestion, making user awareness and analyst reconstruction harder.
