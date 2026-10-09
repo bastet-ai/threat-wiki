@@ -94,6 +94,13 @@ This wiki asserts the **mechanics class** (import-time remote-exec spine under a
 3. **Anti-sandbox tell:** a Python package that exits 0 silently under a detonator but does nothing visible there is NOT benign — check for the `gettrace`/builtins-instrumentation/`frida`-in-argv gate grammar statically (this wiki's decode was ~20 lines of regex + XOR).
 4. **Curated-lane watch:** #1610 is the second PyPI filing from `justkorean1681` inside 6 days after #1590 froze at ~122 h unmerged — curated filings for PyPI names can sit unmerged while the name stays live and uncovered; query both lanes by NAME, never by merged-PR status.
 
+## October 9 same-day: OSV arrives naming the crime; PyPI quarantines; the C2 stays alive (this wiki, one-hundred-and-twenty-fourth sweep, ~11:2x–11:4x UTC)
+
+- **`MAL-2026-17712` published 2026-10-09T09:21:11Z** — OSV source is **`kam193`** (`bad-packages.kam193.eu`), a named individual-analyst lane, NOT `ossf-package-analysis`; campaign tag **`2026-10-ig-gox`**. The OSV states the purpose the ledger could only infer from mechanics: **"The remote code is used to abuse Instagram service for mass fake account registration."** The Android/Termux HWID spine described above is therefore an **account-farm botnet backbone** — per-device stage delivery = per-device account credentials — and the `ig` in the name plus the embedded `ig-hitter.py` read accordingly. DRM reading above stands as the mechanics class; the motive read sharpens to platform-abuse farming.
+- **GHSA lane: still ZERO** (`affects=ig-gox&type=malware` → 0 records at ~11:3xZ) — monitor whether the kam193 lane EVER mirrors to GitHub; if not, GitHub-side consumers never see this class via any query.
+- **PyPI QUARANTINED** ≈6.5 h after curated PR #1610: simple index carries `pypi:project-status quarantined` with an EMPTY file listing, JSON API 404s. Registry death at ~09:5xZ.
+- **C2 FOURTH LIVE OBSERVATION:** `goxtools.shop/api/admin/licenses.php` → `401 ADMIN_AUTH_REQUIRED` JSON, server clock `2026-10-09T11:27:55+00:00` = the server has outlived the package by ~6.5 h. The fleet of devices that installed 1.0.0 before quarantine still phones home.
+
 ## Related pages
 
 - [algamil7x npm DNS-exfil recon cluster](../ops/algamil7x-npm-dns-exfil-recon-cluster-september-2026.md#october-9-one-hundred-and-twenty-first-sweep) — the hundred-twenty-first sweep that captured this unpack
