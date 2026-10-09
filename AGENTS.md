@@ -40,6 +40,8 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 
 ## Cloudflare publishing
 
+- Before enabling Workers Builds, run the strict build against the current remote branch. On 2026-10-09, navigation referenced a GhostAction article absent from Git; remove dangling nav entries rather than fabricating missing source content. The removed entry remains recoverable in Git history.
+
 - The `threat-wiki` Worker publishes only the generated `site/` directory. Use `npm ci`, `npm run build`, `npm run deploy:check`, and `npm run test:hosting` before `npm run deploy`.
 - `requirements.lock` pins the complete Python renderer with hashes; Wrangler and Playwright are pinned in the npm lockfile. The build preserves the recents check and runs Python unit tests before strict MkDocs generation.
 - Keep `auto-trailing-slash`, `404-page`, the canonical `site_url`, existing page paths, search, manually maintained feed, and tag-index hook. Do not publish root `TODO.md` or `drafts/`.
