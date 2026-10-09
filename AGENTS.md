@@ -40,12 +40,14 @@ Follow the [Recurse.bot guide](https://recurse.bot/) approach: treat `AGENTS.md`
 
 ## Cloudflare publishing
 
-- Before enabling Workers Builds, run the strict build against the current remote branch. On 2026-10-09, navigation referenced a GhostAction article absent from Git; remove dangling nav entries rather than fabricating missing source content. The removed entry remains recoverable in Git history.
+- Run the strict build against the current remote branch before publishing. On 2026-10-09, navigation at `c6d23b8` referenced a GhostAction article absent from that commit; remove dangling nav entries rather than fabricating missing source content. The removed entry remains recoverable in Git history, and a later content update added the article source.
 
 - The `threat-wiki` Worker publishes only the generated `site/` directory. Use `npm ci`, `npm run build`, `npm run deploy:check`, and `npm run test:hosting` before `npm run deploy`.
 - `requirements.lock` pins the complete Python renderer with hashes; Wrangler and Playwright are pinned in the npm lockfile. The build preserves the recents check and runs Python unit tests before strict MkDocs generation.
 - Keep `auto-trailing-slash`, `404-page`, the canonical `site_url`, existing page paths, search, manually maintained feed, and tag-index hook. Do not publish root `TODO.md` or `drafts/`.
-- GitHub Actions validates only and retains build artifacts. Workers Builds is not connected yet; README documents manual deployment and the future GitHub app connection. Never overlap automatic and manual deploys.
+- Workers Builds was enabled on 2026-10-09 for `bastet-ai/threat-wiki` / `main`: build `npm run build`, deploy `npx wrangler deploy`, root `/`, included paths `*`, preview builds disabled. Cloudflare keeps the deployment credential; do not add Cloudflare secrets to GitHub. GitHub Actions validates only and retains build artifacts.
+- Normal publishing is a validated commit pushed to `main`. Wait for the Cloudflare build for that commit, then verify public HTTPS pages, directory URLs, search, feed, assets, and 404 handling. The first Git-triggered build and public verification are pending; record the result in `NOTES.md`.
+- Manual recovery requires pausing automatic builds and waiting for running builds to finish before deploying. Verify the recovered site before re-enabling builds; never overlap automatic and manual production deployments.
 - Preserve the existing GitHub Pages deployment for rollback. Domain changes must target only `threat.wiki`, leaving unrelated DNS records untouched.
 - The September 2026 migration attached `threat.wiki` in Wrangler after the workers.dev preview passed: 703 files uploaded, 653 directory pages retained, 12,836 search entries. The domain changeset added only this hostname and had no conflicting records. Browser/runtime and public HTTPS checks are required after later deployments too.
 - Worker logs and traces do not capture asset-only traffic; use Cloudflare HTTP analytics for those requests.

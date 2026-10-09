@@ -78,18 +78,32 @@ and build files are not published. This static site needs no runtime secrets or
 database. Wrangler enables Worker logs/traces, but asset-only requests bypass
 Worker execution; use Cloudflare HTTP analytics for site traffic.
 
-Workers Builds is not connected yet. After installing the Cloudflare GitHub app,
-connect `bastet-ai/threat-wiki` with production branch `main`, root directory `/`,
-build command `npm run build`, and deploy command `npm run deploy`. The checked-in
-`.node-version` and `.python-version` select the runtime versions. Do not overlap
-automatic deployments with manual ones once connected.
+Cloudflare [Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/)
+connects `bastet-ai/threat-wiki` to the `threat-wiki` Worker. Every push to `main`
+triggers Cloudflare to fetch, build, and deploy the repository with these settings:
 
-Until then, publish manually from an up-to-date `main` checkout after running the
-validation commands above:
+- Production branch: `main`
+- Build command: `npm run build`
+- Deploy command: `npx wrangler deploy`
+- Root directory: `/` (repository root)
+- Included paths: `*`
+- Preview builds: disabled
+- Node.js and Python versions: the checked-in `.node-version` and `.python-version`
+
+Cloudflare stores the deployment credential; no Cloudflare secrets are needed in
+GitHub. For a normal update, run the validation commands above, commit and push to
+`main`, then wait for the Cloudflare build for that commit and verify the public site.
+
+For a deliberate manual recovery, first pause automatic builds in Cloudflare and
+wait for any running build to finish. Use an up-to-date `main` checkout and run the
+validation commands above before deploying:
 
 ```bash
 npm run deploy
 ```
+
+Verify the recovered site before re-enabling automatic builds. Never overlap a
+manual production deployment with an automatic build.
 
 GitHub Actions validates and saves the site artifact only; it does not publish to
 GitHub Pages. The previous Pages deployment remains available for rollback.
